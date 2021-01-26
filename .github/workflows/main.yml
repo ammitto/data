@@ -1,8 +1,8 @@
-name: Update Data in every 5 mins
+name: Update Data in every 7 mins
 
 on:
   schedule:
-    - cron: "*/5 * * * *"
+    - cron:  '*/7 * * * *'
 
 jobs:
   update-data:
