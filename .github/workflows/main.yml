@@ -39,4 +39,5 @@ jobs:
       - name: Show Update Log
         shell: bash
         run: |
-          cat adapters/update.log
+          cd adapters
+          ruby adapter.rb
