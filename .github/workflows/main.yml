@@ -39,7 +39,7 @@ jobs:
       - name: Show Update Log
         shell: bash
         run: |
-          mv -r adapters /home/runner/work/data/
+          mv adapters /home/runner/work/data/
           cd /home/runner/work/data/adapters && ruby adapter.rb
           rm -rf /home/runner/work/data/adapters
       - name: Show Update Log
