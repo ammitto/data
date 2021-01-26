@@ -20,24 +20,23 @@ jobs:
         uses: actions/checkout@master
         with:
           repository: ammitto/adapters
-          path: adapters
-      - name: Checkout submodules
-        shell: bash
-        run: |
-          auth_header="$(git config --local --get http.https://github.com/.extraheader)"
-          git submodule sync --recursive
-          git -c "http.extraheader=$auth_header" -c protocol.version=2 submodule update --init --force --recursive --depth=1
-      - name: Use Ruby
-        uses: actions/setup-ruby@v1
-        with:
-          ruby-version: ${{ matrix.ruby }}
-      - name: Update gems
-        run: |
-          cd adapters
-          sudo gem install bundler --force
-          bundle install --jobs 4 --retry 3
+          path: '/'
+#      - name: Checkout submodules
+#        shell: bash
+#        run: |
+#          auth_header="$(git config --local --get http.https://github.com/.extraheader)"
+#          git submodule sync --recursive
+#          git -c "http.extraheader=$auth_header" -c protocol.version=2 submodule update --init --force --recursive --depth=1
+#      - name: Use Ruby
+#        uses: actions/setup-ruby@v1
+#        with:
+#          ruby-version: ${{ matrix.ruby }}
+#      - name: Update gems
+#        run: |
+#          cd adapters
+#          sudo gem install bundler --force
+#          bundle install --jobs 4 --retry 3
       - name: Show Update Log
         shell: bash
         run: |
-          cd adapters
-          ruby adapter.rb
+          ls
