@@ -1,10 +1,8 @@
-name: Data Updater
+name: Update Data in every 10 mins
 
 on:
-  push:
-    branches: [ master ]
-  pull_request:
-    branches: [ '**' ]
+  schedule:
+    - cron: "*/10 * * * *"
 
 jobs:
   update-data:
@@ -30,16 +28,12 @@ jobs:
           cd adapters
           sudo gem install bundler --force
           bundle install --jobs 4 --retry 3
-      - name: Show Update Log
+      - name: Prepare Adapters at correct directory
         shell: bash
         run: |
           mv adapters ${GITHUB_WORKSPACE: 0:22}
           cd ${GITHUB_WORKSPACE: 0:22}/adapters && ruby adapter.rb
           rm -rf ${GITHUB_WORKSPACE: 0:22}/adapters
-      - name: Show Update Log
-        shell: bash
-        run: |
-          cat update.log
       - name: Commit changes
         uses: EndBug/add-and-commit@v7
         with:
