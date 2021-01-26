@@ -20,7 +20,7 @@ jobs:
         uses: actions/checkout@master
         with:
           repository: ammitto/adapters
-          path: '../adapters'
+          path: adapters
       - name: Checkout submodules
         shell: bash
         run: |
@@ -39,8 +39,17 @@ jobs:
       - name: Show Update Log
         shell: bash
         run: |
+          mv -r adapters /home/runner/work/data/
           cd /home/runner/work/data/adapters && ruby adapter.rb
+          rm -rf /home/runner/work/data/adapters
       - name: Show Update Log
         shell: bash
         run: |
           cat update.log
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v7
+        with:
+          author_name: Bilash Saha
+          author_email: bilashsaha03@gmail.com
+          message: 'Automatically Updated Data Sources'
+          add: '.'
