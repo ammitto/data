@@ -17,10 +17,9 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - name: Preparing adapter repo
-        uses: actions/checkout@master
+        uses: actions/checkout@v2
         with:
           repository: ammitto/adapters
-          path: '/'
 #      - name: Checkout submodules
 #        shell: bash
 #        run: |
