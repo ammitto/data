@@ -1,8 +1,10 @@
 name: Update Data in every 5 mins
 
 on:
+  push:
+  pull_request:
   schedule:
-  - cron:  '*/5 * * * *'
+    - cron: '0 */4 * * *'
 
 jobs:
   update-data:
