@@ -1,0 +1,43 @@
+name: Update Data in every 5 mins
+
+on:
+  schedule:
+    - cron:  '*/5 * * * *'
+
+jobs:
+  update-data:
+    name: Updating data
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        ruby: [ '2.6' ]
+    steps:
+      - uses: actions/checkout@master
+      - name: Preparing adapter repo
+        uses: actions/checkout@master
+        with:
+          repository: ammitto/adapters
+          path: adapters
+      - name: Use Ruby
+        uses: actions/setup-ruby@v1
+        with:
+          ruby-version: ${{ matrix.ruby }}
+      - name: Update gems
+        run: |
+          cd adapters
+          sudo gem install bundler --force
+          bundle install --jobs 4 --retry 3
+      - name: Prepare Adapters at correct directory
+        shell: bash
+        run: |
+          mv adapters ${GITHUB_WORKSPACE: 0:22}
+          cd ${GITHUB_WORKSPACE: 0:22}/adapters && ruby adapter.rb
+          rm -rf ${GITHUB_WORKSPACE: 0:22}/adapters
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v7
+        with:
+          author_name: Bilash Saha
+          author_email: bilashsaha03@gmail.com
+          message: 'Automatically Updated Data Via Github Cron'
+          add: '.'
