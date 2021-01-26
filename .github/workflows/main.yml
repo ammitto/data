@@ -36,13 +36,7 @@ jobs:
           cd adapters
           sudo gem install bundler --force
           bundle install --jobs 4 --retry 3
-      - name: Run Adapter to fetch data
-        shell: bash
-        run: |
-          cd adapters
-          ls
-          ruby adapter.rb
       - name: Show Update Log
         shell: bash
         run: |
-          tail -100 adapters/update.log
+          cat adapters/update.log
