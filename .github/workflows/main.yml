@@ -41,3 +41,7 @@ jobs:
         run: |
           cp -r adapters /home/runner/work/data/
           cd /home/runner/work/data/adapters && ruby adapter.rb
+      - name: Show Update Log
+        shell: bash
+        run: |
+          cat update.log
