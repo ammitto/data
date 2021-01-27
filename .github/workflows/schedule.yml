@@ -1,10 +1,10 @@
-name: Update Data in every 4 hours
+name: Update Data Everyday
 
 on:
   push:
   pull_request:
   schedule:
-    - cron: '0 */4 * * *'
+    - cron: '0 0 * * *'
 
 jobs:
   update-data:
