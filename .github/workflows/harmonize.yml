@@ -1,0 +1,168 @@
+name: Harmonize Data
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Run daily at 9:00 AM UTC (after all fetches complete)
+    - cron: '0 9 * * *'
+  push:
+    branches: [main, master]
+    paths:
+      - '.github/workflows/harmonize.yml'
+
+jobs:
+  harmonize:
+    name: Harmonize source data to JSON-LD
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3'
+          bundler-cache: false
+
+      - name: Install ammitto gem from GitHub
+        run: |
+          gem install specific_install
+          gem specific_install https://github.com/ammitto/ammitto.git -b main
+
+      # Checkout all source repos
+      - name: Checkout data-uk
+        uses: actions/checkout@v4
+        with:
+          repository: ammitto/data-uk
+          path: sources/data-uk
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Checkout data-eu
+        uses: actions/checkout@v4
+        with:
+          repository: ammitto/data-eu
+          path: sources/data-eu
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Checkout data-un
+        uses: actions/checkout@v4
+        with:
+          repository: ammitto/data-un
+          path: sources/data-un
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Checkout data-us
+        uses: actions/checkout@v4
+        with:
+          repository: ammitto/data-us
+          path: sources/data-us
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Checkout data-wb
+        uses: actions/checkout@v4
+        with:
+          repository: ammitto/data-wb
+          path: sources/data-wb
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Checkout data-au
+        uses: actions/checkout@v4
+        with:
+          repository: ammitto/data-au
+          path: sources/data-au
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Checkout data-ca
+        uses: actions/checkout@v4
+        with:
+          repository: ammitto/data-ca
+          path: sources/data-ca
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Checkout data-ch
+        uses: actions/checkout@v4
+        with:
+          repository: ammitto/data-ch
+          path: sources/data-ch
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Checkout data-cn
+        uses: actions/checkout@v4
+        with:
+          repository: ammitto/data-cn
+          path: sources/data-cn
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Checkout data-ru
+        uses: actions/checkout@v4
+        with:
+          repository: ammitto/data-ru
+          path: sources/data-ru
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Harmonize data
+        run: |
+          # Create output directory structure
+          mkdir -p api/v1/sources
+          mkdir -p api/v1/schema
+
+          # Harmonize all sources with combined output
+          ammitto harmonize --all --sources-dir ./sources --output-dir ./api/v1 --combine --verbose
+
+      - name: Generate stats
+        run: |
+          # Generate stats.json with entity counts
+          ammitto stats --output ./api/v1/stats.json --verbose || true
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          if git diff --quiet && git diff --staged --quiet; then
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          else
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push changes
+        if: steps.check_changes.outputs.has_changes == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "chore: harmonize sanctions data ($(date +%Y-%m-%d))"
+          git push
+
+      - name: Trigger website deployment
+        if: steps.check_changes.outputs.has_changes == 'true'
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.DEPLOY_TOKEN }}
+          script: |
+            try {
+              await github.rest.actions.createWorkflowDispatch({
+                owner: 'ammitto',
+                repo: 'ammitto.github.io',
+                workflow_id: 'deploy.yml',
+                ref: 'main'
+              });
+            } catch (error) {
+              console.log('Could not trigger deployment: ' + error.message);
+            }
+
+      - name: Create issue on failure
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: 'Harmonization failed - ${{ github.run_id }}',
+              body: 'The harmonization workflow failed. See: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}',
+              labels: ['automation', 'harmonization']
+            })
