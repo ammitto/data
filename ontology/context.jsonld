@@ -1,0 +1,304 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@base": "https://www.ammitto.org/",
+    "@vocab": "https://www.ammitto.org/ontology/",
+
+    "ammitto": "https://www.ammitto.org/ontology/",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+
+    "Entity": {
+      "@id": "ammitto:Entity"
+    },
+    "PersonEntity": {
+      "@id": "ammitto:PersonEntity"
+    },
+    "OrganizationEntity": {
+      "@id": "ammitto:OrganizationEntity"
+    },
+    "VesselEntity": {
+      "@id": "ammitto:VesselEntity"
+    },
+    "AircraftEntity": {
+      "@id": "ammitto:AircraftEntity"
+    },
+    "SanctionEntry": {
+      "@id": "ammitto:SanctionEntry"
+    },
+    "Authority": {
+      "@id": "ammitto:Authority"
+    },
+    "SanctionRegime": {
+      "@id": "ammitto:SanctionRegime"
+    },
+    "SanctionEffect": {
+      "@id": "ammitto:SanctionEffect"
+    },
+    "TemporalPeriod": {
+      "@id": "ammitto:TemporalPeriod"
+    },
+    "NameVariant": {
+      "@id": "ammitto:NameVariant"
+    },
+    "Address": {
+      "@id": "ammitto:Address"
+    },
+    "BirthInfo": {
+      "@id": "ammitto:BirthInfo"
+    },
+    "Identification": {
+      "@id": "ammitto:Identification"
+    },
+    "SourceReference": {
+      "@id": "ammitto:SourceReference"
+    },
+    "EntityLink": {
+      "@id": "ammitto:EntityLink"
+    },
+    "RawSourceData": {
+      "@id": "ammitto:RawSourceData"
+    },
+
+    "id": "@id",
+    "type": "@type",
+
+    "entityType": {
+      "@id": "ammitto:entityType",
+      "@type": "xsd:string"
+    },
+    "names": {
+      "@id": "ammitto:hasName",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "sourceReferences": {
+      "@id": "ammitto:hasSourceReference",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "linkedEntities": {
+      "@id": "ammitto:hasLinkedEntity",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "sameAs": {
+      "@id": "owl:sameAs",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "remarks": {
+      "@id": "ammitto:remarks",
+      "@type": "xsd:string"
+    },
+
+    "fullName": {
+      "@id": "ammitto:fullName",
+      "@type": "xsd:string"
+    },
+    "firstName": {
+      "@id": "ammitto:firstName",
+      "@type": "xsd:string"
+    },
+    "middleName": {
+      "@id": "ammitto:middleName",
+      "@type": "xsd:string"
+    },
+    "lastName": {
+      "@id": "ammitto:lastName",
+      "@type": "xsd:string"
+    },
+    "script": {
+      "@id": "ammitto:script",
+      "@type": "xsd:string"
+    },
+    "isPrimary": {
+      "@id": "ammitto:isPrimary",
+      "@type": "xsd:boolean"
+    },
+
+    "sourceCode": {
+      "@id": "ammitto:sourceCode",
+      "@type": "xsd:string"
+    },
+    "referenceNumber": {
+      "@id": "ammitto:referenceNumber",
+      "@type": "xsd:string"
+    },
+    "fetchedAt": {
+      "@id": "ammitto:fetchedAt",
+      "@type": "xsd:dateTime"
+    },
+
+    "entityId": {
+      "@id": "ammitto:entityId",
+      "@type": "@id"
+    },
+    "authority": {
+      "@id": "ammitto:hasAuthority",
+      "@type": "@id"
+    },
+    "regime": {
+      "@id": "ammitto:hasRegime",
+      "@type": "@id"
+    },
+    "status": {
+      "@id": "ammitto:status",
+      "@type": "xsd:string"
+    },
+    "effects": {
+      "@id": "ammitto:hasEffect",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "period": {
+      "@id": "ammitto:hasPeriod",
+      "@type": "@id"
+    },
+    "reasons": {
+      "@id": "ammitto:hasReason",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "rawSourceData": {
+      "@id": "ammitto:hasRawSourceData",
+      "@type": "@id"
+    },
+
+    "name": {
+      "@id": "schema:name",
+      "@type": "xsd:string"
+    },
+    "countryCode": {
+      "@id": "ammitto:countryCode",
+      "@type": "xsd:string"
+    },
+    "code": {
+      "@id": "ammitto:code",
+      "@type": "xsd:string"
+    },
+    "description": {
+      "@id": "schema:description",
+      "@type": "xsd:string"
+    },
+
+    "effectType": {
+      "@id": "ammitto:effectType",
+      "@type": "xsd:string"
+    },
+    "scope": {
+      "@id": "ammitto:scope",
+      "@type": "xsd:string"
+    },
+
+    "listedDate": {
+      "@id": "ammitto:listedDate",
+      "@type": "xsd:date"
+    },
+    "effectiveDate": {
+      "@id": "ammitto:effectiveDate",
+      "@type": "xsd:date"
+    },
+    "expiryDate": {
+      "@id": "ammitto:expiryDate",
+      "@type": "xsd:date"
+    },
+    "isIndefinite": {
+      "@id": "ammitto:isIndefinite",
+      "@type": "xsd:boolean"
+    },
+    "lastUpdated": {
+      "@id": "ammitto:lastUpdated",
+      "@type": "xsd:dateTime"
+    },
+
+    "imoNumber": {
+      "@id": "ammitto:imoNumber",
+      "@type": "xsd:string"
+    },
+    "flagState": {
+      "@id": "ammitto:flagState",
+      "@type": "xsd:string"
+    },
+    "tonnage": {
+      "@id": "ammitto:tonnage",
+      "@type": "xsd:integer"
+    },
+
+    "street": {
+      "@id": "schema:streetAddress",
+      "@type": "xsd:string"
+    },
+    "city": {
+      "@id": "schema:addressLocality",
+      "@type": "xsd:string"
+    },
+    "state": {
+      "@id": "schema:addressRegion",
+      "@type": "xsd:string"
+    },
+    "country": {
+      "@id": "schema:addressCountry",
+      "@type": "xsd:string"
+    },
+    "postalCode": {
+      "@id": "schema:postalCode",
+      "@type": "xsd:string"
+    },
+
+    "date": {
+      "@id": "schema:birthDate",
+      "@type": "xsd:date"
+    },
+    "circa": {
+      "@id": "ammitto:circa",
+      "@type": "xsd:boolean"
+    },
+    "region": {
+      "@id": "ammitto:region",
+      "@type": "xsd:string"
+    },
+
+    "number": {
+      "@id": "ammitto:documentNumber",
+      "@type": "xsd:string"
+    },
+    "issuingCountry": {
+      "@id": "ammitto:issuingCountry",
+      "@type": "xsd:string"
+    },
+    "note": {
+      "@id": "ammitto:note",
+      "@type": "xsd:string"
+    },
+
+    "linkType": {
+      "@id": "ammitto:linkType",
+      "@type": "xsd:string"
+    },
+    "targetEntityId": {
+      "@id": "ammitto:targetEntityId",
+      "@type": "@id"
+    },
+
+    "sourceFile": {
+      "@id": "ammitto:sourceFile",
+      "@type": "xsd:string"
+    },
+    "sourceFormat": {
+      "@id": "ammitto:sourceFormat",
+      "@type": "xsd:string"
+    },
+    "rawContent": {
+      "@id": "ammitto:rawContent",
+      "@type": "xsd:string"
+    },
+    "sourceSpecificFields": {
+      "@id": "ammitto:sourceSpecificFields",
+      "@type": "@json"
+    }
+  }
+}

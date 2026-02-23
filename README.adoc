@@ -1,0 +1,171 @@
+= Ammitto Harmonized Sanctions Dataset
+
+image:https://img.shields.io/github/license/ammitto/data.svg[License]
+image:https://github.com/ammitto/data/actions/workflows/harmonize.yml/badge.svg["Harmonize Status", link="https://github.com/ammitto/data/actions/workflows/harmonize.yml"]
+
+== Purpose
+
+This repository contains the harmonized, deduplicated sanctions dataset that
+aggregates data from all Ammitto source repositories into a unified JSON-LD
+ontology.
+
+The data is maintained by the Ammitto project and served at www.ammitto.com.
+
+== Data Sources
+
+This harmonized dataset combines data from the following source repositories:
+
+[cols="1,1,3"]
+|===
+| Source | Code | Description
+
+| EU | `eu` | European Union Consolidated Sanctions List
+| UN | `un` | United Nations Security Council Consolidated List
+| US | `us` | United States OFAC SDN and Consolidated Lists
+| WB | `wb` | World Bank Debarment List
+| UK | `uk` | United Kingdom OFSI Consolidated List
+| AU | `au` | Australia DFAT Consolidated List
+| CA | `ca` | Canada GAC Autonomous Sanctions List
+| CH | `ch` | Switzerland SECO Sanctions Database
+| CN | `cn` | China MOFCOM/MFA Sanctions Lists
+| RU | `ru` | Russia MID/CBR Sanctions Lists
+| NZ | `nz` | New Zealand MFAT Russia Sanctions Register
+| TR | `tr` | Turkey HMB Asset Freezing Lists
+| EU Vessels | `eu_vessels` | EU Designated Vessels (via Denmark DMA)
+| UN Vessels | `un_vessels` | UN 1718 Committee Designated Vessels
+| JP | `jp` | Japan METI End-User List
+|===
+
+== Directory Structure
+
+```
+data/
+├── api/                    # API endpoint files (JSON-LD)
+│   └── v1/
+│       ├── entities/       # Individual entity files
+│       ├── entries/        # Individual sanction entry files
+│       ├── sources/        # Per-source aggregated files
+│       │   ├── eu.jsonld
+│       │   ├── un.jsonld
+│       │   └── ...
+│       └── all.jsonld      # Combined harmonized dataset
+├── ontology/               # JSON-LD ontology definition
+│   ├── context.jsonld      # JSON-LD context
+│   └── schema.jsonld       # Full schema definition
+├── downloaded/             # Legacy raw data files (deprecated)
+├── processed/              # Legacy processed files (deprecated)
+└── README.adoc             # This file
+```
+
+== Entity Types
+
+The harmonized ontology supports the following entity types:
+
+PersonEntity:: Individual persons subject to sanctions
+OrganizationEntity:: Legal entities, companies, and organizations
+VesselEntity:: Ships and maritime vessels
+AircraftEntity:: Aircraft subject to sanctions
+
+== Ontology Model
+
+The harmonized data follows an OOP, MECE ontology model implemented in the
+ammitto gem. See `lib/ammitto/ontology/` for the Ruby implementation.
+
+=== Class Hierarchy
+
+```
+Ontology
+├── Types (Enumerations)
+│   ├── EntityType (person, organization, vessel, aircraft)
+│   ├── IdentificationType (Passport, NationalID, TaxID, etc.)
+│   ├── SanctionEffectType (asset_freeze, travel_ban, etc.)
+│   └── LegalInstrumentType (regulation, decision, resolution)
+│
+├── Value Objects (Immutable)
+│   ├── NameVariant (full_name, first_name, last_name, script)
+│   ├── Address (street, city, region, country, postal_code)
+│   ├── Identification (type, number, issuing_country)
+│   ├── BirthInfo (date, circa, city, region, country)
+│   ├── LegalInstrument (type, identifier, title, url)
+│   ├── SanctionEffect (effect_type, scope, description)
+│   └── TemporalPeriod (listed_date, effective_date, expiry_date)
+│
+├── Entities (With Identity)
+│   ├── Entity (abstract base)
+│   ├── PersonEntity (names, birth_info, gender, nationalities)
+│   ├── OrganizationEntity (names, addresses, identifications)
+│   ├── VesselEntity (name, imo_number, flag_state, tonnage)
+│   └── AircraftEntity (name, serial_number, registration)
+│
+└── Sanction
+    ├── Authority (id, name, country_code, url)
+    ├── SanctionRegime (code, name, description)
+    ├── SanctionEntry (entity_id, authority, regime, effects, period)
+    └── StatusHistory (status, date, reason)
+```
+
+== JSON-LD Schema
+
+Each entity follows the Ammitto JSON-LD ontology with the following structure:
+
+[source,json]
+----
+{
+  "@context": "https://www.ammitto.org/ontology/context.jsonld",
+  "@id": "https://www.ammitto.org/entity/eu/XX-12345",
+  "@type": "PersonEntity",
+  "entityType": "person",
+  "names": [
+    {
+      "fullName": "John Doe",
+      "isPrimary": true
+    }
+  ],
+  "sourceReferences": [
+    {
+      "sourceCode": "eu",
+      "referenceNumber": "XX-12345"
+    }
+  ]
+}
+----
+
+== API Endpoints
+
+The harmonized dataset is available at:
+
+* **All entities**: `https://www.ammitto.org/api/v1/all.jsonld`
+* **By source**: `https://www.ammitto.org/api/v1/sources/{source}.jsonld`
+* **Individual entity**: `https://www.ammitto.org/api/v1/entities/{id}.jsonld`
+
+== Updating Data
+
+The harmonized dataset is automatically updated via GitHub Actions when
+source data repositories are updated.
+
+To manually update:
+
+[source,shell]
+----
+# From the ammitto gem directory
+bundle exec ruby exe/ammitto harmonize --all --output-dir /path/to/data/api/v1
+----
+
+== Deduplication
+
+The harmonization process includes deduplication logic that:
+
+1. Matches entities across sources using:
+   * IMO numbers (for vessels)
+   * Name + birth date combinations (for persons)
+   * Registration numbers (for organizations)
+2. Creates `sameAs` links between matched entities
+3. Preserves all source-specific sanction entries
+
+== License
+
+Data in this repository is aggregated from official government and
+international organization publications. Each source retains its
+original licensing terms.
+
+Repository structure and processing code are under the MIT License.
