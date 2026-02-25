@@ -105,6 +105,41 @@ jobs:
           path: sources/data-ru
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Checkout data-nz
+        uses: actions/checkout@v4
+        with:
+          repository: ammitto/data-nz
+          path: sources/data-nz
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Checkout data-tr
+        uses: actions/checkout@v4
+        with:
+          repository: ammitto/data-tr
+          path: sources/data-tr
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Checkout data-eu-vessels
+        uses: actions/checkout@v4
+        with:
+          repository: ammitto/data-eu-vessels
+          path: sources/data-eu-vessels
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Checkout data-un-vessels
+        uses: actions/checkout@v4
+        with:
+          repository: ammitto/data-un-vessels
+          path: sources/data-un-vessels
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Checkout data-jp
+        uses: actions/checkout@v4
+        with:
+          repository: ammitto/data-jp
+          path: sources/data-jp
+          token: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Harmonize data
         run: |
           # Create output directory structure
