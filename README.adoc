@@ -40,21 +40,49 @@ This harmonized dataset combines data from the following source repositories:
 
 ```
 data/
-├── api/                    # API endpoint files (JSON-LD)
-│   └── v1/
-│       ├── entities/       # Individual entity files
-│       ├── entries/        # Individual sanction entry files
-│       ├── sources/        # Per-source aggregated files
-│       │   ├── eu.jsonld
-│       │   ├── un.jsonld
-│       │   └── ...
-│       └── all.jsonld      # Combined harmonized dataset
-├── ontology/               # JSON-LD ontology definition
-│   ├── context.jsonld      # JSON-LD context
-│   └── schema.jsonld       # Full schema definition
-├── downloaded/             # Legacy raw data files (deprecated)
-├── processed/              # Legacy processed files (deprecated)
-└── README.adoc             # This file
+├── api/v1/
+│   ├── node/                    # Individual JSON-LD node files (knowledge graph)
+│   │   ├── entity/              # Entity nodes by source
+│   │   │   └── {source}/        # e.g., entity/un/KPi.066.jsonld
+│   │   ├── entry/               # Sanction entry nodes by source
+│   │   │   └── {source}/        # e.g., entry/un/KPi.066.jsonld
+│   │   ├── authority/           # Authority nodes (deduplicated)
+│   │   │   └── {code}.jsonld    # e.g., authority/un.jsonld
+│   │   ├── regime/              # Regime nodes (deduplicated)
+│   │   │   └── {code}.jsonld    # e.g., regime/dprk.jsonld
+│   │   └── instrument/          # Legal instrument nodes
+│   │       └── {source}/        # e.g., instrument/eu/CFSP-2022-123.jsonld
+│   │
+│   ├── by-authority/            # Entity IDs grouped by authority
+│   ├── by-regime/               # Entity IDs grouped by regime
+│   ├── by-status/               # Entity IDs grouped by status
+│   ├── by-type/                 # Entity IDs grouped by entity type
+│   │
+│   ├── ontology/                # Ontology browser data
+│   │   ├── classes.jsonld       # Class definitions
+│   │   ├── properties.jsonld    # Property definitions
+│   │   ├── hierarchy.json       # Class hierarchy tree
+│   │   └── examples/            # Example JSON-LD entities
+│   │
+│   ├── facets/                  # Filter facet counts
+│   │   ├── authorities.json     # Authority counts
+│   │   ├── regimes.json         # Regime counts
+│   │   ├── types.json           # Entity type counts
+│   │   ├── countries.json       # Country counts
+│   │   └── statuses.json        # Status counts
+│   │
+│   ├── sources/                 # Per-source aggregated files
+│   │   ├── eu.jsonld
+│   │   ├── un.jsonld
+│   │   └── ...
+│   │
+│   ├── search-index.json        # Lightweight search index (~8MB)
+│   ├── all.jsonld               # Complete knowledge graph (69MB)
+│   ├── all.ttl                  # Turtle/RDF format (52MB)
+│   ├── context.jsonld           # JSON-LD context
+│   └── stats.json               # Statistics and metadata
+│
+└── README.adoc                  # This file
 ```
 
 == Entity Types
@@ -134,9 +162,42 @@ Each entity follows the Ammitto JSON-LD ontology with the following structure:
 
 The harmonized dataset is available at:
 
-* **All entities**: `https://www.ammitto.org/api/v1/all.jsonld`
+=== Aggregated Files
+
+* **All entities**: `https://www.ammitto.org/api/v1/all.jsonld` (69MB JSON-LD)
+* **All entities (Turtle)**: `https://www.ammitto.org/api/v1/all.ttl` (52MB RDF)
 * **By source**: `https://www.ammitto.org/api/v1/sources/{source}.jsonld`
-* **Individual entity**: `https://www.ammitto.org/api/v1/entities/{id}.jsonld`
+
+=== Knowledge Graph Nodes
+
+* **Entity node**: `https://www.ammitto.org/api/v1/node/entity/{source}/{id}.jsonld`
+* **Entry node**: `https://www.ammitto.org/api/v1/node/entry/{source}/{id}.jsonld`
+* **Authority node**: `https://www.ammitto.org/api/v1/node/authority/{code}.jsonld`
+* **Regime node**: `https://www.ammitto.org/api/v1/node/regime/{code}.jsonld`
+
+=== Search and Facets
+
+* **Search index**: `https://www.ammitto.org/api/v1/search-index.json` (~8MB, 46K entities)
+* **Facets**: `https://www.ammitto.org/api/v1/facets/{facet}.json`
+  - `authorities.json` - Entity counts by authority
+  - `regimes.json` - Entity counts by regime
+  - `types.json` - Entity counts by type
+  - `countries.json` - Entity counts by country
+  - `statuses.json` - Entity counts by status
+
+=== Ontology Browser
+
+* **Classes**: `https://www.ammitto.org/api/v1/ontology/classes.jsonld`
+* **Properties**: `https://www.ammitto.org/api/v1/ontology/properties.jsonld`
+* **Hierarchy**: `https://www.ammitto.org/api/v1/ontology/hierarchy.json`
+* **Examples**: `https://www.ammitto.org/api/v1/ontology/examples/{type}.jsonld`
+
+=== Data Slices
+
+* **By authority**: `https://www.ammitto.org/api/v1/by-authority/{code}.json`
+* **By regime**: `https://www.ammitto.org/api/v1/by-regime/{code}.json`
+* **By type**: `https://www.ammitto.org/api/v1/by-type/{type}.json`
+* **By status**: `https://www.ammitto.org/api/v1/by-status/{status}.json`
 
 == Updating Data
 
@@ -148,7 +209,18 @@ To manually update:
 [source,shell]
 ----
 # From the ammitto gem directory
-bundle exec ruby exe/ammitto harmonize --all --output-dir /path/to/data/api/v1
+# Auto-detect and harmonize all data-* repositories
+bundle exec ruby exe/ammitto harmonize --scan \
+  --sources-dir /path/to/repos \
+  --output-dir /path/to/data/api/v1 \
+  --verbose
+
+# This generates:
+# - Individual node files in node/
+# - Search index (search-index.json)
+# - Facet counts (facets/*.json)
+# - Ontology data (ontology/)
+# - Aggregated files (all.jsonld, all.ttl)
 ----
 
 == Deduplication

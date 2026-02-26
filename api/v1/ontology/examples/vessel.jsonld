@@ -1,0 +1,23 @@
+{
+  "@context": "https://www.ammitto.org/ontology/context.jsonld",
+  "@id": "https://www.ammitto.org/entity/example/vessel",
+  "@type": "VesselEntity",
+  "entityType": "vessel",
+  "names": [
+    {
+      "@type": "Name",
+      "fullName": "EXAMPLE VESSEL",
+      "isPrimary": true
+    }
+  ],
+  "imo": "1234567",
+  "mmsi": "123456789",
+  "flag": "Example Flag State",
+  "tonnage": 50000,
+  "callSign": "ABCD1",
+  "hasSanctionEntry": [
+    {
+      "@id": "https://www.ammitto.org/entry/example/vessel"
+    }
+  ]
+}

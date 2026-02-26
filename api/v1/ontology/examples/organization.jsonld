@@ -1,0 +1,26 @@
+{
+  "@context": "https://www.ammitto.org/ontology/context.jsonld",
+  "@id": "https://www.ammitto.org/entity/example/organization",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
+  "names": [
+    {
+      "@type": "Name",
+      "fullName": "EXAMPLE CORPORATION LTD",
+      "isPrimary": true
+    }
+  ],
+  "addresses": [
+    {
+      "@type": "Address",
+      "street": "123 Example St",
+      "city": "Example City",
+      "countryCode": "XX"
+    }
+  ],
+  "hasSanctionEntry": [
+    {
+      "@id": "https://www.ammitto.org/entry/example/organization"
+    }
+  ]
+}

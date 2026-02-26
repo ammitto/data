@@ -1,0 +1,160 @@
+{
+  "@context": "https://www.ammitto.org/ontology/context.jsonld",
+  "@graph": [
+    {
+      "@id": "https://www.ammitto.org/ontology/Entity",
+      "@type": "rdfs:Class",
+      "label": "Entity",
+      "comment": "Base class for all sanctionable entities",
+      "properties": [
+        "https://www.ammitto.org/ontology/entityType",
+        "https://www.ammitto.org/ontology/names",
+        "https://www.ammitto.org/ontology/aliases",
+        "https://www.ammitto.org/ontology/hasSanctionEntry"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/PersonEntity",
+      "@type": "rdfs:Class",
+      "label": "Person Entity",
+      "comment": "A human individual subject to sanctions",
+      "subClassOf": "https://www.ammitto.org/ontology/Entity",
+      "properties": [
+        "https://www.ammitto.org/ontology/birthInfo",
+        "https://www.ammitto.org/ontology/nationalities",
+        "https://www.ammitto.org/ontology/documents",
+        "https://www.ammitto.org/ontology/gender"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/OrganizationEntity",
+      "@type": "rdfs:Class",
+      "label": "Organization Entity",
+      "comment": "A legal entity (company, government, etc.) subject to sanctions",
+      "subClassOf": "https://www.ammitto.org/ontology/Entity",
+      "properties": [
+        "https://www.ammitto.org/ontology/registration",
+        "https://www.ammitto.org/ontology/addresses",
+        "https://www.ammitto.org/ontology/businessType"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/VesselEntity",
+      "@type": "rdfs:Class",
+      "label": "Vessel Entity",
+      "comment": "A maritime vessel subject to sanctions",
+      "subClassOf": "https://www.ammitto.org/ontology/Entity",
+      "properties": [
+        "https://www.ammitto.org/ontology/imo",
+        "https://www.ammitto.org/ontology/mmsi",
+        "https://www.ammitto.org/ontology/flag",
+        "https://www.ammitto.org/ontology/tonnage",
+        "https://www.ammitto.org/ontology/callSign",
+        "https://www.ammitto.org/ontology/buildDate"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/AircraftEntity",
+      "@type": "rdfs:Class",
+      "label": "Aircraft Entity",
+      "comment": "An aircraft subject to sanctions",
+      "subClassOf": "https://www.ammitto.org/ontology/Entity",
+      "properties": [
+        "https://www.ammitto.org/ontology/registrationNumber",
+        "https://www.ammitto.org/ontology/manufacturer",
+        "https://www.ammitto.org/ontology/model",
+        "https://www.ammitto.org/ontology/serialNumber"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/SanctionEntry",
+      "@type": "rdfs:Class",
+      "label": "Sanction Entry",
+      "comment": "A sanction record linking an entity to its sanction details",
+      "properties": [
+        "https://www.ammitto.org/ontology/entityId",
+        "https://www.ammitto.org/ontology/authority",
+        "https://www.ammitto.org/ontology/regime",
+        "https://www.ammitto.org/ontology/legalBases",
+        "https://www.ammitto.org/ontology/status",
+        "https://www.ammitto.org/ontology/listingDate"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/Authority",
+      "@type": "rdfs:Class",
+      "label": "Authority",
+      "comment": "An issuing authority for sanctions (e.g., UN, EU, UK)",
+      "properties": [
+        "https://www.ammitto.org/ontology/name",
+        "https://www.ammitto.org/ontology/countryCode",
+        "https://www.ammitto.org/ontology/url"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/SanctionRegime",
+      "@type": "rdfs:Class",
+      "label": "Sanction Regime",
+      "comment": "A sanctions regime (e.g., DPRK, Iran, Terrorism)",
+      "properties": [
+        "https://www.ammitto.org/ontology/code",
+        "https://www.ammitto.org/ontology/name",
+        "https://www.ammitto.org/ontology/description"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/LegalInstrument",
+      "@type": "rdfs:Class",
+      "label": "Legal Instrument",
+      "comment": "A legal basis for sanctions (resolution, regulation, etc.)",
+      "properties": [
+        "https://www.ammitto.org/ontology/identifier",
+        "https://www.ammitto.org/ontology/title",
+        "https://www.ammitto.org/ontology/type",
+        "https://www.ammitto.org/ontology/publicationDate",
+        "https://www.ammitto.org/ontology/url"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/Name",
+      "@type": "rdfs:Class",
+      "label": "Name",
+      "comment": "A name variant for an entity",
+      "properties": [
+        "https://www.ammitto.org/ontology/fullName",
+        "https://www.ammitto.org/ontology/lastName",
+        "https://www.ammitto.org/ontology/firstName",
+        "https://www.ammitto.org/ontology/middleName",
+        "https://www.ammitto.org/ontology/isPrimary",
+        "https://www.ammitto.org/ontology/script"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/Address",
+      "@type": "rdfs:Class",
+      "label": "Address",
+      "comment": "A physical address",
+      "properties": [
+        "https://www.ammitto.org/ontology/street",
+        "https://www.ammitto.org/ontology/city",
+        "https://www.ammitto.org/ontology/state",
+        "https://www.ammitto.org/ontology/postalCode",
+        "https://www.ammitto.org/ontology/country",
+        "https://www.ammitto.org/ontology/countryCode"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/Identifier",
+      "@type": "rdfs:Class",
+      "label": "Identifier",
+      "comment": "An identifier document (passport, national ID, etc.)",
+      "properties": [
+        "https://www.ammitto.org/ontology/type",
+        "https://www.ammitto.org/ontology/value",
+        "https://www.ammitto.org/ontology/country",
+        "https://www.ammitto.org/ontology/issuer",
+        "https://www.ammitto.org/ontology/expiryDate"
+      ]
+    }
+  ]
+}

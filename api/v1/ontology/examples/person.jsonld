@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.ammitto.org/ontology/context.jsonld",
+  "@id": "https://www.ammitto.org/entity/example/person",
+  "@type": "PersonEntity",
+  "entityType": "person",
+  "names": [
+    {
+      "@type": "Name",
+      "fullName": "DOE, John",
+      "isPrimary": true
+    }
+  ],
+  "birthInfo": [
+    {
+      "@type": "BirthInfo",
+      "date": "1970-01-15",
+      "countryCode": "XX"
+    }
+  ],
+  "nationalities": [
+    {
+      "@type": "Nationality",
+      "countryCode": "XX"
+    }
+  ],
+  "hasSanctionEntry": [
+    {
+      "@id": "https://www.ammitto.org/entry/example/person"
+    }
+  ]
+}
