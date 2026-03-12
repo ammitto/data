@@ -1,0 +1,140 @@
+{
+  "@context": {
+    "@vocab": "https://www.ammitto.org/ontology/",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "Entity": "schema:Thing",
+    "Person": "schema:Person",
+    "Organization": "schema:Organization",
+    "Vessel": "schema:Vehicle",
+    "Aircraft": "schema:Vehicle",
+    "Name": "schema:Thing",
+    "Address": "schema:PostalAddress",
+    "Identifier": "schema:PropertyValue",
+    "Entry": "schema:Thing",
+    "Authority": "schema:Organization",
+    "Country": "schema:Country",
+    "Regime": "schema:Thing",
+    "Announcement": "schema:NewsArticle",
+    "LegalInstrument": "schema:Legislation",
+    "id": "@id",
+    "type": "@type",
+    "name": "schema:name",
+    "full_name": "schema:name",
+    "names": {
+      "@id": "hasName",
+      "@container": "@set"
+    },
+    "is_primary": "schema:isPrimary",
+    "street": "schema:streetAddress",
+    "city": "schema:addressLocality",
+    "state": "schema:addressRegion",
+    "postal_code": "schema:postalCode",
+    "country": "schema:addressCountry",
+    "addresses": {
+      "@id": "hasAddress",
+      "@container": "@set"
+    },
+    "identifier": "schema:identifier",
+    "identifiers": {
+      "@id": "hasIdentifier",
+      "@container": "@set"
+    },
+    "value": "schema:value",
+    "issue_date": {
+      "@id": "schema:dateIssued",
+      "@type": "xsd:date"
+    },
+    "expiry_date": {
+      "@id": "expiryDate",
+      "@type": "xsd:date"
+    },
+    "birth_date": {
+      "@id": "schema:birthDate",
+      "@type": "xsd:date"
+    },
+    "birth_place": "schema:birthPlace",
+    "death_date": {
+      "@id": "schema:deathDate",
+      "@type": "xsd:date"
+    },
+    "gender": "schema:gender",
+    "nationality": "schema:nationality",
+    "nationalities": {
+      "@id": "schema:nationality",
+      "@container": "@set"
+    },
+    "registration_number": "schema:taxID",
+    "incorporation_country": "schema:foundingLocation",
+    "website": "schema:url",
+    "imo_number": "schema:serialNumber",
+    "flag_state": "schema:flag",
+    "status": "schema:status",
+    "listed_date": {
+      "@id": "listedDate",
+      "@type": "xsd:date"
+    },
+    "delisted_date": {
+      "@id": "delistedDate",
+      "@type": "xsd:date"
+    },
+    "measures": "schema:description",
+    "remarks": "schema:description",
+    "entity": {
+      "@id": "forEntity",
+      "@type": "@id"
+    },
+    "authority": {
+      "@id": "listedBy",
+      "@type": "@id"
+    },
+    "regime": {
+      "@id": "underRegime",
+      "@type": "@id"
+    },
+    "announcement": {
+      "@id": "publishedIn",
+      "@type": "@id"
+    },
+    "source": "schema:sourceOrganization",
+    "reference_number": "schema:identifier",
+    "url": "schema:url"
+  },
+  "@id": "yem0009",
+  "@type": "Person",
+  "source": "uk",
+  "names": [
+    {
+      "name": "Yasser",
+      "is_primary": false
+    },
+    {
+      "name": "al Sha'ir",
+      "is_primary": false
+    },
+    {
+      "name": "al Shaer",
+      "is_primary": false
+    },
+    {
+      "name": "al Shaer",
+      "is_primary": false
+    },
+    {
+      "name": "al Shaer",
+      "is_primary": false
+    },
+    {
+      "name": "al Shae",
+      "is_primary": false
+    },
+    {
+      "name": "Al Shaer",
+      "is_primary": false
+    }
+  ],
+  "addresses": [],
+  "remarks": "With reference to the UN Panel of Experts’ Statement of Case of 28 August 2019, Saleh Mesfer Saleh Al Shaer has engaged in acts that threaten the peace, security, and stability of Yemen thereby meeting the criteria for designation as laid out in Paragraph 17 of Resolution 2140 (2014). Serving as the Houthis’ Assistant Minister of Defence for Logistics, Saleh Mesfer Saleh Al Shaer assisted the Houthis in acquiring smuggled arms and weapons. He is also listed in connection with his direct involvement since early 2018 in the widespread and unlawful appropriation of assets and entities owned by private individuals under arrest by the Houthis or forced to take refuge outside of Yemen, in his capacity as ‘Judicial Custodian’ and in violation of international humanitarian law. Al Shaer has used his authority and a Sana'a based network comprising members of his family, a special criminal court, the national security bureau, the central bank, the registrar services of the Yemeni Ministry of Trade and Industry, and some private banks in order to arbitrarily dispossess selected private individuals and entities of their wealth without any due judicial process or a possibility of redress."
+}

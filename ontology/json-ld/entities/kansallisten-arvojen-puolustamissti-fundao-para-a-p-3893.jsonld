@@ -1,0 +1,319 @@
+{
+  "@context": {
+    "@vocab": "https://www.ammitto.org/ontology/",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "Entity": "schema:Thing",
+    "Person": "schema:Person",
+    "Organization": "schema:Organization",
+    "Vessel": "schema:Vehicle",
+    "Aircraft": "schema:Vehicle",
+    "Name": "schema:Thing",
+    "Address": "schema:PostalAddress",
+    "Identifier": "schema:PropertyValue",
+    "Entry": "schema:Thing",
+    "Authority": "schema:Organization",
+    "Country": "schema:Country",
+    "Regime": "schema:Thing",
+    "Announcement": "schema:NewsArticle",
+    "LegalInstrument": "schema:Legislation",
+    "id": "@id",
+    "type": "@type",
+    "name": "schema:name",
+    "full_name": "schema:name",
+    "names": {
+      "@id": "hasName",
+      "@container": "@set"
+    },
+    "is_primary": "schema:isPrimary",
+    "street": "schema:streetAddress",
+    "city": "schema:addressLocality",
+    "state": "schema:addressRegion",
+    "postal_code": "schema:postalCode",
+    "country": "schema:addressCountry",
+    "addresses": {
+      "@id": "hasAddress",
+      "@container": "@set"
+    },
+    "identifier": "schema:identifier",
+    "identifiers": {
+      "@id": "hasIdentifier",
+      "@container": "@set"
+    },
+    "value": "schema:value",
+    "issue_date": {
+      "@id": "schema:dateIssued",
+      "@type": "xsd:date"
+    },
+    "expiry_date": {
+      "@id": "expiryDate",
+      "@type": "xsd:date"
+    },
+    "birth_date": {
+      "@id": "schema:birthDate",
+      "@type": "xsd:date"
+    },
+    "birth_place": "schema:birthPlace",
+    "death_date": {
+      "@id": "schema:deathDate",
+      "@type": "xsd:date"
+    },
+    "gender": "schema:gender",
+    "nationality": "schema:nationality",
+    "nationalities": {
+      "@id": "schema:nationality",
+      "@container": "@set"
+    },
+    "registration_number": "schema:taxID",
+    "incorporation_country": "schema:foundingLocation",
+    "website": "schema:url",
+    "imo_number": "schema:serialNumber",
+    "flag_state": "schema:flag",
+    "status": "schema:status",
+    "listed_date": {
+      "@id": "listedDate",
+      "@type": "xsd:date"
+    },
+    "delisted_date": {
+      "@id": "delistedDate",
+      "@type": "xsd:date"
+    },
+    "measures": "schema:description",
+    "remarks": "schema:description",
+    "entity": {
+      "@id": "forEntity",
+      "@type": "@id"
+    },
+    "authority": {
+      "@id": "listedBy",
+      "@type": "@id"
+    },
+    "regime": {
+      "@id": "underRegime",
+      "@type": "@id"
+    },
+    "announcement": {
+      "@id": "publishedIn",
+      "@type": "@id"
+    },
+    "source": "schema:sourceOrganization",
+    "reference_number": "schema:identifier",
+    "url": "schema:url"
+  },
+  "@id": "kansallisten-arvojen-puolustamissti-fundao-para-a-p-3893",
+  "@type": "Organization",
+  "source": "eu",
+  "names": [
+    {
+      "name": "Fondul pentru Apărarea Valorilor Naționale",
+      "is_primary": false
+    },
+    {
+      "name": "Fundația pentru Apărarea Valorilor Naționale",
+      "is_primary": false
+    },
+    {
+      "name": "Kansallisten arvojen puolustamissäätiö",
+      "is_primary": true
+    },
+    {
+      "name": "Fundação para a proteção dos valores nacionais",
+      "is_primary": false
+    },
+    {
+      "name": "organização para a proteção dos valores nacionais",
+      "is_primary": false
+    },
+    {
+      "name": "Fundação para a Defesa dos Valores Nacionais",
+      "is_primary": false
+    },
+    {
+      "name": "organizacija za zaščito nacionalnih vrednot",
+      "is_primary": false
+    },
+    {
+      "name": "Fundacija za zaščito nacionalnih vrednot",
+      "is_primary": false
+    },
+    {
+      "name": "Sklad za obrambo nacionalnih vrednot",
+      "is_primary": false
+    },
+    {
+      "name": "Fundacija za obrambo nacionalnih vrednot",
+      "is_primary": false
+    },
+    {
+      "name": "Nadácia na obranu národných hodnôt",
+      "is_primary": false
+    },
+    {
+      "name": "organisationen för skydd av nationella värden",
+      "is_primary": false
+    },
+    {
+      "name": "Stiftelsen för skydd av nationella värden",
+      "is_primary": false
+    },
+    {
+      "name": "Fonden för försvar av nationella värden",
+      "is_primary": false
+    },
+    {
+      "name": "Stiftelsen för försvar av nationella värden",
+      "is_primary": false
+    },
+    {
+      "name": "Fondation pour la défense des valeurs nationales",
+      "is_primary": false
+    },
+    {
+      "name": "Organization for the Protection of National Values",
+      "is_primary": false
+    },
+    {
+      "name": "Foundation for the Protection of National Values",
+      "is_primary": false
+    },
+    {
+      "name": "Fund for the Defence of National Values",
+      "is_primary": false
+    },
+    {
+      "name": "FDNV",
+      "is_primary": false
+    },
+    {
+      "name": "Foundation for the Defence of National Values",
+      "is_primary": false
+    },
+    {
+      "name": "Rahvuslike väärtuste säilitamise fond",
+      "is_primary": false
+    },
+    {
+      "name": "Stiftung für die Verteidigung der nationalen Werte",
+      "is_primary": false
+    },
+    {
+      "name": "организация за защита на националните ценности",
+      "is_primary": false
+    },
+    {
+      "name": "Фонд за защита на националните ценности",
+      "is_primary": false
+    },
+    {
+      "name": "Fondazione per la difesa dei valori nazionali",
+      "is_primary": false
+    },
+    {
+      "name": "Fundación para la Defensa de los Valores Nacionales",
+      "is_primary": false
+    },
+    {
+      "name": "Ίδρυμα για την Προάσπιση των Εθνικών Αξιών",
+      "is_primary": false
+    },
+    {
+      "name": "Nadace pro obranu národních hodnot",
+      "is_primary": false
+    },
+    {
+      "name": "Fond na obranu národných hodnôt",
+      "is_primary": false
+    },
+    {
+      "name": "Fundo para a Defesa dos Valores Nacionais",
+      "is_primary": false
+    },
+    {
+      "name": "Foundation for National Values protection",
+      "is_primary": false
+    },
+    {
+      "name": "FZNC",
+      "is_primary": false
+    },
+    {
+      "name": "FPNV",
+      "is_primary": false
+    },
+    {
+      "name": "Фондация за защита на националните ценности",
+      "is_primary": false
+    },
+    {
+      "name": "Fonds voor de verdediging van nationale waarden",
+      "is_primary": false
+    },
+    {
+      "name": "Stichting voor de verdediging van nationale waarden",
+      "is_primary": false
+    },
+    {
+      "name": "A Nemzeti Értékek Védelméért Alapítvány",
+      "is_primary": false
+    },
+    {
+      "name": "Nacionalinių vertybių apsaugos organizacija",
+      "is_primary": false
+    },
+    {
+      "name": "Nacionalinių vertybių apsaugos fondas",
+      "is_primary": false
+    },
+    {
+      "name": "Nacionalinių vertybių gynimo fondas",
+      "is_primary": false
+    },
+    {
+      "name": "Fondation pour la protection des valeurs nationales",
+      "is_primary": false
+    },
+    {
+      "name": "Organisation pour la protection des valeurs nationales",
+      "is_primary": false
+    },
+    {
+      "name": "Fonds pour la défense des valeurs nationales",
+      "is_primary": false
+    },
+    {
+      "name": "organizacja na rzecz Ochrony Wartości Narodowych",
+      "is_primary": false
+    },
+    {
+      "name": "Fundacja na rzecz Ochrony Wartości Narodowych",
+      "is_primary": false
+    },
+    {
+      "name": "Fundusz na rzecz Obrony Wartości Narodowych",
+      "is_primary": false
+    },
+    {
+      "name": "Fundacja na rzecz Obrony Wartości Narodowych",
+      "is_primary": false
+    },
+    {
+      "name": "organisatie voor de bescherming van nationale waarden",
+      "is_primary": false
+    },
+    {
+      "name": "Stichting voor de bescherming van nationale waarden",
+      "is_primary": false
+    },
+    {
+      "name": "Fundația pentru protecția Valorilor Naționale",
+      "is_primary": false
+    },
+    {
+      "name": "organizația pentru Protecția Valorilor Naționale",
+      "is_primary": false
+    }
+  ],
+  "addresses": []
+}

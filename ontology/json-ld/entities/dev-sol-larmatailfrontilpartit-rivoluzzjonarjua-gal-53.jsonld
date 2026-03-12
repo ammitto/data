@@ -1,0 +1,319 @@
+{
+  "@context": {
+    "@vocab": "https://www.ammitto.org/ontology/",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "Entity": "schema:Thing",
+    "Person": "schema:Person",
+    "Organization": "schema:Organization",
+    "Vessel": "schema:Vehicle",
+    "Aircraft": "schema:Vehicle",
+    "Name": "schema:Thing",
+    "Address": "schema:PostalAddress",
+    "Identifier": "schema:PropertyValue",
+    "Entry": "schema:Thing",
+    "Authority": "schema:Organization",
+    "Country": "schema:Country",
+    "Regime": "schema:Thing",
+    "Announcement": "schema:NewsArticle",
+    "LegalInstrument": "schema:Legislation",
+    "id": "@id",
+    "type": "@type",
+    "name": "schema:name",
+    "full_name": "schema:name",
+    "names": {
+      "@id": "hasName",
+      "@container": "@set"
+    },
+    "is_primary": "schema:isPrimary",
+    "street": "schema:streetAddress",
+    "city": "schema:addressLocality",
+    "state": "schema:addressRegion",
+    "postal_code": "schema:postalCode",
+    "country": "schema:addressCountry",
+    "addresses": {
+      "@id": "hasAddress",
+      "@container": "@set"
+    },
+    "identifier": "schema:identifier",
+    "identifiers": {
+      "@id": "hasIdentifier",
+      "@container": "@set"
+    },
+    "value": "schema:value",
+    "issue_date": {
+      "@id": "schema:dateIssued",
+      "@type": "xsd:date"
+    },
+    "expiry_date": {
+      "@id": "expiryDate",
+      "@type": "xsd:date"
+    },
+    "birth_date": {
+      "@id": "schema:birthDate",
+      "@type": "xsd:date"
+    },
+    "birth_place": "schema:birthPlace",
+    "death_date": {
+      "@id": "schema:deathDate",
+      "@type": "xsd:date"
+    },
+    "gender": "schema:gender",
+    "nationality": "schema:nationality",
+    "nationalities": {
+      "@id": "schema:nationality",
+      "@container": "@set"
+    },
+    "registration_number": "schema:taxID",
+    "incorporation_country": "schema:foundingLocation",
+    "website": "schema:url",
+    "imo_number": "schema:serialNumber",
+    "flag_state": "schema:flag",
+    "status": "schema:status",
+    "listed_date": {
+      "@id": "listedDate",
+      "@type": "xsd:date"
+    },
+    "delisted_date": {
+      "@id": "delistedDate",
+      "@type": "xsd:date"
+    },
+    "measures": "schema:description",
+    "remarks": "schema:description",
+    "entity": {
+      "@id": "forEntity",
+      "@type": "@id"
+    },
+    "authority": {
+      "@id": "listedBy",
+      "@type": "@id"
+    },
+    "regime": {
+      "@id": "underRegime",
+      "@type": "@id"
+    },
+    "announcement": {
+      "@id": "publishedIn",
+      "@type": "@id"
+    },
+    "source": "schema:sourceOrganization",
+    "reference_number": "schema:identifier",
+    "url": "schema:url"
+  },
+  "@id": "dev-sol-larmatailfrontilpartit-rivoluzzjonarjua-gal-53",
+  "@type": "Organization",
+  "source": "eu",
+  "names": [
+    {
+      "name": "Devrimci Halk Kurtuluş Partisi-Cephesi",
+      "is_primary": false
+    },
+    {
+      "name": "Armée/Front/Parti révolutionnaire populaire de libération",
+      "is_primary": false
+    },
+    {
+      "name": "Dev Sol",
+      "is_primary": true
+    },
+    {
+      "name": "L-Armata/Il-Front/Il-Partit Rivoluzzjonarju/a għal-Liberazzjoni tal-Poplu",
+      "is_primary": false
+    },
+    {
+      "name": "Gauche révolutionnaire",
+      "is_primary": false
+    },
+    {
+      "name": "Ejército/Frente/Partido Revolucionario de Liberación Popular",
+      "is_primary": false
+    },
+    {
+      "name": "Izquierda revolucionaria",
+      "is_primary": false
+    },
+    {
+      "name": "Επαναστατικός Λαϊκός Απελευθερωτικός Στρατός/Μέτωπο",
+      "is_primary": false
+    },
+    {
+      "name": "Επαναστατική Αριστερά",
+      "is_primary": false
+    },
+    {
+      "name": "Exército/Frente/Partido Revolucionário Popular de Libertação",
+      "is_primary": false
+    },
+    {
+      "name": "Esquerda Revolucionária",
+      "is_primary": false
+    },
+    {
+      "name": "Revolutionäre Volksbefreiungsarmee/-front/- partei",
+      "is_primary": false
+    },
+    {
+      "name": "Revolutionäre Linke",
+      "is_primary": false
+    },
+    {
+      "name": "Revolutionair Volksbevrijdingsleger/front/partij",
+      "is_primary": false
+    },
+    {
+      "name": "Revolutionair Links",
+      "is_primary": false
+    },
+    {
+      "name": "Esercito/Fronte/Partito rivoluzionario popolare di liberazione",
+      "is_primary": false
+    },
+    {
+      "name": "Sinistra rivoluzionaria",
+      "is_primary": false
+    },
+    {
+      "name": "Revoluční lidově osvobozenecká armáda/fronta/strana",
+      "is_primary": false
+    },
+    {
+      "name": "Revoluční levice",
+      "is_primary": false
+    },
+    {
+      "name": "Revolutsiooniline Rahva Vabastusarmee/ Rinne/Partei",
+      "is_primary": false
+    },
+    {
+      "name": "Revolutsioonilised Vasakpoolsed",
+      "is_primary": false
+    },
+    {
+      "name": "Forradalmi Népi Felszabadítási Hadsereg/Front/Párt",
+      "is_primary": false
+    },
+    {
+      "name": "Forradalmi Baloldal",
+      "is_primary": false
+    },
+    {
+      "name": "Revolucionārā Tautas atbrīvošanās armija/fronte/partija",
+      "is_primary": false
+    },
+    {
+      "name": "Revolutionary People's Liberation Army/Front/Party",
+      "is_primary": false
+    },
+    {
+      "name": "DHKP/C",
+      "is_primary": false
+    },
+    {
+      "name": "Devrimci Sol",
+      "is_primary": false
+    },
+    {
+      "name": "Revolutionary Left",
+      "is_primary": false
+    },
+    {
+      "name": "Xellug Rivoluzzjonarju",
+      "is_primary": false
+    },
+    {
+      "name": "An Eite Chlé Réabhlóideach",
+      "is_primary": false
+    },
+    {
+      "name": "Arm/Fronta/Páirtí Saortha Réabhlóidigh an Phobail",
+      "is_primary": false
+    },
+    {
+      "name": "Armata/Front/Partit Rivoluzzjonarju għall-Ħelsien tal-Poplu",
+      "is_primary": false
+    },
+    {
+      "name": "Folkets revolutionära befrielsefront/parti",
+      "is_primary": false
+    },
+    {
+      "name": "ix-Xellug Rivoluzzjonarju",
+      "is_primary": false
+    },
+    {
+      "name": "Narodna oslobodilačka revolucionarna vojska/fronta/stranka",
+      "is_primary": false
+    },
+    {
+      "name": "Revolucionarna ljevica",
+      "is_primary": false
+    },
+    {
+      "name": "Rewolucyjna Ludowa Partia/Front/Armia Wyzwolenia",
+      "is_primary": false
+    },
+    {
+      "name": "Vallankumouksellinen vasemmisto",
+      "is_primary": false
+    },
+    {
+      "name": "Επαναστατικός Λαϊκός Απελευθερωτικός Στρατός/Μέτωπο/Κόμμα",
+      "is_primary": false
+    },
+    {
+      "name": "Folkets Revolutionære Befrielseshær/Befrielsesfront/Parti",
+      "is_primary": false
+    },
+    {
+      "name": "revolucionāri kreisie",
+      "is_primary": false
+    },
+    {
+      "name": "Revoliucinė liaudies išlaisvinimo armija/frontas/partija",
+      "is_primary": false
+    },
+    {
+      "name": "Revoliucinė kairė",
+      "is_primary": false
+    },
+    {
+      "name": "Lewica Rewolucyjna",
+      "is_primary": false
+    },
+    {
+      "name": "Revolučná ľudová oslobodzovacia armáda/front/strana",
+      "is_primary": false
+    },
+    {
+      "name": "Revolučná ľavica",
+      "is_primary": false
+    },
+    {
+      "name": "Revolucionarna ljudska osvobodilna vojska/fronta/stranka",
+      "is_primary": false
+    },
+    {
+      "name": "Revolucionarna levica",
+      "is_primary": false
+    },
+    {
+      "name": "Революционна народоосвободителна армия/фронт/партия",
+      "is_primary": false
+    },
+    {
+      "name": "Революционна левица",
+      "is_primary": false
+    },
+    {
+      "name": "Armata/Frontul/Partidul de Eliberare Revoluționară Populară",
+      "is_primary": false
+    },
+    {
+      "name": "Stânga Revoluționară",
+      "is_primary": false
+    }
+  ],
+  "addresses": []
+}

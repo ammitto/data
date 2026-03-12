@@ -1,0 +1,219 @@
+{
+  "@context": {
+    "@vocab": "https://www.ammitto.org/ontology/",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "Entity": "schema:Thing",
+    "Person": "schema:Person",
+    "Organization": "schema:Organization",
+    "Vessel": "schema:Vehicle",
+    "Aircraft": "schema:Vehicle",
+    "Name": "schema:Thing",
+    "Address": "schema:PostalAddress",
+    "Identifier": "schema:PropertyValue",
+    "Entry": "schema:Thing",
+    "Authority": "schema:Organization",
+    "Country": "schema:Country",
+    "Regime": "schema:Thing",
+    "Announcement": "schema:NewsArticle",
+    "LegalInstrument": "schema:Legislation",
+    "id": "@id",
+    "type": "@type",
+    "name": "schema:name",
+    "full_name": "schema:name",
+    "names": {
+      "@id": "hasName",
+      "@container": "@set"
+    },
+    "is_primary": "schema:isPrimary",
+    "street": "schema:streetAddress",
+    "city": "schema:addressLocality",
+    "state": "schema:addressRegion",
+    "postal_code": "schema:postalCode",
+    "country": "schema:addressCountry",
+    "addresses": {
+      "@id": "hasAddress",
+      "@container": "@set"
+    },
+    "identifier": "schema:identifier",
+    "identifiers": {
+      "@id": "hasIdentifier",
+      "@container": "@set"
+    },
+    "value": "schema:value",
+    "issue_date": {
+      "@id": "schema:dateIssued",
+      "@type": "xsd:date"
+    },
+    "expiry_date": {
+      "@id": "expiryDate",
+      "@type": "xsd:date"
+    },
+    "birth_date": {
+      "@id": "schema:birthDate",
+      "@type": "xsd:date"
+    },
+    "birth_place": "schema:birthPlace",
+    "death_date": {
+      "@id": "schema:deathDate",
+      "@type": "xsd:date"
+    },
+    "gender": "schema:gender",
+    "nationality": "schema:nationality",
+    "nationalities": {
+      "@id": "schema:nationality",
+      "@container": "@set"
+    },
+    "registration_number": "schema:taxID",
+    "incorporation_country": "schema:foundingLocation",
+    "website": "schema:url",
+    "imo_number": "schema:serialNumber",
+    "flag_state": "schema:flag",
+    "status": "schema:status",
+    "listed_date": {
+      "@id": "listedDate",
+      "@type": "xsd:date"
+    },
+    "delisted_date": {
+      "@id": "delistedDate",
+      "@type": "xsd:date"
+    },
+    "measures": "schema:description",
+    "remarks": "schema:description",
+    "entity": {
+      "@id": "forEntity",
+      "@type": "@id"
+    },
+    "authority": {
+      "@id": "listedBy",
+      "@type": "@id"
+    },
+    "regime": {
+      "@id": "underRegime",
+      "@type": "@id"
+    },
+    "announcement": {
+      "@id": "publishedIn",
+      "@type": "@id"
+    },
+    "source": "schema:sourceOrganization",
+    "reference_number": "schema:identifier",
+    "url": "schema:url"
+  },
+  "@id": "alnusrah-front-for-the-people-of-the-levant-hayat-t-1115",
+  "@type": "Organization",
+  "source": "eu",
+  "names": [
+    {
+      "name": "the Victory Front",
+      "is_primary": false
+    },
+    {
+      "name": "Hay'et Tahrir al-Sham",
+      "is_primary": false
+    },
+    {
+      "name": "Hayat Tahrir al-Sham",
+      "is_primary": false
+    },
+    {
+      "name": "Assembly for the Liberation of Syria",
+      "is_primary": false
+    },
+    {
+      "name": "Assembly for the Liberation of the Levant",
+      "is_primary": false
+    },
+    {
+      "name": "Liberation of al-Sham Commission",
+      "is_primary": false
+    },
+    {
+      "name": "Liberation of the Levant Organisation Tahrir al-Sham",
+      "is_primary": false
+    },
+    {
+      "name": "Tahrir al-Sham Hay'at",
+      "is_primary": false
+    },
+    {
+      "name": "Jabhat Fath al Sham",
+      "is_primary": false
+    },
+    {
+      "name": "Jabhat Fath al-Sham",
+      "is_primary": false
+    },
+    {
+      "name": "Jabhat Fatah al-Sham",
+      "is_primary": false
+    },
+    {
+      "name": "Jabhat Fateh Al-Sham",
+      "is_primary": false
+    },
+    {
+      "name": "Fatah al-Sham Front",
+      "is_primary": false
+    },
+    {
+      "name": "Fateh al-Sham Front",
+      "is_primary": false
+    },
+    {
+      "name": "Conquest of the Levant Front",
+      "is_primary": false
+    },
+    {
+      "name": "The Front for the Liberation of al Sham",
+      "is_primary": false
+    },
+    {
+      "name": "Front for the Conquest of Syria/the Levant",
+      "is_primary": false
+    },
+    {
+      "name": "Front for the Liberation of the Levant",
+      "is_primary": false
+    },
+    {
+      "name": "Front for the Conquest of Syria",
+      "is_primary": false
+    },
+    {
+      "name": "Levantine Mujahideen on the Battlefields of Jihad",
+      "is_primary": false
+    },
+    {
+      "name": "Ansar al-Mujahideen Network",
+      "is_primary": false
+    },
+    {
+      "name": "Al-Nusra Front",
+      "is_primary": false
+    },
+    {
+      "name": "Al-Nusrah Front",
+      "is_primary": false
+    },
+    {
+      "name": "Jabhet al-Nusra",
+      "is_primary": false
+    },
+    {
+      "name": "Jabhat al-Nusrah",
+      "is_primary": false
+    },
+    {
+      "name": "Hay'at Tahrir al-Sham (HTS)",
+      "is_primary": false
+    },
+    {
+      "name": "Al-Nusrah Front for the People of the Levant",
+      "is_primary": true
+    }
+  ],
+  "addresses": []
+}

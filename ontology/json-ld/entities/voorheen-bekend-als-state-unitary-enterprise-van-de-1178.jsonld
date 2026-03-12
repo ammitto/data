@@ -1,0 +1,479 @@
+{
+  "@context": {
+    "@vocab": "https://www.ammitto.org/ontology/",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "Entity": "schema:Thing",
+    "Person": "schema:Person",
+    "Organization": "schema:Organization",
+    "Vessel": "schema:Vehicle",
+    "Aircraft": "schema:Vehicle",
+    "Name": "schema:Thing",
+    "Address": "schema:PostalAddress",
+    "Identifier": "schema:PropertyValue",
+    "Entry": "schema:Thing",
+    "Authority": "schema:Organization",
+    "Country": "schema:Country",
+    "Regime": "schema:Thing",
+    "Announcement": "schema:NewsArticle",
+    "LegalInstrument": "schema:Legislation",
+    "id": "@id",
+    "type": "@type",
+    "name": "schema:name",
+    "full_name": "schema:name",
+    "names": {
+      "@id": "hasName",
+      "@container": "@set"
+    },
+    "is_primary": "schema:isPrimary",
+    "street": "schema:streetAddress",
+    "city": "schema:addressLocality",
+    "state": "schema:addressRegion",
+    "postal_code": "schema:postalCode",
+    "country": "schema:addressCountry",
+    "addresses": {
+      "@id": "hasAddress",
+      "@container": "@set"
+    },
+    "identifier": "schema:identifier",
+    "identifiers": {
+      "@id": "hasIdentifier",
+      "@container": "@set"
+    },
+    "value": "schema:value",
+    "issue_date": {
+      "@id": "schema:dateIssued",
+      "@type": "xsd:date"
+    },
+    "expiry_date": {
+      "@id": "expiryDate",
+      "@type": "xsd:date"
+    },
+    "birth_date": {
+      "@id": "schema:birthDate",
+      "@type": "xsd:date"
+    },
+    "birth_place": "schema:birthPlace",
+    "death_date": {
+      "@id": "schema:deathDate",
+      "@type": "xsd:date"
+    },
+    "gender": "schema:gender",
+    "nationality": "schema:nationality",
+    "nationalities": {
+      "@id": "schema:nationality",
+      "@container": "@set"
+    },
+    "registration_number": "schema:taxID",
+    "incorporation_country": "schema:foundingLocation",
+    "website": "schema:url",
+    "imo_number": "schema:serialNumber",
+    "flag_state": "schema:flag",
+    "status": "schema:status",
+    "listed_date": {
+      "@id": "listedDate",
+      "@type": "xsd:date"
+    },
+    "delisted_date": {
+      "@id": "delistedDate",
+      "@type": "xsd:date"
+    },
+    "measures": "schema:description",
+    "remarks": "schema:description",
+    "entity": {
+      "@id": "forEntity",
+      "@type": "@id"
+    },
+    "authority": {
+      "@id": "listedBy",
+      "@type": "@id"
+    },
+    "regime": {
+      "@id": "underRegime",
+      "@type": "@id"
+    },
+    "announcement": {
+      "@id": "publishedIn",
+      "@type": "@id"
+    },
+    "source": "schema:sourceOrganization",
+    "reference_number": "schema:identifier",
+    "url": "schema:url"
+  },
+  "@id": "voorheen-bekend-als-state-unitary-enterprise-van-de-1178",
+  "@type": "Organization",
+  "source": "eu",
+  "names": [
+    {
+      "name": "Državni koncern „Nacionalna udruga proizvođača ‚Massandra’”",
+      "is_primary": false
+    },
+    {
+      "name": "Federal State Budgetary Enterprise “Production-Agrarian Union “Massandra”” van het kabinet van de president van de Russische Federatie",
+      "is_primary": false
+    },
+    {
+      "name": "Kumpannija b’ishma konġunti “Unjoni Agrarja tal-Produzzjoni “Massandra””",
+      "is_primary": false
+    },
+    {
+      "name": "qabel kienet magħrufa bħala Intrapriża Unitarja Statali tar-“Repubblika tal-Krimea”“Unjoni Agrarja tal-Produzzjoni “Massandra””",
+      "is_primary": false
+    },
+    {
+      "name": "Intrapriża Baġitarja tal-Istat Federali “Unjoni Agrarja tal-Produzzjoni “Massandra”\" tal-Amministrazzjoni tal-President tal-Federazzjoni Russa",
+      "is_primary": false
+    },
+    {
+      "name": "Entità statali “Assoċjazzjoni Nazzjonali ta’ produtturi “Massandra””",
+      "is_primary": false
+    },
+    {
+      "name": "„»Massandra« Mezőgazdasági Termelőszövetkezet” részvénytársaság",
+      "is_primary": false
+    },
+    {
+      "name": "korábbi elnevezése: „State Unitary Enterprise of the Republic of Crimea””Production-Agrarian Union »Massandra«” (a Krími Köztársaság „»Massandra« Mezőgazdasági Termelőszövetkezet” szövetségi állami vállalata",
+      "is_primary": false
+    },
+    {
+      "name": "Az Oroszországi Föderáció elnöki adminisztrációjának „»Massandra« Mezőgazdasági Termelőszövetkezet” szövetségi költségvetési vállalata",
+      "is_primary": false
+    },
+    {
+      "name": "„»Massandra« Nemzeti Termelőszövetkezet” állami konszern",
+      "is_primary": false
+    },
+    {
+      "name": "Akcinė bendrovė „Production-Agrarian Union „Massandra““",
+      "is_primary": false
+    },
+    {
+      "name": "anksčiau žinoma kaip „Krymo Respublikos“ valstybės unitarinė įmonė „Production-Agrarian Union „Massandra““",
+      "is_primary": false
+    },
+    {
+      "name": "Rusijos Federacijos prezidento administracijos federalinė valstybės biudžetinė įmonė „Production-Agrarian Union „Massandra““",
+      "is_primary": false
+    },
+    {
+      "name": "Valstybės koncernas „National Association of producers „Massandra““",
+      "is_primary": false
+    },
+    {
+      "name": "Akciju sabiedrība “Production-Agrarian Union “Massandra””",
+      "is_primary": false
+    },
+    {
+      "name": "agrākais nosaukums – “Krimas Republikas” valsts unitārs uzņēmums “Production-Agrarian Union “Massandra””",
+      "is_primary": false
+    },
+    {
+      "name": "Federāls Krievijas Federācijas prezidenta administrācijas valsts budžeta uzņēmums “Production-Agrarian Union “Massandra””",
+      "is_primary": false
+    },
+    {
+      "name": "Valsts koncerns “National Association of producers “Massandra””",
+      "is_primary": false
+    },
+    {
+      "name": "Joint-stock company “Unione dei produttori e agricoltori ‘Massandra’”",
+      "is_primary": false
+    },
+    {
+      "name": "già impresa unitaria statale della “Repubblica di Crimea”“Unione dei produttori e agricoltori ‘Massandra’”",
+      "is_primary": false
+    },
+    {
+      "name": "Federální státní rozpočtová organizace „Production-Agrarian Union ‚Massandra‘ “ při Úřadu prezidenta Ruské federace",
+      "is_primary": false
+    },
+    {
+      "name": "státní koncern „National Association of producers ‚Massandra‘ (Národní sdružení producentů ‚Massandra‘)“",
+      "is_primary": false
+    },
+    {
+      "name": "Sociedad anónima “Unión de Producción y Agraria ‘Massandra’”",
+      "is_primary": false
+    },
+    {
+      "name": "antes conocida como Empresa Unitaria Estatal de la “República de Crimea”“Unión de Producción y Agraria ‘Massandra’”",
+      "is_primary": false
+    },
+    {
+      "name": "Empresa del Presupuesto Estatal Federal “Unión de Producción y Agraria ‘Massandra’”, de la administración del presidente de la Federación de Rusia",
+      "is_primary": false
+    },
+    {
+      "name": "Empresa estatal “Asociación Nacional de Productores ‘Massandra’”",
+      "is_primary": false
+    },
+    {
+      "name": "Акционерно дружество „Производствено-аграрно обединение „Масандра“",
+      "is_primary": false
+    },
+    {
+      "name": "известно преди като Държавно единно предприятие на „Република Крим“ „Производствено-аграрно обединение „Масандра“",
+      "is_primary": false
+    },
+    {
+      "name": "Федерално държавно бюджетно предприятие „Производствено-аграрно обединение „Масандра“ на администрацията на президента на Руската федерация",
+      "is_primary": false
+    },
+    {
+      "name": "„Национално производствено-аграрно обединение „Масандра“",
+      "is_primary": false
+    },
+    {
+      "name": "Joint-stock company “Production-Agrarian Union ‘Massandra’”",
+      "is_primary": false
+    },
+    {
+      "name": "Aкционерное общество “Производственно-аграрное объединение ‘Массандра’”",
+      "is_primary": false
+    },
+    {
+      "name": "Nacionalnoye proizvodstvenno agrarnoye obyedinenye “Massandra”",
+      "is_primary": false
+    },
+    {
+      "name": "Национальное производственно аграрное объединение “Массандра”",
+      "is_primary": false
+    },
+    {
+      "name": "State concern “National Association of producers ‘Massandra’”",
+      "is_primary": false
+    },
+    {
+      "name": "State Unitary Enterprise of the “Republic of Crimea”“Production-Agrarian Union ‘Massandra’”",
+      "is_primary": false
+    },
+    {
+      "name": "Акционерно дружество „Производствено-аграрно обединение „Масандра“",
+      "is_primary": false
+    },
+    {
+      "name": "Impresa a partecipazione statale federale “Unione dei produttori e agricoltori ‘Massandra’” facente capo all’amministrazione del presidente della Federazione russa",
+      "is_primary": false
+    },
+    {
+      "name": "Consorzio statale “Associazione nazionale di produttori ‘Massandra’”",
+      "is_primary": false
+    },
+    {
+      "name": "Dioničko društvo „Proizvodno-poljoprivredna unija ‚Massandra’”",
+      "is_primary": false
+    },
+    {
+      "name": "ranije poznato kao državno unitarno poduzeće „Republike Krima”„Proizvodno-poljoprivredna unija ‚Massandra’”",
+      "is_primary": false
+    },
+    {
+      "name": "Federalno državno proračunsko poduzeće „Proizvodno-poljoprivredna unija ‚Massandra’” u okviru administracije predsjednika Ruske Federacije",
+      "is_primary": false
+    },
+    {
+      "name": "voorheen bekend als State Unitary Enterprise van de “Republiek Krim”“Production-Agrarian Union “Massandra””",
+      "is_primary": true
+    },
+    {
+      "name": "Koncern państwowy „Krajowe Stowarzyszenie Producentów »Massandra«”",
+      "is_primary": false
+    },
+    {
+      "name": "federalne państwowe przedsiębiorstwo budżetowe „Krajowe Stowarzyszenie Produkcyjno-Rolne »Massandra«” administracji prezydenta Federacji Rosyjskiej",
+      "is_primary": false
+    },
+    {
+      "name": "dawniej znane jako State Unitary Enterprise of the „Republic of Crimea”„Production-Agrarian Union »Massandra«” (jednolite przedsiębiorstwo państwowe Republiki Krymu „Stowarzyszenie Produkcyjno-Rolne »Massandra«”)",
+      "is_primary": false
+    },
+    {
+      "name": "Spółka akcyjna „Production-Agrarian Union »Massandra«” („Stowarzyszenie Produkcyjno-Rolne »Massandra«”)",
+      "is_primary": false
+    },
+    {
+      "name": "Empresa estatal “Associação Nacional de produtores ‘Massandra’”",
+      "is_primary": false
+    },
+    {
+      "name": "Empresa Orçamental do Estado Federal (Federal State Budgetary Enterprise) “União de Produção Agrária ‘Massandra’” da administração do presidente da Federação da Rússia",
+      "is_primary": false
+    },
+    {
+      "name": "anteriormente conhecida por Empresa Unitária Estatal da “República da Crimeia”, “União de Produção Agrária ‘Massandra’\"",
+      "is_primary": false
+    },
+    {
+      "name": "Sociedade por ações “União de Produção Agrária ‘Massandra’”",
+      "is_primary": false
+    },
+    {
+      "name": "Concernul de stat «Asociația națională de producători „Massandra”»",
+      "is_primary": false
+    },
+    {
+      "name": "Întreprinderea bugetară a statului federal «Uniunea de producție-agrară „Massandra”» a administrației președintelui Federației Ruse",
+      "is_primary": false
+    },
+    {
+      "name": "cunoscută anterior drept Întreprinderea unitară de stat a «Republicii Crimeea»«Uniunea de producție-agrară „Massandra”»",
+      "is_primary": false
+    },
+    {
+      "name": "Societatea pe acțiuni «Uniunea de producție-agrară „Massandra”»",
+      "is_primary": false
+    },
+    {
+      "name": "štátny koncern „Národné združenie výrobcov ‚Massandra‘“",
+      "is_primary": false
+    },
+    {
+      "name": "Štátny federálny rozpočtový podnik „Výrobno-agrárny zväz ‚Massandra‘“ kancelárie prezidenta Ruskej federácie",
+      "is_primary": false
+    },
+    {
+      "name": "predtým známa ako Štátny unitárny podnik „Krymskej republiky“„Výrobno-agrárny zväz ‚Massandra‘“",
+      "is_primary": false
+    },
+    {
+      "name": "Akciová spoločnosť „Výrobno-agrárny zväz ‚Massandra‘“",
+      "is_primary": false
+    },
+    {
+      "name": "Federal State Budgetary Enterprise ‘Production-Agrarian Union “Massandra”’ of the Administration of the President of the Russian Federation",
+      "is_primary": false
+    },
+    {
+      "name": "Федеральное государственное унитарное предприятие ‘Производственно-аграрное объединение “Массандра” Управления делами Президента Российской Федерации’",
+      "is_primary": false
+    },
+    {
+      "name": "Государственное унитарное предприятие Республики Крым “Производственно-аграрное объединение ‘Массандра’”",
+      "is_primary": false
+    },
+    {
+      "name": "državni koncern „Državno združenje proizvajalcev ‚Massandra‘“",
+      "is_primary": false
+    },
+    {
+      "name": "Zvezno proračunsko podjetje „Proizvodno-kmetijsko združenje ‚Massandra‘“ urada predsednika Ruske federacije",
+      "is_primary": false
+    },
+    {
+      "name": "prej imenovano državno unitarno podjetje „Republike Krim“„Proizvodno-kmetijsko združenje ‚Massandra“",
+      "is_primary": false
+    },
+    {
+      "name": "Delniška družba „Proizvodno-kmetijsko združenje ‚Massandra‘“",
+      "is_primary": false
+    },
+    {
+      "name": "Valtionkonserni \"Kansallinen maataloustuottajien organisaatio ’Massandra’\"",
+      "is_primary": false
+    },
+    {
+      "name": "Venäjän federaation presidentin hallintoon kuuluva liittovaltion rahoittama yritys \"Maataloustuottajien liitto ’Massandra’\"",
+      "is_primary": false
+    },
+    {
+      "name": "entinen \"Krimin tasavallan\" omistama valtion unitaarinen yritys \"Maataloustuottajien liitto ’Massandra’\"",
+      "is_primary": false
+    },
+    {
+      "name": "Osakeyhtiö \"Maataloustuottajien liitto ’Massandra’\"",
+      "is_primary": false
+    },
+    {
+      "name": "dříve známá jako Státní jednotný podnik „Republiky Krym“„Production-Agrarian Union ‚Massandra‘“",
+      "is_primary": false
+    },
+    {
+      "name": "Akciová společnost „Production-Agrarian Union ‚Massandra‘“",
+      "is_primary": false
+    },
+    {
+      "name": "Statsejet virksomhed »National Association of producers »Massandra««",
+      "is_primary": false
+    },
+    {
+      "name": "Den Russiske Føderations præsidents administrations føderale statsejede budgetvirksomhed »Production Agrarian Union »Massandra««",
+      "is_primary": false
+    },
+    {
+      "name": "tidligere kendt som »Republikken Krims« statsejede virksomhed »Production-Agrarian Union »Massandra««",
+      "is_primary": false
+    },
+    {
+      "name": "Aktieselskabet »Production-Agrarian Union »Massandra««",
+      "is_primary": false
+    },
+    {
+      "name": "Staatlicher Konzern ‚Nationale Erzeugervereinigung ‚Massandra‘‘",
+      "is_primary": false
+    },
+    {
+      "name": "Föderales staatseigenes Unternehmen ‚Landwirtschaftliche Produktionsvereinigung ‚Massandra‘‘ der Verwaltung des Präsidenten der Russischen Föderation",
+      "is_primary": false
+    },
+    {
+      "name": "vormals Staatliches Einheitsunternehmen der ‚Republik Krim‘‚Landwirtschaftliche Produktionsvereinigung ‚Massandra‘‘",
+      "is_primary": false
+    },
+    {
+      "name": "Aktiengesellschaft ‚Landwirtschaftliche Produktionsvereinigung ‚Massandra‘‘",
+      "is_primary": false
+    },
+    {
+      "name": "Varasema nimega State Unitary Enterprise of the „Republic of Crimea“„Production-Agrarian Union „Massandra““",
+      "is_primary": false
+    },
+    {
+      "name": "Κρατικών συμφερόντων “Εθνική Ένωση Παραγωγών ‘Massandra’”",
+      "is_primary": false
+    },
+    {
+      "name": "Ομοσπονδιακή κρατική επιχείρηση “Παραγωγική-Αγροτική Ένωση ‘Massandra’” του Γραφείου του Προέδρου της Ρωσικής Ομοσπονδίας",
+      "is_primary": false
+    },
+    {
+      "name": "παλαιότερα γνωστή ως κρατική ενιαία επιχείρηση της “Δημοκρατίας της Κριμαίας” με την επωνυμία “Παραγωγική-Αγροτική Ένωση ‘Massandra’”",
+      "is_primary": false
+    },
+    {
+      "name": "Ανώνυμη Εταιρεία “Παραγωγική-Αγροτική Ένωση ‘Massandra’”",
+      "is_primary": false
+    },
+    {
+      "name": "Entreprise publique “Association nationale de producteurs de ‘Massandra’”",
+      "is_primary": false
+    },
+    {
+      "name": "Entreprise budgétaire de l’État fédéral “Production-Agrarian Union ‘Massandra’” de l’administration du président de la Fédération de Russie",
+      "is_primary": false
+    },
+    {
+      "name": "anciennement connue sous le nom d’Entreprise unitaire d’État de la “République de Crimée”“Union de production agraire de ‘Massandra’”",
+      "is_primary": false
+    },
+    {
+      "name": "Société anonyme “Production-Agrarian Union ‘Massandra’” (“Union de production agraire de ‘Massandra’”)",
+      "is_primary": false
+    },
+    {
+      "name": "Gnóthas Stáit ‘National Association of producers ‘Massandra’",
+      "is_primary": false
+    },
+    {
+      "name": "State Unitary Enterprise of the ‘Republic of Crimea’ ‘Production-Agrarian Union ‘Massandra\" dá ngairtí tráth",
+      "is_primary": false
+    },
+    {
+      "name": "Cuideachta comhstoic ‘Production-Agrarian Union ‘Massandra’’",
+      "is_primary": false
+    }
+  ],
+  "addresses": []
+}

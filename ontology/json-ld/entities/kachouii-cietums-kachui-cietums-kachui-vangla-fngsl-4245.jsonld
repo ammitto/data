@@ -1,0 +1,379 @@
+{
+  "@context": {
+    "@vocab": "https://www.ammitto.org/ontology/",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "Entity": "schema:Thing",
+    "Person": "schema:Person",
+    "Organization": "schema:Organization",
+    "Vessel": "schema:Vehicle",
+    "Aircraft": "schema:Vehicle",
+    "Name": "schema:Thing",
+    "Address": "schema:PostalAddress",
+    "Identifier": "schema:PropertyValue",
+    "Entry": "schema:Thing",
+    "Authority": "schema:Organization",
+    "Country": "schema:Country",
+    "Regime": "schema:Thing",
+    "Announcement": "schema:NewsArticle",
+    "LegalInstrument": "schema:Legislation",
+    "id": "@id",
+    "type": "@type",
+    "name": "schema:name",
+    "full_name": "schema:name",
+    "names": {
+      "@id": "hasName",
+      "@container": "@set"
+    },
+    "is_primary": "schema:isPrimary",
+    "street": "schema:streetAddress",
+    "city": "schema:addressLocality",
+    "state": "schema:addressRegion",
+    "postal_code": "schema:postalCode",
+    "country": "schema:addressCountry",
+    "addresses": {
+      "@id": "hasAddress",
+      "@container": "@set"
+    },
+    "identifier": "schema:identifier",
+    "identifiers": {
+      "@id": "hasIdentifier",
+      "@container": "@set"
+    },
+    "value": "schema:value",
+    "issue_date": {
+      "@id": "schema:dateIssued",
+      "@type": "xsd:date"
+    },
+    "expiry_date": {
+      "@id": "expiryDate",
+      "@type": "xsd:date"
+    },
+    "birth_date": {
+      "@id": "schema:birthDate",
+      "@type": "xsd:date"
+    },
+    "birth_place": "schema:birthPlace",
+    "death_date": {
+      "@id": "schema:deathDate",
+      "@type": "xsd:date"
+    },
+    "gender": "schema:gender",
+    "nationality": "schema:nationality",
+    "nationalities": {
+      "@id": "schema:nationality",
+      "@container": "@set"
+    },
+    "registration_number": "schema:taxID",
+    "incorporation_country": "schema:foundingLocation",
+    "website": "schema:url",
+    "imo_number": "schema:serialNumber",
+    "flag_state": "schema:flag",
+    "status": "schema:status",
+    "listed_date": {
+      "@id": "listedDate",
+      "@type": "xsd:date"
+    },
+    "delisted_date": {
+      "@id": "delistedDate",
+      "@type": "xsd:date"
+    },
+    "measures": "schema:description",
+    "remarks": "schema:description",
+    "entity": {
+      "@id": "forEntity",
+      "@type": "@id"
+    },
+    "authority": {
+      "@id": "listedBy",
+      "@type": "@id"
+    },
+    "regime": {
+      "@id": "underRegime",
+      "@type": "@id"
+    },
+    "announcement": {
+      "@id": "publishedIn",
+      "@type": "@id"
+    },
+    "source": "schema:sourceOrganization",
+    "reference_number": "schema:identifier",
+    "url": "schema:url"
+  },
+  "@id": "kachouii-cietums-kachui-cietums-kachui-vangla-fngsl-4245",
+  "@type": "Organization",
+  "source": "eu",
+  "names": [
+    {
+      "name": "Věznice Kachui",
+      "is_primary": false
+    },
+    {
+      "name": "Kechoui cietums",
+      "is_primary": false
+    },
+    {
+      "name": "Kachuyi cietums",
+      "is_primary": false
+    },
+    {
+      "name": "Fardis cietums",
+      "is_primary": false
+    },
+    {
+      "name": "Kachui kalėjimas",
+      "is_primary": false
+    },
+    {
+      "name": "Príosún Kachui",
+      "is_primary": false
+    },
+    {
+      "name": "Príosún Kachouii",
+      "is_primary": false
+    },
+    {
+      "name": "Príosún Kechoui",
+      "is_primary": false
+    },
+    {
+      "name": "Príosún Kachuyi",
+      "is_primary": false
+    },
+    {
+      "name": "Príosún Fardis",
+      "is_primary": false
+    },
+    {
+      "name": "Kachui-vankila",
+      "is_primary": false
+    },
+    {
+      "name": "Väznica Kachui",
+      "is_primary": false
+    },
+    {
+      "name": "zatvor Kachui",
+      "is_primary": false
+    },
+    {
+      "name": "zatvor Kachouii",
+      "is_primary": false
+    },
+    {
+      "name": "zatvor Kechoui",
+      "is_primary": false
+    },
+    {
+      "name": "zatvor Kachuyi",
+      "is_primary": false
+    },
+    {
+      "name": "zatvor Fardis",
+      "is_primary": false
+    },
+    {
+      "name": "Kachouii cietums",
+      "is_primary": true
+    },
+    {
+      "name": "Kachui cietums",
+      "is_primary": false
+    },
+    {
+      "name": "Kachui vangla",
+      "is_primary": false
+    },
+    {
+      "name": "fængslet i Fardis",
+      "is_primary": false
+    },
+    {
+      "name": "fængslet i Kachuyi",
+      "is_primary": false
+    },
+    {
+      "name": "fængslet i Kechoui",
+      "is_primary": false
+    },
+    {
+      "name": "fængslet i Kachouii",
+      "is_primary": false
+    },
+    {
+      "name": "Fængslet i Kachui",
+      "is_primary": false
+    },
+    {
+      "name": "închisoarea Kachui",
+      "is_primary": false
+    },
+    {
+      "name": "Fardis börtön",
+      "is_primary": false
+    },
+    {
+      "name": "Kachuyi börtön",
+      "is_primary": false
+    },
+    {
+      "name": "Kechoui börtön",
+      "is_primary": false
+    },
+    {
+      "name": "Kachuii börtön",
+      "is_primary": false
+    },
+    {
+      "name": "Kachui börtön",
+      "is_primary": false
+    },
+    {
+      "name": "Φυλακές Kachuyi",
+      "is_primary": false
+    },
+    {
+      "name": "Φυλακές Kechoui",
+      "is_primary": false
+    },
+    {
+      "name": "Φυλακές Kachouii",
+      "is_primary": false
+    },
+    {
+      "name": "Φυλακές Kachui",
+      "is_primary": false
+    },
+    {
+      "name": "prisión de Kachui",
+      "is_primary": false
+    },
+    {
+      "name": "Penitenciária de Fardis",
+      "is_primary": false
+    },
+    {
+      "name": "Penitenciária de Kachuyi",
+      "is_primary": false
+    },
+    {
+      "name": "Penitenciária de Kechoui",
+      "is_primary": false
+    },
+    {
+      "name": "Penitenciária de Kachouii",
+      "is_primary": false
+    },
+    {
+      "name": "Penitenciária de Kachui",
+      "is_primary": false
+    },
+    {
+      "name": "Φυλακές Fardis",
+      "is_primary": false
+    },
+    {
+      "name": "prison de Fardis",
+      "is_primary": false
+    },
+    {
+      "name": "prison de Kachuyi",
+      "is_primary": false
+    },
+    {
+      "name": "prison de Kechoui",
+      "is_primary": false
+    },
+    {
+      "name": "prison de Kachouii",
+      "is_primary": false
+    },
+    {
+      "name": "Prison de Kachui",
+      "is_primary": false
+    },
+    {
+      "name": "więzienie Fardis",
+      "is_primary": false
+    },
+    {
+      "name": "więzienie Kachuyi",
+      "is_primary": false
+    },
+    {
+      "name": "więzienie Kechoui",
+      "is_primary": false
+    },
+    {
+      "name": "więzienie Kachouii",
+      "is_primary": false
+    },
+    {
+      "name": "Więzienie Kachui",
+      "is_primary": false
+    },
+    {
+      "name": "Kachuigevangenis",
+      "is_primary": false
+    },
+    {
+      "name": "Fardis-fängelset",
+      "is_primary": false
+    },
+    {
+      "name": "Kachui-fängelset",
+      "is_primary": false
+    },
+    {
+      "name": "Затворът Kachui",
+      "is_primary": false
+    },
+    {
+      "name": "Fardis Prison",
+      "is_primary": false
+    },
+    {
+      "name": "Kachuyi Prison",
+      "is_primary": false
+    },
+    {
+      "name": "Kechoui Prison",
+      "is_primary": false
+    },
+    {
+      "name": "Kachouii Prison",
+      "is_primary": false
+    },
+    {
+      "name": "Kachui Prison",
+      "is_primary": false
+    },
+    {
+      "name": "Gefängnis Fardis",
+      "is_primary": false
+    },
+    {
+      "name": "Gefängnis Kachuyi",
+      "is_primary": false
+    },
+    {
+      "name": "Gefängnis Kechoui",
+      "is_primary": false
+    },
+    {
+      "name": "Gefängnis Kachouii",
+      "is_primary": false
+    },
+    {
+      "name": "Gefängnis Kachui",
+      "is_primary": false
+    },
+    {
+      "name": "prigione di Kachui",
+      "is_primary": false
+    }
+  ],
+  "addresses": []
+}

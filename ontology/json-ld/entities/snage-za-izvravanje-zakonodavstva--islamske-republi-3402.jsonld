@@ -1,0 +1,223 @@
+{
+  "@context": {
+    "@vocab": "https://www.ammitto.org/ontology/",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "Entity": "schema:Thing",
+    "Person": "schema:Person",
+    "Organization": "schema:Organization",
+    "Vessel": "schema:Vehicle",
+    "Aircraft": "schema:Vehicle",
+    "Name": "schema:Thing",
+    "Address": "schema:PostalAddress",
+    "Identifier": "schema:PropertyValue",
+    "Entry": "schema:Thing",
+    "Authority": "schema:Organization",
+    "Country": "schema:Country",
+    "Regime": "schema:Thing",
+    "Announcement": "schema:NewsArticle",
+    "LegalInstrument": "schema:Legislation",
+    "id": "@id",
+    "type": "@type",
+    "name": "schema:name",
+    "full_name": "schema:name",
+    "names": {
+      "@id": "hasName",
+      "@container": "@set"
+    },
+    "is_primary": "schema:isPrimary",
+    "street": "schema:streetAddress",
+    "city": "schema:addressLocality",
+    "state": "schema:addressRegion",
+    "postal_code": "schema:postalCode",
+    "country": "schema:addressCountry",
+    "addresses": {
+      "@id": "hasAddress",
+      "@container": "@set"
+    },
+    "identifier": "schema:identifier",
+    "identifiers": {
+      "@id": "hasIdentifier",
+      "@container": "@set"
+    },
+    "value": "schema:value",
+    "issue_date": {
+      "@id": "schema:dateIssued",
+      "@type": "xsd:date"
+    },
+    "expiry_date": {
+      "@id": "expiryDate",
+      "@type": "xsd:date"
+    },
+    "birth_date": {
+      "@id": "schema:birthDate",
+      "@type": "xsd:date"
+    },
+    "birth_place": "schema:birthPlace",
+    "death_date": {
+      "@id": "schema:deathDate",
+      "@type": "xsd:date"
+    },
+    "gender": "schema:gender",
+    "nationality": "schema:nationality",
+    "nationalities": {
+      "@id": "schema:nationality",
+      "@container": "@set"
+    },
+    "registration_number": "schema:taxID",
+    "incorporation_country": "schema:foundingLocation",
+    "website": "schema:url",
+    "imo_number": "schema:serialNumber",
+    "flag_state": "schema:flag",
+    "status": "schema:status",
+    "listed_date": {
+      "@id": "listedDate",
+      "@type": "xsd:date"
+    },
+    "delisted_date": {
+      "@id": "delistedDate",
+      "@type": "xsd:date"
+    },
+    "measures": "schema:description",
+    "remarks": "schema:description",
+    "entity": {
+      "@id": "forEntity",
+      "@type": "@id"
+    },
+    "authority": {
+      "@id": "listedBy",
+      "@type": "@id"
+    },
+    "regime": {
+      "@id": "underRegime",
+      "@type": "@id"
+    },
+    "announcement": {
+      "@id": "publishedIn",
+      "@type": "@id"
+    },
+    "source": "schema:sourceOrganization",
+    "reference_number": "schema:identifier",
+    "url": "schema:url"
+  },
+  "@id": "snage-za-izvravanje-zakonodavstva--islamske-republi-3402",
+  "@type": "Organization",
+  "source": "eu",
+  "names": [
+    {
+      "name": "Sily presadzovania práva Iránskej  islamskej republiky",
+      "is_primary": false
+    },
+    {
+      "name": "Irano  Islamo Respublikos teisėsaugos  pajėgos",
+      "is_primary": false
+    },
+    {
+      "name": "Sile pregona Islamske republike Iran",
+      "is_primary": false
+    },
+    {
+      "name": "Law Enforcement Forces of the Islamic Republic of Iran",
+      "is_primary": false
+    },
+    {
+      "name": "LEF",
+      "is_primary": false
+    },
+    {
+      "name": "NAJA",
+      "is_primary": false
+    },
+    {
+      "name": "FARAJA",
+      "is_primary": false
+    },
+    {
+      "name": "فرماندهی انتظامی جمهوری اسلامی ایران",
+      "is_primary": false
+    },
+    {
+      "name": "Islamiska republiken Irans  brottsbekämpande styrkor",
+      "is_primary": false
+    },
+    {
+      "name": "Wetshandhavingsdiensten van de  Islamitische Republiek Iran",
+      "is_primary": false
+    },
+    {
+      "name": "Iranische Strafverfolgungskräfte",
+      "is_primary": false
+    },
+    {
+      "name": "Δυνάμεις  Επιβολής του Νόμου της Ισλαμικής  Δημοκρατίας του Ιράν",
+      "is_primary": false
+    },
+    {
+      "name": "правоохранителни сили на Ислямска република Иран",
+      "is_primary": false
+    },
+    {
+      "name": "Forzi tal-Infurzar tal-Liġi tar-Repubblika Iżlamika tal-Iran",
+      "is_primary": false
+    },
+    {
+      "name": "Forțele de  aplicare a legii ale Republicii Islamice  Iran",
+      "is_primary": false
+    },
+    {
+      "name": "Forze dell’ordine della Repubblica  islamica dell’Iran",
+      "is_primary": false
+    },
+    {
+      "name": "Forças Policiais da República  Islâmica do Irão",
+      "is_primary": false
+    },
+    {
+      "name": "Fuerza Disciplinaria de la República  Islámica de Irán",
+      "is_primary": false
+    },
+    {
+      "name": "Forces de l’ordre de la République  islamique d’Iran",
+      "is_primary": false
+    },
+    {
+      "name": "Fórsaí  Forfheidhmithe Dlí Phoblacht  Ioslamach na hIaráine",
+      "is_primary": false
+    },
+    {
+      "name": "Donucovací orgány Íránské islámské republiky",
+      "is_primary": false
+    },
+    {
+      "name": "Irańskie  Organy Ochrony Porządku  Publicznego",
+      "is_primary": false
+    },
+    {
+      "name": "Az Iráni Iszlám  Köztársaság  Bűnüldöző Erői",
+      "is_primary": false
+    },
+    {
+      "name": "Iranin islamilaisen tasavallan lainvalvontajoukot",
+      "is_primary": false
+    },
+    {
+      "name": "Den Islamiske Republik Irans  retshåndhævende styrker",
+      "is_primary": false
+    },
+    {
+      "name": "Iraani Islamivabariigi  õiguskaitsejõud",
+      "is_primary": false
+    },
+    {
+      "name": "Irānas Islāma Republikas  tiesībaizsardzības spēki",
+      "is_primary": false
+    },
+    {
+      "name": "Snage za izvršavanje zakonodavstva  Islamske Republike Irana",
+      "is_primary": true
+    }
+  ],
+  "addresses": []
+}

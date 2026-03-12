@@ -1,0 +1,279 @@
+{
+  "@context": {
+    "@vocab": "https://www.ammitto.org/ontology/",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "Entity": "schema:Thing",
+    "Person": "schema:Person",
+    "Organization": "schema:Organization",
+    "Vessel": "schema:Vehicle",
+    "Aircraft": "schema:Vehicle",
+    "Name": "schema:Thing",
+    "Address": "schema:PostalAddress",
+    "Identifier": "schema:PropertyValue",
+    "Entry": "schema:Thing",
+    "Authority": "schema:Organization",
+    "Country": "schema:Country",
+    "Regime": "schema:Thing",
+    "Announcement": "schema:NewsArticle",
+    "LegalInstrument": "schema:Legislation",
+    "id": "@id",
+    "type": "@type",
+    "name": "schema:name",
+    "full_name": "schema:name",
+    "names": {
+      "@id": "hasName",
+      "@container": "@set"
+    },
+    "is_primary": "schema:isPrimary",
+    "street": "schema:streetAddress",
+    "city": "schema:addressLocality",
+    "state": "schema:addressRegion",
+    "postal_code": "schema:postalCode",
+    "country": "schema:addressCountry",
+    "addresses": {
+      "@id": "hasAddress",
+      "@container": "@set"
+    },
+    "identifier": "schema:identifier",
+    "identifiers": {
+      "@id": "hasIdentifier",
+      "@container": "@set"
+    },
+    "value": "schema:value",
+    "issue_date": {
+      "@id": "schema:dateIssued",
+      "@type": "xsd:date"
+    },
+    "expiry_date": {
+      "@id": "expiryDate",
+      "@type": "xsd:date"
+    },
+    "birth_date": {
+      "@id": "schema:birthDate",
+      "@type": "xsd:date"
+    },
+    "birth_place": "schema:birthPlace",
+    "death_date": {
+      "@id": "schema:deathDate",
+      "@type": "xsd:date"
+    },
+    "gender": "schema:gender",
+    "nationality": "schema:nationality",
+    "nationalities": {
+      "@id": "schema:nationality",
+      "@container": "@set"
+    },
+    "registration_number": "schema:taxID",
+    "incorporation_country": "schema:foundingLocation",
+    "website": "schema:url",
+    "imo_number": "schema:serialNumber",
+    "flag_state": "schema:flag",
+    "status": "schema:status",
+    "listed_date": {
+      "@id": "listedDate",
+      "@type": "xsd:date"
+    },
+    "delisted_date": {
+      "@id": "delistedDate",
+      "@type": "xsd:date"
+    },
+    "measures": "schema:description",
+    "remarks": "schema:description",
+    "entity": {
+      "@id": "forEntity",
+      "@type": "@id"
+    },
+    "authority": {
+      "@id": "listedBy",
+      "@type": "@id"
+    },
+    "regime": {
+      "@id": "underRegime",
+      "@type": "@id"
+    },
+    "announcement": {
+      "@id": "publishedIn",
+      "@type": "@id"
+    },
+    "source": "schema:sourceOrganization",
+    "reference_number": "schema:identifier",
+    "url": "schema:url"
+  },
+  "@id": "ansar-aldin-massinai-brigd-mlf-katiba-macina-of-jam-4685",
+  "@type": "Organization",
+  "source": "eu",
+  "names": [
+    {
+      "name": "FLM",
+      "is_primary": false
+    },
+    {
+      "name": "MLM",
+      "is_primary": false
+    },
+    {
+      "name": "Massina Liberation Front",
+      "is_primary": false
+    },
+    {
+      "name": "Katiba Massina",
+      "is_primary": false
+    },
+    {
+      "name": "Massina Brigade",
+      "is_primary": false
+    },
+    {
+      "name": "Macina Brigade",
+      "is_primary": false
+    },
+    {
+      "name": "Ansar Dine Macina",
+      "is_primary": false
+    },
+    {
+      "name": "Harakat Ansar al-Din Macina Brigade",
+      "is_primary": false
+    },
+    {
+      "name": "Ansar al-Din South",
+      "is_primary": false
+    },
+    {
+      "name": "Macina Batallion",
+      "is_primary": false
+    },
+    {
+      "name": "Macina Liberation Movement",
+      "is_primary": false
+    },
+    {
+      "name": "La Force de Libération du Macina",
+      "is_primary": false
+    },
+    {
+      "name": "ML Movement",
+      "is_primary": false
+    },
+    {
+      "name": "Massina Liberation Movement",
+      "is_primary": false
+    },
+    {
+      "name": "Ansar al-Din Macina Brigade",
+      "is_primary": false
+    },
+    {
+      "name": "Katiba Macina – Ansar Dine",
+      "is_primary": false
+    },
+    {
+      "name": "Ansar al-Din Macina",
+      "is_primary": false
+    },
+    {
+      "name": "Massinai Felszabadító Front",
+      "is_primary": false
+    },
+    {
+      "name": "Massinai Brigád",
+      "is_primary": false
+    },
+    {
+      "name": "Katiba Macina fra Jama'a Nusrat ul-Islam wa al-Muslimin",
+      "is_primary": false
+    },
+    {
+      "name": "brigade van Massina",
+      "is_primary": false
+    },
+    {
+      "name": "brigade van Macina",
+      "is_primary": false
+    },
+    {
+      "name": "brigade van Harakat Ansar al-Din Macina",
+      "is_primary": false
+    },
+    {
+      "name": "Ansar al-Din zuid",
+      "is_primary": false
+    },
+    {
+      "name": "bataljon van Macina",
+      "is_primary": false
+    },
+    {
+      "name": "bevrijdingsbeweging van Macina",
+      "is_primary": false
+    },
+    {
+      "name": "ML-beweging",
+      "is_primary": false
+    },
+    {
+      "name": "bevrijdingsbeweging van Massina",
+      "is_primary": false
+    },
+    {
+      "name": "brigade van Ansar al-Din Macina",
+      "is_primary": false
+    },
+    {
+      "name": "bevrijdingsfront van Massina",
+      "is_primary": false
+    },
+    {
+      "name": "Katiba Macina van Jama’a Nusrat ul-Islam wa al-Muslimin",
+      "is_primary": false
+    },
+    {
+      "name": "bevrijdingsfront van Macina",
+      "is_primary": false
+    },
+    {
+      "name": "Massinai Felszabadító Erők",
+      "is_primary": false
+    },
+    {
+      "name": "ML Mozgalom",
+      "is_primary": false
+    },
+    {
+      "name": "Harakat Ansar al-Din Massinai Brigád",
+      "is_primary": false
+    },
+    {
+      "name": "Massinai Zászlóalj",
+      "is_primary": false
+    },
+    {
+      "name": "Massinai Felszabadító Mozgalom",
+      "is_primary": false
+    },
+    {
+      "name": "Katiba Macina",
+      "is_primary": false
+    },
+    {
+      "name": "Macina Liberation Front",
+      "is_primary": false
+    },
+    {
+      "name": "Katiba Macina of Jama'a Nusrat ul-Islam wa al-Muslimin",
+      "is_primary": false
+    },
+    {
+      "name": "MLF",
+      "is_primary": false
+    },
+    {
+      "name": "Ansar al-Din Massinai Brigád",
+      "is_primary": true
+    }
+  ],
+  "addresses": []
+}

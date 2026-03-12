@@ -1,0 +1,128 @@
+{
+  "@context": {
+    "@vocab": "https://www.ammitto.org/ontology/",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "Entity": "schema:Thing",
+    "Person": "schema:Person",
+    "Organization": "schema:Organization",
+    "Vessel": "schema:Vehicle",
+    "Aircraft": "schema:Vehicle",
+    "Name": "schema:Thing",
+    "Address": "schema:PostalAddress",
+    "Identifier": "schema:PropertyValue",
+    "Entry": "schema:Thing",
+    "Authority": "schema:Organization",
+    "Country": "schema:Country",
+    "Regime": "schema:Thing",
+    "Announcement": "schema:NewsArticle",
+    "LegalInstrument": "schema:Legislation",
+    "id": "@id",
+    "type": "@type",
+    "name": "schema:name",
+    "full_name": "schema:name",
+    "names": {
+      "@id": "hasName",
+      "@container": "@set"
+    },
+    "is_primary": "schema:isPrimary",
+    "street": "schema:streetAddress",
+    "city": "schema:addressLocality",
+    "state": "schema:addressRegion",
+    "postal_code": "schema:postalCode",
+    "country": "schema:addressCountry",
+    "addresses": {
+      "@id": "hasAddress",
+      "@container": "@set"
+    },
+    "identifier": "schema:identifier",
+    "identifiers": {
+      "@id": "hasIdentifier",
+      "@container": "@set"
+    },
+    "value": "schema:value",
+    "issue_date": {
+      "@id": "schema:dateIssued",
+      "@type": "xsd:date"
+    },
+    "expiry_date": {
+      "@id": "expiryDate",
+      "@type": "xsd:date"
+    },
+    "birth_date": {
+      "@id": "schema:birthDate",
+      "@type": "xsd:date"
+    },
+    "birth_place": "schema:birthPlace",
+    "death_date": {
+      "@id": "schema:deathDate",
+      "@type": "xsd:date"
+    },
+    "gender": "schema:gender",
+    "nationality": "schema:nationality",
+    "nationalities": {
+      "@id": "schema:nationality",
+      "@container": "@set"
+    },
+    "registration_number": "schema:taxID",
+    "incorporation_country": "schema:foundingLocation",
+    "website": "schema:url",
+    "imo_number": "schema:serialNumber",
+    "flag_state": "schema:flag",
+    "status": "schema:status",
+    "listed_date": {
+      "@id": "listedDate",
+      "@type": "xsd:date"
+    },
+    "delisted_date": {
+      "@id": "delistedDate",
+      "@type": "xsd:date"
+    },
+    "measures": "schema:description",
+    "remarks": "schema:description",
+    "entity": {
+      "@id": "forEntity",
+      "@type": "@id"
+    },
+    "authority": {
+      "@id": "listedBy",
+      "@type": "@id"
+    },
+    "regime": {
+      "@id": "underRegime",
+      "@type": "@id"
+    },
+    "announcement": {
+      "@id": "publishedIn",
+      "@type": "@id"
+    },
+    "source": "schema:sourceOrganization",
+    "reference_number": "schema:identifier",
+    "url": "schema:url"
+  },
+  "@id": "dpr0181",
+  "@type": "Organization",
+  "source": "uk",
+  "names": [
+    {
+      "name": "Korea Mirae Shipping Co. Ltd",
+      "is_primary": false
+    },
+    {
+      "name": "East Sea Shipping Company",
+      "is_primary": false
+    },
+    {
+      "name": "aeyang Crew Management Company",
+      "is_primary": false
+    },
+    {
+      "name": "OCEAN MARITIME MANAGEMENT COMPANY, LIMITED (OMM)",
+      "is_primary": false
+    }
+  ],
+  "addresses": [],
+  "remarks": "Ocean Maritime Management Company, Limited is the operator/manager of the following vessels with IMO Number: (a) Chol Ryong (Ryong Gun Bong) 8606173, (b) Chong Bong (Greenlight) (Blue Nouvelle) 8909575, (c) Chong Rim 2 8916293, (d) Hoe Ryong 9041552, (e) Hu Chang (O Un Chong Nyon) 8330815, (f) Hui Chon (Hwang Gum San 2) 8405270, (g) Ji Hye San (Hyok Sin 2) 8018900, (h) Kang Gye (Pi Ryu Gang) 8829593, (i) Mi Rim 8713471, (j) Mi Rim 2 9361407, (k) Rang (Po Thong Gang) 8829555, (l) Ra Nam 2 8625545, (m) Ra Nam 3 9314650, (n) Ryo Myong 8987333, (o) Ryong Rim (Jon Jin 2) 8018912, (p) Se Pho (Rak Won 2) 8819017, (q) Songjin (Jang Ja San Chong Nyon Ho) 8133530, (r) South Hill 2 8412467,(s) Tan Chon (Ryon Gang 2) 7640378, (t) Thae Pyong San (Petrel 1) 9009085, (u) Tong Hung San (Chong Chon Gang) 7937317, (v) Tong Hung 8661575. It played a key role in arranging the shipment of concealed cargo of arms and related materiel from Cuba to the DPRK in July 2013. As such, Ocean Maritime Management Company, Limited contributed to activities prohibited by the resolutions, namely the arms embargo imposed by resolution 1718 (2006), as modified by resolution 1874 (2009), and contributed to the evasion of the measures imposed by these resolutions. International Maritime Organization (IMO) Number: 1790183."
+}

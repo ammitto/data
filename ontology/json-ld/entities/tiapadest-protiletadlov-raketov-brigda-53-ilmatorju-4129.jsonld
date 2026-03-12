@@ -1,0 +1,239 @@
+{
+  "@context": {
+    "@vocab": "https://www.ammitto.org/ontology/",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "Entity": "schema:Thing",
+    "Person": "schema:Person",
+    "Organization": "schema:Organization",
+    "Vessel": "schema:Vehicle",
+    "Aircraft": "schema:Vehicle",
+    "Name": "schema:Thing",
+    "Address": "schema:PostalAddress",
+    "Identifier": "schema:PropertyValue",
+    "Entry": "schema:Thing",
+    "Authority": "schema:Organization",
+    "Country": "schema:Country",
+    "Regime": "schema:Thing",
+    "Announcement": "schema:NewsArticle",
+    "LegalInstrument": "schema:Legislation",
+    "id": "@id",
+    "type": "@type",
+    "name": "schema:name",
+    "full_name": "schema:name",
+    "names": {
+      "@id": "hasName",
+      "@container": "@set"
+    },
+    "is_primary": "schema:isPrimary",
+    "street": "schema:streetAddress",
+    "city": "schema:addressLocality",
+    "state": "schema:addressRegion",
+    "postal_code": "schema:postalCode",
+    "country": "schema:addressCountry",
+    "addresses": {
+      "@id": "hasAddress",
+      "@container": "@set"
+    },
+    "identifier": "schema:identifier",
+    "identifiers": {
+      "@id": "hasIdentifier",
+      "@container": "@set"
+    },
+    "value": "schema:value",
+    "issue_date": {
+      "@id": "schema:dateIssued",
+      "@type": "xsd:date"
+    },
+    "expiry_date": {
+      "@id": "expiryDate",
+      "@type": "xsd:date"
+    },
+    "birth_date": {
+      "@id": "schema:birthDate",
+      "@type": "xsd:date"
+    },
+    "birth_place": "schema:birthPlace",
+    "death_date": {
+      "@id": "schema:deathDate",
+      "@type": "xsd:date"
+    },
+    "gender": "schema:gender",
+    "nationality": "schema:nationality",
+    "nationalities": {
+      "@id": "schema:nationality",
+      "@container": "@set"
+    },
+    "registration_number": "schema:taxID",
+    "incorporation_country": "schema:foundingLocation",
+    "website": "schema:url",
+    "imo_number": "schema:serialNumber",
+    "flag_state": "schema:flag",
+    "status": "schema:status",
+    "listed_date": {
+      "@id": "listedDate",
+      "@type": "xsd:date"
+    },
+    "delisted_date": {
+      "@id": "delistedDate",
+      "@type": "xsd:date"
+    },
+    "measures": "schema:description",
+    "remarks": "schema:description",
+    "entity": {
+      "@id": "forEntity",
+      "@type": "@id"
+    },
+    "authority": {
+      "@id": "listedBy",
+      "@type": "@id"
+    },
+    "regime": {
+      "@id": "underRegime",
+      "@type": "@id"
+    },
+    "announcement": {
+      "@id": "publishedIn",
+      "@type": "@id"
+    },
+    "source": "schema:sourceOrganization",
+    "reference_number": "schema:identifier",
+    "url": "schema:url"
+  },
+  "@id": "tiapadest-protiletadlov-raketov-brigda-53-ilmatorju-4129",
+  "@type": "Organization",
+  "source": "eu",
+  "names": [
+    {
+      "name": "53-та противовъздушна ракетна бригада",
+      "is_primary": false
+    },
+    {
+      "name": "Brigada 53 Rachete Antiaeriene",
+      "is_primary": false
+    },
+    {
+      "name": "53η Ταξιαρχία Αντιαεροπορικών Πυραύλων",
+      "is_primary": false
+    },
+    {
+      "name": "53. légvédelmirakétadandár",
+      "is_primary": false
+    },
+    {
+      "name": "53.ª Brigada de Mísseis Antiaéreos",
+      "is_primary": false
+    },
+    {
+      "name": "53. Przeciwlotnicza Brygada Rakietowa",
+      "is_primary": false
+    },
+    {
+      "name": "Brigada de Misiles Antiaéreos n.º 53",
+      "is_primary": false
+    },
+    {
+      "name": "53e luchtdoelraketbrigade",
+      "is_primary": false
+    },
+    {
+      "name": "53e brigade de missiles anti-aériens",
+      "is_primary": false
+    },
+    {
+      "name": "53a brigata missilistica antiaerea",
+      "is_primary": false
+    },
+    {
+      "name": "53. Flugabwehrraketenbrigade",
+      "is_primary": false
+    },
+    {
+      "name": "53rd Anti-Aircraft Missile Brigade",
+      "is_primary": false
+    },
+    {
+      "name": "53. õhutõrjerakettide brigaad",
+      "is_primary": false
+    },
+    {
+      "name": "53. armada za protizračno obrambo",
+      "is_primary": false
+    },
+    {
+      "name": "53. protilietadlová raketová brigáda",
+      "is_primary": false
+    },
+    {
+      "name": "53. pretgaisa raķešu brigāde",
+      "is_primary": false
+    },
+    {
+      "name": "53-ioji zenitinių raketų brigada",
+      "is_primary": false
+    },
+    {
+      "name": "53. protiletadlová raketová brigáda",
+      "is_primary": false
+    },
+    {
+      "name": "53. gardijska protuzračna raketna brigada",
+      "is_primary": false
+    },
+    {
+      "name": "53. protiletadlová raketová brigáda",
+      "is_primary": false
+    },
+    {
+      "name": "53. légvédelmirakétadandár-gárda",
+      "is_primary": false
+    },
+    {
+      "name": "Brigada gardistă 53 Rachete Antiaeriene",
+      "is_primary": false
+    },
+    {
+      "name": "53-та гвардейска противовъздушна ракетна бригада",
+      "is_primary": false
+    },
+    {
+      "name": "53η Ταξιαρχία Φρουρών Αντιαεροπορικών Πυραύλων",
+      "is_primary": false
+    },
+    {
+      "name": "53.a Brigada de Mísseis Antiaéreos da Guarda",
+      "is_primary": false
+    },
+    {
+      "name": "53. Gardeflugabwehrraketenbrigade",
+      "is_primary": false
+    },
+    {
+      "name": "53rd Guards Anti-Aircraft Missile Brigade",
+      "is_primary": false
+    },
+    {
+      "name": "53ú Garda Briogáide Diúracán Frith-Aerárthaí",
+      "is_primary": false
+    },
+    {
+      "name": "53:e  luftvärnsrobotbrigaden",
+      "is_primary": false
+    },
+    {
+      "name": "53. protuzračna raketna brigada",
+      "is_primary": false
+    },
+    {
+      "name": "53. ilmatorjuntaohjusprikaati",
+      "is_primary": false
+    },
+    {
+      "name": "Třiapadesátá protiletadlová raketová brigáda",
+      "is_primary": true
+    }
+  ],
+  "addresses": []
+}

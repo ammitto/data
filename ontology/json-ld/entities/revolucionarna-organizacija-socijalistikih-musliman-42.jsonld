@@ -1,0 +1,559 @@
+{
+  "@context": {
+    "@vocab": "https://www.ammitto.org/ontology/",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "Entity": "schema:Thing",
+    "Person": "schema:Person",
+    "Organization": "schema:Organization",
+    "Vessel": "schema:Vehicle",
+    "Aircraft": "schema:Vehicle",
+    "Name": "schema:Thing",
+    "Address": "schema:PostalAddress",
+    "Identifier": "schema:PropertyValue",
+    "Entry": "schema:Thing",
+    "Authority": "schema:Organization",
+    "Country": "schema:Country",
+    "Regime": "schema:Thing",
+    "Announcement": "schema:NewsArticle",
+    "LegalInstrument": "schema:Legislation",
+    "id": "@id",
+    "type": "@type",
+    "name": "schema:name",
+    "full_name": "schema:name",
+    "names": {
+      "@id": "hasName",
+      "@container": "@set"
+    },
+    "is_primary": "schema:isPrimary",
+    "street": "schema:streetAddress",
+    "city": "schema:addressLocality",
+    "state": "schema:addressRegion",
+    "postal_code": "schema:postalCode",
+    "country": "schema:addressCountry",
+    "addresses": {
+      "@id": "hasAddress",
+      "@container": "@set"
+    },
+    "identifier": "schema:identifier",
+    "identifiers": {
+      "@id": "hasIdentifier",
+      "@container": "@set"
+    },
+    "value": "schema:value",
+    "issue_date": {
+      "@id": "schema:dateIssued",
+      "@type": "xsd:date"
+    },
+    "expiry_date": {
+      "@id": "expiryDate",
+      "@type": "xsd:date"
+    },
+    "birth_date": {
+      "@id": "schema:birthDate",
+      "@type": "xsd:date"
+    },
+    "birth_place": "schema:birthPlace",
+    "death_date": {
+      "@id": "schema:deathDate",
+      "@type": "xsd:date"
+    },
+    "gender": "schema:gender",
+    "nationality": "schema:nationality",
+    "nationalities": {
+      "@id": "schema:nationality",
+      "@container": "@set"
+    },
+    "registration_number": "schema:taxID",
+    "incorporation_country": "schema:foundingLocation",
+    "website": "schema:url",
+    "imo_number": "schema:serialNumber",
+    "flag_state": "schema:flag",
+    "status": "schema:status",
+    "listed_date": {
+      "@id": "listedDate",
+      "@type": "xsd:date"
+    },
+    "delisted_date": {
+      "@id": "delistedDate",
+      "@type": "xsd:date"
+    },
+    "measures": "schema:description",
+    "remarks": "schema:description",
+    "entity": {
+      "@id": "forEntity",
+      "@type": "@id"
+    },
+    "authority": {
+      "@id": "listedBy",
+      "@type": "@id"
+    },
+    "regime": {
+      "@id": "underRegime",
+      "@type": "@id"
+    },
+    "announcement": {
+      "@id": "publishedIn",
+      "@type": "@id"
+    },
+    "source": "schema:sourceOrganization",
+    "reference_number": "schema:identifier",
+    "url": "schema:url"
+  },
+  "@id": "revolucionarna-organizacija-socijalistikih-musliman-42",
+  "@type": "Organization",
+  "source": "eu",
+  "names": [
+    {
+      "name": "Μαύρος Σεπτέμβρης",
+      "is_primary": false
+    },
+    {
+      "name": "Organizzazione Abu Nidal",
+      "is_primary": false
+    },
+    {
+      "name": "Consiglio rivoluzionario Fatah",
+      "is_primary": false
+    },
+    {
+      "name": "Brigate rivoluzionarie arabe",
+      "is_primary": false
+    },
+    {
+      "name": "Settembre nero",
+      "is_primary": false
+    },
+    {
+      "name": "Organizzazione rivoluzionaria dei musulmani socialisti",
+      "is_primary": false
+    },
+    {
+      "name": "Abu Nidal organizacija",
+      "is_primary": false
+    },
+    {
+      "name": "Fatah revoliucinė taryba",
+      "is_primary": false
+    },
+    {
+      "name": "Arabų revoliucinės brigados",
+      "is_primary": false
+    },
+    {
+      "name": "Juodasis rugsėjis",
+      "is_primary": false
+    },
+    {
+      "name": "Musulmonų socialistų revoliucinė organizacija",
+      "is_primary": false
+    },
+    {
+      "name": "Abu Nidal Szervezet",
+      "is_primary": false
+    },
+    {
+      "name": "Fatah Forradalmi Tanács",
+      "is_primary": false
+    },
+    {
+      "name": "Arab Forradalmi Brigádok",
+      "is_primary": false
+    },
+    {
+      "name": "Fekete Szeptember",
+      "is_primary": false
+    },
+    {
+      "name": "Szocialista Muzulmánok Forradalmi Szervezete",
+      "is_primary": false
+    },
+    {
+      "name": "L-Organizzazzjoni Abu Nidal",
+      "is_primary": false
+    },
+    {
+      "name": "l-Kunsill Rivoluzzjonarju tal-Fatah",
+      "is_primary": false
+    },
+    {
+      "name": "l-Brigati Rivoluzzjonarji Garab",
+      "is_primary": false
+    },
+    {
+      "name": "s-Settembru l-Iswed",
+      "is_primary": false
+    },
+    {
+      "name": "l-Organizzazzjoni Rivoluzzjonarja tal-Musulmani Sojalisti",
+      "is_primary": false
+    },
+    {
+      "name": "Fatah Revolutionaire Raad",
+      "is_primary": false
+    },
+    {
+      "name": "Arabische Revolutionaire Brigades",
+      "is_primary": false
+    },
+    {
+      "name": "Zwarte September",
+      "is_primary": false
+    },
+    {
+      "name": "Revolutionaire Organisatie van Socialistische Moslims",
+      "is_primary": false
+    },
+    {
+      "name": "Revolutionary Organisation of Socialist Muslims",
+      "is_primary": false
+    },
+    {
+      "name": "Black September",
+      "is_primary": false
+    },
+    {
+      "name": "Revolucionarni svet Fataha",
+      "is_primary": false
+    },
+    {
+      "name": "Arabske revolucionarne brigade",
+      "is_primary": false
+    },
+    {
+      "name": "Črni September",
+      "is_primary": false
+    },
+    {
+      "name": "Revolucionarna organizacija socialističnih muslimanov",
+      "is_primary": false
+    },
+    {
+      "name": "Abu Nidal - järjestö",
+      "is_primary": false
+    },
+    {
+      "name": "Fatahin vallankumousneuvosto",
+      "is_primary": false
+    },
+    {
+      "name": "Musta syyskuu",
+      "is_primary": false
+    },
+    {
+      "name": "Abu Nidals grupp",
+      "is_primary": false
+    },
+    {
+      "name": "Организация „Абу Нидал”",
+      "is_primary": false
+    },
+    {
+      "name": "Революционен съвет на Фатах",
+      "is_primary": false
+    },
+    {
+      "name": "Арабски революционни бригади",
+      "is_primary": false
+    },
+    {
+      "name": "Черен септември",
+      "is_primary": false
+    },
+    {
+      "name": "Революционна организация на мюсюлманите социалисти",
+      "is_primary": false
+    },
+    {
+      "name": "Organización Abu Nidal",
+      "is_primary": false
+    },
+    {
+      "name": "Consejo Revolucionario de Al Fatah",
+      "is_primary": false
+    },
+    {
+      "name": "Brigadas Revolucionarias Árabes",
+      "is_primary": false
+    },
+    {
+      "name": "Septiembre Negro",
+      "is_primary": false
+    },
+    {
+      "name": "Organización Revolucionaria de los Musulmanes Socialistas",
+      "is_primary": false
+    },
+    {
+      "name": "Revoluční rada Fatáhu",
+      "is_primary": false
+    },
+    {
+      "name": "Arabské revoluční brigády",
+      "is_primary": false
+    },
+    {
+      "name": "Černé září",
+      "is_primary": false
+    },
+    {
+      "name": "Revoluční organizace socialistických muslimů",
+      "is_primary": false
+    },
+    {
+      "name": "Arab Revolutionary Brigades",
+      "is_primary": false
+    },
+    {
+      "name": "Fatah Revolutionary Council",
+      "is_primary": false
+    },
+    {
+      "name": "ANO",
+      "is_primary": false
+    },
+    {
+      "name": "Abu Nidal Organisation",
+      "is_primary": false
+    },
+    {
+      "name": "Revolutionäre Organisation der Sozialistischen Moslems",
+      "is_primary": false
+    },
+    {
+      "name": "Abu Nidali Organisatsioon",
+      "is_primary": false
+    },
+    {
+      "name": "Fatah' Revolutsiooniline Nõukogu",
+      "is_primary": false
+    },
+    {
+      "name": "Araabia Revolutsioonilised Brigaadid",
+      "is_primary": false
+    },
+    {
+      "name": "Must September",
+      "is_primary": false
+    },
+    {
+      "name": "Sotsialistlike Moslemite Revolutsiooniline Organisatsioon",
+      "is_primary": false
+    },
+    {
+      "name": "Οργάνωση Abu Nidal",
+      "is_primary": false
+    },
+    {
+      "name": "Επαναστατικό Συμβούλιο Φατάχ",
+      "is_primary": false
+    },
+    {
+      "name": "Αραβικές Επαναστατικές Ταξιαρχίες",
+      "is_primary": false
+    },
+    {
+      "name": "Revolucionarna organizacija socijalističkih muslimana",
+      "is_primary": true
+    },
+    {
+      "name": "Crni rujan",
+      "is_primary": false
+    },
+    {
+      "name": "Arapske revolucionarne brigade",
+      "is_primary": false
+    },
+    {
+      "name": "Revolucionarno vijeće Fataha",
+      "is_primary": false
+    },
+    {
+      "name": "Organizacija Abu Nidal",
+      "is_primary": false
+    },
+    {
+      "name": "Eagraíocht Réabhlóide na Moslamach Sóisialach",
+      "is_primary": false
+    },
+    {
+      "name": "Lucht Mheán Fómhair Dubh",
+      "is_primary": false
+    },
+    {
+      "name": "na Briogáidí Réabhlóideacha Arabacha",
+      "is_primary": false
+    },
+    {
+      "name": "Comhairle Réabhlóide Fatah",
+      "is_primary": false
+    },
+    {
+      "name": "Eagraíocht Abu Nidal",
+      "is_primary": false
+    },
+    {
+      "name": "Organisation révolutionnaire des musulmans socialistes",
+      "is_primary": false
+    },
+    {
+      "name": "Septembre noir",
+      "is_primary": false
+    },
+    {
+      "name": "Brigades révolutionnaires arabes",
+      "is_primary": false
+    },
+    {
+      "name": "Conseil révolutionnaire du Fatah",
+      "is_primary": false
+    },
+    {
+      "name": "Schwarzer September",
+      "is_primary": false
+    },
+    {
+      "name": "Arabische Revolutionäre Brigaden",
+      "is_primary": false
+    },
+    {
+      "name": "Fatah-Revolutionsrat",
+      "is_primary": false
+    },
+    {
+      "name": "Organizacija Abu Nidal",
+      "is_primary": false
+    },
+    {
+      "name": "Revolučná organizácia moslimských socialistov",
+      "is_primary": false
+    },
+    {
+      "name": "Čierny september",
+      "is_primary": false
+    },
+    {
+      "name": "Arabské revolučné brigády",
+      "is_primary": false
+    },
+    {
+      "name": "Revolučná rada Fatah",
+      "is_primary": false
+    },
+    {
+      "name": "Organizácia Abú Nidála",
+      "is_primary": false
+    },
+    {
+      "name": "Organizația Revoluționară a Musulmanilor Socialiști",
+      "is_primary": false
+    },
+    {
+      "name": "Septembrie Negru",
+      "is_primary": false
+    },
+    {
+      "name": "Brigăzile Revoluționare Arabe",
+      "is_primary": false
+    },
+    {
+      "name": "Consiliul Revoluționar Fatah",
+      "is_primary": false
+    },
+    {
+      "name": "Organizația Abu Nidal",
+      "is_primary": false
+    },
+    {
+      "name": "Organização Revolucionária dos Muçulmanos Socialistas",
+      "is_primary": false
+    },
+    {
+      "name": "Setembro Negro",
+      "is_primary": false
+    },
+    {
+      "name": "Brigadas Revolucionárias Árabes",
+      "is_primary": false
+    },
+    {
+      "name": "Conselho Revolucionário do Fatah",
+      "is_primary": false
+    },
+    {
+      "name": "Organização Abu Nidal",
+      "is_primary": false
+    },
+    {
+      "name": "Rewolucyjna Organizacja Muzułmańskich Socjalistów",
+      "is_primary": false
+    },
+    {
+      "name": "Czarny Wrzesień",
+      "is_primary": false
+    },
+    {
+      "name": "Rewolucyjne Brygady Arabskie",
+      "is_primary": false
+    },
+    {
+      "name": "Rewolucyjna Rada Fatah",
+      "is_primary": false
+    },
+    {
+      "name": "Organizacja Abu Nidala",
+      "is_primary": false
+    },
+    {
+      "name": "Revolucionarna organizacija socijalističkih muslimana",
+      "is_primary": false
+    },
+    {
+      "name": "Crni rujan",
+      "is_primary": false
+    },
+    {
+      "name": "Arapske revolucionarne brigade",
+      "is_primary": false
+    },
+    {
+      "name": "Revolucionarno vijeće Fataha",
+      "is_primary": false
+    },
+    {
+      "name": "Organisatie Abu Nidal",
+      "is_primary": false
+    },
+    {
+      "name": "Revoluční organizace socialistických muslimů",
+      "is_primary": false
+    },
+    {
+      "name": "Černé září",
+      "is_primary": false
+    },
+    {
+      "name": "Arabské revoluční brigády",
+      "is_primary": false
+    },
+    {
+      "name": "Revoluční rada Fatáhu",
+      "is_primary": false
+    },
+    {
+      "name": "Organizace Abú Nidala",
+      "is_primary": false
+    },
+    {
+      "name": "Organisation Abou Nidal",
+      "is_primary": false
+    },
+    {
+      "name": "Επαναστατική Οργάνωση Σοσιαλιστών Μουσουλμάνων",
+      "is_primary": false
+    }
+  ],
+  "addresses": []
+}

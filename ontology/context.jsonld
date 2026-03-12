@@ -65,6 +65,24 @@
     "LegalInstrument": {
       "@id": "ammitto:LegalInstrument"
     },
+    "LocalizedString": {
+      "@id": "ammitto:LocalizedString"
+    },
+    "LegalCitation": {
+      "@id": "ammitto:LegalCitation"
+    },
+    "SanctionList": {
+      "@id": "ammitto:SanctionList"
+    },
+    "SanctionGroup": {
+      "@id": "ammitto:SanctionGroup"
+    },
+    "SanctionPeriodModification": {
+      "@id": "ammitto:SanctionPeriodModification"
+    },
+    "OfficialAnnouncement": {
+      "@id": "ammitto:OfficialAnnouncement"
+    },
     "Index": {
       "@id": "ammitto:Index"
     },
@@ -320,6 +338,255 @@
     "sourceSpecificFields": {
       "@id": "ammitto:sourceSpecificFields",
       "@type": "@json"
+    },
+
+    "LocalizedString": {
+      "@id": "ammitto:LocalizedString"
+    },
+    "value": {
+      "@id": "ammitto:value",
+      "@type": "xsd:string"
+    },
+    "lang": {
+      "@id": "ammitto:language",
+      "@type": "xsd:string"
+    },
+    "script": {
+      "@id": "ammitto:script",
+      "@type": "xsd:string"
+    },
+    "isPrimary": {
+      "@id": "ammitto:isPrimary",
+      "@type": "xsd:boolean"
+    },
+    "isTransliteration": {
+      "@id": "ammitto:isTransliteration",
+      "@type": "xsd:boolean"
+    },
+    "transliterationSystem": {
+      "@id": "ammitto:transliterationSystem",
+      "@type": "xsd:string"
+    },
+
+    "LegalCitation": {
+      "@id": "ammitto:LegalCitation"
+    },
+    "legalInstrumentId": {
+      "@id": "ammitto:legalInstrumentId",
+      "@type": "@id"
+    },
+    "articles": {
+      "@id": "ammitto:articles",
+      "@type": "xsd:string",
+      "@container": "@set"
+    },
+    "sections": {
+      "@id": "ammitto:sections",
+      "@type": "xsd:string",
+      "@container": "@set"
+    },
+    "paragraphs": {
+      "@id": "ammitto:paragraphs",
+      "@type": "xsd:string",
+      "@container": "@set"
+    },
+    "citationType": {
+      "@id": "ammitto:citationType",
+      "@type": "xsd:string"
+    },
+    "context": {
+      "@id": "ammitto:context",
+      "@type": "xsd:string"
+    },
+    "quotedText": {
+      "@id": "ammitto:quotedText",
+      "@type": "@id",
+      "@container": "@set"
+    },
+
+    "SanctionList": {
+      "@id": "ammitto:SanctionList"
+    },
+    "source": {
+      "@id": "ammitto:source",
+      "@type": "xsd:string"
+    },
+    "listType": {
+      "@id": "ammitto:listType",
+      "@type": "xsd:string"
+    },
+    "establishedDate": {
+      "@id": "ammitto:establishedDate",
+      "@type": "xsd:date"
+    },
+    "url": {
+      "@id": "ammitto:url",
+      "@type": "xsd:anyURI"
+    },
+    "metadata": {
+      "@id": "ammitto:metadata",
+      "@type": "@json"
+    },
+    "legalCitations": {
+      "@id": "ammitto:hasLegalCitation",
+      "@type": "@id",
+      "@container": "@set"
+    },
+
+    "SanctionGroup": {
+      "@id": "ammitto:SanctionGroup"
+    },
+    "announcementId": {
+      "@id": "ammitto:announcementId",
+      "@type": "@id"
+    },
+    "listId": {
+      "@id": "ammitto:listId",
+      "@type": "@id"
+    },
+    "entryIds": {
+      "@id": "ammitto:hasEntry",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "sharedMeasures": {
+      "@id": "ammitto:hasSharedMeasure",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "sharedReasons": {
+      "@id": "ammitto:hasSharedReason",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "effectiveTime": {
+      "@id": "ammitto:effectiveTime",
+      "@type": "xsd:string"
+    },
+    "entityCount": {
+      "@id": "ammitto:entityCount",
+      "@type": "xsd:integer"
+    },
+    "notes": {
+      "@id": "ammitto:notes",
+      "@type": "xsd:string"
+    },
+
+    "SanctionPeriodModification": {
+      "@id": "ammitto:SanctionPeriodModification"
+    },
+    "targetType": {
+      "@id": "ammitto:targetType",
+      "@type": "xsd:string"
+    },
+    "targetId": {
+      "@id": "ammitto:targetId",
+      "@type": "@id"
+    },
+    "targetAnnouncementId": {
+      "@id": "ammitto:targetAnnouncementId",
+      "@type": "@id"
+    },
+    "targetAnnouncementDate": {
+      "@id": "ammitto:targetAnnouncementDate",
+      "@type": "xsd:date"
+    },
+    "affectedEntityCount": {
+      "@id": "ammitto:affectedEntityCount",
+      "@type": "xsd:integer"
+    },
+    "affectedEntityNames": {
+      "@id": "ammitto:affectedEntityNames",
+      "@type": "xsd:string",
+      "@container": "@set"
+    },
+    "action": {
+      "@id": "ammitto:action",
+      "@type": "xsd:string"
+    },
+    "untilDate": {
+      "@id": "ammitto:untilDate",
+      "@type": "xsd:date"
+    },
+    "untilTime": {
+      "@id": "ammitto:untilTime",
+      "@type": "xsd:string"
+    },
+    "durationDays": {
+      "@id": "ammitto:durationDays",
+      "@type": "xsd:integer"
+    },
+    "durationDescription": {
+      "@id": "ammitto:durationDescription",
+      "@type": "xsd:string"
+    },
+    "announcementId": {
+      "@id": "ammitto:announcementId",
+      "@type": "@id"
+    },
+    "reason": {
+      "@id": "ammitto:reason",
+      "@type": "@id",
+      "@container": "@set"
+    },
+
+    "OfficialAnnouncement": {
+      "@id": "ammitto:OfficialAnnouncement"
+    },
+    "title": {
+      "@id": "schema:title",
+      "@type": "xsd:string"
+    },
+    "publishedDate": {
+      "@id": "ammitto:publishedDate",
+      "@type": "xsd:date"
+    },
+    "publishedTime": {
+      "@id": "ammitto:publishedTime",
+      "@type": "xsd:string"
+    },
+    "documentType": {
+      "@id": "ammitto:documentType",
+      "@type": "xsd:string"
+    },
+    "documentId": {
+      "@id": "ammitto:documentId",
+      "@type": "xsd:string"
+    },
+    "signatory": {
+      "@id": "ammitto:signatory",
+      "@type": "xsd:string"
+    },
+    "signatoryTitle": {
+      "@id": "ammitto:signatoryTitle",
+      "@type": "xsd:string"
+    },
+    "publisher": {
+      "@id": "ammitto:publisher",
+      "@type": "xsd:string"
+    },
+    "content": {
+      "@id": "ammitto:content",
+      "@type": "xsd:string"
+    },
+    "language": {
+      "@id": "ammitto:language",
+      "@type": "xsd:string"
+    },
+    "sanctionGroupIds": {
+      "@id": "ammitto:hasSanctionGroup",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "modifications": {
+      "@id": "ammitto:hasModification",
+      "@type": "@id",
+      "@container": "@set"
+    },
+
+    "groupId": {
+      "@id": "ammitto:groupId",
+      "@type": "@id"
     }
   }
 }

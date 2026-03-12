@@ -1,0 +1,323 @@
+{
+  "@context": {
+    "@vocab": "https://www.ammitto.org/ontology/",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "Entity": "schema:Thing",
+    "Person": "schema:Person",
+    "Organization": "schema:Organization",
+    "Vessel": "schema:Vehicle",
+    "Aircraft": "schema:Vehicle",
+    "Name": "schema:Thing",
+    "Address": "schema:PostalAddress",
+    "Identifier": "schema:PropertyValue",
+    "Entry": "schema:Thing",
+    "Authority": "schema:Organization",
+    "Country": "schema:Country",
+    "Regime": "schema:Thing",
+    "Announcement": "schema:NewsArticle",
+    "LegalInstrument": "schema:Legislation",
+    "id": "@id",
+    "type": "@type",
+    "name": "schema:name",
+    "full_name": "schema:name",
+    "names": {
+      "@id": "hasName",
+      "@container": "@set"
+    },
+    "is_primary": "schema:isPrimary",
+    "street": "schema:streetAddress",
+    "city": "schema:addressLocality",
+    "state": "schema:addressRegion",
+    "postal_code": "schema:postalCode",
+    "country": "schema:addressCountry",
+    "addresses": {
+      "@id": "hasAddress",
+      "@container": "@set"
+    },
+    "identifier": "schema:identifier",
+    "identifiers": {
+      "@id": "hasIdentifier",
+      "@container": "@set"
+    },
+    "value": "schema:value",
+    "issue_date": {
+      "@id": "schema:dateIssued",
+      "@type": "xsd:date"
+    },
+    "expiry_date": {
+      "@id": "expiryDate",
+      "@type": "xsd:date"
+    },
+    "birth_date": {
+      "@id": "schema:birthDate",
+      "@type": "xsd:date"
+    },
+    "birth_place": "schema:birthPlace",
+    "death_date": {
+      "@id": "schema:deathDate",
+      "@type": "xsd:date"
+    },
+    "gender": "schema:gender",
+    "nationality": "schema:nationality",
+    "nationalities": {
+      "@id": "schema:nationality",
+      "@container": "@set"
+    },
+    "registration_number": "schema:taxID",
+    "incorporation_country": "schema:foundingLocation",
+    "website": "schema:url",
+    "imo_number": "schema:serialNumber",
+    "flag_state": "schema:flag",
+    "status": "schema:status",
+    "listed_date": {
+      "@id": "listedDate",
+      "@type": "xsd:date"
+    },
+    "delisted_date": {
+      "@id": "delistedDate",
+      "@type": "xsd:date"
+    },
+    "measures": "schema:description",
+    "remarks": "schema:description",
+    "entity": {
+      "@id": "forEntity",
+      "@type": "@id"
+    },
+    "authority": {
+      "@id": "listedBy",
+      "@type": "@id"
+    },
+    "regime": {
+      "@id": "underRegime",
+      "@type": "@id"
+    },
+    "announcement": {
+      "@id": "publishedIn",
+      "@type": "@id"
+    },
+    "source": "schema:sourceOrganization",
+    "reference_number": "schema:identifier",
+    "url": "schema:url"
+  },
+  "@id": "3-polar-wolf-ik3-mens-maximum-security-correctional-4682",
+  "@type": "Organization",
+  "source": "eu",
+  "names": [
+    {
+      "name": "IK-3 szigorúan őrzött férfi büntetésvégrehajtási tábor",
+      "is_primary": false
+    },
+    {
+      "name": "IK-3 büntetőtábor",
+      "is_primary": false
+    },
+    {
+      "name": "a »3. számú Büntetésvégrehajtási Tábor« elnevezésű Szövetségi Állami Intézet",
+      "is_primary": false
+    },
+    {
+      "name": "Полярный волк",
+      "is_primary": true
+    },
+    {
+      "name": "ФКУ ИК-3",
+      "is_primary": false
+    },
+    {
+      "name": "Polar Wolf",
+      "is_primary": false
+    },
+    {
+      "name": "IK-3 men's maximum security correctional colony",
+      "is_primary": false
+    },
+    {
+      "name": "The Federal State Institution \"Correctional Colony No. 3\"",
+      "is_primary": false
+    },
+    {
+      "name": "IK-3 penal colony",
+      "is_primary": false
+    },
+    {
+      "name": "kazenska kolonija IK-3",
+      "is_primary": false
+    },
+    {
+      "name": "najstrožje varovana kazenska kolonija IK-3 za moške",
+      "is_primary": false
+    },
+    {
+      "name": "zvezna državna institucija „kazenska kolonija št. 3“",
+      "is_primary": false
+    },
+    {
+      "name": "„Poliarinis vilkas“",
+      "is_primary": false
+    },
+    {
+      "name": "Griežčiausio režimo vyrų pataisos kolonija IK-3",
+      "is_primary": false
+    },
+    {
+      "name": "Federalinė valstybinė institucija „Pataisos kolonija Nr. 3“",
+      "is_primary": false
+    },
+    {
+      "name": "Pataisos kolonija IK-3",
+      "is_primary": false
+    },
+    {
+      "name": "kažnjenička kolonija za muškarce IK-3 s najvišim sigurnosnim mjerama",
+      "is_primary": false
+    },
+    {
+      "name": "Savezna državna ustanova „Kažnjenička kolonija br. 3”",
+      "is_primary": false
+    },
+    {
+      "name": "kažnjenička kolonija IK-3",
+      "is_primary": false
+    },
+    {
+      "name": "Polarni vuk",
+      "is_primary": false
+    },
+    {
+      "name": "straffkoloni IK-3",
+      "is_primary": false
+    },
+    {
+      "name": "Loup polaire",
+      "is_primary": false
+    },
+    {
+      "name": "colonie de redressement à sécurité maximale pour hommes IK-3",
+      "is_primary": false
+    },
+    {
+      "name": "L’institution d’État fédéral “Colonie de redressement no 3” (colonie IK-3)",
+      "is_primary": false
+    },
+    {
+      "name": "Colonie pénitentiaire IK-3",
+      "is_primary": false
+    },
+    {
+      "name": "Strafkolonie IK-3",
+      "is_primary": false
+    },
+    {
+      "name": "IK-3",
+      "is_primary": false
+    },
+    {
+      "name": "strafkolonie IK-3",
+      "is_primary": false
+    },
+    {
+      "name": "Lupul polar",
+      "is_primary": false
+    },
+    {
+      "name": "Colonia corecțională de maximă securitate pentru bărbați IK-3",
+      "is_primary": false
+    },
+    {
+      "name": "Instituția Federală de Stat «Colonia corecțională  nr. 3»",
+      "is_primary": false
+    },
+    {
+      "name": "Colonia penitenciară IK-3",
+      "is_primary": false
+    },
+    {
+      "name": "Straffekolonien IK-3",
+      "is_primary": false
+    },
+    {
+      "name": "Полярен вълк",
+      "is_primary": false
+    },
+    {
+      "name": "ИК-3, изправителна колония за мъже с максимална степен на сигурност",
+      "is_primary": false
+    },
+    {
+      "name": "Наказателна колония ИК-3",
+      "is_primary": false
+    },
+    {
+      "name": "Πολικός λύκος",
+      "is_primary": false
+    },
+    {
+      "name": "Σωφρονιστικό ίδρυμα υψίστης ασφαλείας ανδρών IK-3",
+      "is_primary": false
+    },
+    {
+      "name": "Ομοσπονδιακό κρατικό ίδρυμα “Σωφρονιστικό ίδρυμα αριθ. 3”",
+      "is_primary": false
+    },
+    {
+      "name": "Σωφρονιστικό ίδρυμα ΙΚ-3",
+      "is_primary": false
+    },
+    {
+      "name": "Lobo Polar",
+      "is_primary": false
+    },
+    {
+      "name": "colónia correcional masculina de segurança máxima IK-3",
+      "is_primary": false
+    },
+    {
+      "name": "Instituição do Estado Federal \"Colónia Correcional n.o 3\" (IK-3)",
+      "is_primary": false
+    },
+    {
+      "name": "Colónia penal IK-3",
+      "is_primary": false
+    },
+    {
+      "name": "Napasusi",
+      "is_primary": false
+    },
+    {
+      "name": "IK-3 ylimmän turvatason rangaistussiirtola miehille",
+      "is_primary": false
+    },
+    {
+      "name": "liittovaltion laitos ”rangaistussiirtola nro 3”",
+      "is_primary": false
+    },
+    {
+      "name": "IK-3-rangaistussiirtola",
+      "is_primary": false
+    },
+    {
+      "name": "Wilk polarny",
+      "is_primary": false
+    },
+    {
+      "name": "IK-3 – kolonia poprawcza o zaostrzonym rygorze dla mężczyzn",
+      "is_primary": false
+    },
+    {
+      "name": "federalna instytucja państwowa »Kolonia karna nr 3«",
+      "is_primary": false
+    },
+    {
+      "name": "Kolonia karna IK-3",
+      "is_primary": false
+    },
+    {
+      "name": "Sarki Farkas",
+      "is_primary": false
+    }
+  ],
+  "addresses": []
+}

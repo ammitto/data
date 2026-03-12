@@ -1,0 +1,183 @@
+{
+  "@context": {
+    "@vocab": "https://www.ammitto.org/ontology/",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "Entity": "schema:Thing",
+    "Person": "schema:Person",
+    "Organization": "schema:Organization",
+    "Vessel": "schema:Vehicle",
+    "Aircraft": "schema:Vehicle",
+    "Name": "schema:Thing",
+    "Address": "schema:PostalAddress",
+    "Identifier": "schema:PropertyValue",
+    "Entry": "schema:Thing",
+    "Authority": "schema:Organization",
+    "Country": "schema:Country",
+    "Regime": "schema:Thing",
+    "Announcement": "schema:NewsArticle",
+    "LegalInstrument": "schema:Legislation",
+    "id": "@id",
+    "type": "@type",
+    "name": "schema:name",
+    "full_name": "schema:name",
+    "names": {
+      "@id": "hasName",
+      "@container": "@set"
+    },
+    "is_primary": "schema:isPrimary",
+    "street": "schema:streetAddress",
+    "city": "schema:addressLocality",
+    "state": "schema:addressRegion",
+    "postal_code": "schema:postalCode",
+    "country": "schema:addressCountry",
+    "addresses": {
+      "@id": "hasAddress",
+      "@container": "@set"
+    },
+    "identifier": "schema:identifier",
+    "identifiers": {
+      "@id": "hasIdentifier",
+      "@container": "@set"
+    },
+    "value": "schema:value",
+    "issue_date": {
+      "@id": "schema:dateIssued",
+      "@type": "xsd:date"
+    },
+    "expiry_date": {
+      "@id": "expiryDate",
+      "@type": "xsd:date"
+    },
+    "birth_date": {
+      "@id": "schema:birthDate",
+      "@type": "xsd:date"
+    },
+    "birth_place": "schema:birthPlace",
+    "death_date": {
+      "@id": "schema:deathDate",
+      "@type": "xsd:date"
+    },
+    "gender": "schema:gender",
+    "nationality": "schema:nationality",
+    "nationalities": {
+      "@id": "schema:nationality",
+      "@container": "@set"
+    },
+    "registration_number": "schema:taxID",
+    "incorporation_country": "schema:foundingLocation",
+    "website": "schema:url",
+    "imo_number": "schema:serialNumber",
+    "flag_state": "schema:flag",
+    "status": "schema:status",
+    "listed_date": {
+      "@id": "listedDate",
+      "@type": "xsd:date"
+    },
+    "delisted_date": {
+      "@id": "delistedDate",
+      "@type": "xsd:date"
+    },
+    "measures": "schema:description",
+    "remarks": "schema:description",
+    "entity": {
+      "@id": "forEntity",
+      "@type": "@id"
+    },
+    "authority": {
+      "@id": "listedBy",
+      "@type": "@id"
+    },
+    "regime": {
+      "@id": "underRegime",
+      "@type": "@id"
+    },
+    "announcement": {
+      "@id": "publishedIn",
+      "@type": "@id"
+    },
+    "source": "schema:sourceOrganization",
+    "reference_number": "schema:identifier",
+    "url": "schema:url"
+  },
+  "@id": "az-oroszorszgi-fderci-tudomnyos-akadmijnak-az-a-f-i-5209",
+  "@type": "Organization",
+  "source": "eu",
+  "names": [
+    {
+      "name": "Ioffe Institute",
+      "is_primary": false
+    },
+    {
+      "name": "Physical-Technical Institute named after A.F. Ioffe",
+      "is_primary": false
+    },
+    {
+      "name": "ФТИ им. А.Ф. Иоффе",
+      "is_primary": false
+    },
+    {
+      "name": "Физико-технический институт имени А.Ф. Иоффе РАН",
+      "is_primary": false
+    },
+    {
+      "name": "den federala statligt finansierade institutionen för vetenskap och forskning A. F. Ioffe-institutet för fysik och teknik vid Ryska vetenskapsakademin",
+      "is_primary": false
+    },
+    {
+      "name": "Institutul fizico-tehnic denumit după A.F. Ioffe",
+      "is_primary": false
+    },
+    {
+      "name": "Institutul Ioffe",
+      "is_primary": false
+    },
+    {
+      "name": "Institutul de Fizică Ioffe",
+      "is_primary": false
+    },
+    {
+      "name": "Institutul de Fizică, Științe și Tehnologie finanțat de statul federal, denumit după A.F. Ioffe, al Academiei de Științe a Federației Ruse",
+      "is_primary": false
+    },
+    {
+      "name": "Instytut Fizyko-Techniczny im. Abrama Ioffego Rosyjskiej Akademii Nauk",
+      "is_primary": false
+    },
+    {
+      "name": "Instytut Ioffe (Instytut Ioffego)",
+      "is_primary": false
+    },
+    {
+      "name": "A.F. Iofféról elnevezett Fizikai-Technikai Intézet",
+      "is_primary": false
+    },
+    {
+      "name": "Ioffe Intézet",
+      "is_primary": false
+    },
+    {
+      "name": "Ioffe Physics Institute",
+      "is_primary": false
+    },
+    {
+      "name": "Федеральное государственное бюджетное учреждение науки Физико-технический институт им. А.Ф. Иоффе Российской академии наук",
+      "is_primary": false
+    },
+    {
+      "name": "Federal State-Financed Institution of Science Physics and Technology Institute Named After A.F. Ioffe of the Russian Federation Academy of Sciences",
+      "is_primary": false
+    },
+    {
+      "name": "Ioffe Fizikai Intézet",
+      "is_primary": false
+    },
+    {
+      "name": "az Oroszországi Föderáció Tudományos Akadémiájának az A. F. Iofféról elnevezett szövetségi állami finanszírozású Fizikai és Technológiai Intézete",
+      "is_primary": true
+    }
+  ],
+  "addresses": []
+}

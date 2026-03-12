@@ -1,0 +1,327 @@
+{
+  "@context": {
+    "@vocab": "https://www.ammitto.org/ontology/",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "Entity": "schema:Thing",
+    "Person": "schema:Person",
+    "Organization": "schema:Organization",
+    "Vessel": "schema:Vehicle",
+    "Aircraft": "schema:Vehicle",
+    "Name": "schema:Thing",
+    "Address": "schema:PostalAddress",
+    "Identifier": "schema:PropertyValue",
+    "Entry": "schema:Thing",
+    "Authority": "schema:Organization",
+    "Country": "schema:Country",
+    "Regime": "schema:Thing",
+    "Announcement": "schema:NewsArticle",
+    "LegalInstrument": "schema:Legislation",
+    "id": "@id",
+    "type": "@type",
+    "name": "schema:name",
+    "full_name": "schema:name",
+    "names": {
+      "@id": "hasName",
+      "@container": "@set"
+    },
+    "is_primary": "schema:isPrimary",
+    "street": "schema:streetAddress",
+    "city": "schema:addressLocality",
+    "state": "schema:addressRegion",
+    "postal_code": "schema:postalCode",
+    "country": "schema:addressCountry",
+    "addresses": {
+      "@id": "hasAddress",
+      "@container": "@set"
+    },
+    "identifier": "schema:identifier",
+    "identifiers": {
+      "@id": "hasIdentifier",
+      "@container": "@set"
+    },
+    "value": "schema:value",
+    "issue_date": {
+      "@id": "schema:dateIssued",
+      "@type": "xsd:date"
+    },
+    "expiry_date": {
+      "@id": "expiryDate",
+      "@type": "xsd:date"
+    },
+    "birth_date": {
+      "@id": "schema:birthDate",
+      "@type": "xsd:date"
+    },
+    "birth_place": "schema:birthPlace",
+    "death_date": {
+      "@id": "schema:deathDate",
+      "@type": "xsd:date"
+    },
+    "gender": "schema:gender",
+    "nationality": "schema:nationality",
+    "nationalities": {
+      "@id": "schema:nationality",
+      "@container": "@set"
+    },
+    "registration_number": "schema:taxID",
+    "incorporation_country": "schema:foundingLocation",
+    "website": "schema:url",
+    "imo_number": "schema:serialNumber",
+    "flag_state": "schema:flag",
+    "status": "schema:status",
+    "listed_date": {
+      "@id": "listedDate",
+      "@type": "xsd:date"
+    },
+    "delisted_date": {
+      "@id": "delistedDate",
+      "@type": "xsd:date"
+    },
+    "measures": "schema:description",
+    "remarks": "schema:description",
+    "entity": {
+      "@id": "forEntity",
+      "@type": "@id"
+    },
+    "authority": {
+      "@id": "listedBy",
+      "@type": "@id"
+    },
+    "regime": {
+      "@id": "underRegime",
+      "@type": "@id"
+    },
+    "announcement": {
+      "@id": "publishedIn",
+      "@type": "@id"
+    },
+    "source": "schema:sourceOrganization",
+    "reference_number": "schema:identifier",
+    "url": "schema:url"
+  },
+  "@id": "wizienie-fashafouyeh-fashafouyehgevangenis-priso-da-1974",
+  "@type": "Organization",
+  "source": "eu",
+  "names": [
+    {
+      "name": "Velká teheránská věznice",
+      "is_primary": false
+    },
+    {
+      "name": "Fashafouyehin vankila",
+      "is_primary": false
+    },
+    {
+      "name": "Velká teheránská ústřední věznice",
+      "is_primary": false
+    },
+    {
+      "name": "věznice Hasanabad-e Qom",
+      "is_primary": false
+    },
+    {
+      "name": "Więzienie Fashafouyeh",
+      "is_primary": true
+    },
+    {
+      "name": "Fashafouyehgevangenis",
+      "is_primary": false
+    },
+    {
+      "name": "Prisão da Grande Teerão",
+      "is_primary": false
+    },
+    {
+      "name": "Prisão Hasanabad-e Qom",
+      "is_primary": false
+    },
+    {
+      "name": "Penitenciária Central de Teerão",
+      "is_primary": false
+    },
+    {
+      "name": "Prisão de Fashafouyeh",
+      "is_primary": false
+    },
+    {
+      "name": "zapor Hasanabad-e Qom",
+      "is_primary": false
+    },
+    {
+      "name": "centralni zapor Teheran",
+      "is_primary": false
+    },
+    {
+      "name": "Zapor Fashafouyeh",
+      "is_primary": false
+    },
+    {
+      "name": "Väznica Fashafouyeh",
+      "is_primary": false
+    },
+    {
+      "name": "Închisoarea Fashafouyeh",
+      "is_primary": false
+    },
+    {
+      "name": "Fashafouyeh-fängelset",
+      "is_primary": false
+    },
+    {
+      "name": "Věznice Fašafújeh",
+      "is_primary": false
+    },
+    {
+      "name": "Hasanabad-e Qom-Gefängnis",
+      "is_primary": false
+    },
+    {
+      "name": "Teheraner Zentralgefängnis",
+      "is_primary": false
+    },
+    {
+      "name": "Fashafouyeh-Gefängnis",
+      "is_primary": false
+    },
+    {
+      "name": "Κεντρική φυλακή της Τεχεράνης",
+      "is_primary": false
+    },
+    {
+      "name": "Φυλακή Hasanabad-e Qom",
+      "is_primary": false
+    },
+    {
+      "name": "Ανώτερο κεντρικό σωφρονιστικό ίδρυμα της Τεχεράνης",
+      "is_primary": false
+    },
+    {
+      "name": "Φυλακή Fashafouyeh",
+      "is_primary": false
+    },
+    {
+      "name": "prigione della Grande Teheran",
+      "is_primary": false
+    },
+    {
+      "name": "prigione di Hasanabad-e Qom",
+      "is_primary": false
+    },
+    {
+      "name": "penitenziario centrale della Grande Teheran",
+      "is_primary": false
+    },
+    {
+      "name": "Prigione Fashafouyeh",
+      "is_primary": false
+    },
+    {
+      "name": "zatvor Hasanabad-e Qom",
+      "is_primary": false
+    },
+    {
+      "name": "središnji kazneni centar u Teheranu",
+      "is_primary": false
+    },
+    {
+      "name": "Zatvor Fashafouyeh",
+      "is_primary": false
+    },
+    {
+      "name": "Prison de Fashafouyeh",
+      "is_primary": false
+    },
+    {
+      "name": "didysis Teherano kalėjimas",
+      "is_primary": false
+    },
+    {
+      "name": "więzienie aglomeracji teherańskiej",
+      "is_primary": false
+    },
+    {
+      "name": "więzienie Hasanabad-e Qom",
+      "is_primary": false
+    },
+    {
+      "name": "główny zakład karny aglomeracji teherańskiej",
+      "is_primary": false
+    },
+    {
+      "name": "Príosún Fashafouyeh",
+      "is_primary": false
+    },
+    {
+      "name": "Fashafouyehfængslet",
+      "is_primary": false
+    },
+    {
+      "name": "Fashafouyehi börtön",
+      "is_primary": false
+    },
+    {
+      "name": "Hasanabad-eQom kalėjimas",
+      "is_primary": false
+    },
+    {
+      "name": "didysis Teherano centrinis kalėjimas",
+      "is_primary": false
+    },
+    {
+      "name": "Kalėjimas „Fashafouyeh“",
+      "is_primary": false
+    },
+    {
+      "name": "Ħabs ta’ Hasanabad-e Qom",
+      "is_primary": false
+    },
+    {
+      "name": "Penitenzjarju Ċentrali ta’ Greater Tehran",
+      "is_primary": false
+    },
+    {
+      "name": "Il-Ħabs ta’ Fashafouyeh",
+      "is_primary": false
+    },
+    {
+      "name": "Ħabs ta’ Greater Tehran",
+      "is_primary": false
+    },
+    {
+      "name": "Greater Tehran Prison",
+      "is_primary": false
+    },
+    {
+      "name": "Hasanabad-e Qom Prison",
+      "is_primary": false
+    },
+    {
+      "name": "Greater Tehran Central Penitentiary",
+      "is_primary": false
+    },
+    {
+      "name": "Fashafouyeh Prison",
+      "is_primary": false
+    },
+    {
+      "name": "prisión de Hasanabad-e Qom",
+      "is_primary": false
+    },
+    {
+      "name": "penitenciaría central de Gran Teherán",
+      "is_primary": false
+    },
+    {
+      "name": "Prisión de Fashafouyeh",
+      "is_primary": false
+    },
+    {
+      "name": "Затвор Fashafouyeh",
+      "is_primary": false
+    }
+  ],
+  "addresses": []
+}

@@ -1,0 +1,187 @@
+{
+  "@context": {
+    "@vocab": "https://www.ammitto.org/ontology/",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "Entity": "schema:Thing",
+    "Person": "schema:Person",
+    "Organization": "schema:Organization",
+    "Vessel": "schema:Vehicle",
+    "Aircraft": "schema:Vehicle",
+    "Name": "schema:Thing",
+    "Address": "schema:PostalAddress",
+    "Identifier": "schema:PropertyValue",
+    "Entry": "schema:Thing",
+    "Authority": "schema:Organization",
+    "Country": "schema:Country",
+    "Regime": "schema:Thing",
+    "Announcement": "schema:NewsArticle",
+    "LegalInstrument": "schema:Legislation",
+    "id": "@id",
+    "type": "@type",
+    "name": "schema:name",
+    "full_name": "schema:name",
+    "names": {
+      "@id": "hasName",
+      "@container": "@set"
+    },
+    "is_primary": "schema:isPrimary",
+    "street": "schema:streetAddress",
+    "city": "schema:addressLocality",
+    "state": "schema:addressRegion",
+    "postal_code": "schema:postalCode",
+    "country": "schema:addressCountry",
+    "addresses": {
+      "@id": "hasAddress",
+      "@container": "@set"
+    },
+    "identifier": "schema:identifier",
+    "identifiers": {
+      "@id": "hasIdentifier",
+      "@container": "@set"
+    },
+    "value": "schema:value",
+    "issue_date": {
+      "@id": "schema:dateIssued",
+      "@type": "xsd:date"
+    },
+    "expiry_date": {
+      "@id": "expiryDate",
+      "@type": "xsd:date"
+    },
+    "birth_date": {
+      "@id": "schema:birthDate",
+      "@type": "xsd:date"
+    },
+    "birth_place": "schema:birthPlace",
+    "death_date": {
+      "@id": "schema:deathDate",
+      "@type": "xsd:date"
+    },
+    "gender": "schema:gender",
+    "nationality": "schema:nationality",
+    "nationalities": {
+      "@id": "schema:nationality",
+      "@container": "@set"
+    },
+    "registration_number": "schema:taxID",
+    "incorporation_country": "schema:foundingLocation",
+    "website": "schema:url",
+    "imo_number": "schema:serialNumber",
+    "flag_state": "schema:flag",
+    "status": "schema:status",
+    "listed_date": {
+      "@id": "listedDate",
+      "@type": "xsd:date"
+    },
+    "delisted_date": {
+      "@id": "delistedDate",
+      "@type": "xsd:date"
+    },
+    "measures": "schema:description",
+    "remarks": "schema:description",
+    "entity": {
+      "@id": "forEntity",
+      "@type": "@id"
+    },
+    "authority": {
+      "@id": "listedBy",
+      "@type": "@id"
+    },
+    "regime": {
+      "@id": "underRegime",
+      "@type": "@id"
+    },
+    "announcement": {
+      "@id": "publishedIn",
+      "@type": "@id"
+    },
+    "source": "schema:sourceOrganization",
+    "reference_number": "schema:identifier",
+    "url": "schema:url"
+  },
+  "@id": "unia-donbaskich-ochotnikw-union-des-volontaires-du--3688",
+  "@type": "Organization",
+  "source": "eu",
+  "names": [
+    {
+      "name": "Zväz donbaských dobrovoľníkov",
+      "is_primary": false
+    },
+    {
+      "name": "Uniunea Voluntarilor din Donbas",
+      "is_primary": false
+    },
+    {
+      "name": "Union of Donbas Volunteers",
+      "is_primary": false
+    },
+    {
+      "name": "СОЮЗ ДОБРОВОЛЬЦЕВ ДОНБАССА",
+      "is_primary": false
+    },
+    {
+      "name": "Donbassi vabatahtlike liit",
+      "is_primary": false
+    },
+    {
+      "name": "Donbasa  brīvprātīgo savienība",
+      "is_primary": false
+    },
+    {
+      "name": "Donyec-medencei Önkéntesek Szövetsége",
+      "is_primary": false
+    },
+    {
+      "name": "Unjoni ta’ Voluntiera ta’ Donbas",
+      "is_primary": false
+    },
+    {
+      "name": "União dos Voluntários do Donbass",
+      "is_primary": false
+    },
+    {
+      "name": "Unione dei volontari  del Donbass",
+      "is_primary": false
+    },
+    {
+      "name": "Unión de Voluntarios de Dombás",
+      "is_primary": false
+    },
+    {
+      "name": "Freiwilligenunion des Donezkbeckens",
+      "is_primary": false
+    },
+    {
+      "name": "Donbassin vapaaehtoisten liitto",
+      "is_primary": false
+    },
+    {
+      "name": "Unija dragovoljaca Donbasa",
+      "is_primary": false
+    },
+    {
+      "name": "Съюзът на доброволците на Донбас",
+      "is_primary": false
+    },
+    {
+      "name": "Unie van Donbas-vrijwilligers",
+      "is_primary": false
+    },
+    {
+      "name": "zveza donbaških prostovoljcev",
+      "is_primary": false
+    },
+    {
+      "name": "Union des volontaires du Donbass",
+      "is_primary": false
+    },
+    {
+      "name": "Unia Donbaskich Ochotników",
+      "is_primary": true
+    }
+  ],
+  "addresses": []
+}

@@ -1,0 +1,195 @@
+{
+  "@context": {
+    "@vocab": "https://www.ammitto.org/ontology/",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "Entity": "schema:Thing",
+    "Person": "schema:Person",
+    "Organization": "schema:Organization",
+    "Vessel": "schema:Vehicle",
+    "Aircraft": "schema:Vehicle",
+    "Name": "schema:Thing",
+    "Address": "schema:PostalAddress",
+    "Identifier": "schema:PropertyValue",
+    "Entry": "schema:Thing",
+    "Authority": "schema:Organization",
+    "Country": "schema:Country",
+    "Regime": "schema:Thing",
+    "Announcement": "schema:NewsArticle",
+    "LegalInstrument": "schema:Legislation",
+    "id": "@id",
+    "type": "@type",
+    "name": "schema:name",
+    "full_name": "schema:name",
+    "names": {
+      "@id": "hasName",
+      "@container": "@set"
+    },
+    "is_primary": "schema:isPrimary",
+    "street": "schema:streetAddress",
+    "city": "schema:addressLocality",
+    "state": "schema:addressRegion",
+    "postal_code": "schema:postalCode",
+    "country": "schema:addressCountry",
+    "addresses": {
+      "@id": "hasAddress",
+      "@container": "@set"
+    },
+    "identifier": "schema:identifier",
+    "identifiers": {
+      "@id": "hasIdentifier",
+      "@container": "@set"
+    },
+    "value": "schema:value",
+    "issue_date": {
+      "@id": "schema:dateIssued",
+      "@type": "xsd:date"
+    },
+    "expiry_date": {
+      "@id": "expiryDate",
+      "@type": "xsd:date"
+    },
+    "birth_date": {
+      "@id": "schema:birthDate",
+      "@type": "xsd:date"
+    },
+    "birth_place": "schema:birthPlace",
+    "death_date": {
+      "@id": "schema:deathDate",
+      "@type": "xsd:date"
+    },
+    "gender": "schema:gender",
+    "nationality": "schema:nationality",
+    "nationalities": {
+      "@id": "schema:nationality",
+      "@container": "@set"
+    },
+    "registration_number": "schema:taxID",
+    "incorporation_country": "schema:foundingLocation",
+    "website": "schema:url",
+    "imo_number": "schema:serialNumber",
+    "flag_state": "schema:flag",
+    "status": "schema:status",
+    "listed_date": {
+      "@id": "listedDate",
+      "@type": "xsd:date"
+    },
+    "delisted_date": {
+      "@id": "delistedDate",
+      "@type": "xsd:date"
+    },
+    "measures": "schema:description",
+    "remarks": "schema:description",
+    "entity": {
+      "@id": "forEntity",
+      "@type": "@id"
+    },
+    "authority": {
+      "@id": "listedBy",
+      "@type": "@id"
+    },
+    "regime": {
+      "@id": "underRegime",
+      "@type": "@id"
+    },
+    "announcement": {
+      "@id": "publishedIn",
+      "@type": "@id"
+    },
+    "source": "schema:sourceOrganization",
+    "reference_number": "schema:identifier",
+    "url": "schema:url"
+  },
+  "@id": "prywatne-przedsibiorstwo-wojskowe-redut-pmc-redoubt-4397",
+  "@type": "Organization",
+  "source": "eu",
+  "names": [
+    {
+      "name": "Редут-Антитеррор",
+      "is_primary": false
+    },
+    {
+      "name": "ООО “РЕДУТ-БЕЗОПАСНОСТЬ”",
+      "is_primary": false
+    },
+    {
+      "name": "société militaire privée Redut",
+      "is_primary": false
+    },
+    {
+      "name": "privates Militärunternehmen Redut",
+      "is_primary": false
+    },
+    {
+      "name": "società militare privata Redut",
+      "is_primary": false
+    },
+    {
+      "name": "Gruparea militară privată Redut",
+      "is_primary": false
+    },
+    {
+      "name": "Privatno vojno društvo Redut",
+      "is_primary": false
+    },
+    {
+      "name": "soukromá vojenská společnost Redut",
+      "is_primary": false
+    },
+    {
+      "name": "Erőd katonai magánvállalat",
+      "is_primary": false
+    },
+    {
+      "name": "Redut katonai magánvállalat",
+      "is_primary": false
+    },
+    {
+      "name": "Empresa Militar Privada Redut",
+      "is_primary": false
+    },
+    {
+      "name": "Empresa Militar Privada Redut",
+      "is_primary": false
+    },
+    {
+      "name": "Súkromná vojenská spoločnosť Redut",
+      "is_primary": false
+    },
+    {
+      "name": "Det privata militära företaget Redut",
+      "is_primary": false
+    },
+    {
+      "name": "PMC Redut",
+      "is_primary": false
+    },
+    {
+      "name": "ЧВК Редут",
+      "is_primary": false
+    },
+    {
+      "name": "private militære virksomhed Redut",
+      "is_primary": false
+    },
+    {
+      "name": "ιδιωτική στρατιωτική εταιρεία Redut",
+      "is_primary": false
+    },
+    {
+      "name": "Частното военно дружество Redut",
+      "is_primary": false
+    },
+    {
+      "name": "PMC Redoubt",
+      "is_primary": false
+    },
+    {
+      "name": "Prywatne przedsiębiorstwo wojskowe Redut",
+      "is_primary": true
+    }
+  ],
+  "addresses": []
+}

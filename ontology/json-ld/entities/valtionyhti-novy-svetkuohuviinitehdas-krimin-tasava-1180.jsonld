@@ -1,0 +1,387 @@
+{
+  "@context": {
+    "@vocab": "https://www.ammitto.org/ontology/",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "Entity": "schema:Thing",
+    "Person": "schema:Person",
+    "Organization": "schema:Organization",
+    "Vessel": "schema:Vehicle",
+    "Aircraft": "schema:Vehicle",
+    "Name": "schema:Thing",
+    "Address": "schema:PostalAddress",
+    "Identifier": "schema:PropertyValue",
+    "Entry": "schema:Thing",
+    "Authority": "schema:Organization",
+    "Country": "schema:Country",
+    "Regime": "schema:Thing",
+    "Announcement": "schema:NewsArticle",
+    "LegalInstrument": "schema:Legislation",
+    "id": "@id",
+    "type": "@type",
+    "name": "schema:name",
+    "full_name": "schema:name",
+    "names": {
+      "@id": "hasName",
+      "@container": "@set"
+    },
+    "is_primary": "schema:isPrimary",
+    "street": "schema:streetAddress",
+    "city": "schema:addressLocality",
+    "state": "schema:addressRegion",
+    "postal_code": "schema:postalCode",
+    "country": "schema:addressCountry",
+    "addresses": {
+      "@id": "hasAddress",
+      "@container": "@set"
+    },
+    "identifier": "schema:identifier",
+    "identifiers": {
+      "@id": "hasIdentifier",
+      "@container": "@set"
+    },
+    "value": "schema:value",
+    "issue_date": {
+      "@id": "schema:dateIssued",
+      "@type": "xsd:date"
+    },
+    "expiry_date": {
+      "@id": "expiryDate",
+      "@type": "xsd:date"
+    },
+    "birth_date": {
+      "@id": "schema:birthDate",
+      "@type": "xsd:date"
+    },
+    "birth_place": "schema:birthPlace",
+    "death_date": {
+      "@id": "schema:deathDate",
+      "@type": "xsd:date"
+    },
+    "gender": "schema:gender",
+    "nationality": "schema:nationality",
+    "nationalities": {
+      "@id": "schema:nationality",
+      "@container": "@set"
+    },
+    "registration_number": "schema:taxID",
+    "incorporation_country": "schema:foundingLocation",
+    "website": "schema:url",
+    "imo_number": "schema:serialNumber",
+    "flag_state": "schema:flag",
+    "status": "schema:status",
+    "listed_date": {
+      "@id": "listedDate",
+      "@type": "xsd:date"
+    },
+    "delisted_date": {
+      "@id": "delistedDate",
+      "@type": "xsd:date"
+    },
+    "measures": "schema:description",
+    "remarks": "schema:description",
+    "entity": {
+      "@id": "forEntity",
+      "@type": "@id"
+    },
+    "authority": {
+      "@id": "listedBy",
+      "@type": "@id"
+    },
+    "regime": {
+      "@id": "underRegime",
+      "@type": "@id"
+    },
+    "announcement": {
+      "@id": "publishedIn",
+      "@type": "@id"
+    },
+    "source": "schema:sourceOrganization",
+    "reference_number": "schema:identifier",
+    "url": "schema:url"
+  },
+  "@id": "valtionyhti-novy-svetkuohuviinitehdas-krimin-tasava-1180",
+  "@type": "Organization",
+  "source": "eu",
+  "names": [
+    {
+      "name": "State unitary enterprise of the 'Republic of Crimea' 'Sparkling wine plant \"Novy Svet\"'",
+      "is_primary": false
+    },
+    {
+      "name": "Delniška družba ‚Tovarna penečega vina ‚Novi svet‘‘",
+      "is_primary": false
+    },
+    {
+      "name": "državno unitarno podjetje ‚Republike Krim‘ ‚Tovarna  penečega vina ‚Novi svet‘‘",
+      "is_primary": false
+    },
+    {
+      "name": "državno podjetje penečega vina \"Novi Svet‘‘",
+      "is_primary": false
+    },
+    {
+      "name": "štátny podnik – ‚Závod  šumivého vína «Novy Svet»",
+      "is_primary": false
+    },
+    {
+      "name": ",državno poduzeće  Tvornica pjenušca ‚Novy Svet’",
+      "is_primary": false
+    },
+    {
+      "name": "Aktieselskabet »Sparkling wine plant »Novy Svet««",
+      "is_primary": false
+    },
+    {
+      "name": "»Republikken Krims« statsejede virksomhed »Sparkling wine plant »Novy Svet««",
+      "is_primary": false
+    },
+    {
+      "name": "Aktiengesellschaft „Schaumweinhersteller ‚Novy Svet‘“",
+      "is_primary": false
+    },
+    {
+      "name": "Staatliches Einheitsunternehmen der „Republik Krim“„Schaumweinhersteller ‚Novy Svet‘“",
+      "is_primary": false
+    },
+    {
+      "name": "Εταιρία κατά μετοχές “Μονάδα αφρώδους οίνου ‘Novy Svet’”",
+      "is_primary": false
+    },
+    {
+      "name": "Κρατική ενιαία επιχείρηση της “Δημοκρατίας της Κριμαίας”“Μονάδα αφρώδους οίνου ‘Novy Svet’”",
+      "is_primary": false
+    },
+    {
+      "name": "Акционерно дружество „Завод за шампанизирани вина „Новый свет“",
+      "is_primary": false
+    },
+    {
+      "name": "Sociedad anónima “Planta de vino espumoso ‘Novy Svet’”",
+      "is_primary": false
+    },
+    {
+      "name": "Empresa Unitaria Estatal de la “República de Crimea”“Planta de vino espumoso ‘Novy Svet’”",
+      "is_primary": false
+    },
+    {
+      "name": "Akciová společnost „ ‚Novy Svet‘, výrobce šumivých vín“",
+      "is_primary": false
+    },
+    {
+      "name": "státní jednotný podnik „Republiky Krym“„ ‚Novy Svet‘, výrobce šumivých vín“",
+      "is_primary": false
+    },
+    {
+      "name": "Государственное предприятие Завод шампанских вин ‘Новый свет’ (Gosudarstvenoye predpriyatiye Zavod shampanskykh vin ‘Novy Svet’)",
+      "is_primary": false
+    },
+    {
+      "name": "Государственное унитарное предприятие Республики Крым ‘Завод шампанских вин “Новый Свет”’",
+      "is_primary": false
+    },
+    {
+      "name": "valtionyhtiö ””Novy Svet”-kuohuviinitehdas”",
+      "is_primary": true
+    },
+    {
+      "name": "”Krimin tasavallan” omistama valtion unitaarinen yritys ””Novy Svet” -kuohuviinitehdas",
+      "is_primary": false
+    },
+    {
+      "name": "impresa unitaria statale della “Repubblica di Crimea”“impianto di vino spumante ‘Novy Svet’”",
+      "is_primary": false
+    },
+    {
+      "name": "državno unitarno poduzeće „Republike Krima”„Tvornica pjenušca ‚Novy Svet’”",
+      "is_primary": false
+    },
+    {
+      "name": "Dioničko društvo „Tvornica pjenušca ‚Novy Svet’”",
+      "is_primary": false
+    },
+    {
+      "name": "Cuideachta chomhstoic ‘Sparkling  wine plant “Novy Svet”’",
+      "is_primary": false
+    },
+    {
+      "name": "“Krimas  Republikas” valsts unitārs uzņēmums “Sparkling wine plant  “Novy Svet”",
+      "is_primary": false
+    },
+    {
+      "name": "riigiettevõte „Sparkling wine  plant „Novy Svet““",
+      "is_primary": false
+    },
+    {
+      "name": "Държавно единно предприятие на „Република  Крим“ „Завод за шампанизирани вина „Новый свет“",
+      "is_primary": false
+    },
+    {
+      "name": "Cuideachta chomhstoic ‘Sparkling wine plant ‘Novy Svet’",
+      "is_primary": false
+    },
+    {
+      "name": "entreprise unitaire d’État de la “République de Crimée” “Entreprise de vin mousseux ‘Novy Svet’",
+      "is_primary": false
+    },
+    {
+      "name": "Société anonyme “Entreprise de vin mousseux ‘Novy Svet’”",
+      "is_primary": false
+    },
+    {
+      "name": "Intrapriża statali unitarja tar-“Repubblika tal-Krimea” l-“Impjant tal-inbid effervexxenti ‘Novy Svet’”",
+      "is_primary": false
+    },
+    {
+      "name": "Kumpannija b’ishma konġunti “Impjant tal-inbid effervexxenti ‘Novy Svet’”",
+      "is_primary": false
+    },
+    {
+      "name": "„Novij Szvet” Pezsgőgyár, a „Krími Köztársaság” állami egységes vállalata",
+      "is_primary": false
+    },
+    {
+      "name": "„Novij Szvet” Pezsgőgyár részvénytársaság",
+      "is_primary": false
+    },
+    {
+      "name": "„Krymo Respublikos“ valstybės unitarinė įmonė „Putojančio vyno gamykla „Novy Svet““",
+      "is_primary": false
+    },
+    {
+      "name": "Akcinė bendrovė „Putojančio vyno gamykla „Novy Svet““",
+      "is_primary": false
+    },
+    {
+      "name": "“Krimas Republikas” valsts unitārs uzņēmums “Sparkling wine plant “Novy Svet””",
+      "is_primary": false
+    },
+    {
+      "name": "empresa unitária estatal da «República da Crimeia», Caves de vinhos espumantes «Novy Svet»",
+      "is_primary": false
+    },
+    {
+      "name": "Sociedade por ações Caves de vinhos espumantes «Novy Svet»",
+      "is_primary": false
+    },
+    {
+      "name": "jednolite przedsiębiorstwo państwowe »Republiki Krymu«»Fabryka Wina Musującego ‘Nowyj Swiet’«",
+      "is_primary": false
+    },
+    {
+      "name": "Spółka akcyjna »Fabryka Wina Musującego ‘Nowyj Swiet’«",
+      "is_primary": false
+    },
+    {
+      "name": "State unitary enterprise van de “Republiek Krim”“Schuimwijnfabriek “Novy Svet””",
+      "is_primary": false
+    },
+    {
+      "name": "Aandelenvennootschap “Schuimwijnfabriek “Novy Svet”",
+      "is_primary": false
+    },
+    {
+      "name": "”Republiken Krims” statliga företag ”Sparkling wine plant ’Novy Svet’”",
+      "is_primary": false
+    },
+    {
+      "name": "Aktiebolaget ”Sparkling wine plant ’Novy Svet’”",
+      "is_primary": false
+    },
+    {
+      "name": "”Krimin tasavallan” omistama valtion unitaarinen yritys ”’Novy Svet’ -kuohuviinitehdas”",
+      "is_primary": false
+    },
+    {
+      "name": "Osakeyhtiö ”’Novy Svet’ -kuohuviinitehdas”",
+      "is_primary": false
+    },
+    {
+      "name": "državno unitarno podjetje ‚Republike Krim‘‚Tovarna penečega vina ‚Novij svet‘‘",
+      "is_primary": false
+    },
+    {
+      "name": "Spółka akcyjna – Fabryka Wina  Musującego „Nowyj Swiet”",
+      "is_primary": false
+    },
+    {
+      "name": "państwowe przedsiębiorstwo unitarne „Republiki Krymu” „Fabryka Wina Musującego »Nowyj Swiet«”",
+      "is_primary": false
+    },
+    {
+      "name": "Societatea pe acțiuni «Sparkling wine  plant „Novy Svet”»",
+      "is_primary": false
+    },
+    {
+      "name": "Fabrica de vin spumos „Novy Svet”",
+      "is_primary": false
+    },
+    {
+      "name": "întreprindere unitară de stat a «Republicii Crimeea» purtând denumirea «Sparkling wine plant  „Novy Svet”»",
+      "is_primary": false
+    },
+    {
+      "name": "Société anonyme “Entreprise de vin mousseux “Novy Svet”“",
+      "is_primary": false
+    },
+    {
+      "name": "empresa estatal de caves de vinhos espumantes \"Novy Svet\"",
+      "is_primary": false
+    },
+    {
+      "name": "State enterprise sparkling wine plant ‘Novy Svet’",
+      "is_primary": false
+    },
+    {
+      "name": "„Novij Szvet” Pezsgőgyár  részvénytársaság",
+      "is_primary": false
+    },
+    {
+      "name": "„Zavod shampanskykh vin »Novy  Svet«” és „Novij Szvet” állami  pezsgőgyár",
+      "is_primary": false
+    },
+    {
+      "name": "„Novij Szvet”  Pezsgőgyár, a „Krími  Köztársaság”  állami egységes vállalata",
+      "is_primary": false
+    },
+    {
+      "name": "Státní  podnik »Novy Svet«, výrobce  šumivých vín",
+      "is_primary": false
+    },
+    {
+      "name": "Delniška družba ‚Tovarna penečega vina ‚Novij svet‘‘",
+      "is_primary": false
+    },
+    {
+      "name": "Štátny unitárny podnik „Krymskej republiky“ – „Závod šumivého vína ‚Novy Svet‘“",
+      "is_primary": false
+    },
+    {
+      "name": "Akciová spoločnosť – „Závod šumivého vína ‚Novy Svet‘“",
+      "is_primary": false
+    },
+    {
+      "name": "întreprindere unitară de stat a „Republicii Crimeea» purtând denumirea «Fabrica de vin spumos „Novy Svet”»",
+      "is_primary": false
+    },
+    {
+      "name": "Societatea pe acțiuni «Fabrica de vin spumos „Novy Svet”»",
+      "is_primary": false
+    },
+    {
+      "name": "Joint-stock company 'Sparkling wine plant \"Novy Svet\"'",
+      "is_primary": false
+    },
+    {
+      "name": "Aкционерное общество ‘Завод шампанских вин “Новый Свет”’",
+      "is_primary": false
+    },
+    {
+      "name": "Gosudarstvennoye unitarnoye predpriyatiye Respubliki Krym ‘Zavod shampanskykh vin “Novy Svet”’ and as State enterprise sparkling wine plant ‘Novy Svet’",
+      "is_primary": false
+    }
+  ],
+  "addresses": []
+}

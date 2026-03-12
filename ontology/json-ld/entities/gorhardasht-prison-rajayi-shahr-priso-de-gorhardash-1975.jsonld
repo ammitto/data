@@ -1,0 +1,371 @@
+{
+  "@context": {
+    "@vocab": "https://www.ammitto.org/ontology/",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "Entity": "schema:Thing",
+    "Person": "schema:Person",
+    "Organization": "schema:Organization",
+    "Vessel": "schema:Vehicle",
+    "Aircraft": "schema:Vehicle",
+    "Name": "schema:Thing",
+    "Address": "schema:PostalAddress",
+    "Identifier": "schema:PropertyValue",
+    "Entry": "schema:Thing",
+    "Authority": "schema:Organization",
+    "Country": "schema:Country",
+    "Regime": "schema:Thing",
+    "Announcement": "schema:NewsArticle",
+    "LegalInstrument": "schema:Legislation",
+    "id": "@id",
+    "type": "@type",
+    "name": "schema:name",
+    "full_name": "schema:name",
+    "names": {
+      "@id": "hasName",
+      "@container": "@set"
+    },
+    "is_primary": "schema:isPrimary",
+    "street": "schema:streetAddress",
+    "city": "schema:addressLocality",
+    "state": "schema:addressRegion",
+    "postal_code": "schema:postalCode",
+    "country": "schema:addressCountry",
+    "addresses": {
+      "@id": "hasAddress",
+      "@container": "@set"
+    },
+    "identifier": "schema:identifier",
+    "identifiers": {
+      "@id": "hasIdentifier",
+      "@container": "@set"
+    },
+    "value": "schema:value",
+    "issue_date": {
+      "@id": "schema:dateIssued",
+      "@type": "xsd:date"
+    },
+    "expiry_date": {
+      "@id": "expiryDate",
+      "@type": "xsd:date"
+    },
+    "birth_date": {
+      "@id": "schema:birthDate",
+      "@type": "xsd:date"
+    },
+    "birth_place": "schema:birthPlace",
+    "death_date": {
+      "@id": "schema:deathDate",
+      "@type": "xsd:date"
+    },
+    "gender": "schema:gender",
+    "nationality": "schema:nationality",
+    "nationalities": {
+      "@id": "schema:nationality",
+      "@container": "@set"
+    },
+    "registration_number": "schema:taxID",
+    "incorporation_country": "schema:foundingLocation",
+    "website": "schema:url",
+    "imo_number": "schema:serialNumber",
+    "flag_state": "schema:flag",
+    "status": "schema:status",
+    "listed_date": {
+      "@id": "listedDate",
+      "@type": "xsd:date"
+    },
+    "delisted_date": {
+      "@id": "delistedDate",
+      "@type": "xsd:date"
+    },
+    "measures": "schema:description",
+    "remarks": "schema:description",
+    "entity": {
+      "@id": "forEntity",
+      "@type": "@id"
+    },
+    "authority": {
+      "@id": "listedBy",
+      "@type": "@id"
+    },
+    "regime": {
+      "@id": "underRegime",
+      "@type": "@id"
+    },
+    "announcement": {
+      "@id": "publishedIn",
+      "@type": "@id"
+    },
+    "source": "schema:sourceOrganization",
+    "reference_number": "schema:identifier",
+    "url": "schema:url"
+  },
+  "@id": "gorhardasht-prison-rajayi-shahr-priso-de-gorhardash-1975",
+  "@type": "Organization",
+  "source": "eu",
+  "names": [
+    {
+      "name": "Ħabs ta’ Gorhardasht",
+      "is_primary": false
+    },
+    {
+      "name": "Gohar Dasht Prison",
+      "is_primary": false
+    },
+    {
+      "name": "Rajaee Shahr-fængslet",
+      "is_primary": false
+    },
+    {
+      "name": "Príosún Rajaee Shahr",
+      "is_primary": false
+    },
+    {
+      "name": "Príosún Rajai Shahr",
+      "is_primary": false
+    },
+    {
+      "name": "Príosún Gorhardasht",
+      "is_primary": false
+    },
+    {
+      "name": "Príosún Gohar Dasht",
+      "is_primary": false
+    },
+    {
+      "name": "Rajaee Shahr börtön",
+      "is_primary": false
+    },
+    {
+      "name": "Rajaee Shahrin vankila",
+      "is_primary": false
+    },
+    {
+      "name": "Prisão de Gohar Dasht",
+      "is_primary": false
+    },
+    {
+      "name": "więzienie Gorhardasht",
+      "is_primary": false
+    },
+    {
+      "name": "więzienie Gohar Dasht",
+      "is_primary": false
+    },
+    {
+      "name": "Więzienie Rajaee Shahr",
+      "is_primary": false
+    },
+    {
+      "name": "więzienie Rajai Shahr",
+      "is_primary": false
+    },
+    {
+      "name": "Rajaee Shahrgevangenis",
+      "is_primary": false
+    },
+    {
+      "name": "Gorhardasht Prison",
+      "is_primary": true
+    },
+    {
+      "name": "Rajayi Shahr",
+      "is_primary": false
+    },
+    {
+      "name": "Prisão de Gorhardasht",
+      "is_primary": false
+    },
+    {
+      "name": "Prisão de Rajai Shahr",
+      "is_primary": false
+    },
+    {
+      "name": "Prisão de Rajaee Shahr",
+      "is_primary": false
+    },
+    {
+      "name": "Închisoarea Gohar Dasht",
+      "is_primary": false
+    },
+    {
+      "name": "Închisoarea Gorhardasht",
+      "is_primary": false
+    },
+    {
+      "name": "Închisoarea Rajai Shahr",
+      "is_primary": false
+    },
+    {
+      "name": "Închisoarea Rajaee Shahr",
+      "is_primary": false
+    },
+    {
+      "name": "zapor Gohar Dasht",
+      "is_primary": false
+    },
+    {
+      "name": "zapor Gorhardasht",
+      "is_primary": false
+    },
+    {
+      "name": "zapor Rajai Shahr",
+      "is_primary": false
+    },
+    {
+      "name": "Zapor Rajaee Shahr",
+      "is_primary": false
+    },
+    {
+      "name": "Väznica Rajaee Shahr",
+      "is_primary": false
+    },
+    {
+      "name": "Rajaee Shahr-fängelset",
+      "is_primary": false
+    },
+    {
+      "name": "Reja’i Shahr",
+      "is_primary": false
+    },
+    {
+      "name": "Raja’i Shahr",
+      "is_primary": false
+    },
+    {
+      "name": "Rajaishahr",
+      "is_primary": false
+    },
+    {
+      "name": "Rajai Shahr Prison",
+      "is_primary": false
+    },
+    {
+      "name": "Rajaee Shahr Prison",
+      "is_primary": false
+    },
+    {
+      "name": "затвор Rajaee Shahr",
+      "is_primary": false
+    },
+    {
+      "name": "prisión de Gohar Dasht",
+      "is_primary": false
+    },
+    {
+      "name": "prisión de Gorhardasht",
+      "is_primary": false
+    },
+    {
+      "name": "prisión de Rajai Shahr",
+      "is_primary": false
+    },
+    {
+      "name": "Prisión de Rajaee Shahr",
+      "is_primary": false
+    },
+    {
+      "name": "věznice Gohar Dasht",
+      "is_primary": false
+    },
+    {
+      "name": "věznice Gorhardasht",
+      "is_primary": false
+    },
+    {
+      "name": "věznice Rajai Shahr",
+      "is_primary": false
+    },
+    {
+      "name": "Věznice Radžaj-Šahr",
+      "is_primary": false
+    },
+    {
+      "name": "Gohar-Dasht-Gefängnis",
+      "is_primary": false
+    },
+    {
+      "name": "Gorhardasht-Gefängnis",
+      "is_primary": false
+    },
+    {
+      "name": "Rajai-Shahr-Gefängnis",
+      "is_primary": false
+    },
+    {
+      "name": "Rajaee-Shahr-Gefängnis",
+      "is_primary": false
+    },
+    {
+      "name": "φυλακή Gohar Dasht",
+      "is_primary": false
+    },
+    {
+      "name": "φυλακή Gorhardasht",
+      "is_primary": false
+    },
+    {
+      "name": "Φυλακή Rajai Shahr",
+      "is_primary": false
+    },
+    {
+      "name": "Φυλακή Rajaee Shahr",
+      "is_primary": false
+    },
+    {
+      "name": "Prison de Rajaee Shahr",
+      "is_primary": false
+    },
+    {
+      "name": "zatvor Gohar Dasht",
+      "is_primary": false
+    },
+    {
+      "name": "zatvor Gorhardasht",
+      "is_primary": false
+    },
+    {
+      "name": "zatvor Rajai Shahr",
+      "is_primary": false
+    },
+    {
+      "name": "Zatvor Rajaee Shahr",
+      "is_primary": false
+    },
+    {
+      "name": "prigione Gohar Dasht",
+      "is_primary": false
+    },
+    {
+      "name": "prigione Gorhardasht",
+      "is_primary": false
+    },
+    {
+      "name": "prigione Rajai Shahr",
+      "is_primary": false
+    },
+    {
+      "name": "Prigione Rajaee Shahr",
+      "is_primary": false
+    },
+    {
+      "name": "Kalėjimas „Rajaee Shahr“",
+      "is_primary": false
+    },
+    {
+      "name": "il-Ħabs ta’ Rajai Shahr",
+      "is_primary": false
+    },
+    {
+      "name": "Il-Ħabs ta’ Rajaee Shahr",
+      "is_primary": false
+    },
+    {
+      "name": "Ħabs ta’ Gohar Dasht",
+      "is_primary": false
+    }
+  ],
+  "addresses": []
+}

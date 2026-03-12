@@ -1,0 +1,535 @@
+{
+  "@context": {
+    "@vocab": "https://www.ammitto.org/ontology/",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "Entity": "schema:Thing",
+    "Person": "schema:Person",
+    "Organization": "schema:Organization",
+    "Vessel": "schema:Vehicle",
+    "Aircraft": "schema:Vehicle",
+    "Name": "schema:Thing",
+    "Address": "schema:PostalAddress",
+    "Identifier": "schema:PropertyValue",
+    "Entry": "schema:Thing",
+    "Authority": "schema:Organization",
+    "Country": "schema:Country",
+    "Regime": "schema:Thing",
+    "Announcement": "schema:NewsArticle",
+    "LegalInstrument": "schema:Legislation",
+    "id": "@id",
+    "type": "@type",
+    "name": "schema:name",
+    "full_name": "schema:name",
+    "names": {
+      "@id": "hasName",
+      "@container": "@set"
+    },
+    "is_primary": "schema:isPrimary",
+    "street": "schema:streetAddress",
+    "city": "schema:addressLocality",
+    "state": "schema:addressRegion",
+    "postal_code": "schema:postalCode",
+    "country": "schema:addressCountry",
+    "addresses": {
+      "@id": "hasAddress",
+      "@container": "@set"
+    },
+    "identifier": "schema:identifier",
+    "identifiers": {
+      "@id": "hasIdentifier",
+      "@container": "@set"
+    },
+    "value": "schema:value",
+    "issue_date": {
+      "@id": "schema:dateIssued",
+      "@type": "xsd:date"
+    },
+    "expiry_date": {
+      "@id": "expiryDate",
+      "@type": "xsd:date"
+    },
+    "birth_date": {
+      "@id": "schema:birthDate",
+      "@type": "xsd:date"
+    },
+    "birth_place": "schema:birthPlace",
+    "death_date": {
+      "@id": "schema:deathDate",
+      "@type": "xsd:date"
+    },
+    "gender": "schema:gender",
+    "nationality": "schema:nationality",
+    "nationalities": {
+      "@id": "schema:nationality",
+      "@container": "@set"
+    },
+    "registration_number": "schema:taxID",
+    "incorporation_country": "schema:foundingLocation",
+    "website": "schema:url",
+    "imo_number": "schema:serialNumber",
+    "flag_state": "schema:flag",
+    "status": "schema:status",
+    "listed_date": {
+      "@id": "listedDate",
+      "@type": "xsd:date"
+    },
+    "delisted_date": {
+      "@id": "delistedDate",
+      "@type": "xsd:date"
+    },
+    "measures": "schema:description",
+    "remarks": "schema:description",
+    "entity": {
+      "@id": "forEntity",
+      "@type": "@id"
+    },
+    "authority": {
+      "@id": "listedBy",
+      "@type": "@id"
+    },
+    "regime": {
+      "@id": "underRegime",
+      "@type": "@id"
+    },
+    "announcement": {
+      "@id": "publishedIn",
+      "@type": "@id"
+    },
+    "source": "schema:sourceOrganization",
+    "reference_number": "schema:identifier",
+    "url": "schema:url"
+  },
+  "@id": "eagraocht-slndla-seachtra-organizzazione-per-la-sic-1052",
+  "@type": "Organization",
+  "source": "eu",
+  "names": [
+    {
+      "name": "Militaire vleugel van Hezbollah",
+      "is_primary": false
+    },
+    {
+      "name": "Ala militar de Hizbulá",
+      "is_primary": false
+    },
+    {
+      "name": "Consejo de la Yihad",
+      "is_primary": false
+    },
+    {
+      "name": "Vojenské křídlo Hizballáhu",
+      "is_primary": false
+    },
+    {
+      "name": "Hizballahi sõjaline tiib",
+      "is_primary": false
+    },
+    {
+      "name": "Džihaadi Nõukogu",
+      "is_primary": false
+    },
+    {
+      "name": "Στρατιωτική πτέρυγα της Χεζμπολάχ",
+      "is_primary": false
+    },
+    {
+      "name": "Συμβούλιο της Τζιχάντ",
+      "is_primary": false
+    },
+    {
+      "name": "Branche militaire du Hezbollah",
+      "is_primary": false
+    },
+    {
+      "name": "Sciathán Míleata Hizbollah",
+      "is_primary": false
+    },
+    {
+      "name": "Comhairle Jiohád",
+      "is_primary": false
+    },
+    {
+      "name": "Vojno krilo Hezbolaha",
+      "is_primary": false
+    },
+    {
+      "name": "Vijeće džihada",
+      "is_primary": false
+    },
+    {
+      "name": "Consiglio della Jihad",
+      "is_primary": false
+    },
+    {
+      "name": "Hizballah karinis sparnas",
+      "is_primary": false
+    },
+    {
+      "name": "Džihado taryba",
+      "is_primary": false
+    },
+    {
+      "name": "Hizballah Katonai Szárny",
+      "is_primary": false
+    },
+    {
+      "name": "Dzsihád Tanács",
+      "is_primary": false
+    },
+    {
+      "name": "Il-Fergħa Militari ta' Hizballah",
+      "is_primary": false
+    },
+    {
+      "name": "l-\"Kunsill tal-Ġihad",
+      "is_primary": false
+    },
+    {
+      "name": "Wojskowe Skrzydło Hizballah",
+      "is_primary": false
+    },
+    {
+      "name": "Rada Dżihadu",
+      "is_primary": false
+    },
+    {
+      "name": "Conselho da Jiade",
+      "is_primary": false
+    },
+    {
+      "name": "Vojenské krídlo Hizballáhu",
+      "is_primary": false
+    },
+    {
+      "name": "Vojaško krilo Hezbolaha",
+      "is_primary": false
+    },
+    {
+      "name": "Hizbollahs väpnade gren",
+      "is_primary": false
+    },
+    {
+      "name": "External Security Organisation",
+      "is_primary": false
+    },
+    {
+      "name": "Militaire vleugel van Hizballah",
+      "is_primary": false
+    },
+    {
+      "name": "Militaire vleugel van Hizbullah",
+      "is_primary": false
+    },
+    {
+      "name": "Militaire vleugel van Hizbollah",
+      "is_primary": false
+    },
+    {
+      "name": "Militaire vleugel van Hezballah",
+      "is_primary": false
+    },
+    {
+      "name": "Militaire vleugel van Hisbollah",
+      "is_primary": false
+    },
+    {
+      "name": "Militaire vleugel van Hizbu'llah",
+      "is_primary": false
+    },
+    {
+      "name": "Consiliul Jihadului",
+      "is_primary": false
+    },
+    {
+      "name": "aripa militară a Hezbollahului",
+      "is_primary": false
+    },
+    {
+      "name": "Hizbollahs militære gren",
+      "is_primary": false
+    },
+    {
+      "name": "Consiglio della Jihad",
+      "is_primary": false
+    },
+    {
+      "name": "Ala militare di Hezbollah",
+      "is_primary": false
+    },
+    {
+      "name": "Zbrojne Ramię Hezbollahu",
+      "is_primary": false
+    },
+    {
+      "name": "Hizbollahs militære fløj",
+      "is_primary": false
+    },
+    {
+      "name": "službo za zunanjo varnost",
+      "is_primary": false
+    },
+    {
+      "name": "Ārējās drošības organizācija",
+      "is_primary": false
+    },
+    {
+      "name": "Hezbollahi sõjaline tiib",
+      "is_primary": false
+    },
+    {
+      "name": "Hizbullahi sõjaline tiib",
+      "is_primary": false
+    },
+    {
+      "name": "Conselho da Jiade",
+      "is_primary": false
+    },
+    {
+      "name": "Ala Militar do Hezbolá",
+      "is_primary": false
+    },
+    {
+      "name": "Consejo de la Yihad",
+      "is_primary": false
+    },
+    {
+      "name": "Ala militar de Hizb Allah",
+      "is_primary": false
+    },
+    {
+      "name": "Ala militar de Hizbu'llah",
+      "is_primary": false
+    },
+    {
+      "name": "Ala militar de Hisbolah",
+      "is_primary": false
+    },
+    {
+      "name": "Ala militar de Hezbalah",
+      "is_primary": false
+    },
+    {
+      "name": "Ala militar de Hizbolah",
+      "is_primary": false
+    },
+    {
+      "name": "Ala militar de Hizbulah",
+      "is_primary": false
+    },
+    {
+      "name": "Ala militar de Hezbolá",
+      "is_primary": false
+    },
+    {
+      "name": "Ala militar de Hizbulá",
+      "is_primary": false
+    },
+    {
+      "name": "Raad van de Jihad",
+      "is_primary": false
+    },
+    {
+      "name": "Военно крило на ливанската „Хизбула",
+      "is_primary": true
+    },
+    {
+      "name": "Eagraíocht Slándála Seachtraí",
+      "is_primary": false
+    },
+    {
+      "name": "Organizzazione per la sicurezza esterna",
+      "is_primary": false
+    },
+    {
+      "name": "Organisation de la sécurité extérieure",
+      "is_primary": false
+    },
+    {
+      "name": "Organisation für äußere Sicherheit",
+      "is_primary": false
+    },
+    {
+      "name": "Organización de Seguridad Exterior",
+      "is_primary": false
+    },
+    {
+      "name": "Organização de Segurança Externa",
+      "is_primary": false
+    },
+    {
+      "name": "Οργανισμού Εξωτερικής Ασφαλείας",
+      "is_primary": false
+    },
+    {
+      "name": "den eksterne sikkerhedsorganisation",
+      "is_primary": false
+    },
+    {
+      "name": "Organizaciju za vanjsku sigurnost",
+      "is_primary": false
+    },
+    {
+      "name": "Externe Veiligheidsorganisatie",
+      "is_primary": false
+    },
+    {
+      "name": "Organizația pentru Securitate Externă",
+      "is_primary": false
+    },
+    {
+      "name": "Külső Biztonsági Szervezet",
+      "is_primary": false
+    },
+    {
+      "name": "Wojskowe Skrzydło Hizb Allah",
+      "is_primary": false
+    },
+    {
+      "name": "Wojskowe Skrzydło Hizbu’llah",
+      "is_primary": false
+    },
+    {
+      "name": "Wojskowe Skrzydło Hisbollah",
+      "is_primary": false
+    },
+    {
+      "name": "Wojskowe Skrzydło Hezballah",
+      "is_primary": false
+    },
+    {
+      "name": "Wojskowe Skrzydło Hizbollah",
+      "is_primary": false
+    },
+    {
+      "name": "Wojskowe Skrzydło Hizbullah",
+      "is_primary": false
+    },
+    {
+      "name": "Hizballah Military Wing",
+      "is_primary": false
+    },
+    {
+      "name": "Hezbollah Military Wing",
+      "is_primary": false
+    },
+    {
+      "name": "Wojskowe Skrzydło Hezbollah",
+      "is_primary": false
+    },
+    {
+      "name": "ulkoisesta turvallisuudesta vastaava organisaatio",
+      "is_primary": false
+    },
+    {
+      "name": "Organizacja Bezpieczeństwa Zewnętrznego",
+      "is_primary": false
+    },
+    {
+      "name": "Военно крило на „Хизбула“",
+      "is_primary": false
+    },
+    {
+      "name": "Организацията  за външна сигурност",
+      "is_primary": false
+    },
+    {
+      "name": "organizace pro vnější bezpečnost",
+      "is_primary": false
+    },
+    {
+      "name": "Organizácie pre vonkajšiu bezpečnosť",
+      "is_primary": false
+    },
+    {
+      "name": "Hizbullah karinis sparnas",
+      "is_primary": false
+    },
+    {
+      "name": "Hezbollah karinis sparnas",
+      "is_primary": false
+    },
+    {
+      "name": "Hezballah karinis sparnas",
+      "is_primary": false
+    },
+    {
+      "name": "Hizbollah karinis sparnas",
+      "is_primary": false
+    },
+    {
+      "name": "Hizb  Allah karinis sparnas",
+      "is_primary": false
+    },
+    {
+      "name": "Hizbu’llah karinis sparnas",
+      "is_primary": false
+    },
+    {
+      "name": "Hisbollah karinis sparnas",
+      "is_primary": false
+    },
+    {
+      "name": "Išorės saugumo organizaciją",
+      "is_primary": false
+    },
+    {
+      "name": "välisjulgeolekuorganisatsioon",
+      "is_primary": false
+    },
+    {
+      "name": "Hizb Allahi sõjaline tiib",
+      "is_primary": false
+    },
+    {
+      "name": "Hizbu’llahi sõjaline tiib",
+      "is_primary": false
+    },
+    {
+      "name": "Hisbollahi sõjaline tiib",
+      "is_primary": false
+    },
+    {
+      "name": "Hezballahi sõjaline tiib",
+      "is_primary": false
+    },
+    {
+      "name": "Hizbollahi sõjaline tiib",
+      "is_primary": false
+    },
+    {
+      "name": "Hizbullah Military Wing",
+      "is_primary": false
+    },
+    {
+      "name": "Hizbollah Military Wing",
+      "is_primary": false
+    },
+    {
+      "name": "Hezballah Military Wing",
+      "is_primary": false
+    },
+    {
+      "name": "Hisbollah Military Wing",
+      "is_primary": false
+    },
+    {
+      "name": "Hizbu'llah Military Wing",
+      "is_primary": false
+    },
+    {
+      "name": "Hizb Allah Military Wing",
+      "is_primary": false
+    },
+    {
+      "name": "Jihad Council",
+      "is_primary": false
+    },
+    {
+      "name": "Conseil du Djihad",
+      "is_primary": false
+    }
+  ],
+  "addresses": []
+}

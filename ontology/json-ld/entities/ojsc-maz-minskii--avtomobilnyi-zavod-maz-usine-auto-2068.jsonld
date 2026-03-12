@@ -1,0 +1,195 @@
+{
+  "@context": {
+    "@vocab": "https://www.ammitto.org/ontology/",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "Entity": "schema:Thing",
+    "Person": "schema:Person",
+    "Organization": "schema:Organization",
+    "Vessel": "schema:Vehicle",
+    "Aircraft": "schema:Vehicle",
+    "Name": "schema:Thing",
+    "Address": "schema:PostalAddress",
+    "Identifier": "schema:PropertyValue",
+    "Entry": "schema:Thing",
+    "Authority": "schema:Organization",
+    "Country": "schema:Country",
+    "Regime": "schema:Thing",
+    "Announcement": "schema:NewsArticle",
+    "LegalInstrument": "schema:Legislation",
+    "id": "@id",
+    "type": "@type",
+    "name": "schema:name",
+    "full_name": "schema:name",
+    "names": {
+      "@id": "hasName",
+      "@container": "@set"
+    },
+    "is_primary": "schema:isPrimary",
+    "street": "schema:streetAddress",
+    "city": "schema:addressLocality",
+    "state": "schema:addressRegion",
+    "postal_code": "schema:postalCode",
+    "country": "schema:addressCountry",
+    "addresses": {
+      "@id": "hasAddress",
+      "@container": "@set"
+    },
+    "identifier": "schema:identifier",
+    "identifiers": {
+      "@id": "hasIdentifier",
+      "@container": "@set"
+    },
+    "value": "schema:value",
+    "issue_date": {
+      "@id": "schema:dateIssued",
+      "@type": "xsd:date"
+    },
+    "expiry_date": {
+      "@id": "expiryDate",
+      "@type": "xsd:date"
+    },
+    "birth_date": {
+      "@id": "schema:birthDate",
+      "@type": "xsd:date"
+    },
+    "birth_place": "schema:birthPlace",
+    "death_date": {
+      "@id": "schema:deathDate",
+      "@type": "xsd:date"
+    },
+    "gender": "schema:gender",
+    "nationality": "schema:nationality",
+    "nationalities": {
+      "@id": "schema:nationality",
+      "@container": "@set"
+    },
+    "registration_number": "schema:taxID",
+    "incorporation_country": "schema:foundingLocation",
+    "website": "schema:url",
+    "imo_number": "schema:serialNumber",
+    "flag_state": "schema:flag",
+    "status": "schema:status",
+    "listed_date": {
+      "@id": "listedDate",
+      "@type": "xsd:date"
+    },
+    "delisted_date": {
+      "@id": "delistedDate",
+      "@type": "xsd:date"
+    },
+    "measures": "schema:description",
+    "remarks": "schema:description",
+    "entity": {
+      "@id": "forEntity",
+      "@type": "@id"
+    },
+    "authority": {
+      "@id": "listedBy",
+      "@type": "@id"
+    },
+    "regime": {
+      "@id": "underRegime",
+      "@type": "@id"
+    },
+    "announcement": {
+      "@id": "publishedIn",
+      "@type": "@id"
+    },
+    "source": "schema:sourceOrganization",
+    "reference_number": "schema:identifier",
+    "url": "schema:url"
+  },
+  "@id": "ojsc-maz-minskii--avtomobilnyi-zavod-maz-usine-auto-2068",
+  "@type": "Organization",
+  "source": "eu",
+  "names": [
+    {
+      "name": "Open vennootschap op aandelen “Minsk Automobile Works” - Beheermaatschappij van “BELAVTOMAZ” Holding",
+      "is_primary": false
+    },
+    {
+      "name": "Open Joint Stock Company „Minsk Automobile Works” – spółka zarządzająca holdingu „BELAVTOMAZ”",
+      "is_primary": false
+    },
+    {
+      "name": "Societatea deschisă pe acțiuni «Minsk Automobile Works» - Societate de administrare a holdingului «BELAVTOMAZ»",
+      "is_primary": false
+    },
+    {
+      "name": "Odprta delniška družba „ Minsk Automobile Works“ – družba za upravljanje “BELAVTOMAZ“",
+      "is_primary": false
+    },
+    {
+      "name": "Avoin osakeyhtiö ”Minsk Automobile Works” – holdingyhtiön ”BELAVTOMAZ” hallintoyhtiö",
+      "is_primary": false
+    },
+    {
+      "name": "Atviroji akcinė bendrovė „Minsk Automobile Works“ – holdingo „BELAVTOMAZ“ valdymo bendrovė",
+      "is_primary": false
+    },
+    {
+      "name": "Avatud aktsiaselts „Minsk Automobile Works“ - valdusühingu „BELAVTOMAZ“ haldajafirma",
+      "is_primary": false
+    },
+    {
+      "name": "Société par actions ouverte “Minsk Automobile Works” – Société de gestion du holding “BELAVTOMAZ”",
+      "is_primary": false
+    },
+    {
+      "name": "Otvoreno dioničko društvo „Minsk Automobile Works” – upravljačko društvo holdinga „BELAVTOMAZ”",
+      "is_primary": false
+    },
+    {
+      "name": "Open Joint Stock Company “Minsk Automobile Works” - Management Company of “BELAVTOMAZ” Holding",
+      "is_primary": false
+    },
+    {
+      "name": "Отворено акционерно дружество “ Minsk Automobile Works ” - управително дружество на холдинга “ BELAVTOMAZ“",
+      "is_primary": false
+    },
+    {
+      "name": "Sociedad limitada por acciones abierta “Minsk Automobile Works” – Sociedad gestora de participación de “BELAVTOMAZ”",
+      "is_primary": false
+    },
+    {
+      "name": "Veřejná akciová společnost „Minsk Automobile Works“ - správcovská společnost holdingu „BELAVTOMAZ“",
+      "is_primary": false
+    },
+    {
+      "name": "Offene Aktiengesellschaft ‚Minsk Automobile Works‘ Verwaltungsgesellschaft der Holding ‚BELAVTOMAZ‘",
+      "is_primary": false
+    },
+    {
+      "name": "Minskii Avtomobilni Zavod (MAZ)",
+      "is_primary": false
+    },
+    {
+      "name": "De open vennootschap op aandelen “MAZ”",
+      "is_primary": false
+    },
+    {
+      "name": "Usine automobile de Minsk",
+      "is_primary": false
+    },
+    {
+      "name": "Minskii  Avtomobilnyi Zavod (MAZ)",
+      "is_primary": false
+    },
+    {
+      "name": "OJSC “MAZ”",
+      "is_primary": false
+    },
+    {
+      "name": "ААТ «Мінскі  аўтамабільны завод»",
+      "is_primary": false
+    },
+    {
+      "name": "ОАО  \"Минский автомобильный завод\"",
+      "is_primary": true
+    }
+  ],
+  "addresses": []
+}

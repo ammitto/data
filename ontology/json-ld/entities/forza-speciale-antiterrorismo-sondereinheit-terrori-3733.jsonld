@@ -1,0 +1,431 @@
+{
+  "@context": {
+    "@vocab": "https://www.ammitto.org/ontology/",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "Entity": "schema:Thing",
+    "Person": "schema:Person",
+    "Organization": "schema:Organization",
+    "Vessel": "schema:Vehicle",
+    "Aircraft": "schema:Vehicle",
+    "Name": "schema:Thing",
+    "Address": "schema:PostalAddress",
+    "Identifier": "schema:PropertyValue",
+    "Entry": "schema:Thing",
+    "Authority": "schema:Organization",
+    "Country": "schema:Country",
+    "Regime": "schema:Thing",
+    "Announcement": "schema:NewsArticle",
+    "LegalInstrument": "schema:Legislation",
+    "id": "@id",
+    "type": "@type",
+    "name": "schema:name",
+    "full_name": "schema:name",
+    "names": {
+      "@id": "hasName",
+      "@container": "@set"
+    },
+    "is_primary": "schema:isPrimary",
+    "street": "schema:streetAddress",
+    "city": "schema:addressLocality",
+    "state": "schema:addressRegion",
+    "postal_code": "schema:postalCode",
+    "country": "schema:addressCountry",
+    "addresses": {
+      "@id": "hasAddress",
+      "@container": "@set"
+    },
+    "identifier": "schema:identifier",
+    "identifiers": {
+      "@id": "hasIdentifier",
+      "@container": "@set"
+    },
+    "value": "schema:value",
+    "issue_date": {
+      "@id": "schema:dateIssued",
+      "@type": "xsd:date"
+    },
+    "expiry_date": {
+      "@id": "expiryDate",
+      "@type": "xsd:date"
+    },
+    "birth_date": {
+      "@id": "schema:birthDate",
+      "@type": "xsd:date"
+    },
+    "birth_place": "schema:birthPlace",
+    "death_date": {
+      "@id": "schema:deathDate",
+      "@type": "xsd:date"
+    },
+    "gender": "schema:gender",
+    "nationality": "schema:nationality",
+    "nationalities": {
+      "@id": "schema:nationality",
+      "@container": "@set"
+    },
+    "registration_number": "schema:taxID",
+    "incorporation_country": "schema:foundingLocation",
+    "website": "schema:url",
+    "imo_number": "schema:serialNumber",
+    "flag_state": "schema:flag",
+    "status": "schema:status",
+    "listed_date": {
+      "@id": "listedDate",
+      "@type": "xsd:date"
+    },
+    "delisted_date": {
+      "@id": "delistedDate",
+      "@type": "xsd:date"
+    },
+    "measures": "schema:description",
+    "remarks": "schema:description",
+    "entity": {
+      "@id": "forEntity",
+      "@type": "@id"
+    },
+    "authority": {
+      "@id": "listedBy",
+      "@type": "@id"
+    },
+    "regime": {
+      "@id": "underRegime",
+      "@type": "@id"
+    },
+    "announcement": {
+      "@id": "publishedIn",
+      "@type": "@id"
+    },
+    "source": "schema:sourceOrganization",
+    "reference_number": "schema:identifier",
+    "url": "schema:url"
+  },
+  "@id": "forza-speciale-antiterrorismo-sondereinheit-terrori-3733",
+  "@type": "Organization",
+  "source": "eu",
+  "names": [
+    {
+      "name": "Iran’s Counter-Terror Special Forces",
+      "is_primary": false
+    },
+    {
+      "name": "Iraani kõrgeima juhi erivalvejõud",
+      "is_primary": false
+    },
+    {
+      "name": "provintside erijõud",
+      "is_primary": false
+    },
+    {
+      "name": "terrorismivastased erijõud",
+      "is_primary": false
+    },
+    {
+      "name": "De iranske specialpolitistyrker",
+      "is_primary": false
+    },
+    {
+      "name": "Irans antiterrorspecialstyrker",
+      "is_primary": false
+    },
+    {
+      "name": "den øverste leders specialstyrker",
+      "is_primary": false
+    },
+    {
+      "name": "provinsspecialstyrkerne",
+      "is_primary": false
+    },
+    {
+      "name": "antiterrorspecialstyrken",
+      "is_primary": false
+    },
+    {
+      "name": "iranska  polisens specialstyrkor",
+      "is_primary": false
+    },
+    {
+      "name": "Fuerzas Especiales de la Policía iraní",
+      "is_primary": false
+    },
+    {
+      "name": "Fuerzas  Especiales Antiterroristas de Irán",
+      "is_primary": false
+    },
+    {
+      "name": "Fuerzas Especiales  de Guardia del Líder Supremo",
+      "is_primary": false
+    },
+    {
+      "name": "Fuerzas Especiales Provinciales",
+      "is_primary": false
+    },
+    {
+      "name": "Fuerza Especial Antiterrorista",
+      "is_primary": false
+    },
+    {
+      "name": "Irańskie Specjalne Siły Policyjne",
+      "is_primary": false
+    },
+    {
+      "name": "Irańskie Specjalne Siły  Antyterrorystyczne",
+      "is_primary": false
+    },
+    {
+      "name": "Specjalne Oddziały  Straży Najwyższego Przywódcy",
+      "is_primary": false
+    },
+    {
+      "name": "Specjalne  Siły w prowincjach",
+      "is_primary": false
+    },
+    {
+      "name": "Specjalny Oddział  Antyterrorystyczny",
+      "is_primary": false
+    },
+    {
+      "name": "ειδικές  αντιτρομοκρατικές δυνάμεις του Ιράν",
+      "is_primary": false
+    },
+    {
+      "name": "ειδικές  δυνάμεις φρούρησης του ανώτατου ηγέτη",
+      "is_primary": false
+    },
+    {
+      "name": "επαρχιακές ειδικές  δυνάμεις",
+      "is_primary": false
+    },
+    {
+      "name": "ειδική δύναμη για την καταπολέμηση της τρομοκρατίας",
+      "is_primary": false
+    },
+    {
+      "name": "ειδικές  αστυνομικές δυνάμεις του Ιράν",
+      "is_primary": false
+    },
+    {
+      "name": "Iraanse speciale politie-eenheden",
+      "is_primary": false
+    },
+    {
+      "name": "Fórsaí Speisialta  Frithsceimhlitheoireachta na hIaráine;",
+      "is_primary": false
+    },
+    {
+      "name": "Iranian Special Police Forces",
+      "is_primary": false
+    },
+    {
+      "name": "نیروی ویژه پاد وحشت",
+      "is_primary": false
+    },
+    {
+      "name": "NOPO",
+      "is_primary": false
+    },
+    {
+      "name": "Forza speciale antiterrorismo",
+      "is_primary": true
+    },
+    {
+      "name": "Sondereinheit Terrorismus–bekämpfung",
+      "is_primary": false
+    },
+    {
+      "name": "Provinz-Sondereinsatzkräfte",
+      "is_primary": false
+    },
+    {
+      "name": "Sondereinsatzkräfte der Garde des Obersten Führers",
+      "is_primary": false
+    },
+    {
+      "name": "Sondereinsatzkräfte Irans zur  Terrorismus–bekämpfung",
+      "is_primary": false
+    },
+    {
+      "name": "Sondereinsatzkräfte der iranischen Polizei",
+      "is_primary": false
+    },
+    {
+      "name": "Specialiosios kovos su  terorizmu pajėgos",
+      "is_primary": false
+    },
+    {
+      "name": "Provincinės  specialiosios pajėgos",
+      "is_primary": false
+    },
+    {
+      "name": "Aukščiausiojo  vadovo apsaugos specialiosios pajėgos",
+      "is_primary": false
+    },
+    {
+      "name": "Irano kovos su  terorizmu specialiosios pajėgos",
+      "is_primary": false
+    },
+    {
+      "name": "Irano specialiosios policijos pajėgos",
+      "is_primary": false
+    },
+    {
+      "name": "Irānas īpašie policijas spēki",
+      "is_primary": false
+    },
+    {
+      "name": "Ирански  специални полицейски сили",
+      "is_primary": false
+    },
+    {
+      "name": "Forța specială antiteroristă",
+      "is_primary": false
+    },
+    {
+      "name": "Forțele speciale provinciale",
+      "is_primary": false
+    },
+    {
+      "name": "Forțele speciale de gardă ale liderului suprem",
+      "is_primary": false
+    },
+    {
+      "name": "Forțele speciale antiteroriste ale Iranului",
+      "is_primary": false
+    },
+    {
+      "name": "Forțele speciale de poliție iraniene",
+      "is_primary": false
+    },
+    {
+      "name": "Különleges Terrorizmusellenes Erők",
+      "is_primary": false
+    },
+    {
+      "name": "Vidéki Különleges Erők",
+      "is_primary": false
+    },
+    {
+      "name": "Legfelsőbb Vezetői  Különleges Védelmi erők",
+      "is_primary": false
+    },
+    {
+      "name": "Iráni Terrorizmusellenes Különleges Erők",
+      "is_primary": false
+    },
+    {
+      "name": "Iráni Különleges Rendőri Erők",
+      "is_primary": false
+    },
+    {
+      "name": "Forze speciali provinciali",
+      "is_primary": false
+    },
+    {
+      "name": "Forze speciali dei guardiani della guida  suprema",
+      "is_primary": false
+    },
+    {
+      "name": "Forze speciali antiterrorismo  iraniane",
+      "is_primary": false
+    },
+    {
+      "name": "Forze speciali di polizia iraniane",
+      "is_primary": false
+    },
+    {
+      "name": "iranske  posebne policijske sile",
+      "is_primary": false
+    },
+    {
+      "name": "Iranin poliisin erityisjoukot",
+      "is_primary": false
+    },
+    {
+      "name": "Iraani terrorismivastased erijõud",
+      "is_primary": false
+    },
+    {
+      "name": "Iraani politsei erijõud",
+      "is_primary": false
+    },
+    {
+      "name": "Specijalne protuterorisitčke snage",
+      "is_primary": false
+    },
+    {
+      "name": "Pokrajinske specijalne snage",
+      "is_primary": false
+    },
+    {
+      "name": "Specijalne snage  za zaštitu vrhovnog vođe",
+      "is_primary": false
+    },
+    {
+      "name": "Specijalne  protuterorističke snage Irana",
+      "is_primary": false
+    },
+    {
+      "name": "Specijalne  policijske snage Irana",
+      "is_primary": false
+    },
+    {
+      "name": "Iránske špeciálne policajné sily",
+      "is_primary": false
+    },
+    {
+      "name": "Špeciálne  protiteroristické sily",
+      "is_primary": false
+    },
+    {
+      "name": "Provinčné špeciálne sily",
+      "is_primary": false
+    },
+    {
+      "name": "Špeciálne strážne sily najvyššieho  vodcu",
+      "is_primary": false
+    },
+    {
+      "name": "Iránske protiteroristické  špeciálne sily",
+      "is_primary": false
+    },
+    {
+      "name": "forces spéciales antiterroristes",
+      "is_primary": false
+    },
+    {
+      "name": "forces spéciales provinciales",
+      "is_primary": false
+    },
+    {
+      "name": "forces spéciales des gardiens du Guide suprême",
+      "is_primary": false
+    },
+    {
+      "name": "Forces spéciales antiterroristes  de l’Iran",
+      "is_primary": false
+    },
+    {
+      "name": "Forces spéciales de la police iranienne",
+      "is_primary": false
+    },
+    {
+      "name": "Special Counter-Terrorism Force",
+      "is_primary": false
+    },
+    {
+      "name": "Provincial Special Forces",
+      "is_primary": false
+    },
+    {
+      "name": "Supreme Leader's Guardian Special Forces",
+      "is_primary": false
+    },
+    {
+      "name": "Niroo-ye Vizhe Pasdar-e Velayat",
+      "is_primary": false
+    }
+  ],
+  "addresses": []
+}
