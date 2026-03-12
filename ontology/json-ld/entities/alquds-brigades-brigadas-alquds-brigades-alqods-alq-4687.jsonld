@@ -1,0 +1,191 @@
+{
+  "@context": {
+    "@vocab": "https://www.ammitto.org/ontology/",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "Entity": "schema:Thing",
+    "Person": "schema:Person",
+    "Organization": "schema:Organization",
+    "Vessel": "schema:Vehicle",
+    "Aircraft": "schema:Vehicle",
+    "Name": "schema:Thing",
+    "Address": "schema:PostalAddress",
+    "Identifier": "schema:PropertyValue",
+    "Entry": "schema:Thing",
+    "Authority": "schema:Organization",
+    "Country": "schema:Country",
+    "Regime": "schema:Thing",
+    "Announcement": "schema:NewsArticle",
+    "LegalInstrument": "schema:Legislation",
+    "id": "@id",
+    "type": "@type",
+    "name": "schema:name",
+    "full_name": "schema:name",
+    "names": {
+      "@id": "hasName",
+      "@container": "@set"
+    },
+    "is_primary": "schema:isPrimary",
+    "street": "schema:streetAddress",
+    "city": "schema:addressLocality",
+    "state": "schema:addressRegion",
+    "postal_code": "schema:postalCode",
+    "country": "schema:addressCountry",
+    "addresses": {
+      "@id": "hasAddress",
+      "@container": "@set"
+    },
+    "identifier": "schema:identifier",
+    "identifiers": {
+      "@id": "hasIdentifier",
+      "@container": "@set"
+    },
+    "value": "schema:value",
+    "issue_date": {
+      "@id": "schema:dateIssued",
+      "@type": "xsd:date"
+    },
+    "expiry_date": {
+      "@id": "expiryDate",
+      "@type": "xsd:date"
+    },
+    "birth_date": {
+      "@id": "schema:birthDate",
+      "@type": "xsd:date"
+    },
+    "birth_place": "schema:birthPlace",
+    "death_date": {
+      "@id": "schema:deathDate",
+      "@type": "xsd:date"
+    },
+    "gender": "schema:gender",
+    "nationality": "schema:nationality",
+    "nationalities": {
+      "@id": "schema:nationality",
+      "@container": "@set"
+    },
+    "registration_number": "schema:taxID",
+    "incorporation_country": "schema:foundingLocation",
+    "website": "schema:url",
+    "imo_number": "schema:serialNumber",
+    "flag_state": "schema:flag",
+    "status": "schema:status",
+    "listed_date": {
+      "@id": "listedDate",
+      "@type": "xsd:date"
+    },
+    "delisted_date": {
+      "@id": "delistedDate",
+      "@type": "xsd:date"
+    },
+    "measures": "schema:description",
+    "remarks": "schema:description",
+    "entity": {
+      "@id": "forEntity",
+      "@type": "@id"
+    },
+    "authority": {
+      "@id": "listedBy",
+      "@type": "@id"
+    },
+    "regime": {
+      "@id": "underRegime",
+      "@type": "@id"
+    },
+    "announcement": {
+      "@id": "publishedIn",
+      "@type": "@id"
+    },
+    "source": "schema:sourceOrganization",
+    "reference_number": "schema:identifier",
+    "url": "schema:url"
+  },
+  "@id": "alquds-brigades-brigadas-alquds-brigades-alqods-alq-4687",
+  "@type": "Organization",
+  "source": "eu",
+  "names": [
+    {
+      "name": "Sarāyā al-Quds",
+      "is_primary": false
+    },
+    {
+      "name": "бригадите „Ал-Кудс“",
+      "is_primary": false
+    },
+    {
+      "name": "al-Quds Brigádok",
+      "is_primary": false
+    },
+    {
+      "name": "Brygady Al-Quds",
+      "is_primary": false
+    },
+    {
+      "name": "Ταξιαρχίες Al-Quds",
+      "is_primary": false
+    },
+    {
+      "name": "Al-Quds-Brigaden",
+      "is_primary": false
+    },
+    {
+      "name": "Brigate Al-Quds",
+      "is_primary": false
+    },
+    {
+      "name": "Al-Quds-brigades",
+      "is_primary": false
+    },
+    {
+      "name": "Brigády al-Quds",
+      "is_primary": false
+    },
+    {
+      "name": "سرايا القدس",
+      "is_primary": false
+    },
+    {
+      "name": "Brigăzile Al-Quds",
+      "is_primary": false
+    },
+    {
+      "name": "Brigády Al-Quds",
+      "is_primary": false
+    },
+    {
+      "name": "Brigade Al-Quds",
+      "is_primary": false
+    },
+    {
+      "name": "Al-Quds-prikaatit",
+      "is_primary": false
+    },
+    {
+      "name": "Brigadas de Al-Quds",
+      "is_primary": false
+    },
+    {
+      "name": "Al-Qudsi brigaadid",
+      "is_primary": false
+    },
+    {
+      "name": "al-Quds-brigaderna",
+      "is_primary": false
+    },
+    {
+      "name": "Brigades al-Qods",
+      "is_primary": false
+    },
+    {
+      "name": "Brigadas Al-Quds",
+      "is_primary": false
+    },
+    {
+      "name": "Al-Quds Brigades",
+      "is_primary": true
+    }
+  ],
+  "addresses": []
+}

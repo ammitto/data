@@ -1,0 +1,279 @@
+{
+  "@context": {
+    "@vocab": "https://www.ammitto.org/ontology/",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "Entity": "schema:Thing",
+    "Person": "schema:Person",
+    "Organization": "schema:Organization",
+    "Vessel": "schema:Vehicle",
+    "Aircraft": "schema:Vehicle",
+    "Name": "schema:Thing",
+    "Address": "schema:PostalAddress",
+    "Identifier": "schema:PropertyValue",
+    "Entry": "schema:Thing",
+    "Authority": "schema:Organization",
+    "Country": "schema:Country",
+    "Regime": "schema:Thing",
+    "Announcement": "schema:NewsArticle",
+    "LegalInstrument": "schema:Legislation",
+    "id": "@id",
+    "type": "@type",
+    "name": "schema:name",
+    "full_name": "schema:name",
+    "names": {
+      "@id": "hasName",
+      "@container": "@set"
+    },
+    "is_primary": "schema:isPrimary",
+    "street": "schema:streetAddress",
+    "city": "schema:addressLocality",
+    "state": "schema:addressRegion",
+    "postal_code": "schema:postalCode",
+    "country": "schema:addressCountry",
+    "addresses": {
+      "@id": "hasAddress",
+      "@container": "@set"
+    },
+    "identifier": "schema:identifier",
+    "identifiers": {
+      "@id": "hasIdentifier",
+      "@container": "@set"
+    },
+    "value": "schema:value",
+    "issue_date": {
+      "@id": "schema:dateIssued",
+      "@type": "xsd:date"
+    },
+    "expiry_date": {
+      "@id": "expiryDate",
+      "@type": "xsd:date"
+    },
+    "birth_date": {
+      "@id": "schema:birthDate",
+      "@type": "xsd:date"
+    },
+    "birth_place": "schema:birthPlace",
+    "death_date": {
+      "@id": "schema:deathDate",
+      "@type": "xsd:date"
+    },
+    "gender": "schema:gender",
+    "nationality": "schema:nationality",
+    "nationalities": {
+      "@id": "schema:nationality",
+      "@container": "@set"
+    },
+    "registration_number": "schema:taxID",
+    "incorporation_country": "schema:foundingLocation",
+    "website": "schema:url",
+    "imo_number": "schema:serialNumber",
+    "flag_state": "schema:flag",
+    "status": "schema:status",
+    "listed_date": {
+      "@id": "listedDate",
+      "@type": "xsd:date"
+    },
+    "delisted_date": {
+      "@id": "delistedDate",
+      "@type": "xsd:date"
+    },
+    "measures": "schema:description",
+    "remarks": "schema:description",
+    "entity": {
+      "@id": "forEntity",
+      "@type": "@id"
+    },
+    "authority": {
+      "@id": "listedBy",
+      "@type": "@id"
+    },
+    "regime": {
+      "@id": "underRegime",
+      "@type": "@id"
+    },
+    "announcement": {
+      "@id": "publishedIn",
+      "@type": "@id"
+    },
+    "source": "schema:sourceOrganization",
+    "reference_number": "schema:identifier",
+    "url": "schema:url"
+  },
+  "@id": "fiontar-stit-sevastopol-commercial-seaport-staden-s-1174",
+  "@type": "Organization",
+  "source": "eu",
+  "names": [
+    {
+      "name": "unitarne przedsiębiorstwo państwowe miasta Sewastopola »Port morski w Sewastopolu«",
+      "is_primary": false
+    },
+    {
+      "name": "przedsiębiorstwo państwowe »Morski port handlowy w Sewastopolu«",
+      "is_primary": false
+    },
+    {
+      "name": "Impresa unitaria statale della città di Sebastopoli \"porto marittimo di Sebastopoli\"",
+      "is_primary": false
+    },
+    {
+      "name": "impresa statale \"porto marittimo commerciale di Sebastopoli\"",
+      "is_primary": false
+    },
+    {
+      "name": "štátny podnik „Komerčný námorný prístav Sevastopol“",
+      "is_primary": false
+    },
+    {
+      "name": "Štátny unitárny podnik mesta Sevastopol „Námorný prístav Sevastopol“",
+      "is_primary": false
+    },
+    {
+      "name": "întreprinderea de stat «Portul maritim comercial Sevastopol»",
+      "is_primary": false
+    },
+    {
+      "name": "Întreprinderea unitară de stat a orașului Sevastopol, «Portul maritim Sevastopol»",
+      "is_primary": false
+    },
+    {
+      "name": "Byen Sevastopols statsejede virksomhed \"Sevastopol seaport\"",
+      "is_primary": false
+    },
+    {
+      "name": "statsejede virksomhed \"Sevastopol commercial seaport\"",
+      "is_primary": false
+    },
+    {
+      "name": "Državno unitarno poduzeće Grada Sevastopolja ‚Sevastopol seaport’",
+      "is_primary": false
+    },
+    {
+      "name": "Statliga företaget ’Sevastopols kommersiella kusthamn’",
+      "is_primary": false
+    },
+    {
+      "name": "Κρατική ενιαία επιχείρηση της πόλης της Σεβαστούπολης “Θαλάσσιος Λιμένας Σεβαστούπολης”",
+      "is_primary": false
+    },
+    {
+      "name": "ГУП ГС ‘Севастопольский морской порт’",
+      "is_primary": false
+    },
+    {
+      "name": "State Unitary Enterprise of the City of Sevastopol, ‘Sevastopol seaport’",
+      "is_primary": false
+    },
+    {
+      "name": "Gosudarstvenoye predpriyatiye Sevastopolski morskoy torgovy port",
+      "is_primary": false
+    },
+    {
+      "name": "Государственное предприятие ‘Севастопольский морской торговый порт’",
+      "is_primary": false
+    },
+    {
+      "name": "State enterprise ‘Sevastopol commercial seaport’",
+      "is_primary": false
+    },
+    {
+      "name": "Държавно единно предприятие на град Севастопол, „Севастополско морско пристанище“",
+      "is_primary": false
+    },
+    {
+      "name": "„Szevasztopoli Tengeri Kikötő”, Szevasztopol város szövetségi állami vállalata",
+      "is_primary": false
+    },
+    {
+      "name": "„Szevasztopoli Kereskedelmi Tengeri Kikötő” állami vállalat",
+      "is_primary": false
+    },
+    {
+      "name": "Státní jednotný podnik města  Sevastopolu „Sevastopol seaport“",
+      "is_primary": false
+    },
+    {
+      "name": "Sevastopolio miesto valstybės unitarinė įmonė „Sevastopol seaport“",
+      "is_primary": false
+    },
+    {
+      "name": "valstybės įmonė \"Sevastopol commercial seaport“",
+      "is_primary": false
+    },
+    {
+      "name": "Sevastopolin kaupungin omistama valtion unitaarinen yritys ”Sevastopolin merisatama”",
+      "is_primary": false
+    },
+    {
+      "name": "valtionyhtiö ”Sevastopolin kaupallinen merisatama”",
+      "is_primary": false
+    },
+    {
+      "name": "Porto marítimo comercial de Sebastopol",
+      "is_primary": false
+    },
+    {
+      "name": "Empresa Unitária Estatal da cidade de Sebastopol, \"Porto marítimo de Sebastopol\"",
+      "is_primary": false
+    },
+    {
+      "name": "Staatliches Einheitsunternehmen der Stadt Sewastopol „Seehafen Sewastopol“",
+      "is_primary": false
+    },
+    {
+      "name": "staatliches Unternehmen „Seehandelshafen Sewastopol“",
+      "is_primary": false
+    },
+    {
+      "name": "Entreprise unitaire d’État de la Ville de Sébastopol, “Port maritime de Sébastopol”",
+      "is_primary": false
+    },
+    {
+      "name": "Entreprise publique “Port maritime commercial de Sébastopol\"",
+      "is_primary": false
+    },
+    {
+      "name": "Sevastopoles pilsētas valsts unitārs uzņēmums “Sevastopol  seaport”",
+      "is_primary": false
+    },
+    {
+      "name": "Državno unitarno podjetje mesta Sevastopol ‚Sevastopolsko morsko pristanišče‘",
+      "is_primary": false
+    },
+    {
+      "name": "državno podjetje ‚Sevastopolsko trgovsko morsko pristanišče‘",
+      "is_primary": false
+    },
+    {
+      "name": "državno poduzeće ‚Sevastopol commercial seaport’",
+      "is_primary": false
+    },
+    {
+      "name": "valsts  uzņēmums “Sevastopol commercial seaport",
+      "is_primary": false
+    },
+    {
+      "name": "State Unitary Enterprise van de stad Sebastopol “Sevastopol seaport”",
+      "is_primary": false
+    },
+    {
+      "name": "staatsbedrijf “Sevastopol commercial seaport”",
+      "is_primary": false
+    },
+    {
+      "name": "κρατική επιχείρηση “Εμπορικός Θαλάσσιος Λιμένας Σεβαστούπολης”",
+      "is_primary": false
+    },
+    {
+      "name": "Staden Sevastopols statliga enhetsföretag ’Sevastopols kusthamn’",
+      "is_primary": false
+    },
+    {
+      "name": "fiontar Stáit ‘Sevastopol commercial seaport’",
+      "is_primary": true
+    }
+  ],
+  "addresses": []
+}

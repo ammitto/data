@@ -1,0 +1,191 @@
+{
+  "@context": {
+    "@vocab": "https://www.ammitto.org/ontology/",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "Entity": "schema:Thing",
+    "Person": "schema:Person",
+    "Organization": "schema:Organization",
+    "Vessel": "schema:Vehicle",
+    "Aircraft": "schema:Vehicle",
+    "Name": "schema:Thing",
+    "Address": "schema:PostalAddress",
+    "Identifier": "schema:PropertyValue",
+    "Entry": "schema:Thing",
+    "Authority": "schema:Organization",
+    "Country": "schema:Country",
+    "Regime": "schema:Thing",
+    "Announcement": "schema:NewsArticle",
+    "LegalInstrument": "schema:Legislation",
+    "id": "@id",
+    "type": "@type",
+    "name": "schema:name",
+    "full_name": "schema:name",
+    "names": {
+      "@id": "hasName",
+      "@container": "@set"
+    },
+    "is_primary": "schema:isPrimary",
+    "street": "schema:streetAddress",
+    "city": "schema:addressLocality",
+    "state": "schema:addressRegion",
+    "postal_code": "schema:postalCode",
+    "country": "schema:addressCountry",
+    "addresses": {
+      "@id": "hasAddress",
+      "@container": "@set"
+    },
+    "identifier": "schema:identifier",
+    "identifiers": {
+      "@id": "hasIdentifier",
+      "@container": "@set"
+    },
+    "value": "schema:value",
+    "issue_date": {
+      "@id": "schema:dateIssued",
+      "@type": "xsd:date"
+    },
+    "expiry_date": {
+      "@id": "expiryDate",
+      "@type": "xsd:date"
+    },
+    "birth_date": {
+      "@id": "schema:birthDate",
+      "@type": "xsd:date"
+    },
+    "birth_place": "schema:birthPlace",
+    "death_date": {
+      "@id": "schema:deathDate",
+      "@type": "xsd:date"
+    },
+    "gender": "schema:gender",
+    "nationality": "schema:nationality",
+    "nationalities": {
+      "@id": "schema:nationality",
+      "@container": "@set"
+    },
+    "registration_number": "schema:taxID",
+    "incorporation_country": "schema:foundingLocation",
+    "website": "schema:url",
+    "imo_number": "schema:serialNumber",
+    "flag_state": "schema:flag",
+    "status": "schema:status",
+    "listed_date": {
+      "@id": "listedDate",
+      "@type": "xsd:date"
+    },
+    "delisted_date": {
+      "@id": "delistedDate",
+      "@type": "xsd:date"
+    },
+    "measures": "schema:description",
+    "remarks": "schema:description",
+    "entity": {
+      "@id": "forEntity",
+      "@type": "@id"
+    },
+    "authority": {
+      "@id": "listedBy",
+      "@type": "@id"
+    },
+    "regime": {
+      "@id": "underRegime",
+      "@type": "@id"
+    },
+    "announcement": {
+      "@id": "publishedIn",
+      "@type": "@id"
+    },
+    "source": "schema:sourceOrganization",
+    "reference_number": "schema:identifier",
+    "url": "schema:url"
+  },
+  "@id": "partidul-liberal-democrat--din-rusia-liberalna-demo-3638",
+  "@type": "Organization",
+  "source": "eu",
+  "names": [
+    {
+      "name": "Liberálnodemokratická strana Ruska",
+      "is_primary": false
+    },
+    {
+      "name": "Venemaa Liberaaldemokraatlik Partei",
+      "is_primary": false
+    },
+    {
+      "name": "Liberalna demokratska stranka Rusije",
+      "is_primary": false
+    },
+    {
+      "name": "Rysslands liberaldemokratiska parti",
+      "is_primary": false
+    },
+    {
+      "name": "Rusijos liberalų-demokratų partija",
+      "is_primary": false
+    },
+    {
+      "name": "Φιλελεύθερο Δημοκρατικό Κόμμα της Ρωσίας",
+      "is_primary": false
+    },
+    {
+      "name": "Liberálně-demokratická strana Ruska",
+      "is_primary": false
+    },
+    {
+      "name": "Liberaal-Democratische Partij van Rusland",
+      "is_primary": false
+    },
+    {
+      "name": "Oroszországi Liberális Demokrata Párt",
+      "is_primary": false
+    },
+    {
+      "name": "Partido Democrata Liberal da Rússia",
+      "is_primary": false
+    },
+    {
+      "name": "Partido Democrático  Liberal de Rusia",
+      "is_primary": false
+    },
+    {
+      "name": "Liberalno-Demokratyczna Partia Rosji",
+      "is_primary": false
+    },
+    {
+      "name": "Parti libéral-démocrate  de Russie",
+      "is_primary": false
+    },
+    {
+      "name": "Partito  liberaldemocratico  della Russia",
+      "is_primary": false
+    },
+    {
+      "name": "Liberal-demokratische Partei Russlands",
+      "is_primary": false
+    },
+    {
+      "name": "Liberal Democratic Party of Russia",
+      "is_primary": false
+    },
+    {
+      "name": "Либерально-демократическая партия России",
+      "is_primary": false
+    },
+    {
+      "name": "Либерално-демократичната партия на Русия",
+      "is_primary": false
+    },
+    {
+      "name": "Liberalna demokratična stranka Rusije",
+      "is_primary": false
+    },
+    {
+      "name": "Partidul Liberal Democrat  din Rusia",
+      "is_primary": true
+    }
+  ],
+  "addresses": []
+}

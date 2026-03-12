@@ -1,0 +1,691 @@
+{
+  "@context": {
+    "@vocab": "https://www.ammitto.org/ontology/",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "Entity": "schema:Thing",
+    "Person": "schema:Person",
+    "Organization": "schema:Organization",
+    "Vessel": "schema:Vehicle",
+    "Aircraft": "schema:Vehicle",
+    "Name": "schema:Thing",
+    "Address": "schema:PostalAddress",
+    "Identifier": "schema:PropertyValue",
+    "Entry": "schema:Thing",
+    "Authority": "schema:Organization",
+    "Country": "schema:Country",
+    "Regime": "schema:Thing",
+    "Announcement": "schema:NewsArticle",
+    "LegalInstrument": "schema:Legislation",
+    "id": "@id",
+    "type": "@type",
+    "name": "schema:name",
+    "full_name": "schema:name",
+    "names": {
+      "@id": "hasName",
+      "@container": "@set"
+    },
+    "is_primary": "schema:isPrimary",
+    "street": "schema:streetAddress",
+    "city": "schema:addressLocality",
+    "state": "schema:addressRegion",
+    "postal_code": "schema:postalCode",
+    "country": "schema:addressCountry",
+    "addresses": {
+      "@id": "hasAddress",
+      "@container": "@set"
+    },
+    "identifier": "schema:identifier",
+    "identifiers": {
+      "@id": "hasIdentifier",
+      "@container": "@set"
+    },
+    "value": "schema:value",
+    "issue_date": {
+      "@id": "schema:dateIssued",
+      "@type": "xsd:date"
+    },
+    "expiry_date": {
+      "@id": "expiryDate",
+      "@type": "xsd:date"
+    },
+    "birth_date": {
+      "@id": "schema:birthDate",
+      "@type": "xsd:date"
+    },
+    "birth_place": "schema:birthPlace",
+    "death_date": {
+      "@id": "schema:deathDate",
+      "@type": "xsd:date"
+    },
+    "gender": "schema:gender",
+    "nationality": "schema:nationality",
+    "nationalities": {
+      "@id": "schema:nationality",
+      "@container": "@set"
+    },
+    "registration_number": "schema:taxID",
+    "incorporation_country": "schema:foundingLocation",
+    "website": "schema:url",
+    "imo_number": "schema:serialNumber",
+    "flag_state": "schema:flag",
+    "status": "schema:status",
+    "listed_date": {
+      "@id": "listedDate",
+      "@type": "xsd:date"
+    },
+    "delisted_date": {
+      "@id": "delistedDate",
+      "@type": "xsd:date"
+    },
+    "measures": "schema:description",
+    "remarks": "schema:description",
+    "entity": {
+      "@id": "forEntity",
+      "@type": "@id"
+    },
+    "authority": {
+      "@id": "listedBy",
+      "@type": "@id"
+    },
+    "regime": {
+      "@id": "underRegime",
+      "@type": "@id"
+    },
+    "announcement": {
+      "@id": "publishedIn",
+      "@type": "@id"
+    },
+    "source": "schema:sourceOrganization",
+    "reference_number": "schema:identifier",
+    "url": "schema:url"
+  },
+  "@id": "muhammad-yihia-moalla-muhammad-yahya-moalla-muhamma-984",
+  "@type": "Person",
+  "source": "eu",
+  "names": [
+    {
+      "name": "Mohamed Yihia MAALA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohammad Yihya MUALA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohammad Yihia MUALA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohammad Yahia MUALA",
+      "is_primary": false
+    },
+    {
+      "name": "Muhammad Yahia MUALA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohammed Yahiya MA'LA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohammed Yehya MA'LA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohammed Yahya MA'LA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohammed Yihya MA'LA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohammed Yihia MA'LA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohammed Yahia MA'LA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohamed Yahiya MA'LA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohamed Yehya MA'LA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohamed Yahya MA'LA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohamed Yihya MA'LA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohamed Yihia MA'LA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohamed Yahia MA'LA",
+      "is_primary": false
+    },
+    {
+      "name": "Muhammad Yahiya MA'LA",
+      "is_primary": false
+    },
+    {
+      "name": "Muhammad Yehya MA'LA",
+      "is_primary": false
+    },
+    {
+      "name": "Muhammad Yahya MA'LA",
+      "is_primary": false
+    },
+    {
+      "name": "Muhammad Yihya MA'LA",
+      "is_primary": false
+    },
+    {
+      "name": "Muhammad Yihia MA'LA",
+      "is_primary": false
+    },
+    {
+      "name": "Muhammad Yahia MA'LA",
+      "is_primary": false
+    },
+    {
+      "name": "Muhammad Yihya MOALLA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohammad Yehya MA'LA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohammad Yahya MA'LA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohammad Yihya MA'LA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohammad Yihia MA'LA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohammad Yahia MA'LA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohammad Yahia MU'LA",
+      "is_primary": false
+    },
+    {
+      "name": "Muhammad Yahia MU'LA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohamed Yahia MU'LA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohammed Yahia MU'LA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohammad Yihia MU'LA",
+      "is_primary": false
+    },
+    {
+      "name": "Muhammad Yihia MU'LA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohamed Yihia MU'LA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohammed Yihia MU'LA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohammad Yahya MU'LA",
+      "is_primary": false
+    },
+    {
+      "name": "Muhammad Yahya MU'LA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohamed Yahya MU'LA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohammed Yahya MU'LA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohammad Yihya MU'LA",
+      "is_primary": false
+    },
+    {
+      "name": "Muhammad Yihya MU'LA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohamed Yihya MU'LA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohammed Yihya MU'LA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohammad Yehya MU'LA",
+      "is_primary": false
+    },
+    {
+      "name": "Muhammad Yehya MU'LA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohamed Yehya MU'LA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohammed Yehya MU'LA",
+      "is_primary": false
+    },
+    {
+      "name": "Muhammad Yahiya MU'LA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohamed Yahiya MU'LA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohammad Yahiya MALA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohammad Yahiya MAALA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohammad Yahiya MUALA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohammad Yahiya MA'LA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohammad Yahiya MU'LA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohammad Yahia MOALLA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohammad Yihia MOALLA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohammad Yihya MOALLA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohammad Yahya MOALLA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohammad Yehya MOALLA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohammed Yahiya MOALLA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohamed Yahiya MOALLA",
+      "is_primary": false
+    },
+    {
+      "name": "Muhammad Yahiya MOALLA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohammad Yahiya MOALLA",
+      "is_primary": false
+    },
+    {
+      "name": "Muhammad Yahia MOALLA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohamed Yehya MOALLA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohamed Yahya MOALLA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohamed Yihya MOALLA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohamed Yihia MOALLA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohamed Yahia MOALLA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohammed Yahiya MU'LA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohamed Yihia MALA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohamed Yahia MALA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohammed Yahiya MALA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohammed Yehya MALA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohammed Yahya MALA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohammed Yihya MALA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohammed Yihia MALA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohammed Yahia MALA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohammad Yehya MALA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohammad Yahya MALA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohammad Yihya MALA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohammad Yihia MALA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohammad Yahia MALA",
+      "is_primary": false
+    },
+    {
+      "name": "Muhammad Yahiya MALA",
+      "is_primary": false
+    },
+    {
+      "name": "Muhammad Yehya MALA",
+      "is_primary": false
+    },
+    {
+      "name": "Muhammad Yahya MALA",
+      "is_primary": false
+    },
+    {
+      "name": "Muhammad Yihya MALA",
+      "is_primary": false
+    },
+    {
+      "name": "Muhammad Yihia MALA",
+      "is_primary": false
+    },
+    {
+      "name": "Muhammad Yahia MALA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohamed Yahiya MAALA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohamed Yehya MAALA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohamed Yahya MAALA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohamed Yihya MAALA",
+      "is_primary": false
+    },
+    {
+      "name": "Muhammad Yihia MOALLA",
+      "is_primary": true
+    },
+    {
+      "name": "Muhammad Yahya MOALLA",
+      "is_primary": false
+    },
+    {
+      "name": "Muhammad Yehya MOALLA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohammed Yahia MOALLA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohammed Yihia MOALLA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohammed Yihya MOALLA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohammed Yahya MOALLA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohammed Yehya MOALLA",
+      "is_primary": false
+    },
+    {
+      "name": "محمد يحيى معل",
+      "is_primary": false
+    },
+    {
+      "name": "Mohamed Yihya MALA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohamed Yahya MALA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohamed Yehya MALA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohamed Yahiya MALA",
+      "is_primary": false
+    },
+    {
+      "name": "Muhammad Yihia MUALA",
+      "is_primary": false
+    },
+    {
+      "name": "Muhammad Yihya MUALA",
+      "is_primary": false
+    },
+    {
+      "name": "Muhammad Yahya MUALA",
+      "is_primary": false
+    },
+    {
+      "name": "Muhammad Yehya MUALA",
+      "is_primary": false
+    },
+    {
+      "name": "Muhammad Yahiya MUALA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohammad Yahya MUALA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohammad Yehya MUALA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohammed Yahia MUALA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohammed Yihia MUALA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohammed Yihya MUALA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohammed Yahya MUALA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohammed Yehya MUALA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohammed Yahiya MUALA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohamed Yahia MUALA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohamed Yihia MUALA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohamed Yihya MUALA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohamed Yahya MUALA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohamed Yehya MUALA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohamed Yahiya MUALA",
+      "is_primary": false
+    },
+    {
+      "name": "Muhammad Yahia MAALA",
+      "is_primary": false
+    },
+    {
+      "name": "Muhammad Yihia MAALA",
+      "is_primary": false
+    },
+    {
+      "name": "Muhammad Yihya MAALA",
+      "is_primary": false
+    },
+    {
+      "name": "Muhammad Yahya MAALA",
+      "is_primary": false
+    },
+    {
+      "name": "Muhammad Yehya MAALA",
+      "is_primary": false
+    },
+    {
+      "name": "Muhammad Yahiya MAALA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohammad Yahia MAALA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohammad Yihia MAALA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohammad Yihya MAALA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohammad Yahya MAALA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohammad Yehya MAALA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohammed Yahia MAALA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohammed Yihia MAALA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohammed Yihya MAALA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohammed Yahya MAALA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohammed Yehya MAALA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohammed Yahiya MAALA",
+      "is_primary": false
+    },
+    {
+      "name": "Mohamed Yahia MAALA",
+      "is_primary": false
+    }
+  ],
+  "addresses": []
+}

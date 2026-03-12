@@ -1,0 +1,191 @@
+{
+  "@context": {
+    "@vocab": "https://www.ammitto.org/ontology/",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "Entity": "schema:Thing",
+    "Person": "schema:Person",
+    "Organization": "schema:Organization",
+    "Vessel": "schema:Vehicle",
+    "Aircraft": "schema:Vehicle",
+    "Name": "schema:Thing",
+    "Address": "schema:PostalAddress",
+    "Identifier": "schema:PropertyValue",
+    "Entry": "schema:Thing",
+    "Authority": "schema:Organization",
+    "Country": "schema:Country",
+    "Regime": "schema:Thing",
+    "Announcement": "schema:NewsArticle",
+    "LegalInstrument": "schema:Legislation",
+    "id": "@id",
+    "type": "@type",
+    "name": "schema:name",
+    "full_name": "schema:name",
+    "names": {
+      "@id": "hasName",
+      "@container": "@set"
+    },
+    "is_primary": "schema:isPrimary",
+    "street": "schema:streetAddress",
+    "city": "schema:addressLocality",
+    "state": "schema:addressRegion",
+    "postal_code": "schema:postalCode",
+    "country": "schema:addressCountry",
+    "addresses": {
+      "@id": "hasAddress",
+      "@container": "@set"
+    },
+    "identifier": "schema:identifier",
+    "identifiers": {
+      "@id": "hasIdentifier",
+      "@container": "@set"
+    },
+    "value": "schema:value",
+    "issue_date": {
+      "@id": "schema:dateIssued",
+      "@type": "xsd:date"
+    },
+    "expiry_date": {
+      "@id": "expiryDate",
+      "@type": "xsd:date"
+    },
+    "birth_date": {
+      "@id": "schema:birthDate",
+      "@type": "xsd:date"
+    },
+    "birth_place": "schema:birthPlace",
+    "death_date": {
+      "@id": "schema:deathDate",
+      "@type": "xsd:date"
+    },
+    "gender": "schema:gender",
+    "nationality": "schema:nationality",
+    "nationalities": {
+      "@id": "schema:nationality",
+      "@container": "@set"
+    },
+    "registration_number": "schema:taxID",
+    "incorporation_country": "schema:foundingLocation",
+    "website": "schema:url",
+    "imo_number": "schema:serialNumber",
+    "flag_state": "schema:flag",
+    "status": "schema:status",
+    "listed_date": {
+      "@id": "listedDate",
+      "@type": "xsd:date"
+    },
+    "delisted_date": {
+      "@id": "delistedDate",
+      "@type": "xsd:date"
+    },
+    "measures": "schema:description",
+    "remarks": "schema:description",
+    "entity": {
+      "@id": "forEntity",
+      "@type": "@id"
+    },
+    "authority": {
+      "@id": "listedBy",
+      "@type": "@id"
+    },
+    "regime": {
+      "@id": "underRegime",
+      "@type": "@id"
+    },
+    "announcement": {
+      "@id": "publishedIn",
+      "@type": "@id"
+    },
+    "source": "schema:sourceOrganization",
+    "reference_number": "schema:identifier",
+    "url": "schema:url"
+  },
+  "@id": "autorit-di-regolamentazione-delle--comunicazioni-au-3729",
+  "@type": "Organization",
+  "source": "eu",
+  "names": [
+    {
+      "name": "سازمان تنظیم مقررات ارتباطات",
+      "is_primary": false
+    },
+    {
+      "name": "Organ ds. Regulacji Komunikacji",
+      "is_primary": false
+    },
+    {
+      "name": "Urząd ds. Regulacji Komunikacji",
+      "is_primary": false
+    },
+    {
+      "name": "ρυθμιστική αρχή επικοινωνιών",
+      "is_primary": false
+    },
+    {
+      "name": "Autoritatea de Reglementare în domeniul Comunicării",
+      "is_primary": false
+    },
+    {
+      "name": "Autoritatea de Reglementare în domeniul Comunicațiilor",
+      "is_primary": false
+    },
+    {
+      "name": "Communication Regulation  Authority (CRA)",
+      "is_primary": false
+    },
+    {
+      "name": "Kommunikations-regulierungs-behörde",
+      "is_primary": false
+    },
+    {
+      "name": "Autorité de régulation des communications",
+      "is_primary": false
+    },
+    {
+      "name": "Úrad pre reguláciu komunikačných služieb",
+      "is_primary": false
+    },
+    {
+      "name": "Úřad pro regulaci komunikačních  služeb",
+      "is_primary": false
+    },
+    {
+      "name": "Viestinnän sääntely-viranomainen",
+      "is_primary": false
+    },
+    {
+      "name": "Hírközlési Szabályozó Hatóság",
+      "is_primary": false
+    },
+    {
+      "name": "Hírközlést Szabályozó Hatóság",
+      "is_primary": false
+    },
+    {
+      "name": "Kommunikationsreguleringsmyndigheden",
+      "is_primary": false
+    },
+    {
+      "name": "Sakaru regulējuma iestāde",
+      "is_primary": false
+    },
+    {
+      "name": "Ryšių reguliavimo tarnyba",
+      "is_primary": false
+    },
+    {
+      "name": "Communications Regulatory Authority (CRA)",
+      "is_primary": false
+    },
+    {
+      "name": "Autoridad Reguladora de la Comunicación",
+      "is_primary": false
+    },
+    {
+      "name": "Autorità di regolamentazione delle  comunicazioni",
+      "is_primary": true
+    }
+  ],
+  "addresses": []
+}

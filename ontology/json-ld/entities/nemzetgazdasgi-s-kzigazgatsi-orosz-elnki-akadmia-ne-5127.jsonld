@@ -1,0 +1,171 @@
+{
+  "@context": {
+    "@vocab": "https://www.ammitto.org/ontology/",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "Entity": "schema:Thing",
+    "Person": "schema:Person",
+    "Organization": "schema:Organization",
+    "Vessel": "schema:Vehicle",
+    "Aircraft": "schema:Vehicle",
+    "Name": "schema:Thing",
+    "Address": "schema:PostalAddress",
+    "Identifier": "schema:PropertyValue",
+    "Entry": "schema:Thing",
+    "Authority": "schema:Organization",
+    "Country": "schema:Country",
+    "Regime": "schema:Thing",
+    "Announcement": "schema:NewsArticle",
+    "LegalInstrument": "schema:Legislation",
+    "id": "@id",
+    "type": "@type",
+    "name": "schema:name",
+    "full_name": "schema:name",
+    "names": {
+      "@id": "hasName",
+      "@container": "@set"
+    },
+    "is_primary": "schema:isPrimary",
+    "street": "schema:streetAddress",
+    "city": "schema:addressLocality",
+    "state": "schema:addressRegion",
+    "postal_code": "schema:postalCode",
+    "country": "schema:addressCountry",
+    "addresses": {
+      "@id": "hasAddress",
+      "@container": "@set"
+    },
+    "identifier": "schema:identifier",
+    "identifiers": {
+      "@id": "hasIdentifier",
+      "@container": "@set"
+    },
+    "value": "schema:value",
+    "issue_date": {
+      "@id": "schema:dateIssued",
+      "@type": "xsd:date"
+    },
+    "expiry_date": {
+      "@id": "expiryDate",
+      "@type": "xsd:date"
+    },
+    "birth_date": {
+      "@id": "schema:birthDate",
+      "@type": "xsd:date"
+    },
+    "birth_place": "schema:birthPlace",
+    "death_date": {
+      "@id": "schema:deathDate",
+      "@type": "xsd:date"
+    },
+    "gender": "schema:gender",
+    "nationality": "schema:nationality",
+    "nationalities": {
+      "@id": "schema:nationality",
+      "@container": "@set"
+    },
+    "registration_number": "schema:taxID",
+    "incorporation_country": "schema:foundingLocation",
+    "website": "schema:url",
+    "imo_number": "schema:serialNumber",
+    "flag_state": "schema:flag",
+    "status": "schema:status",
+    "listed_date": {
+      "@id": "listedDate",
+      "@type": "xsd:date"
+    },
+    "delisted_date": {
+      "@id": "delistedDate",
+      "@type": "xsd:date"
+    },
+    "measures": "schema:description",
+    "remarks": "schema:description",
+    "entity": {
+      "@id": "forEntity",
+      "@type": "@id"
+    },
+    "authority": {
+      "@id": "listedBy",
+      "@type": "@id"
+    },
+    "regime": {
+      "@id": "underRegime",
+      "@type": "@id"
+    },
+    "announcement": {
+      "@id": "publishedIn",
+      "@type": "@id"
+    },
+    "source": "schema:sourceOrganization",
+    "reference_number": "schema:identifier",
+    "url": "schema:url"
+  },
+  "@id": "nemzetgazdasgi-s-kzigazgatsi-orosz-elnki-akadmia-ne-5127",
+  "@type": "Organization",
+  "source": "eu",
+  "names": [
+    {
+      "name": "Ομοσπονδιακό Κρατικό Δημοσιονομικό Εκπαιδευτικό Ίδρυμα Τριτοβάθμιας Εκπαίδευσης",
+      "is_primary": false
+    },
+    {
+      "name": "Präsidialakademie  für Volkswirtschaft und  öffentliche Verwaltung",
+      "is_primary": false
+    },
+    {
+      "name": "Federalna Państwowa Instytucja Szkolnictwa Wyższego „Rosyjska Akademia Gospodarki Narodowej i Administracji Publicznej przy Prezydencie”",
+      "is_primary": false
+    },
+    {
+      "name": "Institutul de Fizică, Științe și Tehnologie finanțat de statul federal, denumit după A.F. Ioffe, al Academiei de Științe a Federației Ruse",
+      "is_primary": false
+    },
+    {
+      "name": "Instituição de ensino superior financiada pelo orçamento do Estado Federal “Academia Presidencial Russa da Economia Nacional e da Administração Pública”",
+      "is_primary": false
+    },
+    {
+      "name": "den federala statligt finansierade institutionen för högre utbildning ’Ryska presidentens akademi för nationalekonomi och offentlig förvaltning",
+      "is_primary": false
+    },
+    {
+      "name": "Federal State Budgetary Educational Institution of Higher Education “Russian Presidential Academy of National Economy and Public Administration”",
+      "is_primary": false
+    },
+    {
+      "name": "Российская Академия Народного Хозяйства и Государственной Службы При Президенте Российской Федерации",
+      "is_primary": false
+    },
+    {
+      "name": "Russian Presidential Academy of National Economy and Public Administration",
+      "is_primary": false
+    },
+    {
+      "name": "RANEPA",
+      "is_primary": false
+    },
+    {
+      "name": "ФГБОУ ВО “Российская Академия Народного Хозяйства и Государственной Службы При Президенте Российской Федерации” РАНХИГС",
+      "is_primary": false
+    },
+    {
+      "name": "Institiúid Ardoideachais Bhuiséadach an Stáit Chónaidhme ‘Acadamh Uachtaránachta na Rúise um an nGeilleagar Náisiúnta agus um Riarachán Poiblí",
+      "is_primary": false
+    },
+    {
+      "name": "Savezna državna proračunska obrazovna ustanova za visoko obrazovanje",
+      "is_primary": false
+    },
+    {
+      "name": "»Nemzetgazdasági és Közigazgatási Orosz Elnöki Akadémia« állami költségvetésből finanszírozott szövetségi felsőoktatási intézmény",
+      "is_primary": false
+    },
+    {
+      "name": "Nemzetgazdasági és Közigazgatási Orosz Elnöki Akadémia",
+      "is_primary": true
+    }
+  ],
+  "addresses": []
+}

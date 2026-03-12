@@ -1,0 +1,219 @@
+{
+  "@context": {
+    "@vocab": "https://www.ammitto.org/ontology/",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "Entity": "schema:Thing",
+    "Person": "schema:Person",
+    "Organization": "schema:Organization",
+    "Vessel": "schema:Vehicle",
+    "Aircraft": "schema:Vehicle",
+    "Name": "schema:Thing",
+    "Address": "schema:PostalAddress",
+    "Identifier": "schema:PropertyValue",
+    "Entry": "schema:Thing",
+    "Authority": "schema:Organization",
+    "Country": "schema:Country",
+    "Regime": "schema:Thing",
+    "Announcement": "schema:NewsArticle",
+    "LegalInstrument": "schema:Legislation",
+    "id": "@id",
+    "type": "@type",
+    "name": "schema:name",
+    "full_name": "schema:name",
+    "names": {
+      "@id": "hasName",
+      "@container": "@set"
+    },
+    "is_primary": "schema:isPrimary",
+    "street": "schema:streetAddress",
+    "city": "schema:addressLocality",
+    "state": "schema:addressRegion",
+    "postal_code": "schema:postalCode",
+    "country": "schema:addressCountry",
+    "addresses": {
+      "@id": "hasAddress",
+      "@container": "@set"
+    },
+    "identifier": "schema:identifier",
+    "identifiers": {
+      "@id": "hasIdentifier",
+      "@container": "@set"
+    },
+    "value": "schema:value",
+    "issue_date": {
+      "@id": "schema:dateIssued",
+      "@type": "xsd:date"
+    },
+    "expiry_date": {
+      "@id": "expiryDate",
+      "@type": "xsd:date"
+    },
+    "birth_date": {
+      "@id": "schema:birthDate",
+      "@type": "xsd:date"
+    },
+    "birth_place": "schema:birthPlace",
+    "death_date": {
+      "@id": "schema:deathDate",
+      "@type": "xsd:date"
+    },
+    "gender": "schema:gender",
+    "nationality": "schema:nationality",
+    "nationalities": {
+      "@id": "schema:nationality",
+      "@container": "@set"
+    },
+    "registration_number": "schema:taxID",
+    "incorporation_country": "schema:foundingLocation",
+    "website": "schema:url",
+    "imo_number": "schema:serialNumber",
+    "flag_state": "schema:flag",
+    "status": "schema:status",
+    "listed_date": {
+      "@id": "listedDate",
+      "@type": "xsd:date"
+    },
+    "delisted_date": {
+      "@id": "delistedDate",
+      "@type": "xsd:date"
+    },
+    "measures": "schema:description",
+    "remarks": "schema:description",
+    "entity": {
+      "@id": "forEntity",
+      "@type": "@id"
+    },
+    "authority": {
+      "@id": "listedBy",
+      "@type": "@id"
+    },
+    "regime": {
+      "@id": "underRegime",
+      "@type": "@id"
+    },
+    "announcement": {
+      "@id": "publishedIn",
+      "@type": "@id"
+    },
+    "source": "schema:sourceOrganization",
+    "reference_number": "schema:identifier",
+    "url": "schema:url"
+  },
+  "@id": "public-movement-free-donbass-free-donbas-svobodny-d-1272",
+  "@type": "Organization",
+  "source": "eu",
+  "names": [
+    {
+      "name": "Verejné hnutie „Slobodný Donbas“",
+      "is_primary": false
+    },
+    {
+      "name": "Javno gibanje ‚Svobodni Donbas‘",
+      "is_primary": false
+    },
+    {
+      "name": "Kansanliike ”Vapaa Donbass”",
+      "is_primary": false
+    },
+    {
+      "name": "Folkrörelsen ”Free Donbass”",
+      "is_primary": false
+    },
+    {
+      "name": "„Szabad Donyec-medence” („Free Donbass”) mozgalom",
+      "is_primary": false
+    },
+    {
+      "name": "Moviment pubbliku “Donbass Ħieles”",
+      "is_primary": false
+    },
+    {
+      "name": "Publieke organisatie Vrij Donbass",
+      "is_primary": false
+    },
+    {
+      "name": "Ruch społeczny Wolny Donbas",
+      "is_primary": false
+    },
+    {
+      "name": "Movimento público Donbass Livre",
+      "is_primary": false
+    },
+    {
+      "name": "Mișcarea publică «Libertate pentru Donbass»",
+      "is_primary": false
+    },
+    {
+      "name": "Mouvement public “Donbass libre”",
+      "is_primary": false
+    },
+    {
+      "name": "Gluaiseacht Phoiblí ‘Free Donbass’",
+      "is_primary": false
+    },
+    {
+      "name": "Javni pokret „Slobodni Donbas”",
+      "is_primary": false
+    },
+    {
+      "name": "Movimento pubblico “Donbass libero”",
+      "is_primary": false
+    },
+    {
+      "name": "Sabiedriskā kustība “Free Donbass”",
+      "is_primary": false
+    },
+    {
+      "name": "Viešasis judėjimas „Free Donbass“",
+      "is_primary": false
+    },
+    {
+      "name": "Обществено движение „Свободен Донбас“",
+      "is_primary": false
+    },
+    {
+      "name": "Movimiento público “Free Donbass”",
+      "is_primary": false
+    },
+    {
+      "name": "Veřejné hnutí „Free Donbass“",
+      "is_primary": false
+    },
+    {
+      "name": "Folkebevægelsen »Frit Donbass«",
+      "is_primary": false
+    },
+    {
+      "name": "Öffentliche Bewegung „Freies Donbass“",
+      "is_primary": false
+    },
+    {
+      "name": "Rahvaliikumine „Free Donbass“",
+      "is_primary": false
+    },
+    {
+      "name": "Δημόσιο κίνημα “Ελεύθερο Ντονμπάς”",
+      "is_primary": false
+    },
+    {
+      "name": "Общественное движение ‘Свободньιй Донбасс’",
+      "is_primary": false
+    },
+    {
+      "name": "\"Svobodny Donbass\"",
+      "is_primary": false
+    },
+    {
+      "name": "\"Free Donbas\"",
+      "is_primary": false
+    },
+    {
+      "name": "Public movement ‘Free Donbass’",
+      "is_primary": true
+    }
+  ],
+  "addresses": []
+}

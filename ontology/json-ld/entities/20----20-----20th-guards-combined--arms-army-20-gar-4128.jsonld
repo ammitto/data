@@ -1,0 +1,207 @@
+{
+  "@context": {
+    "@vocab": "https://www.ammitto.org/ontology/",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "Entity": "schema:Thing",
+    "Person": "schema:Person",
+    "Organization": "schema:Organization",
+    "Vessel": "schema:Vehicle",
+    "Aircraft": "schema:Vehicle",
+    "Name": "schema:Thing",
+    "Address": "schema:PostalAddress",
+    "Identifier": "schema:PropertyValue",
+    "Entry": "schema:Thing",
+    "Authority": "schema:Organization",
+    "Country": "schema:Country",
+    "Regime": "schema:Thing",
+    "Announcement": "schema:NewsArticle",
+    "LegalInstrument": "schema:Legislation",
+    "id": "@id",
+    "type": "@type",
+    "name": "schema:name",
+    "full_name": "schema:name",
+    "names": {
+      "@id": "hasName",
+      "@container": "@set"
+    },
+    "is_primary": "schema:isPrimary",
+    "street": "schema:streetAddress",
+    "city": "schema:addressLocality",
+    "state": "schema:addressRegion",
+    "postal_code": "schema:postalCode",
+    "country": "schema:addressCountry",
+    "addresses": {
+      "@id": "hasAddress",
+      "@container": "@set"
+    },
+    "identifier": "schema:identifier",
+    "identifiers": {
+      "@id": "hasIdentifier",
+      "@container": "@set"
+    },
+    "value": "schema:value",
+    "issue_date": {
+      "@id": "schema:dateIssued",
+      "@type": "xsd:date"
+    },
+    "expiry_date": {
+      "@id": "expiryDate",
+      "@type": "xsd:date"
+    },
+    "birth_date": {
+      "@id": "schema:birthDate",
+      "@type": "xsd:date"
+    },
+    "birth_place": "schema:birthPlace",
+    "death_date": {
+      "@id": "schema:deathDate",
+      "@type": "xsd:date"
+    },
+    "gender": "schema:gender",
+    "nationality": "schema:nationality",
+    "nationalities": {
+      "@id": "schema:nationality",
+      "@container": "@set"
+    },
+    "registration_number": "schema:taxID",
+    "incorporation_country": "schema:foundingLocation",
+    "website": "schema:url",
+    "imo_number": "schema:serialNumber",
+    "flag_state": "schema:flag",
+    "status": "schema:status",
+    "listed_date": {
+      "@id": "listedDate",
+      "@type": "xsd:date"
+    },
+    "delisted_date": {
+      "@id": "delistedDate",
+      "@type": "xsd:date"
+    },
+    "measures": "schema:description",
+    "remarks": "schema:description",
+    "entity": {
+      "@id": "forEntity",
+      "@type": "@id"
+    },
+    "authority": {
+      "@id": "listedBy",
+      "@type": "@id"
+    },
+    "regime": {
+      "@id": "underRegime",
+      "@type": "@id"
+    },
+    "announcement": {
+      "@id": "publishedIn",
+      "@type": "@id"
+    },
+    "source": "schema:sourceOrganization",
+    "reference_number": "schema:identifier",
+    "url": "schema:url"
+  },
+  "@id": "20----20-----20th-guards-combined--arms-army-20-gar-4128",
+  "@type": "Organization",
+  "source": "eu",
+  "names": [
+    {
+      "name": "20. gardová vševojsková armáda",
+      "is_primary": false
+    },
+    {
+      "name": "20-а гвардейска общовойскова армия",
+      "is_primary": false
+    },
+    {
+      "name": "20. gardová kombinovaná armáda",
+      "is_primary": false
+    },
+    {
+      "name": "20. gardna kombinirana armada",
+      "is_primary": false
+    },
+    {
+      "name": "20. kombineeritud relvastusega armee",
+      "is_primary": false
+    },
+    {
+      "name": "20 ‑o pajėgų armija",
+      "is_primary": false
+    },
+    {
+      "name": "20. kaujinieku kombinēto spēku armija",
+      "is_primary": false
+    },
+    {
+      "name": "20. kaartin usean aselajin armeija",
+      "is_primary": false
+    },
+    {
+      "name": "20. gardijska kombinirana armija",
+      "is_primary": false
+    },
+    {
+      "name": "20:e gardesarmén",
+      "is_primary": false
+    },
+    {
+      "name": "Dvacátá gardová vševojsková armáda",
+      "is_primary": false
+    },
+    {
+      "name": "Armata a 20-a gardistă de arme întrunite",
+      "is_primary": false
+    },
+    {
+      "name": "20ή Στρατιά Φρουρών  Συνδυασμένων Όπλων",
+      "is_primary": false
+    },
+    {
+      "name": "20. rohamőrségi összfegyvernemi hadsereg",
+      "is_primary": false
+    },
+    {
+      "name": "20.º Exército Interarmas da Guarda",
+      "is_primary": false
+    },
+    {
+      "name": "20. Gwardyjska Armia Ogólnowojskowa",
+      "is_primary": false
+    },
+    {
+      "name": "20.º Ejército Interarmas de la Guardia",
+      "is_primary": false
+    },
+    {
+      "name": "20e gardeleger gecombineerde wapens",
+      "is_primary": false
+    },
+    {
+      "name": "20e armée interarmes de la Garde",
+      "is_primary": false
+    },
+    {
+      "name": "20a armata combinata della Guardia",
+      "is_primary": false
+    },
+    {
+      "name": "20. Gardearmee",
+      "is_primary": false
+    },
+    {
+      "name": "20th Guards Combined  Arms Army",
+      "is_primary": false
+    },
+    {
+      "name": "20-я гвардейская Краснознаменная общевойсковая армия",
+      "is_primary": false
+    },
+    {
+      "name": "20-я гвардейская общевойсковая армия",
+      "is_primary": true
+    }
+  ],
+  "addresses": []
+}

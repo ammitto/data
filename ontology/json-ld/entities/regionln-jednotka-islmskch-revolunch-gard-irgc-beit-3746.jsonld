@@ -1,0 +1,207 @@
+{
+  "@context": {
+    "@vocab": "https://www.ammitto.org/ontology/",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "Entity": "schema:Thing",
+    "Person": "schema:Person",
+    "Organization": "schema:Organization",
+    "Vessel": "schema:Vehicle",
+    "Aircraft": "schema:Vehicle",
+    "Name": "schema:Thing",
+    "Address": "schema:PostalAddress",
+    "Identifier": "schema:PropertyValue",
+    "Entry": "schema:Thing",
+    "Authority": "schema:Organization",
+    "Country": "schema:Country",
+    "Regime": "schema:Thing",
+    "Announcement": "schema:NewsArticle",
+    "LegalInstrument": "schema:Legislation",
+    "id": "@id",
+    "type": "@type",
+    "name": "schema:name",
+    "full_name": "schema:name",
+    "names": {
+      "@id": "hasName",
+      "@container": "@set"
+    },
+    "is_primary": "schema:isPrimary",
+    "street": "schema:streetAddress",
+    "city": "schema:addressLocality",
+    "state": "schema:addressRegion",
+    "postal_code": "schema:postalCode",
+    "country": "schema:addressCountry",
+    "addresses": {
+      "@id": "hasAddress",
+      "@container": "@set"
+    },
+    "identifier": "schema:identifier",
+    "identifiers": {
+      "@id": "hasIdentifier",
+      "@container": "@set"
+    },
+    "value": "schema:value",
+    "issue_date": {
+      "@id": "schema:dateIssued",
+      "@type": "xsd:date"
+    },
+    "expiry_date": {
+      "@id": "expiryDate",
+      "@type": "xsd:date"
+    },
+    "birth_date": {
+      "@id": "schema:birthDate",
+      "@type": "xsd:date"
+    },
+    "birth_place": "schema:birthPlace",
+    "death_date": {
+      "@id": "schema:deathDate",
+      "@type": "xsd:date"
+    },
+    "gender": "schema:gender",
+    "nationality": "schema:nationality",
+    "nationalities": {
+      "@id": "schema:nationality",
+      "@container": "@set"
+    },
+    "registration_number": "schema:taxID",
+    "incorporation_country": "schema:foundingLocation",
+    "website": "schema:url",
+    "imo_number": "schema:serialNumber",
+    "flag_state": "schema:flag",
+    "status": "schema:status",
+    "listed_date": {
+      "@id": "listedDate",
+      "@type": "xsd:date"
+    },
+    "delisted_date": {
+      "@id": "delistedDate",
+      "@type": "xsd:date"
+    },
+    "measures": "schema:description",
+    "remarks": "schema:description",
+    "entity": {
+      "@id": "forEntity",
+      "@type": "@id"
+    },
+    "authority": {
+      "@id": "listedBy",
+      "@type": "@id"
+    },
+    "regime": {
+      "@id": "underRegime",
+      "@type": "@id"
+    },
+    "announcement": {
+      "@id": "publishedIn",
+      "@type": "@id"
+    },
+    "source": "schema:sourceOrganization",
+    "reference_number": "schema:identifier",
+    "url": "schema:url"
+  },
+  "@id": "regionln-jednotka-islmskch-revolunch-gard-irgc-beit-3746",
+  "@type": "Organization",
+  "source": "eu",
+  "names": [
+    {
+      "name": "Islamilaisen vallankumous-kaartin (IRGC)  alueelliset Beit-al-Moqadas -joukot  Kurdistanissa",
+      "is_primary": false
+    },
+    {
+      "name": "Cór réigiúnach Beit-al-Moqadas an Islamic  Revolutionary Guard Corps (IRGC) i  gCordastáin.",
+      "is_primary": false
+    },
+    {
+      "name": "regionalna enota Islamske revolucionarne  garde Beit-al-Moqadas v provinci  Kurdistan",
+      "is_primary": false
+    },
+    {
+      "name": "Islamic Revolutionary Guard Corps (IRGC) Regional Corps Beit-al-Moqadas in Kurdistan",
+      "is_primary": false
+    },
+    {
+      "name": "المقدس بيت سپاه پاسداران انقلاب اسلامی",
+      "is_primary": false
+    },
+    {
+      "name": "Regionálna jednotka Zboru islamských  revolučných gárd (IRGC) Beit-al-Moqadas  v provincii Kurdistan",
+      "is_primary": false
+    },
+    {
+      "name": "islami revolutsioonilise kaardiväe (IRGC) piirkondlik üksus Beit-al-Moqadas Kurdistani provintsis",
+      "is_primary": false
+    },
+    {
+      "name": "Islāma revolucionāro gvardu korpusa (IRGC) reģionālais korpuss Beit-al-Moqadas, kas atrodas Kurdistānā",
+      "is_primary": false
+    },
+    {
+      "name": "Należące do Korpusu Strażników  Rewolucji Islamskiej (IRGC) regionalne siły Beit-al-Moqadas w prowincji Kurdystan",
+      "is_primary": false
+    },
+    {
+      "name": "Επαρχιακό σώμα Beit-al-Moqadas του Στρατού των Φρουρών της Ισλαμικής  Επανάστασης (IRGC), Κουρδιστάν",
+      "is_primary": false
+    },
+    {
+      "name": "Corps provincial \"Beit-al-Moqadas\" relevant du Corps des gardiens de la  révolution islamique (IRGC) dans la province du Kurdistan",
+      "is_primary": false
+    },
+    {
+      "name": "Regionaal korps “Beit-al-Moqadas” van de  Islamitische Revolutionaire Garde (IRG) in  Kurdistan",
+      "is_primary": false
+    },
+    {
+      "name": "Islamo revoliucijos gvardijos (IRGC) regioninis Beit-al-Moqadas korpusas Kurdistane",
+      "is_primary": false
+    },
+    {
+      "name": "Korp Reġjonali Beit-al-Moqadas tal-Korp tal-Gwardjani tar-Rivoluzzjoni Iżlamika (IRGC) f’Kurdistan",
+      "is_primary": false
+    },
+    {
+      "name": "Regionalkorps „Beit-al-Moqadas“ des Korps der Islamischen Revolutionsgarde (IRGC) in Kurdistan",
+      "is_primary": false
+    },
+    {
+      "name": "Corpo regionale Beit-al-Moqadas del Corpo delle guardie rivoluzionarie islamiche (IRGC), Kurdistan",
+      "is_primary": false
+    },
+    {
+      "name": "Islamiska revolutionsgardets regionala Beit-al-Moqadas-styrkor i  Kurdista",
+      "is_primary": false
+    },
+    {
+      "name": "Regionalni korpus Beit-al-Moqadas Islamske revolucionarne garde (IRGC)) u  Kurdistanu",
+      "is_primary": false
+    },
+    {
+      "name": "Az Iszlám Forradalmi Gárda kurdisztáni Beit-al-Moqadas regionális hadteste",
+      "is_primary": false
+    },
+    {
+      "name": "Den Islamiske Revolutionsgardes (IRGC's) regionale korps Beit-al-Moqadas i Kurdistan",
+      "is_primary": false
+    },
+    {
+      "name": "Регионален корпус Beit-al-Moqadas на  Корпуса на гвардейците на ислямската  революция (IRGC) в Kurdistan",
+      "is_primary": false
+    },
+    {
+      "name": "Corpul provincial «Beit-al-Moqadas» al  Corpului Gardienilor Revoluției Iraniene (IRGC) din Kurdistan",
+      "is_primary": false
+    },
+    {
+      "name": "Cuerpo regional «Beit-al-Moqadas» del  Cuerpo de los Guardianes de la Revolución  Islámica en Kurdistán",
+      "is_primary": false
+    },
+    {
+      "name": "Regionální jednotka Islámských revolučních gard (IRGC) Beit-al-Moqadas v provincii Kurdistán",
+      "is_primary": true
+    }
+  ],
+  "addresses": []
+}

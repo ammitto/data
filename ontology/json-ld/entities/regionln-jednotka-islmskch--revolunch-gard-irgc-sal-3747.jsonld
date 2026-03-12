@@ -1,0 +1,207 @@
+{
+  "@context": {
+    "@vocab": "https://www.ammitto.org/ontology/",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "Entity": "schema:Thing",
+    "Person": "schema:Person",
+    "Organization": "schema:Organization",
+    "Vessel": "schema:Vehicle",
+    "Aircraft": "schema:Vehicle",
+    "Name": "schema:Thing",
+    "Address": "schema:PostalAddress",
+    "Identifier": "schema:PropertyValue",
+    "Entry": "schema:Thing",
+    "Authority": "schema:Organization",
+    "Country": "schema:Country",
+    "Regime": "schema:Thing",
+    "Announcement": "schema:NewsArticle",
+    "LegalInstrument": "schema:Legislation",
+    "id": "@id",
+    "type": "@type",
+    "name": "schema:name",
+    "full_name": "schema:name",
+    "names": {
+      "@id": "hasName",
+      "@container": "@set"
+    },
+    "is_primary": "schema:isPrimary",
+    "street": "schema:streetAddress",
+    "city": "schema:addressLocality",
+    "state": "schema:addressRegion",
+    "postal_code": "schema:postalCode",
+    "country": "schema:addressCountry",
+    "addresses": {
+      "@id": "hasAddress",
+      "@container": "@set"
+    },
+    "identifier": "schema:identifier",
+    "identifiers": {
+      "@id": "hasIdentifier",
+      "@container": "@set"
+    },
+    "value": "schema:value",
+    "issue_date": {
+      "@id": "schema:dateIssued",
+      "@type": "xsd:date"
+    },
+    "expiry_date": {
+      "@id": "expiryDate",
+      "@type": "xsd:date"
+    },
+    "birth_date": {
+      "@id": "schema:birthDate",
+      "@type": "xsd:date"
+    },
+    "birth_place": "schema:birthPlace",
+    "death_date": {
+      "@id": "schema:deathDate",
+      "@type": "xsd:date"
+    },
+    "gender": "schema:gender",
+    "nationality": "schema:nationality",
+    "nationalities": {
+      "@id": "schema:nationality",
+      "@container": "@set"
+    },
+    "registration_number": "schema:taxID",
+    "incorporation_country": "schema:foundingLocation",
+    "website": "schema:url",
+    "imo_number": "schema:serialNumber",
+    "flag_state": "schema:flag",
+    "status": "schema:status",
+    "listed_date": {
+      "@id": "listedDate",
+      "@type": "xsd:date"
+    },
+    "delisted_date": {
+      "@id": "delistedDate",
+      "@type": "xsd:date"
+    },
+    "measures": "schema:description",
+    "remarks": "schema:description",
+    "entity": {
+      "@id": "forEntity",
+      "@type": "@id"
+    },
+    "authority": {
+      "@id": "listedBy",
+      "@type": "@id"
+    },
+    "regime": {
+      "@id": "underRegime",
+      "@type": "@id"
+    },
+    "announcement": {
+      "@id": "publishedIn",
+      "@type": "@id"
+    },
+    "source": "schema:sourceOrganization",
+    "reference_number": "schema:identifier",
+    "url": "schema:url"
+  },
+  "@id": "regionln-jednotka-islmskch--revolunch-gard-irgc-sal-3747",
+  "@type": "Organization",
+  "source": "eu",
+  "names": [
+    {
+      "name": "Islamilaisen vallankumous-kaartin (IRGC) alueelliset Salaman-joukot Sistanissa ja Baluchestanissa",
+      "is_primary": false
+    },
+    {
+      "name": "Cór réigiúnach Salaman an Islamic  Revolutionary Guard Corps (IRGC) in Sistan agus Baluchestan",
+      "is_primary": false
+    },
+    {
+      "name": "regionalna enota  Islamske revolucionarne garde Salaman v provinci Sistan in Baluchesta",
+      "is_primary": false
+    },
+    {
+      "name": "Islamic Revolutionary Guard Corps (IRGC) Regional Corps Salaman in Sistan and Baluchestan",
+      "is_primary": false
+    },
+    {
+      "name": "سلمان سپاه پاسداران انقلاب اسلامی",
+      "is_primary": false
+    },
+    {
+      "name": "Regionálna jednotka Zboru islamských  revolučných gárd (IRGC) Salaman  v provincii Sistan a Balučistan",
+      "is_primary": false
+    },
+    {
+      "name": "islami revolutsioonilise kaardiväe (IRGC) piirkondlik üksus Salaman Sīstān va Balūchestāni provintsis",
+      "is_primary": false
+    },
+    {
+      "name": "Islāma revolucionāro gvardu korpusa (IRGC) reģionālais korpuss Salaman, kas  atrodas Sistan un Baluchestan",
+      "is_primary": false
+    },
+    {
+      "name": "Należące do Korpusu Strażników  Rewolucji Islamskiej (IRGC) regionalne siły  Salaman prowincji Sistan i Beludżystan",
+      "is_primary": false
+    },
+    {
+      "name": "Επαρχιακό σώμα Salaman του Στρατού των Φρουρών της Ισλαμικής Επανάστασης  (IRGC), Sistan και Baluchestan",
+      "is_primary": false
+    },
+    {
+      "name": "Corps provincial \"Salaman\" relevant du Corps des gardiens de la révolution islamique (IRGC) dans la province du Sistan et du Baloutchistan",
+      "is_primary": false
+    },
+    {
+      "name": "Regionaal korps “Salaman” van de  Islamitische Revolutionaire Garde (IRG) in  Sistan en Beloetsjistan",
+      "is_primary": false
+    },
+    {
+      "name": "Islamo revoliucijos gvardijos (IRGC) regioninis Salaman korpusas Sistane ir Beludžistane",
+      "is_primary": false
+    },
+    {
+      "name": "Korp Reġjonali Salaman tal-Korp tal-Gwardjani tar-Rivoluzzjoni Iżlamika (IRGC) f’Sistan u  Baluchestan",
+      "is_primary": false
+    },
+    {
+      "name": "Regionalkorps „Salaman“ des Korps der  Islamischen Revolutionsgarde (IRGC) in Sistan und Belutschistan",
+      "is_primary": false
+    },
+    {
+      "name": "Corpo regionale Salaman del Corpo delle guardie rivoluzionarie islamiche (IRGC), Sistan e Baluchestan",
+      "is_primary": false
+    },
+    {
+      "name": "Islamiska revolutionsgardets regionala Salaman-styrkor i Sistan och Baluchistan",
+      "is_primary": false
+    },
+    {
+      "name": "Regionalni  korpus Salaman Islamske revolucionarne  garde (IRGC)) u Sistanu i Baluchestanu",
+      "is_primary": false
+    },
+    {
+      "name": "Az Iszlám Forradalmi Gárda szisztáni és beludzsisztáni Salaman regionális hadteste",
+      "is_primary": false
+    },
+    {
+      "name": "Den Islamiske Revolutionsgardes (IRGC's) regionale korps Salaman i Sistan og  Baluchestan",
+      "is_primary": false
+    },
+    {
+      "name": "Регионален корпус Salaman на Корпуса на  гвардейците на ислямската революция  (IRGC) в Sistan и Baluchestan",
+      "is_primary": false
+    },
+    {
+      "name": "Corpul provincial «Salaman» al Corpului  Gardienilor Revoluției Iraniene (IRGC) din Sistan-Baluchestan",
+      "is_primary": false
+    },
+    {
+      "name": "Cuerpo regional «Salaman» del Cuerpo de  los Guardianes de la Revolución Islámica)  en Sistán y Baluchistán",
+      "is_primary": false
+    },
+    {
+      "name": "Regionální jednotka Islámských  revolučních gard (IRGC) Salámán v provincii Sístán a Balúčistán",
+      "is_primary": true
+    }
+  ],
+  "addresses": []
+}

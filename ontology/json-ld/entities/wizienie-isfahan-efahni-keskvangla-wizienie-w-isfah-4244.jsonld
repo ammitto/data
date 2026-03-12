@@ -1,0 +1,363 @@
+{
+  "@context": {
+    "@vocab": "https://www.ammitto.org/ontology/",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "Entity": "schema:Thing",
+    "Person": "schema:Person",
+    "Organization": "schema:Organization",
+    "Vessel": "schema:Vehicle",
+    "Aircraft": "schema:Vehicle",
+    "Name": "schema:Thing",
+    "Address": "schema:PostalAddress",
+    "Identifier": "schema:PropertyValue",
+    "Entry": "schema:Thing",
+    "Authority": "schema:Organization",
+    "Country": "schema:Country",
+    "Regime": "schema:Thing",
+    "Announcement": "schema:NewsArticle",
+    "LegalInstrument": "schema:Legislation",
+    "id": "@id",
+    "type": "@type",
+    "name": "schema:name",
+    "full_name": "schema:name",
+    "names": {
+      "@id": "hasName",
+      "@container": "@set"
+    },
+    "is_primary": "schema:isPrimary",
+    "street": "schema:streetAddress",
+    "city": "schema:addressLocality",
+    "state": "schema:addressRegion",
+    "postal_code": "schema:postalCode",
+    "country": "schema:addressCountry",
+    "addresses": {
+      "@id": "hasAddress",
+      "@container": "@set"
+    },
+    "identifier": "schema:identifier",
+    "identifiers": {
+      "@id": "hasIdentifier",
+      "@container": "@set"
+    },
+    "value": "schema:value",
+    "issue_date": {
+      "@id": "schema:dateIssued",
+      "@type": "xsd:date"
+    },
+    "expiry_date": {
+      "@id": "expiryDate",
+      "@type": "xsd:date"
+    },
+    "birth_date": {
+      "@id": "schema:birthDate",
+      "@type": "xsd:date"
+    },
+    "birth_place": "schema:birthPlace",
+    "death_date": {
+      "@id": "schema:deathDate",
+      "@type": "xsd:date"
+    },
+    "gender": "schema:gender",
+    "nationality": "schema:nationality",
+    "nationalities": {
+      "@id": "schema:nationality",
+      "@container": "@set"
+    },
+    "registration_number": "schema:taxID",
+    "incorporation_country": "schema:foundingLocation",
+    "website": "schema:url",
+    "imo_number": "schema:serialNumber",
+    "flag_state": "schema:flag",
+    "status": "schema:status",
+    "listed_date": {
+      "@id": "listedDate",
+      "@type": "xsd:date"
+    },
+    "delisted_date": {
+      "@id": "delistedDate",
+      "@type": "xsd:date"
+    },
+    "measures": "schema:description",
+    "remarks": "schema:description",
+    "entity": {
+      "@id": "forEntity",
+      "@type": "@id"
+    },
+    "authority": {
+      "@id": "listedBy",
+      "@type": "@id"
+    },
+    "regime": {
+      "@id": "underRegime",
+      "@type": "@id"
+    },
+    "announcement": {
+      "@id": "publishedIn",
+      "@type": "@id"
+    },
+    "source": "schema:sourceOrganization",
+    "reference_number": "schema:identifier",
+    "url": "schema:url"
+  },
+  "@id": "wizienie-isfahan-efahni-keskvangla-wizienie-w-isfah-4244",
+  "@type": "Organization",
+  "source": "eu",
+  "names": [
+    {
+      "name": "središnji zatvor Isfahan",
+      "is_primary": false
+    },
+    {
+      "name": "więzienie w Esfahanie",
+      "is_primary": false
+    },
+    {
+      "name": "Isfahan centrālcietums",
+      "is_primary": false
+    },
+    {
+      "name": "Dastgerd cietums",
+      "is_primary": false
+    },
+    {
+      "name": "Isfahan cietums",
+      "is_primary": false
+    },
+    {
+      "name": "Esfahan cietums",
+      "is_primary": false
+    },
+    {
+      "name": "Isfahano centrinis kalėjimas",
+      "is_primary": false
+    },
+    {
+      "name": "Príosún Lárnach Isfahan",
+      "is_primary": false
+    },
+    {
+      "name": "Príosún Dastgerd",
+      "is_primary": false
+    },
+    {
+      "name": "Príosún Isfahan",
+      "is_primary": false
+    },
+    {
+      "name": "Príosún Esfahan",
+      "is_primary": false
+    },
+    {
+      "name": "Isfahanin keskusvankila",
+      "is_primary": false
+    },
+    {
+      "name": "Ústredná väznica Isfahán",
+      "is_primary": false
+    },
+    {
+      "name": "więzienie Isfahan",
+      "is_primary": true
+    },
+    {
+      "name": "Eşfahāni keskvangla",
+      "is_primary": false
+    },
+    {
+      "name": "więzienie w Isfahanie",
+      "is_primary": false
+    },
+    {
+      "name": "więzienie Dastgerd",
+      "is_primary": false
+    },
+    {
+      "name": "Centralne więzienie w Isfahanie",
+      "is_primary": false
+    },
+    {
+      "name": "închisoarea centrală Isfahan",
+      "is_primary": false
+    },
+    {
+      "name": "Isfahan börtön",
+      "is_primary": false
+    },
+    {
+      "name": "Esfahan börtön",
+      "is_primary": false
+    },
+    {
+      "name": "Isfahani börtön",
+      "is_primary": false
+    },
+    {
+      "name": "Dastgerd börtön",
+      "is_primary": false
+    },
+    {
+      "name": "Isfahan központi börtön",
+      "is_primary": false
+    },
+    {
+      "name": "Prisión Central de Isfahán",
+      "is_primary": false
+    },
+    {
+      "name": "Penitenciária de Esfahan",
+      "is_primary": false
+    },
+    {
+      "name": "Penitenciária de Isfahan",
+      "is_primary": false
+    },
+    {
+      "name": "Penitenciária de Dastgerd",
+      "is_primary": false
+    },
+    {
+      "name": "Penitenciária Central de Isfahan",
+      "is_primary": false
+    },
+    {
+      "name": "Φυλακές Isfahan",
+      "is_primary": false
+    },
+    {
+      "name": "Φυλακές  Esfahan",
+      "is_primary": false
+    },
+    {
+      "name": "Φυλακές του Isfahan",
+      "is_primary": false
+    },
+    {
+      "name": "Φυλακές Dastgerd",
+      "is_primary": false
+    },
+    {
+      "name": "Κεντρικές φυλακές Isfahan",
+      "is_primary": false
+    },
+    {
+      "name": "prison d'Isfahan",
+      "is_primary": false
+    },
+    {
+      "name": "prison d'Esfahan",
+      "is_primary": false
+    },
+    {
+      "name": "prison d'Espahan",
+      "is_primary": false
+    },
+    {
+      "name": "prison d'Ispahan",
+      "is_primary": false
+    },
+    {
+      "name": "prison de Dastguerd",
+      "is_primary": false
+    },
+    {
+      "name": "Prison centrale d'Ispahan",
+      "is_primary": false
+    },
+    {
+      "name": "Gefängnis Isfahan",
+      "is_primary": false
+    },
+    {
+      "name": "centrale gevangenis van Isfahan",
+      "is_primary": false
+    },
+    {
+      "name": "fængslet i Esfahan",
+      "is_primary": false
+    },
+    {
+      "name": "fængslet i Isfahan",
+      "is_primary": false
+    },
+    {
+      "name": "fængslet i Dastgerd",
+      "is_primary": false
+    },
+    {
+      "name": "Centralfængslet i Isfahan",
+      "is_primary": false
+    },
+    {
+      "name": "centralfängelset i Esfahan",
+      "is_primary": false
+    },
+    {
+      "name": "Централният затвор Isfahan",
+      "is_primary": false
+    },
+    {
+      "name": "Isfahan Prison",
+      "is_primary": false
+    },
+    {
+      "name": "Esfahan Prison",
+      "is_primary": false
+    },
+    {
+      "name": "Prison of Isfahan",
+      "is_primary": false
+    },
+    {
+      "name": "Dastgerd Prison",
+      "is_primary": false
+    },
+    {
+      "name": "Isfahan Central Prison",
+      "is_primary": false
+    },
+    {
+      "name": "Gefängnis Esfahan",
+      "is_primary": false
+    },
+    {
+      "name": "Gefängnis von Isfahan",
+      "is_primary": false
+    },
+    {
+      "name": "Gefängnis Dastgerd",
+      "is_primary": false
+    },
+    {
+      "name": "Zentralgefängnis Isfahan",
+      "is_primary": false
+    },
+    {
+      "name": "prigione centrale di Esfahan",
+      "is_primary": false
+    },
+    {
+      "name": "Ústřední věznice Isfahán",
+      "is_primary": false
+    },
+    {
+      "name": "zatvor Isfahan",
+      "is_primary": false
+    },
+    {
+      "name": "zatvor Esfahan",
+      "is_primary": false
+    },
+    {
+      "name": "isfahanski zatvor",
+      "is_primary": false
+    },
+    {
+      "name": "zatvor Dastgerd",
+      "is_primary": false
+    }
+  ],
+  "addresses": []
+}

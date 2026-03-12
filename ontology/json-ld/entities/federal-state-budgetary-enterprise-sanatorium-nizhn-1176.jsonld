@@ -1,0 +1,295 @@
+{
+  "@context": {
+    "@vocab": "https://www.ammitto.org/ontology/",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "Entity": "schema:Thing",
+    "Person": "schema:Person",
+    "Organization": "schema:Organization",
+    "Vessel": "schema:Vehicle",
+    "Aircraft": "schema:Vehicle",
+    "Name": "schema:Thing",
+    "Address": "schema:PostalAddress",
+    "Identifier": "schema:PropertyValue",
+    "Entry": "schema:Thing",
+    "Authority": "schema:Organization",
+    "Country": "schema:Country",
+    "Regime": "schema:Thing",
+    "Announcement": "schema:NewsArticle",
+    "LegalInstrument": "schema:Legislation",
+    "id": "@id",
+    "type": "@type",
+    "name": "schema:name",
+    "full_name": "schema:name",
+    "names": {
+      "@id": "hasName",
+      "@container": "@set"
+    },
+    "is_primary": "schema:isPrimary",
+    "street": "schema:streetAddress",
+    "city": "schema:addressLocality",
+    "state": "schema:addressRegion",
+    "postal_code": "schema:postalCode",
+    "country": "schema:addressCountry",
+    "addresses": {
+      "@id": "hasAddress",
+      "@container": "@set"
+    },
+    "identifier": "schema:identifier",
+    "identifiers": {
+      "@id": "hasIdentifier",
+      "@container": "@set"
+    },
+    "value": "schema:value",
+    "issue_date": {
+      "@id": "schema:dateIssued",
+      "@type": "xsd:date"
+    },
+    "expiry_date": {
+      "@id": "expiryDate",
+      "@type": "xsd:date"
+    },
+    "birth_date": {
+      "@id": "schema:birthDate",
+      "@type": "xsd:date"
+    },
+    "birth_place": "schema:birthPlace",
+    "death_date": {
+      "@id": "schema:deathDate",
+      "@type": "xsd:date"
+    },
+    "gender": "schema:gender",
+    "nationality": "schema:nationality",
+    "nationalities": {
+      "@id": "schema:nationality",
+      "@container": "@set"
+    },
+    "registration_number": "schema:taxID",
+    "incorporation_country": "schema:foundingLocation",
+    "website": "schema:url",
+    "imo_number": "schema:serialNumber",
+    "flag_state": "schema:flag",
+    "status": "schema:status",
+    "listed_date": {
+      "@id": "listedDate",
+      "@type": "xsd:date"
+    },
+    "delisted_date": {
+      "@id": "delistedDate",
+      "@type": "xsd:date"
+    },
+    "measures": "schema:description",
+    "remarks": "schema:description",
+    "entity": {
+      "@id": "forEntity",
+      "@type": "@id"
+    },
+    "authority": {
+      "@id": "listedBy",
+      "@type": "@id"
+    },
+    "regime": {
+      "@id": "underRegime",
+      "@type": "@id"
+    },
+    "announcement": {
+      "@id": "publishedIn",
+      "@type": "@id"
+    },
+    "source": "schema:sourceOrganization",
+    "reference_number": "schema:identifier",
+    "url": "schema:url"
+  },
+  "@id": "federal-state-budgetary-enterprise-sanatorium-nizhn-1176",
+  "@type": "Organization",
+  "source": "eu",
+  "names": [
+    {
+      "name": "Санаторий “Нижняя Ореанда”",
+      "is_primary": false
+    },
+    {
+      "name": "Resort “Nizhnyaya Oreanda”",
+      "is_primary": false
+    },
+    {
+      "name": "ar a dtugtaí Resort ‘Nizhnyaya Oreanda’",
+      "is_primary": false
+    },
+    {
+      "name": "varasema nimega Resort „Nizhnyaya Oreanda“",
+      "is_primary": false
+    },
+    {
+      "name": "Zvezno proračunsko podjetje „Zdravilišče Nižnjaja Oreanda“ urada predsednika Ruske federacije",
+      "is_primary": false
+    },
+    {
+      "name": "prej imenovano Letovišče „Nižnjaja Oreanda“",
+      "is_primary": false
+    },
+    {
+      "name": "Venäjän federaation presidentin hallintoon kuuluva liittovaltion rahoittama yritys \"Sanatorium ’Nižnaja Oreanda’\"",
+      "is_primary": false
+    },
+    {
+      "name": "entinen Kylpylä \"Nižnaja Oreanda\"",
+      "is_primary": false
+    },
+    {
+      "name": "Empresa Orçamental do Estado Federal “Sanatorium Nizhnyaya Oreanda” da administração do presidente da Federação da Rússia",
+      "is_primary": false
+    },
+    {
+      "name": "anteriormente denominada Estância “Nizhnyaya Oreanda”",
+      "is_primary": false
+    },
+    {
+      "name": "Întreprinderea bugetară a statului federal «Sanatorium „Nizhnyaya Oreanda”» a administrației președintelui Federației Ruse",
+      "is_primary": false
+    },
+    {
+      "name": "cunoscută anterior drept stațiunea «Nizhnyaya Oreanda»",
+      "is_primary": false
+    },
+    {
+      "name": "Štátny federálny rozpočtový úrad „Sanatórium Nižňaja Oreanda“ kancelárie prezidenta Ruskej federácie",
+      "is_primary": false
+    },
+    {
+      "name": "predtým známy ako stredisko „Nižňaja Oreanda“",
+      "is_primary": false
+    },
+    {
+      "name": "Federal State Budgetary Enterprise “Sanatorium “Nizhnyaya Oreanda”” van het kabinet van de president van de Russische Federatie",
+      "is_primary": false
+    },
+    {
+      "name": "voorheen bekend als Resort “Nizhnyaya Oreanda”",
+      "is_primary": false
+    },
+    {
+      "name": "Federalne Państwowe Przedsiębiorstwo Budżetowe „Sanatorium Nizhnyaya Oreanda” administracji prezydenta Federacji Rosyjskiej",
+      "is_primary": false
+    },
+    {
+      "name": "poprzednio znane jako ośrodek „Nizhnyaya Oreanda”",
+      "is_primary": false
+    },
+    {
+      "name": "Rusijos Federacijos prezidento administracijos federalinė valstybės biudžetinė įmonė „Sanatorium Nizhnyaya Oreanda“",
+      "is_primary": false
+    },
+    {
+      "name": "anksčiau žinoma kaip sanatorija „Nizhnyaya Oreanda“",
+      "is_primary": false
+    },
+    {
+      "name": "az Oroszországi Föderáció elnöki hivatalának „Nizsnyaja Oreanda Szanatórium” szövetségi költségvetési vállalata",
+      "is_primary": false
+    },
+    {
+      "name": "korábbi ismert neve: Resort „Nizhnyaya Oreanda”",
+      "is_primary": false
+    },
+    {
+      "name": "Nizsnyaja Oreanda Üdülő",
+      "is_primary": false
+    },
+    {
+      "name": "Intrapriża Baġitarja tal-Istat Federali “Sanatorium “Nizhnyaya Oreanda”\" tal-Amministrazzjoni tal-President tal-Federazzjoni Russa",
+      "is_primary": false
+    },
+    {
+      "name": "qabel magħrufa bħala ċ-Ċentru “Nizhnyaya Oreanda”",
+      "is_primary": false
+    },
+    {
+      "name": "Impresa a partecipazione statale federale “Sanatorium Nizhnyaya Oreanda” facente capo all’amministrazione del presidente della Federazione russa",
+      "is_primary": false
+    },
+    {
+      "name": "già resort “Nizhnyaya Oreanda”",
+      "is_primary": false
+    },
+    {
+      "name": "Krievijas Federācijas prezidenta administrācijas federāls valsts budžeta uzņēmums “Sanatorium “Nizhnyaya Oreanda””",
+      "is_primary": false
+    },
+    {
+      "name": "agrākais nosaukums – Resort “Nizhnyaya Oreanda”",
+      "is_primary": false
+    },
+    {
+      "name": "Federalno državno proračunsko poduzeće „Sanatorij ‚Nizhnyaya Oreanda’” u okviru administracije predsjednika Ruske Federacije",
+      "is_primary": false
+    },
+    {
+      "name": "prethodno poznato kao ljetovalište „Nizhnyaya Oreanda”",
+      "is_primary": false
+    },
+    {
+      "name": "Ομοσπονδιακή κρατική επιχείρηση με την επωνυμία “Sanatorium ‘Nizhnyaya Oreanda’” του Γραφείου του Προέδρου της Ρωσικής Ομοσπονδίας",
+      "is_primary": false
+    },
+    {
+      "name": "παλαιότερα γνωστή ως θέρετρο “Nizhnyaya Oreanda”",
+      "is_primary": false
+    },
+    {
+      "name": "Entreprise budgétaire de l’État fédéral “Sanatorium ‘Nizhnyaya Oreanda’” de l’administration du président de la Fédération de Russie",
+      "is_primary": false
+    },
+    {
+      "name": "anciennement connue sous le nom de Complexe hôtelier “Nizhnyaya Oreanda”",
+      "is_primary": false
+    },
+    {
+      "name": "Den Russiske Føderations præsidents administrations føderale statsejede budgetvirksomhed »Sanatorium »Nizhnyaya Oreanda««",
+      "is_primary": false
+    },
+    {
+      "name": "tidligere kendt som kurstedet »Nizhnyaya Oreanda«",
+      "is_primary": false
+    },
+    {
+      "name": "Föderales staatseigenes Unternehmen ‚Kurort ‚Nizhnyaya Oreanda‘‘ der Verwaltung des Präsidenten der Russischen Föderation",
+      "is_primary": false
+    },
+    {
+      "name": "vormals Kurort ‚Nizhnyaya Oreanda‘",
+      "is_primary": false
+    },
+    {
+      "name": "Empresa del Presupuesto Estatal Federal “Sanatorium ‘Nizhnyaya Oreanda’” de la administración del presidente de la Federación de Rusia",
+      "is_primary": false
+    },
+    {
+      "name": "antes conocida como Centro Turístico “Nizhnyaya Oreanda”",
+      "is_primary": false
+    },
+    {
+      "name": "Federální státní rozpočtová organizace „Sanatorium ‚Nizhnyaya Oreanda‘“ při Úřadu prezidenta Ruské federace",
+      "is_primary": false
+    },
+    {
+      "name": "dříve známa jako rekreační středisko „Nizhnyaya Oreanda“",
+      "is_primary": false
+    },
+    {
+      "name": "Federal State Budgetary Enterprise “Sanatorium ‘Nizhnyaya Oreanda’” of the Administration of the President of the Russian Federation",
+      "is_primary": false
+    },
+    {
+      "name": "Федерално държавно бюджетно предприятие „Санаториум „Нижняя Ореанда“ на администрацията на президента на Руската федерация",
+      "is_primary": false
+    },
+    {
+      "name": "известно преди като курорт „Нижняя Ореанда“",
+      "is_primary": true
+    }
+  ],
+  "addresses": []
+}

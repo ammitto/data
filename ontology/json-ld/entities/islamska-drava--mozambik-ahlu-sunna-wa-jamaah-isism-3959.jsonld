@@ -1,0 +1,279 @@
+{
+  "@context": {
+    "@vocab": "https://www.ammitto.org/ontology/",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "Entity": "schema:Thing",
+    "Person": "schema:Person",
+    "Organization": "schema:Organization",
+    "Vessel": "schema:Vehicle",
+    "Aircraft": "schema:Vehicle",
+    "Name": "schema:Thing",
+    "Address": "schema:PostalAddress",
+    "Identifier": "schema:PropertyValue",
+    "Entry": "schema:Thing",
+    "Authority": "schema:Organization",
+    "Country": "schema:Country",
+    "Regime": "schema:Thing",
+    "Announcement": "schema:NewsArticle",
+    "LegalInstrument": "schema:Legislation",
+    "id": "@id",
+    "type": "@type",
+    "name": "schema:name",
+    "full_name": "schema:name",
+    "names": {
+      "@id": "hasName",
+      "@container": "@set"
+    },
+    "is_primary": "schema:isPrimary",
+    "street": "schema:streetAddress",
+    "city": "schema:addressLocality",
+    "state": "schema:addressRegion",
+    "postal_code": "schema:postalCode",
+    "country": "schema:addressCountry",
+    "addresses": {
+      "@id": "hasAddress",
+      "@container": "@set"
+    },
+    "identifier": "schema:identifier",
+    "identifiers": {
+      "@id": "hasIdentifier",
+      "@container": "@set"
+    },
+    "value": "schema:value",
+    "issue_date": {
+      "@id": "schema:dateIssued",
+      "@type": "xsd:date"
+    },
+    "expiry_date": {
+      "@id": "expiryDate",
+      "@type": "xsd:date"
+    },
+    "birth_date": {
+      "@id": "schema:birthDate",
+      "@type": "xsd:date"
+    },
+    "birth_place": "schema:birthPlace",
+    "death_date": {
+      "@id": "schema:deathDate",
+      "@type": "xsd:date"
+    },
+    "gender": "schema:gender",
+    "nationality": "schema:nationality",
+    "nationalities": {
+      "@id": "schema:nationality",
+      "@container": "@set"
+    },
+    "registration_number": "schema:taxID",
+    "incorporation_country": "schema:foundingLocation",
+    "website": "schema:url",
+    "imo_number": "schema:serialNumber",
+    "flag_state": "schema:flag",
+    "status": "schema:status",
+    "listed_date": {
+      "@id": "listedDate",
+      "@type": "xsd:date"
+    },
+    "delisted_date": {
+      "@id": "delistedDate",
+      "@type": "xsd:date"
+    },
+    "measures": "schema:description",
+    "remarks": "schema:description",
+    "entity": {
+      "@id": "forEntity",
+      "@type": "@id"
+    },
+    "authority": {
+      "@id": "listedBy",
+      "@type": "@id"
+    },
+    "regime": {
+      "@id": "underRegime",
+      "@type": "@id"
+    },
+    "announcement": {
+      "@id": "publishedIn",
+      "@type": "@id"
+    },
+    "source": "schema:sourceOrganization",
+    "reference_number": "schema:identifier",
+    "url": "schema:url"
+  },
+  "@id": "islamska-drava--mozambik-ahlu-sunna-wa-jamaah-isism-3959",
+  "@type": "Organization",
+  "source": "eu",
+  "names": [
+    {
+      "name": "Islamska država Iraka in Sirije – Mozambik,",
+      "is_primary": false
+    },
+    {
+      "name": "ASwJ",
+      "is_primary": false
+    },
+    {
+      "name": "Ahl al-Sunna wa al-Jamaa",
+      "is_primary": false
+    },
+    {
+      "name": "Ahlu al-Sunnah wal-Jamaah",
+      "is_primary": false
+    },
+    {
+      "name": "Ahlu Sunnah Wajamo",
+      "is_primary": false
+    },
+    {
+      "name": "Swahili Sunna",
+      "is_primary": false
+    },
+    {
+      "name": "ISIS-Mozambique",
+      "is_primary": false
+    },
+    {
+      "name": "Islamic State of Iraq and Syria – Mozambique",
+      "is_primary": false
+    },
+    {
+      "name": "Islamic State -Mozambique",
+      "is_primary": false
+    },
+    {
+      "name": "ISIL-M",
+      "is_primary": false
+    },
+    {
+      "name": "Ansar Al-Sunna",
+      "is_primary": false
+    },
+    {
+      "name": "Al-Shabaab",
+      "is_primary": false
+    },
+    {
+      "name": "Al-Shabaab in Mozambique",
+      "is_primary": false
+    },
+    {
+      "name": "Mozambique Wilaya of the Islamic State",
+      "is_primary": false
+    },
+    {
+      "name": "aš-Šabáb v Mosambiku",
+      "is_primary": false
+    },
+    {
+      "name": "aš-Šabáb",
+      "is_primary": false
+    },
+    {
+      "name": "ISIS-Mosambik",
+      "is_primary": false
+    },
+    {
+      "name": "Islámský stát v Iráku a Sýrii - Mosambik",
+      "is_primary": false
+    },
+    {
+      "name": "Islámský stát - Mosambik",
+      "is_primary": false
+    },
+    {
+      "name": "ISIS-Mozambic",
+      "is_primary": false
+    },
+    {
+      "name": "Statul Islamic din Irak și Siria – Mozambic",
+      "is_primary": false
+    },
+    {
+      "name": "Statul Islamic – Mozambic",
+      "is_primary": false
+    },
+    {
+      "name": "Al-Shabaab în Mozambic",
+      "is_primary": false
+    },
+    {
+      "name": "Provincia Mozambic a Statului Islamic",
+      "is_primary": false
+    },
+    {
+      "name": "ISIS–Mozambik",
+      "is_primary": false
+    },
+    {
+      "name": "Państwo Islamskie w Iraku i Syrii – Mozambik",
+      "is_primary": false
+    },
+    {
+      "name": "Państwo Islamskie – Mozambik",
+      "is_primary": false
+    },
+    {
+      "name": "Asz-Szabab",
+      "is_primary": false
+    },
+    {
+      "name": "Asz-Szabab w Mozambiku",
+      "is_primary": false
+    },
+    {
+      "name": "Wilaja Mozambik Państwa Islamskiego",
+      "is_primary": false
+    },
+    {
+      "name": "Mozambique Wilaya van de Islamitische Staat",
+      "is_primary": false
+    },
+    {
+      "name": "Islamitische Staat in Irak en Syrië — Mozambique",
+      "is_primary": false
+    },
+    {
+      "name": "Islamitische Staat —  Mozambique",
+      "is_primary": false
+    },
+    {
+      "name": "ISIS-Moçambique",
+      "is_primary": false
+    },
+    {
+      "name": "Estado Islâmico do Iraque e da Síria — Moçambique",
+      "is_primary": false
+    },
+    {
+      "name": "Estado Islâmico — Moçambique",
+      "is_primary": false
+    },
+    {
+      "name": "Al-Shabaab em Moçambique",
+      "is_primary": false
+    },
+    {
+      "name": "Irako ir Sirijos Islamo valstybės Mozambiko atšaka",
+      "is_primary": false
+    },
+    {
+      "name": "Islamo valstybės Mozambiko atšaka",
+      "is_primary": false
+    },
+    {
+      "name": "ISIS-Mozambik",
+      "is_primary": false
+    },
+    {
+      "name": "Ahlu Sunna wa Jamaah",
+      "is_primary": false
+    },
+    {
+      "name": "Islamska država – Mozambik",
+      "is_primary": true
+    }
+  ],
+  "addresses": []
+}
