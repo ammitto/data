@@ -12,14 +12,19 @@
       "effect_type": "debarment",
       "scope": "full",
       "description": "Excluded from World Bank-financed contracts"
+    },
+    {
+      "effect_type": "debarment",
+      "scope": "full",
+      "description": "Cross-debarred by other development banks (AfDB, ADB, EBRD, IADB)"
     }
   ],
   "period": {
     "effective_date": "2024-03-12",
-    "expiry_date": "2026-04-11",
+    "expiry_date": "2999-12-31",
     "is_indefinite": false
   },
-  "status": "expired",
+  "status": "active",
   "reference_number": "802901",
   "remarks": "Corrupt Practice",
   "raw_source_data": {
@@ -30,10 +35,11 @@
       "wb:legacyFlag": "N",
       "wb:unSuppFlag": "N",
       "wb:ineligFlag": "D",
-      "wb:crossDebarment": "N",
+      "wb:crossDebarment": "Y",
       "wb:crossDebarmentStatus": "CLEARED",
       "wb:eligStatus": "DEBARRED",
-      "wb:suppEligStat": "DEBARRED"
+      "wb:suppEligStat": "DEBARRED",
+      "wb:ineligiblyStatus": "Ongoing"
     }
   },
   "@context": "https://www.ammitto.org/ontology/context.jsonld"
