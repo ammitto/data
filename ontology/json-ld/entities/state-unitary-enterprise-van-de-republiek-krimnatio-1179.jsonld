@@ -1,0 +1,395 @@
+{
+  "@context": {
+    "@vocab": "https://www.ammitto.org/ontology/",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "Entity": "schema:Thing",
+    "Person": "schema:Person",
+    "Organization": "schema:Organization",
+    "Vessel": "schema:Vehicle",
+    "Aircraft": "schema:Vehicle",
+    "Name": "schema:Thing",
+    "Address": "schema:PostalAddress",
+    "Identifier": "schema:PropertyValue",
+    "Entry": "schema:Thing",
+    "Authority": "schema:Organization",
+    "Country": "schema:Country",
+    "Regime": "schema:Thing",
+    "Announcement": "schema:NewsArticle",
+    "LegalInstrument": "schema:Legislation",
+    "id": "@id",
+    "type": "@type",
+    "name": "schema:name",
+    "full_name": "schema:name",
+    "names": {
+      "@id": "hasName",
+      "@container": "@set"
+    },
+    "is_primary": "schema:isPrimary",
+    "street": "schema:streetAddress",
+    "city": "schema:addressLocality",
+    "state": "schema:addressRegion",
+    "postal_code": "schema:postalCode",
+    "country": "schema:addressCountry",
+    "addresses": {
+      "@id": "hasAddress",
+      "@container": "@set"
+    },
+    "identifier": "schema:identifier",
+    "identifiers": {
+      "@id": "hasIdentifier",
+      "@container": "@set"
+    },
+    "value": "schema:value",
+    "issue_date": {
+      "@id": "schema:dateIssued",
+      "@type": "xsd:date"
+    },
+    "expiry_date": {
+      "@id": "expiryDate",
+      "@type": "xsd:date"
+    },
+    "birth_date": {
+      "@id": "schema:birthDate",
+      "@type": "xsd:date"
+    },
+    "birth_place": "schema:birthPlace",
+    "death_date": {
+      "@id": "schema:deathDate",
+      "@type": "xsd:date"
+    },
+    "gender": "schema:gender",
+    "nationality": "schema:nationality",
+    "nationalities": {
+      "@id": "schema:nationality",
+      "@container": "@set"
+    },
+    "registration_number": "schema:taxID",
+    "incorporation_country": "schema:foundingLocation",
+    "website": "schema:url",
+    "imo_number": "schema:serialNumber",
+    "flag_state": "schema:flag",
+    "status": "schema:status",
+    "listed_date": {
+      "@id": "listedDate",
+      "@type": "xsd:date"
+    },
+    "delisted_date": {
+      "@id": "delistedDate",
+      "@type": "xsd:date"
+    },
+    "measures": "schema:description",
+    "remarks": "schema:description",
+    "entity": {
+      "@id": "forEntity",
+      "@type": "@id"
+    },
+    "authority": {
+      "@id": "listedBy",
+      "@type": "@id"
+    },
+    "regime": {
+      "@id": "underRegime",
+      "@type": "@id"
+    },
+    "announcement": {
+      "@id": "publishedIn",
+      "@type": "@id"
+    },
+    "source": "schema:sourceOrganization",
+    "reference_number": "schema:identifier",
+    "url": "schema:url"
+  },
+  "@id": "state-unitary-enterprise-van-de-republiek-krimnatio-1179",
+  "@type": "Organization",
+  "source": "eu",
+  "names": [
+    {
+      "name": "Staatliches Einheitsunternehmen der „Republik Krim“„Nationales Weininstitut ‚Magarach‘“",
+      "is_primary": false
+    },
+    {
+      "name": "“State Enterprise “Magarach” van het Nationaal Wijninstituut”",
+      "is_primary": false
+    },
+    {
+      "name": "Az Orosz Tudományos Akadémia „Magaracs” Összoroszországi Szőlészeti és Borászati Tudományos Kutatóintézete, szövetségi állami tudományos és kutatóintézet",
+      "is_primary": false
+    },
+    {
+      "name": "„Magaracs” Nemzeti Borintézet, a Krími Köztársaság állami egységes vállalata",
+      "is_primary": false
+    },
+    {
+      "name": "„Magaracs” Nemzeti Szőlészeti és Borászati Intézet, állami mezőgazdasági vállalat",
+      "is_primary": false
+    },
+    {
+      "name": "Federāla valsts budžeta zinātnes un pētniecības iestāde “All-Russia national scientific research institute for wine growing and wine making “Magarach” Russian Academy of Sciences”",
+      "is_primary": false
+    },
+    {
+      "name": "Krimas Republikas” valsts unitārs uzņēmums “National Institute of Wine “Magarach””",
+      "is_primary": false
+    },
+    {
+      "name": "Federalinė valstybės biudžetinė mokslo ir mokslinių tyrimų įstaiga „Visos Rusijos nacionalinis mokslinių tyrimų vynuogių auginimo ir vyno gamybos srityje institutas „Magarach“, Rusijos mokslų akademija“",
+      "is_primary": false
+    },
+    {
+      "name": "„Krymo Respublikos“ valstybės unitarinė įmonė „Nacionalinis vyno institutas „Magarach““",
+      "is_primary": false
+    },
+    {
+      "name": "valstybės įmonė „Nacionalinis vyno institutas „Magarach““",
+      "is_primary": false
+    },
+    {
+      "name": "Federalna državna proračunska institucija za znanost i istraživanja „Sveruski nacionalni znanstveni institut za vinogradarstvo i proizvodnju vina ‚Magarach’ Ruske akademije znanosti”",
+      "is_primary": false
+    },
+    {
+      "name": "Državno unitarno poduzeće „Republike Krima””Nacionalni institut za vino ‚Magarach’”",
+      "is_primary": false
+    },
+    {
+      "name": "‘State Unitary Enterprise of the ‘Republic of Crimea’‘National Institute of Wine ‘Magarach’ tráth’",
+      "is_primary": false
+    },
+    {
+      "name": "‘State enterprise ‘Magarach’ of the national institute of wine’ tráth",
+      "is_primary": false
+    },
+    {
+      "name": "Institution budgétaire de l’État fédéral pour la science et la recherche “Institut national panrusse de recherche scientifique pour la viticulture et la vinification de ‘Magarach’ de l’Académie des sciences de Russie”",
+      "is_primary": false
+    },
+    {
+      "name": "entreprise unitaire d’État de la “République de Crimée”“Institut national du vin ‘Magarach’”",
+      "is_primary": false
+    },
+    {
+      "name": "“Entreprise publique ‘Magarach’ de l’Institut national du vin”",
+      "is_primary": false
+    },
+    {
+      "name": "Ομοσπονδιακός κρατικά χρηματοδοτούμενος φορέας επιστημών και έρευνας “Παν-ρωσικό εθνικό επιστημονικό ινστιτούτο έρευνας για την αμπελοκαλλιέργεια και την οινοποιία ‘Magarach’ Ρωσική Ακαδημία Επιστημών”",
+      "is_primary": false
+    },
+    {
+      "name": "κρατική ενιαία επιχείρηση της “Δημοκρατίας της Κριμαίας”“Εθνικό ινστιτούτο οίνου ‘Magarach’”",
+      "is_primary": false
+    },
+    {
+      "name": "“Κρατική επιχείρηση ‘Magarach’ του εθνικού ινστιτούτου οίνου”",
+      "is_primary": false
+    },
+    {
+      "name": "Föderale staatlich finanzierte Wissenschaftseinrichtung „Allrussisches nationales wissenschaftliches Forschungsinstitut für Weinbau und Weinherstellung ‚Magarach‘ Russische Akademie der Wissenschaften“",
+      "is_primary": false
+    },
+    {
+      "name": "State Unitary Enterprise van de “Republiek Krim”“Nationaal Wijninstituut “Magarach””",
+      "is_primary": true
+    },
+    {
+      "name": "Федеральное государственное бюджетное учреждение науки ‘Всероссийский национальный научно-исследовательский институт виноградарства и виноделия “Магарач” РАН’",
+      "is_primary": false
+    },
+    {
+      "name": "'State enterprise “Magarach” of the national institute of wine'",
+      "is_primary": false
+    },
+    {
+      "name": "Государственное предприятие Агрофирма ‘Магарач’ Национального института винограда и вина ‘Магарач’",
+      "is_primary": false
+    },
+    {
+      "name": "Gosudarstvenoye predpriyatiye Agrofirma ‘Magarach’ nacionalnogo instituta vinograda i vina ‘Magarach’",
+      "is_primary": false
+    },
+    {
+      "name": "State Unitary Enterprise of the Republic of Crimea ‘National Institute of Wine “Magarach”",
+      "is_primary": false
+    },
+    {
+      "name": "Federal state budget institution for science and research ‘All-Russia national scientific research institute for wine growing and wine making “Magarach” Russian Academy of Sciences’",
+      "is_primary": false
+    },
+    {
+      "name": "An institiúid bhuiséadach stáit fheidearálach don eolaíocht agus taighde darb ainm ‘All- Russia national scientific research institute for wine growing and wine making ‘Magarach’ Russian Academy of Sciences’",
+      "is_primary": false
+    },
+    {
+      "name": "“Impresa statale Magarach dell’istituto enologico nazionale”",
+      "is_primary": false
+    },
+    {
+      "name": "impresa unitaria statale della “Repubblica di Crimea”“Istituto enologico nazionale ‘Magarach’”",
+      "is_primary": false
+    },
+    {
+      "name": "Istituzione a partecipazione statale federale per la scienza e la ricerca “Istituto nazionale panrusso di ricerca scientifica per la viticoltura e vinificazione ‘Magarach’ — Accademia delle Scienze russa”",
+      "is_primary": false
+    },
+    {
+      "name": "„Državno poduzeće ‚Magarach’ nacionalnog instituta za vino”",
+      "is_primary": false
+    },
+    {
+      "name": "Instituut voor het federaal staatsbudget voor wetenschap en onderzoek “All- Russia national scientific research institute for wine growing and wine making “Magarach” Russian Academy of Sciences”",
+      "is_primary": false
+    },
+    {
+      "name": "“Intrapriża statali ‘Magarach’ tal-istitut nazzjonali tal-inbid”",
+      "is_primary": false
+    },
+    {
+      "name": "Intrapriża Unitarja Statali tar-“Repubblika tal-Krimea” l-“Istitut Nazzjonali tal-Inbid ‘Magarach’”",
+      "is_primary": false
+    },
+    {
+      "name": "Istituzzjoni tal-baġit tal-Istat Federali għax-xjenza u r-riċerka “Istituzzjoni nazzjonali ta’ riċerka xjentifika tar-Russja għall-vitikultura u l-produzzjoni tal-inbid, l-Akkademja tax-Xjenzi Russa ‘Magarach’”",
+      "is_primary": false
+    },
+    {
+      "name": "întreprinderea de stat «Magarach» a institutului național de vinificație",
+      "is_primary": false
+    },
+    {
+      "name": "întreprinderea unitară de stat a «Republicii Crimeea» Institutul național de vinificație «Magarach»",
+      "is_primary": false
+    },
+    {
+      "name": "Instituția bugetară de știință și cercetare a statului federal «All-Russia national scientific research institute for wine growing and wine making „Magarach” Russian Academy of Sciences»",
+      "is_primary": false
+    },
+    {
+      "name": "Institutul Național Panrus de Cercetări Științifice pentru Viticultură și Vinificație «Magarach», Academia Rusă de Științe",
+      "is_primary": false
+    },
+    {
+      "name": "«Empresa Pública «Magarach» do Instituto Nacional do Vinho»",
+      "is_primary": false
+    },
+    {
+      "name": "Empresa Pública Unitária da «República da Crimeia», Instituto Nacional do vinho «Magarach»",
+      "is_primary": false
+    },
+    {
+      "name": "Instituição orçamental do Estado federal para a ciência e investigação «Instituto nacional panrusso de investigação científica em viticultura e vinificação «Magarach», da Academia Russa de Ciências»",
+      "is_primary": false
+    },
+    {
+      "name": "»Państwowe przedsiębiorstwo ‘Magaracz’  Krajowy Instytut Wina«",
+      "is_primary": false
+    },
+    {
+      "name": "jednolite przedsiębiorstwo państwowe »Republiki Krymu«»Krajowy Instytut Wina ‘Magaracz’",
+      "is_primary": false
+    },
+    {
+      "name": "Federalna budżetowa instytucja naukowo-badawcza »Ogólnorosyjski narodowy naukowo-badawczy instytut uprawy winorośli i produkcji wina ‘Magaracz’ przy Rosyjskiej Akademii Nauk«",
+      "is_primary": false
+    },
+    {
+      "name": "‚Državno podjetje ‚Magarač‘ Državnega vinogradniškega inštituta‘",
+      "is_primary": false
+    },
+    {
+      "name": "državno unitarno podjetje ‚Republike Krim‘‚Državni vinogradniški inštitut ‚Magarač‘‘",
+      "is_primary": false
+    },
+    {
+      "name": "Zvezna proračunska institucija za znanost in raziskave ‚Vseruski nacionalni znanstveno-raziskovalni inštitut za vinogradništvo in pridelavo vina ‚Magarač‘ Ruske akademije za znanost‘",
+      "is_primary": false
+    },
+    {
+      "name": "„štátny podnik ‚Magarač‘ Národného ústavu pre vinohradníctvo a víno“",
+      "is_primary": false
+    },
+    {
+      "name": "„štátny unitárny podnik Krymskej republiky Národný ústav pre vinohradníctvo a víno ‚Magarač‘“",
+      "is_primary": false
+    },
+    {
+      "name": "Štátny federálny rozpočtový ústav pre vedu a výskum „Všeruský národný vedecko-výskumný ústav pre vinohradníctvo a víno ‚Magarač‘ Ruskej akadémie vied“",
+      "is_primary": false
+    },
+    {
+      "name": "”Republiken Krims” statliga företag ”National Institute of Wine ’Magarach’”",
+      "is_primary": false
+    },
+    {
+      "name": "Federalt statligt budgetinstitut för vetenskap och forskning ”All-Russia national scientific research institute for wine growing and wine making ’Magarach’ Russian Academy of Sciences”",
+      "is_primary": false
+    },
+    {
+      "name": "”Kansallisen viini-instituutin alainen valtionyhtiö ’Magaratš’”",
+      "is_primary": false
+    },
+    {
+      "name": "”Krimin tasavallan” omistama valtion unitaarinen yritys ”Kansallinen viini-instituutti ’Magaratš’”",
+      "is_primary": false
+    },
+    {
+      "name": "Liittovaltion rahoittama tiede- ja tutkimuslaitos ”Venäjän kansallinen viininviljelyn ja viininvalmistuksen tieteellinen tutkimuslaitos ’Magaratš’, Venäjän tiedeakatemia”",
+      "is_primary": false
+    },
+    {
+      "name": "Федерален държавен бюджетен научноизследователски институт „Общоруски национален научноизследователски институт по лозарство и винарство „Магарач“ Руска академия на науките“",
+      "is_primary": false
+    },
+    {
+      "name": "„Държавно предприятие „Магарач“ към Националния институт по лозарство и винарство",
+      "is_primary": false
+    },
+    {
+      "name": "Държавно единно предприятие на „Република Крим“ „Национален институт по лозарство и винарство „Магарач“",
+      "is_primary": false
+    },
+    {
+      "name": "“Empresa Estatal ‘Magarach’ del Instituto Nacional del Vino”",
+      "is_primary": false
+    },
+    {
+      "name": "Empresa Unitaria Estatal de la “República de Crimea”“Instituto Nacional del Vino ‘Magarach’”",
+      "is_primary": false
+    },
+    {
+      "name": "Institución del presupuesto estatal federal para la ciencia y la investigación “Instituto Nacional Panruso de Investigación Científica para la viticultura y la vinificación” Magarach “de la Academia de Ciencias de Rusia”",
+      "is_primary": false
+    },
+    {
+      "name": "„State enterprise „Magarach“ of the national institute of wine“ („Státní podnik Agrofirma „Magarač“ Národního ústavu ústav vinohradnictví a vinařství „Magarač“ “",
+      "is_primary": false
+    },
+    {
+      "name": "státní jednotný podnik „Republiky Krym“„National Institute of Wine „Magarach“ “",
+      "is_primary": false
+    },
+    {
+      "name": "Federální státní rozpočtový ústav pro vědu a výzkum „All-Russian national scientific research institute for wine growing and wine making „Magarach“ (Všeruský národní vědeckovýzkumný ústav vinohradnictví a vinařství „Magarač“) Ruské akademie věd“",
+      "is_primary": false
+    },
+    {
+      "name": "»State enterprise »Magarach« of the national institute of wine«",
+      "is_primary": false
+    },
+    {
+      "name": "»Republikken Krims« statsejede virksomhed »National Institute of Wine »Magarach««",
+      "is_primary": false
+    },
+    {
+      "name": "Den føderale statsejede budgetinstitution for videnskab og forskning »All-Russia national scientific research institute for wine growing and wine making, Magarach«, Det Russiske Videnskabsakademi",
+      "is_primary": false
+    },
+    {
+      "name": "„Staatliches Unternehmen ‚Magarach‘ des nationalen Weininstituts“",
+      "is_primary": false
+    }
+  ],
+  "addresses": []
+}

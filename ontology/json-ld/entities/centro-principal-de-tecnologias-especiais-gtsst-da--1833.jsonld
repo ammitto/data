@@ -1,0 +1,291 @@
+{
+  "@context": {
+    "@vocab": "https://www.ammitto.org/ontology/",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "Entity": "schema:Thing",
+    "Person": "schema:Person",
+    "Organization": "schema:Organization",
+    "Vessel": "schema:Vehicle",
+    "Aircraft": "schema:Vehicle",
+    "Name": "schema:Thing",
+    "Address": "schema:PostalAddress",
+    "Identifier": "schema:PropertyValue",
+    "Entry": "schema:Thing",
+    "Authority": "schema:Organization",
+    "Country": "schema:Country",
+    "Regime": "schema:Thing",
+    "Announcement": "schema:NewsArticle",
+    "LegalInstrument": "schema:Legislation",
+    "id": "@id",
+    "type": "@type",
+    "name": "schema:name",
+    "full_name": "schema:name",
+    "names": {
+      "@id": "hasName",
+      "@container": "@set"
+    },
+    "is_primary": "schema:isPrimary",
+    "street": "schema:streetAddress",
+    "city": "schema:addressLocality",
+    "state": "schema:addressRegion",
+    "postal_code": "schema:postalCode",
+    "country": "schema:addressCountry",
+    "addresses": {
+      "@id": "hasAddress",
+      "@container": "@set"
+    },
+    "identifier": "schema:identifier",
+    "identifiers": {
+      "@id": "hasIdentifier",
+      "@container": "@set"
+    },
+    "value": "schema:value",
+    "issue_date": {
+      "@id": "schema:dateIssued",
+      "@type": "xsd:date"
+    },
+    "expiry_date": {
+      "@id": "expiryDate",
+      "@type": "xsd:date"
+    },
+    "birth_date": {
+      "@id": "schema:birthDate",
+      "@type": "xsd:date"
+    },
+    "birth_place": "schema:birthPlace",
+    "death_date": {
+      "@id": "schema:deathDate",
+      "@type": "xsd:date"
+    },
+    "gender": "schema:gender",
+    "nationality": "schema:nationality",
+    "nationalities": {
+      "@id": "schema:nationality",
+      "@container": "@set"
+    },
+    "registration_number": "schema:taxID",
+    "incorporation_country": "schema:foundingLocation",
+    "website": "schema:url",
+    "imo_number": "schema:serialNumber",
+    "flag_state": "schema:flag",
+    "status": "schema:status",
+    "listed_date": {
+      "@id": "listedDate",
+      "@type": "xsd:date"
+    },
+    "delisted_date": {
+      "@id": "delistedDate",
+      "@type": "xsd:date"
+    },
+    "measures": "schema:description",
+    "remarks": "schema:description",
+    "entity": {
+      "@id": "forEntity",
+      "@type": "@id"
+    },
+    "authority": {
+      "@id": "listedBy",
+      "@type": "@id"
+    },
+    "regime": {
+      "@id": "underRegime",
+      "@type": "@id"
+    },
+    "announcement": {
+      "@id": "publishedIn",
+      "@type": "@id"
+    },
+    "source": "schema:sourceOrganization",
+    "reference_number": "schema:identifier",
+    "url": "schema:url"
+  },
+  "@id": "centro-principal-de-tecnologias-especiais-gtsst-da--1833",
+  "@type": "Organization",
+  "source": "eu",
+  "names": [
+    {
+      "name": "jednostka numer 74455",
+      "is_primary": false
+    },
+    {
+      "name": "código 74455",
+      "is_primary": false
+    },
+    {
+      "name": "Centro Principal de Tecnologías Especiales (GTsST) del Mando Principal del Estado Mayor de la Defensa de las Fuerzas Armadas de la Federación de Rusia (GU/GRU)",
+      "is_primary": false
+    },
+    {
+      "name": "Feldpostnummer 74455",
+      "is_primary": false
+    },
+    {
+      "name": "Hauptzentrum für Spezialtechnologien (GTsST) der Hauptdirektion des Generalstabs der Streitkräfte der Russischen Föderation (GU/GRU)",
+      "is_primary": false
+    },
+    {
+      "name": "Centre principal des technologies spéciales (GTsST) de la direction générale du renseignement de l'état-major des forces armées de la Fédération de Russie (GU/GRU)",
+      "is_primary": false
+    },
+    {
+      "name": "Κύριο Κέντρο Ειδικών Τεχνολογιών (GTsST) της Κεντρικής Διεύθυνσης του Γενικού Επιτελείου των Ενόπλων Δυνάμεων της Ρωσικής Ομοσπονδίας (GU/GRU)",
+      "is_primary": false
+    },
+    {
+      "name": "αριθμό αναφοράς 74455",
+      "is_primary": false
+    },
+    {
+      "name": "Hovedcentret for særlige teknologier (GTsST)) ved hoveddirektoratet for Den Russiske Føderations væbnede styrkers generalstab (GU/GRU)",
+      "is_primary": false
+    },
+    {
+      "name": "feltnummer 74455",
+      "is_primary": false
+    },
+    {
+      "name": "Главен център за специални технологии (ГЦСТ) към Главното управление на Генералния щаб на Въоръжените сили на Руската федерация (ГУ/ГРУ)",
+      "is_primary": false
+    },
+    {
+      "name": "Подразделение 74455",
+      "is_primary": false
+    },
+    {
+      "name": "sihtnumbri 74455",
+      "is_primary": false
+    },
+    {
+      "name": "74455 katonai azonosító FPN-számon",
+      "is_primary": false
+    },
+    {
+      "name": "Az Oroszországi Föderáció fegyveres erői vezérkara Főigazgatóságának (GU/GRU) Különleges Technológiai Főközpontja (GTsST)",
+      "is_primary": false
+    },
+    {
+      "name": "veldpostnummer 74455",
+      "is_primary": false
+    },
+    {
+      "name": "hoofdcentrum voor speciale technologieën (GTsST) van het hoofddirectoraat van de generale staf van de strijdkrachten van de Russische Federatie (GU/GRU)",
+      "is_primary": false
+    },
+    {
+      "name": "codul poștal de teren 74455",
+      "is_primary": false
+    },
+    {
+      "name": "Centrul principal pentru tehnologii speciale (GTsST) al Direcției principale a Statului-Major al forțelor armate ruse (GU/GRU)",
+      "is_primary": false
+    },
+    {
+      "name": "Hlavní středisko pro speciální technologie (GTsST) hlavního ředitelství generálního štábu ozbrojených sil Ruské federace (GU/GRU)",
+      "is_primary": false
+    },
+    {
+      "name": "systémovým identifikačním číslem 74455",
+      "is_primary": false
+    },
+    {
+      "name": "Main Centre for Special Technologies (GTsST) of the Main Directorate of the General Staff of the Armed Forces of the Russian Federation (GU/GRU)",
+      "is_primary": false
+    },
+    {
+      "name": "Hlavné stredisko pre špeciálne technológie (GCST) Hlavného riaditeľstva Generálneho štábu ozbrojených síl Ruskej federácie (GU/GRU)",
+      "is_primary": false
+    },
+    {
+      "name": "74455 podľa poštového smerovacieho čísla",
+      "is_primary": false
+    },
+    {
+      "name": "Glavni centar za posebne tehnologije (GTsST) glavne uprave glavnog stožera oružanih snaga Ruske Federacije (GU/GRU)",
+      "is_primary": false
+    },
+    {
+      "name": "brojem vojne pošte 74455",
+      "is_primary": false
+    },
+    {
+      "name": "Venäjän federaation asevoimien yleisesikunnan pääosaston (GU/GRU) erikoisteknologioiden pääkeskus (GTsST)",
+      "is_primary": false
+    },
+    {
+      "name": "kenttäpostinumeronsa 74455",
+      "is_primary": false
+    },
+    {
+      "name": "Príomh-Lárionad le haghaidh Teicneolaíochtaí Speisialta (GTsST) Phríomh-Ard-Stiúrthóireacht Fhoireann Ghinearálta Fhórsaí Armtha Chónaidhm na Rúise (GU/GRU)",
+      "is_primary": false
+    },
+    {
+      "name": "Iċ-Ċentru Ewlieni għat-Teknoloġiji Speċjali (GTsST) tad-Direttorat Ewlieni tal-Istat Maġġur tal-Forzi Armati tal-Federazzjoni Russa (GU/GRU)",
+      "is_primary": false
+    },
+    {
+      "name": "numru tal-posta militari 74455",
+      "is_primary": false
+    },
+    {
+      "name": "Krievijas Federācijas Bruņoto spēku Ģenerālštāba (GU/GRU) Galvenais īpašo tehnoloģiju centrs (GTsST)",
+      "is_primary": false
+    },
+    {
+      "name": "lauka pasta numuru 74455",
+      "is_primary": false
+    },
+    {
+      "name": "Venemaa Föderatsiooni relvajõudude peastaabi (GU/GRU) peadirektoraadi eritehnoloogia põhikeskus (GTsST)",
+      "is_primary": false
+    },
+    {
+      "name": "Główny Ośrodek Specjalnych Technologii (GTsST) Głównego Zarządu Sztabu Generalnego Sił Zbrojnych Federacji Rosyjskiej (GU GRU)",
+      "is_primary": false
+    },
+    {
+      "name": "Rusijos Federacijos ginkluotųjų pajėgų generalinio štabo vyriausiosios valdybos (GU/GRU) pagrindinis specialiųjų technologijų centras (GTsST)",
+      "is_primary": false
+    },
+    {
+      "name": "vietos pašto numerį 74455",
+      "is_primary": false
+    },
+    {
+      "name": "poštni predal 74455",
+      "is_primary": false
+    },
+    {
+      "name": "Centro principale per le tecnologie speciali (GTsST), direzione principale dello Stato maggiore delle forze armate della Federazione russa (GU/GRU)",
+      "is_primary": false
+    },
+    {
+      "name": "unità 74455",
+      "is_primary": false
+    },
+    {
+      "name": "field post number 74455",
+      "is_primary": false
+    },
+    {
+      "name": "código postal de campanha 74455",
+      "is_primary": false
+    },
+    {
+      "name": "fältpostnummer 74455",
+      "is_primary": false
+    },
+    {
+      "name": "huvudcentrum för  specialteknik (GTsST) vid huvuddirektoratet vid generalstaben inom Ryska federationens försvarsmakt (GU/GRU)",
+      "is_primary": false
+    },
+    {
+      "name": "Centro Principal de Tecnologias Especiais (GTsST) da Direção-Geral de Informações do Estado- -Maior-General das Forças Armadas da Federação da Rússia (GU/GRU)",
+      "is_primary": true
+    }
+  ],
+  "addresses": []
+}

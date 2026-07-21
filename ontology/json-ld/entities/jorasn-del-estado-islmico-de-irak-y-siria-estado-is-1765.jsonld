@@ -1,0 +1,539 @@
+{
+  "@context": {
+    "@vocab": "https://www.ammitto.org/ontology/",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "Entity": "schema:Thing",
+    "Person": "schema:Person",
+    "Organization": "schema:Organization",
+    "Vessel": "schema:Vehicle",
+    "Aircraft": "schema:Vehicle",
+    "Name": "schema:Thing",
+    "Address": "schema:PostalAddress",
+    "Identifier": "schema:PropertyValue",
+    "Entry": "schema:Thing",
+    "Authority": "schema:Organization",
+    "Country": "schema:Country",
+    "Regime": "schema:Thing",
+    "Announcement": "schema:NewsArticle",
+    "LegalInstrument": "schema:Legislation",
+    "id": "@id",
+    "type": "@type",
+    "name": "schema:name",
+    "full_name": "schema:name",
+    "names": {
+      "@id": "hasName",
+      "@container": "@set"
+    },
+    "is_primary": "schema:isPrimary",
+    "street": "schema:streetAddress",
+    "city": "schema:addressLocality",
+    "state": "schema:addressRegion",
+    "postal_code": "schema:postalCode",
+    "country": "schema:addressCountry",
+    "addresses": {
+      "@id": "hasAddress",
+      "@container": "@set"
+    },
+    "identifier": "schema:identifier",
+    "identifiers": {
+      "@id": "hasIdentifier",
+      "@container": "@set"
+    },
+    "value": "schema:value",
+    "issue_date": {
+      "@id": "schema:dateIssued",
+      "@type": "xsd:date"
+    },
+    "expiry_date": {
+      "@id": "expiryDate",
+      "@type": "xsd:date"
+    },
+    "birth_date": {
+      "@id": "schema:birthDate",
+      "@type": "xsd:date"
+    },
+    "birth_place": "schema:birthPlace",
+    "death_date": {
+      "@id": "schema:deathDate",
+      "@type": "xsd:date"
+    },
+    "gender": "schema:gender",
+    "nationality": "schema:nationality",
+    "nationalities": {
+      "@id": "schema:nationality",
+      "@container": "@set"
+    },
+    "registration_number": "schema:taxID",
+    "incorporation_country": "schema:foundingLocation",
+    "website": "schema:url",
+    "imo_number": "schema:serialNumber",
+    "flag_state": "schema:flag",
+    "status": "schema:status",
+    "listed_date": {
+      "@id": "listedDate",
+      "@type": "xsd:date"
+    },
+    "delisted_date": {
+      "@id": "delistedDate",
+      "@type": "xsd:date"
+    },
+    "measures": "schema:description",
+    "remarks": "schema:description",
+    "entity": {
+      "@id": "forEntity",
+      "@type": "@id"
+    },
+    "authority": {
+      "@id": "listedBy",
+      "@type": "@id"
+    },
+    "regime": {
+      "@id": "underRegime",
+      "@type": "@id"
+    },
+    "announcement": {
+      "@id": "publishedIn",
+      "@type": "@id"
+    },
+    "source": "schema:sourceOrganization",
+    "reference_number": "schema:identifier",
+    "url": "schema:url"
+  },
+  "@id": "jorasn-del-estado-islmico-de-irak-y-siria-estado-is-1765",
+  "@type": "Organization",
+  "source": "eu",
+  "names": [
+    {
+      "name": "Islamitische Staat van Irak en ash-Sham — provincie Khorasan",
+      "is_primary": false
+    },
+    {
+      "name": "Islamska država Iraka i Levanta – Khorasan",
+      "is_primary": false
+    },
+    {
+      "name": "Islamský štát v Iraku a Levante – provincia Chorásán",
+      "is_primary": false
+    },
+    {
+      "name": "Ислямска държава в Ирак и Леванта — Хорасан",
+      "is_primary": false
+    },
+    {
+      "name": "Ισλαμικό  Κράτος του Ιράκ και του Λεβάντε — Khorasan",
+      "is_primary": false
+    },
+    {
+      "name": "Statul Islamic în Irak și Levant – Khorasan",
+      "is_primary": false
+    },
+    {
+      "name": "provincia Khorasan a Statului Islamic",
+      "is_primary": false
+    },
+    {
+      "name": "sucursala din Asia de Sud a ISIL",
+      "is_primary": false
+    },
+    {
+      "name": "capitolul ISIL din Asia de Sud",
+      "is_primary": false
+    },
+    {
+      "name": "Statul Islamic din Irak și  ash-Sham – provincia Khorasan",
+      "is_primary": false
+    },
+    {
+      "name": "Statul Islamic al Irakului și Siriei – Khorasan",
+      "is_primary": false
+    },
+    {
+      "name": "Statul Islamic al Irakului și  Levantului din provincia Khorasan",
+      "is_primary": false
+    },
+    {
+      "name": "Statul Islamic Khurasan",
+      "is_primary": false
+    },
+    {
+      "name": "Islámský stát v Iráku a Levantě – Khorasan",
+      "is_primary": false
+    },
+    {
+      "name": "Provincie Khorasan Islámského státu",
+      "is_primary": false
+    },
+    {
+      "name": "Jihoasijská pobočka ISIL",
+      "is_primary": false
+    },
+    {
+      "name": "Jihoasijský odbor ISIL",
+      "is_primary": false
+    },
+    {
+      "name": "Islámský stát  v Iráku a oblasti ash-Sham – provincie Khorasan",
+      "is_primary": false
+    },
+    {
+      "name": "Islámský stát v Iráku a Sýrii – Khorasan",
+      "is_primary": false
+    },
+    {
+      "name": "Islámský stát v Iráku a Levantě v provincii Khorasan",
+      "is_primary": false
+    },
+    {
+      "name": "Islámský stát Khurasan",
+      "is_primary": false
+    },
+    {
+      "name": "Islamskie Państwo w Iraku i Lewancie – Chorasan",
+      "is_primary": false
+    },
+    {
+      "name": "ISIL Chorasan",
+      "is_primary": false
+    },
+    {
+      "name": "Prowincja Chorasan Państwa Islamskiego",
+      "is_primary": false
+    },
+    {
+      "name": "Estado  Islámico de Irak y el Levante en la provincia de Jorasán",
+      "is_primary": false
+    },
+    {
+      "name": "Estado Islámico de Jorasán",
+      "is_primary": false
+    },
+    {
+      "name": "EIIL-J",
+      "is_primary": false
+    },
+    {
+      "name": "Estado Islâmico do Iraque e do Levante – Coraçone",
+      "is_primary": false
+    },
+    {
+      "name": "EIIL Coraçone",
+      "is_primary": false
+    },
+    {
+      "name": "Província de  Coraçone do Estado Islâmico",
+      "is_primary": false
+    },
+    {
+      "name": "Província de Coraçone do EIIL",
+      "is_primary": false
+    },
+    {
+      "name": "Secção da Ásia do Sul do EIIL",
+      "is_primary": false
+    },
+    {
+      "name": "Capítulo da Ásia do Sul do EIIL",
+      "is_primary": false
+    },
+    {
+      "name": "Estado Islâmico do Iraque e de ash-Sham – Província de Coraçone",
+      "is_primary": false
+    },
+    {
+      "name": "Estado Islâmico do Iraque e da Síria  – Coraçone",
+      "is_primary": false
+    },
+    {
+      "name": "Estado Islâmico do Iraque e do Levante na Província de Coraçone",
+      "is_primary": false
+    },
+    {
+      "name": "Estado Islâmico Coraçone",
+      "is_primary": false
+    },
+    {
+      "name": "EIIL-C",
+      "is_primary": false
+    },
+    {
+      "name": "EIILC",
+      "is_primary": false
+    },
+    {
+      "name": "EI-Coraçone",
+      "is_primary": false
+    },
+    {
+      "name": "Estado Islámico de Irak y el Levante – Jorasán (EIIL-J)",
+      "is_primary": false
+    },
+    {
+      "name": "Stato islamico dell'Iraq e del Levante-Khorasan",
+      "is_primary": false
+    },
+    {
+      "name": "État islamique en Iraq et au Levant - Khorasan",
+      "is_primary": false
+    },
+    {
+      "name": "ISIS Wilajat Chorasan",
+      "is_primary": false
+    },
+    {
+      "name": "Południowoazjatycki Oddział ISIL",
+      "is_primary": false
+    },
+    {
+      "name": "Południowoazjatycka Sekcja ISIL",
+      "is_primary": false
+    },
+    {
+      "name": "Islamskie Państwo Iraku i asz-Sham – Prowincja Chorasan",
+      "is_primary": false
+    },
+    {
+      "name": "Islamskie Państwo Iraku i Syrii – Chorasan",
+      "is_primary": false
+    },
+    {
+      "name": "Islamskie Państwo Iraku i Lewantu w prowincji Chorasan",
+      "is_primary": false
+    },
+    {
+      "name": "Państwo Islamskie Chorasan",
+      "is_primary": false
+    },
+    {
+      "name": "IS-Chorasan",
+      "is_primary": false
+    },
+    {
+      "name": "Den Islamiske Stat  i Irak og Levanten – Khorasan",
+      "is_primary": false
+    },
+    {
+      "name": "Islamitische Staat in Irak en de Levant — Khorasan",
+      "is_primary": false
+    },
+    {
+      "name": "ISIS Khorasan",
+      "is_primary": false
+    },
+    {
+      "name": "provincie Khorasan van de Islamitische Staat",
+      "is_primary": false
+    },
+    {
+      "name": "afdeling Zuid-Azië van ISIS",
+      "is_primary": false
+    },
+    {
+      "name": "Zuid-Aziatische tak van ISIS",
+      "is_primary": false
+    },
+    {
+      "name": "Jorasán del Estado Islámico de Irak y Siria",
+      "is_primary": true
+    },
+    {
+      "name": "Estado Islámico de Irak y ash-Sham – provincia de Khorasan",
+      "is_primary": false
+    },
+    {
+      "name": "División de Asia Meridional del EIIL",
+      "is_primary": false
+    },
+    {
+      "name": "Sección de Asia Meridional del EIIL",
+      "is_primary": false
+    },
+    {
+      "name": "Valiato de Jorasán del EIIL",
+      "is_primary": false
+    },
+    {
+      "name": "Provincia de Jorasán del Estado Islámico",
+      "is_primary": false
+    },
+    {
+      "name": "Jorasán del EIIL",
+      "is_primary": false
+    },
+    {
+      "name": "Islamitische Staat Khorasan",
+      "is_primary": false
+    },
+    {
+      "name": "Islamitische Staat van Irak en de Levant in de provincie Khorasan",
+      "is_primary": false
+    },
+    {
+      "name": "IS-Khorasan",
+      "is_primary": false
+    },
+    {
+      "name": "ISISK",
+      "is_primary": false
+    },
+    {
+      "name": "ISIS-K",
+      "is_primary": false
+    },
+    {
+      "name": "Islamic State Khurasan",
+      "is_primary": false
+    },
+    {
+      "name": "Islamic State of Iraq and Levant in Khorasan Province",
+      "is_primary": false
+    },
+    {
+      "name": "The Islamic State of Iraq and Syria – Khorasan",
+      "is_primary": false
+    },
+    {
+      "name": "The Islamic State of Iraq and ash-Sham – Khorasan Province",
+      "is_primary": false
+    },
+    {
+      "name": "Islāma valsts Khurasan",
+      "is_primary": false
+    },
+    {
+      "name": "Irākas un Levantes  Islāma valsts Korasānas provincē",
+      "is_primary": false
+    },
+    {
+      "name": "Irākas un Sīrijas Islāma valsts Korasānas province",
+      "is_primary": false
+    },
+    {
+      "name": "Islāma valsts  Irākā un ash-Sham Korasānas province",
+      "is_primary": false
+    },
+    {
+      "name": "ISIL Dienvidāzijas nodaļa",
+      "is_primary": false
+    },
+    {
+      "name": "ISIL Dienvidāzijas filiāle",
+      "is_primary": false
+    },
+    {
+      "name": "Islāma valsts Korasānas province",
+      "is_primary": false
+    },
+    {
+      "name": "Grupējuma “Irākas un Levantes Islāma valsts Horasānas province”",
+      "is_primary": false
+    },
+    {
+      "name": "l-Istat Iżlamiku ta’ Khurasan",
+      "is_primary": false
+    },
+    {
+      "name": "L-Istat Iżlamiku tal-Iraq u l-Levante fil-Provinċja ta’ Khorasan",
+      "is_primary": false
+    },
+    {
+      "name": "L-Istat Iżlamiku tal-Iraq u s-Sirja — Khorasa",
+      "is_primary": false
+    },
+    {
+      "name": "L-Istat Iżlamiku tal-Iraq u ash-Sham — il-Provinċja ta’ Khorasan",
+      "is_primary": false
+    },
+    {
+      "name": "Kapitolu tal-Asja t’Isfel tal-ISIL",
+      "is_primary": false
+    },
+    {
+      "name": "il-Fergħa tal-Asja t’Isfel tal-ISIL",
+      "is_primary": false
+    },
+    {
+      "name": "Provinċja ta’ Khorasan  tal-Istat Iżlamiku",
+      "is_primary": false
+    },
+    {
+      "name": "L-Istat Iżlamiku tal-Iraq u l-Levante — Khorasan",
+      "is_primary": false
+    },
+    {
+      "name": "Stát Ioslamach Khurasan",
+      "is_primary": false
+    },
+    {
+      "name": "Stát Ioslamach san Iaráic agus sa Leiveaint i gCúige Khorasan",
+      "is_primary": false
+    },
+    {
+      "name": "Stát Ioslamach na hIaráice agus an tSiria —  Khorasan",
+      "is_primary": false
+    },
+    {
+      "name": "Stát  Ioslamach na hIaráice agus an luaith-Sham — Cúige Khorasan",
+      "is_primary": false
+    },
+    {
+      "name": "Caibidil na hÁise Theas de ISIL",
+      "is_primary": false
+    },
+    {
+      "name": "Brainse na hÁise Theas",
+      "is_primary": false
+    },
+    {
+      "name": "Cúige Khorasan an Stáit Ioslamaigh",
+      "is_primary": false
+    },
+    {
+      "name": "An Stáit Ioslamach san Iaráic agus sa Leiveaint — Khorasan",
+      "is_primary": false
+    },
+    {
+      "name": "ISIL - K",
+      "is_primary": false
+    },
+    {
+      "name": "Islamska država Iraka in Levanta – Khorasan",
+      "is_primary": false
+    },
+    {
+      "name": "Irako ir Levanto islamo valstybės“ Chorasano atšaka",
+      "is_primary": false
+    },
+    {
+      "name": "South Asian Chapter of ISIL",
+      "is_primary": false
+    },
+    {
+      "name": "ISIL's South Asia Branch",
+      "is_primary": false
+    },
+    {
+      "name": "ISIS Wilayat Khorasan",
+      "is_primary": false
+    },
+    {
+      "name": "Islamic State's Khorasan Province",
+      "is_primary": false
+    },
+    {
+      "name": "ISIL Khorasan",
+      "is_primary": false
+    },
+    {
+      "name": "Islamic State in Iraq and the Levant – Khorasan",
+      "is_primary": false
+    },
+    {
+      "name": "Islamitische Staat van Irak en Syrië — Khorasan",
+      "is_primary": false
+    }
+  ],
+  "addresses": []
+}

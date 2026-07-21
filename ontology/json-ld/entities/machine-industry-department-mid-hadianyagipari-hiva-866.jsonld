@@ -1,0 +1,291 @@
+{
+  "@context": {
+    "@vocab": "https://www.ammitto.org/ontology/",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "Entity": "schema:Thing",
+    "Person": "schema:Person",
+    "Organization": "schema:Organization",
+    "Vessel": "schema:Vehicle",
+    "Aircraft": "schema:Vehicle",
+    "Name": "schema:Thing",
+    "Address": "schema:PostalAddress",
+    "Identifier": "schema:PropertyValue",
+    "Entry": "schema:Thing",
+    "Authority": "schema:Organization",
+    "Country": "schema:Country",
+    "Regime": "schema:Thing",
+    "Announcement": "schema:NewsArticle",
+    "LegalInstrument": "schema:Legislation",
+    "id": "@id",
+    "type": "@type",
+    "name": "schema:name",
+    "full_name": "schema:name",
+    "names": {
+      "@id": "hasName",
+      "@container": "@set"
+    },
+    "is_primary": "schema:isPrimary",
+    "street": "schema:streetAddress",
+    "city": "schema:addressLocality",
+    "state": "schema:addressRegion",
+    "postal_code": "schema:postalCode",
+    "country": "schema:addressCountry",
+    "addresses": {
+      "@id": "hasAddress",
+      "@container": "@set"
+    },
+    "identifier": "schema:identifier",
+    "identifiers": {
+      "@id": "hasIdentifier",
+      "@container": "@set"
+    },
+    "value": "schema:value",
+    "issue_date": {
+      "@id": "schema:dateIssued",
+      "@type": "xsd:date"
+    },
+    "expiry_date": {
+      "@id": "expiryDate",
+      "@type": "xsd:date"
+    },
+    "birth_date": {
+      "@id": "schema:birthDate",
+      "@type": "xsd:date"
+    },
+    "birth_place": "schema:birthPlace",
+    "death_date": {
+      "@id": "schema:deathDate",
+      "@type": "xsd:date"
+    },
+    "gender": "schema:gender",
+    "nationality": "schema:nationality",
+    "nationalities": {
+      "@id": "schema:nationality",
+      "@container": "@set"
+    },
+    "registration_number": "schema:taxID",
+    "incorporation_country": "schema:foundingLocation",
+    "website": "schema:url",
+    "imo_number": "schema:serialNumber",
+    "flag_state": "schema:flag",
+    "status": "schema:status",
+    "listed_date": {
+      "@id": "listedDate",
+      "@type": "xsd:date"
+    },
+    "delisted_date": {
+      "@id": "delistedDate",
+      "@type": "xsd:date"
+    },
+    "measures": "schema:description",
+    "remarks": "schema:description",
+    "entity": {
+      "@id": "forEntity",
+      "@type": "@id"
+    },
+    "authority": {
+      "@id": "listedBy",
+      "@type": "@id"
+    },
+    "regime": {
+      "@id": "underRegime",
+      "@type": "@id"
+    },
+    "announcement": {
+      "@id": "publishedIn",
+      "@type": "@id"
+    },
+    "source": "schema:sourceOrganization",
+    "reference_number": "schema:identifier",
+    "url": "schema:url"
+  },
+  "@id": "machine-industry-department-mid-hadianyagipari-hiva-866",
+  "@type": "Organization",
+  "source": "eu",
+  "names": [
+    {
+      "name": "Υπουργείο Βιομηχανίας Μηχανών",
+      "is_primary": false
+    },
+    {
+      "name": "Υπουργείο Βιομηχανίας Στρατιωτικών Προμηθειών",
+      "is_primary": false
+    },
+    {
+      "name": "Υπουργείο Βιομηχανίας Πυρομαχικών",
+      "is_primary": false
+    },
+    {
+      "name": "masinatööstuse osakond",
+      "is_primary": false
+    },
+    {
+      "name": "sõjaliste tarnete tööstuse osakond",
+      "is_primary": false
+    },
+    {
+      "name": "laskemoonatööstuse osakond",
+      "is_primary": false
+    },
+    {
+      "name": "Departamentul pentru industria munițiilor",
+      "is_primary": false
+    },
+    {
+      "name": "Departamentul pentru industria echipamentelor militare",
+      "is_primary": false
+    },
+    {
+      "name": "Departamentul pentru industria mașinilor",
+      "is_primary": false
+    },
+    {
+      "name": "Отдел „Промишленост за военни доставки“",
+      "is_primary": false
+    },
+    {
+      "name": "Отдел „Машиностроене“",
+      "is_primary": false
+    },
+    {
+      "name": "Отдел „Сектор за  производство на  боеприпаси“",
+      "is_primary": false
+    },
+    {
+      "name": "ΥΒΠ",
+      "is_primary": false
+    },
+    {
+      "name": "Military Supplies Industry Department",
+      "is_primary": false
+    },
+    {
+      "name": "Munitions Industry Department",
+      "is_primary": false
+    },
+    {
+      "name": "Departamento de la Industria de Municiones",
+      "is_primary": false
+    },
+    {
+      "name": "Abteilung für Munitionsindustrie",
+      "is_primary": false
+    },
+    {
+      "name": "Département de l’industrie des munitions",
+      "is_primary": false
+    },
+    {
+      "name": "Département de l’industrie des fournitures militaires",
+      "is_primary": false
+    },
+    {
+      "name": "Département de l’industrie des machines",
+      "is_primary": false
+    },
+    {
+      "name": "Odbor dodávok pre vojenský priemysel",
+      "is_primary": false
+    },
+    {
+      "name": "Odbor strojárskeho priemyslu",
+      "is_primary": false
+    },
+    {
+      "name": "Odbor pre muničný  priemysel",
+      "is_primary": false
+    },
+    {
+      "name": "Departamento da Indústria de Aprovisionamento Militar",
+      "is_primary": false
+    },
+    {
+      "name": "Departamento da Indústria de Máquinas",
+      "is_primary": false
+    },
+    {
+      "name": "Departamento da Indústria de Munições",
+      "is_primary": false
+    },
+    {
+      "name": "Odbor dodávek pro vojenský průmysl",
+      "is_primary": false
+    },
+    {
+      "name": "Odbor strojního průmyslu",
+      "is_primary": false
+    },
+    {
+      "name": "Odbor vojenského průmyslu",
+      "is_primary": false
+    },
+    {
+      "name": "Departament Przemysłu Zbrojeniowego",
+      "is_primary": false
+    },
+    {
+      "name": "Roinn an Tionscail Muinisean",
+      "is_primary": false
+    },
+    {
+      "name": "Roinn an Tionscail Soláthairtí Míleata",
+      "is_primary": false
+    },
+    {
+      "name": "Roinn an Tionscail Innealra",
+      "is_primary": false
+    },
+    {
+      "name": "Munīcijas rūpniecības departaments",
+      "is_primary": false
+    },
+    {
+      "name": "Karinio aprūpinimo pramonės departamentas",
+      "is_primary": false
+    },
+    {
+      "name": "Mašinų pramonės departamentas",
+      "is_primary": false
+    },
+    {
+      "name": "Amunicijos pramonės departamentas",
+      "is_primary": false
+    },
+    {
+      "name": "Dipartiment tal-Industrija tal-Munizzjon",
+      "is_primary": false
+    },
+    {
+      "name": "Dipartiment tal-Industrija tal-Provvisti Militari",
+      "is_primary": false
+    },
+    {
+      "name": "Dipartiment tal-Industrija tal-Makkinarju",
+      "is_primary": false
+    },
+    {
+      "name": "Katonai Ipari Hivatal",
+      "is_primary": false
+    },
+    {
+      "name": "Gépipari Hivatal",
+      "is_primary": false
+    },
+    {
+      "name": "Hadianyag-ipari Hivatal",
+      "is_primary": false
+    },
+    {
+      "name": "MID",
+      "is_primary": false
+    },
+    {
+      "name": "Machine Industry Department",
+      "is_primary": true
+    }
+  ],
+  "addresses": []
+}

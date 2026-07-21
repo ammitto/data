@@ -42,19 +42,24 @@ This harmonized dataset combines data from the following source repositories:
 data/
 ├── api/v1/
 │   ├── node/                    # Individual JSON-LD node files (knowledge graph)
-│   │   ├── entity/              # Entity nodes by source
-│   │   │   └── {source}/        # e.g., entity/un/KPi.066.jsonld
-│   │   ├── entry/               # Sanction entry nodes by source
-│   │   │   └── {source}/        # e.g., entry/un/KPi.066.jsonld
+│   │   ├── entity/              # Entity nodes by source (LIST-AGNOSTIC)
+│   │   │   └── {source}/        # e.g., entity/cn/mitsubishi-heavy-industries.jsonld
+│   │   ├── entry/               # Sanction entry nodes (LIST-SPECIFIC)
+│   │   │   └── {source}/        #
+│   │   │       └── {list_type}/ # e.g., entry/cn/import-export-control-list/mitsubishi.jsonld
+│   │   ├── list/                # List definition nodes
+│   │   │   └── {source}/        # e.g., list/cn/import-export-control-list.jsonld
 │   │   ├── authority/           # Authority nodes (deduplicated)
 │   │   │   └── {code}.jsonld    # e.g., authority/un.jsonld
 │   │   ├── regime/              # Regime nodes (deduplicated)
 │   │   │   └── {code}.jsonld    # e.g., regime/dprk.jsonld
 │   │   └── instrument/          # Legal instrument nodes
-│   │       └── {source}/        # e.g., instrument/eu/CFSP-2022-123.jsonld
+│   │       └── {source}/        # e.g., instrument/cn/export-control-law.jsonld
 │   │
 │   ├── by-authority/            # Entity IDs grouped by authority
 │   ├── by-regime/               # Entity IDs grouped by regime
+│   ├── by-list/                 # Entries grouped by list type (NEW)
+│   │   └── {source}/            # e.g., by-list/cn/import-export-control-list.jsonld
 │   ├── by-status/               # Entity IDs grouped by status
 │   ├── by-type/                 # Entity IDs grouped by entity type
 │   │
@@ -66,6 +71,7 @@ data/
 │   │
 │   ├── facets/                  # Filter facet counts
 │   │   ├── authorities.json     # Authority counts
+│   │   ├── list_types.json      # List type counts (NEW)
 │   │   ├── regimes.json         # Regime counts
 │   │   ├── types.json           # Entity type counts
 │   │   ├── countries.json       # Country counts
@@ -140,23 +146,53 @@ Each entity follows the Ammitto JSON-LD ontology with the following structure:
 ----
 {
   "@context": "https://www.ammitto.org/ontology/context.jsonld",
-  "@id": "https://www.ammitto.org/entity/eu/XX-12345",
-  "@type": "PersonEntity",
-  "entityType": "person",
+  "@id": "https://www.ammitto.org/entity/cn/mitsubishi-heavy-industries",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "fullName": "John Doe",
+      "fullName": "Mitsubishi Heavy Industries, Ltd.",
       "isPrimary": true
     }
   ],
   "sourceReferences": [
     {
-      "sourceCode": "eu",
-      "referenceNumber": "XX-12345"
+      "sourceCode": "cn",
+      "referenceNumber": "mitsubishi-heavy-industries"
     }
   ]
 }
 ----
+
+=== Entry Schema (List-Specific)
+
+Entries link entities to specific lists:
+
+[source,json]
+----
+{
+  "@context": "https://www.ammitto.org/ontology/context.jsonld",
+  "@id": "https://www.ammitto.org/entry/cn/import-export-control-list/mitsubishi-heavy-industries",
+  "@type": "SanctionEntry",
+  "entityId": "https://www.ammitto.org/entity/cn/mitsubishi-heavy-industries",
+  "listId": "https://www.ammitto.org/list/cn/import-export-control-list",
+  "listType": "import-export-control-list",
+  "status": "active",
+  "listedDate": "2024-05-01",
+  "measures": ["Export restriction"]
+}
+----
+
+== IRI Structure
+
+The knowledge graph uses normalized IRIs:
+
+[horizontal]
+Entity:: `https://www.ammitto.org/entity/{source}/{local_id}` - List-agnostic
+Entry:: `https://www.ammitto.org/entry/{source}/{list_type}/{local_id}` - List-specific
+List:: `https://www.ammitto.org/list/{source}/{list_type}`
+Announcement:: `https://www.ammitto.org/announcement/{source}/{local_id}`
+Legal Instrument:: `https://www.ammitto.org/legal_instrument/{source}/{local_id}`
 
 == API Endpoints
 
@@ -171,7 +207,8 @@ The harmonized dataset is available at:
 === Knowledge Graph Nodes
 
 * **Entity node**: `https://www.ammitto.org/api/v1/node/entity/{source}/{id}.jsonld`
-* **Entry node**: `https://www.ammitto.org/api/v1/node/entry/{source}/{id}.jsonld`
+* **Entry node**: `https://www.ammitto.org/api/v1/node/entry/{source}/{list_type}/{id}.jsonld`
+* **List node**: `https://www.ammitto.org/api/v1/node/list/{source}/{list_type}.jsonld`
 * **Authority node**: `https://www.ammitto.org/api/v1/node/authority/{code}.jsonld`
 * **Regime node**: `https://www.ammitto.org/api/v1/node/regime/{code}.jsonld`
 
@@ -180,6 +217,7 @@ The harmonized dataset is available at:
 * **Search index**: `https://www.ammitto.org/api/v1/search-index.json` (~8MB, 46K entities)
 * **Facets**: `https://www.ammitto.org/api/v1/facets/{facet}.json`
   - `authorities.json` - Entity counts by authority
+  - `list_types.json` - Entity counts by list type
   - `regimes.json` - Entity counts by regime
   - `types.json` - Entity counts by type
   - `countries.json` - Entity counts by country
@@ -195,6 +233,7 @@ The harmonized dataset is available at:
 === Data Slices
 
 * **By authority**: `https://www.ammitto.org/api/v1/by-authority/{code}.json`
+* **By list**: `https://www.ammitto.org/api/v1/by-list/{source}/{list_type}.jsonld`
 * **By regime**: `https://www.ammitto.org/api/v1/by-regime/{code}.json`
 * **By type**: `https://www.ammitto.org/api/v1/by-type/{type}.json`
 * **By status**: `https://www.ammitto.org/api/v1/by-status/{status}.json`

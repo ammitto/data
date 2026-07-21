@@ -1,0 +1,213 @@
+{
+  "@context": {
+    "@vocab": "https://www.ammitto.org/ontology/",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "Entity": "schema:Thing",
+    "Person": "schema:Person",
+    "Organization": "schema:Organization",
+    "Vessel": "schema:Vehicle",
+    "Aircraft": "schema:Vehicle",
+    "Name": "schema:Thing",
+    "Address": "schema:PostalAddress",
+    "Identifier": "schema:PropertyValue",
+    "Entry": "schema:Thing",
+    "Authority": "schema:Organization",
+    "Country": "schema:Country",
+    "Regime": "schema:Thing",
+    "Announcement": "schema:NewsArticle",
+    "LegalInstrument": "schema:Legislation",
+    "id": "@id",
+    "type": "@type",
+    "name": "schema:name",
+    "full_name": "schema:name",
+    "names": {
+      "@id": "hasName",
+      "@container": "@set"
+    },
+    "is_primary": "schema:isPrimary",
+    "street": "schema:streetAddress",
+    "city": "schema:addressLocality",
+    "state": "schema:addressRegion",
+    "postal_code": "schema:postalCode",
+    "country": "schema:addressCountry",
+    "addresses": {
+      "@id": "hasAddress",
+      "@container": "@set"
+    },
+    "identifier": "schema:identifier",
+    "identifiers": {
+      "@id": "hasIdentifier",
+      "@container": "@set"
+    },
+    "value": "schema:value",
+    "issue_date": {
+      "@id": "schema:dateIssued",
+      "@type": "xsd:date"
+    },
+    "expiry_date": {
+      "@id": "expiryDate",
+      "@type": "xsd:date"
+    },
+    "birth_date": {
+      "@id": "schema:birthDate",
+      "@type": "xsd:date"
+    },
+    "birth_place": "schema:birthPlace",
+    "death_date": {
+      "@id": "schema:deathDate",
+      "@type": "xsd:date"
+    },
+    "gender": "schema:gender",
+    "nationality": "schema:nationality",
+    "nationalities": {
+      "@id": "schema:nationality",
+      "@container": "@set"
+    },
+    "registration_number": "schema:taxID",
+    "incorporation_country": "schema:foundingLocation",
+    "website": "schema:url",
+    "imo_number": "schema:serialNumber",
+    "flag_state": "schema:flag",
+    "status": "schema:status",
+    "listed_date": {
+      "@id": "listedDate",
+      "@type": "xsd:date"
+    },
+    "delisted_date": {
+      "@id": "delistedDate",
+      "@type": "xsd:date"
+    },
+    "measures": "schema:description",
+    "remarks": "schema:description",
+    "entity": {
+      "@id": "forEntity",
+      "@type": "@id"
+    },
+    "authority": {
+      "@id": "listedBy",
+      "@type": "@id"
+    },
+    "regime": {
+      "@id": "underRegime",
+      "@type": "@id"
+    },
+    "announcement": {
+      "@id": "publishedIn",
+      "@type": "@id"
+    },
+    "source": "schema:sourceOrganization",
+    "reference_number": "schema:identifier",
+    "url": "schema:url"
+  },
+  "@id": "dawood-ibrahim-kaskar-sheikh-1955",
+  "@type": "Person",
+  "source": "ch",
+  "names": [
+    {
+      "name": "Haji Sahab",
+      "is_primary": false
+    },
+    {
+      "name": "Mucchad",
+      "is_primary": false
+    },
+    {
+      "name": "Iqbal Bhai",
+      "is_primary": false
+    },
+    {
+      "name": "Bada Bhai",
+      "is_primary": false
+    },
+    {
+      "name": "Bada Seth",
+      "is_primary": false
+    },
+    {
+      "name": "Sheikh Farooqi",
+      "is_primary": false
+    },
+    {
+      "name": "Hizrat",
+      "is_primary": false
+    },
+    {
+      "name": "Shaikh Ismail Abdul",
+      "is_primary": false
+    },
+    {
+      "name": "Ibrahim Shaikh Mohd Anis",
+      "is_primary": false
+    },
+    {
+      "name": "Dawood Bhai",
+      "is_primary": false
+    },
+    {
+      "name": "Dowood Hassan Shaikh Ibrahim",
+      "is_primary": false
+    },
+    {
+      "name": "Shaikh Mohd Ismail Abdul Rehman",
+      "is_primary": false
+    },
+    {
+      "name": "Kaskar Dawood Hasan",
+      "is_primary": false
+    },
+    {
+      "name": "Dawood Sabri",
+      "is_primary": false
+    },
+    {
+      "name": "Dawood Ibrahim Memon",
+      "is_primary": false
+    },
+    {
+      "name": "Dawood Hasan Ibrahim Kaskar",
+      "is_primary": false
+    },
+    {
+      "name": "Daud Ibrahim Memon Kaskar",
+      "is_primary": false
+    },
+    {
+      "name": "Daud Hasan Shaikh Ibrahim Kaskar",
+      "is_primary": false
+    },
+    {
+      "name": "Aziz Dilip",
+      "is_primary": false
+    },
+    {
+      "name": "Anis Ibrahim",
+      "is_primary": false
+    },
+    {
+      "name": "Abdul Hamid Abdul Aziz",
+      "is_primary": false
+    },
+    {
+      "name": "Sheikh Dawood Hassan",
+      "is_primary": false
+    },
+    {
+      "name": "Dawood Ebrahim",
+      "is_primary": false
+    },
+    {
+      "name": "Dawood Ibrahim Kaskar Sheikh",
+      "is_primary": true
+    }
+  ],
+  "addresses": [
+    {
+      "city": null,
+      "country": null
+    }
+  ],
+  "remarks": "Father’s name is Sheikh Ibrahim Ali Kaskar, mother’s name is Amina Bi, wife’s name is Mehjabeen Shaikh. International arrest warrant issued by the Government of India. Review pursuant to Security Council resolution 1822 (2008) was concluded on 20 May 2010. Review pursuant to Security Council resolution 2368 (2017) was concluded on 24 November 2020. INTERPOL-UN Security Council Special Notice web link available."
+}

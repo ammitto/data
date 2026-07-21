@@ -1,0 +1,211 @@
+{
+  "@context": {
+    "@vocab": "https://www.ammitto.org/ontology/",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "Entity": "schema:Thing",
+    "Person": "schema:Person",
+    "Organization": "schema:Organization",
+    "Vessel": "schema:Vehicle",
+    "Aircraft": "schema:Vehicle",
+    "Name": "schema:Thing",
+    "Address": "schema:PostalAddress",
+    "Identifier": "schema:PropertyValue",
+    "Entry": "schema:Thing",
+    "Authority": "schema:Organization",
+    "Country": "schema:Country",
+    "Regime": "schema:Thing",
+    "Announcement": "schema:NewsArticle",
+    "LegalInstrument": "schema:Legislation",
+    "id": "@id",
+    "type": "@type",
+    "name": "schema:name",
+    "full_name": "schema:name",
+    "names": {
+      "@id": "hasName",
+      "@container": "@set"
+    },
+    "is_primary": "schema:isPrimary",
+    "street": "schema:streetAddress",
+    "city": "schema:addressLocality",
+    "state": "schema:addressRegion",
+    "postal_code": "schema:postalCode",
+    "country": "schema:addressCountry",
+    "addresses": {
+      "@id": "hasAddress",
+      "@container": "@set"
+    },
+    "identifier": "schema:identifier",
+    "identifiers": {
+      "@id": "hasIdentifier",
+      "@container": "@set"
+    },
+    "value": "schema:value",
+    "issue_date": {
+      "@id": "schema:dateIssued",
+      "@type": "xsd:date"
+    },
+    "expiry_date": {
+      "@id": "expiryDate",
+      "@type": "xsd:date"
+    },
+    "birth_date": {
+      "@id": "schema:birthDate",
+      "@type": "xsd:date"
+    },
+    "birth_place": "schema:birthPlace",
+    "death_date": {
+      "@id": "schema:deathDate",
+      "@type": "xsd:date"
+    },
+    "gender": "schema:gender",
+    "nationality": "schema:nationality",
+    "nationalities": {
+      "@id": "schema:nationality",
+      "@container": "@set"
+    },
+    "registration_number": "schema:taxID",
+    "incorporation_country": "schema:foundingLocation",
+    "website": "schema:url",
+    "imo_number": "schema:serialNumber",
+    "flag_state": "schema:flag",
+    "status": "schema:status",
+    "listed_date": {
+      "@id": "listedDate",
+      "@type": "xsd:date"
+    },
+    "delisted_date": {
+      "@id": "delistedDate",
+      "@type": "xsd:date"
+    },
+    "measures": "schema:description",
+    "remarks": "schema:description",
+    "entity": {
+      "@id": "forEntity",
+      "@type": "@id"
+    },
+    "authority": {
+      "@id": "listedBy",
+      "@type": "@id"
+    },
+    "regime": {
+      "@id": "underRegime",
+      "@type": "@id"
+    },
+    "announcement": {
+      "@id": "publishedIn",
+      "@type": "@id"
+    },
+    "source": "schema:sourceOrganization",
+    "reference_number": "schema:identifier",
+    "url": "schema:url"
+  },
+  "@id": "hlavn-riaditestvo-pre-vntorn-zleitosti-mesta-moskvy-4145",
+  "@type": "Organization",
+  "source": "eu",
+  "names": [
+    {
+      "name": "Main Directorate of Internal Affairs of the City of Moscow",
+      "is_primary": false
+    },
+    {
+      "name": "Главное Управление Внутренних дел по городу Москве",
+      "is_primary": false
+    },
+    {
+      "name": "Главна дирекция „Вътрешни  работи“ на град Москва",
+      "is_primary": false
+    },
+    {
+      "name": "Hoofddirectoraat Binnenlandse Zaken van de stad Moskou",
+      "is_primary": false
+    },
+    {
+      "name": "Moszkva Város Belügyi Főigazgatósága",
+      "is_primary": false
+    },
+    {
+      "name": "Główna Dyrekcja Spraw Wewnętrznych Miasta Moskwa",
+      "is_primary": false
+    },
+    {
+      "name": "Direcția principală pentru afaceri interne a orașului Moscova",
+      "is_primary": false
+    },
+    {
+      "name": "Κεντρική Διεύθυνση Εσωτερικών Υποθέσεων του Δήμου Μόσχας",
+      "is_primary": false
+    },
+    {
+      "name": "Direção-Geral dos Assuntos Internos da Cidade de Moscovo",
+      "is_primary": false
+    },
+    {
+      "name": "Dirección Principal de Asuntos Internos de la ciudad de Moscú",
+      "is_primary": false
+    },
+    {
+      "name": "Direzione principale degli Affari interni della città di Mosca",
+      "is_primary": false
+    },
+    {
+      "name": "Hauptdirektion Innere Angelegenheiten der Stadt Moskau",
+      "is_primary": false
+    },
+    {
+      "name": "Direction principale des affaires intérieures de la ville de Moscou",
+      "is_primary": false
+    },
+    {
+      "name": "Moskvas stads huvuddirektorat för inrikesfrågor",
+      "is_primary": false
+    },
+    {
+      "name": "Hoveddirektoratet for indre anliggender i Moskva",
+      "is_primary": false
+    },
+    {
+      "name": "Hlavní ředitelství pro vnitřní záležitosti města Moskvy",
+      "is_primary": false
+    },
+    {
+      "name": "Príomh-Stiúrthóireacht Gnóthaí Inmheánacha Chathair Mhoscó",
+      "is_primary": false
+    },
+    {
+      "name": "Direttorat Ewlieni tal-Affarijiet Interni tal-Belt ta' Moska",
+      "is_primary": false
+    },
+    {
+      "name": "Moskva linna siseasjade peadirektoraat",
+      "is_primary": false
+    },
+    {
+      "name": "Maskavas pilsētas Galvenā iekšlietu pārvalde",
+      "is_primary": false
+    },
+    {
+      "name": "Maskvos miesto pagrindinis vidaus reikalų direktoratas",
+      "is_primary": false
+    },
+    {
+      "name": "Glavni direktorat za notranje zadeve mesta Moskva",
+      "is_primary": false
+    },
+    {
+      "name": "Glavna uprava za unutarnje poslove grada Moskve",
+      "is_primary": false
+    },
+    {
+      "name": "Moskovan kaupungin sisäasioiden pääosasto",
+      "is_primary": false
+    },
+    {
+      "name": "Hlavné riaditeľstvo pre vnútorné záležitosti mesta Moskvy",
+      "is_primary": true
+    }
+  ],
+  "addresses": []
+}

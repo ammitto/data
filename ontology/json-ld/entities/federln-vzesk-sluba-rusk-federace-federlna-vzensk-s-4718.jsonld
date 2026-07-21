@@ -1,0 +1,207 @@
+{
+  "@context": {
+    "@vocab": "https://www.ammitto.org/ontology/",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "Entity": "schema:Thing",
+    "Person": "schema:Person",
+    "Organization": "schema:Organization",
+    "Vessel": "schema:Vehicle",
+    "Aircraft": "schema:Vehicle",
+    "Name": "schema:Thing",
+    "Address": "schema:PostalAddress",
+    "Identifier": "schema:PropertyValue",
+    "Entry": "schema:Thing",
+    "Authority": "schema:Organization",
+    "Country": "schema:Country",
+    "Regime": "schema:Thing",
+    "Announcement": "schema:NewsArticle",
+    "LegalInstrument": "schema:Legislation",
+    "id": "@id",
+    "type": "@type",
+    "name": "schema:name",
+    "full_name": "schema:name",
+    "names": {
+      "@id": "hasName",
+      "@container": "@set"
+    },
+    "is_primary": "schema:isPrimary",
+    "street": "schema:streetAddress",
+    "city": "schema:addressLocality",
+    "state": "schema:addressRegion",
+    "postal_code": "schema:postalCode",
+    "country": "schema:addressCountry",
+    "addresses": {
+      "@id": "hasAddress",
+      "@container": "@set"
+    },
+    "identifier": "schema:identifier",
+    "identifiers": {
+      "@id": "hasIdentifier",
+      "@container": "@set"
+    },
+    "value": "schema:value",
+    "issue_date": {
+      "@id": "schema:dateIssued",
+      "@type": "xsd:date"
+    },
+    "expiry_date": {
+      "@id": "expiryDate",
+      "@type": "xsd:date"
+    },
+    "birth_date": {
+      "@id": "schema:birthDate",
+      "@type": "xsd:date"
+    },
+    "birth_place": "schema:birthPlace",
+    "death_date": {
+      "@id": "schema:deathDate",
+      "@type": "xsd:date"
+    },
+    "gender": "schema:gender",
+    "nationality": "schema:nationality",
+    "nationalities": {
+      "@id": "schema:nationality",
+      "@container": "@set"
+    },
+    "registration_number": "schema:taxID",
+    "incorporation_country": "schema:foundingLocation",
+    "website": "schema:url",
+    "imo_number": "schema:serialNumber",
+    "flag_state": "schema:flag",
+    "status": "schema:status",
+    "listed_date": {
+      "@id": "listedDate",
+      "@type": "xsd:date"
+    },
+    "delisted_date": {
+      "@id": "delistedDate",
+      "@type": "xsd:date"
+    },
+    "measures": "schema:description",
+    "remarks": "schema:description",
+    "entity": {
+      "@id": "forEntity",
+      "@type": "@id"
+    },
+    "authority": {
+      "@id": "listedBy",
+      "@type": "@id"
+    },
+    "regime": {
+      "@id": "underRegime",
+      "@type": "@id"
+    },
+    "announcement": {
+      "@id": "publishedIn",
+      "@type": "@id"
+    },
+    "source": "schema:sourceOrganization",
+    "reference_number": "schema:identifier",
+    "url": "schema:url"
+  },
+  "@id": "federln-vzesk-sluba-rusk-federace-federlna-vzensk-s-4718",
+  "@type": "Organization",
+  "source": "eu",
+  "names": [
+    {
+      "name": "Ryska federationens federala kriminalvårdstjänst",
+      "is_primary": false
+    },
+    {
+      "name": "VENÄJÄN FEDERAATION VANKEINHOITOLAITOS",
+      "is_primary": false
+    },
+    {
+      "name": "Savezna zatvorska služba Ruske Federacije",
+      "is_primary": false
+    },
+    {
+      "name": "ZVEZNA SLUŽBA RUSKE FEDERACIJE ZA IZVRŠEVANJE KAZENSKIH SANKCIJ",
+      "is_primary": false
+    },
+    {
+      "name": "Rusijos Federacijos federalinė bausmių vykdymo tarnyba",
+      "is_primary": false
+    },
+    {
+      "name": "Krievijas Federācijas Federālais sodu izpildes dienests",
+      "is_primary": false
+    },
+    {
+      "name": "Venemaa Föderatsiooni Föderaalne Vanglateenistus",
+      "is_primary": false
+    },
+    {
+      "name": "Servicio Penitenciario Federal de la Federación de Rusia",
+      "is_primary": false
+    },
+    {
+      "name": "SERVIÇO PENITENCIÁRIO FEDERAL DA FEDERAÇÃO DA RÚSSIA",
+      "is_primary": false
+    },
+    {
+      "name": "FEDRALNA SŁUŻBA WIĘZIENNA FEDERACJI ROSYJSKIEJ",
+      "is_primary": false
+    },
+    {
+      "name": "AZ OROSZORSZÁGI FÖDERÁCIÓ SZÖVETSÉGI BÜNTETÉS-VÉGREHAJTÁSI SZOLGÁLATA",
+      "is_primary": false
+    },
+    {
+      "name": "SERVICIUL FEDERAL AL PENITENCIARELOR AL FEDERAȚIEI RUSE",
+      "is_primary": false
+    },
+    {
+      "name": "FEDERALE PENITENTIAIRE DIENST VAN DE RUSSISCHE FEDERATIE",
+      "is_primary": false
+    },
+    {
+      "name": "Федералната служба за изпълнение на наказанията на Руската федерация",
+      "is_primary": false
+    },
+    {
+      "name": "ΟΜΟΣΠΟΝΔΙΑΚΗ ΣΩΦΡΟΝΙΣΤΙΚΗ ΥΠΗΡΕΣΙΑ ΤΗΣ ΡΩΣΙΚΗΣ ΟΜΟΣΠΟΝΔΙΑΣ",
+      "is_primary": false
+    },
+    {
+      "name": "SERVICE PÉNITENTIAIRE FÉDÉRAL DE LA FÉDÉRATION DE RUSSIE",
+      "is_primary": false
+    },
+    {
+      "name": "FÖDERALER STRAFVOLLZUGS-DIENST DER RUSSISCHEN FÖDERATION",
+      "is_primary": false
+    },
+    {
+      "name": "servizio penitenziario federale della Federazione russa",
+      "is_primary": false
+    },
+    {
+      "name": "ФСИН",
+      "is_primary": false
+    },
+    {
+      "name": "ФЕДЕРАЛЬНАЯ СЛУЖБА ИСПОЛНЕНИЯ НАКАЗАНИЙ",
+      "is_primary": false
+    },
+    {
+      "name": "FSIN",
+      "is_primary": false
+    },
+    {
+      "name": "FEDERAL PENITENTIARY SERVICE OF THE RUSSIAN FEDERATION",
+      "is_primary": false
+    },
+    {
+      "name": "Federálna väzenská služba Ruskej federácie",
+      "is_primary": false
+    },
+    {
+      "name": "Federální vězeňská služba Ruské federace",
+      "is_primary": true
+    }
+  ],
+  "addresses": []
+}

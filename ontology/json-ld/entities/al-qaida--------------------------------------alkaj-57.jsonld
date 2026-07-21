@@ -1,0 +1,395 @@
+{
+  "@context": {
+    "@vocab": "https://www.ammitto.org/ontology/",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "Entity": "schema:Thing",
+    "Person": "schema:Person",
+    "Organization": "schema:Organization",
+    "Vessel": "schema:Vehicle",
+    "Aircraft": "schema:Vehicle",
+    "Name": "schema:Thing",
+    "Address": "schema:PostalAddress",
+    "Identifier": "schema:PropertyValue",
+    "Entry": "schema:Thing",
+    "Authority": "schema:Organization",
+    "Country": "schema:Country",
+    "Regime": "schema:Thing",
+    "Announcement": "schema:NewsArticle",
+    "LegalInstrument": "schema:Legislation",
+    "id": "@id",
+    "type": "@type",
+    "name": "schema:name",
+    "full_name": "schema:name",
+    "names": {
+      "@id": "hasName",
+      "@container": "@set"
+    },
+    "is_primary": "schema:isPrimary",
+    "street": "schema:streetAddress",
+    "city": "schema:addressLocality",
+    "state": "schema:addressRegion",
+    "postal_code": "schema:postalCode",
+    "country": "schema:addressCountry",
+    "addresses": {
+      "@id": "hasAddress",
+      "@container": "@set"
+    },
+    "identifier": "schema:identifier",
+    "identifiers": {
+      "@id": "hasIdentifier",
+      "@container": "@set"
+    },
+    "value": "schema:value",
+    "issue_date": {
+      "@id": "schema:dateIssued",
+      "@type": "xsd:date"
+    },
+    "expiry_date": {
+      "@id": "expiryDate",
+      "@type": "xsd:date"
+    },
+    "birth_date": {
+      "@id": "schema:birthDate",
+      "@type": "xsd:date"
+    },
+    "birth_place": "schema:birthPlace",
+    "death_date": {
+      "@id": "schema:deathDate",
+      "@type": "xsd:date"
+    },
+    "gender": "schema:gender",
+    "nationality": "schema:nationality",
+    "nationalities": {
+      "@id": "schema:nationality",
+      "@container": "@set"
+    },
+    "registration_number": "schema:taxID",
+    "incorporation_country": "schema:foundingLocation",
+    "website": "schema:url",
+    "imo_number": "schema:serialNumber",
+    "flag_state": "schema:flag",
+    "status": "schema:status",
+    "listed_date": {
+      "@id": "listedDate",
+      "@type": "xsd:date"
+    },
+    "delisted_date": {
+      "@id": "delistedDate",
+      "@type": "xsd:date"
+    },
+    "measures": "schema:description",
+    "remarks": "schema:description",
+    "entity": {
+      "@id": "forEntity",
+      "@type": "@id"
+    },
+    "authority": {
+      "@id": "listedBy",
+      "@type": "@id"
+    },
+    "regime": {
+      "@id": "underRegime",
+      "@type": "@id"
+    },
+    "announcement": {
+      "@id": "publishedIn",
+      "@type": "@id"
+    },
+    "source": "schema:sourceOrganization",
+    "reference_number": "schema:identifier",
+    "url": "schema:url"
+  },
+  "@id": "al-qaida--------------------------------------alkaj-57",
+  "@type": "Organization",
+  "source": "eu",
+  "names": [
+    {
+      "name": "la base",
+      "is_primary": false
+    },
+    {
+      "name": "Rețeaua lui Osama ben Laden",
+      "is_primary": false
+    },
+    {
+      "name": "Frontul islamic mondial pentru Jihadul împotriva evreilor și a cruciaților",
+      "is_primary": false
+    },
+    {
+      "name": "Armata islamică de eliberare a locurilor sfinte",
+      "is_primary": false
+    },
+    {
+      "name": "Grupul pentru păstrarea locurilor sfinte",
+      "is_primary": false
+    },
+    {
+      "name": "Fundația salvării islamice",
+      "is_primary": false
+    },
+    {
+      "name": "Baza",
+      "is_primary": false
+    },
+    {
+      "name": "Al Qa’ida / Islamska vojska",
+      "is_primary": false
+    },
+    {
+      "name": "organizacija Osame bin Ladna",
+      "is_primary": false
+    },
+    {
+      "name": "mreža Osame bin Ladna",
+      "is_primary": false
+    },
+    {
+      "name": "Svetovna islamska fronta za džihad proti Judom in križarjem",
+      "is_primary": false
+    },
+    {
+      "name": "Ал Кайда",
+      "is_primary": false
+    },
+    {
+      "name": "Η Βάση",
+      "is_primary": false
+    },
+    {
+      "name": "Al Qa’ida",
+      "is_primary": false
+    },
+    {
+      "name": "Παγκόσµιο Ισλαµικό Μέτωπο για τον Ιερό Πόλεµο (Τζιχάντ) κατά των Εβραίων και Σταυροφόρων",
+      "is_primary": false
+    },
+    {
+      "name": "Organisation d'Oussama ben Laden",
+      "is_primary": false
+    },
+    {
+      "name": "Réseau d'Oussama ben Laden",
+      "is_primary": false
+    },
+    {
+      "name": "Front islamique mondial pour le Jihad contre les Juifs et les croisés",
+      "is_primary": false
+    },
+    {
+      "name": "Armée islamique pour la libération des lieux saints",
+      "is_primary": false
+    },
+    {
+      "name": "Groupe pour la préservation des lieux saints",
+      "is_primary": false
+    },
+    {
+      "name": "Fondation du salut islamique",
+      "is_primary": false
+    },
+    {
+      "name": "базата",
+      "is_primary": true
+    },
+    {
+      "name": "Al Qa’ida/ Ислямска армия",
+      "is_primary": false
+    },
+    {
+      "name": "Фондация за спасение на исляма",
+      "is_primary": false
+    },
+    {
+      "name": "Група за опазване на светите места",
+      "is_primary": false
+    },
+    {
+      "name": "Ислямска армия за освобождение на светите места",
+      "is_primary": false
+    },
+    {
+      "name": "Световен ислямски фронт за джихад срещу евреите и кръстоносците",
+      "is_primary": false
+    },
+    {
+      "name": "Мрежа Осама бин Ладен",
+      "is_primary": false
+    },
+    {
+      "name": "Организация „Осама бин Ладен“",
+      "is_primary": false
+    },
+    {
+      "name": "Al-Kajdá",
+      "is_primary": false
+    },
+    {
+      "name": "síť Usámy Bin Ládina",
+      "is_primary": false
+    },
+    {
+      "name": "organizace Usámy Bin Ládina",
+      "is_primary": false
+    },
+    {
+      "name": "Sieć Osamy Bin Lagena",
+      "is_primary": false
+    },
+    {
+      "name": "Organizacja Osamy Bin Ladena",
+      "is_primary": false
+    },
+    {
+      "name": "Al Kaida",
+      "is_primary": false
+    },
+    {
+      "name": "baza",
+      "is_primary": false
+    },
+    {
+      "name": "Islamska rešilna fundacija",
+      "is_primary": false
+    },
+    {
+      "name": "Skupina za ohranitev svetih krajev",
+      "is_primary": false
+    },
+    {
+      "name": "Islamska vojska za osvoboditev svetih krajev",
+      "is_primary": false
+    },
+    {
+      "name": "Organizația lui Osama ben Laden",
+      "is_primary": false
+    },
+    {
+      "name": "Al Qa’ida/Armata islamică",
+      "is_primary": false
+    },
+    {
+      "name": "Al-Qaida",
+      "is_primary": false
+    },
+    {
+      "name": "Al Qa’ida/ Islamic Army",
+      "is_primary": false
+    },
+    {
+      "name": "The Base",
+      "is_primary": false
+    },
+    {
+      "name": "Al Qaeda",
+      "is_primary": false
+    },
+    {
+      "name": "Islamic Salvation Foundation",
+      "is_primary": false
+    },
+    {
+      "name": "The Group for the Preservation of the Holy Sites",
+      "is_primary": false
+    },
+    {
+      "name": "The Islamic Army for the Liberation of Holy Places",
+      "is_primary": false
+    },
+    {
+      "name": "The World Islamic Front for Jihad Against Jews and Crusaders",
+      "is_primary": false
+    },
+    {
+      "name": "Usama Bin Laden Network",
+      "is_primary": false
+    },
+    {
+      "name": "Usama Bin Laden Organisation",
+      "is_primary": false
+    },
+    {
+      "name": "Al Qaida/Exército islâmico",
+      "is_primary": false
+    },
+    {
+      "name": "Fundação da Salvação Islâmica",
+      "is_primary": false
+    },
+    {
+      "name": "Grupo para a Preservação dos Lugares Santos",
+      "is_primary": false
+    },
+    {
+      "name": "Exército Islâmico de Libertação dos Lugares Santos",
+      "is_primary": false
+    },
+    {
+      "name": "Frente Islâmica Mundial para o Jihad Contra os Judeus e os Cruzados",
+      "is_primary": false
+    },
+    {
+      "name": "Rede de Osama bin Laden",
+      "is_primary": false
+    },
+    {
+      "name": "Organização de Osama bin Laden",
+      "is_primary": false
+    },
+    {
+      "name": "Usama Bin Laden Organization",
+      "is_primary": false
+    },
+    {
+      "name": "Osama bin Laden-Netzwerk",
+      "is_primary": false
+    },
+    {
+      "name": "Osama bin Laden-Organisation",
+      "is_primary": false
+    },
+    {
+      "name": "La Base",
+      "is_primary": false
+    },
+    {
+      "name": "Usamah bin Laden Network",
+      "is_primary": false
+    },
+    {
+      "name": "Usamah bin Laden Organisation",
+      "is_primary": false
+    },
+    {
+      "name": "Αλ Κάιντα",
+      "is_primary": false
+    },
+    {
+      "name": "Αλ Κάιντα/Ισλαμικός στρατός",
+      "is_primary": false
+    },
+    {
+      "name": "Ισλαµικό Ίδρυµα Σωτηρίας",
+      "is_primary": false
+    },
+    {
+      "name": "Όµιλος για τη Διαφύλαξη των Αγίων Τόπων",
+      "is_primary": false
+    },
+    {
+      "name": "Ισλαµικός Στρατός για την Απελευθέρωση των Αγίων Τόπων",
+      "is_primary": false
+    },
+    {
+      "name": "∆ίκτυο του Οσάµα Μπιν Λάντεν",
+      "is_primary": false
+    },
+    {
+      "name": "armée islamique",
+      "is_primary": false
+    }
+  ],
+  "addresses": []
+}

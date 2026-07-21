@@ -1,0 +1,295 @@
+{
+  "@context": {
+    "@vocab": "https://www.ammitto.org/ontology/",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "Entity": "schema:Thing",
+    "Person": "schema:Person",
+    "Organization": "schema:Organization",
+    "Vessel": "schema:Vehicle",
+    "Aircraft": "schema:Vehicle",
+    "Name": "schema:Thing",
+    "Address": "schema:PostalAddress",
+    "Identifier": "schema:PropertyValue",
+    "Entry": "schema:Thing",
+    "Authority": "schema:Organization",
+    "Country": "schema:Country",
+    "Regime": "schema:Thing",
+    "Announcement": "schema:NewsArticle",
+    "LegalInstrument": "schema:Legislation",
+    "id": "@id",
+    "type": "@type",
+    "name": "schema:name",
+    "full_name": "schema:name",
+    "names": {
+      "@id": "hasName",
+      "@container": "@set"
+    },
+    "is_primary": "schema:isPrimary",
+    "street": "schema:streetAddress",
+    "city": "schema:addressLocality",
+    "state": "schema:addressRegion",
+    "postal_code": "schema:postalCode",
+    "country": "schema:addressCountry",
+    "addresses": {
+      "@id": "hasAddress",
+      "@container": "@set"
+    },
+    "identifier": "schema:identifier",
+    "identifiers": {
+      "@id": "hasIdentifier",
+      "@container": "@set"
+    },
+    "value": "schema:value",
+    "issue_date": {
+      "@id": "schema:dateIssued",
+      "@type": "xsd:date"
+    },
+    "expiry_date": {
+      "@id": "expiryDate",
+      "@type": "xsd:date"
+    },
+    "birth_date": {
+      "@id": "schema:birthDate",
+      "@type": "xsd:date"
+    },
+    "birth_place": "schema:birthPlace",
+    "death_date": {
+      "@id": "schema:deathDate",
+      "@type": "xsd:date"
+    },
+    "gender": "schema:gender",
+    "nationality": "schema:nationality",
+    "nationalities": {
+      "@id": "schema:nationality",
+      "@container": "@set"
+    },
+    "registration_number": "schema:taxID",
+    "incorporation_country": "schema:foundingLocation",
+    "website": "schema:url",
+    "imo_number": "schema:serialNumber",
+    "flag_state": "schema:flag",
+    "status": "schema:status",
+    "listed_date": {
+      "@id": "listedDate",
+      "@type": "xsd:date"
+    },
+    "delisted_date": {
+      "@id": "delistedDate",
+      "@type": "xsd:date"
+    },
+    "measures": "schema:description",
+    "remarks": "schema:description",
+    "entity": {
+      "@id": "forEntity",
+      "@type": "@id"
+    },
+    "authority": {
+      "@id": "listedBy",
+      "@type": "@id"
+    },
+    "regime": {
+      "@id": "underRegime",
+      "@type": "@id"
+    },
+    "announcement": {
+      "@id": "publishedIn",
+      "@type": "@id"
+    },
+    "source": "schema:sourceOrganization",
+    "reference_number": "schema:identifier",
+    "url": "schema:url"
+  },
+  "@id": "npa-philippines-filipijnse-communistische-partij-co-49",
+  "@type": "Organization",
+  "source": "eu",
+  "names": [
+    {
+      "name": "New People's Army",
+      "is_primary": false
+    },
+    {
+      "name": "Nieuw Volksleger",
+      "is_primary": false
+    },
+    {
+      "name": "Комунистическа партия на Филипините",
+      "is_primary": false
+    },
+    {
+      "name": "Нова народна армия",
+      "is_primary": false
+    },
+    {
+      "name": "Partido Comunista de las Filipinas",
+      "is_primary": false
+    },
+    {
+      "name": "Nuevo Ejército del Pueblo",
+      "is_primary": false
+    },
+    {
+      "name": "Komunistická strana Filipín",
+      "is_primary": false
+    },
+    {
+      "name": "Nové lidové armády",
+      "is_primary": false
+    },
+    {
+      "name": "Det Filippinske Kommunistparti",
+      "is_primary": false
+    },
+    {
+      "name": "Kommunistische Partei der Philippinen",
+      "is_primary": false
+    },
+    {
+      "name": "Neue Volksarmee",
+      "is_primary": false
+    },
+    {
+      "name": "Filipiinide Kommunistlik Partei",
+      "is_primary": false
+    },
+    {
+      "name": "Uus Rahvaarmee",
+      "is_primary": false
+    },
+    {
+      "name": "Κομμουνιστικό Κόμμα Φιλιππίνων",
+      "is_primary": false
+    },
+    {
+      "name": "Νέος Λαϊκός Στρατός",
+      "is_primary": false
+    },
+    {
+      "name": "Parti communiste des Philippines",
+      "is_primary": false
+    },
+    {
+      "name": "Nouvelle armée du peuple",
+      "is_primary": false
+    },
+    {
+      "name": "Páirtí Cumannach na nOileán Filipíneach",
+      "is_primary": false
+    },
+    {
+      "name": "Arm Nua an Phobail - APN",
+      "is_primary": false
+    },
+    {
+      "name": "Komunistička partija Filipina",
+      "is_primary": false
+    },
+    {
+      "name": "Nova narodna vojska",
+      "is_primary": false
+    },
+    {
+      "name": "Partito comunista delle Filippine",
+      "is_primary": false
+    },
+    {
+      "name": "Nuovo esercito popolare",
+      "is_primary": false
+    },
+    {
+      "name": "Filipinų komunistų partija",
+      "is_primary": false
+    },
+    {
+      "name": "Naująją liaudies armiją",
+      "is_primary": false
+    },
+    {
+      "name": "Új Néphadsereg",
+      "is_primary": false
+    },
+    {
+      "name": "Fülöp-szigeteki Kommunista Párt",
+      "is_primary": false
+    },
+    {
+      "name": "Il-Partit Komunista tal-Filippini",
+      "is_primary": false
+    },
+    {
+      "name": "l-Armata l-Ġdida tal-Poplu",
+      "is_primary": false
+    },
+    {
+      "name": "Komunistyczna Partia Filipin",
+      "is_primary": false
+    },
+    {
+      "name": "Nowa Armia Ludowa",
+      "is_primary": false
+    },
+    {
+      "name": "Partido Comunista das Filipinas",
+      "is_primary": false
+    },
+    {
+      "name": "Novo Exército Popular",
+      "is_primary": false
+    },
+    {
+      "name": "Partidul Comunist din Filipine",
+      "is_primary": false
+    },
+    {
+      "name": "Noua Armată Populară",
+      "is_primary": false
+    },
+    {
+      "name": "Komunistická strana Filipín",
+      "is_primary": false
+    },
+    {
+      "name": "Novej ľudovej armády",
+      "is_primary": false
+    },
+    {
+      "name": "Komunistična stranka Filipinov",
+      "is_primary": false
+    },
+    {
+      "name": "Nova ljudska vojska",
+      "is_primary": false
+    },
+    {
+      "name": "Filippiinien kommunistinen puolue",
+      "is_primary": false
+    },
+    {
+      "name": "Uusi kansanarmeija",
+      "is_primary": false
+    },
+    {
+      "name": "Filippinernas kommunistparti",
+      "is_primary": false
+    },
+    {
+      "name": "Nya folkarmén",
+      "is_primary": false
+    },
+    {
+      "name": "Communist Party of the Philippines",
+      "is_primary": false
+    },
+    {
+      "name": "Filipijnse communistische partij",
+      "is_primary": false
+    },
+    {
+      "name": "NPA, Philippines",
+      "is_primary": true
+    }
+  ],
+  "addresses": []
+}
