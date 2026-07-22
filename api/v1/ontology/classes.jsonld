@@ -77,7 +77,9 @@
         "https://www.ammitto.org/ontology/regime",
         "https://www.ammitto.org/ontology/legalBases",
         "https://www.ammitto.org/ontology/status",
-        "https://www.ammitto.org/ontology/listingDate"
+        "https://www.ammitto.org/ontology/listingDate",
+        "https://www.ammitto.org/ontology/measures",
+        "https://www.ammitto.org/ontology/announcement"
       ]
     },
     {
@@ -86,16 +88,31 @@
       "label": "Authority",
       "comment": "An issuing authority for sanctions (e.g., UN, EU, UK)",
       "properties": [
+        "https://www.ammitto.org/ontology/code",
         "https://www.ammitto.org/ontology/name",
         "https://www.ammitto.org/ontology/countryCode",
         "https://www.ammitto.org/ontology/url"
       ]
     },
     {
+      "@id": "https://www.ammitto.org/ontology/Announcement",
+      "@type": "rdfs:Class",
+      "label": "Announcement",
+      "comment": "A publication or list update from an authority",
+      "properties": [
+        "https://www.ammitto.org/ontology/title",
+        "https://www.ammitto.org/ontology/number",
+        "https://www.ammitto.org/ontology/date",
+        "https://www.ammitto.org/ontology/effectiveDate",
+        "https://www.ammitto.org/ontology/issuingAuthority",
+        "https://www.ammitto.org/ontology/measures"
+      ]
+    },
+    {
       "@id": "https://www.ammitto.org/ontology/SanctionRegime",
       "@type": "rdfs:Class",
       "label": "Sanction Regime",
-      "comment": "A sanctions regime (e.g., DPRK, Iran, Terrorism)",
+      "comment": "A sanctions regime (e.g., DPRK, Iran, Russia)",
       "properties": [
         "https://www.ammitto.org/ontology/code",
         "https://www.ammitto.org/ontology/name",
@@ -116,6 +133,40 @@
       ]
     },
     {
+      "@id": "https://www.ammitto.org/ontology/SanctionsList",
+      "@type": "rdfs:Class",
+      "label": "Sanctions List",
+      "comment": "A specific sanctions list (e.g., EU Consolidated List, OFAC SDN)",
+      "properties": [
+        "https://www.ammitto.org/ontology/name",
+        "https://www.ammitto.org/ontology/authority",
+        "https://www.ammitto.org/ontology/description",
+        "https://www.ammitto.org/ontology/listType",
+        "https://www.ammitto.org/ontology/url"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/Country",
+      "@type": "rdfs:Class",
+      "label": "Country",
+      "comment": "A country or territory (ISO 3166-1)",
+      "properties": [
+        "https://www.ammitto.org/ontology/code",
+        "https://www.ammitto.org/ontology/name"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/Measure",
+      "@type": "rdfs:Class",
+      "label": "Measure",
+      "comment": "A specific sanctions measure (asset freeze, travel ban, etc.)",
+      "properties": [
+        "https://www.ammitto.org/ontology/code",
+        "https://www.ammitto.org/ontology/name",
+        "https://www.ammitto.org/ontology/description"
+      ]
+    },
+    {
       "@id": "https://www.ammitto.org/ontology/Name",
       "@type": "rdfs:Class",
       "label": "Name",
@@ -126,7 +177,8 @@
         "https://www.ammitto.org/ontology/firstName",
         "https://www.ammitto.org/ontology/middleName",
         "https://www.ammitto.org/ontology/isPrimary",
-        "https://www.ammitto.org/ontology/script"
+        "https://www.ammitto.org/ontology/script",
+        "https://www.ammitto.org/ontology/language"
       ]
     },
     {
@@ -140,7 +192,8 @@
         "https://www.ammitto.org/ontology/state",
         "https://www.ammitto.org/ontology/postalCode",
         "https://www.ammitto.org/ontology/country",
-        "https://www.ammitto.org/ontology/countryCode"
+        "https://www.ammitto.org/ontology/countryCode",
+        "https://www.ammitto.org/ontology/careOf"
       ]
     },
     {
@@ -153,7 +206,31 @@
         "https://www.ammitto.org/ontology/value",
         "https://www.ammitto.org/ontology/country",
         "https://www.ammitto.org/ontology/issuer",
+        "https://www.ammitto.org/ontology/issueDate",
         "https://www.ammitto.org/ontology/expiryDate"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/BirthInfo",
+      "@type": "rdfs:Class",
+      "label": "Birth Information",
+      "comment": "Birth date and place information",
+      "properties": [
+        "https://www.ammitto.org/ontology/date",
+        "https://www.ammitto.org/ontology/year",
+        "https://www.ammitto.org/ontology/place",
+        "https://www.ammitto.org/ontology/country",
+        "https://www.ammitto.org/ontology/circa"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/Nationality",
+      "@type": "rdfs:Class",
+      "label": "Nationality",
+      "comment": "A nationality or citizenship",
+      "properties": [
+        "https://www.ammitto.org/ontology/countryCode",
+        "https://www.ammitto.org/ontology/country"
       ]
     }
   ]

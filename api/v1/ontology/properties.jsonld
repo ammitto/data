@@ -80,13 +80,12 @@
       "range": "https://www.ammitto.org/ontology/Registration"
     },
     {
-      "@id": "https://www.ammitto.org/ontology/addresses",
+      "@id": "https://www.ammitto.org/ontology/businessType",
       "@type": "rdf:Property",
-      "label": "Addresses",
-      "comment": "Physical addresses",
-      "domain": "https://www.ammitto.org/ontology/Entity",
-      "range": "https://www.ammitto.org/ontology/Address",
-      "isArray": true
+      "label": "Business Type",
+      "comment": "Type of business",
+      "domain": "https://www.ammitto.org/ontology/OrganizationEntity",
+      "range": "http://www.w3.org/2001/XMLSchema#string"
     },
     {
       "@id": "https://www.ammitto.org/ontology/imo",
@@ -110,7 +109,7 @@
       "label": "Flag",
       "comment": "Flag state",
       "domain": "https://www.ammitto.org/ontology/VesselEntity",
-      "range": "http://www.w3.org/2001/XMLSchema#string"
+      "range": "https://www.ammitto.org/ontology/Country"
     },
     {
       "@id": "https://www.ammitto.org/ontology/tonnage",
@@ -127,6 +126,55 @@
       "comment": "Radio call sign",
       "domain": "https://www.ammitto.org/ontology/VesselEntity",
       "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/buildDate",
+      "@type": "rdf:Property",
+      "label": "Build Date",
+      "comment": "Date vessel was built",
+      "domain": "https://www.ammitto.org/ontology/VesselEntity",
+      "range": "http://www.w3.org/2001/XMLSchema#date"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/registrationNumber",
+      "@type": "rdf:Property",
+      "label": "Registration Number",
+      "comment": "Aircraft registration",
+      "domain": "https://www.ammitto.org/ontology/AircraftEntity",
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/manufacturer",
+      "@type": "rdf:Property",
+      "label": "Manufacturer",
+      "comment": "Aircraft manufacturer",
+      "domain": "https://www.ammitto.org/ontology/AircraftEntity",
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/model",
+      "@type": "rdf:Property",
+      "label": "Model",
+      "comment": "Aircraft model",
+      "domain": "https://www.ammitto.org/ontology/AircraftEntity",
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/serialNumber",
+      "@type": "rdf:Property",
+      "label": "Serial Number",
+      "comment": "Aircraft serial number",
+      "domain": "https://www.ammitto.org/ontology/AircraftEntity",
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/addresses",
+      "@type": "rdf:Property",
+      "label": "Addresses",
+      "comment": "Physical addresses",
+      "domain": "https://www.ammitto.org/ontology/Entity",
+      "range": "https://www.ammitto.org/ontology/Address",
+      "isArray": true
     },
     {
       "@id": "https://www.ammitto.org/ontology/entityId",
@@ -178,6 +226,39 @@
       "range": "http://www.w3.org/2001/XMLSchema#date"
     },
     {
+      "@id": "https://www.ammitto.org/ontology/delistingDate",
+      "@type": "rdf:Property",
+      "label": "Delisting Date",
+      "comment": "Date removed from list",
+      "domain": "https://www.ammitto.org/ontology/SanctionEntry",
+      "range": "http://www.w3.org/2001/XMLSchema#date"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/measures",
+      "@type": "rdf:Property",
+      "label": "Measures",
+      "comment": "Sanctions measures applied",
+      "domain": "https://www.ammitto.org/ontology/SanctionEntry",
+      "range": "https://www.ammitto.org/ontology/Measure",
+      "isArray": true
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/announcement",
+      "@type": "rdf:Property",
+      "label": "Announcement",
+      "comment": "Source announcement",
+      "domain": "https://www.ammitto.org/ontology/SanctionEntry",
+      "range": "https://www.ammitto.org/ontology/Announcement"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/code",
+      "@type": "rdf:Property",
+      "label": "Code",
+      "comment": "Unique code identifier",
+      "domain": "https://www.ammitto.org/ontology/Authority",
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
       "@id": "https://www.ammitto.org/ontology/name",
       "@type": "rdf:Property",
       "label": "Name",
@@ -194,10 +275,58 @@
       "range": "http://www.w3.org/2001/XMLSchema#string"
     },
     {
-      "@id": "https://www.ammitto.org/ontology/code",
+      "@id": "https://www.ammitto.org/ontology/url",
       "@type": "rdf:Property",
-      "label": "Code",
-      "comment": "Code identifier",
+      "label": "URL",
+      "comment": "Official website",
+      "domain": "https://www.ammitto.org/ontology/Authority",
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/title",
+      "@type": "rdf:Property",
+      "label": "Title",
+      "comment": "Announcement title",
+      "domain": "https://www.ammitto.org/ontology/Announcement",
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/number",
+      "@type": "rdf:Property",
+      "label": "Number",
+      "comment": "Announcement number",
+      "domain": "https://www.ammitto.org/ontology/Announcement",
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/date",
+      "@type": "rdf:Property",
+      "label": "Date",
+      "comment": "Publication date",
+      "domain": "https://www.ammitto.org/ontology/Announcement",
+      "range": "http://www.w3.org/2001/XMLSchema#date"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/effectiveDate",
+      "@type": "rdf:Property",
+      "label": "Effective Date",
+      "comment": "Date when effective",
+      "domain": "https://www.ammitto.org/ontology/Announcement",
+      "range": "http://www.w3.org/2001/XMLSchema#date"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/issuingAuthority",
+      "@type": "rdf:Property",
+      "label": "Issuing Authority",
+      "comment": "Authority that issued",
+      "domain": "https://www.ammitto.org/ontology/Announcement",
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/description",
+      "@type": "rdf:Property",
+      "label": "Description",
+      "comment": "Description",
       "domain": "https://www.ammitto.org/ontology/SanctionRegime",
       "range": "http://www.w3.org/2001/XMLSchema#string"
     },
@@ -210,11 +339,43 @@
       "range": "http://www.w3.org/2001/XMLSchema#string"
     },
     {
-      "@id": "https://www.ammitto.org/ontology/title",
+      "@id": "https://www.ammitto.org/ontology/type",
       "@type": "rdf:Property",
-      "label": "Title",
-      "comment": "Full title",
+      "label": "Type",
+      "comment": "Type",
       "domain": "https://www.ammitto.org/ontology/LegalInstrument",
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/publicationDate",
+      "@type": "rdf:Property",
+      "label": "Publication Date",
+      "comment": "Date published",
+      "domain": "https://www.ammitto.org/ontology/LegalInstrument",
+      "range": "http://www.w3.org/2001/XMLSchema#date"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/listType",
+      "@type": "rdf:Property",
+      "label": "List Type",
+      "comment": "Type of sanctions list",
+      "domain": "https://www.ammitto.org/ontology/SanctionsList",
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/authority",
+      "@type": "rdf:Property",
+      "label": "Authority",
+      "comment": "Owning authority",
+      "domain": "https://www.ammitto.org/ontology/SanctionsList",
+      "range": "https://www.ammitto.org/ontology/Authority"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/country",
+      "@type": "rdf:Property",
+      "label": "Country",
+      "comment": "Country name",
+      "domain": "https://www.ammitto.org/ontology/Country",
       "range": "http://www.w3.org/2001/XMLSchema#string"
     },
     {
@@ -226,12 +387,52 @@
       "range": "http://www.w3.org/2001/XMLSchema#string"
     },
     {
+      "@id": "https://www.ammitto.org/ontology/lastName",
+      "@type": "rdf:Property",
+      "label": "Last Name",
+      "comment": "Family name",
+      "domain": "https://www.ammitto.org/ontology/Name",
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/firstName",
+      "@type": "rdf:Property",
+      "label": "First Name",
+      "comment": "Given name",
+      "domain": "https://www.ammitto.org/ontology/Name",
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/middleName",
+      "@type": "rdf:Property",
+      "label": "Middle Name",
+      "comment": "Middle name",
+      "domain": "https://www.ammitto.org/ontology/Name",
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
       "@id": "https://www.ammitto.org/ontology/isPrimary",
       "@type": "rdf:Property",
       "label": "Is Primary",
       "comment": "Is primary name",
       "domain": "https://www.ammitto.org/ontology/Name",
       "range": "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/script",
+      "@type": "rdf:Property",
+      "label": "Script",
+      "comment": "Writing script (ISO 15924)",
+      "domain": "https://www.ammitto.org/ontology/Name",
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/language",
+      "@type": "rdf:Property",
+      "label": "Language",
+      "comment": "Language (ISO 639-1)",
+      "domain": "https://www.ammitto.org/ontology/Name",
+      "range": "http://www.w3.org/2001/XMLSchema#string"
     },
     {
       "@id": "https://www.ammitto.org/ontology/street",
@@ -250,11 +451,27 @@
       "range": "http://www.w3.org/2001/XMLSchema#string"
     },
     {
-      "@id": "https://www.ammitto.org/ontology/type",
+      "@id": "https://www.ammitto.org/ontology/state",
       "@type": "rdf:Property",
-      "label": "Type",
-      "comment": "Type",
-      "domain": "https://www.ammitto.org/ontology/Identifier",
+      "label": "State",
+      "comment": "State or province",
+      "domain": "https://www.ammitto.org/ontology/Address",
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/postalCode",
+      "@type": "rdf:Property",
+      "label": "Postal Code",
+      "comment": "Postal/ZIP code",
+      "domain": "https://www.ammitto.org/ontology/Address",
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/careOf",
+      "@type": "rdf:Property",
+      "label": "Care Of",
+      "comment": "c/o address",
+      "domain": "https://www.ammitto.org/ontology/Address",
       "range": "http://www.w3.org/2001/XMLSchema#string"
     },
     {
@@ -264,6 +481,54 @@
       "comment": "Value",
       "domain": "https://www.ammitto.org/ontology/Identifier",
       "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/issuer",
+      "@type": "rdf:Property",
+      "label": "Issuer",
+      "comment": "Issuing authority",
+      "domain": "https://www.ammitto.org/ontology/Identifier",
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/issueDate",
+      "@type": "rdf:Property",
+      "label": "Issue Date",
+      "comment": "Date issued",
+      "domain": "https://www.ammitto.org/ontology/Identifier",
+      "range": "http://www.w3.org/2001/XMLSchema#date"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/expiryDate",
+      "@type": "rdf:Property",
+      "label": "Expiry Date",
+      "comment": "Expiry date",
+      "domain": "https://www.ammitto.org/ontology/Identifier",
+      "range": "http://www.w3.org/2001/XMLSchema#date"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/year",
+      "@type": "rdf:Property",
+      "label": "Year",
+      "comment": "Birth year",
+      "domain": "https://www.ammitto.org/ontology/BirthInfo",
+      "range": "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/place",
+      "@type": "rdf:Property",
+      "label": "Place",
+      "comment": "Birth place",
+      "domain": "https://www.ammitto.org/ontology/BirthInfo",
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/circa",
+      "@type": "rdf:Property",
+      "label": "Circa",
+      "comment": "Approximate date",
+      "domain": "https://www.ammitto.org/ontology/BirthInfo",
+      "range": "http://www.w3.org/2001/XMLSchema#boolean"
     }
   ]
 }
