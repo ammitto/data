@@ -10,6 +10,16 @@ on:
     paths:
       - '.github/workflows/harmonize.yml'
 
+# Serialize runs. Two concurrent runs would both commit to this repo and
+# both reconcile the outage issue below, and either race loses work. The
+# manual trigger makes overlap easy to cause by hand — five dispatches
+# inside half an hour is a real thing that has happened here. Queue
+# rather than cancel: a run that has already pushed should be allowed to
+# trigger the site deployment.
+concurrency:
+  group: harmonize-data
+  cancel-in-progress: false
+
 jobs:
   harmonize:
     name: Harmonize source data to JSON-LD
@@ -141,18 +151,37 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Harmonize data
+        id: harmonize
+        env:
+          HARMONIZE_LOG: ${{ runner.temp }}/harmonize.log
         run: |
           # Create output directory structure
           mkdir -p api/v1/sources
           mkdir -p api/v1/schema
 
-          # Harmonize all sources with combined output
-          ammitto harmonize --all --sources-dir ./sources --output-dir ./api/v1 --combine --verbose
+          # The log is kept outside the working tree on purpose: the
+          # commit step below runs `git add .` and would publish it.
+          # pipefail is what makes the `||` branch fire at all — without
+          # it the pipeline reports tee's status and a failed harmonize
+          # reads as green — and PIPESTATUS[0] is then the only place
+          # ammitto's own exit code survives.
+          set -o pipefail
+          status=0
+          ammitto harmonize --all --sources-dir ./sources --output-dir ./api/v1 --combine --verbose 2>&1 \
+            | tee "$HARMONIZE_LOG" || status=${PIPESTATUS[0]}
+          echo "exit_code=$status" >> "$GITHUB_OUTPUT"
+          exit "$status"
 
       - name: Generate stats
+        id: stats
         run: |
-          # Generate stats.json with entity counts
-          ammitto stats --output ./api/v1/stats.json --verbose || true
+          # Stats stays non-fatal — a missing stats.json must not hold
+          # back a data publish — so the code is recorded rather than
+          # discarded by the `|| true` this replaces, which left the
+          # report step no way to see the failure at all.
+          status=0
+          ammitto stats --output ./api/v1/stats.json --verbose || status=$?
+          echo "exit_code=$status" >> "$GITHUB_OUTPUT"
 
       - name: Check for changes
         id: check_changes
@@ -164,6 +193,7 @@ jobs:
           fi
 
       - name: Commit and push changes
+        id: push
         if: steps.check_changes.outputs.has_changes == 'true'
         run: |
           git config user.name "github-actions[bot]"
@@ -173,31 +203,638 @@ jobs:
           git push
 
       - name: Trigger website deployment
+        id: deploy
         if: steps.check_changes.outputs.has_changes == 'true'
         uses: actions/github-script@v7
         with:
           github-token: ${{ secrets.DEPLOY_TOKEN }}
           script: |
+            // Still non-fatal: the data is already pushed by this point
+            // and failing the job would not unpublish it. The outputs
+            // exist because this swallowed error is exactly the fault
+            // that let green runs publish data the site never rebuilt
+            // from — logging it was not enough for anyone to notice.
             try {
               await github.rest.actions.createWorkflowDispatch({
                 owner: 'ammitto',
                 repo: 'ammitto.github.io',
                 workflow_id: 'deploy.yml',
                 ref: 'main'
-              });
+              })
+              core.setOutput('ok', 'true')
             } catch (error) {
-              console.log('Could not trigger deployment: ' + error.message);
+              core.setOutput('ok', 'false')
+              core.setOutput('error', error.message)
+              core.warning('Could not trigger deployment: ' + error.message)
             }
 
-      - name: Create issue on failure
-        if: failure()
+      # One open issue carries the state of the current outage. Creating
+      # an issue per failing run buried the signal in its own duplicates,
+      # which is how a publishing outage lasting weeks went unnoticed.
+      # What replaces it has to answer what a single broken/not-broken
+      # bit could not: is this the same fault as yesterday, how long has
+      # it run, and what exactly is broken.
+      #
+      # `job.status` is not the input. Each stage reports its own
+      # outcome, because the deployment dispatch above deliberately
+      # swallows its error: a run can finish green having published data
+      # the site was never rebuilt from.
+      #
+      # Stage results arrive through env and are never spliced into the
+      # script as `${{ }}`, so no context value is evaluated as code.
+      - name: Report harmonization state
+        if: ${{ !cancelled() }}
         uses: actions/github-script@v7
+        env:
+          HARMONIZE_LOG: ${{ runner.temp }}/harmonize.log
+          HARMONIZE_OUTCOME: ${{ steps.harmonize.outcome }}
+          HARMONIZE_EXIT: ${{ steps.harmonize.outputs.exit_code }}
+          STATS_OUTCOME: ${{ steps.stats.outcome }}
+          STATS_EXIT: ${{ steps.stats.outputs.exit_code }}
+          PUSH_OUTCOME: ${{ steps.push.outcome }}
+          DEPLOY_OUTCOME: ${{ steps.deploy.outcome }}
+          DEPLOY_OK: ${{ steps.deploy.outputs.ok }}
+          DEPLOY_ERROR: ${{ steps.deploy.outputs.error }}
         with:
           script: |
-            github.rest.issues.create({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              title: 'Harmonization failed - ${{ github.run_id }}',
-              body: 'The harmonization workflow failed. See: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}',
-              labels: ['automation', 'harmonization']
+            const crypto = require('crypto')
+            const fs = require('fs')
+
+            // Identity is a body marker, not the title and not the
+            // label: a hand-renamed issue stays tracked, and the older
+            // untracked backlog carries the label without the marker so
+            // it can never be adopted, edited or closed from here.
+            const MARKER = '<!-- harmonization-outage:v1 -->'
+            const STATE_OPEN = '<!-- harmonization-outage-state'
+            const STATE_CLOSE = '-->'
+            const LABELS = ['automation', 'harmonization']
+
+            // State rides in the issue body rather than a repo file: a
+            // failure can happen before anything is committed, and
+            // operational state does not belong in the published
+            // dataset history.
+
+            // Three consecutive runs is where a flaky fetch stops being
+            // a plausible explanation. The first failure is still
+            // reported immediately — the original defect was
+            // duplication, not the existence of a first alert.
+            const RUN_THRESHOLD = 3
+            const DAY_THRESHOLDS = [7, 14, 21]
+
+            const MAX_ROWS = 40
+            const MAX_REASON = 300
+            const MAX_SEEN = 20
+
+            const { owner, repo } = context.repo
+            const now = new Date()
+            const nowIso = now.toISOString()
+            const runUrl =
+              `${context.serverUrl}/${owner}/${repo}/actions/runs/${context.runId}`
+
+            // A step the job never reached reports an empty outcome.
+            // That is not a failure and must not be counted as one.
+            const outcomeOf = (v) => (v === undefined || v === '' ? 'skipped' : v)
+            const exitOf = (v) => (v === undefined || v === '' ? null : Number(v))
+
+            const harmonizeExit = exitOf(process.env.HARMONIZE_EXIT)
+            const statsExit = exitOf(process.env.STATS_EXIT)
+            const deployOk = process.env.DEPLOY_OK
+            const deployError = process.env.DEPLOY_ERROR
+
+            const stages = [
+              {
+                id: 'harmonize',
+                name: 'Harmonize data',
+                outcome: outcomeOf(process.env.HARMONIZE_OUTCOME),
+                exit: harmonizeExit,
+                reason: `harmonize exited ${harmonizeExit === null ? 'unknown' : harmonizeExit}`,
+              },
+              {
+                id: 'stats',
+                name: 'Generate stats',
+                outcome: outcomeOf(process.env.STATS_OUTCOME),
+                exit: statsExit,
+                reason: `stats exited ${statsExit === null ? 'unknown' : statsExit}`,
+              },
+              {
+                id: 'push',
+                name: 'Commit and push changes',
+                outcome: outcomeOf(process.env.PUSH_OUTCOME),
+                exit: null,
+                reason: 'commit or push was rejected',
+              },
+              {
+                id: 'deploy',
+                name: 'Trigger website deployment',
+                outcome: outcomeOf(process.env.DEPLOY_OUTCOME),
+                exit: null,
+                reason: deployError || 'workflow dispatch did not happen',
+              },
+            ]
+
+            for (const stage of stages) {
+              // A recorded non-zero code counts even where the step was
+              // written to stay green; that is the only way the two
+              // error-swallowing stages are visible here at all.
+              stage.failed =
+                stage.outcome === 'failure' ||
+                (stage.exit !== null && stage.exit !== 0) ||
+                (stage.id === 'deploy' && deployOk === 'false')
+            }
+
+            const harmonizeStage = stages[0]
+            const failedStages = stages.filter((s) => s.failed)
+
+            function readLog() {
+              const path = process.env.HARMONIZE_LOG
+              if (!path) return ''
+              try {
+                return fs.readFileSync(path, 'utf8')
+              } catch (error) {
+                // No log means harmonize never got far enough to write
+                // one; the stage outcome still stands on its own.
+                return ''
+              }
+            }
+
+            function parseLog(text) {
+              const sources = []
+              let summary = ''
+              let inGate = false
+              for (const line of String(text).split(/\r?\n/)) {
+                if (/^\s*Harmonize health gate failed:/.test(line)) {
+                  inGate = true
+                  continue
+                }
+                const done = /^\s*Harmonize complete:\s*(.+?)\s*$/.exec(line)
+                if (done) {
+                  summary = done[1]
+                  inGate = false
+                  continue
+                }
+                if (!inGate) continue
+                const row = /^\s{2,}([^\s:][^:]*):\s*(\S.*?)\s*$/.exec(line)
+                if (row) {
+                  sources.push({ source: row[1].trim(), reason: row[2] })
+                  continue
+                }
+                if (line.trim() !== '') inGate = false
+              }
+              return { sources, summary }
+            }
+
+            function normalizeReason(text) {
+              return String(text)
+                .toLowerCase()
+                // URLs first, so a run id embedded in one is not
+                // rewritten twice into a different shape.
+                .replace(/https?:\/\/\S+/g, '{url}')
+                .replace(
+                  /\b\d{4}-\d{2}-\d{2}[t ]\d{2}:\d{2}:\d{2}(\.\d+)?(z|[+-]\d{2}:?\d{2})?/g,
+                  '{ts}',
+                )
+                .replace(/\b\d{4}-\d{2}-\d{2}\b/g, '{date}')
+                .replace(/(\/tmp|\/var\/folders|\/home\/runner\/work\/_temp)\/\S+/g, '{tmp}')
+                .replace(/\brun[ _-]?id\D{0,3}\d+/g, 'run_id {n}')
+                .replace(/\b\d{5,}\b/g, '{n}')
+                .replace(/\s+/g, ' ')
+                .trim()
+            }
+
+            // Two blips a week apart must not read as two different
+            // faults, and a blip must not read as a source going bad.
+            const TRANSIENT = [
+              ['{dns}', /getaddrinfo|eai_again|enotfound|name or service not known|dns/],
+              ['{rate_limit}', /rate.?limit|too many requests|\b429\b/],
+              ['{timeout}', /etimedout|timed out|timeout/],
+              ['{conn_reset}', /econnreset|connection reset|socket hang up|epipe|connection closed/],
+              [
+                '{http_5xx}',
+                /http\D{0,10}5\d\d\b|status\D{0,10}5\d\d\b|internal server error|bad gateway|service unavailable|gateway time/,
+              ],
+            ]
+
+            function bucketReason(normalized) {
+              for (const [token, pattern] of TRANSIENT) {
+                if (pattern.test(normalized)) return token
+              }
+              return normalized
+            }
+
+            function classifyFamily(reason) {
+              if (reason === '{dns}') return 'network-dns'
+              if (reason === '{timeout}') return 'network-timeout'
+              if (reason === '{conn_reset}') return 'network-reset'
+              if (reason === '{http_5xx}') return 'network-http-5xx'
+              if (reason === '{rate_limit}') return 'rate-limit'
+              if (/no input directory|no such file|does not exist|missing/.test(reason)) {
+                return 'missing-input'
+              }
+              if (/no yaml files|health gate|no entities|empty/.test(reason)) {
+                return 'health-gate'
+              }
+              if (/invalid|malformed|parse|unexpected|schema/.test(reason)) {
+                return 'content-invalid'
+              }
+              return 'generic'
+            }
+
+            function toEntry(source, reason) {
+              const normalized = bucketReason(normalizeReason(reason))
+              return {
+                source,
+                reason: String(reason),
+                normalized,
+                family: classifyFamily(normalized),
+              }
+            }
+
+            const parsed = parseLog(readLog())
+            const entries = []
+            // The per-source block is evidence only when the gate
+            // actually tripped: a run that exits zero with exempted
+            // sources published fine and is not an outage.
+            if (harmonizeStage.failed) {
+              for (const s of parsed.sources) entries.push(toEntry(s.source, s.reason))
+            }
+            for (const stage of failedStages) {
+              if (stage.id === 'harmonize' && entries.length > 0) continue
+              entries.push(toEntry(stage.id, stage.reason))
+            }
+
+            // The counts describe the harmonize fault, so they belong in
+            // the fingerprint only when harmonize is what failed.
+            // Otherwise a green run publishing one source fewer than
+            // yesterday would move the signature of an unrelated push or
+            // deploy fault, and report it as having changed shape.
+            const summaryKey =
+              harmonizeStage.failed && parsed.summary
+                ? normalizeReason(parsed.summary)
+                : ''
+            const stageKey = failedStages.map((s) => s.id).sort().join('+')
+            const rows = entries
+              .map((e) => `${e.source}|${e.family}|${e.normalized}`)
+              .sort()
+            const signature = crypto
+              .createHash('sha256')
+              .update(['v1', stageKey, summaryKey].concat(rows).join('\n'))
+              .digest('hex')
+
+            // Deliberately not narrowed by label. The marker is the
+            // identity, so the lookup must not depend on something a
+            // person can remove from the issue: stripping the label
+            // would hide the tracker, and the next failing run would
+            // open a second one while the first stayed open forever.
+            // Listing every open issue costs a few extra pages a day.
+            const openIssues = await github.paginate(github.rest.issues.listForRepo, {
+              owner,
+              repo,
+              state: 'open',
+              per_page: 100,
             })
+            // listForRepo returns pull requests as well, and a PR that
+            // quotes the marker would otherwise be reconciled as if it
+            // were the tracking issue.
+            //
+            // The marker must LEAD the body, not merely appear in it.
+            // This step always writes it first, so anything quoting the
+            // marker further down — a person reporting on the tracker, or
+            // pasting its body into a discussion — is someone else's
+            // issue, and this step would otherwise rewrite and close it.
+            const tracked = openIssues
+              .filter(
+                (i) =>
+                  !i.pull_request &&
+                  String(i.body || '').trimStart().startsWith(MARKER),
+              )
+              .sort((a, b) => a.number - b.number)[0]
+
+            // Valid JSON is not the same as usable state. A body is
+            // editable by hand, and a number where a string belongs used
+            // to reach `.slice()` and abort the whole report — losing the
+            // update for a run that was actively failing. Every field is
+            // coerced to its expected type or dropped.
+            function sanitizeState(raw) {
+              if (!raw || typeof raw !== 'object' || Array.isArray(raw)) return null
+              const str = (v) => (typeof v === 'string' && v !== '' ? v : null)
+              const iso = (v) =>
+                str(v) && Number.isFinite(Date.parse(v)) ? v : null
+              const strings = (v) =>
+                Array.isArray(v) ? v.filter((x) => typeof x === 'string') : []
+              return {
+                outage_started_at: iso(raw.outage_started_at),
+                last_seen_at: iso(raw.last_seen_at),
+                last_success_at: iso(raw.last_success_at),
+                consecutive_failures:
+                  Number.isInteger(raw.consecutive_failures) &&
+                  raw.consecutive_failures >= 0
+                    ? raw.consecutive_failures
+                    : 0,
+                current_signature: str(raw.current_signature),
+                seen_signatures: strings(raw.seen_signatures),
+                announced_thresholds: strings(raw.announced_thresholds),
+              }
+            }
+
+            function readState(body) {
+              const text = String(body || '')
+              // Last, not first: the state block is always written last,
+              // and a failing source's reason is quoted verbatim in the
+              // table above it. A reason containing the opener would
+              // otherwise be parsed as the state, and the bookkeeping
+              // would restart every run — an outage that never escalates.
+              const start = text.lastIndexOf(STATE_OPEN)
+              if (start === -1) return null
+              const from = start + STATE_OPEN.length
+              const end = text.indexOf(STATE_CLOSE, from)
+              if (end === -1) return null
+              try {
+                return sanitizeState(JSON.parse(text.slice(from, end)))
+              } catch (error) {
+                // A hand-edited body must not take the reporter down
+                // with it; the bookkeeping restarts instead.
+                core.warning('Tracked state block is unreadable; restarting it.')
+                return null
+              }
+            }
+
+            function daysBetween(fromIso, toIso) {
+              const from = new Date(fromIso).getTime()
+              const to = new Date(toIso).getTime()
+              if (!Number.isFinite(from) || !Number.isFinite(to)) return 0
+              return Math.max(0, Math.floor((to - from) / 86400000))
+            }
+
+            function cell(text) {
+              return String(text)
+                .replace(/\r?\n/g, ' ')
+                .replace(/\|/g, '\\|')
+                .slice(0, MAX_REASON)
+            }
+
+            function plural(n, word) {
+              return `${n} ${word}${n === 1 ? '' : 's'}`
+            }
+
+            function stateBlock(state) {
+              return [STATE_OPEN, JSON.stringify(state, null, 2), STATE_CLOSE].join('\n')
+            }
+
+            function stageTable() {
+              return ['| Stage | Outcome |', '| --- | --- |'].concat(
+                stages.map((s) => `| ${s.name} | ${s.failed ? 'failed' : s.outcome} |`),
+              )
+            }
+
+            // When the state block is gone the outage is not new, and
+            // dating it from now would restart the escalation clock and
+            // hide how long this has really been broken. The issue's own
+            // creation time is the outage's true lower bound, and it
+            // cannot be edited away in the body.
+            //
+            // The earliest surviving candidate wins, and anything in the
+            // future is discarded. The issue was opened on the first
+            // failing run, so a stored date later than the issue is
+            // wrong; a future one would hold every day-based escalation
+            // back until the clock caught up, which is the single edit
+            // that could quietly mute a real outage for weeks. Erring
+            // early only ever escalates sooner.
+            function outageStart(prev) {
+              const candidates = [
+                prev && prev.outage_started_at,
+                tracked && tracked.created_at,
+              ]
+              let earliest = null
+              for (const candidate of candidates) {
+                if (typeof candidate !== 'string') continue
+                const at = Date.parse(candidate)
+                if (!Number.isFinite(at) || at > now.getTime()) continue
+                if (earliest === null || at < Date.parse(earliest)) {
+                  earliest = candidate
+                }
+              }
+              return earliest || nowIso
+            }
+
+            if (failedStages.length === 0) {
+              if (!tracked) {
+                core.info('Nothing failing and no tracked outage; nothing to do.')
+                return
+              }
+              const prev = readState(tracked.body) || {}
+              const started = outageStart(prev)
+              const failedRuns = prev.consecutive_failures || 0
+              const recoveredState = {
+                outage_started_at: started,
+                last_seen_at: nowIso,
+                last_success_at: nowIso,
+                consecutive_failures: 0,
+                current_signature: null,
+                seen_signatures: prev.seen_signatures || [],
+                announced_thresholds: prev.announced_thresholds || [],
+              }
+              await github.rest.issues.createComment({
+                owner,
+                repo,
+                issue_number: tracked.number,
+                body: [
+                  `Recovered. Harmonization succeeded at ${nowIso}.`,
+                  '',
+                  `- Outage ran from ${started}: ` +
+                    `${plural(daysBetween(started, nowIso), 'day')}, ` +
+                    `${plural(failedRuns, 'failing run')}.`,
+                  `- Run: ${runUrl}`,
+                ].join('\n'),
+              })
+              await github.rest.issues.update({
+                owner,
+                repo,
+                issue_number: tracked.number,
+                title:
+                  `Harmonization recovered on ${nowIso.slice(0, 10)} ` +
+                  `(failing since ${started.slice(0, 10)})`,
+                body: [MARKER, '', `Recovered at ${nowIso}. Latest run: ${runUrl}`, '']
+                  .concat(stageTable())
+                  .concat(['', stateBlock(recoveredState)])
+                  .join('\n'),
+                state: 'closed',
+                state_reason: 'completed',
+              })
+              return
+            }
+
+            const prev = tracked ? readState(tracked.body) : null
+            const previousSignature =
+              prev && prev.current_signature ? prev.current_signature : null
+            const seen =
+              prev && Array.isArray(prev.seen_signatures) ? prev.seen_signatures : []
+            const changed = Boolean(previousSignature && previousSignature !== signature)
+            // seen_signatures is what separates a brand new fault from
+            // one that already came and went inside this outage.
+            const recurring = changed && seen.includes(signature)
+
+            const state = {
+              outage_started_at: outageStart(prev),
+              last_seen_at: nowIso,
+              last_success_at: (prev && prev.last_success_at) || null,
+              consecutive_failures: ((prev && prev.consecutive_failures) || 0) + 1,
+              current_signature: signature,
+              seen_signatures: seen
+                .concat(seen.includes(signature) ? [] : [signature])
+                .slice(-MAX_SEEN),
+              announced_thresholds: (prev && prev.announced_thresholds) || [],
+            }
+
+            const failingRuns = state.consecutive_failures
+            const elapsedDays = daysBetween(state.outage_started_at, nowIso)
+
+            const due = []
+            if (failingRuns >= RUN_THRESHOLD) due.push(`runs:${RUN_THRESHOLD}`)
+            for (const d of DAY_THRESHOLDS) {
+              if (elapsedDays >= d) due.push(`days:${d}`)
+            }
+            // A fault that changes shape is still the same unresolved
+            // outage, so the clock is never restarted: a rotating fault
+            // would otherwise escalate to nothing, forever.
+            // `announced_thresholds` is not updated here — it is written
+            // below, once the escalation comment has actually landed.
+            const crossed = due.filter((k) => !state.announced_thresholds.includes(k))
+
+            // A static title is ignorable, and the title is read far
+            // more often than the body is opened.
+            const title =
+              `Harmonization failing since ${state.outage_started_at.slice(0, 10)} ` +
+              `(${plural(failingRuns, 'consecutive run')})`
+
+            // Rendered from `state` on each call rather than built once,
+            // because the state block is written again after an
+            // escalation is announced.
+            function renderBody() {
+              // The success date is printed only when it is actually
+              // known. A success closes this issue, so an open one
+              // carries none, and a line saying so reads as "this has
+              // never worked" — untrue, and the opposite of urgent. The
+              // date the outage started is the fact worth having, and it
+              // heads the body already.
+              const facts = [
+                `- Latest run: ${runUrl}`,
+                `- Last checked: ${state.last_seen_at}`,
+                state.last_success_at
+                  ? `- Last recorded success: ${state.last_success_at}`
+                  : null,
+                `- Fault signature: \`${signature.slice(0, 12)}\`` +
+                  (changed
+                    ? ` (changed this run, was \`${previousSignature.slice(0, 12)}\`)`
+                    : ''),
+              ].filter(Boolean)
+
+              const lines = [
+                MARKER,
+                '',
+                `Failing since **${state.outage_started_at.slice(0, 10)}** — ` +
+                  `${plural(failingRuns, 'consecutive run')}, ` +
+                  `${plural(elapsedDays, 'day')}.`,
+                '',
+              ].concat(facts, ['', '## Stages', ''], stageTable(), [''])
+
+              if (parsed.summary) {
+                lines.push(`Harmonize summary: ${cell(parsed.summary)}`, '')
+              }
+
+              // The failing sources belong here. Opening the workflow log
+              // was the only way to learn any of this.
+              lines.push(
+                '## What is failing',
+                '',
+                '| Source | Family | Reason |',
+                '| --- | --- | --- |',
+              )
+              for (const e of entries.slice(0, MAX_ROWS)) {
+                lines.push(`| \`${cell(e.source)}\` | ${e.family} | ${cell(e.reason)} |`)
+              }
+              if (entries.length > MAX_ROWS) {
+                lines.push(
+                  `| (truncated) | | ${entries.length - MAX_ROWS} more, see the run log |`,
+                )
+              }
+              lines.push(
+                '',
+                'This issue is the single tracker for the current outage: it is',
+                'updated in place while the fault persists and closed on the first',
+                'run that succeeds.',
+                '',
+                stateBlock(state),
+              )
+              return lines.join('\n')
+            }
+
+            let issueNumber
+            if (tracked) {
+              issueNumber = tracked.number
+              await github.rest.issues.update({
+                owner,
+                repo,
+                issue_number: issueNumber,
+                title,
+                body: renderBody(),
+              })
+              if (changed) {
+                await github.rest.issues.createComment({
+                  owner,
+                  repo,
+                  issue_number: issueNumber,
+                  body: [
+                    recurring
+                      ? 'The fault changed: a failure already seen during this outage is back.'
+                      : 'The fault changed: this is a different failure from the one reported above.',
+                    '',
+                    `- Previous signature: \`${previousSignature.slice(0, 12)}\``,
+                    `- Current signature: \`${signature.slice(0, 12)}\``,
+                    `- Failing now: ${entries.map((e) => e.source).join(', ')}`,
+                    `- Run: ${runUrl}`,
+                  ].join('\n'),
+                })
+              }
+            } else {
+              const created = await github.rest.issues.create({
+                owner,
+                repo,
+                title,
+                body: renderBody(),
+                labels: LABELS,
+              })
+              issueNumber = created.data.number
+            }
+
+            if (crossed.length > 0) {
+              const describe = (key) =>
+                key.startsWith('runs:')
+                  ? plural(Number(key.slice(5)), 'consecutive failing run')
+                  : `${plural(Number(key.slice(5)), 'day')} unresolved`
+              await github.rest.issues.createComment({
+                owner,
+                repo,
+                issue_number: issueNumber,
+                body: [
+                  `Escalating: ${crossed.map(describe).join(', ')}.`,
+                  '',
+                  `Harmonization has now failed ${plural(failingRuns, 'consecutive run')} ` +
+                    `since ${state.outage_started_at} (${plural(elapsedDays, 'day')}).`,
+                  `Latest run: ${runUrl}`,
+                ].join('\n'),
+              })
+              // Recorded only now that the comment exists. Marking the
+              // threshold before posting means an API failure here
+              // retires the escalation without anyone having seen it,
+              // and it can never fire again. This way the worst case is
+              // a repeated escalation on the next run, which is noise
+              // rather than silence.
+              state.announced_thresholds =
+                state.announced_thresholds.concat(crossed)
+              await github.rest.issues.update({
+                owner,
+                repo,
+                issue_number: issueNumber,
+                body: renderBody(),
+              })
+            }
