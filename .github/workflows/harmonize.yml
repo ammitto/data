@@ -486,10 +486,10 @@ jobs:
             // would hide the tracker, and the next failing run would
             // open a second one while the first stayed open forever.
             // Listing every open issue costs a few extra pages a day.
-            const openIssues = await github.paginate(github.rest.issues.listForRepo, {
+            const allIssues = await github.paginate(github.rest.issues.listForRepo, {
               owner,
               repo,
-              state: 'open',
+              state: 'all',
               per_page: 100,
             })
             // listForRepo returns pull requests as well, and a PR that
@@ -501,13 +501,25 @@ jobs:
             // marker further down — a person reporting on the tracker, or
             // pasting its body into a discussion — is someone else's
             // issue, and this step would otherwise rewrite and close it.
-            const tracked = openIssues
+            const marked = allIssues
               .filter(
                 (i) =>
                   !i.pull_request &&
                   String(i.body || '').trimStart().startsWith(MARKER),
               )
-              .sort((a, b) => a.number - b.number)[0]
+              .sort((a, b) => a.number - b.number)
+
+            const tracked = marked.filter((i) => i.state === 'open')[0]
+
+            // A closed tracker is not reopened. Closing is a deliberate
+            // act — either this step's own recovery, or a person saying
+            // they have seen it — and reopening would mean neither could
+            // ever dismiss it. A fresh outage gets a fresh issue, but it
+            // cites the last one so the history stays walkable rather
+            // than fragmenting into unrelated reports.
+            const predecessor = tracked
+              ? null
+              : marked.filter((i) => i.state === 'closed').slice(-1)[0]
 
             // Valid JSON is not the same as usable state. A body is
             // editable by hand, and a number where a string belongs used
@@ -800,7 +812,9 @@ jobs:
                 owner,
                 repo,
                 title,
-                body: renderBody(),
+                body: predecessor
+                  ? `${renderBody()}\n\nPrevious report: #${predecessor.number}.`
+                  : renderBody(),
                 labels: LABELS,
               })
               issueNumber = created.data.number
