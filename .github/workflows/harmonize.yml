@@ -167,7 +167,29 @@ jobs:
           # ammitto's own exit code survives.
           set -o pipefail
           status=0
-          ammitto harmonize --all --sources-dir ./sources --output-dir ./api/v1 --combine --verbose 2>&1 \
+          #
+          # ru is named in --allow-empty because it reaches the gate with
+          # no entity YAML to read, which is a source-level error, and the
+          # gate exits nonzero on it. Every step below is then skipped: a
+          # step's `if:` carries an implicit success() unless it spells
+          # out always(), failure() or cancelled(), so the has_changes
+          # conditions on the commit and the deployment dispatch narrow
+          # when those steps run but cannot make them run after a failure.
+          # One source with nothing to contribute therefore withholds the
+          # publish from every source that does.
+          #
+          # Read the exemption as broad, not surgical: for a named code it
+          # also clears the zero-entity, missing-aggregate and
+          # quality-floor gates, so a regression there will not be caught.
+          # Per-file transform errors are never exempt, for any code. ru's
+          # stale aggregate under api/v1/sources also stops being
+          # rewritten and keeps whatever it last held.
+          #
+          # un_vessels was named here too until data-un-vessels#5 landed;
+          # its fetch output is tracked now, so it no longer needs
+          # excusing. Drop ru the same way, the moment it has input.
+          ammitto harmonize --all --sources-dir ./sources --output-dir ./api/v1 --combine --verbose \
+            --allow-empty ru 2>&1 \
             | tee "$HARMONIZE_LOG" || status=${PIPESTATUS[0]}
           echo "exit_code=$status" >> "$GITHUB_OUTPUT"
           exit "$status"
