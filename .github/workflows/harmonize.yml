@@ -248,7 +248,15 @@ jobs:
                 ref: 'main'
               });
             } catch (error) {
-              console.log('Could not trigger deployment: ' + error.message);
+              // Fails the step rather than logging and carrying on. The
+              // empty-token case above is caught by the action before
+              // this script runs, but a token that is present and
+              // expired, revoked or under-scoped raises HERE, and
+              // console.log left the run green: the data was published
+              // and the site was never rebuilt, with nothing saying so.
+              // Failing hands it to the issue step below, which is the
+              // only thing that tells anyone.
+              core.setFailed('Could not trigger deployment: ' + error.message);
             }
 
       - name: Create issue on failure
