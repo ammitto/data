@@ -146,8 +146,45 @@ jobs:
           mkdir -p api/v1/sources
           mkdir -p api/v1/schema
 
-          # Harmonize all sources with combined output
-          ammitto harmonize --all --sources-dir ./sources --output-dir ./api/v1 --combine --verbose
+          # ru is named in --allow-empty because it reaches the gate
+          # with no entity YAML to read, which is a source-level error,
+          # and the gate exits nonzero on it. Every step below is then
+          # skipped: a step's `if:` carries an implicit success() unless
+          # it spells out always(), failure() or cancelled(), so the
+          # has_changes conditions on the commit and the deployment
+          # dispatch narrow when those steps run but cannot make them run
+          # after a failure. One source with nothing to contribute
+          # therefore withholds the publish from every source that does,
+          # which is what has held this repository at the 2026-07-22
+          # commit.
+          #
+          # Read the exemption as broad, not surgical: for a named code
+          # it also clears the zero-entity, missing-aggregate and
+          # quality-floor gates, so a regression there will not be
+          # caught. Per-file transform errors are never exempt, for any
+          # code.
+          #
+          # The consequence worth naming: ru's per-source endpoint,
+          # api/v1/sources/ru.jsonld, stops being rewritten and keeps
+          # SERVING whatever it last held while the rest of the publish
+          # resumes around it. The exporter writes that file only when a
+          # source produced entities, and the client treats its presence
+          # as "this source exists" -- so ru reads as a healthy published
+          # source carrying July data, and grows relatively staler every
+          # day the others update. all.jsonld, search-index.json and
+          # stats.json are rebuilt from the current run and carry no ru
+          # rows, so the staleness is confined to that one endpoint.
+          # Accepted here because the alternative is publishing nothing
+          # at all; removing or suppressing the stale aggregate is its
+          # own change.
+          #
+          # un_vessels tripped the same gate until this morning and is
+          # deliberately not named: data-un-vessels#5 stopped .gitignore
+          # excluding its processed/ output, and the 06:21 fetch on
+          # 2026-08-19 committed 60 vessel files, so it clears the gate
+          # on its own. Drop ru the same way, the moment it has input.
+          ammitto harmonize --all --sources-dir ./sources --output-dir ./api/v1 --combine --verbose \
+            --allow-empty ru
 
       - name: Generate stats
         run: |
