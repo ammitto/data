@@ -100,7 +100,11 @@ issues '[]'
 report "$WORK/report.json" true
 out="$(run)"
 check 'silent when healthy and untracked' 'nothing to announce' "$out"
-check 'writes nothing' '' "$(grep -c 'issue create' "$WORK/calls" || true)0"
+# Counted, not substring-matched: check() passes when the actual string
+# CONTAINS the expected one, so an empty expectation passes against
+# anything and this assertion could never fail.
+check 'writes nothing' 'writes=0' \
+  "writes=$(grep -cE 'issue (create|comment|edit|close)' "$WORK/calls" || true)"
 
 # The same fault tomorrow says nothing: this is what stops 321 duplicates.
 issues "$(tracked_issue 'ru: No YAML files found')"
