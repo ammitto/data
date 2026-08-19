@@ -134,6 +134,9 @@ issues "$(tracked_issue 'ru: No YAML files found')"
 report "$WORK/report.json" true
 out="$(run)"
 check 'closes on recovery' 'commented and closed #400' "$out"
+# Asserted separately from the summary line, which would keep saying
+# "commented and closed" after the comment call was removed.
+check 'comments before closing' 'issue comment 400' "$(cat "$WORK/calls")"
 check 'actually closes' 'issue close 400' "$(cat "$WORK/calls")"
 
 # The 321 legacy issues carry the labels but no marker. Adopting one would
@@ -166,6 +169,13 @@ check 'carries the marker first' '<!-- harmonization-outage:v1 -->' \
   "$(head -n 1 "$WORK/last_body")"
 check 'carries the signature' 'harmonization-outage-signature: ru: transform' \
   "$(cat "$WORK/last_body")"
+
+# A failing run naming no source is a broken producer, and must not be
+# mistaken for the same outage as yesterday.
+issues "$(tracked_issue '')"
+report "$WORK/report.json" false
+out="$(run)"
+check 'refuses a failing report with no failures' 'lists no gate_failures' "$out"
 
 # A missing report is a broken caller, not a healthy run.
 rm -f "$WORK/report.json"

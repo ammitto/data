@@ -83,6 +83,14 @@ if [ "$gates_passed" = "true" ]; then
   signature='healthy'
 else
   signature="$(printf '%s' "$failures" | tr '\n' ';' | sed 's/;$//')"
+  # A failing run that names no source means the producer changed shape or
+  # broke. Refusing is the point: an empty signature compares equal to the
+  # empty one already stored, so the unchanged path below would read it as
+  # "same outage as yesterday" and say nothing at all.
+  [ -n "$signature" ] || {
+    echo "report says the gates failed but lists no gate_failures" >&2
+    exit 65
+  }
 fi
 
 # Every open issue is fetched rather than searched: the marker lives in an
