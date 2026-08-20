@@ -213,7 +213,32 @@ jobs:
         if: steps.check_changes.outputs.has_changes == 'true'
         uses: actions/github-script@v7
         with:
-          github-token: ${{ secrets.DEPLOY_TOKEN }}
+          # AMMITTO_CI_PAT_TOKEN, not DEPLOY_TOKEN: no secret of the
+          # latter name exists. This repository has no repository-level
+          # secrets at all, and the organization secrets visible to it
+          # are AMMITTO_CI_PAT_TOKEN and AMMITTO_CI_RUBYGEMS_API_KEY --
+          # both checkable by name through the Actions secrets API,
+          # which returns names and never values. An undefined secret
+          # resolves to an empty string, and an explicitly empty input
+          # suppresses github-script's own default, so its
+          # core.getInput('github-token', {required: true}) raises
+          # "Input required and not supplied" before the script below is
+          # evaluated. The step does fail and the action's own handler
+          # logs it; what is missing is any connection to what this step
+          # is for. The message names an absent input, not a site that
+          # was never rebuilt, and the try/catch further down — which is
+          # inside the script — never sees it.
+          #
+          # Six sibling repos dispatch across repositories: data-uk,
+          # data-tr, data-jp, data-nz, data-eu-vessels and
+          # data-un-vessels. Every one of them names the secret this
+          # way, and this workflow was the seventh dispatcher and the
+          # only one still on DEPLOY_TOKEN. That is a census, not a
+          # recollection, and it is repeatable: grep every workflow in
+          # every ammitto repo for createWorkflowDispatch and read the
+          # secrets.* it references. Re-run it before trusting the
+          # count; a repo added since will not be in it.
+          github-token: ${{ secrets.AMMITTO_CI_PAT_TOKEN }}
           script: |
             try {
               await github.rest.actions.createWorkflowDispatch({
