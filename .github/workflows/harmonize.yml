@@ -268,8 +268,16 @@ jobs:
               // expired, revoked or under-scoped raises HERE, and
               // console.log left the run green: the data was published
               // and the site was never rebuilt, with nothing saying so.
-              // Failing hands it to the issue step below, which is the
-              // only thing that tells anyone.
+              // Failing makes the run red, and that is the whole signal.
+              //
+              // It deliberately does NOT reach the reconciler below.
+              // That step tracks the harmonization outage and keys on
+              // the report harmonize wrote, so a run whose sources were
+              // all healthy reads as healthy there however the dispatch
+              // went. A dispatch that never fired is a different fault
+              // from a source that produced nothing, and folding the
+              // two onto one issue is what the reconciler exists to
+              // stop.
               core.setFailed('Could not trigger deployment: ' + error.message);
             }
 
