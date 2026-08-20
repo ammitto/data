@@ -23,6 +23,14 @@ jobs:
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      # Offline fixture proof of the reconciler's state machine, ahead of
+      # the work, because a reconciler that silently stopped recognising
+      # its own issue would go quiet rather than fail. Costs under a
+      # second and makes no API call.
+      - name: Self-test the outage reconciler
+        id: reconciler_selftest
+        run: .github/scripts/harmonize_issue_test.sh
+
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
@@ -183,8 +191,14 @@ jobs:
           # excluding its processed/ output, and the 06:21 fetch on
           # 2026-08-19 committed 60 vessel files, so it clears the gate
           # on its own. Drop ru the same way, the moment it has input.
-          ammitto harmonize --all --sources-dir ./sources --output-dir ./api/v1 --combine --verbose \
-            --allow-empty ru
+          #
+          # The report is written outside the working tree on purpose:
+          # the commit step below runs `git add .` and would publish it.
+          # It is written even when the gates fail, which is the run the
+          # reconciler below needs it for.
+          ammitto harmonize --all --sources-dir ./sources --output-dir ./api/v1 \
+            --combine --verbose --allow-empty ru \
+            --report "$RUNNER_TEMP/harmonize-report.json"
 
       - name: Generate stats
         run: |
@@ -254,20 +268,32 @@ jobs:
               // expired, revoked or under-scoped raises HERE, and
               // console.log left the run green: the data was published
               // and the site was never rebuilt, with nothing saying so.
-              // Failing hands it to the issue step below, which is the
-              // only thing that tells anyone.
+              // Failing makes the run red, and that is the whole signal.
+              //
+              // It deliberately does NOT reach the reconciler below.
+              // That step tracks the harmonization outage and keys on
+              // the report harmonize wrote, so a run whose sources were
+              // all healthy reads as healthy there however the dispatch
+              // went. A dispatch that never fired is a different fault
+              // from a source that produced nothing, and folding the
+              // two onto one issue is what the reconciler exists to
+              // stop.
               core.setFailed('Could not trigger deployment: ' + error.message);
             }
 
-      - name: Create issue on failure
-        if: failure()
-        uses: actions/github-script@v7
-        with:
-          script: |
-            github.rest.issues.create({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              title: 'Harmonization failed - ${{ github.run_id }}',
-              body: 'The harmonization workflow failed. See: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}',
-              labels: ['automation', 'harmonization']
-            })
+      # One open issue carries the state of the current outage, updated in
+      # place and closed on recovery. The step this replaces created one
+      # per failing run, which is how 321 open issues accumulated and
+      # buried the outage they were reporting.
+      #
+      # `job.status` is not the input: the reconciler reads the JSON report
+      # harmonize wrote, so it can say which sources failed and why rather
+      # than only that something did.
+      - name: Reconcile the harmonization outage issue
+        if: ${{ !cancelled() && steps.reconciler_selftest.outcome == 'success' }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          .github/scripts/harmonize_issue.sh \
+            "$RUNNER_TEMP/harmonize-report.json" \
+            "$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
