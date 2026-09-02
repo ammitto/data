@@ -23,6 +23,14 @@ jobs:
   harmonize:
     name: Harmonize source data to JSON-LD
     runs-on: ubuntu-latest
+    # `workflow_dispatch` lets anyone with write access pick a branch, and
+    # checkout follows the triggering ref. The release tag, the outage issue
+    # and the push are all repository-wide, so a run from a side branch would
+    # overwrite production output with that branch's build. The whole job is
+    # gated rather than the individual steps: harmonizing is harmless, but
+    # there is no reason to spend twenty minutes producing something that must
+    # not be published.
+    if: github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
     permissions:
       contents: write
       issues: write
@@ -214,6 +222,19 @@ jobs:
           # Generate stats.json with entity counts
           ammitto stats --output ./api/v1/stats.json --verbose || true
 
+      # A producer regression that emitted no catalogue, or only one of the
+      # two aggregates, used to reach `Check for changes`, find nothing
+      # git-visible, and finish green having published nothing. The gem is
+      # installed from moving `main`, so that is a live path, not a
+      # hypothetical. Assert what --combine must have produced before any
+      # later step is allowed to decide there is nothing to do.
+      - name: Check harmonize produced what it must
+        run: |
+          set -euo pipefail
+          for f in api/v1/index.jsonld api/v1/all.jsonld api/v1/all.ttl; do
+            test -s "$f" || { echo "::error::harmonize produced no $f"; exit 1; }
+          done
+
       # index.jsonld is the machine-readable catalogue: a consumer reads it
       # to find out what this API publishes and where. The gem builds it
       # from what exists on disk after the export, and --combine leaves
@@ -285,29 +306,76 @@ jobs:
             echo "has_changes=true" >> "$GITHUB_OUTPUT"
           fi
 
-      # The aggregates go to a release, not to git. Ronald ruled on
-      # 2026-09-01 that all.jsonld is not a contract and that files this
-      # large belong in GitHub releases. They are still produced above by
-      # --combine; .gitignore keeps `git add .` from staging them, and this
-      # step publishes them where GitHub's 100 MB push limit does not apply.
+      # ORDER: validate, size-gate and COMMIT LOCALLY first, then upload the
+      # assets, then push. An earlier revision uploaded first, reasoning that
+      # the committed catalogue points at the assets so committing first opens
+      # a 404 window. It does not: a local commit is not public. Uploading
+      # first meant a tracked file over the size gate published both assets and
+      # only then refused the commit, leaving the release ahead of the tree
+      # with no way back.
+      - name: Stage and commit the harmonized output
+        if: steps.check_changes.outputs.has_changes == 'true'
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # This repository published nothing between 2026-08-20 and
+          # 2026-09-01 because harmonize succeeded, the push was refused on a
+          # file over 100 MB, and nothing said which file. Name it, and fail
+          # before anything is published. 90 MB leaves room to act on a file
+          # that is still growing.
+          #
+          # The list is built with a checked command into a file rather than
+          # read from a process substitution: `set -e` does not see a failing
+          # producer on the right of `<`, so a broken `git ls-files` would have
+          # left the loop with nothing to read and the gate passing empty.
+          #
+          # NUL-delimited so a pathname containing a space or a newline is one
+          # record and is printed whole. `git ls-files -c` also lists tracked
+          # paths already deleted from disk, which have no size to stat, so
+          # skip what is not there: `git add .` stages their deletion.
+          git ls-files -co --exclude-standard -z > "$RUNNER_TEMP/staged.nul"
+
+          limit=$((90 * 1024 * 1024))
+          oversize=""
+          while IFS= read -r -d '' path; do
+            [ -f "$path" ] || continue
+            size=$(stat -c '%s' -- "$path")
+            [ "$size" -gt "$limit" ] || continue
+            oversize="${oversize}  ${path} ($((size / 1048576)) MB)"$'\n'
+          done < "$RUNNER_TEMP/staged.nul"
+
+          if [ -n "$oversize" ]; then
+            echo "refusing to commit: GitHub rejects a push carrying a file over 100 MB" >&2
+            printf '%s' "$oversize" >&2
+            echo "send it to the release instead, as api/v1/all.jsonld is" >&2
+            exit 1
+          fi
+
+          git add .
+          git commit -m "chore: harmonize sanctions data ($(date +%Y-%m-%d))"
+
+      # The aggregates go to a release, not to git. Ronald ruled on 2026-09-01
+      # that all.jsonld is not a contract and that files this large belong in
+      # GitHub releases. They are still produced above by --combine;
+      # .gitignore keeps `git add .` from staging them, and this step publishes
+      # them where GitHub's 100 MB push limit does not apply.
       #
-      # One rolling tag rather than one release per day: the harvest runs
-      # daily and 149 MB of assets per day is not worth keeping. `--clobber`
-      # replaces the assets in place, so the download URL is stable and a
-      # consumer can hardcode it.
+      # One rolling tag rather than one release per day: the harvest runs daily
+      # and 149 MB of assets per day is not worth keeping. `--clobber` replaces
+      # the assets in place, so the download URL is stable.
       - name: Publish the aggregates as release assets
         if: steps.check_changes.outputs.has_changes == 'true'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           set -euo pipefail
-          test -s api/v1/all.jsonld || { echo "all.jsonld missing or empty"; exit 1; }
-          test -s api/v1/all.ttl    || { echo "all.ttl missing or empty"; exit 1; }
 
-          # `gh release view || gh release create` would read an expired
-          # token, a rate limit or a network fault as "no release yet" and
-          # answer it by trying to create one. That fails closed, but it
-          # reports the wrong cause. Only a genuine absence may create.
+          # `gh release view || gh release create` would read an expired token,
+          # a rate limit or a network fault as "no release yet" and answer it by
+          # trying to create one. That fails closed, but it reports the wrong
+          # cause. Only a genuine absence may create.
           set +e
           view_err=$(gh release view latest 2>&1 >/dev/null)
           view_rc=$?
@@ -327,59 +395,31 @@ jobs:
 
           gh release upload latest api/v1/all.jsonld api/v1/all.ttl --clobber
 
-          # --clobber replaces one asset at a time and promises nothing
-          # about the pair. If the second replacement fails, the release
-          # holds two different harvests and nothing downstream can tell.
-          # Compare what is published against what was just built, and
-          # fail before the commit that would bless the mismatch.
+          # `gh` uploads assets concurrently and deletes each old asset just
+          # before writing its replacement, so a fault mid-flight can leave the
+          # release holding one harvest's file beside another's. Sizes alone do
+          # not catch that -- two different graphs can be the same length --
+          # so compare the digests GitHub computed against the bytes just
+          # built, from one metadata snapshot.
+          snapshot=$(gh release view latest --json assets)
           for asset in all.jsonld all.ttl; do
-            built=$(stat -c '%s' -- "api/v1/$asset")
-            published=$(gh release view latest --json assets \
-              -q "[.assets[] | select(.name == \"$asset\") | .size] | first")
+            built="sha256:$(sha256sum "api/v1/$asset" | cut -d' ' -f1)"
+            published=$(printf '%s' "$snapshot" \
+              | jq -r --arg n "$asset" '[.assets[] | select(.name == $n) | .digest] | first // "absent"')
+            if [ "$published" = "null" ] || [ "$published" = "absent" ]; then
+              echo "::error::release asset $asset is missing or reports no digest"
+              exit 1
+            fi
             if [ "$built" != "$published" ]; then
-              echo "release asset $asset is $published bytes, built $built" >&2
-              echo "the pair is from different harvests; refusing to commit" >&2
+              echo "::error::release asset $asset is $published, built $built"
+              echo "the release holds a different harvest; the commit is local and unpushed" >&2
               exit 1
             fi
           done
 
-      - name: Commit and push changes
+      - name: Push the harmonized output
         if: steps.check_changes.outputs.has_changes == 'true'
-        run: |
-          set -euo pipefail
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-
-          # This repository published nothing between 2026-08-20 and
-          # 2026-09-01 because harmonize succeeded, the push was refused on
-          # a blob over 100 MB, and nothing said which file. Name it, and
-          # fail before the push rather than after it. 90 MB leaves room to
-          # act on a file that is still growing.
-          # Read NUL-delimited so a pathname containing a space or a
-          # newline is one record and is printed whole -- an earlier
-          # version split on whitespace and would have named the wrong
-          # file in the message that exists to name the right one.
-          # `git ls-files -c` also lists tracked paths already deleted
-          # from disk, which have no size to stat, so skip what is not
-          # there: `git add .` stages their deletion, not a blob.
-          limit=$((90 * 1024 * 1024))
-          oversize=""
-          while IFS= read -r -d '' path; do
-            [ -f "$path" ] || continue
-            size=$(stat -c '%s' -- "$path")
-            [ "$size" -gt "$limit" ] || continue
-            oversize="${oversize}  ${path} ($((size / 1048576)) MB)"$'\n'
-          done < <(git ls-files -co --exclude-standard -z)
-          if [ -n "$oversize" ]; then
-            echo "refusing to commit: GitHub rejects a push carrying a file over 100 MB" >&2
-            printf '%s' "$oversize" >&2
-            echo "send it to the release instead, as api/v1/all.jsonld is" >&2
-            exit 1
-          fi
-
-          git add .
-          git commit -m "chore: harmonize sanctions data ($(date +%Y-%m-%d))"
-          git push
+        run: git push
 
       - name: Trigger website deployment
         if: steps.check_changes.outputs.has_changes == 'true'
