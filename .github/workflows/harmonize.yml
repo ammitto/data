@@ -10,6 +10,15 @@ on:
     paths:
       - '.github/workflows/harmonize.yml'
 
+# One publishing run at a time. Two runs racing -- the 09:00 schedule and a
+# manual dispatch, say -- would both check for the `latest` release, both try
+# to create it, and both push from different checkouts. cancel-in-progress is
+# false on purpose: a run that has already uploaded assets must be allowed to
+# finish its commit, or the release and the tree stay out of step.
+concurrency:
+  group: publish-harmonized-data
+  cancel-in-progress: false
+
 jobs:
   harmonize:
     name: Harmonize source data to JSON-LD
@@ -205,6 +214,61 @@ jobs:
           # Generate stats.json with entity counts
           ammitto stats --output ./api/v1/stats.json --verbose || true
 
+      # index.jsonld is the machine-readable catalogue: a consumer reads it
+      # to find out what this API publishes and where. The gem builds it
+      # from what exists on disk after the export, and --combine leaves
+      # both aggregates on disk, so it lists them at relative URLs.
+      #
+      # Relative is right for the site, which serves its own copy of the
+      # aggregates from its Pages artifact. It is wrong here, because this
+      # repository now sends them to a release instead. Left alone, the
+      # first successful run after this change would publish a catalogue
+      # advertising www.ammitto.org/data/api/v1/all.jsonld, which .gitignore
+      # guarantees is a 404 -- the exact failure the gem's own comment at
+      # json_ld_graph_exporter.rb:433 says the catalogue must never produce.
+      #
+      # Rewriting here rather than in the gem keeps the site correct: the
+      # divergence belongs to this repository's transport, not to the
+      # exporter.
+      - name: Point the catalogue at the release assets
+        run: |
+          set -euo pipefail
+          python3 - <<'REWRITE'
+          import json, sys
+
+          INDEX = 'api/v1/index.jsonld'
+          BASE = 'https://github.com/ammitto/data/releases/download/latest/'
+          DIVERTED = {'all.jsonld', 'all.ttl'}
+
+          try:
+              with open(INDEX, encoding='utf-8') as fh:
+                  index = json.load(fh)
+          except FileNotFoundError:
+              # An older gem does not emit a catalogue. Nothing to correct.
+              print('no index.jsonld; nothing to rewrite')
+              sys.exit(0)
+
+          entries = index.get('entries', [])
+          seen = {e.get('name') for e in entries}
+          rewritten = []
+          for entry in entries:
+              if entry.get('name') in DIVERTED:
+                  entry['url'] = BASE + entry['name']
+                  rewritten.append(entry['name'])
+
+          missing = DIVERTED - seen
+          if missing:
+              # --combine ran, so both should be catalogued. If one is not,
+              # the export did not produce it and the run must not publish.
+              print(f'catalogue is missing {sorted(missing)}', file=sys.stderr)
+              sys.exit(1)
+
+          with open(INDEX, 'w', encoding='utf-8') as fh:
+              json.dump(index, fh, ensure_ascii=False, indent=2)
+              fh.write('\n')
+          print('repointed:', ', '.join(sorted(rewritten)))
+          REWRITE
+
       - name: Check for changes
         id: check_changes
         run: |
@@ -232,16 +296,53 @@ jobs:
           set -euo pipefail
           test -s api/v1/all.jsonld || { echo "all.jsonld missing or empty"; exit 1; }
           test -s api/v1/all.ttl    || { echo "all.ttl missing or empty"; exit 1; }
-          gh release view latest >/dev/null 2>&1 || \
-            gh release create latest --title "Latest harmonized graph" \
-              --notes "Whole-graph exports, replaced on every successful harvest. Per-source data lives in api/v1/sources/ in this repository."
+
+          # `gh release view || gh release create` would read an expired
+          # token, a rate limit or a network fault as "no release yet" and
+          # answer it by trying to create one. That fails closed, but it
+          # reports the wrong cause. Only a genuine absence may create.
+          set +e
+          view_err=$(gh release view latest 2>&1 >/dev/null)
+          view_rc=$?
+          set -e
+          if [ "$view_rc" -ne 0 ]; then
+            case "$view_err" in
+              *"release not found"*|*"Not Found"*|*"HTTP 404"*)
+                gh release create latest --title "Latest harmonized graph" \
+                  --notes "Whole-graph exports, replaced on every successful harvest. Per-source data lives in api/v1/sources/ in this repository."
+                ;;
+              *)
+                printf 'could not determine whether the release exists:\n%s\n' "$view_err" >&2
+                exit 1
+                ;;
+            esac
+          fi
+
           gh release upload latest api/v1/all.jsonld api/v1/all.ttl --clobber
 
       - name: Commit and push changes
         if: steps.check_changes.outputs.has_changes == 'true'
         run: |
+          set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # This repository published nothing between 2026-08-20 and
+          # 2026-09-01 because harmonize succeeded, the push was refused on
+          # a blob over 100 MB, and nothing said which file. Name it, and
+          # fail before the push rather than after it. 90 MB leaves room to
+          # act on a file that is still growing.
+          limit=$((90 * 1024 * 1024))
+          oversize=$(git ls-files -co --exclude-standard -z \
+            | xargs -0 -r stat -c '%s %n' \
+            | awk -v l="$limit" '$1 > l { printf "  %s (%.1f MB)\n", $2, $1 / 1048576 }')
+          if [ -n "$oversize" ]; then
+            echo "refusing to commit: git rejects any blob over 100 MB" >&2
+            printf '%s\n' "$oversize" >&2
+            echo "send it to the release instead, as api/v1/all.jsonld is" >&2
+            exit 1
+          fi
+
           git add .
           git commit -m "chore: harmonize sanctions data ($(date +%Y-%m-%d))"
           git push
