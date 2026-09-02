@@ -320,6 +320,22 @@ jobs:
 
           gh release upload latest api/v1/all.jsonld api/v1/all.ttl --clobber
 
+          # --clobber replaces one asset at a time and promises nothing
+          # about the pair. If the second replacement fails, the release
+          # holds two different harvests and nothing downstream can tell.
+          # Compare what is published against what was just built, and
+          # fail before the commit that would bless the mismatch.
+          for asset in all.jsonld all.ttl; do
+            built=$(stat -c '%s' -- "api/v1/$asset")
+            published=$(gh release view latest --json assets \
+              -q "[.assets[] | select(.name == \"$asset\") | .size] | first")
+            if [ "$built" != "$published" ]; then
+              echo "release asset $asset is $published bytes, built $built" >&2
+              echo "the pair is from different harvests; refusing to commit" >&2
+              exit 1
+            fi
+          done
+
       - name: Commit and push changes
         if: steps.check_changes.outputs.has_changes == 'true'
         run: |
@@ -332,13 +348,24 @@ jobs:
           # a blob over 100 MB, and nothing said which file. Name it, and
           # fail before the push rather than after it. 90 MB leaves room to
           # act on a file that is still growing.
+          # Read NUL-delimited so a pathname containing a space or a
+          # newline is one record and is printed whole -- an earlier
+          # version split on whitespace and would have named the wrong
+          # file in the message that exists to name the right one.
+          # `git ls-files -c` also lists tracked paths already deleted
+          # from disk, which have no size to stat, so skip what is not
+          # there: `git add .` stages their deletion, not a blob.
           limit=$((90 * 1024 * 1024))
-          oversize=$(git ls-files -co --exclude-standard -z \
-            | xargs -0 -r stat -c '%s %n' \
-            | awk -v l="$limit" '$1 > l { printf "  %s (%.1f MB)\n", $2, $1 / 1048576 }')
+          oversize=""
+          while IFS= read -r -d '' path; do
+            [ -f "$path" ] || continue
+            size=$(stat -c '%s' -- "$path")
+            [ "$size" -gt "$limit" ] || continue
+            oversize="${oversize}  ${path} ($((size / 1048576)) MB)"$'\n'
+          done < <(git ls-files -co --exclude-standard -z)
           if [ -n "$oversize" ]; then
             echo "refusing to commit: git rejects any blob over 100 MB" >&2
-            printf '%s\n' "$oversize" >&2
+            printf '%s' "$oversize" >&2
             echo "send it to the release instead, as api/v1/all.jsonld is" >&2
             exit 1
           fi
