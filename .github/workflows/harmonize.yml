@@ -261,13 +261,11 @@ jobs:
           BASE = 'https://github.com/ammitto/data/releases/download/latest/'
           DIVERTED = {'all.jsonld', 'all.ttl'}
 
-          try:
-              with open(INDEX, encoding='utf-8') as fh:
-                  index = json.load(fh)
-          except FileNotFoundError:
-              # An older gem does not emit a catalogue. Nothing to correct.
-              print('no index.jsonld; nothing to rewrite')
-              sys.exit(0)
+          # The preceding step already failed the run if this is missing, so
+          # no absent-file branch here: it would be unreachable, and an
+          # unreachable branch reads as a case that can happen.
+          with open(INDEX, encoding='utf-8') as fh:
+              index = json.load(fh)
 
           entries = index.get('entries', [])
           seen = {e.get('name') for e in entries}
