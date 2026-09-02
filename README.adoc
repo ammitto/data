@@ -204,7 +204,7 @@ The harmonized dataset is available at:
 * **By source**: `https://www.ammitto.org/api/v1/sources/{source}.jsonld`
 
 Both whole-graph exports run to well over a hundred megabytes, which is past
-the limit git will accept for a single blob, so this repository does not carry
+GitHub's 100 MB per-file limit on a push, so this repository does not carry
 them. They are rebuilt by every successful harvest and published as assets on
 the `latest` release instead:
 

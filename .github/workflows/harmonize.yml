@@ -272,17 +272,24 @@ jobs:
       - name: Check for changes
         id: check_changes
         run: |
-          if git diff --quiet && git diff --staged --quiet; then
-            echo "has_changes=false" >> $GITHUB_OUTPUT
+          set -euo pipefail
+          # `git diff` does not see untracked files, but `git add .` stages
+          # them. api/v1/index.jsonld is untracked today and appears for
+          # the first time on the next successful run, so a harvest whose
+          # only change is a new file would have set has_changes=false and
+          # skipped the release and the commit both.
+          untracked="$(git ls-files --others --exclude-standard)"
+          if git diff --quiet && git diff --staged --quiet && [ -z "$untracked" ]; then
+            echo "has_changes=false" >> "$GITHUB_OUTPUT"
           else
-            echo "has_changes=true" >> $GITHUB_OUTPUT
+            echo "has_changes=true" >> "$GITHUB_OUTPUT"
           fi
 
       # The aggregates go to a release, not to git. Ronald ruled on
       # 2026-09-01 that all.jsonld is not a contract and that files this
       # large belong in GitHub releases. They are still produced above by
       # --combine; .gitignore keeps `git add .` from staging them, and this
-      # step publishes them where there is no 100 MB blob limit.
+      # step publishes them where GitHub's 100 MB push limit does not apply.
       #
       # One rolling tag rather than one release per day: the harvest runs
       # daily and 149 MB of assets per day is not worth keeping. `--clobber`
@@ -364,7 +371,7 @@ jobs:
             oversize="${oversize}  ${path} ($((size / 1048576)) MB)"$'\n'
           done < <(git ls-files -co --exclude-standard -z)
           if [ -n "$oversize" ]; then
-            echo "refusing to commit: git rejects any blob over 100 MB" >&2
+            echo "refusing to commit: GitHub rejects a push carrying a file over 100 MB" >&2
             printf '%s' "$oversize" >&2
             echo "send it to the release instead, as api/v1/all.jsonld is" >&2
             exit 1
