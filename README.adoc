@@ -82,9 +82,8 @@ data/
 │   │   ├── un.jsonld
 │   │   └── ...
 │   │
-│   ├── search-index.json        # Lightweight search index (~8MB)
-│   ├── all.jsonld               # Complete knowledge graph (69MB)
-│   ├── all.ttl                  # Turtle/RDF format (52MB)
+│   ├── search-index.json        # Lightweight search index
+│   ├── index.jsonld             # Catalogue of everything published here
 │   ├── context.jsonld           # JSON-LD context
 │   └── stats.json               # Statistics and metadata
 │
@@ -200,9 +199,25 @@ The harmonized dataset is available at:
 
 === Aggregated Files
 
-* **All entities**: `https://www.ammitto.org/api/v1/all.jsonld` (69MB JSON-LD)
-* **All entities (Turtle)**: `https://www.ammitto.org/api/v1/all.ttl` (52MB RDF)
+* **All entities**: `https://www.ammitto.org/api/v1/all.jsonld` (JSON-LD)
+* **All entities (Turtle)**: `https://www.ammitto.org/api/v1/all.ttl` (RDF)
 * **By source**: `https://www.ammitto.org/api/v1/sources/{source}.jsonld`
+
+Both whole-graph exports run to well over a hundred megabytes, which is past
+GitHub's 100 MB per-file limit on a push, so this repository does not carry
+them. They are rebuilt by every successful harvest and published as assets on
+the `latest` release instead, at:
+
+* `https://github.com/ammitto/data/releases/download/latest/all.jsonld`
+* `https://github.com/ammitto/data/releases/download/latest/all.ttl`
+
+The release is created by the first harvest to publish after this change, so
+those URLs resolve from that run onward rather than immediately. The asset URLs
+are stable once created, and `api/v1/index.jsonld` points at them, so a consumer
+that reads the catalogue rather than guessing paths needs no change.
+Anything derived from the whole graph — the per-source files under
+`api/v1/sources/`, the node documents, the facets and the search index — is
+committed here as before.
 
 === Knowledge Graph Nodes
 
