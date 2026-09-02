@@ -214,6 +214,29 @@ jobs:
             echo "has_changes=true" >> $GITHUB_OUTPUT
           fi
 
+      # The aggregates go to a release, not to git. Ronald ruled on
+      # 2026-09-01 that all.jsonld is not a contract and that files this
+      # large belong in GitHub releases. They are still produced above by
+      # --combine; .gitignore keeps `git add .` from staging them, and this
+      # step publishes them where there is no 100 MB blob limit.
+      #
+      # One rolling tag rather than one release per day: the harvest runs
+      # daily and 149 MB of assets per day is not worth keeping. `--clobber`
+      # replaces the assets in place, so the download URL is stable and a
+      # consumer can hardcode it.
+      - name: Publish the aggregates as release assets
+        if: steps.check_changes.outputs.has_changes == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          test -s api/v1/all.jsonld || { echo "all.jsonld missing or empty"; exit 1; }
+          test -s api/v1/all.ttl    || { echo "all.ttl missing or empty"; exit 1; }
+          gh release view latest >/dev/null 2>&1 || \
+            gh release create latest --title "Latest harmonized graph" \
+              --notes "Whole-graph exports, replaced on every successful harvest. Per-source data lives in api/v1/sources/ in this repository."
+          gh release upload latest api/v1/all.jsonld api/v1/all.ttl --clobber
+
       - name: Commit and push changes
         if: steps.check_changes.outputs.has_changes == 'true'
         run: |
