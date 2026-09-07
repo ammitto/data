@@ -212,14 +212,20 @@ jobs:
           # keeps the assets, and the catalogue that would advertise them,
           # out of the COMMIT, because GitHub blocks a push introducing a
           # blob over 100 MiB. Full reasoning is in .gitignore.
+          #
+          # This step also produces api/v1/stats.json, through
+          # Serialization::JsonLdGraphExporter#export_stats
+          # (json_ld_graph_exporter.rb:1258). A separate "Generate stats"
+          # step used to follow, running
+          # `ammitto stats --output ... || true`; there is no top-level
+          # `stats` command, so it printed "Could not find command" and the
+          # `|| true` swallowed it. It reported success while doing nothing
+          # for as long as it existed. Do not add it back: `ammitto data
+          # stats` is the real command and it PRINTS statistics, it does not
+          # write a file and takes no --output.
           ammitto harmonize --all --sources-dir ./sources --output-dir ./api/v1 \
             --combine --verbose --allow-empty ru \
             --report "$RUNNER_TEMP/harmonize-report.json"
-
-      - name: Generate stats
-        run: |
-          # Generate stats.json with entity counts
-          ammitto stats --output ./api/v1/stats.json --verbose || true
 
       - name: Check for changes
         id: check_changes
