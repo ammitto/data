@@ -1,0 +1,149 @@
+# One fetch workflow for every data-* repository.
+#
+# Fourteen repositories carried a near-identical copy of this file, 66 to 84
+# lines each, differing in four places: the cron minute, the job name, the
+# source code in the fetch command, and the commit message. They were not
+# three designs, they were one design at three ages, and the drift showed:
+# some pinned actions/checkout@v4 and Ruby 3.3, others @v6 and 3.4.
+#
+# The cost of that was not tidiness. Twelve of them still swallowed a failed
+# fetch with `|| true` and reported the run green, which is the defect
+# ammitto/data-cn#4 and ammitto/data-ru#4 fix by hand, one repository at a
+# time. This is that fix written once.
+#
+# The cron stays in each caller, because `workflow_call` carries no schedule
+# and the stagger across the fleet is deliberate.
+name: Fetch source data
+
+on:
+  workflow_call:
+    inputs:
+      source:
+        description: Source code as the gem knows it, for example au or eu_vessels
+        required: true
+        type: string
+      display_name:
+        description: Human name for the job title and commit message, for example Australia
+        required: true
+        type: string
+      ruby_version:
+        description: Ruby to run the gem on
+        required: false
+        type: string
+        default: '3.3'
+
+jobs:
+  fetch-data:
+    name: Fetch ${{ inputs.display_name }} Sanctions Data
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: ${{ inputs.ruby_version }}
+          bundler-cache: true
+
+      - name: Fetch data
+        id: fetch
+        # Inputs reach the shell through env, never through `${{ }}`
+        # interpolation into the script body. The callers are our own
+        # repositories passing literals, so nothing here is attacker
+        # controlled today; the interpolated form is still the one that
+        # becomes an injection the moment an input stops being a literal,
+        # and there is no reason to write it that way.
+        env:
+          SOURCE: ${{ inputs.source }}
+        run: |
+          set -euo pipefail
+          # Do not ask the gem to fetch a source it declares it cannot fetch.
+          #
+          # `FETCHABLE_SOURCES` is `ALL_SOURCES - %i[cn ru jp]`
+          # (lib/ammitto/config/defaults.rb). Those three publish from YAML
+          # their own repositories maintain rather than from a fetch, and the
+          # extractor refuses rather than report an empty scrape as success.
+          # That refusal is NOT distinguishable from a real failure by exit
+          # status, because fetch_command.rb converts every error into one
+          # Thor::Error.
+          #
+          # So: ask whether the source is fetchable, and only then fetch. The
+          # probe answers with a distinct status for each outcome, so a broken
+          # probe -- a LoadError, a bundler fault, a gem that did not install
+          # -- cannot be read as "not fetchable" and pass. Only 10 and 20 are
+          # answers; anything else is a fault and fails the step.
+          set +e
+          bundle exec ruby -e 'require "ammitto"; code = ENV.fetch("SOURCE").to_sym; exit(Ammitto::Config::Defaults::FETCHABLE_SOURCES.include?(code) ? 10 : 20)'
+          probe=$?
+          set -e
+
+          case "$probe" in
+            10)
+              bundle exec ammitto fetch "$SOURCE" --format yaml --output-dir processed --verbose
+              echo "succeeded=true" >> "$GITHUB_OUTPUT"
+              ;;
+            20)
+              echo "succeeded=false" >> "$GITHUB_OUTPUT"
+              echo "$SOURCE is not in FETCHABLE_SOURCES; nothing fetched, nothing to commit."
+              ;;
+            *)
+              echo "::error::fetchability probe exited $probe; it answers 10 or 20"
+              exit 1
+              ;;
+          esac
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          set -euo pipefail
+          # Assign first. Inside `[ -z "$(git status)" ]` a failing git yields
+          # an empty string, which reads as "no changes" and exits 0 -- another
+          # quiet no-commit path, which is what this file is about. Under
+          # `set -e` a failed assignment fails the step.
+          # Scoped to processed/, because that is all the commit stages.
+          changes="$(git status --porcelain -- processed/)"
+          if [ -z "$changes" ]; then
+            echo "has_changes=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "has_changes=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit and push changes
+        if: >-
+          github.ref == format('refs/heads/{0}', github.event.repository.default_branch) &&
+          steps.fetch.outputs.succeeded == 'true' &&
+          steps.check_changes.outputs.has_changes == 'true'
+        env:
+          DISPLAY_NAME: ${{ inputs.display_name }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          # A fetch writes processed/ and nothing else. Staging the whole
+          # checkout would let an unrelated eligible file ride along on a
+          # harvest commit.
+          git add -A -- processed/
+          git commit -m "chore: update $DISPLAY_NAME sanctions data ($(date +%Y-%m-%d))"
+          git push
+
+      # `failure()` is true only when an earlier step actually failed. Probe
+      # status 20 is the expected "not in FETCHABLE_SOURCES" result: the fetch
+      # step skips cleanly, sets succeeded=false, and no issue is filed.
+      # Unexpected probe statuses and any real fetch failure exit nonzero.
+      - name: Create issue on failure
+        if: github.ref == format('refs/heads/{0}', github.event.repository.default_branch) && failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: 'Fetch failed - ${{ github.run_id }}',
+              body: 'The fetch workflow failed. See: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}',
+              labels: ['automation', 'fetch']
+            })
