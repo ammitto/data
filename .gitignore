@@ -2,3 +2,30 @@
 .idea
 .idea/*
 CLAUDE.md
+
+# api/v1 is the snapshot this repository tracks; the live site builds and
+# serves its own copy. --combine writes all.jsonld and its derived all.ttl,
+# and the pushes carrying them were rejected for exceeding GitHub's 100 MB
+# per-file limit. Ronald ruled on 2026-09-01 that "the all.json output is not
+# a contract" and that files this large belong in releases. They are: the
+# harmonize workflow publishes both as assets on a release tagged by the
+# committed sha, reachable at a stable URL through releases/latest/download/.
+# The date is in the release title, not the tag: a dated tag would mean an
+# unchanged HEAD produced a fresh release, carrying the same 260 MB, daily.
+#
+# The site currently generates and serves its own copies, so its endpoints do
+# not depend on that release yet. They will the moment /api/v1/all.jsonld is
+# redirected to it, which is the next step in Ronald's ruling and is not done
+# here. Do not read this as "the release is decorative".
+api/v1/all.jsonld
+api/v1/all.ttl
+
+# The catalogue lists the files present on disk when the export finishes
+# (manifest_datasets keeps only paths that File.exist?), so here it would
+# advertise the two aggregates above even though the tracked tree omits them.
+# It has never been committed: the last publish predates the catalogue.
+# Ignored rather than post-processed, because a hand-edited catalogue claiming
+# to be the exporter's output is worse than no catalogue. The cost is that
+# this tree carries no root discovery document for the collections it does
+# publish, until the exporter can describe a published subset.
+api/v1/index.jsonld
