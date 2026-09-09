@@ -227,14 +227,33 @@ jobs:
             --combine --verbose --allow-empty ru \
             --report "$RUNNER_TEMP/harmonize-report.json"
 
+      - name: Self-test the change detector
+        run: .github/scripts/has_changes_test.sh
+
+      # This gate decides whether anything is committed, so it has to be
+      # wrong in neither direction. The condition it replaced was
+      # `git diff --quiet && git diff --staged --quiet`, which reports on
+      # TRACKED files only: a harvest whose whole output was new files
+      # answered "nothing to commit", the step below was gated off, and the
+      # run finished green having added nothing.
+      #
+      # The other direction is why this is a script rather than a longer
+      # condition. `git commit` without --allow-empty FAILS when nothing is
+      # staged, so a false yes does not write an empty commit, it turns a
+      # quiet correct run red. Ignored paths and dirty submodules would both
+      # cause one, and the self-test above pins both out.
       - name: Check for changes
         id: check_changes
         run: |
-          if git diff --quiet && git diff --staged --quiet; then
-            echo "has_changes=false" >> $GITHUB_OUTPUT
-          else
-            echo "has_changes=true" >> $GITHUB_OUTPUT
-          fi
+          set -euo pipefail
+          # Assigned first, deliberately. Inlining the call as
+          # `echo "has_changes=$(...)"` makes the step exit 0 even when the
+          # detector fails, writing an empty value that the `if:` below reads
+          # as "no changes" — silently skipping the commit, which is the
+          # exact failure this whole step exists to prevent. The assignment
+          # form propagates the nonzero status and fails the run instead.
+          changed="$(.github/scripts/has_changes.sh)"
+          echo "has_changes=$changed" >> "$GITHUB_OUTPUT"
 
       - name: Commit and push changes
         if: steps.check_changes.outputs.has_changes == 'true'
