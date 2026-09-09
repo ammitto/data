@@ -10,6 +10,13 @@ on:
     paths:
       - '.github/workflows/harmonize.yml'
 
+# One publication at a time. The release tag is derived from the committed
+# HEAD, so two overlapping runs would otherwise race through view, create and
+# upload against the same release.
+concurrency:
+  group: harmonize-data-publish
+  cancel-in-progress: false
+
 jobs:
   harmonize:
     name: Harmonize source data to JSON-LD
@@ -156,12 +163,12 @@ jobs:
 
           # ru is named in --allow-empty because it reaches the gate
           # with no entity YAML to read, which is a source-level error,
-          # and the gate exits nonzero on it. Every step below is then
-          # skipped: a step's `if:` carries an implicit success() unless
-          # it spells out always(), failure() or cancelled(), so the
-          # has_changes conditions on the commit and the deployment
-          # dispatch narrow when those steps run but cannot make them run
-          # after a failure. One source with nothing to contribute
+          # and the gate exits nonzero on it. The commit, the release and
+          # the deployment dispatch are then skipped by their implicit
+          # success() checks; the reconciler below still runs, because its
+          # `if:` spells out !cancelled(). The commit's has_changes condition
+          # only narrows a successful run and cannot make it run after a
+          # failure. One source with nothing to contribute
           # therefore withholds the publish from every source that does,
           # which is what has held this repository at the 2026-07-22
           # commit.
@@ -196,6 +203,15 @@ jobs:
           # the commit step below runs `git add .` and would publish it.
           # It is written even when the gates fail, which is the run the
           # reconciler below needs it for.
+          #
+          # --combine is kept because the release step below packages
+          # exactly these two files. They live and die with this runner, so
+          # publication has to happen in this job, and it runs after every
+          # successful harmonization rather than only when the tree changed,
+          # so a failed publish can be repaired on a later run. .gitignore
+          # keeps the assets, and the catalogue that would advertise them,
+          # out of the COMMIT, because GitHub blocks a push introducing a
+          # blob over 100 MiB. Full reasoning is in .gitignore.
           ammitto harmonize --all --sources-dir ./sources --output-dir ./api/v1 \
             --combine --verbose --allow-empty ru \
             --report "$RUNNER_TEMP/harmonize-report.json"
@@ -223,8 +239,34 @@ jobs:
           git commit -m "chore: harmonize sanctions data ($(date +%Y-%m-%d))"
           git push
 
+      # Ronald ruled on 2026-09-01 that "the all.json output is not a
+      # contract, for files so large we should use GitHub releases." That is
+      # what this does; the reasoning and the state machine are in
+      # .github/scripts/publish_aggregates.sh, which is a file rather than an
+      # inline block because its branches need testing. An inline version
+      # looked right and was not: it logged "release exists" and clobbered
+      # the published assets anyway, and `gh release upload --clobber`
+      # deletes before it uploads.
+      #
+      # NOT gated on has_changes, deliberately. A run that pushed data and
+      # then failed to publish would otherwise never retry, because the tree
+      # stops differing. The release is keyed to the commit, so a run with
+      # nothing new finds its own release published and exits without
+      # touching it.
+      - name: Self-test the aggregate publisher
+        run: .github/scripts/publish_aggregates_test.sh
+
+      - name: Publish the aggregates as release assets
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: .github/scripts/publish_aggregates.sh api/v1/all.jsonld api/v1/all.ttl
+
+      # Not gated on has_changes either, and for the same reason as the
+      # release above: a run that pushed data and then failed before this
+      # point would never dispatch again, because the tree stops differing.
+      # Reaching here means harmonize succeeded and the release carries both
+      # verified assets, which is the state the site should be built from.
       - name: Trigger website deployment
-        if: steps.check_changes.outputs.has_changes == 'true'
         uses: actions/github-script@v7
         with:
           # AMMITTO_CI_PAT_TOKEN, not DEPLOY_TOKEN: no secret of the
