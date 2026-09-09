@@ -1,23 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/307014",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/wb/307014",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MR. YUSRI YUSUF",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "MR. YUSRI YUSUF",
+      "isPrimary": true
     }
   ],
-  "remarks": "*179",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/307014"
+  ],
+  "remarks": "*179",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "KEUMANG BANDA ACEH OFFICE, JALAN KAYEE ADANG NO. 11 LAMNYONG (PEURADA UTAMA), DESA LAMGUGUP",
       "city": "KECAMATAN SYIAH KUALA BANDA ACEH 23115",
       "country": "Indonesia",
-      "country_iso_code": "ID"
+      "countryIsoCode": "ID"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,21 +1,36 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/dpr0154",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/dpr0154",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "KOREA KUMSAN TRADING CORPORATION",
+      "@type": "NameVariant",
+      "fullName": "KOREA KUMSAN TRADING CORPORATION",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Korea Kumsan Trading Corporation is owned or controlled by, or acting or purporting to act for or on behalf of, directly or indirectly, the General Bureau of Atomic Energy, which oversees the DPRK’s nuclear programme. Telephone: +850-2-18111-8550. Fax: +850-2-381-4410/4416. Email: mhs-ip@star-co.net.kp.  ",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/dpr0154"
+  ],
+  "remarks": "Korea Kumsan Trading Corporation is owned or controlled by, or acting or purporting to act for or on behalf of, directly or indirectly, the General Bureau of Atomic Energy, which oversees the DPRK’s nuclear programme. Telephone: +850-2-18111-8550. Fax: +850-2-381-4410/4416. Email: mhs-ip@star-co.net.kp.  ",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Haeun 2-dong,, Pyogchon District,, Pyongyang City/Mangyongdae,, Democratic People's Republic of Korea"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

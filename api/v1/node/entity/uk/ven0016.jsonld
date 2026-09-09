@@ -1,22 +1,43 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/ven0016",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/ven0016",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Rivero Marcano",
-      "first_name": "Sergio",
+      "@type": "NameVariant",
+      "fullName": "Rivero Marcano",
+      "firstName": "Sergio",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Sergio José Rivero Marcano",
+      "@type": "NameVariant",
+      "fullName": "Sergio José Rivero Marcano",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Vice President of the Bolivarian Republic of Venezuela The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/ven0016"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "remarks": "Vice President of the Bolivarian Republic of Venezuela The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

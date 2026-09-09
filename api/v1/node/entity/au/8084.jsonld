@@ -1,37 +1,55 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8084",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/8084",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Molot Petrovsk Electromechanical Plant Joint Stock Company",
+      "@type": "NameVariant",
+      "fullName": "Molot Petrovsk Electromechanical Plant Joint Stock Company",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Aktsionernoe Obshchestvo Petrovskii Elektromekhanicheskii Zavod Molot",
+      "@type": "NameVariant",
+      "fullName": "Aktsionernoe Obshchestvo Petrovskii Elektromekhanicheskii Zavod Molot",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "AO Pemz Molot",
+      "@type": "NameVariant",
+      "fullName": "AO Pemz Molot",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "JSC Petrovsky Electromechanical Plant \"Molot\"",
+      "@type": "NameVariant",
+      "fullName": "JSC Petrovsky Electromechanical Plant \"Molot\"",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "https://pemz-molot.ru/; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8084"
+  ],
+  "remarks": "https://pemz-molot.ru/; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Gogolya Street, 40, Petrovsk, Petrovsk District, Saratov Region 412541",
       "country": "Saratov Region 412541"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

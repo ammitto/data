@@ -1,65 +1,91 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/som0009",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/som0009",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "OMAR",
-      "first_name": "HASSAN",
+      "@type": "NameVariant",
+      "fullName": "OMAR",
+      "firstName": "HASSAN",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Adam",
-      "first_name": "Hassaan",
+      "@type": "NameVariant",
+      "fullName": "Adam",
+      "firstName": "Hassaan",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Adan",
-      "first_name": "Xassaan",
+      "@type": "NameVariant",
+      "fullName": "Adan",
+      "firstName": "Xassaan",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Cumar",
-      "first_name": "Asan",
+      "@type": "NameVariant",
+      "fullName": "Cumar",
+      "firstName": "Asan",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Hussein",
-      "first_name": "Sheikh",
+      "@type": "NameVariant",
+      "fullName": "Hussein",
+      "firstName": "Sheikh",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Omar",
-      "first_name": "Hassane",
+      "@type": "NameVariant",
+      "fullName": "Omar",
+      "firstName": "Hassane",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Salmaan",
-      "first_name": "Abu",
+      "@type": "NameVariant",
+      "fullName": "Salmaan",
+      "firstName": "Abu",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Salman",
-      "first_name": "Abu",
+      "@type": "NameVariant",
+      "fullName": "Salman",
+      "firstName": "Abu",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Possibly Ethiopian",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/som0009"
+  ],
+  "remarks": "Possibly Ethiopian",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "state": "Nairobi",
       "country": "Kenya"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

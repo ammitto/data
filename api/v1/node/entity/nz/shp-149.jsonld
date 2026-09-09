@@ -1,18 +1,34 @@
 {
-  "id": "https://www.ammitto.org/entity/nz/shp-149",
-  "entity_type": "vessel",
+  "@id": "https://www.ammitto.org/entity/nz/shp-149",
+  "@type": "VesselEntity",
+  "entityType": "vessel",
   "names": [
     {
-      "full_name": "Centurion I",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Centurion I",
+      "isPrimary": true
     }
   ],
-  "source_references": [
+  "sourceReferences": [
     {
-      "source_code": "nz",
-      "reference_number": "SHP-149"
+      "@type": "SourceReference",
+      "sourceCode": "nz",
+      "referenceNumber": "SHP-149",
+      "retrievedAt": "2026-09-09T16:30:45Z"
     }
   ],
-  "imo_number": "9436020",
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "linkedEntities": [
+
+  ],
+  "imoNumber": "9436020",
+  "previousNames": [
+
+  ],
+  "previousFlags": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/nz/consolidated-list/shp-149"
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

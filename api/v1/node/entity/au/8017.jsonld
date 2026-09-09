@@ -1,35 +1,54 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8017",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/8017",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Rodion Valeryevich MIROSHNIK",
+      "@type": "NameVariant",
+      "fullName": "Rodion Valeryevich MIROSHNIK",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Rodion Valerievich MIROSHNIK",
+      "@type": "NameVariant",
+      "fullName": "Rodion Valerievich MIROSHNIK",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Rodion Valeriiovych MIROSHNYK",
+      "@type": "NameVariant",
+      "fullName": "Rodion Valeriiovych MIROSHNYK",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Ambassador-at-Large of the Russian Foreign Ministry “on the crimes of the Kyiv regime”; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8017"
   ],
-  "birth_info": [
+  "remarks": "Ambassador-at-Large of the Russian Foreign Ministry “on the crimes of the Kyiv regime”; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1974,
       "country": "Luhansk"
     }
   ],
   "nationalities": [
-    "Russia;Ukraine"
+    "Russia",
+    "Ukraine"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

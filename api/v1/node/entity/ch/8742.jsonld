@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/8742",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/8742",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Hojati Mohsen",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Hojati Mohsen",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/8742"
   ],
   "remarks": "Head of Fajr Industrial Group, which is designated under resolution 1737 (2006) for its role in the ballistic missile programme.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1955-09-28",
-      "circa": false
+      "circa": false,
+      "year": 1955
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/79760",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/79760",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Abdul Wali Seddiqi Qari",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Abdul Wali Seddiqi Qari",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/79760"
   ],
   "remarks": "Third Secretary, Taliban Consulate General, Peshawar, Pakistan.",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1974
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

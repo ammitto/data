@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/327426",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/327426",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "CENTRO PRODUCTIVO DE DISENO S.A.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "CENTRO PRODUCTIVO DE DISENO S.A.",
+      "isPrimary": true
     }
   ],
-  "remarks": "*348",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/327426"
+  ],
+  "remarks": "*348",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "MEXICO 337, CP 1097, CABA",
       "city": "BUENOS AIRES",
       "country": "Argentina",
-      "country_iso_code": "AR"
+      "countryIsoCode": "AR"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

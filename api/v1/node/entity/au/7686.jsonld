@@ -1,52 +1,73 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7686",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/7686",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "ARVAN CLOUD",
+      "@type": "NameVariant",
+      "fullName": "ARVAN CLOUD",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Arvan Cloud Noyad",
+      "@type": "NameVariant",
+      "fullName": "Arvan Cloud Noyad",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abr Arvan",
+      "@type": "NameVariant",
+      "fullName": "Abr Arvan",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Arwan Company",
+      "@type": "NameVariant",
+      "fullName": "Arwan Company",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Arvancloud",
+      "@type": "NameVariant",
+      "fullName": "Arvancloud",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Noyan Abar Arvan Company",
+      "@type": "NameVariant",
+      "fullName": "Noyan Abar Arvan Company",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Navyan Abr Arvan Private Limited Company",
+      "@type": "NameVariant",
+      "fullName": "Navyan Abr Arvan Private Limited Company",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Listing: Instrument of first designation and declaration: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Iran) Amendment (No. 1) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7686"
+  ],
+  "remarks": "Listing: Instrument of first designation and declaration: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Iran) Amendment (No. 1) Instrument 2023",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Kavousieh, Moddares Highway, Shahid General Houshang Vahid Dastgerdi Street, Number 247, Ground Floor, Tehran, 1917717552;\n \nNo. 247, Shahid Dastgerdi (Zafar) St., Nelson Mandela Boulevard (Africa), Tehran, 1917717553;\n\nZafar St. Africa Blvd., Tehran, Iran",
       "country": "Iran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

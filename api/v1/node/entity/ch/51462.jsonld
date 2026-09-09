@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/51462",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/51462",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Artamonov Anatoly Dmitrievich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Artamonov Anatoly Dmitrievich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/51462"
   ],
   "remarks": "Member of the Federation Council who ratified the government decisions on the \"Treaty of Friendship, Cooperation and Mutual Assistance between the Russian Federation and the Donetsk People's Republic and between the Russian Federation and the Luhansk People’s Republic\".",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1952-05-05",
-      "circa": false
+      "circa": false,
+      "year": 1952
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

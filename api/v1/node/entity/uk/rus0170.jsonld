@@ -1,31 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus0170",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus0170",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Death Battalion",
+      "@type": "NameVariant",
+      "fullName": "Death Battalion",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Smert Battalion",
+      "@type": "NameVariant",
+      "fullName": "Smert Battalion",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Смерть батальон",
+      "@type": "NameVariant",
+      "fullName": "Смерть батальон",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Part of the so called \"2nd Army Corps of the \"Lugansk People's Republic\". Also part of the Great Don Army. The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus0170"
+  ],
+  "remarks": "Part of the so called \"2nd Army Corps of the \"Lugansk People's Republic\". Also part of the Great Don Army. The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "state": "A former tourist camp outside Donetsk which has been turned into a base for the Death Battalion."
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

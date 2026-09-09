@@ -1,35 +1,53 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7891",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7891",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Alexandr Dmitrievich KHARICHEV",
+      "@type": "NameVariant",
+      "fullName": "Alexandr Dmitrievich KHARICHEV",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Aleksander KHARICHEV",
+      "@type": "NameVariant",
+      "fullName": "Aleksander KHARICHEV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Alexander KHARICHEV",
+      "@type": "NameVariant",
+      "fullName": "Alexander KHARICHEV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Senior Official in the Administration of the President of the Russian Federation; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2024",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7891"
   ],
-  "birth_info": [
+  "remarks": "Senior Official in the Administration of the President of the Russian Federation; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2024",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1966,
       "country": "Kostroma"
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

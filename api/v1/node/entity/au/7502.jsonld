@@ -1,34 +1,52 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7502",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7502",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Abbas Mortaza NILFRUSHAN",
+      "@type": "NameVariant",
+      "fullName": "Abbas Mortaza NILFRUSHAN",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Abbas NILFRUSHAN",
+      "@type": "NameVariant",
+      "fullName": "Abbas NILFRUSHAN",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abbas NILFOROSHAN",
+      "@type": "NameVariant",
+      "fullName": "Abbas NILFOROSHAN",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Deputy Commander for Operations of the Islamic Revolutionary Guard Corps (IRGC); Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Thematic Sanctions) Amendment (No. 2) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7502"
   ],
-  "birth_info": [
+  "remarks": "Deputy Commander for Operations of the Islamic Revolutionary Guard Corps (IRGC); Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Thematic Sanctions) Amendment (No. 2) Instrument 2023",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1966
     }
   ],
   "nationalities": [
     "Iran"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

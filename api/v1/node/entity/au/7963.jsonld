@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7963",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/7963",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Dunay Probable Naval Missile Facility",
+      "@type": "NameVariant",
+      "fullName": "Dunay Probable Naval Missile Facility",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 5) Instrument 2024",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7963"
+  ],
+  "remarks": "Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 5) Instrument 2024",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "42-56N 132-20E Promyslovka Peninsula, Russia",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

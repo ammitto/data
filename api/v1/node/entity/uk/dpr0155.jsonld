@@ -1,29 +1,45 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/dpr0155",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/dpr0155",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "KOREA KWANGSON BANKING CORPORATION (KKBC)",
+      "@type": "NameVariant",
+      "fullName": "KOREA KWANGSON BANKING CORPORATION (KKBC)",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "KKBC",
+      "@type": "NameVariant",
+      "fullName": "KKBC",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "KKBC provides financial services in support to Tanchon Commercial Bank and Korea Hyoksin Trading Corporation, a subordinate of the Korea Ryonbong General Corporation. Tanchon Commercial Bank has used KKBC to facilitate funds transfers likely amounting to millions of dollars, including transfers involving Korea Mining Development Corporation related funds.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/dpr0155"
+  ],
+  "remarks": "KKBC provides financial services in support to Tanchon Commercial Bank and Korea Hyoksin Trading Corporation, a subordinate of the Korea Ryonbong General Corporation. Tanchon Commercial Bank has used KKBC to facilitate funds transfers likely amounting to millions of dollars, including transfers involving Korea Mining Development Corporation related funds.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Jungson-dong, Sungri Street",
       "city": "Central District",
       "state": "Pyongyang",
       "country": "North Korea"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

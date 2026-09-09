@@ -1,23 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/321260",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/wb/321260",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MS. TUMENDEMBEREL BAYARMAA",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "MS. TUMENDEMBEREL BAYARMAA",
+      "isPrimary": true
     }
   ],
-  "remarks": "*295",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/321260"
+  ],
+  "remarks": "*295",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "C/O ECOGRAPH LLC AKA ECOGRAPHY COMPANY, BUILDING OF MONGOL ENGINEER CO. LTD., KHOROO 20, BAYANGOL DISTRICT",
       "city": "ULANBATAAR",
       "country": "Mongolia",
-      "country_iso_code": "MN"
+      "countryIsoCode": "MN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

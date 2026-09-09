@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/960072",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/960072",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "CONSTRUTORA COESA S.A. - SUCURSAL COSTA RICA",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "CONSTRUTORA COESA S.A. - SUCURSAL COSTA RICA",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/960072"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "EDIFICIO MERIDIANO, 3° PISA, COSTADO SUROESTE DE MULTIPLAZA, ESCAZU",
       "city": "SAN JOSE",
       "country": "Costa Rica",
-      "country_iso_code": "CR"
+      "countryIsoCode": "CR"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

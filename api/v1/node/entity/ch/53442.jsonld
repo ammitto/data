@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/53442",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/53442",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Anika Yaroslav Gennadievich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Anika Yaroslav Gennadievich",
+      "isPrimary": true
     }
   ],
-  "remarks": "Former member of the so-called “People’s Council” of the so-called “Donetsk People’s Republic”. Has therefore supported and implemented actions and policies which undermine the territorial integrity, sovereignty and independence of Ukraine, and further destabilised Ukraine.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/53442"
+  ],
+  "remarks": "Former member of the so-called “People’s Council” of the so-called “Donetsk People’s Republic”.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1990-06-26",
-      "circa": false
+      "circa": false,
+      "year": 1990
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

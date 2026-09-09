@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/201885",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/201885",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "L’ENTREPRISE GÉNÉRALE DE CONSTRUCTION SAFIDY",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "L’ENTREPRISE GÉNÉRALE DE CONSTRUCTION SAFIDY",
+      "isPrimary": true
     }
   ],
-  "remarks": "*151",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/201885"
+  ],
+  "remarks": "*151",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "LOT VT 77 LD BIS ANDOHANIMANDROSEZA, ANTANANARIVO 101",
       "country": "Madagascar",
-      "country_iso_code": "MG"
+      "countryIsoCode": "MG"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

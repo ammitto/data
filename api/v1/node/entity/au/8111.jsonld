@@ -1,32 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8111",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/8111",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "TV-Novosti Autonomous Non-Profit Organization",
+      "@type": "NameVariant",
+      "fullName": "TV-Novosti Autonomous Non-Profit Organization",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "ANO TV-Novosti",
+      "@type": "NameVariant",
+      "fullName": "ANO TV-Novosti",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Avtonomna nekomertsiina orhanizatsiia TV-Novyny",
+      "@type": "NameVariant",
+      "fullName": "Avtonomna nekomertsiina orhanizatsiia TV-Novyny",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Company Identification No., 1057746595367; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8111"
+  ],
+  "remarks": "Company Identification No., 1057746595367; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Borova Street, 3, 1, Moscow, 111020, Russia",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

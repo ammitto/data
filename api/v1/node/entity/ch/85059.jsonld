@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/85059",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/85059",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Murad Iraklievich Margoshvili",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Murad Iraklievich Margoshvili",
+      "isPrimary": true
     }
   ],
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/85059"
+  ],
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1970-01-15",
-      "circa": false
+      "circa": false,
+      "year": 1970
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

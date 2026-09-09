@@ -1,35 +1,53 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7851",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7851",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ilyas Magomed-Salamovich UMAKHANOV",
+      "@type": "NameVariant",
+      "fullName": "Ilyas Magomed-Salamovich UMAKHANOV",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Ilyas Mahomed-Salamovych UMAKHANOV",
+      "@type": "NameVariant",
+      "fullName": "Ilyas Mahomed-Salamovych UMAKHANOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Iliyas UMAKHANOV",
+      "@type": "NameVariant",
+      "fullName": "Iliyas UMAKHANOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Member of the Federation Council of the Federal Assembly of the Russian Federation; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2024",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7851"
   ],
-  "birth_info": [
+  "remarks": "Member of the Federation Council of the Federal Assembly of the Russian Federation; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2024",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1957,
       "country": "Makhachkala"
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

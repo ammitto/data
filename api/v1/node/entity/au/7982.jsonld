@@ -1,29 +1,46 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7982",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7982",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Hossein AMJADIAN",
+      "@type": "NameVariant",
+      "fullName": "Hossein AMJADIAN",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Hussein AMJADIAN",
+      "@type": "NameVariant",
+      "fullName": "Hussein AMJADIAN",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Commander of the Law Enforcement Command (LEF) Special Unit in Tehran and former Commander of the LEF Special Unit in Isfahan Province from 2016 to 2019.\nPassport number: H33409785; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Iran) Amendment (No. 2) Instrument 2024",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7982"
   ],
-  "birth_info": [
+  "remarks": "Commander of the Law Enforcement Command (LEF) Special Unit in Tehran and former Commander of the LEF Special Unit in Isfahan Province from 2016 to 2019.\nPassport number: H33409785; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Iran) Amendment (No. 2) Instrument 2024",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1967
     }
   ],
   "nationalities": [
     "Iran"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

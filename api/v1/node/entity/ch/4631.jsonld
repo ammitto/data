@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/4631",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/4631",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Padabed Iury Mikalaevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Padabed Iury Mikalaevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/4631"
   ],
   "remarks": "Head of the security service of the holding company Triple of Yuri Chizh, former Head of the Unit for Special Purposes, Ministry of Interior. As a commander of internal anti-riot troops he was directly responsible for and was directly involved in the violent repression of peaceful demonstrations, notably in 2004 and 2008.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1962-03-05",
-      "circa": false
+      "circa": false,
+      "year": 1962
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

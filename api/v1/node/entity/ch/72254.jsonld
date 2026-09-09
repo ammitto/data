@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/72254",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/72254",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Astranin Igor Vladimirovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Astranin Igor Vladimirovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/72254"
   ],
   "remarks": "Igor Astranin is the former so-called “Minister of Youth Policy” of Kherson Region. He assumed this role without the consent of Ukrainian authorities, in the illegally occupied territories of Kherson Region and implemented the official policies of the Russian Federation in the region.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1991-06-15",
-      "circa": false
+      "circa": false,
+      "year": 1991
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

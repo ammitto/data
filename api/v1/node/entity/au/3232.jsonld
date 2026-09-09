@@ -1,49 +1,71 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3232",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/3232",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ghalib Abdullah Al-Zaidi",
+      "@type": "NameVariant",
+      "fullName": "Ghalib Abdullah Al-Zaidi",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "غالب عبدالله الزيدي",
+      "@type": "NameVariant",
+      "fullName": "غالب عبدالله الزيدي",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ghalib Abdallah al-Zaydi",
+      "@type": "NameVariant",
+      "fullName": "Ghalib Abdallah al-Zaydi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ghalib Abdallah Ali al-Zaydi",
+      "@type": "NameVariant",
+      "fullName": "Ghalib Abdallah Ali al-Zaydi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ghalib al Zaydi",
+      "@type": "NameVariant",
+      "fullName": "Ghalib al Zaydi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "A leader of Al-Qaida in the Arabian Peninsula (AQAP) (QDe.129) in Marib Governorate, Yemen since 2015.  Provided AQAP with weapons, funding and recruits. Review pursuant to Security Council resolution 2368 (2017) was concluded on 4 Dec. 2019. Review pursuant to Security Council resolution 2610 (2021) was concluded on 30 October 2023.; Listing: Listed on: 22 Feb. 2017 (amended 6 Dec 2019)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3232"
   ],
-  "birth_info": [
+  "remarks": "A leader of Al-Qaida in the Arabian Peninsula (AQAP) (QDe.129) in Marib Governorate, Yemen since 2015.  Provided AQAP with weapons, funding and recruits. Review pursuant to Security Council resolution 2368 (2017) was concluded on 4 Dec. 2019. Review pursuant to Security Council resolution 2610 (2021) was concluded on 30 October 2023.; Listing: Listed on: 22 Feb. 2017 (amended 6 Dec 2019)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1975,
       "country": "Raqqah Region"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1970,
       "country": "Marib Governorate"
     }
   ],
   "nationalities": [
     "Yemen"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

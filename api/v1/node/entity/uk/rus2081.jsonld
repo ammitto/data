@@ -1,28 +1,44 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus2081",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus2081",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "SVERDLOV STATE-OWNED ENTERPRISE ",
+      "@type": "NameVariant",
+      "fullName": "SVERDLOV STATE-OWNED ENTERPRISE ",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Federal State Enterprise \"Plant named after Y.M. Sverdlov\"",
+      "@type": "NameVariant",
+      "fullName": "Federal State Enterprise \"Plant named after Y.M. Sverdlov\"",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus2081"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Sverdlov Avenue, 4., Nizhny Novgorod Region",
       "state": "Dzerzhinsk",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

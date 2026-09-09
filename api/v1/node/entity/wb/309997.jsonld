@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/309997",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/309997",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "CONSTRUCCIONES Y SERVICIOS MERUBIA",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "CONSTRUCCIONES Y SERVICIOS MERUBIA",
+      "isPrimary": true
     }
   ],
-  "remarks": "*210",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/309997"
+  ],
+  "remarks": "*210",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "KILOMETRO 6 DOBLE VIA LA GUARDIA, BARRIO EL BAJIO SUR, CALLE 16 DE JUNIO NO. 6810",
       "city": "SANTA CRUZ",
       "country": "Bolivia",
-      "country_iso_code": "BO"
+      "countryIsoCode": "BO"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

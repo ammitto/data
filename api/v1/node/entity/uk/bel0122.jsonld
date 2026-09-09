@@ -1,34 +1,51 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/bel0122",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/bel0122",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Minotor-Service Enterprise",
-      "first_name": "Industrial-Commercial Private Unitary Enterprise Minotor-Service",
+      "@type": "NameVariant",
+      "fullName": "Minotor-Service Enterprise",
+      "firstName": "Industrial-Commercial Private Unitary Enterprise Minotor-Service",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "INDUSTRIAL-COMMERCIAL PRIVATE UNITARY ENTERPRISE MINOTOR-SERVICE",
+      "@type": "NameVariant",
+      "fullName": "INDUSTRIAL-COMMERCIAL PRIVATE UNITARY ENTERPRISE MINOTOR-SERVICE",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Минотор-Сервис ",
+      "@type": "NameVariant",
+      "fullName": "Минотор-Сервис ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/bel0122"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "ul. Karvata, d. 84, kom. 1",
       "state": "Minsk",
       "country": "Belarus"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

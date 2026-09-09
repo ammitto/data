@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/55329",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/55329",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Nikiforova Victoria",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Nikiforova Victoria",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/55329"
   ],
   "remarks": "Victoria Nikiforova is a Russian propagandist and columnist at RIA Novosti, a Russian State-owned domestic news agency under the effective State control of Rossiya Segodnya. She is a central figure in Government propaganda and has denied Ukraine's right to exist, as well as the ability of the Ukrainian people to decide for itself. She describes the Ukrainian people as “brainwashed” and “taken hostage” and thus promotes a positive attitude towards the Russian aggression against Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1971-06-12",
-      "circa": false
+      "circa": false,
+      "year": 1971
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

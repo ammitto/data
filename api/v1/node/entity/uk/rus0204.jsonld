@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus0204",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus0204",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Stroygazmontazh-Most OOO (SGM-MOST OOO)",
+      "@type": "NameVariant",
+      "fullName": "Stroygazmontazh-Most OOO (SGM-MOST OOO)",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "Names of Director(s)/Management: Chief Ostrovskiy Alexandr Vladimirovich – ID773117605092|Ultimate beneficial owner(s): Arkady Rotenberg (subject to EU Sanctions) The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus0204"
+  ],
+  "remarks": "Names of Director(s)/Management: Chief Ostrovskiy Alexandr Vladimirovich – ID773117605092|Ultimate beneficial owner(s): Arkady Rotenberg (subject to EU Sanctions) The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Barklaya street 6, Building 7",
       "state": "Moscow",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

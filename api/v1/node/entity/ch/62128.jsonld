@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/62128",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/62128",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Waseem Omar Al-Masalma",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Waseem Omar Al-Masalma",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/62128"
   ],
   "remarks": "Waseem Omar al-Masalma is a leader of a regime-affiliated militia.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1981-08-27",
-      "circa": false
+      "circa": false,
+      "year": 1981
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

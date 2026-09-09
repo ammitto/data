@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/42992",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/42992",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Luis Eduardo Parra Rivero",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Luis Eduardo Parra Rivero",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/42992"
   ],
   "remarks": "Member of the non-democratically elected National Assembly. As a member of the National Assembly elected in 2015, he staged his election as President of the National Assembly on 5 Jan 2020, thereby undermining democracy and the rule of law in Venezuela. The election took place while entry of several parliamentarians to the premises of the National Assembly was blocked by military police, and without a quorum being reached. Therefore, opposition members had to organise themselves outside of the premises of the National Assembly to re-elect Juan Guaidó as its President. Shortly after the staged election of Parra Rivero, supported by the regime’s political party (PSUV), Parra Rivero was welcomed by Maduro and the non-recognised National Constituent Assembly (ANC).",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1978-07-07",
-      "circa": false
+      "circa": false,
+      "year": 1978
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

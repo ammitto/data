@@ -1,32 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/inu0357",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/inu0357",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "PETROPARS UK LTD",
+      "@type": "NameVariant",
+      "fullName": "PETROPARS UK LTD",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "PETROPARS SERVICES LIMITED ",
+      "@type": "NameVariant",
+      "fullName": "PETROPARS SERVICES LIMITED ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "PETROPARS UK LIMITED ",
+      "@type": "NameVariant",
+      "fullName": "PETROPARS UK LIMITED ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/inu0357"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "4 Dancastle Court, 14 Arcadia Avenue",
       "state": "London",
       "country": "United Kingdom"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

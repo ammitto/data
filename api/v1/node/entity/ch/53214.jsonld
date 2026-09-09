@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/53214",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/53214",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ananchenko Alexander Yevgenevych",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Ananchenko Alexander Yevgenevych",
+      "isPrimary": true
     }
   ],
-  "remarks": "Former so-called “Prime Minister” of the so-called “Donetsk People’s Republic”. In taking on and acting in this capacity, he actively undermined the territorial integrity, sovereignty and independence of Ukraine. Former Council Member of the Federation Council Committee on Federal Structure, Regional Policy, Local Self-Government and Northern Affairs.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/53214"
+  ],
+  "remarks": "Former so-called “Prime Minister” and member of the Federation Council (Senator from 2002 to 2023) of the so-called “Donetsk People’s Republic”. In taking on and acting in this capacity, he actively undermined the territorial integrity, sovereignty and independence of Ukraine. Former Council Member of the Federation Council Committee on Federal Structure, Regional Policy, Local Self-Government and Northern Affairs.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1966-02-02",
-      "circa": false
+      "circa": false,
+      "year": 1966
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

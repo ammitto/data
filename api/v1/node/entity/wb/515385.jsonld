@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/515385",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/515385",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "VN1 INDUSTRIAL GROUP JSC",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "VN1 INDUSTRIAL GROUP JSC",
+      "isPrimary": true
     }
   ],
-  "remarks": "*564",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/515385"
+  ],
+  "remarks": "*564",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "56B, NGUYEN DONG CHI ROAD, NAM HONG WARD",
       "city": "HONG LINH, HA TINH PROVINCE",
       "country": "Viet Nam",
-      "country_iso_code": "VN"
+      "countryIsoCode": "VN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

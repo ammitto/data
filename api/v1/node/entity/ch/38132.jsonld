@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/38132",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/38132",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kahimbi Delphin",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kahimbi Delphin",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/38132"
   ],
   "remarks": "Delphin Kahimbi has been assistant Chief of Staff within the FARDC General Staff since Jul 2018, with responsibility for intelligence. Owing to his role, he bears responsibility for the recent human rights violations committed by the FARDC.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1969-01-15",
-      "circa": false
+      "circa": false,
+      "year": 1969
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

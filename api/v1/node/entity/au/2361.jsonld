@@ -1,32 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/au/2361",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/2361",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Scientific Studies and Research Centre",
+      "@type": "NameVariant",
+      "fullName": "Scientific Studies and Research Centre",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "SSRC",
+      "@type": "NameVariant",
+      "fullName": "SSRC",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "CERS",
+      "@type": "NameVariant",
+      "fullName": "CERS",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Scientific Studies and Research Centre purchases equipment for the Syrian military.; Listing: Designated under the Autonomous Sanctions Regulations 2011 on 2 March 2012. Relisted on 12 January 2024",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/2361"
+  ],
+  "remarks": "Scientific Studies and Research Centre purchases equipment for the Syrian military.; Listing: Designated under the Autonomous Sanctions Regulations 2011 on 2 March 2012. Relisted on 12 January 2024",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Barzeh St., P.O. Box 4470, Damascus, Syrian Arab Republic",
       "country": "Syrian Arab Republic"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

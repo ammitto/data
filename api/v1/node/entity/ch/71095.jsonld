@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/71095",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/71095",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mohannad al-Dabbagh",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Mohannad al-Dabbagh",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/71095"
   ],
   "remarks": "Mohannad al-Dabbagh is a cousin of Asma al-Assad. He co-owns Takamol LLC, a company responsible for managing the electronic “smart card program” used since 2014 to distribute subsidised food and other products in Syria under the umbrella of the Ministry of Domestic Trade and Consumer Protection. In particular, Takamol LLC earns a fee for every transaction operated through the smart card.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1967-03-06",
-      "circa": false
+      "circa": false,
+      "year": 1967
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

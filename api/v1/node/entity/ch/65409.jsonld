@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/65409",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/65409",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Pustavy Yauhen",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Pustavy Yauhen",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/65409"
   ],
   "remarks": "Yauhen Pustavy is a Belarussian propagandist working for Stolichnoye Televideniye, one of the three national television channels in Belarus, and for Minskaya Prauda, a state newspaper. He is responsible for disseminating propaganda in support of Lukashenka’s policies and which justifies Russia’ war of aggression against Ukraine. He was awarded by Lukashenka for his merits in the development of the State information policy. Moreover, he is member of the State Commission aimed at verifying political refugees who wish to return to Belarus. This commission was created by Lukashenka with the political aim of portraying the refugees returning to Belarus as persons regretting their actions against the Lukashenka regime. He is therefore benefiting from and supporting the Lukashenka regime.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1984-02-29",
-      "circa": false
+      "circa": false,
+      "year": 1984
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

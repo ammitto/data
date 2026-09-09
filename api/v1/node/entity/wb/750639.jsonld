@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/750639",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/750639",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "M/S. A.S. CONSTRUCTION",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "M/S. A.S. CONSTRUCTION",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/750639"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "HOUSE NO. C-151, SEROIL COLONY, GHORAMA",
       "city": "BOALIA, RAJSHAHI-6000",
       "country": "Bangladesh",
-      "country_iso_code": "BD"
+      "countryIsoCode": "BD"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/46989",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/46989",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Utkin Dimitriy Valerievich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Utkin Dimitriy Valerievich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/46989"
   ],
   "remarks": "Dimitriy Utkin, a former Russian military intelligence (GRU) officer, is the founder of the Wagner Group and responsible for coordinating and planning operations for the deployment of Wagner Group mercenaries in Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1970-06-01",
-      "circa": false
+      "circa": false,
+      "year": 1970
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

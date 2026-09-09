@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/506707",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/506707",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "BDCTEC INTERNATIONAL SL.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "BDCTEC INTERNATIONAL SL.",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/506707"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "CALLE BARCELONA, 9, VILLALBILLA, 28810",
       "city": "MADRID",
       "country": "Spain",
-      "country_iso_code": "ES"
+      "countryIsoCode": "ES"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

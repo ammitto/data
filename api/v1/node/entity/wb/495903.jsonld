@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/495903",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/495903",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "KAIROS CONSTRUTORA LTDA.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "KAIROS CONSTRUTORA LTDA.",
+      "isPrimary": true
     }
   ],
-  "remarks": "*543",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/495903"
+  ],
+  "remarks": "*543",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "AVENIDA FERNÃO DIAS PAES LEME, 135 D – ALTOS, CONJUNTO DOM PEDRO II, CEP: 69042-690",
       "city": "MANAUS, AM",
       "country": "Brazil",
-      "country_iso_code": "BR"
+      "countryIsoCode": "BR"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

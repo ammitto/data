@@ -1,57 +1,82 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/som0004",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/som0004",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "AL-TURKI",
-      "first_name": "HASSAN",
+      "@type": "NameVariant",
+      "fullName": "AL-TURKI",
+      "firstName": "HASSAN",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "AL-TURKI",
-      "first_name": "Hassan",
+      "@type": "NameVariant",
+      "fullName": "AL-TURKI",
+      "firstName": "Hassan",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "TURKI",
-      "first_name": "Hassan",
+      "@type": "NameVariant",
+      "fullName": "TURKI",
+      "firstName": "Hassan",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "TURKI",
-      "first_name": "Hassan",
+      "@type": "NameVariant",
+      "fullName": "TURKI",
+      "firstName": "Hassan",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "TURKI",
-      "first_name": "Sheikh",
+      "@type": "NameVariant",
+      "fullName": "TURKI",
+      "firstName": "Sheikh",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "XIRSI",
-      "first_name": "Xasan",
+      "@type": "NameVariant",
+      "fullName": "XIRSI",
+      "firstName": "Xasan",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "XIRSI",
-      "first_name": "Xasan",
+      "@type": "NameVariant",
+      "fullName": "XIRSI",
+      "firstName": "Xasan",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/som0004"
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "country": "Somalia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,32 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3400",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/3400",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Peace to Luhansk Region",
+      "@type": "NameVariant",
+      "fullName": "Peace to Luhansk Region",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Peace to Lugansk",
+      "@type": "NameVariant",
+      "fullName": "Peace to Lugansk",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Mir Luganschine",
+      "@type": "NameVariant",
+      "fullName": "Mir Luganschine",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Listing: Listed on 1 Sep. 2017 (relisted on 28 Aug. 2020) (relisted on 27 Aug 2023)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3400"
+  ],
+  "remarks": "Listing: Listed on 1 Sep. 2017 (relisted on 28 Aug. 2020) (relisted on 27 Aug 2023)",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Karl Marx Street 7, Luhansk, Ukraine",
       "country": "Ukraine"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/81690",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/81690",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Abdul Hakim Murad",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Abdul Hakim Murad",
+      "isPrimary": true
     }
   ],
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/81690"
+  ],
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1968-04-11",
-      "circa": false
+      "circa": false,
+      "year": 1968
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,39 +1,63 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/irn0126",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/irn0126",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Nejat",
-      "first_name": "Hossein",
+      "@type": "NameVariant",
+      "fullName": "Nejat",
+      "firstName": "Hossein",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Nejad",
-      "first_name": "Mohammed",
+      "@type": "NameVariant",
+      "fullName": "Nejad",
+      "firstName": "Mohammed",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Zibayinejad",
-      "first_name": "Mohammed",
+      "@type": "NameVariant",
+      "fullName": "Zibayinejad",
+      "firstName": "Mohammed",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "حسین نجات",
+      "@type": "NameVariant",
+      "fullName": "حسین نجات",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "محمد حسین زیبایی نژاد",
+      "@type": "NameVariant",
+      "fullName": "محمد حسین زیبایی نژاد",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/irn0126"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

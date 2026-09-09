@@ -1,32 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8137",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/8137",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "MNIPI Open Joint Stock Company",
+      "@type": "NameVariant",
+      "fullName": "MNIPI Open Joint Stock Company",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Minsk Research Institute of Instrument Engineering JSC",
+      "@type": "NameVariant",
+      "fullName": "Minsk Research Institute of Instrument Engineering JSC",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Minsk Scientific and Research Institute of Instrument Engineering",
+      "@type": "NameVariant",
+      "fullName": "Minsk Scientific and Research Institute of Instrument Engineering",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "https://mnipi.com/; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8137"
+  ],
+  "remarks": "https://mnipi.com/; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Yana Kolasa Street, 73, Minsk 220113 Belarus",
       "country": "Minsk 220113 Belarus"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

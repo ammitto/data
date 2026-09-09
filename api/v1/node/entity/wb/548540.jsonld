@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/548540",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/548540",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "THAI SON TRAFFIC WORK CONSTRUCTION JSC",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "THAI SON TRAFFIC WORK CONSTRUCTION JSC",
+      "isPrimary": true
     }
   ],
-  "remarks": "*590",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/548540"
+  ],
+  "remarks": "*590",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "SỐ 51, LȂ XUȂN OAI, PHUÒNG LONG TRUÒNG, QUȂN 9",
       "city": "HO CHI MINH CITY",
       "country": "Viet Nam",
-      "country_iso_code": "VN"
+      "countryIsoCode": "VN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

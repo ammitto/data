@@ -1,27 +1,47 @@
 {
-  "id": "https://www.ammitto.org/entity/au/2731",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/2731",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Dmitry Vladimirovich OVSYANNIKOV",
+      "@type": "NameVariant",
+      "fullName": "Dmitry Vladimirovich OVSYANNIKOV",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Dmitriy Vladimirovich OVSYANNIKOV",
+      "@type": "NameVariant",
+      "fullName": "Dmitriy Vladimirovich OVSYANNIKOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Former Governor of the Ukrainian city of Sevastopol.  Made public statements supporting the illegal annexation of Crimea and Sevastopol and for Sevastopol to become the Southern capital of the Russian Federation.\nFormer Deputy Minister of Industry and Trade of the Russian Federation.; Listing: Listed on 16 June 2017, re-listed 10 Jun 2020 and 29 March 2021 and 10 June 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/2731"
   ],
-  "birth_info": [
+  "remarks": "Former Governor of the Ukrainian city of Sevastopol.  Made public statements supporting the illegal annexation of Crimea and Sevastopol and for Sevastopol to become the Southern capital of the Russian Federation.\nFormer Deputy Minister of Industry and Trade of the Russian Federation.; Listing: Listed on 16 June 2017, re-listed 10 Jun 2020 and 29 March 2021 and 10 June 2023",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1977,
       "country": "Omsk"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

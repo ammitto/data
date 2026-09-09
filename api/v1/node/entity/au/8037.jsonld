@@ -1,44 +1,64 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8037",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/8037",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "SHIN Geum Cheol",
+      "@type": "NameVariant",
+      "fullName": "SHIN Geum Cheol",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Shin Geum Chol",
+      "@type": "NameVariant",
+      "fullName": "Shin Geum Chol",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Shin Gum Cheol",
+      "@type": "NameVariant",
+      "fullName": "Shin Gum Cheol",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Shin Kum Chol",
+      "@type": "NameVariant",
+      "fullName": "Shin Kum Chol",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Sin Kum Cheol",
+      "@type": "NameVariant",
+      "fullName": "Sin Kum Cheol",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Head of the Democratic People’s Republic of Korea’s (DPRK) Main Operational Directorate; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8037"
   ],
-  "birth_info": [
+  "remarks": "Head of the Democratic People’s Republic of Korea’s (DPRK) Main Operational Directorate; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1961
     }
   ],
   "nationalities": [
     "Democratic People's Republic of Korea (North Korea)"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

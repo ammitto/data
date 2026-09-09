@@ -1,21 +1,36 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/361656",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/361656",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "ENTREPRISE DE CONSTRUCTION URBAINE ET RURALES (ECUR) SARI",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "ENTREPRISE DE CONSTRUCTION URBAINE ET RURALES (ECUR) SARI",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/361656"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "AMDALLAYE- RUE PAVÉE, FACE À LA MAIRIE",
       "country": "Mali",
-      "country_iso_code": "ML"
+      "countryIsoCode": "ML"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

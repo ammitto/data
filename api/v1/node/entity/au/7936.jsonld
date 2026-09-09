@@ -1,69 +1,94 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7936",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7936",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Alexey Ivanovich GIRICHEV",
+      "@type": "NameVariant",
+      "fullName": "Alexey Ivanovich GIRICHEV",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Aleksey Ivanovich GIRICHEV",
+      "@type": "NameVariant",
+      "fullName": "Aleksey Ivanovich GIRICHEV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Aleksei Ivanovich GIRICHEV",
+      "@type": "NameVariant",
+      "fullName": "Aleksei Ivanovich GIRICHEV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Alexei Ivanovich GIRICHEV",
+      "@type": "NameVariant",
+      "fullName": "Alexei Ivanovich GIRICHEV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Alexej Ivanovic GIRICEV",
+      "@type": "NameVariant",
+      "fullName": "Alexej Ivanovic GIRICEV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Aleksej GIRICEV",
+      "@type": "NameVariant",
+      "fullName": "Aleksej GIRICEV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Aleksej GIRIČEV",
+      "@type": "NameVariant",
+      "fullName": "Aleksej GIRIČEV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Aleksej Ivanovitj GIRITJEV",
+      "@type": "NameVariant",
+      "fullName": "Aleksej Ivanovitj GIRITJEV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Alexej Ivanovič GIRIČEV",
+      "@type": "NameVariant",
+      "fullName": "Alexej Ivanovič GIRIČEV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Aleksey GIRICHEV",
+      "@type": "NameVariant",
+      "fullName": "Aleksey GIRICHEV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Deputy Head the Russian Federal Penitentiary Service (FSIN); Formerly the Regional Head of the Russian Federal Penitentiary Service (FSIN) in Vladimir Region until March 2023; National Tax No. 382101379684; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Thematic Sanctions) Amendment (No. 2) Instrument 2024",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7936"
   ],
-  "birth_info": [
+  "remarks": "Deputy Head the Russian Federal Penitentiary Service (FSIN); Formerly the Regional Head of the Russian Federal Penitentiary Service (FSIN) in Vladimir Region until March 2023; National Tax No. 382101379684; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Thematic Sanctions) Amendment (No. 2) Instrument 2024",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1975
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,47 +1,67 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus2945",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus2945",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "JSC SCIENTIFIC RESEARCH INSTITUTE SOLITON",
+      "@type": "NameVariant",
+      "fullName": "JSC SCIENTIFIC RESEARCH INSTITUTE SOLITON",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "JSC NII Soliton",
+      "@type": "NameVariant",
+      "fullName": "JSC NII Soliton",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "JSC Research Institute Soliton",
+      "@type": "NameVariant",
+      "fullName": "JSC Research Institute Soliton",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "JSC SRI Soliton",
+      "@type": "NameVariant",
+      "fullName": "JSC SRI Soliton",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Soliton Research Institute, JSC",
+      "@type": "NameVariant",
+      "fullName": "Soliton Research Institute, JSC",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Акционерное общество \"Научно-исследовательский институт \"Солитон\"",
+      "@type": "NameVariant",
+      "fullName": "Акционерное общество \"Научно-исследовательский институт \"Солитон\"",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus2945"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Ul. Aiskaya d.46, Volga Federal Region",
       "state": "Ufa",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

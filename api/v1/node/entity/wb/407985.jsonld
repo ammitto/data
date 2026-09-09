@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/407985",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/407985",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "PT. NUGRAHA ADI TARUNA",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "PT. NUGRAHA ADI TARUNA",
+      "isPrimary": true
     }
   ],
-  "remarks": "*496",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/407985"
+  ],
+  "remarks": "*496",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "JL. BANGKA RAYA NO. 27 E. PELA",
       "city": "MAMPANG, JAKARTA SELATAN, JAKARTA 12720",
       "country": "Indonesia",
-      "country_iso_code": "ID"
+      "countryIsoCode": "ID"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

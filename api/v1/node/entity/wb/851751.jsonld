@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/851751",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/851751",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "BAXODIR LOG’ON TEKSIL",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "BAXODIR LOG’ON TEKSIL",
+      "isPrimary": true
     }
   ],
-  "remarks": "(TIN No. 304332224) *489",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/851751"
+  ],
+  "remarks": "(TIN No. 304332224) *489",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "FERGANA DISTRICT, LOGAN QFY, KALACHA STREET, 69",
       "city": "FERGANA REGION",
       "country": "Uzbekistan",
-      "country_iso_code": "UZ"
+      "countryIsoCode": "UZ"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

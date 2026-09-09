@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/6783",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/6783",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mutasa Didymus Noel Edwin",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Mutasa Didymus Noel Edwin",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/6783"
   ],
   "remarks": "ZANU-PF Member of the Government. Involved in murders in Manicaland.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1935-07-27",
-      "circa": false
+      "circa": false,
+      "year": 1935
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,32 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8081",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/8081",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "The Central Aerohydrodynamic Institute Named after Professor N.E. Zhukovsky Federal Autonomous Enterprise",
+      "@type": "NameVariant",
+      "fullName": "The Central Aerohydrodynamic Institute Named after Professor N.E. Zhukovsky Federal Autonomous Enterprise",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Central Aerohydrodynamic Institute",
+      "@type": "NameVariant",
+      "fullName": "Central Aerohydrodynamic Institute",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "TsAGI",
+      "@type": "NameVariant",
+      "fullName": "TsAGI",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "https://www.tsagi.ru/; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8081"
+  ],
+  "remarks": "https://www.tsagi.ru/; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Zhukovskogo Street, 1 Zhukovskiy, Moscow Region 140180 Russia",
       "country": "Moscow Region 140180 Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

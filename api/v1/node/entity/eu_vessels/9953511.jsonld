@@ -1,18 +1,34 @@
 {
-  "id": "https://www.ammitto.org/entity/eu_vessels/9953511",
-  "entity_type": "vessel",
+  "@id": "https://www.ammitto.org/entity/eu_vessels/9953511",
+  "@type": "VesselEntity",
+  "entityType": "vessel",
   "names": [
     {
-      "full_name": "North Mountain",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "North Mountain",
+      "isPrimary": true
     }
   ],
-  "source_references": [
+  "sourceReferences": [
     {
-      "source_code": "eu_vessels",
-      "reference_number": "9953511"
+      "@type": "SourceReference",
+      "sourceCode": "eu_vessels",
+      "referenceNumber": "9953511",
+      "retrievedAt": "2026-09-09T16:30:54Z"
     }
   ],
-  "imo_number": "9953511",
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "linkedEntities": [
+
+  ],
+  "imoNumber": "9953511",
+  "previousNames": [
+
+  ],
+  "previousFlags": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/eu_vessels/vessel-sanctions-list/9953511"
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

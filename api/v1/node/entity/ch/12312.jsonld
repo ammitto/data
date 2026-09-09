@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/12312",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/12312",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Adib Mayaleh",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Adib Mayaleh",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/12312"
   ],
   "remarks": "Former Governor and Chairman of the Board of Directors of the Central Bank of Syria.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1955-05-15",
-      "circa": false
+      "circa": false,
+      "year": 1955
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

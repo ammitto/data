@@ -1,34 +1,57 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/caf0027",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/caf0027",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Khodotov",
-      "first_name": "Yevgeny",
+      "@type": "NameVariant",
+      "fullName": "Khodotov",
+      "firstName": "Yevgeny",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Khodotov",
-      "first_name": "Evgenii",
+      "@type": "NameVariant",
+      "fullName": "Khodotov",
+      "firstName": "Evgenii",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Khodotov",
-      "first_name": "Yevgeniy",
+      "@type": "NameVariant",
+      "fullName": "Khodotov",
+      "firstName": "Yevgeniy",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ходотов Євген Гаррійович ",
+      "@type": "NameVariant",
+      "fullName": "Ходотов Євген Гаррійович ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/caf0027"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

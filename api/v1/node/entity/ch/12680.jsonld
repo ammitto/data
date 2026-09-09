@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/12680",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/12680",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Michel Kassouha",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Michel Kassouha",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/12680"
   ],
   "remarks": "Member of the Syrian security services since the early 1970s, he is involved in combating opposition in France and Germany. Since Mar 2006, has been responsible for public relations of Branch 273 of the Syrian General Intelligence Directorate. A longstanding member of the managerial staff, he is close to General Intelligence Directorate head Ali Mamlouk, one of the top security officials of the regime who has been subject to EU restrictive measures since 9.5.2011. He directly supports the Syrian regime’s repression of opponents and is responsible inter alia for repression of the Syrian opposition abroad.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1948-02-01",
-      "circa": false
+      "circa": false,
+      "year": 1948
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

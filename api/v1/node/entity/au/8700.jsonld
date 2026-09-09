@@ -1,27 +1,43 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8700",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/8700",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Commercial Joint Stock Bank Viking",
+      "@type": "NameVariant",
+      "fullName": "Commercial Joint Stock Bank Viking",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "KAB Viking",
+      "@type": "NameVariant",
+      "fullName": "KAB Viking",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Website: http://www.vikingbank.ru; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2026",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8700"
+  ],
+  "remarks": "Website: http://www.vikingbank.ru; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2026",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "17, Vladimirskiy Avenue (Pr-kt Vladimirsky), Saint Petersburg, Russia, 191002.",
       "country": "191002."
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

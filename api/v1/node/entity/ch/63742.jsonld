@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/63742",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/63742",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Pegov Semyon Vladimirovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Pegov Semyon Vladimirovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/63742"
   ],
   "remarks": "Semyon Pegov is a Russian military blogger and runs one of the most popular pro-war social media channels in Russia, WarGonzo. He frequently appears in Russian state controlled media. Semyon Pegov and WarGonzo spread anti-Ukrainian propaganda and promote the Russian military and PMC Wagner, depicting Ukrainian forces as Nazis and disseminating false information on NATO biological laboratories in Mariupol.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1985-09-09",
-      "circa": false
+      "circa": false,
+      "year": 1985
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

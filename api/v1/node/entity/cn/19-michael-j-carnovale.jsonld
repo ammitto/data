@@ -1,22 +1,43 @@
 {
-  "id": "https://www.ammitto.org/entity/cn/19-michael-j-carnovale",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/cn/19-michael-j-carnovale",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Michael J. Carnovale",
+      "@type": "NameVariant",
+      "fullName": "Michael J. Carnovale",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "迈克尔·卡诺维尔",
+      "@type": "NameVariant",
+      "fullName": "迈克尔·卡诺维尔",
       "script": "Hani",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/cn/anti-sanction-list/19-michael-j-carnovale"
+  ],
   "remarks": "List: cn/anti-sanction-list; Title: 先进声学概念有限责任公司总裁兼首席执行官; Gender: male",
-  "sanction_entry_ids": [
-    "https://www.ammitto.org/entry/cn/unknown/19-michael-j-carnovale"
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
   ],
   "gender": "male",
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

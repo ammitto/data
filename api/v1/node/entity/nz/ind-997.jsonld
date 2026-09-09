@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/nz/ind-997",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/nz/ind-997",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Vadim Ivanovich DENISENKO",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Vadim Ivanovich DENISENKO",
+      "isPrimary": true
     }
   ],
-  "source_references": [
+  "sourceReferences": [
     {
-      "source_code": "nz",
-      "reference_number": "IND-997"
+      "@type": "SourceReference",
+      "sourceCode": "nz",
+      "referenceNumber": "IND-997",
+      "retrievedAt": "2026-09-09T16:30:44Z"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "linkedEntities": [
+
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/nz/consolidated-list/ind-997"
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

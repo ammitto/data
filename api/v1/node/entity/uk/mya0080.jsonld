@@ -1,38 +1,56 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/mya0080",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/mya0080",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "King Royal Technologies Co. Ltd",
+      "@type": "NameVariant",
+      "fullName": "King Royal Technologies Co. Ltd",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "King Royal Technologies",
+      "@type": "NameVariant",
+      "fullName": "King Royal Technologies",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "King Royal Technologies Co",
+      "@type": "NameVariant",
+      "fullName": "King Royal Technologies Co",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "ကင်း(င်)ရွိုင်ရယ်(လ်) တက်ကနော်လော်ဂျီ(စ်) ကုမ္ပဏီ လီမိတက်",
+      "@type": "NameVariant",
+      "fullName": "ကင်း(င်)ရွိုင်ရယ်(လ်) တက်ကနော်လော်ဂျီ(စ်) ကုမ္ပဏီ လီမိတက်",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/mya0080"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "4, Min Dhama Rd., Shwe Gabar 6th Street, Shwe Gabar Housing, Mayangone",
       "state": "Yangon",
       "country": "Myanmar"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

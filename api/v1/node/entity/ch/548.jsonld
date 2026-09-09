@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/548",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/548",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Radic Miroslav",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Radic Miroslav",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/548"
   ],
   "remarks": "Indicted by International Criminal Tribunal for former Yugoslavia (IT-95-13a)",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1961-01-01",
-      "circa": false
+      "circa": false,
+      "year": 1961
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

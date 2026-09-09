@@ -1,34 +1,55 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/aqd0317",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/aqd0317",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "BEN GOUMO",
-      "first_name": "Sofiane",
+      "@type": "NameVariant",
+      "fullName": "BEN GOUMO",
+      "firstName": "Sofiane",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "al Libi",
-      "first_name": "Abou",
+      "@type": "NameVariant",
+      "fullName": "al Libi",
+      "firstName": "Abou",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "bin Qumu",
-      "first_name": "Sufyan",
+      "@type": "NameVariant",
+      "fullName": "bin Qumu",
+      "firstName": "Sufyan",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Leader of Ansar al Charia Derna (QDe.145). INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/notice/search/un/5893103",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/aqd0317"
+  ],
+  "remarks": "Leader of Ansar al Charia Derna (QDe.145). INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/notice/search/un/5893103",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "country": "Libya"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

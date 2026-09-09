@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/329180",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/329180",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "BEST SCAN SOLUTIONS LIMITED",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "BEST SCAN SOLUTIONS LIMITED",
+      "isPrimary": true
     }
   ],
-  "remarks": "*355",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/329180"
+  ],
+  "remarks": "*355",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "10 OBANLE ARO AVENUE, OFF COKER ROAD, ILUPEJU",
       "city": "LAGOS",
       "country": "Nigeria",
-      "country_iso_code": "NG"
+      "countryIsoCode": "NG"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

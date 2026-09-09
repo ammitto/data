@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/567296",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/567296",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "MR. A K M SHAHID ULLAH",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "MR. A K M SHAHID ULLAH",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/567296"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "NO. 34 BARDHAN BARI, MIRPUR - 1",
       "city": "DHAKA 1216",
       "country": "Bangladesh",
-      "country_iso_code": "BD"
+      "countryIsoCode": "BD"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

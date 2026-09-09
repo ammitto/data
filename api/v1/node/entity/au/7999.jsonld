@@ -1,44 +1,64 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7999",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7999",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Aleksandr Igorevich MISHIN",
+      "@type": "NameVariant",
+      "fullName": "Aleksandr Igorevich MISHIN",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Alex560560",
+      "@type": "NameVariant",
+      "fullName": "Alex560560",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "triplex560",
+      "@type": "NameVariant",
+      "fullName": "triplex560",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "james1789",
+      "@type": "NameVariant",
+      "fullName": "james1789",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "sasha-brn",
+      "@type": "NameVariant",
+      "fullName": "sasha-brn",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Senior Employee of Zservers; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Thematic Sanctions) Amendment (No. 1) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7999"
   ],
-  "birth_info": [
+  "remarks": "Senior Employee of Zservers; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Thematic Sanctions) Amendment (No. 1) Instrument 2025",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1994
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

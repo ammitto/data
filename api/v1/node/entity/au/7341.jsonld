@@ -1,49 +1,70 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7341",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7341",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Qasem REZAEI",
+      "@type": "NameVariant",
+      "fullName": "Qasem REZAEI",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Ghasem REZAEI",
+      "@type": "NameVariant",
+      "fullName": "Ghasem REZAEI",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ghasem Rezayi REZA",
+      "@type": "NameVariant",
+      "fullName": "Ghasem Rezayi REZA",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Qasim RZAI",
+      "@type": "NameVariant",
+      "fullName": "Qasim RZAI",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Qassem REZAEI",
+      "@type": "NameVariant",
+      "fullName": "Qassem REZAEI",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Qassem REZAYEE",
+      "@type": "NameVariant",
+      "fullName": "Qassem REZAYEE",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Brigadier-General, Deputy Commander of Iran’s Law Enforcement Command; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Thematic Sanctions) Amendment (No. 1) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7341"
   ],
-  "birth_info": [
+  "remarks": "Brigadier-General, Deputy Commander of Iran’s Law Enforcement Command; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Thematic Sanctions) Amendment (No. 1) Instrument 2023",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1961
     }
   ],
   "nationalities": [
     "Iran"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

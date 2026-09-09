@@ -1,34 +1,51 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus2393",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus2393",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "NINGBO OTURN MACHINERY CO., LTD",
+      "@type": "NameVariant",
+      "fullName": "NINGBO OTURN MACHINERY CO., LTD",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Ningbo Outeng Machinery Co., Ltd",
+      "@type": "NameVariant",
+      "fullName": "Ningbo Outeng Machinery Co., Ltd",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "宁波欧腾机械有限公司",
+      "@type": "NameVariant",
+      "fullName": "宁波欧腾机械有限公司",
       "script": "Hani",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus2393"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "No. 128 Yungu Center",
       "city": "Jiangbei District",
       "state": "Ningbo",
       "country": "China"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

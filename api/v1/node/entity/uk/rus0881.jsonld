@@ -1,29 +1,48 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus0881",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/rus0881",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MAMSUROV",
-      "first_name": "Taimuraz",
+      "@type": "NameVariant",
+      "fullName": "MAMSUROV",
+      "firstName": "Taimuraz",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Таймураз Дзамбекович МАМСУРОВ",
+      "@type": "NameVariant",
+      "fullName": "Таймураз Дзамбекович МАМСУРОВ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus0881"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "26 Bolshaya Dmitrovka Street",
       "state": "Moscow",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/77901",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/77901",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kriakvin Aliaksei Iurievich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kriakvin Aliaksei Iurievich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/77901"
   ],
   "remarks": "Aliaksei Kriakvin is a propagandist for the State-owned ONT TV channel and is engaged in the production of propaganda material in support of the Lukashenka regime. In particular, he was directly involved in the work on ONT’s “special investigation” about the criminal case of Viktor Babariko, in which data from the preliminary investigation were disclosed. He appears in television programmes, regularly criticising the actions of opponents of the Lukashenka regime and talking about the involvement of the West in popular unrest in Belarus. He is therefore supporting the Lukashenka regime.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1984-11-09",
-      "circa": false
+      "circa": false,
+      "year": 1984
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

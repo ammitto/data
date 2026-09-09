@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/192662",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/192662",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "CONSTRUCTORA KATINGCAR",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "CONSTRUCTORA KATINGCAR",
+      "isPrimary": true
     }
   ],
-  "remarks": "*86",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/192662"
+  ],
+  "remarks": "*86",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "SECTOR 4, LOTE 24, CONDOMINIO LA CUPULA, ZONA 0, JOCOTENANGO, SACATEPEQUEZ",
       "country": "Guatemala",
-      "country_iso_code": "GT"
+      "countryIsoCode": "GT"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

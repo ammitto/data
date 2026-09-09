@@ -1,71 +1,94 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3593",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/3593",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mohamad Rafi Bin Udin",
+      "@type": "NameVariant",
+      "fullName": "Mohamad Rafi Bin Udin",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Mohd Radi Bin Udin",
+      "@type": "NameVariant",
+      "fullName": "Mohd Radi Bin Udin",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abu Awn al Malizi",
+      "@type": "NameVariant",
+      "fullName": "Abu Awn al Malizi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Muhammad Ratin",
+      "@type": "NameVariant",
+      "fullName": "Muhammad Ratin",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Muhammad Rafiuddin",
+      "@type": "NameVariant",
+      "fullName": "Muhammad Rafiuddin",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abu Una al Malayzie",
+      "@type": "NameVariant",
+      "fullName": "Abu Una al Malayzie",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Mhammad Rahim Bin Udin",
+      "@type": "NameVariant",
+      "fullName": "Mhammad Rahim Bin Udin",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abu Ayn Tok Cit",
+      "@type": "NameVariant",
+      "fullName": "Abu Ayn Tok Cit",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Muhammad Ratin Bin Nurdin",
+      "@type": "NameVariant",
+      "fullName": "Muhammad Ratin Bin Nurdin",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Passport no: Malaysia number A31142734, issued on 6 Nov. 2013 (issued by the Immigration Department of Malaysia, expiration date 6 Nov. 2015) National Identification no: Malaysia National Identification Card 660603-05-5267 (issued by National Registration Department of Malaysia; issued to Mohd Rafi bin Udin). Senior member of Islamic State in Iraq and the Levant (ISIL), listed as Al-Qaida in Iraq (QDe.115). Recruited for ISIL and instructed individuals to perpetrate terrorist acts via online video. Reportedly deceased. Physical description: eye colour: brown; hair colour: brown; complexion: dark. Speaks Malay, English, limited Arabic. Review pursuant to Security Council resolution 2610 (2021) was concluded on 30 October 2023.; Listing: Listed on: 23 Aug. 2018 (amended 14 Dec. 2023)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3593"
   ],
-  "birth_info": [
+  "remarks": "Passport no: Malaysia number A31142734, issued on 6 Nov. 2013 (issued by the Immigration Department of Malaysia, expiration date 6 Nov. 2015) National Identification no: Malaysia National Identification Card 660603-05-5267 (issued by National Registration Department of Malaysia; issued to Mohd Rafi bin Udin). Senior member of Islamic State in Iraq and the Levant (ISIL), listed as Al-Qaida in Iraq (QDe.115). Recruited for ISIL and instructed individuals to perpetrate terrorist acts via online video. Reportedly deceased. Physical description: eye colour: brown; hair colour: brown; complexion: dark. Speaks Malay, English, limited Arabic. Review pursuant to Security Council resolution 2610 (2021) was concluded on 30 October 2023.; Listing: Listed on: 23 Aug. 2018 (amended 14 Dec. 2023)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1966,
       "country": "Negri Sembilan"
     }
   ],
   "nationalities": [
-    "Indonesia;Malaysia"
+    "Indonesia",
+    "Malaysia"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "a) B-3B-19 Glenview Villa, Jalan 49 Off Jalan Kuari, Taman Pinggiran Cheras, 56000, Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia (as at 30 Jan. 2014) b) 90-00-04 Flat Sri Kota, Bandar Tun Razak, 56100, Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia (as at 23 Apr. 2010) c) 96-06-06 Flat Sri Kota, Bandar Tun Razak, 56100, Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia (as at 6 Apr. 2007) d) Syrian Arab Republic (location as of 2014)",
       "country": "Malaysia (as at 6 Apr. 2007) d) Syrian Arab Republic (location as of 2014)"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

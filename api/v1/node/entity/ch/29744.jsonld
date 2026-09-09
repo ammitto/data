@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/29744",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/29744",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kostenok Ihor Volodymyrovych",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kostenok Ihor Volodymyrovych",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/29744"
   ],
   "remarks": "Former so-called “Minister of Education” of the “Donetsk People’s Republic”.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1961-03-15",
-      "circa": false
+      "circa": false,
+      "year": 1961
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

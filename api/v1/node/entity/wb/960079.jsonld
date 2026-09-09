@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/960079",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/960079",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "CONSTRUTORA OAS LLC (QATAR)",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "CONSTRUTORA OAS LLC (QATAR)",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/960079"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "PO BOX 24139,",
       "city": "DOHA",
       "country": "Qatar",
-      "country_iso_code": "QA"
+      "countryIsoCode": "QA"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

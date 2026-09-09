@@ -1,49 +1,69 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/dpr0064",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/dpr0064",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Pan Systems Pyongyang",
+      "@type": "NameVariant",
+      "fullName": "Pan Systems Pyongyang",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Glocom",
+      "@type": "NameVariant",
+      "fullName": "Glocom",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Glocom International Golden Services",
+      "@type": "NameVariant",
+      "fullName": "Glocom International Golden Services",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "International Global System",
+      "@type": "NameVariant",
+      "fullName": "International Global System",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "International Golden Services",
+      "@type": "NameVariant",
+      "fullName": "International Golden Services",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Wonbang Trading Company",
+      "@type": "NameVariant",
+      "fullName": "Wonbang Trading Company",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Pan Systems is also controlled by and works on behalf of the Reconnaissance General Bureau which has been designated by the United Nations. The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/dpr0064"
+  ],
+  "remarks": "Pan Systems is also controlled by and works on behalf of the Reconnaissance General Bureau which has been designated by the United Nations. The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Room 818, Pothonggang Hotel, Ansan-Dong",
       "city": "Pyongchon district",
       "state": "Pyongyang",
       "country": "North Korea"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

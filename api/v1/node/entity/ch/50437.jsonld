@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/50437",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/50437",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Gulevich Viktor Vladimirovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Gulevich Viktor Vladimirovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/50437"
   ],
   "remarks": "Viktor Vladimirovich Gulevich is the Chief of the General Staff of the Belarussian Armed Forces - First Deputy Defence Minister of the Republic of Belarus. He is part of the Belarussian army, which has supported Russian military aggression against Ukraine. In this position he supported, supervised and publicly commented on the joint Belarussian-Russian military exercises which prepared and facilitated the Russian military aggression of 24 Feb 2022. He is therefore responsible for and actively supporting actions undermining the territorial integrity, sovereignty and independence of Ukraine, as well as stability and security in Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1969-05-14",
-      "circa": false
+      "circa": false,
+      "year": 1969
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

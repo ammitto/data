@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/4409",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/4409",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Rubinau Anatol Mikalaevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Rubinau Anatol Mikalaevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/4409"
   ],
   "remarks": "Chairman of the Upper House of Parliament, former Deputy Head in charge of Media and Ideology of the President's Administration (2006–2008). In that position, he was one of the main sources and voices of state propaganda and ideological support for the regime. Member of the Security Council since March 2014.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1939-04-15",
-      "circa": false
+      "circa": false,
+      "year": 1939
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

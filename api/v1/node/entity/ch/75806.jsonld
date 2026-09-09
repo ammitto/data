@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/75806",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/75806",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Luzyanin Aleksandr Vladimirovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Luzyanin Aleksandr Vladimirovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/75806"
   ],
   "remarks": "Aleksandr Luzyanin is the General Director of JSC Hydromash, a leading Russian enterprise in the development, production and testing of landing gear, hydraulic cylinders and hydraulic units for all types of aircraft devices. The company participates in almost all domestic aircraft construction projects (both in civil and in military spheres). JSC Hydromash fulfils Russian state defence orders, and its products (chassis and other hydraulic units) are used by the Armed Forces of the Russian Federation. At the end of 2022, Aleksandr Luzyanin received a letter of acknowledgement from the Chairman of the Defence Committee of the State Duma of the Federal Assembly of the Russian Federation for his great personal contribution to strengthening the combat readiness of the Armed Forces of the Russian Federation. By being the General Director of JSC Hydromash, Aleksandr Luzyanin is responsible for the company’s actions and therefore he is supporting materially the Government of the Russian Federation, which is responsible for the annexation of Crimea and the destabilisation of Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1959-11-27",
-      "circa": false
+      "circa": false,
+      "year": 1959
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/49812",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/49812",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Putin Vladimir Vladimirovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Putin Vladimir Vladimirovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/49812"
   ],
   "remarks": "Vladimir Putin is the President of the Russian Federation.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1952-10-07",
-      "circa": false
+      "circa": false,
+      "year": 1952
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

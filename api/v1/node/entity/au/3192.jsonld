@@ -1,56 +1,75 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3192",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/3192",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Aslan Avgazarovich Byutukaev",
+      "@type": "NameVariant",
+      "fullName": "Aslan Avgazarovich Byutukaev",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Аслан Авгазарович Бютукаев",
+      "@type": "NameVariant",
+      "fullName": "Аслан Авгазарович Бютукаев",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Amir Khazmat",
+      "@type": "NameVariant",
+      "fullName": "Amir Khazmat",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abubakar",
+      "@type": "NameVariant",
+      "fullName": "Abubakar",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Амир Хазмат",
+      "@type": "NameVariant",
+      "fullName": "Амир Хазмат",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Абубакар",
+      "@type": "NameVariant",
+      "fullName": "Абубакар",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Wanted by the authorities of the Russian Federation for terrorist crimes. Commands a suicide battalion of Riyadus-Salikhin Reconnaissance and Sabotage Battalion of Chechen Martyrs (RSRSBCM) (Qde.100). Review pursuant to Security Council resolution 2368 (2017) was concluded on 15 November 2021.; Listing: Listed on: 3 Aug. 2016",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3192"
   ],
-  "birth_info": [
+  "remarks": "Wanted by the authorities of the Russian Federation for terrorist crimes. Commands a suicide battalion of Riyadus-Salikhin Reconnaissance and Sabotage Battalion of Chechen Martyrs (RSRSBCM) (Qde.100). Review pursuant to Security Council resolution 2368 (2017) was concluded on 15 November 2021.; Listing: Listed on: 3 Aug. 2016",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1974,
       "country": "Kitaevka"
     }
   ],
   "nationalities": [
     "Russia"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Akharkho Street, 11, Katyr-Yurt, Achkhoy-Martanovskiy District, Republic of Chechnya, Russian Federation",
       "country": "Russian Federation"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

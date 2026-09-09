@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/888123",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/888123",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "BOZHOU QIHANG TRANSPORTATION CONSTRUCTION CO., LTD.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "BOZHOU QIHANG TRANSPORTATION CONSTRUCTION CO., LTD.",
+      "isPrimary": true
     }
   ],
-  "remarks": "亳州启航交通建设有限公司",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/888123"
+  ],
+  "remarks": "亳州启航交通建设有限公司",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "ROOM 105, BUILDING 26, GUANGMING COMMUNITY, GUANGMING ROAD, QIAOCHENG DISTRICT",
       "city": "BOZHOU CITY, ANHUI PROVINCE",
       "country": "China",
-      "country_iso_code": "CN"
+      "countryIsoCode": "CN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

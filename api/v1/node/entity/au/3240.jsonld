@@ -1,46 +1,63 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3240",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/3240",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "CHO IL U",
+      "@type": "NameVariant",
+      "fullName": "CHO IL U",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Cho Il Woo",
+      "@type": "NameVariant",
+      "fullName": "Cho Il Woo",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Cho Ch’o’l",
+      "@type": "NameVariant",
+      "fullName": "Cho Ch’o’l",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Jo Chol",
+      "@type": "NameVariant",
+      "fullName": "Jo Chol",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "KPi.040 Director of the Fifth Bureau of the Reconnaissance General Bureau. Passport no: 736410010. Cho is believed to be in charge of overseas espionage operations and foreign intelligence collection for the Democratic People's Republic of Korea.; Listing: Listed on: 2 Jun. 2017 (amended on 26 Jul. 2022)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3240"
   ],
-  "birth_info": [
+  "remarks": "KPi.040 Director of the Fifth Bureau of the Reconnaissance General Bureau. Passport no: 736410010. Cho is believed to be in charge of overseas espionage operations and foreign intelligence collection for the Democratic People's Republic of Korea.; Listing: Listed on: 2 Jun. 2017 (amended on 26 Jul. 2022)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1945,
       "country": "Musan"
     }
   ],
   "nationalities": [
     "Democratic People's Republic of Korea (North Korea)"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Democratic People's Republic of Korea",
       "country": "Democratic People's Republic of Korea"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

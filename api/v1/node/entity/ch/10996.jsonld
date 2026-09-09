@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/10996",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/10996",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Aghazadeh Reza",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Aghazadeh Reza",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/10996"
   ],
   "remarks": "Former Head of the Atomic Energy Organisation of Iran (AEOI). The AEOI oversees Iran’s nuclear programme and is designated under UNSCR 1737 (2006).",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1949-03-15",
-      "circa": false
+      "circa": false,
+      "year": 1949
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

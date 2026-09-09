@@ -1,31 +1,51 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/lib0077",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/lib0077",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Africa Corps",
+      "@type": "NameVariant",
+      "fullName": "Africa Corps",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Expeditionary Corps",
+      "@type": "NameVariant",
+      "fullName": "Expeditionary Corps",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "PMC Wagner",
+      "@type": "NameVariant",
+      "fullName": "PMC Wagner",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Wagner Group",
+      "@type": "NameVariant",
+      "fullName": "Wagner Group",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/lib0077"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

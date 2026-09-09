@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/40113",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/40113",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Nader Qalei",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Nader Qalei",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/40113"
   ],
   "remarks": "Leading businessperson operating in Syria, with significant investments in the construction industry, including a 50 % stake in Zubaidi and Qalei LLC, which is constructing the luxury tourist city Grand Town and to which the regime has granted a 45-year agreement in return for 19-21 % of its revenue. In this capacity, he is linked to Khaled al-Zubaidi. Nader Qalei benefits from and/or supports the Syrian regime through his business activities, in particular through this stake in the Grand Town development.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1965-07-09",
-      "circa": false
+      "circa": false,
+      "year": 1965
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

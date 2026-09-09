@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/58230",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/58230",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kravtsov Sergey Sergeyevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kravtsov Sergey Sergeyevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/58230"
   ],
   "remarks": "Sergey Sergeyevich Kravtsov is the Minister of Education of the Russian Federation. Under his responsibility, the Ministry is aiming to integrate the education system in the illegally annexed regions of Ukraine into one Russian education space. Under his guidance, schools in those areas have been forced to switch over to the Russian curriculum, use educational materials from Russia, and to erase Ukrainian elements from the curriculum.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1974-03-17",
-      "circa": false
+      "circa": false,
+      "year": 1974
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

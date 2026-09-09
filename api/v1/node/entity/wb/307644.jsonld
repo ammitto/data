@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/307644",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/307644",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "DONAEV MANAGEMENT CONSULTING (DMC - TAJIKISTAN)",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "DONAEV MANAGEMENT CONSULTING (DMC - TAJIKISTAN)",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/307644"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "216/2 KHUVAYDUILOEVA STREET, APARTMENT 5; 734049",
       "city": "DUSHANBE",
       "country": "Tajikistan",
-      "country_iso_code": "TJ"
+      "countryIsoCode": "TJ"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,27 +1,43 @@
 {
-  "id": "https://www.ammitto.org/entity/au/301",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/301",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Loyalist Volunteer Force",
+      "@type": "NameVariant",
+      "fullName": "Loyalist Volunteer Force",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "LVF",
+      "@type": "NameVariant",
+      "fullName": "LVF",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Loyalist Volunteer Force (LVF) was formed in 1996 from disaffected members of the mid-Ulster brigade of the Ulster Volunteer Force (UVF).; Listing: Instrument of first listing: Charter of the United Nations (Anti terrorism — Persons and Entities) List 2002 (No 1) [F2021L00645, Gazette No. GN 11, 20 March 2002]. Re-listed on: 16/09/2022, 13/09/2025 in Charter of the United Nations (Listed Persons and Entities) Amendment (No. 2) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/301"
+  ],
+  "remarks": "The Loyalist Volunteer Force (LVF) was formed in 1996 from disaffected members of the mid-Ulster brigade of the Ulster Volunteer Force (UVF).; Listing: Instrument of first listing: Charter of the United Nations (Anti terrorism — Persons and Entities) List 2002 (No 1) [F2021L00645, Gazette No. GN 11, 20 March 2002]. Re-listed on: 16/09/2022, 13/09/2025 in Charter of the United Nations (Listed Persons and Entities) Amendment (No. 2) Instrument 2025",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Northern Ireland",
       "country": "Northern Ireland"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

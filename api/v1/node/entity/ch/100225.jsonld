@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/100225",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/100225",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Bateni Naser",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Bateni Naser",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/100225"
   ],
   "remarks": "Naser Bateni was the managing director of the Hanseatic Trade Trust & Shipping GmbH (HTTS), a shipping company owned by IRISL Europe, which is in turn a company owned by IRISL. As a result, Mr Bateni is involved in providing services to IRISL.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1962-12-16",
-      "circa": false
+      "circa": false,
+      "year": 1962
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

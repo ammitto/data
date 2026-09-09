@@ -1,32 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/inu0326",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/inu0326",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "ARVANDAN OIL & GAS COMPANY",
+      "@type": "NameVariant",
+      "fullName": "ARVANDAN OIL & GAS COMPANY",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "AOGC",
+      "@type": "NameVariant",
+      "fullName": "AOGC",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "ARVANDAN OIL AND GAS COMPANY",
+      "@type": "NameVariant",
+      "fullName": "ARVANDAN OIL AND GAS COMPANY",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/inu0326"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Ayatollah Khamenei Blvd, Khorramshahr City",
       "state": "Khuzestan",
       "country": "Iran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

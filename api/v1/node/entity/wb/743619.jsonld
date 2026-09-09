@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/743619",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/743619",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "SHAANXI HERUI TECHNOLOGY DEVELOPMENT CO., LTD",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "SHAANXI HERUI TECHNOLOGY DEVELOPMENT CO., LTD",
+      "isPrimary": true
     }
   ],
-  "remarks": "(f.k.a [Shaanxi Neoplan Trading Co., Ltd.])",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/743619"
+  ],
+  "remarks": "(f.k.a [Shaanxi Neoplan Trading Co., Ltd.])",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "ROOM 20101, UNIT 2, BUILDING 2, NO. 59 OF PARK NORTH ROAD XINCHENG DISTRICT",
       "city": "XI'AN CITY, SHAANXI PROVINCE",
       "country": "China",
-      "country_iso_code": "CN"
+      "countryIsoCode": "CN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

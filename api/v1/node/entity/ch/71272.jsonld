@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/71272",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/71272",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Guzun Chiril",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Guzun Chiril",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/71272"
   ],
   "remarks": "Chiril Guzun is the founder and current leader of the “Scutul Poporului”, a paramilitary organisation in the Republic of Moldova, including former military, police and law-enforcement personnel, which uses violence while attending protests, particularly to destabilise the Republic of Moldova. During the attempts of Feb 2023 to destabilise the national government, groups of protesters affiliated to the subsequently-banned “Partidul ȘOR” and to the Building Europe at Home Party, “Partidul Acasă Construim Europa” (PACE) were supported and surrounded by members of the “Scutul Poporului”, who were involved in riots and violent demonstrations.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1979-04-27",
-      "circa": false
+      "circa": false,
+      "year": 1979
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/4672",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/4672",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Maltsau Leanid Siamionavich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Maltsau Leanid Siamionavich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/4672"
   ],
   "remarks": "Head of the State Border Committee, former Secretary of the Security Council.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1949-08-29",
-      "circa": false
+      "circa": false,
+      "year": 1949
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

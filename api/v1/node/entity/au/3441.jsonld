@@ -1,29 +1,46 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3441",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/3441",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ri Chun Hwan",
+      "@type": "NameVariant",
+      "fullName": "Ri Chun Hwan",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Ri Ch'un-hwan",
+      "@type": "NameVariant",
+      "fullName": "Ri Ch'un-hwan",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "KPi.074 Ri Chun Hwan is an overseas Foreign Trade Bank representative. Passport No: 563233049 (Expires 09 May 2018). Gender: male.; Listing: Listed on: 22 Dec. 2017",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3441"
   ],
-  "birth_info": [
+  "remarks": "KPi.074 Ri Chun Hwan is an overseas Foreign Trade Bank representative. Passport No: 563233049 (Expires 09 May 2018). Gender: male.; Listing: Listed on: 22 Dec. 2017",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1957
     }
   ],
   "nationalities": [
     "Democratic People's Republic of Korea (North Korea)"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

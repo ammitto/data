@@ -1,68 +1,92 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/mya0078",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/mya0078",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Mining Enterprise 1",
+      "@type": "NameVariant",
+      "fullName": "Mining Enterprise 1",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "ME1",
+      "@type": "NameVariant",
+      "fullName": "ME1",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Mining Enterprise ME1",
+      "@type": "NameVariant",
+      "fullName": "Mining Enterprise ME1",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "MINING ENTERPRISE NO 1 ",
+      "@type": "NameVariant",
+      "fullName": "MINING ENTERPRISE NO 1 ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Mining Enterprise No. 1 ",
+      "@type": "NameVariant",
+      "fullName": "Mining Enterprise No. 1 ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Mining Enterprise Number One ",
+      "@type": "NameVariant",
+      "fullName": "Mining Enterprise Number One ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Myanma Mining Enterprise Number 1 ",
+      "@type": "NameVariant",
+      "fullName": "Myanma Mining Enterprise Number 1 ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Myanmar Mining Enterprise Number 1 ",
+      "@type": "NameVariant",
+      "fullName": "Myanmar Mining Enterprise Number 1 ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "No 1 Mining Enterprise ",
+      "@type": "NameVariant",
+      "fullName": "No 1 Mining Enterprise ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "No. 1 Mining Enterprise ",
+      "@type": "NameVariant",
+      "fullName": "No. 1 Mining Enterprise ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/mya0078"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Bu Tar Street, Forest Street, Corner of Yone Gyi Quarter, Sagaing",
       "state": "Monywa",
       "country": "Myanmar"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

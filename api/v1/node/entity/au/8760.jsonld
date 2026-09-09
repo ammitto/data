@@ -1,32 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8760",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/8760",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "National Custodian Company Joint Stock Company",
+      "@type": "NameVariant",
+      "fullName": "National Custodian Company Joint Stock Company",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "AO NKK",
+      "@type": "NameVariant",
+      "fullName": "AO NKK",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "NATSIONAL'NAYA KASTODIAL'NAYA KOMPANIYA",
+      "@type": "NameVariant",
+      "fullName": "NATSIONAL'NAYA KASTODIAL'NAYA KOMPANIYA",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Website: https://nkk-sd.ru/; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2026",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8760"
+  ],
+  "remarks": "Website: https://nkk-sd.ru/; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2026",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "16, Bld. 3, Sushchevskiy val Street, Moscow, Russia, 127018",
       "country": "127018"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

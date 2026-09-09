@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/57843",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/57843",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Lukin Sergey Nikolayevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Lukin Sergey Nikolayevich",
+      "isPrimary": true
     }
   ],
-  "remarks": "Sergey Lukin is a member of the Federation Council who on 4 Oct 2022 ratified the four treaties between the Russian Federation and the Donetsk People's Republic, the Luhansk People’s Republic, the Zaporizhzhia region, and the Kherson region, and their admission to the Russian Federation. Therefore, he has supported and implemented actions and policies, which undermine the territorial integrity, sovereignty and independence of Ukraine, and further destabilised Ukraine.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/57843"
+  ],
+  "remarks": "Sergey Lukin is a member of the Voronezh Oblast Duma as of September 2025. He is a former member of the Federation Council who on 4 October 2022 ratified the four treaties between the Russian Federation and the so-called “Donetsk People’s Republic”, the so-called “Luhansk People’s Republic”, the Zaporizhzhia region, and the Kherson region, and their admission to the Russian Federation. Therefore, Sergey Lukin has supported and implemented actions and policies, which undermine the territorial integrity, sovereignty and independence of Ukraine, and further destabilised Ukraine.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1954-07-07",
-      "circa": false
+      "circa": false,
+      "year": 1954
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

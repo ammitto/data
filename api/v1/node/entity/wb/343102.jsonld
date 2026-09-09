@@ -1,23 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/343102",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/wb/343102",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "ENG. JOSE PALAC",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "ENG. JOSE PALAC",
+      "isPrimary": true
     }
   ],
-  "remarks": "*426",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/343102"
+  ],
+  "remarks": "*426",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "LAST KNOWN ADDRESS: UNIT 4A, 4TH FLOOR, J&P BUILDING, LOT 3, BLK 17.V.V. SOLIVEN AVE 1, SAN ISIDRO",
       "city": "CAINTA RIZAL",
       "country": "Philippines",
-      "country_iso_code": "PH"
+      "countryIsoCode": "PH"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

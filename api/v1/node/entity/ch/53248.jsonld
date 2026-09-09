@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/53248",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/53248",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Lavrenov Evgenij Evgenievich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Lavrenov Evgenij Evgenievich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/53248"
   ],
   "remarks": "Former so-called ‘Minister of Income and Fees’ of the so-called ‘Donetsk People’s Republic’. In taking on and acting in this capacity, he actively undermined the territorial integrity, sovereignty and independence of Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1979-12-05",
-      "circa": false
+      "circa": false,
+      "year": 1979
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

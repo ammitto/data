@@ -1,21 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8470",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/8470",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MOHSEN HOJATI",
+      "@type": "NameVariant",
+      "fullName": "MOHSEN HOJATI",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "IRi.018. Designation: Head of Fajr Industrial Group, which is designated under resolution 1737 (2006) for its role in the ballistic missile programme. Passport no: G4506013, issued in Iran.; Listing: Listed by the 1737 Committee on 24 March 2007 (amended on 17 December 2014)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8470"
   ],
-  "birth_info": [
+  "remarks": "IRi.018. Designation: Head of Fajr Industrial Group, which is designated under resolution 1737 (2006) for its role in the ballistic missile programme. Passport no: G4506013, issued in Iran.; Listing: Listed by the 1737 Committee on 24 March 2007 (amended on 17 December 2014)",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1955
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

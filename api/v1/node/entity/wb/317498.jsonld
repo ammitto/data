@@ -1,23 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/317498",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/wb/317498",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "ANGEL ZAMBRANO NAVARRO",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "ANGEL ZAMBRANO NAVARRO",
+      "isPrimary": true
     }
   ],
-  "remarks": "*260",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/317498"
+  ],
+  "remarks": "*260",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "CALLE RICARDO ÁNGULO 834, URB. CORPAC-SAN ISIDRO",
       "city": "LIMA",
       "country": "Peru",
-      "country_iso_code": "PE"
+      "countryIsoCode": "PE"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,34 +1,53 @@
 {
-  "id": "https://www.ammitto.org/entity/au/122",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/122",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Abdul Manan Mohammad Ishak",
+      "@type": "NameVariant",
+      "fullName": "Abdul Manan Mohammad Ishak",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "عبدالمنان محمد اسحاق",
+      "@type": "NameVariant",
+      "fullName": "عبدالمنان محمد اسحاق",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "TAi.122 Title: Maulavi. Designation: a) First Secretary, Taliban Embassy, Riyadh, Saudi Arabia b) Commercial Attache, Taliban Embassy, Abu Dhabi, United Arab Emirates.  Review pursuant to Security Council resolution 1822 (2008) was concluded on 27 Jul. 2010.; Listing: Listed on 25 January 2001 (amended on 21 Sep 2007, 29 Nov 2011 and 15 Aug 2012)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/122"
   ],
-  "birth_info": [
+  "remarks": "TAi.122 Title: Maulavi. Designation: a) First Secretary, Taliban Embassy, Riyadh, Saudi Arabia b) Commercial Attache, Taliban Embassy, Abu Dhabi, United Arab Emirates.  Review pursuant to Security Council resolution 1822 (2008) was concluded on 27 Jul. 2010.; Listing: Listed on 25 January 2001 (amended on 21 Sep 2007, 29 Nov 2011 and 15 Aug 2012)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1940,
       "country": "Siyachoy village"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1941,
       "country": "Panjwai District"
     }
   ],
   "nationalities": [
     "Afghanistan"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

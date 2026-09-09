@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/6305",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/6305",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Karakadzai Mike Tichafa",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Karakadzai Mike Tichafa",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/6305"
   ],
   "remarks": "Directly involved in the terror campaign waged before and during the elections by leading the abductions and violence in Harare in 2008.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1957-03-07",
-      "circa": false
+      "circa": false,
+      "year": 1957
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

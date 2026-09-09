@@ -1,16 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/38510",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/38510",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ahmad Iman Ali",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Ahmad Iman Ali",
+      "isPrimary": true
     }
   ],
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/38510"
+  ],
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1973
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

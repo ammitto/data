@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/186127",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/186127",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "DEVELOPMENT ACTION CENTRE (DAC)",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "DEVELOPMENT ACTION CENTRE (DAC)",
+      "isPrimary": true
     }
   ],
-  "remarks": "*49",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/186127"
+  ],
+  "remarks": "*49",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "LAST KNOWN ADDRESS: VILLAGE SAROZGANJ, POST OFFICE SAROZGANJ BAZAR",
       "city": "DISTRICT CHUADANG-7200",
       "country": "Bangladesh",
-      "country_iso_code": "BD"
+      "countryIsoCode": "BD"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

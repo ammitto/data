@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/56129",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/56129",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kobets Aleksandr Yurievych",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kobets Aleksandr Yurievych",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/56129"
   ],
   "remarks": "Former so-called mayor of the city of Kherson, installed by the Russian authorities. He held this position from 26 April 2022 until the region was deoccupied. He facilitated the issuance of Russian passports in the city of Kherson.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1959-09-27",
-      "circa": false
+      "circa": false,
+      "year": 1959
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

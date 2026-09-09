@@ -1,63 +1,90 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3195",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/3195",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Salim Kony",
+      "@type": "NameVariant",
+      "fullName": "Salim Kony",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Salim Saleh Kony",
+      "@type": "NameVariant",
+      "fullName": "Salim Saleh Kony",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Salim Saleh",
+      "@type": "NameVariant",
+      "fullName": "Salim Saleh",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Salim Ogaro",
+      "@type": "NameVariant",
+      "fullName": "Salim Ogaro",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Okolu Salim",
+      "@type": "NameVariant",
+      "fullName": "Okolu Salim",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Salim Saleh Obol Ogaro",
+      "@type": "NameVariant",
+      "fullName": "Salim Saleh Obol Ogaro",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Simon Salim Obol",
+      "@type": "NameVariant",
+      "fullName": "Simon Salim Obol",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "CFi.011 Salim Kony is a Deputy in the Lord's Resistance Army (LRA) (CFe.002), a designated entity and the son of LRA leader Joseph Kony (CFi.009), a designated individual. Salim was incorporated into the LRA's leadership hierarchy in 2010.  He is part of a group of senior LRA officers who are based with Joseph Kony.; Listing: Listed on: 23 Aug. 2016",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3195"
   ],
-  "birth_info": [
+  "remarks": "CFi.011 Salim Kony is a Deputy in the Lord's Resistance Army (LRA) (CFe.002), a designated entity and the son of LRA leader Joseph Kony (CFi.009), a designated individual. Salim was incorporated into the LRA's leadership hierarchy in 2010.  He is part of a group of senior LRA officers who are based with Joseph Kony.; Listing: Listed on: 23 Aug. 2016",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1992
     },
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1991
     },
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1993
     }
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "a) Kafia Kingi, (a territory on the border of Sudan and South Sudan whose final status has yet to be determined) b) Central African Republic",
       "country": "(a territory on the border of Sudan and South Sudan whose final status has yet to be determined) b) Central African Republic"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

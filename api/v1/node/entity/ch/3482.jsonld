@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/3482",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/3482",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Diaby Abdoulaye Chérif Colonel Dr.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Diaby Abdoulaye Chérif Colonel Dr.",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/3482"
   ],
   "remarks": "Person identified by the International Commission of Inquiry as responsible for the 28 Sep 2009 events in Guinea.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1957-02-26",
-      "circa": false
+      "circa": false,
+      "year": 1957
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

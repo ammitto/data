@@ -1,37 +1,47 @@
 {
-  "id": "https://www.ammitto.org/entry/au/consolidated-list/8582",
-  "entity_id": "https://www.ammitto.org/entity/au/8582",
+  "@id": "https://www.ammitto.org/entry/au/consolidated-list/8582",
+  "@type": "SanctionEntry",
+  "entityId": "https://www.ammitto.org/entity/au/8582",
   "authority": {
     "@id": "https://www.ammitto.org/authority/au"
   },
   "regime": {
-    "@id": "https://www.ammitto.org/regime/au_iran_auto"
+    "@id": "https://www.ammitto.org/regime/au_iran_auto",
+    "name": "Iran (Autonomous)"
   },
-  "legal_bases": [
+  "legalBases": [
     {
-      "type": "instrument",
-      "identifier": "Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Iran) Amendment (No. 1) Instrument 2026",
-      "title": "Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Iran) Amendment (No. 1) Instrument 2026"
+      "@id": "https://www.ammitto.org/legal-instrument/au/autonomous-sanctions-designated-persons-and-entities-and-declared-persons-iran-amendment-no.-1-instrument-2026"
     }
   ],
   "effects": [
     {
-      "effect_type": "asset_freeze",
+      "@type": "SanctionEffect",
+      "effectType": "asset_freeze",
       "scope": "full"
     },
     {
-      "effect_type": "travel_ban",
+      "@type": "SanctionEffect",
+      "effectType": "travel_ban",
       "scope": "full"
     }
   ],
+  "reasons": [
+
+  ],
   "period": {
-    "is_indefinite": true
+    "@type": "TemporalPeriod",
+    "isIndefinite": true
   },
   "status": "active",
-  "reference_number": "8582",
-  "raw_source_data": {
-    "source_format": "csv",
-    "source_specific_fields": {
+  "statusHistory": [
+
+  ],
+  "referenceNumber": "8582",
+  "rawSourceData": {
+    "@type": "RawSourceData",
+    "sourceFormat": "csv",
+    "sourceSpecificFields": {
       "au:reference": "8582",
       "au:committees": "Autonomous (Iran)",
       "au:control_date": "2026-02-02",
@@ -39,5 +49,5 @@
       "au:listing_info": "Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Iran) List 2012"
     }
   },
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

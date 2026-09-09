@@ -1,43 +1,60 @@
 {
-  "id": "https://www.ammitto.org/entry/uk/consolidated-list/irn0142",
-  "entity_id": "https://www.ammitto.org/entity/uk/irn0142",
+  "@id": "https://www.ammitto.org/entry/uk/consolidated-list/irn0142",
+  "@type": "SanctionEntry",
+  "entityId": "https://www.ammitto.org/entity/uk/irn0142",
   "authority": {
     "@id": "https://www.ammitto.org/authority/uk"
   },
   "regime": {
-    "@id": "https://www.ammitto.org/regime/the_iran_sanctions_regulations_2023"
+    "@id": "https://www.ammitto.org/regime/the_iran_sanctions_regulations_2023",
+    "name": "The Iran (Sanctions) Regulations 2023"
   },
+  "legalBases": [
+
+  ],
   "effects": [
     {
-      "effect_type": "asset_freeze",
+      "@type": "SanctionEffect",
+      "effectType": "asset_freeze",
       "scope": "full"
     },
     {
-      "effect_type": "travel_ban",
+      "@type": "SanctionEffect",
+      "effectType": "travel_ban",
       "scope": "full"
     },
     {
-      "effect_type": "debarment",
+      "@type": "SanctionEffect",
+      "effectType": "debarment",
       "scope": "full"
     }
   ],
+  "reasons": [
+
+  ],
   "period": {
-    "listed_date": "2023-03-20",
-    "effective_date": "2023-03-20",
-    "is_indefinite": true,
-    "last_updated": "2025-04-09"
+    "@type": "TemporalPeriod",
+    "listedDate": "2023-03-20",
+    "effectiveDate": "2023-03-20",
+    "isIndefinite": true,
+    "lastUpdated": "2025-04-09"
   },
   "status": "active",
-  "reference_number": "IRN0142",
+  "statusHistory": [
+
+  ],
+  "referenceNumber": "IRN0142",
   "remarks": "\nAhmad Karimi “KARIMI” is an involved person within the meaning of the Iran (Sanctions) Regulations 2023 as, through his role as a Director of the Board of Directors of the Islamic Revolutionary Guard Corps (IRGC) Cooperative Foundation, he is or has been responsible for providing financial services that could contribute to a serious human rights violation or abuse in Iran. In this role he is also associated with the IRGC, an organisation that is involved in the commission of serious human rights violations in Iran.",
-  "raw_source_data": {
-    "source_format": "xml",
-    "source_specific_fields": {
+  "rawSourceData": {
+    "@type": "RawSourceData",
+    "sourceFormat": "xml",
+    "sourceSpecificFields": {
       "uk:ofsiGroupId": "15852",
+      "uk:unReferenceNumber": null,
       "uk:designationSource": "UK",
       "uk:sanctionsImposed": "Asset freeze|Travel Ban|Director Disqualification Sanction",
       "uk:entityType": "Individual"
     }
   },
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

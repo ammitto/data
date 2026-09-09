@@ -1,23 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/392261",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/wb/392261",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MR. NICOLÁS MAURICIO IRÍAS OSORIO",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "MR. NICOLÁS MAURICIO IRÍAS OSORIO",
+      "isPrimary": true
     }
   ],
-  "remarks": "*469",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/392261"
+  ],
+  "remarks": "*469",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "COLONIA LA GRANJA",
       "city": "JUTICALPA, OLANCHO",
       "country": "Honduras",
-      "country_iso_code": "HN"
+      "countryIsoCode": "HN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

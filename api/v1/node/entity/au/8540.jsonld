@@ -1,47 +1,67 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8540",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/8540",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "MODERN INDUSTRIES TECHNIQUE COMPANY (MITEC)",
+      "@type": "NameVariant",
+      "fullName": "MODERN INDUSTRIES TECHNIQUE COMPANY (MITEC)",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "MITEC",
+      "@type": "NameVariant",
+      "fullName": "MITEC",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Rahkar Company",
+      "@type": "NameVariant",
+      "fullName": "Rahkar Company",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Rahkar Industries",
+      "@type": "NameVariant",
+      "fullName": "Rahkar Industries",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Rahkar Sanaye Company",
+      "@type": "NameVariant",
+      "fullName": "Rahkar Sanaye Company",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Rahkar Sanaye Novin",
+      "@type": "NameVariant",
+      "fullName": "Rahkar Sanaye Novin",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "IRe.044. Designation: MITEC is responsible for design and construction of the IR-40 heavy water reactor in Arak. MITEC has spearheaded procurement for the construction of the IR-40 heavy water reactor.; Listing: Listed by the 1737 Committee on 9 June 2010 (amended on 17 December 2014).",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8540"
+  ],
+  "remarks": "IRe.044. Designation: MITEC is responsible for design and construction of the IR-40 heavy water reactor in Arak. MITEC has spearheaded procurement for the construction of the IR-40 heavy water reactor.; Listing: Listed by the 1737 Committee on 9 June 2010 (amended on 17 December 2014).",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Arak, Iran (Islamic Republic of)",
       "country": "Iran (Islamic Republic of)"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

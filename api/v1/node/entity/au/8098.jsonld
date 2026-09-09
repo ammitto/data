@@ -1,37 +1,55 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8098",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/8098",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Perm Gunpowder Mill Federal State Enterprise",
+      "@type": "NameVariant",
+      "fullName": "Perm Gunpowder Mill Federal State Enterprise",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Perm Gunpowder Mill",
+      "@type": "NameVariant",
+      "fullName": "Perm Gunpowder Mill",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Perm Powder Plant",
+      "@type": "NameVariant",
+      "fullName": "Perm Powder Plant",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Permskiy Porokhovoy Zavod",
+      "@type": "NameVariant",
+      "fullName": "Permskiy Porokhovoy Zavod",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "http://www.fkpppz.ru; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8098"
+  ],
+  "remarks": "http://www.fkpppz.ru; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Ul. Galperina 11 Perm 614101 Russia",
       "country": "Ul. Galperina 11 Perm 614101 Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

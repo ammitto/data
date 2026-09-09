@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/56902",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/56902",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kuznetsov Vladislav Garievich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kuznetsov Vladislav Garievich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/56902"
   ],
   "remarks": "Former First Deputy Chairman of the government of the so-called “Luhansk People’s Republic”, a position he was appointed to on 8 June 2022, whereby he was responsible for the separatist “governmental” activities of the so-called government of the so-called “Luhansk People’s Republic”.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1969-03-18",
-      "circa": false
+      "circa": false,
+      "year": 1969
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

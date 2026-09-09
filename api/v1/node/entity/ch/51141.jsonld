@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/51141",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/51141",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Bas Alexander Ivanovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Bas Alexander Ivanovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/51141"
   ],
   "remarks": "Alexander Bas has been promoted to the rank of Major General. He held the position of Head of the Main Directorate of Combat Training of the Armed Forces. In July 2024, Alexander Bas was appointed as commander of the troops of the North-Western Operational Command of the Armed Forces of the Republic of Belarus. Formerly Alexander Bas was the Deputy Commander of the Belarusian Western Operational Command.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1971-08-17",
-      "circa": false
+      "circa": false,
+      "year": 1971
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

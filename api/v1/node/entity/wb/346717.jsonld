@@ -1,23 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/346717",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/wb/346717",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MR. SHALVA BUBUTEISHVILI",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "MR. SHALVA BUBUTEISHVILI",
+      "isPrimary": true
     }
   ],
-  "remarks": "*440",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/346717"
+  ],
+  "remarks": "*440",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "LAST KNOWN ADDRESS: APT. 44, #22 DIMITRY TAVDADEBULI STR.",
       "city": "TBILISI",
       "country": "Georgia",
-      "country_iso_code": "GE"
+      "countryIsoCode": "GE"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

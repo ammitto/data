@@ -1,33 +1,51 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/syr0320",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/syr0320",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Organisation for Technological Industries",
+      "@type": "NameVariant",
+      "fullName": "Organisation for Technological Industries",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "OTI",
+      "@type": "NameVariant",
+      "fullName": "OTI",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Technical Industries Corporation (TIC)",
+      "@type": "NameVariant",
+      "fullName": "Technical Industries Corporation (TIC)",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/syr0320"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "city": "PO Box 11037",
       "state": "Damascus",
       "country": "Syria"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

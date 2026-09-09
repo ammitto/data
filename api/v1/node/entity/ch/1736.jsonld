@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/1736",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/1736",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Sahir Berhan",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Sahir Berhan",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/1736"
   ],
   "remarks": "Board member on three Iraqi companies controlled by Uday Saddam Hussein and was a member of the Iraqi Olympic Committee’s executive office.",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1967
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

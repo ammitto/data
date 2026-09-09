@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/78879",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/78879",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Amir Khan Motaqi Mullah",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Amir Khan Motaqi Mullah",
+      "isPrimary": true
     }
   ],
-  "remarks": "Minister of Education under the Taliban regime.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/78879"
+  ],
+  "remarks": "Minister of Education under the Taliban regime (1996-2001).",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1968
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

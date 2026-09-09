@@ -1,36 +1,56 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/drc0047",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/drc0047",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MUGARAGU",
-      "first_name": "LEODOMIR",
+      "@type": "NameVariant",
+      "fullName": "MUGARAGU",
+      "firstName": "LEODOMIR",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Leon",
-      "first_name": "Manzi",
+      "@type": "NameVariant",
+      "fullName": "Leon",
+      "firstName": "Manzi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Manzi",
-      "first_name": "Leo",
+      "@type": "NameVariant",
+      "fullName": "Manzi",
+      "firstName": "Leo",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "FDLR-FOCA Chief of Staff, in charge of administration. INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/notice/search/un/5270747",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/drc0047"
+  ],
+  "remarks": "FDLR-FOCA Chief of Staff, in charge of administration. INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/notice/search/un/5270747",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "FDLR HQ, at Kikoma forest, Bogoyi, Walikale",
       "city": "North Kivu (as of June 2011.)",
       "country": "Congo (Democratic Republic)"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

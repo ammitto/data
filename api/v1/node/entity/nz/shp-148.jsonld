@@ -1,18 +1,34 @@
 {
-  "id": "https://www.ammitto.org/entity/nz/shp-148",
-  "entity_type": "vessel",
+  "@id": "https://www.ammitto.org/entity/nz/shp-148",
+  "@type": "VesselEntity",
+  "entityType": "vessel",
   "names": [
     {
-      "full_name": "Gazpromneft Zuid East",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Gazpromneft Zuid East",
+      "isPrimary": true
     }
   ],
-  "source_references": [
+  "sourceReferences": [
     {
-      "source_code": "nz",
-      "reference_number": "SHP-148"
+      "@type": "SourceReference",
+      "sourceCode": "nz",
+      "referenceNumber": "SHP-148",
+      "retrievedAt": "2026-09-09T16:30:45Z"
     }
   ],
-  "imo_number": "9537109",
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "linkedEntities": [
+
+  ],
+  "imoNumber": "9537109",
+  "previousNames": [
+
+  ],
+  "previousFlags": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/nz/consolidated-list/shp-148"
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

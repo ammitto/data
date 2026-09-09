@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/4533",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/4533",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kaliada Aliaksandr Mikhailavich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kaliada Aliaksandr Mikhailavich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/4533"
   ],
   "remarks": "Director General for Human resources in the Brest regional administration. Former Member of the Central Election Committee, former Chairman of the Regional Election Committee of the Brest region for the Presidential election of 2010. As a Member of the Central Electoral Commission, he was responsible for the violations of international electoral standards in the Presidential elections in 2006 and 2010 in the Brest region.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1958-03-21",
-      "circa": false
+      "circa": false,
+      "year": 1958
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/44854",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/44854",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mya Tun Oo",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Mya Tun Oo",
+      "isPrimary": true
     }
   ],
-  "remarks": "General Mya Tun Oo is a member of the Myanmar Armed Forces (Tatmadaw). He was Minister of Defence from 1 February 2021 to 3 August 2023, and is a member of the State Administrative Council (SAC). On 1 February 2023, he was also appointed Deputy Prime Minister. As of 1 August 2023, he also assumed the role of Union Minister of Transport and Communications. He also oversees other junta-controlled supervisory bodies related to foreign investment and trade.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/44854"
+  ],
+  "remarks": "General Mya Tun Oo is a member of the Myanmar Armed Forces (Tatmadaw). He was Minister of Defence from 1 February 2021 to 3 August 2023, and was a member of the State Administrative Council (SAC) until its dissolution on 31 July 2025. On 1 February 2023, he was also appointed Deputy Prime Minister. As of 1 August 2023, he also assumed the role of Union Minister of Transport and Communications. He also oversees other junta-controlled supervisory bodies related to foreign investment and trade.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1961-05-04",
-      "circa": false
+      "circa": false,
+      "year": 1961
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

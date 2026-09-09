@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/63320",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/63320",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Sineok Viktor Sergeevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Sineok Viktor Sergeevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/63320"
   ],
   "remarks": "Viktor Sineok is a correspondent and columnist for Multimedia Information Center (MIC) Izvestia, a project of the National Media Group (NMG) holding providing news services for the REN TV Channel, Channel Five and the Izvestia newspaper.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1980-03-19",
-      "circa": false
+      "circa": false,
+      "year": 1980
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

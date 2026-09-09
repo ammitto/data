@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/tr/122",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/tr/122",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "İKİNCİ DOĞA BİLİMLERİ AKADEMİSİ ( SECOND ACADEMY OF NATURAL SCIENCES)",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "İKİNCİ DOĞA BİLİMLERİ AKADEMİSİ ( SECOND ACADEMY OF NATURAL SCIENCES)",
+      "isPrimary": true
     }
   ],
-  "source_references": [
+  "sourceReferences": [
     {
-      "source_code": "tr",
-      "reference_number": "122"
+      "@type": "SourceReference",
+      "sourceCode": "tr",
+      "referenceNumber": "122",
+      "retrievedAt": "2026-09-09T16:30:41Z"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "linkedEntities": [
+
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/tr/consolidated-list/122"
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,58 +1,83 @@
 {
-  "id": "https://www.ammitto.org/entity/au/1109",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/1109",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Stanislas NZEYIMANA",
+      "@type": "NameVariant",
+      "fullName": "Stanislas NZEYIMANA",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Deogratias Bigaruka Izabayo",
+      "@type": "NameVariant",
+      "fullName": "Deogratias Bigaruka Izabayo",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Bigaruka",
+      "@type": "NameVariant",
+      "fullName": "Bigaruka",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Bigurura",
+      "@type": "NameVariant",
+      "fullName": "Bigurura",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Izabayo Deo",
+      "@type": "NameVariant",
+      "fullName": "Izabayo Deo",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Jules Mateso Mlamba",
+      "@type": "NameVariant",
+      "fullName": "Jules Mateso Mlamba",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "CDi.026 Designation: Former FDLR-FOCA Deputy Commander. Disappeared while in Tanzania in early 2013. Whereabouts unknown as of June 2016.; Listing: Listed by 1533 Committee on: 3 Mar. 2009 (amended on 13 Oct. 2016)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/1109"
   ],
-  "birth_info": [
+  "remarks": "CDi.026 Designation: Former FDLR-FOCA Deputy Commander. Disappeared while in Tanzania in early 2013. Whereabouts unknown as of June 2016.; Listing: Listed by 1533 Committee on: 3 Mar. 2009 (amended on 13 Oct. 2016)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1966,
       "country": "Mugusa"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1966,
       "country": "Butare"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1967,
       "country": "Rwanda"
     }
   ],
   "nationalities": [
     "Rwanda"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

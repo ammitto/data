@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/12950",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/12950",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Qadhaf Al-Dam Sayyid Mohammed",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Qadhaf Al-Dam Sayyid Mohammed",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/12950"
   ],
   "remarks": "Cousin of Muammar Qadhafi. In the 1980s, Sayyid was involved in the dissident assassination campaign and allegedly responsible for several deaths in Europe. He is also thought to have been involved in arms procurement.",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1948
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

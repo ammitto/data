@@ -1,65 +1,87 @@
 {
-  "id": "https://www.ammitto.org/entity/au/1285",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/1285",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "AHMAD ZIA AGHA",
+      "@type": "NameVariant",
+      "fullName": "AHMAD ZIA AGHA",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "احمد ضیا آغا",
+      "@type": "NameVariant",
+      "fullName": "احمد ضیا آغا",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Zia Agha",
+      "@type": "NameVariant",
+      "fullName": "Zia Agha",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Noor Ahmad",
+      "@type": "NameVariant",
+      "fullName": "Noor Ahmad",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Noor Ahmed",
+      "@type": "NameVariant",
+      "fullName": "Noor Ahmed",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Sia Agha Sayeed",
+      "@type": "NameVariant",
+      "fullName": "Sia Agha Sayeed",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "NOOR AHMAD AGHA",
+      "@type": "NameVariant",
+      "fullName": "NOOR AHMAD AGHA",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "TAi.156 Title: Haji.  Senior Taliban official with military and financial responsibilities as at 2011. Passport no: Afghanistan diplomatic passport D0010409, issued on 29 Aug. 2024 in Kabul, Afghanistan (Name in Latin script: Noor Ahmad Agha; expires 29 Aug. 2029). Senior Taliban official with military and financial responsibilities as at 2011. Leader of the Taliban’s Military Council as of 2010. In 2008 and 2009, served as a Taliban finance officer and distributed money to Taliban commanders in Afghanistan/Pakistan border area. Height: 180cm; Listing: Listed on 6 Jan. 2012 (amended on 10 Mar. 2026)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/1285"
   ],
-  "birth_info": [
+  "remarks": "TAi.156 Title: Haji.  Senior Taliban official with military and financial responsibilities as at 2011. Passport no: Afghanistan diplomatic passport D0010409, issued on 29 Aug. 2024 in Kabul, Afghanistan (Name in Latin script: Noor Ahmad Agha; expires 29 Aug. 2029). Senior Taliban official with military and financial responsibilities as at 2011. Leader of the Taliban’s Military Council as of 2010. In 2008 and 2009, served as a Taliban finance officer and distributed money to Taliban commanders in Afghanistan/Pakistan border area. Height: 180cm; Listing: Listed on 6 Jan. 2012 (amended on 10 Mar. 2026)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1974,
       "country": "Maiwand District"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1979,
       "country": "Kandahar Province"
     }
   ],
   "nationalities": [
     "Afghanistan"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Kabul, Afghanistan",
       "country": "Afghanistan"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

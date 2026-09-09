@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/73129",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/73129",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kazazaev Andrey Petrovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kazazaev Andrey Petrovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/73129"
   ],
   "remarks": "Andrey Kazazaev is the General Director of OJSC Plant named after V.A. Degtyarev. He is responsible for the fulfilment of Russian state defence orders for arms used by the Russian Armed Forces during Russia’s war of aggression against Ukraine. As the General Director of the company, he publicly supports the ongoing Russian aggression against Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1964-11-19",
-      "circa": false
+      "circa": false,
+      "year": 1964
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

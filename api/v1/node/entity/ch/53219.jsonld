@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/53219",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/53219",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Dikiy Aleksei Alexandrovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Dikiy Aleksei Alexandrovich",
+      "isPrimary": true
     }
   ],
-  "remarks": "Former so-called “Minister of Internal Affairs” of the so-called “Donetsk People's Republic”. In taking on and acting in this capacity, he has actively undermined the territorial integrity, sovereignty and independence of Ukraine.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/53219"
+  ],
+  "remarks": "Former so-called “Minister of Internal Affairs” of the so-called “Donetsk People’s Republic”. He is also President of the football club Gvardeets (“Guardian”) of Donetsk. In taking on and acting in this capacity, he has actively undermined the territorial integrity, sovereignty and independence of Ukraine.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1974-07-05",
-      "circa": false
+      "circa": false,
+      "year": 1974
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/45836",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/45836",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kauryzhkin Aliaksei Iharavich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kauryzhkin Aliaksei Iharavich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/45836"
   ],
   "remarks": "In his position as the Head of the Investigation Team of the Investigative Committee of Belarus, Aliaksei Kauryzhkin is responsible for politically motivated prosecutions and detention, in particular of members of Viktar Babarika's presidential campaign team and of Coordination Council members, including lawyer Maxim Znak who is considered a political prisoner by human rights organisations. He is therefore responsible for the repression of civil society and democratic opposition.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1981-11-03",
-      "circa": false
+      "circa": false,
+      "year": 1981
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

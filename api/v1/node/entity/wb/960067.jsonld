@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/960067",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/960067",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "CONSTRUTORA COESA S.A. - SUCURSAL ARGENTINA",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "CONSTRUTORA COESA S.A. - SUCURSAL ARGENTINA",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/960067"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "AVENIDA ALICIA MOREAU DE JUSTO, N. 730, PISA 3, OFICINA 2",
       "city": "BUENOS AIRES",
       "country": "Argentina",
-      "country_iso_code": "AR"
+      "countryIsoCode": "AR"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

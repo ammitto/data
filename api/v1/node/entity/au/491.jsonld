@@ -1,51 +1,69 @@
 {
-  "id": "https://www.ammitto.org/entity/au/491",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/491",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Abd-Al-Majid Aziz Al-Zindani",
+      "@type": "NameVariant",
+      "fullName": "Abd-Al-Majid Aziz Al-Zindani",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Abdelmajid Al-Zindani",
+      "@type": "NameVariant",
+      "fullName": "Abdelmajid Al-Zindani",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Shaykh 'Abd Al-Majid Al-Zindani",
+      "@type": "NameVariant",
+      "fullName": "Shaykh 'Abd Al-Majid Al-Zindani",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Sheikh Abd Al-Meguid Al-Zandani",
+      "@type": "NameVariant",
+      "fullName": "Sheikh Abd Al-Meguid Al-Zandani",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "عبد المجيد عزيز الزنداني",
+      "@type": "NameVariant",
+      "fullName": "عبد المجيد عزيز الزنداني",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Title: Sheikh. Yemeni. Yemen Passport no A005487 (Yemen) issued August 13 1995. Listed on 27 Feb 2004. Review pursuant to Security Council resolution 1822 (2008) was concluded on 2 June 2010. Review pursuant to Security Council resolution 2253 (2015) was concluded on 21 Feb. 2019. Review pursuant to Security Council resolution 2610 (2021) was concluded on 8 November 2022.; Listing: Listed on 27 Feb. 2004 (amended on 25 July 2006, 10 June 2011, 1 May 2019)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/491"
   ],
-  "birth_info": [
+  "remarks": "Title: Sheikh. Yemeni. Yemen Passport no A005487 (Yemen) issued August 13 1995. Listed on 27 Feb 2004. Review pursuant to Security Council resolution 1822 (2008) was concluded on 2 June 2010. Review pursuant to Security Council resolution 2253 (2015) was concluded on 21 Feb. 2019. Review pursuant to Security Council resolution 2610 (2021) was concluded on 8 November 2022.; Listing: Listed on 27 Feb. 2004 (amended on 25 July 2006, 10 June 2011, 1 May 2019)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1950,
       "country": "Yemen"
     }
   ],
   "nationalities": [
     "Yemen"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "PO Box 8096, Sana'a, Yemen.",
       "country": "Yemen."
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

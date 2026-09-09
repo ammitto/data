@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/33829",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/33829",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kim Jung Jong",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kim Jung Jong",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/33829"
   ],
   "remarks": "Tanchon Commercial Bank Representative.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1966-11-07",
-      "circa": false
+      "circa": false,
+      "year": 1966
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

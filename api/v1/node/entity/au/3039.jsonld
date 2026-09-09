@@ -1,66 +1,87 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3039",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/3039",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "AHMED ABDULLAH SALEH AL-KHAZMARI AL-ZAHRANI",
+      "@type": "NameVariant",
+      "fullName": "AHMED ABDULLAH SALEH AL-KHAZMARI AL-ZAHRANI",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Abu Maryam al-Zahrani",
+      "@type": "NameVariant",
+      "fullName": "Abu Maryam al-Zahrani",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abu Maryam al-Saudi",
+      "@type": "NameVariant",
+      "fullName": "Abu Maryam al-Saudi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ahmed Abdullah S al-Zahrani",
+      "@type": "NameVariant",
+      "fullName": "Ahmed Abdullah S al-Zahrani",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ahmad Abdullah Salih al-Zahrani",
+      "@type": "NameVariant",
+      "fullName": "Ahmad Abdullah Salih al-Zahrani",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abu Maryam al-Azadi",
+      "@type": "NameVariant",
+      "fullName": "Abu Maryam al-Azadi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ahmed bin Abdullah Saleh bin al-Zahrani",
+      "@type": "NameVariant",
+      "fullName": "Ahmed bin Abdullah Saleh bin al-Zahrani",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ahmed Abdullah Saleh al-Zahrani al-Khozmri",
+      "@type": "NameVariant",
+      "fullName": "Ahmed Abdullah Saleh al-Zahrani al-Khozmri",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Senior member of Al-Qaida (QDe.004). Reportedly killed in January 2020 in Yemen. Wanted by the Saudi Arabian Government for terrorism. Father's name is Abdullah Saleh al Zahrani. Physical description: eye colour: dark; hair colour: dark; complexion: olive. Speaks Arabic. Photo available for inclusion in the INTERPOL-UN Security Council Special Notice. Saudi Arabian passport number E126785, issued on 27 May 2002, expired on 3 Apr. 2007. Review pursuant to Security Council resolution 2368\n(2017) was concluded on 4 Dec. Review pursuant to Security Council resolution 2610 (2021) was concluded\non 30 October 2023.; Listing: Listed on 23 Sep. 2014 (amended 6 Dec 2019, 14 Dec. 2023)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3039"
   ],
-  "birth_info": [
+  "remarks": "Senior member of Al-Qaida (QDe.004). Reportedly killed in January 2020 in Yemen. Wanted by the Saudi Arabian Government for terrorism. Father's name is Abdullah Saleh al Zahrani. Physical description: eye colour: dark; hair colour: dark; complexion: olive. Speaks Arabic. Photo available for inclusion in the INTERPOL-UN Security Council Special Notice. Saudi Arabian passport number E126785, issued on 27 May 2002, expired on 3 Apr. 2007. Review pursuant to Security Council resolution 2368\n(2017) was concluded on 4 Dec. Review pursuant to Security Council resolution 2610 (2021) was concluded\non 30 October 2023.; Listing: Listed on 23 Sep. 2014 (amended 6 Dec 2019, 14 Dec. 2023)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1978,
       "country": "Dammam"
     }
   ],
   "nationalities": [
     "Saudi Arabia"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Located in Syria",
       "country": "Located in Syria"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

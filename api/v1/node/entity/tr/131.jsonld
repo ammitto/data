@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/tr/131",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/tr/131",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "ATOM ENERJİSİ SANAYİ BAKANLIĞI (MINISTRY OF ATOMIC ENERGY INDUSTRY)",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "ATOM ENERJİSİ SANAYİ BAKANLIĞI (MINISTRY OF ATOMIC ENERGY INDUSTRY)",
+      "isPrimary": true
     }
   ],
-  "source_references": [
+  "sourceReferences": [
     {
-      "source_code": "tr",
-      "reference_number": "131"
+      "@type": "SourceReference",
+      "sourceCode": "tr",
+      "referenceNumber": "131",
+      "retrievedAt": "2026-09-09T16:30:41Z"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "linkedEntities": [
+
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/tr/consolidated-list/131"
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

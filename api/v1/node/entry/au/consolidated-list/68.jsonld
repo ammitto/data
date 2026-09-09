@@ -1,41 +1,52 @@
 {
-  "id": "https://www.ammitto.org/entry/au/consolidated-list/68",
-  "entity_id": "https://www.ammitto.org/entity/au/68",
+  "@id": "https://www.ammitto.org/entry/au/consolidated-list/68",
+  "@type": "SanctionEntry",
+  "entityId": "https://www.ammitto.org/entity/au/68",
   "authority": {
     "@id": "https://www.ammitto.org/authority/au"
   },
   "regime": {
-    "@id": "https://www.ammitto.org/regime/1988__taliban_"
+    "@id": "https://www.ammitto.org/regime/1988__taliban_",
+    "name": "1988 (Taliban)"
   },
-  "legal_bases": [
+  "legalBases": [
     {
-      "type": "regulation",
-      "identifier": "Charter of the United Nations (Sanctions—the Taliban) Regulation 2013",
-      "title": "Charter of the United Nations (Sanctions—the Taliban) Regulation 2013"
+      "@id": "https://www.ammitto.org/legal-instrument/au/charter-of-the-united-nations-sanctions-the-taliban-regulation-2013"
     }
   ],
   "effects": [
     {
-      "effect_type": "asset_freeze",
+      "@type": "SanctionEffect",
+      "effectType": "asset_freeze",
       "scope": "full"
     },
     {
-      "effect_type": "travel_ban",
+      "@type": "SanctionEffect",
+      "effectType": "travel_ban",
       "scope": "full"
     },
     {
-      "effect_type": "arms_embargo",
+      "@type": "SanctionEffect",
+      "effectType": "arms_embargo",
       "scope": "full"
     }
   ],
+  "reasons": [
+
+  ],
   "period": {
-    "is_indefinite": true
+    "@type": "TemporalPeriod",
+    "isIndefinite": true
   },
   "status": "active",
-  "reference_number": "68",
-  "raw_source_data": {
-    "source_format": "csv",
-    "source_specific_fields": {
+  "statusHistory": [
+
+  ],
+  "referenceNumber": "68",
+  "rawSourceData": {
+    "@type": "RawSourceData",
+    "sourceFormat": "csv",
+    "sourceSpecificFields": {
       "au:reference": "68",
       "au:committees": "1988 (Taliban)",
       "au:control_date": "2026-02-05",
@@ -43,5 +54,5 @@
       "au:listing_info": "Listed on 25 Jan. 2001 (amended on 3 Sep. 2003, 21 Sep. 2007, 3 Oct. 2008, 29 Nov. 2011 and 31 Dec. 2013)"
     }
   },
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

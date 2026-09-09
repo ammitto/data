@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/888121",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/888121",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "HAIYANG LONGHAI AUTOMOBILE INNOVATION PARK DEVELOPMENT CO., LTD.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "HAIYANG LONGHAI AUTOMOBILE INNOVATION PARK DEVELOPMENT CO., LTD.",
+      "isPrimary": true
     }
   ],
-  "remarks": "海阳市隆海汽车创新园发展有限公司",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/888121"
+  ],
+  "remarks": "海阳市隆海汽车创新园发展有限公司",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "XINGCUN TOWN GOVERNMENT YARD",
       "city": "HAIYANG CITY, YANTAI, SHANDONG PROVINCE",
       "country": "China",
-      "country_iso_code": "CN"
+      "countryIsoCode": "CN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

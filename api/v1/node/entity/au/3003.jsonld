@@ -1,40 +1,59 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3003",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/3003",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Victor Yuriiovych ANOSOV",
+      "@type": "NameVariant",
+      "fullName": "Victor Yuriiovych ANOSOV",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Viktor Yuryevich ANOSOV",
+      "@type": "NameVariant",
+      "fullName": "Viktor Yuryevich ANOSOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Viktor Yurevich ANOSOV",
+      "@type": "NameVariant",
+      "fullName": "Viktor Yurevich ANOSOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Viktor Yuriyovich ANOSOV",
+      "@type": "NameVariant",
+      "fullName": "Viktor Yuriyovich ANOSOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Listing: Listed on 2 Sep. 2014 (relisted on 1 Sep. 2017) (relisted on 28 Aug. 2020 (relisted on 27 Aug 2023)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3003"
   ],
-  "birth_info": [
+  "remarks": "Listing: Listed on 2 Sep. 2014 (relisted on 1 Sep. 2017) (relisted on 28 Aug. 2020 (relisted on 27 Aug 2023)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1980,
       "country": "Simferopol"
     }
   ],
   "nationalities": [
     "Ukraine"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

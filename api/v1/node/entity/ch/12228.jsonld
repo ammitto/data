@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/12228",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/12228",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Anisa Al-Assad",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Anisa Al-Assad",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/12228"
   ],
   "remarks": "Mother of President Al-Assad. Given the close personal relationship and intrinsic financial relationship to the Syrian President, Bashar Al-Assad, she benefits from and is associated with the Syrian regime.",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1934
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/58130",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/58130",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Udaltsova Anastasia Olegovna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Udaltsova Anastasia Olegovna",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/58130"
   ],
   "remarks": "Anastasia Udaltsova is a member of the State Duma who on 3 Oct 2022 voted in favour of the illegal annexation of the regions of Donetsk, Luhansk, Kherson and Zaporizhzhia, and their incorporation into the Russian Federation as federal subjects. Therefore, she has supported and implemented actions and policies, which undermine the territorial integrity, sovereignty and independence of Ukraine, and further destabilised Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1978-09-02",
-      "circa": false
+      "circa": false,
+      "year": 1978
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

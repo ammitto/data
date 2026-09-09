@@ -1,60 +1,89 @@
 {
-  "id": "https://www.ammitto.org/entity/au/85",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/85",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ahmed Jan Akhundzada Wazir",
+      "@type": "NameVariant",
+      "fullName": "Ahmed Jan Akhundzada Wazir",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "احمد جان آخوندزاده وزیر",
+      "@type": "NameVariant",
+      "fullName": "احمد جان آخوندزاده وزیر",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Haji Ahmad Jan",
+      "@type": "NameVariant",
+      "fullName": "Haji Ahmad Jan",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ahmed Jan Akhund",
+      "@type": "NameVariant",
+      "fullName": "Ahmed Jan Akhund",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "TAi.085 Title: Maulavi. Designation: Minister of Water and Electricity under the Taliban regime. Member of Taliban Supreme Military Council as at 2009.  Believed to be in Afghanistan/Pakistan border area. Review pursuant to Security Council resolution 1822 (2008) was concluded on 21 Jul. 2010; Listing: Listed on 25 January 2001 (amended on 21 Sep 2007, 29 Nov. 2011)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/85"
   ],
-  "birth_info": [
+  "remarks": "TAi.085 Title: Maulavi. Designation: Minister of Water and Electricity under the Taliban regime. Member of Taliban Supreme Military Council as at 2009.  Believed to be in Afghanistan/Pakistan border area. Review pursuant to Security Council resolution 1822 (2008) was concluded on 21 Jul. 2010; Listing: Listed on 25 January 2001 (amended on 21 Sep 2007, 29 Nov. 2011)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1953,
       "country": "a) Kandahar Province"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1954,
       "country": "Afghanistan b) Tirin Kot District"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1955,
       "country": "Uruzgan Province"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1956,
       "country": "Afghanistan"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1957,
       "country": "a) Kandahar Province"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1958,
       "country": "a) Kandahar Province"
     }
   ],
   "nationalities": [
     "Afghanistan"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

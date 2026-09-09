@@ -1,29 +1,46 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7271",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7271",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Vladimir Vladimirovich EZHIKOV",
+      "@type": "NameVariant",
+      "fullName": "Vladimir Vladimirovich EZHIKOV",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Vladimir YEZHIKOV",
+      "@type": "NameVariant",
+      "fullName": "Vladimir YEZHIKOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "So-called ‘Deputy Chairperson’ and chief of staff of the self-proclaimed ‘government’ of the so called ‘People’s Republic of Donetsk’ in Ukraine; Listing: Instrument of first designation\nand declaration\nAutonomous Sanctions (Designated Persons and\nEntities and Declared Persons—Russia and\nUkraine) Amendment (No. 21) Instrument 2022",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7271"
   ],
-  "birth_info": [
+  "remarks": "So-called ‘Deputy Chairperson’ and chief of staff of the self-proclaimed ‘government’ of the so called ‘People’s Republic of Donetsk’ in Ukraine; Listing: Instrument of first designation\nand declaration\nAutonomous Sanctions (Designated Persons and\nEntities and Declared Persons—Russia and\nUkraine) Amendment (No. 21) Instrument 2022",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1987
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

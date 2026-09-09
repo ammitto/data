@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/77787",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/77787",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Akulovich Iryna Barisauna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Akulovich Iryna Barisauna",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/77787"
   ],
   "remarks": "Iryna Akulovich is a long-time supporter of Aliaksandr Lukashenka. In 2018, she was appointed by him as director-general of the biggest State news agency, Belarusian Telegraph Agency (BelTA), and still holds that position. BelTA, through its publications and activities, such as photo exhibitions and public events, extensively promotes Lukashenka and his regime.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1974-10-24",
-      "circa": false
+      "circa": false,
+      "year": 1974
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/5084",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/5084",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kuzniatsova Natallia Anatolieuna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kuzniatsova Natallia Anatolieuna",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/5084"
   ],
   "remarks": "Judge at the Moskovski Rayon Court of the city of Minsk. She was directly involved in the judicial repression of the peaceful demonstrators on 19 December 2010. On 20 December 2010, she sentenced civil society activist, Anastasia Lazareva, to 10 days in jail. Her way of conducting the trial was a clear violation of the Code of Criminal Procedure. She sustained the use of evidence and testimonies irrelevant to the accused.",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1973
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

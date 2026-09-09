@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/88774",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/88774",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Chernobay Denis Sergeyevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Chernobay Denis Sergeyevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/88774"
   ],
   "remarks": "Denis Chernobay is the Chairman of the so-called “Donetsk People Republic” branch of the All-Russian public-state movement of children and youth “Movement of the First”, an entity listed by the Union.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "2002-08-07",
-      "circa": false
+      "circa": false,
+      "year": 2002
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

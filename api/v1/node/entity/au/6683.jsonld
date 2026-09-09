@@ -1,27 +1,43 @@
 {
-  "id": "https://www.ammitto.org/entity/au/6683",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/6683",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Russian Direct Investment Fund",
+      "@type": "NameVariant",
+      "fullName": "Russian Direct Investment Fund",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "RDIF",
+      "@type": "NameVariant",
+      "fullName": "RDIF",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Websites: www.rdif.ru;                                                           www.investinrussia.com; Listing: Instrument of first designation and declaration: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 3) Instrument 2022",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/6683"
+  ],
+  "remarks": "Websites: www.rdif.ru;                                                           www.investinrussia.com; Listing: Instrument of first designation and declaration: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 3) Instrument 2022",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Presnenskaya nab., D. 8, Structure 1, MFK Capital City, South Tower, 7, 8th Floor, Moscow 123112, Russia",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

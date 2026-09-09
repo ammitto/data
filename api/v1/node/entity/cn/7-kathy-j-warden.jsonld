@@ -1,22 +1,43 @@
 {
-  "id": "https://www.ammitto.org/entity/cn/7-kathy-j-warden",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/cn/7-kathy-j-warden",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kathy J. Warden",
+      "@type": "NameVariant",
+      "fullName": "Kathy J. Warden",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "凯西·沃登",
+      "@type": "NameVariant",
+      "fullName": "凯西·沃登",
       "script": "Hani",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/cn/anti-sanction-list/7-kathy-j-warden"
+  ],
   "remarks": "List: cn/anti-sanction-list; Title: 诺斯罗普·格鲁曼公司董事长、首席执行官、总裁; Gender: female",
-  "sanction_entry_ids": [
-    "https://www.ammitto.org/entry/cn/unknown/7-kathy-j-warden"
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
   ],
   "gender": "female",
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

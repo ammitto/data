@@ -1,22 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/330033",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/wb/330033",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "RAFAEL \"ACE\" FRESNOZA LIM",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "RAFAEL \"ACE\" FRESNOZA LIM",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/330033"
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "BLK. 23, LOT 9, TWINPEAK DRIVE ST., RIDGEMONT EXECUTIVE VILLAGE",
       "city": "TAYTAY, RIZAL",
       "country": "Philippines",
-      "country_iso_code": "PH"
+      "countryIsoCode": "PH"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

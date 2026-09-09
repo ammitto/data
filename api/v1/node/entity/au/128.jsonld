@@ -1,50 +1,71 @@
 {
-  "id": "https://www.ammitto.org/entity/au/128",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/128",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Abdul Qadeer Basir Abdul Baseer",
+      "@type": "NameVariant",
+      "fullName": "Abdul Qadeer Basir Abdul Baseer",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "عبدالقدیر بصیر عبد البصير",
+      "@type": "NameVariant",
+      "fullName": "عبدالقدیر بصیر عبد البصير",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abdul Qadir",
+      "@type": "NameVariant",
+      "fullName": "Abdul Qadir",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ahmad Haji",
+      "@type": "NameVariant",
+      "fullName": "Ahmad Haji",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abdul Qadir Haqqani",
+      "@type": "NameVariant",
+      "fullName": "Abdul Qadir Haqqani",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abdul Qadir Basir",
+      "@type": "NameVariant",
+      "fullName": "Abdul Qadir Basir",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "TAi.128 Title: a) General b) Maulavi. Designation: Military Attache, Taliban Embassy, Islamabad, Pakistan. Afghan Passport no.: D000974. Repatriated to Afghanistan in February 2006. Financial advisor to Taliban Peshawar Military Council and Head of Taliban Peshawar Financial Commission. Believed to be in Afghanistan/Pakistan border area. Review pursuant to Security Council resolution 1822 (2008) was concluded on 21 Jul. 2010.; Listing: Listed on 25 January 2001 (amended 25 July 2006, 23 April 2007, 18 July 2007, 21 Sep 2007, 29 Nov 2011 and 13 Aug 2012)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/128"
   ],
-  "birth_info": [
+  "remarks": "TAi.128 Title: a) General b) Maulavi. Designation: Military Attache, Taliban Embassy, Islamabad, Pakistan. Afghan Passport no.: D000974. Repatriated to Afghanistan in February 2006. Financial advisor to Taliban Peshawar Military Council and Head of Taliban Peshawar Financial Commission. Believed to be in Afghanistan/Pakistan border area. Review pursuant to Security Council resolution 1822 (2008) was concluded on 21 Jul. 2010.; Listing: Listed on 25 January 2001 (amended 25 July 2006, 23 April 2007, 18 July 2007, 21 Sep 2007, 29 Nov 2011 and 13 Aug 2012)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1964,
       "country": "a) Surkh Rod District"
     }
   ],
   "nationalities": [
     "Afghanistan"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/4443",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/4443",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Zimouski Aliaksandr Leanidavich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Zimouski Aliaksandr Leanidavich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/4443"
   ],
   "remarks": "Media adviser and former President of the State Radio-television company. Former Member of the Upper House of the Parliament. He was the main actor of the regime's propaganda until December 2010, by systematically denigrating the opposition and justifying gross violations of human rights and recurrent crackdowns on the opposition and on civil society in Belarus. On 29 Dec 2012, he admitted that he was recruited to lead an information war and he proudly said that he succeeded in leading it to victory and that he has not changed his views.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1961-01-10",
-      "circa": false
+      "circa": false,
+      "year": 1961
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,29 +1,46 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7342",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7342",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ahmad SHAFAHI",
+      "@type": "NameVariant",
+      "fullName": "Ahmad SHAFAHI",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Ahmad SHAFAI",
+      "@type": "NameVariant",
+      "fullName": "Ahmad SHAFAI",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Brigadier-General, Commander of the Salman Corps unit of the Islamic Revolutionary Guard Corps in Sistan and Baluchistan province; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Thematic Sanctions) Amendment (No. 1) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7342"
   ],
-  "birth_info": [
+  "remarks": "Brigadier-General, Commander of the Salman Corps unit of the Islamic Revolutionary Guard Corps in Sistan and Baluchistan province; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Thematic Sanctions) Amendment (No. 1) Instrument 2023",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1968
     }
   ],
   "nationalities": [
     "Iran"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

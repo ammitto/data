@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/45875",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/45875",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Zakhvitsevich Aliaksandr Aliaksandravich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Zakhvitsevich Aliaksandr Aliaksandravich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/45875"
   ],
   "remarks": "In his position as the Deputy Head of the Frunzensky District Police Department of Minsk Aliaksandr Zakhvitsevich supervises public security police and is responsible for the inhumane and degrading treatment, including torture, inflicted on citizens detained in the Frunzenskiy District in the wake of the 2020 presidential election and for the general brutal crackdown on peaceful protesters in this district. Officers under Zakhvitsevich's supervision used torture against detainees. He is therefore responsible for serious violations of human rights and the repression of civil society and democratic opposition.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1977-01-01",
-      "circa": false
+      "circa": false,
+      "year": 1977
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

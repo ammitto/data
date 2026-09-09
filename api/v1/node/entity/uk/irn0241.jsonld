@@ -1,21 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/irn0241",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/irn0241",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "The Islamic Republic of Iran Shipping Lines (IRISL)",
+      "@type": "NameVariant",
+      "fullName": "The Islamic Republic of Iran Shipping Lines (IRISL)",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/irn0241"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "country": "Iran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

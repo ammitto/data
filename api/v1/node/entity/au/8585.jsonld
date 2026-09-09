@@ -1,49 +1,73 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8585",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/8585",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ahmad-Reza RADAN",
+      "@type": "NameVariant",
+      "fullName": "Ahmad-Reza RADAN",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "احمدرضا رادان",
+      "@type": "NameVariant",
+      "fullName": "احمدرضا رادان",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ahmad Reza Radan",
+      "@type": "NameVariant",
+      "fullName": "Ahmad Reza Radan",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Brigadier-General and Commander-in-Chief of Law Enforcement Command; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Iran) List 2012",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8585"
   ],
-  "birth_info": [
+  "remarks": "Brigadier-General and Commander-in-Chief of Law Enforcement Command; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Iran) List 2012",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1963-03-21",
       "circa": false,
+      "year": 1963,
       "country": "Isfahan"
     },
     {
+      "@type": "BirthInfo",
       "date": "1963-04-20",
       "circa": false,
+      "year": 1963,
       "country": "Iran"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1963,
       "country": "Isfahan"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1964,
       "country": "Isfahan"
     }
   ],
   "nationalities": [
     "Iran"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

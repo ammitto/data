@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/771087",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/771087",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "JIANGXI MINGZHENG TRANSFORMER EQUIPMENT CO., LTD",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "JIANGXI MINGZHENG TRANSFORMER EQUIPMENT CO., LTD",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/771087"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "ZONE C, CHONGREN INDUSTRIAL PARK",
       "city": "FUZHOU CITY, JIANGXI PROVINCE",
       "country": "China",
-      "country_iso_code": "CN"
+      "countryIsoCode": "CN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

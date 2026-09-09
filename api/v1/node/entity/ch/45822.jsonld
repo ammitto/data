@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/45822",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/45822",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Vasiliuk Aliaksandr Uladzimiravich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Vasiliuk Aliaksandr Uladzimiravich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/45822"
   ],
   "remarks": "In his position as Head of the Investigation team of the Investigative Committee of Belarus, Aliaksandr Vasiliuk is responsible for politically-motivated prosecutions and detention, in particular of the opposition Coordination Council members, including Belarusian opposition leader Mariya Kalesnikava who is considered a political prisoner by human rights organisations. He is also responsible for the detention of several opposition media representatives. He is therefore responsible for the repression of civil society and democratic opposition.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1975-05-08",
-      "circa": false
+      "circa": false,
+      "year": 1975
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

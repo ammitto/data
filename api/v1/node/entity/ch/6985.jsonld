@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/6985",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/6985",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Shiri Perence Samson Chikerema",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Shiri Perence Samson Chikerema",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/6985"
   ],
   "remarks": "Senior military officer and member of ZANU-PF Joint Operational Command and complicit in forming or directing oppressive state policy. Involved in political violence in Chiadzwa in October 2008.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1955-11-01",
-      "circa": false
+      "circa": false,
+      "year": 1955
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

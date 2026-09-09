@@ -1,22 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/au/6733",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/6733",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Dmitry Sergeyvich PESKOV",
+      "@type": "NameVariant",
+      "fullName": "Dmitry Sergeyvich PESKOV",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "Press Secretary for Russian President Vladimir Putin; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 5) Instrument 2022",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/6733"
   ],
-  "birth_info": [
+  "remarks": "Press Secretary for Russian President Vladimir Putin; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 5) Instrument 2022",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1967,
       "country": "Moscow"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

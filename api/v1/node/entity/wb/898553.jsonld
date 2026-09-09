@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/898553",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/898553",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "EGIS WATER AND MARITIME",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "EGIS WATER AND MARITIME",
+      "isPrimary": true
     }
   ],
-  "remarks": "(BUT ONLY FOR ITS BUSINESS OPERATIONS IN THE WATER AND SANITATION SECTOR)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/898553"
+  ],
+  "remarks": "(BUT ONLY FOR ITS BUSINESS OPERATIONS IN THE WATER AND SANITATION SECTOR)",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "15 AVENUE DU CENTRE, 78280 GUYANCOURT",
       "country": "France",
-      "country_iso_code": "FR"
+      "countryIsoCode": "FR"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

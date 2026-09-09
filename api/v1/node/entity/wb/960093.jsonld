@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/960093",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/960093",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "CONSTRUTORA OAS GUINEE S.A.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "CONSTRUTORA OAS GUINEE S.A.",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/960093"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "CITE CHEMIN DE FER, LMMEUBLE KINDIA, 3 ETAGE, BP:5105",
       "city": "CONAKRY",
       "country": "Guinea",
-      "country_iso_code": "GN"
+      "countryIsoCode": "GN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

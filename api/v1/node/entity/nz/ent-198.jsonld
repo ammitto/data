@@ -1,17 +1,36 @@
 {
-  "id": "https://www.ammitto.org/entity/nz/ent-198",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/nz/ent-198",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Public Joint Stock Company Shipbuilding Plant Severnaya Verf",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Public Joint Stock Company Shipbuilding Plant Severnaya Verf",
+      "isPrimary": true
     }
   ],
-  "source_references": [
+  "sourceReferences": [
     {
-      "source_code": "nz",
-      "reference_number": "ENT-198"
+      "@type": "SourceReference",
+      "sourceCode": "nz",
+      "referenceNumber": "ENT-198",
+      "retrievedAt": "2026-09-09T16:30:41Z"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "linkedEntities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "beneficialOwners": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/nz/consolidated-list/ent-198"
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

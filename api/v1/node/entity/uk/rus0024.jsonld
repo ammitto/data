@@ -1,35 +1,56 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus0024",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/rus0024",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Malyshev",
-      "first_name": "Mikhail",
+      "@type": "NameVariant",
+      "fullName": "Malyshev",
+      "firstName": "Mikhail",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Malyshev",
-      "first_name": "Mykhalyo",
+      "@type": "NameVariant",
+      "fullName": "Malyshev",
+      "firstName": "Mykhalyo",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "MALYSHEV",
-      "first_name": "Mykhaylo",
+      "@type": "NameVariant",
+      "fullName": "MALYSHEV",
+      "firstName": "Mykhaylo",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus0024"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "state": "The Autonomous Republic of Crimea and the city of Sevastopol",
       "country": "Ukraine"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

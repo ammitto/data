@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/11981",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/11981",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Amar Ismael",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Amar Ismael",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/11981"
   ],
   "remarks": "Civilian - Head of Syrian electronic army (territorial army intelligence service) under the former al-Assad regime. Involved in the violent crackdown and call for violence against the civilian population across Syria.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1973-04-03",
-      "circa": false
+      "circa": false,
+      "year": 1973
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

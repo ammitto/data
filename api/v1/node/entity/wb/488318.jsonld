@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/488318",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/488318",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "GETINSA INGENIERÍA VIETNAM CO. LTD.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "GETINSA INGENIERÍA VIETNAM CO. LTD.",
+      "isPrimary": true
     }
   ],
-  "remarks": "*589 *634",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/488318"
+  ],
+  "remarks": "*589 *634",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "NV37, TRUNG VAN NEW URBAN AREA, TRUNG VAN WARD, SOUTH TU LIEM DIST.",
       "city": "HANOI",
       "country": "Viet Nam",
-      "country_iso_code": "VN"
+      "countryIsoCode": "VN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/30396",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/30396",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Pavlov Arseny Sergeevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Pavlov Arseny Sergeevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/30396"
   ],
   "remarks": "Commander of the \"Sparta Battalion\", an armed separatist group involved in the fighting in eastern Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1983-02-02",
-      "circa": false
+      "circa": false,
+      "year": 1983
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

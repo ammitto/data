@@ -1,21 +1,36 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/57669",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/57669",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "MIRNA INTERNATIONAL",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "MIRNA INTERNATIONAL",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/57669"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "city": "BERKSHIRE",
       "country": "United Kingdom",
-      "country_iso_code": "GB"
+      "countryIsoCode": "GB"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

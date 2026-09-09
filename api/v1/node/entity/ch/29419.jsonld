@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/29419",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/29419",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Babakov Alexander Mikhailovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Babakov Alexander Mikhailovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/29419"
   ],
   "remarks": "Member and Deputy Chairman of the State Duma. Former member of the Federation Council of the Russian Federation. Former member of the Committee on Foreign Affairs. He was a prominent member of the “United Russia” political party. He was re-elected to the State Duma in Sep 2021 for the “A Just Russia” party. He is a businessperson with heavy investments in Ukraine and in Crimea.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1963-02-08",
-      "circa": false
+      "circa": false,
+      "year": 1963
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/6267",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/6267",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Goche Nicholas Tasunungurwa",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Goche Nicholas Tasunungurwa",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/6267"
   ],
   "remarks": "ZANU-PF Member of the Government. In June 2008 forced all NGOs to cease their field work and food distribution. Responsible for militia base in Shamva and implicated in violence in that area.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1946-08-01",
-      "circa": false
+      "circa": false,
+      "year": 1946
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

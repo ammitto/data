@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/28055",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/28055",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Hussein Arnous",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Hussein Arnous",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/28055"
   ],
   "remarks": "Prime Minister under the former al-Assad regime. Appointed in August 2020. As a Government Minister, shares responsibility for the former al-Assad regime’s violent repression of the civilian population.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1953-01-01",
-      "circa": false
+      "circa": false,
+      "year": 1953
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,37 +1,55 @@
 {
-  "id": "https://www.ammitto.org/entity/au/2062",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/2062",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Iranian Aviation Industries Organization",
+      "@type": "NameVariant",
+      "fullName": "Iranian Aviation Industries Organization",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "IAIO",
+      "@type": "NameVariant",
+      "fullName": "IAIO",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Sazmane Sanaye Havai",
+      "@type": "NameVariant",
+      "fullName": "Sazmane Sanaye Havai",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Armed Forces Aviation Industries Organization",
+      "@type": "NameVariant",
+      "fullName": "Armed Forces Aviation Industries Organization",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Listing: Designated under the Autonomous Sanctions Regulations 2011 on 2 March 2012 (F2012L00479). Formerly listed on the RBA Consolidated List as 2010IRN0100. Relisted 12 January 2024",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/2062"
+  ],
+  "remarks": "Listing: Designated under the Autonomous Sanctions Regulations 2011 on 2 March 2012 (F2012L00479). Formerly listed on the RBA Consolidated List as 2010IRN0100. Relisted 12 January 2024",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Ave. Sepahbod Gharani PO Box 15815/1775 Tehran, Iran: Karaj Special Road, Mehrabad Airport, Tehran, Iran; Sepehbod Gharani 36, Tehran, Iran;\n3th km Karaj Special Road, Aviation Industries Boulevard, Tehran, Iran",
       "country": "Iran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/85116",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/85116",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Murashka Vadzim Rastsislavavich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Murashka Vadzim Rastsislavavich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/85116"
   ],
   "remarks": "Vadzim Murashka is a Belarusian national and head of the correctional institution Penal Colony No 13, a maximum-security prison where a number of political prisoners are held, including Nikolai Statkevich, Vitaly Melnik and Sergei Vereshkhagin. Prisoners of Colony No 13 face inhumane conditions and are subject to abuses.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1979-06-20",
-      "circa": false
+      "circa": false,
+      "year": 1979
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8432",
-  "entity_type": "vessel",
+  "@id": "https://www.ammitto.org/entity/au/8432",
+  "@type": "VesselEntity",
+  "entityType": "vessel",
   "names": [
     {
-      "full_name": "ARCTIC METAGAZ",
+      "@type": "NameVariant",
+      "fullName": "ARCTIC METAGAZ",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "EVEREST ENERGY",
+      "@type": "NameVariant",
+      "fullName": "EVEREST ENERGY",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Previous names include EVEREST ENERGY; Listing: Designated as a sanctioned vessel in the Autonomous Sanctions (Sanctioned Vessels – Russia) Designation 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8432"
   ],
-  "imo_number": "9243148",
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "remarks": "Previous names include EVEREST ENERGY; Listing: Designated as a sanctioned vessel in the Autonomous Sanctions (Sanctioned Vessels – Russia) Designation 2025",
+  "imoNumber": "9243148",
+  "previousNames": [
+
+  ],
+  "previousFlags": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

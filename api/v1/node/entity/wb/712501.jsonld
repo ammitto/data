@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/712501",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/712501",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "LOTTE-HPT HIGH TECH. VIETNAM COMPANY LIMITED",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "LOTTE-HPT HIGH TECH. VIETNAM COMPANY LIMITED",
+      "isPrimary": true
     }
   ],
-  "remarks": "*623",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/712501"
+  ],
+  "remarks": "*623",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "city": "HCMC",
       "country": "Viet Nam",
-      "country_iso_code": "VN"
+      "countryIsoCode": "VN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

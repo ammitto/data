@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/33511",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/33511",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ngaïkosset Eugène Barret",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Ngaïkosset Eugène Barret",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/33511"
   ],
   "remarks": "Captain Eugène Barret Ngaïkosset is a former member of former President François Bozizé’s presidential guard and associated with the anti-Balaka movement. He escaped from jail on 17 May 2015 following his extradition from Brazzaville and created his own anti-balaka faction including former FACA fighters.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1967-10-08",
-      "circa": false
+      "circa": false,
+      "year": 1967
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

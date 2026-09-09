@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/nz/ind-255",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/nz/ind-255",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Evgeny Viktorovich Lebedev",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Evgeny Viktorovich Lebedev",
+      "isPrimary": true
     }
   ],
-  "source_references": [
+  "sourceReferences": [
     {
-      "source_code": "nz",
-      "reference_number": "IND-255"
+      "@type": "SourceReference",
+      "sourceCode": "nz",
+      "referenceNumber": "IND-255",
+      "retrievedAt": "2026-09-09T16:30:43Z"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "linkedEntities": [
+
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/nz/consolidated-list/ind-255"
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

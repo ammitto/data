@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/97365",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/97365",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Rahiqi Javad",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Rahiqi Javad",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/97365"
   ],
   "remarks": "Head of the AEOI Esfahan Nuclear Technology Center",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1954-04-24",
-      "circa": false
+      "circa": false,
+      "year": 1954
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

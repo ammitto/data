@@ -1,17 +1,36 @@
 {
-  "id": "https://www.ammitto.org/entity/nz/ent-159",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/nz/ent-159",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "AO GNPP, Region",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "AO GNPP, Region",
+      "isPrimary": true
     }
   ],
-  "source_references": [
+  "sourceReferences": [
     {
-      "source_code": "nz",
-      "reference_number": "ENT-159"
+      "@type": "SourceReference",
+      "sourceCode": "nz",
+      "referenceNumber": "ENT-159",
+      "retrievedAt": "2026-09-09T16:30:41Z"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "linkedEntities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "beneficialOwners": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/nz/consolidated-list/ent-159"
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

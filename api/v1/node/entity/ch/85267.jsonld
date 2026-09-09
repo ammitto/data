@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/85267",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/85267",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Podvyaznikov Mikhail Lvovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Podvyaznikov Mikhail Lvovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/85267"
   ],
   "remarks": "Mikhail Podvyaznikov is the General Director of JSC “North Western Regional Center of Almaz Antey Concern Obukhovsky Plant”.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1958-07-15",
-      "circa": false
+      "circa": false,
+      "year": 1958
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/6095",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/6095",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mugabe Robert Gabriel",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Mugabe Robert Gabriel",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/6095"
   ],
   "remarks": "Former President and responsible for activities that seriously undermine democracy, respect for human rights and the rule of law.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1924-02-21",
-      "circa": false
+      "circa": false,
+      "year": 1924
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

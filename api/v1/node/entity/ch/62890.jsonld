@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/62890",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/62890",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kolmakov Alexander Petrovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kolmakov Alexander Petrovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/62890"
   ],
   "remarks": "Alexander Kolmakov is a member of the working group established by President Putin in December 2022 that is tasked with coordinating the mobilisation efforts of the Russian Federation to support its war of aggression against Ukraine. Beyond his role in the working group, he served during and after the full-scale invasion of Ukraine as the chairman of the all-Russian public-state organisation “Voluntary Society for Assistance to the Army, Aviation and Navy of Russia” which acts as link between Russian military and society by facilitating the recruitment of young people into the military reserves.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1955-07-31",
-      "circa": false
+      "circa": false,
+      "year": 1955
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

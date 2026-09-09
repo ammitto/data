@@ -1,58 +1,80 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus1435",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus1435",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Cheboksary Electrical Equipment Plant",
+      "@type": "NameVariant",
+      "fullName": "Cheboksary Electrical Equipment Plant",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Centre for Technological Competencies in Radiophtonics CheAZ JCS",
+      "@type": "NameVariant",
+      "fullName": "Centre for Technological Competencies in Radiophtonics CheAZ JCS",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "CHEBOKSARY ELECTRIC APPARATUS PLANT",
+      "@type": "NameVariant",
+      "fullName": "CHEBOKSARY ELECTRIC APPARATUS PLANT",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "TsTK",
+      "@type": "NameVariant",
+      "fullName": "TsTK",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "TsTK CheAZ",
+      "@type": "NameVariant",
+      "fullName": "TsTK CheAZ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Чебоксарский завод электрооборудования",
+      "@type": "NameVariant",
+      "fullName": "Чебоксарский завод электрооборудования",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Чебоксарский электроаппаратный завод ",
+      "@type": "NameVariant",
+      "fullName": "Чебоксарский электроаппаратный завод ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "ЧЭАЗ",
+      "@type": "NameVariant",
+      "fullName": "ЧЭАЗ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus1435"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "5, pr. I. Yakovleva",
       "state": "Cheboksary",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

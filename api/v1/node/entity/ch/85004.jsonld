@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/85004",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/85004",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Barabanau Aleh Fyedaravych",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Barabanau Aleh Fyedaravych",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/85004"
   ],
   "remarks": "Aleh Barabanau is the director and part-owner of Vlate Logistik LLC, a transport and storage company which holds the status of authorised economic operator. Through this status, issued by state authorities, it enjoys significant tax advantages. Through the privileges awarded to the company, Barabanau benefits from the Lukashenka regime.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1956-08-29",
-      "circa": false
+      "circa": false,
+      "year": 1956
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

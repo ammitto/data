@@ -1,35 +1,53 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8018",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/8018",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Aleksandr Leonidovich LINETS",
+      "@type": "NameVariant",
+      "fullName": "Aleksandr Leonidovich LINETS",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Aleksander Leonidovich LINETS",
+      "@type": "NameVariant",
+      "fullName": "Aleksander Leonidovich LINETS",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Oleksandr Leonidovych LINETS",
+      "@type": "NameVariant",
+      "fullName": "Oleksandr Leonidovych LINETS",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Head of the “Main Directorate for Special Programmes of the President of the Russian Federation” and member of the Security Council of Russia; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8018"
   ],
-  "birth_info": [
+  "remarks": "Head of the “Main Directorate for Special Programmes of the President of the Russian Federation” and member of the Security Council of Russia; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1963,
       "country": "Starominskaya"
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

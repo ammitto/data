@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/20424",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/20424",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Farkash Mohammed Boucharaya",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Farkash Mohammed Boucharaya",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/20424"
   ],
   "remarks": "Former director of intelligence in External Security Office. Closely associated with the former regime of Muammar Qadhafi.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1949-07-01",
-      "circa": false
+      "circa": false,
+      "year": 1949
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

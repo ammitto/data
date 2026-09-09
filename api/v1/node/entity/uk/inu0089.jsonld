@@ -1,28 +1,44 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/inu0089",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/inu0089",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "MAAA Synergy",
+      "@type": "NameVariant",
+      "fullName": "MAAA Synergy",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "MAAA Synergy Sdn. Bhd.",
+      "@type": "NameVariant",
+      "fullName": "MAAA Synergy Sdn. Bhd.",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/inu0089"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Batu Caves",
       "state": "Selangor",
       "country": "Malaysia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

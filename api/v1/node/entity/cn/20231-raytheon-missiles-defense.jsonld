@@ -1,21 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/cn/20231-raytheon-missiles-defense",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/cn/20231-raytheon-missiles-defense",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Raytheon Missiles & Defense",
+      "@type": "NameVariant",
+      "fullName": "Raytheon Missiles & Defense",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "雷神导弹与防务公司",
+      "@type": "NameVariant",
+      "fullName": "雷神导弹与防务公司",
       "script": "Hani",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "List: cn/unreliable-entity-list",
-  "sanction_entry_ids": [
-    "https://www.ammitto.org/entry/cn/unknown/20231-raytheon-missiles-defense"
+  "sourceReferences": [
+
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/cn/unreliable-entity-list/20231-raytheon-missiles-defense"
+  ],
+  "remarks": "List: cn/unreliable-entity-list",
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

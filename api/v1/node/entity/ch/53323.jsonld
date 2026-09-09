@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/53323",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/53323",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Polovyan Aleksei Vladimirovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Polovyan Aleksei Vladimirovich",
+      "isPrimary": true
     }
   ],
-  "remarks": "Former so-called “Minister of Economic Development” of the so-called “Donetsk People’s Republic”. In taking on and acting in this capacity, he has actively undermined the territorial integrity, sovereignty and independence of Ukraine. Aleksei Polovyan is currently associate professor at the Institute of Economic Research of the so-called “Donetsk People’s Republic”.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/53323"
+  ],
+  "remarks": "Former so-called “Minister of Economic Development” of the so-called “Donetsk People’s Republic”. In taking on and acting in this capacity, Aleksei Polovyan has actively undermined the territorial integrity, sovereignty and independence of Ukraine. Aleksei Polovyan is currently associate professor at the Institute of Economic Research of the so-called “Donetsk People’s Republic”.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1979-05-03",
-      "circa": false
+      "circa": false,
+      "year": 1979
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

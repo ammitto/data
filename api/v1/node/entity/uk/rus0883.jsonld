@@ -1,29 +1,48 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus0883",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/rus0883",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "GLEBOVA",
-      "first_name": "Lyubov",
+      "@type": "NameVariant",
+      "fullName": "GLEBOVA",
+      "firstName": "Lyubov",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Любовь Николаевна ГЛЕБОВА",
+      "@type": "NameVariant",
+      "fullName": "Любовь Николаевна ГЛЕБОВА",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus0883"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "26 Bolshaya Dmitrovka Street",
       "state": "Moscow",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,37 +1,47 @@
 {
-  "id": "https://www.ammitto.org/entry/au/consolidated-list/3254",
-  "entity_id": "https://www.ammitto.org/entity/au/3254",
+  "@id": "https://www.ammitto.org/entry/au/consolidated-list/3254",
+  "@type": "SanctionEntry",
+  "entityId": "https://www.ammitto.org/entity/au/3254",
   "authority": {
     "@id": "https://www.ammitto.org/authority/au"
   },
   "regime": {
-    "@id": "https://www.ammitto.org/regime/au_dprk"
+    "@id": "https://www.ammitto.org/regime/au_dprk",
+    "name": "Democratic People's Republic of Korea"
   },
-  "legal_bases": [
+  "legalBases": [
     {
-      "type": "regulation",
-      "identifier": "Listed on: 2 Jun. 2017",
-      "title": "Listed on: 2 Jun. 2017"
+      "@id": "https://www.ammitto.org/legal-instrument/au/listed-on-2-jun.-2017"
     }
   ],
   "effects": [
     {
-      "effect_type": "asset_freeze",
+      "@type": "SanctionEffect",
+      "effectType": "asset_freeze",
       "scope": "full"
     },
     {
-      "effect_type": "travel_ban",
+      "@type": "SanctionEffect",
+      "effectType": "travel_ban",
       "scope": "full"
     }
   ],
+  "reasons": [
+
+  ],
   "period": {
-    "is_indefinite": true
+    "@type": "TemporalPeriod",
+    "isIndefinite": true
   },
   "status": "active",
-  "reference_number": "3254",
-  "raw_source_data": {
-    "source_format": "csv",
-    "source_specific_fields": {
+  "statusHistory": [
+
+  ],
+  "referenceNumber": "3254",
+  "rawSourceData": {
+    "@type": "RawSourceData",
+    "sourceFormat": "csv",
+    "sourceSpecificFields": {
       "au:reference": "3254",
       "au:committees": "1718 (DPRK)",
       "au:control_date": "2026-02-20",
@@ -39,5 +49,5 @@
       "au:listing_info": "Listed on: 2 Jun. 2017"
     }
   },
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

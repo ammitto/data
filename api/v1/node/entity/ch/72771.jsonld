@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/72771",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/72771",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Belyaev Alexander Nikolaevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Belyaev Alexander Nikolaevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/72771"
   ],
   "remarks": "Alexander Belyaev is the CEO and the founder of LLC SMTiLogic. LLC SMT-iLogic is a provider of various services in the field of electronics development. The company provides services for the development of electronics and manufactures devices for collecting and processing information. LLC STC, the Russian military-affiliated manufacturer of Orlan-10 drones, gets foreign components from LLC SMT-iLogic. The Russian Armed Forces use Orlan-10 drones in the war of aggression against Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1966-10-29",
-      "circa": false
+      "circa": false,
+      "year": 1966
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

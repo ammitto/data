@@ -1,50 +1,71 @@
 {
-  "id": "https://www.ammitto.org/entity/au/2299",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/2299",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ali ABDUL KARIM ALI",
+      "@type": "NameVariant",
+      "fullName": "Ali ABDUL KARIM ALI",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Ali ABD-AL-KARIM",
+      "@type": "NameVariant",
+      "fullName": "Ali ABD-AL-KARIM",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ali ABD-AL KARIM ALI",
+      "@type": "NameVariant",
+      "fullName": "Ali ABD-AL KARIM ALI",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ali ABDULKARIM",
+      "@type": "NameVariant",
+      "fullName": "Ali ABDULKARIM",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ali ABDUL KARIM",
+      "@type": "NameVariant",
+      "fullName": "Ali ABDUL KARIM",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ali ABD AL KARIM",
+      "@type": "NameVariant",
+      "fullName": "Ali ABD AL KARIM",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Last known position: Syria's Ambassador to Lebanon.; Listing: Designated under the Autonomous Sanctions Regulations 2011 on 2 March 2012. \nInstrument of first\ndesignation and\ndeclaration:\nAutonomous Sanctions (Designated Persons and Entities and\nDeclared Persons – Syria) List 2012 [F2012L00482]\nRelisted on 12 January 2024.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/2299"
   ],
-  "birth_info": [
+  "remarks": "Last known position: Syria's Ambassador to Lebanon.; Listing: Designated under the Autonomous Sanctions Regulations 2011 on 2 March 2012. \nInstrument of first\ndesignation and\ndeclaration:\nAutonomous Sanctions (Designated Persons and Entities and\nDeclared Persons – Syria) List 2012 [F2012L00482]\nRelisted on 12 January 2024.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1953,
       "country": "Latakia"
     }
   ],
   "nationalities": [
     "Syria"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

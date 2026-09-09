@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/323273",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/323273",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "JUYDAM-TAMIRCHI LLC",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "JUYDAM-TAMIRCHI LLC",
+      "isPrimary": true
     }
   ],
-  "remarks": "*444",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/323273"
+  ],
+  "remarks": "*444",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "DASHNAYA 8, FERGANA REGION",
       "city": "FERGANA CITY",
       "country": "Uzbekistan",
-      "country_iso_code": "UZ"
+      "countryIsoCode": "UZ"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

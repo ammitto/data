@@ -1,72 +1,100 @@
 {
-  "id": "https://www.ammitto.org/entity/au/2674",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/2674",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Nourredine ADAM",
+      "@type": "NameVariant",
+      "fullName": "Nourredine ADAM",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Nureldine Adam",
+      "@type": "NameVariant",
+      "fullName": "Nureldine Adam",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Nourreldine Adam",
+      "@type": "NameVariant",
+      "fullName": "Nourreldine Adam",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Nourreddine Adam",
+      "@type": "NameVariant",
+      "fullName": "Nourreddine Adam",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Mahamat Nouradine Adam",
+      "@type": "NameVariant",
+      "fullName": "Mahamat Nouradine Adam",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Mohamed Adam Brema Abdallah",
+      "@type": "NameVariant",
+      "fullName": "Mohamed Adam Brema Abdallah",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "CFi.002 Designation: a) General b) Minister for Security c) Director General of the \"Extraordinary Committee for the Defence of Democratic Achievements. Passport No: a) D00001184 (CAR passport) b) no: P04838205, issued on 10 June 2018, (issued in Bahri, Sudan.  Expires on 9 June 2023. Passport issued under the name of Mohamed Adam Brema Abdallah). National identification no: a) 202-2708-8368 (Sudan).; Listing: Listed on 9 May 2014 (amended on 4 Nov. 2014, 1 Mar. 2019, 6 Sept. 2019)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/2674"
   ],
-  "birth_info": [
+  "remarks": "CFi.002 Designation: a) General b) Minister for Security c) Director General of the \"Extraordinary Committee for the Defence of Democratic Achievements. Passport No: a) D00001184 (CAR passport) b) no: P04838205, issued on 10 June 2018, (issued in Bahri, Sudan.  Expires on 9 June 2023. Passport issued under the name of Mohamed Adam Brema Abdallah). National identification no: a) 202-2708-8368 (Sudan).; Listing: Listed on 9 May 2014 (amended on 4 Nov. 2014, 1 Mar. 2019, 6 Sept. 2019)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1970,
       "country": "a) Ndele"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1969,
       "country": "Central African Republic b) Algenana"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1971,
       "country": "Sudan"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1970,
       "country": "a) Ndele"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1971,
       "country": "a) Ndele"
     }
   ],
   "nationalities": [
-    "Central African Republic;Sudan"
+    "Central African Republic",
+    "Sudan"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "a) Birao, Central African Republic b) Sudan",
       "country": "Central African Republic b) Sudan"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

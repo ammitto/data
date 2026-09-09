@@ -1,42 +1,61 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus2941",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus2941",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "JSC ZAVOD REKOND ",
+      "@type": "NameVariant",
+      "fullName": "JSC ZAVOD REKOND ",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Joint Stock Company \"Rekond Plant\" ",
+      "@type": "NameVariant",
+      "fullName": "Joint Stock Company \"Rekond Plant\" ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "JSC \"Plant \"Rekond\" ",
+      "@type": "NameVariant",
+      "fullName": "JSC \"Plant \"Rekond\" ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "JSC \"Rekond Plant\" ",
+      "@type": "NameVariant",
+      "fullName": "JSC \"Rekond Plant\" ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "АО «Завод «Реконд» ",
+      "@type": "NameVariant",
+      "fullName": "АО «Завод «Реконд» ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus2941"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "10, P.O. Box 85, Kurchatova St",
       "state": "St. Petersburg",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

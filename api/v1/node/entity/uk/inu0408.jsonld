@@ -1,16 +1,33 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/inu0408",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/inu0408",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "TAMAS Company",
+      "@type": "NameVariant",
+      "fullName": "TAMAS Company",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "Involved in enrichment-related activities. TAMAS is the overarching body, under which four subsidiaries have been established, including one for uranium extraction to concentration and another in charge of uranium processing, enrichment and waste.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/inu0408"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "remarks": "Involved in enrichment-related activities. TAMAS is the overarching body, under which four subsidiaries have been established, including one for uranium extraction to concentration and another in charge of uranium processing, enrichment and waste.",
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

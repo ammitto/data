@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/81026",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/81026",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Zakarya Essabar",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Zakarya Essabar",
+      "isPrimary": true
     }
   ],
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/81026"
+  ],
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1977-04-03",
-      "circa": false
+      "circa": false,
+      "year": 1977
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

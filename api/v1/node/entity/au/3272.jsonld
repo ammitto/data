@@ -1,24 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3272",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/3272",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Jang Song Chol",
+      "@type": "NameVariant",
+      "fullName": "Jang Song Chol",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "KPi.056 Jang Song Chol is a Korea Mining Development\nCorporation (KOMID) representative overseas.; Listing: Listed on: 5 Aug. 2017",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3272"
   ],
-  "birth_info": [
+  "remarks": "KPi.056 Jang Song Chol is a Korea Mining Development\nCorporation (KOMID) representative overseas.; Listing: Listed on: 5 Aug. 2017",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1967
     }
   ],
   "nationalities": [
     "Democratic People's Republic of Korea (North Korea)"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

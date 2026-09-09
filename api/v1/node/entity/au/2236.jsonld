@@ -1,45 +1,65 @@
 {
-  "id": "https://www.ammitto.org/entity/au/2236",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/2236",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ali MAMLUK",
+      "@type": "NameVariant",
+      "fullName": "Ali MAMLUK",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Ali Yunis MAMLUK",
+      "@type": "NameVariant",
+      "fullName": "Ali Yunis MAMLUK",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ali MAMLOUK",
+      "@type": "NameVariant",
+      "fullName": "Ali MAMLOUK",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ali Yunis MAMLOUK",
+      "@type": "NameVariant",
+      "fullName": "Ali Yunis MAMLOUK",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abu AYHAM",
+      "@type": "NameVariant",
+      "fullName": "Abu AYHAM",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Last known position: Vice President for Security Affairs. Formely the Director of the Syrian National Security Bureau. Passport No.: 983.; Listing: Designated under the Autonomous Sanctions Regulations 2011 on 2 March 2012. Formerly listed on the RBA Consolidated List as 2011SYR0014. \nInstrument of first\ndesignation and\ndeclaration:\nAutonomous Sanctions (Designated Persons and Entities and\nDeclared Persons – Syria) List 2012 [F2012L00482]\nRelisted on 12 January 2024.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/2236"
   ],
-  "birth_info": [
+  "remarks": "Last known position: Vice President for Security Affairs. Formely the Director of the Syrian National Security Bureau. Passport No.: 983.; Listing: Designated under the Autonomous Sanctions Regulations 2011 on 2 March 2012. Formerly listed on the RBA Consolidated List as 2011SYR0014. \nInstrument of first\ndesignation and\ndeclaration:\nAutonomous Sanctions (Designated Persons and Entities and\nDeclared Persons – Syria) List 2012 [F2012L00482]\nRelisted on 12 January 2024.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1946,
       "country": "Damascus"
     }
   ],
   "nationalities": [
     "Syria"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,33 +1,50 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/syr0304",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/syr0304",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Hamcho International",
+      "@type": "NameVariant",
+      "fullName": "Hamcho International",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Hamcho Group",
+      "@type": "NameVariant",
+      "fullName": "Hamcho Group",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Hamcho Group International",
+      "@type": "NameVariant",
+      "fullName": "Hamcho Group International",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Director and Controller of Business is Muhammed Hamcho. The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/syr0304"
+  ],
+  "remarks": "Director and Controller of Business is Muhammed Hamcho. The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Building 31, Baghdad Street",
       "state": "Damascus",
       "country": "Syria"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

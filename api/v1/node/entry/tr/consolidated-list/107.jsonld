@@ -1,22 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entry/tr/consolidated-list/107",
-  "entity_id": "https://www.ammitto.org/entity/tr/107",
-  "regime": {
-    "@id": "https://www.ammitto.org/regime/tr-d"
+  "@id": "https://www.ammitto.org/entry/tr/consolidated-list/107",
+  "@type": "SanctionEntry",
+  "entityId": "https://www.ammitto.org/entity/tr/107",
+  "authority": {
+    "@id": "https://www.ammitto.org/authority/tr"
   },
+  "regime": {
+    "@id": "https://www.ammitto.org/regime/tr-d",
+    "name": "Turkey Law No. 7262, Articles 3.A/3.B"
+  },
+  "legalBases": [
+
+  ],
   "effects": [
     {
-      "effect_type": "asset_freeze",
+      "@type": "SanctionEffect",
+      "effectType": "asset_freeze",
       "scope": "full"
     },
     {
-      "effect_type": "entry_ban",
+      "@type": "SanctionEffect",
+      "effectType": "entry_ban",
       "scope": "full"
     }
   ],
+  "reasons": [
+
+  ],
   "period": {
-    "is_indefinite": true
+    "@type": "TemporalPeriod",
+    "listedDate": "2016-03-02",
+    "isIndefinite": true
   },
   "status": "active",
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "statusHistory": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

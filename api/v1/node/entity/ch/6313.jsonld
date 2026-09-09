@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/6313",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/6313",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kasukuwere Saviour",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kasukuwere Saviour",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/6313"
   ],
   "remarks": "ZANU-PF Member of the Government. Organised those involved in violent riots in Harare in February 2011.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1970-10-23",
-      "circa": false
+      "circa": false,
+      "year": 1970
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

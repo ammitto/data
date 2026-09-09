@@ -1,24 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3595",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/3595",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ibrahim Saeed Salim Jadhran",
+      "@type": "NameVariant",
+      "fullName": "Ibrahim Saeed Salim Jadhran",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "LYi.027. Designation: Leader of armed militias.  Name of mother Salma Abdula Younis.  Listed pursuant to paragraphs 15 and 17 of resolution 1970 (Travel Ban, Asset Freeze).; Listing: Listed on: 11 Sept. 2018",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3595"
   ],
-  "birth_info": [
+  "remarks": "LYi.027. Designation: Leader of armed militias.  Name of mother Salma Abdula Younis.  Listed pursuant to paragraphs 15 and 17 of resolution 1970 (Travel Ban, Asset Freeze).; Listing: Listed on: 11 Sept. 2018",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1982
     }
   ],
   "nationalities": [
     "Libya"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

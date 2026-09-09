@@ -1,26 +1,42 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/inu0348",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/inu0348",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "NATIONAL IRANIAN OIL COMPANY PTE LIMITED ",
+      "@type": "NameVariant",
+      "fullName": "NATIONAL IRANIAN OIL COMPANY PTE LIMITED ",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "National Iranian Oil Company (PTE) Limited ",
+      "@type": "NameVariant",
+      "fullName": "National Iranian Oil Company (PTE) Limited ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/inu0348"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "7 Temasek Boulevard, 07-02, Suntec Tower One",
       "country": "Singapore"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,37 +1,57 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7338",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7338",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kiyumars HEIDARI",
+      "@type": "NameVariant",
+      "fullName": "Kiyumars HEIDARI",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Kioumars HEYDARI",
+      "@type": "NameVariant",
+      "fullName": "Kioumars HEYDARI",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Kyomarth HEYDARI",
+      "@type": "NameVariant",
+      "fullName": "Kyomarth HEYDARI",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Brigadier-General, Commander of the Iranian Army’s Ground Forces; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Thematic Sanctions) Amendment (No. 1) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7338"
   ],
-  "birth_info": [
+  "remarks": "Brigadier-General, Commander of the Iranian Army’s Ground Forces; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Thematic Sanctions) Amendment (No. 1) Instrument 2023",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1963
     },
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1964
     }
   ],
   "nationalities": [
     "Iran"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

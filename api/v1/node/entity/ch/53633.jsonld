@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/53633",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/53633",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Shepotko Pavel Alexandrovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Shepotko Pavel Alexandrovich",
+      "isPrimary": true
     }
   ],
-  "remarks": "Member of the so-called ‘People’s Council’ of the so-called ‘Donetsk People’s Republic’. Has therefore supported and implemented actions and policies which undermine the territorial integrity, sovereignty and independence of Ukraine, and further destabilised Ukraine.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/53633"
+  ],
+  "remarks": "Former member of the so-called “People’s Council” of the so-called “Donetsk People’s Republic”. Has therefore supported and implemented actions and policies which undermine the territorial integrity, sovereignty and independence of Ukraine, and further destabilised Ukraine.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1986-04-15",
-      "circa": false
+      "circa": false,
+      "year": 1986
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

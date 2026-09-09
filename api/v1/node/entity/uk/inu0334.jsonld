@@ -1,52 +1,73 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/inu0334",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/inu0334",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "PETROPARS IRAN COMPANY ",
+      "@type": "NameVariant",
+      "fullName": "PETROPARS IRAN COMPANY ",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Petro Pars Iran Company ",
+      "@type": "NameVariant",
+      "fullName": "Petro Pars Iran Company ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "PETROPARS IRAN  ",
+      "@type": "NameVariant",
+      "fullName": "PETROPARS IRAN  ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "PETROPARS IRAN Co  ",
+      "@type": "NameVariant",
+      "fullName": "PETROPARS IRAN Co  ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "PETROPARS Iran Private Joint Stock Company  ",
+      "@type": "NameVariant",
+      "fullName": "PETROPARS Iran Private Joint Stock Company  ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "PPI  ",
+      "@type": "NameVariant",
+      "fullName": "PPI  ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "شرکت پترو پارس ایران ",
+      "@type": "NameVariant",
+      "fullName": "شرکت پترو پارس ایران ",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/inu0334"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "No. 2, Maarif Alley, Farhang Blvd, Saadat Abad",
       "state": "Tehran",
       "country": "Iran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

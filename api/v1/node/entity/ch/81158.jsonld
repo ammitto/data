@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/81158",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/81158",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Moussa Ben Omar Ben Ali Essaadi",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Moussa Ben Omar Ben Ali Essaadi",
+      "isPrimary": true
     }
   ],
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/81158"
+  ],
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1964-12-04",
-      "circa": false
+      "circa": false,
+      "year": 1964
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

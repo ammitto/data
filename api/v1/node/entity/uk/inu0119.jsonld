@@ -1,33 +1,50 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/inu0119",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/inu0119",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Sun Middle East FZ Company",
+      "@type": "NameVariant",
+      "fullName": "Sun Middle East FZ Company",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Sun Middle East (F Z Co)",
+      "@type": "NameVariant",
+      "fullName": "Sun Middle East (F Z Co)",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Sun Middle East FZCO",
+      "@type": "NameVariant",
+      "fullName": "Sun Middle East FZCO",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/inu0119"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Office No LB16216, P.O. Box 61278",
       "state": "Dubai",
       "country": "United Arab Emirates"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,0 +1,53 @@
+{
+  "@id": "https://www.ammitto.org/entry/un/consolidated-list/ire002",
+  "@type": "SanctionEntry",
+  "entityId": "https://www.ammitto.org/entity/un/ire002",
+  "authority": {
+    "@id": "https://www.ammitto.org/authority/un"
+  },
+  "regime": {
+    "@id": "https://www.ammitto.org/regime/iran",
+    "name": "Iran"
+  },
+  "legalBases": [
+
+  ],
+  "effects": [
+    {
+      "@type": "SanctionEffect",
+      "effectType": "asset_freeze",
+      "scope": "full"
+    },
+    {
+      "@type": "SanctionEffect",
+      "effectType": "travel_ban",
+      "scope": "full"
+    }
+  ],
+  "reasons": [
+
+  ],
+  "period": {
+    "@type": "TemporalPeriod",
+    "listedDate": "2008-03-03",
+    "effectiveDate": "2008-03-03",
+    "isIndefinite": true,
+    "lastUpdated": "\n      "
+  },
+  "status": "active",
+  "statusHistory": [
+
+  ],
+  "referenceNumber": "IRe.002",
+  "remarks": "Involved in the production of centrifuge components. [Old Reference #\nE.03.III.1]",
+  "rawSourceData": {
+    "@type": "RawSourceData",
+    "sourceFormat": "xml",
+    "sourceSpecificFields": {
+      "un:dataId": "110402",
+      "un:versionNum": "1",
+      "un:entityType": "entity"
+    }
+  },
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
+}

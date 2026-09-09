@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/33802",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/33802",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Jang Yong Son",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Jang Yong Son",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/33802"
   ],
   "remarks": "Korea Mining Development Trading Corporation (KOMID) Representative.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1957-02-20",
-      "circa": false
+      "circa": false,
+      "year": 1957
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

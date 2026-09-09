@@ -1,41 +1,57 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3139",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/3139",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Morad Laaboudi",
+      "@type": "NameVariant",
+      "fullName": "Morad Laaboudi",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Abu Ismail",
+      "@type": "NameVariant",
+      "fullName": "Abu Ismail",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abu Ismail al-Maghribi",
+      "@type": "NameVariant",
+      "fullName": "Abu Ismail al-Maghribi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Passport no.: Moroccan passport number UZ6430184 National identification no.: Moroccan national identity number  CD595054. Facilitator for travel of foreign terrorist fighters to join Islamic State in Iraq and the Levant, listed as Al-Qaida in Iraq (QDe.115), in Syrian Arab Republic. Review pursuant to Security Council resolution 2368 (2017) was concluded on 15 November 2021.; Listing: Listed on: 29 Feb. 2016",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3139"
   ],
-  "birth_info": [
+  "remarks": "Passport no.: Moroccan passport number UZ6430184 National identification no.: Moroccan national identity number  CD595054. Facilitator for travel of foreign terrorist fighters to join Islamic State in Iraq and the Levant, listed as Al-Qaida in Iraq (QDe.115), in Syrian Arab Republic. Review pursuant to Security Council resolution 2368 (2017) was concluded on 15 November 2021.; Listing: Listed on: 29 Feb. 2016",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1993,
       "country": "Morocco"
     }
   ],
   "nationalities": [
     "Morocco"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Turkey",
       "country": "Turkey"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,28 +1,44 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus2405",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus2405",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "MAINZ MACHINE CO., LTD",
+      "@type": "NameVariant",
+      "fullName": "MAINZ MACHINE CO., LTD",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "บริษัท เมนซ์ แมชชีน จำกัด",
+      "@type": "NameVariant",
+      "fullName": "บริษัท เมนซ์ แมชชีน จำกัด",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus2405"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Floor 10, 190/25 Harbor Pattaya Building, Moo 9, Bang Lamung",
       "state": "Chon Buri",
       "country": "Thailand"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/4587",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/4587",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mihun Andrei Arkadzevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Mihun Andrei Arkadzevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/4587"
   ],
   "remarks": "Public Prosecutor. In 2006, he dealt with the case of the Civic Initiative \"Partnership\" for monitoring the Presidential elections in 2006. The accusation presented by him against Nikolai Astreiko, Timofei Dranchuk, Aleksandr Shalaiko and Enira Bronitskaya was politically motivated and included clear violations of the Code of Criminal Procedure.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1978-02-05",
-      "circa": false
+      "circa": false,
+      "year": 1978
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

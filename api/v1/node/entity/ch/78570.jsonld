@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/78570",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/78570",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Cuzneţov Iurii",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Cuzneţov Iurii",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/78570"
   ],
   "remarks": "Iurii Cuzneţov, a former member of Ilan Shor’s political party “SHOR” (“ȘOR”), is the Deputy Head of the General Department for External Relations of the Executive Committee of the Autonomous Territorial Unit of Gagauzia. He joined Evghenia Guţul on her visit to the Russian Federation and was involved in the scheme to finance Gagauzian citizens through a Russian bank. He actively supported Evghenia Guţul’s campaign for Governor (Bashkan) of Gagauzia.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1988-07-18",
-      "circa": false
+      "circa": false,
+      "year": 1988
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

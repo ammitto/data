@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/56964",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/56964",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Evkurov Yunus-Bek Bamatgireevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Evkurov Yunus-Bek Bamatgireevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/56964"
   ],
   "remarks": "Deputy Minister of Defense of the Russian Federation. In this role he is responsible for the Russian war effort at large. In his public appearances, he openly justifies Russia’s war of aggression against Ukraine. By means of his public appearances and participation in reward and medal ceremonies, he rallies domestic support for the war. Furthermore, his actions show that he actively supports Russia’s war of aggression against Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1963-07-30",
-      "circa": false
+      "circa": false,
+      "year": 1963
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

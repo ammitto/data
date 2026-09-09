@@ -1,33 +1,42 @@
 {
-  "id": "https://www.ammitto.org/entry/au/consolidated-list/8215",
-  "entity_id": "https://www.ammitto.org/entity/au/8215",
+  "@id": "https://www.ammitto.org/entry/au/consolidated-list/8215",
+  "@type": "SanctionEntry",
+  "entityId": "https://www.ammitto.org/entity/au/8215",
   "authority": {
     "@id": "https://www.ammitto.org/authority/au"
   },
   "regime": {
-    "@id": "https://www.ammitto.org/regime/1373__2001_"
+    "@id": "https://www.ammitto.org/regime/1373__2001_",
+    "name": "1373 (2001)"
   },
-  "legal_bases": [
+  "legalBases": [
     {
-      "type": "instrument",
-      "identifier": "Charter of the United Nations (Listed Persons and Entities) Amendment (No. 3) Instrument 2025",
-      "title": "Charter of the United Nations (Listed Persons and Entities) Amendment (No. 3) Instrument 2025"
+      "@id": "https://www.ammitto.org/legal-instrument/au/charter-of-the-united-nations-listed-persons-and-entities-amendment-no.-3-instrument-2025"
     }
   ],
   "effects": [
     {
-      "effect_type": "asset_freeze",
+      "@type": "SanctionEffect",
+      "effectType": "asset_freeze",
       "scope": "full"
     }
   ],
+  "reasons": [
+
+  ],
   "period": {
-    "is_indefinite": true
+    "@type": "TemporalPeriod",
+    "isIndefinite": true
   },
   "status": "active",
-  "reference_number": "8215",
-  "raw_source_data": {
-    "source_format": "csv",
-    "source_specific_fields": {
+  "statusHistory": [
+
+  ],
+  "referenceNumber": "8215",
+  "rawSourceData": {
+    "@type": "RawSourceData",
+    "sourceFormat": "csv",
+    "sourceSpecificFields": {
       "au:reference": "8215",
       "au:committees": "1373 (2001)",
       "au:control_date": "2025-09-13",
@@ -35,5 +44,5 @@
       "au:listing_info": "Charter of the United Nations (Listed Persons and Entities) Amendment (No. 3) Instrument 2025"
     }
   },
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

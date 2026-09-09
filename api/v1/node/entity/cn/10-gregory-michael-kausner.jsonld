@@ -1,22 +1,43 @@
 {
-  "id": "https://www.ammitto.org/entity/cn/10-gregory-michael-kausner",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/cn/10-gregory-michael-kausner",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Gregory Michael Kausner",
+      "@type": "NameVariant",
+      "fullName": "Gregory Michael Kausner",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "格雷戈里·考斯纳",
+      "@type": "NameVariant",
+      "fullName": "格雷戈里·考斯纳",
       "script": "Hani",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/cn/anti-sanction-list/10-gregory-michael-kausner"
+  ],
   "remarks": "List: cn/anti-sanction-list; Title: 安杜里尔公司负责全球防务的高级副总裁; Gender: male",
-  "sanction_entry_ids": [
-    "https://www.ammitto.org/entry/cn/unknown/10-gregory-michael-kausner"
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
   ],
   "gender": "male",
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

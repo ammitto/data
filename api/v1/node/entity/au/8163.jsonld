@@ -1,25 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8163",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/8163",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Vladimir Ivanovich ALISOV",
+      "@type": "NameVariant",
+      "fullName": "Vladimir Ivanovich ALISOV",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "Member of the Board of Directors for Gazprom Neft; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 3) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8163"
   ],
-  "birth_info": [
+  "remarks": "Member of the Board of Directors for Gazprom Neft; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 3) Instrument 2025",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1960,
       "country": "St Petersburg"
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

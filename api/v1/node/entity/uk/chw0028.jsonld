@@ -1,43 +1,62 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/chw0028",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/chw0028",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Russian Ministry of Defence 33rd Central Scientific Research and Testing Institute ",
+      "@type": "NameVariant",
+      "fullName": "Russian Ministry of Defence 33rd Central Scientific Research and Testing Institute ",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "33rd Scientific Research and Testing Institute ",
+      "@type": "NameVariant",
+      "fullName": "33rd Scientific Research and Testing Institute ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "33rd TsNIII",
+      "@type": "NameVariant",
+      "fullName": "33rd TsNIII",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Federal State Budgetary Establishment 27 Scientific Centre of the Ministry of Defence of the Russian Federation ",
+      "@type": "NameVariant",
+      "fullName": "Federal State Budgetary Establishment 27 Scientific Centre of the Ministry of Defence of the Russian Federation ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "ФЕДЕРАЛЬНОЕ ГОСУДАРСТВЕННОЕ БЮДЖЕТНОЕ УЧРЕЖДЕНИЕ \"33 ЦЕНТРАЛЬНЫЙ НАУЧНО-ИССЛЕДОВАТЕЛЬСКИЙ ИСПЫТАТЕЛЬНЫЙ ИНСТИТУТ\" МИНИСТЕРСТВА ОБОРОНЫ РОССИЙСКОЙ ФЕДЕРАЦИИ ",
+      "@type": "NameVariant",
+      "fullName": "ФЕДЕРАЛЬНОЕ ГОСУДАРСТВЕННОЕ БЮДЖЕТНОЕ УЧРЕЖДЕНИЕ \"33 ЦЕНТРАЛЬНЫЙ НАУЧНО-ИССЛЕДОВАТЕЛЬСКИЙ ИСПЫТАТЕЛЬНЫЙ ИНСТИТУТ\" МИНИСТЕРСТВА ОБОРОНЫ РОССИЙСКОЙ ФЕДЕРАЦИИ ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/chw0028"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Ulitsa Krasnoznamennaya Street 1, Volsk-18, Saratov Oblast",
       "state": "Shikhany",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,21 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/cn/202510-techinsights-usa-inc",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/cn/202510-techinsights-usa-inc",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "TechInsights USA Inc",
+      "@type": "NameVariant",
+      "fullName": "TechInsights USA Inc",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "TechInsights 美国公司",
+      "@type": "NameVariant",
+      "fullName": "TechInsights 美国公司",
       "script": "Hani",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "List: cn/unreliable-entity-list",
-  "sanction_entry_ids": [
-    "https://www.ammitto.org/entry/cn/unknown/202510-techinsights-usa-inc"
+  "sourceReferences": [
+
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/cn/unreliable-entity-list/202510-techinsights-usa-inc"
+  ],
+  "remarks": "List: cn/unreliable-entity-list",
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,64 +1,87 @@
 {
-  "id": "https://www.ammitto.org/entity/au/205",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/205",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Khalid Shaikh MOHAMMED",
+      "@type": "NameVariant",
+      "fullName": "Khalid Shaikh MOHAMMED",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Ashraf Refaat Nabith HENIN",
+      "@type": "NameVariant",
+      "fullName": "Ashraf Refaat Nabith HENIN",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Fahd Bin Abdallah BIN KHALID",
+      "@type": "NameVariant",
+      "fullName": "Fahd Bin Abdallah BIN KHALID",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Khalid Abdul WADOOD",
+      "@type": "NameVariant",
+      "fullName": "Khalid Abdul WADOOD",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "KSM",
+      "@type": "NameVariant",
+      "fullName": "KSM",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Salem ALI",
+      "@type": "NameVariant",
+      "fullName": "Salem ALI",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Mr Mohammed is associated with Al Qaida (a listed entity under Australian sanctions law).; Listing: Instrument of first listing: Charter of the United Nations (Anti terrorism — Persons and Entities) List 2001 [F2021L00631, Gazette No. S 500, 21 December 2001]. Last listed on: 13/09/2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/205"
   ],
-  "birth_info": [
+  "remarks": "Mr Mohammed is associated with Al Qaida (a listed entity under Australian sanctions law).; Listing: Instrument of first listing: Charter of the United Nations (Anti terrorism — Persons and Entities) List 2001 [F2021L00631, Gazette No. S 500, 21 December 2001]. Last listed on: 13/09/2025",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1964,
       "country": "Kuwait"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1964,
       "country": "Kuwait"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1965,
       "country": "Kuwait"
     }
   ],
   "nationalities": [
     "Kuwait"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Guantanamo Bay (detained)",
       "country": "Guantanamo Bay (detained)"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

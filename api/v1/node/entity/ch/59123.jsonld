@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/59123",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/59123",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Nikolov Alexey Lvovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Nikolov Alexey Lvovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/59123"
   ],
   "remarks": "Alexey Nikolov is the former General Director of the Russian government-linked media organisation TV-Novosti, and of its subordinate RT news television network. He is Managing Director of RT. TV-Novosti and RT are funded from the federal budget of the Russian Federation. Media outlets under his management, including RT, spread pro-Kremlin propaganda and disinformation, and supported Russia’s war of aggression against Ukraine. Moreover, he publicly denied the responsibility of the Armed Forces of the Russian Federation for the war crimes committed in Bucha.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1957-12-21",
-      "circa": false
+      "circa": false,
+      "year": 1957
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

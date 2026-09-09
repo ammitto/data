@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/734646",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/734646",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "ROYAL DIZAYN LOYIHA",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "ROYAL DIZAYN LOYIHA",
+      "isPrimary": true
     }
   ],
-  "remarks": "(TIN No. 300898378) *489",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/734646"
+  ],
+  "remarks": "(TIN No. 300898378) *489",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "FERGANA DISTRICT, SAYILGOH STREET, 22B-HOUSE",
       "city": "FERGANA REGION",
       "country": "Uzbekistan",
-      "country_iso_code": "UZ"
+      "countryIsoCode": "UZ"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

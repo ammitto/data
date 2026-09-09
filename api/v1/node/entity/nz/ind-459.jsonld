@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/nz/ind-459",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/nz/ind-459",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Andrey Vladimirovich Zhuk",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Andrey Vladimirovich Zhuk",
+      "isPrimary": true
     }
   ],
-  "source_references": [
+  "sourceReferences": [
     {
-      "source_code": "nz",
-      "reference_number": "IND-459"
+      "@type": "SourceReference",
+      "sourceCode": "nz",
+      "referenceNumber": "IND-459",
+      "retrievedAt": "2026-09-09T16:30:43Z"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "linkedEntities": [
+
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/nz/consolidated-list/ind-459"
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

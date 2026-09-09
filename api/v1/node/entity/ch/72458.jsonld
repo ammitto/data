@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/72458",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/72458",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Skoropupov Dmitry Alexandrovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Skoropupov Dmitry Alexandrovich",
+      "isPrimary": true
     }
   ],
-  "remarks": "Dmitry Skoropupov is the General Director of JSC Uralcryomash. Uralcryomash supplies the Ministry of Defence of the Russian Federation under Russia’s state defence order. The company supplies naphthalene and oxygen transportation solutions for Roscosmos’ Vostochny Cosmodrome. In Vostochny Cosmodrome, satellites are launched for the Russian Army to identify targets in the Russian war of aggression against Ukraine. Moreover, as a longtime Deputy for the Nizhny Tagil City Duma, he supports Russia’s war of aggression against Ukraine by providing humanitarian assistance to the so-called Donetsk and Lugansk People’s Republics.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/72458"
+  ],
+  "remarks": "Dmitry Skoropupov is the General Director of JSC Uralcryomash. Uralcryomash supplies the Ministry of Defence of the Russian Federation under Russia’s state defence order. The company supplies naphthalene and oxygen transportation solutions for Roscosmos’ Vostochny Cosmodrome. In Vostochny Cosmodrome, satellites are launched for the Russian Army to identify targets in the Russian war of aggression against Ukraine. Moreover, as a longtime Deputy for the Nizhny Tagil City Duma, he supports Russia’s war of aggression against Ukraine by providing humanitarian assistance to the so-called “Donetsk and Luhansk People’s Republics”.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1972-12-24",
-      "circa": false
+      "circa": false,
+      "year": 1972
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/56038",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/56038",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Delimkhanov Adam Sultanovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Delimkhanov Adam Sultanovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/56038"
   ],
   "remarks": "Member of the State Duma of the Russian Federation since 19 Sep 2021, First Deputy Chairman of the Committee on Security and Anti-Corruption. Responsible for establishing Chechen forces in the Donbas region since Mar 2022 and for leading the siege on the city of Mariupol in Mar 2022. He has been personally involved in preparing the attacks since the beginning of Russia's war of aggression against Ukraine. For these\nactions, on 26 Apr 2022, he was made a Hero of the Russian Federation by decree of the President of the Russian Federation. In this capacity, he is responsible for, supporting or implementing actions or policies which undermine or threaten the territorial integrity, sovereignty and independence of Ukraine, or stability or security in Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1969-09-25",
-      "circa": false
+      "circa": false,
+      "year": 1969
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

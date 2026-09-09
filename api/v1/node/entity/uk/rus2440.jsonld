@@ -1,58 +1,80 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus2440",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus2440",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "LLC INTERVESP ",
+      "@type": "NameVariant",
+      "fullName": "LLC INTERVESP ",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": " COMPANY INTERVESP",
+      "@type": "NameVariant",
+      "fullName": " COMPANY INTERVESP",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Limited Liability Company \"Company Intervesp\"",
+      "@type": "NameVariant",
+      "fullName": "Limited Liability Company \"Company Intervesp\"",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Limited Liability Company Intervesp Company",
+      "@type": "NameVariant",
+      "fullName": "Limited Liability Company Intervesp Company",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Obshchestvo S Ogranichennoi Otvetstvennostyu Kompaniya Intervesp",
+      "@type": "NameVariant",
+      "fullName": "Obshchestvo S Ogranichennoi Otvetstvennostyu Kompaniya Intervesp",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "ООО «ИНТЕРВЕСП»",
+      "@type": "NameVariant",
+      "fullName": "ООО «ИНТЕРВЕСП»",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "КОМПАНИЯ ИНТЕРВЕСП ",
+      "@type": "NameVariant",
+      "fullName": "КОМПАНИЯ ИНТЕРВЕСП ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Товариство з обмеженою відповідальністю \"Компанія Інтервесп\"",
+      "@type": "NameVariant",
+      "fullName": "Товариство з обмеженою відповідальністю \"Компанія Інтервесп\"",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus2440"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "ROOM 605, 6B ARTYUKHINOY STREET",
       "state": "MOSCOW",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

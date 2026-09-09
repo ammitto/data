@@ -1,43 +1,62 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus0233",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus0233",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Black Sea Bank for Development and Reconstruction",
+      "@type": "NameVariant",
+      "fullName": "Black Sea Bank for Development and Reconstruction",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Black Sea Bank Development and Reconstruction",
+      "@type": "NameVariant",
+      "fullName": "Black Sea Bank Development and Reconstruction",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Black Sea Bank of Development and Reconstruction",
+      "@type": "NameVariant",
+      "fullName": "Black Sea Bank of Development and Reconstruction",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Joint Stock Company Black Sea Bank for Development and Reconstruction",
+      "@type": "NameVariant",
+      "fullName": "Joint Stock Company Black Sea Bank for Development and Reconstruction",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Акционерное Общество Черноморский Банк Развития и Реконструкции",
+      "@type": "NameVariant",
+      "fullName": "Акционерное Общество Черноморский Банк Развития и Реконструкции",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Other suspected locations: 22 regional offices in Crimea. The prohibition on correspondent banking relationships and processing payments was imposed on 15/12/2023.\n The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus0233"
+  ],
+  "remarks": "Other suspected locations: 22 regional offices in Crimea. The prohibition on correspondent banking relationships and processing payments was imposed on 15/12/2023.\n The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Bil’shovyts’ka Street, 24 Simferopol",
       "state": "Crimea",
       "country": "Ukraine"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

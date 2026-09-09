@@ -1,30 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/sud0001",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/sud0001",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "ELHASSAN",
-      "first_name": "GAFFAR",
+      "@type": "NameVariant",
+      "fullName": "ELHASSAN",
+      "firstName": "GAFFAR",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Elhassan",
-      "first_name": "Gaffar",
+      "@type": "NameVariant",
+      "fullName": "Elhassan",
+      "firstName": "Gaffar",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Retired from the Sudanese Army.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/sud0001"
+  ],
+  "remarks": "Retired from the Sudanese Army.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "El Waha",
       "state": "Omdurman",
       "country": "Sudan"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

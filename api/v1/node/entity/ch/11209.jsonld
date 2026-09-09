@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/11209",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/11209",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Pajand Mohammad Hadi",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Pajand Mohammad Hadi",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/11209"
   ],
   "remarks": "Former Financial Director of IRISL, former Deputy Managing Director of sanctioned Irinvestship limited, Managing Director of Fairway Shipping which took over Irinvestship limited. Director of IRISL front companies, including sanctioned Lancellin Shipping Company and Acena Shipping Company.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1950-05-25",
-      "circa": false
+      "circa": false,
+      "year": 1950
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

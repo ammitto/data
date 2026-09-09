@@ -1,32 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7550",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/7550",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Federal State Unitary Enterprise \"Russian Federal Nuclear Center - All-Russian Research Institute of Technical Physics named after Academician E.I. Zababakhin\"",
+      "@type": "NameVariant",
+      "fullName": "Federal State Unitary Enterprise \"Russian Federal Nuclear Center - All-Russian Research Institute of Technical Physics named after Academician E.I. Zababakhin\"",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Russian Federal Nuclear Center – Zababakhin All-Russia Research Institute of Technicla Physics",
+      "@type": "NameVariant",
+      "fullName": "Russian Federal Nuclear Center – Zababakhin All-Russia Research Institute of Technicla Physics",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "VNIITF",
+      "@type": "NameVariant",
+      "fullName": "VNIITF",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Website: http://vniitf.ru/en; \nCompany identification No. 1027401350932; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 6) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7550"
+  ],
+  "remarks": "Website: http://vniitf.ru/en; \nCompany identification No. 1027401350932; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 6) Instrument 2023",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "13, Vasileva Str., 456770, Snezhinsk, Chelyabinsk Region, Russia",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

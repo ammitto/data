@@ -1,41 +1,52 @@
 {
-  "id": "https://www.ammitto.org/entry/au/consolidated-list/491",
-  "entity_id": "https://www.ammitto.org/entity/au/491",
+  "@id": "https://www.ammitto.org/entry/au/consolidated-list/491",
+  "@type": "SanctionEntry",
+  "entityId": "https://www.ammitto.org/entity/au/491",
   "authority": {
     "@id": "https://www.ammitto.org/authority/au"
   },
   "regime": {
-    "@id": "https://www.ammitto.org/regime/au_isil"
+    "@id": "https://www.ammitto.org/regime/au_isil",
+    "name": "ISIL (Da'esh) and Al-Qaida"
   },
-  "legal_bases": [
+  "legalBases": [
     {
-      "type": "regulation",
-      "identifier": "Charter of the United Nations (Sanctions—ISIL (Da’esh) and Al-Qaida) Regulations 2008",
-      "title": "Charter of the United Nations (Sanctions—ISIL (Da’esh) and Al-Qaida) Regulations 2008"
+      "@id": "https://www.ammitto.org/legal-instrument/au/charter-of-the-united-nations-sanctions-isil-da-esh-and-al-qaida-regulations-2008"
     }
   ],
   "effects": [
     {
-      "effect_type": "asset_freeze",
+      "@type": "SanctionEffect",
+      "effectType": "asset_freeze",
       "scope": "full"
     },
     {
-      "effect_type": "travel_ban",
+      "@type": "SanctionEffect",
+      "effectType": "travel_ban",
       "scope": "full"
     },
     {
-      "effect_type": "arms_embargo",
+      "@type": "SanctionEffect",
+      "effectType": "arms_embargo",
       "scope": "full"
     }
   ],
+  "reasons": [
+
+  ],
   "period": {
-    "is_indefinite": true
+    "@type": "TemporalPeriod",
+    "isIndefinite": true
   },
   "status": "active",
-  "reference_number": "491",
-  "raw_source_data": {
-    "source_format": "csv",
-    "source_specific_fields": {
+  "statusHistory": [
+
+  ],
+  "referenceNumber": "491",
+  "rawSourceData": {
+    "@type": "RawSourceData",
+    "sourceFormat": "csv",
+    "sourceSpecificFields": {
       "au:reference": "491",
       "au:committees": "1267 (ISIL (Da'esh) and Al-Qaida)",
       "au:control_date": "2026-02-20",
@@ -43,5 +54,5 @@
       "au:listing_info": "Listed on 27 Feb. 2004 (amended on 25 July 2006, 10 June 2011, 1 May 2019)"
     }
   },
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

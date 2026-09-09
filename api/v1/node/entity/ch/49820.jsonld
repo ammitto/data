@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/49820",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/49820",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mishustin Mikhail Vladimirovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Mishustin Mikhail Vladimirovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/49820"
   ],
   "remarks": "Prime Minister of the Russian Federation. As a member of the Security Council of the Russian Federation, supported Russia’s immediate recognition of the two self-proclaimed republics.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1966-05-03",
-      "circa": false
+      "circa": false,
+      "year": 1966
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

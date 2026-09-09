@@ -1,38 +1,54 @@
 {
-  "id": "https://www.ammitto.org/entry/uk/consolidated-list/gub0019",
-  "entity_id": "https://www.ammitto.org/entity/uk/gub0019",
+  "@id": "https://www.ammitto.org/entry/uk/consolidated-list/gub0019",
+  "@type": "SanctionEntry",
+  "entityId": "https://www.ammitto.org/entity/uk/gub0019",
   "authority": {
     "@id": "https://www.ammitto.org/authority/uk"
   },
   "regime": {
-    "@id": "https://www.ammitto.org/regime/the_republic_of_guinea_bissau_sanctions_eu_exit_regulations_2019"
+    "@id": "https://www.ammitto.org/regime/the_republic_of_guinea_bissau_sanctions_eu_exit_regulations_2019",
+    "name": "The Republic of Guinea-Bissau (Sanctions) (EU Exit) Regulations 2019"
   },
+  "legalBases": [
+
+  ],
   "effects": [
     {
-      "effect_type": "asset_freeze",
+      "@type": "SanctionEffect",
+      "effectType": "asset_freeze",
       "scope": "full"
     },
     {
-      "effect_type": "travel_ban",
+      "@type": "SanctionEffect",
+      "effectType": "travel_ban",
       "scope": "full"
     },
     {
-      "effect_type": "debarment",
+      "@type": "SanctionEffect",
+      "effectType": "debarment",
       "scope": "full"
     }
   ],
+  "reasons": [
+
+  ],
   "period": {
-    "listed_date": "2020-12-31",
-    "effective_date": "2020-12-31",
-    "is_indefinite": true,
-    "last_updated": "2025-04-09"
+    "@type": "TemporalPeriod",
+    "listedDate": "2020-12-31",
+    "effectiveDate": "2020-12-31",
+    "isIndefinite": true,
+    "lastUpdated": "2025-04-09"
   },
   "status": "active",
-  "reference_number": "GUB0019",
+  "statusHistory": [
+
+  ],
+  "referenceNumber": "GUB0019",
   "remarks": "\nMember of the Military Command which has assumed responsibility for the coup d’etat of 12 April 2012.",
-  "raw_source_data": {
-    "source_format": "xml",
-    "source_specific_fields": {
+  "rawSourceData": {
+    "@type": "RawSourceData",
+    "sourceFormat": "xml",
+    "sourceSpecificFields": {
       "uk:ofsiGroupId": "12665",
       "uk:unReferenceNumber": "GBi.011",
       "uk:designationSource": "UK|UN",
@@ -40,5 +56,5 @@
       "uk:entityType": "Individual"
     }
   },
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

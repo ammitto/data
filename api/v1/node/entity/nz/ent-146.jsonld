@@ -1,17 +1,36 @@
 {
-  "id": "https://www.ammitto.org/entity/nz/ent-146",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/nz/ent-146",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Joint Stock Company National Helicopter Center Mil and Kamov",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Joint Stock Company National Helicopter Center Mil and Kamov",
+      "isPrimary": true
     }
   ],
-  "source_references": [
+  "sourceReferences": [
     {
-      "source_code": "nz",
-      "reference_number": "ENT-146"
+      "@type": "SourceReference",
+      "sourceCode": "nz",
+      "referenceNumber": "ENT-146",
+      "retrievedAt": "2026-09-09T16:30:41Z"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "linkedEntities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "beneficialOwners": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/nz/consolidated-list/ent-146"
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

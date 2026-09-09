@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/60934",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/60934",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Filipchuk Pavlo Igorovych",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Filipchuk Pavlo Igorovych",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/60934"
   ],
   "remarks": "Pavlo Filipchuk was appointed by the Russian government, as the Head of the seized city of Kakhovka. In that position, Pavlo Filipchuk helps ensure the implementation of the policies of the Russian government in the occupied territory. Therefore, he is responsible for supporting and implementing actions and policies which undermine and threaten the territorial integrity, sovereignty and independence of Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1983-07-05",
-      "circa": false
+      "circa": false,
+      "year": 1983
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

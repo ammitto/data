@@ -1,69 +1,93 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3058",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/3058",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "ABDULLAH YAHYA AL HAKIM",
+      "@type": "NameVariant",
+      "fullName": "ABDULLAH YAHYA AL HAKIM",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Abu Ali al Hakim",
+      "@type": "NameVariant",
+      "fullName": "Abu Ali al Hakim",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abu-Ali al-Hakim",
+      "@type": "NameVariant",
+      "fullName": "Abu-Ali al-Hakim",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abdallah al-Hakim",
+      "@type": "NameVariant",
+      "fullName": "Abdallah al-Hakim",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abu Ali Alhakim",
+      "@type": "NameVariant",
+      "fullName": "Abu Ali Alhakim",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abdallah al-Mu’ayyad",
+      "@type": "NameVariant",
+      "fullName": "Abdallah al-Mu’ayyad",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "عبد لله يحيى الحاكم",
+      "@type": "NameVariant",
+      "fullName": "عبد لله يحيى الحاكم",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "YEi.002. Huthi group second-in-command. Gender [Male].; Listing: Listed by the 2140 Committee on 7 November 2014 ( amended on 20 Nov. 2014)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3058"
   ],
-  "birth_info": [
+  "remarks": "YEi.002. Huthi group second-in-command. Gender [Male].; Listing: Listed by the 2140 Committee on 7 November 2014 ( amended on 20 Nov. 2014)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1984,
       "country": "a) Dahyan"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1985,
       "country": "Yemen b) Sa’dah Governorate"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1986,
       "country": "Yemen"
     }
   ],
   "nationalities": [
     "Yemen"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Dahyan, Sa’dah Governorate, Yemen",
       "country": "Yemen"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

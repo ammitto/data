@@ -1,28 +1,44 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus1892",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus1892",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "JSC KRASNY GIDROPRESS",
+      "@type": "NameVariant",
+      "fullName": "JSC KRASNY GIDROPRESS",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "АКЦИОНЕРНОЕ ОБЩЕСТВО КРАСНЫЙ ГИДРОПРЕСС",
+      "@type": "NameVariant",
+      "fullName": "АКЦИОНЕРНОЕ ОБЩЕСТВО КРАСНЫЙ ГИДРОПРЕСС",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus1892"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Pl. Severnaya D. 3",
       "state": "Taganrog",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

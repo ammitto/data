@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/39414",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/39414",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Malek Reuben Riak Rengu Lieutenant General",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Malek Reuben Riak Rengu Lieutenant General",
+      "isPrimary": true
     }
   ],
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/39414"
+  ],
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1960-01-01",
-      "circa": false
+      "circa": false,
+      "year": 1960
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

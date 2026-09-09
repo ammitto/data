@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/82108",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/82108",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Maxamed Cabdullaah Ciise",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Maxamed Cabdullaah Ciise",
+      "isPrimary": true
     }
   ],
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/82108"
+  ],
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1974-10-08",
-      "circa": false
+      "circa": false,
+      "year": 1974
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

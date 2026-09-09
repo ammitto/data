@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/47849",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/47849",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Vaino Anton Eduardovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Vaino Anton Eduardovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/47849"
   ],
   "remarks": "Anton Vaino is the Chief of Staff of the Presidential Executive Office. He plays an active role in the Kremlin decision-making process by taking part in the Russian “Security Council” and influencing the elaboration of decisions by the President in the field of Russia’s defence and national security. Anton Vaino also attends meetings on the socio-economic development of Crimea and Sevastopol.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1972-02-17",
-      "circa": false
+      "circa": false,
+      "year": 1972
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

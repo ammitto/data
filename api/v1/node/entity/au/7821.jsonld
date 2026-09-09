@@ -1,46 +1,63 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7821",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7821",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ali Abed Al Rahman Baraka",
+      "@type": "NameVariant",
+      "fullName": "Ali Abed Al Rahman Baraka",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Ali Baraka",
+      "@type": "NameVariant",
+      "fullName": "Ali Baraka",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ali Barakeh",
+      "@type": "NameVariant",
+      "fullName": "Ali Barakeh",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ali Barakah",
+      "@type": "NameVariant",
+      "fullName": "Ali Barakah",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Listing: Charter of the United Nations (Listed Entities) Amendment (No. 1) Instrument 2024",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7821"
   ],
-  "birth_info": [
+  "remarks": "Listing: Charter of the United Nations (Listed Entities) Amendment (No. 1) Instrument 2024",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1966,
       "country": "Sidon"
     }
   ],
   "nationalities": [
     "Lebanon"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Sidon, Lebanon",
       "country": "Lebanon"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,28 +1,48 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/ven0001",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/ven0001",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Reverol Torres",
-      "first_name": "Nestor",
+      "@type": "NameVariant",
+      "fullName": "Reverol Torres",
+      "firstName": "Nestor",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Néstor Luis Reverol Torres",
+      "@type": "NameVariant",
+      "fullName": "Néstor Luis Reverol Torres",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Minister for Interior, Justice and Peace The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/ven0001"
+  ],
+  "remarks": "Minister for Interior, Justice and Peace The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "state": "Caracas",
       "country": "Venezuela"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

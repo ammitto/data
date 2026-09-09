@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/40253",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/40253",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Shcherbakov Sergey Alekseevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Shcherbakov Sergey Alekseevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/40253"
   ],
   "remarks": "He commanded the anti-submarine ship “Suzdalets” of the Black Sea Fleet of the Russian Federation, which participated in the actions of the Russian Federation against Ukrainian ships and their crews on 25 Nov 2018, and actively participated in the blockade of tugboat “Yani Kapu” and seizure of the armed gunboat “Nikopol”. Those actions prevented access by Ukrainian vessels to their coast on the Sea of Azov, thereby undermining the territorial integrity and sovereignty of Ukraine and undermining the security of Ukraine through the disruption of the movements and operability of Ukrainian naval vessels.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1986-11-02",
-      "circa": false
+      "circa": false,
+      "year": 1986
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

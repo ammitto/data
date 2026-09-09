@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/35739",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/35739",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Wafiqa Hosni",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Wafiqa Hosni",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/35739"
   ],
   "remarks": "State Minister under the former al-Assad regime. Appointed in July 2016. As a Government Minister, shares responsibility for the former al-Assad regime’s violent repression of the civilian population.",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1952
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

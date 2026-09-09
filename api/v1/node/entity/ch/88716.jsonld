@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/88716",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/88716",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Baranovskaya Julia",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Baranovskaya Julia",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/88716"
   ],
   "remarks": "Julia Baranovskaya is a Russian television presenter and media personality. Since the beginning of the Russian war of aggression against Ukraine, she has frequently supported Russia’s actions that threaten the territorial integrity, sovereignty and independence of Ukraine. To that end, Julia Baranovskaya hosted Kremlin-sponsored propaganda shows that aimed to stoke up Russian popular support for the invasion, including by publicly promoting Russian war crimes such as the forced deportation of Ukrainian children. Julia Baranovskaya led fundraisers that aimed to secure funds for the Russian war of aggression, where she publicly pledged to commit personal funds as rewards for the fulfilment of Russian military objectives in Ukraine. In addition, Julia Baranovskaya undertook repeated trips to Russian-occupied regions in Ukraine where she provided material support to Russian-sponsored separatist groups.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1980-06-30",
-      "circa": false
+      "circa": false,
+      "year": 1980
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,34 @@
 {
-  "id": "https://www.ammitto.org/entity/nz/shp-107",
-  "entity_type": "vessel",
+  "@id": "https://www.ammitto.org/entity/nz/shp-107",
+  "@type": "VesselEntity",
+  "entityType": "vessel",
   "names": [
     {
-      "full_name": "Dalva",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Dalva",
+      "isPrimary": true
     }
   ],
-  "source_references": [
+  "sourceReferences": [
     {
-      "source_code": "nz",
-      "reference_number": "SHP-107"
+      "@type": "SourceReference",
+      "sourceCode": "nz",
+      "referenceNumber": "SHP-107",
+      "retrievedAt": "2026-09-09T16:30:44Z"
     }
   ],
-  "imo_number": "9378620",
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "linkedEntities": [
+
+  ],
+  "imoNumber": "9378620",
+  "previousNames": [
+
+  ],
+  "previousFlags": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/nz/consolidated-list/shp-107"
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

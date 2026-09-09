@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/310887",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/310887",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "SERVICIOS PROFESIONALES DE INGENIERÍA Y COMERCIO ROCHA",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "SERVICIOS PROFESIONALES DE INGENIERÍA Y COMERCIO ROCHA",
+      "isPrimary": true
     }
   ],
-  "remarks": "*218",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/310887"
+  ],
+  "remarks": "*218",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "25 CALLE 10-08, COLONIA SAN FRANCISCO I",
       "city": "ZONA 6 DE MIXCO",
       "country": "Guatemala",
-      "country_iso_code": "GT"
+      "countryIsoCode": "GT"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

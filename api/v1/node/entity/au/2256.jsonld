@@ -1,55 +1,77 @@
 {
-  "id": "https://www.ammitto.org/entity/au/2256",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/2256",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mohammad Dib ZEITOUN",
+      "@type": "NameVariant",
+      "fullName": "Mohammad Dib ZEITOUN",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Mohammed Dib ZEITOUN",
+      "@type": "NameVariant",
+      "fullName": "Mohammed Dib ZEITOUN",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Dib ZAITOUN",
+      "@type": "NameVariant",
+      "fullName": "Dib ZAITOUN",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Mohammed Dib ZAYTUN",
+      "@type": "NameVariant",
+      "fullName": "Mohammed Dib ZAYTUN",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Mohammed Dib ZEITUN",
+      "@type": "NameVariant",
+      "fullName": "Mohammed Dib ZEITUN",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Mohamed Dib ZAYTUN",
+      "@type": "NameVariant",
+      "fullName": "Mohamed Dib ZAYTUN",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Mohammad DIB",
+      "@type": "NameVariant",
+      "fullName": "Mohammad DIB",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Last known position: Director of the Syrian National Security Bureau. Passport No.: D000001300.; Listing: Designated under the Autonomous Sanctions Regulations 2011 on 2 March 2012. Formerly listed on the RBA Consolidated List as 2011SYR0018. Relisted on 12 January 2024.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/2256"
   ],
-  "birth_info": [
+  "remarks": "Last known position: Director of the Syrian National Security Bureau. Passport No.: D000001300.; Listing: Designated under the Autonomous Sanctions Regulations 2011 on 2 March 2012. Formerly listed on the RBA Consolidated List as 2011SYR0018. Relisted on 12 January 2024.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1951,
       "country": "Damascus"
     }
   ],
   "nationalities": [
     "Syria"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

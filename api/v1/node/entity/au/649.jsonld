@@ -1,35 +1,53 @@
 {
-  "id": "https://www.ammitto.org/entity/au/649",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/649",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "SADDAM HUSSEIN AL-TIKRITI",
+      "@type": "NameVariant",
+      "fullName": "SADDAM HUSSEIN AL-TIKRITI",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "صدام حسين التكريتي",
+      "@type": "NameVariant",
+      "fullName": "صدام حسين التكريتي",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abu Ali",
+      "@type": "NameVariant",
+      "fullName": "Abu Ali",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "IQi.001; Listing: Listed by the 1518 Committee",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/649"
   ],
-  "birth_info": [
+  "remarks": "IQi.001; Listing: Listed by the 1518 Committee",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1937,
       "country": "al-Awja"
     }
   ],
   "nationalities": [
     "Iraq"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

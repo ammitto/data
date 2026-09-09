@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/nz/ind-1148",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/nz/ind-1148",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Alibek Sultanovich DELIMKHANOV",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Alibek Sultanovich DELIMKHANOV",
+      "isPrimary": true
     }
   ],
-  "source_references": [
+  "sourceReferences": [
     {
-      "source_code": "nz",
-      "reference_number": "IND-1148"
+      "@type": "SourceReference",
+      "sourceCode": "nz",
+      "referenceNumber": "IND-1148",
+      "retrievedAt": "2026-09-09T16:30:42Z"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "linkedEntities": [
+
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/nz/consolidated-list/ind-1148"
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,62 +1,88 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus0061",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/rus0061",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Abisov",
-      "first_name": "Sergey",
+      "@type": "NameVariant",
+      "fullName": "Abisov",
+      "firstName": "Sergey",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
+      "@type": "NameVariant",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abisov",
-      "first_name": "Sergey",
+      "@type": "NameVariant",
+      "fullName": "Abisov",
+      "firstName": "Sergey",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abisov",
-      "first_name": "Sergiy",
+      "@type": "NameVariant",
+      "fullName": "Abisov",
+      "firstName": "Sergiy",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abisov",
-      "first_name": "Sergiy",
+      "@type": "NameVariant",
+      "fullName": "Abisov",
+      "firstName": "Sergiy",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abisov",
-      "first_name": "Serhiy",
+      "@type": "NameVariant",
+      "fullName": "Abisov",
+      "firstName": "Serhiy",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abisov",
-      "first_name": "Serhiy",
+      "@type": "NameVariant",
+      "fullName": "Abisov",
+      "firstName": "Serhiy",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Сергей Вадимович АБИСОВ",
+      "@type": "NameVariant",
+      "fullName": "Сергей Вадимович АБИСОВ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus0061"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "state": "The Autonomous Republic of Crimea and the city of Sevastopol",
       "country": "Ukraine"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

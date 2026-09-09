@@ -1,29 +1,46 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7129",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7129",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Maxim Alekseevich PROTASOV",
+      "@type": "NameVariant",
+      "fullName": "Maxim Alekseevich PROTASOV",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Maksim Alekseyevich PROTASOV",
+      "@type": "NameVariant",
+      "fullName": "Maksim Alekseyevich PROTASOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "So-called ‘Minister of Construction and Housing and Communal Services’ of the so-called ‘People’s Republic of Luhansk’; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 14) Instrument 2022",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7129"
   ],
-  "birth_info": [
+  "remarks": "So-called ‘Minister of Construction and Housing and Communal Services’ of the so-called ‘People’s Republic of Luhansk’; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 14) Instrument 2022",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1976
     }
   ],
   "nationalities": [
     "Ukraine"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

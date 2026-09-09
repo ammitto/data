@@ -1,30 +1,44 @@
 {
-  "id": "https://www.ammitto.org/entry/uk/consolidated-list/drc0021",
-  "entity_id": "https://www.ammitto.org/entity/uk/drc0021",
+  "@id": "https://www.ammitto.org/entry/uk/consolidated-list/drc0021",
+  "@type": "SanctionEntry",
+  "entityId": "https://www.ammitto.org/entity/uk/drc0021",
   "authority": {
     "@id": "https://www.ammitto.org/authority/uk"
   },
   "regime": {
-    "@id": "https://www.ammitto.org/regime/the_democratic_republic_of_the_congo_sanctions_eu_exit_regulations_2019"
+    "@id": "https://www.ammitto.org/regime/the_democratic_republic_of_the_congo_sanctions_eu_exit_regulatio",
+    "name": "The Democratic Republic of the Congo (Sanctions) (EU Exit) Regulations 2019"
   },
+  "legalBases": [
+
+  ],
   "effects": [
     {
-      "effect_type": "asset_freeze",
+      "@type": "SanctionEffect",
+      "effectType": "asset_freeze",
       "scope": "full"
     }
   ],
+  "reasons": [
+
+  ],
   "period": {
-    "listed_date": "2007-03-29",
-    "effective_date": "2007-03-29",
-    "is_indefinite": true,
-    "last_updated": "2022-01-14"
+    "@type": "TemporalPeriod",
+    "listedDate": "2007-03-29",
+    "effectiveDate": "2007-03-29",
+    "isIndefinite": true,
+    "lastUpdated": "2022-01-14"
   },
   "status": "active",
-  "reference_number": "DRC0021",
+  "statusHistory": [
+
+  ],
+  "referenceNumber": "DRC0021",
   "remarks": "\n",
-  "raw_source_data": {
-    "source_format": "xml",
-    "source_specific_fields": {
+  "rawSourceData": {
+    "@type": "RawSourceData",
+    "sourceFormat": "xml",
+    "sourceSpecificFields": {
       "uk:ofsiGroupId": "9067",
       "uk:unReferenceNumber": "CDe.007",
       "uk:designationSource": "UN",
@@ -32,5 +46,5 @@
       "uk:entityType": "Entity"
     }
   },
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

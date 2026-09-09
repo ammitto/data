@@ -1,0 +1,52 @@
+{
+  "@id": "https://www.ammitto.org/entry/un/consolidated-list/ire050",
+  "@type": "SanctionEntry",
+  "entityId": "https://www.ammitto.org/entity/un/ire050",
+  "authority": {
+    "@id": "https://www.ammitto.org/authority/un"
+  },
+  "regime": {
+    "@id": "https://www.ammitto.org/regime/iran",
+    "name": "Iran"
+  },
+  "legalBases": [
+
+  ],
+  "effects": [
+    {
+      "@type": "SanctionEffect",
+      "effectType": "asset_freeze",
+      "scope": "full"
+    },
+    {
+      "@type": "SanctionEffect",
+      "effectType": "travel_ban",
+      "scope": "full"
+    }
+  ],
+  "reasons": [
+
+  ],
+  "period": {
+    "@type": "TemporalPeriod",
+    "listedDate": "2007-03-24",
+    "effectiveDate": "2007-03-24",
+    "isIndefinite": true
+  },
+  "status": "active",
+  "statusHistory": [
+
+  ],
+  "referenceNumber": "IRe.050",
+  "remarks": "Branch of DIO, which produces ammunition, explosives, as well as solid\npropellants for rockets and missiles. [Old Reference # E.47.A.4]",
+  "rawSourceData": {
+    "@type": "RawSourceData",
+    "sourceFormat": "xml",
+    "sourceSpecificFields": {
+      "un:dataId": "110354",
+      "un:versionNum": "1",
+      "un:entityType": "entity"
+    }
+  },
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
+}

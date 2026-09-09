@@ -1,37 +1,57 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/cti0004",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/cti0004",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Arbabsiar",
-      "first_name": "Manssor",
+      "@type": "NameVariant",
+      "fullName": "Arbabsiar",
+      "firstName": "Manssor",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Arbabsiar",
-      "first_name": "Mansour",
+      "@type": "NameVariant",
+      "fullName": "Arbabsiar",
+      "firstName": "Mansour",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Links to IRGC5: Soleimani, Shahlai, Abdollahi and Shakuri The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/cti0004"
+  ],
+  "remarks": "Links to IRGC5: Soleimani, Shahlai, Abdollahi and Shakuri The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "5403 Everhardt Road",
       "city": "Corpus Christi",
       "state": "TX",
       "country": "United States"
     },
     {
+      "@type": "Address",
       "street": "805 Cisco Valley CV",
       "city": "Round Rock",
       "state": "TX",
       "country": "United States"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

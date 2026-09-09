@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/72718",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/72718",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Nikishina Olga Vladimirovna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Nikishina Olga Vladimirovna",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/72718"
   ],
   "remarks": "Olga Nikishina is Deputy Head of the Department for Supporting the Activities of the Russian Presidential Commissioner for Children’s Rights. The Russian Federation is involved in the illegal transportation of Ukrainian children to Russia and their adoption by Russian families. Those actions violate the rights of Ukrainian children and infringe Ukrainian law and administrative order.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1989-03-24",
-      "circa": false
+      "circa": false,
+      "year": 1989
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,45 +1,70 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/gac0039",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/gac0039",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Bozhkov",
-      "first_name": "Vasil",
+      "@type": "NameVariant",
+      "fullName": "Bozhkov",
+      "firstName": "Vasil",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Bojkov",
-      "first_name": "Vasil",
+      "@type": "NameVariant",
+      "fullName": "Bojkov",
+      "firstName": "Vasil",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Bojkov",
-      "first_name": "Vassil",
+      "@type": "NameVariant",
+      "fullName": "Bojkov",
+      "firstName": "Vassil",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Bozhkov",
-      "first_name": "Vasil",
+      "@type": "NameVariant",
+      "fullName": "Bozhkov",
+      "firstName": "Vasil",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "The Skull ",
+      "@type": "NameVariant",
+      "fullName": "The Skull ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Васил Божков ",
+      "@type": "NameVariant",
+      "fullName": "Васил Божков ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/gac0039"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

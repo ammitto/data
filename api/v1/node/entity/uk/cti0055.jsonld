@@ -1,41 +1,62 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/cti0055",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/cti0055",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "AL-DUWAIK",
-      "first_name": "Aiman",
+      "@type": "NameVariant",
+      "fullName": "AL-DUWAIK",
+      "firstName": "Aiman",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "AL-DUWAIK",
-      "first_name": "Aiman",
+      "@type": "NameVariant",
+      "fullName": "AL-DUWAIK",
+      "firstName": "Aiman",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "AL-DUWAIK",
-      "first_name": "Aiman",
+      "@type": "NameVariant",
+      "fullName": "AL-DUWAIK",
+      "firstName": "Aiman",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "أمين أحمد رشاد الدويك",
+      "@type": "NameVariant",
+      "fullName": "أمين أحمد رشاد الدويك",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/cti0055"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "141 Hai El Bina, Dely Brahim",
       "state": "Algiers",
       "country": "Algeria"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,24 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7991",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7991",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mohammad GHOLAMI",
+      "@type": "NameVariant",
+      "fullName": "Mohammad GHOLAMI",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "A senior official in the Aerospace Industries Organization (AIO), a position he has held since at least 2020.\nNational ID No. 5249398618; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons - Iran) Amendment (No. 3) Instrument 2024",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7991"
   ],
-  "birth_info": [
+  "remarks": "A senior official in the Aerospace Industries Organization (AIO), a position he has held since at least 2020.\nNational ID No. 5249398618; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons - Iran) Amendment (No. 3) Instrument 2024",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1973
     }
   ],
   "nationalities": [
     "Iran"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

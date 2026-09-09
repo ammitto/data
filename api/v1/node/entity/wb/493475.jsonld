@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/493475",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/493475",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "SAO BAC DAU TECHNOLOGIES SOLUTIONS JOINT STOCK COMPANY (SBD SOLUTION)",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "SAO BAC DAU TECHNOLOGIES SOLUTIONS JOINT STOCK COMPANY (SBD SOLUTION)",
+      "isPrimary": true
     }
   ],
-  "remarks": "(Reg. No.: 0314919235)*531",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/493475"
+  ],
+  "remarks": "(Reg. No.: 0314919235)*531",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "ROOM 1, BUILDING 8, STREET 13, QUANG TRUNG SOFTWARE PARK, DISTRICT 12",
       "city": "HOCHIMINH CITY",
       "country": "Viet Nam",
-      "country_iso_code": "VN"
+      "countryIsoCode": "VN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

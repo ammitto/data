@@ -1,28 +1,44 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus2080",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus2080",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "JOINT STOCK COMPANY ALABUGA SPECIAL ECONOMIC ZONE PRODUCTION AND INDUSTRIAL TYPE",
+      "@type": "NameVariant",
+      "fullName": "JOINT STOCK COMPANY ALABUGA SPECIAL ECONOMIC ZONE PRODUCTION AND INDUSTRIAL TYPE",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "АКЦИОНЕРНОЕ ОБЩЕСТВО ОСОБАЯ ЭКОНОМИЧЕСКАЯ ЗОНА ПРОМЫШЛЕННО-ПРОИЗВОДСТВЕННОГО ТИПА АЛАБУГА",
+      "@type": "NameVariant",
+      "fullName": "АКЦИОНЕРНОЕ ОБЩЕСТВО ОСОБАЯ ЭКОНОМИЧЕСКАЯ ЗОНА ПРОМЫШЛЕННО-ПРОИЗВОДСТВЕННОГО ТИПА АЛАБУГА",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus2080"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "PROMPLOSHCHADKA \"ALABUGA\" UL. SH-2 KORP. 4/1",
       "state": "Yelabuga Region",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

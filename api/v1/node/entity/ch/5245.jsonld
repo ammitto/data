@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/5245",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/5245",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Pykina Natallia Mikhailauna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Pykina Natallia Mikhailauna",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/5245"
   ],
   "remarks": "Responsible for implementing the politically-motivated administrative and criminal sanctions against representatives of civil society. Judge of the Partizanski District Court dealing with Likhovid's case. On 29 Mar 2011, she sentenced Mr. Likhovid, an activist of «The Movement for Freedom», to three-and-a-half years in prison. She has been appointed Deputy Chairman of the Partizanski District Court of Minsk.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1971-04-20",
-      "circa": false
+      "circa": false,
+      "year": 1971
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

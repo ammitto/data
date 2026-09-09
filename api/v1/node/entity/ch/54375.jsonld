@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/54375",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/54375",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Prigozhin Yevgeniy Viktorovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Prigozhin Yevgeniy Viktorovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/54375"
   ],
   "remarks": "Yevgeniy Prigozhin was a Russian leading businessperson with close ties to the President of the Russian Federation Vladimir Putin and the Russian Ministry of Defence. He reportedly died in a plane crash on 23 August 2023.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1961-06-01",
-      "circa": false
+      "circa": false,
+      "year": 1961
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

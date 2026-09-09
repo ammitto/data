@@ -1,29 +1,46 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7985",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7985",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Maksim Viktorovich YAKUBETS",
+      "@type": "NameVariant",
+      "fullName": "Maksim Viktorovich YAKUBETS",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Aqua",
+      "@type": "NameVariant",
+      "fullName": "Aqua",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Founder and leader of Evil Corp; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Thematic Sanctions) Amendment (No. 5) Instrument 2024",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7985"
   ],
-  "birth_info": [
+  "remarks": "Founder and leader of Evil Corp; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Thematic Sanctions) Amendment (No. 5) Instrument 2024",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1987
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

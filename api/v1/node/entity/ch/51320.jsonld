@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/51320",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/51320",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Pumpyanskaya Galina Evgenyevna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Pumpyanskaya Galina Evgenyevna",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/51320"
   ],
   "remarks": "Galina Pumpyanskaya is the spouse of Dmitry Pumpyansky, a leading Russian businessperson and President of the Sverdlovsk regional Union of Industrialists and Entrepreneurs (SOSPP).",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1966-02-10",
-      "circa": false
+      "circa": false,
+      "year": 1966
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

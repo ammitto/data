@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/27573",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/27573",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Sergun Igor Dmitrievich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Sergun Igor Dmitrievich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/27573"
   ],
   "remarks": "Director of GRU (Main Intelligence Directorate), Deputy Chief of the General Staff of the Armed Forces of the Russian Federation, Lieutenant-General. Responsible for the activity of GRU officers in Eastern Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1957-03-28",
-      "circa": false
+      "circa": false,
+      "year": 1957
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/56873",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/56873",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Rodikov Mikhail Leonidovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Rodikov Mikhail Leonidovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/56873"
   ],
   "remarks": "Former so-called “Minister of Education and Science” of the Kherson Military-Civilian Administration, a position he was appointed to by the government of the Russian Federation on 4 July 2022. He was responsible for adapting the Kherson education system to Russian standards.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1958-01-26",
-      "circa": false
+      "circa": false,
+      "year": 1958
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

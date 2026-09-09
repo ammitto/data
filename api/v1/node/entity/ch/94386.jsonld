@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/94386",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/94386",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Jimi Rodolfo Bremer Ramírez",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Jimi Rodolfo Bremer Ramírez",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/94386"
   ],
   "remarks": "Jimi Bremer Ramírez is the First Instance Criminal Judge of the Tenth Court in Guatemala. In this capacity, he has issued arrest warrants and authorised investigations based on fabricated charges, and suspended hearings in those cases thereby limiting the right to a public hearing, access to justice and the right to a fair trial of the defendants.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1978-09-25",
-      "circa": false
+      "circa": false,
+      "year": 1978
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

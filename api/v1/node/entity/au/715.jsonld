@@ -1,36 +1,51 @@
 {
-  "id": "https://www.ammitto.org/entity/au/715",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/715",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "NIDAL AL-RABI'I",
+      "@type": "NameVariant",
+      "fullName": "NIDAL AL-RABI'I",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "نضال الربيعي",
+      "@type": "NameVariant",
+      "fullName": "نضال الربيعي",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "IQi.070; Listing: Listed by the 1518 Committee",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/715"
   ],
-  "birth_info": [
+  "remarks": "IQi.070; Listing: Listed by the 1518 Committee",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1965,
       "country": "Al-Dur"
     }
   ],
   "nationalities": [
     "Iraq"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Iraq",
       "country": "Iraq"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,38 +1,56 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/inu0044",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/inu0044",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "State Purchasing Organisation (SPO)",
+      "@type": "NameVariant",
+      "fullName": "State Purchasing Organisation (SPO)",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "SPO",
+      "@type": "NameVariant",
+      "fullName": "SPO",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "State Purchasing Office",
+      "@type": "NameVariant",
+      "fullName": "State Purchasing Office",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "State Purchasing Organization",
+      "@type": "NameVariant",
+      "fullName": "State Purchasing Organization",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/inu0044"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Sarhang Sakhai Street, Ferdowski Avenue, Building 2",
       "state": "Tehran",
       "country": "Iran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

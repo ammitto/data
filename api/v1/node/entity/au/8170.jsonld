@@ -1,34 +1,52 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8170",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/8170",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ilya Vladimirovich YELISEYEV",
+      "@type": "NameVariant",
+      "fullName": "Ilya Vladimirovich YELISEYEV",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Ilya Vladimirovich ELISEEV",
+      "@type": "NameVariant",
+      "fullName": "Ilya Vladimirovich ELISEEV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Illia Volodymyrovych Yelyseiev",
+      "@type": "NameVariant",
+      "fullName": "Illia Volodymyrovych Yelyseiev",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Member of the Board of Directors for Gazprombank; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 3) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8170"
   ],
-  "birth_info": [
+  "remarks": "Member of the Board of Directors for Gazprombank; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 3) Instrument 2025",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1965
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/12273",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/12273",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Joseph Suwaid",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Joseph Suwaid",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/12273"
   ],
   "remarks": "Former Minister of State under the former al-Assad regime, in office until at least 21.1.2014. As a former Government Minister, shares responsibility for the former al-Assad regime’s violent repression of the civilian population. Chair of the Amana wing of the Syrian Social Nationalist Party.",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1958
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,47 +1,67 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus2743",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus2743",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "THE MAIN DIRECTORATE OF DEEP-SEA RESEARCH OF THE MINISTRY OF DEFENCE OF THE RUSSIAN FEDERATION",
+      "@type": "NameVariant",
+      "fullName": "THE MAIN DIRECTORATE OF DEEP-SEA RESEARCH OF THE MINISTRY OF DEFENCE OF THE RUSSIAN FEDERATION",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Federal State Institution Military Unit 40056 ",
+      "@type": "NameVariant",
+      "fullName": "Federal State Institution Military Unit 40056 ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "GUGI ",
+      "@type": "NameVariant",
+      "fullName": "GUGI ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Главное управление глубоководных исследований Министерства обороны РФ",
+      "@type": "NameVariant",
+      "fullName": "Главное управление глубоководных исследований Министерства обороны РФ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "ФЕДЕРАЛЬНОЕ КАЗЕННОЕ УЧРЕЖДЕНИЕ ВОЙСКОВАЯ ЧАСТЬ 40056",
+      "@type": "NameVariant",
+      "fullName": "ФЕДЕРАЛЬНОЕ КАЗЕННОЕ УЧРЕЖДЕНИЕ ВОЙСКОВАЯ ЧАСТЬ 40056",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "ГУГИ ",
+      "@type": "NameVariant",
+      "fullName": "ГУГИ ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus2743"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "26A Onezhskaya Str",
       "state": "Moscow",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

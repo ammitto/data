@@ -1,29 +1,48 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/irn0254",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/irn0254",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "ANSARI",
-      "first_name": "Ali",
+      "@type": "NameVariant",
+      "fullName": "ANSARI",
+      "firstName": "Ali",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Ansari",
-      "first_name": "Ali",
+      "@type": "NameVariant",
+      "fullName": "Ansari",
+      "firstName": "Ali",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/irn0254"
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Villa Mdb Base 2, 394 Emirates Hills Third",
       "state": "Dubai",
       "country": "United Arab Emirates"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

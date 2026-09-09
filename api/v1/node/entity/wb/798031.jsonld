@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/798031",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/798031",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "XINJIANG JIAOJIAN MACHINERY LEASING CO., LTD.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "XINJIANG JIAOJIAN MACHINERY LEASING CO., LTD.",
+      "isPrimary": true
     }
   ],
-  "remarks": "(新疆交建机械租赁有限公司)(916501000722297604)*647",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/798031"
+  ],
+  "remarks": "(新疆交建机械租赁有限公司)(916501000722297604)*647",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "NO. 840 WUCHANG SIDE ROAD, URUMQI ECONOMIC & TECHNOLOGICAL DEVELOPMENT ZONE",
       "city": "XINJIANG",
       "country": "China",
-      "country_iso_code": "CN"
+      "countryIsoCode": "CN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

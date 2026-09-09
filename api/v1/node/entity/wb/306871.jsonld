@@ -1,23 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/306871",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/wb/306871",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "HARJIT SINGH",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "HARJIT SINGH",
+      "isPrimary": true
     }
   ],
-  "remarks": "*189",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/306871"
+  ],
+  "remarks": "*189",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "904, ROUTE FLYNN KEMPTVILLE",
       "city": "QUEBEC, K0G 1J0",
       "country": "Canada",
-      "country_iso_code": "CA"
+      "countryIsoCode": "CA"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

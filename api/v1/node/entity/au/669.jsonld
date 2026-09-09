@@ -1,30 +1,47 @@
 {
-  "id": "https://www.ammitto.org/entity/au/669",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/669",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "TAHA MUHYI-AL-DIN MA'RUF",
+      "@type": "NameVariant",
+      "fullName": "TAHA MUHYI-AL-DIN MA'RUF",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "طه محي الدين معروف",
+      "@type": "NameVariant",
+      "fullName": "طه محي الدين معروف",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "IQi.024 l; Listing: Listed by the 1518 Committee",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/669"
   ],
-  "birth_info": [
+  "remarks": "IQi.024 l; Listing: Listed by the 1518 Committee",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1924,
       "country": "Sulaymaniyah"
     }
   ],
   "nationalities": [
     "Iraq"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

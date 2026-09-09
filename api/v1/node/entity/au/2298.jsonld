@@ -1,37 +1,57 @@
 {
-  "id": "https://www.ammitto.org/entity/au/2298",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/2298",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Bouthaina SHAABAN",
+      "@type": "NameVariant",
+      "fullName": "Bouthaina SHAABAN",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Bouthania SHAABAN",
+      "@type": "NameVariant",
+      "fullName": "Bouthania SHAABAN",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Buthaina SHAABAN",
+      "@type": "NameVariant",
+      "fullName": "Buthaina SHAABAN",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Last known position: Presidential Political and Media Advisor.; Listing: Designated under the Autonomous Sanctions Regulations 2011 on 2 March 2012. Instrument of first\ndesignation and\ndeclaration:\nAutonomous Sanctions (Designated Persons and Entities and\nDeclared Persons – Syria) List 2012 [F2012L00482]\nRelisted on 12 January 2024.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/2298"
   ],
-  "birth_info": [
+  "remarks": "Last known position: Presidential Political and Media Advisor.; Listing: Designated under the Autonomous Sanctions Regulations 2011 on 2 March 2012. Instrument of first\ndesignation and\ndeclaration:\nAutonomous Sanctions (Designated Persons and Entities and\nDeclared Persons – Syria) List 2012 [F2012L00482]\nRelisted on 12 January 2024.",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1953
     },
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1955
     }
   ],
   "nationalities": [
     "Syria"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

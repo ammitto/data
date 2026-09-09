@@ -1,0 +1,54 @@
+{
+  "@id": "https://www.ammitto.org/entry/un/consolidated-list/iri001",
+  "@type": "SanctionEntry",
+  "entityId": "https://www.ammitto.org/entity/un/iri001",
+  "authority": {
+    "@id": "https://www.ammitto.org/authority/un"
+  },
+  "regime": {
+    "@id": "https://www.ammitto.org/regime/iran",
+    "name": "Iran"
+  },
+  "legalBases": [
+
+  ],
+  "effects": [
+    {
+      "@type": "SanctionEffect",
+      "effectType": "asset_freeze",
+      "scope": "full"
+    },
+    {
+      "@type": "SanctionEffect",
+      "effectType": "travel_ban",
+      "scope": "full"
+    }
+  ],
+  "reasons": [
+
+  ],
+  "period": {
+    "@type": "TemporalPeriod",
+    "listedDate": "2007-03-24",
+    "effectiveDate": "2007-03-24",
+    "isIndefinite": true,
+    "lastUpdated": "\n      "
+  },
+  "status": "active",
+  "statusHistory": [
+
+  ],
+  "referenceNumber": "IRi.001",
+  "remarks": "Has \"links to the Institute of Applied Physics, working closely with\nMohsen Fakhrizadeh-Mahabadi\" (designated under IRi.016) [Old Reference #\nI.47.C.1].",
+  "rawSourceData": {
+    "@type": "RawSourceData",
+    "sourceFormat": "xml",
+    "sourceSpecificFields": {
+      "un:dataId": "110446",
+      "un:versionNum": "1",
+      "un:gender": null,
+      "un:entityType": "individual"
+    }
+  },
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
+}

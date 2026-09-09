@@ -1,21 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/cn/7-general-dynamics-ordnance-and-t",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/cn/7-general-dynamics-ordnance-and-t",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "General Dynamics Ordnance and Tactical Systems",
+      "@type": "NameVariant",
+      "fullName": "General Dynamics Ordnance and Tactical Systems",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "通用动力军械与战术系统公司",
+      "@type": "NameVariant",
+      "fullName": "通用动力军械与战术系统公司",
       "script": "Hani",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "List: cn/anti-sanction-list",
-  "sanction_entry_ids": [
-    "https://www.ammitto.org/entry/cn/unknown/7-general-dynamics-ordnance-and-t"
+  "sourceReferences": [
+
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/cn/anti-sanction-list/7-general-dynamics-ordnance-and-t"
+  ],
+  "remarks": "List: cn/anti-sanction-list",
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,27 +1,43 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8078",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/8078",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Soedinitel Joint Stock Company",
+      "@type": "NameVariant",
+      "fullName": "Soedinitel Joint Stock Company",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Aktsionernoe obshchestvo Soedinitel",
+      "@type": "NameVariant",
+      "fullName": "Aktsionernoe obshchestvo Soedinitel",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Company Identification No. 1027400875149; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8078"
+  ],
+  "remarks": "Company Identification No. 1027400875149; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Turgoyakskoe Shosse, 11/5 Miass, Chelyabinsk Region 456313 Russia",
       "country": "Chelyabinsk Region 456313 Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

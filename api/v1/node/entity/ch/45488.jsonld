@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/45488",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/45488",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Matyl Tatsiana Yaraslavauna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Matyl Tatsiana Yaraslavauna",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/45488"
   ],
   "remarks": "In her position as judge at the Moskovsky District Court in Minsk, Tatsiana Matyl is responsible for numerous politically motivated rulings against journalists, opposition leaders, activists and protesters, in particular the sentencing of opposition politician Mikalai Statkevich and journalist Alexander Borozenko. Violations of rights of defence and right to a fair trial were reported during trials conducted under her supervision. She is therefore responsible for serious human rights violations and for seriously undermining the rule of law, as well as for the repression of civil society and democratic opposition.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1968-01-20",
-      "circa": false
+      "circa": false,
+      "year": 1968
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

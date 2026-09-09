@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/11828",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/11828",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mohammed Makhlouf",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Mohammed Makhlouf",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/11828"
   ],
   "remarks": "Influential member of the Makhlouf family; business associate and father of Rami, Ihab and Iyad Makhlouf. Closely associated with the Assad family and maternal uncle of Bashar and Maher al-Assad. Also referred to as Abu Rami.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1932-10-19",
-      "circa": false
+      "circa": false,
+      "year": 1932
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

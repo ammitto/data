@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/60500",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/60500",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Vakhrukov Dmitriy Sergeevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Vakhrukov Dmitriy Sergeevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/60500"
   ],
   "remarks": "Dmitriy Vakhrukov is Deputy Minister of the Russian Ministry of Economic Development. During his administration, the Ministry of Economic Development has been involved in activities to undermine and threaten the territorial integrity of Ukraine, including measures to explore the economic potential of the annexed Ukrainian regions (Kherson, Zaporizhzhia, the so-called “Donetsk People’s Republic” and “Luhansk People’s Republic”) as well as activities to support war economy measures of the Russian government.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1983-11-23",
-      "circa": false
+      "circa": false,
+      "year": 1983
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

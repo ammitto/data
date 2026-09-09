@@ -1,61 +1,84 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7828",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7828",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Yahya Ibrahim Hassan Sinwar",
+      "@type": "NameVariant",
+      "fullName": "Yahya Ibrahim Hassan Sinwar",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Yahya Sinwar",
+      "@type": "NameVariant",
+      "fullName": "Yahya Sinwar",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Yehya al-Sinwar",
+      "@type": "NameVariant",
+      "fullName": "Yehya al-Sinwar",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Yehia Sinwar",
+      "@type": "NameVariant",
+      "fullName": "Yehia Sinwar",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Yehiyeh Sinwar",
+      "@type": "NameVariant",
+      "fullName": "Yehiyeh Sinwar",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "يحيى السنوار",
+      "@type": "NameVariant",
+      "fullName": "يحيى السنوار",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Listing: Charter of the United Nations (Listed Entities) Amendment (No. 1) Instrument 2024",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7828"
   ],
-  "birth_info": [
+  "remarks": "Listing: Charter of the United Nations (Listed Entities) Amendment (No. 1) Instrument 2024",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1961
     },
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1962
     },
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1963
     }
   ],
   "nationalities": [
     "State of Palestine"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Gaza, State of Palestine",
       "country": "State of Palestine"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

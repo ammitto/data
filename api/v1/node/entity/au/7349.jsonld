@@ -1,29 +1,46 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7349",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7349",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mohammad Taghi OSANLOO",
+      "@type": "NameVariant",
+      "fullName": "Mohammad Taghi OSANLOO",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Mohammad Taghi ASANLOO",
+      "@type": "NameVariant",
+      "fullName": "Mohammad Taghi ASANLOO",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Brigadier-General, Commander of the Hamzeh Seyed Al-Shohada regional headquarters of the Islamic Revolutionary Guard Corps; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Thematic Sanctions) Amendment (No. 1) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7349"
   ],
-  "birth_info": [
+  "remarks": "Brigadier-General, Commander of the Hamzeh Seyed Al-Shohada regional headquarters of the Islamic Revolutionary Guard Corps; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Thematic Sanctions) Amendment (No. 1) Instrument 2023",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1962
     }
   ],
   "nationalities": [
     "Iran"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/27692",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/27692",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Shamanov Vladimir Anatolievich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Shamanov Vladimir Anatolievich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/27692"
   ],
   "remarks": "Former Commander of the Russian Airborne Troops, Colonel-General. In his senior position, he holds responsibility for the deployment of Russian airborne forces in Crimea.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1957-02-15",
-      "circa": false
+      "circa": false,
+      "year": 1957
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

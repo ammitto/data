@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/865784",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/865784",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "COMSIS INFORMATION TECHNOLOGY SOLUTIONS SERVICES",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "COMSIS INFORMATION TECHNOLOGY SOLUTIONS SERVICES",
+      "isPrimary": true
     }
   ],
-  "remarks": "*669",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/865784"
+  ],
+  "remarks": "*669",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "3RD STREET, TAIMANI",
       "city": "KABUL",
       "country": "Afghanistan",
-      "country_iso_code": "AF"
+      "countryIsoCode": "AF"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

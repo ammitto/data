@@ -1,24 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3161",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/3161",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ryu Jin",
+      "@type": "NameVariant",
+      "fullName": "Ryu Jin",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "KPi.027. KOMID Representative in Syria. Passport no.: 563410081.; Listing: First listed on 2/03/2016",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3161"
   ],
-  "birth_info": [
+  "remarks": "KPi.027. KOMID Representative in Syria. Passport no.: 563410081.; Listing: First listed on 2/03/2016",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1965
     }
   ],
   "nationalities": [
     "Democratic People's Republic of Korea (North Korea)"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

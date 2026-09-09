@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/6297",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/6297",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kachepa Newton",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kachepa Newton",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/6297"
   ],
   "remarks": "Member of Parliament, involved in the murder of Peter Tom Butao on 14 April 2008 and Kingswell Mateta in July 2008. He directed the torture of many MDC supporters in his constituency.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1970-02-10",
-      "circa": false
+      "circa": false,
+      "year": 1970
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

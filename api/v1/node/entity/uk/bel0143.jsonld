@@ -1,33 +1,56 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/bel0143",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/bel0143",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Grakun",
-      "first_name": "Tatyana",
+      "@type": "NameVariant",
+      "fullName": "Grakun",
+      "firstName": "Tatyana",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Grakun",
-      "first_name": "Tatsiana",
+      "@type": "NameVariant",
+      "fullName": "Grakun",
+      "firstName": "Tatsiana",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Татьяна Александровна ГРАКУН ",
+      "@type": "NameVariant",
+      "fullName": "Татьяна Александровна ГРАКУН ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Таццяна Аляксандраўна ГРАКУН ",
+      "@type": "NameVariant",
+      "fullName": "Таццяна Аляксандраўна ГРАКУН ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/bel0143"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

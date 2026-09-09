@@ -1,32 +1,51 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3431",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/3431",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Chu Hyo'k",
+      "@type": "NameVariant",
+      "fullName": "Chu Hyo'k",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Ju Hyok",
+      "@type": "NameVariant",
+      "fullName": "Ju Hyok",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "KPi.065 Former overseas Foreign Trade Bank Deputy representative. Passport No: 836420186, issued 28 Oct. 2016 (Expires 28 October 2021). Gender: male.; Listing: Listed on: 22 December 2017 (amended on 29 June 2023)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3431"
   ],
-  "birth_info": [
+  "remarks": "KPi.065 Former overseas Foreign Trade Bank Deputy representative. Passport No: 836420186, issued 28 Oct. 2016 (Expires 28 October 2021). Gender: male.; Listing: Listed on: 22 December 2017 (amended on 29 June 2023)",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1986
     },
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1986
     }
   ],
   "nationalities": [
     "Democratic People's Republic of Korea (North Korea)"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

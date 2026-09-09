@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/1005936",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/1005936",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "S.C. “OZUN-CONS” SRL",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "S.C. “OZUN-CONS” SRL",
+      "isPrimary": true
     }
   ],
-  "remarks": "*705",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/1005936"
+  ],
+  "remarks": "*705",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "STR. ION NISTOR 4",
       "city": "M. CHIȘINĂU, MD-2009",
       "country": "Moldova",
-      "country_iso_code": "MD"
+      "countryIsoCode": "MD"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/71946",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/71946",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Malkov Pavel Viktorovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Malkov Pavel Viktorovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/71946"
   ],
   "remarks": "Pavel Malkov is the Governor of the Ryazan Region, appointed by the President of the Russian Federation Vladimir Putin. In his role as Governor, Pavel Malkov manages a regional state body of the Russian Federation and is responsible for implementing state policies at the regional level.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1980-01-20",
-      "circa": false
+      "circa": false,
+      "year": 1980
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

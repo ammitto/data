@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/45658",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/45658",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Barazna Mikhail Ryhoravich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Barazna Mikhail Ryhoravich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/45658"
   ],
   "remarks": "In his position as the Rector of the Belarusian State Academy of Arts (BSAA), Mikhail Barazna is responsible for the decision of University administration to expel students for taking part in peaceful protests. The expulsion orders were taken following Lukashenka's call on 27 Oct 2020 for expelling from universities students taking part in protests and strikes. Mikhail Barazna is therefore responsible for the repression of civil society and is supporting the Lukashenka regime.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1962-11-20",
-      "circa": false
+      "circa": false,
+      "year": 1962
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

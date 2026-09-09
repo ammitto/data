@@ -1,17 +1,36 @@
 {
-  "id": "https://www.ammitto.org/entity/nz/ent-357",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/nz/ent-357",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "LLC RT-Komplekt",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "LLC RT-Komplekt",
+      "isPrimary": true
     }
   ],
-  "source_references": [
+  "sourceReferences": [
     {
-      "source_code": "nz",
-      "reference_number": "ENT-357"
+      "@type": "SourceReference",
+      "sourceCode": "nz",
+      "referenceNumber": "ENT-357",
+      "retrievedAt": "2026-09-09T16:30:42Z"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "linkedEntities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "beneficialOwners": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/nz/consolidated-list/ent-357"
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

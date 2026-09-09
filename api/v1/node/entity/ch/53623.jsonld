@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/53623",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/53623",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Skorokhodov Valery Vladimirovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Skorokhodov Valery Vladimirovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/53623"
   ],
   "remarks": "Member of the so-called ‘People’s Council’ of the so-called ‘Donetsk People’s Republic’. Has therefore supported and implemented actions and policies which undermine the territorial integrity, sovereignty and independence of Ukraine, and further destabilised Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1976-05-22",
-      "circa": false
+      "circa": false,
+      "year": 1976
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

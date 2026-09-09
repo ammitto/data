@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/75364",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/75364",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kadyrova Aimani Nesievna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kadyrova Aimani Nesievna",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/75364"
   ],
   "remarks": "Aimani Kadyrova is the President of the Kadyrov Foundation. The Kadyrov Foundation carries out re-education programmes for Ukrainian children and teenagers, subjecting them to militaristic training with the intent of alienating them from their home country and relatives. Furthermore, the Kadyrov Foundation provides financial incentives to the families of the Chechen fighters involved in Russia’s war of aggression against Ukraine to attract new volunteers and keep those already fighting motivated.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1953-08-04",
-      "circa": false
+      "circa": false,
+      "year": 1953
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

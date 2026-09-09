@@ -1,27 +1,43 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8735",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/8735",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Public Joint Stock Social Commercial Bank of Primorye Primsotsbank",
+      "@type": "NameVariant",
+      "fullName": "Public Joint Stock Social Commercial Bank of Primorye Primsotsbank",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "PRIMSOTSBANK",
+      "@type": "NameVariant",
+      "fullName": "PRIMSOTSBANK",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Partizansky Prospekt 44, Vladivostok, Primorsky Krai, 690106, Russia; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2026",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8735"
+  ],
+  "remarks": "Partizansky Prospekt 44, Vladivostok, Primorsky Krai, 690106, Russia; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2026",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Partizansky Prospekt 44, Vladivostok, Primorsky Krai, 690106, Russia",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

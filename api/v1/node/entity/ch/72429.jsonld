@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/72429",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/72429",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Churin Sergei Sergeevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Churin Sergei Sergeevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/72429"
   ],
   "remarks": "Sergei Churin is the Director of JSC UMZ (a.k.a. Ulyansk Mechanical Plant). JSC UMZ is a Russian military-industrial state enterprise that develops missile systems, including the Buk-M2 missile system, deployed by the Russian Armed Forces. Moreover, JSC UMZ is part of the Almaz-Antey concern, a Russian stateowned arms manufacturer that develops anti-aircraft defence and cruise missile systems for the Russian military.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1967-04-12",
-      "circa": false
+      "circa": false,
+      "year": 1967
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

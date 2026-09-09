@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/41361",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/41361",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Adel Anwar Al-Olabi",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Adel Anwar Al-Olabi",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/41361"
   ],
   "remarks": "Leading businessperson benefitting from and supporting the former al-Assad regime. Chairperson of Damascus Cham Holding Company (DCHC), the investment arm of the Governorate of Damascus managing the properties of the Governorate of Damascus and implementing the Marota City project.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1976-01-10",
-      "circa": false
+      "circa": false,
+      "year": 1976
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

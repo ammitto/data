@@ -1,22 +1,43 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus1485",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/rus1485",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "PERENCEVIC",
-      "first_name": "Mihajlo",
+      "@type": "NameVariant",
+      "fullName": "PERENCEVIC",
+      "firstName": "Mihajlo",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Mihajlo PERENČEVIĆ",
+      "@type": "NameVariant",
+      "fullName": "Mihajlo PERENČEVIĆ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus1485"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

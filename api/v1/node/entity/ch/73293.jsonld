@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/73293",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/73293",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Klein Nikolai Vladimirovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Klein Nikolai Vladimirovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/73293"
   ],
   "remarks": "Nikolai Klein is the Director of JSC MZIK (a.k.a. Kalinin Machine-Building Plant). JSC MZIK is a Russian militaryindustrial state enterprise that develops combat equipment for the S-300V anti-aircraft missile system and the BUK-M1 anti-aircraft missile system deployed by the Russian Armed Forces. Moreover, JSC MZIK is part of the Joint Stock Company Almaz-Antey air and space defence corporation, a Russian state-owned arms\nmanufacturer that develops anti-aircraft defence and cruise missile systems for the Russian military.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1955-01-15",
-      "circa": false
+      "circa": false,
+      "year": 1955
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

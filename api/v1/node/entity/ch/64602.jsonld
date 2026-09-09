@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/64602",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/64602",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Starunsky Aleksandr Gennad’yevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Starunsky Aleksandr Gennad’yevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/64602"
   ],
   "remarks": "Aleksandr Starunsky is a Russian military intelligence officer and former commander of GRU PsyOps unit 54777. He is a founder of the Institute of the Russian Diaspora, a GRU front organisation and an integral part of the media organisation Inforos. The Institute of the Russian Diaspora owns an online media presence called russkie.org which disseminates Russian disinformation and propaganda about the war of aggression against Ukraine. Therefore, Aleksandr Starunsky is responsible for supporting and implementing actions and policies which undermine and threaten the territorial integrity, sovereignty and independence of Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1970-06-12",
-      "circa": false
+      "circa": false,
+      "year": 1970
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

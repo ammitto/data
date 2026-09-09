@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/53754",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/53754",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Churadze Dmitry Murtazievich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Churadze Dmitry Murtazievich",
+      "isPrimary": true
     }
   ],
-  "remarks": "Member of the so-called ‘People’s Council’ of the so-called ‘Donetsk People’s Republic’. Has therefore supported and implemented actions and policies which undermine the territorial integrity, sovereignty and independence of Ukraine, and further destabilised Ukraine.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/53754"
+  ],
+  "remarks": "Former member of the so-called “People’s Council” of the so-called “Donetsk People’s Republic”. Has therefore supported and implemented actions and policies which undermine the territorial integrity, sovereignty and independence of Ukraine, and further destabilised Ukraine.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1974-10-24",
-      "circa": false
+      "circa": false,
+      "year": 1974
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

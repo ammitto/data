@@ -1,22 +1,43 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/ghr0147",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/ghr0147",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": " Tamazashvili",
-      "first_name": "Sulkhan",
+      "@type": "NameVariant",
+      "fullName": " Tamazashvili",
+      "firstName": "Sulkhan",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "სულხან თამაზაშვილი",
+      "@type": "NameVariant",
+      "fullName": "სულხან თამაზაშვილი",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/ghr0147"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

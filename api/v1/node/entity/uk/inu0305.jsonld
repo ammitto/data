@@ -1,42 +1,61 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/inu0305",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/inu0305",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "TOSEE TAAVON BANK ",
+      "@type": "NameVariant",
+      "fullName": "TOSEE TAAVON BANK ",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "BANK-E TOSE'E TA'AVON ",
+      "@type": "NameVariant",
+      "fullName": "BANK-E TOSE'E TA'AVON ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "COOPERATIVE DEVELOPMENT BANK ",
+      "@type": "NameVariant",
+      "fullName": "COOPERATIVE DEVELOPMENT BANK ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "TOSE'E TA'AVON BANK ",
+      "@type": "NameVariant",
+      "fullName": "TOSE'E TA'AVON BANK ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "TT Bank",
+      "@type": "NameVariant",
+      "fullName": "TT Bank",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/inu0305"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Cooperative Development Bank Building, Bozorgmehr Street, Block 271",
       "state": "TEHRAN",
       "country": "Iran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

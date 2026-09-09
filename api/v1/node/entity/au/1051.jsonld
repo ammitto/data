@@ -1,30 +1,47 @@
 {
-  "id": "https://www.ammitto.org/entity/au/1051",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/1051",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MUHAMMAD HAMZA ZUBAIDI",
+      "@type": "NameVariant",
+      "fullName": "MUHAMMAD HAMZA ZUBAIDI",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "محمد حمزة زبيدي",
+      "@type": "NameVariant",
+      "fullName": "محمد حمزة زبيدي",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "IQi.009; Listing: Listed by the 1518 Committee",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/1051"
   ],
-  "birth_info": [
+  "remarks": "IQi.009; Listing: Listed by the 1518 Committee",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1938,
       "country": "Babylon"
     }
   ],
   "nationalities": [
     "Iraq"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

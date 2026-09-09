@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/891450",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/891450",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "CNN CAUCASIA LLC",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "CNN CAUCASIA LLC",
+      "isPrimary": true
     }
   ],
-  "remarks": "*679",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/891450"
+  ],
+  "remarks": "*679",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "POTI FREE INDUSTRIAL ZONE, PLOT NO 545 CODE 04, SECTOR 1, POTI, CODE 01, AREA NO 01",
       "city": "POTI",
       "country": "Georgia",
-      "country_iso_code": "GE"
+      "countryIsoCode": "GE"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

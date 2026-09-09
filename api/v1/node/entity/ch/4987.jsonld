@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/4987",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/4987",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mikhalchanka Aliaksei Yakaulevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Mikhalchanka Aliaksei Yakaulevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/4987"
   ],
   "remarks": "Journalist of the state TV channel ONT with senior and influential position. He is the anchorman of the TV programme «That is how it is». This programme is an instrument of state propaganda on TV, which supports and justifies the repression of the democratic opposition and of civil society. The opposition and civil society are systematically highlighted in a negative and derogatory way using falsified information. He was particularly active in this regard after the crackdown on peaceful demonstrations on 19 December 2010 and on subsequent protests.",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1973
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

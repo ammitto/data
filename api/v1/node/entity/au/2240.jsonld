@@ -1,55 +1,77 @@
 {
-  "id": "https://www.ammitto.org/entity/au/2240",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/2240",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ayman JABIR",
+      "@type": "NameVariant",
+      "fullName": "Ayman JABIR",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Aiman JABER",
+      "@type": "NameVariant",
+      "fullName": "Aiman JABER",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ayman Mehriz JABER",
+      "@type": "NameVariant",
+      "fullName": "Ayman Mehriz JABER",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ayman Mohriz JABER",
+      "@type": "NameVariant",
+      "fullName": "Ayman Mohriz JABER",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ayman Muhriz JABIR",
+      "@type": "NameVariant",
+      "fullName": "Ayman Muhriz JABIR",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Aiman JABIR",
+      "@type": "NameVariant",
+      "fullName": "Aiman JABIR",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Aymin JABER",
+      "@type": "NameVariant",
+      "fullName": "Aymin JABER",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Prominent business and leading figure in the regime-affiliated\nDesert Hawks Brigade, which has been implicated in wide-ranging\nhuman rights abuses.\nPassport No.: 003308607; Listing: Designated under the Autonomous Sanctions Regulations 2011 on 2 March 2012. Formerly listed on the RBA Consolidated List as 2011SYR0036. \nInstrument of first\ndesignation and\ndeclaration:\nAutonomous Sanctions (Designated Persons and Entities and\nDeclared Persons – Syria) List 2012 [F2012L00482]\nRelisted on 12 January 2024.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/2240"
   ],
-  "birth_info": [
+  "remarks": "Prominent business and leading figure in the regime-affiliated\nDesert Hawks Brigade, which has been implicated in wide-ranging\nhuman rights abuses.\nPassport No.: 003308607; Listing: Designated under the Autonomous Sanctions Regulations 2011 on 2 March 2012. Formerly listed on the RBA Consolidated List as 2011SYR0036. \nInstrument of first\ndesignation and\ndeclaration:\nAutonomous Sanctions (Designated Persons and Entities and\nDeclared Persons – Syria) List 2012 [F2012L00482]\nRelisted on 12 January 2024.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1967,
       "country": "Latakia"
     }
   ],
   "nationalities": [
     "Syria"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

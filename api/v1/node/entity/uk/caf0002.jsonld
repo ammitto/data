@@ -1,59 +1,90 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/caf0002",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/caf0002",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "LORD'S RESISTANCE ARMY",
+      "@type": "NameVariant",
+      "fullName": "LORD'S RESISTANCE ARMY",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Lord's Resistance Movement (LRM)",
+      "@type": "NameVariant",
+      "fullName": "Lord's Resistance Movement (LRM)",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Lord's Resistance Movement/Army (LRM/A)",
+      "@type": "NameVariant",
+      "fullName": "Lord's Resistance Movement/Army (LRM/A)",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "LRA",
+      "@type": "NameVariant",
+      "fullName": "LRA",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/caf0002"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "state": "Basse-Kotto",
       "country": "Central African Republic"
     },
     {
-      "state": "Kafia Kingi"
-    },
-    {
-      "state": "Vakaga",
-      "country": "Central African Republic"
-    },
-    {
+      "@type": "Address",
+      "street": "",
       "state": "Bas-Uolo",
       "country": "Congo (Democratic Republic)"
     },
     {
+      "@type": "Address",
+      "street": "",
       "state": "Haute-Kotto",
       "country": "Central African Republic"
     },
     {
+      "@type": "Address",
+      "street": "",
       "state": "Haut-Mbomou",
       "country": "Central African Republic"
     },
     {
+      "@type": "Address",
+      "street": "",
       "state": "Haut-Uolo",
       "country": "Congo (Democratic Republic)"
+    },
+    {
+      "@type": "Address",
+      "street": "",
+      "state": "Kafia Kingi"
+    },
+    {
+      "@type": "Address",
+      "street": "",
+      "state": "Vakaga",
+      "country": "Central African Republic"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

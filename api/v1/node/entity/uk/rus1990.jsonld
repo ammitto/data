@@ -1,38 +1,56 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus1990",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus1990",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "LIMITED LIABILITY COMPANY TECHNOLOGICAL COMPANY FLY BRIDGE ",
+      "@type": "NameVariant",
+      "fullName": "LIMITED LIABILITY COMPANY TECHNOLOGICAL COMPANY FLY BRIDGE ",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "LLC TC Fly Bridge ",
+      "@type": "NameVariant",
+      "fullName": "LLC TC Fly Bridge ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ ТЕХНОЛОГИЧЕСКАЯ КОМПАНИЯ ФЛАЙ БРИДЖ ",
+      "@type": "NameVariant",
+      "fullName": "ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ ТЕХНОЛОГИЧЕСКАЯ КОМПАНИЯ ФЛАЙ БРИДЖ ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "ООО ТК ФЛАЙ БРИДЖ",
+      "@type": "NameVariant",
+      "fullName": "ООО ТК ФЛАЙ БРИДЖ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus1990"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "PR-KT PATSAEVA D. 7, K. 1, OFFICE 28/1",
       "state": "Dolgoprudny",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

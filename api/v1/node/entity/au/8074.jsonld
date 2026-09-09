@@ -1,37 +1,55 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8074",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/8074",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Federal National Guard Service of the Russian Federation",
+      "@type": "NameVariant",
+      "fullName": "Federal National Guard Service of the Russian Federation",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Rosgvardia",
+      "@type": "NameVariant",
+      "fullName": "Rosgvardia",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Federal Service of the National Guard Troops",
+      "@type": "NameVariant",
+      "fullName": "Federal Service of the National Guard Troops",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Federal Service of the Troops of the National Guard of the Russian Federation",
+      "@type": "NameVariant",
+      "fullName": "Federal Service of the Troops of the National Guard of the Russian Federation",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "https://rosguard.gov.ru; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8074"
+  ],
+  "remarks": "https://rosguard.gov.ru; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "9 Krasnokazarmennaya Street Moscow 111250 Russia",
       "country": "9 Krasnokazarmennaya Street Moscow 111250 Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

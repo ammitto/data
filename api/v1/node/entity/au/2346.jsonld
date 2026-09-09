@@ -1,40 +1,59 @@
 {
-  "id": "https://www.ammitto.org/entity/au/2346",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/2346",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Wafiq NASSER",
+      "@type": "NameVariant",
+      "fullName": "Wafiq NASSER",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Wafeeq NASSER",
+      "@type": "NameVariant",
+      "fullName": "Wafeeq NASSER",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Wafiq NASER",
+      "@type": "NameVariant",
+      "fullName": "Wafiq NASER",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Wafiq NASSEER",
+      "@type": "NameVariant",
+      "fullName": "Wafiq NASSEER",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Last known position: Head of Suwayda Regional Branch of Syrian Military Intelligence.; Listing: Designated under the Autonomous Sanctions Regulations 2011 on 2 March 2012. Instrument of first\ndesignation and declaration:\nAutonomous Sanctions (Designated Persons and Entities and Declared Persons – Syria) List 2012 [F2012L00482]\nRelisted on 12 January 2024.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/2346"
   ],
-  "birth_info": [
+  "remarks": "Last known position: Head of Suwayda Regional Branch of Syrian Military Intelligence.; Listing: Designated under the Autonomous Sanctions Regulations 2011 on 2 March 2012. Instrument of first\ndesignation and declaration:\nAutonomous Sanctions (Designated Persons and Entities and Declared Persons – Syria) List 2012 [F2012L00482]\nRelisted on 12 January 2024.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1964,
       "country": "Jableh"
     }
   ],
   "nationalities": [
     "Syria"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

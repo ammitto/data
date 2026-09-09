@@ -1,41 +1,62 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/drc0002",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/drc0002",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kumba",
-      "first_name": "Gabriel",
+      "@type": "NameVariant",
+      "fullName": "Kumba",
+      "firstName": "Gabriel",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Nkumba",
-      "first_name": "Gabriel",
+      "@type": "NameVariant",
+      "fullName": "Nkumba",
+      "firstName": "Gabriel",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Tango Fort",
+      "@type": "NameVariant",
+      "fullName": "Tango Fort",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Tango Four",
+      "@type": "NameVariant",
+      "fullName": "Tango Four",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/drc0002"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "22, avenue Mbsenseke, Ma Campagne",
       "city": "Ngaliema",
       "state": "Kinshasa",
       "country": "Congo (Democratic Republic)"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,16 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/84696",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/84696",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ali Musa al-Shawakh",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Ali Musa al-Shawakh",
+      "isPrimary": true
     }
   ],
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/84696"
+  ],
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1973
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

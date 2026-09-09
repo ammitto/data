@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/nz/ind-485",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/nz/ind-485",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Galina Alekseyevna Tokareva ",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Galina Alekseyevna Tokareva ",
+      "isPrimary": true
     }
   ],
-  "source_references": [
+  "sourceReferences": [
     {
-      "source_code": "nz",
-      "reference_number": "IND-485"
+      "@type": "SourceReference",
+      "sourceCode": "nz",
+      "referenceNumber": "IND-485",
+      "retrievedAt": "2026-09-09T16:30:43Z"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "linkedEntities": [
+
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/nz/consolidated-list/ind-485"
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

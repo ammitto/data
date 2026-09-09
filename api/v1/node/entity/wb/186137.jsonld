@@ -1,23 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/186137",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/wb/186137",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MR. YANG LIN",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "MR. YANG LIN",
+      "isPrimary": true
     }
   ],
-  "remarks": "* 30",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/186137"
+  ],
+  "remarks": "* 30",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "C/O SUITE 617 EAST PLAZA, NO. 15 NORTH ROAD, WEST 4TH RING ROAD, HAI DIAN DISTRICT",
       "city": "100195, BEIJING",
       "country": "China",
-      "country_iso_code": "CN"
+      "countryIsoCode": "CN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

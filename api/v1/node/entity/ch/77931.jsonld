@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/77931",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/77931",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Dudal Anton Genadzevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Dudal Anton Genadzevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/77931"
   ],
   "remarks": "Anton Dudal was a judge who served in the court of the Bobruisk district and the city of Bobruisk. He was appointed by Aliaksandr Lukashenka in 2019. He has issued politically motivated sentences, including against citizens of Belarus who voiced their opinions against the President. He sentenced a citizen for acting in self-defence against law-enforcement brutality. He transferred Andrey Sachevko to prison in Mahiliou.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1986-08-11",
-      "circa": false
+      "circa": false,
+      "year": 1986
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

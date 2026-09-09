@@ -1,66 +1,87 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7824",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7824",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Maher Rebhi Obeid",
+      "@type": "NameVariant",
+      "fullName": "Maher Rebhi Obeid",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Maher Ribhi Nimr Obaid",
+      "@type": "NameVariant",
+      "fullName": "Maher Ribhi Nimr Obaid",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Maher bin Rebhi Obeid",
+      "@type": "NameVariant",
+      "fullName": "Maher bin Rebhi Obeid",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Maher bin Rebhi bin Namr Obeid",
+      "@type": "NameVariant",
+      "fullName": "Maher bin Rebhi bin Namr Obeid",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Maher Rebhi Namr Obeid",
+      "@type": "NameVariant",
+      "fullName": "Maher Rebhi Namr Obeid",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Maher Obaid",
+      "@type": "NameVariant",
+      "fullName": "Maher Obaid",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Maher Obeid",
+      "@type": "NameVariant",
+      "fullName": "Maher Obeid",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "ماهر بن ربحي بن نمر عبيد",
+      "@type": "NameVariant",
+      "fullName": "ماهر بن ربحي بن نمر عبيد",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Listing: Charter of the United Nations (Listed Entities) Amendment (No. 1) Instrument 2024",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7824"
   ],
-  "birth_info": [
+  "remarks": "Listing: Charter of the United Nations (Listed Entities) Amendment (No. 1) Instrument 2024",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1958,
       "country": "Amman"
     }
   ],
   "nationalities": [
     "State of Palestine"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Beirut, Lebanon or Amman, Jordan",
       "country": "Jordan"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

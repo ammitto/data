@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/6841",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/6841",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Nhema Francis Chenayimoyo Dunstan",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Nhema Francis Chenayimoyo Dunstan",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/6841"
   ],
   "remarks": "ZANU-PF Member of Government. In September 2009 forced for safari operators to give up shares in ranches and conservancies.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1959-04-07",
-      "circa": false
+      "circa": false,
+      "year": 1959
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/68988",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/68988",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Siavash Nader Khoon",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Siavash Nader Khoon",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/68988"
   ],
   "remarks": "Nader Khoon Siavash is the Director of Aerospace Industries Organization (AIO). AIO is an organisation which reports to the Iranian Ministry of Defence and Armed Forces Logistics (MODAFL), and is active in Iran’s unmanned aerial vehicle (UAV) programme. As Director of AIO, Nader Khoon Siavash is therefore supporting and involved in Iran’s UAV programme.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1963-04-30",
-      "circa": false
+      "circa": false,
+      "year": 1963
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

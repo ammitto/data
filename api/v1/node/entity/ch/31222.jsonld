@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/31222",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/31222",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ahmed Ali Abdullah Saleh Former Ambassador Former Brigadier General",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Ahmed Ali Abdullah Saleh Former Ambassador Former Brigadier General",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/31222"
   ],
   "remarks": "Ahmed Ali Abdullah Saleh was designated for sanctions on 14 Apr 2015 pursuant to paragraphs 11 and 15 of resolution 2140 (2014) and paragraph 14 of resolution 2216 (2015).",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1972-07-25",
-      "circa": false
+      "circa": false,
+      "year": 1972
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

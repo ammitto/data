@@ -1,25 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/451449",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/451449",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "TIGER IT AMERICAS LLC",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "TIGER IT AMERICAS LLC",
+      "isPrimary": true
     }
   ],
-  "remarks": "(Reg. No.: 603 348 463)*475",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/451449"
+  ],
+  "remarks": "(Reg. No.: 603 348 463)*475",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "999 3RD AVENUE, SUITE 700",
       "city": "SEATTLE",
       "state": "WA",
       "country": "United States",
-      "country_iso_code": "US",
-      "postal_code": "98104"
+      "countryIsoCode": "US",
+      "postalCode": "98104"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

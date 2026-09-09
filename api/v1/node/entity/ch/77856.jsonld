@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/77856",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/77856",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Shotsik Tatsiana Viktarauna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Shotsik Tatsiana Viktarauna",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/77856"
   ],
   "remarks": "Tatsiana Shotsik is a judge who has served in the court of Leninsky district in Minsk since 2021, having been appointed by Aliaksandr Lukashenka. She has issued politically motivated sentences against citizens of Belarus who voiced their opinions against the President and the brutality of Belarusian law-enforcement structures. Igor Lednik, a political prisoner, who was sentenced by Shotsik to three years in prison, died on 20 February 2024.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1992-01-21",
-      "circa": false
+      "circa": false,
+      "year": 1992
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

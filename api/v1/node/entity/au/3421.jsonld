@@ -1,47 +1,67 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3421",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/3421",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Paeksol Trading Corporation",
+      "@type": "NameVariant",
+      "fullName": "Paeksol Trading Corporation",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Baeksol Trading",
+      "@type": "NameVariant",
+      "fullName": "Baeksol Trading",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Baeksul Trading",
+      "@type": "NameVariant",
+      "fullName": "Baeksul Trading",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Korea Paek Sol Trading",
+      "@type": "NameVariant",
+      "fullName": "Korea Paek Sol Trading",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Paek Sol Trading Corporation",
+      "@type": "NameVariant",
+      "fullName": "Paek Sol Trading Corporation",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Paekso'l Corporation",
+      "@type": "NameVariant",
+      "fullName": "Paekso'l Corporation",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Has been affiliated with the North Korean Ministry of People’s Armed Forces, Office 39, and the Munitions Industry Department.; Listing: First listed on 27 Nov. 2017. Instrument of first designation and declaration: Autonomous Sanctions (Designated Persons and Entities – Democratic People’s Republic of Korea) Amendment List 2017 (No 3)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3421"
+  ],
+  "remarks": "Has been affiliated with the North Korean Ministry of People’s Armed Forces, Office 39, and the Munitions Industry Department.; Listing: First listed on 27 Nov. 2017. Instrument of first designation and declaration: Autonomous Sanctions (Designated Persons and Entities – Democratic People’s Republic of Korea) Amendment List 2017 (No 3)",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "North Korea",
       "country": "North Korea"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

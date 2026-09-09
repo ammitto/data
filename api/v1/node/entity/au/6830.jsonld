@@ -1,30 +1,47 @@
 {
-  "id": "https://www.ammitto.org/entity/au/6830",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/6830",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Aleksey Vasilyevich ANICHIN",
+      "@type": "NameVariant",
+      "fullName": "Aleksey Vasilyevich ANICHIN",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Alexei Vasilyevich ANICHIN",
+      "@type": "NameVariant",
+      "fullName": "Alexei Vasilyevich ANICHIN",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Thematic Sanctions) Instrument 2022",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/6830"
   ],
-  "birth_info": [
+  "remarks": "Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Thematic Sanctions) Instrument 2022",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1949,
       "country": "Sevastopol"
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

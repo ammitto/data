@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/1497",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/1497",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Fadil Mahmud Gharib",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Fadil Mahmud Gharib",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/1497"
   ],
   "remarks": "Ba’th Party Regional Command Chairman, Babil; Chairman, General Federation of Iraqi Trade Unions",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1944
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

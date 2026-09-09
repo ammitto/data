@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/28154",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/28154",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ivakin Yuriy Volodymyrovych",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Ivakin Yuriy Volodymyrovych",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/28154"
   ],
   "remarks": "Former so-called \"Minister of Internal Affairs of the Luhansk People's Republic\", as such responsible for the separatist \"governmental\" activities of the so-called \"government of the Luhansk People's Republic\".",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1954-08-13",
-      "circa": false
+      "circa": false,
+      "year": 1954
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

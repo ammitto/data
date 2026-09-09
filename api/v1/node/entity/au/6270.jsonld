@@ -1,80 +1,105 @@
 {
-  "id": "https://www.ammitto.org/entity/au/6270",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/6270",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Sanaullah Ghafari",
+      "@type": "NameVariant",
+      "fullName": "Sanaullah Ghafari",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "ثناء اللہ غفاری",
+      "@type": "NameVariant",
+      "fullName": "ثناء اللہ غفاری",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Dr. Shahab al Muhajir",
+      "@type": "NameVariant",
+      "fullName": "Dr. Shahab al Muhajir",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Shahab Muhajer",
+      "@type": "NameVariant",
+      "fullName": "Shahab Muhajer",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Shahab Mohajir",
+      "@type": "NameVariant",
+      "fullName": "Shahab Mohajir",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Shahab Mahajar",
+      "@type": "NameVariant",
+      "fullName": "Shahab Mahajar",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Shihab al Muhajir",
+      "@type": "NameVariant",
+      "fullName": "Shihab al Muhajir",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Shihab Muhajer",
+      "@type": "NameVariant",
+      "fullName": "Shihab Muhajer",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Shihab Mohajir",
+      "@type": "NameVariant",
+      "fullName": "Shihab Mohajir",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Shihab Mahajar",
+      "@type": "NameVariant",
+      "fullName": "Shihab Mahajar",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Title: Dr. Other information: Leader of the Islamic State of Iraq and the Levant - Khorasan (ISIL - K) (QDe.161). Information Technology Expert. Father's name: Abdul Jabbar; Grandfather's name: Abdul Ghaffar. Photo is available for inclusion in the INTERPOL-UN Security Council Special Notice; INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals; Afghanistan Passport Number O1503093, issued on 25 Aug 2016 in Kabul, Afghanistan (expired on 25 Aug 2021).; Listing: Listed on 21 Dec 2021, amended on 25 Apr 2024",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/6270"
   ],
-  "birth_info": [
+  "remarks": "Title: Dr. Other information: Leader of the Islamic State of Iraq and the Levant - Khorasan (ISIL - K) (QDe.161). Information Technology Expert. Father's name: Abdul Jabbar; Grandfather's name: Abdul Ghaffar. Photo is available for inclusion in the INTERPOL-UN Security Council Special Notice; INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals; Afghanistan Passport Number O1503093, issued on 25 Aug 2016 in Kabul, Afghanistan (expired on 25 Aug 2021).; Listing: Listed on 21 Dec 2021 (amended on 25 Apr 2024, 4 Sep. 2026)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1994,
       "country": "Mir Bacha Kot District"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1990,
       "country": "Kabul Province"
     }
   ],
   "nationalities": [
     "Afghanistan"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "a) Afghanistan (2021) b) Kunduz, Afghanistan (previous)",
       "country": "Afghanistan (previous)"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,52 +1,75 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/bel0161",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/bel0161",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "TOLSTENKOV",
-      "first_name": "Denis  ",
+      "@type": "NameVariant",
+      "fullName": "TOLSTENKOV",
+      "firstName": "Denis  ",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Talstsiankou ",
-      "first_name": "Dzianis  ",
+      "@type": "NameVariant",
+      "fullName": "Talstsiankou ",
+      "firstName": "Dzianis  ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "TAUSTSIANKOU ",
-      "first_name": "Dzianis   ",
+      "@type": "NameVariant",
+      "fullName": "TAUSTSIANKOU ",
+      "firstName": "Dzianis   ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "TOLSTENKOV ",
-      "first_name": "Denis ",
+      "@type": "NameVariant",
+      "fullName": "TOLSTENKOV ",
+      "firstName": "Denis ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Денис Анатольевич Толстенков",
+      "@type": "NameVariant",
+      "fullName": "Денис Анатольевич Толстенков",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": " Дзяніс Анатольевіч ТАЎСЦЯНКОЎ",
+      "@type": "NameVariant",
+      "fullName": " Дзяніс Анатольевіч ТАЎСЦЯНКОЎ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/bel0161"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Penal Colony 4, Vulica Antoshkina 3, Gomel Raion, Gomel Oblast",
       "state": "Gomel",
       "country": "Belarus"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

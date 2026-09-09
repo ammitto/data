@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/630866",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/630866",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "“SUPPER FORTUNA” LLC",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "“SUPPER FORTUNA” LLC",
+      "isPrimary": true
     }
   ],
-  "remarks": "*610",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/630866"
+  ],
+  "remarks": "*610",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "70 FIRDAVSI ST., GULISTAN TOWN",
       "city": "SYRDARYA REGION",
       "country": "Uzbekistan",
-      "country_iso_code": "UZ"
+      "countryIsoCode": "UZ"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

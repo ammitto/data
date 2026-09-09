@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/37815",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/37815",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Pak Mun Il",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Pak Mun Il",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/37815"
   ],
   "remarks": "Former overseas representative of Korea Daesong Bank.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1965-01-01",
-      "circa": false
+      "circa": false,
+      "year": 1965
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

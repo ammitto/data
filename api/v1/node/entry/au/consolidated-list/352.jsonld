@@ -1,37 +1,47 @@
 {
-  "id": "https://www.ammitto.org/entry/au/consolidated-list/352",
-  "entity_id": "https://www.ammitto.org/entity/au/352",
+  "@id": "https://www.ammitto.org/entry/au/consolidated-list/352",
+  "@type": "SanctionEntry",
+  "entityId": "https://www.ammitto.org/entity/au/352",
   "authority": {
     "@id": "https://www.ammitto.org/authority/au"
   },
   "regime": {
-    "@id": "https://www.ammitto.org/regime/au_isil"
+    "@id": "https://www.ammitto.org/regime/au_isil",
+    "name": "ISIL (Da'esh) and Al-Qaida"
   },
-  "legal_bases": [
+  "legalBases": [
     {
-      "type": "regulation",
-      "identifier": "Charter of the United Nations (Sanctions—ISIL (Da’esh) and Al-Qaida) Regulations 2008",
-      "title": "Charter of the United Nations (Sanctions—ISIL (Da’esh) and Al-Qaida) Regulations 2008"
+      "@id": "https://www.ammitto.org/legal-instrument/au/charter-of-the-united-nations-sanctions-isil-da-esh-and-al-qaida-regulations-2008"
     }
   ],
   "effects": [
     {
-      "effect_type": "asset_freeze",
+      "@type": "SanctionEffect",
+      "effectType": "asset_freeze",
       "scope": "full"
     },
     {
-      "effect_type": "arms_embargo",
+      "@type": "SanctionEffect",
+      "effectType": "arms_embargo",
       "scope": "full"
     }
   ],
+  "reasons": [
+
+  ],
   "period": {
-    "is_indefinite": true
+    "@type": "TemporalPeriod",
+    "isIndefinite": true
   },
   "status": "active",
-  "reference_number": "352",
-  "raw_source_data": {
-    "source_format": "csv",
-    "source_specific_fields": {
+  "statusHistory": [
+
+  ],
+  "referenceNumber": "352",
+  "rawSourceData": {
+    "@type": "RawSourceData",
+    "sourceFormat": "csv",
+    "sourceSpecificFields": {
       "au:reference": "352",
       "au:committees": "1267 (ISIL (Da'esh) and Al-Qaida)",
       "au:control_date": "2026-02-20",
@@ -39,5 +49,5 @@
       "au:listing_info": "Listed by the 1267 Committee on 25 Oct. 2002 ( amended on 13 Dec. 2011, 24 Nov. 2020 )"
     }
   },
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

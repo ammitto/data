@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/63623",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/63623",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Burdinskiy Yevgeniy Vladimirovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Burdinskiy Yevgeniy Vladimirovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/63623"
   ],
   "remarks": "Colonel General Yevgeniy Burdinskiy is the Head of the Main Organisational and Mobilization Directorate of the General Staff of the Armed Forces of the Russian Federation and the Deputy Chief of the General Staff of the Armed Forces of the Russian Federation. In this role, he is directly responsible for helping facilitate the mobilisation of Russian citizens into the war.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1960-08-25",
-      "circa": false
+      "circa": false,
+      "year": 1960
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

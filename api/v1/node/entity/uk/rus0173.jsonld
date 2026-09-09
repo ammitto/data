@@ -1,31 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus0173",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus0173",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "So-called Donetsk People's Republic",
+      "@type": "NameVariant",
+      "fullName": "So-called Donetsk People's Republic",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Donetsk People's Republic",
+      "@type": "NameVariant",
+      "fullName": "Donetsk People's Republic",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Donetskaya Narodnaya Respublika",
+      "@type": "NameVariant",
+      "fullName": "Donetskaya Narodnaya Respublika",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Names of Director(s)/Management: · Self-declared leader: Denis Pushilin The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus0173"
+  ],
+  "remarks": "Names of Director(s)/Management: · Self-declared leader: Denis Pushilin The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "state": "Donetsk"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

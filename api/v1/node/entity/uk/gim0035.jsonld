@@ -1,22 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/gim0035",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/gim0035",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "DURIQI",
-      "first_name": "Sami",
+      "@type": "NameVariant",
+      "fullName": "DURIQI",
+      "firstName": "Sami",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/gim0035"
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "rr Shefki LULETA, Fushe Kosove",
       "country": "Kosovo"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

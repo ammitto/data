@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/62796",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/62796",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Suk Vitaliy Aleksandrovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Suk Vitaliy Aleksandrovich",
+      "isPrimary": true
     }
   ],
-  "remarks": "Vitaliy Suk is a director of the Oleshki Boarding School for Disabled Children. He was involved in the illegal deportation of Ukrainian children with disabilities from the Kherson Oblast to the illegally annexed Crimea and other territories of Ukraine under Russia’s control. Some of those children were sent onwards to homes for children with disabilities throughout Russia. His actions infringe Ukraine’s law and administrative order, and violate the rights of Ukrainian children.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/62796"
+  ],
+  "remarks": "Vitaliy Suk is the director of the Oleshkivskyi Children’s Home. He was involved in the illegal deportation of Ukrainian children with disabilities from the Kherson Oblast to the illegally annexed Crimea and other territories of Ukraine under Russia’s control. Some of those children were sent onwards to homes for children with disabilities throughout Russia. His actions infringe Ukraine’s law and administrative order and violate the rights of Ukrainian children.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1970-03-12",
-      "circa": false
+      "circa": false,
+      "year": 1970
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

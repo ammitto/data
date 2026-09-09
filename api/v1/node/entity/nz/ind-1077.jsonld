@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/nz/ind-1077",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/nz/ind-1077",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Radiy Faritovich Khabirov",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Radiy Faritovich Khabirov",
+      "isPrimary": true
     }
   ],
-  "source_references": [
+  "sourceReferences": [
     {
-      "source_code": "nz",
-      "reference_number": "IND-1077"
+      "@type": "SourceReference",
+      "sourceCode": "nz",
+      "referenceNumber": "IND-1077",
+      "retrievedAt": "2026-09-09T16:30:42Z"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "linkedEntities": [
+
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/nz/consolidated-list/ind-1077"
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

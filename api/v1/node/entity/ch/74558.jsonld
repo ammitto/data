@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/74558",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/74558",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Medvedchuk Viktor Volodymyrovych",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Medvedchuk Viktor Volodymyrovych",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/74558"
   ],
   "remarks": "Viktor Medvedchuk is a former Ukrainian politician and businessperson, who has been the leading proponent of a pro-Russian policy in Ukraine and who has promoted policies and actions intended to erode the credibility and legitimacy of the Government of Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1954-08-07",
-      "circa": false
+      "circa": false,
+      "year": 1954
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

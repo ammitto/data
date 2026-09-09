@@ -1,24 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3209",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/3209",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Son Mun San",
+      "@type": "NameVariant",
+      "fullName": "Son Mun San",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "KPi.039 Director-General of the External Affairs Bureau of the General Bureau of Atomic Energy (GBAE); Listing: Listed on: 30 Nov. 2016",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3209"
   ],
-  "birth_info": [
+  "remarks": "KPi.039 Director-General of the External Affairs Bureau of the General Bureau of Atomic Energy (GBAE); Listing: Listed on: 30 Nov. 2016",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1951
     }
   ],
   "nationalities": [
     "Democratic People's Republic of Korea (North Korea)"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

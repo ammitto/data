@@ -1,22 +1,43 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/irn0168",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/irn0168",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "ZAKANI",
-      "first_name": "Alireza",
+      "@type": "NameVariant",
+      "fullName": "ZAKANI",
+      "firstName": "Alireza",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "علیرضا زاکانی",
+      "@type": "NameVariant",
+      "fullName": "علیرضا زاکانی",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/irn0168"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

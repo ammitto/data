@@ -1,66 +1,87 @@
 {
-  "id": "https://www.ammitto.org/entity/au/1294",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/1294",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Hassan Mahat Omar",
+      "@type": "NameVariant",
+      "fullName": "Hassan Mahat Omar",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Hassaan Hussein Adam",
+      "@type": "NameVariant",
+      "fullName": "Hassaan Hussein Adam",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Hassane Mahad Omar",
+      "@type": "NameVariant",
+      "fullName": "Hassane Mahad Omar",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Xassaan Xuseen Adan",
+      "@type": "NameVariant",
+      "fullName": "Xassaan Xuseen Adan",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Asan Mahad Cumar",
+      "@type": "NameVariant",
+      "fullName": "Asan Mahad Cumar",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abu Salman",
+      "@type": "NameVariant",
+      "fullName": "Abu Salman",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abu Salmaan",
+      "@type": "NameVariant",
+      "fullName": "Abu Salmaan",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Sheikh Hassaan Hussein",
+      "@type": "NameVariant",
+      "fullName": "Sheikh Hassaan Hussein",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "SOi.009\n\nPassport: A1180173 (Kenya), exp. 20 Aug 2017. National ID Card: 23446085.; Listing: Listed by UN 751 Committee on 28 July 2011",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/1294"
   ],
-  "birth_info": [
+  "remarks": "SOi.009\n\nPassport: A1180173 (Kenya), exp. 20 Aug 2017. National ID Card: 23446085.; Listing: Listed by UN 751 Committee on 28 July 2011",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1979,
       "country": "Garissa"
     }
   ],
   "nationalities": [
     "Ethiopia"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Nairobi, Kenya",
       "country": "Kenya"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

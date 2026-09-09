@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/39035",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/39035",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Bassam Sabbagh",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Bassam Sabbagh",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/39035"
   ],
   "remarks": "Legal and financial adviser and manages affairs of Rami Makhlouf and Khaldoun Makhlouf. Involved with Bashar al-Assad in funding a real estate project in Latakia. Provides financial support for the regime.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1959-08-24",
-      "circa": false
+      "circa": false,
+      "year": 1959
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

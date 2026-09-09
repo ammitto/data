@@ -1,37 +1,55 @@
 {
-  "id": "https://www.ammitto.org/entity/au/1976",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/1976",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Armed Forces Geographical Organization",
+      "@type": "NameVariant",
+      "fullName": "Armed Forces Geographical Organization",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Armed Forces Geographical Organisation",
+      "@type": "NameVariant",
+      "fullName": "Armed Forces Geographical Organisation",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Iranian National Geographical Organization of Armed Forces",
+      "@type": "NameVariant",
+      "fullName": "Iranian National Geographical Organization of Armed Forces",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Geographical Organization of Iranian Armed Forces",
+      "@type": "NameVariant",
+      "fullName": "Geographical Organization of Iranian Armed Forces",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Listing: Designated under the Autonomous Sanctions Regulations 2011 on 2 March 2012. Formerly listed on the RBA Consolidated List as 2008IRN0003. (F2012L00479). Relisted 12 January 2024.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/1976"
+  ],
+  "remarks": "Listing: Designated under the Autonomous Sanctions Regulations 2011 on 2 March 2012. Formerly listed on the RBA Consolidated List as 2008IRN0003. (F2012L00479). Relisted 12 January 2024.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Ferdowsi Avenue, Sarhang, Tehran; Shari'ati Avenue, Mo'alem Street, P.O. Box 3358/16765, Tehran",
       "country": "Tehran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

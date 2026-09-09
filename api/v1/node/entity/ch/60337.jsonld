@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/60337",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/60337",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Uchenov Aleksey Aleksandrovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Uchenov Aleksey Aleksandrovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/60337"
   ],
   "remarks": "Aleksey Uchenov was Deputy Minister of the Ministry of Industry and Trade from 2021 to March of 2023.The Ministry of Industry and Trade is the federal executive body responsible for the development of state policy and legal regulation in the field of, inter alia, the military-industrial complex, space activities and the development of aviation technology. The Ministry supervises Russia’s weapons and defence industry and plays a crucial role in procuring military equipment used in Russia’s war of aggression against Ukraine. During his term as Deputy Minister of the Ministry of Industry and Trade, he was responsible for actions and activities of the Ministry that undermine and threaten the territorial integrity, sovereignty and independence of Ukraine, and he is a natural person supporting the Government of the Russian Federation, which is responsible for the annexation of Crimea and the destabilisation of Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1986-02-13",
-      "circa": false
+      "circa": false,
+      "year": 1986
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/53283",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/53283",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kostrubitskiy Alexei Aleksandrovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kostrubitskiy Alexei Aleksandrovich",
+      "isPrimary": true
     }
   ],
-  "remarks": "Former so-called “Minister for Civil Defence, Emergency Situations and Elimination of Consequences of Natural Disasters” of the so-called “Donetsk People’s Republic”.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/53283"
+  ],
+  "remarks": "Former so-called “Minister for Civil Defence, Emergency Situations and Elimination of Consequences of Natural Disasters” of the so-called “Donetsk People’s Republic”. He is a lieutenant general and he is the current Head of the so-called Main Directorate of the Ministry of Emergency Situations, Civil Defense, and the Elimination of Consequences of Natural Disasters of the Russian Federation for the Donetsk People’s Republic. He is a member of United Russia and a member of the Presidium of the Regional Political Council of United Russia of the DNR.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1978-08-24",
-      "circa": false
+      "circa": false,
+      "year": 1978
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

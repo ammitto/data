@@ -1,29 +1,46 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8165",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/8165",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Sergey Aleksandrovich FURSENKO",
+      "@type": "NameVariant",
+      "fullName": "Sergey Aleksandrovich FURSENKO",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Serhii Oleksandrovych Fursenko",
+      "@type": "NameVariant",
+      "fullName": "Serhii Oleksandrovych Fursenko",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Member of the Board of Directors for Gazprombank; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 3) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8165"
   ],
-  "birth_info": [
+  "remarks": "Member of the Board of Directors for Gazprombank; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 3) Instrument 2025",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1954
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,21 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/cn/14-shield-ai-inc",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/cn/14-shield-ai-inc",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Shield AI, Inc.",
+      "@type": "NameVariant",
+      "fullName": "Shield AI, Inc.",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "护盾人工智能公司",
+      "@type": "NameVariant",
+      "fullName": "护盾人工智能公司",
       "script": "Hani",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "List: cn/anti-sanction-list",
-  "sanction_entry_ids": [
-    "https://www.ammitto.org/entry/cn/unknown/14-shield-ai-inc"
+  "sourceReferences": [
+
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/cn/anti-sanction-list/14-shield-ai-inc"
+  ],
+  "remarks": "List: cn/anti-sanction-list",
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

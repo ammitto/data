@@ -1,26 +1,46 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3615",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/3615",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Serhii Shcherbakov",
+      "@type": "NameVariant",
+      "fullName": "Serhii Shcherbakov",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Sergey Shcherbakov",
+      "@type": "NameVariant",
+      "fullName": "Sergey Shcherbakov",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Listing: Listed on: 16 Mar. 2019",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3615"
   ],
-  "birth_info": [
+  "remarks": "Listing: Listed on: 16 Mar. 2019",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1986
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

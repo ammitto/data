@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/76292",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/76292",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Goreslavsky Alexey Sergeyevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Goreslavsky Alexey Sergeyevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/76292"
   ],
   "remarks": "Since 2021, Alexey Goreslavsky has been the Director General of the Institute for Internet Development. Despite being registered as an autonomous non-profit organisation, the Institute for Internet Development was founded with the support of the Russian presidential administration, is closely linked to the Russian Government and receives most of its funding from the Russian Government. Before his nomination as Director General of the Institute for Internet Development, Alexey Goreslavsky worked in the Russian presidential administration and was regarded as “the Kremlin’s curator of the Internet”.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1977-07-13",
-      "circa": false
+      "circa": false,
+      "year": 1977
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

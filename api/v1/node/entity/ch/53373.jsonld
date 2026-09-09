@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/53373",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/53373",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Lustenko Andrey Yurievich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Lustenko Andrey Yurievich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/53373"
   ],
   "remarks": "Former so-called “Minister of Education and Science” of the so-called “Luhansk People’s Republic”. In taking on and acting in this capacity, he has actively undermined the territorial integrity, sovereignty and independence of Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1975-06-16",
-      "circa": false
+      "circa": false,
+      "year": 1975
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/197186",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/197186",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "J.M. COMÉRCIO DE EQUIPAMENTOS LTDA (CURRENTLY D/B/A PICK UP CAR AUTO PEÇAS)",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "J.M. COMÉRCIO DE EQUIPAMENTOS LTDA (CURRENTLY D/B/A PICK UP CAR AUTO PEÇAS)",
+      "isPrimary": true
     }
   ],
-  "remarks": "*131",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/197186"
+  ],
+  "remarks": "*131",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "AVENIDA GUAJAJARAS, 221 – LJ 4 BAIRRO TIRIRICAL",
       "city": "SÃO LUIS – MARANHÃO",
       "country": "Brazil",
-      "country_iso_code": "BR"
+      "countryIsoCode": "BR"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

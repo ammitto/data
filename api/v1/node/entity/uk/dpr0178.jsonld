@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/dpr0178",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/dpr0178",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "MYOHYANG SHIPPING CO",
+      "@type": "NameVariant",
+      "fullName": "MYOHYANG SHIPPING CO",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Ship manager of DPRK oil products tanker YU SON, which is believed to have been involved in ship-to-ship transfer operations for oil. IMO number: 5988369.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/dpr0178"
+  ],
+  "remarks": "Ship manager of DPRK oil products tanker YU SON, which is believed to have been involved in ship-to-ship transfer operations for oil. IMO number: 5988369.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Kumsong 3-dong, Mangyongdae-guyok",
       "state": "Pyongyang",
       "country": "North Korea"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

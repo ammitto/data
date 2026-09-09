@@ -1,33 +1,51 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/syr0279",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/syr0279",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Al Mashreq Investment Fund",
+      "@type": "NameVariant",
+      "fullName": "Al Mashreq Investment Fund",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "AMIF",
+      "@type": "NameVariant",
+      "fullName": "AMIF",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Sunduq Al Mashrek Al Istithmari",
+      "@type": "NameVariant",
+      "fullName": "Sunduq Al Mashrek Al Istithmari",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/syr0279"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "city": "P.O. Box 108",
       "state": "Damascus",
       "country": "Syria"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

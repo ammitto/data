@@ -1,37 +1,55 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7456",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/7456",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Branch of RSK MiG Nizhny Novgorod Aviation Construction Plant Sokol ",
+      "@type": "NameVariant",
+      "fullName": "Branch of RSK MiG Nizhny Novgorod Aviation Construction Plant Sokol ",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Sokol Aircraft Plant",
+      "@type": "NameVariant",
+      "fullName": "Sokol Aircraft Plant",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "NAZ Sokol",
+      "@type": "NameVariant",
+      "fullName": "NAZ Sokol",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Nizhny Novgorod Aviation Plant Sokol",
+      "@type": "NameVariant",
+      "fullName": "Nizhny Novgorod Aviation Plant Sokol",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "State registration number: 1025202830290 ; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 2) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7456"
+  ],
+  "remarks": "State registration number: 1025202830290 ; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 2) Instrument 2023",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "1 Chaadaev St. Nizhny Novgorod, 603035, Russia ",
       "country": "Russia "
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

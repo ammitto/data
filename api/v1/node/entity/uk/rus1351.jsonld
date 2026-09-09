@@ -1,43 +1,62 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus1351",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus1351",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Central Research Institute of Machine Building JSC",
+      "@type": "NameVariant",
+      "fullName": "Central Research Institute of Machine Building JSC",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "AO TsNIIMash",
+      "@type": "NameVariant",
+      "fullName": "AO TsNIIMash",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "FEDERAL STATE UNITARY ENTERPRISE CENTRAL RESEARCH INSTITUTE FOR MACHINE BUILDING",
+      "@type": "NameVariant",
+      "fullName": "FEDERAL STATE UNITARY ENTERPRISE CENTRAL RESEARCH INSTITUTE FOR MACHINE BUILDING",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "JSC Central Research Institute of Mechanical Engineering",
+      "@type": "NameVariant",
+      "fullName": "JSC Central Research Institute of Mechanical Engineering",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "АО Центральный научно-исследовательский институт машиностроения ",
+      "@type": "NameVariant",
+      "fullName": "АО Центральный научно-исследовательский институт машиностроения ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus1351"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "4 Ulitsa Pionerskaya",
       "state": "Korolev",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/53298",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/53298",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Naumets Sergei Sergeevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Naumets Sergei Sergeevich",
+      "isPrimary": true
     }
   ],
-  "remarks": "Former so-called “Minister of Construction, Housing, and Communal Services” of the so-called “Donetsk People’s Republic”. Sergei Naumets actively contributed to a volunteer battalion fighting in and around Mariupol on behalf of the Russian armed forces. In taking on and acting in these capacities, he actively undermined the territorial integrity, sovereignty and independence of Ukraine.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/53298"
+  ],
+  "remarks": "Former so-called “Minister of Construction, Housing, and Communal Services” of the so-called “Donetsk People’s Republic”. Sergei Naumets actively contributed to a volunteer battalion fighting in and around Mariupol on behalf of the Russian armed forces. In taking on and acting in these capacities, Sergei Naumets has actively undermined the territorial integrity, sovereignty and independence of Ukraine.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1976-07-13",
-      "circa": false
+      "circa": false,
+      "year": 1976
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

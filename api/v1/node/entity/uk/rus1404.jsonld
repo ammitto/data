@@ -1,69 +1,93 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus1404",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus1404",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Joint Stock Company Mikron",
+      "@type": "NameVariant",
+      "fullName": "Joint Stock Company Mikron",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Mikron",
+      "@type": "NameVariant",
+      "fullName": "Mikron",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "MIKRON JSC",
+      "@type": "NameVariant",
+      "fullName": "MIKRON JSC",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "NII MOLEKULYARNOI ELEKTRONIKI I ZAVOD MIKRON PAO",
+      "@type": "NameVariant",
+      "fullName": "NII MOLEKULYARNOI ELEKTRONIKI I ZAVOD MIKRON PAO",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "NIIME AND MIKRON",
+      "@type": "NameVariant",
+      "fullName": "NIIME AND MIKRON",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "OTKRYTOE AKTSIONERNOE OBSHCHESTVO NII MOLEKULYARNOY ELECKTRONIKI I ZAVOD MIKRON",
+      "@type": "NameVariant",
+      "fullName": "OTKRYTOE AKTSIONERNOE OBSHCHESTVO NII MOLEKULYARNOY ELECKTRONIKI I ZAVOD MIKRON",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "PJSC MIKRON",
+      "@type": "NameVariant",
+      "fullName": "PJSC MIKRON",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "PUBLICHNOE AKTSIONERNOE OBSCHESTVO MIKRON",
+      "@type": "NameVariant",
+      "fullName": "PUBLICHNOE AKTSIONERNOE OBSCHESTVO MIKRON",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Акционерное общество Микрон  ",
+      "@type": "NameVariant",
+      "fullName": "Акционерное общество Микрон  ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Organization Established Date 13 Jan 1994; Government Gazette Number 07589295 (Russia); The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus1404"
+  ],
+  "remarks": "Organization Established Date 13 Jan 1994; Government Gazette Number 07589295 (Russia); The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "1st Zapadny Proezd 12/1",
       "state": "Zelenograd",
       "country": "Russia"
     },
     {
+      "@type": "Address",
       "street": "d. 6 str. 1, ul. Akademika Valieva",
       "city": "Zelenograd",
       "state": "Moscow",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

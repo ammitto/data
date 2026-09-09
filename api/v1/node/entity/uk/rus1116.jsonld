@@ -1,28 +1,44 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus1116",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus1116",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Photon Pro LLP",
+      "@type": "NameVariant",
+      "fullName": "Photon Pro LLP",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Foton Pro",
+      "@type": "NameVariant",
+      "fullName": "Foton Pro",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus1116"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "C/O Law & Tax International Solutions, 25 City Road",
       "state": "London",
       "country": "United Kingdom"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

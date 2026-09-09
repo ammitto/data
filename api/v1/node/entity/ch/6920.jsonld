@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/6920",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/6920",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Rungani Victor Tapiwa Chashe",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Rungani Victor Tapiwa Chashe",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/6920"
   ],
   "remarks": "Directly involved in the terror campaign waged before and during the elections in Chikomba in 2008, including assaults and abductions.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1949-06-29",
-      "circa": false
+      "circa": false,
+      "year": 1949
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

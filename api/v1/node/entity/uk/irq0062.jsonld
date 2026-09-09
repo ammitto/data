@@ -1,27 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/irq0062",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/irq0062",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "AL-TIKRITI",
-      "first_name": "SADDAM",
+      "@type": "NameVariant",
+      "fullName": "AL-TIKRITI",
+      "firstName": "SADDAM",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ali",
-      "first_name": "Abu",
+      "@type": "NameVariant",
+      "fullName": "Ali",
+      "firstName": "Abu",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "صدام حسين التكريتي",
+      "@type": "NameVariant",
+      "fullName": "صدام حسين التكريتي",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/irq0062"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

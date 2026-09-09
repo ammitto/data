@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/46694",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/46694",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Girgel Siarhei Siarheevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Girgel Siarhei Siarheevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/46694"
   ],
   "remarks": "In his position as the Senior Prosecutor of the Department of Public Prosecution of the General Prosecutor’s Office, Siarhei Girgel has represented the Lukashenka regime in politically motivated cases against opposition leaders and civil society members. In particular he has prosecuted the opposition presidential candidate Viktar Babarika, who is recognised as a political prisoner by human rights organisations. Siarhei Girgel has continuously asked the judge for long-term prison sentences. He is therefore responsible for serious human rights violations and for seriously undermining the rule of law, as well as for the repression of civil society and democratic opposition.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1978-06-16",
-      "circa": false
+      "circa": false,
+      "year": 1978
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

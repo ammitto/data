@@ -1,26 +1,46 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8467",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/8467",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "REZA-GHOLI ESMAELI",
+      "@type": "NameVariant",
+      "fullName": "REZA-GHOLI ESMAELI",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Reza-Gholi Ismaili",
+      "@type": "NameVariant",
+      "fullName": "Reza-Gholi Ismaili",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "IRi.015. Designation: Head of Trade and International Affairs Department of the AIO. Passport no: A0002302, issued in Iran.; Listing: Listed by the 1737 Committee on 23 December 2006 (amended on 17 December 2014)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8467"
   ],
-  "birth_info": [
+  "remarks": "IRi.015. Designation: Head of Trade and International Affairs Department of the AIO. Passport no: A0002302, issued in Iran.; Listing: Listed by the 1737 Committee on 23 December 2006 (amended on 17 December 2014)",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1961
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

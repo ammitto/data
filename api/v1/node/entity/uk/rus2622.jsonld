@@ -1,47 +1,67 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus2622",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus2622",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "ATOMA LLC",
+      "@type": "NameVariant",
+      "fullName": "ATOMA LLC",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "ATOMA LIMITED",
+      "@type": "NameVariant",
+      "fullName": "ATOMA LIMITED",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "LIMITED LIABILITY COMPANY ATOMA",
+      "@type": "NameVariant",
+      "fullName": "LIMITED LIABILITY COMPANY ATOMA",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "ooo ATOMA",
+      "@type": "NameVariant",
+      "fullName": "ooo ATOMA",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "ООО Атома ",
+      "@type": "NameVariant",
+      "fullName": "ООО Атома ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ АТОМА ",
+      "@type": "NameVariant",
+      "fullName": "ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ АТОМА ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus2622"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Room 620, Premises CHP 33-N, Building A, 13 Kalinina Street",
       "state": "St. Petersburg",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

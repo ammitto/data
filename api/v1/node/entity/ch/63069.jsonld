@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/63069",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/63069",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Karaganov Sergey Alexandrovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Karaganov Sergey Alexandrovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/63069"
   ],
   "remarks": "Sergey Karaganov is a Russian political scientist, honorary chairman of the Presidium of the Council on Foreign and Defense Policy (SVOP), and a member of the Presidential Council for Civil Society and Human Rights. Since the start of Russia’s war of aggression against Ukraine he has justified Russia’s invasion and spread Russian propaganda about the war, claiming that the West is willing to destroy Russia and that the military actions are aimed to denazify Ukraine and liberate the Donbas region.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1952-09-10",
-      "circa": false
+      "circa": false,
+      "year": 1952
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

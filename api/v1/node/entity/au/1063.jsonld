@@ -1,71 +1,93 @@
 {
-  "id": "https://www.ammitto.org/entity/au/1063",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/1063",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "REDENDO CAIN DELLOSA",
+      "@type": "NameVariant",
+      "fullName": "REDENDO CAIN DELLOSA",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Abu Ilonggo ",
+      "@type": "NameVariant",
+      "fullName": "Abu Ilonggo ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Brandon Berusa ",
+      "@type": "NameVariant",
+      "fullName": "Brandon Berusa ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abu Muadz",
+      "@type": "NameVariant",
+      "fullName": "Abu Muadz",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Arnulfo Alvarado ",
+      "@type": "NameVariant",
+      "fullName": "Arnulfo Alvarado ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Habil Ahmad Dellosa ",
+      "@type": "NameVariant",
+      "fullName": "Habil Ahmad Dellosa ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Troy",
+      "@type": "NameVariant",
+      "fullName": "Troy",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Uthman",
+      "@type": "NameVariant",
+      "fullName": "Uthman",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Dodong",
+      "@type": "NameVariant",
+      "fullName": "Dodong",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Member of the Rajah Solaiman Movement (Qde.128.) and linked to the Abu Sayyaf Group (Qde.001.). Fathers name is Fernando Rafael Dellosa. Mothers name is Editha Parado Cain. In detention in the Philippines as of Jan. 2010. Review pursuant to Security Council resolution 1822 (2008) was concluded on 13 May 2010. Review pursuant to Security Council resolution 2368 (2017) was concluded on 4 Dec. 2019. Review pursuant to Security Council resolution 2610 (2021) was concluded on 30 October 2023.; Listing: Resolution 1735 (2006) Listed on: 4 June. 2008 (amended 3 June 2009, 13 Dec. 2011, 6 Dec 2019)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/1063"
   ],
-  "birth_info": [
+  "remarks": "Member of the Rajah Solaiman Movement (Qde.128.) and linked to the Abu Sayyaf Group (Qde.001.). Fathers name is Fernando Rafael Dellosa. Mothers name is Editha Parado Cain. In detention in the Philippines as of Jan. 2010. Review pursuant to Security Council resolution 1822 (2008) was concluded on 13 May 2010. Review pursuant to Security Council resolution 2368 (2017) was concluded on 4 Dec. 2019. Review pursuant to Security Council resolution 2610 (2021) was concluded on 30 October 2023.; Listing: Resolution 1735 (2006) Listed on: 4 June. 2008 (amended 3 June 2009, 13 Dec. 2011, 6 Dec 2019)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1972,
       "country": "Punta"
     }
   ],
   "nationalities": [
     "Philippines"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "3111, Ma. Bautista, Punta, Santa Ana, Manila, Philippines",
       "country": "Philippines"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

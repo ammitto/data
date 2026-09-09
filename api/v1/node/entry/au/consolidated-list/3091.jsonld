@@ -1,33 +1,42 @@
 {
-  "id": "https://www.ammitto.org/entry/au/consolidated-list/3091",
-  "entity_id": "https://www.ammitto.org/entity/au/3091",
+  "@id": "https://www.ammitto.org/entry/au/consolidated-list/3091",
+  "@type": "SanctionEntry",
+  "entityId": "https://www.ammitto.org/entity/au/3091",
   "authority": {
     "@id": "https://www.ammitto.org/authority/au"
   },
   "regime": {
-    "@id": "https://www.ammitto.org/regime/1373__2001_"
+    "@id": "https://www.ammitto.org/regime/1373__2001_",
+    "name": "1373 (2001)"
   },
-  "legal_bases": [
+  "legalBases": [
     {
-      "type": "act",
-      "identifier": "Instrument of first listing: Charter of the United Nations Act 1945 Listing 2015 (No 2) [F2021L00627, Gazette C2015G00866]. The Minister for Foreign Affairs listed this individual on 4 June 2015 under subsection 15(1) of the Charter of the United Nations Act 1945 (CotUNA), pursuant to Australia's obligations under UNSC resolution 1373 (2001).  The Minister declared on 10 May 2018 and subsequently on 12 October 2020 pursuant to subsection 15A(2) of CotUNA, that this listing would continue to have effect. The Minister listed this individual afresh on 11 October 2023.",
-      "title": "Instrument of first listing: Charter of the United Nations Act 1945 Listing 2015 (No 2) [F2021L00627, Gazette C2015G00866]. The Minister for Foreign Affairs listed this individual on 4 June 2015 under subsection 15(1) of the Charter of the United Nations Act 1945 (CotUNA), pursuant to Australia's obligations under UNSC resolution 1373 (2001).  The Minister declared on 10 May 2018 and subsequently on 12 October 2020 pursuant to subsection 15A(2) of CotUNA, that this listing would continue to have effect. The Minister listed this individual afresh on 11 October 2023."
+      "@id": "https://www.ammitto.org/legal-instrument/au/instrument-of-first-listing-charter-of-the-united-nations-act-1945-listing-2015-no-2-f2021l00627-gaz-6047e8d8224e"
     }
   ],
   "effects": [
     {
-      "effect_type": "asset_freeze",
+      "@type": "SanctionEffect",
+      "effectType": "asset_freeze",
       "scope": "full"
     }
   ],
+  "reasons": [
+
+  ],
   "period": {
-    "is_indefinite": true
+    "@type": "TemporalPeriod",
+    "isIndefinite": true
   },
   "status": "active",
-  "reference_number": "3091",
-  "raw_source_data": {
-    "source_format": "csv",
-    "source_specific_fields": {
+  "statusHistory": [
+
+  ],
+  "referenceNumber": "3091",
+  "rawSourceData": {
+    "@type": "RawSourceData",
+    "sourceFormat": "csv",
+    "sourceSpecificFields": {
       "au:reference": "3091",
       "au:committees": "1373 (2001)",
       "au:control_date": "2023-10-11",
@@ -35,5 +44,5 @@
       "au:listing_info": "Instrument of first listing: Charter of the United Nations Act 1945 Listing 2015 (No 2) [F2021L00627, Gazette C2015G00866]. The Minister for Foreign Affairs listed this individual on 4 June 2015 under subsection 15(1) of the Charter of the United Nations Act 1945 (CotUNA), pursuant to Australia's obligations under UNSC resolution 1373 (2001).  The Minister declared on 10 May 2018 and subsequently on 12 October 2020 pursuant to subsection 15A(2) of CotUNA, that this listing would continue to have effect. The Minister listed this individual afresh on 11 October 2023."
     }
   },
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

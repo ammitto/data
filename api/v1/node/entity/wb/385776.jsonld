@@ -1,23 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/385776",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/wb/385776",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MR. HENRY CHINEDU OJOKO",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "MR. HENRY CHINEDU OJOKO",
+      "isPrimary": true
     }
   ],
-  "remarks": "*463",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/385776"
+  ],
+  "remarks": "*463",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "PROPRIETOR, EMMAJOKO NIG ENTERPRISES, NO. 4 ONYEMEKAIHA CLOSE, OPP. THE AIRPORT, WARRI, OKPE L.G.A",
       "city": "DELTA STATE",
       "country": "Nigeria",
-      "country_iso_code": "NG"
+      "countryIsoCode": "NG"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

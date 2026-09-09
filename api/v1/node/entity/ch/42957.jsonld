@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/42957",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/42957",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Elvis Eduardo Hidrobo Amoroso",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Elvis Eduardo Hidrobo Amoroso",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/42957"
   ],
   "remarks": "President of the National Electoral Commission of Venezuela (CNE) since 24 August 2023. Former Comptroller-General (between 23 October 2018 and August 2023), and former First and Second Vice-President of the non-recognised National Constituent Assembly (ANC). His actions have undermined democracy and the rule of law in Venezuela, including by banning opposition members from holding public office for 15 years and leading the non-recognised ANC, signing the “law against hatred”, justifying the removal of a legally-elected opposition governor, banning Juan Guaidó from running for any public office, and announcing the results of the Presidential election held in July 2024, without the CNE under his leadership publishing the official voting records of polling stations.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1963-08-04",
-      "circa": false
+      "circa": false,
+      "year": 1963
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

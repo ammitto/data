@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/888183",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/888183",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "HEBEI CONSTRUCTION GROUP INFRASTRUCTURE CONSTRUCTION CO., LTD.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "HEBEI CONSTRUCTION GROUP INFRASTRUCTURE CONSTRUCTION CO., LTD.",
+      "isPrimary": true
     }
   ],
-  "remarks": "河北建设集团基础设施建设有限公司",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/888183"
+  ],
+  "remarks": "河北建设集团基础设施建设有限公司",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "NO. 956, JINGXIU STREET",
       "city": "BAODING CITY",
       "country": "China",
-      "country_iso_code": "CN"
+      "countryIsoCode": "CN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

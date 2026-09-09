@@ -1,33 +1,42 @@
 {
-  "id": "https://www.ammitto.org/entry/au/consolidated-list/3336",
-  "entity_id": "https://www.ammitto.org/entity/au/3336",
+  "@id": "https://www.ammitto.org/entry/au/consolidated-list/3336",
+  "@type": "SanctionEntry",
+  "entityId": "https://www.ammitto.org/entity/au/3336",
   "authority": {
     "@id": "https://www.ammitto.org/authority/au"
   },
   "regime": {
-    "@id": "https://www.ammitto.org/regime/au_syria"
+    "@id": "https://www.ammitto.org/regime/au_syria",
+    "name": "Syria"
   },
-  "legal_bases": [
+  "legalBases": [
     {
-      "type": "regulation",
-      "identifier": "Listed on: 17 Aug. 2017 (Relisted on 3 Aug. 2020 and 2 Aug. 2023)",
-      "title": "Listed on: 17 Aug. 2017 (Relisted on 3 Aug. 2020 and 2 Aug. 2023)"
+      "@id": "https://www.ammitto.org/legal-instrument/au/listed-on-17-aug.-2017-relisted-on-3-aug.-2020-and-2-aug.-2023"
     }
   ],
   "effects": [
     {
-      "effect_type": "asset_freeze",
+      "@type": "SanctionEffect",
+      "effectType": "asset_freeze",
       "scope": "full"
     }
   ],
+  "reasons": [
+
+  ],
   "period": {
-    "is_indefinite": true
+    "@type": "TemporalPeriod",
+    "isIndefinite": true
   },
   "status": "active",
-  "reference_number": "3336",
-  "raw_source_data": {
-    "source_format": "csv",
-    "source_specific_fields": {
+  "statusHistory": [
+
+  ],
+  "referenceNumber": "3336",
+  "rawSourceData": {
+    "@type": "RawSourceData",
+    "sourceFormat": "csv",
+    "sourceSpecificFields": {
       "au:reference": "3336",
       "au:committees": "Autonomous (Syria)",
       "au:control_date": "2023-08-02",
@@ -35,5 +44,5 @@
       "au:listing_info": "Listed on: 17 Aug. 2017 (Relisted on 3 Aug. 2020 and 2 Aug. 2023)"
     }
   },
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

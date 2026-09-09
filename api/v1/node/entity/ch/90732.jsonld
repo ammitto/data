@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/90732",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/90732",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ramanau Aleh Aliaksandravich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Ramanau Aleh Aliaksandravich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/90732"
   ],
   "remarks": "Aleh Ramanau is a long-time supporter of President Lukashenka. In 2022, Aleh Ramanau was elected as a chairman of pro-regime public association “Belaya Rus”, which he turned into the largest political party in Belarus, holding the majority of seats in the Parliament.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1975-08-09",
-      "circa": false
+      "circa": false,
+      "year": 1975
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

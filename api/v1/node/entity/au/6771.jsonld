@@ -1,32 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/au/6771",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/6771",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Sberbank",
+      "@type": "NameVariant",
+      "fullName": "Sberbank",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Publichne Aktsionerne Tovarystvo Dochirnii Bank Sberbanku Rosii",
+      "@type": "NameVariant",
+      "fullName": "Publichne Aktsionerne Tovarystvo Dochirnii Bank Sberbanku Rosii",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Aktsionerne Tovarystvo Sberbank",
+      "@type": "NameVariant",
+      "fullName": "Aktsionerne Tovarystvo Sberbank",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Website: www.sberbank.com; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 8) Instrument 2022",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/6771"
+  ],
+  "remarks": "Website: www.sberbank.com; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 8) Instrument 2022",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "19 Vavilova St, Moscow 117312, Russia",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

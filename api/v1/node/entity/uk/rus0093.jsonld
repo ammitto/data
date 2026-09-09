@@ -1,36 +1,56 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus0093",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/rus0093",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Filippova",
-      "first_name": "Ekaterina",
+      "@type": "NameVariant",
+      "fullName": "Filippova",
+      "firstName": "Ekaterina",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "FILIPPOVA",
-      "first_name": "Kateryna",
+      "@type": "NameVariant",
+      "fullName": "FILIPPOVA",
+      "firstName": "Kateryna",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Gogiashvili",
-      "first_name": "Ekaterina",
+      "@type": "NameVariant",
+      "fullName": "Gogiashvili",
+      "firstName": "Ekaterina",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus0093"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Ul Sobinova, the house. 160",
       "state": "Donetsk",
       "country": "Ukraine"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

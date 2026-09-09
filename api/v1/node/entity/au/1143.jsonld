@@ -1,65 +1,89 @@
 {
-  "id": "https://www.ammitto.org/entity/au/1143",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/1143",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ahmed Abdi Aw-Mohamed",
+      "@type": "NameVariant",
+      "fullName": "Ahmed Abdi Aw-Mohamed",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "ABU ZUBEYR, Muktar Abdirahman",
+      "@type": "NameVariant",
+      "fullName": "ABU ZUBEYR, Muktar Abdirahman",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "ABUZUBAIR, Muktar Abdulrahim",
+      "@type": "NameVariant",
+      "fullName": "ABUZUBAIR, Muktar Abdulrahim",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "AW MOHAMMED, Ahmed Abdi",
+      "@type": "NameVariant",
+      "fullName": "AW MOHAMMED, Ahmed Abdi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "AW-MOHAMUD, Ahmed Abdi",
+      "@type": "NameVariant",
+      "fullName": "AW-MOHAMUD, Ahmed Abdi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "GODANE",
+      "@type": "NameVariant",
+      "fullName": "GODANE",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "GODANI",
+      "@type": "NameVariant",
+      "fullName": "GODANI",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "MUKHTAR, Shaykh",
+      "@type": "NameVariant",
+      "fullName": "MUKHTAR, Shaykh",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "ZUBEYR, Abu",
+      "@type": "NameVariant",
+      "fullName": "ZUBEYR, Abu",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "SOi.004.; Listing: Listed by UN 751 Committee on 12 April 2010",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/1143"
   ],
-  "birth_info": [
+  "remarks": "SOi.004.; Listing: Listed by UN 751 Committee on 12 April 2010",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1977,
       "country": "Hargeysa"
     }
   ],
   "nationalities": [
     "Somalia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/11903",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/11903",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ghassan Khalil Brigadier-General",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Ghassan Khalil Brigadier-General",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/11903"
   ],
   "remarks": "Head of General Intelligence Directorate’s Information Branch under the former al-Assad regime. Directly involved in repression of and violence against the civilian population in Syria.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1957-05-03",
-      "circa": false
+      "circa": false,
+      "year": 1957
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

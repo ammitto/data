@@ -1,35 +1,53 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7371",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7371",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Valery Ivanovich FLYUSTIKOV",
+      "@type": "NameVariant",
+      "fullName": "Valery Ivanovich FLYUSTIKOV",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Valery FLYUSTIKOV",
+      "@type": "NameVariant",
+      "fullName": "Valery FLYUSTIKOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Valerii FLIUSTIKOV",
+      "@type": "NameVariant",
+      "fullName": "Valerii FLIUSTIKOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Commander of the Special Operations Forces of the Russian Armed Forces; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 2) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7371"
   ],
-  "birth_info": [
+  "remarks": "Commander of the Special Operations Forces of the Russian Armed Forces; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 2) Instrument 2023",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1967,
       "country": "Russia"
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

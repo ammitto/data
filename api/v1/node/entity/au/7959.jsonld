@@ -1,32 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7959",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/7959",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "FANAVARAN SANAT ERTEBATAT COMPANY",
+      "@type": "NameVariant",
+      "fullName": "FANAVARAN SANAT ERTEBATAT COMPANY",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "FSE",
+      "@type": "NameVariant",
+      "fullName": "FSE",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "COMMUNICATION INDUSTRY TECHNOLOGY",
+      "@type": "NameVariant",
+      "fullName": "COMMUNICATION INDUSTRY TECHNOLOGY",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Iranian-based company that produces jam-resistant missile guidance systems for Iran’s IRGC’s Aerospace Force Self Sufficiency Jihad Organization (ASF SSJO); Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Iran) Amendment (No. 1) Instrument 2024",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7959"
+  ],
+  "remarks": "Iranian-based company that produces jam-resistant missile guidance systems for Iran’s IRGC’s Aerospace Force Self Sufficiency Jihad Organization (ASF SSJO); Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Iran) Amendment (No. 1) Instrument 2024",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Yousef Abad Neighborhood, Kordestan Express Way, Seyyed Sohrab Akhlaqi 37 Street, Number 38, First Floor;                                       Tehran, Iran",
       "country": "Iran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

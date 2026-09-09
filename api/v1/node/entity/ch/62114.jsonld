@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/62114",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/62114",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mudar Rifaat Al-Assad",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Mudar Rifaat Al-Assad",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/62114"
   ],
   "remarks": "Mudar Rifaat al-Assad is Bashar al-Assad’s cousin; he is therefore a member of the Assad family.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1964-02-12",
-      "circa": false
+      "circa": false,
+      "year": 1964
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

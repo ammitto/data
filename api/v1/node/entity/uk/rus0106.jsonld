@@ -1,54 +1,79 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus0106",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/rus0106",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ismailov",
-      "first_name": "Zaur",
+      "@type": "NameVariant",
+      "fullName": "Ismailov",
+      "firstName": "Zaur",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
+      "@type": "NameVariant",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ismailov",
-      "first_name": "Zaur",
+      "@type": "NameVariant",
+      "fullName": "Ismailov",
+      "firstName": "Zaur",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ismayilov",
-      "first_name": "Zaur",
+      "@type": "NameVariant",
+      "fullName": "Ismayilov",
+      "firstName": "Zaur",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ismayilov",
-      "first_name": "Zaur",
+      "@type": "NameVariant",
+      "fullName": "Ismayilov",
+      "firstName": "Zaur",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Заур Рауфович ИСМАИЛОВ",
+      "@type": "NameVariant",
+      "fullName": "Заур Рауфович ИСМАИЛОВ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Заур Рауфович ІСМАЇЛОВ",
+      "@type": "NameVariant",
+      "fullName": "Заур Рауфович ІСМАЇЛОВ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Former so-called 'Minister of Internal Affairs of the Luhansk People's Republic'. The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus0106"
+  ],
+  "remarks": "Former so-called 'Minister of Internal Affairs of the Luhansk People's Republic'. The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "country": "Ukraine"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

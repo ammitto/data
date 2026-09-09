@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/53618",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/53618",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Sigidina Oksana Viktorovna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Sigidina Oksana Viktorovna",
+      "isPrimary": true
     }
   ],
-  "remarks": "Member of the so-called ‘People’s Council’ of the so-called ‘Donetsk People’s Republic’. Has therefore supported and implemented actions and policies which undermine the territorial integrity, sovereignty and independence of Ukraine, and further destabilised Ukraine.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/53618"
+  ],
+  "remarks": "Former member of the so-called “People’s Council” of the so-called “Donetsk People’s Republic”. Has therefore supported and implemented actions and policies which undermine the territorial integrity, sovereignty and independence of Ukraine, and further destabilised Ukraine.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1976-08-17",
-      "circa": false
+      "circa": false,
+      "year": 1976
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

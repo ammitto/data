@@ -1,53 +1,74 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/syr0311",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/syr0311",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Mada Transport",
+      "@type": "NameVariant",
+      "fullName": "Mada Transport",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Al Sham Company",
+      "@type": "NameVariant",
+      "fullName": "Al Sham Company",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Al-Sham Company",
+      "@type": "NameVariant",
+      "fullName": "Al-Sham Company",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Cham",
+      "@type": "NameVariant",
+      "fullName": "Cham",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Cham Holding",
+      "@type": "NameVariant",
+      "fullName": "Cham Holding",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Sham Holding",
+      "@type": "NameVariant",
+      "fullName": "Sham Holding",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Sham Holding Company Sal",
+      "@type": "NameVariant",
+      "fullName": "Sham Holding Company Sal",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Transport The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/syr0311"
+  ],
+  "remarks": "Transport The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Cham Holding Building, Daraa Highway, Ashrafiyat Sahnaya Rif Dimashq",
       "city": "P.O. Box 9525",
       "country": "Syria"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

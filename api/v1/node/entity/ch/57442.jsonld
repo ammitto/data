@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/57442",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/57442",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Htun Aung",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Htun Aung",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/57442"
   ],
   "remarks": "General Htun Aung is the Commander-in-Chief of the Myanmar Air Force, appointed by the Commander-in-Chief of the Myanmar Armed Forces, Senior-General Min Aung Hlaing on 12 January 2022. In that capacity, Htun Aung commands and controls the air forces in Myanmar. The Myanmar Air Force committed attacks against civilian targets across Myanmar, killing and harming civilians, including children and people belonging to ethnic and religious minorities. Schools, places of worship and public health facilities were also targeted.",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1967
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

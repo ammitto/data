@@ -1,37 +1,55 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7761",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/7761",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "SHAHID SAYYADE SHIRAZI INDUSTRIES",
+      "@type": "NameVariant",
+      "fullName": "SHAHID SAYYADE SHIRAZI INDUSTRIES",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "SSSI",
+      "@type": "NameVariant",
+      "fullName": "SSSI",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Shaheed Sayad Shirazee Ammunition Industries",
+      "@type": "NameVariant",
+      "fullName": "Shaheed Sayad Shirazee Ammunition Industries",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Sanaye Mohematsazi Shahid Sayad Shirazi",
+      "@type": "NameVariant",
+      "fullName": "Sanaye Mohematsazi Shahid Sayad Shirazi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Previously listed under UNSC Resolution 2231 – Charter of the United Nations (Sanctions—Iran) Regulation 2016 [F2016L01181]\n\nOwned by Defence Industries Organisation (DIO).; Listing: Instrument of first designation: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Iran) Amendment (No. 2) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7761"
+  ],
+  "remarks": "Previously listed under UNSC Resolution 2231 – Charter of the United Nations (Sanctions—Iran) Regulation 2016 [F2016L01181]\n\nOwned by Defence Industries Organisation (DIO).; Listing: Instrument of first designation: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Iran) Amendment (No. 2) Instrument 2023",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Next To Nirou Battery Mfg. Co, Shahid Babaii Expressway, Nobonyad Square, Tehran, Iran;\n\nPasdaran St., P.O. Box 16765, Tehran, 1835, Iran;\n\nBabaei Highway - Next to Niru M.F.G, Tehran, Iran",
       "country": "Iran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

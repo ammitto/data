@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/408241",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/408241",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "ULTIMATE ENGINEERING LIMITED",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "ULTIMATE ENGINEERING LIMITED",
+      "isPrimary": true
     }
   ],
-  "remarks": "*484",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/408241"
+  ],
+  "remarks": "*484",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "P.O. BOX 76408-00508, JOSEPH KANG’ETHE ROAD, WOODLEY ESTATE",
       "city": "NAIROBI",
       "country": "Kenya",
-      "country_iso_code": "KE"
+      "countryIsoCode": "KE"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

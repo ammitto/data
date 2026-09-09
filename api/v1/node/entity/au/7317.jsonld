@@ -1,29 +1,46 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7317",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7317",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Min Aung Hlaing",
+      "@type": "NameVariant",
+      "fullName": "Min Aung Hlaing",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Senior General Min Aung Hlaing",
+      "@type": "NameVariant",
+      "fullName": "Senior General Min Aung Hlaing",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Commander-in-Chief of the Myanmar Armed Forces; Chair of the State Administration Council; Prime Minister of Myanmar; Listing: Autonomous Sanctions (Designated and Declared Persons—Myanmar) Amendment Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7317"
   ],
-  "birth_info": [
+  "remarks": "Commander-in-Chief of the Myanmar Armed Forces; Chair of the State Administration Council; Prime Minister of Myanmar; Listing: Autonomous Sanctions (Designated and Declared Persons—Myanmar) Amendment Instrument 2023",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1956
     }
   ],
   "nationalities": [
     "Myanmar"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

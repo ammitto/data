@@ -1,57 +1,79 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus3173",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus3173",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "LLC TEKSTIL-SERVIS",
+      "@type": "NameVariant",
+      "fullName": "LLC TEKSTIL-SERVIS",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "OBSHCHESTVO S OGRANICHENNOI OTVETSTVENNOSTIU TEKSTIL-SERVIS",
+      "@type": "NameVariant",
+      "fullName": "OBSHCHESTVO S OGRANICHENNOI OTVETSTVENNOSTIU TEKSTIL-SERVIS",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "OOO TEKSTIL-SERVIS",
+      "@type": "NameVariant",
+      "fullName": "OOO TEKSTIL-SERVIS",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "TEKSTIL-SERVICE",
+      "@type": "NameVariant",
+      "fullName": "TEKSTIL-SERVICE",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "TEKSTIL-SERVIS",
+      "@type": "NameVariant",
+      "fullName": "TEKSTIL-SERVIS",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "TEXTILE SERVICE",
+      "@type": "NameVariant",
+      "fullName": "TEXTILE SERVICE",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "TEXTILE-SERVICE",
+      "@type": "NameVariant",
+      "fullName": "TEXTILE-SERVICE",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "ООО ТЕКСТИЛЬ-СЕРВИС",
+      "@type": "NameVariant",
+      "fullName": "ООО ТЕКСТИЛЬ-СЕРВИС",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus3173"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Office 328-1 190020, Letter A, Building 17 Bumazhnaya Street, Bumazhnaya Street",
       "state": "Saint Petersburg",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

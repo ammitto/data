@@ -1,27 +1,47 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus0041",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/rus0041",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Nikitin",
-      "first_name": "Vladimir",
+      "@type": "NameVariant",
+      "fullName": "Nikitin",
+      "firstName": "Vladimir",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Владимир Степанович НИКИТИН",
+      "@type": "NameVariant",
+      "fullName": "Владимир Степанович НИКИТИН",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Former member of the State Duma and former First Deputy Chairman of the Committee for CIS Affairs, Eurasian Integration and relations with Compatriots of the State Duma The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus0041"
+  ],
+  "remarks": "Former member of the State Duma and former First Deputy Chairman of the Committee for CIS Affairs, Eurasian Integration and relations with Compatriots of the State Duma The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

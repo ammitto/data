@@ -1,55 +1,77 @@
 {
-  "id": "https://www.ammitto.org/entity/au/2254",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/2254",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mohamed HAMCHO",
+      "@type": "NameVariant",
+      "fullName": "Mohamed HAMCHO",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Mohammad HAMSHO",
+      "@type": "NameVariant",
+      "fullName": "Mohammad HAMSHO",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Mohammed Saber HAMSHO",
+      "@type": "NameVariant",
+      "fullName": "Mohammed Saber HAMSHO",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Muhammad HAMSHO",
+      "@type": "NameVariant",
+      "fullName": "Muhammad HAMSHO",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Mohammed HAMSHOU",
+      "@type": "NameVariant",
+      "fullName": "Mohammed HAMSHOU",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Muhammad Sabir HAMSHU",
+      "@type": "NameVariant",
+      "fullName": "Muhammad Sabir HAMSHU",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Muhammed Saber HAMSO",
+      "@type": "NameVariant",
+      "fullName": "Muhammed Saber HAMSO",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Listing: Designated under the Autonomous Sanctions Regulations 2011 on 2 March 2012. Formerly listed on the RBA Consolidated List as 2011SYR0027. Instrument of first\ndesignation and\ndeclaration:\nAutonomous Sanctions (Designated Persons and Entities and\nDeclared Persons – Syria) List 2012 [F2012L00482]\nRelisted on 12 January 2024.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/2254"
   ],
-  "birth_info": [
+  "remarks": "Listing: Designated under the Autonomous Sanctions Regulations 2011 on 2 March 2012. Formerly listed on the RBA Consolidated List as 2011SYR0027. Instrument of first\ndesignation and\ndeclaration:\nAutonomous Sanctions (Designated Persons and Entities and\nDeclared Persons – Syria) List 2012 [F2012L00482]\nRelisted on 12 January 2024.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1966,
       "country": "Damascus"
     }
   ],
   "nationalities": [
     "Syria"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

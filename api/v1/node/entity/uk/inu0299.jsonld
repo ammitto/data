@@ -1,32 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/inu0299",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/inu0299",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Bank Mellat",
+      "@type": "NameVariant",
+      "fullName": "Bank Mellat",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Mellat International Bank ",
+      "@type": "NameVariant",
+      "fullName": "Mellat International Bank ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Nation's Bank",
+      "@type": "NameVariant",
+      "fullName": "Nation's Bank",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/inu0299"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Head Office Building, 327 Takeghani (Taleghani) Avenue",
       "state": "Tehran",
       "country": "Iran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

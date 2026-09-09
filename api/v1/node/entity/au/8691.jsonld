@@ -1,27 +1,43 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8691",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/8691",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Agroros Bank",
+      "@type": "NameVariant",
+      "fullName": "Agroros Bank",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "AKTSIONERNOE OBSHCHESTVO BANK AGROROS",
+      "@type": "NameVariant",
+      "fullName": "AKTSIONERNOE OBSHCHESTVO BANK AGROROS",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Website: https://www.agroros.ru; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2026",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8691"
+  ],
+  "remarks": "Website: https://www.agroros.ru; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2026",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Chernyshevskogo Str., 90, Saratov, Saratovskaya oblast, 410017, Russia",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

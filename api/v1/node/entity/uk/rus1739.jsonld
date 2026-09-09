@@ -1,33 +1,50 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus1739",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus1739",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "JSC Zvezda",
+      "@type": "NameVariant",
+      "fullName": "JSC Zvezda",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Joint Stock Company \"Scientific and Production Enterprise \"Zvezda\" Named After Academician G.I. Severin\"",
+      "@type": "NameVariant",
+      "fullName": "Joint Stock Company \"Scientific and Production Enterprise \"Zvezda\" Named After Academician G.I. Severin\"",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "АО ЗВЕЗДА",
+      "@type": "NameVariant",
+      "fullName": "АО ЗВЕЗДА",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus1739"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Str. Gogol, D39",
       "state": "Tomilino",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,22 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/dpr0236",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/dpr0236",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "SOK CHOL",
-      "first_name": "KIM",
+      "@type": "NameVariant",
+      "fullName": "SOK CHOL",
+      "firstName": "KIM",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Kim Sok Chol acted as the DPRK\nAmbassador to Burma and he operates as a KOMID facilitator. He was paid by KOMID for his assistance and\narranges meetings on behalf of KOMID, including a meeting between KOMID and Burmese defense related\npersons to discuss financial matters.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/dpr0236"
+  ],
+  "remarks": "Kim Sok Chol acted as the DPRK\nAmbassador to Burma and he operates as a KOMID facilitator. He was paid by KOMID for his assistance and\narranges meetings on behalf of KOMID, including a meeting between KOMID and Burmese defense related\npersons to discuss financial matters.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "country": "Myanmar"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/93590",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/93590",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Nurgaleev Ravil Ramilievich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Nurgaleev Ravil Ramilievich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/93590"
   ],
   "remarks": "Ravil Nurgaleev is the General Director of LLC “Molot-Oruzhie”, a Russian company designing and manufacturing weapons, in particular shotguns of the Vepr-12 series, for the Armed Forces of the Russian Federation, which are used in Russia’s war of aggression against Ukraine. The company also produces various modifications of the RPK 74 machine gun and the ASG-17 automatic grenade launcher, which are used in Russia’s war of aggression against Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1974-10-09",
-      "circa": false
+      "circa": false,
+      "year": 1974
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

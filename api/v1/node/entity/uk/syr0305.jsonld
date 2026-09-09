@@ -1,42 +1,61 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/syr0305",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/syr0305",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Hamsho Trading",
+      "@type": "NameVariant",
+      "fullName": "Hamsho Trading",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Hamisho",
+      "@type": "NameVariant",
+      "fullName": "Hamisho",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Hamsho Trade and Construction",
+      "@type": "NameVariant",
+      "fullName": "Hamsho Trade and Construction",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Hamsho Trading EST.",
+      "@type": "NameVariant",
+      "fullName": "Hamsho Trading EST.",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Hamsho Trading Establishment",
+      "@type": "NameVariant",
+      "fullName": "Hamsho Trading Establishment",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Trading & Construction. Name of Director/Management: Mohammed Hamsho The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/syr0305"
+  ],
+  "remarks": "Trading & Construction. Name of Director/Management: Mohammed Hamsho The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Hamsho Centre, Adaye Street",
       "state": "Damascus"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

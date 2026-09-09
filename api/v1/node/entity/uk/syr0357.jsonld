@@ -1,22 +1,43 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/syr0357",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/syr0357",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "TAHER",
-      "first_name": "Khodr",
+      "@type": "NameVariant",
+      "fullName": "TAHER",
+      "firstName": "Khodr",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "خضر علي طاهر",
+      "@type": "NameVariant",
+      "fullName": "خضر علي طاهر",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Linked to Citadel for Protection, Guard and Security Services (Castle Security and protection) ; Ematel LLC (Ematel Communications) ; Syrian Hotel Management Company ; Jasmine Contractinc Company The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/syr0357"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "remarks": "Linked to Citadel for Protection, Guard and Security Services (Castle Security and protection) ; Ematel LLC (Ematel Communications) ; Syrian Hotel Management Company ; Jasmine Contractinc Company The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

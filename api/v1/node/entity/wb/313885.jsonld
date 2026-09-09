@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/313885",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/313885",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "BAYON WATER PUMP CO., LTD.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "BAYON WATER PUMP CO., LTD.",
+      "isPrimary": true
     }
   ],
-  "remarks": "*233",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/313885"
+  ],
+  "remarks": "*233",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "PHUM RUNG CHAK,SANGKAT PHNOM PENH THMEI,KHAN SEN SOK",
       "city": "PHNOM PENH",
       "country": "Cambodia",
-      "country_iso_code": "KH"
+      "countryIsoCode": "KH"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

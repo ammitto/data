@@ -1,51 +1,69 @@
 {
-  "id": "https://www.ammitto.org/entity/au/2541",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/2541",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "BAKHT GUL",
+      "@type": "NameVariant",
+      "fullName": "BAKHT GUL",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "بخت گل",
+      "@type": "NameVariant",
+      "fullName": "بخت گل",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Bakhta Gul",
+      "@type": "NameVariant",
+      "fullName": "Bakhta Gul",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Bakht Gul Bahar",
+      "@type": "NameVariant",
+      "fullName": "Bakht Gul Bahar",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Shuqib",
+      "@type": "NameVariant",
+      "fullName": "Shuqib",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "TAi.161 Communications assistant to Badruddin Haqqani (deceased). Also coordinates\nmovement of Haqqani insurgents, foreign fighters and weapons in the\nAfghanistan/Pakistan border area. Belongs to Zadran tribe.; Listing: Listed on 27 June 2012 (amended on 11 Feb. 2014)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/2541"
   ],
-  "birth_info": [
+  "remarks": "TAi.161 Communications assistant to Badruddin Haqqani (deceased). Also coordinates\nmovement of Haqqani insurgents, foreign fighters and weapons in the\nAfghanistan/Pakistan border area. Belongs to Zadran tribe.; Listing: Listed on 27 June 2012 (amended on 11 Feb. 2014)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1980,
       "country": "Aki Village"
     }
   ],
   "nationalities": [
     "Afghanistan"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Miram Shah, North Waziristan, Federally\nAdministered Tribal Areas, Pakistan",
       "country": "Pakistan"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,43 +1,62 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus2470",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus2470",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "LLC IMPEX-DON ",
+      "@type": "NameVariant",
+      "fullName": "LLC IMPEX-DON ",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "LIMITED LIABILITY COMPANY IMPEX-DON",
+      "@type": "NameVariant",
+      "fullName": "LIMITED LIABILITY COMPANY IMPEX-DON",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "OOO \"IMPEKS-DON\"",
+      "@type": "NameVariant",
+      "fullName": "OOO \"IMPEKS-DON\"",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "ООО ИМПЕКС-ДОН ",
+      "@type": "NameVariant",
+      "fullName": "ООО ИМПЕКС-ДОН ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "ООО «ИМПЭКС-ДОН» ",
+      "@type": "NameVariant",
+      "fullName": "ООО «ИМПЭКС-ДОН» ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus2470"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "D. 88, Office 15, Engels Street, Donetsk Peoples Republic",
       "state": "Torez City",
       "country": "Ukraine"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

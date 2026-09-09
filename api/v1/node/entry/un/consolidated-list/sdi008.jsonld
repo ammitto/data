@@ -1,0 +1,54 @@
+{
+  "@id": "https://www.ammitto.org/entry/un/consolidated-list/sdi008",
+  "@type": "SanctionEntry",
+  "entityId": "https://www.ammitto.org/entity/un/sdi008",
+  "authority": {
+    "@id": "https://www.ammitto.org/authority/un"
+  },
+  "regime": {
+    "@id": "https://www.ammitto.org/regime/sudan",
+    "name": "Sudan"
+  },
+  "legalBases": [
+
+  ],
+  "effects": [
+    {
+      "@type": "SanctionEffect",
+      "effectType": "asset_freeze",
+      "scope": "full"
+    },
+    {
+      "@type": "SanctionEffect",
+      "effectType": "travel_ban",
+      "scope": "full"
+    }
+  ],
+  "reasons": [
+
+  ],
+  "period": {
+    "@type": "TemporalPeriod",
+    "listedDate": "2026-02-24",
+    "effectiveDate": "2026-02-24",
+    "isIndefinite": true,
+    "lastUpdated": "\n      "
+  },
+  "status": "active",
+  "statusHistory": [
+
+  ],
+  "referenceNumber": "SDi.008",
+  "remarks": "Gender: Male. INTERPOL-UN Security Council Special Notice:",
+  "rawSourceData": {
+    "@type": "RawSourceData",
+    "sourceFormat": "xml",
+    "sourceSpecificFields": {
+      "un:dataId": "6909527",
+      "un:versionNum": "1",
+      "un:gender": null,
+      "un:entityType": "individual"
+    }
+  },
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
+}

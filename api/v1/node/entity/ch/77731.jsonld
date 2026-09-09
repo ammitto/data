@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/77731",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/77731",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kazakou Pavel Ivanavich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kazakou Pavel Ivanavich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/77731"
   ],
   "remarks": "Pavel Kazakou is the head of the correctional institution Prison No 1 in Grodno, where the political prisoner Ales Pushkin and the artist Ruslan Karchauli died due to not receiving proper medical care. Other prisoners detained in that institution testified to the inhumane conditions.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1977-06-11",
-      "circa": false
+      "circa": false,
+      "year": 1977
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,25 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/au/6850",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/6850",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Boris Borisovich KIBIS",
+      "@type": "NameVariant",
+      "fullName": "Boris Borisovich KIBIS",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Thematic Sanctions) Instrument 2022",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/6850"
   ],
-  "birth_info": [
+  "remarks": "Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Thematic Sanctions) Instrument 2022",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1977,
       "country": "Russia"
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

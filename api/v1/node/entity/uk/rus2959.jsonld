@@ -1,32 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus2959",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus2959",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "XIN YU LLC ",
+      "@type": "NameVariant",
+      "fullName": "XIN YU LLC ",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "SIN YU LLC ",
+      "@type": "NameVariant",
+      "fullName": "SIN YU LLC ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "ООО СИНЬ Ю ",
+      "@type": "NameVariant",
+      "fullName": "ООО СИНЬ Ю ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus2959"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Dorogobuzhskaya St, Bldg 14, Floor 3, Room 304",
       "state": "Moscow",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

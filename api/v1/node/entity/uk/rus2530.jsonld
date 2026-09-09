@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus2530",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus2530",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "SOGLASIE INSURANCE COMPANY LIMITED ",
+      "@type": "NameVariant",
+      "fullName": "SOGLASIE INSURANCE COMPANY LIMITED ",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus2530"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "UL. GILYAROVSKOGO D. 42",
       "state": "MOSCOW",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/77865",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/77865",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Skok Vasil Uladzimiravich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Skok Vasil Uladzimiravich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/77865"
   ],
   "remarks": "Vasil Skok is a judge who has served in the Grodno Regional Court since 2003, having been appointed by Aliaksandr Lukashenka. He has issued politically motivated sentences against citizens of Belarus who voiced their opinions against the President, the regime and the brutality of Belarusian law-enforcement structures. He sentenced Andrey Sachevko to six years in a high-security penal colony.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1959-11-17",
-      "circa": false
+      "circa": false,
+      "year": 1959
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

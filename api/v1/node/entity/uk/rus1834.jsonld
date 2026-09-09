@@ -1,28 +1,44 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus1834",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus1834",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "STATE GRAIN OPERATOR (GZO)",
+      "@type": "NameVariant",
+      "fullName": "STATE GRAIN OPERATOR (GZO)",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "ГОСУДАРСТВЕННЫЙ ЗЕРНОВОЙ ОПЕРАТОР ",
+      "@type": "NameVariant",
+      "fullName": "ГОСУДАРСТВЕННЫЙ ЗЕРНОВОЙ ОПЕРАТОР ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus1834"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "4 Victory Square",
       "state": "Melitopol",
       "country": "Ukraine"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/71103",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/71103",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Firas al-Akhras",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Firas al-Akhras",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/71103"
   ],
   "remarks": "Firas al-Akhras is the brother of Asma al-Assad. He is co-owner of the Takamol LLC company responsible for managing the electronic “smart card program” used since 2014 to distribute subsidised food and other products in Syria, under the umbrella of the Ministry of Domestic Trade and Consumer Protection. In particular, Takamol LLC earns a fee for every transaction operated through the smart card.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1978-03-01",
-      "circa": false
+      "circa": false,
+      "year": 1978
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,27 +1,43 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8709",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/8709",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Bank Dom.Rf",
+      "@type": "NameVariant",
+      "fullName": "Bank Dom.Rf",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Joint Stock Company Bank Dom Rf",
+      "@type": "NameVariant",
+      "fullName": "Joint Stock Company Bank Dom Rf",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Website: https://domrfbank.ru/; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2026",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8709"
+  ],
+  "remarks": "Website: https://domrfbank.ru/; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2026",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "10 Vozdvizhenka Street, Moscow, 125009, Russia",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

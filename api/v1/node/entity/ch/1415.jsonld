@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/1415",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/1415",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Sab’awi Ibrahim Hassan Al-Tikriti",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Sab’awi Ibrahim Hassan Al-Tikriti",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/1415"
   ],
   "remarks": "Presidential Advisor; Director Of General Security, early 1990s; Chief, Iraqi Intelligence Services, 1990–1991; Half-Brother of Saddam Hussein",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1947
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

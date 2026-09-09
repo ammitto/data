@@ -1,22 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/463040",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/wb/463040",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "CANES CHARLES",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "CANES CHARLES",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/463040"
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "47, COMPLEXE LOUVERTURE APT 4, RUE LOUVERTURE",
       "city": "PÉTION-VILLE",
       "country": "Haiti",
-      "country_iso_code": "HT"
+      "countryIsoCode": "HT"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

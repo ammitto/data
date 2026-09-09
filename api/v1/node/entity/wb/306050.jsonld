@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/306050",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/306050",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "SERVEMTEC LTDA",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "SERVEMTEC LTDA",
+      "isPrimary": true
     }
   ],
-  "remarks": "*173",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/306050"
+  ],
+  "remarks": "*173",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "RUA 18, QD. 35, CASA 80, VILÁGIO COHATRAC V, CEP 65.052-090",
       "city": "SÃO JOSÉ DE RIBAMAR, MARANHÃO",
       "country": "Brazil",
-      "country_iso_code": "BR"
+      "countryIsoCode": "BR"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

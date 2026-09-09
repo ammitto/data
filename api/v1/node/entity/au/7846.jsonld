@@ -1,30 +1,47 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7846",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7846",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Natalia Vladimirovna KOMAROVA",
+      "@type": "NameVariant",
+      "fullName": "Natalia Vladimirovna KOMAROVA",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Nataliia Volodymyrivna KOMAROVA",
+      "@type": "NameVariant",
+      "fullName": "Nataliia Volodymyrivna KOMAROVA",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Governor of Khanty-Mansi Autonomous Okrug-Yugra; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2024",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7846"
   ],
-  "birth_info": [
+  "remarks": "Governor of Khanty-Mansi Autonomous Okrug-Yugra; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2024",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1955,
       "country": "Yazvo"
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

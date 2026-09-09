@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/58285",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/58285",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kotyakov Anton Olegovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kotyakov Anton Olegovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/58285"
   ],
   "remarks": "Anton Olegovich Kotyakov is Minister of Labour and Social Protection of the Russian Federation. In this role, he has implemented policies to support people who have left the so-called ‘Donetsk People’s Republic’ and ‘Luhansk People’s Republic’. He is responsible for preparations to expand the social security systems of the Russian Federation to the four illegally annexed territories of Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1980-08-15",
-      "circa": false
+      "circa": false,
+      "year": 1980
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

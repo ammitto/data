@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/nz/ind-933",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/nz/ind-933",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Irina Konstantinovna Rodnina",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Irina Konstantinovna Rodnina",
+      "isPrimary": true
     }
   ],
-  "source_references": [
+  "sourceReferences": [
     {
-      "source_code": "nz",
-      "reference_number": "IND-933"
+      "@type": "SourceReference",
+      "sourceCode": "nz",
+      "referenceNumber": "IND-933",
+      "retrievedAt": "2026-09-09T16:30:44Z"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "linkedEntities": [
+
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/nz/consolidated-list/ind-933"
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

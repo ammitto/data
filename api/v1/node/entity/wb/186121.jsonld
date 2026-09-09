@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/186121",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/186121",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "METAL ENGINEERING EOOD",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "METAL ENGINEERING EOOD",
+      "isPrimary": true
     }
   ],
-  "remarks": "*72",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/186121"
+  ],
+  "remarks": "*72",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "16, ILINDEN STREET, PO BOX 293, 3000 VRATSA",
       "country": "Bulgaria",
-      "country_iso_code": "BG"
+      "countryIsoCode": "BG"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

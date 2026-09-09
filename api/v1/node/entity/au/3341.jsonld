@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3341",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/3341",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Megatrade",
+      "@type": "NameVariant",
+      "fullName": "Megatrade",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "Listing: Listed on: 17 Aug. 2017 (Relisted on 3 Aug. 2020 and 2 Aug. 2023)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3341"
+  ],
+  "remarks": "Listing: Listed on: 17 Aug. 2017 (Relisted on 3 Aug. 2020 and 2 Aug. 2023)",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Aleppo Street, P.O. Box 5966, Damascus, Syria",
       "country": "Syria"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

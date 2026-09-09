@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/58208",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/58208",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kurenkov Alexander Vyacheslavovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kurenkov Alexander Vyacheslavovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/58208"
   ],
   "remarks": "Alexander Vyacheslavovich Kurenkov is the Minister for Civil Defence, Emergency Situations and Elimination of Consequences of Natural Disasters. Presidium member of the Coordinating Council under the Government to meet the needs of the Armed Forces of Russia, other troops, military formations and bodies for Russia’s war of aggression against Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1972-06-02",
-      "circa": false
+      "circa": false,
+      "year": 1972
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

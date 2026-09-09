@@ -1,27 +1,47 @@
 {
-  "id": "https://www.ammitto.org/entity/au/2709",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/2709",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Viktor Alekseevic OZEROV",
+      "@type": "NameVariant",
+      "fullName": "Viktor Alekseevic OZEROV",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Viktor Oleksiyovych OZEROV",
+      "@type": "NameVariant",
+      "fullName": "Viktor Oleksiyovych OZEROV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Former Chairman of the Russian Federation Council Security and Defence Committee.  On 1 March 2014 Ozerov supported the use of the Russian Armed Forces in Ukraine; Listing: Listed on 19 Jun. 2014 (re-listed on 16 Jun. 2017, 10 June 2020 and 10 June 2023)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/2709"
   ],
-  "birth_info": [
+  "remarks": "Former Chairman of the Russian Federation Council Security and Defence Committee.  On 1 March 2014 Ozerov supported the use of the Russian Armed Forces in Ukraine; Listing: Listed on 19 Jun. 2014 (re-listed on 16 Jun. 2017, 10 June 2020 and 10 June 2023)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1958,
       "country": "Abakan"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

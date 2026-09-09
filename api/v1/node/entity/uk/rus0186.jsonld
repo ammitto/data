@@ -1,38 +1,56 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus0186",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus0186",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "OOO \"VO Technopromexport\"",
+      "@type": "NameVariant",
+      "fullName": "OOO \"VO Technopromexport\"",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "LIMITED LIABILITY COMPANY \"EXTERNAL ECONOMIC ASSOCIATION\" TECHNOPROMEXPORT\"",
+      "@type": "NameVariant",
+      "fullName": "LIMITED LIABILITY COMPANY \"EXTERNAL ECONOMIC ASSOCIATION\" TECHNOPROMEXPORT\"",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Limited Liability Company 'Foreign Economic Association' 'Technopromexport'",
+      "@type": "NameVariant",
+      "fullName": "Limited Liability Company 'Foreign Economic Association' 'Technopromexport'",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "OOO 'VO TPE'",
+      "@type": "NameVariant",
+      "fullName": "OOO 'VO TPE'",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Names of Director(s)|Management: Chief: Sergey Topor-Gilka (DG of OAO \"TPE\" and also of OOO TPE) The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus0186"
+  ],
+  "remarks": "Names of Director(s)|Management: Chief: Sergey Topor-Gilka (DG of OAO \"TPE\" and also of OOO TPE) The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Novyi Arbat str., 15, building 2",
       "state": "Moscow",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

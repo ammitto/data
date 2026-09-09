@@ -1,37 +1,55 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3403",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/3403",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Svobodniy Donbass",
+      "@type": "NameVariant",
+      "fullName": "Svobodniy Donbass",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Free Donbass",
+      "@type": "NameVariant",
+      "fullName": "Free Donbass",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Free Donbas",
+      "@type": "NameVariant",
+      "fullName": "Free Donbas",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Svobodny Donbass",
+      "@type": "NameVariant",
+      "fullName": "Svobodny Donbass",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Listing: Listed on 1 Sep. 2017 (relisted on 28 Aug. 2020) (relisted on 27 Aug 2023)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3403"
+  ],
+  "remarks": "Listing: Listed on 1 Sep. 2017 (relisted on 28 Aug. 2020) (relisted on 27 Aug 2023)",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "102, Khmelnitsky Ave. office 512, Donetsk, Ukraine",
       "country": "Ukraine"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

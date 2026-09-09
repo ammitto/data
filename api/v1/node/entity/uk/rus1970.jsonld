@@ -1,41 +1,62 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus1970",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/rus1970",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "EMELYANENKO",
-      "first_name": "Viktor",
+      "@type": "NameVariant",
+      "fullName": "EMELYANENKO",
+      "firstName": "Viktor",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Emelianenko",
-      "first_name": "Victor",
+      "@type": "NameVariant",
+      "fullName": "Emelianenko",
+      "firstName": "Victor",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Yemelyanenko",
-      "first_name": "Viktor",
+      "@type": "NameVariant",
+      "fullName": "Yemelyanenko",
+      "firstName": "Viktor",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Віктор Андрійович Ємельяненко",
+      "@type": "NameVariant",
+      "fullName": "Віктор Андрійович Ємельяненко",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus1970"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "19 Gogol Lane, Orekhovskiy District",
       "state": "Zaporizhzhia",
       "country": "Ukraine"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

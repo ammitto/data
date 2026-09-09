@@ -1,34 +1,51 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus2111",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus2111",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "JUHANG AVIATION TECHNOLOGY (SHENZHEN) CO., LIMITED ",
+      "@type": "NameVariant",
+      "fullName": "JUHANG AVIATION TECHNOLOGY (SHENZHEN) CO., LIMITED ",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "SHENZHEN JUHANG INTERNATIONAL WULIU CO., LTD. ",
+      "@type": "NameVariant",
+      "fullName": "SHENZHEN JUHANG INTERNATIONAL WULIU CO., LTD. ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "巨航航空科技（深圳）有限公司",
+      "@type": "NameVariant",
+      "fullName": "巨航航空科技（深圳）有限公司",
       "script": "Hani",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus2111"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Room 101-A Xinghua Building, 1007 Banxuegang Avenue, Maantang Community, Bantian Street",
       "city": "Longgang District",
       "state": "Shenzhen",
       "country": "China"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,40 +1,59 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7665",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7665",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Andrey Nikolaevich SERDYUKOV",
+      "@type": "NameVariant",
+      "fullName": "Andrey Nikolaevich SERDYUKOV",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Andriy Mykolayovych SERDYUKOV",
+      "@type": "NameVariant",
+      "fullName": "Andriy Mykolayovych SERDYUKOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Andrei Nikolayevich SERDYUKOV",
+      "@type": "NameVariant",
+      "fullName": "Andrei Nikolayevich SERDYUKOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Andrey Nikolayevich SERDYUKOV",
+      "@type": "NameVariant",
+      "fullName": "Andrey Nikolayevich SERDYUKOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Colonel General; Previously listed under 'Ukraine criteria' - Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Ukraine) Amendment List 2017 (No 2) [F2017L01118]; New listing start date 27 Aug 2023; Listing: Instrument of first designation: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 10) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7665"
   ],
-  "birth_info": [
+  "remarks": "Colonel General; Previously listed under 'Ukraine criteria' - Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Ukraine) Amendment List 2017 (No 2) [F2017L01118]; New listing start date 27 Aug 2023; Listing: Instrument of first designation: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 10) Instrument 2023",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1962,
       "country": "Uglegorsky"
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

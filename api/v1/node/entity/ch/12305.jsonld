@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/12305",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/12305",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mazen al-Tabba",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Mazen al-Tabba",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/12305"
   ],
   "remarks": "Business partner of Ihab Makhlouf and Nizar Al-Assad; co-owner, with Rami Makhlouf, of the Al-Diyar lil-Saraafa (a.k.a. Diar Electronic Services) currency exchange company, which supports the policy of the Central Bank of Syria.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1958-01-01",
-      "circa": false
+      "circa": false,
+      "year": 1958
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

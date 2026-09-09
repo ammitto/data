@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/12181",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/12181",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Wael Nader Al-Halqi Dr.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Wael Nader Al-Halqi Dr.",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/12181"
   ],
   "remarks": "Former Prime Minister, in office until 3.7.2016, and former Minister of Health under the former al-Assad regime. As a former Government Minister, shares responsibility for the former al-Assad regime’s violent repression of the civilian population. Chair of the Board of Trustees of the Qasyoun Private University.",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1964
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,40 +1,59 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8027",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/8027",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Yevgeny Alexandrovich PRIMAKOV",
+      "@type": "NameVariant",
+      "fullName": "Yevgeny Alexandrovich PRIMAKOV",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Evgeniy Aleksandrovich PRIMAKOV",
+      "@type": "NameVariant",
+      "fullName": "Evgeniy Aleksandrovich PRIMAKOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Yevhen Oleksandrovych PRYMAKOV",
+      "@type": "NameVariant",
+      "fullName": "Yevhen Oleksandrovych PRYMAKOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Evgenii Alexandrovich PRIMAKOV",
+      "@type": "NameVariant",
+      "fullName": "Evgenii Alexandrovich PRIMAKOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Head of Rossotrudnichestvo; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8027"
   ],
-  "birth_info": [
+  "remarks": "Head of Rossotrudnichestvo; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1976,
       "country": "Moscow"
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

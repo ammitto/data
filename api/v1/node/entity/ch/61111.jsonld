@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/61111",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/61111",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Gasparyan Hayk Arsenovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Gasparyan Hayk Arsenovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/61111"
   ],
   "remarks": "Hayk Gasparyan, known as “Abrek”, is the commander of the assault forces of the Wagner Group in Ukraine and the commander of “ArBat” battalion.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1991-07-20",
-      "circa": false
+      "circa": false,
+      "year": 1991
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

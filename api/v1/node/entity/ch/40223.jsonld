@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/40223",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/40223",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Shein Andrey Borisovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Shein Andrey Borisovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/40223"
   ],
   "remarks": "Deputy Head of Border Directorate — Head of Coast Guard Unit of the Federal Security Service of the Russian Federation for “Republic of Crimea and City of Sevastopol”. In this capacity, he participated in operations against Ukrainian ships and their crew during the actions of the Russian Federation against Ukraine on 25 Nov 2018 which prevented access by Ukrainian vessels to their coast on the Sea of Azov, thereby undermining the territorial integrity and sovereignty of Ukraine and undermining the security of Ukraine through the disruption of the movements and operability of Ukrainian naval vessels.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1971-06-10",
-      "circa": false
+      "circa": false,
+      "year": 1971
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

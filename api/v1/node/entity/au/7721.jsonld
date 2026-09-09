@@ -1,27 +1,43 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7721",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/7721",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "DOOSTAN INTERNATIONAL COMPANY",
+      "@type": "NameVariant",
+      "fullName": "DOOSTAN INTERNATIONAL COMPANY",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "DICO",
+      "@type": "NameVariant",
+      "fullName": "DICO",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Previously listed under UNSC Resolution 2231 – Charter of the United Nations (Sanctions—Iran) Regulation 2016 [F2016L01181]\n\nProvided services to the Aerospace Industries Organisation (AIO) and supplied materials to Iran’s ballistic missile program.; Listing: Instrument of first designation: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Iran) Amendment (No. 2) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7721"
+  ],
+  "remarks": "Previously listed under UNSC Resolution 2231 – Charter of the United Nations (Sanctions—Iran) Regulation 2016 [F2016L01181]\n\nProvided services to the Aerospace Industries Organisation (AIO) and supplied materials to Iran’s ballistic missile program.; Listing: Instrument of first designation: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Iran) Amendment (No. 2) Instrument 2023",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "16 (former 14) Fajr Street, Ostad Motahari Avenue, Tehran, Iran",
       "country": "Iran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

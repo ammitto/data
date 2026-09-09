@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/29317",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/29317",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Muradov Georgiy L'vovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Muradov Georgiy L'vovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/29317"
   ],
   "remarks": "So-called \"Deputy Prime Minister\" of Crimea and Plenipotentiary Representative of Crimea to President Putin. Muradov has played an important role in consolidating Russian institutional control over Crimea since the illegal annexation. He has therefore supported actions and policies which undermine the territorial integrity, sovereignty and independence of Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1954-11-19",
-      "circa": false
+      "circa": false,
+      "year": 1954
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

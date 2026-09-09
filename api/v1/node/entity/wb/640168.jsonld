@@ -1,22 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/640168",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/wb/640168",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "SACHA BRECKENFELD RECK",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "SACHA BRECKENFELD RECK",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/640168"
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "AV. CORONEL MARCOS KONDER, N. 1207, SALA 98.",
       "city": "ITAJAI – SC. BRAZIL",
       "country": "Brazil",
-      "country_iso_code": "BR"
+      "countryIsoCode": "BR"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

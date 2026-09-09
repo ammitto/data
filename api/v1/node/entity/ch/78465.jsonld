@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/78465",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/78465",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Nooshin Seid Mir Ahmad",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Nooshin Seid Mir Ahmad",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/78465"
   ],
   "remarks": "Seid Mir Ahmad Nooshin is the director of EU-listed Aerospace Industries Organisation (AIO). The AIO is an organisation which reports to the EU-listed Iranian Ministry of Defence and Armed Forces Logistics (MODAFL) and plays a key role in Iran’s unmanned aerial vehicle (UAV) and ballistic missile programmes. The AIO oversees Iran’s production of missiles, including by EU-listed entities Shahid Hemmat Industries Group (SHIG) and Shahid Baheri Industrial Group (SBIG).",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1966-01-11",
-      "circa": false
+      "circa": false,
+      "year": 1966
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,47 +1,71 @@
 {
-  "id": "https://www.ammitto.org/entity/au/2729",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/2729",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Deniz Valentinovich BEREZOVSKIY",
+      "@type": "NameVariant",
+      "fullName": "Deniz Valentinovich BEREZOVSKIY",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Denis Valentinovich BEREZOVSKIY",
+      "@type": "NameVariant",
+      "fullName": "Denis Valentinovich BEREZOVSKIY",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Denys Valentynovych BEREZOVSKYY",
+      "@type": "NameVariant",
+      "fullName": "Denys Valentynovych BEREZOVSKYY",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Vice Admiral Denis Valentinovich BEREZOVSKIY",
+      "@type": "NameVariant",
+      "fullName": "Vice Admiral Denis Valentinovich BEREZOVSKIY",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Denis BEREZOVSKIY",
+      "@type": "NameVariant",
+      "fullName": "Denis BEREZOVSKIY",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Rear Admiral Denys Valentynovych BEREZOVSKYI",
+      "@type": "NameVariant",
+      "fullName": "Rear Admiral Denys Valentynovych BEREZOVSKYI",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Listing: Listed on 19 Jun. 2014 (re-listed on 16 Jun. 2017, 10 June 2020 and 10 June 2023)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/2729"
   ],
-  "birth_info": [
+  "remarks": "Listing: Listed on 19 Jun. 2014 (re-listed on 16 Jun. 2017, 10 June 2020 and 10 June 2023)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1974,
       "country": "kharkiv"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

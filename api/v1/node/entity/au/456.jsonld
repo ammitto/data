@@ -1,31 +1,53 @@
 {
-  "id": "https://www.ammitto.org/entity/au/456",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/456",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Usama HAMDAN",
+      "@type": "NameVariant",
+      "fullName": "Usama HAMDAN",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Osama HAMDAN",
+      "@type": "NameVariant",
+      "fullName": "Osama HAMDAN",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Associated with Hamas.; Listing: Instrument of first listing: Charter of the United Nations Act 1945 List 2003 (No. 3) [F2021L00628, Gazette No. S 426, 21 November 2003]. Last listed 13/09/2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/456"
   ],
-  "birth_info": [
+  "remarks": "Associated with Hamas.; Listing: Instrument of first listing: Charter of the United Nations Act 1945 List 2003 (No. 3) [F2021L00628, Gazette No. S 426, 21 November 2003]. Last listed 13/09/2025",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1964,
       "country": "Gaza"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1965,
       "country": "Occupied Palestinian Territories"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

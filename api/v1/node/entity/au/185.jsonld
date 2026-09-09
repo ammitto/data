@@ -1,30 +1,47 @@
 {
-  "id": "https://www.ammitto.org/entity/au/185",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/185",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Abdelkarim Hussein Mohamed AL-NASSER",
+      "@type": "NameVariant",
+      "fullName": "Abdelkarim Hussein Mohamed AL-NASSER",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Abdel Karim AL-NASSER",
+      "@type": "NameVariant",
+      "fullName": "Abdel Karim AL-NASSER",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Mr Al Nasser is associated with Hizballah (a listed entity under Australian sanctions law).; Listing: Instrument of first listing: Charter of the United Nations (Anti-terrorism — Persons and Entities) List 2001 [F2021L00631, Gazette No. S 500, 21 December 2001]. Last listed on: 13/09/2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/185"
   ],
-  "birth_info": [
+  "remarks": "Mr Al Nasser is associated with Hizballah (a listed entity under Australian sanctions law).; Listing: Instrument of first listing: Charter of the United Nations (Anti-terrorism — Persons and Entities) List 2001 [F2021L00631, Gazette No. S 500, 21 December 2001]. Last listed on: 13/09/2025",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1946,
       "country": "Al Ihsa"
     }
   ],
   "nationalities": [
     "Saudi Arabia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

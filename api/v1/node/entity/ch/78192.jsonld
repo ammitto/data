@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/78192",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/78192",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Rashid Gholam Ali",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Rashid Gholam Ali",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/78192"
   ],
   "remarks": "Gholam Ali Rashid has been the commander of the EU-listed Khatam al-Anbiya Central Headquarters (KCHG) since June 2016.",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1953
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

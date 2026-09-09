@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/7018",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/7018",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Sibanda Phillip Valerio",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Sibanda Phillip Valerio",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/7018"
   ],
   "remarks": "Senior army figure with ties to the Government and complicit in forming or directing oppressive state policy, blaming NGOs for unrest in September 2009.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1956-08-25",
-      "circa": false
+      "circa": false,
+      "year": 1956
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/22371",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/22371",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mohammad Abdul-Sattar Al Sayed Dr.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Mohammad Abdul-Sattar Al Sayed Dr.",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/22371"
   ],
   "remarks": "Minister of Religious Endowments under the former al-Assad regime. As a Government Minister, shares responsibility for the former al-Assad regime’s violent repression of the civilian population.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1958-12-23",
-      "circa": false
+      "circa": false,
+      "year": 1958
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,52 +1,76 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/aqd0338",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/aqd0338",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MOKLIS",
-      "first_name": "YUNOS",
+      "@type": "NameVariant",
+      "fullName": "MOKLIS",
+      "firstName": "YUNOS",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Onos",
-      "first_name": "Hadji",
+      "@type": "NameVariant",
+      "fullName": "Onos",
+      "firstName": "Hadji",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Yunos",
-      "first_name": "Mukhlis",
+      "@type": "NameVariant",
+      "fullName": "Yunos",
+      "firstName": "Mukhlis",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Yunos",
-      "first_name": "Muklis",
+      "@type": "NameVariant",
+      "fullName": "Yunos",
+      "firstName": "Muklis",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Yunos",
-      "first_name": "Saifulla",
+      "@type": "NameVariant",
+      "fullName": "Yunos",
+      "firstName": "Saifulla",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Yunos",
-      "first_name": "Saifullah",
+      "@type": "NameVariant",
+      "fullName": "Yunos",
+      "firstName": "Saifullah",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Sentenced to life without parole in the Philippines on 23 Jan. 2009 for his involvement in the bombings of 30 Dec. 2000 in Manila, the Philippines. Review pursuant to Security Council resolution 1822 (2008) was concluded on 25 May 2010. Photos included in INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/notice/search/un/1427252. Philippines, remains incarcerated as of May 2017",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/aqd0338"
+  ],
+  "remarks": "Sentenced to life without parole in the Philippines on 23 Jan. 2009 for his involvement in the bombings of 30 Dec. 2000 in Manila, the Philippines. Review pursuant to Security Council resolution 1822 (2008) was concluded on 25 May 2010. Photos included in INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/notice/search/un/1427252. Philippines, remains incarcerated as of May 2017",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "country": "Philippines"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

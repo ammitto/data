@@ -1,35 +1,53 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8048",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/8048",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Sergey Adolfovich DYACHKOV",
+      "@type": "NameVariant",
+      "fullName": "Sergey Adolfovich DYACHKOV",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Sergei Adolfovich DYACHKOV",
+      "@type": "NameVariant",
+      "fullName": "Sergei Adolfovich DYACHKOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Sergei Adolfovich DIACHKOV",
+      "@type": "NameVariant",
+      "fullName": "Sergei Adolfovich DIACHKOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Shareholder in VOLGA-DNEPR GROUP; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8048"
   ],
-  "birth_info": [
+  "remarks": "Shareholder in VOLGA-DNEPR GROUP; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1959,
       "country": "Ulyanovsk"
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

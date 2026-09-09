@@ -1,32 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/irq0058",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/irq0058",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "TRADING AND TRANSPORT SERVICES COMPANY, LTD",
+      "@type": "NameVariant",
+      "fullName": "TRADING AND TRANSPORT SERVICES COMPANY, LTD",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/irq0058"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Al-Razi Medical Complex, Jabal Al-Hussein",
       "state": "Amman",
       "country": "Jordan"
     },
     {
+      "@type": "Address",
       "street": "PO Box 212953",
       "state": "Amman",
       "country": "Jordan"
     },
     {
+      "@type": "Address",
       "street": "PO Box 910606",
       "state": "Amman",
       "country": "Jordan"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

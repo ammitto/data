@@ -1,33 +1,50 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/mya0038",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/mya0038",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Miya Win International Limited",
+      "@type": "NameVariant",
+      "fullName": "Miya Win International Limited",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Miya Win",
+      "@type": "NameVariant",
+      "fullName": "Miya Win",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/mya0038"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "3RD STREET, THIT SAR HOUSING, NO.3/401, (8) WARD",
       "city": "SOUTH OKKALAPATOWNSHIP",
       "state": "YANGON REGION",
       "country": "Myanmar"
     },
     {
+      "@type": "Address",
       "street": "KOKKINE RESIDENCE STREET, NO.12/B,SHWE TAUNG KYAR (2) WARD, BAHAN TOWNSHIP, YANGON REGION",
       "state": "Myanmar"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

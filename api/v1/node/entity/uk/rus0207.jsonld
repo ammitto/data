@@ -1,22 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus0207",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus0207",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Zarya Battalion",
+      "@type": "NameVariant",
+      "fullName": "Zarya Battalion",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "Names of Director(s)/Management: Igor Plotnitsky|reportedly part of the so-called‘2nd Army Corps’ of the ‘Lugansk People’s Republic’ The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus0207"
+  ],
+  "remarks": "Names of Director(s)/Management: Igor Plotnitsky|reportedly part of the so-called‘2nd Army Corps’ of the ‘Lugansk People’s Republic’ The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "state": "Donetsk",
       "country": "Ukraine"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

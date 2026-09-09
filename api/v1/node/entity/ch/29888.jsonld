@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/29888",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/29888",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ghazwan Rifaat Kheir Bek",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Ghazwan Rifaat Kheir Bek",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/29888"
   ],
   "remarks": "Former Minister of Transport in power after May 2011 (appointed 27.8.2014) under the former al-Assad regime. He was previously General Director of the Port of Tartus. As a former Government Minister, shares responsibility for the former al-Assad regime’s violent repression of the civilian population.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1961-03-10",
-      "circa": false
+      "circa": false,
+      "year": 1961
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

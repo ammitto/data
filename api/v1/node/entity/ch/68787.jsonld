@@ -1,16 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/68787",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/68787",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Johnson Andre",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Johnson Andre",
+      "isPrimary": true
     }
   ],
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/68787"
+  ],
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1997
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

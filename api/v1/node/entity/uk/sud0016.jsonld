@@ -1,41 +1,61 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/sud0016",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/sud0016",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Al-Solag Mining Company Ltd",
+      "@type": "NameVariant",
+      "fullName": "Al-Solag Mining Company Ltd",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Al-Sarraj Mining Company Ltd",
+      "@type": "NameVariant",
+      "fullName": "Al-Sarraj Mining Company Ltd",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Al-Sawlaj Mining Company Ltd",
+      "@type": "NameVariant",
+      "fullName": "Al-Sawlaj Mining Company Ltd",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Al-Solaj Mining Company Ltd ",
+      "@type": "NameVariant",
+      "fullName": "Al-Solaj Mining Company Ltd ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "شركة الصرلج ",
+      "@type": "NameVariant",
+      "fullName": "شركة الصرلج ",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/sud0016"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "country": "Sudan"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/23759",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/23759",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "N'Guessan Pascal Affi",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "N'Guessan Pascal Affi",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/23759"
   ],
   "remarks": "Chairman of the Ivorian Popular Front (FPI): obstruction of the peace and reconciliation process, incitement to hatred and violence.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1953-01-01",
-      "circa": false
+      "circa": false,
+      "year": 1953
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

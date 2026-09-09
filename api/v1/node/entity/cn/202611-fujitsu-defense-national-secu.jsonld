@@ -1,21 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/cn/202611-fujitsu-defense-national-secu",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/cn/202611-fujitsu-defense-national-secu",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Fujitsu Defense & National Security, Ltd.",
+      "@type": "NameVariant",
+      "fullName": "Fujitsu Defense & National Security, Ltd.",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "富士通防卫与国家安全株式会社",
+      "@type": "NameVariant",
+      "fullName": "富士通防卫与国家安全株式会社",
       "script": "Hani",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "List: cn/export-control-list",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/cn/unknown/202611-fujitsu-defense-national-secu"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "remarks": "List: cn/export-control-list",
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

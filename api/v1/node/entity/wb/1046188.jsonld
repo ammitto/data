@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/1046188",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/1046188",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "KHAN TAISHIR INDSUTRY LLC",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "KHAN TAISHIR INDSUTRY LLC",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/1046188"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "SUITE 1601, M PLAZA, SAMBUU STREET 24",
       "city": "ULAANBAATAR 15141",
       "country": "Mongolia",
-      "country_iso_code": "MN"
+      "countryIsoCode": "MN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

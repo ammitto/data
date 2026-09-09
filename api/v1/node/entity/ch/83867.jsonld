@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/83867",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/83867",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Abdul Mohsen Abdallah Ibrahim Al Charekh",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Abdul Mohsen Abdallah Ibrahim Al Charekh",
+      "isPrimary": true
     }
   ],
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/83867"
+  ],
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1985-07-13",
-      "circa": false
+      "circa": false,
+      "year": 1985
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

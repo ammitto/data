@@ -1,22 +1,43 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/dpr0261",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/dpr0261",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "CHUN SONG",
-      "first_name": "RI",
+      "@type": "NameVariant",
+      "fullName": "CHUN SONG",
+      "firstName": "RI",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ch'un-so'ng",
-      "first_name": "Ri",
+      "@type": "NameVariant",
+      "fullName": "Ch'un-so'ng",
+      "firstName": "Ri",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/dpr0261"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,21 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/cn/202611-mitsubishi-heavy-industries-eng",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/cn/202611-mitsubishi-heavy-industries-eng",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Mitsubishi Heavy Industries Engine & Turbocharger, Ltd.",
+      "@type": "NameVariant",
+      "fullName": "Mitsubishi Heavy Industries Engine & Turbocharger, Ltd.",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "三菱重工发动机与涡轮增压器株式会社",
+      "@type": "NameVariant",
+      "fullName": "三菱重工发动机与涡轮增压器株式会社",
       "script": "Hani",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "List: cn/export-control-list",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/cn/unknown/202611-mitsubishi-heavy-industries-eng"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "remarks": "List: cn/export-control-list",
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

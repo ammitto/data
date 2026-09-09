@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/665826",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/665826",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "PROJECTPLAN CONSULTORIA E PROJETOS LTDA",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "PROJECTPLAN CONSULTORIA E PROJETOS LTDA",
+      "isPrimary": true
     }
   ],
-  "remarks": "(formerly MC Consulting Ltda.) *633",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/665826"
+  ],
+  "remarks": "(formerly MC Consulting Ltda.) *633",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "RUA CAPITÃO ANTONIO ROSA, 376, 4º ANDAR - CJ 42, JARDIM PAULISTANO",
       "city": "SÃO PAULO - SP, CEP: 01443-010",
       "country": "Brazil",
-      "country_iso_code": "BR"
+      "countryIsoCode": "BR"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

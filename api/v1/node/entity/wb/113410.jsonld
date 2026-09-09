@@ -1,20 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/113410",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/wb/113410",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "SURENDRA SINGH",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "SURENDRA SINGH",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/113410"
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "country": "India",
-      "country_iso_code": "IN"
+      "countryIsoCode": "IN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

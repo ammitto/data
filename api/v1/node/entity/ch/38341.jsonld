@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/38341",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/38341",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Paul Malong",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Paul Malong",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/38341"
   ],
   "remarks": "Paul Malong was Chief of the General Staff of the SPLA (Sudan People's Liberation Army) until May 2017. Although he has been removed from his position, he remains a highly influential figure as he commands control of several militia, has loyalties within the SPLA and has a large patronage network. His influence is also demonstrated by the facts that in Oct 2017 senior officers (including Lt. Col. Chan Garang) attempted to forcefully free Malong from house arrest; in Jan 2018, President Kiir accused Malong of mobilising for war. Malong also commanded troops that committed serious violations of human rights, including the targeting and killing of civilians and extensive destruction of villages.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1962-01-02",
-      "circa": false
+      "circa": false,
+      "year": 1962
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

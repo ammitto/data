@@ -1,40 +1,59 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/inu0325",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/inu0325",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "AGHAJARI OIL & GAS PRODUCTION COMPANY",
+      "@type": "NameVariant",
+      "fullName": "AGHAJARI OIL & GAS PRODUCTION COMPANY",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Aghajari Oil and Gas Exploitation Company ",
+      "@type": "NameVariant",
+      "fullName": "Aghajari Oil and Gas Exploitation Company ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Aghajari Oil and Gas Production Company ",
+      "@type": "NameVariant",
+      "fullName": "Aghajari Oil and Gas Production Company ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "AOGPC",
+      "@type": "NameVariant",
+      "fullName": "AOGPC",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/inu0325"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Khuzestan, Omidieh, Oil Boulevard",
       "country": "Iran"
     },
     {
+      "@type": "Address",
       "street": "Naft Blvd, Omideh, Khouzestan",
       "country": "Iran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

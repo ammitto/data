@@ -1,38 +1,56 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus0237",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus0237",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Public Joint Stock Company Promsvyazbank",
+      "@type": "NameVariant",
+      "fullName": "Public Joint Stock Company Promsvyazbank",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "PJSC Promsvyazbank",
+      "@type": "NameVariant",
+      "fullName": "PJSC Promsvyazbank",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Promsvyazbank PJSC",
+      "@type": "NameVariant",
+      "fullName": "Promsvyazbank PJSC",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "ПAO \"Промсвязьбанк\"",
+      "@type": "NameVariant",
+      "fullName": "ПAO \"Промсвязьбанк\"",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The prohibition on correspondent banking relationships and processing payments was imposed on 15/12/2023. The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus0237"
+  ],
+  "remarks": "The prohibition on correspondent banking relationships and processing payments was imposed on 15/12/2023. The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Building 22, Smirnovskaya Street, 10",
       "state": "Moscow",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/79022",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/79022",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mohammad Ibrahim Omari Alhaj",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Mohammad Ibrahim Omari Alhaj",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/79022"
   ],
   "remarks": "Deputy Minister of Frontier Affairs under the Taliban regime.",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1958
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

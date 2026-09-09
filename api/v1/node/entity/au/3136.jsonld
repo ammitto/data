@@ -1,35 +1,51 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3136",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/3136",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Gulmurod Khalimov",
+      "@type": "NameVariant",
+      "fullName": "Gulmurod Khalimov",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "Syria-based military expert, member and recruiter of Islamic State in Iraq and the Levant, listed as Al-Qaida in Iraq (QDe.115). Wanted by the Government of Tajikistan. Review pursuant to Security Council resolution 2368 (2017) was concluded on 24 November 2020.; Listing: UN Reference Number QDi.372\n\nListed on: 29 Feb. 2016 (amended on 24 Nov. 2020, 22 August 2025)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3136"
   ],
-  "birth_info": [
+  "remarks": "Syria-based military expert, member and recruiter of Islamic State in Iraq and the Levant, listed as Al-Qaida in Iraq (QDe.115). Wanted by the Government of Tajikistan. Review pursuant to Security Council resolution 2368 (2017) was concluded on 24 November 2020.; Listing: UN Reference Number QDi.372\n\nListed on: 29 Feb. 2016 (amended on 24 Nov. 2020, 22 August 2025)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1975,
       "country": "a) Varzob area"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1975,
       "country": "Tajikistan  b) Dushanbe"
     }
   ],
   "nationalities": [
     "Tajikistan"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Afghanistan (Kunar and Nuristan provinces and border area of Zebok district, Badakhshan province)",
       "country": "Badakhshan province)"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

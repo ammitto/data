@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/43926",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/43926",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Lukashenka Aliaksandr Ryhoravich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Lukashenka Aliaksandr Ryhoravich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/43926"
   ],
   "remarks": "As President of Belarus with authority over State bodies, he is responsible for the violent repression by the State apparatus carried out before and after the 2020 presidential election, in particular the dismissal of key opposition candidates, arbitrary arrests and ill-treatment of peaceful demonstrators as well as intimidation and violence against journalists.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1954-08-30",
-      "circa": false
+      "circa": false,
+      "year": 1954
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

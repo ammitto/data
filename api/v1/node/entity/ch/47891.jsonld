@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/47891",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/47891",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Yevmenov Nikolay Anatolyevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Yevmenov Nikolay Anatolyevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/47891"
   ],
   "remarks": "Nikolay Yevmenov is the former Commander-in-Chief of the Russian Navy, in office until 19 March 2024. As such, he was responsible for all maritime operations of the Russian navy during Russia’s war of aggression against Ukraine. In 2024, he was appointed Head of the Military Training and Research Center (VUNC) “Naval Academy named after Admiral of the Fleet of the Soviet Union N. G. Kuznetsov”.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1962-04-02",
-      "circa": false
+      "circa": false,
+      "year": 1962
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

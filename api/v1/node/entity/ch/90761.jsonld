@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/90761",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/90761",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Shkred Mikalai Uladzimiravich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Shkred Mikalai Uladzimiravich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/90761"
   ],
   "remarks": "Mikalai Shkred is the First Deputy Head of the Belarus President Property Management Directorate and a former Deputy Head of the Security Service of Aliaksandr Lukashenka. The Directorate is a Belarusian government body subordinated directly to Aliaksandr Lukashenka. The Directorate started as a small unit managing inventory, logistics and welfare for government agencies, and has since evolved into the largest operator of non-residential real estate and of lotteries in Belarus. It thereby generates revenue for the regime.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1981-04-26",
-      "circa": false
+      "circa": false,
+      "year": 1981
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

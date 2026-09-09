@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/75946",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/75946",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Avetisyan Vladimir Zograbovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Avetisyan Vladimir Zograbovich",
+      "isPrimary": true
     }
   ],
-  "remarks": "Vladimir Avetisyan is the General Director and founder of LLC RBA-Management. LLC RBA-Management is a Russian management company that provides legal, accounting, corporate security and other management services, and which works with customers specialising in the supply of electronic components. LLC RBA-Management manages JSC Compel, which participates in import schemes for electronic components and supplies strategically important microelectronics components to Russian industry, including military industry. By being the General Director and founder of LLC RBA-Management, Vladimir Avetisyan is responsible for its actions and therefore he is supporting materially the Government of the Russian Federation, which is responsible for the annexation of Crimea and the destabilisation of Ukraine.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/75946"
+  ],
+  "remarks": "Vladimir Avetisyan is the former General Director and founder of LLC RBA-Management. LLC RBA-Management is a Russian management company that provides legal, accounting, corporate security and other management services, and which works with customers specialising in the supply of electronic components. LLC RBA-Management manages JSC Compel, which participates in import schemes for electronic components and supplies strategically important microelectronics components to Russian industry, including military industry. By being the General Director and founder of LLC RBA-Management, Vladimir Avetisyan was responsible for the company’s actions and therefore he is responsible for supporting materially the Government of the Russian Federation, which is responsible for the annexation of Crimea and the destabilisation of Ukraine.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1955-05-04",
-      "circa": false
+      "circa": false,
+      "year": 1955
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

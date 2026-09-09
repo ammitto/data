@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/582624",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/582624",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "HOANG MAI CONSTRUCTION IMPORT AND EXPORT JOINT STOCK COMPANY",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "HOANG MAI CONSTRUCTION IMPORT AND EXPORT JOINT STOCK COMPANY",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/582624"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "XOM BO, COMMUNE THANH LIET, DISTRICT THANH TRI",
       "city": "HANOI",
       "country": "Viet Nam",
-      "country_iso_code": "VN"
+      "countryIsoCode": "VN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

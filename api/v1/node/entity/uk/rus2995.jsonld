@@ -1,34 +1,51 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus2995",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus2995",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "MASTEL MAKINA ITHALAT IHRACAT LIMITED SIRKETI ",
+      "@type": "NameVariant",
+      "fullName": "MASTEL MAKINA ITHALAT IHRACAT LIMITED SIRKETI ",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "MASTEL MAKİNA İTHALAT İHRACAT LİMİTED ŞİRKETİ ",
+      "@type": "NameVariant",
+      "fullName": "MASTEL MAKİNA İTHALAT İHRACAT LİMİTED ŞİRKETİ ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus2995"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "ATAKÖY 7-8-9-10. KISIM MAH. ÇOBANÇEŞME E-5 YAN YOL CAD. NO: 16/1 INTERIOR DOOR NO: 90",
       "city": "BAKIRKÖY",
       "state": "Istanbul",
       "country": "Turkey"
     },
     {
+      "@type": "Address",
       "street": "No 18/20/1 Beyazit Mahallesi Kalcilar Sokak",
       "city": "Fatih",
       "state": "Istanbul",
       "country": "Turkey"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

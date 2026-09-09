@@ -1,35 +1,55 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/ghr0084",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/ghr0084",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "LUGOVOY",
-      "first_name": "Andrey",
+      "@type": "NameVariant",
+      "fullName": "LUGOVOY",
+      "firstName": "Andrey",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "LUGOVOI",
-      "first_name": "Andrey",
+      "@type": "NameVariant",
+      "fullName": "LUGOVOI",
+      "firstName": "Andrey",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Андрей Константинович Луговой",
+      "@type": "NameVariant",
+      "fullName": "Андрей Константинович Луговой",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Subject to an ACTSA asset freeze from 2016-2022 The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/ghr0084"
+  ],
+  "remarks": "Subject to an ACTSA asset freeze from 2016-2022 The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Soloviniya Proezd, 16-1-247",
       "state": "Moscow",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

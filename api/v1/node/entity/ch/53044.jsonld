@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/53044",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/53044",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Malkevich Alexander Alexandrovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Malkevich Alexander Alexandrovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/53044"
   ],
   "remarks": "Alexander Malkevich is a Russian propagandist, General Director of the St. Petersburg TV channel, and the First Deputy Chairman of the Public Chamber of the Russian Federation for the Development of the Information Community, Media and Mass Communications.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1975-07-14",
-      "circa": false
+      "circa": false,
+      "year": 1975
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

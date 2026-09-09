@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/63265",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/63265",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Malgin Andrei Vitalyevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Malgin Andrei Vitalyevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/63265"
   ],
   "remarks": "Andrei Malgin is the director of the Central Museum of Taurida in Simferopol, in illegally annexed Crimea. Art works were transferred from the Kherson Fine Art Museum to the Central Museum of Taurida in Simferopol, where they are currently kept under his control.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1965-06-11",
-      "circa": false
+      "circa": false,
+      "year": 1965
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/12781",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/12781",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Fares Chehabi",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Fares Chehabi",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/12781"
   ],
   "remarks": "President of the Aleppo Chamber of Industry; Chairman of the Federation of Chambers of Industry since 16.12.2018. Vice-Chairman of Cham Holding. Provides economic support to the former al-Assad regime. Member of Syrian Parliament since 2016.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1972-09-07",
-      "circa": false
+      "circa": false,
+      "year": 1972
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

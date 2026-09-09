@@ -1,42 +1,61 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/inu0413",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/inu0413",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "MINISTRY OF PETROLEUM",
+      "@type": "NameVariant",
+      "fullName": "MINISTRY OF PETROLEUM",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "MOP",
+      "@type": "NameVariant",
+      "fullName": "MOP",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "IRANIAN MINISTRY OF PETROLEUM ",
+      "@type": "NameVariant",
+      "fullName": "IRANIAN MINISTRY OF PETROLEUM ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "ISLAMIC REPUBLIC OF IRAN MINISTRY OF PETROLEUM ",
+      "@type": "NameVariant",
+      "fullName": "ISLAMIC REPUBLIC OF IRAN MINISTRY OF PETROLEUM ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "وزارت نفت جمهوری اسلامی ایران",
+      "@type": "NameVariant",
+      "fullName": "وزارت نفت جمهوری اسلامی ایران",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/inu0413"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Iranian Ministry of Petroleum Building, Taleghani Ave, Taleqani-Hafez Intersection,",
       "state": "Tehran",
       "country": "Iran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

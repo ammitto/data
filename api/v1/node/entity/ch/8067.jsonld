@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/8067",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/8067",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Hassan Mahat Omar",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Hassan Mahat Omar",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/8067"
   ],
   "remarks": "Hassan Mahat Omar is engaging in acts that threaten the peace, security or stability of Somalia.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1979-04-10",
-      "circa": false
+      "circa": false,
+      "year": 1979
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/57512",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/57512",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Naing Htut Aung",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Naing Htut Aung",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/57512"
   ],
   "remarks": "Naing Htut Aung is a Director and sole shareholder of International Gateways Group of Company Limited (IGGC) operating in the trading sector. He has strong ties with the military leadership in Myanmar.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1968-01-27",
-      "circa": false
+      "circa": false,
+      "year": 1968
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/29813",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/29813",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Houmam Jaza'iri",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Houmam Jaza'iri",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/29813"
   ],
   "remarks": "Former Minister of Economy and Foreign Trade under the former al-Assad regime, in power after May 2011, then member of the board of Syriatel (until May 2019) which is designated by the Council. As a former Government Minister, shares responsibility for the violent repression of the Syrian people.",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1977
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

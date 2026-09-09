@@ -1,25 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7993",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7993",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "ABDEL RAHMAN JUMA BARKALLA",
+      "@type": "NameVariant",
+      "fullName": "ABDEL RAHMAN JUMA BARKALLA",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "SDi.005.  Designation: Rapid Support Forces (RSF) Major General and West Darfur Commander. Passport no: Sudan number P07834700 National identification no: Sudan 21052659309. Other information: Gender: Male; Listing: Listed by the 1591 Committee",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7993"
   ],
-  "birth_info": [
+  "remarks": "SDi.005.  Designation: Rapid Support Forces (RSF) Major General and West Darfur Commander. Passport no: Sudan number P07834700 National identification no: Sudan 21052659309. Other information: Gender: Male; Listing: Listed by the 1591 Committee",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1969,
       "country": "Bahr Elarab"
     }
   ],
   "nationalities": [
     "Sudan"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

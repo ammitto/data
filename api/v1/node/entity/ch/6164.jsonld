@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/6164",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/6164",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Chidarikire Faber Edmund",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Chidarikire Faber Edmund",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/6164"
   ],
   "remarks": "Former ZANU-PF mayor of Chinoyi and provincial governor. Associated with the ZANU-PF faction of the Government.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1946-06-06",
-      "circa": false
+      "circa": false,
+      "year": 1946
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

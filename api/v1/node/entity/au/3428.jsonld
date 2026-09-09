@@ -1,52 +1,73 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3428",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/3428",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Hana Banking Corporation Limited",
+      "@type": "NameVariant",
+      "fullName": "Hana Banking Corporation Limited",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Hwaryo Bank",
+      "@type": "NameVariant",
+      "fullName": "Hwaryo Bank",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Gorgeous Bank of North Korea",
+      "@type": "NameVariant",
+      "fullName": "Gorgeous Bank of North Korea",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Brilliance Banking Corporation",
+      "@type": "NameVariant",
+      "fullName": "Brilliance Banking Corporation",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Korea Kumsong Bank",
+      "@type": "NameVariant",
+      "fullName": "Korea Kumsong Bank",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Kumsong Bank",
+      "@type": "NameVariant",
+      "fullName": "Kumsong Bank",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Single-Minded International Bank",
+      "@type": "NameVariant",
+      "fullName": "Single-Minded International Bank",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Part of North Korea’s financial network. SWIFT BRBKKPP1; Listing: First listed on 27 Nov. 2017. Instrument of first designation and declaration: Autonomous Sanctions (Designated Persons and Entities – Democratic People’s Republic of Korea) Amendment List 2017 (No 3)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3428"
+  ],
+  "remarks": "Part of North Korea’s financial network. SWIFT BRBKKPP1; Listing: First listed on 27 Nov. 2017. Instrument of first designation and declaration: Autonomous Sanctions (Designated Persons and Entities – Democratic People’s Republic of Korea) Amendment List 2017 (No 3)",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "a) Haebangsan Hotel, Jungsong-Dong, Sungri Street, Central District, Pyongyang, North Korea; b) Dandong, China",
       "country": "China"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/13287",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/13287",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Khalilollahi Moussa",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Khalilollahi Moussa",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/13287"
   ],
   "remarks": "Chief of Justice of East Azerbaijan province. Former prosecutor of Tabriz from 2010 to 2019. He was involved in Sakineh Mohammadi-Ashtiani’s case and is complicit in grave violations of the right to due process.",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1963
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

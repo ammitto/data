@@ -1,32 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/au/1115",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/1115",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Tanchon Commercial Bank",
+      "@type": "NameVariant",
+      "fullName": "Tanchon Commercial Bank",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Changgwang Credit Bank",
+      "@type": "NameVariant",
+      "fullName": "Changgwang Credit Bank",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Korea Changgwang Credit Bank",
+      "@type": "NameVariant",
+      "fullName": "Korea Changgwang Credit Bank",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "KPe.003. Main DPRK financial entity for sales of conventional arms, ballistic missiles, and goods related to the assembly and manufacture of such weapons.; Listing: Listed by the UN1718 committee on 13 Apr. 2009",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/1115"
+  ],
+  "remarks": "KPe.003. Main DPRK financial entity for sales of conventional arms, ballistic missiles, and goods related to the assembly and manufacture of such weapons.; Listing: Listed by the UN1718 committee on 13 Apr. 2009",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Saemul 1-Dong Pyongchon District, Pyongyang, DPRK",
       "country": "DPRK"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

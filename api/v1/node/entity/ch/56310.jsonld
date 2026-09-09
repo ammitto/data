@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/56310",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/56310",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Zabolotnev Nikolay Nikolaevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Zabolotnev Nikolay Nikolaevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/56310"
   ],
   "remarks": "Nikolay Zabolotnev is the head of the Regional Executive Committee of the Khanty-Mansiysk Regional Branch of the Kremlin-aligned ruling party “United Russia”. He is also a member of the Duma of the Khanty-Mansi Autonomous Okrug – Yugra of the seventh convocation.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1992-01-30",
-      "circa": false
+      "circa": false,
+      "year": 1992
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

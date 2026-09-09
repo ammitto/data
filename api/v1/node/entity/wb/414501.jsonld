@@ -1,23 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/414501",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/wb/414501",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MR. RAVSHAN RIZAMETOV",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "MR. RAVSHAN RIZAMETOV",
+      "isPrimary": true
     }
   ],
-  "remarks": "*493",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/414501"
+  ],
+  "remarks": "*493",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "ROOM 25A, NO. 50, OYBEK STREET",
       "city": "TASHKENT",
       "country": "Uzbekistan",
-      "country_iso_code": "UZ"
+      "countryIsoCode": "UZ"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

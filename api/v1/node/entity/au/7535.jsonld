@@ -1,30 +1,47 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7535",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7535",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Yury Anatolevich CHIKHANCHIN",
+      "@type": "NameVariant",
+      "fullName": "Yury Anatolevich CHIKHANCHIN",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Yurii Anatolievich CHIKHANCHIN",
+      "@type": "NameVariant",
+      "fullName": "Yurii Anatolievich CHIKHANCHIN",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Head of Russia’s Federal Service for Financial Monitoring (Rosfinmonitoring); Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 6) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7535"
   ],
-  "birth_info": [
+  "remarks": "Head of Russia’s Federal Service for Financial Monitoring (Rosfinmonitoring); Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 6) Instrument 2023",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1951,
       "country": "Krasnoyarsk"
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

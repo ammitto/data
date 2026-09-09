@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/nz/ind-244",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/nz/ind-244",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Vadim Valentinovich Kumin",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Vadim Valentinovich Kumin",
+      "isPrimary": true
     }
   ],
-  "source_references": [
+  "sourceReferences": [
     {
-      "source_code": "nz",
-      "reference_number": "IND-244"
+      "@type": "SourceReference",
+      "sourceCode": "nz",
+      "referenceNumber": "IND-244",
+      "retrievedAt": "2026-09-09T16:30:43Z"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "linkedEntities": [
+
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/nz/consolidated-list/ind-244"
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

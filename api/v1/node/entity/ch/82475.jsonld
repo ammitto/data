@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/82475",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/82475",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Abu Bakar Ba'asyir",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Abu Bakar Ba'asyir",
+      "isPrimary": true
     }
   ],
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/82475"
+  ],
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1938-08-17",
-      "circa": false
+      "circa": false,
+      "year": 1938
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

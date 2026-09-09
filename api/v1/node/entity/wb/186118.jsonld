@@ -1,22 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/186118",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/wb/186118",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MR. JOSEPH NUIJTEN",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "MR. JOSEPH NUIJTEN",
+      "isPrimary": true
     }
   ],
-  "remarks": "* 35",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/186118"
+  ],
+  "remarks": "* 35",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "HAVEN 138, BOTERHAMVAARTWEG 2, B-2030 ANTWERPEN",
       "country": "Belgium",
-      "country_iso_code": "BE"
+      "countryIsoCode": "BE"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

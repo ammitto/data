@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/38521",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/38521",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Abdifatah Abubakar Abdi",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Abdifatah Abubakar Abdi",
+      "isPrimary": true
     }
   ],
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/38521"
+  ],
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1982-04-15",
-      "circa": false
+      "circa": false,
+      "year": 1982
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

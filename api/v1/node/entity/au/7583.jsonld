@@ -1,27 +1,43 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7583",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/7583",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Ulan-Ude Aviation Plant Joint Stock Company",
+      "@type": "NameVariant",
+      "fullName": "Ulan-Ude Aviation Plant Joint Stock Company",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "U-UAP JSC",
+      "@type": "NameVariant",
+      "fullName": "U-UAP JSC",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Company identification number: 1020300887793; https://rabotauuaz.ru/o-predpriyatii#O_predpriyati; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 8) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7583"
+  ],
+  "remarks": "Company identification number: 1020300887793; https://rabotauuaz.ru/o-predpriyatii#O_predpriyati; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 8) Instrument 2023",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "1 Khorinskaya Street, Ulan-Ude, Republic of Buryatia, 690009, Russia",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

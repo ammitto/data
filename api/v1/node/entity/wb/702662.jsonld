@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/702662",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/702662",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "ZHUHAI QINTIAN CONSTRUCTION ENGINEERING CO., LTD.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "ZHUHAI QINTIAN CONSTRUCTION ENGINEERING CO., LTD.",
+      "isPrimary": true
     }
   ],
-  "remarks": "(珠海市勤天建设工程有限公司)*632",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/702662"
+  ],
+  "remarks": "(珠海市勤天建设工程有限公司)*632",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "104-2, BUILDING 68, YUCUN GUDAO, DONGAO ISLAND",
       "city": "ZHUHAI CITY, GUANGDONG",
       "country": "China",
-      "country_iso_code": "CN"
+      "countryIsoCode": "CN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

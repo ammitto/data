@@ -1,57 +1,81 @@
 {
-  "id": "https://www.ammitto.org/entity/au/2548",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/2548",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Abubaker Shariff Ahmed",
+      "@type": "NameVariant",
+      "fullName": "Abubaker Shariff Ahmed",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Makaburi",
+      "@type": "NameVariant",
+      "fullName": "Makaburi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Sheikh Abubakar Ahmed",
+      "@type": "NameVariant",
+      "fullName": "Sheikh Abubakar Ahmed",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abu Makaburi Shariff",
+      "@type": "NameVariant",
+      "fullName": "Abu Makaburi Shariff",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abubaker Shariff",
+      "@type": "NameVariant",
+      "fullName": "Abubaker Shariff",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abubakar Ahmed",
+      "@type": "NameVariant",
+      "fullName": "Abubakar Ahmed",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "SOi.012; Listing: Listed on 23 August 2012.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/2548"
   ],
-  "birth_info": [
+  "remarks": "SOi.012; Listing: Listed on 23 August 2012.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1962,
       "country": "Kenya"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1967,
       "country": "Kenya"
     }
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Majengo Area, Mombasa, Kenya",
       "country": "Kenya"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

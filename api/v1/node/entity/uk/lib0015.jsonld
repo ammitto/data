@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/lib0015",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/lib0015",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Baroque Investments Limited",
+      "@type": "NameVariant",
+      "fullName": "Baroque Investments Limited",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Based on Isle of Man The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/lib0015"
+  ],
+  "remarks": "Based on Isle of Man The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "c/o ILS Fiduciaries (IOM) Ltd, First Floor, Millennium House, Victoria Road",
       "city": "Douglas",
       "state": "Isle of Man"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

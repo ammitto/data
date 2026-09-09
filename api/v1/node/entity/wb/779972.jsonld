@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/779972",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/779972",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "PT STRATEGIC ASIA",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "PT STRATEGIC ASIA",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/779972"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "BALI, JALAN BADAK AGUNG 19, NO. 5 RENON",
       "city": "DENPASAR 80235",
       "country": "Indonesia",
-      "country_iso_code": "ID"
+      "countryIsoCode": "ID"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

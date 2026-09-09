@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/61323",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/61323",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ivanov Nikolai Fyodorovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Ivanov Nikolai Fyodorovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/61323"
   ],
   "remarks": "Nikolai Ivanov is a Russian writer and propagandist. He is a member of the Presidential Council for Civil Society and Human Rights. He is also a chairman of the board of the Union of Writers of Russia.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1956-06-08",
-      "circa": false
+      "circa": false,
+      "year": 1956
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

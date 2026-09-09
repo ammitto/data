@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/72233",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/72233",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mashkautsan Semyon Alexeyevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Mashkautsan Semyon Alexeyevich",
+      "isPrimary": true
     }
   ],
-  "remarks": "Semyon Mashkautsan is the so-called “Deputy Head of Government” and “Minister of Industry” of Kherson Region since 18 August 2022. He has assumed this role, without the consent of Ukrainian authorities, in the illegally occupied territories of Kherson Region and is implementing the official policies of the Russian Federation in the region.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/72233"
+  ],
+  "remarks": "Semyon Mashkautsan is the former so-called “Deputy Head of Government” and “Minister of Industry” of Kherson Region. He is the so-called “acting chairman of the government” of Kherson Region since February 2025. He has assumed these roles, without the consent of Ukrainian authorities, in the illegally occupied territories of Kherson Region and is implementing the official policies of the Russian Federation in the region.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1990-03-02",
-      "circa": false
+      "circa": false,
+      "year": 1990
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,23 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus2358",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/rus2358",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Joseph",
-      "first_name": "Anto",
+      "@type": "NameVariant",
+      "fullName": "Joseph",
+      "firstName": "Anto",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus2358"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "One Lake Plaza,, Unit No: Suite 609, Jumeirah Lake Towers, Dubai",
       "country": "United Arab Emirates"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

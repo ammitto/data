@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/8706",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/8706",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Bahmanyar Bahmanyar Morteza",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Bahmanyar Bahmanyar Morteza",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/8706"
   ],
   "remarks": "Head of Finance & Budget Department of the Aerospace Industries Organization (AIO).",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1952-12-31",
-      "circa": false
+      "circa": false,
+      "year": 1952
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

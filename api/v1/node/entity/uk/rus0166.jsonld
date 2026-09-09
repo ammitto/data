@@ -1,31 +1,48 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus0166",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus0166",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Army of the Southeast",
+      "@type": "NameVariant",
+      "fullName": "Army of the Southeast",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Army of the South-East",
+      "@type": "NameVariant",
+      "fullName": "Army of the South-East",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Names of Director(s)/ Management: BOLOTOV, 1: VALERIY 2: DMITRIEVICH (one of the former leaders of the group). The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus0166"
+  ],
+  "remarks": "Names of Director(s)/ Management: BOLOTOV, 1: VALERIY 2: DMITRIEVICH (one of the former leaders of the group). The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Sergei Aleksandrovich",
       "city": "Severdonetsk Ulista (street) Vihisova 1"
     },
     {
+      "@type": "Address",
       "street": "The combat training centre, Lugansk Krasnodonskaya Street 6",
       "state": "Severdonetsk"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

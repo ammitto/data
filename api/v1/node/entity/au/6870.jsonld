@@ -1,22 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/au/6870",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/6870",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Igor Olegovich KOSTYUKOV",
+      "@type": "NameVariant",
+      "fullName": "Igor Olegovich KOSTYUKOV",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "Head of Main Directorate of the General Staff of the Armed Forces of the Russian Federation (GRU); Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 11) Instrument 2022",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/6870"
   ],
-  "birth_info": [
+  "remarks": "Head of Main Directorate of the General Staff of the Armed Forces of the Russian Federation (GRU); Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 11) Instrument 2022",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1956,
       "country": "Amur Region"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

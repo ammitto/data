@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/44024",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/44024",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Raukou Andrei Aliakseevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Raukou Andrei Aliakseevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/44024"
   ],
   "remarks": "In his former position as State Secretary of the Security Council, he has been closely associated with the President and responsible for the repression and intimidation campaign carried out by the State apparatus in the wake of the 2020 presidential election, in particular arbitrary arrests and ill-treatment, including torture, of peaceful demonstrators as well as intimidation and violence against journalists. He remains active in the Lukashenka regime as the ambassador of Belarus to Azerbaijan.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1967-06-25",
-      "circa": false
+      "circa": false,
+      "year": 1967
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

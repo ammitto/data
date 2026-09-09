@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/482527",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/482527",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "LIAONING-EFACEC ELECTRICAL EQUIPMENT COMPANY LIMITED",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "LIAONING-EFACEC ELECTRICAL EQUIPMENT COMPANY LIMITED",
+      "isPrimary": true
     }
   ],
-  "remarks": "*525",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/482527"
+  ],
+  "remarks": "*525",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "NO. 29 BEIYUAN ROAD",
       "city": "LIAOYANG CITY, LIAONING PROVINCE",
       "country": "China",
-      "country_iso_code": "CN"
+      "countryIsoCode": "CN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

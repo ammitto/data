@@ -1,0 +1,52 @@
+{
+  "@id": "https://www.ammitto.org/entry/un/consolidated-list/ire046",
+  "@type": "SanctionEntry",
+  "entityId": "https://www.ammitto.org/entity/un/ire046",
+  "authority": {
+    "@id": "https://www.ammitto.org/authority/un"
+  },
+  "regime": {
+    "@id": "https://www.ammitto.org/regime/iran",
+    "name": "Iran"
+  },
+  "legalBases": [
+
+  ],
+  "effects": [
+    {
+      "@type": "SanctionEffect",
+      "effectType": "asset_freeze",
+      "scope": "full"
+    },
+    {
+      "@type": "SanctionEffect",
+      "effectType": "travel_ban",
+      "scope": "full"
+    }
+  ],
+  "reasons": [
+
+  ],
+  "period": {
+    "@type": "TemporalPeriod",
+    "listedDate": "2007-03-24",
+    "effectiveDate": "2007-03-24",
+    "isIndefinite": true
+  },
+  "status": "active",
+  "statusHistory": [
+
+  ],
+  "referenceNumber": "IRe.046",
+  "remarks": "Operates within AEOI and has transferred funds on behalf of AEOI to\nentities associated with Iran's nuclear programme. [Old Reference # E.47.A.6]",
+  "rawSourceData": {
+    "@type": "RawSourceData",
+    "sourceFormat": "xml",
+    "sourceSpecificFields": {
+      "un:dataId": "110358",
+      "un:versionNum": "1",
+      "un:entityType": "entity"
+    }
+  },
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
+}

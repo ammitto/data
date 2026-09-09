@@ -1,40 +1,60 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3358",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/3358",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Natalya Yurevna NIKONOROVA",
+      "@type": "NameVariant",
+      "fullName": "Natalya Yurevna NIKONOROVA",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Natalya Yurievna NIKONOROVA",
+      "@type": "NameVariant",
+      "fullName": "Natalya Yurievna NIKONOROVA",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Natalya Yuryevna NIKONOROVA",
+      "@type": "NameVariant",
+      "fullName": "Natalya Yuryevna NIKONOROVA",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Nataliia Yuriivna NIKONOROVA",
+      "@type": "NameVariant",
+      "fullName": "Nataliia Yuriivna NIKONOROVA",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Listing: Listed on 1 Sep. 2017 (relisted on 28 Aug. 2020) (relisted on 27 Aug 2023)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3358"
   ],
-  "birth_info": [
+  "remarks": "Listing: Listed on 1 Sep. 2017 (relisted on 28 Aug. 2020) (relisted on 27 Aug 2023)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1984,
       "country": "a) Donetsk"
     }
   ],
   "nationalities": [
-    "Russia;Ukraine"
+    "Russia",
+    "Ukraine"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,39 +1,59 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7983",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7983",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mohammad ABDOLLAHPOUR",
+      "@type": "NameVariant",
+      "fullName": "Mohammad ABDOLLAHPOUR",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Mohammad ABDOLLAH-POUR",
+      "@type": "NameVariant",
+      "fullName": "Mohammad ABDOLLAH-POUR",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Mohammad ABDOLLAH POUR",
+      "@type": "NameVariant",
+      "fullName": "Mohammad ABDOLLAH POUR",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Commander of Gilan Quds Brigade, a provincial branch of the Islamic Revolutionary Guard Corps (IRGC).; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Iran) Amendment (No. 2) Instrument 2024",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7983"
   ],
-  "birth_info": [
+  "remarks": "Commander of Gilan Quds Brigade, a provincial branch of the Islamic Revolutionary Guard Corps (IRGC).; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Iran) Amendment (No. 2) Instrument 2024",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1966,
       "country": "Staneh"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1964,
       "country": "Ashrafieh"
     }
   ],
   "nationalities": [
     "Iran"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

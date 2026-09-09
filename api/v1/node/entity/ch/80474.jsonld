@@ -1,16 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/80474",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/80474",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Salim Ahmad Salim Hamdan",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Salim Ahmad Salim Hamdan",
+      "isPrimary": true
     }
   ],
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/80474"
+  ],
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1965
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

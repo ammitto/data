@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/69564",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/69564",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Katyushenko Galina Anatolyevna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Katyushenko Galina Anatolyevna",
+      "isPrimary": true
     }
   ],
-  "remarks": "Galina Katyushenko has served as the Chair of the Election Committee of the Zaporizhzhia region since March 2023. During her tenure, the Committee has been responsible for organising illegal elections in the occupied Zaporizhzhia Region in September 2023, thus attempting to legitimise the Russian war of aggression of that area. In this role, Galina Katyushenko is supporting and implementing actions and policies which undermine and threaten the territorial integrity, sovereignty and independence of Ukraine.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/69564"
+  ],
+  "remarks": "Galina Katyushenko has served as the Chair of the Election Committee of the Zaporizhzhia region since March 2023. During her tenure, the Committee has been responsible for organising illegal elections in the occupied Zaporizhzhia Region in September 2023, and the illegal presidential elections of Russia in 2024, thus attempting to legitimise the Russian war of aggression of that area. In this role, Galina Katyushenko is supporting and implementing actions and policies which undermine and threaten the territorial integrity, sovereignty and independence of Ukraine.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1971-11-26",
-      "circa": false
+      "circa": false,
+      "year": 1971
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

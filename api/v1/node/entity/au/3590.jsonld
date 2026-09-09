@@ -1,63 +1,87 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3590",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/3590",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "ADNAN ABOU WALID AL-SAHRAOUI",
+      "@type": "NameVariant",
+      "fullName": "ADNAN ABOU WALID AL-SAHRAOUI",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "عدنان أبو ولید الصحراوي",
+      "@type": "NameVariant",
+      "fullName": "عدنان أبو ولید الصحراوي",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Lahbib Idrissi ould Sidi Abdi ould Said ould El Bachir",
+      "@type": "NameVariant",
+      "fullName": "Lahbib Idrissi ould Sidi Abdi ould Said ould El Bachir",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Adnan Abu Walid al-Sahrawi",
+      "@type": "NameVariant",
+      "fullName": "Adnan Abu Walid al-Sahrawi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abu Walid al Sahrawi",
+      "@type": "NameVariant",
+      "fullName": "Abu Walid al Sahrawi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Adnan Abu Walid al-Sahraoui",
+      "@type": "NameVariant",
+      "fullName": "Adnan Abu Walid al-Sahraoui",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Adnan Abu Waleed al-Sahrawi",
+      "@type": "NameVariant",
+      "fullName": "Adnan Abu Waleed al-Sahrawi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Lehbib Ould Ali Ould Said Ould Joumani",
+      "@type": "NameVariant",
+      "fullName": "Lehbib Ould Ali Ould Said Ould Joumani",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Reportedly deceased. Former spokesperson of the Mouvement pour l’Unification et le Jihad en Afrique de l’Ouest (MUJAO) (QDe.134). Emir of the Al-Mourabitoun (QDe.141) group in Mali. Pledged allegiance to Islamic State in Iraq and the Levant (ISIL), listed as Al-Qaida in Iraq (QDe.115) in May 2015. Review pursuant to Security Council resolution 2610 (2021) was concluded on 8 November 2022.; Listing: Listed on: 9 Aug. 2018 (amended on 2 February 2023)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3590"
   ],
-  "birth_info": [
+  "remarks": "Reportedly deceased. Former spokesperson of the Mouvement pour l’Unification et le Jihad en Afrique de l’Ouest (MUJAO) (QDe.134). Emir of the Al-Mourabitoun (QDe.141) group in Mali. Pledged allegiance to Islamic State in Iraq and the Levant (ISIL), listed as Al-Qaida in Iraq (QDe.115) in May 2015. Review pursuant to Security Council resolution 2610 (2021) was concluded on 8 November 2022.; Listing: Listed on: 9 Aug. 2018 (amended on 2 February 2023)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1973,
       "country": "Laayoune"
     }
   ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Ménaka, Gao Region, Mali",
       "country": "Mali"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

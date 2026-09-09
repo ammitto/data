@@ -1,38 +1,56 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus1119",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus1119",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Credit Bank of Moscow",
+      "@type": "NameVariant",
+      "fullName": "Credit Bank of Moscow",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "CREDIT BANK OF MOSCOW PJSC",
+      "@type": "NameVariant",
+      "fullName": "CREDIT BANK OF MOSCOW PJSC",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "CREDIT BANK OF MOSCOW PUBLIC JOINT STOCK COMPANY",
+      "@type": "NameVariant",
+      "fullName": "CREDIT BANK OF MOSCOW PUBLIC JOINT STOCK COMPANY",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "МОСКОВСКИЙ КРЕДИТНЫЙ БАНК ",
+      "@type": "NameVariant",
+      "fullName": "МОСКОВСКИЙ КРЕДИТНЫЙ БАНК ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The prohibition on correspondent banking relationships and processing payments was imposed on 15/12/2023. The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus1119"
+  ],
+  "remarks": "The prohibition on correspondent banking relationships and processing payments was imposed on 15/12/2023. The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Lukov pereulok 2, bldg. 1",
       "state": "Moscow",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

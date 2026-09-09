@@ -1,30 +1,47 @@
 {
-  "id": "https://www.ammitto.org/entity/au/99",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/99",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mohammad Shafiq Mohammadi",
+      "@type": "NameVariant",
+      "fullName": "Mohammad Shafiq Mohammadi",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "محمد شفيق محمدی",
+      "@type": "NameVariant",
+      "fullName": "محمد شفيق محمدی",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "TAi.099 Title: Maulavi. Designation: a) Governor of Khost Province under the Taliban regime b) Governor General of Paktia, Paktia, Khost and Ghazni Provinces under the Taliban regime.Supervises two military training centers of the Taliban as of mid-2013. Believed to be in Afghanistan/Pakistan border area. Belongs to Hotak tribe. Review pursuant to Security Council resolution 1822 (2008) was concluded on 29 Jul. 2010.; Listing: Listed on 25 January 2001 (amended on 21 Sep 2007, 29 Nov. 2011 and 31 Dec. 2013)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/99"
   ],
-  "birth_info": [
+  "remarks": "TAi.099 Title: Maulavi. Designation: a) Governor of Khost Province under the Taliban regime b) Governor General of Paktia, Paktia, Khost and Ghazni Provinces under the Taliban regime.Supervises two military training centers of the Taliban as of mid-2013. Believed to be in Afghanistan/Pakistan border area. Belongs to Hotak tribe. Review pursuant to Security Council resolution 1822 (2008) was concluded on 29 Jul. 2010.; Listing: Listed on 25 January 2001 (amended on 21 Sep 2007, 29 Nov. 2011 and 31 Dec. 2013)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1948,
       "country": "Tirin Kot District"
     }
   ],
   "nationalities": [
     "Afghanistan"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

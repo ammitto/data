@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/45044",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/45044",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Sai Long Hseng",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Sai Long Hseng",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/45044"
   ],
   "remarks": "Sai Long Hseng was a member of the State Administrative Council (SAC) and its Central Advisory Body.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1947-04-18",
-      "circa": false
+      "circa": false,
+      "year": 1947
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

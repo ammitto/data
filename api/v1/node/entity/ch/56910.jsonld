@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/56910",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/56910",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Bulayev Nikolay Ivanovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Bulayev Nikolay Ivanovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/56910"
   ],
   "remarks": "Deputy chairman of the Russian Central Election Commission since 2021. He was responsible for overseeing the voting procedures to conduct the illegal “referenda” on the illegal annexation of the so-called “Donetsk People’s Republic”, so-called “Luhansk People’s Republic”, Zaporozhzhia and Kherson Regions of Ukraine by the Russian Federation in September 2022. Under his guidance, voting stations were opened inside the Russian Federation in order to facilitate this vote. In September 2023, the CEC organised illegal elections in occupied parts of Ukraine, thus attempting to legitimise Russia’s war of aggression and illegal occupation of those parts of Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1949-09-01",
-      "circa": false
+      "circa": false,
+      "year": 1949
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

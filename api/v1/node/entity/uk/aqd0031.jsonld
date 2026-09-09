@@ -1,55 +1,78 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/aqd0031",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/aqd0031",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Ansar Al Charia Derna",
+      "@type": "NameVariant",
+      "fullName": "Ansar Al Charia Derna",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ansar al Charia",
+      "@type": "NameVariant",
+      "fullName": "Ansar al Charia",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ansar al Sharia",
+      "@type": "NameVariant",
+      "fullName": "Ansar al Sharia",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ansar al-Charia Derna",
+      "@type": "NameVariant",
+      "fullName": "Ansar al-Charia Derna",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ansar al-Sharia Derna",
+      "@type": "NameVariant",
+      "fullName": "Ansar al-Sharia Derna",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "أنصار الشريعة – درنة",
+      "@type": "NameVariant",
+      "fullName": "أنصار الشريعة – درنة",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "أنصار الشريعة",
+      "@type": "NameVariant",
+      "fullName": "أنصار الشريعة",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Associated with the Organization of Al-Qaida in the Islamic Maghreb (QDE.014), Ansar al-Shari’a in Tunisia (AAS-T) (QDE.143) and Ansar al Charia Benghazi (QDE.146). Runs training camps for foreign terrorist fighters travelling to Syria and Iraq. Review pursuant to Security Council resolution 2368 (2017) was concluded on 4 Dec. 2019. INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Entities.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/aqd0031"
+  ],
+  "remarks": "Associated with the Organization of Al-Qaida in the Islamic Maghreb (QDE.014), Ansar al-Shari’a in Tunisia (AAS-T) (QDE.143) and Ansar al Charia Benghazi (QDE.146). Runs training camps for foreign terrorist fighters travelling to Syria and Iraq. Review pursuant to Security Council resolution 2368 (2017) was concluded on 4 Dec. 2019. INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Entities.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "country": "Tunisia"
     },
     {
+      "@type": "Address",
       "street": "Operates in Derna and Jebel Akhdar, Libya",
       "country": "Libya"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

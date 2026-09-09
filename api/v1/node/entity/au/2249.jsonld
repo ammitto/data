@@ -1,35 +1,53 @@
 {
-  "id": "https://www.ammitto.org/entity/au/2249",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/2249",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Iyad MAKHLOUF",
+      "@type": "NameVariant",
+      "fullName": "Iyad MAKHLOUF",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Eyad MAKHLOUF",
+      "@type": "NameVariant",
+      "fullName": "Eyad MAKHLOUF",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Iyad MAKHLUF",
+      "@type": "NameVariant",
+      "fullName": "Iyad MAKHLUF",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Last known position: Lieutenant Colonel in the Syrian General Intelligence Directorate.\nPassport No.: N001820740; Listing: Designated under the Autonomous Sanctions Regulations 2011 on 2 March 2012. Formerly listed on the RBA Consolidated List as 2011SYR0031. Instrument of first\ndesignation and\ndeclaration:\nAutonomous Sanctions (Designated Persons and Entities and\nDeclared Persons – Syria) List 2012 [F2012L00482]\nRelisted on 12 January 2024.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/2249"
   ],
-  "birth_info": [
+  "remarks": "Last known position: Lieutenant Colonel in the Syrian General Intelligence Directorate.\nPassport No.: N001820740; Listing: Designated under the Autonomous Sanctions Regulations 2011 on 2 March 2012. Formerly listed on the RBA Consolidated List as 2011SYR0031. Instrument of first\ndesignation and\ndeclaration:\nAutonomous Sanctions (Designated Persons and Entities and\nDeclared Persons – Syria) List 2012 [F2012L00482]\nRelisted on 12 January 2024.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1973,
       "country": "Damascus"
     }
   ],
   "nationalities": [
     "Syria"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

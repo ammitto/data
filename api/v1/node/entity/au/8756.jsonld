@@ -1,27 +1,43 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8756",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/8756",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Joint Stock Company Vedenie Company Registers",
+      "@type": "NameVariant",
+      "fullName": "Joint Stock Company Vedenie Company Registers",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "AO VRK",
+      "@type": "NameVariant",
+      "fullName": "AO VRK",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2026",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8756"
+  ],
+  "remarks": "Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2026",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Ul. Dobrolyubova, 16, Floor 5, Yekaterinburg, Sverdlovsk Oblast, 620014, Russia",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

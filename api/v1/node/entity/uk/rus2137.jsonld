@@ -1,24 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus2137",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus2137",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "WUHAN TONGSHENG TECHNOLOGY CO., LTD ",
+      "@type": "NameVariant",
+      "fullName": "WUHAN TONGSHENG TECHNOLOGY CO., LTD ",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus2137"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Floor 58, 13, & 15 F038, Building B",
       "city": "Hubei",
       "state": "Wuhan",
       "country": "China"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/4269",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/4269",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ruprah Sanjivan Singh",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Ruprah Sanjivan Singh",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/4269"
   ],
   "remarks": "Businessman. Former Deputy Commissioner of the Bureau of Maritime Affairs. Arms dealer in contravention of UNSC resolution 1343. Supported former President Taylor’s regime in effort to destabilize Sierra Leone and gain illicit access to diamonds.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1966-08-09",
-      "circa": false
+      "circa": false,
+      "year": 1966
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,34 +1,54 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/afg0094",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/afg0094",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "ABDUL AHAD",
-      "first_name": "Azizirahman",
+      "@type": "NameVariant",
+      "fullName": "ABDUL AHAD",
+      "firstName": "Azizirahman",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "ABDUL AHAD",
-      "first_name": "AZIZURAHMAN",
+      "@type": "NameVariant",
+      "fullName": "ABDUL AHAD",
+      "firstName": "AZIZURAHMAN",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "عزیز الرحمان عبد الاحد",
+      "@type": "NameVariant",
+      "fullName": "عزیز الرحمان عبد الاحد",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Belongs to Hotak tribe. Height 169cm. Review pursuant to Security Council resolution 1822 (2008) was concluded on 29 Jul. 2010. Photo available for inclusion in the INTERPOL-UN Security Council Special Notice. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals#2012-306385",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/afg0094"
+  ],
+  "remarks": "Belongs to Hotak tribe. Height 169cm. Review pursuant to Security Council resolution 1822 (2008) was concluded on 29 Jul. 2010. Photo available for inclusion in the INTERPOL-UN Security Council Special Notice. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals#2012-306385",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Kabul",
       "country": "Afghanistan"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

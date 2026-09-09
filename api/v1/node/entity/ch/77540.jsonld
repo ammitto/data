@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/77540",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/77540",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kibirige Amigo",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kibirige Amigo",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/77540"
   ],
   "remarks": "Amigo Kibirige is an Allied Democratic Forces (ADF) Commander. ADF is a non-governmental armed group operating in Uganda and Eastern DRC. Amigo Kibirige has been identified as one of the main ADF commanders operating in Mwalika.",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1975
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

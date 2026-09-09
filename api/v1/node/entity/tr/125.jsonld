@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/tr/125",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/tr/125",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "ULUSAL SAVUNMA BİLİMİ AKADEMİSİ (ACADEMY OF NATIONAL DEFENSE SCIENCE)",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "ULUSAL SAVUNMA BİLİMİ AKADEMİSİ (ACADEMY OF NATIONAL DEFENSE SCIENCE)",
+      "isPrimary": true
     }
   ],
-  "source_references": [
+  "sourceReferences": [
     {
-      "source_code": "tr",
-      "reference_number": "125"
+      "@type": "SourceReference",
+      "sourceCode": "tr",
+      "referenceNumber": "125",
+      "retrievedAt": "2026-09-09T16:30:41Z"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "linkedEntities": [
+
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/tr/consolidated-list/125"
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

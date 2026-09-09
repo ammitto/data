@@ -1,30 +1,47 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3271",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/3271",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Han Jang Su",
+      "@type": "NameVariant",
+      "fullName": "Han Jang Su",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Chang-Su Han",
+      "@type": "NameVariant",
+      "fullName": "Chang-Su Han",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "KPi.055 Passport no.: 745420176, expires on 19 Oct. 2020. Gender: male. Former Representative of the Foreign Trade Bank.; Listing: Listed on:5 August 2017 (amended on 29 June 2023)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3271"
   ],
-  "birth_info": [
+  "remarks": "KPi.055 Passport no.: 745420176, expires on 19 Oct. 2020. Gender: male. Former Representative of the Foreign Trade Bank.; Listing: Listed on:5 August 2017 (amended on 29 June 2023)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1969,
       "country": "Pyongyang"
     }
   ],
   "nationalities": [
     "Democratic People's Republic of Korea (North Korea)"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

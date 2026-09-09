@@ -1,30 +1,47 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8450",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/8450",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Neda Mohammad Nadeem",
+      "@type": "NameVariant",
+      "fullName": "Neda Mohammad Nadeem",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "نداء محمد ندیم",
+      "@type": "NameVariant",
+      "fullName": "نداء محمد ندیم",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Title: so-called Minister for Higher Education\n\nEthnicity: Pashtun/Hotak; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Afghanistan) List 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8450"
   ],
-  "birth_info": [
+  "remarks": "Title: so-called Minister for Higher Education\n\nEthnicity: Pashtun/Hotak; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Afghanistan) List 2025",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1977,
       "country": "Kandahar Province"
     }
   ],
   "nationalities": [
     "Afghanistan"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

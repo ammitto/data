@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/888212",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/888212",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "HEBEI CONSTRUCTION GROUP CORPORATION LIMITED NO 2 BRANCH",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "HEBEI CONSTRUCTION GROUP CORPORATION LIMITED NO 2 BRANCH",
+      "isPrimary": true
     }
   ],
-  "remarks": "河北建设集团股份有限公司第二分公司",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/888212"
+  ],
+  "remarks": "河北建设集团股份有限公司第二分公司",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "BAODING BIGUIYUAN JINGGONG HOUSE 2-1-823, NO. 101 LUGANG ROAD, JINGXIU DISTRICT",
       "city": "BAODING CITY, HEBEI PROVINCE",
       "country": "China",
-      "country_iso_code": "CN"
+      "countryIsoCode": "CN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

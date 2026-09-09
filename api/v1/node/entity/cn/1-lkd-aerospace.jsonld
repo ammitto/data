@@ -1,21 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/cn/1-lkd-aerospace",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/cn/1-lkd-aerospace",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "LKD Aerospace",
+      "@type": "NameVariant",
+      "fullName": "LKD Aerospace",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "LKD航天公司",
+      "@type": "NameVariant",
+      "fullName": "LKD航天公司",
       "script": "Hani",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "List: cn/anti-sanction-list",
-  "sanction_entry_ids": [
-    "https://www.ammitto.org/entry/cn/unknown/1-lkd-aerospace"
+  "sourceReferences": [
+
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/cn/anti-sanction-list/1-lkd-aerospace"
+  ],
+  "remarks": "List: cn/anti-sanction-list",
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,41 +1,57 @@
 {
-  "id": "https://www.ammitto.org/entity/au/47",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/47",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Qudratullah Jamal",
+      "@type": "NameVariant",
+      "fullName": "Qudratullah Jamal",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Haji Sahib",
+      "@type": "NameVariant",
+      "fullName": "Haji Sahib",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "قدرت الله جمال",
+      "@type": "NameVariant",
+      "fullName": "قدرت الله جمال",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "TAi.047 Title: Maulavi. Designation: Minister of Information under the Taliban regime (1996-2001). Passport no: Afghanistan diplomatic passport D00010126. Member of Taliban Supreme Council and member of Taliban Cultural Commission as at 2010.; Listing: Listed on 25 January 2001 (amended on 3 Sep 2003, 18 Jul 2007, 21 Sep 2007, 29 Nov 2011)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/47"
   ],
-  "birth_info": [
+  "remarks": "TAi.047 Title: Maulavi. Designation: Minister of Information under the Taliban regime (1996-2001). Passport no: Afghanistan diplomatic passport D00010126. Member of Taliban Supreme Council and member of Taliban Cultural Commission as at 2010.; Listing: Listed on 25 January 2001 (amended on 3 Sep 2003, 18 Jul 2007, 21 Sep 2007, 29 Nov 2011)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1963,
       "country": "Gardez"
     }
   ],
   "nationalities": [
     "Afghanistan"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Kabul, Afghanistan",
       "country": "Afghanistan"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

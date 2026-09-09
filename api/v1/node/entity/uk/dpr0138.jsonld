@@ -1,22 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/dpr0138",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/dpr0138",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "HESONG TRADING CORPORATION",
+      "@type": "NameVariant",
+      "fullName": "HESONG TRADING CORPORATION",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Korea Mining Development Trading Corporation (KOMID) is the parent company of Hesong Trading Corporation.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/dpr0138"
+  ],
+  "remarks": "The Korea Mining Development Trading Corporation (KOMID) is the parent company of Hesong Trading Corporation.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "state": "Pyongyang",
       "country": "North Korea"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

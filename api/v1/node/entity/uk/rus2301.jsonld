@@ -1,28 +1,44 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus2301",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus2301",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "HAINENG MACHINERY (HONG KONG) CO., LIMITED ",
+      "@type": "NameVariant",
+      "fullName": "HAINENG MACHINERY (HONG KONG) CO., LIMITED ",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "海能機械(香港)有限公司",
+      "@type": "NameVariant",
+      "fullName": "海能機械(香港)有限公司",
       "script": "Hani",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus2301"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Unit D 12/F Seabright Plaza, 9-23 Shell St North Point",
       "state": "Hong Kong",
       "country": "China"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,35 +1,50 @@
 {
-  "id": "https://www.ammitto.org/entity/au/1126",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/1126",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "YUN HO-JIN",
+      "@type": "NameVariant",
+      "fullName": "YUN HO-JIN",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Yun Ho-chin",
+      "@type": "NameVariant",
+      "fullName": "Yun Ho-chin",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "KPi.001. Director of Namchongang Trading Corporation; oversees the import of items needed for the uranium enrichment program.; Listing: First listed on 16/07/2009 (amended on 26/07/2022)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/1126"
   ],
-  "birth_info": [
+  "remarks": "KPi.001. Director of Namchongang Trading Corporation; oversees the import of items needed for the uranium enrichment program.; Listing: First listed on 16/07/2009 (amended on 26/07/2022)",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1944
     }
   ],
   "nationalities": [
     "Democratic People's Republic of Korea (North Korea)"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Pyongyang, Democratic People's Republic of Korea",
       "country": "Democratic People's Republic of Korea"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

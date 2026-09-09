@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/329740",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/329740",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "AKIN PROJECT LLC",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "AKIN PROJECT LLC",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/329740"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "APARTMENT NO. 6, HOUSE NO.325, DILARE ELIYEVA STREETM NESIMI DISTRICT 1010, OR ADDRESS EV:13 MENZIL:9, XATAI RAYONU S.,ORUCOC KUCESI,BAKI SEHERI 1010",
       "city": "BAKU",
       "country": "Azerbaijan",
-      "country_iso_code": "AZ"
+      "countryIsoCode": "AZ"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

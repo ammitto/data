@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/1328",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/1328",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Walid Hamid Tawfiq Al-Tikriti",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Walid Hamid Tawfiq Al-Tikriti",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/1328"
   ],
   "remarks": "Governor of Basrah",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1954
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

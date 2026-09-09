@@ -1,26 +1,45 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/gim0005",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/gim0005",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Kazawi Gang ",
+      "@type": "NameVariant",
+      "fullName": "Kazawi Gang ",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Kazaoui Gang",
+      "@type": "NameVariant",
+      "fullName": "Kazaoui Gang",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Kazawi Army",
+      "@type": "NameVariant",
+      "fullName": "Kazawi Army",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Gang operates from North Africa to the Balkans",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/gim0005"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "remarks": "Gang operates from North Africa to the Balkans",
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

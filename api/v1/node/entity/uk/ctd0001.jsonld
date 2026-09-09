@@ -1,70 +1,97 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/ctd0001",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/ctd0001",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Khaled",
-      "first_name": "Mohammed",
+      "@type": "NameVariant",
+      "fullName": "Khaled",
+      "firstName": "Mohammed",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abbas",
-      "first_name": "Adam",
+      "@type": "NameVariant",
+      "fullName": "Abbas",
+      "firstName": "Adam",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Alhareth",
-      "first_name": "Abo",
+      "@type": "NameVariant",
+      "fullName": "Alhareth",
+      "firstName": "Abo",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Hamawi",
-      "first_name": "Abu",
+      "@type": "NameVariant",
+      "fullName": "Hamawi",
+      "firstName": "Abu",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Hamwi",
-      "first_name": "Abu",
+      "@type": "NameVariant",
+      "fullName": "Hamwi",
+      "firstName": "Abu",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Hares",
-      "first_name": "Abu",
+      "@type": "NameVariant",
+      "fullName": "Hares",
+      "firstName": "Abu",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Hareth",
-      "first_name": "Abu",
+      "@type": "NameVariant",
+      "fullName": "Hareth",
+      "firstName": "Abu",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Khaled",
-      "first_name": "Abu",
+      "@type": "NameVariant",
+      "fullName": "Khaled",
+      "firstName": "Abu",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Naeem",
-      "first_name": "Mohammed",
+      "@type": "NameVariant",
+      "fullName": "Naeem",
+      "firstName": "Mohammed",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Address formerly London, UK, W12 The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/ctd0001"
+  ],
+  "remarks": "Address formerly London, UK, W12 The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "country": "Greece"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/313119",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/313119",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "PIONEER CONSTRUCTION LTD",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "PIONEER CONSTRUCTION LTD",
+      "isPrimary": true
     }
   ],
-  "remarks": "*228",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/313119"
+  ],
+  "remarks": "*228",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "PLOT 2B, 5TH STREET CLOSE INDUSTRIAL AREA, P.O. BOX 21160",
       "city": "KAMPALA",
       "country": "Uganda",
-      "country_iso_code": "UG"
+      "countryIsoCode": "UG"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

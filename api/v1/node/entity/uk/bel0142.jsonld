@@ -1,39 +1,63 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/bel0142",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/bel0142",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Epikhov",
-      "first_name": "Sergei",
+      "@type": "NameVariant",
+      "fullName": "Epikhov",
+      "firstName": "Sergei",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Epikhau",
-      "first_name": "Siarhei",
+      "@type": "NameVariant",
+      "fullName": "Epikhau",
+      "firstName": "Siarhei",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Yepikhau",
-      "first_name": "Siarhei",
+      "@type": "NameVariant",
+      "fullName": "Yepikhau",
+      "firstName": "Siarhei",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Сергей Александрович ЕПИХОВ ",
+      "@type": "NameVariant",
+      "fullName": "Сергей Александрович ЕПИХОВ ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Сяргей Аляксандравiч ЕПIХАЎ ",
+      "@type": "NameVariant",
+      "fullName": "Сяргей Аляксандравiч ЕПIХАЎ ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/bel0142"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

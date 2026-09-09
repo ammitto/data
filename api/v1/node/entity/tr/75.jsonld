@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/tr/75",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/tr/75",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "RI CHUN SONG",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "RI CHUN SONG",
+      "isPrimary": true
     }
   ],
-  "source_references": [
+  "sourceReferences": [
     {
-      "source_code": "tr",
-      "reference_number": "75"
+      "@type": "SourceReference",
+      "sourceCode": "tr",
+      "referenceNumber": "75",
+      "retrievedAt": "2026-09-09T16:30:41Z"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "linkedEntities": [
+
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/tr/consolidated-list/75"
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

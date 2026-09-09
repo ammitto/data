@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/1044551",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/1044551",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "PLAN S UYDU VE UZAY TEKNOLOJILERI A.S.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "PLAN S UYDU VE UZAY TEKNOLOJILERI A.S.",
+      "isPrimary": true
     }
   ],
-  "remarks": "(Reg. No: 0730073213200001) *706",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/1044551"
+  ],
+  "remarks": "(Reg. No: 0730073213200001) *706",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "ÜNIVERSITELER MAH. 1596. CAD. NO:8/1 ÇANKAYA",
       "city": "ANKARA",
       "country": "Turkiye",
-      "country_iso_code": "TR"
+      "countryIsoCode": "TR"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

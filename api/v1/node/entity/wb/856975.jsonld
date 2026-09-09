@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/856975",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/856975",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "MARSEILLE FOR ENGINEERING & TRADING S.A.L. OFFSHORE",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "MARSEILLE FOR ENGINEERING & TRADING S.A.L. OFFSHORE",
+      "isPrimary": true
     }
   ],
-  "remarks": "(MUE Group) (Reg. No. 1163) *662",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/856975"
+  ],
+  "remarks": "(MUE Group) (Reg. No. 1163) *662",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "BADARO STREET, YOUNES BUILDING, FIRST FLOOR",
       "city": "BEIRUT",
       "country": "Lebanon",
-      "country_iso_code": "LB"
+      "countryIsoCode": "LB"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,51 +1,75 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/yem0012",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/yem0012",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Al-Hamzi",
-      "first_name": "Ahmad",
+      "@type": "NameVariant",
+      "fullName": "Al-Hamzi",
+      "firstName": "Ahmad",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Al-Hamzi",
-      "first_name": "Ahmad'Ali",
+      "@type": "NameVariant",
+      "fullName": "Al-Hamzi",
+      "firstName": "Ahmad'Ali",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Al-Hamzi",
-      "first_name": "Ahmad'Ali",
+      "@type": "NameVariant",
+      "fullName": "Al-Hamzi",
+      "firstName": "Ahmad'Ali",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Al-Hamzi",
-      "first_name": "Ahmed",
+      "@type": "NameVariant",
+      "fullName": "Al-Hamzi",
+      "firstName": "Ahmed",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Al-Hamzi",
-      "first_name": "Muti",
+      "@type": "NameVariant",
+      "fullName": "Al-Hamzi",
+      "firstName": "Muti",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "أحمد الحمزي ",
+      "@type": "NameVariant",
+      "fullName": "أحمد الحمزي ",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Ahmad Al-Hamzi, the commander of the Houthi Air Force and Air Defense Forces, as well as its UAV program, plays a leading role in Houthi military efforts that directly threaten the peace, security, and stability of Yemen. Physical Description: Eye Color: Brown; Hair: Brown. INTERPOL-UN Security Council Special Notice web link:  https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individual.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/yem0012"
+  ],
+  "remarks": "Ahmad Al-Hamzi, the commander of the Houthi Air Force and Air Defense Forces, as well as its UAV program, plays a leading role in Houthi military efforts that directly threaten the peace, security, and stability of Yemen. Physical Description: Eye Color: Brown; Hair: Brown. INTERPOL-UN Security Council Special Notice web link:  https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individual.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "country": "Yemen"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

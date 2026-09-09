@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/319342",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/319342",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "SOLUCIONES ENERGÉTICAS, S. A.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "SOLUCIONES ENERGÉTICAS, S. A.",
+      "isPrimary": true
     }
   ],
-  "remarks": "*283",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/319342"
+  ],
+  "remarks": "*283",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "AVENIDA REAL DE PINTO, 146",
       "city": "MADRID 28021",
       "country": "Spain",
-      "country_iso_code": "ES"
+      "countryIsoCode": "ES"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,36 +1,56 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/lib0001",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/lib0001",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Libyan Arab African Investment Company",
+      "@type": "NameVariant",
+      "fullName": "Libyan Arab African Investment Company",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "LAAICO",
+      "@type": "NameVariant",
+      "fullName": "LAAICO",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "LAICO",
+      "@type": "NameVariant",
+      "fullName": "LAICO",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/lib0001"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "state": "Janzour",
       "country": "Libya"
     },
     {
+      "@type": "Address",
+      "street": "",
       "state": "Tripoli",
       "country": "Libya"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

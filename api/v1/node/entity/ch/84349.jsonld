@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/84349",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/84349",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Aseel Muthana",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Aseel Muthana",
+      "isPrimary": true
     }
   ],
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/84349"
+  ],
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1996-11-22",
-      "circa": false
+      "circa": false,
+      "year": 1996
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

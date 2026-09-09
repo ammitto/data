@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/12825",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/12825",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Qadhafi Saif al-Islam",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Qadhafi Saif al-Islam",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/12825"
   ],
   "remarks": "Director, Qadhafi Foundation. Son of Muammar Qadhafi. Closeness of association with regime. Inflammatory public statements encouraging violence against demonstrators.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1972-06-25",
-      "circa": false
+      "circa": false,
+      "year": 1972
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

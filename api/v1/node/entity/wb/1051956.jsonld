@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/1051956",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/1051956",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "J&J CONSTRUCTION COMPANY",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "J&J CONSTRUCTION COMPANY",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/1051956"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "KINGS TIN COMPLE, LUNZU INDUSTRIAL SITE, NEXT TO AFIASAN",
       "city": "P.O. BOX 2442 BLANTYRE",
       "country": "Malawi",
-      "country_iso_code": "MW"
+      "countryIsoCode": "MW"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,61 +1,81 @@
 {
-  "id": "https://www.ammitto.org/entity/au/180",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/180",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mohammad Hamdi Mohammad Sadiq Al-Ahdal",
+      "@type": "NameVariant",
+      "fullName": "Mohammad Hamdi Mohammad Sadiq Al-Ahdal",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Al-Hamati, Muhammad",
+      "@type": "NameVariant",
+      "fullName": "Al-Hamati, Muhammad",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "محمد حمدي محمد صادق الأهدل",
+      "@type": "NameVariant",
+      "fullName": "محمد حمدي محمد صادق الأهدل",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ahmed",
+      "@type": "NameVariant",
+      "fullName": "Ahmed",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Mohamed Mohamed Abdullah Al-Ahdal ",
+      "@type": "NameVariant",
+      "fullName": "Mohamed Mohamed Abdullah Al-Ahdal ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Muhammad Muhammad Abdullah Al-Ahdal",
+      "@type": "NameVariant",
+      "fullName": "Muhammad Muhammad Abdullah Al-Ahdal",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abu Asim Al-Makki",
+      "@type": "NameVariant",
+      "fullName": "Abu Asim Al-Makki",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "QDi.020. \nPassport no: Yemen number 541939, issued on\n31 July 2000, issued in Al-Hudaydah, Yemen (in the name of Muhammad Muhammad Abdullah Al-Ahdal)\nNational identification no: Yemeni identity card number 216040\nListed on 17 Oct. 2001 (amended on 30 Jan. 2009, 25 Jan. 2010, 6 Dec. 2019, 30 Oct. 2023).\nOther information: Responsible for the finances of Al-Qa’ida (QDe.004) in Yemen. Accused of involvement in the attack on the USS Cole in 2000. Arrested in Yemen in November 2003. Sentenced to three years and one month of imprisonment by the specialized criminal court of first instance in Yemen. Released on 25 December 2006 after the completion of his sentence. Review pursuant to Security Council resolution 1822 (2008) was concluded on 8 July 2010. Review pursuant to Security Council resolution 2368 (2017) was concluded on 4 December 2019. Review pursuant to Security Council resolution 2610 (2021) was concluded on 30 October 2023.; Listing: Listed by UN 1267 Committee on 17 October 2001 (amended on 30 January 2009, 25 January 2010, 6 Dec 2019, 30 October 2023)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/180"
   ],
-  "birth_info": [
+  "remarks": "QDi.020. \nPassport no: Yemen number 541939, issued on\n31 July 2000, issued in Al-Hudaydah, Yemen (in the name of Muhammad Muhammad Abdullah Al-Ahdal)\nNational identification no: Yemeni identity card number 216040\nListed on 17 Oct. 2001 (amended on 30 Jan. 2009, 25 Jan. 2010, 6 Dec. 2019, 30 Oct. 2023).\nOther information: Responsible for the finances of Al-Qa’ida (QDe.004) in Yemen. Accused of involvement in the attack on the USS Cole in 2000. Arrested in Yemen in November 2003. Sentenced to three years and one month of imprisonment by the specialized criminal court of first instance in Yemen. Released on 25 December 2006 after the completion of his sentence. Review pursuant to Security Council resolution 1822 (2008) was concluded on 8 July 2010. Review pursuant to Security Council resolution 2368 (2017) was concluded on 4 December 2019. Review pursuant to Security Council resolution 2610 (2021) was concluded on 30 October 2023.; Listing: Listed by UN 1267 Committee on 17 October 2001 (amended on 30 January 2009, 25 January 2010, 6 Dec 2019, 30 October 2023)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1971,
       "country": "Medina"
     }
   ],
   "nationalities": [
     "Yemen"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Jamal street, Al-Dahima alley, Al-Hudaydah, Yemen",
       "country": "Yemen"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

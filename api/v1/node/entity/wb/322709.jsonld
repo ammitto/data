@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/322709",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/322709",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "CHUY FRP COMPOSITE LLC",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "CHUY FRP COMPOSITE LLC",
+      "isPrimary": true
     }
   ],
-  "remarks": "*299",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/322709"
+  ],
+  "remarks": "*299",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "KOJOMBERDIEVA, 4 STREET",
       "city": "KARA-BALTA CITY, 724411",
       "country": "Kyrgyz Republic",
-      "country_iso_code": "KG"
+      "countryIsoCode": "KG"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

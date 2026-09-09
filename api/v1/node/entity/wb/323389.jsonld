@@ -1,23 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/323389",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/wb/323389",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MR. NABOR MIRANDA GAMBINI",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "MR. NABOR MIRANDA GAMBINI",
+      "isPrimary": true
     }
   ],
-  "remarks": "*304",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/323389"
+  ],
+  "remarks": "*304",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "PASAJE SR. DE LOS MILAGROS NO. 104, INDEPENDENCIA-HUARAZ",
       "city": "ANCASH",
       "country": "Peru",
-      "country_iso_code": "PE"
+      "countryIsoCode": "PE"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

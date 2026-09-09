@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/28557",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/28557",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kovalchuk Yuriy Valentinovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kovalchuk Yuriy Valentinovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/28557"
   ],
   "remarks": "Mr Kovalchuk is a long-time acquaintance of President Putin. He is a co-founder of the so-called Ozero Dacha, a cooperative society bringing together an influential group of individuals around President Putin.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1951-07-25",
-      "circa": false
+      "circa": false,
+      "year": 1951
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

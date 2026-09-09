@@ -1,73 +1,98 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus1433",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus1433",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Forss Technology Ltd",
+      "@type": "NameVariant",
+      "fullName": "Forss Technology Ltd",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Forss Marine",
+      "@type": "NameVariant",
+      "fullName": "Forss Marine",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "FT Ltd",
+      "@type": "NameVariant",
+      "fullName": "FT Ltd",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "OOO Forss Teknologii",
+      "@type": "NameVariant",
+      "fullName": "OOO Forss Teknologii",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "OOO Smart Marin",
+      "@type": "NameVariant",
+      "fullName": "OOO Smart Marin",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "ООО ФОРСС ТЕХНОЛОГИИ ",
+      "@type": "NameVariant",
+      "fullName": "ООО ФОРСС ТЕХНОЛОГИИ ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Форсс Марин",
+      "@type": "NameVariant",
+      "fullName": "Форсс Марин",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "ООО ФТ",
+      "@type": "NameVariant",
+      "fullName": "ООО ФТ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "ООО Форсс Технологии",
+      "@type": "NameVariant",
+      "fullName": "ООО Форсс Технологии",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "ООО Смарт Марин",
+      "@type": "NameVariant",
+      "fullName": "ООО Смарт Марин",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "OGRN: 1137847075057; KPP: 780601001 The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus1433"
+  ],
+  "remarks": "OGRN: 1137847075057; KPP: 780601001 The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "1st floor, Room 1h, 44/117, Bronnistkaya street, Semyonovskii, Admiralteiskii region",
       "state": "St. Petersburg",
       "country": "Russia"
     },
     {
+      "@type": "Address",
       "street": "51, lit. E, Magnitogorskaya street",
       "state": "St. Petersburg",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

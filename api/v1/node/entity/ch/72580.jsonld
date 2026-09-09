@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/72580",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/72580",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Shatilo Valeriy Petrovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Shatilo Valeriy Petrovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/72580"
   ],
   "remarks": "Valeriy Shatilo held the position of Director of OJSC 2566 Plant for the Repair of Radio-Electronic Weapons until February 2025. The enterprise specialises in the repair and modernisation of weapons and air defence equipment, as well as other complex radio-electronic equipment and military products. OJSC 2566 Radioelectronic Armament Repair Plant is providing maintenance and repair services to the Russian Armed Forces.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1959-03-21",
-      "circa": false
+      "circa": false,
+      "year": 1959
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

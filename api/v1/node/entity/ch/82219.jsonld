@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/82219",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/82219",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Sulaiman Jassem Sulaiman Ali Abo Ghaith",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Sulaiman Jassem Sulaiman Ali Abo Ghaith",
+      "isPrimary": true
     }
   ],
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/82219"
+  ],
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1965-12-14",
-      "circa": false
+      "circa": false,
+      "year": 1965
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

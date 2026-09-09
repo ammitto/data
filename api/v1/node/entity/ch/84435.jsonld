@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/84435",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/84435",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Islam Seit-Umarovich Atabiev",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Islam Seit-Umarovich Atabiev",
+      "isPrimary": true
     }
   ],
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/84435"
+  ],
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1983-09-29",
-      "circa": false
+      "circa": false,
+      "year": 1983
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

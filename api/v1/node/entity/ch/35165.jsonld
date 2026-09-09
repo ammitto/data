@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/35165",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/35165",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Salameh Adib",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Salameh Adib",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/35165"
   ],
   "remarks": "Member of the Syrian security and intelligence services under the former al-Assad regime in post after May 2011; Deputy Director of the Air Force Intelligence Directorate in Damascus; previously Head of Air Force Intelligence in Aleppo.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1953-11-26",
-      "circa": false
+      "circa": false,
+      "year": 1953
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

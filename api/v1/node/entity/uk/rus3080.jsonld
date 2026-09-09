@@ -1,67 +1,91 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus3080",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus3080",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "JSC BBR Bank ",
+      "@type": "NameVariant",
+      "fullName": "JSC BBR Bank ",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "BBR Bank  ",
+      "@type": "NameVariant",
+      "fullName": "BBR Bank  ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "BBR Bank (Joint Stock Company) ",
+      "@type": "NameVariant",
+      "fullName": "BBR Bank (Joint Stock Company) ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "BBR Bank (JSC) ",
+      "@type": "NameVariant",
+      "fullName": "BBR Bank (JSC) ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Joint Stock Company BBR Bank ",
+      "@type": "NameVariant",
+      "fullName": "Joint Stock Company BBR Bank ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "АО ББР Банк ",
+      "@type": "NameVariant",
+      "fullName": "АО ББР Банк ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "ББР БАНК ",
+      "@type": "NameVariant",
+      "fullName": "ББР БАНК ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "ББР Банк (Акционерное общество) ",
+      "@type": "NameVariant",
+      "fullName": "ББР Банк (Акционерное общество) ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "ББР Банк (АО) ",
+      "@type": "NameVariant",
+      "fullName": "ББР Банк (АО) ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Акционерное общество ББР Банк ",
+      "@type": "NameVariant",
+      "fullName": "Акционерное общество ББР Банк ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus3080"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "1st Nikoloschepovskiy Lane, Bld. 6, Block 1",
       "state": "Moscow",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

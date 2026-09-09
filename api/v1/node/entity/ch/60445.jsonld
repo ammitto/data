@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/60445",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/60445",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Khersontsev Aleksey Igorevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Khersontsev Aleksey Igorevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/60445"
   ],
   "remarks": "Aleksey Khersontsev is Deputy Minister of the Russian Ministry of Economic Development. During his administration, the Ministry of Economic Development has been involved in activities to undermine and threaten the territorial integrity of Ukraine, including measures to explore the economic potential of the annexed Ukrainian regions\n(Kherson, Zaporizhzhia, the so-called “Donetsk People’s Republic” and “Luhansk People’s Republic”) as well as activities to support war economy measures of the Russian government. Aleksey Khersontsev is therefore responsible for activities that undermine and threaten the territorial integrity of Ukraine, and he is a natural person supporting the Government of the Russian Federation, which is responsible for the annexation of Crimea and the destabilisation of Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1980-08-21",
-      "circa": false
+      "circa": false,
+      "year": 1980
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

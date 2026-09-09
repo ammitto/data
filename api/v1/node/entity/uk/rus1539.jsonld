@@ -1,28 +1,50 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus1539",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/rus1539",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "CHUYCHENKO",
-      "first_name": "Konstantin",
+      "@type": "NameVariant",
+      "fullName": "CHUYCHENKO",
+      "firstName": "Konstantin",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "CHUICHENKO",
-      "first_name": "Konstantin",
+      "@type": "NameVariant",
+      "fullName": "CHUICHENKO",
+      "firstName": "Konstantin",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Константин Анатольевич Чуйченко",
+      "@type": "NameVariant",
+      "fullName": "Константин Анатольевич Чуйченко",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus1539"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

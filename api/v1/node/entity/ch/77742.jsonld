@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/77742",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/77742",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Taustsiankou Dzianis Anatolievich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Taustsiankou Dzianis Anatolievich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/77742"
   ],
   "remarks": "Dzianis Taustsiankou is the head of the correctional institution Penal Colony No 4, where Polina Sharendo-Panasyuk, a social activist, is imprisoned. Sharendo’s husband, Andrei Sharendo, has spoken about the inhumane conditions and torture that his wife has been facing in that colony.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1977-08-17",
-      "circa": false
+      "circa": false,
+      "year": 1977
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

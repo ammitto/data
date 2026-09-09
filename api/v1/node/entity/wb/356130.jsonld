@@ -1,22 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/356130",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/wb/356130",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MS. SABRINA MARY WILLIAMS",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "MS. SABRINA MARY WILLIAMS",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/356130"
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "LOT 97 PHASE 2, LETHEM, RUPUNINI",
       "city": "REGION NO. 9, ESSEQUIBO",
       "country": "Guyana",
-      "country_iso_code": "GY"
+      "countryIsoCode": "GY"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

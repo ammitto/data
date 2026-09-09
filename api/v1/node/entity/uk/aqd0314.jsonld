@@ -1,42 +1,76 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/aqd0314",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/aqd0314",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "AL-AJMI",
-      "first_name": "SHAFI",
+      "@type": "NameVariant",
+      "fullName": "AL-AJMI",
+      "firstName": "SHAFI",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abu-Sultan",
-      "first_name": "Shaykh",
+      "@type": "NameVariant",
+      "fullName": "Abu-Sultan",
+      "firstName": "Shaykh",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "al-Ajmi",
-      "first_name": "Shafi",
+      "@type": "NameVariant",
+      "fullName": "Alajmi",
+      "firstName": "Shafi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "al-Ajmi",
-      "first_name": "Sheikh",
+      "@type": "NameVariant",
+      "fullName": "al-Ajmi",
+      "firstName": "Shafi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
+    },
+    {
+      "@type": "NameVariant",
+      "fullName": "al-Ajmi",
+      "firstName": "Sheikh",
+      "script": "Latn",
+      "isPrimary": false
+    },
+    {
+      "@type": "NameVariant",
+      "fullName": "  ﺷﺎﻓﻲ ﺳﻠﻄﺎن ﻣﺤﻤﺪ ﺳﻠﻄ",
+      "script": "Arab",
+      "isPrimary": false
     }
   ],
-  "remarks": "Fundraiser for Al-Nusrah Front for the People of the Levant (QDe.137).  In November 2023, he was released from prison in Kuwait as part of the Special Amiri Decree Pardon No. 225/2023.  Review pursuant to Security Council resolution 2368 (2017) was concluded on 24 November 2020.  INTERPOL-UN Security Council Special Notice web link:  https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/aqd0314"
+  ],
+  "remarks": "Fundraiser for Al-Nusrah Front for the People of the Levant (QDe.137).  In November 2023, he was released from prison in Kuwait as part of the Special Amiri Decree Pardon No. 225/2023. Photo available for inclusion \nin the INTERPOL-UN Security Council Special Notice. Review pursuant to Security Council resolution 2368 (2017) was concluded on 24 November 2020.  INTERPOL-UN Security Council Special Notice web link:  https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Area 3, Street 327, Building 41",
       "state": "Al-Uqaylah",
       "country": "Kuwait"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

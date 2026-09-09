@@ -1,37 +1,47 @@
 {
-  "id": "https://www.ammitto.org/entry/au/consolidated-list/2588",
-  "entity_id": "https://www.ammitto.org/entity/au/2588",
+  "@id": "https://www.ammitto.org/entry/au/consolidated-list/2588",
+  "@type": "SanctionEntry",
+  "entityId": "https://www.ammitto.org/entity/au/2588",
   "authority": {
     "@id": "https://www.ammitto.org/authority/au"
   },
   "regime": {
-    "@id": "https://www.ammitto.org/regime/au_iran_auto"
+    "@id": "https://www.ammitto.org/regime/au_iran_auto",
+    "name": "Iran (Autonomous)"
   },
-  "legal_bases": [
+  "legalBases": [
     {
-      "type": "instrument",
-      "identifier": "Instrument of first designation Autonomous Sanctions (Designated Persons and Entities and Declared Persons - Iran) Amendment List 2013 (No. 1) [F2013L01312]. Relisted on 12 January 2024.",
-      "title": "Instrument of first designation Autonomous Sanctions (Designated Persons and Entities and Declared Persons - Iran) Amendment List 2013 (No. 1) [F2013L01312]. Relisted on 12 January 2024."
+      "@id": "https://www.ammitto.org/legal-instrument/au/instrument-of-first-designation-autonomous-sanctions-designated-persons-and-entities-and-declared-persons-iran-amendment-list-2013-no.-1-f2013l01312-.-relisted-on-12-january-2024."
     }
   ],
   "effects": [
     {
-      "effect_type": "asset_freeze",
+      "@type": "SanctionEffect",
+      "effectType": "asset_freeze",
       "scope": "full"
     },
     {
-      "effect_type": "travel_ban",
+      "@type": "SanctionEffect",
+      "effectType": "travel_ban",
       "scope": "full"
     }
   ],
+  "reasons": [
+
+  ],
   "period": {
-    "is_indefinite": true
+    "@type": "TemporalPeriod",
+    "isIndefinite": true
   },
   "status": "active",
-  "reference_number": "2588",
-  "raw_source_data": {
-    "source_format": "csv",
-    "source_specific_fields": {
+  "statusHistory": [
+
+  ],
+  "referenceNumber": "2588",
+  "rawSourceData": {
+    "@type": "RawSourceData",
+    "sourceFormat": "csv",
+    "sourceSpecificFields": {
       "au:reference": "2588",
       "au:committees": "Autonomous (Iran)",
       "au:control_date": "2024-01-12",
@@ -39,5 +49,5 @@
       "au:listing_info": "Instrument of first designation Autonomous Sanctions (Designated Persons and Entities and Declared Persons - Iran) Amendment List 2013 (No. 1) [F2013L01312]. Relisted on 12 January 2024."
     }
   },
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/dpr0198",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/dpr0198",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "YUK TUNG ENERGY PTE LTD",
+      "@type": "NameVariant",
+      "fullName": "YUK TUNG ENERGY PTE LTD",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Ship manager and commercial manager of the YUK TUNG, which conducted ship-to-ship transfer of refined petroleum product. IMO number: 5987860.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/dpr0198"
+  ],
+  "remarks": "Ship manager and commercial manager of the YUK TUNG, which conducted ship-to-ship transfer of refined petroleum product. IMO number: 5987860.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "80 Raffles Place, 17-22 UOB Plaza",
       "city": "Singapore",
       "country": "Singapore"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

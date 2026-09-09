@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/53103",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/53103",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Rotenberg Igor Arkadyevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Rotenberg Igor Arkadyevich",
+      "isPrimary": true
     }
   ],
-  "remarks": "Igor Rotenberg is a leading Russian businessperson, and the oldest son of Arkady Rotenberg, a prominent Russian businessperson and former co-owner of the SGM (Stroygazmontazh) group. He is the former owner of Gazprom Drilling and a former shareholder in Platon Electronic Toll Collection system. The Rotenbergs are closely associated with the President of the Russian Federation, Vladimir Putin. Due to his past and current positions in leading Russian enterprises, which have been receiving large state contracts, and his close ties with the President of the Russian Federation, Vladimir Putin, Igor Rotenberg continues to benefit from Russian decision-makers and the Government of the Russian Federation, both responsible for the annexation of Crimea and the destabilisation of Ukraine. Furthermore, he is a natural person associated with Arkady Rotenberg and the President of the Russian Federation, Vladimir Putin, both listed under restrictive measures in respect of actions undermining or threatening the territorial integrity, sovereignty and independence of Ukraine.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/53103"
+  ],
+  "remarks": "Igor Rotenberg is a prominent Russian businessperson, and the oldest son of Arkady Rotenberg. He is the former owner of Gazprom Drilling and a former shareholder in Platon Electronic Toll Collection system.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1973-05-09",
-      "circa": false
+      "circa": false,
+      "year": 1973
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

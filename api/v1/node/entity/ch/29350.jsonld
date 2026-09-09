@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/29350",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/29350",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Vodolatsky Viktor Petrovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Vodolatsky Viktor Petrovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/29350"
   ],
   "remarks": "Former chairman (“ataman”) of the Union of the Russian and Foreign Cossack Forces. Member of the State Duma since its fifth convocation from 2 December 2007 on. Currently, he is the First Deputy Chairman of the Duma Committee for CIS affairs, Eurasian integration and relations with compatriots.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1957-08-19",
-      "circa": false
+      "circa": false,
+      "year": 1957
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

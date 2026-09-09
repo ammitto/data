@@ -1,0 +1,52 @@
+{
+  "@id": "https://www.ammitto.org/entry/un/consolidated-list/ire016",
+  "@type": "SanctionEntry",
+  "entityId": "https://www.ammitto.org/entity/un/ire016",
+  "authority": {
+    "@id": "https://www.ammitto.org/authority/un"
+  },
+  "regime": {
+    "@id": "https://www.ammitto.org/regime/iran",
+    "name": "Iran"
+  },
+  "legalBases": [
+
+  ],
+  "effects": [
+    {
+      "@type": "SanctionEffect",
+      "effectType": "asset_freeze",
+      "scope": "full"
+    },
+    {
+      "@type": "SanctionEffect",
+      "effectType": "travel_ban",
+      "scope": "full"
+    }
+  ],
+  "reasons": [
+
+  ],
+  "period": {
+    "@type": "TemporalPeriod",
+    "listedDate": "2008-03-03",
+    "effectiveDate": "2008-03-03",
+    "isIndefinite": true
+  },
+  "status": "active",
+  "statusHistory": [
+
+  ],
+  "referenceNumber": "IRe.016",
+  "remarks": "AIO front-company, involved in the ballistic missile programme. [Old\nReference # E.03.III.4]",
+  "rawSourceData": {
+    "@type": "RawSourceData",
+    "sourceFormat": "xml",
+    "sourceSpecificFields": {
+      "un:dataId": "110388",
+      "un:versionNum": "1",
+      "un:entityType": "entity"
+    }
+  },
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
+}

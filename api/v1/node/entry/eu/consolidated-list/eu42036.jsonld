@@ -1,0 +1,49 @@
+{
+  "@id": "https://www.ammitto.org/entry/eu/consolidated-list/eu42036",
+  "@type": "SanctionEntry",
+  "entityId": "https://www.ammitto.org/entity/eu/eu42036",
+  "authority": {
+    "@id": "https://www.ammitto.org/authority/eu"
+  },
+  "regime": {
+    "@id": "https://www.ammitto.org/regime/taqa",
+    "name": "TAQA"
+  },
+  "legalBases": [
+    {
+      "@id": "https://www.ammitto.org/legal-instrument/eu/597-2011-oj-l162"
+    }
+  ],
+  "effects": [
+    {
+      "@type": "SanctionEffect",
+      "effectType": "asset_freeze",
+      "scope": "full"
+    }
+  ],
+  "reasons": [
+
+  ],
+  "period": {
+    "@type": "TemporalPeriod",
+    "listedDate": "2011-06-22",
+    "effectiveDate": "2011-06-21",
+    "isIndefinite": true
+  },
+  "status": "active",
+  "statusHistory": [
+
+  ],
+  "referenceNumber": "EU.420.36",
+  "rawSourceData": {
+    "@type": "RawSourceData",
+    "sourceFormat": "xml",
+    "sourceSpecificFields": {
+      "eu:logicalId": "510",
+      "eu:unitedNationId": null,
+      "eu:designationDetails": null,
+      "eu:subjectTypeCode": "person"
+    }
+  },
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
+}

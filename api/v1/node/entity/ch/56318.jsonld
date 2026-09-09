@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/56318",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/56318",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Velikdan Nikolay Timofeevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Velikdan Nikolay Timofeevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/56318"
   ],
   "remarks": "Nikolay Velikdan has been the Chairman of the Stavropol Regional Duma since 30 September 2021. He is a member of the Stavropol Regional Duma since 19 September 2021 and former first Deputy Chairman of the Government of the Stavropol Territory. He is a member of the Kremlin-aligned ruling party “United Russia” and member of the Presidium of the Regional Political Council of the Party.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1956-03-06",
-      "circa": false
+      "circa": false,
+      "year": 1956
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/70540",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/70540",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Paliukh Anna Borisovna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Paliukh Anna Borisovna",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/70540"
   ],
   "remarks": "Anna Paliukh, whose pseudonym is Anna Shafran, is a Russian propagandist who spreads Russian propaganda and publicly supports Russia’s war of aggression against Ukraine. She holds the position of Head of the Directorate of Analytical Radio Programmes of Zvezda media holding, which is a state-owned media network run by the\nRussian Ministry of Defence. She consistently justifies Russia’s actions in the war and demonises the people and government of Ukraine, stating publicly that Ukraine needs to be demilitarised and denazified. Therefore, she is supporting and implementing actions and policies which undermine and threaten the territorial integrity, sovereignty and\nindependence of Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1982-12-31",
-      "circa": false
+      "circa": false,
+      "year": 1982
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

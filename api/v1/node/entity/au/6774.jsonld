@@ -1,32 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/au/6774",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/6774",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Bank for Development and Foreign Economic Affairs",
+      "@type": "NameVariant",
+      "fullName": "Bank for Development and Foreign Economic Affairs",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Vnesheconombank (VEB)",
+      "@type": "NameVariant",
+      "fullName": "Vnesheconombank (VEB)",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Gosudarstvennaya Koroporatsiya Razvitiya VEB.RF",
+      "@type": "NameVariant",
+      "fullName": "Gosudarstvennaya Koroporatsiya Razvitiya VEB.RF",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Website: www.veb.ru; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 8) Instrument 2022",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/6774"
+  ],
+  "remarks": "Website: www.veb.ru; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 8) Instrument 2022",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "9 Akademika Sakharova Prospekt, Moscow 108996, Russia",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

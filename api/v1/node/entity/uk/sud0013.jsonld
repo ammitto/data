@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/sud0013",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/sud0013",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Meroe Gold",
+      "@type": "NameVariant",
+      "fullName": "Meroe Gold",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/sud0013"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Al-jref Gharb, Plot 134, Blok 1h",
       "state": "Khartoum",
       "country": "Sudan"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

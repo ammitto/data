@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/88653",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/88653",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kolbin Vladimir Petrovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kolbin Vladimir Petrovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/88653"
   ],
   "remarks": "Vladimir Kolbin is the son of President Vladimir Putin’s childhood friend and business associate, Peter Kolbin. Vladimir Kolbin is acting as representative, director or shareholder of various entities belonging to a network of companies and holding entities securing the financial assets of Vladimir Putin and Gennady Timchenko.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1975-06-10",
-      "circa": false
+      "circa": false,
+      "year": 1975
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/88436",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/88436",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Dronov Evgenii Anatolevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Dronov Evgenii Anatolevich",
+      "isPrimary": true
     }
   ],
-  "remarks": "Evgenii Dronov is the General Director of JSC Tula Machine Building Plant (a.k.a. Tulamashzavod). JSC Tula Machine Building Plant is a Russian defence manufacturer with a specialisation in the production of advanced military equipment, particularly in the domain of anti-aircraft weaponry and artillery systems. The company is responsible for the development and manufacturing of several key defence systems, including the KASHTAN anti-aircraft missile and artillery system, the PALMA anti-aircraft artillery system, and a range of 30 mm automatic cannons and machine guns such as the Gryazev-Shipunov GSh-6-30 and the 2A72. Those systems are integrated into various military platforms, including infantry fighting vehicles such as the BMP-3 and BTR-80A, and are also mounted on strategic assets such as the Kuznetsov class aircraft carrier.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/88436"
+  ],
+  "remarks": "Evgenii Dronov held the position of General Director of JSC Tula Machine Building Plant (a.k.a. Tulamashzavod). JSC Tula Machine Building Plant is a Russian defence manufacturer with a specialisation in the production of advanced military equipment, particularly in the domain of anti-aircraft weaponry and artillery systems. The company is responsible for the development and manufacturing of several key defence systems, including the KASHTAN anti-aircraft missile and artillery system, the PALMA anti-aircraft artillery system, and a range of 30 mm automatic cannons and machine guns such as the Gryazev-Shipunov GSh-6-30 and the 2A72. Those systems are integrated into various military platforms, including infantry fighting vehicles such as the BMP-3 and BTR-80A, and are also mounted on strategic assets such as the Kuznetsov class aircraft carrier.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1947-10-20",
-      "circa": false
+      "circa": false,
+      "year": 1947
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

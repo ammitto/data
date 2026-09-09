@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/86847",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/86847",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Dolina Larisa Aleksandrovna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Dolina Larisa Aleksandrovna",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/86847"
   ],
   "remarks": "Larisa Dolina is a Russian singer and actress. Since the beginning of the Russian war of aggression against Ukraine, Dolina has frequently supported Russia’s actions which threaten the territorial integrity, sovereignty and independence of Ukraine. To that end, Dolina has worked with the Russian Ministry of Defence and led entertainment campaigns on behalf of the Russian Government to reward Russian military personnel for their participation in the Russian war of aggression against Ukraine. She moreover gave public concerts in the Russian occupied Donbass region in coordination with the Russian Government.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1955-09-10",
-      "circa": false
+      "circa": false,
+      "year": 1955
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

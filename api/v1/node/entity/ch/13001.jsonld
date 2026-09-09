@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/13001",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/13001",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Qadhafi Saadi",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Qadhafi Saadi",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/13001"
   ],
   "remarks": "Commander Special Forces. Son of Muammar Qadhafi. Closeness of association with regime. Command of military units involved in repression of demonstrations",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1973-05-27",
-      "circa": false
+      "circa": false,
+      "year": 1973
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

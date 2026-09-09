@@ -1,28 +1,44 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/mya0044",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/mya0044",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "JSC Gorizont",
+      "@type": "NameVariant",
+      "fullName": "JSC Gorizont",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "АО \"ГОРИЗОНТ\"",
+      "@type": "NameVariant",
+      "fullName": "АО \"ГОРИЗОНТ\"",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/mya0044"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "2 \"J\", Omskaya str.",
       "state": "Rostov-on-Don",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

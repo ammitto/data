@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/45419",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/45419",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Buhuk Natallia Mikhailauna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Buhuk Natallia Mikhailauna",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/45419"
   ],
   "remarks": "In her former position as judge at the Fruzensky district court in Minsk, Natallia Buhuk was responsible for numerous politically motivated rulings against journalists and protesters, in particular the sentencing of Katsiaryna Bakhvalava (Andreyeva) and Darya Chultsova. Violations of rights of defence and of right to a fair trial were reported during trials conducted under her supervision. She is therefore responsible for serious human rights violations and for seriously undermining the rule of law, as well as for the repression of civil society and democratic opposition. She remains active in the Lukashenka regime as a judge of the Minsk City Court.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1989-12-19",
-      "circa": false
+      "circa": false,
+      "year": 1989
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

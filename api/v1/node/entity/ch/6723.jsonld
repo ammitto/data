@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/6723",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/6723",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mugabe Grace",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Mugabe Grace",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/6723"
   ],
   "remarks": "Former Secretary of the ZANU-PF (Zimbabwe African National Union – Patriotic Front) Women's league, involved in activities that seriously undermine democracy, respect for human rights and the rule of law. Took over the Iron Mask Estate in 2002; alleged to illicitly derive large profits from diamond mining.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1965-07-23",
-      "circa": false
+      "circa": false,
+      "year": 1965
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

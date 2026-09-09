@@ -1,27 +1,44 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/inu0248",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/inu0248",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "OMRAN SAHEL",
+      "@type": "NameVariant",
+      "fullName": "OMRAN SAHEL",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "OMRAN SAHEL CO.",
+      "@type": "NameVariant",
+      "fullName": "OMRAN SAHEL CO.",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Omran Sahel was listed pursuant to paragraph 12 of resolution 1737 (2006), as read with resolutions 1747, 1803 and 1929, as owned or controlled by Ghorb Nooh. Entities owned, controlled, or acting on behalf of the Islamic Revolutionary Guard Corps. The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/inu0248"
+  ],
+  "remarks": "Omran Sahel was listed pursuant to paragraph 12 of resolution 1737 (2006), as read with resolutions 1747, 1803 and 1929, as owned or controlled by Ghorb Nooh. Entities owned, controlled, or acting on behalf of the Islamic Revolutionary Guard Corps. The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "state": "Tehran",
       "country": "Iran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

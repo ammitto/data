@@ -1,42 +1,62 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/dpr0194",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/dpr0194",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "STRATEGIC ROCKET FORCE OF THE KOREAN PEOPLE'S ARMY",
+      "@type": "NameVariant",
+      "fullName": "STRATEGIC ROCKET FORCE OF THE KOREAN PEOPLE'S ARMY",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Strategic Force",
+      "@type": "NameVariant",
+      "fullName": "Strategic Force",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Strategic Forces",
+      "@type": "NameVariant",
+      "fullName": "Strategic Forces",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Strategic Rocket Force",
+      "@type": "NameVariant",
+      "fullName": "Strategic Rocket Force",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Strategic Rocket Force Command of KPA",
+      "@type": "NameVariant",
+      "fullName": "Strategic Rocket Force Command of KPA",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Strategic Rocket Force of the Korean People’s Army is in charge of all DPRK ballistic missile programmes and is responsible for SCUD and NODONG launches",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/dpr0194"
+  ],
+  "remarks": "The Strategic Rocket Force of the Korean People’s Army is in charge of all DPRK ballistic missile programmes and is responsible for SCUD and NODONG launches",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "state": "Pyongyang",
       "country": "North Korea"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

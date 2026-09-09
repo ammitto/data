@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/186235",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/186235",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "ASSOCIATION \"HIDROSTROITEL\"",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "ASSOCIATION \"HIDROSTROITEL\"",
+      "isPrimary": true
     }
   ],
-  "remarks": "*74",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/186235"
+  ],
+  "remarks": "*74",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "KARIM DEVONA STREET 59, HISSAR RAYON",
       "city": "SHARORA DISTRICT",
       "country": "Tajikistan",
-      "country_iso_code": "TJ"
+      "countryIsoCode": "TJ"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

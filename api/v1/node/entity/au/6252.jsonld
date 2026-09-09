@@ -1,42 +1,68 @@
 {
-  "id": "https://www.ammitto.org/entity/au/6252",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/6252",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Abukar Ali Adan",
+      "@type": "NameVariant",
+      "fullName": "Abukar Ali Adan",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Abukar Ali Aden",
+      "@type": "NameVariant",
+      "fullName": "Abukar Ali Aden",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ibrahim Afghan",
+      "@type": "NameVariant",
+      "fullName": "Ibrahim Afghan",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Sheikh Abukar",
+      "@type": "NameVariant",
+      "fullName": "Sheikh Abukar",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "SOi.018\n\nDeputy Leader of Al-Shabaab. Listed pursuant to paragraph 8(a) of resolution 1844 (2008) as “Engaging in or providing support for acts that threaten the peace, security or stability of Somalia, including acts that threaten the Djibouti Agreement of 18 August 2008 or the political process, or threaten the TFIs or AMISOM by force.” Adan is also associated with Al-Qaida affiliates, Al-Qaida in the Arabian Peninsula (AQAP – QDe.129) and Al-Qaida in the Islamic Maghreb (AQIM – Qde.014).; Listing: Listed on 26 February 2021",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/6252"
   ],
-  "birth_info": [
+  "remarks": "SOi.018\n\nDeputy Leader of Al-Shabaab. Listed pursuant to paragraph 8(a) of resolution 1844 (2008) as “Engaging in or providing support for acts that threaten the peace, security or stability of Somalia, including acts that threaten the Djibouti Agreement of 18 August 2008 or the political process, or threaten the TFIs or AMISOM by force.” Adan is also associated with Al-Qaida affiliates, Al-Qaida in the Arabian Peninsula (AQAP – QDe.129) and Al-Qaida in the Islamic Maghreb (AQIM – Qde.014).; Listing: Listed on 26 February 2021",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1972
     },
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1971
     },
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1973
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

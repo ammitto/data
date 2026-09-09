@@ -1,45 +1,65 @@
 {
-  "id": "https://www.ammitto.org/entity/au/2239",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/2239",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Atif NAJIB",
+      "@type": "NameVariant",
+      "fullName": "Atif NAJIB",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Atef NAJEEB",
+      "@type": "NameVariant",
+      "fullName": "Atef NAJEEB",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Atef NAJIB",
+      "@type": "NameVariant",
+      "fullName": "Atef NAJIB",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Atej NAJIB",
+      "@type": "NameVariant",
+      "fullName": "Atej NAJIB",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Najib ATIF",
+      "@type": "NameVariant",
+      "fullName": "Najib ATIF",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Last known position: Head of the Syrian Political Security Directorate for Idlib Province.; Listing: Designated under the Autonomous Sanctions Regulations 2011 on 2 March 2012. Formerly listed on the RBA Consolidated List as 2011SYR0015. \nInstrument of first\ndesignation and\ndeclaration:\nAutonomous Sanctions (Designated Persons and Entities and\nDeclared Persons – Syria) List 2012 [F2012L00482]\nRelisted on 12 January 2024.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/2239"
   ],
-  "birth_info": [
+  "remarks": "Last known position: Head of the Syrian Political Security Directorate for Idlib Province.; Listing: Designated under the Autonomous Sanctions Regulations 2011 on 2 March 2012. Formerly listed on the RBA Consolidated List as 2011SYR0015. \nInstrument of first\ndesignation and\ndeclaration:\nAutonomous Sanctions (Designated Persons and Entities and\nDeclared Persons – Syria) List 2012 [F2012L00482]\nRelisted on 12 January 2024.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1960,
       "country": "Jablah"
     }
   ],
   "nationalities": [
     "Syria"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,17 +1,36 @@
 {
-  "id": "https://www.ammitto.org/entity/nz/ent-195",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/nz/ent-195",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "JSC 33 Shipyard",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "JSC 33 Shipyard",
+      "isPrimary": true
     }
   ],
-  "source_references": [
+  "sourceReferences": [
     {
-      "source_code": "nz",
-      "reference_number": "ENT-195"
+      "@type": "SourceReference",
+      "sourceCode": "nz",
+      "referenceNumber": "ENT-195",
+      "retrievedAt": "2026-09-09T16:30:41Z"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "linkedEntities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "beneficialOwners": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/nz/consolidated-list/ent-195"
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

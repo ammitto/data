@@ -1,23 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/829911",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/wb/829911",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MR. JORAM OPALA OTIENO",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "MR. JORAM OPALA OTIENO",
+      "isPrimary": true
     }
   ],
-  "remarks": "(a.k.a Mr. Joram OPALA)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/829911"
+  ],
+  "remarks": "(a.k.a Mr. Joram OPALA)",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "CBD, SUNA BUILDING, SIRARE ROAD EAST/WESWETA 1/32, P.O. BOX 32, STAREHE DISTRICT, SUNA",
       "city": "NAIROBI",
       "country": "Kenya",
-      "country_iso_code": "KE"
+      "countryIsoCode": "KE"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

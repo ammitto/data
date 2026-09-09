@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/45981",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/45981",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Khrenin Viktar Genadzevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Khrenin Viktar Genadzevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/45981"
   ],
   "remarks": "In his position as Minister of Defense of Belarus since 20 Jan 2020, Viktar Khrenin is responsible for the decision taken by the Command of the Air Forces and Air Defence Forces, on Lukashenka's instructions, to dispatch military aircraft to escort the forced landing of passenger flight FR4978 in Minsk airport without proper justification on 23 May 2021. This politically motivated decision was aimed at arresting and detaining opposition journalist Raman Pratasevich and Sofia Sapega and is a form of repression against civil society and democratic opposition in Belarus. He has made several public statements, declaring readiness to use the army against peaceful protesters in Aug 2020 and likening protesters' use of the historical white-red-white flag to Nazi collaborators. He is therefore responsible for the repression of civil society and democratic opposition in Belarus, and is supporting the Lukashenka regime.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1971-08-01",
-      "circa": false
+      "circa": false,
+      "year": 1971
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

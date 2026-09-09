@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/431222",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/431222",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "EXODE TRAVEL",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "EXODE TRAVEL",
+      "isPrimary": true
     }
   ],
-  "remarks": "*510",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/431222"
+  ],
+  "remarks": "*510",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "AVENUE DES MILITANTS, NO. 5 AEROPORT DE N’DOLO",
       "city": "KINSHASA",
       "country": "Congo, Democratic Republic of",
-      "country_iso_code": "ZR"
+      "countryIsoCode": "ZR"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

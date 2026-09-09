@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/81664",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/81664",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Firas Hassan Qaddour",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Firas Hassan Qaddour",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/81664"
   ],
   "remarks": "Minister of Petroleum and Mineral Resources under the former al-Assad regime. Appointed in March 2023 and re-appointed in September 2024.",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1962
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

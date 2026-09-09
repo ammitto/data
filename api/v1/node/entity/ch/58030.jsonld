@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/58030",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/58030",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Chizhov Vladimir Alexeyevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Chizhov Vladimir Alexeyevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/58030"
   ],
   "remarks": "Vladimir Chizhov is a member of the Federation Council who on 4 Oct 2022 ratified the four treaties between the Russian Federation and the Donetsk People’s Republic, the Luhansk People’s Republic, the Zaporizhzhia region, and the Kherson region, and their admission to the Russian Federation. Therefore, he has supported and implemented actions and policies, which undermine the territorial integrity, sovereignty and independence of Ukraine, and further destabilised Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1953-12-03",
-      "circa": false
+      "circa": false,
+      "year": 1953
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

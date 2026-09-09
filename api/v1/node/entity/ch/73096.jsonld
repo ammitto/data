@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/73096",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/73096",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Lavrik Valentina Vasilyevna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Lavrik Valentina Vasilyevna",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/73096"
   ],
   "remarks": "Valentina Lavrik is the so-called “Minister of Education, Science and Youth of the Republic of Crimea” since December 2019. In this role, she ultimately oversees the implementation of the system of militarisation of education for Ukrainian children in illegally annexed Crimea, as well as the suppression of Ukrainian language and culture for such children.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1969-02-25",
-      "circa": false
+      "circa": false,
+      "year": 1969
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

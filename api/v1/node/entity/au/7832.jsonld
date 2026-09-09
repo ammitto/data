@@ -1,45 +1,65 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7832",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7832",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Aleksandr Gennadievich ERMAKOV",
+      "@type": "NameVariant",
+      "fullName": "Aleksandr Gennadievich ERMAKOV",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Alexander ERMAKOV",
+      "@type": "NameVariant",
+      "fullName": "Alexander ERMAKOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "GustaveDore",
+      "@type": "NameVariant",
+      "fullName": "GustaveDore",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "aiiis_ermak",
+      "@type": "NameVariant",
+      "fullName": "aiiis_ermak",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "blade_runner",
+      "@type": "NameVariant",
+      "fullName": "blade_runner",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Medibank Significant Cyber Incident 2022; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons - Thematic Sanctions) Amendment (No. 1) Instrument 2024",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7832"
   ],
-  "birth_info": [
+  "remarks": "Medibank Significant Cyber Incident 2022; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons - Thematic Sanctions) Amendment (No. 1) Instrument 2024",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1990,
       "country": "Russia"
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

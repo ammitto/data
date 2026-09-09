@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/38217",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/38217",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ruhorimbere Éric",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Ruhorimbere Éric",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/38217"
   ],
   "remarks": "As Deputy Commander of the 21st military region from September 2014 to July 2018, Éric Ruhorimbere was responsible for the disproportionate use of force and extrajudicial killings perpetrated by the Congolese Armed Forces (FARDC), in particular against the Nsapu militia and against women and children.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1969-07-16",
-      "circa": false
+      "circa": false,
+      "year": 1969
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/50386",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/50386",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Vinnikov Dmitry Alexandrovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Vinnikov Dmitry Alexandrovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/50386"
   ],
   "remarks": "Dmitry Vinnikov is the former Head of the Belarusian Pinsk border detachment and current Head of the Gomel border group.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1979-12-04",
-      "circa": false
+      "circa": false,
+      "year": 1979
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

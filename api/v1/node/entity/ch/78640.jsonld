@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/78640",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/78640",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Abdul Kabir Mohammad Jan Maulavi",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Abdul Kabir Mohammad Jan Maulavi",
+      "isPrimary": true
     }
   ],
-  "remarks": "Second Deputy, Economic Affairs, Council of Ministers under the Taliban regime.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/78640"
+  ],
+  "remarks": "Second Deputy, Economic Affairs, Council of Ministers under the Taliban regime (1996-2001).",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1963
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

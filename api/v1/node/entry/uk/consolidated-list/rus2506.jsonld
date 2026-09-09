@@ -1,28 +1,46 @@
 {
-  "id": "https://www.ammitto.org/entry/uk/consolidated-list/rus2506",
-  "entity_id": "https://www.ammitto.org/entity/uk/rus2506",
+  "@id": "https://www.ammitto.org/entry/uk/consolidated-list/rus2506",
+  "@type": "SanctionEntry",
+  "entityId": "https://www.ammitto.org/entity/uk/rus2506",
   "authority": {
     "@id": "https://www.ammitto.org/authority/uk"
   },
   "regime": {
-    "@id": "https://www.ammitto.org/regime/the_russia_sanctions_eu_exit_regulations_2019"
+    "@id": "https://www.ammitto.org/regime/the_russia_sanctions_eu_exit_regulations_2019",
+    "name": "The Russia (Sanctions) (EU Exit) Regulations 2019"
   },
+  "legalBases": [
+
+  ],
+  "effects": [
+
+  ],
+  "reasons": [
+
+  ],
   "period": {
-    "listed_date": "2025-05-09",
-    "effective_date": "2025-05-09",
-    "is_indefinite": true,
-    "last_updated": "2025-05-09"
+    "@type": "TemporalPeriod",
+    "listedDate": "2025-05-09",
+    "effectiveDate": "2025-05-09",
+    "isIndefinite": true,
+    "lastUpdated": "2025-05-09"
   },
   "status": "active",
-  "reference_number": "RUS2506",
+  "statusHistory": [
+
+  ],
+  "referenceNumber": "RUS2506",
   "remarks": "\nIMO 9248796 (“SPRIT”) is involved in activity whose object or effect is to destabilise Ukraine or undermine or threaten the territorial integrity, sovereignty or independence of Ukraine or to obtain a benefit from or support the Government of Russia. Namely, SPRIT is involved in carrying oil or oil products that originated in Russia from Russia to a third country. \n",
-  "raw_source_data": {
-    "source_format": "xml",
-    "source_specific_fields": {
+  "rawSourceData": {
+    "@type": "RawSourceData",
+    "sourceFormat": "xml",
+    "sourceSpecificFields": {
+      "uk:ofsiGroupId": null,
+      "uk:unReferenceNumber": null,
       "uk:designationSource": "UK",
       "uk:sanctionsImposed": "Shipping sanctions: (see \"Other information\")",
       "uk:entityType": "Ship"
     }
   },
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

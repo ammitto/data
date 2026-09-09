@@ -1,29 +1,51 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/inu0379",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/inu0379",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Asgarpour",
-      "first_name": "Behman ",
+      "@type": "NameVariant",
+      "fullName": "Asgarpour",
+      "firstName": "Behman ",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Asgharpour",
-      "first_name": "Behman",
+      "@type": "NameVariant",
+      "fullName": "Asgharpour",
+      "firstName": "Behman",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Asgharpur",
-      "first_name": "Behman",
+      "@type": "NameVariant",
+      "fullName": "Asgharpur",
+      "firstName": "Behman",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Persons involved in nuclear programme. Operational Manager Aark",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/inu0379"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "remarks": "Persons involved in nuclear programme. Operational Manager Aark",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

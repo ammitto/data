@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/61241",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/61241",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Terliakov Oleg Aleksandrovich Major",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Terliakov Oleg Aleksandrovich Major",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/61241"
   ],
   "remarks": "Oleg Terliakov is the deputy head of Russian Federal Service for Supervision of Communications, Information Technology and Mass Media (Roskomnadzor). Roskomnadzor is a Russian state agency responsible for communications, information technology and mass media. It has implemented the state policy of censorship of independent media outlets.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1979-03-05",
-      "circa": false
+      "circa": false,
+      "year": 1979
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

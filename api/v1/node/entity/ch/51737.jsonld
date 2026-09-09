@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/51737",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/51737",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kuzmin Dmitry Gennadyevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kuzmin Dmitry Gennadyevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/51737"
   ],
   "remarks": "Former member of the Federation Council who ratified the government decisions on the “Treaty of Friendship, Cooperation and Mutual Assistance between the Russian Federation and the Donetsk People’s Republic and between the Russian Federation and the Luhansk People’s Republic”.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1975-06-28",
-      "circa": false
+      "circa": false,
+      "year": 1975
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,29 +1,46 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8036",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/8036",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "LEE Chang Ho",
+      "@type": "NameVariant",
+      "fullName": "LEE Chang Ho",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Ri Chang Ho",
+      "@type": "NameVariant",
+      "fullName": "Ri Chang Ho",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Deputy Chief of the Democratic People’s Republic of Korea’s (DPRK) General Staff Department;\nHead of DPRK's General Reconnaissance Bureau (RGB); Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8036"
   ],
-  "birth_info": [
+  "remarks": "Deputy Chief of the Democratic People’s Republic of Korea’s (DPRK) General Staff Department;\nHead of DPRK's General Reconnaissance Bureau (RGB); Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1967
     }
   ],
   "nationalities": [
     "Democratic People's Republic of Korea (North Korea)"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

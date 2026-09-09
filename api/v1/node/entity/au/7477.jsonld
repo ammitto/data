@@ -1,37 +1,55 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7477",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/7477",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "The Planar Company",
+      "@type": "NameVariant",
+      "fullName": "The Planar Company",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Planar Elements",
+      "@type": "NameVariant",
+      "fullName": "Planar Elements",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "LLC Planar",
+      "@type": "NameVariant",
+      "fullName": "LLC Planar",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "OOO Planar",
+      "@type": "NameVariant",
+      "fullName": "OOO Planar",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Website: http://planar-elements.ru/ ; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 2) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7477"
+  ],
+  "remarks": "Website: http://planar-elements.ru/ ; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 2) Instrument 2023",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Likhvintseva st., 76, Office 1, Udmurt Republic, Izhevsk, 426034, Russia ",
       "country": "Russia "
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

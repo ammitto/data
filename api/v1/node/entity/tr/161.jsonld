@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/tr/161",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/tr/161",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "FIRST OIL JV LTD. ŞTİ. (FIRST OIL JV CO LTD)",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "FIRST OIL JV LTD. ŞTİ. (FIRST OIL JV CO LTD)",
+      "isPrimary": true
     }
   ],
-  "source_references": [
+  "sourceReferences": [
     {
-      "source_code": "tr",
-      "reference_number": "161"
+      "@type": "SourceReference",
+      "sourceCode": "tr",
+      "referenceNumber": "161",
+      "retrievedAt": "2026-09-09T16:30:41Z"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "linkedEntities": [
+
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/tr/consolidated-list/161"
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/58259",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/58259",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Shadayev Maksut Igoryevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Shadayev Maksut Igoryevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/58259"
   ],
   "remarks": "Maksut Igoryevich Shadayev is Minister of Digital Development, Communications and Mass Communications of the Russian Federation. In this role, and under his responsibility, activities have been undertaken to prepare for the extension of digital and\ntelecommunications services into the illegally annexed regions of Donetsk, Luhansk, Kherson and Zaporzhzhia, to connect them directly to Russia, as well as to the illegally annexed Crimea. The Ministry also assists with the mobilisation, therefore contributing\ndirectly to Russia’s war of agression against Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1979-11-11",
-      "circa": false
+      "circa": false,
+      "year": 1979
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

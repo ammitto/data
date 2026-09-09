@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/8053",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/8053",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Fares Mohammed Mana’a",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Fares Mohammed Mana’a",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/8053"
   ],
   "remarks": "Fares Mohammed Mana'a has directly or indirectly supplied, sold or transferred to Somalia arms or related materiel in violation of the arms embargo. Mana'a is a known arms trafficker. In Oct 2009, the Yemeni government released a blacklist of 9 arms dealers with Mana'a \"on top,\" as part of an effort to stem the flood of weapons in the country, where weapons reportedly outnumber people. \"Faris Manaa is a major weapons trafficker, and that's well known,\" according to Jun 2009 reporting by a U.S. journalist who is a commentator on Yemeni affairs, authors a semi-annual country report, and has contributed to Jane's Intelligence Group. In a Dec 2007 Yemen Times article, he is referenced as \"Sheikh Fares Mohammed Mana'a, an arms dealer.\" In a Jan 2008 Yemen Times article, he is referred to as \"Sheikh Faris Mana'a, an arms tradesman.\"",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1965-02-08",
-      "circa": false
+      "circa": false,
+      "year": 1965
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

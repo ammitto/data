@@ -1,35 +1,53 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7566",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7566",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Andrei Removich BELOUSOV",
+      "@type": "NameVariant",
+      "fullName": "Andrei Removich BELOUSOV",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Andrej Removitj BELOUSOV",
+      "@type": "NameVariant",
+      "fullName": "Andrej Removitj BELOUSOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Andrey Removich BELOUSOV",
+      "@type": "NameVariant",
+      "fullName": "Andrey Removich BELOUSOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "First Deputy Prime Minister of the Russian Federation; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 8) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7566"
   ],
-  "birth_info": [
+  "remarks": "First Deputy Prime Minister of the Russian Federation; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 8) Instrument 2023",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1959,
       "country": "Moscow"
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

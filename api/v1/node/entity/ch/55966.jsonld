@@ -1,12 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/55966",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/55966",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Muhammad Al-Salti",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Muhammad Al-Salti",
+      "isPrimary": true
     }
   ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/55966"
+  ],
   "remarks": "Muhammad AL-SALTI is the Commander-in-Chief of the “Palestine Liberation Army”, engaged in the recruitment of Palestinians to fight in Ukraine alongside Russia. He is therefore responsible for actions and policies which undermine or threaten the territorial integrity, sovereignty and independence of Ukraine, or stability or security in Ukraine.",
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "birthInfo": [
+    {
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1945
+    }
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/500",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/500",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Markovic Mirjana",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Markovic Mirjana",
+      "isPrimary": true
     }
   ],
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/500"
+  ],
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1942-07-10",
-      "circa": false
+      "circa": false,
+      "year": 1942
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

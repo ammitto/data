@@ -1,43 +1,62 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/bel0163",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/bel0163",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "JSC NIIEVM",
+      "@type": "NameVariant",
+      "fullName": "JSC NIIEVM",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Computer Research Institute NIIEVM",
+      "@type": "NameVariant",
+      "fullName": "Computer Research Institute NIIEVM",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "OJSC NIIEVM",
+      "@type": "NameVariant",
+      "fullName": "OJSC NIIEVM",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Open Joint Stock Company Research Institute of Electronic Computers",
+      "@type": "NameVariant",
+      "fullName": "Open Joint Stock Company Research Institute of Electronic Computers",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "оао ниизвм",
+      "@type": "NameVariant",
+      "fullName": "оао ниизвм",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/bel0163"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "155 Bogdanovicha St",
       "state": "Minsk",
       "country": "Belarus"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

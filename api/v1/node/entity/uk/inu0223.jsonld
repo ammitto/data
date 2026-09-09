@@ -1,38 +1,56 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/inu0223",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/inu0223",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "DEFENCE INDUSTRIES ORGANISATION (DIO)",
+      "@type": "NameVariant",
+      "fullName": "DEFENCE INDUSTRIES ORGANISATION (DIO)",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "DEFENSE INDUSTRIES ORGANIZATION (DIO)",
+      "@type": "NameVariant",
+      "fullName": "DEFENSE INDUSTRIES ORGANIZATION (DIO)",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "DIO IR (DEFENSE INDUSTRIES OF IRAN)",
+      "@type": "NameVariant",
+      "fullName": "DIO IR (DEFENSE INDUSTRIES OF IRAN)",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "سازمان صنایع دفاع جمهوری اسلامی ایران",
+      "@type": "NameVariant",
+      "fullName": "سازمان صنایع دفاع جمهوری اسلامی ایران",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Defence Industries Organisation (DIO) was listed pursuant to paragraph 12 of resolution 1737 (2006), as read with resolutions 1747, 1803 and 1929, as: an entity involved in nuclear programme. Overarching MODAFL-controlled entity, some of whose subordinates have been involved in the centrifuge programme making components, and in the missile programme. The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/inu0223"
+  ],
+  "remarks": "Defence Industries Organisation (DIO) was listed pursuant to paragraph 12 of resolution 1737 (2006), as read with resolutions 1747, 1803 and 1929, as: an entity involved in nuclear programme. Overarching MODAFL-controlled entity, some of whose subordinates have been involved in the centrifuge programme making components, and in the missile programme. The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "P.O. Box 19585-777, Pasdaran Street, Entrance of Babaie Highway, Permanent Expo of Defence Industries Organisation",
       "state": "Tehran",
       "country": "Iran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

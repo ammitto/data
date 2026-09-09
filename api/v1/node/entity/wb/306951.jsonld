@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/306951",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/306951",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "L’ENTREPRISE GÉNÉRALE DE CONSTRUCTION ERLINE",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "L’ENTREPRISE GÉNÉRALE DE CONSTRUCTION ERLINE",
+      "isPrimary": true
     }
   ],
-  "remarks": "*203",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/306951"
+  ],
+  "remarks": "*203",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "LOT II A 119 SA NANISANA",
       "city": "ANTANANARIVO 101",
       "country": "Madagascar",
-      "country_iso_code": "MG"
+      "countryIsoCode": "MG"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

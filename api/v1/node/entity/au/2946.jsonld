@@ -1,38 +1,57 @@
 {
-  "id": "https://www.ammitto.org/entity/au/2946",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/2946",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MUHAMMAD OMAR ZADRAN",
+      "@type": "NameVariant",
+      "fullName": "MUHAMMAD OMAR ZADRAN",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "محمد عمر ځدران",
+      "@type": "NameVariant",
+      "fullName": "محمد عمر ځدران",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Mohammad-Omar Jadran",
+      "@type": "NameVariant",
+      "fullName": "Mohammad-Omar Jadran",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "TAi.171 Title: a) Maulavi b) Mullah. Haqqani Network (HQN) (TE.H.12.12.) leader in command of over 100 militants active in Khost Province, Afghanistan as of 2013. Involved in the preparation of attacks against Afghan and international forces in Afghanistan.; Listing: Listed on 31 July 2014",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/2946"
   ],
-  "birth_info": [
+  "remarks": "TAi.171 Title: a) Maulavi b) Mullah. Haqqani Network (HQN) (TE.H.12.12.) leader in command of over 100 militants active in Khost Province, Afghanistan as of 2013. Involved in the preparation of attacks against Afghan and international forces in Afghanistan.; Listing: Listed on 31 July 2014",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1958,
       "country": "Sultan Kheyl Village"
     }
   ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Afghanistan/Pakistan Border Area",
       "country": "Afghanistan/Pakistan Border Area"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

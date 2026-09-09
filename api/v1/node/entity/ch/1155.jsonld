@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/1155",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/1155",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Izzat Ibrahim al-Duri",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Izzat Ibrahim al-Duri",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/1155"
   ],
   "remarks": "Deputy Commander-in-Chief of Iraqi Military, Deputy Secretary, Ba’th Party Regional Command, Vice Chairman, Revolutionary Command Council",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1942
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

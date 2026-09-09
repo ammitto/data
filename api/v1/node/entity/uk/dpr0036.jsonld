@@ -1,28 +1,48 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/dpr0036",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/dpr0036",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "So",
-      "first_name": "Tong",
+      "@type": "NameVariant",
+      "fullName": "So",
+      "firstName": "Tong",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "So",
-      "first_name": "Tony",
+      "@type": "NameVariant",
+      "fullName": "So",
+      "firstName": "Tony",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Associations with Korea National Insurance Corporation (KNIC) The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/dpr0036"
+  ],
+  "remarks": "Associations with Korea National Insurance Corporation (KNIC) The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "country": "North Korea"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

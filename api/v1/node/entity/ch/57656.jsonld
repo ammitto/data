@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/57656",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/57656",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Tipi Joseph Nganzo Olikwa",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Tipi Joseph Nganzo Olikwa",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/57656"
   ],
   "remarks": "Joseph Nganzo Olikwa Tipi was Commander of the 312th battalion of the 31st Main Defence Brigade of the Armed Forces of the Democratic Republic of the Congo (FARDC) until January 2022.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1977-11-10",
-      "circa": false
+      "circa": false,
+      "year": 1977
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

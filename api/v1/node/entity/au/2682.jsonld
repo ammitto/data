@@ -1,37 +1,59 @@
 {
-  "id": "https://www.ammitto.org/entity/au/2682",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/2682",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Valentina Ivanovna MATVIYENKO",
+      "@type": "NameVariant",
+      "fullName": "Valentina Ivanovna MATVIYENKO",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Valentyna Ivanivna MATVIENKO",
+      "@type": "NameVariant",
+      "fullName": "Valentyna Ivanivna MATVIENKO",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Valentina Ivanova MATVIYENKO",
+      "@type": "NameVariant",
+      "fullName": "Valentina Ivanova MATVIYENKO",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Valentina Ivanovna TYUTINA",
+      "@type": "NameVariant",
+      "fullName": "Valentina Ivanovna TYUTINA",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Speaker of the Federation Council. Member of Russia’s Security Council.  On 1 March 2014, she publicly supported in the Federation Council the deployment of Russian forces in Ukraine.; Listing: Listed on 19 Jun. 2014 (relisted on 16 Jun. 2017 and 10 June 2023)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/2682"
   ],
-  "birth_info": [
+  "remarks": "Speaker of the Federation Council. Member of Russia’s Security Council.  On 1 March 2014, she publicly supported in the Federation Council the deployment of Russian forces in Ukraine.; Listing: Listed on 19 Jun. 2014 (relisted on 16 Jun. 2017 and 10 June 2023)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1949,
       "country": "Shepetovka"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

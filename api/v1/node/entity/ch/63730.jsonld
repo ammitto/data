@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/63730",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/63730",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Dietrich Yevgeniy Ivanovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Dietrich Yevgeniy Ivanovich",
+      "isPrimary": true
     }
   ],
-  "remarks": "Yevgeniy Dietrich is the director-general of the jointstock company “State Transport Leasing Company” (JSC GTLK), which is wholly owned by the Ministry of Transport of the Russian Federation. As a state-owned company, GTLK is financially benefitting from the Government and also provides services in the illegally annexed Crimea and the City of Sevastopol.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/63730"
+  ],
+  "remarks": "Yevgeniy Dietrich has been a Senator for the Novgorod Region Federation Council since 15 October 2025.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1973-09-08",
-      "circa": false
+      "circa": false,
+      "year": 1973
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

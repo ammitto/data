@@ -1,35 +1,55 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus1274",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/rus1274",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "KHVOROSTIAN",
-      "first_name": "Svetlana",
+      "@type": "NameVariant",
+      "fullName": "KHVOROSTIAN",
+      "firstName": "Svetlana",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "KHVOROSTYAN",
-      "first_name": "Svetlana ",
+      "@type": "NameVariant",
+      "fullName": "KHVOROSTYAN",
+      "firstName": "Svetlana ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "ХВОРОСТЯН Светлана Вадимовна",
+      "@type": "NameVariant",
+      "fullName": "ХВОРОСТЯН Светлана Вадимовна",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus1274"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "9 Square of Heroes of the Great Patriotic War",
       "state": "Luhansk",
       "country": "Ukraine"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

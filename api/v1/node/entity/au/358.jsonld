@@ -1,51 +1,70 @@
 {
-  "id": "https://www.ammitto.org/entity/au/358",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/358",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Said Bahaji",
+      "@type": "NameVariant",
+      "fullName": "Said Bahaji",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "سعيد باهاجى",
+      "@type": "NameVariant",
+      "fullName": "سعيد باهاجى",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Zouheir Al Maghribi  ",
+      "@type": "NameVariant",
+      "fullName": "Zouheir Al Maghribi  ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Mohamed Abbattay ",
+      "@type": "NameVariant",
+      "fullName": "Mohamed Abbattay ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abderrahmane Al Maghribi  ",
+      "@type": "NameVariant",
+      "fullName": "Abderrahmane Al Maghribi  ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "QDi.080\nPassport no.: a) Provisional German Passport No.: 28642163 (issued by the city of Hamburg) b) Moroccan passport number 954242 issued on 28 June 1995 in Meknas, Morocco (expired)\nNational identification no.: German Identity Document (Bundespersonalausweis) BPA Nr. 1336597587.\nDeputy Head of the Media Committee of Al-Qaida (QDe.004) as at Apr. 2010. German authorities issued an arrest warrant for him on 21 Sep. 2001. Review pursuant to Security Council resolution 1822 (2008) was concluded on 20 May 2010. Reportedly deceased in September 2013 in the Afghanistan/Pakistan border area. Review pursuant to Security Council resolution 2253 (2015) was concluded on 21 Feb. 2019. Review pursuant to Security Council resolution 2368 (2017) was concluded on 15 November 2021.; Listing: Listed on: 30 Sep. 2002 (amended on 26 November 2004, 9 September 2005, 2 July 2007, 23 Dec. 2010, 9 Sep. 2014, 1 May 2019, 15 Nov. 2021).",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/358"
   ],
-  "birth_info": [
+  "remarks": "QDi.080\nPassport no.: a) Provisional German Passport No.: 28642163 (issued by the city of Hamburg) b) Moroccan passport number 954242 issued on 28 June 1995 in Meknas, Morocco (expired)\nNational identification no.: German Identity Document (Bundespersonalausweis) BPA Nr. 1336597587.\nDeputy Head of the Media Committee of Al-Qaida (QDe.004) as at Apr. 2010. German authorities issued an arrest warrant for him on 21 Sep. 2001. Review pursuant to Security Council resolution 1822 (2008) was concluded on 20 May 2010. Reportedly deceased in September 2013 in the Afghanistan/Pakistan border area. Review pursuant to Security Council resolution 2253 (2015) was concluded on 21 Feb. 2019. Review pursuant to Security Council resolution 2368 (2017) was concluded on 15 November 2021.; Listing: Listed on: 30 Sep. 2002 (amended on 26 November 2004, 9 September 2005, 2 July 2007, 23 Dec. 2010, 9 Sep. 2014, 1 May 2019, 15 Nov. 2021).",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1975,
       "country": "Haselünne"
     }
   ],
   "nationalities": [
-    "Germany;Morocco"
+    "Germany",
+    "Morocco"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Bunatwiete 23, Hamburg, 21073, Germany (formerly resident at)",
       "country": "Germany (formerly resident at)"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

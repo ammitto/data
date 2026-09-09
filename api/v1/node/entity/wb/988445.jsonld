@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/988445",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/988445",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "PARS TABLEAU COMPANY",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "PARS TABLEAU COMPANY",
+      "isPrimary": true
     }
   ],
-  "remarks": "(also doing business as Pars Tableau General Contracting) (Reg. No: 45907) *696",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/988445"
+  ],
+  "remarks": "(also doing business as Pars Tableau General Contracting) (Reg. No: 45907) *696",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "16 NAGHDI STREET, NORTH MOFATEH",
       "city": "TEHRAN 1576635511",
       "country": "Iran, Islamic Republic of",
-      "country_iso_code": "IR"
+      "countryIsoCode": "IR"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

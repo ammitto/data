@@ -1,54 +1,77 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7649",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7649",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Alexander Yurievich TIMOFEYEV",
+      "@type": "NameVariant",
+      "fullName": "Alexander Yurievich TIMOFEYEV",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Aleksandr Yurievich TIMOFEEV",
+      "@type": "NameVariant",
+      "fullName": "Aleksandr Yurievich TIMOFEEV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Oleksandr Yuriyovych TYMOFEYEV",
+      "@type": "NameVariant",
+      "fullName": "Oleksandr Yuriyovych TYMOFEYEV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Aleksandr Yuryevich TIMOFEYEV",
+      "@type": "NameVariant",
+      "fullName": "Aleksandr Yuryevich TIMOFEYEV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Oleksandr Yuriyovich TYMOFEEV",
+      "@type": "NameVariant",
+      "fullName": "Oleksandr Yuriyovich TYMOFEEV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Oleksandr TYMOFIEIEV",
+      "@type": "NameVariant",
+      "fullName": "Oleksandr TYMOFIEIEV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Previously listed under 'Ukraine criteria' - Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Ukraine) Amendment List 2017 (No 2) [F2017L01118]; New listing start date 27 Aug 2023; Listing: Instrument of first designation: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 10) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7649"
   ],
-  "birth_info": [
+  "remarks": "Previously listed under 'Ukraine criteria' - Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Ukraine) Amendment List 2017 (No 2) [F2017L01118]; New listing start date 27 Aug 2023; Listing: Instrument of first designation: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 10) Instrument 2023",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1971,
       "country": "Nevinnomyssk"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1974,
       "country": "Stavropol Krai"
     }
   ],
   "nationalities": [
     "Ukraine"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

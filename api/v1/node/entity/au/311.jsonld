@@ -1,37 +1,55 @@
 {
-  "id": "https://www.ammitto.org/entity/au/311",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/311",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Al-Aqsa Martyrs' Brigade",
+      "@type": "NameVariant",
+      "fullName": "Al-Aqsa Martyrs' Brigade",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Al-Aqsa Martyrs’ Battalion",
+      "@type": "NameVariant",
+      "fullName": "Al-Aqsa Martyrs’ Battalion",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "AAMB",
+      "@type": "NameVariant",
+      "fullName": "AAMB",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Aksa Martyrs’ Brigades",
+      "@type": "NameVariant",
+      "fullName": "Aksa Martyrs’ Brigades",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Al-Aqsa Martyrs’ Brigade is a coalition of secular nationalist Palestinian militants that emerged during the Second Intifada in 2000. The entity’s principal aim is to establish a sovereign Palestinian state loyal to Fatah.; Listing: Instrument of first listing: Charter of United Nations (Anti-terrorism – Persons and Entities) List 2002 (No. 2) [F2021L00647, Gazette No. GN15, 17 April 2002].  Relisted on 6 November 2022, 13/09/2025 in Charter of the United Nations (Listed Persons and Entities) Amendment (No. 2) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/311"
+  ],
+  "remarks": "The Al-Aqsa Martyrs’ Brigade is a coalition of secular nationalist Palestinian militants that emerged during the Second Intifada in 2000. The entity’s principal aim is to establish a sovereign Palestinian state loyal to Fatah.; Listing: Instrument of first listing: Charter of United Nations (Anti-terrorism – Persons and Entities) List 2002 (No. 2) [F2021L00647, Gazette No. GN15, 17 April 2002].  Relisted on 6 November 2022, 13/09/2025 in Charter of the United Nations (Listed Persons and Entities) Amendment (No. 2) Instrument 2025",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "State of Palestine",
       "country": "State of Palestine"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

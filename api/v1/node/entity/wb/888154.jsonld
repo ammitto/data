@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/888154",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/888154",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "HEBEI CONSTRUCTION GROUP ZHUOXIN CONSTRUCTION ENGINEERING CO., LTD.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "HEBEI CONSTRUCTION GROUP ZHUOXIN CONSTRUCTION ENGINEERING CO., LTD.",
+      "isPrimary": true
     }
   ],
-  "remarks": "河北建设集团卓昕建筑工程有限公司",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/888154"
+  ],
+  "remarks": "河北建设集团卓昕建筑工程有限公司",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "ROOM 112, COMPLEX BUILDING 1, HENGSHUI TECHNOLOGY VALLEY, NO. 1999, YANGYUAN EAST ROAD, HIGH-TECH ZONE",
       "city": "HENGSHUI CITY, HEBEI PROVINCE",
       "country": "China",
-      "country_iso_code": "CN"
+      "countryIsoCode": "CN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

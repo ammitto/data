@@ -1,22 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/873292",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/wb/873292",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MR WILLIAM TUKU OGON",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "MR WILLIAM TUKU OGON",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/873292"
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "47 HAILE SELASSIE STREET",
       "city": "ASOKORO, ABUJA, FCT",
       "country": "Nigeria",
-      "country_iso_code": "NG"
+      "countryIsoCode": "NG"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,37 +1,55 @@
 {
-  "id": "https://www.ammitto.org/entity/au/720",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/720",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "ADNAN S. HASAN AHMED",
+      "@type": "NameVariant",
+      "fullName": "ADNAN S. HASAN AHMED",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "عدنان س. حسن أحمد",
+      "@type": "NameVariant",
+      "fullName": "عدنان س. حسن أحمد",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Hasan Ahmed S. Adnan",
+      "@type": "NameVariant",
+      "fullName": "Hasan Ahmed S. Adnan",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ahmed Sultan",
+      "@type": "NameVariant",
+      "fullName": "Ahmed Sultan",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "IQi.073; Listing: Listed by the 1518 Committee",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/720"
+  ],
+  "remarks": "IQi.073; Listing: Listed by the 1518 Committee",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Amman, Jordan",
       "country": "Jordan"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

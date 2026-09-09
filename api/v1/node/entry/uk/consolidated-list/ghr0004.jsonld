@@ -1,43 +1,60 @@
 {
-  "id": "https://www.ammitto.org/entry/uk/consolidated-list/ghr0004",
-  "entity_id": "https://www.ammitto.org/entity/uk/ghr0004",
+  "@id": "https://www.ammitto.org/entry/uk/consolidated-list/ghr0004",
+  "@type": "SanctionEntry",
+  "entityId": "https://www.ammitto.org/entity/uk/ghr0004",
   "authority": {
     "@id": "https://www.ammitto.org/authority/uk"
   },
   "regime": {
-    "@id": "https://www.ammitto.org/regime/the_global_human_rights_sanctions_regulations_2020"
+    "@id": "https://www.ammitto.org/regime/the_global_human_rights_sanctions_regulations_2020",
+    "name": "The Global Human Rights Sanctions Regulations 2020"
   },
+  "legalBases": [
+
+  ],
   "effects": [
     {
-      "effect_type": "asset_freeze",
+      "@type": "SanctionEffect",
+      "effectType": "asset_freeze",
       "scope": "full"
     },
     {
-      "effect_type": "travel_ban",
+      "@type": "SanctionEffect",
+      "effectType": "travel_ban",
       "scope": "full"
     },
     {
-      "effect_type": "debarment",
+      "@type": "SanctionEffect",
+      "effectType": "debarment",
       "scope": "full"
     }
   ],
+  "reasons": [
+
+  ],
   "period": {
-    "listed_date": "2020-07-06",
-    "effective_date": "2020-07-06",
-    "is_indefinite": true,
-    "last_updated": "2025-04-09"
+    "@type": "TemporalPeriod",
+    "listedDate": "2020-07-06",
+    "effectiveDate": "2020-07-06",
+    "isIndefinite": true,
+    "lastUpdated": "2025-04-09"
   },
   "status": "active",
-  "reference_number": "GHR0004",
+  "statusHistory": [
+
+  ],
+  "referenceNumber": "GHR0004",
   "remarks": "\nGennady Karlov, as the Head of the Department of Ownership and Financial Crimes in the Investigative Committee of the Russian Ministry of Interior, was involved in the mistreatment of Sergei Magnitsky whilst in detention, which contributed significantly to his death. Karlov was part of a ‘team’ of investigators who failed to investigate complaints made by Magnitsky about his mistreatment and approved actions to conceal evidence relating to subordinates who were directly involved in that conduct.",
-  "raw_source_data": {
-    "source_format": "xml",
-    "source_specific_fields": {
+  "rawSourceData": {
+    "@type": "RawSourceData",
+    "sourceFormat": "xml",
+    "sourceSpecificFields": {
       "uk:ofsiGroupId": "13856",
+      "uk:unReferenceNumber": null,
       "uk:designationSource": "UK",
       "uk:sanctionsImposed": "Asset freeze|Travel Ban|Director Disqualification Sanction",
       "uk:entityType": "Individual"
     }
   },
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

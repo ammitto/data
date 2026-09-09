@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/55360",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/55360",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Khudaynatov Eduard Yurevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Khudaynatov Eduard Yurevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/55360"
   ],
   "remarks": "Eduard Khudaynatov is a Russian businessman involved in the energy sector. He is the owner of “Independent Oil and Gas Company” (NOC, JSC Neftegazholding), one of the largest Russian private companies and one of the top oil producers, which carries out prospecting, exploration and development of oil and gas fields, oil refining, as well as production and marketing of petroleum products. In 2015, the company revenues amounted to USD 2.2 billion.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1960-09-11",
-      "circa": false
+      "circa": false,
+      "year": 1960
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

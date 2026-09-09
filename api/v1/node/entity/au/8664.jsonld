@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8664",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/8664",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "AMID HUSAIN AL KUNI",
+      "@type": "NameVariant",
+      "fullName": "AMID HUSAIN AL KUNI",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "LYi.005. Colonel. Governor of Ghat (South Libya).Listed pursuant to paragraph 15 of resolution 1970 (Travel Ban). No INTERPOL link available. (Believed status/location: South Libya).; Listing: Listed on: 26 Feb 2011 (amended on 1 Apr. 2016, 29 Nov. 2023)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8664"
+  ],
+  "remarks": "LYi.005. Colonel. Governor of Ghat (South Libya).Listed pursuant to paragraph 15 of resolution 1970 (Travel Ban). No INTERPOL link available. (Believed status/location: South Libya).; Listing: Listed on: 26 Feb 2011 (amended on 1 Apr. 2016, 29 Nov. 2023)",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Libya",
       "country": "Libya"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/739033",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/739033",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "DIYOKES CONSULTANTS LIMITED",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "DIYOKES CONSULTANTS LIMITED",
+      "isPrimary": true
     }
   ],
-  "remarks": "*652",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/739033"
+  ],
+  "remarks": "*652",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "PLOT 4N/15 OPI STREET, OPPOSITE ESTATE SHOPPING CENTRE, FEDERAL HOUSING, TRANS-EKULU, PO BOX 13720, ENUGU",
       "city": "ENUGU STATE",
       "country": "Nigeria",
-      "country_iso_code": "NG"
+      "countryIsoCode": "NG"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

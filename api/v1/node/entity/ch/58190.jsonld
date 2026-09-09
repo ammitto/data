@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/58190",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/58190",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Overchuk Alexey Logvinovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Overchuk Alexey Logvinovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/58190"
   ],
   "remarks": "Alexey Logvinovich Overchuk is a Deputy Prime Minister of the Russian Federation, responsible for Eurasian integration, cooperation with the Commonwealth of Independent States, BRICS, G20, and international events. In this capacity, he is responsible for providing Russian budgetary support to Belarus, for the purposes of import substitution, imposed due to Belarus’ support for Russia’s war against Ukraine. Therefore, and with these actions, he is directly involved with Russia’s war of aggression against Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1964-12-09",
-      "circa": false
+      "circa": false,
+      "year": 1964
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

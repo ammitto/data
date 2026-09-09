@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/4744",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/4744",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Vasilevich Ryhor Aliakseevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Vasilevich Ryhor Aliakseevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/4744"
   ],
   "remarks": "Teacher at Belarus State University. Former Prosecutor General, former Member of the Upper Chamber of the Parliament. He supervised the prosecution of all the persons who were detained after the repression of the peaceful demonstrations on 19 Dec 2010.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1955-02-13",
-      "circa": false
+      "circa": false,
+      "year": 1955
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

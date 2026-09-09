@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/58408",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/58408",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Tukmachov Mikhail Alexandrovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Tukmachov Mikhail Alexandrovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/58408"
   ],
   "remarks": "Mikhail Tukmachov is the deputy CEO of REN TV - a Russian TV station, which is spreading state propaganda and disinformation related to Russia’s war of aggression against Ukraine. He was included in the list of ‘1500 warmongers’ compiled by the Free\nRussia Forum. He is therefore supporting actions or policies which undermine or threaten the territorial integrity, sovereignty and independence of Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1973-04-16",
-      "circa": false
+      "circa": false,
+      "year": 1973
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

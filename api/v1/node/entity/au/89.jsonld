@@ -1,45 +1,63 @@
 {
-  "id": "https://www.ammitto.org/entity/au/89",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/89",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Nurullah Nuri",
+      "@type": "NameVariant",
+      "fullName": "Nurullah Nuri",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "نور الله نوری",
+      "@type": "NameVariant",
+      "fullName": "نور الله نوری",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Norullah Noori",
+      "@type": "NameVariant",
+      "fullName": "Norullah Noori",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "TAi.089 Title: Maulavi. Designation: a) Governor of Balkh Province under the Taliban regime b) Head of Northern Zone under the Taliban regime. Belongs to Tokhi tribe.  Review pursuant to Security Council resolution 182 (2008) was concluded on 29 Jul. 2010.; Listing: Listed on 25 January 2001 (amended on 21 Sep 2007, 29 Nov. 2011 and 31 Dec. 2013, 7 Sep. 2016)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/89"
   ],
-  "birth_info": [
+  "remarks": "TAi.089 Title: Maulavi. Designation: a) Governor of Balkh Province under the Taliban regime b) Head of Northern Zone under the Taliban regime. Belongs to Tokhi tribe.  Review pursuant to Security Council resolution 182 (2008) was concluded on 29 Jul. 2010.; Listing: Listed on 25 January 2001 (amended on 21 Sep 2007, 29 Nov. 2011 and 31 Dec. 2013, 7 Sep. 2016)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1958,
       "country": "Shahjoe District"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1967,
       "country": "Zabul Province"
     }
   ],
   "nationalities": [
     "Afghanistan"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Qatar",
       "country": "Qatar"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

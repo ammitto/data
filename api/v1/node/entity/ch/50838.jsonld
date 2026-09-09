@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/50838",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/50838",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Savelyev Vitaly Gennadyevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Savelyev Vitaly Gennadyevich",
+      "isPrimary": true
     }
   ],
-  "remarks": "Vitaly Savelyev is Minister of Transport of the Russian Federation and a member of the Board of Directors of the Russian Railways, appointed to this position by the Government of the Russian Federation. He is the former CEO of Aeroflot.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/50838"
+  ],
+  "remarks": "Vitaly Savelyev is Deputy Prime Minister of Russia for Transport, previously having held the position of Minister of Transport of the Russian Federation. He is a member of the Board of Directors of the Russian Railways, appointed to that position by the Government of the Russian Federation, and is currently also the chairman of the Board. He is the former CEO of Aeroflot.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1954-01-18",
-      "circa": false
+      "circa": false,
+      "year": 1954
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

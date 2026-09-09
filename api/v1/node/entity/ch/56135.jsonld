@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/56135",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/56135",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Rogov Vladimir Valeryevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Rogov Vladimir Valeryevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/56135"
   ],
   "remarks": "So-called representative of the main council of Zaporizhzhia region’s military-civil administration. He has advocated against Ukrainian authorities and in favour of the Zaporizhzhia region becoming part of the Russian Federation. He has also facilitated the issuance of Russian passports in the city of Melitopol and actively supported the annexation of the Zaporizhzhia region by the Russian Federation, including through the energy infrastructure.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1976-12-01",
-      "circa": false
+      "circa": false,
+      "year": 1976
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

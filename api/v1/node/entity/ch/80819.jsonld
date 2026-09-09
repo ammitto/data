@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/80819",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/80819",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mohamed Lakhal",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Mohamed Lakhal",
+      "isPrimary": true
     }
   ],
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/80819"
+  ],
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1970-02-05",
-      "circa": false
+      "circa": false,
+      "year": 1970
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

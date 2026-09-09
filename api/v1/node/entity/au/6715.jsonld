@@ -1,32 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/au/6715",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/6715",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Hay’at Tahrir al-Sham",
+      "@type": "NameVariant",
+      "fullName": "Hay’at Tahrir al-Sham",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Tahrir al-Sham",
+      "@type": "NameVariant",
+      "fullName": "Tahrir al-Sham",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Organisation for the Liberation of the Levant",
+      "@type": "NameVariant",
+      "fullName": "Organisation for the Liberation of the Levant",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Listing: Charter of the United Nations (Listed Persons and Entities) Instrument 2022",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/6715"
+  ],
+  "remarks": "Listing: Charter of the United Nations (Listed Persons and Entities) Instrument 2022",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Syria",
       "country": "Syria"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

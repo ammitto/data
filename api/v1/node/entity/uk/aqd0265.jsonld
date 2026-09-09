@@ -1,54 +1,77 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/aqd0265",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/aqd0265",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "ASHOUR AL-FADHLI",
-      "first_name": "Mushin",
+      "@type": "NameVariant",
+      "fullName": "ASHOUR AL-FADHLI",
+      "firstName": "Mushin",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "al Fadhli",
-      "first_name": "Muhsin",
+      "@type": "NameVariant",
+      "fullName": "al Fadhli",
+      "firstName": "Muhsin",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ashur al Fadhli",
-      "first_name": "Muhsin",
+      "@type": "NameVariant",
+      "fullName": "Ashur al Fadhli",
+      "firstName": "Muhsin",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Samia",
-      "first_name": "Abu",
+      "@type": "NameVariant",
+      "fullName": "Samia",
+      "firstName": "Abu",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Samiyah",
-      "first_name": "Abu",
+      "@type": "NameVariant",
+      "fullName": "Samiyah",
+      "firstName": "Abu",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "محسن فاضل عايد عاشور الفضلي",
+      "@type": "NameVariant",
+      "fullName": "محسن فاضل عايد عاشور الفضلي",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Wanted by the Kuwaiti Security Authorities. Wanted by the Saudi security forces. Fugitive as of Jul. 2008. Review pursuant to Security Council resolution 1822 (2008) was concluded on 1 Jun. 2010. INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/notice/search/un/4484905",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/aqd0265"
+  ],
+  "remarks": "Wanted by the Kuwaiti Security Authorities. Wanted by the Saudi security forces. Fugitive as of Jul. 2008. Review pursuant to Security Council resolution 1822 (2008) was concluded on 1 Jun. 2010. INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/notice/search/un/4484905",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Block 4, Street 13, House No 179",
       "city": "Al-Riqqa area",
       "state": "Kuwait City",
       "country": "Kuwait"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,79 +1,105 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/inu0112",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/inu0112",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Shahid Beheshti University",
+      "@type": "NameVariant",
+      "fullName": "Shahid Beheshti University",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Beheshti University",
+      "@type": "NameVariant",
+      "fullName": "Beheshti University",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Martyr Beheshti University",
+      "@type": "NameVariant",
+      "fullName": "Martyr Beheshti University",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Melli University",
+      "@type": "NameVariant",
+      "fullName": "Melli University",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "National (Shahid Beheshti) University",
+      "@type": "NameVariant",
+      "fullName": "National (Shahid Beheshti) University",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "National University of Iran",
+      "@type": "NameVariant",
+      "fullName": "National University of Iran",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "SBU",
+      "@type": "NameVariant",
+      "fullName": "SBU",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Shaheed Beheshti University",
+      "@type": "NameVariant",
+      "fullName": "Shaheed Beheshti University",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Shahid Behashti University",
+      "@type": "NameVariant",
+      "fullName": "Shahid Behashti University",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Shahid martyr Beheshti University",
+      "@type": "NameVariant",
+      "fullName": "Shahid martyr Beheshti University",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "University of Shahid Beheshti",
+      "@type": "NameVariant",
+      "fullName": "University of Shahid Beheshti",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/inu0112"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
-      "street": "P.O. Box 19395/4716",
-      "state": "Tehran",
-      "country": "Iran"
-    },
-    {
+      "@type": "Address",
       "street": "Shahid Beheshti University",
       "city": "Evin",
       "state": "Tehran",
       "country": "Iran"
+    },
+    {
+      "@type": "Address",
+      "street": "P.O. Box 19395/4716",
+      "state": "Tehran",
+      "country": "Iran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

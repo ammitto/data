@@ -1,45 +1,63 @@
 {
-  "id": "https://www.ammitto.org/entity/au/1231",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/1231",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Leodomir Mugaragu",
+      "@type": "NameVariant",
+      "fullName": "Leodomir Mugaragu",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Manzi Leon",
+      "@type": "NameVariant",
+      "fullName": "Manzi Leon",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Leo Manzi",
+      "@type": "NameVariant",
+      "fullName": "Leo Manzi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "CDi.013 FDLR-FOCA Chief of Staff, in charge of\n\nadministration.; Listing: Listed by committee 1533 on 1 December 2010",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/1231"
   ],
-  "birth_info": [
+  "remarks": "CDi.013 FDLR-FOCA Chief of Staff, in charge of\n\nadministration.; Listing: Listed by committee 1533 on 1 December 2010",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1954,
       "country": "a) Kigali"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1953,
       "country": "Rwanda b) Rushashi"
     }
   ],
   "nationalities": [
     "Rwanda"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "FDLR HQ at Kikoma forest, Bogoyi, Walikale, North Kivu, Democratic Republic of the Congo (As of June 2011.)",
       "country": "Democratic Republic of the Congo (As of June 2011.)"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

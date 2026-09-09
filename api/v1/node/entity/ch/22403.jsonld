@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/22403",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/22403",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Safwan Al Assaf Dr.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Safwan Al Assaf Dr.",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/22403"
   ],
   "remarks": "Former Minister of Housing and Urban Development under the former al-Assad regime. As a former Government Minister, shares responsibility for the former al-Assad regime’s violent repression of the civilian population.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1959-03-13",
-      "circa": false
+      "circa": false,
+      "year": 1959
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

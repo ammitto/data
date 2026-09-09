@@ -1,33 +1,42 @@
 {
-  "id": "https://www.ammitto.org/entry/au/consolidated-list/8510",
-  "entity_id": "https://www.ammitto.org/entity/au/8510",
+  "@id": "https://www.ammitto.org/entry/au/consolidated-list/8510",
+  "@type": "SanctionEntry",
+  "entityId": "https://www.ammitto.org/entity/au/8510",
   "authority": {
     "@id": "https://www.ammitto.org/authority/au"
   },
   "regime": {
-    "@id": "https://www.ammitto.org/regime/au_iran_1737"
+    "@id": "https://www.ammitto.org/regime/au_iran_1737",
+    "name": "Iran (UNSCR 1737)"
   },
-  "legal_bases": [
+  "legalBases": [
     {
-      "type": "regulation",
-      "identifier": "Charter of the United Nations (Sanctions - Iran) Regulations 2025",
-      "title": "Charter of the United Nations (Sanctions - Iran) Regulations 2025"
+      "@id": "https://www.ammitto.org/legal-instrument/au/charter-of-the-united-nations-sanctions-iran-regulations-2025"
     }
   ],
   "effects": [
     {
-      "effect_type": "asset_freeze",
+      "@type": "SanctionEffect",
+      "effectType": "asset_freeze",
       "scope": "full"
     }
   ],
+  "reasons": [
+
+  ],
   "period": {
-    "is_indefinite": true
+    "@type": "TemporalPeriod",
+    "isIndefinite": true
   },
   "status": "active",
-  "reference_number": "8510",
-  "raw_source_data": {
-    "source_format": "csv",
-    "source_specific_fields": {
+  "statusHistory": [
+
+  ],
+  "referenceNumber": "8510",
+  "rawSourceData": {
+    "@type": "RawSourceData",
+    "sourceFormat": "csv",
+    "sourceSpecificFields": {
       "au:reference": "8510",
       "au:committees": "1737 (Iran)",
       "au:control_date": "2025-12-12",
@@ -35,5 +44,5 @@
       "au:listing_info": "Listed by the 1737 Committee on 3 March 2008."
     }
   },
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

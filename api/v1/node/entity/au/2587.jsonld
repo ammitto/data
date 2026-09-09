@@ -1,66 +1,93 @@
 {
-  "id": "https://www.ammitto.org/entity/au/2587",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/2587",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "ADAM KHAN ACHEKZAI",
+      "@type": "NameVariant",
+      "fullName": "ADAM KHAN ACHEKZAI",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "آدم خان اچکزی",
+      "@type": "NameVariant",
+      "fullName": "آدم خان اچکزی",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Maulavi Adam Khan",
+      "@type": "NameVariant",
+      "fullName": "Maulavi Adam Khan",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Maulavi Adam",
+      "@type": "NameVariant",
+      "fullName": "Maulavi Adam",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "TAi.167 Improvised explosive device manufacturer and facilitator for the Taliban. Taliban member responsible for Badghis Province, Afghanistan, as at mid – 2010. Former Taliban member responsible for Sar-e Pul and Samangan Provinces, Afghanistan. As Taliban military commander in Kandahar Province, Afghanistan, he was involved in organizing suicide attacks in neighboring provinces. Associated with Abdul Samad Achekzai (TI.A.160.12.).; Listing: Listed on 16 April 2013",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/2587"
   ],
-  "birth_info": [
+  "remarks": "TAi.167 Improvised explosive device manufacturer and facilitator for the Taliban. Taliban member responsible for Badghis Province, Afghanistan, as at mid – 2010. Former Taliban member responsible for Sar-e Pul and Samangan Provinces, Afghanistan. As Taliban military commander in Kandahar Province, Afghanistan, he was involved in organizing suicide attacks in neighboring provinces. Associated with Abdul Samad Achekzai (TI.A.160.12.).; Listing: Listed on 16 April 2013",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1970,
       "country": "Kandahar Province"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1972,
       "country": "Afghanistan"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1971,
       "country": "Kandahar Province"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1973,
       "country": "Kandahar Province"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1974,
       "country": "Kandahar Province"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1975,
       "country": "Kandahar Province"
     }
   ],
   "nationalities": [
     "Pakistan"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Chaman, Baluchistan Province, Pakistan",
       "country": "Pakistan"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

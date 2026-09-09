@@ -1,29 +1,46 @@
 {
-  "id": "https://www.ammitto.org/entity/au/2393",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/2393",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Constantine CHIWENGA",
+      "@type": "NameVariant",
+      "fullName": "Constantine CHIWENGA",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Constantino CHIWENGA",
+      "@type": "NameVariant",
+      "fullName": "Constantino CHIWENGA",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Former Lt Gen, Commander, Zimbabwe Defence Forces; Listing: Designated under the Autonomous Sanctions Regulations 2011 on 2 March 2012. Formerly listed on the RBA Consolidated List as 2002ZIM0025. \nInstrument of first designation and declaration: Autonomous Sanctions (Designated Persons and Entities and Declared Persons - Zimbabwe) List 2012 [F2012L00484]\nRelisted on 12 January 2024.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/2393"
   ],
-  "birth_info": [
+  "remarks": "Former Lt Gen, Commander, Zimbabwe Defence Forces; Listing: Designated under the Autonomous Sanctions Regulations 2011 on 2 March 2012. Formerly listed on the RBA Consolidated List as 2002ZIM0025. \nInstrument of first designation and declaration: Autonomous Sanctions (Designated Persons and Entities and Declared Persons - Zimbabwe) List 2012 [F2012L00484]\nRelisted on 12 January 2024.",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1956
     }
   ],
   "nationalities": [
     "Zimbabwe"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,39 +1,61 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/drc0048",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/drc0048",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MUJYAMBERE",
-      "first_name": "LEOPOLD",
+      "@type": "NameVariant",
+      "fullName": "MUJYAMBERE",
+      "firstName": "LEOPOLD",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Achille",
+      "@type": "NameVariant",
+      "fullName": "Achille",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ibrahim",
-      "first_name": "Frere",
+      "@type": "NameVariant",
+      "fullName": "Ibrahim",
+      "firstName": "Frere",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Musenyeri",
+      "@type": "NameVariant",
+      "fullName": "Musenyeri",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Became acting FDLR-FOCA Deputy Commander in 2014. Captured in Goma, DRC by Congolese security services in early May 2016 and transferred to Kinshasa. INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/notice/search/un/5224709",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/drc0048"
+  ],
+  "remarks": "Became acting FDLR-FOCA Deputy Commander in 2014. Captured in Goma, DRC by Congolese security services in early May 2016 and transferred to Kinshasa. INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/notice/search/un/5224709",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "state": "Kinshasa",
       "country": "Congo (Democratic Republic)"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

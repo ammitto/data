@@ -1,55 +1,83 @@
 {
-  "id": "https://www.ammitto.org/entity/au/92",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/92",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Dost Mohammad",
+      "@type": "NameVariant",
+      "fullName": "Dost Mohammad",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Doost Mohammad",
+      "@type": "NameVariant",
+      "fullName": "Doost Mohammad",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "دوست محمد",
+      "@type": "NameVariant",
+      "fullName": "دوست محمد",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "TAi.092 Title: a) Mullah b) Maulavi. Designation: Governor of Ghazni Province under the Taliban regime. Associated with Mullah Jalil Haqqani (TI.H.34.01).  Believed to be in Afghanistan/Pakistan border area. Belongs to Popalzai tribe. Review pursuant to Security Council resolution 1822 (2008) was concluded on 27 Jul. 2010; Listing: Listed on 25 January 2001 (amended 18 Jul 2007, 21 Sep 2007, 13 Feb. 2012 and 31 Dec. 2013)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/92"
   ],
-  "birth_info": [
+  "remarks": "TAi.092 Title: a) Mullah b) Maulavi. Designation: Governor of Ghazni Province under the Taliban regime. Associated with Mullah Jalil Haqqani (TI.H.34.01).  Believed to be in Afghanistan/Pakistan border area. Belongs to Popalzai tribe. Review pursuant to Security Council resolution 1822 (2008) was concluded on 27 Jul. 2010; Listing: Listed on 25 January 2001 (amended 18 Jul 2007, 21 Sep 2007, 13 Feb. 2012 and 31 Dec. 2013)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1968,
       "country": "a) Nawi Deh village"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1969,
       "country": "Daman District"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1970,
       "country": "Kandahar Province"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1971,
       "country": "Afghanistan b) Marghankecha village"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1972,
       "country": "Afghanistan"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1973,
       "country": "a) Nawi Deh village"
     }
   ],
   "nationalities": [
     "Afghanistan"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

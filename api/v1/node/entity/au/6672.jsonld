@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/au/6672",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/6672",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Minsk Wheel Tractor Plant (MZKT)",
+      "@type": "NameVariant",
+      "fullName": "Minsk Wheel Tractor Plant (MZKT)",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "Website: www.mzkt.by; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 1) Instrument 2022",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/6672"
+  ],
+  "remarks": "Website: www.mzkt.by; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 1) Instrument 2022",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Partizanski ave 150, 220021, Belarus",
       "country": "Belarus"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

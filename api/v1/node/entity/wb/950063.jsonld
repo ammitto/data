@@ -1,23 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/950063",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/wb/950063",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MR. RICARDO CHECA HERNANDEZ",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "MR. RICARDO CHECA HERNANDEZ",
+      "isPrimary": true
     }
   ],
-  "remarks": "*684",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/950063"
+  ],
+  "remarks": "*684",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "RUA SOLDADO JOSÉ ANTÔNIO MOREIRA, 223",
       "city": "JARDIM JAPÃO – SP/SP, CEP: 02143-060",
       "country": "Brazil",
-      "country_iso_code": "BR"
+      "countryIsoCode": "BR"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

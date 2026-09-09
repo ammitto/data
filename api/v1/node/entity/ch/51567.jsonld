@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/51567",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/51567",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Fadzayev Arsen Suleymanovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Fadzayev Arsen Suleymanovich",
+      "isPrimary": true
     }
   ],
-  "remarks": "Former member of the Federation Council of the Russian Federation that ratified the government decisions on the “Treaty of Friendship, Cooperation and Mutual Assistance between the Russian Federation and the Donetsk People’s Republic and between the Russian Federation and the Luhansk People’s Republic”. In his public statements he repeatedly expressed support for the war against Ukraine.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/51567"
+  ],
+  "remarks": "Chairman of the Council of the North Ossetian branch of the Socialist Political Party “Just Russia-Patriots-for Truth”. Former member of the Federation Council of the Russian Federation that ratified the government decisions on the “Treaty of Friendship, Cooperation and Mutual Assistance between the Russian Federation and the Donetsk People’s Republic” and the “Treaty of Friendship, Cooperation and Mutual Assistance between the Russian Federation and the Luhansk People’s Republic”. In his public statements Arsen Fadzayev repeatedly expressed support for the war against Ukraine.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1952-09-05",
-      "circa": false
+      "circa": false,
+      "year": 1952
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

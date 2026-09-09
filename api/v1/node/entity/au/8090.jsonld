@@ -1,32 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8090",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/8090",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Chelyabinsk Forge and Press Plant Public Joint Stock Company",
+      "@type": "NameVariant",
+      "fullName": "Chelyabinsk Forge and Press Plant Public Joint Stock Company",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Chelyabinskiy kuznechno-pressoviy zavod",
+      "@type": "NameVariant",
+      "fullName": "Chelyabinskiy kuznechno-pressoviy zavod",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "CFPP",
+      "@type": "NameVariant",
+      "fullName": "CFPP",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "https://www.chkpz.ru/; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8090"
+  ],
+  "remarks": "https://www.chkpz.ru/; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Gorelova Street, 12, Chelyabinsk, Chelyabinsk Region, 454012, Russia",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

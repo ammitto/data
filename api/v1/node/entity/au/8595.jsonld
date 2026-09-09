@@ -1,39 +1,59 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8595",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/8595",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Esmail Khatib",
+      "@type": "NameVariant",
+      "fullName": "Esmail Khatib",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Seyed Esmaeil Khatib",
+      "@type": "NameVariant",
+      "fullName": "Seyed Esmaeil Khatib",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Esmaeil Khatib",
+      "@type": "NameVariant",
+      "fullName": "Esmaeil Khatib",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Minister of Intelligence and Security at the Ministry of Intelligence and Security (MOIS); Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Iran) List 2012",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8595"
   ],
-  "birth_info": [
+  "remarks": "Minister of Intelligence and Security at the Ministry of Intelligence and Security (MOIS); Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Iran) List 2012",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1960,
       "country": "Ghayenat"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1961,
       "country": "South Khorasan Province"
     }
   ],
   "nationalities": [
     "Iran"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

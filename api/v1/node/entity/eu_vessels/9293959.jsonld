@@ -1,18 +1,34 @@
 {
-  "id": "https://www.ammitto.org/entity/eu_vessels/9293959",
-  "entity_type": "vessel",
+  "@id": "https://www.ammitto.org/entity/eu_vessels/9293959",
+  "@type": "VesselEntity",
+  "entityType": "vessel",
   "names": [
     {
-      "full_name": "Fotuo",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Fotuo",
+      "isPrimary": true
     }
   ],
-  "source_references": [
+  "sourceReferences": [
     {
-      "source_code": "eu_vessels",
-      "reference_number": "9293959"
+      "@type": "SourceReference",
+      "sourceCode": "eu_vessels",
+      "referenceNumber": "9293959",
+      "retrievedAt": "2026-09-09T16:30:54Z"
     }
   ],
-  "imo_number": "9293959",
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "linkedEntities": [
+
+  ],
+  "imoNumber": "9293959",
+  "previousNames": [
+
+  ],
+  "previousFlags": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/eu_vessels/vessel-sanctions-list/9293959"
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,0 +1,40 @@
+{
+  "@id": "https://www.ammitto.org/entry/eu_vessels/vessel-sanctions-list/9389679",
+  "@type": "SanctionEntry",
+  "entityId": "https://www.ammitto.org/entity/eu_vessels/9389679",
+  "authority": {
+    "@id": "https://www.ammitto.org/authority/eu_vessels"
+  },
+  "regime": {
+    "@id": "https://www.ammitto.org/regime/eu",
+    "name": "EU Sanctions Regime"
+  },
+  "legalBases": [
+
+  ],
+  "effects": [
+    {
+      "@type": "SanctionEffect",
+      "effectType": "asset_freeze",
+      "scope": "full"
+    },
+    {
+      "@type": "SanctionEffect",
+      "effectType": "transport_sanction",
+      "scope": "full"
+    }
+  ],
+  "reasons": [
+
+  ],
+  "period": {
+    "@type": "TemporalPeriod",
+    "listedDate": "2025-05-21",
+    "isIndefinite": true
+  },
+  "status": "active",
+  "statusHistory": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
+}

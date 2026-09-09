@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/57913",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/57913",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Zhukov Alexander Arkadyevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Zhukov Alexander Arkadyevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/57913"
   ],
   "remarks": "Alexander Zhukov is a member of the Federation Council and senator for the Republic of Khakassia. On 4 October 2022, he ratified the four treaties between the Russian Federation and the so-called Donetsk People’s Republic, the so-calledLuhansk People’s Republic, the Zaporizhzhia region, and the Kherson region, and their admission to the Russian Federation. Therefore, he has supported and implemented actions and policies which undermine the territorial integrity, sovereignty and independence of Ukraine, and further destabilise Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1974-12-29",
-      "circa": false
+      "circa": false,
+      "year": 1974
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

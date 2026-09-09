@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/75914",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/75914",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Okhlobystin Ivan Ivanovitsch",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Okhlobystin Ivan Ivanovitsch",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/75914"
   ],
   "remarks": "Ivan Okhlobystin is a Russian actor, film director, screenwriter and producer and openly supports the Russian Government’s pro-war propaganda narrative by participating in state-sponsored propaganda events and by visiting and supplying goods to Russian troops and separatist forces deployed in Ukraine. For those actions, Ivan Okhlobystin was awarded a medal from the People’s Militia regiment of the so-called “Donetsk People’s Republic” for participation in Russia’s war of aggression against Ukraine as well as an Order of Merit from the Russian-occupied Zaporozhye Oblast.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1966-07-22",
-      "circa": false
+      "circa": false,
+      "year": 1966
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/85420",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/85420",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "TIS CONSULTANTS COMPANY LIMITED",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "TIS CONSULTANTS COMPANY LIMITED",
+      "isPrimary": true
     }
   ],
-  "remarks": "*55",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/85420"
+  ],
+  "remarks": "*55",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "151 TEAM BUILDING, MOO 12, NUANCHAN ROAD, KLONG KUM, BUENG KUM",
       "city": "BANGKOK",
       "country": "Thailand",
-      "country_iso_code": "TH"
+      "countryIsoCode": "TH"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

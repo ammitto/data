@@ -1,22 +1,43 @@
 {
-  "id": "https://www.ammitto.org/entity/cn/14-blake-resnick",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/cn/14-blake-resnick",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Blake Resnick",
+      "@type": "NameVariant",
+      "fullName": "Blake Resnick",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "布莱克·雷斯尼克",
+      "@type": "NameVariant",
+      "fullName": "布莱克·雷斯尼克",
       "script": "Hani",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/cn/anti-sanction-list/14-blake-resnick"
+  ],
   "remarks": "List: cn/anti-sanction-list; Title: BRINC无人机公司创始人、首席执行官; Gender: male",
-  "sanction_entry_ids": [
-    "https://www.ammitto.org/entry/cn/unknown/14-blake-resnick"
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
   ],
   "gender": "male",
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

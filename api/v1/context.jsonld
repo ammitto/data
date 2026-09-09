@@ -1,325 +1,512 @@
 {
   "@context": {
-    "@version": 1.1,
-    "@base": "https://www.ammitto.org/",
-    "@vocab": "https://www.ammitto.org/ontology/",
-
-    "ammitto": "https://www.ammitto.org/ontology/",
-    "schema": "http://schema.org/",
+    "@vocab": "https://ammitto.org/schema/v1/",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
-    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "https://schema.org/",
+    "prov": "http://www.w3.org/ns/prov#",
     "owl": "http://www.w3.org/2002/07/owl#",
-
+    "skos": "http://www.w3.org/2004/02/skos/core#",
     "Entity": {
-      "@id": "ammitto:Entity"
+      "@id": "Entity"
     },
     "PersonEntity": {
-      "@id": "ammitto:PersonEntity"
+      "@id": "PersonEntity"
     },
     "OrganizationEntity": {
-      "@id": "ammitto:OrganizationEntity"
+      "@id": "OrganizationEntity"
     },
     "VesselEntity": {
-      "@id": "ammitto:VesselEntity"
+      "@id": "VesselEntity"
     },
     "AircraftEntity": {
-      "@id": "ammitto:AircraftEntity"
+      "@id": "AircraftEntity"
     },
     "SanctionEntry": {
-      "@id": "ammitto:SanctionEntry"
-    },
-    "Authority": {
-      "@id": "ammitto:Authority"
+      "@id": "SanctionEntry"
     },
     "SanctionRegime": {
-      "@id": "ammitto:SanctionRegime"
+      "@id": "SanctionRegime"
     },
     "SanctionEffect": {
-      "@id": "ammitto:SanctionEffect"
-    },
-    "TemporalPeriod": {
-      "@id": "ammitto:TemporalPeriod"
-    },
-    "NameVariant": {
-      "@id": "ammitto:NameVariant"
-    },
-    "Address": {
-      "@id": "ammitto:Address"
-    },
-    "BirthInfo": {
-      "@id": "ammitto:BirthInfo"
-    },
-    "Identification": {
-      "@id": "ammitto:Identification"
-    },
-    "SourceReference": {
-      "@id": "ammitto:SourceReference"
-    },
-    "EntityLink": {
-      "@id": "ammitto:EntityLink"
-    },
-    "RawSourceData": {
-      "@id": "ammitto:RawSourceData"
+      "@id": "SanctionEffect"
     },
     "LegalInstrument": {
-      "@id": "ammitto:LegalInstrument"
+      "@id": "LegalInstrument"
     },
-    "Index": {
-      "@id": "ammitto:Index"
+    "OfficialAnnouncement": {
+      "@id": "OfficialAnnouncement"
     },
-
-    "id": "@id",
-    "type": "@type",
-
-    "entityType": {
-      "@id": "ammitto:entityType",
-      "@type": "xsd:string"
+    "LocalizedString": {
+      "@id": "LocalizedString"
+    },
+    "LegalCitation": {
+      "@id": "LegalCitation"
+    },
+    "SanctionList": {
+      "@id": "SanctionList"
+    },
+    "SanctionGroup": {
+      "@id": "SanctionGroup"
+    },
+    "SanctionPeriodModification": {
+      "@id": "SanctionPeriodModification"
     },
     "names": {
-      "@id": "ammitto:hasName",
+      "@id": "schema:name",
+      "@container": "@set"
+    },
+    "entityType": {
+      "@id": "entityType",
+      "@type": "@vocab"
+    },
+    "hasSanctionEntry": {
+      "@id": "hasSanctionEntry",
       "@type": "@id",
       "@container": "@set"
     },
-    "sourceReferences": {
-      "@id": "ammitto:hasSourceReference",
+    "authority": {
+      "@id": "authority",
+      "@type": "@id"
+    },
+    "regime": {
+      "@id": "regime"
+    },
+    "listType": {
+      "@id": "listType"
+    },
+    "legalBases": {
+      "@id": "legalBasis",
+      "@container": "@set"
+    },
+    "effects": {
+      "@id": "effect",
+      "@container": "@set"
+    },
+    "reasons": {
+      "@id": "reason",
+      "@container": "@set"
+    },
+    "period": {
+      "@id": "period"
+    },
+    "status": {
+      "@id": "status",
+      "@type": "@vocab"
+    },
+    "announcement": {
+      "@id": "announcement"
+    },
+    "effectType": {
+      "@id": "effectType",
+      "@type": "@vocab"
+    },
+    "asset_freeze": "asset_freeze",
+    "travel_ban": "travel_ban",
+    "trade_restriction": "trade_restriction",
+    "debarment": "debarment",
+    "sectoral_sanction": "sectoral_sanction",
+    "reasonCategory": {
+      "@id": "reasonCategory",
+      "@type": "@vocab"
+    },
+    "terrorism": "terrorism",
+    "proliferation": "proliferation",
+    "human_rights_violations": "human_rights_violations",
+    "corruption": "corruption",
+    "aggression": "aggression",
+    "rawSourceData": {
+      "@id": "rawSourceData"
+    },
+    "sourceFile": {
+      "@id": "sourceFile"
+    },
+    "rawContent": {
+      "@id": "rawContent"
+    },
+    "sourceSpecificFields": {
+      "@id": "sourceSpecificFields"
+    },
+    "imoNumber": {
+      "@id": "imoNumber"
+    },
+    "mmsi": {
+      "@id": "mmsi"
+    },
+    "callSign": {
+      "@id": "callSign"
+    },
+    "flagState": {
+      "@id": "flagState"
+    },
+    "vesselType": {
+      "@id": "vesselType"
+    },
+    "owner": {
+      "@id": "owner",
+      "@type": "@id"
+    },
+    "operator": {
+      "@id": "operator",
+      "@type": "@id"
+    },
+    "birthInfo": {
+      "@id": "birthInfo",
+      "@container": "@set"
+    },
+    "nationalities": {
+      "@id": "nationality",
+      "@container": "@set"
+    },
+    "gender": {
+      "@id": "schema:gender"
+    },
+    "identifications": {
+      "@id": "identification",
+      "@container": "@set"
+    },
+    "registrationNumber": {
+      "@id": "registrationNumber"
+    },
+    "incorporationDate": {
+      "@id": "incorporationDate",
+      "@type": "xsd:date"
+    },
+    "legalForm": {
+      "@id": "legalForm"
+    },
+    "beneficialOwners": {
+      "@id": "beneficialOwner",
       "@type": "@id",
       "@container": "@set"
     },
-    "linkedEntities": {
-      "@id": "ammitto:hasLinkedEntity",
-      "@type": "@id",
-      "@container": "@set"
+    "title": {
+      "@id": "schema:title"
+    },
+    "url": {
+      "@id": "schema:url",
+      "@type": "@id"
+    },
+    "publishedDate": {
+      "@id": "schema:datePublished",
+      "@type": "xsd:date"
+    },
+    "author": {
+      "@id": "schema:author"
     },
     "sameAs": {
       "@id": "owl:sameAs",
       "@type": "@id",
       "@container": "@set"
     },
-    "remarks": {
-      "@id": "ammitto:remarks",
-      "@type": "xsd:string"
+    "seeAlso": {
+      "@id": "rdfs:seeAlso",
+      "@type": "@id"
     },
-
-    "fullName": {
-      "@id": "ammitto:fullName",
-      "@type": "xsd:string"
+    "sourceReferences": {
+      "@id": "prov:hadPrimarySource",
+      "@container": "@set"
     },
-    "firstName": {
-      "@id": "ammitto:firstName",
-      "@type": "xsd:string"
+    "linkedEntities": {
+      "@id": "linkedEntity",
+      "@container": "@set"
     },
-    "middleName": {
-      "@id": "ammitto:middleName",
-      "@type": "xsd:string"
-    },
-    "lastName": {
-      "@id": "ammitto:lastName",
-      "@type": "xsd:string"
-    },
-    "script": {
-      "@id": "ammitto:script",
-      "@type": "xsd:string"
-    },
-    "isPrimary": {
-      "@id": "ammitto:isPrimary",
-      "@type": "xsd:boolean"
-    },
-
     "sourceCode": {
-      "@id": "ammitto:sourceCode",
-      "@type": "xsd:string"
+      "@id": "sourceCode"
     },
     "referenceNumber": {
-      "@id": "ammitto:referenceNumber",
-      "@type": "xsd:string"
+      "@id": "referenceNumber"
+    },
+    "resolution": {
+      "@id": "resolution"
     },
     "fetchedAt": {
-      "@id": "ammitto:fetchedAt",
+      "@id": "fetchedAt",
       "@type": "xsd:dateTime"
     },
-
-    "entityId": {
-      "@id": "ammitto:entityId",
+    "targetId": {
+      "@id": "targetId",
       "@type": "@id"
     },
-    "authority": {
-      "@id": "ammitto:hasAuthority",
-      "@type": "@id"
+    "relationshipType": {
+      "@id": "relationshipType",
+      "@type": "@vocab"
     },
-    "regime": {
-      "@id": "ammitto:hasRegime",
-      "@type": "@id"
+    "targetName": {
+      "@id": "targetName"
     },
-    "status": {
-      "@id": "ammitto:status",
-      "@type": "xsd:string"
+    "targetType": {
+      "@id": "targetType"
     },
-    "effects": {
-      "@id": "ammitto:hasEffect",
-      "@type": "@id",
-      "@container": "@set"
-    },
-    "period": {
-      "@id": "ammitto:hasPeriod",
-      "@type": "@id"
-    },
-    "reasons": {
-      "@id": "ammitto:hasReason",
-      "@type": "@id",
-      "@container": "@set"
-    },
-    "rawSourceData": {
-      "@id": "ammitto:hasRawSourceData",
-      "@type": "@id"
-    },
-    "hasSanctionEntry": {
-      "@id": "ammitto:hasSanctionEntry",
-      "@type": "@id",
-      "@container": "@set"
-    },
-    "legalBases": {
-      "@id": "ammitto:hasLegalBasis",
-      "@type": "@id",
-      "@container": "@set"
-    },
-    "nodes": {
-      "@id": "ammitto:hasNode",
-      "@type": "@id",
-      "@container": "@set"
-    },
-
-    "name": {
-      "@id": "schema:name",
-      "@type": "xsd:string"
-    },
-    "countryCode": {
-      "@id": "ammitto:countryCode",
-      "@type": "xsd:string"
-    },
-    "code": {
-      "@id": "ammitto:code",
-      "@type": "xsd:string"
-    },
-    "description": {
-      "@id": "schema:description",
-      "@type": "xsd:string"
-    },
-
-    "effectType": {
-      "@id": "ammitto:effectType",
-      "@type": "xsd:string"
-    },
-    "scope": {
-      "@id": "ammitto:scope",
-      "@type": "xsd:string"
-    },
-
-    "listedDate": {
-      "@id": "ammitto:listedDate",
-      "@type": "xsd:date"
-    },
-    "effectiveDate": {
-      "@id": "ammitto:effectiveDate",
-      "@type": "xsd:date"
-    },
-    "expiryDate": {
-      "@id": "ammitto:expiryDate",
-      "@type": "xsd:date"
-    },
-    "isIndefinite": {
-      "@id": "ammitto:isIndefinite",
-      "@type": "xsd:boolean"
-    },
-    "lastUpdated": {
-      "@id": "ammitto:lastUpdated",
-      "@type": "xsd:dateTime"
-    },
-
-    "imoNumber": {
-      "@id": "ammitto:imoNumber",
-      "@type": "xsd:string"
-    },
-    "flagState": {
-      "@id": "ammitto:flagState",
-      "@type": "xsd:string"
-    },
-    "tonnage": {
-      "@id": "ammitto:tonnage",
+    "gt": {
+      "@id": "grossTonnage",
       "@type": "xsd:integer"
     },
-
-    "street": {
-      "@id": "schema:streetAddress",
-      "@type": "xsd:string"
+    "dwt": {
+      "@id": "deadweightTonnage",
+      "@type": "xsd:integer"
     },
-    "city": {
-      "@id": "schema:addressLocality",
-      "@type": "xsd:string"
+    "nt": {
+      "@id": "netTonnage",
+      "@type": "xsd:integer"
     },
-    "state": {
-      "@id": "schema:addressRegion",
-      "@type": "xsd:string"
+    "grt": {
+      "@id": "grossRegisterTonnage",
+      "@type": "xsd:integer"
     },
-    "country": {
-      "@id": "schema:addressCountry",
-      "@type": "xsd:string"
+    "tonnage": {
+      "@id": "tonnage"
     },
-    "postalCode": {
-      "@id": "schema:postalCode",
-      "@type": "xsd:string"
-    },
-
-    "date": {
+    "birthDate": {
       "@id": "schema:birthDate",
       "@type": "xsd:date"
     },
-    "circa": {
-      "@id": "ammitto:circa",
-      "@type": "xsd:boolean"
+    "birthYear": {
+      "@id": "birthYear",
+      "@type": "xsd:gYear"
+    },
+    "year": {
+      "@id": "year",
+      "@type": "xsd:gYear"
+    },
+    "dateRangeFrom": {
+      "@id": "dateRangeFrom",
+      "@type": "xsd:date"
+    },
+    "dateRangeTo": {
+      "@id": "dateRangeTo",
+      "@type": "xsd:date"
+    },
+    "yearRangeFrom": {
+      "@id": "yearRangeFrom",
+      "@type": "xsd:gYear"
+    },
+    "yearRangeTo": {
+      "@id": "yearRangeTo",
+      "@type": "xsd:gYear"
+    },
+    "birthCity": {
+      "@id": "schema:birthPlace"
+    },
+    "birthCountry": {
+      "@id": "birthCountry"
+    },
+    "streetAddress": {
+      "@id": "schema:streetAddress"
+    },
+    "addressLocality": {
+      "@id": "schema:addressLocality"
+    },
+    "addressRegion": {
+      "@id": "schema:addressRegion"
+    },
+    "postalCode": {
+      "@id": "schema:postalCode"
+    },
+    "addressCountry": {
+      "@id": "schema:addressCountry"
+    },
+    "idType": {
+      "@id": "idType",
+      "@type": "@vocab"
+    },
+    "idNumber": {
+      "@id": "idNumber"
+    },
+    "idCountry": {
+      "@id": "idCountry"
+    },
+    "issueDate": {
+      "@id": "issueDate",
+      "@type": "xsd:date"
+    },
+    "expiryDate": {
+      "@id": "expiryDate",
+      "@type": "xsd:date"
+    },
+    "fromStatus": {
+      "@id": "fromStatus",
+      "@type": "@vocab"
+    },
+    "toStatus": {
+      "@id": "toStatus",
+      "@type": "@vocab"
+    },
+    "statusHistory": {
+      "@id": "statusHistory",
+      "@container": "@set"
+    },
+    "suspensionEndDate": {
+      "@id": "suspensionEndDate",
+      "@type": "xsd:date"
+    },
+    "dissolutionDate": {
+      "@id": "dissolutionDate",
+      "@type": "xsd:date"
+    },
+    "country": {
+      "@id": "country"
+    },
+    "countryIsoCode": {
+      "@id": "countryIsoCode"
+    },
+    "sector": {
+      "@id": "sector"
+    },
+    "value": {
+      "@id": "value"
+    },
+    "lang": {
+      "@id": "lang"
+    },
+    "script": {
+      "@id": "script"
     },
     "region": {
-      "@id": "ammitto:region",
-      "@type": "xsd:string"
+      "@id": "region"
     },
-
-    "number": {
-      "@id": "ammitto:documentNumber",
-      "@type": "xsd:string"
+    "isPrimary": {
+      "@id": "isPrimary",
+      "@type": "xsd:boolean"
     },
-    "issuingCountry": {
-      "@id": "ammitto:issuingCountry",
-      "@type": "xsd:string"
+    "isTransliteration": {
+      "@id": "isTransliteration",
+      "@type": "xsd:boolean"
     },
-    "note": {
-      "@id": "ammitto:note",
-      "@type": "xsd:string"
+    "transliterationSystem": {
+      "@id": "transliterationSystem"
     },
-
-    "linkType": {
-      "@id": "ammitto:linkType",
-      "@type": "xsd:string"
-    },
-    "targetEntityId": {
-      "@id": "ammitto:targetEntityId",
+    "legalInstrumentId": {
+      "@id": "legalInstrumentId",
       "@type": "@id"
     },
-
-    "sourceFile": {
-      "@id": "ammitto:sourceFile",
-      "@type": "xsd:string"
+    "articles": {
+      "@id": "articles",
+      "@container": "@set"
     },
-    "sourceFormat": {
-      "@id": "ammitto:sourceFormat",
-      "@type": "xsd:string"
+    "sections": {
+      "@id": "sections",
+      "@container": "@set"
     },
-    "rawContent": {
-      "@id": "ammitto:rawContent",
-      "@type": "xsd:string"
+    "paragraphs": {
+      "@id": "paragraphs",
+      "@container": "@set"
     },
-    "sourceSpecificFields": {
-      "@id": "ammitto:sourceSpecificFields",
-      "@type": "@json"
+    "citationType": {
+      "@id": "citationType"
+    },
+    "context": {
+      "@id": "context"
+    },
+    "quotedText": {
+      "@id": "quotedText",
+      "@container": "@set"
+    },
+    "source": {
+      "@id": "source"
+    },
+    "code": {
+      "@id": "code"
+    },
+    "description": {
+      "@id": "description"
+    },
+    "description_zh": {
+      "@id": "description_zh"
+    },
+    "description_en": {
+      "@id": "description_en"
+    },
+    "establishedDate": {
+      "@id": "establishedDate",
+      "@type": "xsd:date"
+    },
+    "metadata": {
+      "@id": "metadata"
+    },
+    "legalCitations": {
+      "@id": "legalCitation",
+      "@container": "@set"
+    },
+    "announcementId": {
+      "@id": "announcementId",
+      "@type": "@id"
+    },
+    "listId": {
+      "@id": "listId",
+      "@type": "@id"
+    },
+    "entryIds": {
+      "@id": "entryId",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "sharedMeasures": {
+      "@id": "sharedMeasure",
+      "@container": "@set"
+    },
+    "sharedReasons": {
+      "@id": "sharedReason",
+      "@container": "@set"
+    },
+    "effectiveTime": {
+      "@id": "effectiveTime"
+    },
+    "entityCount": {
+      "@id": "entityCount",
+      "@type": "xsd:integer"
+    },
+    "notes": {
+      "@id": "notes"
+    },
+    "targetAnnouncementId": {
+      "@id": "targetAnnouncementId",
+      "@type": "@id"
+    },
+    "targetAnnouncementDate": {
+      "@id": "targetAnnouncementDate",
+      "@type": "xsd:date"
+    },
+    "affectedEntityCount": {
+      "@id": "affectedEntityCount",
+      "@type": "xsd:integer"
+    },
+    "affectedEntityNames": {
+      "@id": "affectedEntityName",
+      "@container": "@set"
+    },
+    "action": {
+      "@id": "action"
+    },
+    "untilDate": {
+      "@id": "untilDate",
+      "@type": "xsd:date"
+    },
+    "untilTime": {
+      "@id": "untilTime"
+    },
+    "durationDays": {
+      "@id": "durationDays",
+      "@type": "xsd:integer"
+    },
+    "durationDescription": {
+      "@id": "durationDescription"
+    },
+    "reason": {
+      "@id": "reason",
+      "@container": "@set"
+    },
+    "sanctionGroupIds": {
+      "@id": "sanctionGroupId",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "modifications": {
+      "@id": "modification",
+      "@container": "@set"
+    },
+    "groupId": {
+      "@id": "groupId",
+      "@type": "@id"
     }
   }
 }

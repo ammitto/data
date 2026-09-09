@@ -1,43 +1,60 @@
 {
-  "id": "https://www.ammitto.org/entry/uk/consolidated-list/ghr0023",
-  "entity_id": "https://www.ammitto.org/entity/uk/ghr0023",
+  "@id": "https://www.ammitto.org/entry/uk/consolidated-list/ghr0023",
+  "@type": "SanctionEntry",
+  "entityId": "https://www.ammitto.org/entity/uk/ghr0023",
   "authority": {
     "@id": "https://www.ammitto.org/authority/uk"
   },
   "regime": {
-    "@id": "https://www.ammitto.org/regime/the_global_human_rights_sanctions_regulations_2020"
+    "@id": "https://www.ammitto.org/regime/the_global_human_rights_sanctions_regulations_2020",
+    "name": "The Global Human Rights Sanctions Regulations 2020"
   },
+  "legalBases": [
+
+  ],
   "effects": [
     {
-      "effect_type": "asset_freeze",
+      "@type": "SanctionEffect",
+      "effectType": "asset_freeze",
       "scope": "full"
     },
     {
-      "effect_type": "travel_ban",
+      "@type": "SanctionEffect",
+      "effectType": "travel_ban",
       "scope": "full"
     },
     {
-      "effect_type": "debarment",
+      "@type": "SanctionEffect",
+      "effectType": "debarment",
       "scope": "full"
     }
   ],
+  "reasons": [
+
+  ],
   "period": {
-    "listed_date": "2020-07-06",
-    "effective_date": "2020-07-06",
-    "is_indefinite": true,
-    "last_updated": "2025-04-09"
+    "@type": "TemporalPeriod",
+    "listedDate": "2020-07-06",
+    "effectiveDate": "2020-07-06",
+    "isIndefinite": true,
+    "lastUpdated": "2025-04-09"
   },
   "status": "active",
-  "reference_number": "GHR0023",
+  "statusHistory": [
+
+  ],
+  "referenceNumber": "GHR0023",
   "remarks": "\nPavel Lapshov was the Head of the Investigative Department of the Ministry of Internal Affairs in December 2011 after Sergei Magnitsky’s death in detention on 16 November 2009. In this role, Lapshov was responsible for the investigation into the mistreatment and death of Sergei Magnitsky in detention and intentionally or recklessly failed to fulfil that responsibility, in particular by concealing evidence of the circumstances surrounding his death.",
-  "raw_source_data": {
-    "source_format": "xml",
-    "source_specific_fields": {
+  "rawSourceData": {
+    "@type": "RawSourceData",
+    "sourceFormat": "xml",
+    "sourceSpecificFields": {
       "uk:ofsiGroupId": "13884",
+      "uk:unReferenceNumber": null,
       "uk:designationSource": "UK",
       "uk:sanctionsImposed": "Asset freeze|Travel Ban|Director Disqualification Sanction",
       "uk:entityType": "Individual"
     }
   },
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

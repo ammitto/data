@@ -1,26 +1,47 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8453",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/8453",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "FEREIDOUN ABBASI-DAVANI",
+      "@type": "NameVariant",
+      "fullName": "FEREIDOUN ABBASI-DAVANI",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "IRi.001.  Senior Ministry of Defence and Armed Forces Logistics (MODAFL) Scientist.  Has \"links to the Institute of Applied Physics, working closely with Mohsen Fakhrizadeh-Mahabadi\"  (designated under IRi.016).; Listing: Listed by the 1737 Committee on 24 March 2007 (amended on 17 December 2014).",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8453"
   ],
-  "birth_info": [
+  "remarks": "IRi.001.  Senior Ministry of Defence and Armed Forces Logistics (MODAFL) Scientist.  Has \"links to the Institute of Applied Physics, working closely with Mohsen Fakhrizadeh-Mahabadi\"  (designated under IRi.016).; Listing: Listed by the 1737 Committee on 24 March 2007 (amended on 17 December 2014).",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1958,
       "country": "Abadan"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1959,
       "country": "Iran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

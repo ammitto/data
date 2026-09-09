@@ -1,22 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/au/6662",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/6662",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Aleksande VOLFOVICH",
+      "@type": "NameVariant",
+      "fullName": "Aleksande VOLFOVICH",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "State Secretary of Security Council of Belarus; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 1) Instrument 2022",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/6662"
   ],
-  "birth_info": [
+  "remarks": "State Secretary of Security Council of Belarus; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 1) Instrument 2022",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1967,
       "country": "Kazan"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,24 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/mya0024",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/mya0024",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Myanmar Gems Enterprise (MGE)",
+      "@type": "NameVariant",
+      "fullName": "Myanmar Gems Enterprise (MGE)",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/mya0024"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Myanmar Gems Enterprise, No.70-072, Yarza Thingaha Road, Thapyaygone Ward",
       "city": "Zabuthiri Township",
       "state": "Naypyitaw",
       "country": "Myanmar"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

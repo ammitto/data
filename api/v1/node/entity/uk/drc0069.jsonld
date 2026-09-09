@@ -1,68 +1,96 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/drc0069",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/drc0069",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "NKALUBO",
-      "first_name": "Mohamed",
+      "@type": "NameVariant",
+      "fullName": "NKALUBO",
+      "firstName": "Mohamed",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Abou Shaukan",
+      "@type": "NameVariant",
+      "fullName": "Abou Shaukan",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abu Shaukan",
+      "@type": "NameVariant",
+      "fullName": "Abu Shaukan",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abul Jihad",
+      "@type": "NameVariant",
+      "fullName": "Abul Jihad",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Defender",
+      "@type": "NameVariant",
+      "fullName": "Defender",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Kasibante",
+      "@type": "NameVariant",
+      "fullName": "Kasibante",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Lee",
-      "first_name": "Meddie",
+      "@type": "NameVariant",
+      "fullName": "Lee",
+      "firstName": "Meddie",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "NKALUBO",
-      "first_name": "Meddie",
+      "@type": "NameVariant",
+      "fullName": "NKALUBO",
+      "firstName": "Meddie",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Punisher",
+      "@type": "NameVariant",
+      "fullName": "Punisher",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Punny Boy",
+      "@type": "NameVariant",
+      "fullName": "Punny Boy",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/drc0069"
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "country": "Congo (Democratic Republic)"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

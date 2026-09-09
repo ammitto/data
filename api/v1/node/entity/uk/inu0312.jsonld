@@ -1,27 +1,43 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/inu0312",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/inu0312",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Research Institute of Nuclear Science & Technology ",
+      "@type": "NameVariant",
+      "fullName": "Research Institute of Nuclear Science & Technology ",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Nuclear Science and Technology Research Institute",
+      "@type": "NameVariant",
+      "fullName": "Nuclear Science and Technology Research Institute",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/inu0312"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "North Kargar Ave, North Kargar Street",
       "state": "Tehran",
       "country": "Iran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

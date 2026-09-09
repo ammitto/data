@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/48021",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/48021",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Knyrik Konstantin Sergeyevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Knyrik Konstantin Sergeyevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/48021"
   ],
   "remarks": "Konstantin Knyrik is a pro-Russian activist running MediaGroup News Front Ltd, a news website registered in the illegally annexed Crimean Peninsula. He is the chief of the Crimean division of the Rodina Party, a pro-Kremlin party in Russia. He publicly supports Russia’s war of aggression against Ukraine and is actively involved in spreading disinformation about the war.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1989-08-14",
-      "circa": false
+      "circa": false,
+      "year": 1989
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

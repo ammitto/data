@@ -1,57 +1,81 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7294",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7294",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Alexey ALEXANDROV",
+      "@type": "NameVariant",
+      "fullName": "Alexey ALEXANDROV",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Alexey Alexandrovich ALEXANDROV",
+      "@type": "NameVariant",
+      "fullName": "Alexey Alexandrovich ALEXANDROV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Aleksej Alesandrovitj ALEKSANDROV",
+      "@type": "NameVariant",
+      "fullName": "Aleksej Alesandrovitj ALEKSANDROV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Aleksey Alexandrovich ALEXANDROV",
+      "@type": "NameVariant",
+      "fullName": "Aleksey Alexandrovich ALEXANDROV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Aleksey FROLOV",
+      "@type": "NameVariant",
+      "fullName": "Aleksey FROLOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Aleksey Andreevich FROLOV",
+      "@type": "NameVariant",
+      "fullName": "Aleksey Andreevich FROLOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Aleksej Andrejevitj FROLOV",
+      "@type": "NameVariant",
+      "fullName": "Aleksej Andrejevitj FROLOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Thematic Sanctions) Amendment (No. 1) Instrument 2022",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7294"
   ],
-  "birth_info": [
+  "remarks": "Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Thematic Sanctions) Amendment (No. 1) Instrument 2022",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1980
     },
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1981
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

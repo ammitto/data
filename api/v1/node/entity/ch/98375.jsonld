@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/98375",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/98375",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Gartsev Dmitry Anatolievich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Gartsev Dmitry Anatolievich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/98375"
   ],
   "remarks": "Dmitry Gartsev is the Minister of Health of the so-called “Donetsk People’s Republic”. In that role, he is involved in organising the transfer of children from the occupied territories of Ukraine to Russia. Therefore, Dmitry Gartsev is supporting and implementing actions and policies which undermine and threaten the territorial integrity, sovereignty and independence of Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1989-02-01",
-      "circa": false
+      "circa": false,
+      "year": 1989
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

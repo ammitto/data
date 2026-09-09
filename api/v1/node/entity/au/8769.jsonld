@@ -1,32 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8769",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/8769",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Limited Liability Company Responsibility Depository And Corporate Technologies",
+      "@type": "NameVariant",
+      "fullName": "Limited Liability Company Responsibility Depository And Corporate Technologies",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "DKT",
+      "@type": "NameVariant",
+      "fullName": "DKT",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "DEPOZITARNYYE I KORPORATIVNYYE TEKHNOLOGII OOO",
+      "@type": "NameVariant",
+      "fullName": "DEPOZITARNYYE I KORPORATIVNYYE TEKHNOLOGII OOO",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Website: https://depotech.ru/; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2026",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8769"
+  ],
+  "remarks": "Website: https://depotech.ru/; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2026",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Ul. Stromynka D. 4, Korp. 1, Moscow, 107014, Russia",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

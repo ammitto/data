@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/6252",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/6252",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Chombo Ignatius Morgan Chiminya",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Chombo Ignatius Morgan Chiminya",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/6252"
   ],
   "remarks": "ZANU-PF Member of the Government and responsible for undermining MDC in local Government by restricting funding and harassment.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1952-08-01",
-      "circa": false
+      "circa": false,
+      "year": 1952
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

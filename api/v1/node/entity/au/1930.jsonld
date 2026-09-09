@@ -1,35 +1,56 @@
 {
-  "id": "https://www.ammitto.org/entity/au/1930",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/1930",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ali FADAVI",
+      "@type": "NameVariant",
+      "fullName": "Ali FADAVI",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Ali FADAWI",
+      "@type": "NameVariant",
+      "fullName": "Ali FADAWI",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Listing: Designated under the Autonomous Sanctions Regulations 2011 on 2 March 2012. Formerly listed on the RBA Consolidated List as 2010IRN0031. Instrument of first designation Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Iran) List 2012 [F2012L00479]. Relisted on 12 January 2024.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/1930"
   ],
-  "birth_info": [
+  "remarks": "Listing: Designated under the Autonomous Sanctions Regulations 2011 on 2 March 2012. Formerly listed on the RBA Consolidated List as 2010IRN0031. Instrument of first designation Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Iran) List 2012 [F2012L00479]. Relisted on 12 January 2024.",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1961
     },
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1961
     },
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1961
     }
   ],
   "nationalities": [
     "Iran"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

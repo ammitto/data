@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/44192",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/44192",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Turchin Aliaksandr Henrykavich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Turchin Aliaksandr Henrykavich",
+      "isPrimary": true
     }
   ],
-  "remarks": "In his position as the Chairman of Minsk Regional Executive Committee, he is responsible for overseeing local administration, including a number of committees. He is therefore supporting the Lukashenka regime.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/44192"
+  ],
+  "remarks": "In his position as the Chairman of Minsk Regional Executive Committee, he was responsible for overseeing local administration, including a number of committees. He continues supporting the Lukashenka regime in his position as Prime Minister of the Republic of Belarus.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1975-07-02",
-      "circa": false
+      "circa": false,
+      "year": 1975
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

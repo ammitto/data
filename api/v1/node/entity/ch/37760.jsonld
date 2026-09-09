@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/37760",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/37760",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ri Chun Hwan",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Ri Chun Hwan",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/37760"
   ],
   "remarks": "Ri Chun Hwan is an overseas Foreign Trade Bank representative.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1957-08-21",
-      "circa": false
+      "circa": false,
+      "year": 1957
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/84783",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/84783",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Faysal Ahmad Bin Ali al-Zahrani",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Faysal Ahmad Bin Ali al-Zahrani",
+      "isPrimary": true
     }
   ],
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/84783"
+  ],
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1986-01-19",
-      "circa": false
+      "circa": false,
+      "year": 1986
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

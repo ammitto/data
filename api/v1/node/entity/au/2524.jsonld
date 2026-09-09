@@ -1,35 +1,53 @@
 {
-  "id": "https://www.ammitto.org/entity/au/2524",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/2524",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Abdul Samad Achekzai",
+      "@type": "NameVariant",
+      "fullName": "Abdul Samad Achekzai",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "عبد الصمد اچکزی",
+      "@type": "NameVariant",
+      "fullName": "عبد الصمد اچکزی",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abdul Samad",
+      "@type": "NameVariant",
+      "fullName": "Abdul Samad",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "TAi.160 Senior Taliban member responsible for the manufacturing of improvised explosive devices (IED). Involved in recruiting and deploying suicide bombers to conduct attacks in Afghanistan.; Listing: Listed on 1 March 2012.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/2524"
   ],
-  "birth_info": [
+  "remarks": "TAi.160 Senior Taliban member responsible for the manufacturing of improvised explosive devices (IED). Involved in recruiting and deploying suicide bombers to conduct attacks in Afghanistan.; Listing: Listed on 1 March 2012.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1970,
       "country": "Afghanistan"
     }
   ],
   "nationalities": [
     "Afghanistan"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

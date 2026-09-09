@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/44172",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/44172",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Dunka Arciom Kanstantinavich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Dunka Arciom Kanstantinavich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/44172"
   ],
   "remarks": "In his former leadership position as Senior Inspector for Special Matters of the Department of Financial Investigations of the State Control Committee, he was responsible for the repression and intimidation campaign led by the State apparatus in the wake of the 2020 presidential election, in particular investigations launched into opposition leaders and activists. He remains active in the Lukashenka regime as the Deputy Head of the Vitebsk/Viciebsk Region/Oblast Office of the Department of Financial Investigations of the State Control Committee.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1990-06-08",
-      "circa": false
+      "circa": false,
+      "year": 1990
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

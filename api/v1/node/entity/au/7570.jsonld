@@ -1,30 +1,47 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7570",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7570",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Vladimir Nikolaevich LEPIN",
+      "@type": "NameVariant",
+      "fullName": "Vladimir Nikolaevich LEPIN",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Vladimir Nikolayevich LEPIN",
+      "@type": "NameVariant",
+      "fullName": "Vladimir Nikolayevich LEPIN",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "General Director (Chief Executive Officer), JSC Concern Kalashnikov; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 8) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7570"
   ],
-  "birth_info": [
+  "remarks": "General Director (Chief Executive Officer), JSC Concern Kalashnikov; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 8) Instrument 2023",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1959,
       "country": "Tambov"
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

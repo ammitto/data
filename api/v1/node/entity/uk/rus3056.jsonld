@@ -1,52 +1,73 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus3056",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus3056",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "IZZITION E-TECHNOLOGY CO LTD  ",
+      "@type": "NameVariant",
+      "fullName": "IZZITION E-TECHNOLOGY CO LTD  ",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Izzition Electronics  ",
+      "@type": "NameVariant",
+      "fullName": "Izzition Electronics  ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "IZZITION E-TECHNOLOGY CO. LTD",
+      "@type": "NameVariant",
+      "fullName": "IZZITION E-TECHNOLOGY CO. LTD",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "伊奇信電子科技有限公司 ",
+      "@type": "NameVariant",
+      "fullName": "伊奇信電子科技有限公司 ",
       "script": "Hani",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "伊奇信電子科技有限公司  ",
+      "@type": "NameVariant",
+      "fullName": "伊奇信電子科技有限公司  ",
       "script": "Hani",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus3056"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "Flat 1506, 15/F, Lucky Center,, No. 166-171, Wan Chai Road",
+      "state": "Hong Kong",
+      "country": "China"
+    },
+    {
+      "@type": "Address",
       "street": "RM 29, 22/F, Yan's Tower, 25-27 Wong Chuk Hang Road, Aberdeen",
       "state": "Hong Kong"
     },
     {
+      "@type": "Address",
       "street": "Room 1001, Jiahe Building A,, Zhong Hang Road, Huqqiang North Subdistrict",
       "city": "Futian District",
       "state": "Shenzhen",
       "country": "China"
-    },
-    {
-      "street": "Flat 1506, 15/F, Lucky Center,, No. 166-171, Wan Chai Road",
-      "state": "Hong Kong",
-      "country": "China"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

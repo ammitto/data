@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/557986",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/557986",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "ODELGA MED GES.M.B.H.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "ODELGA MED GES.M.B.H.",
+      "isPrimary": true
     }
   ],
-  "remarks": "*579",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/557986"
+  ],
+  "remarks": "*579",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "CARLBERGERGASSE 68",
       "city": "1230 VIENNA",
       "country": "Austria",
-      "country_iso_code": "AT"
+      "countryIsoCode": "AT"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

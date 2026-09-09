@@ -1,21 +1,42 @@
 {
-  "id": "https://www.ammitto.org/entity/cn/6-mike-gallagher",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/cn/6-mike-gallagher",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mike Gallagher",
+      "@type": "NameVariant",
+      "fullName": "Mike Gallagher",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "麦克·加拉格尔",
+      "@type": "NameVariant",
+      "fullName": "麦克·加拉格尔",
       "script": "Hani",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "List: cn/anti-sanction-list; Title: 美国国会众议院\"中国特设委\"前任主席、威斯康星州前联邦众议员",
-  "sanction_entry_ids": [
-    "https://www.ammitto.org/entry/cn/unknown/6-mike-gallagher"
+  "sourceReferences": [
+
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/cn/anti-sanction-list/6-mike-gallagher"
+  ],
+  "remarks": "List: cn/anti-sanction-list; Title: 美国国会众议院\"中国特设委\"前任主席、威斯康星州前联邦众议员",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

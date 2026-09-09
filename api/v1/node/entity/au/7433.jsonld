@@ -1,25 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7433",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7433",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Dmitry Nikolaevich BEZRUKIKH",
+      "@type": "NameVariant",
+      "fullName": "Dmitry Nikolaevich BEZRUKIKH",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "Head of the Office of the Federal Penitentiary Service for the Rostov Region in the Russian Federation; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 2) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7433"
   ],
-  "birth_info": [
+  "remarks": "Head of the Office of the Federal Penitentiary Service for the Rostov Region in the Russian Federation; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 2) Instrument 2023",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1973,
       "country": "Nevonka village"
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

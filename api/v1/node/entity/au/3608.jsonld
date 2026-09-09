@@ -1,27 +1,47 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3608",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/3608",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Hamza Usama Muhammad Bin Laden",
+      "@type": "NameVariant",
+      "fullName": "Hamza Usama Muhammad Bin Laden",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "حمزة أسامة محمد بن لادن",
+      "@type": "NameVariant",
+      "fullName": "حمزة أسامة محمد بن لادن",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Son of Usama bin Laden (deceased).  Announced by Aiman Muhammed Rabi al-Zawahiri (QDi.006) as an official member of Al-Qaida (QDe.004). Has called for follwers of Al-Qaida to commit terror attacks.  Was seen as the most probable successor of al-Zawahiri. Reportedly killed in a counterterrorism operation as of September 2019 in the Afghanistan/Pakistan region.; Listing: Listed on: 28 Feb. 2019 (amended on 13 Mar. 2019, 11 Mar. 2025)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3608"
   ],
-  "birth_info": [
+  "remarks": "Son of Usama bin Laden (deceased).  Announced by Aiman Muhammed Rabi al-Zawahiri (QDi.006) as an official member of Al-Qaida (QDe.004). Has called for follwers of Al-Qaida to commit terror attacks.  Was seen as the most probable successor of al-Zawahiri. Reportedly killed in a counterterrorism operation as of September 2019 in the Afghanistan/Pakistan region.; Listing: Listed on: 28 Feb. 2019 (amended on 13 Mar. 2019, 11 Mar. 2025)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1989,
       "country": "Jeddah"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

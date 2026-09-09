@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/4807",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/4807",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Bileichyk Aliaksandr Uladzimiravich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Bileichyk Aliaksandr Uladzimiravich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/4807"
   ],
   "remarks": "Former first Deputy Minister of Justice (until December 2014), in charge of the judicial services, the civil status and the notaries' services. His functions include the supervision of, and control over, the Legal Bar. He has played a major role in almost systematically debarring lawyers who defended political prisoners.",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1964
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,21 +1,36 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus3066",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus3066",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "ALT CAPITAL PTE LTD ",
+      "@type": "NameVariant",
+      "fullName": "ALT CAPITAL PTE LTD ",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus3066"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "75 High Street",
       "country": "Singapore"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

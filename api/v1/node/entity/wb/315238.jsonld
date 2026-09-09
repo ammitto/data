@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/315238",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/315238",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "RUSLAN TIKINTI DEMONTAJ MMC/RUSLAN BUILDING DEMONTAGE LLC",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "RUSLAN TIKINTI DEMONTAJ MMC/RUSLAN BUILDING DEMONTAGE LLC",
+      "isPrimary": true
     }
   ],
-  "remarks": "*245",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/315238"
+  ],
+  "remarks": "*245",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "AZ1021, SABAYIL DISTRICT, BADAMDAR BUILDING 9, APT. 17",
       "city": "BAKU",
       "country": "Azerbaijan",
-      "country_iso_code": "AZ"
+      "countryIsoCode": "AZ"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,0 +1,45 @@
+{
+  "@id": "https://www.ammitto.org/entry/us/sdn-list/10481",
+  "@type": "SanctionEntry",
+  "entityId": "https://www.ammitto.org/entity/us/10481",
+  "authority": {
+    "@id": "https://www.ammitto.org/authority/us"
+  },
+  "regime": {
+    "@id": "https://www.ammitto.org/regime/npwmd",
+    "name": "NPWMD"
+  },
+  "legalBases": [
+
+  ],
+  "effects": [
+    {
+      "@type": "SanctionEffect",
+      "effectType": "asset_freeze",
+      "scope": "full"
+    }
+  ],
+  "reasons": [
+
+  ],
+  "status": "active",
+  "statusHistory": [
+
+  ],
+  "referenceNumber": "10481",
+  "rawSourceData": {
+    "@type": "RawSourceData",
+    "sourceFormat": "xml",
+    "sourceSpecificFields": {
+      "us:sdnType": "Individual",
+      "us:programs": [
+        "NPWMD",
+        "IRGC",
+        "SDGT",
+        "IFSR"
+      ],
+      "us:title": null
+    }
+  },
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
+}

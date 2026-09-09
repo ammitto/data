@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/54156",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/54156",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Koval Oleg Valeryevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Koval Oleg Valeryevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/54156"
   ],
   "remarks": "Deputy Chairman of the so-called “People’s Council” of the so-called “Luhansk People’s Republic”. Has therefore supported and implemented actions and policies which undermine the territorial integrity, sovereignty and independence of Ukraine, and further destabilised Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1974-09-29",
-      "circa": false
+      "circa": false,
+      "year": 1974
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

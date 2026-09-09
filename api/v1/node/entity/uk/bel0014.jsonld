@@ -1,57 +1,81 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/bel0014",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/bel0014",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "KUBRAKOU",
-      "first_name": "Ivan",
+      "@type": "NameVariant",
+      "fullName": "KUBRAKOU",
+      "firstName": "Ivan",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Kubrakou",
-      "first_name": "Ivan",
+      "@type": "NameVariant",
+      "fullName": "Kubrakou",
+      "firstName": "Ivan",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "KUBRAKOU",
-      "first_name": "Ivan",
+      "@type": "NameVariant",
+      "fullName": "KUBRAKOU",
+      "firstName": "Ivan",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "KUBRAKOV",
-      "first_name": "Ivan",
+      "@type": "NameVariant",
+      "fullName": "KUBRAKOV",
+      "firstName": "Ivan",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "KUBRAKOV",
-      "first_name": "Ivan",
+      "@type": "NameVariant",
+      "fullName": "KUBRAKOV",
+      "firstName": "Ivan",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "КУБРАКОВ, Иван Владимирович",
+      "@type": "NameVariant",
+      "fullName": "КУБРАКОВ, Иван Владимирович",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "КУБРАКОЎ, Iван Уладзiмiравiч",
+      "@type": "NameVariant",
+      "fullName": "КУБРАКОЎ, Iван Уладзiмiравiч",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/bel0014"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Ministry of Internal Affairs of the Republic of Belarus, 4 Gorodskoi Val Street, Minsk",
       "country": "Belarus"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

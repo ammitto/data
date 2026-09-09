@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/888147",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/888147",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "HEBEI ZHUOCHENG ENGINEERING INSPECTION CO., LTD.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "HEBEI ZHUOCHENG ENGINEERING INSPECTION CO., LTD.",
+      "isPrimary": true
     }
   ],
-  "remarks": "河北卓诚工程检测有限公司",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/888147"
+  ],
+  "remarks": "河北卓诚工程检测有限公司",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "NO 48 ,FUCHANG ROAD , JIANSHE SOUTH ROAD STREET OFFICE, JINGXIU DISTRICT",
       "city": "BAODING CITY",
       "country": "China",
-      "country_iso_code": "CN"
+      "countryIsoCode": "CN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

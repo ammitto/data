@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/84088",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/84088",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Maysar Ali Musa Abdallah al-Juburi Amir",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Maysar Ali Musa Abdallah al-Juburi Amir",
+      "isPrimary": true
     }
   ],
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/84088"
+  ],
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1976-06-01",
-      "circa": false
+      "circa": false,
+      "year": 1976
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

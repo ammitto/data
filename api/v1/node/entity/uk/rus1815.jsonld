@@ -1,53 +1,76 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus1815",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/rus1815",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ioannides",
-      "first_name": "Demetris",
+      "@type": "NameVariant",
+      "fullName": "Ioannides",
+      "firstName": "Demetris",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Ioannides",
-      "first_name": "Dimitris",
+      "@type": "NameVariant",
+      "fullName": "Ioannides",
+      "firstName": "Dimitris",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ioannides",
-      "first_name": "John",
+      "@type": "NameVariant",
+      "fullName": "Ioannides",
+      "firstName": "John",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ioannides",
-      "first_name": "John",
+      "@type": "NameVariant",
+      "fullName": "Ioannides",
+      "firstName": "John",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ioannides",
-      "first_name": "John",
+      "@type": "NameVariant",
+      "fullName": "Ioannides",
+      "firstName": "John",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Δημήτρης Ιωαννίδης",
+      "@type": "NameVariant",
+      "fullName": "Δημήτρης Ιωαννίδης",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus1815"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "1 EFTAPATO COURT, ARCHIEPISKOPOU MAKARIOU III",
       "state": "LIMASSOL",
       "country": "Cyprus"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

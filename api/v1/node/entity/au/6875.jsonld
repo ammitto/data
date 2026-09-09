@@ -1,22 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/au/6875",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/6875",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "German Borisovich KHAN",
+      "@type": "NameVariant",
+      "fullName": "German Borisovich KHAN",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "Co-founder and former Member of Board of Directors, LetterOne Group; Former Supervisory Board Member of oil and gas company, Wintershall Dea AG; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 11) Instrument 2022",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/6875"
   ],
-  "birth_info": [
+  "remarks": "Co-founder and former Member of Board of Directors, LetterOne Group; Former Supervisory Board Member of oil and gas company, Wintershall Dea AG; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 11) Instrument 2022",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1961,
       "country": "Kyiv"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

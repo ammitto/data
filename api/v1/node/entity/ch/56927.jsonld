@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/56927",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/56927",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kostomarov Alexander Konstantinovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kostomarov Alexander Konstantinovich",
+      "isPrimary": true
     }
   ],
-  "remarks": "So-called “First Deputy Head of the administration of the Head of the Donetsk People’s Republic” since 8 Jun 2022.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/56927"
+  ],
+  "remarks": "Former so-called “First Deputy Head of the administration of the Head of the Donetsk People’s Republic”.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1977-05-13",
-      "circa": false
+      "circa": false,
+      "year": 1977
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

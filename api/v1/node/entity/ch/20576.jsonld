@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/20576",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/20576",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Abdulhafiz Mas'ud Colonel",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Abdulhafiz Mas'ud Colonel",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/20576"
   ],
   "remarks": "3rd in command of Armed Forces. Significant role in Military Intelligence.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1937-01-01",
-      "circa": false
+      "circa": false,
+      "year": 1937
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,58 +1,84 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/som0027",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/som0027",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MOHAMED",
-      "first_name": "OMAR",
+      "@type": "NameVariant",
+      "fullName": "MOHAMED",
+      "firstName": "OMAR",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Haji",
-      "first_name": "Mohamed",
+      "@type": "NameVariant",
+      "fullName": "Haji",
+      "firstName": "Mohamed",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ma'alin",
-      "first_name": "Mohamed",
+      "@type": "NameVariant",
+      "fullName": "Ma'alin",
+      "firstName": "Mohamed",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Mo'alin",
+      "@type": "NameVariant",
+      "fullName": "Mo'alin",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Omar",
-      "first_name": "Mohamed",
+      "@type": "NameVariant",
+      "fullName": "Omar",
+      "firstName": "Mohamed",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Umurow",
-      "first_name": "Ma'd",
+      "@type": "NameVariant",
+      "fullName": "Umurow",
+      "firstName": "Ma'd",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Listed pursuant to paragraph 26(b) of resolution 2662 (2022): (i) participating in the financing, planning, facilitating, preparing, or perpetrating of acts or activities by, in conjunction with, under the name of, on behalf of, or in support of Al-Shabaab; and (iii) recruiting for, or otherwise supporting acts or activities of Al-Shabaab or any cell, affiliate, splinter group or derivative thereof.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/som0027"
+  ],
+  "remarks": "Listed pursuant to paragraph 26(b) of resolution 2662 (2022): (i) participating in the financing, planning, facilitating, preparing, or perpetrating of acts or activities by, in conjunction with, under the name of, on behalf of, or in support of Al-Shabaab; and (iii) recruiting for, or otherwise supporting acts or activities of Al-Shabaab or any cell, affiliate, splinter group or derivative thereof.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "city": "Buur Hakaba",
       "state": "Bay Region",
       "country": "Somalia"
     },
     {
+      "@type": "Address",
+      "street": "",
       "city": "Diinsor District",
       "state": "Bay Region",
       "country": "Somalia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

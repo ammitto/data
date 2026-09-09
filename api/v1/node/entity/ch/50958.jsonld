@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/50958",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/50958",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Muradov Rustam Usmanovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Muradov Rustam Usmanovich",
+      "isPrimary": true
     }
   ],
-  "remarks": "Rustam Muradov is Colonel General and former Commander of the Eastern Military District. Previously, he was the deputy commander of the Southern Military District, which has been involved in military actions against Ukraine. In July 2022 he was named commander of Russia’s group of forces “Vostok” operating in Ukraine.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/50958"
+  ],
+  "remarks": "Rustam Muradov is Colonel General and First Deputy Commander-in-Chief of the Ground Forces of Russia. He is also a former Commander of the Eastern Military District. Previously, he was the deputy commander of the Southern Military District, which has been involved in military actions against Ukraine. In July 2022 he was named commander of Russia’s group of forces “Vostok” operating in Ukraine.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1973-03-21",
-      "circa": false
+      "circa": false,
+      "year": 1973
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/79395",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/79395",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Nurullah Nuri Maulavi",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Nurullah Nuri Maulavi",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/79395"
   ],
   "remarks": "Governor of Balkh Province under the Taliban Regime.",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1958
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

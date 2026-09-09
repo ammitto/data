@@ -1,22 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/582643",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/wb/582643",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "ĐOÀN ANH DŨNG",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "ĐOÀN ANH DŨNG",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/582643"
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "NO. 14, TT6B URBAN WEST NAM LINH DAM, HOANG MAI (SỐ 14, TT6B KHU ĐÔ THỊ TÂY NAM LINH ĐÀM, HOÀNG MAI)",
       "city": "HANOI 100000 (HÀ NỘI)",
       "country": "Viet Nam",
-      "country_iso_code": "VN"
+      "countryIsoCode": "VN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

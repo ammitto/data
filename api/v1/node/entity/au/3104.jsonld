@@ -1,41 +1,57 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3104",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/3104",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Sofiane Ben Goumo",
+      "@type": "NameVariant",
+      "fullName": "Sofiane Ben Goumo",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Sufyan bin Qumu",
+      "@type": "NameVariant",
+      "fullName": "Sufyan bin Qumu",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abou Farai al Libi",
+      "@type": "NameVariant",
+      "fullName": "Abou Farai al Libi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Leader of Ansar al Charia Derna (QDe.145). Review pursuant to Security Council resolution 2368 (2017) was concluded on 24 November 2020.; Listing: Listed on 3 Sep. 2015 (amended on 24 Nov. 2020, 11 Mar. 2025).",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3104"
   ],
-  "birth_info": [
+  "remarks": "Leader of Ansar al Charia Derna (QDe.145). Review pursuant to Security Council resolution 2368 (2017) was concluded on 24 November 2020.; Listing: Listed on 3 Sep. 2015 (amended on 24 Nov. 2020, 11 Mar. 2025).",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1959,
       "country": "Derna"
     }
   ],
   "nationalities": [
     "Libya"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Libya",
       "country": "Libya"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/987578",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/987578",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "BULACE INVESTMENTS LIMITED",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "BULACE INVESTMENTS LIMITED",
+      "isPrimary": true
     }
   ],
-  "remarks": "(Reg. No. 202215) *658",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/987578"
+  ],
+  "remarks": "(Reg. No. 202215) *658",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "115 GRIVA DIGENI AVENUE, TRIDENT CENTRE CY-3101",
       "city": "LIMASSOL",
       "country": "Cyprus",
-      "country_iso_code": "CY"
+      "countryIsoCode": "CY"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

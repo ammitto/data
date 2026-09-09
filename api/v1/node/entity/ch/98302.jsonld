@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/98302",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/98302",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Titkov Roman Vladimirovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Titkov Roman Vladimirovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/98302"
   ],
   "remarks": "Roman Titkov is the General Director of PJSC “Dalpribor”, an instrument-making company of the Russian military-industrial complex. The company has delivered equipment to the Russian Ministry of Defence, thereby implementing the State defence order.",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1971
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/54161",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/54161",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ismailova Gulbakhor",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Ismailova Gulbakhor",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/54161"
   ],
   "remarks": "Gulbakhor Ismailova is a sister of Alisher Usmanov, a leading businessperson listed under Decision 2014/145/CFSP. Investigations by the German Federal Criminal Police Office (Bundeskriminalamt) revealed that Alisher Usmanov indirectly transferred assets to his sister Gulbakhor Ismailova. In particular, the owner of the yacht “Dilbar” is Navis Marine Ltd. (Cayman Islands), whose shareholder is Almenor Holdings Ltd. (Cyprus). All shares in that holding company are held by Pomerol Capital SA (Switzerland) in trust for the benefit of “The Sisters Trust”. Since 2017, Alisher Usmanov has no longer been a shareholder of this trust company, leaving his sister, Gulbakhor Ismailova, as the only beneficial owner of the yacht “Dilbar”.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1959-12-22",
-      "circa": false
+      "circa": false,
+      "year": 1959
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

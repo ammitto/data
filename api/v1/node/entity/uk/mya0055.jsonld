@@ -1,28 +1,44 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/mya0055",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/mya0055",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Star Sapphire Group of Companies",
+      "@type": "NameVariant",
+      "fullName": "Star Sapphire Group of Companies",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Kyei Nilar Company Ltd",
+      "@type": "NameVariant",
+      "fullName": "Kyei Nilar Company Ltd",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/mya0055"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Room.201, Building (C),, Takhatho Yeikmon Housing,, New University Avenue Road,, Bahan",
       "city": "Yangon",
       "country": "Myanmar"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

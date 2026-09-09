@@ -1,22 +1,43 @@
 {
-  "id": "https://www.ammitto.org/entity/cn/7-matthew-bromberg",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/cn/7-matthew-bromberg",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Matthew Bromberg",
+      "@type": "NameVariant",
+      "fullName": "Matthew Bromberg",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "马修·布朗伯格",
+      "@type": "NameVariant",
+      "fullName": "马修·布朗伯格",
       "script": "Hani",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/cn/anti-sanction-list/7-matthew-bromberg"
+  ],
   "remarks": "List: cn/anti-sanction-list; Title: 诺斯罗普·格鲁曼公司全球运营副总裁; Gender: male",
-  "sanction_entry_ids": [
-    "https://www.ammitto.org/entry/cn/unknown/7-matthew-bromberg"
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
   ],
   "gender": "male",
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

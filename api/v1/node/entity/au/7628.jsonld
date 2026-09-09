@@ -1,49 +1,71 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7628",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7628",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Sergey Yurievich KOZYAKOV",
+      "@type": "NameVariant",
+      "fullName": "Sergey Yurievich KOZYAKOV",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Serhiy Yuriyovych KOZYAKOV",
+      "@type": "NameVariant",
+      "fullName": "Serhiy Yuriyovych KOZYAKOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Serhiy KOZYAKOV",
+      "@type": "NameVariant",
+      "fullName": "Serhiy KOZYAKOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Sergey KOZYAKOV",
+      "@type": "NameVariant",
+      "fullName": "Sergey KOZYAKOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Serhiy Yurievich KOZYAKOV",
+      "@type": "NameVariant",
+      "fullName": "Serhiy Yurievich KOZYAKOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Previously listed under 'Ukraine criteria' - Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Ukraine) Amendment List 2017 (No 2) [F2017L01118]; New listing start date 27 Aug 2023; Listing: Instrument of first designation: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 10) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7628"
   ],
-  "birth_info": [
+  "remarks": "Previously listed under 'Ukraine criteria' - Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Ukraine) Amendment List 2017 (No 2) [F2017L01118]; New listing start date 27 Aug 2023; Listing: Instrument of first designation: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 10) Instrument 2023",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1982,
       "country": "Kyiv"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1982,
       "country": "Ukraine"
     }
   ],
   "nationalities": [
     "Ukraine"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

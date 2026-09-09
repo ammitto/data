@@ -1,29 +1,51 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/ghr0039",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/ghr0039",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "AL MUZAINI",
-      "first_name": "Ahmed",
+      "@type": "NameVariant",
+      "fullName": "AL MUZAINI",
+      "firstName": "Ahmed",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Almuzaini",
-      "first_name": "Ahmed",
+      "@type": "NameVariant",
+      "fullName": "Almuzaini",
+      "firstName": "Ahmed",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Muzaini",
-      "first_name": "Ahmed",
+      "@type": "NameVariant",
+      "fullName": "Muzaini",
+      "firstName": "Ahmed",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/ghr0039"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

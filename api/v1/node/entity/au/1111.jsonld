@@ -1,50 +1,69 @@
 {
-  "id": "https://www.ammitto.org/entity/au/1111",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/1111",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "LEOPOLD MUJYAMBERE",
+      "@type": "NameVariant",
+      "fullName": "LEOPOLD MUJYAMBERE",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Musenyeri",
+      "@type": "NameVariant",
+      "fullName": "Musenyeri",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Achille",
+      "@type": "NameVariant",
+      "fullName": "Achille",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Frere Petrus Ibrahim",
+      "@type": "NameVariant",
+      "fullName": "Frere Petrus Ibrahim",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "CDi.014 Designation: a) FDLR-FOCA Chief of Staff b) FDLR-FOCA Interim Deputy Commander. Became acting FDLR-FOCA Deputy Commander in 2014. Captured in Goma, DRC by Congolese security services in early May 2016 and transferred to Kinshasa.; Listing: Listed by 1533 on 3 Mar. 2009 (amended on 13 Oct. 2016)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/1111"
   ],
-  "birth_info": [
+  "remarks": "CDi.014 Designation: a) FDLR-FOCA Chief of Staff b) FDLR-FOCA Interim Deputy Commander. Became acting FDLR-FOCA Deputy Commander in 2014. Captured in Goma, DRC by Congolese security services in early May 2016 and transferred to Kinshasa.; Listing: Listed by 1533 on 3 Mar. 2009 (amended on 13 Oct. 2016)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1962,
       "country": "Kigali"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1966,
       "country": "Rwanda"
     }
   ],
   "nationalities": [
     "Rwanda"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Kinshasa, Democratic Republic of the Congo (as of June 2016)",
       "country": "Democratic Republic of the Congo (as of June 2016)"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

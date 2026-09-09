@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/75726",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/75726",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Yakovenko Vadim Vladimirovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Yakovenko Vadim Vladimirovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/75726"
   ],
   "remarks": "Vadim Yakovenko is Head of the Federal Agency for State Property Management (Rosimushchestvo), a Russian federal executive body managing federal property, which organises the sale of federal property to be privatised and property seized in accordance with a court decision or directives of other agencies. Rosimuschestvo is responsible for taking control over multiple Western assets with Decree No. 302 “On Temporary Management of Certain Property” signed by the President of the Russian Federation Vladimir Putin. That decree was signed to ensure the stable functioning of the Russian energy sector and the uninterrupted operation of companies significant for the Russian economy. In addition, Rosimuschestvo contributes significantly to the revenue of the Russian Federation.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1970-01-02",
-      "circa": false
+      "circa": false,
+      "year": 1970
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

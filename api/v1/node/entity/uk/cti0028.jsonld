@@ -1,21 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/cti0028",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/cti0028",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Directorate for Internal Security of the Iranian Ministry of Intelligence and Security",
+      "@type": "NameVariant",
+      "fullName": "Directorate for Internal Security of the Iranian Ministry of Intelligence and Security",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/cti0028"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "country": "Iran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

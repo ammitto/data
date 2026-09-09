@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/343106",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/343106",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "CORONADO INGENIEROS S.A.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "CORONADO INGENIEROS S.A.",
+      "isPrimary": true
     }
   ],
-  "remarks": "(Tax Registration No. 251002-9510) *387",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/343106"
+  ],
+  "remarks": "(Tax Registration No. 251002-9510) *387",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "HOSPITAL HUMBERTO ALVARADO 1 CUADRA AL ESTE",
       "city": "MASAYA",
       "country": "Nicaragua",
-      "country_iso_code": "NI"
+      "countryIsoCode": "NI"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

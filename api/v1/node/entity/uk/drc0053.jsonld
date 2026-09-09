@@ -1,45 +1,68 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/drc0053",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/drc0053",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "NTAWUNGUKA",
-      "first_name": "PACIFIQUE",
+      "@type": "NameVariant",
+      "fullName": "NTAWUNGUKA",
+      "firstName": "PACIFIQUE",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Israel",
+      "@type": "NameVariant",
+      "fullName": "Israel",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ntawungula",
-      "first_name": "Pacifique",
+      "@type": "NameVariant",
+      "fullName": "Ntawungula",
+      "firstName": "Pacifique",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Nzeri",
+      "@type": "NameVariant",
+      "fullName": "Nzeri",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Omega",
+      "@type": "NameVariant",
+      "fullName": "Omega",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Received military training in Egypt. INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/notice/search/un/5269021",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/drc0053"
+  ],
+  "remarks": "Received military training in Egypt. INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/notice/search/un/5269021",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "city": "Rutshuru Territory",
       "state": "North Kivu",
       "country": "Congo (Democratic Republic)"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

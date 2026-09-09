@@ -1,39 +1,55 @@
 {
-  "id": "https://www.ammitto.org/entry/uk/consolidated-list/cyb0012",
-  "entity_id": "https://www.ammitto.org/entity/uk/cyb0012",
+  "@id": "https://www.ammitto.org/entry/uk/consolidated-list/cyb0012",
+  "@type": "SanctionEntry",
+  "entityId": "https://www.ammitto.org/entity/uk/cyb0012",
   "authority": {
     "@id": "https://www.ammitto.org/authority/uk"
   },
   "regime": {
-    "@id": "https://www.ammitto.org/regime/the_cyber_sanctions_eu_exit_regulations_2020"
+    "@id": "https://www.ammitto.org/regime/the_cyber_sanctions_eu_exit_regulations_2020",
+    "name": "The Cyber (Sanctions) (EU Exit) Regulations 2020"
   },
+  "legalBases": [
+
+  ],
   "effects": [
     {
-      "effect_type": "asset_freeze",
+      "@type": "SanctionEffect",
+      "effectType": "asset_freeze",
       "scope": "full"
     },
     {
-      "effect_type": "debarment",
+      "@type": "SanctionEffect",
+      "effectType": "debarment",
       "scope": "full"
     }
   ],
+  "reasons": [
+
+  ],
   "period": {
-    "listed_date": "2020-12-31",
-    "effective_date": "2020-12-31",
-    "is_indefinite": true,
-    "last_updated": "2025-04-09"
+    "@type": "TemporalPeriod",
+    "listedDate": "2020-12-31",
+    "effectiveDate": "2020-12-31",
+    "isIndefinite": true,
+    "lastUpdated": "2025-04-09"
   },
   "status": "active",
-  "reference_number": "CYB0012",
+  "statusHistory": [
+
+  ],
+  "referenceNumber": "CYB0012",
   "remarks": "\nThe 85th Main Special Services Centre (GTsSS) (Unit 26165) of the Russian General Staff of the Armed Forces of the Russian Federation (GRU), is involved in relevant cyber activity in that it has been responsible for, engaging in, providing support for, or promoting the commission, planning or preparation or relevant cyber activity, including the deployment of X-Agent malware. These activities undermine, or are intended to undermine, the integrity, prosperity or security of the United Kingdom or a country other than the United Kingdom.\n",
-  "raw_source_data": {
-    "source_format": "xml",
-    "source_specific_fields": {
+  "rawSourceData": {
+    "@type": "RawSourceData",
+    "sourceFormat": "xml",
+    "sourceSpecificFields": {
       "uk:ofsiGroupId": "13984",
+      "uk:unReferenceNumber": null,
       "uk:designationSource": "UK",
       "uk:sanctionsImposed": "Asset freeze|Director Disqualification Sanction",
       "uk:entityType": "Entity"
     }
   },
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

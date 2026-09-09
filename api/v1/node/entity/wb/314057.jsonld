@@ -1,23 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/314057",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/wb/314057",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MR. TANG CHI ANH",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "MR. TANG CHI ANH",
+      "isPrimary": true
     }
   ],
-  "remarks": "*238",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/314057"
+  ],
+  "remarks": "*238",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "ROOM 101, BLOCK 8A, APARTMENT BUILDING OF WATER RESOURCES UNIVERSITY, LANE 95, CHUA BOC STREET, DONG DA DISTRICT",
       "city": "HANOI",
       "country": "Viet Nam",
-      "country_iso_code": "VN"
+      "countryIsoCode": "VN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

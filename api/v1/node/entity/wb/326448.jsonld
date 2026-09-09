@@ -1,24 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/326448",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/326448",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "TIGER IT BANGLADESH LTD.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "TIGER IT BANGLADESH LTD.",
+      "isPrimary": true
     }
   ],
-  "remarks": "*475",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/326448"
+  ],
+  "remarks": "*475",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "HOUSE 21, ROAD 28, BLOCK-K, BANANI MODEL TOWN",
       "city": "DHAKA, 1213",
       "country": "Bangladesh",
-      "country_iso_code": "BD",
-      "postal_code": "1213"
+      "countryIsoCode": "BD",
+      "postalCode": "1213"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/27585",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/27585",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Prokopiv German",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Prokopiv German",
+      "isPrimary": true
     }
   ],
-  "remarks": "Active member of the \"Luhansk Guard\". Took part in the seizure of the building of the Luhansk regional office of the Security Service.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/27585"
+  ],
+  "remarks": "Active member of the “Luhansk Guard”. Took part in the seizure of the building of the Luhansk regional office of the Security Service.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1993-07-06",
-      "circa": false
+      "circa": false,
+      "year": 1993
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,66 +1,87 @@
 {
-  "id": "https://www.ammitto.org/entity/au/733",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/733",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "BASHAR SABAWI IBRAHIM HASAN AL-TIKRITI",
+      "@type": "NameVariant",
+      "fullName": "BASHAR SABAWI IBRAHIM HASAN AL-TIKRITI",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "بشار سبعاوي إبراهيم حسن التكريتي",
+      "@type": "NameVariant",
+      "fullName": "بشار سبعاوي إبراهيم حسن التكريتي",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Bashar Sab’awi Ibrahim Hasan Al-Tikriti",
+      "@type": "NameVariant",
+      "fullName": "Bashar Sab’awi Ibrahim Hasan Al-Tikriti",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Bashir Sab’awi Ibrahim Al-Hasan Al-Tikriti",
+      "@type": "NameVariant",
+      "fullName": "Bashir Sab’awi Ibrahim Al-Hasan Al-Tikriti",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Bashir Sabawi Ibrahim Al-Hassan Al-Tikriti",
+      "@type": "NameVariant",
+      "fullName": "Bashir Sabawi Ibrahim Al-Hassan Al-Tikriti",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Bashar Sabawi Ibrahim Hasan Al-Bayjat",
+      "@type": "NameVariant",
+      "fullName": "Bashar Sabawi Ibrahim Hasan Al-Bayjat",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ali Zafir ‘Abdullah’",
+      "@type": "NameVariant",
+      "fullName": "Ali Zafir ‘Abdullah’",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "BASHAR AL-NASIRI",
+      "@type": "NameVariant",
+      "fullName": "BASHAR AL-NASIRI",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "IQi.085, Listed on: 27 Jul. 2005 ( amended on 5 Aug. 2025 ); Listing: Listed by the 1518 Committee",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/733"
   ],
-  "birth_info": [
+  "remarks": "IQi.085, Listed on: 27 Jul. 2005 ( amended on 5 Aug. 2025 ); Listing: Listed by the 1518 Committee",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1970,
       "country": "Baghdad"
     }
   ],
   "nationalities": [
     "Iraq"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "a) Fuad Dawod Farm, Az Zabadani, Damascus, Damascus, Syrian Arab Republic b) Beirut, Lebanon",
       "country": "Lebanon"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

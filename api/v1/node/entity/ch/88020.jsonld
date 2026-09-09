@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/88020",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/88020",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Domingo Antonio Hernández Lárez",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Domingo Antonio Hernández Lárez",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/88020"
   ],
   "remarks": "Strategic Operational Commander of the National Bolivarian Armed Forces of Venezuela (FANB) since 2021. The FANB was implicated in human rights violations during the repressions of peaceful demonstrations following the 28 July 2024 presidential election.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1964-03-09",
-      "circa": false
+      "circa": false,
+      "year": 1964
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

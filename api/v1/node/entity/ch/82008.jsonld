@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/82008",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/82008",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mokhtar Belmokhtar",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Mokhtar Belmokhtar",
+      "isPrimary": true
     }
   ],
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/82008"
+  ],
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1972-06-01",
-      "circa": false
+      "circa": false,
+      "year": 1972
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/60915",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/60915",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Smirnov Vyacheslav Nikolaevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Smirnov Vyacheslav Nikolaevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/60915"
   ],
   "remarks": "Vyacheslav Smirnov was appointed to supervise local elections in the occupied areas in Ukraine and to organise voting. He is also employed in the Presidential Directorate for Supporting the State Council’s Activities of the Russian Federation, which is responsible\nfor ensuring the interaction of the President of the Russian Federation with expert organisations, and for monitoring and analysing social processes. The Directorate is deeply involved in the election processes. In that role, he is responsible for implementing Russian state policies, including the illegal incorporation of Ukrainian regions into Russian state structures. In that capacity, and through his actions, he is therefore responsible for supporting and implementing actions and policies which undermine and threaten the territorial integrity, sovereignty and independence of Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1969-02-10",
-      "circa": false
+      "circa": false,
+      "year": 1969
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

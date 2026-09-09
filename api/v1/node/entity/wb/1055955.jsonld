@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/1055955",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/1055955",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "SOCIÉTÉ MALIENNE DE CONSTRUCTION, DE TRANSPORT ET D'HYDROCARBURE (SOMACOTH SA)",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "SOCIÉTÉ MALIENNE DE CONSTRUCTION, DE TRANSPORT ET D'HYDROCARBURE (SOMACOTH SA)",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/1055955"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "HAMDALLAYE ACI 2000, À 200 M DI MONUMENT DE LA GRANDE BOUGIE",
       "city": "BAMAKO",
       "country": "Mali",
-      "country_iso_code": "ML"
+      "countryIsoCode": "ML"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

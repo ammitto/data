@@ -1,35 +1,56 @@
 {
-  "id": "https://www.ammitto.org/entity/au/2562",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/2562",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Chang Myong-Chin",
+      "@type": "NameVariant",
+      "fullName": "Chang Myong-Chin",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Jang Myong-Jin",
+      "@type": "NameVariant",
+      "fullName": "Jang Myong-Jin",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "KPi.007. General Manager of the Sohae Satellite Launching Station and head of launch center at which the 13 April and 12 December 2012 launches took place.; Listing: First listed on 22/01/2013",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/2562"
   ],
-  "birth_info": [
+  "remarks": "KPi.007. General Manager of the Sohae Satellite Launching Station and head of launch center at which the 13 April and 12 December 2012 launches took place.; Listing: First listed on 22/01/2013",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1968
     },
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1965
     },
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1966
     }
   ],
   "nationalities": [
     "Democratic People's Republic of Korea (North Korea)"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

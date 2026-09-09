@@ -1,47 +1,67 @@
 {
-  "id": "https://www.ammitto.org/entity/au/2060",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/2060",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Iran Marine Industrial Company",
+      "@type": "NameVariant",
+      "fullName": "Iran Marine Industrial Company",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Sanati Daryaee Iran",
+      "@type": "NameVariant",
+      "fullName": "Sanati Daryaee Iran",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "SADRA",
+      "@type": "NameVariant",
+      "fullName": "SADRA",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Iran Marine Industry Co.",
+      "@type": "NameVariant",
+      "fullName": "Iran Marine Industry Co.",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Iran Marine Industries Company Co",
+      "@type": "NameVariant",
+      "fullName": "Iran Marine Industries Company Co",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "IMICO",
+      "@type": "NameVariant",
+      "fullName": "IMICO",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Listing: Designated under the Autonomous Sanctions Regulations 2011 on 2 March 2012(F2012L00479). Relisted 12 January 2024",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/2060"
+  ],
+  "remarks": "Listing: Designated under the Autonomous Sanctions Regulations 2011 on 2 March 2012(F2012L00479). Relisted 12 January 2024",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Sadra Building No 3, Shafagh St., Poonak Khavari Blvd., Shahrak Ghods, Tehran, Iran;\nP.O. Box 14669-56491, Tehran, Iran",
       "country": "Iran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

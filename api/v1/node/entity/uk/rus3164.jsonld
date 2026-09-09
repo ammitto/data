@@ -1,22 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus3164",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/rus3164",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "ALIYEV",
-      "first_name": "Chingiz",
+      "@type": "NameVariant",
+      "fullName": "ALIYEV",
+      "firstName": "Chingiz",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus3164"
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "state": "Geneva",
       "country": "Switzerland"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

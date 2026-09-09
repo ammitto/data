@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/88497",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/88497",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Chukhlebov Eduard Aleksandrovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Chukhlebov Eduard Aleksandrovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/88497"
   ],
   "remarks": "Eduard Chukhlebov is a Russian businessperson with extensive business interests in the Russian mining and metals sectors. In particular, Chukhlebov is co-owner of Ural Mining and Metallurgical Company, a major Russian company engaged in the Russian mining and metals sectors. Those economic sectors provide a substantial source of revenue to the Government of the Russian Federation.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1962-04-10",
-      "circa": false
+      "circa": false,
+      "year": 1962
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

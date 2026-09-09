@@ -1,33 +1,56 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus0212",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/rus0212",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Shcherbakov",
-      "first_name": "Serhii",
+      "@type": "NameVariant",
+      "fullName": "Shcherbakov",
+      "firstName": "Serhii",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Shcherbakov",
-      "first_name": "Sergey",
+      "@type": "NameVariant",
+      "fullName": "Shcherbakov",
+      "firstName": "Sergey",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Сергей Алексеевич Щербаков",
+      "@type": "NameVariant",
+      "fullName": "Сергей Алексеевич Щербаков",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Сергій Олексійович",
+      "@type": "NameVariant",
+      "fullName": "Сергій Олексійович",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus0212"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

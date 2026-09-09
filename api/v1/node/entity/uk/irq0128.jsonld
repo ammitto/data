@@ -1,26 +1,46 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/irq0128",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/irq0128",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "HASAN AL-TIKRITI",
-      "first_name": "THORAYA",
+      "@type": "NameVariant",
+      "fullName": "HASAN AL-TIKRITI",
+      "firstName": "THORAYA",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "ثريا برزان إبراهيم حسن التكريتي",
+      "@type": "NameVariant",
+      "fullName": "ثريا برزان إبراهيم حسن التكريتي",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/irq0128"
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "country": "Iraq"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

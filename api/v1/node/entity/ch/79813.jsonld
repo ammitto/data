@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/79813",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/79813",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Abdul Ghafar Shinwari Haji",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Abdul Ghafar Shinwari Haji",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/79813"
   ],
   "remarks": "Third Secretary, Taliban Consulate General, Karachi, Pakistan.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1965-03-29",
-      "circa": false
+      "circa": false,
+      "year": 1965
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

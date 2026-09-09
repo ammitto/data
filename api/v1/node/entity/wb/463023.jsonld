@@ -1,22 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/463023",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/wb/463023",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "GARRY JEAN",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "GARRY JEAN",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/463023"
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "THOMASSIN 32",
       "city": "PORT-AU-PRINCE",
       "country": "Haiti",
-      "country_iso_code": "HT"
+      "countryIsoCode": "HT"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

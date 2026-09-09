@@ -1,23 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/304109",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/wb/304109",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MR. RAIMUNDO ROSÁRIO BRANDÃO",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "MR. RAIMUNDO ROSÁRIO BRANDÃO",
+      "isPrimary": true
     }
   ],
-  "remarks": "*167",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/304109"
+  ],
+  "remarks": "*167",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "CARE OF: GEOMETRICA CONSTRUÇÕES LTDA, RUA DO PASSEIO, 953, SALA 209, CENTRO",
       "city": "SÃO LUÍS, MARANHÃO",
       "country": "Brazil",
-      "country_iso_code": "BR"
+      "countryIsoCode": "BR"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,29 +1,45 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus2303",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus2303",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Dongguan Shengyin CNC Equipment Co., LTD ",
+      "@type": "NameVariant",
+      "fullName": "Dongguan Shengyin CNC Equipment Co., LTD ",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "东莞圣寅数控设备有限公司 ",
+      "@type": "NameVariant",
+      "fullName": "东莞圣寅数控设备有限公司 ",
       "script": "Hani",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus2303"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Room 209, Unit 3, Building 3, Kaida Technology Design Center, 398 Kechuang Road",
       "city": "Nancheng District",
       "state": "Dongguan City",
       "country": "China"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

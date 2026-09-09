@@ -1,27 +1,43 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7458",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/7458",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Public Joint-Stock Company ODK-Kuznetsov ",
+      "@type": "NameVariant",
+      "fullName": "Public Joint-Stock Company ODK-Kuznetsov ",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "ODK-Kuznetsov",
+      "@type": "NameVariant",
+      "fullName": "ODK-Kuznetsov",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "State registration number: 1026301705374 ; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 2) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7458"
+  ],
+  "remarks": "State registration number: 1026301705374 ; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 2) Instrument 2023",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Zavodskoe Shosse, 29, Samara, Samara Region, 433009, Russia ",
       "country": "Russia "
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

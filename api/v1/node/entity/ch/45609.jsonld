@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/45609",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/45609",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Davydzka Genadz Branislavavich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Davydzka Genadz Branislavavich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/45609"
   ],
   "remarks": "As the Chairman of Belaya Rus, a major pro-Lukashenka organization, Genadz Davydzka is one of the main propagandists of the regime. In his support for Lukashenka, he frequently used inflammatory language, and encouraged the violence of the state apparatus against peaceful protesters. He is therefore supporting the Lukashenka regime.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1955-09-29",
-      "circa": false
+      "circa": false,
+      "year": 1955
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,50 +1,77 @@
 {
-  "id": "https://www.ammitto.org/entity/au/84",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/84",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Habibullah Reshad",
+      "@type": "NameVariant",
+      "fullName": "Habibullah Reshad",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "حبيب الله رشاد",
+      "@type": "NameVariant",
+      "fullName": "حبيب الله رشاد",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "TAi.084  Title: Mullah. Designation: Head of Investigation Department, Ministry of Security (Intelligence) under the Taliban regime. Deputy Head (Intelligence) of the Quetta Military Council as of 2009.  Believed to be in Afghanistan/Pakistan border area. Review pursuant to Security Council resolution 1922 (2008) was concluded on 21 Jul. 2010.; Listing: Listed on 23 February 2001 (amended on 21 Sep 2007, 29 Nov. 2011)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/84"
   ],
-  "birth_info": [
+  "remarks": "TAi.084  Title: Mullah. Designation: Head of Investigation Department, Ministry of Security (Intelligence) under the Taliban regime. Deputy Head (Intelligence) of the Quetta Military Council as of 2009.  Believed to be in Afghanistan/Pakistan border area. Review pursuant to Security Council resolution 1922 (2008) was concluded on 21 Jul. 2010.; Listing: Listed on 23 February 2001 (amended on 21 Sep 2007, 29 Nov. 2011)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1968,
       "country": "Waghaz District"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1969,
       "country": "Ghazni Province"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1970,
       "country": "Afghanistan"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1971,
       "country": "Waghaz District"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1972,
       "country": "Waghaz District"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1973,
       "country": "Waghaz District"
     }
   ],
   "nationalities": [
     "Afghanistan"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

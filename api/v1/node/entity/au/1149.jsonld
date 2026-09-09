@@ -1,78 +1,100 @@
 {
-  "id": "https://www.ammitto.org/entity/au/1149",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/1149",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "QASIM MOHAMED MAHDI AL-RIMI",
+      "@type": "NameVariant",
+      "fullName": "QASIM MOHAMED MAHDI AL-RIMI",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "قاسم محمد مهدي الريمي",
+      "@type": "NameVariant",
+      "fullName": "قاسم محمد مهدي الريمي",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Qasim Al-Rimi ",
+      "@type": "NameVariant",
+      "fullName": "Qasim Al-Rimi ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Qasim al-Raymi",
+      "@type": "NameVariant",
+      "fullName": "Qasim al-Raymi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Qassim al-Raymi",
+      "@type": "NameVariant",
+      "fullName": "Qassim al-Raymi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Qasim al-Rami",
+      "@type": "NameVariant",
+      "fullName": "Qasim al-Rami",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Qasim Yahya Mahdi 'Abd al-Rimi",
+      "@type": "NameVariant",
+      "fullName": "Qasim Yahya Mahdi 'Abd al-Rimi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abu Hurayrah al-Sana'ai",
+      "@type": "NameVariant",
+      "fullName": "Abu Hurayrah al-Sana'ai",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abu 'Ammar",
+      "@type": "NameVariant",
+      "fullName": "Abu 'Ammar",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Qasim Mohammed Mahdi Al Remi",
+      "@type": "NameVariant",
+      "fullName": "Qasim Mohammed Mahdi Al Remi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Qassim Mohammad Mahdi Al Rimi",
+      "@type": "NameVariant",
+      "fullName": "Qassim Mohammad Mahdi Al Rimi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abu Hurayrah",
+      "@type": "NameVariant",
+      "fullName": "Abu Hurayrah",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Yemeni national identification number 973406, issued on 3 Jul. 1996. Yemeni passport number 00344994, issued on 3 Jul. 1999 in Sanaa.  Mother's name: Fatima Muthanna Yahya. Photo available for inclusion in the INTERPOL-UN Security Council Special Notice.  Leader of Al-Qaida in the Arabian Peninsula (QDe. 129) since Jun. 2015, pleaded loyalty to Aiman al-Zawahiri (QDi.006). As of February 2020, reportedly killed in a counterterrorism operation in Yemen. Review pursuant to Security Council resolution 2368 (2017) was concluded on 24 November 2020.; Listing: Listed 11 May 2010 (amended  on 15 Apr. 2014, 24 Jun. 2016, 24 Nov. 2020, 11 Mar. 2025)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/1149"
   ],
-  "birth_info": [
+  "remarks": "Yemeni national identification number 973406, issued on 3 Jul. 1996. Yemeni passport number 00344994, issued on 3 Jul. 1999 in Sanaa.  Mother's name: Fatima Muthanna Yahya. Photo available for inclusion in the INTERPOL-UN Security Council Special Notice.  Leader of Al-Qaida in the Arabian Peninsula (QDe. 129) since Jun. 2015, pleaded loyalty to Aiman al-Zawahiri (QDi.006). As of February 2020, reportedly killed in a counterterrorism operation in Yemen. Review pursuant to Security Council resolution 2368 (2017) was concluded on 24 November 2020.; Listing: Listed 11 May 2010 (amended  on 15 Apr. 2014, 24 Jun. 2016, 24 Nov. 2020, 11 Mar. 2025)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1978,
       "country": "Raymah village"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
       "country": "Sanaa Governorate (ريمة)"
     }
@@ -80,11 +102,15 @@
   "nationalities": [
     "Yemen"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Yemen",
       "country": "Yemen"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

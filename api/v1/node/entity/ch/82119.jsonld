@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/82119",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/82119",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Radi Abd El Samie Abou El Yazid El Ayashi",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Radi Abd El Samie Abou El Yazid El Ayashi",
+      "isPrimary": true
     }
   ],
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/82119"
+  ],
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1972-01-02",
-      "circa": false
+      "circa": false,
+      "year": 1972
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/72591",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/72591",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Artyakov Vladimir Vladimirovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Artyakov Vladimir Vladimirovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/72591"
   ],
   "remarks": "Vladimir Artyakov is a Russian manager. As the First Deputy General Director of Rostec State Corporation, he is responsible for the implementation of state defence orders for the Armed Forces of the Russian Federation. He also cooperates with the Russian Government, which allows Rostec to test new military solutions during the Russian aggression against Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1959-06-30",
-      "circa": false
+      "circa": false,
+      "year": 1959
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

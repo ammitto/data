@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/88614",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/88614",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Atlivanchik Sergey Nikolaevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Atlivanchik Sergey Nikolaevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/88614"
   ],
   "remarks": "Sergey Atlivanchik is the General Director of LLC Eliars, which is a Russian company involved in developing and producing microwave equipment. It has developed and produced the Zont (Umbrella) system, an anti-drone system which allows the suppression of the signal for unmanned aerial vehicles. The Zont system has been used by Russian armed forces in the war of aggression against Ukraine. Therefore, in his role of General Director of LLC Eliars, Sergey Atlivanchik is supporting actions which undermine and threaten the territorial integrity, sovereignty and independence of Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1980-01-11",
-      "circa": false
+      "circa": false,
+      "year": 1980
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

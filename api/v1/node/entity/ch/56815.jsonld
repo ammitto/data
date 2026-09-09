@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/56815",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/56815",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kharichev Aleksandr Dmitrievich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kharichev Aleksandr Dmitrievich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/56815"
   ],
   "remarks": "Head of the Division of Operation of the State Council in the Administration of the President of the Russian Federation. The Division has been tasked with the preparations for the illegal referenda in the occupied regions of Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1966-02-08",
-      "circa": false
+      "circa": false,
+      "year": 1966
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/29281",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/29281",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kononov Vladimir Petrovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kononov Vladimir Petrovich",
+      "isPrimary": true
     }
   ],
-  "remarks": "As of 14 Aug 2014, he replaced Igor Strelkov/Girkin, as the so-called “Defence minister” of the “Donetsk People's Republic”. He has reportedly commanded a division of separatist fighters in Donetsk since Apr 2014 and has promised to solve the strategic task of repelling Ukraine's military aggression. Kononov has therefore supported actions and policies which undermine the territorial integrity, sovereignty and independence of Ukraine.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/29281"
+  ],
+  "remarks": "As of 14 August 2014, he replaced Igor Strelkov/Girkin, as the so-called “Defence minister” of the “Donetsk People’s Republic”. He has reportedly commanded a division of separatist fighters in Donetsk since April 2014 and has promised to solve the strategic task of repelling Ukraine’s military aggression. Kononov has therefore supported actions and policies which undermine the territorial integrity, sovereignty and independence of Ukraine.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1974-10-14",
-      "circa": false
+      "circa": false,
+      "year": 1974
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

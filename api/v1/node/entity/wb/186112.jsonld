@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/186112",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/186112",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "LLC UN&CO",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "LLC UN&CO",
+      "isPrimary": true
     }
   ],
-  "remarks": "*32",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/186112"
+  ],
+  "remarks": "*32",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "C/O MR. NASRIDDIN NASIMOV, NEMAT KORABOEV STREET, BLD-15, APT-1, DUSHANBE",
       "country": "Tajikistan",
-      "country_iso_code": "TJ"
+      "countryIsoCode": "TJ"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

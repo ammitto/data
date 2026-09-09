@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/311048",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/311048",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "DIAMOND CONSTRUCTION & IMPORT EXPORT CO., LTD.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "DIAMOND CONSTRUCTION & IMPORT EXPORT CO., LTD.",
+      "isPrimary": true
     }
   ],
-  "remarks": "*224",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/311048"
+  ],
+  "remarks": "*224",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "190EO, MAO TSE TUNG BLVD, SANGKAT TUMNUP TEK, KHAN CHAMKER",
       "city": "PHNOM PENH",
       "country": "Cambodia",
-      "country_iso_code": "KH"
+      "countryIsoCode": "KH"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

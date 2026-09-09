@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/52913",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/52913",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Akhmedov Farkhad",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Akhmedov Farkhad",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/52913"
   ],
   "remarks": "Farkhad Akhmedov is a Russian businessman involved in the energy sector and in Russian local politics. He founded Tansley Trading, which supplied equipment to Russian gas producers and became a minority shareholder in Nortgas, an oil and gas company in Siberia, as well as Chairman of Bechtel Energy. He is close to the Kremlin and is a leading businessperson involved in economic sectors providing a substantial source of revenue to the Government of the Russian Federation.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1955-09-15",
-      "circa": false
+      "circa": false,
+      "year": 1955
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

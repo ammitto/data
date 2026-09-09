@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/4773",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/4773",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Dysko Henadz Iosifavich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Dysko Henadz Iosifavich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/4773"
   ],
   "remarks": "Head Prosecutor of the Region of Vitebsk since October 2006. Responsible for the repression of civil society following the December 2010 elections. This includes responsibility for cases against Siarhei Kavalenka and Andrei Haidukow.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1964-03-22",
-      "circa": false
+      "circa": false,
+      "year": 1964
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

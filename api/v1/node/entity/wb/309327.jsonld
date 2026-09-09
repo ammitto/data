@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/309327",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/309327",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "JYC IMPORT EXPORT",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "JYC IMPORT EXPORT",
+      "isPrimary": true
     }
   ],
-  "remarks": "*199",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/309327"
+  ],
+  "remarks": "*199",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "CALLE 6 NO. 151 ZONA KAMI, QUILLACOLLO",
       "city": "COCHABAMBA",
       "country": "Bolivia",
-      "country_iso_code": "BO"
+      "countryIsoCode": "BO"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

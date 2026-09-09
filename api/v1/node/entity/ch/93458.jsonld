@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/93458",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/93458",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Polyakov Victor Anatolievich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Polyakov Victor Anatolievich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/93458"
   ],
   "remarks": "Victor Anatolievich Polyakov is Managing Director of PJSC “UEC-Saturn”, part of the JSC United Engine Corporation Russia (UECRUS), which belongs to the State Corporation Rostec.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1953-04-26",
-      "circa": false
+      "circa": false,
+      "year": 1953
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

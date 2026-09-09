@@ -1,16 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/80521",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/80521",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Nashwan Abd Al-Razzaq Abd Al-Baqi",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Nashwan Abd Al-Razzaq Abd Al-Baqi",
+      "isPrimary": true
     }
   ],
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/80521"
+  ],
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1961
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

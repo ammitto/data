@@ -1,52 +1,76 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus0143",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/rus0143",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Timofeev",
-      "first_name": "Aleksandr",
+      "@type": "NameVariant",
+      "fullName": "Timofeev",
+      "firstName": "Aleksandr",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Timofeev",
-      "first_name": "Olek",
+      "@type": "NameVariant",
+      "fullName": "Timofeev",
+      "firstName": "Olek",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Tymofeyev",
-      "first_name": "Aleksandr",
+      "@type": "NameVariant",
+      "fullName": "Tymofeyev",
+      "firstName": "Aleksandr",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Tymofeyev",
-      "first_name": "Olek",
+      "@type": "NameVariant",
+      "fullName": "Tymofeyev",
+      "firstName": "Olek",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "TYMOFEYEV",
-      "first_name": "Oleksandr",
+      "@type": "NameVariant",
+      "fullName": "TYMOFEYEV",
+      "firstName": "Oleksandr",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Tashkent",
-      "first_name": "Sasha",
+      "@type": "NameVariant",
+      "fullName": "Tashkent",
+      "firstName": "Sasha",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus0143"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

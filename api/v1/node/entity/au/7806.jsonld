@@ -1,40 +1,59 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7806",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7806",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Denis Vladmirovich KOLESNIKOV",
+      "@type": "NameVariant",
+      "fullName": "Denis Vladmirovich KOLESNIKOV",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Denis Vladmirovich COLESNICOV",
+      "@type": "NameVariant",
+      "fullName": "Denis Vladmirovich COLESNICOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Denis Vladmirovich COLIESNICOV",
+      "@type": "NameVariant",
+      "fullName": "Denis Vladmirovich COLIESNICOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Denys Vladmirovich KOLESNIKOV",
+      "@type": "NameVariant",
+      "fullName": "Denys Vladmirovich KOLESNIKOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Head of the Investigative Department of the Investigative Committee of the Russian Federation; Listing: Instrument of first designation and declaration: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 11) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7806"
   ],
-  "birth_info": [
+  "remarks": "Head of the Investigative Department of the Investigative Committee of the Russian Federation; Listing: Instrument of first designation and declaration: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 11) Instrument 2023",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1976,
       "country": "Russia"
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

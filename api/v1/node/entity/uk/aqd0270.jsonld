@@ -1,42 +1,63 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/aqd0270",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/aqd0270",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "AHMAD",
-      "first_name": "NAJMUDDIN",
+      "@type": "NameVariant",
+      "fullName": "AHMAD",
+      "firstName": "NAJMUDDIN",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Farraj",
-      "first_name": "Fateh",
+      "@type": "NameVariant",
+      "fullName": "Farraj",
+      "firstName": "Fateh",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Krekar",
-      "first_name": "Mullah",
+      "@type": "NameVariant",
+      "fullName": "Krekar",
+      "firstName": "Mullah",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Najmuddin",
-      "first_name": "Faraj",
+      "@type": "NameVariant",
+      "fullName": "Najmuddin",
+      "firstName": "Faraj",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Mother’s name: Masouma Abd al-Rahman. Photo available for inclusion in the INTERPOL-UN Security Council Special Notice. Review pursuant to Security Council resolution 1822 (2008) was concluded on 20 May 2010. INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/notice/search/un/1453897",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/aqd0270"
+  ],
+  "remarks": "Mother’s name: Masouma Abd al-Rahman. Photo available for inclusion in the INTERPOL-UN Security Council Special Notice. Review pursuant to Security Council resolution 1822 (2008) was concluded on 20 May 2010. INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/notice/search/un/1453897",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Heimdalsgate 36-V",
       "state": "Oslo",
       "country": "Norway"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

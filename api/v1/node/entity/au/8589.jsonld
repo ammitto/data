@@ -1,54 +1,76 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8589",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/8589",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Majid Mousavi",
+      "@type": "NameVariant",
+      "fullName": "Majid Mousavi",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "مجید موسوی",
+      "@type": "NameVariant",
+      "fullName": "مجید موسوی",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Sayyed Hosein Majid Mousavi Eftekhari",
+      "@type": "NameVariant",
+      "fullName": "Sayyed Hosein Majid Mousavi Eftekhari",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Sayyid Husayn Musawi Iftikhari",
+      "@type": "NameVariant",
+      "fullName": "Sayyid Husayn Musawi Iftikhari",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Seyyed Majid Mousavi",
+      "@type": "NameVariant",
+      "fullName": "Seyyed Majid Mousavi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Seyyed Hosein Majid Mousavi",
+      "@type": "NameVariant",
+      "fullName": "Seyyed Hosein Majid Mousavi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Sayyed Hosein Majid Musavi Eftekhari;",
+      "@type": "NameVariant",
+      "fullName": "Sayyed Hosein Majid Musavi Eftekhari;",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "General;\n\nCommander of the Islamic Revolutionary Guard Corps Aerospace Force; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Iran) List 2012",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8589"
   ],
-  "birth_info": [
+  "remarks": "General;\n\nCommander of the Islamic Revolutionary Guard Corps Aerospace Force; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Iran) List 2012",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1965
     }
   ],
   "nationalities": [
     "Iran"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

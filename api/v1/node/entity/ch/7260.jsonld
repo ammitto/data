@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/7260",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/7260",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Camará Ibraima Brigadier-General",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Camará Ibraima Brigadier-General",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/7260"
   ],
   "remarks": "Member of the \"Military Command\" which has assumed responsibility for the coup d’état of 12 April 2012.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1964-05-11",
-      "circa": false
+      "circa": false,
+      "year": 1964
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

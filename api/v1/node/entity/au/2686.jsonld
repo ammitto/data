@@ -1,51 +1,77 @@
 {
-  "id": "https://www.ammitto.org/entity/au/2686",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/2686",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Vladislav Yur’yevich SURKOV",
+      "@type": "NameVariant",
+      "fullName": "Vladislav Yur’yevich SURKOV",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Vladislav Yurievich SURKOV",
+      "@type": "NameVariant",
+      "fullName": "Vladislav Yurievich SURKOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Vladislav Yurevich DUDAEV",
+      "@type": "NameVariant",
+      "fullName": "Vladislav Yurevich DUDAEV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Aslambek Anarbekovich DUDAEV",
+      "@type": "NameVariant",
+      "fullName": "Aslambek Anarbekovich DUDAEV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Vladyslav Yuriiovych SURKOV",
+      "@type": "NameVariant",
+      "fullName": "Vladyslav Yuriiovych SURKOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Aslanbek Andarbekovych DUDAEV",
+      "@type": "NameVariant",
+      "fullName": "Aslanbek Andarbekovych DUDAEV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Former Presidential Aide to President Putin.  Organiser of the process in Crimea by which local Crimean communities were mobilised to stage actions undermining the Ukrainian authorities in Crimea; Listing: Listed on 19 Jun. 2014 (relisted on 16 Jun. 2017 and 10 June 2023)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/2686"
   ],
-  "birth_info": [
+  "remarks": "Former Presidential Aide to President Putin.  Organiser of the process in Crimea by which local Crimean communities were mobilised to stage actions undermining the Ukrainian authorities in Crimea; Listing: Listed on 19 Jun. 2014 (relisted on 16 Jun. 2017 and 10 June 2023)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1964,
       "country": "Solntsevo"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1962,
       "country": "Lipetsk region"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

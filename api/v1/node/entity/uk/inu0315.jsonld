@@ -1,42 +1,61 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/inu0315",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/inu0315",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "NAFTIRAN INTERTRADE COMPANY",
+      "@type": "NameVariant",
+      "fullName": "NAFTIRAN INTERTRADE COMPANY",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Naft Iran Intertrade Company Ltd",
+      "@type": "NameVariant",
+      "fullName": "Naft Iran Intertrade Company Ltd",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Naftiran Intertrade Co Ltd",
+      "@type": "NameVariant",
+      "fullName": "Naftiran Intertrade Co Ltd",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "NICO",
+      "@type": "NameVariant",
+      "fullName": "NICO",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "شرکت بازرگانی نفت ایران ",
+      "@type": "NameVariant",
+      "fullName": "شرکت بازرگانی نفت ایران ",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/inu0315"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "5th Floor, Petro Pars Building, No 35 Farhang Boulevard, Saadat Abad Avenue",
       "state": "Tehran",
       "country": "Iran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

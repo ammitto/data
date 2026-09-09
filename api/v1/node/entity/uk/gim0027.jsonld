@@ -1,29 +1,48 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/gim0027",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/gim0027",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "DERAKHSHAN",
-      "first_name": "Ali",
+      "@type": "NameVariant",
+      "fullName": "DERAKHSHAN",
+      "firstName": "Ali",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "DERAKHSHAN",
-      "first_name": "Alireza",
+      "@type": "NameVariant",
+      "fullName": "DERAKHSHAN",
+      "firstName": "Alireza",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/gim0027"
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "204 Nouf Tower, Umm Hurair Road, Deira",
       "state": "Dubai",
       "country": "United Arab Emirates"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

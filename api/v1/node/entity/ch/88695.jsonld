@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/88695",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/88695",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Khomenko Igor Vladimirovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Khomenko Igor Vladimirovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/88695"
   ],
   "remarks": "Igor Khomenko is General Director, co-founder and shareholder of LLC TROS, which manufactures metalworking equipment and is a wholesaler of machine tools. It advertises machining centres with dual-use capabilities and is part of a procurement network to supply metalworking equipment and machine tools into Russia.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1968-08-23",
-      "circa": false
+      "circa": false,
+      "year": 1968
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

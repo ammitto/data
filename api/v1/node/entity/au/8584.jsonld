@@ -1,40 +1,60 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8584",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/8584",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ali FAZLI",
+      "@type": "NameVariant",
+      "fullName": "Ali FAZLI",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "فضلی",
+      "@type": "NameVariant",
+      "fullName": "فضلی",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ali FAZLY",
+      "@type": "NameVariant",
+      "fullName": "Ali FAZLY",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Brigadier General;\n\nDeputy Coordinator of the Islamic Revolutionary Guard Corps; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Iran) List 2012",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8584"
   ],
-  "birth_info": [
+  "remarks": "Brigadier General;\n\nDeputy Coordinator of the Islamic Revolutionary Guard Corps; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Iran) List 2012",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1961-04-20",
       "circa": false,
+      "year": 1961,
       "country": "Sarkan"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1951,
       "country": "Hamedan Province"
     }
   ],
   "nationalities": [
     "Iran"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

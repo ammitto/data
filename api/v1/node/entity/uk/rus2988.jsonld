@@ -1,21 +1,42 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus2988",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/rus2988",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "SHUMAKOV ",
-      "first_name": "Leonid ",
+      "@type": "NameVariant",
+      "fullName": "SHUMAKOV ",
+      "firstName": "Leonid ",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Леонид Шумаков",
+      "@type": "NameVariant",
+      "fullName": "Леонид Шумаков",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus2988"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

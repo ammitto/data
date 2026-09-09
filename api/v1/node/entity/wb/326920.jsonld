@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/326920",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/326920",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "ASTRA BIOPHARMACEUTICALS LIMITED",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "ASTRA BIOPHARMACEUTICALS LIMITED",
+      "isPrimary": true
     }
   ],
-  "remarks": "*343",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/326920"
+  ],
+  "remarks": "*343",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "43/2, RING ROAD, SHYAMOLI",
       "city": "DHAKA-1207",
       "country": "Bangladesh",
-      "country_iso_code": "BD"
+      "countryIsoCode": "BD"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

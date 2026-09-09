@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/316110",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/316110",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "EMPRESA CONSTRUCTORA Y CONSULTORA LAPTUS S.R.L.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "EMPRESA CONSTRUCTORA Y CONSULTORA LAPTUS S.R.L.",
+      "isPrimary": true
     }
   ],
-  "remarks": "*249",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/316110"
+  ],
+  "remarks": "*249",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "CALLE MUNICIPAL NO. 501, VILLA ABAROA",
       "city": "TARIJA",
       "country": "Bolivia",
-      "country_iso_code": "BO"
+      "countryIsoCode": "BO"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

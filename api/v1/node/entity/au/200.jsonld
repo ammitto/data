@@ -1,51 +1,69 @@
 {
-  "id": "https://www.ammitto.org/entity/au/200",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/200",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Hasan IZZ-AL-DIN",
+      "@type": "NameVariant",
+      "fullName": "Hasan IZZ-AL-DIN",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Ahmed GARBAYA",
+      "@type": "NameVariant",
+      "fullName": "Ahmed GARBAYA",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "SA-ID",
+      "@type": "NameVariant",
+      "fullName": "SA-ID",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Samir SALWWAN",
+      "@type": "NameVariant",
+      "fullName": "Samir SALWWAN",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Hassan Abbas IZZ-AL-DIN",
+      "@type": "NameVariant",
+      "fullName": "Hassan Abbas IZZ-AL-DIN",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Mr Izz Al Din is associated with Hizballah (a listed entity under Australian sanctions law).; Listing: Instrument of first listing: Charter of the United Nations (Anti terrorism — Persons and Entities) List 2001 [F2021L00631, Gazette No. S 500, 21 December 2001]. Last listed on: 13/09/2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/200"
   ],
-  "birth_info": [
+  "remarks": "Mr Izz Al Din is associated with Hizballah (a listed entity under Australian sanctions law).; Listing: Instrument of first listing: Charter of the United Nations (Anti terrorism — Persons and Entities) List 2001 [F2021L00631, Gazette No. S 500, 21 December 2001]. Last listed on: 13/09/2025",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1963,
       "country": "Lebanon"
     }
   ],
   "nationalities": [
     "Lebanon"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Lebanon",
       "country": "Lebanon"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

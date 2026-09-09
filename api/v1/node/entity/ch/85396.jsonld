@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/85396",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/85396",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Zamulevich Dzmitry Mihaylavych",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Zamulevich Dzmitry Mihaylavych",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/85396"
   ],
   "remarks": "Dzmitry Zamulevich is part-owner of Vlate Logistik LLC, a transport and storage company which holds the status of authorised economic operator. Through this status, issued by state authorities, it enjoys significant tax advantages. Through ownership of Vlate Logistik LLC, Zamulevich is associated with an entity benefitting from the Lukashenka regime.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1974-05-07",
-      "circa": false
+      "circa": false,
+      "year": 1974
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

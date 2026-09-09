@@ -1,30 +1,47 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7860",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7860",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Darya Vasilevna MOROZOVA",
+      "@type": "NameVariant",
+      "fullName": "Darya Vasilevna MOROZOVA",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Daria Vasylivna MOROZOVA",
+      "@type": "NameVariant",
+      "fullName": "Daria Vasylivna MOROZOVA",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Commissioner of Human Rights of the so-called “Donetsk People’s Republic”; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2024",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7860"
   ],
-  "birth_info": [
+  "remarks": "Commissioner of Human Rights of the so-called “Donetsk People’s Republic”; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2024",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1989,
       "country": "Makiivka"
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,25 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/186505",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/186505",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "MARKETING ENTERPRISES LATIN AMERICA, LLC",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "MARKETING ENTERPRISES LATIN AMERICA, LLC",
+      "isPrimary": true
     }
   ],
-  "remarks": "*108",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/186505"
+  ],
+  "remarks": "*108",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "14621 SW 120TH ST. OFF. 102",
       "city": "MIAMI",
       "state": "FL",
       "country": "United States",
-      "country_iso_code": "US",
-      "postal_code": "33186"
+      "countryIsoCode": "US",
+      "postalCode": "33186"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

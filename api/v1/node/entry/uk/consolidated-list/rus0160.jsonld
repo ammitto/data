@@ -1,47 +1,65 @@
 {
-  "id": "https://www.ammitto.org/entry/uk/consolidated-list/rus0160",
-  "entity_id": "https://www.ammitto.org/entity/uk/rus0160",
+  "@id": "https://www.ammitto.org/entry/uk/consolidated-list/rus0160",
+  "@type": "SanctionEntry",
+  "entityId": "https://www.ammitto.org/entity/uk/rus0160",
   "authority": {
     "@id": "https://www.ammitto.org/authority/uk"
   },
   "regime": {
-    "@id": "https://www.ammitto.org/regime/the_russia_sanctions_eu_exit_regulations_2019"
+    "@id": "https://www.ammitto.org/regime/the_russia_sanctions_eu_exit_regulations_2019",
+    "name": "The Russia (Sanctions) (EU Exit) Regulations 2019"
   },
+  "legalBases": [
+
+  ],
   "effects": [
     {
-      "effect_type": "asset_freeze",
+      "@type": "SanctionEffect",
+      "effectType": "asset_freeze",
       "scope": "full"
     },
     {
-      "effect_type": "travel_ban",
+      "@type": "SanctionEffect",
+      "effectType": "travel_ban",
       "scope": "full"
     },
     {
-      "effect_type": "financial_restriction",
+      "@type": "SanctionEffect",
+      "effectType": "financial_restriction",
       "scope": "full"
     },
     {
-      "effect_type": "debarment",
+      "@type": "SanctionEffect",
+      "effectType": "debarment",
       "scope": "full"
     }
   ],
+  "reasons": [
+
+  ],
   "period": {
-    "listed_date": "2020-12-31",
-    "effective_date": "2020-12-31",
-    "is_indefinite": true,
-    "last_updated": "2025-04-09"
+    "@type": "TemporalPeriod",
+    "listedDate": "2020-12-31",
+    "effectiveDate": "2020-12-31",
+    "isIndefinite": true,
+    "lastUpdated": "2025-04-09"
   },
   "status": "active",
-  "reference_number": "RUS0160",
+  "statusHistory": [
+
+  ],
+  "referenceNumber": "RUS0160",
   "remarks": "\nFormer Deputy Speaker of the State Duma of the Russian Federation.  Actively supported the use of Russian Armed Forces in Ukraine and the annexation of Crimea.  He led personally the demonstration in support of the use of Russian Armed Forces in Ukraine.  Former Deputy Chairperson and former member of the Foreign Affairs Committee of the State Duma of the Russian Federation.  \n The trust services sanctions were imposed on 21/03/2023.",
-  "raw_source_data": {
-    "source_format": "xml",
-    "source_specific_fields": {
+  "rawSourceData": {
+    "@type": "RawSourceData",
+    "sourceFormat": "xml",
+    "sourceSpecificFields": {
       "uk:ofsiGroupId": "12920",
+      "uk:unReferenceNumber": null,
       "uk:designationSource": "UK",
       "uk:sanctionsImposed": "Asset freeze|Travel Ban|Trust Services Sanctions|Director Disqualification Sanction",
       "uk:entityType": "Individual"
     }
   },
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

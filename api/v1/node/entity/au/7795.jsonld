@@ -1,25 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7795",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7795",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Choe Myong Hyon",
+      "@type": "NameVariant",
+      "fullName": "Choe Myong Hyon",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "Passport 836210034 (North Korea); Expiry 26 April 2021; Listing: Instrument of first designation: Autonomous Sanctions (Designated Persons and Entities and Declared Persons - Democratic People's Republic of Korea) Amendment (No. 2) Instrument 2023.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7795"
   ],
-  "birth_info": [
+  "remarks": "Passport 836210034 (North Korea); Expiry 26 April 2021; Listing: Instrument of first designation: Autonomous Sanctions (Designated Persons and Entities and Declared Persons - Democratic People's Republic of Korea) Amendment (No. 2) Instrument 2023.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1966,
       "country": "North Korea"
     }
   ],
   "nationalities": [
     "Democratic People's Republic of Korea (North Korea)"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

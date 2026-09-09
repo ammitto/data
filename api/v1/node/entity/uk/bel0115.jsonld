@@ -1,52 +1,75 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/bel0115",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/bel0115",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MUKOVOZCHIK",
-      "first_name": "Andrei",
+      "@type": "NameVariant",
+      "fullName": "MUKOVOZCHIK",
+      "firstName": "Andrei",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "MUKAVOZCHYK",
-      "first_name": "Andrei",
+      "@type": "NameVariant",
+      "fullName": "MUKAVOZCHYK",
+      "firstName": "Andrei",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "MUKAVOZCHYK",
-      "first_name": "Andrei",
+      "@type": "NameVariant",
+      "fullName": "MUKAVOZCHYK",
+      "firstName": "Andrei",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "MUKOVOZCHIK",
-      "first_name": "Andrey",
+      "@type": "NameVariant",
+      "fullName": "MUKOVOZCHIK",
+      "firstName": "Andrey",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Андрей Ниĸолаевич МУКОВОЗЧИК",
+      "@type": "NameVariant",
+      "fullName": "Андрей Ниĸолаевич МУКОВОЗЧИК",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Андрэй Міĸалаевіч МУКАВОЗЧЫК",
+      "@type": "NameVariant",
+      "fullName": "Андрэй Міĸалаевіч МУКАВОЗЧЫК",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/bel0115"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Belarus Segodnya, 10a Khmelnitskogo St",
       "state": "Minsk",
       "country": "Belarus"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

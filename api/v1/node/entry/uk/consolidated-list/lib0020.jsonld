@@ -1,43 +1,60 @@
 {
-  "id": "https://www.ammitto.org/entry/uk/consolidated-list/lib0020",
-  "entity_id": "https://www.ammitto.org/entity/uk/lib0020",
+  "@id": "https://www.ammitto.org/entry/uk/consolidated-list/lib0020",
+  "@type": "SanctionEntry",
+  "entityId": "https://www.ammitto.org/entity/uk/lib0020",
   "authority": {
     "@id": "https://www.ammitto.org/authority/uk"
   },
   "regime": {
-    "@id": "https://www.ammitto.org/regime/the_libya_sanctions_eu_exit_regulations_2020"
+    "@id": "https://www.ammitto.org/regime/the_libya_sanctions_eu_exit_regulations_2020",
+    "name": "The Libya (Sanctions) (EU Exit) Regulations 2020"
   },
+  "legalBases": [
+
+  ],
   "effects": [
     {
-      "effect_type": "asset_freeze",
+      "@type": "SanctionEffect",
+      "effectType": "asset_freeze",
       "scope": "full"
     },
     {
-      "effect_type": "travel_ban",
+      "@type": "SanctionEffect",
+      "effectType": "travel_ban",
       "scope": "full"
     },
     {
-      "effect_type": "debarment",
+      "@type": "SanctionEffect",
+      "effectType": "debarment",
       "scope": "full"
     }
   ],
+  "reasons": [
+
+  ],
   "period": {
-    "listed_date": "2020-12-31",
-    "effective_date": "2020-12-31",
-    "is_indefinite": true,
-    "last_updated": "2025-04-09"
+    "@type": "TemporalPeriod",
+    "listedDate": "2020-12-31",
+    "effectiveDate": "2020-12-31",
+    "isIndefinite": true,
+    "lastUpdated": "2025-04-09"
   },
   "status": "active",
-  "reference_number": "LIB0020",
+  "statusHistory": [
+
+  ],
+  "referenceNumber": "LIB0020",
   "remarks": "\nAs Minister for Health and Environment in Colonel Qadhafi's Government was associated with Muammar Qadhafi and other involved persons.",
-  "raw_source_data": {
-    "source_format": "xml",
-    "source_specific_fields": {
+  "rawSourceData": {
+    "@type": "RawSourceData",
+    "sourceFormat": "xml",
+    "sourceSpecificFields": {
       "uk:ofsiGroupId": "11700",
+      "uk:unReferenceNumber": null,
       "uk:designationSource": "UK",
       "uk:sanctionsImposed": "Asset freeze|Travel Ban|Director Disqualification Sanction",
       "uk:entityType": "Individual"
     }
   },
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

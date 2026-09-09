@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/89198",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/89198",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kudryashkin Igor Gennadievich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kudryashkin Igor Gennadievich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/89198"
   ],
   "remarks": "Igor Kudryashkin is a Russian businessperson with extensive business interests in the Russian mining and metals sectors. In particular, Kudryashkin is a shareholder and Commercial Director of Ural Mining and Metallurgical Company, a major Russian company engaged in the Russian mining and metals sectors. Those economic sectors provide a substantial source of revenue to the Government of the Russian Federation.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1967-11-22",
-      "circa": false
+      "circa": false,
+      "year": 1967
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

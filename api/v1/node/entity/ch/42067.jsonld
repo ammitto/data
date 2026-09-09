@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/42067",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/42067",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Justo Pastor Urbina",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Justo Pastor Urbina",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/42067"
   ],
   "remarks": "Head of Police Special Operations Unit (DOEP). He has been directly involved in the implementation of repressive policies against demonstrators and the opposition in Nicaragua, particularly in Managua. In this context, he is responsible for serious human rights violations and for the repression of civil society and democratic opposition in Nicaragua.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1956-01-29",
-      "circa": false
+      "circa": false,
+      "year": 1956
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

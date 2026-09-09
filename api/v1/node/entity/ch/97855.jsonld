@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/97855",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/97855",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Jean-Pierre Gabriel",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Jean-Pierre Gabriel",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/97855"
   ],
   "remarks": "Gabriel Jean-Pierre is the leader of the GPep coalition of gangs in Haiti, which is affiliated with Brooklyn gang.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1984-03-31",
-      "circa": false
+      "circa": false,
+      "year": 1984
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

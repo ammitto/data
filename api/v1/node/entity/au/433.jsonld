@@ -1,35 +1,53 @@
 {
-  "id": "https://www.ammitto.org/entity/au/433",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/433",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Salim Y Salamuddin Julkipli",
+      "@type": "NameVariant",
+      "fullName": "Salim Y Salamuddin Julkipli",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Kipli Sali",
+      "@type": "NameVariant",
+      "fullName": "Kipli Sali",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Julkipli Salim",
+      "@type": "NameVariant",
+      "fullName": "Julkipli Salim",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "In detention in the Philippines as at May 2011. Review pursuant to Security Council resolution 2610 (2021) was concluded on 8 November 2022.; Listing: Listed by the UN 1267 Committee on 9 September 2003 (amended on 23 Feb. 2009, 13 Dec. 2011, 6 Dec 2020)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/433"
   ],
-  "birth_info": [
+  "remarks": "In detention in the Philippines as at May 2011. Review pursuant to Security Council resolution 2610 (2021) was concluded on 8 November 2022.; Listing: Listed by the UN 1267 Committee on 9 September 2003 (amended on 23 Feb. 2009, 13 Dec. 2011, 6 Dec 2020)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1967,
       "country": "Tulay"
     }
   ],
   "nationalities": [
     "Philippines"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

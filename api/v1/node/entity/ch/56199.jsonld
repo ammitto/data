@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/56199",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/56199",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Bobrovskiy Andrey",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Bobrovskiy Andrey",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/56199"
   ],
   "remarks": "Andrey Bobrowskiy is a member of the nationalist motorcycle club Nightwolves MC and leader of the “Roads for Victory” branch of Nightwolves MC. In his position as leader of the “Roads for Victory” branch, Bobrowskiy has organised several Nightwolves rallies in Berlin, Poland and Russia. Since the Russian attack on Ukraine in Feb 2022, the purpose of the rallies has been to actively support the Russian war on Ukraine and to publicly deny Ukraine’s right to statehood and calling for the ‘denazification’ of the country and promoting the idea that Ukraine should be an integral part of Russia. Bobrowskiy has therefore actively and publicly supported Russian state propaganda. Andrey Bobrowskiy is a member of the Nightwolves MC, which is responsible for materially supporting actions which undermine or threaten the territorial integrity, sovereignty and independence of Ukraine. Furthermore, he is a natural person responsible for, supporting and implementing actions or policies which undermine or threaten the territorial integrity, sovereignty and independence of Ukraine, as well as the stability and security in Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1982-01-05",
-      "circa": false
+      "circa": false,
+      "year": 1982
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

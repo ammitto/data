@@ -1,31 +1,54 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/mya0072",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/mya0072",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Pye Phyo Tay Za",
+      "@type": "NameVariant",
+      "fullName": "Pye Phyo Tay Za",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Nye Phyo Tay Za",
+      "@type": "NameVariant",
+      "fullName": "Nye Phyo Tay Za",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Pyae Phyo Tay Za",
+      "@type": "NameVariant",
+      "fullName": "Pyae Phyo Tay Za",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Pye Phyo Tayza",
+      "@type": "NameVariant",
+      "fullName": "Pye Phyo Tayza",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/mya0072"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

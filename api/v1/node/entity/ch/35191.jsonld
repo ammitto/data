@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/35191",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/35191",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Tahir Hamid Khalil",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Tahir Hamid Khalil",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/35191"
   ],
   "remarks": "Holds the ranks of Major General, Head of the Syrian Artillery and Missiles Directorate of the Syrian Armed Forces under the former al-Assad regime, in post after May 2011. As a senior ranking officer of the Syrian Artillery and Missile Directorate, he is responsible for the violent repression of the civilian population, including the deployment of missiles and chemical weapons by Brigades under his command in highly populated civilian areas in Ghouta in 2013.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1955-07-03",
-      "circa": false
+      "circa": false,
+      "year": 1955
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

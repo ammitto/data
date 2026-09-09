@@ -1,37 +1,55 @@
 {
-  "id": "https://www.ammitto.org/entity/au/2540",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/2540",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "KOREA HEUNGJIN TRADING COMPANY",
+      "@type": "NameVariant",
+      "fullName": "KOREA HEUNGJIN TRADING COMPANY",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Hunjin TRADING Co",
+      "@type": "NameVariant",
+      "fullName": "Hunjin TRADING Co",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Korea Henjin Trading Co",
+      "@type": "NameVariant",
+      "fullName": "Korea Henjin Trading Co",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Korea Hengjin Trading Company",
+      "@type": "NameVariant",
+      "fullName": "Korea Hengjin Trading Company",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "KPe.011. The Korea Heungjin Trading Company is used by KOMID for trading purposes. We suspect it has been involved in supplying missile-related goods to Iran’s Shahid Hemmat Industrial Group (SHIG). Heungjin has been associated with KOMID, and, more specifically, KOMID’s procurement office. Heungjin has been used to procure an advanced digital controller with applications in missile design. KOMID was designated by the Committee in April 2009 and is the DPRK's primary arms dealer and main exporter of goods and equipment related to ballistic missiles and conventional weapons. The Security Council designated SHIG in resolution 1737 (2006) as an entity involved in Iran’s ballistic missile programme.; Listing: Listed by the UN 1718 Committee on 2 May 2012",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/2540"
+  ],
+  "remarks": "KPe.011. The Korea Heungjin Trading Company is used by KOMID for trading purposes. We suspect it has been involved in supplying missile-related goods to Iran’s Shahid Hemmat Industrial Group (SHIG). Heungjin has been associated with KOMID, and, more specifically, KOMID’s procurement office. Heungjin has been used to procure an advanced digital controller with applications in missile design. KOMID was designated by the Committee in April 2009 and is the DPRK's primary arms dealer and main exporter of goods and equipment related to ballistic missiles and conventional weapons. The Security Council designated SHIG in resolution 1737 (2006) as an entity involved in Iran’s ballistic missile programme.; Listing: Listed by the UN 1718 Committee on 2 May 2012",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Pyongyang, DPRK",
       "country": "DPRK"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

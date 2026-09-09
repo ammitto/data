@@ -1,43 +1,62 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/sud0009",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/sud0009",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Sudan Master Technology",
+      "@type": "NameVariant",
+      "fullName": "Sudan Master Technology",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Giad Automotive Industry",
+      "@type": "NameVariant",
+      "fullName": "Giad Automotive Industry",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Giad Conglomerate",
+      "@type": "NameVariant",
+      "fullName": "Giad Conglomerate",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Giad Industrial City",
+      "@type": "NameVariant",
+      "fullName": "Giad Industrial City",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Giad Industrial Complex",
+      "@type": "NameVariant",
+      "fullName": "Giad Industrial Complex",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/sud0009"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "SMT BUILDING MADANI ROAD, KM 50 KHARTOUM, GIAD",
       "state": "KHARTOUM",
       "country": "Sudan"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

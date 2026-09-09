@@ -1,22 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/755981",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/wb/755981",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MR. BEKHRUZ GULRUZOV",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "MR. BEKHRUZ GULRUZOV",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/755981"
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "FEDIN STR. 3, QUARTER-29",
       "city": "DUSHANBE",
       "country": "Tajikistan",
-      "country_iso_code": "TJ"
+      "countryIsoCode": "TJ"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

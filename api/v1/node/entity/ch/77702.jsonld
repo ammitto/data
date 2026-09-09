@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/77702",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/77702",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kovach Zmitser Aliaksandrovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kovach Zmitser Aliaksandrovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/77702"
   ],
   "remarks": "Zmitser Kovach is the deputy head of the Main Department for Combating Organised Crime and Corruption (GUBOPiK) of the Ministry of Internal Affairs. GUBOPiK is one of the main bodies responsible for political persecution in Belarus, including arbitrary and unlawful arrests and ill-treatment, including torture, of activists and members of civil society.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1979-01-14",
-      "circa": false
+      "circa": false,
+      "year": 1979
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

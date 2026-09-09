@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/72408",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/72408",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Isaev Yuri Konstantinovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Isaev Yuri Konstantinovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/72408"
   ],
   "remarks": "Yuri Isaev is a General Director in the Russian military industry company Temp-Avia. The company is specialised in producing navigation and automatic control systems, inertial control systems, inertial measurement units, gyrostabilisers, primary information sensors, attitude indicators and integrated backup flight navigation instrument systems. The contracting parties are other Russian military industry companies and the Russian Government itself. In particular, Temp-Avia produces basic attitude indicator AGB-96, which is used on Mi-8 helicopters of the Russian Armed Forces deployed in the war of aggression against Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1975
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

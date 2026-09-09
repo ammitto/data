@@ -1,32 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8740",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/8740",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Waybank Joint Stock Company",
+      "@type": "NameVariant",
+      "fullName": "Waybank Joint Stock Company",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "CB RENTA BANK JOINT STOCK COMPANY",
+      "@type": "NameVariant",
+      "fullName": "CB RENTA BANK JOINT STOCK COMPANY",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "VEYBANK",
+      "@type": "NameVariant",
+      "fullName": "VEYBANK",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Website: http://waybank.ru/en/; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2026",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8740"
+  ],
+  "remarks": "Website: http://waybank.ru/en/; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2026",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Pyatnitskaya Street, 57, b.1., Moscow, 115184, Russia",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

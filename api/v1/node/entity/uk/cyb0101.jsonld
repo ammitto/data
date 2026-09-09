@@ -1,26 +1,48 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/cyb0101",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/cyb0101",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Zatolokin",
-      "first_name": "Kirill",
+      "@type": "NameVariant",
+      "fullName": "Zatolokin",
+      "firstName": "Kirill",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "downlow",
+      "@type": "NameVariant",
+      "fullName": "downlow",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Кирилл Андреевич Затолокин",
+      "@type": "NameVariant",
+      "fullName": "Кирилл Андреевич Затолокин",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/cyb0101"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

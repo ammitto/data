@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/65369",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/65369",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Paulouskaya Ina Leanidauna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Paulouskaya Ina Leanidauna",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/65369"
   ],
   "remarks": "In her position as judge of Baranovichi District Court, Ina Paulouskaya is responsible for numerous politically-motivated rulings against peaceful protesters, in particular the sentencing of Vitaly Korsak and Anatoly Pugach. She has sentenced people to prison terms and fines for criticizing President Lukashenka and protesting against the outcome of the presidential elections of 2020. She is therefore responsible for serious human rights violations and for seriously undermining the rule of law, as well as for the repression of civil society and democratic opposition in Belarus.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1975-07-29",
-      "circa": false
+      "circa": false,
+      "year": 1975
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

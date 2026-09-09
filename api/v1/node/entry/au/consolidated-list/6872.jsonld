@@ -1,37 +1,47 @@
 {
-  "id": "https://www.ammitto.org/entry/au/consolidated-list/6872",
-  "entity_id": "https://www.ammitto.org/entity/au/6872",
+  "@id": "https://www.ammitto.org/entry/au/consolidated-list/6872",
+  "@type": "SanctionEntry",
+  "entityId": "https://www.ammitto.org/entity/au/6872",
   "authority": {
     "@id": "https://www.ammitto.org/authority/au"
   },
   "regime": {
-    "@id": "https://www.ammitto.org/regime/autonomous__ukraine_"
+    "@id": "https://www.ammitto.org/regime/autonomous__ukraine_",
+    "name": "Autonomous (Ukraine)"
   },
-  "legal_bases": [
+  "legalBases": [
     {
-      "type": "instrument",
-      "identifier": "Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 11) Instrument 2022",
-      "title": "Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 11) Instrument 2022"
+      "@id": "https://www.ammitto.org/legal-instrument/au/autonomous-sanctions-designated-persons-and-entities-and-declared-persons-russia-and-ukraine-amendment-no.-11-instrument-2022"
     }
   ],
   "effects": [
     {
-      "effect_type": "asset_freeze",
+      "@type": "SanctionEffect",
+      "effectType": "asset_freeze",
       "scope": "full"
     },
     {
-      "effect_type": "travel_ban",
+      "@type": "SanctionEffect",
+      "effectType": "travel_ban",
       "scope": "full"
     }
   ],
+  "reasons": [
+
+  ],
   "period": {
-    "is_indefinite": true
+    "@type": "TemporalPeriod",
+    "isIndefinite": true
   },
   "status": "active",
-  "reference_number": "6872",
-  "raw_source_data": {
-    "source_format": "csv",
-    "source_specific_fields": {
+  "statusHistory": [
+
+  ],
+  "referenceNumber": "6872",
+  "rawSourceData": {
+    "@type": "RawSourceData",
+    "sourceFormat": "csv",
+    "sourceSpecificFields": {
       "au:reference": "6872",
       "au:committees": "Autonomous (Ukraine)",
       "au:control_date": "2022-04-06",
@@ -39,5 +49,5 @@
       "au:listing_info": "Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 11) Instrument 2022"
     }
   },
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

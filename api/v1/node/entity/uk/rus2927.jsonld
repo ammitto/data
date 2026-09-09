@@ -1,47 +1,67 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus2927",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus2927",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "FEDERAL STATE ENTERPRISE ANOZIT ",
+      "@type": "NameVariant",
+      "fullName": "FEDERAL STATE ENTERPRISE ANOZIT ",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Anozie ",
+      "@type": "NameVariant",
+      "fullName": "Anozie ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Anozit FSE ",
+      "@type": "NameVariant",
+      "fullName": "Anozit FSE ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Federal state enterprise \"Anozit\" ",
+      "@type": "NameVariant",
+      "fullName": "Federal state enterprise \"Anozit\" ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Federal State Enterprise Anosit  ",
+      "@type": "NameVariant",
+      "fullName": "Federal State Enterprise Anosit  ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Федеральное казенное предприятие “АНОЗИТ” ",
+      "@type": "NameVariant",
+      "fullName": "Федеральное казенное предприятие “АНОЗИТ” ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus2927"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "UL SADOVOE KOLTSO D.1, Novosibirsk region",
       "state": "Samara",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

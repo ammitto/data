@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/nz/ind-101",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/nz/ind-101",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Elvira Rinatovna Aitkulova",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Elvira Rinatovna Aitkulova",
+      "isPrimary": true
     }
   ],
-  "source_references": [
+  "sourceReferences": [
     {
-      "source_code": "nz",
-      "reference_number": "IND-101"
+      "@type": "SourceReference",
+      "sourceCode": "nz",
+      "referenceNumber": "IND-101",
+      "retrievedAt": "2026-09-09T16:30:42Z"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "linkedEntities": [
+
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/nz/consolidated-list/ind-101"
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

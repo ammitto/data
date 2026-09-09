@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/1044559",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/1044559",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "KMT TEKNOLOJIK VE FINANSAL YATIRIMLAR A.S.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "KMT TEKNOLOJIK VE FINANSAL YATIRIMLAR A.S.",
+      "isPrimary": true
     }
   ],
-  "remarks": "(Reg. No: 0564141275600001) *706",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/1044559"
+  ],
+  "remarks": "(Reg. No: 0564141275600001) *706",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "HUZUR MAH. AHMET BAYMAN CAD. NO:2 SARIYER",
       "city": "ISTANBUL",
       "country": "Turkiye",
-      "country_iso_code": "TR"
+      "countryIsoCode": "TR"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

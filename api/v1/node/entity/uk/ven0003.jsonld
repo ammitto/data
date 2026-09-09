@@ -1,28 +1,48 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/ven0003",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/ven0003",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Benavides Torres",
-      "first_name": "Antonio",
+      "@type": "NameVariant",
+      "fullName": "Benavides Torres",
+      "firstName": "Antonio",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Antonio José Benavides Torres",
+      "@type": "NameVariant",
+      "fullName": "Antonio José Benavides Torres",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Former Chief of the Capital District (Distrito Capital) until January 2018. Former General Commander of the Bolivarian National Guard (GNB) until 21 June 2017 The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/ven0003"
+  ],
+  "remarks": "Former Chief of the Capital District (Distrito Capital) until January 2018. Former General Commander of the Bolivarian National Guard (GNB) until 21 June 2017 The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "state": "Caracas",
       "country": "Venezuela"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

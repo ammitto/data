@@ -1,42 +1,61 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8388",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/8388",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Chosun Expo",
+      "@type": "NameVariant",
+      "fullName": "Chosun Expo",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Korea Expo Joint Venture",
+      "@type": "NameVariant",
+      "fullName": "Korea Expo Joint Venture",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Chosun Expo (APT 38)",
+      "@type": "NameVariant",
+      "fullName": "Chosun Expo (APT 38)",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Chosun Expo Joint Venture",
+      "@type": "NameVariant",
+      "fullName": "Chosun Expo Joint Venture",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "KEJV",
+      "@type": "NameVariant",
+      "fullName": "KEJV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Democratic People’s Republic of Korea) List 2012",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8388"
+  ],
+  "remarks": "Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Democratic People’s Republic of Korea) List 2012",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Pyongyang, Democratic People's Republic of Korea",
       "country": "Democratic People's Republic of Korea"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

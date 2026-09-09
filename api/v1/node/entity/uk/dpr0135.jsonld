@@ -1,32 +1,50 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/dpr0135",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/dpr0135",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "GENERAL BUREAU OF ATOMIC ENERGY (GBAE)",
+      "@type": "NameVariant",
+      "fullName": "GENERAL BUREAU OF ATOMIC ENERGY (GBAE)",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "General Department of Atomic Energy (GDAE)",
+      "@type": "NameVariant",
+      "fullName": "General Department of Atomic Energy (GDAE)",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The GBAE is responsible for the DPRK’s nuclear program, which includes the Yongbyon Nuclear Research Center and its 5 MWe (25 MWt) plutonium production research reactor, as well as its fuel fabrication and reprocessing facilities. The GBAE has held nuclear-related meetings and discussions with the International Atomic Energy Agency. GBAE is the primary DPRK government agency that oversees nuclear programs, including the operation of the Yongbyon Nuclear Research Center. Changed name as Ministry of Atomic Energy Industry (KPe.027) in 2013.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/dpr0135"
+  ],
+  "remarks": "The GBAE is responsible for the DPRK’s nuclear program, which includes the Yongbyon Nuclear Research Center and its 5 MWe (25 MWt) plutonium production research reactor, as well as its fuel fabrication and reprocessing facilities. The GBAE has held nuclear-related meetings and discussions with the International Atomic Energy Agency. GBAE is the primary DPRK government agency that oversees nuclear programs, including the operation of the Yongbyon Nuclear Research Center. Changed name as Ministry of Atomic Energy Industry (KPe.027) in 2013.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "country": "North Korea"
     },
     {
+      "@type": "Address",
       "street": "Haeudong",
       "city": "Pyongchen District",
       "state": "Pyongyang",
       "country": "North Korea"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,22 +1,43 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus3046",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/rus3046",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Partskhaladze",
-      "first_name": "Otar",
+      "@type": "NameVariant",
+      "fullName": "Partskhaladze",
+      "firstName": "Otar",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Romanov Partskhaladze",
-      "first_name": "Otar",
+      "@type": "NameVariant",
+      "fullName": "Romanov Partskhaladze",
+      "firstName": "Otar",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus3046"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

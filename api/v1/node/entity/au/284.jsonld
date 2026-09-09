@@ -1,62 +1,85 @@
 {
-  "id": "https://www.ammitto.org/entity/au/284",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/284",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Palestinian Islamic Jihad",
+      "@type": "NameVariant",
+      "fullName": "Palestinian Islamic Jihad",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "PIJ",
+      "@type": "NameVariant",
+      "fullName": "PIJ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Al-Quds Brigade",
+      "@type": "NameVariant",
+      "fullName": "Al-Quds Brigade",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Harakat al-Jihad al-Islami fi Filistin",
+      "@type": "NameVariant",
+      "fullName": "Harakat al-Jihad al-Islami fi Filistin",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Islamic Jihad",
+      "@type": "NameVariant",
+      "fullName": "Islamic Jihad",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Islamic Jihad Palestine",
+      "@type": "NameVariant",
+      "fullName": "Islamic Jihad Palestine",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Islamic Jihad—Palestine Faction and Islamic Holy War",
+      "@type": "NameVariant",
+      "fullName": "Islamic Jihad—Palestine Faction and Islamic Holy War",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "The Jerusalem Brigades",
+      "@type": "NameVariant",
+      "fullName": "The Jerusalem Brigades",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Saraya al-Quds",
+      "@type": "NameVariant",
+      "fullName": "Saraya al-Quds",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Palestinian Islamic Jihad is an extremist organisation that fuses Sunni Islamic and Palestinian national objectives. It is committed to the destruction of Israel and the creation of an Islamic state that includes the Palestinian Territories and Israel.; Listing: Instrument of first listing: Charter of the United Nations (Anti terrorism — Persons and Entities) List 2001 (No. 2). Last listed on: 13/09/2025 - Charter of the United Nations (Listed Persons and Entities) Amendment (No.2) Instrument",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/284"
+  ],
+  "remarks": "Palestinian Islamic Jihad is an extremist organisation that fuses Sunni Islamic and Palestinian national objectives. It is committed to the destruction of Israel and the creation of an Islamic state that includes the Palestinian Territories and Israel.; Listing: Instrument of first listing: Charter of the United Nations (Anti terrorism — Persons and Entities) List 2001 (No. 2). Last listed on: 13/09/2025 - Charter of the United Nations (Listed Persons and Entities) Amendment (No.2) Instrument",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "State of Palestine",
       "country": "State of Palestine"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

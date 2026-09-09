@@ -1,34 +1,52 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3313",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/3313",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Samir DA'BUL",
+      "@type": "NameVariant",
+      "fullName": "Samir DA'BUL",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Samir DABUL",
+      "@type": "NameVariant",
+      "fullName": "Samir DABUL",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Samir DAABOUL",
+      "@type": "NameVariant",
+      "fullName": "Samir DAABOUL",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Last known rank and position ‑ Brigadier General in the Scientific Studies and Research Center; Listing: Listed on: 17 Aug. 2017 (Relisted on 3 Aug. 2020 and 2 Aug. 2023)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3313"
   ],
-  "birth_info": [
+  "remarks": "Last known rank and position ‑ Brigadier General in the Scientific Studies and Research Center; Listing: Listed on: 17 Aug. 2017 (Relisted on 3 Aug. 2020 and 2 Aug. 2023)",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1965
     }
   ],
   "nationalities": [
     "Syria"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

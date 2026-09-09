@@ -1,35 +1,53 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7874",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7874",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Vladimir Leonidovich BOGDANOV",
+      "@type": "NameVariant",
+      "fullName": "Vladimir Leonidovich BOGDANOV",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Volodymyr BOHDANOV",
+      "@type": "NameVariant",
+      "fullName": "Volodymyr BOHDANOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Volodymyr Leonidovych BOHDANOV",
+      "@type": "NameVariant",
+      "fullName": "Volodymyr Leonidovych BOHDANOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Director General of Surgutneftegas; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2024",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7874"
   ],
-  "birth_info": [
+  "remarks": "Director General of Surgutneftegas; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2024",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1951,
       "country": "Suyerka"
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

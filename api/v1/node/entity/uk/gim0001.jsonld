@@ -1,16 +1,36 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/gim0001",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/gim0001",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "JALAL",
-      "first_name": "Goran",
+      "@type": "NameVariant",
+      "fullName": "JALAL",
+      "firstName": "Goran",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/gim0001"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

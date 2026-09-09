@@ -1,23 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/344135",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/wb/344135",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MR. PATRICK ALOZIE ONWUKA",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "MR. PATRICK ALOZIE ONWUKA",
+      "isPrimary": true
     }
   ],
-  "remarks": "*413",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/344135"
+  ],
+  "remarks": "*413",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "SUITE B.39 SHIRKIR PLAZA, GARKI",
       "city": "ABUJA",
       "country": "Nigeria",
-      "country_iso_code": "NG"
+      "countryIsoCode": "NG"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

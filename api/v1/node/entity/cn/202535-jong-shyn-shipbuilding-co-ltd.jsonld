@@ -1,21 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/cn/202535-jong-shyn-shipbuilding-co-ltd",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/cn/202535-jong-shyn-shipbuilding-co-ltd",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Jong Shyn Shipbuilding Co., Ltd.",
+      "@type": "NameVariant",
+      "fullName": "Jong Shyn Shipbuilding Co., Ltd.",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "中信造船股份有限公司",
+      "@type": "NameVariant",
+      "fullName": "中信造船股份有限公司",
       "script": "Hani",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "List: cn/export-control-list",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/cn/unknown/202535-jong-shyn-shipbuilding-co-ltd"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "remarks": "List: cn/export-control-list",
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

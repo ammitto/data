@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/27413",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/27413",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Galkin Aleksandr Viktorovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Galkin Aleksandr Viktorovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/27413"
   ],
   "remarks": "Former Commander of Russia's Southern Military District (\"SMD\"), the forces of which are in Crimea; the Black Sea Fleet comes under Galkin's command; much of the force movement into Crimea has come through the SMD.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1958-03-22",
-      "circa": false
+      "circa": false,
+      "year": 1958
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

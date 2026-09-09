@@ -1,50 +1,73 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/drc0065",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/drc0065",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "RUVUGAYIMIKORE",
-      "first_name": "PROTOGENE",
+      "@type": "NameVariant",
+      "fullName": "RUVUGAYIMIKORE",
+      "firstName": "PROTOGENE",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "GATOKARAKURA",
+      "@type": "NameVariant",
+      "fullName": "GATOKARAKURA",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "MIDENDE",
-      "first_name": "ZORRO",
+      "@type": "NameVariant",
+      "fullName": "MIDENDE",
+      "firstName": "ZORRO",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "RUHINDA",
+      "@type": "NameVariant",
+      "fullName": "RUHINDA",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "RUHINDA",
-      "first_name": "GABY",
+      "@type": "NameVariant",
+      "fullName": "RUHINDA",
+      "firstName": "GABY",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "PROTOGÈNE RUVUGAYIMIKORE",
+      "@type": "NameVariant",
+      "fullName": "PROTOGÈNE RUVUGAYIMIKORE",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/drc0065"
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Nyiragongo",
       "state": "North Kivu",
       "country": "Congo (Democratic Republic)"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

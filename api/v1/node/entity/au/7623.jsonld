@@ -1,39 +1,58 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7623",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7623",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Alexandr Arkadievich KALYUSSKY",
+      "@type": "NameVariant",
+      "fullName": "Alexandr Arkadievich KALYUSSKY",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Alexandr Aleksandrovich KALYUSSKY",
+      "@type": "NameVariant",
+      "fullName": "Alexandr Aleksandrovich KALYUSSKY",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Oleksandr Arkadiyovych KALYUSSKIY",
+      "@type": "NameVariant",
+      "fullName": "Oleksandr Arkadiyovych KALYUSSKIY",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Aleksandr KALYUSSKY",
+      "@type": "NameVariant",
+      "fullName": "Aleksandr KALYUSSKY",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Previously listed under 'Ukraine criteria' - Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Ukraine) Amendment List 2014 [F2014L01184]; New listing start date 27 Aug 2023; Listing: Instrument of first designation: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 10) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7623"
   ],
-  "birth_info": [
+  "remarks": "Previously listed under 'Ukraine criteria' - Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Ukraine) Amendment List 2014 [F2014L01184]; New listing start date 27 Aug 2023; Listing: Instrument of first designation: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 10) Instrument 2023",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1975
     }
   ],
   "nationalities": [
     "Ukraine"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

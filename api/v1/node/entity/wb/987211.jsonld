@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/987211",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/987211",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "“FERGANA OMEGAMET” MAS'ULIYATI CHEKLANGAN JAMIYATI",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "“FERGANA OMEGAMET” MAS'ULIYATI CHEKLANGAN JAMIYATI",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/987211"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "FERGANA REGION, KOKALAMZOR STREET 6",
       "city": "FERGANA",
       "country": "Uzbekistan",
-      "country_iso_code": "UZ"
+      "countryIsoCode": "UZ"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

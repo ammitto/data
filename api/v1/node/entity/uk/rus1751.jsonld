@@ -1,22 +1,43 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus1751",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/rus1751",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "SUKHOV",
-      "first_name": "Gennady",
+      "@type": "NameVariant",
+      "fullName": "SUKHOV",
+      "firstName": "Gennady",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Cухов Геннадий Николаевич",
+      "@type": "NameVariant",
+      "fullName": "Cухов Геннадий Николаевич",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus1751"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

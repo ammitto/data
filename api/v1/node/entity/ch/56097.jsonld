@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/56097",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/56097",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kuzmenkov Alexey Mikhailovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kuzmenkov Alexey Mikhailovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/56097"
   ],
   "remarks": "Alexey Kuzmenkov is a deputy head of the National Guard of the Russian Federation and formerly Deputy Defence Minister for logistics. He is former deputy Director of the Federal Service of the National Guard of the Russian Federation (Rosgvardia) – deputy Commander-in-Chief of Rosgvardia.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1971-06-10",
-      "circa": false
+      "circa": false,
+      "year": 1971
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

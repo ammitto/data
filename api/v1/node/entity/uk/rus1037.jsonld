@@ -1,34 +1,57 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus1037",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/rus1037",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "SHEYNIN",
-      "first_name": "Artyom",
+      "@type": "NameVariant",
+      "fullName": "SHEYNIN",
+      "firstName": "Artyom",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "SHEININ",
-      "first_name": "Artem",
+      "@type": "NameVariant",
+      "fullName": "SHEININ",
+      "firstName": "Artem",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "SHEININ",
-      "first_name": "Artyom",
+      "@type": "NameVariant",
+      "fullName": "SHEININ",
+      "firstName": "Artyom",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "ШЕЙНИН Артем Григорьевич",
+      "@type": "NameVariant",
+      "fullName": "ШЕЙНИН Артем Григорьевич",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus1037"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

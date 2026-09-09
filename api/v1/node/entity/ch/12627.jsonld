@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/12627",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/12627",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Abdul-Salam Fajr Mahmoud Brigadier General",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Abdul-Salam Fajr Mahmoud Brigadier General",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/12627"
   ],
   "remarks": "Head of the Security Committee of the Southern Region under the former al-Assad regime since December 2020. Former Head of the Bab Tuma (Damascus) Branch of the Syrian Air Force Intelligence Service. Former Head of the Mezze Airport Air Force intelligence investigation branch. Responsible for the torture of opponents in custody. Under international arrest warrant for “complicity in acts of torture”, “complicity in crimes against humanity” and “complicity in war crimes”.",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1959
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

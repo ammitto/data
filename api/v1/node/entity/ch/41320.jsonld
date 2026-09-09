@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/41320",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/41320",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Amer Foz",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Amer Foz",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/41320"
   ],
   "remarks": "Leading businessperson linked to the former al-Assad regime with personal and family business interests and activities in multiple sectors of the Syrian economy. He benefits financially from access to commercial opportunities and supports the former al-Assad regime.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1976-03-11",
-      "circa": false
+      "circa": false,
+      "year": 1976
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

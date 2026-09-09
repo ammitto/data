@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/888126",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/888126",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "HUAINAN FENGRUI INFRASTRUCTURE CONSTRUCTION CO., LTD.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "HUAINAN FENGRUI INFRASTRUCTURE CONSTRUCTION CO., LTD.",
+      "isPrimary": true
     }
   ],
-  "remarks": "淮南凤瑞基础设施建设有限公司",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/888126"
+  ],
+  "remarks": "淮南凤瑞基础设施建设有限公司",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "THIRD FLOOR, INTEGRATED SERVICE BUILDING, SOUTH OF NO. 4 ROAD, FENGTAI ECONOMIC DEVELOPMENT ZONE",
       "city": "HUAINAN CITY, ANHUI PROVINCE",
       "country": "China",
-      "country_iso_code": "CN"
+      "countryIsoCode": "CN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

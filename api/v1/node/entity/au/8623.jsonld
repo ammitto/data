@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8623",
-  "entity_type": "vessel",
+  "@id": "https://www.ammitto.org/entity/au/8623",
+  "@type": "VesselEntity",
+  "entityType": "vessel",
   "names": [
     {
-      "full_name": "QASR",
+      "@type": "NameVariant",
+      "fullName": "QASR",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "FENG SHOU",
+      "@type": "NameVariant",
+      "fullName": "FENG SHOU",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Previous names include FENG SHOU; Listing: Designated as a sanctioned vessel in the Autonomous Sanctions (Sanctioned Vessels – Russia) Designation 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8623"
   ],
-  "imo_number": "9402471",
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "remarks": "Previous names include FENG SHOU; Listing: Designated as a sanctioned vessel in the Autonomous Sanctions (Sanctioned Vessels – Russia) Designation 2025",
+  "imoNumber": "9402471",
+  "previousNames": [
+
+  ],
+  "previousFlags": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

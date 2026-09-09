@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/65797",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/65797",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ketabachi Mehrdada Akhlaghi",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Ketabachi Mehrdada Akhlaghi",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/65797"
   ],
   "remarks": "Head of the Shahid Bagheri Industrial Group (SBIG), which is designated under resolution 1737 (2006) for its role in the ballistic missile programme (designated under IRe.066).",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1958-09-10",
-      "circa": false
+      "circa": false,
+      "year": 1958
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

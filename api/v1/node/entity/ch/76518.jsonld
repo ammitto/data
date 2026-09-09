@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/76518",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/76518",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Beloglazov Dimitry Aleksandrovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Beloglazov Dimitry Aleksandrovich",
+      "isPrimary": true
     }
   ],
-  "remarks": "Dimitry Beloglazov is the owner of LLC Titul (based in Russia) which established a subsidiary, Joint Stock Company (JSC) Iliadis (based in Russia), to acquire Oleg Deripaska’s share in the International LLC Rasperia Trading Limited (“Rasperia”, based in Russia). Rasperia owns 28,5 million shares in the European company STRABAG SE. Those shares were frozen because Rasperia was controlled by Oleg Vladimirovich Deripaska, an individual subject to Union restrictive measures.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/76518"
+  ],
+  "remarks": "Dimitry Beloglazov is the owner of LLC Titul (based in Russia) which established a subsidiary, Joint Stock Company (JSC) Iliadis (based in Russia), to acquire Oleg Deripaska’s share in the International LLC Rasperia Trading Limited (“Rasperia”, based in Russia). Rasperia owns 28,5  million shares in the European company STRABAG SE. Those shares were frozen because Rasperia was controlled by Oleg Vladimirovich Deripaska, an individual subject to Union restrictive measures.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1968-02-18",
-      "circa": false
+      "circa": false,
+      "year": 1968
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

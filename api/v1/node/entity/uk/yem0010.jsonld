@@ -1,30 +1,50 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/yem0010",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/yem0010",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "The Houthis",
+      "@type": "NameVariant",
+      "fullName": "The Houthis",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "ANSARALLAH",
+      "@type": "NameVariant",
+      "fullName": "ANSARALLAH",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "PARTISANS OF GOD",
+      "@type": "NameVariant",
+      "fullName": "PARTISANS OF GOD",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "SUPPORTERS OF GOD",
+      "@type": "NameVariant",
+      "fullName": "SUPPORTERS OF GOD",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/yem0010"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

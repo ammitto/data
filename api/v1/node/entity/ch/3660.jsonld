@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/3660",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/3660",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Chichakli Richard Ammar",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Chichakli Richard Ammar",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/3660"
   ],
   "remarks": "A Syrian-born US citizen who has been an employee/associate of Viktor Bout for about a decade. The UN identified Richard Chichakli as Viktor Bout’s Chief Financial Manager and, therefore, as one who acts at Bout's direction. His own resume details his senior positions with several Bout-controlled companies. A certified public accountant and certified fraud examiner with more than 12 years of experience, plays a significant role in assisting Bout in setting up and managing a number of his key firms and moving money (both for acquisition of assets and reparation of profits). In media interviews, reportedly has held himself out as spokesperson for Viktor Bout and his network.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1959-03-29",
-      "circa": false
+      "circa": false,
+      "year": 1959
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

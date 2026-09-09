@@ -1,33 +1,56 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/cyb0024",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/cyb0024",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MIKHAILOV",
-      "first_name": "Maksim",
+      "@type": "NameVariant",
+      "fullName": "MIKHAILOV",
+      "firstName": "Maksim",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "MIKHAILOV",
-      "first_name": "Maxim",
+      "@type": "NameVariant",
+      "fullName": "MIKHAILOV",
+      "firstName": "Maxim",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Baget",
+      "@type": "NameVariant",
+      "fullName": "Baget",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "MaxMS76",
+      "@type": "NameVariant",
+      "fullName": "MaxMS76",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/cyb0024"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

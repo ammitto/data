@@ -1,35 +1,55 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus1327",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/rus1327",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "ISMAILOVA",
-      "first_name": "Gulbakhor",
+      "@type": "NameVariant",
+      "fullName": "ISMAILOVA",
+      "firstName": "Gulbakhor",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "GULBAKHOR",
-      "first_name": "Ismailova",
+      "@type": "NameVariant",
+      "fullName": "GULBAKHOR",
+      "firstName": "Ismailova",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Гульбахор ИСМАИЛОВА",
+      "@type": "NameVariant",
+      "fullName": "Гульбахор ИСМАИЛОВА",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus1327"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Apartment 81-83, 79 Ustabayeva Street",
       "state": "Tashkent",
       "country": "Uzbekistan"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

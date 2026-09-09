@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/52983",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/52983",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kesaev Igor Albertovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kesaev Igor Albertovich",
+      "isPrimary": true
     }
   ],
-  "remarks": "Igor Kesaev is the co-owner of the Mercury Group, which has been associated with Megapolis Group, the leading tobacco distributor in Russia. He has a net worth of USD 3,6 billion according to Forbes. He is a major shareholder in Mercury Group and Megapolis Group.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/52983"
+  ],
+  "remarks": "Igor Kesaev is the co-owner of the Mercury Group, which has been associated with Megapolis Group, the leading tobacco distributor in Russia. He has a net worth of USD 4,5 billion according to Forbes. He is a major shareholder in Mercury Group and Megapolis Group.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1966-10-30",
-      "circa": false
+      "circa": false,
+      "year": 1966
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,16 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/31531",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/31531",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Simon Gatwech Dual Major General",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Simon Gatwech Dual Major General",
+      "isPrimary": true
     }
   ],
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/31531"
+  ],
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1953
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

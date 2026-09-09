@@ -1,61 +1,81 @@
 {
-  "id": "https://www.ammitto.org/entity/au/1142",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/1142",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Hassan Abdullah Hersi Al-Turki",
+      "@type": "NameVariant",
+      "fullName": "Hassan Abdullah Hersi Al-Turki",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "AL-TURKI, Hassan",
+      "@type": "NameVariant",
+      "fullName": "AL-TURKI, Hassan",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "TURKI, Hassan",
+      "@type": "NameVariant",
+      "fullName": "TURKI, Hassan",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "TURKI, Hassan Abdillahi Hersi",
+      "@type": "NameVariant",
+      "fullName": "TURKI, Hassan Abdillahi Hersi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "TURKI, Sheikh Hassan",
+      "@type": "NameVariant",
+      "fullName": "TURKI, Sheikh Hassan",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "XIRSI, Xasan Cabdilaahi",
+      "@type": "NameVariant",
+      "fullName": "XIRSI, Xasan Cabdilaahi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "XIRSI, Xasan Cabdulle",
+      "@type": "NameVariant",
+      "fullName": "XIRSI, Xasan Cabdulle",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "SOi.003.; Listing: Listed by UN 751 Committee on 12 April 2010",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/1142"
   ],
-  "birth_info": [
+  "remarks": "SOi.003.; Listing: Listed by UN 751 Committee on 12 April 2010",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1944,
       "country": "Ogaden Region"
     }
   ],
   "nationalities": [
     "Somalia"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Somalia",
       "country": "Somalia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

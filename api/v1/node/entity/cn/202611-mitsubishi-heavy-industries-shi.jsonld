@@ -1,21 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/cn/202611-mitsubishi-heavy-industries-shi",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/cn/202611-mitsubishi-heavy-industries-shi",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Mitsubishi Heavy Industries Shipbuilding Co.",
+      "@type": "NameVariant",
+      "fullName": "Mitsubishi Heavy Industries Shipbuilding Co.",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "三菱造船株式会社",
+      "@type": "NameVariant",
+      "fullName": "三菱造船株式会社",
       "script": "Hani",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "List: cn/export-control-list",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/cn/unknown/202611-mitsubishi-heavy-industries-shi"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "remarks": "List: cn/export-control-list",
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

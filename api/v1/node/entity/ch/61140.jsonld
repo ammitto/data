@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/61140",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/61140",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Selin Vladimir Viktorovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Selin Vladimir Viktorovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/61140"
   ],
   "remarks": "Vladimir Selin is the Director of the Federal Service for Technical and Export Control (FSTEK), which is subordinate to the Ministry of Defence of the Russian Federation. The FSTEK is a federal executive body responsible for control and oversight in the field of information security, including in the military sphere, and for implementing export controls. In this role, he is responsible for the control and supervision and development of state policy in the field of export controls and military-technical cooperation, thus making him responsible for the Russian war effort in general.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1955-01-01",
-      "circa": false
+      "circa": false,
+      "year": 1955
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

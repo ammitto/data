@@ -1,22 +1,43 @@
 {
-  "id": "https://www.ammitto.org/entity/cn/8-james-donald-taiclet",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/cn/8-james-donald-taiclet",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "James Donald Taiclet",
+      "@type": "NameVariant",
+      "fullName": "James Donald Taiclet",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "詹姆斯·泰克里特",
+      "@type": "NameVariant",
+      "fullName": "詹姆斯·泰克里特",
       "script": "Hani",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/cn/anti-sanction-list/8-james-donald-taiclet"
+  ],
   "remarks": "List: cn/anti-sanction-list; Title: 洛克希德·马丁公司董事长、总裁、首席执行官; Gender: male",
-  "sanction_entry_ids": [
-    "https://www.ammitto.org/entry/cn/unknown/8-james-donald-taiclet"
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
   ],
   "gender": "male",
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

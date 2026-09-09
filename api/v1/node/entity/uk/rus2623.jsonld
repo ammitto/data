@@ -1,52 +1,73 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus2623",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus2623",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "CONSUL GROUP LTD",
+      "@type": "NameVariant",
+      "fullName": "CONSUL GROUP LTD",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "LIMITED LIABILITY COMPANY CONSUL GROUP",
+      "@type": "NameVariant",
+      "fullName": "LIMITED LIABILITY COMPANY CONSUL GROUP",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "LLC GROUP CONSUL",
+      "@type": "NameVariant",
+      "fullName": "LLC GROUP CONSUL",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "LLC TD GROUP CONSUL",
+      "@type": "NameVariant",
+      "fullName": "LLC TD GROUP CONSUL",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "OOO CONSUL GROUP",
+      "@type": "NameVariant",
+      "fullName": "OOO CONSUL GROUP",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "TH CONSUL GROUP LTD",
+      "@type": "NameVariant",
+      "fullName": "TH CONSUL GROUP LTD",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ \"ГРУППА КОНСУЛ\"",
+      "@type": "NameVariant",
+      "fullName": "ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ \"ГРУППА КОНСУЛ\"",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus2623"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "UL. RESPUBLIKANSKAYA D.3",
       "state": "YAROSLAVL",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

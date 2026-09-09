@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/6172",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/6172",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Chigudu Tinaye Elisha Nzirasha",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Chigudu Tinaye Elisha Nzirasha",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/6172"
   ],
   "remarks": "Former Permanent Secretary of the Ministry of Mines and Mining Development in Zimbabwe and former provincial governor of Manicaland. Associated with the ZANU-PF faction of the government. In June 2008 ordered repression of MDC supporters.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1942-08-13",
-      "circa": false
+      "circa": false,
+      "year": 1942
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

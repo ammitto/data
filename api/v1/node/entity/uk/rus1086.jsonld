@@ -1,34 +1,51 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus1086",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus1086",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "THE PLANAR COMPANY",
+      "@type": "NameVariant",
+      "fullName": "THE PLANAR COMPANY",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Planar LLC",
+      "@type": "NameVariant",
+      "fullName": "Planar LLC",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "ПЛАНАР",
+      "@type": "NameVariant",
+      "fullName": "ПЛАНАР",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus1086"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Likhvintseva Street, 76",
       "city": "Udmurtskaya",
       "state": "Izhevsk",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

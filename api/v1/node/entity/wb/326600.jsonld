@@ -1,23 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/326600",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/wb/326600",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MR. ALEXANDRE ANTONIO PAREJA QUINTANILLA",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "MR. ALEXANDRE ANTONIO PAREJA QUINTANILLA",
+      "isPrimary": true
     }
   ],
-  "remarks": "*339",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/326600"
+  ],
+  "remarks": "*339",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "CALLE PEDEMONTE 110-A",
       "city": "PISCO",
       "country": "Peru",
-      "country_iso_code": "PE"
+      "countryIsoCode": "PE"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

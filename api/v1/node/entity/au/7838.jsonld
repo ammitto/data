@@ -1,30 +1,47 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7838",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7838",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ehsan IMANINEJAD",
+      "@type": "NameVariant",
+      "fullName": "Ehsan IMANINEJAD",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Ehsan IMANIJAD",
+      "@type": "NameVariant",
+      "fullName": "Ehsan IMANIJAD",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Chief Executive Officer of Saad Sazeh Faraz Sharif; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2024",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7838"
   ],
-  "birth_info": [
+  "remarks": "Chief Executive Officer of Saad Sazeh Faraz Sharif; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2024",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1982,
       "country": "Shahrivar"
     }
   ],
   "nationalities": [
     "Iran"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

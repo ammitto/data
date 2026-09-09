@@ -1,42 +1,61 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus2618",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus2618",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "SHANGHAI NEW CHESS CO., LTD.",
+      "@type": "NameVariant",
+      "fullName": "SHANGHAI NEW CHESS CO., LTD.",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Shanghai New Qishi International Logistics Co., Ltd.",
+      "@type": "NameVariant",
+      "fullName": "Shanghai New Qishi International Logistics Co., Ltd.",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Shanghai Newland International Logistics Co., Ltd",
+      "@type": "NameVariant",
+      "fullName": "Shanghai Newland International Logistics Co., Ltd",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Shanghai Niuqishi International Logistics Co., Ltd.",
+      "@type": "NameVariant",
+      "fullName": "Shanghai Niuqishi International Logistics Co., Ltd.",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "上海纽琦诗国际物流有限公司",
+      "@type": "NameVariant",
+      "fullName": "上海纽琦诗国际物流有限公司",
       "script": "Hani",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus2618"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "1-2 Floors, No. 2311, Changjiang West Road, Baoshan District",
       "state": "Shanghai",
       "country": "China"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

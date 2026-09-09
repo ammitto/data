@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/40359",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/40359",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mohammad Maen Zein Jazba Al-Abidin",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Mohammad Maen Zein Jazba Al-Abidin",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/40359"
   ],
   "remarks": "Former Minister of Industry. As a former Government Minister, shares responsibility for the Syrian regime’s violent repression of the civilian population.",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1962
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

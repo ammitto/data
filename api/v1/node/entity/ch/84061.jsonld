@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/84061",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/84061",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "‘Abd al-Rahman Khalaf ‘Ubayd Juday' al-‘Anizi",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "‘Abd al-Rahman Khalaf ‘Ubayd Juday' al-‘Anizi",
+      "isPrimary": true
     }
   ],
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/84061"
+  ],
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1973-03-06",
-      "circa": false
+      "circa": false,
+      "year": 1973
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

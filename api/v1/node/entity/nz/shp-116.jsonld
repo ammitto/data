@@ -1,18 +1,34 @@
 {
-  "id": "https://www.ammitto.org/entity/nz/shp-116",
-  "entity_type": "vessel",
+  "@id": "https://www.ammitto.org/entity/nz/shp-116",
+  "@type": "VesselEntity",
+  "entityType": "vessel",
   "names": [
     {
-      "full_name": "Adonia",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Adonia",
+      "isPrimary": true
     }
   ],
-  "source_references": [
+  "sourceReferences": [
     {
-      "source_code": "nz",
-      "reference_number": "SHP-116"
+      "@type": "SourceReference",
+      "sourceCode": "nz",
+      "referenceNumber": "SHP-116",
+      "retrievedAt": "2026-09-09T16:30:44Z"
     }
   ],
-  "imo_number": "9242223",
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "linkedEntities": [
+
+  ],
+  "imoNumber": "9242223",
+  "previousNames": [
+
+  ],
+  "previousFlags": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/nz/consolidated-list/shp-116"
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

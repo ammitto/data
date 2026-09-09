@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/61037",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/61037",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Matveevsky Mikhail Mikhailovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Matveevsky Mikhail Mikhailovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/61037"
   ],
   "remarks": "Mikhail Matveevsky is a Russian military leader, and former Head of Missile Troops and Artillery of the Ground Forces of the Russian Federation. In the war of aggression against Ukraine, the Russian army frequently used missiles against military and civilian targets. As Head of Missile Troops and Artillery of the Ground Forces of the Russian Federation, he was responsible for the bombardment of Ukraine. Mikhail Matveevsky is therefore responsible for supporting and implementing actions which undermine the territorial integrity, sovereignty and independence of Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1963-01-01",
-      "circa": false
+      "circa": false,
+      "year": 1963
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

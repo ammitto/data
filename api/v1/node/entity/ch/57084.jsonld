@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/57084",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/57084",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Zhidko Gennadiy Valeryevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Zhidko Gennadiy Valeryevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/57084"
   ],
   "remarks": "Key member of the Armed Forces of the Russian Federation. In Jun 2022 he was given operational command of Russia’s war of aggression against Ukraine and he has been in command of Russia’s Southern Grouping of Forces. He has been actively involved in the deployment of troops to Ukraine and oversaw the implementation of an order to deploy Russian minors to the Ukrainian war theatre. He actively supports, justifies and defends Russia’s war of aggression against Ukraine. He is therefore responsible for, supporting and implementing actions and policies undermining and threatening the territorial integrity, sovereignty and independence of Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1965-09-12",
-      "circa": false
+      "circa": false,
+      "year": 1965
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

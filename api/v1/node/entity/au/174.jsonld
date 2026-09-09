@@ -1,37 +1,55 @@
 {
-  "id": "https://www.ammitto.org/entity/au/174",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/174",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "WAFA HUMANITARIAN ORGANIZATION",
+      "@type": "NameVariant",
+      "fullName": "WAFA HUMANITARIAN ORGANIZATION",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Al Wafa",
+      "@type": "NameVariant",
+      "fullName": "Al Wafa",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Al Wafa Organization",
+      "@type": "NameVariant",
+      "fullName": "Al Wafa Organization",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Wafa Al-Igatha Al-Islamia",
+      "@type": "NameVariant",
+      "fullName": "Wafa Al-Igatha Al-Islamia",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "QDe.015. Headquarters was in Kandahar, Afghanistan as at 2001. Wafa was a component of Al-Qaida (QDe.004) in 2001. Review pursuant to Security Council resolution 1822 (2008) was concluded on 21 Jun. 2010. Review pursuant to Security Council resolution 2368 (2017) was concluded on 4 Dec. 2019. Review pursuant to Security Council resolution 2610 (2021) was concluded on 8 November 2022.; Listing: Listed by the 1267 Committee on 6 Oct. 2001 ( amended on 21 Mar. 2012, 6 Dec. 2019, 10 Sep. 2020, 8 Nov. 2022 )",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/174"
+  ],
+  "remarks": "QDe.015. Headquarters was in Kandahar, Afghanistan as at 2001. Wafa was a component of Al-Qaida (QDe.004) in 2001. Review pursuant to Security Council resolution 1822 (2008) was concluded on 21 Jun. 2010. Review pursuant to Security Council resolution 2368 (2017) was concluded on 4 Dec. 2019. Review pursuant to Security Council resolution 2610 (2021) was concluded on 8 November 2022.; Listing: Listed by the 1267 Committee on: 6 Oct. 2001 ( amended on 21 Mar. 2012, 6 Dec. 2019, 10 Sep. 2020, 8 Nov. 2022, 18 Aug. 2026)",
+  "identifications": [
+
   ],
   "addresses": [
     {
-      "street": "a) Jordan House No. 125, Street 54, Phase II Hayatabad, Peshawar, Pakistan (at time of listing) b) Kuwait (at time of listing) c) United Arab Emirates (at time of listing) d) Afghanistan (at time of listing)",
-      "country": "Pakistan (at time of listing) b) Kuwait (at time of listing) c) United Arab Emirates (at time of listing) d) Afghanistan (at time of listing)"
+      "@type": "Address",
+      "street": "a) Kuwait (at time of listing) b) United Arab Emirates (at time of listing) c) Afghanistan (at time of listing)",
+      "country": "a) Kuwait (at time of listing) b) United Arab Emirates (at time of listing) c) Afghanistan (at time of listing)"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

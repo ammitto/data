@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/89187",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/89187",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Brovko Vasily Yuryevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Brovko Vasily Yuryevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/89187"
   ],
   "remarks": "Vasily Brovko is the Director for strategic research and communication at Rostec, the leading Russian state-controlled defence and industrial manufacturing corporation. He is also referred to as Director for Special Projects, effectively making him responsible for the company’s IT and public relations work, including the public relations for Rostec chairman Sergei Chemenzov.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1987-06-02",
-      "circa": false
+      "circa": false,
+      "year": 1987
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

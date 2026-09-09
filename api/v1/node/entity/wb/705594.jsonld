@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/705594",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/705594",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "SOMSAVANH CHALEUN CONSTRUCTION CO., LTD.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "SOMSAVANH CHALEUN CONSTRUCTION CO., LTD.",
+      "isPrimary": true
     }
   ],
-  "remarks": "(Reg No. 16-00009045/4516/(F/1))",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/705594"
+  ],
+  "remarks": "(Reg No. 16-00009045/4516/(F/1))",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "PHONSAVANH VILLAGE, PAKSE DISTRICT",
       "city": "CHAMPASAK PROVINCE",
       "country": "Lao People's Democratic Republic",
-      "country_iso_code": "LA"
+      "countryIsoCode": "LA"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

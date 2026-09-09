@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/516796",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/516796",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "MASHAD INTEGRATED AND INVESTMENT CO. LIMITED",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "MASHAD INTEGRATED AND INVESTMENT CO. LIMITED",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/516796"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "NO.1 SANGAR AVENUE, NTR QUARTERS",
       "city": "KADUNA, KADUNA STATE",
       "country": "Nigeria",
-      "country_iso_code": "NG"
+      "countryIsoCode": "NG"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

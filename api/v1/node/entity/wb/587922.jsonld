@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/587922",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/587922",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "CROSSWORDS LTD.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "CROSSWORDS LTD.",
+      "isPrimary": true
     }
   ],
-  "remarks": "(Reg. No.: 684)*584",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/587922"
+  ],
+  "remarks": "(Reg. No.: 684)*584",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "UN DRIVE AND RANDALL STREET JUNCTION, OPPOSITE STELLA MARIS POLYTECHNIC, 1ST FLOOR A, TC BUILDING",
       "city": "MONROVIA 1000",
       "country": "Liberia",
-      "country_iso_code": "LR"
+      "countryIsoCode": "LR"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

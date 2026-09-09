@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/86633",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/86633",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mohammad Ali Al Habbo",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Mohammad Ali Al Habbo",
+      "isPrimary": true
     }
   ],
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/86633"
+  ],
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1983-10-01",
-      "circa": false
+      "circa": false,
+      "year": 1983
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

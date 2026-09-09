@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/88471",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/88471",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Novikov Yan Valentinovych",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Novikov Yan Valentinovych",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/88471"
   ],
   "remarks": "Yan Novikov is General Director of JSC Almaz-Antey air and space defence corporation (“Almaz-Antey”). Almaz-Antey is a key company within the Russian military-industrial complex. Companies within the Almaz-Antey holding structure produce various types of defence hardware and equipment in use by the Russian Armed Forces in their war of aggression against Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1959-10-03",
-      "circa": false
+      "circa": false,
+      "year": 1959
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

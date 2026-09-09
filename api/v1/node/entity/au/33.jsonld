@@ -1,35 +1,53 @@
 {
-  "id": "https://www.ammitto.org/entity/au/33",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/33",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Abdul Rahman Zahed",
+      "@type": "NameVariant",
+      "fullName": "Abdul Rahman Zahed",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Abdul Rehman Zahid",
+      "@type": "NameVariant",
+      "fullName": "Abdul Rehman Zahid",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "عبدالرحمان زاهد",
+      "@type": "NameVariant",
+      "fullName": "عبدالرحمان زاهد",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "TAi.033 Title: Mullah. Designation: Deputy Minister of Foreign Affairs under the Taliban regime. Believed to be in Afghanistan/Pakistan border area.  Review pursuant to Security Council resolution 1822 (2008) was concluded on 21 Jul. 2010.; Listing: Listed on 25 January 2001 (amended on 18 Jul 2007, 21 Sep 2007, 29 Nov. 2011)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/33"
   ],
-  "birth_info": [
+  "remarks": "TAi.033 Title: Mullah. Designation: Deputy Minister of Foreign Affairs under the Taliban regime. Believed to be in Afghanistan/Pakistan border area.  Review pursuant to Security Council resolution 1822 (2008) was concluded on 21 Jul. 2010.; Listing: Listed on 25 January 2001 (amended on 18 Jul 2007, 21 Sep 2007, 29 Nov. 2011)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1963,
       "country": "Kharwar District"
     }
   ],
   "nationalities": [
     "Afghanistan"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

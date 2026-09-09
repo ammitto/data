@@ -1,44 +1,64 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7934",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7934",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Dmitry Ivanovich MAKORIN",
+      "@type": "NameVariant",
+      "fullName": "Dmitry Ivanovich MAKORIN",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Dmitrij Ivanovic MAKORIN",
+      "@type": "NameVariant",
+      "fullName": "Dmitrij Ivanovic MAKORIN",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Dmitrij Ivanovič MAKORIN",
+      "@type": "NameVariant",
+      "fullName": "Dmitrij Ivanovič MAKORIN",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Dmitrij Ivanovitj MAKORIN",
+      "@type": "NameVariant",
+      "fullName": "Dmitrij Ivanovitj MAKORIN",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Dmitrij MAKORIN",
+      "@type": "NameVariant",
+      "fullName": "Dmitrij MAKORIN",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Deputy Head of IK-6 penal colony in Vladimir region; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Thematic Sanctions) Amendment (No. 2) Instrument 2024",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7934"
   ],
-  "birth_info": [
+  "remarks": "Deputy Head of IK-6 penal colony in Vladimir region; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Thematic Sanctions) Amendment (No. 2) Instrument 2024",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1984
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

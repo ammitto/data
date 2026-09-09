@@ -1,21 +1,36 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/113331",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/113331",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "PENMACS CORPORATION",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "PENMACS CORPORATION",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/113331"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "city": "YOKOHAMA",
       "country": "Japan",
-      "country_iso_code": "JP"
+      "countryIsoCode": "JP"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

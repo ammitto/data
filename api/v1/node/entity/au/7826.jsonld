@@ -1,40 +1,56 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7826",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7826",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mostafa Mohammad Khani",
+      "@type": "NameVariant",
+      "fullName": "Mostafa Mohammad Khani",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Mostafa Majid Khani",
+      "@type": "NameVariant",
+      "fullName": "Mostafa Majid Khani",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Haj Majid",
+      "@type": "NameVariant",
+      "fullName": "Haj Majid",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Passport J48713107 (Iran) expires 10 Jun 2024; alt. Passport D100009693 (Iran) expires 12 Apr 2027.; Listing: Charter of the United Nations (Listed Entities) Amendment (No. 1) Instrument 2024",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7826"
   ],
-  "birth_info": [
+  "remarks": "Passport J48713107 (Iran) expires 10 Jun 2024; alt. Passport D100009693 (Iran) expires 12 Apr 2027.; Listing: Charter of the United Nations (Listed Entities) Amendment (No. 1) Instrument 2024",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1961
     }
   ],
   "nationalities": [
     "Iran"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Iran or Lebanon",
       "country": "Iran or Lebanon"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

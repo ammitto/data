@@ -1,16 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/82239",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/82239",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Abd-Al-Majid Aziz Al-Zindani Sheikh",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Abd-Al-Majid Aziz Al-Zindani Sheikh",
+      "isPrimary": true
     }
   ],
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/82239"
+  ],
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1950
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

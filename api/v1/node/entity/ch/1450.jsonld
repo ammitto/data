@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/1450",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/1450",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Muhammad Zimam Abd-al-Razzaq Al-Sa’dun",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Muhammad Zimam Abd-al-Razzaq Al-Sa’dun",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/1450"
   ],
   "remarks": "Ba’th Party Regional Command Chairman, At-Tamin; Minister Of Interior, 1995–2001",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1942
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/841651",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/841651",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "“AGIDEL-AS” LLP",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "“AGIDEL-AS” LLP",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/841651"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "MICRODISTRICT NO. 2, 10, ULKEN VILLAGE,",
       "city": "ZHAMBYL REGION, ALMATY OBLAST, 040628",
       "country": "Kazakhstan",
-      "country_iso_code": "KZ"
+      "countryIsoCode": "KZ"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

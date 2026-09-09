@@ -1,35 +1,53 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7374",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7374",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Nikolai Grigorievich SHULGINOV",
+      "@type": "NameVariant",
+      "fullName": "Nikolai Grigorievich SHULGINOV",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Nikolay Grigor'yevich SHULGINOV",
+      "@type": "NameVariant",
+      "fullName": "Nikolay Grigor'yevich SHULGINOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Nikolay SHULGINOV",
+      "@type": "NameVariant",
+      "fullName": "Nikolay SHULGINOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Minister of Energy of the Russian Federation; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 2) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7374"
   ],
-  "birth_info": [
+  "remarks": "Minister of Energy of the Russian Federation; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 2) Instrument 2023",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1951,
       "country": "Sablinskoye"
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

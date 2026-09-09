@@ -1,23 +1,42 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/dpr0262",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/dpr0262",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "HONG-SOP",
-      "first_name": "RI",
+      "@type": "NameVariant",
+      "fullName": "HONG-SOP",
+      "firstName": "RI",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Former director, Yongbyon Nuclear Research Center, oversaw three core facilities that assist in the production of weapons-grade plutonium: the Fuel Fabrication Facility, the Nuclear Reactor, and the Reprocessing Plant.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/dpr0262"
+  ],
+  "remarks": "Former director, Yongbyon Nuclear Research Center, oversaw three core facilities that assist in the production of weapons-grade plutonium: the Fuel Fabrication Facility, the Nuclear Reactor, and the Reprocessing Plant.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "state": "Pyongyang",
       "country": "DPRK"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

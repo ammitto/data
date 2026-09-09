@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/27531",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/27531",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Belaventsev Oleg Yevgenyvich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Belaventsev Oleg Yevgenyvich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/27531"
   ],
   "remarks": "Former Plenipotentiary Representative of the President of the Russian Federation into the so-called \"Crimean Federal District\", responsible for the implementation of the constitutional prerogatives of the Russian Head of State on the territory of the annexed \"Autonomous Republic of Crimea\". Former non-permanent member of the Russian Security Council.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1949-09-15",
-      "circa": false
+      "circa": false,
+      "year": 1949
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

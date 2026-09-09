@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/4548",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/4548",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Karpenka Ihar Vasilievich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Karpenka Ihar Vasilievich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/4548"
   ],
   "remarks": "First Secretary of the pro-regime Communist Party. Former Head of Regional Election Commission of Minsk City, former Member of the Lower Chamber of the Parliament, currently Deputy Mayor of Minsk. As Chairman of a Regional Electoral Commission for the Presidential election, he was directly responsible for the violations of international electoral standards in the Presidential elections, in particular in 2006 and 2010 in Minsk City. As Deputy Mayor of Minsk he has, control over the organization of rallies, demonstrations, marches and the organization and ideological outreach for referendums and elections.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1964-04-28",
-      "circa": false
+      "circa": false,
+      "year": 1964
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

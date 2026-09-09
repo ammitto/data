@@ -1,44 +1,63 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/dpr0148",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/dpr0148",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "KOREA DAESONG GENERAL TRADING CORPORATION",
+      "@type": "NameVariant",
+      "fullName": "KOREA DAESONG GENERAL TRADING CORPORATION",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Daesong Trading",
+      "@type": "NameVariant",
+      "fullName": "Daesong Trading",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Daesong Trading Company",
+      "@type": "NameVariant",
+      "fullName": "Daesong Trading Company",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Korea Daesong Trading Company",
+      "@type": "NameVariant",
+      "fullName": "Korea Daesong Trading Company",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Korea Daesong Trading Corporation",
+      "@type": "NameVariant",
+      "fullName": "Korea Daesong Trading Corporation",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Korea Daesong General Trading Corporation is affiliated with Office 39 through minerals (gold) exports, metals, machinery, agricultural products, ginseng, jewelry, and light industry products. Telephone: +850-2-18111-8208. Fax: +850-2-381-4432. Email: daesong@star-co.net.kp.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/dpr0148"
+  ],
+  "remarks": "Korea Daesong General Trading Corporation is affiliated with Office 39 through minerals (gold) exports, metals, machinery, agricultural products, ginseng, jewelry, and light industry products. Telephone: +850-2-18111-8208. Fax: +850-2-381-4432. Email: daesong@star-co.net.kp.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Pulgan Gori Dong 1",
       "city": "Potonggang District",
       "state": "Pyongyang City",
       "country": "North Korea"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

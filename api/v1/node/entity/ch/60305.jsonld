@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/60305",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/60305",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Trofimov Andriy Yuriovych",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Trofimov Andriy Yuriovych",
+      "isPrimary": true
     }
   ],
-  "remarks": "Andriy Trofimov was appointed by the Russian government, as the deputy head of the Russian-controlled military-civilian administration in the Zaporizhzhia region. In addition, he is the Head of the Crimean Union of Journalists. In those positions, Andriy Trofimov helps ensure the implementation of the policies of the Russian government in the occupied territories. Therefore, he is responsible for supporting and implementing actions and policies which undermine and threaten the territorial integrity, sovereignty and independence of Ukraine.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/60305"
+  ],
+  "remarks": "Andriy Trofimov was appointed by the Russian government, as the deputy head of the Russian-controlled military-civilian administration in the Zaporizhzhia region. In addition, he is the founder of the Crimean Union of Journalists. In those positions, Andriy Trofimov helps ensure the implementation of the policies of the Russian government in the occupied territories. Therefore, Andriy Trofimov is responsible for, supporting and implementing actions and policies which undermine and threaten the territorial integrity, sovereignty and independence of Ukraine.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1972-08-14",
-      "circa": false
+      "circa": false,
+      "year": 1972
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

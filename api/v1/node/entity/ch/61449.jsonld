@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/61449",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/61449",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kleimenov Kirill Alekseevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kleimenov Kirill Alekseevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/61449"
   ],
   "remarks": "Kirill Kleimenov is a Deputy Director General, Director of the Information Programmes Directorate and a Member of the Board of Directors of Pervyi Kanal (Channel One), a major Russian TV channel which is under permanent direct control of the Russian Federation. Pervyi Kanal amplifies and supports the policies of the Russian authorities through its propaganda activities. During the war of aggression against Ukraine, Pervyi Kanal has been among the most active and prominent instruments in spreading the Kremlin narrative supporting the war with aggressive commentaries and undermining Ukraine’s territorial integrity, supporting the illegal annexation of Crimea, and Russia’s war of aggression against Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1972-09-20",
-      "circa": false
+      "circa": false,
+      "year": 1972
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

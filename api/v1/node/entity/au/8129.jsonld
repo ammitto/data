@@ -1,32 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8129",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/8129",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Volga-Dnepr Group",
+      "@type": "NameVariant",
+      "fullName": "Volga-Dnepr Group",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Volga-Dnepr-Moscow Limited Liability Company",
+      "@type": "NameVariant",
+      "fullName": "Volga-Dnepr-Moscow Limited Liability Company",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Volga-Dnepr-Moskva",
+      "@type": "NameVariant",
+      "fullName": "Volga-Dnepr-Moskva",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "https://www.volga-dnepr.com/en; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8129"
+  ],
+  "remarks": "https://www.volga-dnepr.com/en; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Shosse Mezhdunarodnoe, 28B, 3, Moscow 141411 Russia",
       "country": "Moscow 141411 Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

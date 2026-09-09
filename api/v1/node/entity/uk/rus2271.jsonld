@@ -1,38 +1,56 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus2271",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus2271",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "KAZSTANEX LIMITED LIABILITY PARTNERSHIP",
+      "@type": "NameVariant",
+      "fullName": "KAZSTANEX LIMITED LIABILITY PARTNERSHIP",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "KAZSTANEX LLP",
+      "@type": "NameVariant",
+      "fullName": "KAZSTANEX LLP",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "TOO KAZSTANEX",
+      "@type": "NameVariant",
+      "fullName": "TOO KAZSTANEX",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "TOO КАЗСТАНЭКС",
+      "@type": "NameVariant",
+      "fullName": "TOO КАЗСТАНЭКС",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus2271"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "166 Makhambet Otemisuly, Shanyrak-1 Microdistrict, ALATAU DISTRICT",
       "state": "ALMATY CITY",
       "country": "Kazakhstan"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

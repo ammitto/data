@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/53482",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/53482",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kumanova Svetlana Anatolievna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kumanova Svetlana Anatolievna",
+      "isPrimary": true
     }
   ],
-  "remarks": "Former member of the so-called “People’s Council” of the so-called “Donetsk People’s Republic”. Has therefore supported and implemented actions and policies which undermine the territorial integrity, sovereignty and independence of Ukraine, and further destabilised Ukraine.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/53482"
+  ],
+  "remarks": "Former member of the so-called “People’s Council” of the so-called “Donetsk People’s Republic”. Currently, the chairperson of the so-called “Regional Trade Union Organization of Employees in Youth Policy, Sports, Tourism, Information and Innovation Technologies of the Donetsk People’s Republic”. In current and previous capacity Svetlana Kumanova has supported and implemented actions and policies which undermine the territorial integrity, sovereignty and independence of Ukraine, and further destabilised Ukraine.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1966-11-01",
-      "circa": false
+      "circa": false,
+      "year": 1966
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

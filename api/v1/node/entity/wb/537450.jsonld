@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/537450",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/537450",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "HIKMA CONSTRUCTION AND GENERAL TRADING COMPANY",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "HIKMA CONSTRUCTION AND GENERAL TRADING COMPANY",
+      "isPrimary": true
     }
   ],
-  "remarks": "*573",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/537450"
+  ],
+  "remarks": "*573",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "AFAR-IRDOD STREET",
       "city": "BAIDOA, BAY REGION",
       "country": "Somalia, Federal Republic of",
-      "country_iso_code": "SO"
+      "countryIsoCode": "SO"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

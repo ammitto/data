@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/59425",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/59425",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Petrovskiy Yan Igorovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Petrovskiy Yan Igorovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/59425"
   ],
   "remarks": "Yan Petrovskiy is the leader and commander of the Russian paramilitary group “Task Force ‘Rusich’”, which maintains links to Russian private military company Wagner Group, possibly operating as a sub-unit of Wagner. Task Force “Rusich” is participating in combat alongside Russia’s military in the war of aggression against Ukraine. “Rusich” has a long history of fighting alongside Russia-backed proxies in the Donbas region of Ukraine. In 2015, “Rusich” mercenaries were accused of, and were filmed, committing atrocities against deceased and captured Ukrainian soldiers.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1987-01-02",
-      "circa": false
+      "circa": false,
+      "year": 1987
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

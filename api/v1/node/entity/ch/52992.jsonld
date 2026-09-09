@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/52992",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/52992",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Petaykin Alexander Nikolaevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Petaykin Alexander Nikolaevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/52992"
   ],
   "remarks": "Alexander Nikolaevich Petaykin is the owner and general director of road construction firms “OOO Vector” and “Trans Stroy”, involved in the implementation of public projects for Orenburg and Bashkortostan regional governments.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1987-05-24",
-      "circa": false
+      "circa": false,
+      "year": 1987
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

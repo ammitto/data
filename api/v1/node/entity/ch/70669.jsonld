@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/70669",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/70669",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Tsivileva Anna Evgenievna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Tsivileva Anna Evgenievna",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/70669"
   ],
   "remarks": "Anna Tsivileva is the Deputy Minister of Defence of the Russian Federation and the Chair of the Foundation “Defenders of the Fatherland”. She is the wife of Sergey Evgenievich Tsivilev, who is Governor of the Kemerovo Oblast. She is also a relative of President of the Russian Federation Vladimir Putin.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1972-05-09",
-      "circa": false
+      "circa": false,
+      "year": 1972
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

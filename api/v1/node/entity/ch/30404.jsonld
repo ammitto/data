@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/30404",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/30404",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Tolstykh Mikhail Sergeevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Tolstykh Mikhail Sergeevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/30404"
   ],
   "remarks": "Commander of the \"Somali\" battalion, an armed separatist group involved in the fighting in eastern Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1980-07-19",
-      "circa": false
+      "circa": false,
+      "year": 1980
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

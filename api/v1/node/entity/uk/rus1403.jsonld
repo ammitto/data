@@ -1,53 +1,74 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus1403",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus1403",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "T-Platforms",
+      "@type": "NameVariant",
+      "fullName": "T-Platforms",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "AO T-PLATFORMS",
+      "@type": "NameVariant",
+      "fullName": "AO T-PLATFORMS",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Joint Stock Company T-Platforms ",
+      "@type": "NameVariant",
+      "fullName": "Joint Stock Company T-Platforms ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "JSC T-Platforms",
+      "@type": "NameVariant",
+      "fullName": "JSC T-Platforms",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Т-ПЛАТФОРМЫ",
+      "@type": "NameVariant",
+      "fullName": "Т-ПЛАТФОРМЫ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "АКЦИОНЕРНОЕ ОБЩЕСТВО Т-ПЛАТФОРМЫ ",
+      "@type": "NameVariant",
+      "fullName": "АКЦИОНЕРНОЕ ОБЩЕСТВО Т-ПЛАТФОРМЫ ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "АО Т-ПЛАТФОРМЫ ",
+      "@type": "NameVariant",
+      "fullName": "АО Т-ПЛАТФОРМЫ ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Trade License No. 5087746658984 The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus1403"
+  ],
+  "remarks": "Trade License No. 5087746658984 The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Ul. Krupskoi D.4, Korp.2",
       "state": "Moscow",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

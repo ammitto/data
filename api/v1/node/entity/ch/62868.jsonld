@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/62868",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/62868",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Vostrotin Valeriy Alexandrovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Vostrotin Valeriy Alexandrovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/62868"
   ],
   "remarks": "Valeriy Vostrotin is a member and secretary of the working group established by President Putin in Dec 2022 that is tasked with coordinating the mobilization efforts of the Russian Federation to support its war of aggression against Ukraine. Beyond his role in the working group he is the leader of the Union of Paratroopers of Russia and is a co-founder of the All-Russia “Young Army” Military Patriotic Social Movement (Yunarmiya).",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1952-11-20",
-      "circa": false
+      "circa": false,
+      "year": 1952
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

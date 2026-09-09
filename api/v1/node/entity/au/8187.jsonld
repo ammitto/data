@@ -1,34 +1,52 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8187",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/8187",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Anton Andreevich ZLATOPOLSKIY",
+      "@type": "NameVariant",
+      "fullName": "Anton Andreevich ZLATOPOLSKIY",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Anton Andreevich ZLATOPOLSKII",
+      "@type": "NameVariant",
+      "fullName": "Anton Andreevich ZLATOPOLSKII",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Anton Andriyovych ZLATOPOLSKIY",
+      "@type": "NameVariant",
+      "fullName": "Anton Andriyovych ZLATOPOLSKIY",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 3) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8187"
   ],
-  "birth_info": [
+  "remarks": "Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 3) Instrument 2025",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1966
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

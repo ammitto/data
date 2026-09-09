@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/78430",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/78430",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Gogerdchian Mehdi",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Gogerdchian Mehdi",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/78430"
   ],
   "remarks": "Mehdi Gogerdchian is the managing director of EU-listed Iran Aircraft Manufacturing Industries (HESA). The company is controlled by the EU-listed Iran Aviation Industries Organization (IAIO), a subsidiary of the EU-listed Iranian Ministry of Defence and Armed Forces Logistics (MODAFL), which is responsible for planning and managing Iran’s military aviation industry.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1975-08-14",
-      "circa": false
+      "circa": false,
+      "year": 1975
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/69208",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/69208",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Markina Lyudmila Leonidovna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Markina Lyudmila Leonidovna",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/69208"
   ],
   "remarks": "Lyudmila Markina has served as a member of the Central Election Committee of the Russian Federation (CEC) since 2021. During her tenure, the CEC has been responsible for organising illegal referenda in 2022, as well as illegal elections in September 2023, in occupied parts of Ukraine, thus attempting to legitimise the Russian war of aggression of\nthose parts. In this role, Lyudmila Markina is supporting and implementing actions and policies which undermine and threaten the territorial integrity, sovereignty and independence of Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1979-04-15",
-      "circa": false
+      "circa": false,
+      "year": 1979
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

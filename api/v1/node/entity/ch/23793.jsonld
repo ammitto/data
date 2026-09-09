@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/23793",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/23793",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Runiga Jean-Marie Lugerero",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Runiga Jean-Marie Lugerero",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/23793"
   ],
   "remarks": "A July 9, 2012 document signed by M23 leader Sultani Makenga named Runiga as the coordinator of the political wing of M23. According to the document, Runiga's appointment was prompted by the need to ensure the visibility of the M23 cause.",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1960
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

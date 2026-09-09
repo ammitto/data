@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/86734",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/86734",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "No Kwang Chol",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "No Kwang Chol",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/86734"
   ],
   "remarks": "No Kwang Chol is Minister of Defence of the Democratic People’s Republic of Korea (DPRK). In his position, he is directly involved in the military cooperation between DPRK and the Russian Federation, including the deployment of DPRK soldiers to the Russian Federation in support of Russia’s war of aggression against Ukraine. Therefore, No Kwang Chol is supporting actions which undermine and threaten the territorial integrity, sovereignty and independence of Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1956
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

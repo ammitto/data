@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/98401",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/98401",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Golovin Vladislav Nikolaevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Golovin Vladislav Nikolaevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/98401"
   ],
   "remarks": "Vladislav Golovin is the Chief of General Staff of the All-Russia “Young Army” Military Patriotic Social Movement (Yunarmiya). He takes an active part in the militarisation of Ukrainian children in the illegally occupied territories of Ukraine. He also spreads pro-Russian sentiments as well as anti-Ukrainian narratives, and encourages children to join Yunarmiya. He actively participated in Russia’s war of aggression against Ukraine, including by leading Russian forces during their capture of the city of Mariupol.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1997-05-20",
-      "circa": false
+      "circa": false,
+      "year": 1997
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

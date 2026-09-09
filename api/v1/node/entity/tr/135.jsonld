@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/tr/135",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/tr/135",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "GENEL KEŞİF BÜROSU (RECONNAISSENCE GENERAL BUREAU)",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "GENEL KEŞİF BÜROSU (RECONNAISSENCE GENERAL BUREAU)",
+      "isPrimary": true
     }
   ],
-  "source_references": [
+  "sourceReferences": [
     {
-      "source_code": "tr",
-      "reference_number": "135"
+      "@type": "SourceReference",
+      "sourceCode": "tr",
+      "referenceNumber": "135",
+      "retrievedAt": "2026-09-09T16:30:41Z"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "linkedEntities": [
+
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/tr/consolidated-list/135"
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

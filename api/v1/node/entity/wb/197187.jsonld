@@ -1,23 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/197187",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/wb/197187",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MR. MARCELO CAMPÊLO",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "MR. MARCELO CAMPÊLO",
+      "isPrimary": true
     }
   ],
-  "remarks": "*126",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/197187"
+  ],
+  "remarks": "*126",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "AVENIDA GUAJAJARAS, NO. 25 – JD. SÃO CRISTOVÃO",
       "city": "SÃO LUIS – MARANHÃO",
       "country": "Brazil",
-      "country_iso_code": "BR"
+      "countryIsoCode": "BR"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

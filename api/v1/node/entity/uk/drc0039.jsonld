@@ -1,34 +1,55 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/drc0039",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/drc0039",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MPAMO",
-      "first_name": "IRUTA",
+      "@type": "NameVariant",
+      "fullName": "MPAMO",
+      "firstName": "IRUTA",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Mpamo",
-      "first_name": "Douglas",
+      "@type": "NameVariant",
+      "fullName": "Mpamo",
+      "firstName": "Douglas",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Mpano",
+      "@type": "NameVariant",
+      "fullName": "Mpano",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "No known occupation since two of the planes managed by Great Lakes Business Company (GLBC) crashed. INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/notice/search/un/5272813",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/drc0039"
+  ],
+  "remarks": "No known occupation since two of the planes managed by Great Lakes Business Company (GLBC) crashed. INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/notice/search/un/5272813",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "state": "Gisenyi",
       "country": "Rwanda"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,29 +1,51 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/dpr0275",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/dpr0275",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "YUNG YUAN",
-      "first_name": "TSANG",
+      "@type": "NameVariant",
+      "fullName": "YUNG YUAN",
+      "firstName": "TSANG",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Tsang",
-      "first_name": "Neil",
+      "@type": "NameVariant",
+      "fullName": "Tsang",
+      "firstName": "Neil",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Yuan Tsang",
-      "first_name": "Yun",
+      "@type": "NameVariant",
+      "fullName": "Yuan Tsang",
+      "firstName": "Yun",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Tsang Yung Yuan has coordinated DPRK coal exports with a DPRK broker operating in a third country, and he has a history of other sanctions evasion activities.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/dpr0275"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "remarks": "Tsang Yung Yuan has coordinated DPRK coal exports with a DPRK broker operating in a third country, and he has a history of other sanctions evasion activities.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

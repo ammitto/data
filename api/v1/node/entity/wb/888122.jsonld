@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/888122",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/888122",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "BEIJING TIANJIA CONSTRUCTION ENGINEERING CO., LTD.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "BEIJING TIANJIA CONSTRUCTION ENGINEERING CO., LTD.",
+      "isPrimary": true
     }
   ],
-  "remarks": "北京天嘉建筑工程有限公司",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/888122"
+  ],
+  "remarks": "北京天嘉建筑工程有限公司",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "ROOM 206, 2ND FLOOR, BUILDING 3, NO.2 JINGYUAN NORTH STREET, ECONOMIC AND TECHNOLOGICAL DEVELOPMENT ZONE",
       "city": "BEIJING",
       "country": "China",
-      "country_iso_code": "CN"
+      "countryIsoCode": "CN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

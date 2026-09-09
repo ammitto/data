@@ -1,43 +1,60 @@
 {
-  "id": "https://www.ammitto.org/entry/uk/consolidated-list/dpr0014",
-  "entity_id": "https://www.ammitto.org/entity/uk/dpr0014",
+  "@id": "https://www.ammitto.org/entry/uk/consolidated-list/dpr0014",
+  "@type": "SanctionEntry",
+  "entityId": "https://www.ammitto.org/entity/uk/dpr0014",
   "authority": {
     "@id": "https://www.ammitto.org/authority/uk"
   },
   "regime": {
-    "@id": "https://www.ammitto.org/regime/the_democratic_people_s_republic_of_korea_sanctions_eu_exit_regulations_2019"
+    "@id": "https://www.ammitto.org/regime/the_democratic_people_s_republic_of_korea_sanctions_eu_exit_regu",
+    "name": "The Democratic People's Republic of Korea (Sanctions) (EU Exit) Regulations 2019"
   },
+  "legalBases": [
+
+  ],
   "effects": [
     {
-      "effect_type": "asset_freeze",
+      "@type": "SanctionEffect",
+      "effectType": "asset_freeze",
       "scope": "full"
     },
     {
-      "effect_type": "travel_ban",
+      "@type": "SanctionEffect",
+      "effectType": "travel_ban",
       "scope": "full"
     },
     {
-      "effect_type": "debarment",
+      "@type": "SanctionEffect",
+      "effectType": "debarment",
       "scope": "full"
     }
   ],
+  "reasons": [
+
+  ],
   "period": {
-    "listed_date": "2020-12-31",
-    "effective_date": "2020-12-31",
-    "is_indefinite": true,
-    "last_updated": "2025-04-09"
+    "@type": "TemporalPeriod",
+    "listedDate": "2020-12-31",
+    "effectiveDate": "2020-12-31",
+    "isIndefinite": true,
+    "lastUpdated": "2025-04-09"
   },
   "status": "active",
-  "reference_number": "DPR0014",
+  "statusHistory": [
+
+  ],
+  "referenceNumber": "DPR0014",
   "remarks": "\nIn February of 2010 KIM Tong-Un was discharged from his office as director of Office 39, which is, among other things, in charge of purchasing goods out of the DPRK diplomatic representations bypassing sanctions. He was replaced by JON IL-CHUN. Representative of the National Defence Commission which was a key body for national defence matters in the DPRK before it was reformed into the State Affairs Commission (SAC), has been elected director-general of the State Development Bank in March 2010. Elected Workers’ Party of Korea Central Committee alternate member in May 2016 at the 7th Party Congress of Workers’ Party of Korea, where WPK adopted a decision to continue the DPRK’s nuclear programme.",
-  "raw_source_data": {
-    "source_format": "xml",
-    "source_specific_fields": {
+  "rawSourceData": {
+    "@type": "RawSourceData",
+    "sourceFormat": "xml",
+    "sourceSpecificFields": {
       "uk:ofsiGroupId": "11281",
+      "uk:unReferenceNumber": null,
       "uk:designationSource": "UK",
       "uk:sanctionsImposed": "Asset freeze|Travel Ban|Director Disqualification Sanction",
       "uk:entityType": "Individual"
     }
   },
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

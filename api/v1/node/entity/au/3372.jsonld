@@ -1,46 +1,71 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3372",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/3372",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Yuri Viktorovich SIVOKONENKO",
+      "@type": "NameVariant",
+      "fullName": "Yuri Viktorovich SIVOKONENKO",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Yuriy Viktorovich SIVOKONENKO",
+      "@type": "NameVariant",
+      "fullName": "Yuriy Viktorovich SIVOKONENKO",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Yuriy SIVOKONENKO",
+      "@type": "NameVariant",
+      "fullName": "Yuriy SIVOKONENKO",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Yury SIVOKONENKO",
+      "@type": "NameVariant",
+      "fullName": "Yury SIVOKONENKO",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Yuriy Viktorovych SIVOKONENKO",
+      "@type": "NameVariant",
+      "fullName": "Yuriy Viktorovych SIVOKONENKO",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Listing: Listed on 1 Sep. 2017 (relisted on 28 Aug. 2020) (relisted on 27 Aug 2023)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3372"
   ],
-  "birth_info": [
+  "remarks": "Listing: Listed on 1 Sep. 2017 (relisted on 28 Aug. 2020) (relisted on 27 Aug 2023)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1957,
       "country": "Stalino city (now Donetsk)"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1957,
       "country": "Ukraine"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

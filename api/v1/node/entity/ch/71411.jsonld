@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/71411",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/71411",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Al-Duwaik Aiman Ahmad",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Al-Duwaik Aiman Ahmad",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/71411"
   ],
   "remarks": "Aiman Ahmad Al-Duwaik is an Algeria-based financier for Hamas who helps run the organisation’s overseas investment portfolio. In particular, he is the CEO and a shareholder of the Algerian company Sidar, the CEO of Turkish company Anda Turk, a shareholder of the Sudan-based company Al Rowad Real Estate Development, and a member of the board of directors of construction company Uzmanlar Co. These companies are part of Hamas’ international financing network. Thus, Aiman Ahmad Al-Duwaik participates in the financing of Hamas.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1962-09-24",
-      "circa": false
+      "circa": false,
+      "year": 1962
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

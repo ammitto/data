@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/325184",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/325184",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "PSI PROYECTOS Y SERVICIOS DE INFRAESTRUCTURA",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "PSI PROYECTOS Y SERVICIOS DE INFRAESTRUCTURA",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/325184"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "5A CALLE 2A AVENIDA 4-36; ZONA 10",
       "city": "QUETZALTENANGO",
       "country": "Guatemala",
-      "country_iso_code": "GT"
+      "countryIsoCode": "GT"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

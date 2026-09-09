@@ -1,32 +1,50 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/inu0402",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/inu0402",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Nuclear Research Center for Agriculture and Medicine",
+      "@type": "NameVariant",
+      "fullName": "Nuclear Research Center for Agriculture and Medicine",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Center for Agricultural Research and Nuclear Medicine",
+      "@type": "NameVariant",
+      "fullName": "Center for Agricultural Research and Nuclear Medicine",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Karaji Agricultural and Medical Research Center",
+      "@type": "NameVariant",
+      "fullName": "Karaji Agricultural and Medical Research Center",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Large research component of the Atomic Energy Organization of Iran (AEOI), which was designated in resolution 1737 (2006). The NFRPC is AEOI’s center for the development of nuclear fuel and is involved in enrichment-related activities.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/inu0402"
+  ],
+  "remarks": "Large research component of the Atomic Energy Organization of Iran (AEOI), which was designated in resolution 1737 (2006). The NFRPC is AEOI’s center for the development of nuclear fuel and is involved in enrichment-related activities.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "state": "Karaj",
       "country": "Iran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

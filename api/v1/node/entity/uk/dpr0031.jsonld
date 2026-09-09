@@ -1,28 +1,51 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/dpr0031",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/dpr0031",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ri",
-      "first_name": "Sin",
+      "@type": "NameVariant",
+      "fullName": "Ri",
+      "firstName": "Sin",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Associations with Pan Systems, Reconnaissance General Bureau, Glocom, International Servides Sdn Bhd, and International Global Systems Sdn Bhd The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/dpr0031"
+  ],
+  "remarks": "Associations with Pan Systems, Reconnaissance General Bureau, Glocom, International Servides Sdn Bhd, and International Global Systems Sdn Bhd The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "country": "Malaysia"
     },
     {
+      "@type": "Address",
+      "street": "",
       "country": "North Korea"
     },
     {
+      "@type": "Address",
+      "street": "",
       "country": "Singapore"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/874790",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/874790",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "PT EWACO BUMI MAMIRI",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "PT EWACO BUMI MAMIRI",
+      "isPrimary": true
     }
   ],
-  "remarks": "*668 Physical Address: Jln. Raya Kedungmundu C28, Semarang, Provinsi Jawa Tengah, Indonesia",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/874790"
+  ],
+  "remarks": "*668 Physical Address: Jln. Raya Kedungmundu C28, Semarang, Provinsi Jawa Tengah, Indonesia",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "JL. RAYA KEDUNGMUNDU RT 002 RW 001 KEL. SAMBIROTO, KEC. TEMBALANG, SEMARANG",
       "city": "PROVINSI JAWA TENGAH",
       "country": "Indonesia",
-      "country_iso_code": "ID"
+      "countryIsoCode": "ID"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

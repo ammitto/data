@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/au/6938",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/6938",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Novorossiysk Commercial Sea Port",
+      "@type": "NameVariant",
+      "fullName": "Novorossiysk Commercial Sea Port",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "www.nmtp.info; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Ukraine) Amendment (No. 12) Instrument 2022",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/6938"
+  ],
+  "remarks": "www.nmtp.info; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Ukraine) Amendment (No. 12) Instrument 2022",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "14 Portovaya Street Novorossiysk, 353901, Russia",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

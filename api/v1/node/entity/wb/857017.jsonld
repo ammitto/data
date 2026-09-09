@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/857017",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/857017",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "AL ULA ENGINEERING BUREAU",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "AL ULA ENGINEERING BUREAU",
+      "isPrimary": true
     }
   ],
-  "remarks": "(MUE Group) *662",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/857017"
+  ],
+  "remarks": "(MUE Group) *662",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "HOUSE NO. 33, NO. 607 STREET NO. 3",
       "city": "BAGHDAD",
       "country": "Iraq",
-      "country_iso_code": "IQ"
+      "countryIsoCode": "IQ"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

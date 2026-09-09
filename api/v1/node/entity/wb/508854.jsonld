@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/508854",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/508854",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "CESA DE NICARAGUA S.A.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "CESA DE NICARAGUA S.A.",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/508854"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "COLONIA LOS ROBLES, V ETAPA NO. 26, PLAZA EL SOL 2C AL SUR 1C AL ESTE",
       "city": "MANAGUA",
       "country": "Nicaragua",
-      "country_iso_code": "NI"
+      "countryIsoCode": "NI"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

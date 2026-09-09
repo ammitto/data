@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/98344",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/98344",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Dyukov Aleksandr Reshideovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Dyukov Aleksandr Reshideovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/98344"
   ],
   "remarks": "Aleksandr Dyukov is Director of the Historical Memory Foundation, which conducts pseudo-historical research that supports the official policy of the Government of the Russian Federation. By manipulating historical facts, the Historical Memory Foundation’s studies aim to justify the Soviet repression and to maintain the image that Russia is fighting against widespread Nazism in countries that oppose Russia. Ukraine is portrayed as a Nazi-run State. By being the Director of the Historical Memory Foundation, Aleksandr Dyukov is responsible for the Foundation’s actions spreading propaganda.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1978-10-17",
-      "circa": false
+      "circa": false,
+      "year": 1978
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

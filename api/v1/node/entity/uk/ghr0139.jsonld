@@ -1,27 +1,43 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/ghr0139",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/ghr0139",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "SHUVI ERETZ OUTPOST",
+      "@type": "NameVariant",
+      "fullName": "SHUVI ERETZ OUTPOST",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "HAVOT SHUVI ERETZ",
+      "@type": "NameVariant",
+      "fullName": "HAVOT SHUVI ERETZ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/ghr0139"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Shuvi Eretz Outpost, Havot Yair Settlement, West Bank",
       "country": "Occupied Palestinian Territories"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

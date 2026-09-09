@@ -1,22 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/cti0005",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/cti0005",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Asadi",
-      "first_name": "Assadollah",
+      "@type": "NameVariant",
+      "fullName": "Asadi",
+      "firstName": "Assadollah",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Links to Saied Hashemi Moghadam The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/cti0005"
+  ],
+  "remarks": "Links to Saied Hashemi Moghadam The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "country": "Belgium"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

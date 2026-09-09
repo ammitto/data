@@ -1,46 +1,69 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/cti0057",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/cti0057",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "OBEID",
-      "first_name": "Maher",
+      "@type": "NameVariant",
+      "fullName": "OBEID",
+      "firstName": "Maher",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Amr",
-      "first_name": "Abu",
+      "@type": "NameVariant",
+      "fullName": "Amr",
+      "firstName": "Abu",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "OBEYD",
-      "first_name": "Maher",
+      "@type": "NameVariant",
+      "fullName": "OBEYD",
+      "firstName": "Maher",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "OBEYD",
-      "first_name": "Maher",
+      "@type": "NameVariant",
+      "fullName": "OBEYD",
+      "firstName": "Maher",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "ماهر بن ربحي بن نمر عبيد",
+      "@type": "NameVariant",
+      "fullName": "ماهر بن ربحي بن نمر عبيد",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/cti0057"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "state": "Beirut",
       "country": "Lebanon"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

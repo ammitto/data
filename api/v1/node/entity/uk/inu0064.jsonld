@@ -1,51 +1,72 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/inu0064",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/inu0064",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Fajr Aviation Composite Industries",
+      "@type": "NameVariant",
+      "fullName": "Fajr Aviation Composite Industries",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "FACI",
+      "@type": "NameVariant",
+      "fullName": "FACI",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Fajr Aeration and Composites Industries",
+      "@type": "NameVariant",
+      "fullName": "Fajr Aeration and Composites Industries",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Fajr Aeronautics and Compound Material Industries",
+      "@type": "NameVariant",
+      "fullName": "Fajr Aeronautics and Compound Material Industries",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Fajr Aviation & Composites Industry",
+      "@type": "NameVariant",
+      "fullName": "Fajr Aviation & Composites Industry",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Fajr Aviation Ind",
+      "@type": "NameVariant",
+      "fullName": "Fajr Aviation Ind",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/inu0064"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "Tehran 5 kilometres into the Karaj Makhsous Road, P.O. Box 12455 885"
+    },
+    {
+      "@type": "Address",
       "street": "Mehrabad Airport, PO Box 13445-885",
       "state": "Tehran",
       "country": "Iran"
-    },
-    {
-      "street": "Tehran 5 kilometres into the Karaj Makhsous Road, P.O. Box 12455 885"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

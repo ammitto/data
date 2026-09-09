@@ -1,32 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7552",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/7552",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Federal State Unitary Enterprise All-Russian Research Institute of Experimental Physics",
+      "@type": "NameVariant",
+      "fullName": "Federal State Unitary Enterprise All-Russian Research Institute of Experimental Physics",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "All-Russian Research Institute of Experimental Physics",
+      "@type": "NameVariant",
+      "fullName": "All-Russian Research Institute of Experimental Physics",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "VNIIEF",
+      "@type": "NameVariant",
+      "fullName": "VNIIEF",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Website: https://vniief.ru/en/; \nCompany identification No. 1025202199791; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 6) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7552"
+  ],
+  "remarks": "Website: https://vniief.ru/en/; \nCompany identification No. 1025202199791; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 6) Instrument 2023",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "10 Muzrukov Ave, Sarov, Nizhny Novgorod region, 607188, Russia",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

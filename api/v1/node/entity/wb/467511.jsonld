@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/467511",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/467511",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "LONESTAR SUPPLIES AND LOGISTICS (PVT) LTD",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "LONESTAR SUPPLIES AND LOGISTICS (PVT) LTD",
+      "isPrimary": true
     }
   ],
-  "remarks": "(AKA AMANI B.P., LTD.)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/467511"
+  ],
+  "remarks": "(AKA AMANI B.P., LTD.)",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "city": "LONDON",
       "country": "United Kingdom",
-      "country_iso_code": "GB"
+      "countryIsoCode": "GB"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

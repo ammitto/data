@@ -1,27 +1,43 @@
 {
-  "id": "https://www.ammitto.org/entity/au/346",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/346",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "International Sikh Youth Federation",
+      "@type": "NameVariant",
+      "fullName": "International Sikh Youth Federation",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "ISYF",
+      "@type": "NameVariant",
+      "fullName": "ISYF",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The International Sikh Youth Federation (ISYF) is a secessionist group founded in the United Kingdom in 1984 as the international arm of the All Indian Sikh Students’ Federation. Chapters of ISYF were later opened throughout the UK, Germany, Canada and the United States.; Listing: Instrument of first listing: Charter of the United Nations (Anti terrorism — Persons and Entities) List 2002 (No 3) [F2021L00636, Gazette No. GN 23, 12 June 2002]. Re-listed on: 16/09/2022, 13/09/2025: Charter of the United Nations (Listed Persons and Entities) Amendment (No. 2) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/346"
+  ],
+  "remarks": "The International Sikh Youth Federation (ISYF) is a secessionist group founded in the United Kingdom in 1984 as the international arm of the All Indian Sikh Students’ Federation. Chapters of ISYF were later opened throughout the UK, Germany, Canada and the United States.; Listing: Instrument of first listing: Charter of the United Nations (Anti terrorism — Persons and Entities) List 2002 (No 3) [F2021L00636, Gazette No. GN 23, 12 June 2002]. Re-listed on: 16/09/2022, 13/09/2025: Charter of the United Nations (Listed Persons and Entities) Amendment (No. 2) Instrument 2025",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Pakistan, United Kingdom, India",
       "country": "India"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

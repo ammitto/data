@@ -1,65 +1,87 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3552",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/3552",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Salim Mustafa Muhammad Al-Mansur",
+      "@type": "NameVariant",
+      "fullName": "Salim Mustafa Muhammad Al-Mansur",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "سالم مصطفى محمد ال منصور",
+      "@type": "NameVariant",
+      "fullName": "سالم مصطفى محمد ال منصور",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Salim Mustafa Muhammad Mansur Al-Ifri",
+      "@type": "NameVariant",
+      "fullName": "Salim Mustafa Muhammad Mansur Al-Ifri",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Saleem Al-Ifri",
+      "@type": "NameVariant",
+      "fullName": "Saleem Al-Ifri",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Salim Mansur Mustafa",
+      "@type": "NameVariant",
+      "fullName": "Salim Mansur Mustafa",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Salim Mansur",
+      "@type": "NameVariant",
+      "fullName": "Salim Mansur",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Hajji Salim Al-Shaklar",
+      "@type": "NameVariant",
+      "fullName": "Hajji Salim Al-Shaklar",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Passport no: Iraq number A6489694, issued on 2 Sep. 2013 (expires on 31 Aug. 2021; name in Arabic script: سالم مصطفى محمد ال منصور). National identification no: a) Iraq national identification card 00813602, issued on 18 Sep. 2011 (name in Arabic script: سالم مصطفى محمد ال منصور). b) Iraq Certificate of Iraqi Nationality 300397, issued on 25 Jun. 2013 (name in Arabic script: سالم مصطفى محمد). Finance \"emir\"  for Islamic State in Iraq and the Levant, listed as Al-Qaida in Iraq (QDe. 115).  Mother's name: Khadijah Mustafa Salih; Held in detention by the Iraqi intelligence service since 1029 and has been sentenced to death. Physical description: hair colour: black; eye colour: honey; height: 170 cm. Speaks Arabic. Review pursuant to Security Council resolution 2610 (2021) was concluded on 30 October 2023.; Listing: Listed on: 6 Mar. 2018 (amended on 30 Oct 2023, 2 Dec 2024)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3552"
   ],
-  "birth_info": [
+  "remarks": "Passport no: Iraq number A6489694, issued on 2 Sep. 2013 (expires on 31 Aug. 2021; name in Arabic script: سالم مصطفى محمد ال منصور). National identification no: a) Iraq national identification card 00813602, issued on 18 Sep. 2011 (name in Arabic script: سالم مصطفى محمد ال منصور). b) Iraq Certificate of Iraqi Nationality 300397, issued on 25 Jun. 2013 (name in Arabic script: سالم مصطفى محمد). Finance \"emir\"  for Islamic State in Iraq and the Levant, listed as Al-Qaida in Iraq (QDe. 115).  Mother's name: Khadijah Mustafa Salih; Held in detention by the Iraqi intelligence service since 1029 and has been sentenced to death. Physical description: hair colour: black; eye colour: honey; height: 170 cm. Speaks Arabic. Review pursuant to Security Council resolution 2610 (2021) was concluded on 30 October 2023.; Listing: Listed on: 6 Mar. 2018 (amended on 30 Oct 2023, 2 Dec 2024)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1962,
       "country": "a) Badhdad"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1959,
       "country": "Iraq b) Tel Afar"
     }
   ],
   "nationalities": [
     "Iraq"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "a) 17 Tamoz, Mosul, Iraq (previous address) b) Tel Afar - Al-Saad, Mosul, Iraq (previous address)",
       "country": "Iraq (previous address)"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

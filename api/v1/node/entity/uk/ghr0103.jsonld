@@ -1,29 +1,45 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/ghr0103",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/ghr0103",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "K.B. Hotel",
+      "@type": "NameVariant",
+      "fullName": "K.B. Hotel",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Kaibo",
+      "@type": "NameVariant",
+      "fullName": "Kaibo",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/ghr0103"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "KH Krong, Preah Sihanouk, Xu Aimin Road, Village 6",
       "city": "Sangkat4",
       "state": "Sihanoukville",
       "country": "Cambodia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

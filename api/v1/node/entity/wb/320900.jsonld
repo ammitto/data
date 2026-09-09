@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/320900",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/320900",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "INTERNATIONAL EPIROTIC CONSTRUCTION AND TRADING S.A., D.I.T.E. SA",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "INTERNATIONAL EPIROTIC CONSTRUCTION AND TRADING S.A., D.I.T.E. SA",
+      "isPrimary": true
     }
   ],
-  "remarks": "*291",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/320900"
+  ],
+  "remarks": "*291",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "10TH KM. NATIONAL HIGHWAY",
       "city": "IOANNINA-ATHENS 45500",
       "country": "Greece",
-      "country_iso_code": "GR"
+      "countryIsoCode": "GR"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

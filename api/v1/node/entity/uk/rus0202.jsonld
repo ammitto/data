@@ -1,28 +1,44 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus0202",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus0202",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "State Unitary Enterprise of the 'Republic of Crimea' 'UNIVERSAL-AVIA'",
+      "@type": "NameVariant",
+      "fullName": "State Unitary Enterprise of the 'Republic of Crimea' 'UNIVERSAL-AVIA'",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "State enterprise 'Universal-Avia'",
+      "@type": "NameVariant",
+      "fullName": "State enterprise 'Universal-Avia'",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus0202"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Aeroflotskaya Street 5",
       "state": "Simferopol, The Autonomous Republic of Crimea and the city of Sevastopol",
       "country": "Ukraine"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

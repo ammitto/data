@@ -1,22 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/hai0006",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/hai0006",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "INNOCENT",
-      "first_name": "VITELHOMME",
+      "@type": "NameVariant",
+      "fullName": "INNOCENT",
+      "firstName": "VITELHOMME",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/hai0006"
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "64, Soisson, Tabarre 49, Port-au-Prince",
       "country": "Haiti"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

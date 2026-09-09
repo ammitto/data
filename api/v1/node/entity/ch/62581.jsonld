@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/62581",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/62581",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kalinin Aleksandr",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kalinin Aleksandr",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/62581"
   ],
   "remarks": "Aleksandr Kalinin is a Moldovan politician and the leader of the Party of Regions of Moldova. Since the start of the Russian war of aggression against Ukraine, he has travelled in the occupied areas of eastern Ukraine and provided support to Russian military forces. Additionally, he has publicly promoted the Russian symbols of the invasion of Ukraine and Russian actions in eastern Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1977-02-16",
-      "circa": false
+      "circa": false,
+      "year": 1977
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

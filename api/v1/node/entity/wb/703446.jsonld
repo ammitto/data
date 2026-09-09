@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/703446",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/703446",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "DAGI LLC",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "DAGI LLC",
+      "isPrimary": true
     }
   ],
-  "remarks": "(also d/b/a Ltd Dagi) *516",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/703446"
+  ],
+  "remarks": "(also d/b/a Ltd Dagi) *516",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "NO. 29 MITSKEVICHI STREET",
       "city": "TBILISI 0194",
       "country": "Georgia",
-      "country_iso_code": "GE"
+      "countryIsoCode": "GE"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

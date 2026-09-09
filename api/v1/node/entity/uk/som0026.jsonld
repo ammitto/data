@@ -1,33 +1,55 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/som0026",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/som0026",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MOHAMED",
-      "first_name": "MOHAMUD",
+      "@type": "NameVariant",
+      "fullName": "MOHAMED",
+      "firstName": "MOHAMUD",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Mire",
-      "first_name": "Mohamed",
+      "@type": "NameVariant",
+      "fullName": "Mire",
+      "firstName": "Mohamed",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Listed pursuant to paragraph 26 of resolution 2662 (2022): (a) having engaged in, or provided support for, acts that threatened the peace, security or stability of Somalia, including acts that threatened the peace and reconciliation process in Somalia, or threatened the Federal Government of Somalia or ATMIS by force; and (b)(i) participating in the financing, planning, facilitating, preparing, or perpetrating of acts or activities by, in conjunction with, under the name of, on behalf of, or in support of Al-Shabaab.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/som0026"
+  ],
+  "remarks": "Listed pursuant to paragraph 26 of resolution 2662 (2022): (a) having engaged in, or provided support for, acts that threatened the peace, security or stability of Somalia, including acts that threatened the peace and reconciliation process in Somalia, or threatened the Federal Government of Somalia or ATMIS by force; and (b)(i) participating in the financing, planning, facilitating, preparing, or perpetrating of acts or activities by, in conjunction with, under the name of, on behalf of, or in support of Al-Shabaab.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "state": "Jilib",
       "country": "Somalia"
     },
     {
+      "@type": "Address",
+      "street": "",
       "state": "Qunyo Barrow",
       "country": "Somalia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/6737",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/6737",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mujuru Joyce Teurai Ropa",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Mujuru Joyce Teurai Ropa",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/6737"
   ],
   "remarks": "ZANU-PF Member of Government.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1955-04-15",
-      "circa": false
+      "circa": false,
+      "year": 1955
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/59203",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/59203",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Oreshkin Maksim Stanislavovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Oreshkin Maksim Stanislavovich",
+      "isPrimary": true
     }
   ],
-  "remarks": "Maksim Stanislavovich Oreshkin is a Member of the ‘Coordination Council under the Government of the Russian federation to meet the needs of the Armed Forces of the Russian Federation, other troops, military formations and bodies’ established on 21 October 2022. The Coordination Council was created in order to organise interaction between federal executive bodies and executive bodies of the constituent entities of Russia in resolving issues related to ensuring the needs of the Russian Armed Forces during the war of aggression against Ukraine.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/59203"
+  ],
+  "remarks": "Maksim Stanislavovich Oreshkin is Deputy Chief of Staff of the Presidential Executive Office, and a member of the “Coordination Council under the Government of the Russian federation to meet the needs of the Armed Forces of the Russian Federation, other troops, military formations and bodies” established on 21 October 2022. The Coordination Council was created in order to organise interaction between federal executive bodies and executive bodies of the constituent entities of Russia in resolving issues related to ensuring the needs of the Russian Armed Forces during the war of aggression against Ukraine.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1982-07-21",
-      "circa": false
+      "circa": false,
+      "year": 1982
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

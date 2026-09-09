@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/392833",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/392833",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "JIANGXI HAOZHE CONSTRUCTION ENGINEERING CO., LTD.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "JIANGXI HAOZHE CONSTRUCTION ENGINEERING CO., LTD.",
+      "isPrimary": true
     }
   ],
-  "remarks": "(江西昊哲建设工程有限公司)*457",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/392833"
+  ],
+  "remarks": "(江西昊哲建设工程有限公司)*457",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "STORE 308#, BLOCK G5, TIME GARDEN, 86 QIANDONG AVENUE, SHUIDONG TOWN, ZHANGGONG DISTRICT",
       "city": "GANZHOU CITY, JIANGXI PROVINCE",
       "country": "China",
-      "country_iso_code": "CN"
+      "countryIsoCode": "CN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

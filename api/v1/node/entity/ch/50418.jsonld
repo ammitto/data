@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/50418",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/50418",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kupriyanyuk Vladimir Nikolaevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kupriyanyuk Vladimir Nikolaevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/50418"
   ],
   "remarks": "Vladimir Kupriyanyuk is the Head of the Main Intelligence Directorate - Deputy Chief of the General Staff of the Armed Forces and the former First Deputy Commander of the Belarusian Western Operational Command. He is part of the Belarusian army, which has supported Russia’s war of aggression against Ukraine. In this position he is responsible for the participation of the troops under his command in the joint Belarusian-Russian military exercises preceding the military build-up at the Ukrainian border which prepared and facilitated the Russian military aggression against Ukraine of 24 February 2022.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1972-07-11",
-      "circa": false
+      "circa": false,
+      "year": 1972
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/87990",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/87990",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Miguel Antonio Muñoz Palacios",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Miguel Antonio Muñoz Palacios",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/87990"
   ],
   "remarks": "Deputy Director of the Bolivarian National Intelligence Service (SEBIN) since 2021. SEBIN Officials under his supervision have committed acts of arbitrary detention, torture and cruel and inhuman treatment, including sexual violence, in “El Helicoide” detention centre, a SEBIN prison.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1964-07-12",
-      "circa": false
+      "circa": false,
+      "year": 1964
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

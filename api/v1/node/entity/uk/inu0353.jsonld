@@ -1,36 +1,54 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/inu0353",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/inu0353",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "NORTH DRILLING COMPANY",
+      "@type": "NameVariant",
+      "fullName": "NORTH DRILLING COMPANY",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "NDC",
+      "@type": "NameVariant",
+      "fullName": "NDC",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "NORTH DRILLING",
+      "@type": "NameVariant",
+      "fullName": "NORTH DRILLING",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "شرکت حفاری شمال",
+      "@type": "NameVariant",
+      "fullName": "شرکت حفاری شمال",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/inu0353"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "2127, Valiasr Street, Corner of Del Afrooz Street, Tehran",
       "country": "Iran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,34 +1,53 @@
 {
-  "id": "https://www.ammitto.org/entity/au/79",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/79",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mohammad Salim Haqqani",
+      "@type": "NameVariant",
+      "fullName": "Mohammad Salim Haqqani",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "محمد سليم حقانی",
+      "@type": "NameVariant",
+      "fullName": "محمد سليم حقانی",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "TAi.079, Designation: Deputy Minister of Preventing Vice and Propagating Virtue under the Taliban regime. Deputy Commander of Ezatullah Haqqani Khan Sayyid (TI.H.64.01) as at Mar. 2010. Member of Taliban Peshawar Military Council as at June 2010. Belongs to Pashai ethnic group. Review pursuant to Security Council resolution 1822 (2008) was concluded on 27 Jul. 2010.; Listing: Listed on 31 January 2001 (amended 18 Jul 2007 and 21 Sep 2007 and 29 November 2011)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/79"
   ],
-  "birth_info": [
+  "remarks": "TAi.079, Designation: Deputy Minister of Preventing Vice and Propagating Virtue under the Taliban regime. Deputy Commander of Ezatullah Haqqani Khan Sayyid (TI.H.64.01) as at Mar. 2010. Member of Taliban Peshawar Military Council as at June 2010. Belongs to Pashai ethnic group. Review pursuant to Security Council resolution 1822 (2008) was concluded on 27 Jul. 2010.; Listing: Listed on 31 January 2001 (amended 18 Jul 2007 and 21 Sep 2007 and 29 November 2011)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1966,
       "country": "Alingar District"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1967,
       "country": "Laghman Province"
     }
   ],
   "nationalities": [
     "Afghanistan"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

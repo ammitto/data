@@ -1,32 +1,51 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7511",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7511",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mohammad Reza MIRHEIDARI",
+      "@type": "NameVariant",
+      "fullName": "Mohammad Reza MIRHEIDARI",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Mohammad Reza MIRHEYDARY",
+      "@type": "NameVariant",
+      "fullName": "Mohammad Reza MIRHEYDARY",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Chief of the Law Enforcement Command (LEF) in Isfahan province; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Thematic Sanctions) Amendment (No. 2) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7511"
   ],
-  "birth_info": [
+  "remarks": "Chief of the Law Enforcement Command (LEF) in Isfahan province; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Thematic Sanctions) Amendment (No. 2) Instrument 2023",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1956
     },
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1957
     }
   ],
   "nationalities": [
     "Iran"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

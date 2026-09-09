@@ -1,40 +1,59 @@
 {
-  "id": "https://www.ammitto.org/entity/au/660",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/660",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "HAMID RAJA SHALAH AL-TIKRITI",
+      "@type": "NameVariant",
+      "fullName": "HAMID RAJA SHALAH AL-TIKRITI",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "حامد رجا صلاح التكريتي",
+      "@type": "NameVariant",
+      "fullName": "حامد رجا صلاح التكريتي",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Hassan Al-Tikriti",
+      "@type": "NameVariant",
+      "fullName": "Hassan Al-Tikriti",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Hamid Raja-Shalah Hassum Al-Tikriti",
+      "@type": "NameVariant",
+      "fullName": "Hamid Raja-Shalah Hassum Al-Tikriti",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "IQi.017; Listing: Listed by the 1518 Committee",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/660"
   ],
-  "birth_info": [
+  "remarks": "IQi.017; Listing: Listed by the 1518 Committee",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1950,
       "country": "Bayji"
     }
   ],
   "nationalities": [
     "Iraq"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,34 +1,53 @@
 {
-  "id": "https://www.ammitto.org/entity/au/650",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/650",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "QUSAY SADDAM HUSSEIN AL-TIKRITI",
+      "@type": "NameVariant",
+      "fullName": "QUSAY SADDAM HUSSEIN AL-TIKRITI",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "قصي صدام حسين التكريتي",
+      "@type": "NameVariant",
+      "fullName": "قصي صدام حسين التكريتي",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "IQi.002; Listing: Listed by the 1518 Committee",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/650"
   ],
-  "birth_info": [
+  "remarks": "IQi.002; Listing: Listed by the 1518 Committee",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1965,
       "country": "Baghdad"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1966,
       "country": "Iraq"
     }
   ],
   "nationalities": [
     "Iraq"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

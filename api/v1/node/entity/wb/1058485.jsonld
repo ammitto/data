@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/1058485",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/1058485",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "IYA S.A.R.L",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "IYA S.A.R.L",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/1058485"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "LAFIABOUGOU, RUE 496, PORTE 28/30 BOÎTE POSTALE E 5132",
       "city": "BAMAKO",
       "country": "Mali",
-      "country_iso_code": "ML"
+      "countryIsoCode": "ML"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

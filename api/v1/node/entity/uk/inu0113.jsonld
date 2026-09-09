@@ -1,33 +1,50 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/inu0113",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/inu0113",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Shakhese Behbud Sanat",
+      "@type": "NameVariant",
+      "fullName": "Shakhese Behbud Sanat",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Saman Nur Gosil",
+      "@type": "NameVariant",
+      "fullName": "Saman Nur Gosil",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Shakhes Behbood Sanaat",
+      "@type": "NameVariant",
+      "fullName": "Shakhes Behbood Sanaat",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/inu0113"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Roshan Dasht Road, kilometer 20",
       "state": "Isfahan",
       "country": "Iran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

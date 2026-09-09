@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/981874",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/981874",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "L.S.D. CONSTRUCTION & SUPPLIES",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "L.S.D. CONSTRUCTION & SUPPLIES",
+      "isPrimary": true
     }
   ],
-  "remarks": "*693",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/981874"
+  ],
+  "remarks": "*693",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "MACARTHUR HWY.",
       "city": "TARLAC CITY, 2300 TARLAC",
       "country": "Philippines",
-      "country_iso_code": "PH"
+      "countryIsoCode": "PH"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/45944",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/45944",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Andryeuski Aliaksandr Mechyslavavich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Andryeuski Aliaksandr Mechyslavavich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/45944"
   ],
   "remarks": "In his position as Deputy Head of the Frunzensky District Police Department in Minsk, Aliaksandr Andryeuski is responsible for inhumane and degrading treatment, including torture, inflicted on citizens detained on the premises of the Fruzensky District Police Department in the wake of the 2020 presidential election. Detaineees were standing on their knees with heads down for hours, violently beaten, hit with a taser. He is therefore responsible for serious violations of human rights and the repression of civil society and democratic opposition.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1982-04-29",
-      "circa": false
+      "circa": false,
+      "year": 1982
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

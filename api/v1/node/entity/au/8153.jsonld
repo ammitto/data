@@ -1,40 +1,59 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8153",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/8153",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Bezalel Yoel SMOTRICH",
+      "@type": "NameVariant",
+      "fullName": "Bezalel Yoel SMOTRICH",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Bezalel SMOTRICH",
+      "@type": "NameVariant",
+      "fullName": "Bezalel SMOTRICH",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Betzalel SMOTRICH",
+      "@type": "NameVariant",
+      "fullName": "Betzalel SMOTRICH",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Betzalel Yoel SMOTRICH",
+      "@type": "NameVariant",
+      "fullName": "Betzalel Yoel SMOTRICH",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Minister of Finance; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Thematic Sanctions) Amendment (No. 2) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8153"
   ],
-  "birth_info": [
+  "remarks": "Minister of Finance; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Thematic Sanctions) Amendment (No. 2) Instrument 2025",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1980,
       "country": "Haspin"
     }
   ],
   "nationalities": [
     "Israel"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

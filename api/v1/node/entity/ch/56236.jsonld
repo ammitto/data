@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/56236",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/56236",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Maksimtsev Alexander Anatolievich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Maksimtsev Alexander Anatolievich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/56236"
   ],
   "remarks": "Alexander Maksimtsev is a Russian military leader and a Deputy Commander-in-Chief of the Aerospace Forces for military-political work. The Russian Aerospace Forces have delivered strikes on both military and civilian targets in Ukraine. As Alexander Maksimtsev is a Deputy Commander-in-Chief, he is responsible for the actions of this unit. Alexander Maksimtsev is therefore responsible for, supporting and implementing, actions which undermine the territorial integrity, sovereignty and independence of Ukraine and stability and security in Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1963-08-20",
-      "circa": false
+      "circa": false,
+      "year": 1963
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

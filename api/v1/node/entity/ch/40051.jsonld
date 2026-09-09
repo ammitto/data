@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/40051",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/40051",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Khaldoun Al-Zoubi",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Khaldoun Al-Zoubi",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/40051"
   ],
   "remarks": "Leading businessperson operating in Syria, with interests and activities in multiple sectors of Syria’s economy, including his roles as Vice President of Aman Holding and majority shareholder of Fly Aman airline (until Feb 2019). In this capacity, he is linked to Samer Foz. Aman Holding is represented on the board of, and holds a majority stake in, Aman Damascus, a joint venture in the construction of Marota City, a regime-backed luxury residential and commercial development. Al-Zoubi benefits from and/or supports the Syrian regime. Founding member of Asas Iron Company.",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1979
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

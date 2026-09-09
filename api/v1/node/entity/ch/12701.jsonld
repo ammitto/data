@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/12701",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/12701",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mohammed Ali Nasr General",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Mohammed Ali Nasr General",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/12701"
   ],
   "remarks": "Close to Maher al-Assad, younger brother of former President Bashar al-Assad. Most of his career has been spent in the Republican Guard. In 2010 he joined the internal branch (Branch 251) of the General Intelligence Directorate which is responsible for combatting the political opposition. As one of its senior officers, General Mohammed Ali Nasr is directly involved in the repression of opponents under the former al-Assad regime.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1964-10-08",
-      "circa": false
+      "circa": false,
+      "year": 1964
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

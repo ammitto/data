@@ -1,37 +1,55 @@
 {
-  "id": "https://www.ammitto.org/entity/au/2154",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/2154",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "SHAKHESE BEHBUD SANAT",
+      "@type": "NameVariant",
+      "fullName": "SHAKHESE BEHBUD SANAT",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Shakhes Behbood Sanaat",
+      "@type": "NameVariant",
+      "fullName": "Shakhes Behbood Sanaat",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Shakhes Behbood Sanaat Company",
+      "@type": "NameVariant",
+      "fullName": "Shakhes Behbood Sanaat Company",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Indicator of Improvement of Industry Company",
+      "@type": "NameVariant",
+      "fullName": "Indicator of Improvement of Industry Company",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Listing: Designated under the Autonomous Sanctions Regulations 2011 on 2 March 2012. Instrument of first designation Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Iran) List 2012 [F2012L00479]. Formerly listed on the RBA Consolidated List as 2010IRN0111. Relisted on 12 January 2024.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/2154"
+  ],
+  "remarks": "Listing: Designated under the Autonomous Sanctions Regulations 2011 on 2 March 2012. Instrument of first designation Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Iran) List 2012 [F2012L00479]. Formerly listed on the RBA Consolidated List as 2010IRN0111. Relisted on 12 January 2024.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Roshan Dasht Road, kilometre 20, Isfahan, Iran",
       "country": "Iran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/28141",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/28141",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Nikitin Vasyl Oleksandrovych",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Nikitin Vasyl Oleksandrovych",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/28141"
   ],
   "remarks": "Former so-called \"Vice Prime Minister of the Council of Ministers of the Luhansk People's Republic\", (used to be the so-called \"Prime Minister of the Luhansk People's Republic\", and former spokesman of the \"Army of the South-East\").",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1971-11-25",
-      "circa": false
+      "circa": false,
+      "year": 1971
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,37 +1,57 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7321",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7321",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mya Tun Oo",
+      "@type": "NameVariant",
+      "fullName": "Mya Tun Oo",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "General Mya Htun Oo",
+      "@type": "NameVariant",
+      "fullName": "General Mya Htun Oo",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Mya Htun Oo",
+      "@type": "NameVariant",
+      "fullName": "Mya Htun Oo",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Minister for Defence; Myanmar military Reserves List; Member of the State Administration Council; Listing: Autonomous Sanctions (Designated and Declared Persons—Myanmar) Amendment Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7321"
   ],
-  "birth_info": [
+  "remarks": "Minister for Defence; Myanmar military Reserves List; Member of the State Administration Council; Listing: Autonomous Sanctions (Designated and Declared Persons—Myanmar) Amendment Instrument 2023",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1961
     },
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1961
     }
   ],
   "nationalities": [
     "Myanmar"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

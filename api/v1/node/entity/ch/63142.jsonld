@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/63142",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/63142",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Zinkov Viktor Ivanovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Zinkov Viktor Ivanovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/63142"
   ],
   "remarks": "Viktor Zinkov is a judge of the “Supreme Court of the Republic of Crimea” established by Russia’s occupying force in the illegally annexed Crimea.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1970-04-09",
-      "circa": false
+      "circa": false,
+      "year": 1970
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/93550",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/93550",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kogogin Sergey Anatolyevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kogogin Sergey Anatolyevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/93550"
   ],
   "remarks": "Sergey Kogogin is General Director of KAMAZ Publicly Traded Company (KAMAZ PJSC).",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1957-11-16",
-      "circa": false
+      "circa": false,
+      "year": 1957
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

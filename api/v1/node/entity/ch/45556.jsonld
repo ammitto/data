@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/45556",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/45556",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Dysko Genadz Iosifavich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Dysko Genadz Iosifavich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/45556"
   ],
   "remarks": "In his position of Deputy Prosecutor General, Genadz Dysko bears responsibility for politically motivated criminal cases against opposition, journalists, civil society and regular citizens. He was also involved in initiating of politically motivated criminal proceedings against Siarhei Tsikhanousky - opposition activist and husband of presidential candidate Svetlana Tsikhanouskaya. He is therefore responsible for serious human rights violations and seriously undermining the rule of law, as well as the repression of civil society and democratic opposition.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1964-03-22",
-      "circa": false
+      "circa": false,
+      "year": 1964
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/39213",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/39213",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Salim Ibrahim al-Milad Abd Al-Rahman Navy Major",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Salim Ibrahim al-Milad Abd Al-Rahman Navy Major",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/39213"
   ],
   "remarks": "Commander of the Coast Guard in Zawiya",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1986-07-27",
-      "circa": false
+      "circa": false,
+      "year": 1986
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/46211",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/46211",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Rosario María Murillo Zambrana",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Rosario María Murillo Zambrana",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/46211"
   ],
   "remarks": "Co-President of Nicaragua since February 2025, First Lady of Nicaragua and a leader of the Sandinista Youth. Vice President of Nicaragua from January 2017 to February 2025. She played an instrumental role in encouraging and justifying the repression of opposition demonstrations by the Nicaraguan National Police in 2018. In June 2021, she publicly threatened the Nicaraguan opposition and discredited independent journalists. Those threats have been repeated since then. In February 2023, Daniel Ortega revealed that Rosario María Murillo Zambrana is the instigator of new repressions, namely related to the expulsion and deprivation of citizenship of 222 political prisoners. She is therefore responsible for serious human rights violations, for the repression of civil society and democratic opposition, and for undermining democracy in Nicaragua.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1951-06-22",
-      "circa": false
+      "circa": false,
+      "year": 1951
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

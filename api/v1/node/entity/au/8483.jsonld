@@ -1,37 +1,59 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8483",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/8483",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "JAVAD RAHIQI",
+      "@type": "NameVariant",
+      "fullName": "JAVAD RAHIQI",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Javad Rahigi",
+      "@type": "NameVariant",
+      "fullName": "Javad Rahigi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Jawad Rahigi",
+      "@type": "NameVariant",
+      "fullName": "Jawad Rahigi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Jawad Rahiqi",
+      "@type": "NameVariant",
+      "fullName": "Jawad Rahiqi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "IRi.031. Designation: Head of the AEOI Esfahan Nuclear Technology Center.; Listing: Listed by the 1737 Committee on 9 June 2010 (amended on 17 December 2014)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8483"
   ],
-  "birth_info": [
+  "remarks": "IRi.031. Designation: Head of the AEOI Esfahan Nuclear Technology Center.; Listing: Listed by the 1737 Committee on 9 June 2010 (amended on 17 December 2014)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1954,
       "country": "Marshad"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

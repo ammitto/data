@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/63570",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/63570",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Khuchiev Muslim Magomedovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Khuchiev Muslim Magomedovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/63570"
   ],
   "remarks": "Muslim Khuchiev is Assistant to the Prime Minister of the Russian Federation and the former Chairman of the Government of the Chechen Republic. In this role, Muslim Khuchiev has been very closely involved with Ramzan Kadyrov in Chechnya’s plans for military production for use by the Russian Armed Forces in the war of aggression against Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1971-08-05",
-      "circa": false
+      "circa": false,
+      "year": 1971
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

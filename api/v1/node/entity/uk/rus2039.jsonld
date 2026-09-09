@@ -1,38 +1,56 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus2039",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus2039",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "SMART TRADING LIMITED STI",
+      "@type": "NameVariant",
+      "fullName": "SMART TRADING LIMITED STI",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "SMART TRADING TASIMACILIK SANAYI VE TICARET LIMITED SIRKETI",
+      "@type": "NameVariant",
+      "fullName": "SMART TRADING TASIMACILIK SANAYI VE TICARET LIMITED SIRKETI",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "SMART TRADING TRANSPORTATION INDUSTRY AND TRADE LIMITED COMPANY",
+      "@type": "NameVariant",
+      "fullName": "SMART TRADING TRANSPORTATION INDUSTRY AND TRADE LIMITED COMPANY",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ СМАРТ ТРЕЙДИНГ ТРАНСПОРТНАЯ ПРОМЫШЛЕННОСТЬ И ТОРГОВЛЯ",
+      "@type": "NameVariant",
+      "fullName": "ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ СМАРТ ТРЕЙДИНГ ТРАНСПОРТНАЯ ПРОМЫШЛЕННОСТЬ И ТОРГОВЛЯ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus2039"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Building 4, Duran Business Center, Esentepe Mah, 1 Harman St.",
       "state": "Istanbul",
       "country": "Turkey"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

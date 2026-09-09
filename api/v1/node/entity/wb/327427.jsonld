@@ -1,23 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/327427",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/wb/327427",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MR. PABLO MAXIMILIANO KANTT",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "MR. PABLO MAXIMILIANO KANTT",
+      "isPrimary": true
     }
   ],
-  "remarks": "*349",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/327427"
+  ],
+  "remarks": "*349",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "AV. GRAL ORTIZ DE OCAMPO 2635, 4D, CP 1425, CABA",
       "city": "BUENOS AIRES",
       "country": "Argentina",
-      "country_iso_code": "AR"
+      "countryIsoCode": "AR"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

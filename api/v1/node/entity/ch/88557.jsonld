@@ -1,12 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/88557",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/88557",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Gorshkov Alexey Vladislavovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Gorshkov Alexey Vladislavovich",
+      "isPrimary": true
     }
   ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/88557"
+  ],
   "remarks": "Alexey Gorshkov is the General Director of JSC “Scientific Research Institute of Computing Complexes Named After M.A. Kartsev”, a research institute based in Russia and involved in the development and production of unmanned aerial vehicles (UAVs). It has produced several different types of UAVs, which have been or will be tested by Russian armed forces in the war of aggression against Ukraine. Therefore, as the General Director of JSC “Scientific Research Institute of Computing Complexes Named After M.A. Kartsev”, Alexey Gorshkov is supporting or implementing actions or policies which undermine or threaten the territorial integrity, sovereignty and independence of Ukraine. Furthermore, he is associated with JSC “Scientific Research Institute of Computing Complexes Named After M.A. Kartsev”.",
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "birthInfo": [
+    {
+      "@type": "BirthInfo",
+      "date": "1985-11-08",
+      "circa": false,
+      "year": 1985
+    }
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

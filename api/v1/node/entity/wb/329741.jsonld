@@ -1,22 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/329741",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/wb/329741",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "SEMIH SAGOCAK",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "SEMIH SAGOCAK",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/329741"
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "APARTMENT NO. 6, HOUSE NO.325, DILARE ELIYEVA STREETM NESIMI DISTRICT 1010, OR ADDRESS EV:13 MENZIL:9, XATAI RAYONU S.,ORUCOC KUCESI,BAKI SEHERI 1010",
       "city": "BAKU",
       "country": "Azerbaijan",
-      "country_iso_code": "AZ"
+      "countryIsoCode": "AZ"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,21 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/cn/19-vantor",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/cn/19-vantor",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Vantor",
+      "@type": "NameVariant",
+      "fullName": "Vantor",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "万拓公司",
+      "@type": "NameVariant",
+      "fullName": "万拓公司",
       "script": "Hani",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "List: cn/anti-sanction-list",
-  "sanction_entry_ids": [
-    "https://www.ammitto.org/entry/cn/unknown/19-vantor"
+  "sourceReferences": [
+
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/cn/anti-sanction-list/19-vantor"
+  ],
+  "remarks": "List: cn/anti-sanction-list",
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

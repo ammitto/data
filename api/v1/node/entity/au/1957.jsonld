@@ -1,29 +1,46 @@
 {
-  "id": "https://www.ammitto.org/entity/au/1957",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/1957",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mohammad PAKPUR",
+      "@type": "NameVariant",
+      "fullName": "Mohammad PAKPUR",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Mohammad PAKPOUR",
+      "@type": "NameVariant",
+      "fullName": "Mohammad PAKPOUR",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Brigadier-General; Listing: Designated under the Autonomous Sanctions Regulations 2011 on 2 March 2012 (F2012L00479). Formerly listed on the RBA Consolidated List as 2010IRN0028. Relisted 12 January 2024.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/1957"
   ],
-  "birth_info": [
+  "remarks": "Brigadier-General; Listing: Designated under the Autonomous Sanctions Regulations 2011 on 2 March 2012 (F2012L00479). Formerly listed on the RBA Consolidated List as 2010IRN0028. Relisted 12 January 2024.",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1961
     }
   ],
   "nationalities": [
     "Iran"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

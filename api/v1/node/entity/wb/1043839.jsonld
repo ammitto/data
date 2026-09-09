@@ -1,22 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/1043839",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/wb/1043839",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MS. DUONG VANNARY",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "MS. DUONG VANNARY",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/1043839"
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "BATONG POUNG PEAY, PHNOM PENH THMEI, SEN SOK",
       "city": "PHNOM PENH",
       "country": "Cambodia",
-      "country_iso_code": "KH"
+      "countryIsoCode": "KH"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

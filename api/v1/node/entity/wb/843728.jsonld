@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/843728",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/843728",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "SOLUTIONS FOR DEVELOPMENT SUPPORT (PVT.) LTD.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "SOLUTIONS FOR DEVELOPMENT SUPPORT (PVT.) LTD.",
+      "isPrimary": true
     }
   ],
-  "remarks": "(Reg, No. 0087430)*656",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/843728"
+  ],
+  "remarks": "(Reg, No. 0087430)*656",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "OFFICE NO. 7, BLOCK NO. 19, PHA, G-7/1",
       "city": "44000 ISLAMABAD, PAKISTAN",
       "country": "Pakistan",
-      "country_iso_code": "PK"
+      "countryIsoCode": "PK"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

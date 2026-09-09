@@ -1,60 +1,86 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7801",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7801",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Konstantin KUDRYAVTSEV",
+      "@type": "NameVariant",
+      "fullName": "Konstantin KUDRYAVTSEV",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Konstantin Borisovich KUDRYAVTSEV",
+      "@type": "NameVariant",
+      "fullName": "Konstantin Borisovich KUDRYAVTSEV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Konstantin Borisovitj KUDRJAVTSEV",
+      "@type": "NameVariant",
+      "fullName": "Konstantin Borisovitj KUDRJAVTSEV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Konstantin Borisovich KUDRYAVCEV",
+      "@type": "NameVariant",
+      "fullName": "Konstantin Borisovich KUDRYAVCEV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Konstantin SOKOLOV",
+      "@type": "NameVariant",
+      "fullName": "Konstantin SOKOLOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Konstantin Yevgenievich SOKOLOV",
+      "@type": "NameVariant",
+      "fullName": "Konstantin Yevgenievich SOKOLOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Konstantin Jevgenjevitj SOKOLOV",
+      "@type": "NameVariant",
+      "fullName": "Konstantin Jevgenjevitj SOKOLOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Officer at the FSB’s Criminalistics Institute; Listing: Instrument of first designation and declaration: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Thematic Sanctions) Amendment (No. 3) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7801"
   ],
-  "birth_info": [
+  "remarks": "Officer at the FSB’s Criminalistics Institute; Listing: Instrument of first designation and declaration: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Thematic Sanctions) Amendment (No. 3) Instrument 2023",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1979
     },
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1980
     },
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1981
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

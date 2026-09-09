@@ -1,41 +1,59 @@
 {
-  "id": "https://www.ammitto.org/entity/au/641",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/641",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "JULES MUTEBUTSI",
+      "@type": "NameVariant",
+      "fullName": "JULES MUTEBUTSI",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Jules Mutebusi",
+      "@type": "NameVariant",
+      "fullName": "Jules Mutebusi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Jules Mutebuzi",
+      "@type": "NameVariant",
+      "fullName": "Jules Mutebuzi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Colonel Mutebutsi",
+      "@type": "NameVariant",
+      "fullName": "Colonel Mutebutsi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "CDi.018 Former FARDC Deputy Military Regional Commander of 10th Military Region in April 2004, dismissed for indiscipline.In December 2007, he was arrested by Rwandan authorities when he tried to cross the border into the DRC. Reported to have died in Kigali on 9 May 2014.; Listing: Listed by 1533 Committee on: 1 Nov. 2005 (amended on 13 Oct. 2016)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/641"
   ],
-  "birth_info": [
+  "remarks": "CDi.018 Former FARDC Deputy Military Regional Commander of 10th Military Region in April 2004, dismissed for indiscipline.In December 2007, he was arrested by Rwandan authorities when he tried to cross the border into the DRC. Reported to have died in Kigali on 9 May 2014.; Listing: Listed by 1533 Committee on: 1 Nov. 2005 (amended on 13 Oct. 2016)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1964,
       "country": "Minembwe"
     }
   ],
   "nationalities": [
-    "Congo",
-    "Democratic Republic of the"
+    "Congo, Democratic Republic of the"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

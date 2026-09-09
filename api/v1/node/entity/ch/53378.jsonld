@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/53378",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/53378",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Malakhova Svetlana Anatolievna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Malakhova Svetlana Anatolievna",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/53378"
   ],
   "remarks": "So-called “Deputy Chairperson of the Government” and former “Minister of Labour and Social Policy” of the so-called “Luhansk People’s Republic”. In taking on and acting in this capacity, she has actively undermined the territorial integrity, sovereignty and independence of Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1964-08-27",
-      "circa": false
+      "circa": false,
+      "year": 1964
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

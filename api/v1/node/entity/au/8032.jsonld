@@ -1,40 +1,59 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8032",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/8032",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Pavel Mikalaevich MURAVEYKA",
+      "@type": "NameVariant",
+      "fullName": "Pavel Mikalaevich MURAVEYKA",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Pavel Mikalayevich MURAVEIKA",
+      "@type": "NameVariant",
+      "fullName": "Pavel Mikalayevich MURAVEIKA",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Pavel Nikolaevich MURAVEYKO",
+      "@type": "NameVariant",
+      "fullName": "Pavel Nikolaevich MURAVEYKO",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Pavel Nikolayevich MURAVEIKO",
+      "@type": "NameVariant",
+      "fullName": "Pavel Nikolayevich MURAVEIKO",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Chief of the General Staff, First Deputy Defense Minister of the Republic of Belarus; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8032"
   ],
-  "birth_info": [
+  "remarks": "Chief of the General Staff, First Deputy Defense Minister of the Republic of Belarus; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1971,
       "country": "Marina"
     }
   ],
   "nationalities": [
     "Belarus"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

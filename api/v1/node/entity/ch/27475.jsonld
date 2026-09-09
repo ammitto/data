@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/27475",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/27475",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Malyshev Mikhail Grigorievich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Malyshev Mikhail Grigorievich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/27475"
   ],
   "remarks": "Chair of the Crimea Electoral Commission. Responsible for administering the Crimean “referendum”. Responsible under the Russian system for signing referendum results.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1955-10-10",
-      "circa": false
+      "circa": false,
+      "year": 1955
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

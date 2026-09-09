@@ -1,35 +1,53 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7805",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7805",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Elena Evgenievna LEONENKO",
+      "@type": "NameVariant",
+      "fullName": "Elena Evgenievna LEONENKO",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Elena Evgenevna LEONENKO",
+      "@type": "NameVariant",
+      "fullName": "Elena Evgenevna LEONENKO",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Yelena Yevgenyevna LEONENKO",
+      "@type": "NameVariant",
+      "fullName": "Yelena Yevgenyevna LEONENKO",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Vice-Chairman of the Investigative Committee of the Russian Federation; Listing: Instrument of first designation and declaration: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 11) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7805"
   ],
-  "birth_info": [
+  "remarks": "Vice-Chairman of the Investigative Committee of the Russian Federation; Listing: Instrument of first designation and declaration: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 11) Instrument 2023",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1964,
       "country": "St Petersburg"
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

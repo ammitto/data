@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/71921",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/71921",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Komarova Natalya Vladimirovna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Komarova Natalya Vladimirovna",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/71921"
   ],
   "remarks": "Natalya Komarova is the Governor of the Khanty-Mansi Autonomous Okrug – Yugra region, appointed by President of the Russian Federation Vladimir Putin. In her role as Governor, Natalya Komarova manages a regional state body of the Russian Federation and is responsible for implementing state policies at regional level.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1955-10-21",
-      "circa": false
+      "circa": false,
+      "year": 1955
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

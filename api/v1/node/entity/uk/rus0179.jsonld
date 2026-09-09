@@ -1,37 +1,56 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus0179",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus0179",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "JSC Zaliv Shipyard",
+      "@type": "NameVariant",
+      "fullName": "JSC Zaliv Shipyard",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "LLC Zaliv Shipyard",
+      "@type": "NameVariant",
+      "fullName": "LLC Zaliv Shipyard",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Shipyard Zaliv LLC",
+      "@type": "NameVariant",
+      "fullName": "Shipyard Zaliv LLC",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus0179"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
+      "state": "Location of entity headquarters, \"Republic of Crimea\""
+    },
+    {
+      "@type": "Address",
       "street": "4, Tankistov Street",
       "city": "Kerch",
       "state": "The Autonomous Republic of Crimea and the city of Sevastopol",
       "country": "Ukraine"
-    },
-    {
-      "state": "Location of entity headquarters, \"Republic of Crimea\""
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

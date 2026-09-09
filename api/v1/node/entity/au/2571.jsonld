@@ -1,31 +1,44 @@
 {
-  "id": "https://www.ammitto.org/entity/au/2571",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/2571",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Eric BADEGE",
+      "@type": "NameVariant",
+      "fullName": "Eric BADEGE",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "CDi.001 He fled to Rwanda in March 2013 and is still living there as of early 2016.; Listing: Listed by 1533 Committee on 31 December 2012 (amended on 13 Oct. 2016)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/2571"
   ],
-  "birth_info": [
+  "remarks": "CDi.001 He fled to Rwanda in March 2013 and is still living there as of early 2016.; Listing: Listed by 1533 Committee on 31 December 2012 (amended on 13 Oct. 2016)",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1971
     }
   ],
   "nationalities": [
-    "Congo",
-    "Democratic Republic of the"
+    "Congo, Democratic Republic of the"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Rwanda (as of early 2016)",
       "country": "Rwanda (as of early 2016)"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

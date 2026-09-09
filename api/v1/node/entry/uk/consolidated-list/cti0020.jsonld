@@ -1,47 +1,65 @@
 {
-  "id": "https://www.ammitto.org/entry/uk/consolidated-list/cti0020",
-  "entity_id": "https://www.ammitto.org/entity/uk/cti0020",
+  "@id": "https://www.ammitto.org/entry/uk/consolidated-list/cti0020",
+  "@type": "SanctionEntry",
+  "entityId": "https://www.ammitto.org/entity/uk/cti0020",
   "authority": {
     "@id": "https://www.ammitto.org/authority/uk"
   },
   "regime": {
-    "@id": "https://www.ammitto.org/regime/the_counter_terrorism_international_sanctions_eu_exit_regulations_2019"
+    "@id": "https://www.ammitto.org/regime/the_counter_terrorism_international_sanctions_eu_exit_regulation",
+    "name": "The Counter-Terrorism (International Sanctions) (EU Exit) Regulations 2019"
   },
+  "legalBases": [
+
+  ],
   "effects": [
     {
-      "effect_type": "asset_freeze",
+      "@type": "SanctionEffect",
+      "effectType": "asset_freeze",
       "scope": "full"
     },
     {
-      "effect_type": "travel_ban",
+      "@type": "SanctionEffect",
+      "effectType": "travel_ban",
       "scope": "full"
     },
     {
-      "effect_type": "arms_embargo",
+      "@type": "SanctionEffect",
+      "effectType": "arms_embargo",
       "scope": "full"
     },
     {
-      "effect_type": "debarment",
+      "@type": "SanctionEffect",
+      "effectType": "debarment",
       "scope": "full"
     }
   ],
+  "reasons": [
+
+  ],
   "period": {
-    "listed_date": "2020-12-31",
-    "effective_date": "2020-12-31",
-    "is_indefinite": true,
-    "last_updated": "2025-04-09"
+    "@type": "TemporalPeriod",
+    "listedDate": "2020-12-31",
+    "effectiveDate": "2020-12-31",
+    "isIndefinite": true,
+    "lastUpdated": "2025-04-09"
   },
   "status": "active",
-  "reference_number": "CTI0020",
+  "statusHistory": [
+
+  ],
+  "referenceNumber": "CTI0020",
   "remarks": "\nRabah Tahari has been the leader of Kateeba Al Kawthar (KaK), a terrorist organisation linked to Al Qaida, since 2013. Tahari has travelled for the purposes of terrorism and is accused of recruiting and training foreign terrorist fighters.",
-  "raw_source_data": {
-    "source_format": "xml",
-    "source_specific_fields": {
+  "rawSourceData": {
+    "@type": "RawSourceData",
+    "sourceFormat": "xml",
+    "sourceSpecificFields": {
       "uk:ofsiGroupId": "13697",
+      "uk:unReferenceNumber": null,
       "uk:designationSource": "UK",
       "uk:sanctionsImposed": "Asset freeze|Arms embargo|Travel Ban|Director Disqualification Sanction",
       "uk:entityType": "Individual"
     }
   },
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

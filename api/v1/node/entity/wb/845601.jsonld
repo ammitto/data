@@ -1,25 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/845601",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/845601",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "T.E. USA, LTD.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "T.E. USA, LTD.",
+      "isPrimary": true
     }
   ],
-  "remarks": "(Reg. No. 13-4147986)*658",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/845601"
+  ],
+  "remarks": "(Reg. No. 13-4147986)*658",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "99 TULIP AVE",
       "city": "FLORAL PARK",
       "state": "NY",
       "country": "United States",
-      "country_iso_code": "US",
-      "postal_code": "11001"
+      "countryIsoCode": "US",
+      "postalCode": "11001"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

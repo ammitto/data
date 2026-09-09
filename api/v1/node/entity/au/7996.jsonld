@@ -1,56 +1,75 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7996",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7996",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Naim Qassem",
+      "@type": "NameVariant",
+      "fullName": "Naim Qassem",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Naim Kassem",
+      "@type": "NameVariant",
+      "fullName": "Naim Kassem",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Naim Qasim",
+      "@type": "NameVariant",
+      "fullName": "Naim Qasim",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Naʻīm Qāsim",
+      "@type": "NameVariant",
+      "fullName": "Naʻīm Qāsim",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Sheikh Naim Qassem",
+      "@type": "NameVariant",
+      "fullName": "Sheikh Naim Qassem",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "نعيم قاسم",
+      "@type": "NameVariant",
+      "fullName": "نعيم قاسم",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Listing: Charter of the United Nations (Listed Persons and Entities  Amendment (No. 1) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7996"
   ],
-  "birth_info": [
+  "remarks": "Listing: Charter of the United Nations (Listed Persons and Entities  Amendment (No. 1) Instrument 2025",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1953,
       "country": "Lebanon"
     }
   ],
   "nationalities": [
     "Lebanon"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Lebanon",
       "country": "Lebanon"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,33 +1,51 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/dpr0168",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/dpr0168",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "KOREAN NATIONAL INSURANCE CORPORATION (KNIC)",
+      "@type": "NameVariant",
+      "fullName": "KOREAN NATIONAL INSURANCE CORPORATION (KNIC)",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Korea Foreign Insurance Company",
+      "@type": "NameVariant",
+      "fullName": "Korea Foreign Insurance Company",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Korea National Insurance Corporation",
+      "@type": "NameVariant",
+      "fullName": "Korea National Insurance Corporation",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Korean National Insurance Company is a DPRK financial and insurance company and is affiliated with Office 39.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/dpr0168"
+  ],
+  "remarks": "The Korean National Insurance Company is a DPRK financial and insurance company and is affiliated with Office 39.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "city": "Central District",
       "state": "Pyongyang",
       "country": "North Korea"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

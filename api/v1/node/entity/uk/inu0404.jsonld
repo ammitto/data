@@ -1,22 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/inu0404",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/inu0404",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Pejman Industrial Services Corporation",
+      "@type": "NameVariant",
+      "fullName": "Pejman Industrial Services Corporation",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "Owned or controlled by, or acts on behalf of, SBIG.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/inu0404"
+  ],
+  "remarks": "Owned or controlled by, or acts on behalf of, SBIG.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "state": "Tehran",
       "country": "Iran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

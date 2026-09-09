@@ -1,27 +1,43 @@
 {
-  "id": "https://www.ammitto.org/entity/au/2106",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/2106",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Modern Technologies FZC",
+      "@type": "NameVariant",
+      "fullName": "Modern Technologies FZC",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "MTFZC",
+      "@type": "NameVariant",
+      "fullName": "MTFZC",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Listing: Designated under the Autonomous Sanctions Regulations 2011 on 2 March 2012 (F2012L00479). Relisted 12 January 2024",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/2106"
+  ],
+  "remarks": "Listing: Designated under the Autonomous Sanctions Regulations 2011 on 2 March 2012 (F2012L00479). Relisted 12 January 2024",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "PO Box 8032, Sharjah, United Arab Emirates",
       "country": "United Arab Emirates"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

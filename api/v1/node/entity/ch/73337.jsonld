@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/73337",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/73337",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Medvedev Vladimir Mikhailovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Medvedev Vladimir Mikhailovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/73337"
   ],
   "remarks": "Vladimir Medvedev is the Director of JSC GosNIIP (a.k.a. State Scientific Research Institute Of Instrument Making). JSC GosNIIP is a Russian military-industrial state enterprise that develops, inter alia, control systems for anti-submarine and cruise missiles deployed by the Russian Armed Forces. Moreover, JSC GosNIIP is a subsidiary of the Joint Stock Company Almaz-Antey air and space defence corporation, a Russian state-owned arms manufacturer that develops anti-aircraft weaponry and cruise missile systems for the Russian military.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1956-03-30",
-      "circa": false
+      "circa": false,
+      "year": 1956
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/11660",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/11660",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Muhammad Dib Zaytun",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Muhammad Dib Zaytun",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/11660"
   ],
   "remarks": "Director of the National Security Bureau since July 2019 under the former al-Assad regime. Former Head of the General Security Directorate; involved in violence against demonstrators.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1951-05-20",
-      "circa": false
+      "circa": false,
+      "year": 1951
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

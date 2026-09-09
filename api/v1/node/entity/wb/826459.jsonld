@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/826459",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/826459",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "EGIS EAU S.A.S.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "EGIS EAU S.A.S.",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/826459"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "15 AVENUE DU CENTRE, CS 20538 GUYANCOURT",
       "city": "78286 SAINT-QUENTIN-EN-YVELINES CEDEX",
       "country": "France",
-      "country_iso_code": "FR"
+      "countryIsoCode": "FR"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

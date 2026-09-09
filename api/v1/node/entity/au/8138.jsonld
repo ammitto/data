@@ -1,27 +1,43 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8138",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/8138",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Display Design Bureau Open Joint Stock Company",
+      "@type": "NameVariant",
+      "fullName": "Display Design Bureau Open Joint Stock Company",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Design Bureau \"Display\" JSC",
+      "@type": "NameVariant",
+      "fullName": "Design Bureau \"Display\" JSC",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "https://kbdisplay.by/; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8138"
+  ],
+  "remarks": "https://kbdisplay.by/; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Petrusya Brovki Street,13A, Vitebsk, Vitebsk Region 210039 Belarus",
       "country": "Vitebsk Region 210039 Belarus"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

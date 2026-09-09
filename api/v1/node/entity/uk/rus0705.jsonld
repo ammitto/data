@@ -1,22 +1,43 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus0705",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/rus0705",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "KNYRIK",
-      "first_name": "Konstantin",
+      "@type": "NameVariant",
+      "fullName": "KNYRIK",
+      "firstName": "Konstantin",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "КНЫРИК Константин Сергеевич",
+      "@type": "NameVariant",
+      "fullName": "КНЫРИК Константин Сергеевич",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus0705"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

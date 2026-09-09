@@ -1,38 +1,57 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3189",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/3189",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ri Chong-chol",
+      "@type": "NameVariant",
+      "fullName": "Ri Chong-chol",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Ri Jong Chol",
+      "@type": "NameVariant",
+      "fullName": "Ri Jong Chol",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ri Cho’ng Ch’ol",
+      "@type": "NameVariant",
+      "fullName": "Ri Cho’ng Ch’ol",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "221 General Bureau representative. Passport no.: 199110092; 472220503; 654220197.; Listing: The Minister for Foreign Affairs listed this person on 4 December 2019 under regulation 6(1) of the Autonomous Sanctions Regulations 2011 (AS Regulations). (Note: This was a re-listing of a previous designation made by the Minister under regulation 6(1) of the AS Regulations that was in effect from 27 November 2013 to 2 December 2019.) Relisted on 3 December 2022.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3189"
   ],
-  "birth_info": [
+  "remarks": "221 General Bureau representative. Passport no.: 199110092; 472220503; 654220197.; Listing: The Minister for Foreign Affairs listed this person on 4 December 2019 under regulation 6(1) of the Autonomous Sanctions Regulations 2011 (AS Regulations). (Note: This was a re-listing of a previous designation made by the Minister under regulation 6(1) of the AS Regulations that was in effect from 27 November 2013 to 2 December 2019.) Relisted on 3 December 2022.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1970,
       "country": "North Korea"
     }
   ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Pyongyang, North Korea",
       "country": "North Korea"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

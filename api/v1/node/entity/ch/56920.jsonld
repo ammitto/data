@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/56920",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/56920",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Solntsev Evgeniy Alexandrovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Solntsev Evgeniy Alexandrovich",
+      "isPrimary": true
     }
   ],
-  "remarks": "So-called “Deputy Chairman of the Government of the Donetsk People’s Republic” since 8 June 2022.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/56920"
+  ],
+  "remarks": "Former Chairman of the Government of the so-called “Donetsk People’s Republic”.",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1980
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

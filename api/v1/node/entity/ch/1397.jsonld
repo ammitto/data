@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/1397",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/1397",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Husam Muhammad Amin Al-Yassin",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Husam Muhammad Amin Al-Yassin",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/1397"
   ],
   "remarks": "Head, National Monitoring Directorate",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1953
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

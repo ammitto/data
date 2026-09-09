@@ -1,22 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/au/1887",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/1887",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Stojan Župljanin",
+      "@type": "NameVariant",
+      "fullName": "Stojan Župljanin",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "ICTY Indictee; Listing: Designated under the Autonomous Sanctions Regulations 2011 on 2 March 2012. Formerly listed on the RBA as 2009FRY0138. (Relisted on 12 January 2024)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/1887"
   ],
-  "birth_info": [
+  "remarks": "ICTY Indictee; Listing: Designated under the Autonomous Sanctions Regulations 2011 on 2 March 2012. Formerly listed on the RBA as 2009FRY0138. (Relisted on 12 January 2024)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1951,
       "country": "Maslovare"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,22 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/463024",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/wb/463024",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "WILNER JEAN",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "WILNER JEAN",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/463024"
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "19, RUE DESRAVINES, ROUTE MARIN, PLAINE DU CUL DE SAC",
       "city": "PORT-AU-PRINCE",
       "country": "Haiti",
-      "country_iso_code": "HT"
+      "countryIsoCode": "HT"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,32 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8101",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/8101",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Votkinsky Zavod Joint Stock Company",
+      "@type": "NameVariant",
+      "fullName": "Votkinsky Zavod Joint Stock Company",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Votkinsky Zavod JSC",
+      "@type": "NameVariant",
+      "fullName": "Votkinsky Zavod JSC",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Votkinsk Plant",
+      "@type": "NameVariant",
+      "fullName": "Votkinsk Plant",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "http://www.vzavod.ru; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8101"
+  ],
+  "remarks": "http://www.vzavod.ru; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Kirova St., Building 2, Votkinsk, Udmurt Republic 427430, Russia",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

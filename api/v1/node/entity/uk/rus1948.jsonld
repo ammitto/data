@@ -1,43 +1,62 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus1948",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus1948",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "LLC STAUT",
+      "@type": "NameVariant",
+      "fullName": "LLC STAUT",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Staut Company Limited",
+      "@type": "NameVariant",
+      "fullName": "Staut Company Limited",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Staut Design Center",
+      "@type": "NameVariant",
+      "fullName": "Staut Design Center",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "ООО СТАУТ",
+      "@type": "NameVariant",
+      "fullName": "ООО СТАУТ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus1948"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Litera B, Room no. 4, Floor 2, Office 1, Ul Moiseenko d.41",
       "state": "St Petersburg",
       "country": "Russia"
     },
     {
+      "@type": "Address",
       "street": "Pr-kt Obukhovskoi Oborony d. 123A, Pom. 20",
       "state": "Saint Petersburg",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

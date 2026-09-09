@@ -1,24 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3305",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/3305",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Habib HAWRANI",
+      "@type": "NameVariant",
+      "fullName": "Habib HAWRANI",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "Last known rank and position ‑ Colonel in the Scientific Studies and Research Center; Listing: Listed on: 17 Aug. 2017 (Relisted on 3 Aug. 2020 and 2 Aug. 2023)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3305"
   ],
-  "birth_info": [
+  "remarks": "Last known rank and position ‑ Colonel in the Scientific Studies and Research Center; Listing: Listed on: 17 Aug. 2017 (Relisted on 3 Aug. 2020 and 2 Aug. 2023)",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1969
     }
   ],
   "nationalities": [
     "Syria"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

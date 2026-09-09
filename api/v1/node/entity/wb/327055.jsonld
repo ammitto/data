@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/327055",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/327055",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "MINIMIX AGENCIES (MINIMIX)",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "MINIMIX AGENCIES (MINIMIX)",
+      "isPrimary": true
     }
   ],
-  "remarks": "*325",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/327055"
+  ],
+  "remarks": "*325",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "RIVERSIDE CLOSE, OPPOSITE OFFICE PARK, WESTLAND CITY",
       "city": "NAIROBI",
       "country": "Kenya",
-      "country_iso_code": "KE"
+      "countryIsoCode": "KE"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

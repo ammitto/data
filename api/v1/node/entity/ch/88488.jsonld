@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/88488",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/88488",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Zyuzin Igor Vladimirovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Zyuzin Igor Vladimirovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/88488"
   ],
   "remarks": "Igor Zyuzin is a Russian businessperson, with business interests in the iron ore and steel, coal and energy sectors. Igor Zyuzin is a major shareholder and Chairman of the Board of Directors of Mechel PAO, a major Russian mining and metals company engaging in up-stream and down-stream activities within the Russian mining, metals and energy sectors. In particular, Mechel PAO is one of the leading Russian coal export companies. Those economic sectors provide a substantial source of revenue to the Government of the Russian Federation.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1960-05-29",
-      "circa": false
+      "circa": false,
+      "year": 1960
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

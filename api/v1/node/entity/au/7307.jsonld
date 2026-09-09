@@ -1,46 +1,63 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7307",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7307",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Motlaq Amer Al-MARRANI",
+      "@type": "NameVariant",
+      "fullName": "Motlaq Amer Al-MARRANI",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Mutlaq Ali Aamer Al Marrani",
+      "@type": "NameVariant",
+      "fullName": "Mutlaq Ali Aamer Al Marrani",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abu Emad",
+      "@type": "NameVariant",
+      "fullName": "Abu Emad",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "مطلق عامر المراني",
+      "@type": "NameVariant",
+      "fullName": "مطلق عامر المراني",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "YEi.011. Former Deputy Head of the Houthi National Security Bureau (NSB), oversaw detainees of the NSB who were subjected to torture and other mistreatment while detained, planned and directed illegal arrests and detention of humanitarian workers and the unlawful diversion of humanitarian assistance in violation of international humanitarian law. Physical Description: Eye Color: Brown; Hair: Brown.; Listing: Listed by the 2140 Committee on 26 September 2022",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7307"
   ],
-  "birth_info": [
+  "remarks": "YEi.011. Former Deputy Head of the Houthi National Security Bureau (NSB), oversaw detainees of the NSB who were subjected to torture and other mistreatment while detained, planned and directed illegal arrests and detention of humanitarian workers and the unlawful diversion of humanitarian assistance in violation of international humanitarian law. Physical Description: Eye Color: Brown; Hair: Brown.; Listing: Listed by the 2140 Committee on 26 September 2022",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1984,
       "country": "Al-Jawf"
     }
   ],
   "nationalities": [
     "Yemen"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Yemen",
       "country": "Yemen"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

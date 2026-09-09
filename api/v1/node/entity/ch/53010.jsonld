@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/53010",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/53010",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Tikhonova Ekaterina Vladimirovna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Tikhonova Ekaterina Vladimirovna",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/53010"
   ],
   "remarks": "Ekaterina Vladimirovna Tikhonova is the daughter of President Vladimir Putin. She has been Head of the new artificial intelligence institute at Moscow State University, funded with state funds. She currently heads the Innopraktika development initiative, funded by key Russian companies whose directors are members of the inner circle of oligarchs close to President Putin. She is also co-chair of the coordinating council for import substitutions at the Russian Union of Industrialists and Entrepreneurs.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1986-08-31",
-      "circa": false
+      "circa": false,
+      "year": 1986
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

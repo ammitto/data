@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/63374",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/63374",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Zlatopolskiy Anton Andreevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Zlatopolskiy Anton Andreevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/63374"
   ],
   "remarks": "Anton Zlatopolskiy is the First Deputy Director General of All-Russia Television and Radio Broadcasting Company (VGTRK), Russia’s largest media corporation. He is also a long-term Director General of Rossiya 1 TV Channel. During the war of aggression against Ukraine, TV channels and other parts of the VGTRK holding have been among the most active and important instruments in spreading the Kremlin’s narrative and supporting the war with aggressive commentaries and unverified information.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1966-09-12",
-      "circa": false
+      "circa": false,
+      "year": 1966
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

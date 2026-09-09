@@ -1,62 +1,85 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus2658",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus2658",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "JOINT STOCK COMPANY VOLGOGRAD METALLURGICAL PLANT \"RED OCTOBER\"   ",
+      "@type": "NameVariant",
+      "fullName": "JOINT STOCK COMPANY VOLGOGRAD METALLURGICAL PLANT \"RED OCTOBER\"   ",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Aktsionernoe Obshchestvo Volgomashzavod ",
+      "@type": "NameVariant",
+      "fullName": "Aktsionernoe Obshchestvo Volgomashzavod ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "AO VMZ",
+      "@type": "NameVariant",
+      "fullName": "AO VMZ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "JSC \"Red October Corporation\"",
+      "@type": "NameVariant",
+      "fullName": "JSC \"Red October Corporation\"",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "JSC VMZ",
+      "@type": "NameVariant",
+      "fullName": "JSC VMZ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "JSC VMZ Red October",
+      "@type": "NameVariant",
+      "fullName": "JSC VMZ Red October",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Krasny Oktyabr",
+      "@type": "NameVariant",
+      "fullName": "Krasny Oktyabr",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Open Joint Stock Company Volograd Metallurgical Plant Krasny Oktyabr  ",
+      "@type": "NameVariant",
+      "fullName": "Open Joint Stock Company Volograd Metallurgical Plant Krasny Oktyabr  ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "АКЦИОНЕРНОЕ ОБЩЕСТВО \"ВОЛГОГРАДСКИЙ МЕТАЛЛУРГИЧЕСКИЙ ЗАВОД \"КРАСНЫЙ ОКТЯБРЬ\" ",
+      "@type": "NameVariant",
+      "fullName": "АКЦИОНЕРНОЕ ОБЩЕСТВО \"ВОЛГОГРАДСКИЙ МЕТАЛЛУРГИЧЕСКИЙ ЗАВОД \"КРАСНЫЙ ОКТЯБРЬ\" ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus2658"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Lenin Ave, 114b",
       "state": "Volgorad",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

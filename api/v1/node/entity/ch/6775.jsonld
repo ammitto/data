@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/6775",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/6775",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mushohwe Christopher Chindoti",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Mushohwe Christopher Chindoti",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/6775"
   ],
   "remarks": "Provincial Governor associated with ZANU-PF. In February 2009 accompanied by soldiers told the Chiadzwa community they would be relocated without compensation.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1954-02-06",
-      "circa": false
+      "circa": false,
+      "year": 1954
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

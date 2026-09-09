@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/46026",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/46026",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Auramenka Aliaksei Mikalaevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Auramenka Aliaksei Mikalaevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/46026"
   ],
   "remarks": "In his position as Minister of Transport and Communications of Belarus, Aliaksei Auramenka is responsible for the state management in the sphere of civil aviation and supervision of air traffic control. He therefore bears responsibility for diverting passenger flight FR4978 to Minsk airport without proper justification on 23 May 2021. This politically motivated decision was aimed at arresting and detaining opposition journalist Raman Pratasevich and Sofia Sapega and is a form of repression against civil society and democratic opposition in Belarus. He is therefore responsible for repression of civil society and democratic opposition.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1977-05-11",
-      "circa": false
+      "circa": false,
+      "year": 1977
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,21 +1,36 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/112993",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/112993",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "MANDEEP S. SANDHU",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "MANDEEP S. SANDHU",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/112993"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "state": "NJ",
       "country": "United States",
-      "country_iso_code": "US"
+      "countryIsoCode": "US"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

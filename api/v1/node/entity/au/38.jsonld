@@ -1,58 +1,81 @@
 {
-  "id": "https://www.ammitto.org/entity/au/38",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/38",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Abdul Baqi Basir Awal Shah",
+      "@type": "NameVariant",
+      "fullName": "Abdul Baqi Basir Awal Shah",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "عبدالباقی ﺑصیراول شاه",
+      "@type": "NameVariant",
+      "fullName": "عبدالباقی ﺑصیراول شاه",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abdul Baqi (previously listed as)",
+      "@type": "NameVariant",
+      "fullName": "Abdul Baqi (previously listed as)",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "ABDUL BAQI HAQQANI",
+      "@type": "NameVariant",
+      "fullName": "ABDUL BAQI HAQQANI",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "TAi.038.  Title: a) Maulavi b) Mullah. Designation: a) Governor of Khost and Paktika provinces under the Taliban regime (1996-2001) b) Vice-Minister of Information and Culture under the Taliban regime c) Consulate Dept., Ministry of Foreign Affairs under the Taliban regime (1996-2001).  Passport no: Afghanistan diplomatic passport D0009724, issued on 13 Oct. 2021 in Kabul, Afghanistan (Name in Latin script: Abdul Baqi Haqqani; name in original script: عبدالباقي حقاني). Taliban member responsible for Nangarhar Province as at 2009. Until 7 Sept. 2007 he was also listed under number TAi.048. Height 175 cm.; Listing: Listed on 23 February 2001 (amended on 3 Sep 2003, 7 Sept 2007, 21 Sep. 2007, 29 Nov 2011 and 13 Aug 2012, 10 Mar. 2026)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/38"
   ],
-  "birth_info": [
+  "remarks": "TAi.038.  Title: a) Maulavi b) Mullah. Designation: a) Governor of Khost and Paktika provinces under the Taliban regime (1996-2001) b) Vice-Minister of Information and Culture under the Taliban regime c) Consulate Dept., Ministry of Foreign Affairs under the Taliban regime (1996-2001).  Passport no: Afghanistan diplomatic passport D0009724, issued on 13 Oct. 2021 in Kabul, Afghanistan (Name in Latin script: Abdul Baqi Haqqani; name in original script: عبدالباقي حقاني). Taliban member responsible for Nangarhar Province as at 2009. Until 7 Sept. 2007 he was also listed under number TAi.048. Height 175 cm.; Listing: Listed on 23 February 2001 (amended on 3 Sep 2003, 7 Sept 2007, 21 Sep. 2007, 29 Nov 2011 and 13 Aug 2012, 10 Mar. 2026)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1960,
       "country": "a) Jalalabad City"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1961,
       "country": "Nangarhar province"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1962,
       "country": "Afghanistan b) Shinwar District"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1967,
       "country": "Nangarhar Province"
     }
   ],
   "nationalities": [
     "Afghanistan"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Afshar Main road Police District 5 near Kabul Education University, Kabul, Afghanistan",
       "country": "Afghanistan"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

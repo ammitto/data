@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7469",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/7469",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "LLC RT-Komplekt ",
+      "@type": "NameVariant",
+      "fullName": "LLC RT-Komplekt ",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "State registration number: 1042307154548 ; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 2) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7469"
+  ],
+  "remarks": "State registration number: 1042307154548 ; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 2) Instrument 2023",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "st. Fadeeva 429/1, Krasnodar, 350912, Russia ",
       "country": "Russia "
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

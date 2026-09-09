@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/5142",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/5142",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Lukashenka Dzmitry Aliaksandravich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Lukashenka Dzmitry Aliaksandravich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/5142"
   ],
   "remarks": "Businessman, with active participation in financial operations involving the Lukashenka family. Chairman of the Presidential Sports Club.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1980-03-23",
-      "circa": false
+      "circa": false,
+      "year": 1980
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

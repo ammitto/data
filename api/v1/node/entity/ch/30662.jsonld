@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/30662",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/30662",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Emad Hamsho",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Emad Hamsho",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/30662"
   ],
   "remarks": "Occupies a senior management position in Hamsho Trading. As a result of his senior position in Hamsho Trading, a subsidiary of Hamsho International, which has been designated by the Council, he provides support to the former al-Assad regime and is associated with that entity.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1960-08-10",
-      "circa": false
+      "circa": false,
+      "year": 1960
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

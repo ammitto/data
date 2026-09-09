@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/6506",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/6506",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mangwana Paul Munyaradzi",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Mangwana Paul Munyaradzi",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/6506"
   ],
   "remarks": "ZANU-PF Member of the Government. Sponsored and directed activities of ZANU-PF terror gangs in Chivi Central in May/June 2008.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1961-08-10",
-      "circa": false
+      "circa": false,
+      "year": 1961
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

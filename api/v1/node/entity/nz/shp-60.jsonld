@@ -1,18 +1,34 @@
 {
-  "id": "https://www.ammitto.org/entity/nz/shp-60",
-  "entity_type": "vessel",
+  "@id": "https://www.ammitto.org/entity/nz/shp-60",
+  "@type": "VesselEntity",
+  "entityType": "vessel",
   "names": [
     {
-      "full_name": "Blue",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Blue",
+      "isPrimary": true
     }
   ],
-  "source_references": [
+  "sourceReferences": [
     {
-      "source_code": "nz",
-      "reference_number": "SHP-60"
+      "@type": "SourceReference",
+      "sourceCode": "nz",
+      "referenceNumber": "SHP-60",
+      "retrievedAt": "2026-09-09T16:30:45Z"
     }
   ],
-  "imo_number": "9236353",
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "linkedEntities": [
+
+  ],
+  "imoNumber": "9236353",
+  "previousNames": [
+
+  ],
+  "previousFlags": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/nz/consolidated-list/shp-60"
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

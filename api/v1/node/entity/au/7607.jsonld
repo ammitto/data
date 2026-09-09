@@ -1,45 +1,66 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7607",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7607",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Sergey Vadimovich ABISOV",
+      "@type": "NameVariant",
+      "fullName": "Sergey Vadimovich ABISOV",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Sergiy Vadymovych ABISOV",
+      "@type": "NameVariant",
+      "fullName": "Sergiy Vadymovych ABISOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Serhiy Vadymovych ABISOV",
+      "@type": "NameVariant",
+      "fullName": "Serhiy Vadymovych ABISOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Serhii Vadymovych ABISOV",
+      "@type": "NameVariant",
+      "fullName": "Serhii Vadymovych ABISOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Sergey Vladimovich ABISOV",
+      "@type": "NameVariant",
+      "fullName": "Sergey Vladimovich ABISOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Previously listed under 'Ukraine criteria' - Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Ukraine) Amendment List 2014 [F2014L01184]; New listing start date 27 Aug 2023; Listing: Instrument of first designation: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 10) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7607"
   ],
-  "birth_info": [
+  "remarks": "Previously listed under 'Ukraine criteria' - Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Ukraine) Amendment List 2014 [F2014L01184]; New listing start date 27 Aug 2023; Listing: Instrument of first designation: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 10) Instrument 2023",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1967,
       "country": "Simferopol"
     }
   ],
   "nationalities": [
-    "Russia;Ukraine"
+    "Russia",
+    "Ukraine"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

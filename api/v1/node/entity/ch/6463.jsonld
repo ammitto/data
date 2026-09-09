@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/6463",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/6463",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Machaya Jason Max Kokerai",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Machaya Jason Max Kokerai",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/6463"
   ],
   "remarks": "Provincial Governor: Midlands. Associated with ZANU-PF faction of Government. Used influence to block investigation into politically motivated murder which his son allegedly committed.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1952-06-13",
-      "circa": false
+      "circa": false,
+      "year": 1952
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

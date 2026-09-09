@@ -1,29 +1,46 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8201",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/8201",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Shaimiev Radik MINTIMEROVICH",
+      "@type": "NameVariant",
+      "fullName": "Shaimiev Radik MINTIMEROVICH",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Radii Mintemerovich SHAYMIYEV",
+      "@type": "NameVariant",
+      "fullName": "Radii Mintemerovich SHAYMIYEV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Co-Owner of Sibur-RT JSC; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 4) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8201"
   ],
-  "birth_info": [
+  "remarks": "Co-Owner of Sibur-RT JSC; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 4) Instrument 2025",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1964
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

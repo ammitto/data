@@ -1,34 +1,52 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8188",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/8188",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Alexey Sergeyevich GORESLAVSKY",
+      "@type": "NameVariant",
+      "fullName": "Alexey Sergeyevich GORESLAVSKY",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Aleksey Sergeevich GORESLAVSKIY",
+      "@type": "NameVariant",
+      "fullName": "Aleksey Sergeevich GORESLAVSKIY",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Alexey Sergeevich GORESLAVSKIY",
+      "@type": "NameVariant",
+      "fullName": "Alexey Sergeevich GORESLAVSKIY",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 3) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8188"
   ],
-  "birth_info": [
+  "remarks": "Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 3) Instrument 2025",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1977
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

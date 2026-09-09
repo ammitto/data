@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/22439",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/22439",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ali Hadar",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Ali Hadar",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/22439"
   ],
   "remarks": "Head of the National Reconciliation Agency and former State Minister for National Reconciliation Affairs under the former al-Assad regime. Chair of the Intifada wing of the Syrian Social Nationalist Party. As a former Government Minister, shares responsibility for the former al-Assad regime’s violent repression of the civilian population.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1962-07-21",
-      "circa": false
+      "circa": false,
+      "year": 1962
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

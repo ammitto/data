@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/59145",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/59145",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Goremiykin Viktor Petrovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Goremiykin Viktor Petrovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/59145"
   ],
   "remarks": "Viktor Petrovich Goremykin is the Deputy Minister of Defence of the Russian Federation and Head of the Main Military-Political Directorate of the Armed Forces of the Russian Federation, which is the central military-political management body carrying out military patriotic work in the Armed Forces of the Russian Federation. He is also a Member of the Collegium of the Ministry of Defence of Russia and former Head of the main personnel department of the Armed Forces of the Russian Federation.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1959-02-04",
-      "circa": false
+      "circa": false,
+      "year": 1959
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

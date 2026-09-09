@@ -1,49 +1,72 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8586",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/8586",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mohammad Reza Fallahzadeh",
+      "@type": "NameVariant",
+      "fullName": "Mohammad Reza Fallahzadeh",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Abu Bagher",
+      "@type": "NameVariant",
+      "fullName": "Abu Bagher",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abu Baqer",
+      "@type": "NameVariant",
+      "fullName": "Abu Baqer",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abu Fatemeh",
+      "@type": "NameVariant",
+      "fullName": "Abu Fatemeh",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Iran) List 2012",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8586"
   ],
-  "birth_info": [
+  "remarks": "Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Iran) List 2012",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1962,
       "country": "Yazd"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1963,
       "country": "Iran"
     },
     {
+      "@type": "BirthInfo",
       "date": "1961-12-31",
       "circa": false,
+      "year": 1961,
       "country": "Yazd"
     }
   ],
   "nationalities": [
     "Iran"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

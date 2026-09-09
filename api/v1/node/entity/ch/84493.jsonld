@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/84493",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/84493",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Zaurbek Salimovich Guchaev",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Zaurbek Salimovich Guchaev",
+      "isPrimary": true
     }
   ],
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/84493"
+  ],
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1975-09-07",
-      "circa": false
+      "circa": false,
+      "year": 1975
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

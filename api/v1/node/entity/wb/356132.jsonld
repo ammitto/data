@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/356132",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/356132",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "INVEPAR CONSTRUTORA LTDA - ME",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "INVEPAR CONSTRUTORA LTDA - ME",
+      "isPrimary": true
     }
   ],
-  "remarks": "(CNPJ: 20.182.043/0001-42)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/356132"
+  ],
+  "remarks": "(CNPJ: 20.182.043/0001-42)",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "LOT 97 PHASE 2, LETHEM, RUPUNINI",
       "city": "REGION NO. 9, ESSEQUIBO",
       "country": "Guyana",
-      "country_iso_code": "GY"
+      "countryIsoCode": "GY"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

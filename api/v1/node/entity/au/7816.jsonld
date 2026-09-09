@@ -1,44 +1,64 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7816",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7816",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Hossein TAEB",
+      "@type": "NameVariant",
+      "fullName": "Hossein TAEB",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Hassan TAEB",
+      "@type": "NameVariant",
+      "fullName": "Hassan TAEB",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Hosein TAEB",
+      "@type": "NameVariant",
+      "fullName": "Hosein TAEB",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Hussayn TAEB",
+      "@type": "NameVariant",
+      "fullName": "Hussayn TAEB",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Hojjatoleslam Hossein TA'EB",
+      "@type": "NameVariant",
+      "fullName": "Hojjatoleslam Hossein TA'EB",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Previously listed under Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Syria) List 2012 [F2012L00482].; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Iran) Amendment (No. 3) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7816"
   ],
-  "birth_info": [
+  "remarks": "Previously listed under Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Syria) List 2012 [F2012L00482].; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Iran) Amendment (No. 3) Instrument 2023",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1963
     }
   ],
   "nationalities": [
     "Iran"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

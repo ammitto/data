@@ -1,31 +1,53 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/som0016",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/som0016",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Abdi",
-      "first_name": "Abdifatah",
+      "@type": "NameVariant",
+      "fullName": "Abdi",
+      "firstName": "Abdifatah",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Muhajir",
-      "first_name": "Musa",
+      "@type": "NameVariant",
+      "fullName": "Muhajir",
+      "firstName": "Musa",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/som0016"
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "country": "Somalia"
     },
     {
+      "@type": "Address",
+      "street": "",
       "state": "Mombasa",
       "country": "Kenya"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

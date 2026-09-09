@@ -1,36 +1,51 @@
 {
-  "id": "https://www.ammitto.org/entity/au/703",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/703",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "RANA SADDAM HUSSEIN AL-TIKRITI",
+      "@type": "NameVariant",
+      "fullName": "RANA SADDAM HUSSEIN AL-TIKRITI",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "رنا صدام حسين التكريتي",
+      "@type": "NameVariant",
+      "fullName": "رنا صدام حسين التكريتي",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "IQi.058; Listing: Listed by the 1518 Committee",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/703"
   ],
-  "birth_info": [
+  "remarks": "IQi.058; Listing: Listed by the 1518 Committee",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1969,
       "country": "Iraq"
     }
   ],
   "nationalities": [
     "Iraq"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Amman, Jordan",
       "country": "Jordan"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

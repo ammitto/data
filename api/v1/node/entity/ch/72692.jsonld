@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/72692",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/72692",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Galimov Robert Rishatovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Galimov Robert Rishatovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/72692"
   ],
   "remarks": "Robert Galimov is currently the General Director of JSC “BPO Progress” since 31 March 2025. Robert Galimov previously held the position of General Director of the JSC Serov Mechanical Plant, which produces equipment for oil and gas production, geological exploration and mining. JSC Serov Mechanical Plant is very important because it is one of the leading suppliers of oil drilling and production equipment to major Russia oil companies such as Lukoil, Gazpromneft and Rosneft. In addition to its important role in the Russian fossil fuel industry, JSC Serov Mechanical Plant produces special products under the Russian state defence orders. The plant produces 152 mm calibre projectile casings for the Koalitsiya-SV self-propelled artillery used by Russia in the war against Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1975-03-10",
-      "circa": false
+      "circa": false,
+      "year": 1975
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

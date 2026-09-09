@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/936657",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/936657",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "VIVA ATLANTIC LIMITED",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "VIVA ATLANTIC LIMITED",
+      "isPrimary": true
     }
   ],
-  "remarks": "*680",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/936657"
+  ],
+  "remarks": "*680",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "12 LIBREVILLE STREET, WUSE 2",
       "city": "ABUJA",
       "country": "Nigeria",
-      "country_iso_code": "NG"
+      "countryIsoCode": "NG"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

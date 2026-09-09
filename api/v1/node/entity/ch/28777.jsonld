@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/28777",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/28777",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Suhayl Hassan",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Suhayl Hassan",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/28777"
   ],
   "remarks": "Officer of the rank of Major-General in the Syrian Army under the former al-Assad regime after May 2011. Commander of army division known as “Tiger Forces”. Since August 2019, “Tiger Forces” has been renamed “Division 25 Special Mission Forces” and placed under the army’s central command. Responsible for the violent repression of the civilian population in Syria.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1970-06-10",
-      "circa": false
+      "circa": false,
+      "year": 1970
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

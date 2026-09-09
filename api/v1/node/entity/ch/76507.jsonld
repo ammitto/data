@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/76507",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/76507",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kontserev Mikhail Rudolfovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kontserev Mikhail Rudolfovich",
+      "isPrimary": true
     }
   ],
-  "remarks": "Mikhail Kontserev is the General Director of Public Joint Stock Company (PJSC) TransContainer. PJSC TransContainer is a Russian transportation company and Russia’s largest railway container operator, a continuously growing economic sector in Russia. PJSC TransContainer’s revenues have increased since 2023. As General Director, Mikhail Kontserev is therefore involved in an economic sector providing a substantial source of revenue to the Government of the Russian Federation.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/76507"
+  ],
+  "remarks": "Mikhail Kontserev is the General Director of Public Joint Stock Company (PJSC) TransContainer. PJSC TransContainer is a Russian transportation company and Russia’s largest railway container operator, a continuously growing economic sector in Russia. As General Director, Mikhail Kontserev is therefore involved in an economic sector providing a substantial source of revenue to the Government of the Russian Federation.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1970-06-11",
-      "circa": false
+      "circa": false,
+      "year": 1970
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

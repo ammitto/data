@@ -1,105 +1,135 @@
 {
-  "id": "https://www.ammitto.org/entity/au/1140",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/1140",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Yasin Ali Baynah",
+      "@type": "NameVariant",
+      "fullName": "Yasin Ali Baynah",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "ALI, Yasin Baynah",
+      "@type": "NameVariant",
+      "fullName": "ALI, Yasin Baynah",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "ALI, Yassin Mohamed",
+      "@type": "NameVariant",
+      "fullName": "ALI, Yassin Mohamed",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "BAYNAH, Yasin",
+      "@type": "NameVariant",
+      "fullName": "BAYNAH, Yasin",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "BAYNAH, Yassin",
+      "@type": "NameVariant",
+      "fullName": "BAYNAH, Yassin",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "BAYNAX, Yasiin Cali",
+      "@type": "NameVariant",
+      "fullName": "BAYNAX, Yasiin Cali",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "BEENAH, Yasin",
+      "@type": "NameVariant",
+      "fullName": "BEENAH, Yasin",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "BEENAH, Yassin",
+      "@type": "NameVariant",
+      "fullName": "BEENAH, Yassin",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "BEENAX, Yasin",
+      "@type": "NameVariant",
+      "fullName": "BEENAX, Yasin",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "BEENAX, Yassin",
+      "@type": "NameVariant",
+      "fullName": "BEENAX, Yassin",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "BENAH, Yasin",
+      "@type": "NameVariant",
+      "fullName": "BENAH, Yasin",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "BENAH, Yassin",
+      "@type": "NameVariant",
+      "fullName": "BENAH, Yassin",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "BENAX, Yassin",
+      "@type": "NameVariant",
+      "fullName": "BENAX, Yassin",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "BEYNAH, Yasin",
+      "@type": "NameVariant",
+      "fullName": "BEYNAH, Yasin",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "BINAH, Yassin",
+      "@type": "NameVariant",
+      "fullName": "BINAH, Yassin",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "CALI, Yasiin Baynax",
+      "@type": "NameVariant",
+      "fullName": "CALI, Yasiin Baynax",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "SOi.001.; Listing: Listed by UN 751 Committee on 12 April 2010",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/1140"
   ],
-  "birth_info": [
+  "remarks": "SOi.001.; Listing: Listed by UN 751 Committee on 12 April 2010",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1965
     }
   ],
   "nationalities": [
-    "Somalia;Sweden"
+    "Somalia",
+    "Sweden"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Rinkeby, Stockholm, Sweden; Mogadishu, Somalia",
       "country": "Somalia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

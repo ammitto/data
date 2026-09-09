@@ -1,0 +1,42 @@
+{
+  "@id": "https://www.ammitto.org/entry/us/sdn-list/4700",
+  "@type": "SanctionEntry",
+  "entityId": "https://www.ammitto.org/entity/us/4700",
+  "authority": {
+    "@id": "https://www.ammitto.org/authority/us"
+  },
+  "regime": {
+    "@id": "https://www.ammitto.org/regime/sdgt",
+    "name": "Specially Designated Global Terrorist"
+  },
+  "legalBases": [
+
+  ],
+  "effects": [
+    {
+      "@type": "SanctionEffect",
+      "effectType": "asset_freeze",
+      "scope": "full"
+    }
+  ],
+  "reasons": [
+
+  ],
+  "status": "active",
+  "statusHistory": [
+
+  ],
+  "referenceNumber": "4700",
+  "rawSourceData": {
+    "@type": "RawSourceData",
+    "sourceFormat": "xml",
+    "sourceSpecificFields": {
+      "us:sdnType": "Entity",
+      "us:programs": [
+        "SDGT"
+      ],
+      "us:title": null
+    }
+  },
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
+}

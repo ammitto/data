@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/188885",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/188885",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "SUGDIYON-1 CO. LTD.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "SUGDIYON-1 CO. LTD.",
+      "isPrimary": true
     }
   ],
-  "remarks": "*87   as a successor or assign to Sugdiyon Limited Liability Company. Lic. Series XT-8 #0003127 Tax ID No. 300001499",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/188885"
+  ],
+  "remarks": "*87   as a successor or assign to Sugdiyon Limited Liability Company. Lic. Series XT-8 #0003127 Tax ID No. 300001499",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "163 KHAKHRINAU STREET, GARAUTY SETTLEMENT, DZHILIKUL DISTRICT, KHATLON PROVINCE",
       "country": "Tajikistan",
-      "country_iso_code": "TJ"
+      "countryIsoCode": "TJ"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

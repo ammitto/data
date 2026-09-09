@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/47984",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/47984",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Shuvalov Igor Ivanovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Shuvalov Igor Ivanovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/47984"
   ],
   "remarks": "Igor Ivanovich Shuvalov is the chairman of State Development Corporation VEB.RF, which operates in the occupied regions of Ukraine under Russian control, and is involved in projects either implemented or fostered by the Russian Government. He was previously a First Deputy Prime Minister of Russia and a member of the Council of the Eurasian Economic Commission. In his capacity of First Deputy Prime Minister, he made remarks stating that Russia would change budget rules to reflect an additional two million in population after the illegal annexation of Crimea by the Russian Federation.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1967-01-04",
-      "circa": false
+      "circa": false,
+      "year": 1967
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

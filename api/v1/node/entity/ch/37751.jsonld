@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/37751",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/37751",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Pak Bong Nam",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Pak Bong Nam",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/37751"
   ],
   "remarks": "Pak Bong Nam is an overseas Ilsim International Bank representative.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1969-05-06",
-      "circa": false
+      "circa": false,
+      "year": 1969
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

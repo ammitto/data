@@ -1,39 +1,63 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/bel0170",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/bel0170",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "KARPENKO",
-      "first_name": "Igor",
+      "@type": "NameVariant",
+      "fullName": "KARPENKO",
+      "firstName": "Igor",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "KARPENKA ",
-      "first_name": "Igor",
+      "@type": "NameVariant",
+      "fullName": "KARPENKA ",
+      "firstName": "Igor",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "KARPENKO",
-      "first_name": "Igor",
+      "@type": "NameVariant",
+      "fullName": "KARPENKO",
+      "firstName": "Igor",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Игорь Васильевич КАРПЕНКО ",
+      "@type": "NameVariant",
+      "fullName": "Игорь Васильевич КАРПЕНКО ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ігар Васільевіч КАРПЕНКА",
+      "@type": "NameVariant",
+      "fullName": "Ігар Васільевіч КАРПЕНКА",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/bel0170"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

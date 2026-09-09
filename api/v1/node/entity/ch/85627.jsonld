@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/85627",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/85627",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Maiko Iryna Leanidauna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Maiko Iryna Leanidauna",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/85627"
   ],
   "remarks": "Iryna Maiko is a Belarusian judge of the Minsk Regional Court. She was appointed by Aliaksandr Lukashenka. She issued sentences against citizens who voiced their opinions against the President and the regime’s authorities, e.g. Roman Yankouski and Mikhail Nemtsov, for the dissent they expressed on social media and offline.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1974-11-25",
-      "circa": false
+      "circa": false,
+      "year": 1974
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

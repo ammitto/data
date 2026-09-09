@@ -1,32 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus2640",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus2640",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "PIONEER TRADE LLC ",
+      "@type": "NameVariant",
+      "fullName": "PIONEER TRADE LLC ",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "LLC Pioneer Trade ",
+      "@type": "NameVariant",
+      "fullName": "LLC Pioneer Trade ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "ООО \"ПИОНЕР ТРЕЙД\"  ",
+      "@type": "NameVariant",
+      "fullName": "ООО \"ПИОНЕР ТРЕЙД\"  ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus2640"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Office 312, Building. 45, Stroiteley Avenue, Altai Territory",
       "state": "Barnaul",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/45340",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/45340",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Tin Aung San",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Tin Aung San",
+      "isPrimary": true
     }
   ],
-  "remarks": "Admiral Tin Aung San is the Commander-in-Chief of the Myanmar Navy, a member of the State Administration Council (SAC) and Minister for the Office of Prime Minister. Previously, he served as Minister of Transport and Communication and as Minister of Defence.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/45340"
+  ],
+  "remarks": "Admiral Tin Aung San is the Commander-in-Chief of the Myanmar Navy and Minister for the Office of Prime Minister. He was a member of the State Administration Council (SAC) until its dissolution on 31 July 2025. Since 5 August 2025, he has also been serving as National Security Advisor. Previously, he served as Minister of Transport and Communication and as Minister of Defence.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1960-10-16",
-      "circa": false
+      "circa": false,
+      "year": 1960
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

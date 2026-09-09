@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/78207",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/78207",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ardakani Hossein Hatefi",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Ardakani Hossein Hatefi",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/78207"
   ],
   "remarks": "Hossein Hatefi Ardakani serves as chairperson of the board of directors and is a shareholder of Iran-based and EU-listed Kavan Electronics Behrad LLC.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1985-09-21",
-      "circa": false
+      "circa": false,
+      "year": 1985
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/60467",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/60467",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Primakov Yevgeny Alexandrovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Primakov Yevgeny Alexandrovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/60467"
   ],
   "remarks": "Yevgeny Primakov is the Head of the Federal Agency for the Commonwealth of Independent States, Compatriots Living Abroad and International Humanitarian Cooperation (Rossotrudnichestvo), a federal executive body responsible for rendering state services and managing state property to support and develop international relations between the Russian Federation and the member-states of the Commonwealth of Independent States and other foreign countries, as well as in the sphere of international humanitarian cooperation.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1976-04-29",
-      "circa": false
+      "circa": false,
+      "year": 1976
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

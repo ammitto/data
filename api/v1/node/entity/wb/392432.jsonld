@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/392432",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/392432",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "WENZHOU OUHAI NANHU ROAD ENGINEERING CONSTRUCTION CO., LTD.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "WENZHOU OUHAI NANHU ROAD ENGINEERING CONSTRUCTION CO., LTD.",
+      "isPrimary": true
     }
   ],
-  "remarks": "(温州瓯海南湖路工程建设有限公司)*457",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/392432"
+  ],
+  "remarks": "(温州瓯海南湖路工程建设有限公司)*457",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "ROOM 603, FLOOR 6, RAILWAY MANSION, WENZHOU AVENUE",
       "city": "WENZHOU CITY, ZHEJIANG PROVINCE",
       "country": "China",
-      "country_iso_code": "CN"
+      "countryIsoCode": "CN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

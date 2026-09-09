@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/1233",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/1233",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Rafi Abd-al-Latif Tilfah Al-Tikriti",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Rafi Abd-al-Latif Tilfah Al-Tikriti",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/1233"
   ],
   "remarks": "Director Of Directorate Of General Security",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1954
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

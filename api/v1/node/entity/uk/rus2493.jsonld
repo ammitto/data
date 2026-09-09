@@ -1,43 +1,62 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus2493",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus2493",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "POLY TECHNOLOGIES, INC",
+      "@type": "NameVariant",
+      "fullName": "POLY TECHNOLOGIES, INC",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Poly Technologies Incorporated",
+      "@type": "NameVariant",
+      "fullName": "Poly Technologies Incorporated",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Polytech",
+      "@type": "NameVariant",
+      "fullName": "Polytech",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "PTI",
+      "@type": "NameVariant",
+      "fullName": "PTI",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "保利科技有限公司",
+      "@type": "NameVariant",
+      "fullName": "保利科技有限公司",
       "script": "Hani",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus2493"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "27/F, New Poly Plaza,, No.1 Chaoyangmen Beidajie, Dongcheng District",
       "state": "Beijing",
       "country": "China"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

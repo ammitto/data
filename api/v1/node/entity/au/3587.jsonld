@@ -1,54 +1,75 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3587",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/3587",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "ABDULPATTA ESCALON ABUBAKAR",
+      "@type": "NameVariant",
+      "fullName": "ABDULPATTA ESCALON ABUBAKAR",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Abdulpatta Abubakar Escalon",
+      "@type": "NameVariant",
+      "fullName": "Abdulpatta Abubakar Escalon",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abdul Patta Escalon Abubakar",
+      "@type": "NameVariant",
+      "fullName": "Abdul Patta Escalon Abubakar",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abdul Patta Abu Bakar",
+      "@type": "NameVariant",
+      "fullName": "Abdul Patta Abu Bakar",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Passport no: a) Philippines number EC6530802 (expires 19 Jan. 2021) b) Philippines number EB2778599.\nNational identification no: a) Saudi Arabia 2135314355 b) Saudi Arabia 202112421. Facilitator for the Islamic State in Iraq and the Levant (ISIL), listed as Al-Qaida in Iraq (QDe.115). Gender: male. Review pursuant to Security Council resolution 2610 (2021) was concluded on 30 October 2023.; Listing: Listed on: 18 Jun. 2018",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3587"
   ],
-  "birth_info": [
+  "remarks": "Passport no: a) Philippines number EC6530802 (expires 19 Jan. 2021) b) Philippines number EB2778599.\nNational identification no: a) Saudi Arabia 2135314355 b) Saudi Arabia 202112421. Facilitator for the Islamic State in Iraq and the Levant (ISIL), listed as Al-Qaida in Iraq (QDe.115). Gender: male. Review pursuant to Security Council resolution 2610 (2021) was concluded on 30 October 2023.; Listing: Listed on: 18 Jun. 2018",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1965,
       "country": "Tuburan"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1965,
       "country": "Basilan Province"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1965,
       "country": "Philippines"
     }
   ],
   "nationalities": [
     "Philippines"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "a) Philippines b) Jeddah, Saudi Arabia (previous address) c) Daina, Saudi Arabia (previous address)",
       "country": "Saudi Arabia (previous address)"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

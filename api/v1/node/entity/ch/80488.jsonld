@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/80488",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/80488",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Aiman Muhammed Rabi Al-Zawahiri Doctor Dr.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Aiman Muhammed Rabi Al-Zawahiri Doctor Dr.",
+      "isPrimary": true
     }
   ],
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/80488"
+  ],
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1951-06-19",
-      "circa": false
+      "circa": false,
+      "year": 1951
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

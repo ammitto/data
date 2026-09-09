@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/1608",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/1608",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ali Saddam Hussein Al-Tikriti",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Ali Saddam Hussein Al-Tikriti",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/1608"
   ],
   "remarks": "Son of Samira Shahbandar and Saddam Hussein (listed above)",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1980
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

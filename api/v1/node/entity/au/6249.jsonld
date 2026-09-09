@@ -1,36 +1,51 @@
 {
-  "id": "https://www.ammitto.org/entity/au/6249",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/6249",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Brenton Harrison TARRANT",
+      "@type": "NameVariant",
+      "fullName": "Brenton Harrison TARRANT",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Brenton TARRANT",
+      "@type": "NameVariant",
+      "fullName": "Brenton TARRANT",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Australian Passport PA5027888 (expires 5 January 2027); Listing: The Minister for Foreign Affairs listed this individual on 17 September 2020 under section 15(1) of the Charter of the United Nations Act 1945 (CotUNA), pursuant to Australia's obligations under UNSC resolution 1373 (2001).\n\nThe Minister for Foreign Affairs relisted this individual on 16 September 2023.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/6249"
   ],
-  "birth_info": [
+  "remarks": "Australian Passport PA5027888 (expires 5 January 2027); Listing: The Minister for Foreign Affairs listed this individual on 17 September 2020 under section 15(1) of the Charter of the United Nations Act 1945 (CotUNA), pursuant to Australia's obligations under UNSC resolution 1373 (2001).\n\nThe Minister for Foreign Affairs relisted this individual on 16 September 2023.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1990,
       "country": "Grafton"
     }
   ],
   "nationalities": [
     "Australia"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Auckland Regional Prison, Paremoremo Road, Albany, Auckland 0632, New Zealand",
       "country": "New Zealand"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

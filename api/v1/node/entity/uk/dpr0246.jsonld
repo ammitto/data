@@ -1,39 +1,61 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/dpr0246",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/dpr0246",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "BYONG CHOL",
-      "first_name": "MIN",
+      "@type": "NameVariant",
+      "fullName": "BYONG CHOL",
+      "firstName": "MIN",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Byong Chun",
-      "first_name": "Min",
+      "@type": "NameVariant",
+      "fullName": "Byong Chun",
+      "firstName": "Min",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Byong-chol",
-      "first_name": "Min",
+      "@type": "NameVariant",
+      "fullName": "Byong-chol",
+      "firstName": "Min",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Pyo'ng-ch'o'l",
-      "first_name": "Min",
+      "@type": "NameVariant",
+      "fullName": "Pyo'ng-ch'o'l",
+      "firstName": "Min",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/dpr0246"
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "country": "North Korea"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

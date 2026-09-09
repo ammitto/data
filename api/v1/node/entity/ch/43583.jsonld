@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/43583",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/43583",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Sakalouski Ivan Yurievich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Sakalouski Ivan Yurievich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/43583"
   ],
   "remarks": "In his capacity as Director of the Akrestina detention centre in Minsk, Ivan Sakalouski is responsible for the inhumane and degrading treatment, including torture, inflicted on citizens detained in that detention centre in the wake of the 2020 presidential election.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1979-11-17",
-      "circa": false
+      "circa": false,
+      "year": 1979
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

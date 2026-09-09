@@ -1,36 +1,51 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7980",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7980",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ahmad TAHERI",
+      "@type": "NameVariant",
+      "fullName": "Ahmad TAHERI",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Ahmed TAHERI",
+      "@type": "NameVariant",
+      "fullName": "Ahmed TAHERI",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Advisor to Head of Iran’s Law Enforcement Command (LEF). Former Commander of LEF forces in Sistan and Baluchistan province from October 2020 to November 2022.\nNational ID Number: 3672586654; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Iran) Amendment (No. 2) Instrument 2024",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7980"
   ],
-  "birth_info": [
+  "remarks": "Advisor to Head of Iran’s Law Enforcement Command (LEF). Former Commander of LEF forces in Sistan and Baluchistan province from October 2020 to November 2022.\nNational ID Number: 3672586654; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Iran) Amendment (No. 2) Instrument 2024",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1963,
       "country": "Zabol"
     }
   ],
   "nationalities": [
     "Iran"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Zehadan, Iran",
       "country": "Iran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

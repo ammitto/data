@@ -1,22 +1,43 @@
 {
-  "id": "https://www.ammitto.org/entity/cn/10-kevin-mcdonnell",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/cn/10-kevin-mcdonnell",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kevin McDonnell",
+      "@type": "NameVariant",
+      "fullName": "Kevin McDonnell",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "凯文·麦克唐奈",
+      "@type": "NameVariant",
+      "fullName": "凯文·麦克唐奈",
       "script": "Hani",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/cn/anti-sanction-list/10-kevin-mcdonnell"
+  ],
   "remarks": "List: cn/anti-sanction-list; Title: 宇航环境公司高级副总裁、首席财务官; Gender: male",
-  "sanction_entry_ids": [
-    "https://www.ammitto.org/entry/cn/unknown/10-kevin-mcdonnell"
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
   ],
   "gender": "male",
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

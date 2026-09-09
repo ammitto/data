@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/88881",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/88881",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Zakharov Aleksandr Vyacheslavovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Zakharov Aleksandr Vyacheslavovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/88881"
   ],
   "remarks": "Alexander Zakharov is a majority stakeholder of LLC CST (also known as Zala Aero), which is engaged in the development, production and operation of aerial target complexes and unmanned aerial vehicles (UAVs). LLC CST manufactures UAVs KUB and Lancet-1, used by the Russian military in its war of aggression against Ukraine. LLC CST is listed by the Union. JCS Kalashnikov Concern, an entity listed by the Union, has a significant shareholding in LLC CST.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1965-09-21",
-      "circa": false
+      "circa": false,
+      "year": 1965
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/988861",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/988861",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "CONSTRUCTION & INVESTMENT JOINT STOCK COMPANY NO. 492",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "CONSTRUCTION & INVESTMENT JOINT STOCK COMPANY NO. 492",
+      "isPrimary": true
     }
   ],
-  "remarks": "*699",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/988861"
+  ],
+  "remarks": "*699",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "198 TRUONG CHINH ROAD, LE LOI WARD, NGHE AN PROVINCE",
       "city": "VINH CITY",
       "country": "Viet Nam",
-      "country_iso_code": "VN"
+      "countryIsoCode": "VN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

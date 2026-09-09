@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/72154",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/72154",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Sat Artysh Mikhailovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Sat Artysh Mikhailovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/72154"
   ],
   "remarks": "Artysh Sat is the former so-called “Acting Minister of Health” of Kherson Region. He held this role, without the consent of Ukrainian authorities, in the illegally occupied territories of Kherson Region and implemented the official policies of the Russian Federation in the region.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1983-02-09",
-      "circa": false
+      "circa": false,
+      "year": 1983
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

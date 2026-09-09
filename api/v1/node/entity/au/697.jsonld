@@ -1,29 +1,46 @@
 {
-  "id": "https://www.ammitto.org/entity/au/697",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/697",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "ADIL ABDALLAH MAHDI",
+      "@type": "NameVariant",
+      "fullName": "ADIL ABDALLAH MAHDI",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "عادل عبد الله مهدي",
+      "@type": "NameVariant",
+      "fullName": "عادل عبد الله مهدي",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "IQi.052; Listing: Listed by the 1518 Committee",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/697"
   ],
-  "birth_info": [
+  "remarks": "IQi.052; Listing: Listed by the 1518 Committee",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1945
     }
   ],
   "nationalities": [
     "Iraq"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

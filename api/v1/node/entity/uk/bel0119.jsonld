@@ -1,63 +1,88 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/bel0119",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/bel0119",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "AZARENOK",
-      "first_name": "Grigoriy",
+      "@type": "NameVariant",
+      "fullName": "AZARENOK",
+      "firstName": "Grigoriy",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "AZARENOK",
-      "first_name": "Grigory",
+      "@type": "NameVariant",
+      "fullName": "AZARENOK",
+      "firstName": "Grigory",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Azaronak",
-      "first_name": "Rhyor",
+      "@type": "NameVariant",
+      "fullName": "Azaronak",
+      "firstName": "Rhyor",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "AZARONAK",
-      "first_name": "Ryhor",
+      "@type": "NameVariant",
+      "fullName": "AZARONAK",
+      "firstName": "Ryhor",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Azaronak",
-      "first_name": "Yurievich",
+      "@type": "NameVariant",
+      "fullName": "Azaronak",
+      "firstName": "Yurievich",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Григорий Юрьевич  АЗАРЕНОК",
+      "@type": "NameVariant",
+      "fullName": "Григорий Юрьевич  АЗАРЕНОК",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Григорий Юрьевич  АЗАРЁНОК",
+      "@type": "NameVariant",
+      "fullName": "Григорий Юрьевич  АЗАРЁНОК",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Рыгор Юр'евіч АЗАРОНАК",
+      "@type": "NameVariant",
+      "fullName": "Рыгор Юр'евіч АЗАРОНАК",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/bel0119"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Capital TV, 6 Kommunisticheskaya St",
       "state": "Minsk",
       "country": "Belarus"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

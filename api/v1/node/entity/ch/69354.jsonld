@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/69354",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/69354",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ebzeev Boris Safarovych",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Ebzeev Boris Safarovych",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/69354"
   ],
   "remarks": "Boris Ebzeev has served as a member of the Central Election Committee of the Russian Federation (CEC) since 2021. During his tenure, the CEC has been responsible for organising illegal referenda in 2022, as well as illegal elections in September 2023, in occupied parts of Ukraine, thus attempting to legitimise the Russian war of aggression of those parts. In this role, Boris Ebzeev is supporting and implementing actions and\npolicies which undermine and threaten the territorial integrity, sovereignty and independence of Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1950-02-25",
-      "circa": false
+      "circa": false,
+      "year": 1950
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

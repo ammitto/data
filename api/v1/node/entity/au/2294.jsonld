@@ -1,55 +1,77 @@
 {
-  "id": "https://www.ammitto.org/entity/au/2294",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/2294",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Munir ADANOV",
+      "@type": "NameVariant",
+      "fullName": "Munir ADANOV",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Munir ADNUF",
+      "@type": "NameVariant",
+      "fullName": "Munir ADNUF",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Mounir ADANOV",
+      "@type": "NameVariant",
+      "fullName": "Mounir ADANOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Mouneer ADANOV",
+      "@type": "NameVariant",
+      "fullName": "Mouneer ADANOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Monir ADANOV",
+      "@type": "NameVariant",
+      "fullName": "Monir ADANOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Moneer ADANOV",
+      "@type": "NameVariant",
+      "fullName": "Moneer ADANOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Muneer ADANOV",
+      "@type": "NameVariant",
+      "fullName": "Muneer ADANOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Last known position: Lieutenant General and Deputy Chief of General Staff (Operations and Training) for the Syrian Arab Army. Passport No.: 0000092405.; Listing: Designated under the Autonomous Sanctions Regulations 2011 on 2 March 2012. Relisted on 12 January 2024.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/2294"
   ],
-  "birth_info": [
+  "remarks": "Last known position: Lieutenant General and Deputy Chief of General Staff (Operations and Training) for the Syrian Arab Army. Passport No.: 0000092405.; Listing: Designated under the Autonomous Sanctions Regulations 2011 on 2 March 2012. Relisted on 12 January 2024.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1951,
       "country": "Homs"
     }
   ],
   "nationalities": [
     "Syria"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

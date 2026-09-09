@@ -1,36 +1,51 @@
 {
-  "id": "https://www.ammitto.org/entity/au/713",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/713",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "JAWHAR MAJID AL-DURI",
+      "@type": "NameVariant",
+      "fullName": "JAWHAR MAJID AL-DURI",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "جوهر مجيد الدوري",
+      "@type": "NameVariant",
+      "fullName": "جوهر مجيد الدوري",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "IQi.068; Listing: Listed by the 1518 Committee",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/713"
   ],
-  "birth_info": [
+  "remarks": "IQi.068; Listing: Listed by the 1518 Committee",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1942,
       "country": "Al-Dur"
     }
   ],
   "nationalities": [
     "Iraq"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Iraq",
       "country": "Iraq"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/4527",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/4527",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kozik Leanid Piatrovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kozik Leanid Piatrovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/4527"
   ],
   "remarks": "Head of the Federation of Trade Unions. Former deputy Prime Minister and deputy Head of the President's Administration. Key figure and supporter of the regime. Responsible for the violations in the fraudulent creation of electoral committees, where the members of the pro-regime trade unions represent a major part, and the fraudulent designation of candidates, and for exerting pressure on workers to vote for the regime.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1948-07-13",
-      "circa": false
+      "circa": false,
+      "year": 1948
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

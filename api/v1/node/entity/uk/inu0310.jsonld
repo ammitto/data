@@ -1,37 +1,55 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/inu0310",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/inu0310",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Nuclear Fuel Production and Procurement Company",
+      "@type": "NameVariant",
+      "fullName": "Nuclear Fuel Production and Procurement Company",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "NFPC",
+      "@type": "NameVariant",
+      "fullName": "NFPC",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "NFPD",
+      "@type": "NameVariant",
+      "fullName": "NFPD",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Nuclear Fuel Production Division",
+      "@type": "NameVariant",
+      "fullName": "Nuclear Fuel Production Division",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/inu0310"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "AEOI-NFPD",
       "state": "Tehran",
       "country": "Iran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

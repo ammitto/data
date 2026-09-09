@@ -1,28 +1,47 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus0509",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/rus0509",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "TOPILIN",
-      "first_name": "Maxim",
+      "@type": "NameVariant",
+      "fullName": "TOPILIN",
+      "firstName": "Maxim",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Максим Анатольевич ТОПИЛИН",
+      "@type": "NameVariant",
+      "fullName": "Максим Анатольевич ТОПИЛИН",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus0509"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "1 Okhotny Ryad str",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

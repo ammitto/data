@@ -1,53 +1,74 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus1097",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus1097",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "PUBLIC JOINT STOCK COMPANY SOVCOMFLOT ",
+      "@type": "NameVariant",
+      "fullName": "PUBLIC JOINT STOCK COMPANY SOVCOMFLOT ",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "PAO SOVCOMFLOT",
+      "@type": "NameVariant",
+      "fullName": "PAO SOVCOMFLOT",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "PJSC SOVCOMFLOT",
+      "@type": "NameVariant",
+      "fullName": "PJSC SOVCOMFLOT",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "PUBLICHNOE AKSIONERNOE OBSCHESTVO SOVREMENNYY KOMMERCHESKIY FLOT ",
+      "@type": "NameVariant",
+      "fullName": "PUBLICHNOE AKSIONERNOE OBSCHESTVO SOVREMENNYY KOMMERCHESKIY FLOT ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Публичное акционерное общество Современный коммерческий флот",
+      "@type": "NameVariant",
+      "fullName": "Публичное акционерное общество Современный коммерческий флот",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "ПАО СОВКОМФЛОТ ",
+      "@type": "NameVariant",
+      "fullName": "ПАО СОВКОМФЛОТ ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "ПУБЛИЧНОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО СОВРЕМЕННЫЙ КОММЕРЧЕСКИЙ ФЛОТ  ",
+      "@type": "NameVariant",
+      "fullName": "ПУБЛИЧНОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО СОВРЕМЕННЫЙ КОММЕРЧЕСКИЙ ФЛОТ  ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus1097"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "3A Moyka River Embankment",
       "state": "St Petersburg",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

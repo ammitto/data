@@ -1,37 +1,59 @@
 {
-  "id": "https://www.ammitto.org/entity/au/2712",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/2712",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Nikolai Ivanovich RYZHKOV",
+      "@type": "NameVariant",
+      "fullName": "Nikolai Ivanovich RYZHKOV",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Nikolai RYZHKOV",
+      "@type": "NameVariant",
+      "fullName": "Nikolai RYZHKOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Mykola Ivanovych RYZHKOV",
+      "@type": "NameVariant",
+      "fullName": "Mykola Ivanovych RYZHKOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Nikolay Ivanovich RIZHKOV",
+      "@type": "NameVariant",
+      "fullName": "Nikolay Ivanovich RIZHKOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Member of the Russian Federation Council Committee for Federal Structure, Regional Policy, Local Government and Northern Affairs.  On 1 March 2014, Rhyzhkov publicly supported in the Federation Council the deployment of Russian forces in Ukraine; Listing: Listed on 19 Jun. 2014 (re-listed on 16 Jun. 2017, 10 June 2020 and 10 June 2023)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/2712"
   ],
-  "birth_info": [
+  "remarks": "Member of the Russian Federation Council Committee for Federal Structure, Regional Policy, Local Government and Northern Affairs.  On 1 March 2014, Rhyzhkov publicly supported in the Federation Council the deployment of Russian forces in Ukraine; Listing: Listed on 19 Jun. 2014 (re-listed on 16 Jun. 2017, 10 June 2020 and 10 June 2023)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1929,
       "country": "Dyleevka"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

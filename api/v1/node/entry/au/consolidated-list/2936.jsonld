@@ -1,33 +1,42 @@
 {
-  "id": "https://www.ammitto.org/entry/au/consolidated-list/2936",
-  "entity_id": "https://www.ammitto.org/entity/au/2936",
+  "@id": "https://www.ammitto.org/entry/au/consolidated-list/2936",
+  "@type": "SanctionEntry",
+  "entityId": "https://www.ammitto.org/entity/au/2936",
   "authority": {
     "@id": "https://www.ammitto.org/authority/au"
   },
   "regime": {
-    "@id": "https://www.ammitto.org/regime/au_russia"
+    "@id": "https://www.ammitto.org/regime/au_russia",
+    "name": "Russia"
   },
-  "legal_bases": [
+  "legalBases": [
     {
-      "type": "regulation",
-      "identifier": "Listed on 16 June 2017, re-listed 10 Jun 2020 and 29 March 2021 and 10 June 2023",
-      "title": "Listed on 16 June 2017, re-listed 10 Jun 2020 and 29 March 2021 and 10 June 2023"
+      "@id": "https://www.ammitto.org/legal-instrument/au/listed-on-16-june-2017-re-listed-10-jun-2020-and-29-march-2021-and-10-june-2023"
     }
   ],
   "effects": [
     {
-      "effect_type": "asset_freeze",
+      "@type": "SanctionEffect",
+      "effectType": "asset_freeze",
       "scope": "full"
     }
   ],
+  "reasons": [
+
+  ],
   "period": {
-    "is_indefinite": true
+    "@type": "TemporalPeriod",
+    "isIndefinite": true
   },
   "status": "active",
-  "reference_number": "2936",
-  "raw_source_data": {
-    "source_format": "csv",
-    "source_specific_fields": {
+  "statusHistory": [
+
+  ],
+  "referenceNumber": "2936",
+  "rawSourceData": {
+    "@type": "RawSourceData",
+    "sourceFormat": "csv",
+    "sourceSpecificFields": {
       "au:reference": "2936",
       "au:committees": "Autonomous (Russia)",
       "au:control_date": "2023-06-10",
@@ -35,5 +44,5 @@
       "au:listing_info": "Listed on 16 June 2017, re-listed 10 Jun 2020 and 29 March 2021 and 10 June 2023"
     }
   },
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

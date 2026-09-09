@@ -1,22 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8454",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/8454",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "DAWOOD AGHA-JANI",
+      "@type": "NameVariant",
+      "fullName": "DAWOOD AGHA-JANI",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "IRi.002. Head of the Pilot Fuel Enrichment Plant (PFEP) (Natanz). Passport no: I5824769, issued in Iran (Islamic Republic of).; Listing: Listed by the 1737 Committee on 23 December 2006 (amended on 17 December 2014).",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8454"
   ],
-  "birth_info": [
+  "remarks": "IRi.002. Head of the Pilot Fuel Enrichment Plant (PFEP) (Natanz). Passport no: I5824769, issued in Iran (Islamic Republic of).; Listing: Listed by the 1737 Committee on 23 December 2006 (amended on 17 December 2014).",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1957,
       "country": "Ardebil"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

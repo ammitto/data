@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/6152",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/6152",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Charamba George",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Charamba George",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/6152"
   ],
   "remarks": "Senior civil servant closely associated with the ZANU-PF faction of the Government.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1963-04-04",
-      "circa": false
+      "circa": false,
+      "year": 1963
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

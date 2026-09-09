@@ -1,96 +1,123 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3129",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/3129",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Zaurbek Salimovich Guchaev",
+      "@type": "NameVariant",
+      "fullName": "Zaurbek Salimovich Guchaev",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Заурбек Салимович Гучаев",
+      "@type": "NameVariant",
+      "fullName": "Заурбек Салимович Гучаев",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Бэч",
+      "@type": "NameVariant",
+      "fullName": "Бэч",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Факих",
+      "@type": "NameVariant",
+      "fullName": "Факих",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Восточный",
+      "@type": "NameVariant",
+      "fullName": "Восточный",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Муслим",
+      "@type": "NameVariant",
+      "fullName": "Муслим",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Азиз",
+      "@type": "NameVariant",
+      "fullName": "Азиз",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Абул Азиз",
+      "@type": "NameVariant",
+      "fullName": "Абул Азиз",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Bach",
+      "@type": "NameVariant",
+      "fullName": "Bach",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Fackih",
+      "@type": "NameVariant",
+      "fullName": "Fackih",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Vostochniy",
+      "@type": "NameVariant",
+      "fullName": "Vostochniy",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Aziz",
+      "@type": "NameVariant",
+      "fullName": "Aziz",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abdul Aziz",
+      "@type": "NameVariant",
+      "fullName": "Abdul Aziz",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Muslim",
+      "@type": "NameVariant",
+      "fullName": "Muslim",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Russian foreign travel passport  number 622641887. Russian national passport 830466141. As at Aug. 2015, one of the leaders of the Army of Emigrants and Supporters (QDe.148). Wanted by the authorities of the Russian Federation for terrorist crimes committed in its territory. Photo available for inclusion in the INTERPOL-UN Security Council Special Notice. Review pursuant to Security Council resolution 2368 (2017) was concluded on 24 November 2020.; Listing: Listed on 2 Oct. 2015 (amended on 24 Nov. 2020)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3129"
   ],
-  "birth_info": [
+  "remarks": "Russian foreign travel passport  number 622641887. Russian national passport 830466141. As at Aug. 2015, one of the leaders of the Army of Emigrants and Supporters (QDe.148). Wanted by the authorities of the Russian Federation for terrorist crimes committed in its territory. Photo available for inclusion in the INTERPOL-UN Security Council Special Notice. Review pursuant to Security Council resolution 2368 (2017) was concluded on 24 November 2020.; Listing: Listed on 2 Oct. 2015 (amended on 24 Nov. 2020)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1975,
       "country": "Chegem-1 Village"
     }
   ],
   "nationalities": [
     "Russia"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "a) Syrian Arab Republic (located in as at Aug. 2015)  b) Iraq (possible alternative location as at Aug. 2015)",
       "country": "a) Syrian Arab Republic (located in as at Aug. 2015)  b) Iraq (possible alternative location as at Aug. 2015)"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

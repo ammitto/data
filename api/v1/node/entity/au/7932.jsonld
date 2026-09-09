@@ -1,34 +1,52 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7932",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7932",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Danila Andreevich SINYUKHIN",
+      "@type": "NameVariant",
+      "fullName": "Danila Andreevich SINYUKHIN",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Danila Andrejevitj SINJUCHIN",
+      "@type": "NameVariant",
+      "fullName": "Danila Andrejevitj SINJUCHIN",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Danila Andrejevič SIŇ̀UCHIN",
+      "@type": "NameVariant",
+      "fullName": "Danila Andrejevič SIŇ̀UCHIN",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Deputy Head of IK-6 penal colony in Vladimir region; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Thematic Sanctions) Amendment (No. 2) Instrument 2024",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7932"
   ],
-  "birth_info": [
+  "remarks": "Deputy Head of IK-6 penal colony in Vladimir region; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Thematic Sanctions) Amendment (No. 2) Instrument 2024",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1990
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/640844",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/640844",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "MADHUCON MEGA MALL PRIVATE LIMITED",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "MADHUCON MEGA MALL PRIVATE LIMITED",
+      "isPrimary": true
     }
   ],
-  "remarks": "*396",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/640844"
+  ],
+  "remarks": "*396",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "PLOT NO. 1129/A, MADHUCON HOUSE, ROAD NO. 36, HITECH CITY ROAD, JUBILEE HILLS",
       "city": "HYDERABAD, TELANGANA, 500033",
       "country": "India",
-      "country_iso_code": "IN"
+      "countryIsoCode": "IN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/53348",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/53348",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Todorova Anna Yurievna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Todorova Anna Yurievna",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/53348"
   ],
   "remarks": "Former so-called “Deputy Chair of the Government” of the so-called “Luhansk People’s Republic”. Todorova is currently so-called Head of the Archive Service of the so-called “Luhansk People’s Republic”. In taking on and acting in this capacity, she has actively undermined the territorial integrity, sovereignty and independence of Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1988-02-20",
-      "circa": false
+      "circa": false,
+      "year": 1988
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

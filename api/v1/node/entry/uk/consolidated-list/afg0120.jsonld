@@ -1,34 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entry/uk/consolidated-list/afg0120",
-  "entity_id": "https://www.ammitto.org/entity/uk/afg0120",
+  "@id": "https://www.ammitto.org/entry/uk/consolidated-list/afg0120",
+  "@type": "SanctionEntry",
+  "entityId": "https://www.ammitto.org/entity/uk/afg0120",
   "authority": {
     "@id": "https://www.ammitto.org/authority/uk"
   },
   "regime": {
-    "@id": "https://www.ammitto.org/regime/the_afghanistan_sanctions_eu_exit_regulations_2020"
+    "@id": "https://www.ammitto.org/regime/the_afghanistan_sanctions_eu_exit_regulations_2020",
+    "name": "The Afghanistan (Sanctions) (EU Exit) Regulations 2020"
   },
+  "legalBases": [
+
+  ],
   "effects": [
     {
-      "effect_type": "asset_freeze",
+      "@type": "SanctionEffect",
+      "effectType": "asset_freeze",
       "scope": "full"
     },
     {
-      "effect_type": "travel_ban",
+      "@type": "SanctionEffect",
+      "effectType": "travel_ban",
       "scope": "full"
     }
   ],
+  "reasons": [
+
+  ],
   "period": {
-    "listed_date": "2011-10-04",
-    "effective_date": "2011-10-04",
-    "is_indefinite": true,
-    "last_updated": "2026-03-11"
+    "@type": "TemporalPeriod",
+    "listedDate": "2011-10-04",
+    "effectiveDate": "2011-10-04",
+    "isIndefinite": true,
+    "lastUpdated": "2026-03-11"
   },
   "status": "active",
-  "reference_number": "AFG0120",
+  "statusHistory": [
+
+  ],
+  "referenceNumber": "AFG0120",
   "remarks": "\n",
-  "raw_source_data": {
-    "source_format": "xml",
-    "source_specific_fields": {
+  "rawSourceData": {
+    "@type": "RawSourceData",
+    "sourceFormat": "xml",
+    "sourceSpecificFields": {
       "uk:ofsiGroupId": "12155",
       "uk:unReferenceNumber": "TAi.154",
       "uk:designationSource": "UN",
@@ -36,5 +51,5 @@
       "uk:entityType": "Individual"
     }
   },
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

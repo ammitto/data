@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/8829",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/8829",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Soleimani Qasem",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Soleimani Qasem",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/8829"
   ],
   "remarks": "Brigadier General, Commander of Qods force.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1957-03-11",
-      "circa": false
+      "circa": false,
+      "year": 1957
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

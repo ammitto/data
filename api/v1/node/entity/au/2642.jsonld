@@ -1,96 +1,123 @@
 {
-  "id": "https://www.ammitto.org/entity/au/2642",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/2642",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "ABD-AL-HAMID AL-MASLI",
+      "@type": "NameVariant",
+      "fullName": "ABD-AL-HAMID AL-MASLI",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "عبدالحميد المصلي",
+      "@type": "NameVariant",
+      "fullName": "عبدالحميد المصلي",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abd-al-Hamid Muhammad Abd-al-Hamid Al-Masli",
+      "@type": "NameVariant",
+      "fullName": "Abd-al-Hamid Muhammad Abd-al-Hamid Al-Masli",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abd-al-Hamid Musalli",
+      "@type": "NameVariant",
+      "fullName": "Abd-al-Hamid Musalli",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Hamid Masli",
+      "@type": "NameVariant",
+      "fullName": "Hamid Masli",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Hamza al-Darnawi",
+      "@type": "NameVariant",
+      "fullName": "Hamza al-Darnawi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Hamzah al-Darnawi",
+      "@type": "NameVariant",
+      "fullName": "Hamzah al-Darnawi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Hamza Darnawi",
+      "@type": "NameVariant",
+      "fullName": "Hamza Darnawi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Hamzah Darnawi",
+      "@type": "NameVariant",
+      "fullName": "Hamzah Darnawi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Hamzah Dirnawi",
+      "@type": "NameVariant",
+      "fullName": "Hamzah Dirnawi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Hamza Darnavi",
+      "@type": "NameVariant",
+      "fullName": "Hamza Darnavi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Hamza al-Darnavi",
+      "@type": "NameVariant",
+      "fullName": "Hamza al-Darnavi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abdullah Darnawi",
+      "@type": "NameVariant",
+      "fullName": "Abdullah Darnawi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abu-Hamzah al-Darnawi",
+      "@type": "NameVariant",
+      "fullName": "Abu-Hamzah al-Darnawi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Leader and trainer of an Al-Qaida electronics and explosives workshop producing improvised explosive device components.  Review pursuant to Security Council resolution 2253 (2015) was concluded on 21 Feb. 2019. Review pursuant to Security Council resolution 2610 (2021) was concluded on 8 November 2022.; Listing: Listed on: 26 Nov. 2013 (amended on 1 May 2019)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/2642"
   ],
-  "birth_info": [
+  "remarks": "Leader and trainer of an Al-Qaida electronics and explosives workshop producing improvised explosive device components.  Review pursuant to Security Council resolution 2253 (2015) was concluded on 21 Feb. 2019. Review pursuant to Security Council resolution 2610 (2021) was concluded on 8 November 2022.; Listing: Listed on: 26 Nov. 2013 (amended on 1 May 2019)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1976,
       "country": "a) Darnah"
     }
   ],
   "nationalities": [
     "Libya"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Reportedly located in Waziristan, Federally Administered Tribal Areas, Pakistan.",
       "country": "Pakistan."
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

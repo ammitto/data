@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/608157",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/608157",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "JV “KOGONREMSTROYKOMPLEKT” LLC",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "JV “KOGONREMSTROYKOMPLEKT” LLC",
+      "isPrimary": true
     }
   ],
-  "remarks": "*594",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/608157"
+  ],
+  "remarks": "*594",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "7 MELIORATOROV STREET, KAGANSKIY RAYON",
       "city": "BUKHARSKAYA OBLAST",
       "country": "Uzbekistan",
-      "country_iso_code": "UZ"
+      "countryIsoCode": "UZ"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,29 +1,46 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7267",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7267",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kyrylo Sergiyovich STREMOUSOV",
+      "@type": "NameVariant",
+      "fullName": "Kyrylo Sergiyovich STREMOUSOV",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Kirill STREMOUSOV",
+      "@type": "NameVariant",
+      "fullName": "Kirill STREMOUSOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "President of the so-called ‘Salvation Committee for Peace and Order’ in the Kherson region in Ukraine; Listing: Instrument of first designation\nand declaration\nAutonomous Sanctions (Designated Persons and\nEntities and Declared Persons—Russia and\nUkraine) Amendment (No. 21) Instrument 2022",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7267"
   ],
-  "birth_info": [
+  "remarks": "President of the so-called ‘Salvation Committee for Peace and Order’ in the Kherson region in Ukraine; Listing: Instrument of first designation\nand declaration\nAutonomous Sanctions (Designated Persons and\nEntities and Declared Persons—Russia and\nUkraine) Amendment (No. 21) Instrument 2022",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1976
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

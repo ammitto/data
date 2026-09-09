@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/4436",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/4436",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Halavanau Viktar Ryhoravich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Halavanau Viktar Ryhoravich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/4436"
   ],
   "remarks": "Rector of the private \"Belarus Institute of Law\". As former Minister of Justice, his services elaborated laws that are repressive towards civil society and the democratic opposition. He also denied or deprived registration for NGOs and political parties and he ignored unlawful acts undertaken by the security services against the population.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1952-12-15",
-      "circa": false
+      "circa": false,
+      "year": 1952
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

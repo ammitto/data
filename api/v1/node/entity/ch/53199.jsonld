@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/53199",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/53199",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Konashenkov Igor Evgenievich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Konashenkov Igor Evgenievich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/53199"
   ],
   "remarks": "Igor Konashenkov is Head of the Department of Information and Communications of the Ministry of Defence of the Russian Federation, with the rank of Lieutenant General.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1966-05-15",
-      "circa": false
+      "circa": false,
+      "year": 1966
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

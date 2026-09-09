@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/27377",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/27377",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mironov Sergei Mikhailovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Mironov Sergei Mikhailovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/27377"
   ],
   "remarks": "Member of the Council of the State Duma; Leader of Fair Russia faction in the State Duma of the Russian Federation.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1953-02-14",
-      "circa": false
+      "circa": false,
+      "year": 1953
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

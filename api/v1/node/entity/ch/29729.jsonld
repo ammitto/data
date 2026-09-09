@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/29729",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/29729",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Bugrov Oleg Evgenevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Bugrov Oleg Evgenevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/29729"
   ],
   "remarks": "Former \"Defence Minister\" of the so-called \"Luhansk People's Republic\".",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1969-08-29",
-      "circa": false
+      "circa": false,
+      "year": 1969
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,32 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7896",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/7896",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Enics Joint Stock Company",
+      "@type": "NameVariant",
+      "fullName": "Enics Joint Stock Company",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "JSC ENIKS",
+      "@type": "NameVariant",
+      "fullName": "JSC ENIKS",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "ENICS",
+      "@type": "NameVariant",
+      "fullName": "ENICS",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "https://enics.aero/; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2024",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7896"
+  ],
+  "remarks": "https://enics.aero/; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2024",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "120 Korolenko St. Kazan Tatarstan Republic 420094 Russia",
       "country": "120 Korolenko St. Kazan Tatarstan Republic 420094 Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

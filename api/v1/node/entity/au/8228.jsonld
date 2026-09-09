@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8228",
-  "entity_type": "vessel",
+  "@id": "https://www.ammitto.org/entity/au/8228",
+  "@type": "VesselEntity",
+  "entityType": "vessel",
   "names": [
     {
-      "full_name": "NOCTIS",
+      "@type": "NameVariant",
+      "fullName": "NOCTIS",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "ASHER",
+      "@type": "NameVariant",
+      "fullName": "ASHER",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Previous names include ASHER; Listing: Designated as a sanctioned vessel in the Autonomous Sanctions (Sanctioned Vessels – Russia) Designation 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8228"
   ],
-  "imo_number": "9258868",
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "remarks": "Previous names include ASHER; Listing: Designated as a sanctioned vessel in the Autonomous Sanctions (Sanctioned Vessels – Russia) Designation 2025",
+  "imoNumber": "9258868",
+  "previousNames": [
+
+  ],
+  "previousFlags": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

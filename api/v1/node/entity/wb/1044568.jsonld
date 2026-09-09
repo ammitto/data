@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/1044568",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/1044568",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "KONTROLMATIK CAMEROUN SARL",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "KONTROLMATIK CAMEROUN SARL",
+      "isPrimary": true
     }
   ],
-  "remarks": "(Reg. No: M112116894533A) *706",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/1044568"
+  ],
+  "remarks": "(Reg. No: M112116894533A) *706",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "IMMEUBLE SIS A, B.P. 11071 RUE 1803, BASTOS",
       "city": "YAOUNDE",
       "country": "Cameroon",
-      "country_iso_code": "CM"
+      "countryIsoCode": "CM"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

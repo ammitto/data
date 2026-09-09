@@ -1,35 +1,53 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7877",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7877",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Aleksandr Valerevich POTAPOV",
+      "@type": "NameVariant",
+      "fullName": "Aleksandr Valerevich POTAPOV",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Oleksandr Valeriiovych POTAPOV",
+      "@type": "NameVariant",
+      "fullName": "Oleksandr Valeriiovych POTAPOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Aleksander Valerievich POTAPOV",
+      "@type": "NameVariant",
+      "fullName": "Aleksander Valerievich POTAPOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "General Director of Research and Production Corporation Uralvagonzavod; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2024",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7877"
   ],
-  "birth_info": [
+  "remarks": "General Director of Research and Production Corporation Uralvagonzavod; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2024",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1963,
       "country": "Moscow"
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,42 +1,61 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/inu0340",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/inu0340",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Post Bank of Iran",
+      "@type": "NameVariant",
+      "fullName": "Post Bank of Iran",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "PBI",
+      "@type": "NameVariant",
+      "fullName": "PBI",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Post Bank Iran ",
+      "@type": "NameVariant",
+      "fullName": "Post Bank Iran ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Postbank Iran ",
+      "@type": "NameVariant",
+      "fullName": "Postbank Iran ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "پست بانک ایران",
+      "@type": "NameVariant",
+      "fullName": "پست بانک ایران",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/inu0340"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "237 Motahari Avenue",
       "state": "Tehran",
       "country": "Iran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

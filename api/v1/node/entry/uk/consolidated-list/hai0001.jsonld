@@ -1,37 +1,53 @@
 {
-  "id": "https://www.ammitto.org/entry/uk/consolidated-list/hai0001",
-  "entity_id": "https://www.ammitto.org/entity/uk/hai0001",
+  "@id": "https://www.ammitto.org/entry/uk/consolidated-list/hai0001",
+  "@type": "SanctionEntry",
+  "entityId": "https://www.ammitto.org/entity/uk/hai0001",
   "authority": {
     "@id": "https://www.ammitto.org/authority/uk"
   },
   "regime": {
-    "@id": "https://www.ammitto.org/regime/the_haiti_sanctions_regulations_2022"
+    "@id": "https://www.ammitto.org/regime/the_haiti_sanctions_regulations_2022",
+    "name": "The Haiti (Sanctions) Regulations 2022"
   },
+  "legalBases": [
+
+  ],
   "effects": [
     {
-      "effect_type": "asset_freeze",
+      "@type": "SanctionEffect",
+      "effectType": "asset_freeze",
       "scope": "full"
     },
     {
-      "effect_type": "travel_ban",
+      "@type": "SanctionEffect",
+      "effectType": "travel_ban",
       "scope": "full"
     },
     {
-      "effect_type": "arms_embargo",
+      "@type": "SanctionEffect",
+      "effectType": "arms_embargo",
       "scope": "targeted"
     }
   ],
+  "reasons": [
+
+  ],
   "period": {
-    "listed_date": "2022-12-28",
-    "effective_date": "2022-12-28",
-    "is_indefinite": true,
-    "last_updated": "2023-10-23"
+    "@type": "TemporalPeriod",
+    "listedDate": "2022-12-28",
+    "effectiveDate": "2022-12-28",
+    "isIndefinite": true,
+    "lastUpdated": "2023-10-23"
   },
   "status": "active",
-  "reference_number": "HAI0001",
-  "raw_source_data": {
-    "source_format": "xml",
-    "source_specific_fields": {
+  "statusHistory": [
+
+  ],
+  "referenceNumber": "HAI0001",
+  "rawSourceData": {
+    "@type": "RawSourceData",
+    "sourceFormat": "xml",
+    "sourceSpecificFields": {
       "uk:ofsiGroupId": "15704",
       "uk:unReferenceNumber": "HTi.001",
       "uk:designationSource": "UN",
@@ -39,5 +55,5 @@
       "uk:entityType": "Individual"
     }
   },
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

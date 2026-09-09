@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/845594",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/845594",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "MALESELA T.E.C, LTD.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "MALESELA T.E.C, LTD.",
+      "isPrimary": true
     }
   ],
-  "remarks": "(Reg. No. 2000/007692/07)*658",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/845594"
+  ],
+  "remarks": "(Reg. No. 2000/007692/07)*658",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "1 STEEL RD, PEACEHAVEN, VEREENIGING, 1939",
       "city": "GAUTENG",
       "country": "South Africa",
-      "country_iso_code": "ZA"
+      "countryIsoCode": "ZA"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/44632",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/44632",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Sultan Saleh Aida Aida Zabin",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Sultan Saleh Aida Aida Zabin",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/44632"
   ],
   "remarks": "Director, or General Manager, of the Criminal Investigation Department (CID), Sana’a based ministry of interior, in Sana’a, Yemen",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1986-02-05",
-      "circa": false
+      "circa": false,
+      "year": 1986
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

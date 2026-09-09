@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/30629",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/30629",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Wael Abdulkarim",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Wael Abdulkarim",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/30629"
   ],
   "remarks": "Leading businessperson operating in Syria in the oil, chemicals and manufacturing industries. Specifically, he represents Abdulkarim Group, a.k.a Al Karim Group/Alkarim for Trade and Industry/Al Karim Trading and Industry/Al Karim for Trade and Industry. Abdulkarim Group is a leading manufacturer of lubricants, greases and industrial chemicals in Syria.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1973-09-30",
-      "circa": false
+      "circa": false,
+      "year": 1973
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

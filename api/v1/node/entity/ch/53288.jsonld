@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/53288",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/53288",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ruschak Vladimir Mikhailovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Ruschak Vladimir Mikhailovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/53288"
   ],
   "remarks": "Former so-called “Deputy Chairman of the Government” of the so-called “Donetsk People’s Republic” and former so-called “Minister of Industry and Trade” of the so-called “Donetsk People’s Republic”. In taking on and acting in those capacities, he has actively undermined the territorial integrity, sovereignty and independence of Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1971-09-02",
-      "circa": false
+      "circa": false,
+      "year": 1971
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

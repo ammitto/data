@@ -1,37 +1,55 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8104",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/8104",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Albatros Limited Liability Company",
+      "@type": "NameVariant",
+      "fullName": "Albatros Limited Liability Company",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Limited Liability Company Albatros",
+      "@type": "NameVariant",
+      "fullName": "Limited Liability Company Albatros",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Albatros OOO",
+      "@type": "NameVariant",
+      "fullName": "Albatros OOO",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Obshchestvo s Ogranichennoi Otvetstvennostyu Albatros",
+      "@type": "NameVariant",
+      "fullName": "Obshchestvo s Ogranichennoi Otvetstvennostyu Albatros",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Company Identification No. 1037825026700; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8104"
+  ],
+  "remarks": "Company Identification No. 1037825026700; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "str. 5/12 pom. 253, ul. Sh-2 Ter. Oez Alabuga Yelabuga Tatarstan 423601 Russia",
       "country": "ul. Sh-2 Ter. Oez Alabuga Yelabuga Tatarstan 423601 Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

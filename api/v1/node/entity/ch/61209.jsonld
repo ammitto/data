@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/61209",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/61209",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Gorbunov Sergei Olegovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Gorbunov Sergei Olegovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/61209"
   ],
   "remarks": "Sergei Gorbunov is the Deputy Head of the Executive Committee of the All-Russia People’s Front. In this role, he is responsible for the organisation and execution of the campaign “Everything for Victory!” which aims to support military units in the so-called “Donetsk People’s Republic” and “Luhansk People’s Republic” with items necessary for military operations. He is directly responsible for providing means to the fighters in those regions.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1983-04-01",
-      "circa": false
+      "circa": false,
+      "year": 1983
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

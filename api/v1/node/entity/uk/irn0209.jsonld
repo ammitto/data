@@ -1,28 +1,48 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/irn0209",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/irn0209",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Moghadam",
-      "first_name": "Seyed",
+      "@type": "NameVariant",
+      "fullName": "Moghadam",
+      "firstName": "Seyed",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "سید محسن وهاب زاده مقدم",
+      "@type": "NameVariant",
+      "fullName": "سید محسن وهاب زاده مقدم",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/irn0209"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "state": "Tehran",
       "country": "Iran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,33 +1,50 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/lib0068",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/lib0068",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Sigma Airlines",
+      "@type": "NameVariant",
+      "fullName": "Sigma Airlines",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Air Sigma",
+      "@type": "NameVariant",
+      "fullName": "Air Sigma",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Sigma Aviation",
+      "@type": "NameVariant",
+      "fullName": "Sigma Aviation",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/lib0068"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Markov Str. 11",
       "state": "Almaty",
       "country": "Kazakhstan"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

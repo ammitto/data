@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/38384",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/38384",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Tibisay Lucena Ramírez",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Tibisay Lucena Ramírez",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/38384"
   ],
   "remarks": "Minister of University Education since Oct 2021. President of the National Electoral Council (Consejo Nacional Electoral or CNE) from Apr 2006 until Jun 2020. Her actions and policies have undermined democracy and the rule of law in Venezuela, including by failing to ensure that the CNE remains an impartial and independent institution in accordance with the Venezuelan Constitution, thereby facilitating the establishment of the Constituent Assembly and the re-election of Nicolás Maduro in May 2018 through presidential elections that were neither free nor fair.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1959-04-26",
-      "circa": false
+      "circa": false,
+      "year": 1959
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

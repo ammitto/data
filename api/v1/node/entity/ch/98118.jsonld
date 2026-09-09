@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/98118",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/98118",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Adamenko Svetlana Viktorovna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Adamenko Svetlana Viktorovna",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/98118"
   ],
   "remarks": "Svetlana Adamenko is the Children’s Rights Commissioner of Stavropol Krai, which is a federal subject of Russia. In her role she implements policies relating to children in the region. She has overseen the adoption of Ukrainian children into Russian families. In addition, Stavropol Krai has instituted camps where Ukrainian children receive Russian patriotic education.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1956-06-08",
-      "circa": false
+      "circa": false,
+      "year": 1956
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/nz/ind-69",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/nz/ind-69",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Natalya Petrovna Skorokhdova",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Natalya Petrovna Skorokhdova",
+      "isPrimary": true
     }
   ],
-  "source_references": [
+  "sourceReferences": [
     {
-      "source_code": "nz",
-      "reference_number": "IND-69"
+      "@type": "SourceReference",
+      "sourceCode": "nz",
+      "referenceNumber": "IND-69",
+      "retrievedAt": "2026-09-09T16:30:44Z"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "linkedEntities": [
+
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/nz/consolidated-list/ind-69"
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,56 +1,79 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/inu0307",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/inu0307",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "THE EXPORT DEVELOPMENT BANK OF IRAN ",
+      "@type": "NameVariant",
+      "fullName": "THE EXPORT DEVELOPMENT BANK OF IRAN ",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Bank Tosee Saderat Iran ",
+      "@type": "NameVariant",
+      "fullName": "Bank Tosee Saderat Iran ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Bank Toseh Saderat Iran ",
+      "@type": "NameVariant",
+      "fullName": "Bank Toseh Saderat Iran ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Bank Towseeh Saderat Iran ",
+      "@type": "NameVariant",
+      "fullName": "Bank Towseeh Saderat Iran ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "EDBI",
+      "@type": "NameVariant",
+      "fullName": "EDBI",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "IEDB",
+      "@type": "NameVariant",
+      "fullName": "IEDB",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Iranian Export Development Bank ",
+      "@type": "NameVariant",
+      "fullName": "Iranian Export Development Bank ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Irans Exports Development Bank",
+      "@type": "NameVariant",
+      "fullName": "Irans Exports Development Bank",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/inu0307"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "state": "Tehran",
       "country": "Iran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

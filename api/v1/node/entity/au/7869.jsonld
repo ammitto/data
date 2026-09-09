@@ -1,30 +1,48 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7869",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7869",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Vladimir Vladislavovich KOVALENKO",
+      "@type": "NameVariant",
+      "fullName": "Vladimir Vladislavovich KOVALENKO",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Vladimir Vladisalavovich KOVALENKO",
+      "@type": "NameVariant",
+      "fullName": "Vladimir Vladisalavovich KOVALENKO",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Chief of Staff of the Sevastopol branch the All-Russia “Young Army” Military Patriotic Social Movement; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2024",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7869"
   ],
-  "birth_info": [
+  "remarks": "Chief of Staff of the Sevastopol branch the All-Russia “Young Army” Military Patriotic Social Movement; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2024",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1962,
       "country": "Luhansk"
     }
   ],
   "nationalities": [
-    "Russia;Ukraine"
+    "Russia",
+    "Ukraine"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

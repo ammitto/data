@@ -1,32 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8745",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/8745",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "KRTS REGISTRAR JOINT STOCK COMPANY",
+      "@type": "NameVariant",
+      "fullName": "KRTS REGISTRAR JOINT STOCK COMPANY",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "KRC REGISTRAR",
+      "@type": "NameVariant",
+      "fullName": "KRC REGISTRAR",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "KRTS REGISTRAR",
+      "@type": "NameVariant",
+      "fullName": "KRTS REGISTRAR",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2026",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8745"
+  ],
+  "remarks": "Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2026",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Ul. Turgeneva D. 107, Krasnodar, 350049",
       "country": "350049"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

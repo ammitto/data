@@ -1,31 +1,54 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus3151",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/rus3151",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "LIPCHENKO",
-      "first_name": "Vladimir",
+      "@type": "NameVariant",
+      "fullName": "LIPCHENKO",
+      "firstName": "Vladimir",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Vlodek",
+      "@type": "NameVariant",
+      "fullName": "Vlodek",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Wlodek",
+      "@type": "NameVariant",
+      "fullName": "Wlodek",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Владимир ЛИПЧЕНКО ",
+      "@type": "NameVariant",
+      "fullName": "Владимир ЛИПЧЕНКО ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus3151"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/38314",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/38314",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mohamed Mazen Ali Yousef",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Mohamed Mazen Ali Yousef",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/38314"
   ],
   "remarks": "Former Minister of Industry under the former al-Assad regime. Appointed in January 2018. As a former Government Minister, shares responsibility for the former al-Assad regime’s violent repression of the civilian population.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1969-05-17",
-      "circa": false
+      "circa": false,
+      "year": 1969
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

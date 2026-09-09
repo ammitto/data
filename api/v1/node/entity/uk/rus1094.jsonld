@@ -1,33 +1,50 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus1094",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus1094",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "State Authority For Military Industry Of The Republic Of Belarus",
+      "@type": "NameVariant",
+      "fullName": "State Authority For Military Industry Of The Republic Of Belarus",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "SAMI",
+      "@type": "NameVariant",
+      "fullName": "SAMI",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "State Military-Industrial Committee of the Republic of Belarus (SMIC) ",
+      "@type": "NameVariant",
+      "fullName": "State Military-Industrial Committee of the Republic of Belarus (SMIC) ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus1094"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "115 Nezavisimost ave",
       "state": "Minsk",
       "country": "Belarus"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

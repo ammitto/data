@@ -1,25 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7283",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7283",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Vladimir Ivanovich BULAVIN",
+      "@type": "NameVariant",
+      "fullName": "Vladimir Ivanovich BULAVIN",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "Head of the Federal Customs Service of the Russian Federation; Listing: Instrument of first designation\nand declaration\nAutonomous Sanctions (Designated Persons and\nEntities and Declared Persons—Russia and\nUkraine) Amendment (No. 21) Instrument 2022",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7283"
   ],
-  "birth_info": [
+  "remarks": "Head of the Federal Customs Service of the Russian Federation; Listing: Instrument of first designation\nand declaration\nAutonomous Sanctions (Designated Persons and\nEntities and Declared Persons—Russia and\nUkraine) Amendment (No. 21) Instrument 2022",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1953,
       "country": "Lipetsk"
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

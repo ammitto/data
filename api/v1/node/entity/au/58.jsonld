@@ -1,63 +1,87 @@
 {
-  "id": "https://www.ammitto.org/entity/au/58",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/58",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Nooruddin Turabi Muhammad Qasim",
+      "@type": "NameVariant",
+      "fullName": "Nooruddin Turabi Muhammad Qasim",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "نورالدین ترابی محمد قاسم",
+      "@type": "NameVariant",
+      "fullName": "نورالدین ترابی محمد قاسم",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Noor ud Din Turabi",
+      "@type": "NameVariant",
+      "fullName": "Noor ud Din Turabi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Haji Karim",
+      "@type": "NameVariant",
+      "fullName": "Haji Karim",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "MULLAH NOORDIN TORABI",
+      "@type": "NameVariant",
+      "fullName": "MULLAH NOORDIN TORABI",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "TAi.058 Title: a) Mullah b) Maulavi Designation: Minister of Justice under the Taliban regime (1996-2001). Passport no: Afghanistan P00429243, issued on 15 Dec. 2021, issued in Kabul, Afghanistan, expires 15 Aug. 2031. (Name in Latin script: MULLAH NOORDIN TORABI) Deputy to Mullah Mohammed Omar (TAi.004). Height 165 cm.; Listing: Listed on 25 January 2001 (amended on 3 Sep 2003, 21 Sep 2007, 12 April 2010, 29 Nov. 2011, 10 Mar. 2026, 28 Apr. 2026).",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/58"
   ],
-  "birth_info": [
+  "remarks": "TAi.058 Title: a) Mullah b) Maulavi Designation: Minister of Justice under the Taliban regime (1996-2001). Passport no: Afghanistan P00429243, issued on 15 Dec. 2021, issued in Kabul, Afghanistan, expires 15 Aug. 2031. (Name in Latin script: MULLAH NOORDIN TORABI) Deputy to Mullah Mohammed Omar (TAi.004). Height 165 cm.; Listing: Listed on 25 January 2001 (amended on 3 Sep 2003, 21 Sep 2007, 12 April 2010, 29 Nov. 2011, 10 Mar. 2026, 28 Apr. 2026).",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1963,
       "country": "a)Spin Boldak District"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1955,
       "country": "Kandahar Province"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1956,
       "country": "Afghanistan  b) Chora District"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1969,
       "country": "Uruzgan Province"
     }
   ],
   "nationalities": [
     "Afghanistan"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Kabul, Afghanistan",
       "country": "Afghanistan"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

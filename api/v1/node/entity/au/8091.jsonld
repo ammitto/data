@@ -1,32 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8091",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/8091",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "OOO TK Fly Bridge",
+      "@type": "NameVariant",
+      "fullName": "OOO TK Fly Bridge",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Fly Bridge Technology Company",
+      "@type": "NameVariant",
+      "fullName": "Fly Bridge Technology Company",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Limited Liability Company Technology Flybridge",
+      "@type": "NameVariant",
+      "fullName": "Limited Liability Company Technology Flybridge",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Company Identification No. 1105047006954; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8091"
+  ],
+  "remarks": "Company Identification No. 1105047006954; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Pr-Kt Patsaeva, d. 7, k. 1, office 28/1, Dolgoprudnyy, Moscow, 141707, Russia",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

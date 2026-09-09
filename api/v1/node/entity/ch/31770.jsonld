@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/31770",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/31770",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Soussou Habib",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Soussou Habib",
+      "isPrimary": true
     }
   ],
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/31770"
+  ],
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1980-03-13",
-      "circa": false
+      "circa": false,
+      "year": 1980
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

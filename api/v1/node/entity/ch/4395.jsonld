@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/4395",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/4395",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Niavyhlas Henadz Mikalaevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Niavyhlas Henadz Mikalaevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/4395"
   ],
   "remarks": "Deputy Secretary General of the Collective Security Treaty Organisation and former Head of President’s Security Service, former Head of the National Security Council, former Head of the President's Administration. As Head of the President's Administration, he was directly responsible for organising fraudulent elections in 2006 and in the subsequent repression of peaceful demonstrators.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1954-02-11",
-      "circa": false
+      "circa": false,
+      "year": 1954
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

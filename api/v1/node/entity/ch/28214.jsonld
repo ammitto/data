@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/28214",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/28214",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Beseda Sergei Orestovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Beseda Sergei Orestovich",
+      "isPrimary": true
     }
   ],
-  "remarks": "Commander of the Fifth Service of the FSB, Federal Security Service of the Russian Federation.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/28214"
+  ],
+  "remarks": "Former commander of the Fifth Service of the Federal Security Service (FSB) of the Russian Federation.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1954-05-17",
-      "circa": false
+      "circa": false,
+      "year": 1954
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

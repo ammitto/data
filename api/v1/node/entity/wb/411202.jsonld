@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/411202",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/411202",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "DRILLING AND WATER SUPPLY SEWERAGE CONSTRUCTION JSC (VIWASEEN.11)",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "DRILLING AND WATER SUPPLY SEWERAGE CONSTRUCTION JSC (VIWASEEN.11)",
+      "isPrimary": true
     }
   ],
-  "remarks": "(Reg. No: 0304459758)*617",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/411202"
+  ],
+  "remarks": "(Reg. No: 0304459758)*617",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "NO.10 PHO QUANG, WARD NO. 2, TAN  BINH DIST.",
       "city": "HO CHI MINH CITY",
       "country": "Viet Nam",
-      "country_iso_code": "VN"
+      "countryIsoCode": "VN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

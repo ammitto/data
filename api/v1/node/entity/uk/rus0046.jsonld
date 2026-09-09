@@ -1,28 +1,48 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus0046",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/rus0046",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ozerov",
-      "first_name": "Viktor",
+      "@type": "NameVariant",
+      "fullName": "Ozerov",
+      "firstName": "Viktor",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ozerov",
-      "first_name": "Viktor",
+      "@type": "NameVariant",
+      "fullName": "Ozerov",
+      "firstName": "Viktor",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Former Chairman of the Security and Defence Committee of the Federation Council of the Russian Federation. | Currently a Member of the Federation Council The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus0046"
+  ],
+  "remarks": "Former Chairman of the Security and Defence Committee of the Federation Council of the Russian Federation. | Currently a Member of the Federation Council The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

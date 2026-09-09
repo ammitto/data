@@ -1,22 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/au/6766",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/6766",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Polina Evgenyevna PRIGOZHINA ",
+      "@type": "NameVariant",
+      "fullName": "Polina Evgenyevna PRIGOZHINA ",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "Daughter of Yevgeniy PRIGOZHIN; Listing: Instrument of first designation and declaration Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Ukraine) Amendment (No. 6) Instrument 2022",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/6766"
   ],
-  "birth_info": [
+  "remarks": "Daughter of Yevgeniy PRIGOZHIN; Listing: Instrument of first designation and declaration Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Ukraine) Amendment (No. 6) Instrument 2022",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1992,
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

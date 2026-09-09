@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/608541",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/608541",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "SUSTAINABLE DEVELOPMENT CONSULTANTS (CAMBODIA) LTD.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "SUSTAINABLE DEVELOPMENT CONSULTANTS (CAMBODIA) LTD.",
+      "isPrimary": true
     }
   ],
-  "remarks": "(Reg. No.: So. 0343 KH/2010)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/608541"
+  ],
+  "remarks": "(Reg. No.: So. 0343 KH/2010)",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "NO. 06, NATIONAL ROAD NO. 5 AND STREET NO. 13, SANGKAT CHARNG CHAMRES II",
       "city": "KHAN RUSSEY KEO, PHNOM PENH",
       "country": "Cambodia",
-      "country_iso_code": "KH"
+      "countryIsoCode": "KH"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

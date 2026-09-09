@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/71085",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/71085",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Fahad Darwish",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Fahad Darwish",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/71085"
   ],
   "remarks": "Fahd Darwish is President of the Joint Syrian-Iranian Chamber of Commerce. In addition, Darwish owns and runs multiple businesses in Syria active in different sectors such as trading and pharmaceuticals.",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1955
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

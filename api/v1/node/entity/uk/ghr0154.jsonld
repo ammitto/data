@@ -1,32 +1,55 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/ghr0154",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/ghr0154",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Katsitadze ",
-      "first_name": "Karlo ",
+      "@type": "NameVariant",
+      "fullName": "Katsitadze ",
+      "firstName": "Karlo ",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Katsitadze ",
-      "first_name": "Koka",
+      "@type": "NameVariant",
+      "fullName": "Katsitadze ",
+      "firstName": "Koka",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "კარლო კაციტაძე",
+      "@type": "NameVariant",
+      "fullName": "კარლო კაციტაძე",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "კოკა კაციტაძე",
+      "@type": "NameVariant",
+      "fullName": "კოკა კაციტაძე",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/ghr0154"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

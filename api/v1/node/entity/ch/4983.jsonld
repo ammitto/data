@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/4983",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/4983",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Prakopau Yury Viktaravich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Prakopau Yury Viktaravich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/4983"
   ],
   "remarks": "Journalist of the state TV channel «Pervi» (№ 1) with a senior and influential position. He is the anchorman of the TV programme «In the centre of attention». This programme is an instrument of state propaganda on TV, which supports and justifies the repression of the democratic opposition and of civil society. The opposition and civil society are systematically highlighted in a negative and derogatory way using extensive falsified information. He was particularly active in this regard after the crackdown on peaceful demon­ strations on 19 December 2010  and on subsequent protests.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1978-10-07",
-      "circa": false
+      "circa": false,
+      "year": 1978
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

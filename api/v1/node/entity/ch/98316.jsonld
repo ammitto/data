@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/98316",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/98316",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Abdrakhmanov Kirill Ramilievich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Abdrakhmanov Kirill Ramilievich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/98316"
   ],
   "remarks": "Kirill Abdrakhmanov is the General Manager of JSC “Sarapulsky Radiozavod”, which provides mobile systems and devices across various platforms. Its products are used in the armoured personnel carrier Tiger-M and in systems such as “Arbalet” and “Akveduk”, all of which are used by Russia in its war of aggression against Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1976-11-04",
-      "circa": false
+      "circa": false,
+      "year": 1976
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

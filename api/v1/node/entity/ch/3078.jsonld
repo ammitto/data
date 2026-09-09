@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/3078",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/3078",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Alnsiem Musa Hilal Abdalla",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Alnsiem Musa Hilal Abdalla",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/3078"
   ],
   "remarks": "Formerly member of the National Assembly of Sudan from Al-Waha district",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1964-01-01",
-      "circa": false
+      "circa": false,
+      "year": 1964
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

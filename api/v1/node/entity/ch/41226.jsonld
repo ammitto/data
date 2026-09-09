@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/41226",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/41226",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Nemtsev Vladimir Vladimirovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Nemtsev Vladimir Vladimirovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/41226"
   ],
   "remarks": "Chairman of the so-called “Legislative Assembly” of the illegally annexed City of Sevastopol. In taking on and acting in this capacity, he has worked for further integration of the illegally annexed City of Sevastopol into the Russian Federation and thereby actively supported actions and implemented policies which undermine or threaten the territorial integrity, sovereignty and independence of Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1971-11-15",
-      "circa": false
+      "circa": false,
+      "year": 1971
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

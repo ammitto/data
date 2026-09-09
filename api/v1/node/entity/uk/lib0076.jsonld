@@ -1,51 +1,75 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/lib0076",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/lib0076",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "al Qadhafi",
-      "first_name": "Quren",
+      "@type": "NameVariant",
+      "fullName": "al Qadhafi",
+      "firstName": "Quren",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Akrin",
-      "first_name": "Akrin",
+      "@type": "NameVariant",
+      "fullName": "Akrin",
+      "firstName": "Akrin",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Al Qadhafi",
-      "first_name": "Qurayn",
+      "@type": "NameVariant",
+      "fullName": "Al Qadhafi",
+      "firstName": "Qurayn",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Al Qadhafi",
-      "first_name": "Qu'ren",
+      "@type": "NameVariant",
+      "fullName": "Al Qadhafi",
+      "firstName": "Qu'ren",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Salah",
-      "first_name": "Egreen",
+      "@type": "NameVariant",
+      "fullName": "Salah",
+      "firstName": "Egreen",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "أقرين صالح أقرين",
+      "@type": "NameVariant",
+      "fullName": "أقرين صالح أقرين",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Also listed by the UN pursuant to paragraph 15 of resolution 1970 (Travel Ban). The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/lib0076"
+  ],
+  "remarks": "Also listed by the UN pursuant to paragraph 15 of resolution 1970 (Travel Ban). The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "country": "Egypt"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,30 +1,47 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8072",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/8072",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Nikolai Aleksandrovich TUPIKIN",
+      "@type": "NameVariant",
+      "fullName": "Nikolai Aleksandrovich TUPIKIN",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Nikolay TUPIKIN",
+      "@type": "NameVariant",
+      "fullName": "Nikolay TUPIKIN",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Co-founder of the Social Design Agency; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8072"
   ],
-  "birth_info": [
+  "remarks": "Co-founder of the Social Design Agency; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1977,
       "country": "Russia"
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

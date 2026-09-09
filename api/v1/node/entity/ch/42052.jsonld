@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/42052",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/42052",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Francisco Javier Díaz Madriz",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Francisco Javier Díaz Madriz",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/42052"
   ],
   "remarks": "General Director of the Nicaraguan National Police (NNP) since 23 Aug 2018 and former Deputy General Director of NNP. Responsible for serious human rights violations and for the repression of civil society and democratic opposition in Nicaragua, including by leading police forces committing violence against civilians, including excessive use of force, arbitrary arrests and detentions and torture. In 2021, he carried out the investigations to set up cases against the opposition leaders arrested before the elections.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1961-08-03",
-      "circa": false
+      "circa": false,
+      "year": 1961
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

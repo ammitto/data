@@ -1,32 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7778",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/7778",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "IRGC QODS FORCE",
+      "@type": "NameVariant",
+      "fullName": "IRGC QODS FORCE",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Pasdaran-E Enghelab-E Islami (Pasdaran)",
+      "@type": "NameVariant",
+      "fullName": "Pasdaran-E Enghelab-E Islami (Pasdaran)",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Sepah-E Qods",
+      "@type": "NameVariant",
+      "fullName": "Sepah-E Qods",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Previously listed under Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Syria) List 2012 [F2023C00904]; Listing: Instrument of first designation: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Iran) Amendment (No. 2) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7778"
+  ],
+  "remarks": "Previously listed under Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Syria) List 2012 [F2023C00904]; Listing: Instrument of first designation: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Iran) Amendment (No. 2) Instrument 2023",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Tehran, Iran",
       "country": "Iran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

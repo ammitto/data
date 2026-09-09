@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/69787",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/69787",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Muraveiko Pavel Nikolaevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Muraveiko Pavel Nikolaevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/69787"
   ],
   "remarks": "Pavel Muraveiko is the First Deputy Secretary of State of the Security Council of the Republic of Belarus. In his position, he oversees the actions of the Security Council, including military-technical cooperation between Belarus and Russia. The Security Council of the Republic of Belarus is the constitutional, supreme collective coordinating and political body that enforces the powers of the President of the Republic of Belarus. The new Concept of National Security of the Security Council provides for the development of a regional grouping of forces of the Republic of Belarus and the Russian Federation, increasing the effectiveness of military command and control bodies. The military-technical cooperation contributes to strengthening the military capabilities of Russia, which is carrying out a war of aggression against Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1971-09-26",
-      "circa": false
+      "circa": false,
+      "year": 1971
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

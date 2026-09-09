@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/75753",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/75753",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Morgun Oleg Valerievich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Morgun Oleg Valerievich",
+      "isPrimary": true
     }
   ],
-  "remarks": "Since November 2023, Oleg Morgun has been the so-called Mayor of the city of Mariupol, which is under the control and occupation of Russian authorities.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/75753"
+  ],
+  "remarks": "Oleg Morgun is the former so-called “Mayor” of the city of Mariupol, which is under the control and occupation of Russian authorities. Since June 2025, he heads the representative office of the Governor of St. Petersburg in Mariupol.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1967-03-19",
-      "circa": false
+      "circa": false,
+      "year": 1967
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

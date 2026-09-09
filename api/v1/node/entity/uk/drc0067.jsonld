@@ -1,35 +1,59 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/drc0067",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/drc0067",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Hakizimana",
-      "first_name": "Apollinaire ",
+      "@type": "NameVariant",
+      "fullName": "Hakizimana",
+      "firstName": "Apollinaire ",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
+      "@type": "NameVariant",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Adonia",
+      "@type": "NameVariant",
+      "fullName": "Adonia",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Amikwe Lepic",
+      "@type": "NameVariant",
+      "fullName": "Amikwe Lepic",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": " le poète",
+      "@type": "NameVariant",
+      "fullName": " le poète",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/drc0067"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

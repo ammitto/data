@@ -1,32 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7240",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/7240",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Sonnenkrieg Division",
+      "@type": "NameVariant",
+      "fullName": "Sonnenkrieg Division",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "SKD",
+      "@type": "NameVariant",
+      "fullName": "SKD",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Sun War Division",
+      "@type": "NameVariant",
+      "fullName": "Sun War Division",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Listing: Charter of the United Nations (Listed Entities) Amendment (No. 2) Instrument 2022",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7240"
+  ],
+  "remarks": "Listing: Charter of the United Nations (Listed Entities) Amendment (No. 2) Instrument 2022",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "United Kingdom",
       "country": "United Kingdom"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

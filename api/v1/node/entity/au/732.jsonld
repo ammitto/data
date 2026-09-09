@@ -1,60 +1,81 @@
 {
-  "id": "https://www.ammitto.org/entity/au/732",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/732",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "IBRAHIM SABAWI IBRAHIM HASAN AL-TIKRITI",
+      "@type": "NameVariant",
+      "fullName": "IBRAHIM SABAWI IBRAHIM HASAN AL-TIKRITI",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "إبراهيم سبعاوي إبراهيم حسن التكريتي",
+      "@type": "NameVariant",
+      "fullName": "إبراهيم سبعاوي إبراهيم حسن التكريتي",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ibrahim Sab’awi Ibrahim Hasan Al-Tikriti",
+      "@type": "NameVariant",
+      "fullName": "Ibrahim Sab’awi Ibrahim Hasan Al-Tikriti",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ibrahim Sabawi Ibrahim Hassan Al-Tikriti",
+      "@type": "NameVariant",
+      "fullName": "Ibrahim Sabawi Ibrahim Hassan Al-Tikriti",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ibrahim Sabawi Ibrahim Al-Hassan Al-Tikriti",
+      "@type": "NameVariant",
+      "fullName": "Ibrahim Sabawi Ibrahim Al-Hassan Al-Tikriti",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Muhammad Da’ud Salman",
+      "@type": "NameVariant",
+      "fullName": "Muhammad Da’ud Salman",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "IQi.084; Listing: Listed by the 1518 Committee",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/732"
   ],
-  "birth_info": [
+  "remarks": "IQi.084; Listing: Listed by the 1518 Committee",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1983,
       "country": "Baghdad"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1977,
       "country": "Iraq"
     }
   ],
   "nationalities": [
     "Iraq"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "a) Al-Shahid Street, Al-Mahata Neighborhood, Az Zabadani, Az Zabadani, Syrian Arab Republic b) Fuad Dawod Farm, Az Zabadani, Damascus, Damascus, Syrian Arab Republic",
       "country": "Syrian Arab Republic"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

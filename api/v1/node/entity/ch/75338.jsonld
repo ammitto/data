@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/75338",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/75338",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Giba Andrey Anatolyevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Giba Andrey Anatolyevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/75338"
   ],
   "remarks": "Andrey Giba is the Deputy Head of the Investigative Department of the Federal Security Service (FSB) of the Russian Federation in Crimea and Sevastopol. In his position, he headed politically motivated investigations against political opponents in the illegally annexed Crimea and Sevastopol. He also conducted the investigations in the trials of journalist Vladyslav Yesypenko. In that context, he has been involved in the systematic persecution campaigns targeting the Crimean Tatar community for their religious beliefs. He is therefore supporting and implementing actions and policies which undermine and threaten the territorial integrity, sovereignty and independence of Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1976-11-03",
-      "circa": false
+      "circa": false,
+      "year": 1976
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

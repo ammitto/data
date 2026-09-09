@@ -1,56 +1,81 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/cti0061",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/cti0061",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Al-Wardian",
-      "first_name": "Hassan",
+      "@type": "NameVariant",
+      "fullName": "Al-Wardian",
+      "firstName": "Hassan",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": " al-Wardian",
-      "first_name": " Hassan",
+      "@type": "NameVariant",
+      "fullName": " al-Wardian",
+      "firstName": " Hassan",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Al Wardian",
-      "first_name": "Hasan",
+      "@type": "NameVariant",
+      "fullName": "Al Wardian",
+      "firstName": "Hasan",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Al-Wardian",
-      "first_name": "Sheikh",
+      "@type": "NameVariant",
+      "fullName": "Al-Wardian",
+      "firstName": "Sheikh",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Wardyan ",
-      "first_name": "Hasan",
+      "@type": "NameVariant",
+      "fullName": "Wardyan ",
+      "firstName": "Hasan",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": " حسن محمد علي الورديان ",
+      "@type": "NameVariant",
+      "fullName": " حسن محمد علي الورديان ",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Hassan Muhammad ‘Ali al-Wardian ",
+      "@type": "NameVariant",
+      "fullName": "Hassan Muhammad ‘Ali al-Wardian ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/cti0061"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "state": "Bethlehem"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

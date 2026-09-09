@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/52264",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/52264",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Khan German Borisovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Khan German Borisovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/52264"
   ],
   "remarks": "German Khan is a Russian businessperson maintaining a close relationship with the President of the Russian Federation, Vladimir Putin, similarly to his business partners, Mikhail Fridman, Petr Aven and Alexey Kuzmichev. In March 2022, he transferred his shares in ABH Holdings, which controls a major Russian bank, Alfa Bank, to his long-time business partner Andrei Kosogov. This transfer was however declared by the National Bank of Ukraine to be null and void.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1961-10-24",
-      "circa": false
+      "circa": false,
+      "year": 1961
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

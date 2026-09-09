@@ -1,32 +1,55 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus2279",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/rus2279",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "SAVICIC",
-      "first_name": "Davor ",
+      "@type": "NameVariant",
+      "fullName": "SAVICIC",
+      "firstName": "Davor ",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Elvis",
+      "@type": "NameVariant",
+      "fullName": "Elvis",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "The Wolf",
+      "@type": "NameVariant",
+      "fullName": "The Wolf",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Давор Драголобовић Савичић",
+      "@type": "NameVariant",
+      "fullName": "Давор Драголобовић Савичић",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus2279"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/51152",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/51152",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Bekren Dmitry Leontievich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Bekren Dmitry Leontievich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/51152"
   ],
   "remarks": "Dmitry Leontievich Bekren holds the position of Deputy Commander of the Army for Ideology, and the Head of the Ideology Department of the Western Operational Command of Belarus",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1979-07-16",
-      "circa": false
+      "circa": false,
+      "year": 1979
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

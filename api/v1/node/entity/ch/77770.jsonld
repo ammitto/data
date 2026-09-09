@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/77770",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/77770",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Tsedryk Andrei Mikhailovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Tsedryk Andrei Mikhailovich",
+      "isPrimary": true
     }
   ],
-  "remarks": "Andrei Tsedryk is the head of Pre-trial Detention Centre No 1 in Minsk, which is also known as “Voldarka”. Many political prisoners, including Ales Pushkin, have gone through that centre and have testified that the conditions in the centre are inhumane. Ales Bialiatski is being held in custody there. The centre also lacks a proper hospital.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/77770"
+  ],
+  "remarks": "Andrei Tsedryk is the former head of Pre-trial Detention Centre No 1 in Minsk, which is also known as “Voldarka”. Many political prisoners, including Ales Pushkin, have gone through that centre and have testified that the conditions in the centre are inhumane. Ales Bialiatski is being held in custody there. The centre also lacks a proper hospital.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1978-04-20",
-      "circa": false
+      "circa": false,
+      "year": 1978
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

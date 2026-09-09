@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/41212",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/41212",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Altabaeva Ekaterina Borisovna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Altabaeva Ekaterina Borisovna",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/41212"
   ],
   "remarks": "Member of the Federation Council of the Russian Federation for the illegally annexed City of Sevastopol and Deputy Chair of the Federation Council Committee on Science, Education and Culture. In taking on and acting in this capacity, she has worked for further integration of the illegally annexed City of Sevastopol into the Russian Federation. On 22 Feb 2022, Altabaeva supported, in the Federation Council, the ratification of the government decisions of the ‘Treaty of Friendship, Cooperation and Mutual Assistance between the Russian Federation and the “Donetsk People’s Republic”’ and the ‘Treaty of Friendship, Cooperation and Mutual Assistance between the Russian Federation and the “Luhansk People’s Republic”’.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1956-05-27",
-      "circa": false
+      "circa": false,
+      "year": 1956
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

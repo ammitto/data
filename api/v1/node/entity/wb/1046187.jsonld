@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/1046187",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/1046187",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "SUU TRADE LLC",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "SUU TRADE LLC",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/1046187"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "STOCK COMPANY LOBAR UNION STREET - 37, SONGINOKHAIRKHAN DISTRICT",
       "city": "ULAANBAATAR 18072",
       "country": "Mongolia",
-      "country_iso_code": "MN"
+      "countryIsoCode": "MN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

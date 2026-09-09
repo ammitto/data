@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/477373",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/477373",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "FLOWBIRD SOCIÉTÉ PAR ACTIONS SIMPLIFIÉE",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "FLOWBIRD SOCIÉTÉ PAR ACTIONS SIMPLIFIÉE",
+      "isPrimary": true
     }
   ],
-  "remarks": "(formerly operating as: Parkeon Société par Actions Simplifiée)*535",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/477373"
+  ],
+  "remarks": "(formerly operating as: Parkeon Société par Actions Simplifiée)*535",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "100, AVENUE DE SUFFREN",
       "city": "75015 PARIS",
       "country": "France",
-      "country_iso_code": "FR"
+      "countryIsoCode": "FR"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

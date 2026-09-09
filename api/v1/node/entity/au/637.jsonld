@@ -1,72 +1,93 @@
 {
-  "id": "https://www.ammitto.org/entity/au/637",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/637",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Khawa Panga Mandro",
+      "@type": "NameVariant",
+      "fullName": "Khawa Panga Mandro",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Kawa Panga",
+      "@type": "NameVariant",
+      "fullName": "Kawa Panga",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Kawa Panga Mandro",
+      "@type": "NameVariant",
+      "fullName": "Kawa Panga Mandro",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Yves Andoul Karim",
+      "@type": "NameVariant",
+      "fullName": "Yves Andoul Karim",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Mandro Panga Kahwa",
+      "@type": "NameVariant",
+      "fullName": "Mandro Panga Kahwa",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Yves Khawa Panga Mandro",
+      "@type": "NameVariant",
+      "fullName": "Yves Khawa Panga Mandro",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Kawa Mandro",
+      "@type": "NameVariant",
+      "fullName": "Kawa Mandro",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "\"Chief Kahwa\"",
+      "@type": "NameVariant",
+      "fullName": "\"Chief Kahwa\"",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "\"Kawa\"",
+      "@type": "NameVariant",
+      "fullName": "\"Kawa\"",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "CDi.009 Placed in prison in Bunia in April 2005 for sabotage of the Ituri peace process. Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery. In August 2014, a DRC military court in Kisangani convicted him of war crimes and crimes against humanity, sentenced him to nine years in prison, and ordered him to pay approximately $85,000 to his victims. He served his sentence and resides in Uganda as of May 2016.; Listing: Listed by 1533 Committee on: 1 Nov. 2005 (amended on 13 Oct. 2016)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/637"
   ],
-  "birth_info": [
+  "remarks": "CDi.009 Placed in prison in Bunia in April 2005 for sabotage of the Ituri peace process. Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery. In August 2014, a DRC military court in Kisangani convicted him of war crimes and crimes against humanity, sentenced him to nine years in prison, and ordered him to pay approximately $85,000 to his victims. He served his sentence and resides in Uganda as of May 2016.; Listing: Listed by 1533 Committee on: 1 Nov. 2005 (amended on 13 Oct. 2016)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1973,
       "country": "Bunia"
     }
   ],
   "nationalities": [
-    "Congo",
-    "Democratic Republic of the"
+    "Congo, Democratic Republic of the"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Uganda (as of May 2016)",
       "country": "Uganda (as of May 2016)"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

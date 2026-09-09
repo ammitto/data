@@ -1,30 +1,47 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7864",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7864",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Irina Aleksandrovna CHERKASOVA",
+      "@type": "NameVariant",
+      "fullName": "Irina Aleksandrovna CHERKASOVA",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Iryna Oleksandrivna CHERKASOVA",
+      "@type": "NameVariant",
+      "fullName": "Iryna Oleksandrivna CHERKASOVA",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Commissioner for Children’s Rights in the Rostov Region; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2024",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7864"
   ],
-  "birth_info": [
+  "remarks": "Commissioner for Children’s Rights in the Rostov Region; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2024",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1963,
       "country": "Rostov"
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

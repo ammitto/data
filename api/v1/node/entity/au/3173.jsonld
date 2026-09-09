@@ -1,37 +1,55 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3173",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/3173",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Reconnaissance General Bureau",
+      "@type": "NameVariant",
+      "fullName": "Reconnaissance General Bureau",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Chongch’al Ch’ongguk",
+      "@type": "NameVariant",
+      "fullName": "Chongch’al Ch’ongguk",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "KPA Unit 586",
+      "@type": "NameVariant",
+      "fullName": "KPA Unit 586",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "RGB",
+      "@type": "NameVariant",
+      "fullName": "RGB",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "KPe.031. The Reconnaissance General Bureau is the DPRK's premiere intelligence organization, created in early 2009 by the merger of existing intelligence organizations from the Korean Workers' Party, the Operations Department and Office 35, and the Reconnaissance Bureau of the Korean People's Army. The Reconnaissance General Bureau trades in conventional arms and controls the DPRK conventional arms firm Green Pine Associated Corporation.; Listing: Listed on: 2 Mar. 2016",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3173"
+  ],
+  "remarks": "KPe.031. The Reconnaissance General Bureau is the DPRK's premiere intelligence organization, created in early 2009 by the merger of existing intelligence organizations from the Korean Workers' Party, the Operations Department and Office 35, and the Reconnaissance Bureau of the Korean People's Army. The Reconnaissance General Bureau trades in conventional arms and controls the DPRK conventional arms firm Green Pine Associated Corporation.; Listing: Listed on: 2 Mar. 2016",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "a) Hyongjesan- Guyok, Pyongyang, Democratic People's Republic of Korea b) Alternate address: Nungrado, Pyongyang, Democratic People's Republic of Korea",
       "country": "Democratic People's Republic of Korea"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

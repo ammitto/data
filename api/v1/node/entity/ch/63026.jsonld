@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/63026",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/63026",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Bratchenko Tatiana Georgievna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Bratchenko Tatiana Georgievna",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/63026"
   ],
   "remarks": "Tatiana Bratchenko was the director of the Kherson Regional Museum. In this role, she voluntarily and deliberately helped the Russian security forces to empty the museum of its artefacts. She publicly supported Russia’s control over the Kherson region and supported the illegal annexation of the territory.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1949-11-17",
-      "circa": false
+      "circa": false,
+      "year": 1949
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/845605",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/845605",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "TAIHAN KUWAIT FIBER OPTIC CABLE CO.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "TAIHAN KUWAIT FIBER OPTIC CABLE CO.",
+      "isPrimary": true
     }
   ],
-  "remarks": "(Reg. No. 441391)*658",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/845605"
+  ],
+  "remarks": "(Reg. No. 441391)*658",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "UNIT 21176, MINA ABDULLAH INDUSTRIAL AREA 21",
       "city": "AL AHMADI GOVERNORATE",
       "country": "Kuwait",
-      "country_iso_code": "KW"
+      "countryIsoCode": "KW"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

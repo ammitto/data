@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/40333",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/40333",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Imad Muwaffaq al-Azab",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Imad Muwaffaq al-Azab",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/40333"
   ],
   "remarks": "Former Minister of Education under the former al-Assad regime. As a former Government Minister, shares responsibility for the former al-Assad regime’s violent repression of the civilian population.",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1970
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

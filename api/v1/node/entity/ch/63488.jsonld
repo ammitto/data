@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/63488",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/63488",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mordvichev Andrey Nikolayevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Mordvichev Andrey Nikolayevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/63488"
   ],
   "remarks": "Lieutenant General Andrey Mordvichev is the Commander of the Central Military District of the Russian Federation since 17 Feb 2023. Under his command and control, the Russian Armed Forces, including troops of the Central Military District, are engaged in fighting in Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1976-01-14",
-      "circa": false
+      "circa": false,
+      "year": 1976
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

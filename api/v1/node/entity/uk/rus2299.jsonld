@@ -1,29 +1,45 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus2299",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus2299",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "AUTEL ROBOTICS CO., LTD. ",
+      "@type": "NameVariant",
+      "fullName": "AUTEL ROBOTICS CO., LTD. ",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "道通机器人有限公司 ",
+      "@type": "NameVariant",
+      "fullName": "道通机器人有限公司 ",
       "script": "Hani",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus2299"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "8th floor, Block B1, Nanshan iPark, No. 1001 Xueyuan Avenue, Nanshan District",
       "city": "Shenzen",
       "state": "Guangdong",
       "country": "China"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

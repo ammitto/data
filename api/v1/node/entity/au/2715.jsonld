@@ -1,34 +1,57 @@
 {
-  "id": "https://www.ammitto.org/entity/au/2715",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/2715",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Aleksandr Borisovich TOTOONOV",
+      "@type": "NameVariant",
+      "fullName": "Aleksandr Borisovich TOTOONOV",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Alexander TOTOONOV",
+      "@type": "NameVariant",
+      "fullName": "Alexander TOTOONOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Oleksandr Borysovych TOTOONOV",
+      "@type": "NameVariant",
+      "fullName": "Oleksandr Borysovych TOTOONOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Former Member of Russian Federation Council Committee on Culture, Science, Information.  Former Deputy Chairman of the Federation Council International Affairs Committee.  On 1 March 2014, Totoonov publicly supported the deployment of Russian forces in Ukraine; Listing: Listed on 19 Jun. 2014 (re-listed on 16 Jun. 2017, 10 June 2020 and 10 June 2023)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/2715"
   ],
-  "birth_info": [
+  "remarks": "Former Member of Russian Federation Council Committee on Culture, Science, Information.  Former Deputy Chairman of the Federation Council International Affairs Committee.  On 1 March 2014, Totoonov publicly supported the deployment of Russian forces in Ukraine; Listing: Listed on 19 Jun. 2014 (re-listed on 16 Jun. 2017, 10 June 2020 and 10 June 2023)",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1957
     },
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1957
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

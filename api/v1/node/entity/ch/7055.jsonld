@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/7055",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/7055",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Veterai Edmore",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Veterai Edmore",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/7055"
   ],
   "remarks": "Senior member of the security forces and bearing wide responsibility for serious violations of the freedom of peaceful assembly, and involved in invasion of Farm Thirty.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1962-11-20",
-      "circa": false
+      "circa": false,
+      "year": 1962
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

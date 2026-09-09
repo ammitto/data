@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/40247",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/40247",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Romashkin Ruslan Alexandrovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Romashkin Ruslan Alexandrovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/40247"
   ],
   "remarks": "Head of the Service of the Control Point in the “Republic of Crimea and City of Sevastopol” of the Federal Security Service of the Russian Federation. In this role, he was responsible for coordinating the actions of Russian Federation forces against Ukrainian vessels and their crews on 25 Nov 2018 which prevented access by Ukrainian vessels to their coast on the Sea of Azov, thereby undermining the territorial integrity and sovereignty of Ukraine and undermining the security of Ukraine through the disruption of the movements and operability of Ukrainian naval vessels.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1976-06-15",
-      "circa": false
+      "circa": false,
+      "year": 1976
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/79135",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/79135",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mohammad Essa Akhund Alhaj Mullah",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Mohammad Essa Akhund Alhaj Mullah",
+      "isPrimary": true
     }
   ],
-  "remarks": "Minister of Water, Sanitation and Electricity under the Taliban regime.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/79135"
+  ],
+  "remarks": "Minister of Water, Sanitation and Electricity under the Taliban regime (1996-2001).",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1958
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

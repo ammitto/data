@@ -1,40 +1,59 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8029",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/8029",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Aleksandr Alekseevich MOISEEV",
+      "@type": "NameVariant",
+      "fullName": "Aleksandr Alekseevich MOISEEV",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Aleksander Alekseevich MOISEEV",
+      "@type": "NameVariant",
+      "fullName": "Aleksander Alekseevich MOISEEV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Alexandr Alexeevich MOISEEV",
+      "@type": "NameVariant",
+      "fullName": "Alexandr Alexeevich MOISEEV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Alexander MOISEYEV",
+      "@type": "NameVariant",
+      "fullName": "Alexander MOISEYEV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Acting Commander-in-Chief of the Russian Navy; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8029"
   ],
-  "birth_info": [
+  "remarks": "Acting Commander-in-Chief of the Russian Navy; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1962,
       "country": "Borskoe"
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

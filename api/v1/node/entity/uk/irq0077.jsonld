@@ -1,21 +1,42 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/irq0077",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/irq0077",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "AL-TIKRITI",
-      "first_name": "TAHIR",
+      "@type": "NameVariant",
+      "fullName": "AL-TIKRITI",
+      "firstName": "TAHIR",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "طاهر جليل حبوش التكريتي",
+      "@type": "NameVariant",
+      "fullName": "طاهر جليل حبوش التكريتي",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/irq0077"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,33 +1,42 @@
 {
-  "id": "https://www.ammitto.org/entry/au/consolidated-list/456",
-  "entity_id": "https://www.ammitto.org/entity/au/456",
+  "@id": "https://www.ammitto.org/entry/au/consolidated-list/456",
+  "@type": "SanctionEntry",
+  "entityId": "https://www.ammitto.org/entity/au/456",
   "authority": {
     "@id": "https://www.ammitto.org/authority/au"
   },
   "regime": {
-    "@id": "https://www.ammitto.org/regime/1373__2001_"
+    "@id": "https://www.ammitto.org/regime/1373__2001_",
+    "name": "1373 (2001)"
   },
-  "legal_bases": [
+  "legalBases": [
     {
-      "type": "act",
-      "identifier": "Instrument of first listing: Charter of the United Nations Act 1945 List 2003 (No. 3) [F2021L00628, Gazette No. S 426, 21 November 2003]. Last listed 13/09/2025",
-      "title": "Instrument of first listing: Charter of the United Nations Act 1945 List 2003 (No. 3) [F2021L00628, Gazette No. S 426, 21 November 2003]. Last listed 13/09/2025"
+      "@id": "https://www.ammitto.org/legal-instrument/au/instrument-of-first-listing-charter-of-the-united-nations-act-1945-list-2003-no.-3-f2021l00628-gazette-no.-s-426-21-november-2003-.-last-listed-13-09-2025"
     }
   ],
   "effects": [
     {
-      "effect_type": "asset_freeze",
+      "@type": "SanctionEffect",
+      "effectType": "asset_freeze",
       "scope": "full"
     }
   ],
+  "reasons": [
+
+  ],
   "period": {
-    "is_indefinite": true
+    "@type": "TemporalPeriod",
+    "isIndefinite": true
   },
   "status": "active",
-  "reference_number": "456",
-  "raw_source_data": {
-    "source_format": "csv",
-    "source_specific_fields": {
+  "statusHistory": [
+
+  ],
+  "referenceNumber": "456",
+  "rawSourceData": {
+    "@type": "RawSourceData",
+    "sourceFormat": "csv",
+    "sourceSpecificFields": {
       "au:reference": "456",
       "au:committees": "1373 (2001)",
       "au:control_date": "2025-09-13",
@@ -35,5 +44,5 @@
       "au:listing_info": "Instrument of first listing: Charter of the United Nations Act 1945 List 2003 (No. 3) [F2021L00628, Gazette No. S 426, 21 November 2003]. Last listed 13/09/2025"
     }
   },
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

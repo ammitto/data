@@ -1,22 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/192743",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/wb/192743",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MR. MEAS SINA",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "MR. MEAS SINA",
+      "isPrimary": true
     }
   ],
-  "remarks": "*102",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/192743"
+  ],
+  "remarks": "*102",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "#51EO, ST. 366, SANGKAT TOUL SVAY, PREY I, KHAN CHAMKARMORN, CITY PHNOM PENH",
       "country": "Cambodia",
-      "country_iso_code": "KH"
+      "countryIsoCode": "KH"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

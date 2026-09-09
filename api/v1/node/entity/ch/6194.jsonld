@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/6194",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/6194",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Chihuri Augustine",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Chihuri Augustine",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/6194"
   ],
   "remarks": "Senior police officer and member of the Joint Operational Command, closely associated with the repressive policies of ZANU-PF. Publically confessed to support ZANU-PF in contravention of the Police Act. In June 2009 ordered the police to drop all cases related to murders committed to the run-up to the June 2008 Presidential election.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1953-03-10",
-      "circa": false
+      "circa": false,
+      "year": 1953
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

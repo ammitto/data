@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/80803",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/80803",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mohamed Ben Belgacem Ben Abdallah Al-Aouadi",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Mohamed Ben Belgacem Ben Abdallah Al-Aouadi",
+      "isPrimary": true
     }
   ],
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/80803"
+  ],
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1974-12-11",
-      "circa": false
+      "circa": false,
+      "year": 1974
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

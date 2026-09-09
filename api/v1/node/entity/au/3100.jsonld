@@ -1,60 +1,89 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3100",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/3100",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Peter Gadet",
+      "@type": "NameVariant",
+      "fullName": "Peter Gadet",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Peter Gatdet Yaka",
+      "@type": "NameVariant",
+      "fullName": "Peter Gatdet Yaka",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Peter Gadet Yak",
+      "@type": "NameVariant",
+      "fullName": "Peter Gadet Yak",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Peter Gadet Yaak",
+      "@type": "NameVariant",
+      "fullName": "Peter Gadet Yaak",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Peter Gatdet Yaak",
+      "@type": "NameVariant",
+      "fullName": "Peter Gatdet Yaak",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Peter Gatdet",
+      "@type": "NameVariant",
+      "fullName": "Peter Gatdet",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Peter Gatdeet Yaka",
+      "@type": "NameVariant",
+      "fullName": "Peter Gatdeet Yaka",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "SSi.006 Title: a) General b) Major General. Appointed the SPLA-IO’s Deputy Chief of Staff for Operations on December 21, 2014. Forces under his command targeted civilians, including women, in April 2014 during an assault on Bentiu, including targeted killings on the basis of ethnicity.; Listing: Listed on 1 July 2015.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3100"
   ],
-  "birth_info": [
+  "remarks": "SSi.006 Title: a) General b) Major General. Appointed the SPLA-IO’s Deputy Chief of Staff for Operations on December 21, 2014. Forces under his command targeted civilians, including women, in April 2014 during an assault on Bentiu, including targeted killings on the basis of ethnicity.; Listing: Listed on 1 July 2015.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1957,
       "country": "a) Mayom County Unity State b) Mayan"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1958,
       "country": "Unity State"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1959,
       "country": "a) Mayom County Unity State b) Mayan"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

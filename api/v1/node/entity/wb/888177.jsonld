@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/888177",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/888177",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "HEBEI CONSTRUCTION GROUP HARBIN AIRPORT CONSTRUCTION CO., LTD.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "HEBEI CONSTRUCTION GROUP HARBIN AIRPORT CONSTRUCTION CO., LTD.",
+      "isPrimary": true
     }
   ],
-  "remarks": "河北建设集团哈尔滨机场建设有限公司",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/888177"
+  ],
+  "remarks": "河北建设集团哈尔滨机场建设有限公司",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "NO 5, BALI STREET, TAIPINGZHUANG TOWN, DAOLI DISTRICT",
       "city": "HARBIN CITY, HEILONGJIANG PROVINCE",
       "country": "China",
-      "country_iso_code": "CN"
+      "countryIsoCode": "CN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

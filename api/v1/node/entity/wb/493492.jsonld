@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/493492",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/493492",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "SAO BAC DAU TELECOM JOINT STOCK COMPANY (SBD TELECOM)",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "SAO BAC DAU TELECOM JOINT STOCK COMPANY (SBD TELECOM)",
+      "isPrimary": true
     }
   ],
-  "remarks": "(Reg. No.: 0107426513)*531",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/493492"
+  ],
+  "remarks": "(Reg. No.: 0107426513)*531",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "BLOCK U 14B-16A, ROAD 22, TAN THUAN EPZ, TAN THUAN DONG WARD, DISTRICT 7",
       "city": "HO CHI MINH",
       "country": "Viet Nam",
-      "country_iso_code": "VN"
+      "countryIsoCode": "VN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

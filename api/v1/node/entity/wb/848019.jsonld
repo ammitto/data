@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/848019",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/848019",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "COMPUTECH BUSINESS SERVICES LIMITED",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "COMPUTECH BUSINESS SERVICES LIMITED",
+      "isPrimary": true
     }
   ],
-  "remarks": "*660",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/848019"
+  ],
+  "remarks": "*660",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "COMPUTECH HOUSE, PLOT #271, CHIKWAWA ROAD, P.O. BOX 2006",
       "city": "BLANTYRE",
       "country": "Malawi",
-      "country_iso_code": "MW"
+      "countryIsoCode": "MW"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

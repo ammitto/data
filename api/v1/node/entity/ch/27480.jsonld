@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/27480",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/27480",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Medvedev Valery Kirillovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Medvedev Valery Kirillovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/27480"
   ],
   "remarks": "Former Chair of Sevastopol Electoral Commission (until 26 May 2017). Responsible for administering the Crimean referendum. Responsible under the Russian system for signing referendum results.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1946-08-21",
-      "circa": false
+      "circa": false,
+      "year": 1946
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

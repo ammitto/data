@@ -1,40 +1,59 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8034",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/8034",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Alyaksandr Ivanavich MAROZ",
+      "@type": "NameVariant",
+      "fullName": "Alyaksandr Ivanavich MAROZ",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Alyaxandr Ivanavich MAROZ",
+      "@type": "NameVariant",
+      "fullName": "Alyaxandr Ivanavich MAROZ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Aliaksandr Ivanavich MAROZ",
+      "@type": "NameVariant",
+      "fullName": "Aliaksandr Ivanavich MAROZ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Alexander Ivanovich MOROZ",
+      "@type": "NameVariant",
+      "fullName": "Alexander Ivanovich MOROZ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Director General of the Belarusian Optical-Mechanical Association; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8034"
   ],
-  "birth_info": [
+  "remarks": "Director General of the Belarusian Optical-Mechanical Association; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1975,
       "country": "Tretyaki"
     }
   ],
   "nationalities": [
     "Belarus"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

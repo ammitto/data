@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/4449",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/4449",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kanapliou Uladzimir Mikalaevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kanapliou Uladzimir Mikalaevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/4449"
   ],
   "remarks": "Has close ties with President Lukashenka with whom he worked closely during the 1980s and mainly in 1990s. Deputy Head of the National Olympic Committee (Head is Alexandr Lukashenka). Head of the Handball federation, re-elected in 2014. Former Chairman of the Lower House of the Parliament. He was one of the main actors in the fraudulent presidential election in 2006.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1954-01-03",
-      "circa": false
+      "circa": false,
+      "year": 1954
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,32 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8099",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/8099",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Kazan State Treasury Gunpowder Factory Federal State Enterprise",
+      "@type": "NameVariant",
+      "fullName": "Kazan State Treasury Gunpowder Factory Federal State Enterprise",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "KGKPS",
+      "@type": "NameVariant",
+      "fullName": "KGKPS",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Kazanskii Gosudarstvennyi Kazennyi Porokhovoi Zavod",
+      "@type": "NameVariant",
+      "fullName": "Kazanskii Gosudarstvennyi Kazennyi Porokhovoi Zavod",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Company Identification No. 1031624002937; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8099"
+  ],
+  "remarks": "Company Identification No. 1031624002937; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Pervogo Maya D. 14, Kazan 420032, Russia",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

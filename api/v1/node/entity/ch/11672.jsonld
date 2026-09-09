@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/11672",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/11672",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Rami Makhlouf",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Rami Makhlouf",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/11672"
   ],
   "remarks": "Leading businessman operating in Syria with interests in the financial services, transport and property sectors. He has financial interests in and/or holds senior and executive positions in the investment funds Al Mashreq, Bena Properties and Cham Holding.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1969-07-10",
-      "circa": false
+      "circa": false,
+      "year": 1969
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/63471",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/63471",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kuzovlev Sergei Yuryevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kuzovlev Sergei Yuryevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/63471"
   ],
   "remarks": "Colonel General Sergei Kuzovlev is the Commander of the Southern Military District of the Russian Federation since 23 Jan 2023. Under his command and control, the Russian Armed Forces, including troops of the Southern Military District, are engaged in fighting in Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1967-01-07",
-      "circa": false
+      "circa": false,
+      "year": 1967
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

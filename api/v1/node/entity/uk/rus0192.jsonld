@@ -1,36 +1,54 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus0192",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus0192",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": " Joint-stock company \"Production Agrarian Union 'Massandra'\"",
+      "@type": "NameVariant",
+      "fullName": " Joint-stock company \"Production Agrarian Union 'Massandra'\"",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "State Unitary Enterprise of the 'Republic of Crimea Production-Agrarian Union Massandra'",
+      "@type": "NameVariant",
+      "fullName": "State Unitary Enterprise of the 'Republic of Crimea Production-Agrarian Union Massandra'",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Federal State Budgetary Enterprise 'Production-Agrarian Union 'Massandra' of the Administration of the President of the Russian Federation",
+      "@type": "NameVariant",
+      "fullName": "Federal State Budgetary Enterprise 'Production-Agrarian Union 'Massandra' of the Administration of the President of the Russian Federation",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "State Concern 'National Association of producers 'Massandra'",
+      "@type": "NameVariant",
+      "fullName": "State Concern 'National Association of producers 'Massandra'",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus0192"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Str. Vinodela Egorova 9, Massandra, Yalta, The Autonomous Republic of Crimea and the city of Sevastopol, Ukraine"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

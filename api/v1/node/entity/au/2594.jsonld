@@ -1,37 +1,55 @@
 {
-  "id": "https://www.ammitto.org/entity/au/2594",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/2594",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "TOWLID ABZAR BORESHI IRAN",
+      "@type": "NameVariant",
+      "fullName": "TOWLID ABZAR BORESHI IRAN",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "TABA",
+      "@type": "NameVariant",
+      "fullName": "TABA",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "TABA Company",
+      "@type": "NameVariant",
+      "fullName": "TABA Company",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Iran Cutting Tools Company",
+      "@type": "NameVariant",
+      "fullName": "Iran Cutting Tools Company",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Listing: Designated under the Autonomous Sanctions Regulations 2011 on 3 July 2013, Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Iran) Amendment List 2013 (No. 1) [F2013L01312]. Relisted on 12 January 2024.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/2594"
+  ],
+  "remarks": "Listing: Designated under the Autonomous Sanctions Regulations 2011 on 3 July 2013, Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Iran) Amendment List 2013 (No. 1) [F2013L01312]. Relisted on 12 January 2024.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Northwest of Karaj at Km 55 Qazvin (alt. Ghazvin) Highway, Haljerd, Iran;\nNo. 66 Sarhang Sakhaei St., Hafez Avenue, Tehran, Iran",
       "country": "Iran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

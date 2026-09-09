@@ -1,37 +1,55 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8083",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/8083",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Scientific and Production Association Molniya Joint Stock Company",
+      "@type": "NameVariant",
+      "fullName": "Scientific and Production Association Molniya Joint Stock Company",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "JSC NPO Molniya",
+      "@type": "NameVariant",
+      "fullName": "JSC NPO Molniya",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Molniya Research and Industrial Corporation JSC",
+      "@type": "NameVariant",
+      "fullName": "Molniya Research and Industrial Corporation JSC",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "NPO Lightning",
+      "@type": "NameVariant",
+      "fullName": "NPO Lightning",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "http://www.npomolniya.ru/; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8083"
+  ],
+  "remarks": "http://www.npomolniya.ru/; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Lodochnaya Street, 5, 1, Moscow 125363 Russia",
       "country": "Moscow 125363 Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

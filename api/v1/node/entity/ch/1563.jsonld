@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/1563",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/1563",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Sa’d Abd-al-Majid Al-Faisal Al-Tikriti",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Sa’d Abd-al-Majid Al-Faisal Al-Tikriti",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/1563"
   ],
   "remarks": "Ba’th Party Regional Command Chairman, Salah Ad-Din; Former Undersecretary for Security Affairs, Foreign Ministry",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1944
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/27490",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/27490",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mizulina Dmitriyeva Elena Borisovna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Mizulina Dmitriyeva Elena Borisovna",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/27490"
   ],
   "remarks": "Former Deputy in the State Duma. Originator and co-sponsor of recent legislative proposals in Russia that would have allowed regions of other countries to join Russia without their central authorities’ prior agreement.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1954-12-09",
-      "circa": false
+      "circa": false,
+      "year": 1954
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

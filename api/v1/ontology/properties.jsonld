@@ -1,5 +1,5 @@
 {
-  "@context": "https://www.ammitto.org/ontology/context.jsonld",
+  "@context": "https://ammitto.org/api/v1/context.jsonld",
   "@graph": [
     {
       "@id": "https://www.ammitto.org/ontology/entityType",
@@ -507,12 +507,44 @@
       "range": "http://www.w3.org/2001/XMLSchema#date"
     },
     {
+      "@id": "https://www.ammitto.org/ontology/dateRangeFrom",
+      "@type": "rdf:Property",
+      "label": "Date Range From",
+      "comment": "Lower bound of a stated span of complete birth dates",
+      "domain": "https://www.ammitto.org/ontology/BirthInfo",
+      "range": "http://www.w3.org/2001/XMLSchema#date"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/dateRangeTo",
+      "@type": "rdf:Property",
+      "label": "Date Range To",
+      "comment": "Upper bound of a stated span of complete birth dates",
+      "domain": "https://www.ammitto.org/ontology/BirthInfo",
+      "range": "http://www.w3.org/2001/XMLSchema#date"
+    },
+    {
       "@id": "https://www.ammitto.org/ontology/year",
       "@type": "rdf:Property",
       "label": "Year",
       "comment": "Birth year",
       "domain": "https://www.ammitto.org/ontology/BirthInfo",
-      "range": "http://www.w3.org/2001/XMLSchema#integer"
+      "range": "http://www.w3.org/2001/XMLSchema#gYear"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/yearRangeFrom",
+      "@type": "rdf:Property",
+      "label": "Year Range From",
+      "comment": "Lower bound of a birth-year span",
+      "domain": "https://www.ammitto.org/ontology/BirthInfo",
+      "range": "http://www.w3.org/2001/XMLSchema#gYear"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/yearRangeTo",
+      "@type": "rdf:Property",
+      "label": "Year Range To",
+      "comment": "Upper bound of a birth-year span",
+      "domain": "https://www.ammitto.org/ontology/BirthInfo",
+      "range": "http://www.w3.org/2001/XMLSchema#gYear"
     },
     {
       "@id": "https://www.ammitto.org/ontology/place",

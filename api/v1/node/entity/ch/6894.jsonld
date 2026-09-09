@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/6894",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/6894",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Parirenyatwa David Pagwese",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Parirenyatwa David Pagwese",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/6894"
   ],
   "remarks": "Former ZANU-PF Member of the Government. Organised torture bases in Murehwa North and provided support to gangs who murdered Edward Pfukwa on 17 June 2008 and Alloys Chandisareva Sanyangore in November 2008.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1950-08-02",
-      "circa": false
+      "circa": false,
+      "year": 1950
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

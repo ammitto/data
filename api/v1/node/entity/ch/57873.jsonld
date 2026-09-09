@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/57873",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/57873",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Umakhanov Iliyas Magomed-Salamovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Umakhanov Iliyas Magomed-Salamovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/57873"
   ],
   "remarks": "Iliyas Umakhanov is a member of the Federation Council who on 4 Oct 2022 ratified the four treaties between the Russian Federation and the Donetsk People’s Republic, the Luhansk People’s Republic, the Zaporizhzhia region, and the Kherson region, and their admission to the Russian Federation. Therefore, he has supported and implemented actions and policies, which undermine the territorial integrity, sovereignty and independence of Ukraine, and further destabilised Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1957-03-27",
-      "circa": false
+      "circa": false,
+      "year": 1957
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

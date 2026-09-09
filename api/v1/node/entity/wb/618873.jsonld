@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/618873",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/618873",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "ALYANS BETON LIMITED LIABILITY COMPANY",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "ALYANS BETON LIMITED LIABILITY COMPANY",
+      "isPrimary": true
     }
   ],
-  "remarks": "*599",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/618873"
+  ],
+  "remarks": "*599",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "I. ISMALIYOV STREET, DOM 8, KVARTIRA 79",
       "city": "KHATAINSKIY RAYON, BAKU",
       "country": "Azerbaijan",
-      "country_iso_code": "AZ"
+      "countryIsoCode": "AZ"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

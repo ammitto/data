@@ -1,21 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/cn/202513-leidos",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/cn/202513-leidos",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Leidos",
+      "@type": "NameVariant",
+      "fullName": "Leidos",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "莱多斯公司",
+      "@type": "NameVariant",
+      "fullName": "莱多斯公司",
       "script": "Hani",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "List: cn/export-control-list",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/cn/unknown/202513-leidos"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "remarks": "List: cn/export-control-list",
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

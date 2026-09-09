@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/62721",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/62721",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kumpilov Murat Karalbiyevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kumpilov Murat Karalbiyevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/62721"
   ],
   "remarks": "Murat Kumpilov is the head of the Republic of Adygea of the Russian Federation and secretary of the Adygea regional branch of the United Russia Party. In this capacity, Murat Kumpilov is contributing to the illegal deportation and adoption of Ukrainian children. He is facilitating the illegal deportation and abduction of Ukrainian children to so-called “health camps” and reeducation facilities located in his region. Murat Kumpilov is one of the senior Russian (regional) leaders involved in the illegal deportation and abduction of Ukrainian children to Russia. Murat Kumpilov’s actions violate the rights of Ukrainian children and infringe Ukraine’s law and administrative order.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1973-02-27",
-      "circa": false
+      "circa": false,
+      "year": 1973
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

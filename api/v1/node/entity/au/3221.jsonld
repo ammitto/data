@@ -1,27 +1,44 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3221",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/3221",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kim Kyong-nam",
+      "@type": "NameVariant",
+      "fullName": "Kim Kyong-nam",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "Representative of the Foreign Trade Bank in Russia; Listing: The Minister for Foreign Affairs listed this person on 6 December 2016 under regulation 6(1) of the Autonomous Sanctions Regulations 2011 (AS Regulations). The Minister declared on 4 December 2019, pursuant to regulation 9(3) of the AS Regulations, that this listing would continue to have effect. Relisted on 3 December 2022.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3221"
   ],
-  "birth_info": [
+  "remarks": "Representative of the Foreign Trade Bank in Russia; Listing: The Minister for Foreign Affairs listed this person on 6 December 2016 under regulation 6(1) of the Autonomous Sanctions Regulations 2011 (AS Regulations). The Minister declared on 4 December 2019, pursuant to regulation 9(3) of the AS Regulations, that this listing would continue to have effect. Relisted on 3 December 2022.",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1976
     }
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Russia",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

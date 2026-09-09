@@ -1,37 +1,59 @@
 {
-  "id": "https://www.ammitto.org/entity/au/2730",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/2730",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Vladimir Vasilyevich USTINOV",
+      "@type": "NameVariant",
+      "fullName": "Vladimir Vasilyevich USTINOV",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Volodymyr Vasylyovych USTYNOV",
+      "@type": "NameVariant",
+      "fullName": "Volodymyr Vasylyovych USTYNOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Vladimir USTINOV",
+      "@type": "NameVariant",
+      "fullName": "Vladimir USTINOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Vladimir Vasilevich USTINOV",
+      "@type": "NameVariant",
+      "fullName": "Vladimir Vasilevich USTINOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Presidential Envoy to the Southern Federal District of the Russian Federation.; Listing: Listed on 16 June 2017, re-listed 10 Jun 2020 and 29 March 2021 and 10 June 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/2730"
   ],
-  "birth_info": [
+  "remarks": "Presidential Envoy to the Southern Federal District of the Russian Federation.; Listing: Listed on 16 June 2017, re-listed 10 Jun 2020 and 29 March 2021 and 10 June 2023",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1953,
       "country": "Nikolayevsk-on-Amur"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

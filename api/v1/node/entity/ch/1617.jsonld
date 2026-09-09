@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/1617",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/1617",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mohammad Barzan Ibrahim Hasan Al-Tikriti",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Mohammad Barzan Ibrahim Hasan Al-Tikriti",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/1617"
   ],
   "remarks": "Child of Barzan Ibrahim Hassan Al-Tikriti (listed above). Barzan Ibrahim Hassan Al-Tikriti, half-brother to Saddam Hussein, was a former presidential advisor and Iraqi Ambassador to the United Nations.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1972-11-02",
-      "circa": false
+      "circa": false,
+      "year": 1972
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

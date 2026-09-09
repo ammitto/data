@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/61469",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/61469",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Akopov Alexander Zavenovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Akopov Alexander Zavenovich",
+      "isPrimary": true
     }
   ],
-  "remarks": "Alexander Akopov is the Deputy CEO of National Media Group (NMG), a large media holding controlling media outlets which are actively spreading propaganda and disinformation related to the Russian war of aggression against Ukraine. He is deputy to Svetlana Balanova, head of NMG.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/61469"
+  ],
+  "remarks": "Alexander Akopov is the former Deputy CEO of National Media Group (NMG), a large media holding controlling media outlets which are actively spreading propaganda and disinformation related to the Russian war of aggression against Ukraine. He is former deputy to Svetlana Balanova, head of NMG.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1957-11-22",
-      "circa": false
+      "circa": false,
+      "year": 1957
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

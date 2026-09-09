@@ -1,34 +1,54 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus0806",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/rus0806",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "ROTENBERG",
-      "first_name": "Roman",
+      "@type": "NameVariant",
+      "fullName": "ROTENBERG",
+      "firstName": "Roman",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "ROTENBERG",
-      "first_name": "Roman",
+      "@type": "NameVariant",
+      "fullName": "ROTENBERG",
+      "firstName": "Roman",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "РОТЕНБЕРГ Роман Борисович",
+      "@type": "NameVariant",
+      "fullName": "РОТЕНБЕРГ Роман Борисович",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus0806"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Beregovaya; Street 6; Apartment 25, Moscow",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/lib0069",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/lib0069",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Avrasya Shipping",
+      "@type": "NameVariant",
+      "fullName": "Avrasya Shipping",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/lib0069"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Liman Mh. Gezi Cd. No:22/3, Ilkadim, Ilkadim",
       "state": "Samsun",
       "country": "Turkey"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

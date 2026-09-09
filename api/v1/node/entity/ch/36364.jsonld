@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/36364",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/36364",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Hisham Mohammad Mamdouh Al-Sha'ar",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Hisham Mohammad Mamdouh Al-Sha'ar",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/36364"
   ],
   "remarks": "Former Justice Minister under the former al-Assad regime. As a former Government Minister, shares responsibility for the former al-Assad regime’s violent repression of the civilian population.",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1958
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

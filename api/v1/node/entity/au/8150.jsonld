@@ -1,32 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8150",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/8150",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Alabuga Special Economic Zone Production and Industrial Type Joint Stock Company",
+      "@type": "NameVariant",
+      "fullName": "Alabuga Special Economic Zone Production and Industrial Type Joint Stock Company",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "SEZ P&I Type Alabuga JSC",
+      "@type": "NameVariant",
+      "fullName": "SEZ P&I Type Alabuga JSC",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "SEZ Alabuga",
+      "@type": "NameVariant",
+      "fullName": "SEZ Alabuga",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "http://alabuga.ru; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8150"
+  ],
+  "remarks": "http://alabuga.ru; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "ul. Sh-2 (Oez Alabuga Ter.) 4/1, Yelabuga, Tatarstan 423600",
       "country": "Tatarstan 423600"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

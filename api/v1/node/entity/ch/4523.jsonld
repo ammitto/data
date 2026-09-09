@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/4523",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/4523",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Dzemiantsei Vasil Ivanavich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Dzemiantsei Vasil Ivanavich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/4523"
   ],
   "remarks": "Head of the Grodno regional Customs committee (since 22 Apr 2011), former First deputy Chairman of the KGB (2005–2007), former Deputy Head of the State Customs Committee (2007–2011). Responsible for the repressive activity of the KGB against civil society and the democratic opposition, in particular in 2006–2007.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1954-09-20",
-      "circa": false
+      "circa": false,
+      "year": 1954
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

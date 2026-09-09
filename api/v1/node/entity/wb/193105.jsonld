@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/193105",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/193105",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "SERVICIOS DE INGENIERIA Y CONSTRUCCION VARGAS RIOS (CONSTRUCTORA S.I.C.)",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "SERVICIOS DE INGENIERIA Y CONSTRUCCION VARGAS RIOS (CONSTRUCTORA S.I.C.)",
+      "isPrimary": true
     }
   ],
-  "remarks": "*90",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/193105"
+  ],
+  "remarks": "*90",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "3ER. ANILLO EXTERNO, CALLE GABRIEL JOSE MORENO NO. 300",
       "city": "SANTA CRUZ DE LA SIERRA",
       "country": "Bolivia",
-      "country_iso_code": "BO"
+      "countryIsoCode": "BO"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

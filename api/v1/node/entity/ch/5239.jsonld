@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/5239",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/5239",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Akulich Sviatlana Rastsislavauna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Akulich Sviatlana Rastsislavauna",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/5239"
   ],
   "remarks": "Responsible for implementing the politically-motivated administrative and criminal sanctions against representatives of civil society. Former judge of the Pukhovichi District Court (retired since 8 September 2011). She unlawfully rejected in March 2011 the motion of Natalia Ilinich to restore her position as teacher of the Secondary School in Talkov City (sacked in January 2011).",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1948-08-27",
-      "circa": false
+      "circa": false,
+      "year": 1948
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/888233",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/888233",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "HEBEI CONSTRUCTION GROUP CORPORATION LIMITED DANGSHAN BRANCH",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "HEBEI CONSTRUCTION GROUP CORPORATION LIMITED DANGSHAN BRANCH",
+      "isPrimary": true
     }
   ],
-  "remarks": "河北建设集团股份有限公司砀山分公司",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/888233"
+  ],
+  "remarks": "河北建设集团股份有限公司砀山分公司",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "EAST OF YAOCHI ROAD, SOUTH OF 310 NATIONAL ROAD, HUIMIN COMMUNITY, ECONOMIC DEVELOPMENT ZONE, DANGSHAN COUNTY",
       "city": "SUZHOU CITY, ANHUI PROVINCE",
       "country": "China",
-      "country_iso_code": "CN"
+      "countryIsoCode": "CN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

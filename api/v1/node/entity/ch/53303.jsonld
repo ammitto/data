@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/53303",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/53303",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Podlipanov Dmitriy Viktorovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Podlipanov Dmitriy Viktorovich",
+      "isPrimary": true
     }
   ],
-  "remarks": "Former so-called “Minister of Transport” of the so-called “Donetsk People’s Republic”. In taking on and acting in this capacity, he has actively undermined the territorial integrity, sovereignty and independence of Ukraine.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/53303"
+  ],
+  "remarks": "Former so-called “Minister of Transport” of the so-called “Donetsk People’s Republic”. Currently, Podlipanov is the manager of LLC “Dontranslogistik”, registered in the so-called “Donetsk People’s Republic”. This company is active in the logistics sector in the so-called “Donetsk People’s Republic”. In taking on and acting in these capacities, Dmitriy Podlipanov has actively undermined the territorial integrity, sovereignty and independence of Ukraine.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1964-11-28",
-      "circa": false
+      "circa": false,
+      "year": 1964
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

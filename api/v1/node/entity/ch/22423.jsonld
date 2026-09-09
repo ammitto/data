@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/22423",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/22423",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Omran Ahed Al Zu’bi",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Omran Ahed Al Zu’bi",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/22423"
   ],
   "remarks": "Former Minister of Information in power after May 2011. As a former Government Minister, shares responsibility for the regime's violent repression against the civilian population.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1959-09-27",
-      "circa": false
+      "circa": false,
+      "year": 1959
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

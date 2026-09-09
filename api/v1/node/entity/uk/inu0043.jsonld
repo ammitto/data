@@ -1,68 +1,92 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/inu0043",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/inu0043",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Shiraz Electronics Industries",
+      "@type": "NameVariant",
+      "fullName": "Shiraz Electronics Industries",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Sashiraz Industries",
+      "@type": "NameVariant",
+      "fullName": "Sashiraz Industries",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "SEI",
+      "@type": "NameVariant",
+      "fullName": "SEI",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Shiraz Electronic Ind.",
+      "@type": "NameVariant",
+      "fullName": "Shiraz Electronic Ind.",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Shiraz Electronic Industries",
+      "@type": "NameVariant",
+      "fullName": "Shiraz Electronic Industries",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Shiraz Electronics Industry Co.",
+      "@type": "NameVariant",
+      "fullName": "Shiraz Electronics Industry Co.",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/inu0043"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Ayatollah Mirzay e Shiraz Blvd., Ghasr Aldasht St.",
       "state": "Shiraz",
       "country": "Iran"
     },
     {
+      "@type": "Address",
       "street": "Hossain Abad Road,",
       "state": "Shiraz",
       "country": "Iran"
     },
     {
+      "@type": "Address",
       "street": "Mirzaie Shirazi, Fars, 71365 1589",
       "state": "Shiraz",
       "country": "Iran"
     },
     {
-      "street": "P.O. Box 71365 1589",
+      "@type": "Address",
+      "street": "Mirzaye Shirazi Blv.",
       "state": "Shiraz",
       "country": "Iran"
     },
     {
-      "street": "Mirzaye Shirazi Blv.",
+      "@type": "Address",
+      "street": "P.O. Box 71365 1589",
       "state": "Shiraz",
       "country": "Iran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

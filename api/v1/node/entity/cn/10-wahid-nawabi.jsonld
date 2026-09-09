@@ -1,22 +1,43 @@
 {
-  "id": "https://www.ammitto.org/entity/cn/10-wahid-nawabi",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/cn/10-wahid-nawabi",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Wahid Nawabi",
+      "@type": "NameVariant",
+      "fullName": "Wahid Nawabi",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "瓦希德·纳瓦比",
+      "@type": "NameVariant",
+      "fullName": "瓦希德·纳瓦比",
       "script": "Hani",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/cn/anti-sanction-list/10-wahid-nawabi"
+  ],
   "remarks": "List: cn/anti-sanction-list; Title: 宇航环境公司董事长、总裁、首席执行官; Gender: male",
-  "sanction_entry_ids": [
-    "https://www.ammitto.org/entry/cn/unknown/10-wahid-nawabi"
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
   ],
   "gender": "male",
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

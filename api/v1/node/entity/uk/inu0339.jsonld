@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/inu0339",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/inu0339",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "PERSIA INTERNATIONAL BANK PLC  ",
+      "@type": "NameVariant",
+      "fullName": "PERSIA INTERNATIONAL BANK PLC  ",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/inu0339"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "6 Lothbury",
       "state": "London",
       "country": "United Kingdom"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

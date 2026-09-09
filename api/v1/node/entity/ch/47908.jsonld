@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/47908",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/47908",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Osipov Igor Vladimirovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Osipov Igor Vladimirovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/47908"
   ],
   "remarks": "Igor Osipov is the former Commander-in-Chief of the Black Sea Fleet. As such, he was responsible for any maritime operation in or to Ukraine through the Black Sea and for restricting the freedom of navigation in the Black Sea.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1973-03-06",
-      "circa": false
+      "circa": false,
+      "year": 1973
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

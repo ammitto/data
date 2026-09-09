@@ -1,40 +1,63 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/chw0004",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/chw0004",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Said",
-      "first_name": "Said",
+      "@type": "NameVariant",
+      "fullName": "Said",
+      "firstName": "Said",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Sa'id",
-      "first_name": "Saeed",
+      "@type": "NameVariant",
+      "fullName": "Sa'id",
+      "firstName": "Saeed",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "سعيد سعيد",
+      "@type": "NameVariant",
+      "fullName": "سعيد سعيد",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Important employee at Scientific Studies and Research Centre (listed under both the Syria and Chemical Weapons regime). Works under Zuhair Fadhlun (listed under the Syria sanctions regime). The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/chw0004"
+  ],
+  "remarks": "Important employee at Scientific Studies and Research Centre (listed under both the Syria and Chemical Weapons regime). Works under Zuhair Fadhlun (listed under the Syria sanctions regime). The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "city": "Barzeh",
       "state": "Damascus",
       "country": "Syria"
     },
     {
+      "@type": "Address",
+      "street": "",
       "city": "Jamraya",
       "state": "Damascus",
       "country": "Syria"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

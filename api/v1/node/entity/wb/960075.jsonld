@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/960075",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/960075",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "CONSTRUTORA COESA S.A. - SUCURSAL GUATEMALA",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "CONSTRUTORA COESA S.A. - SUCURSAL GUATEMALA",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/960075"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "7 AVENIDA N. 5-10, ZONA 4, CENTRO FINANCIERO, TORRE II, NIVEL 11, OFICINA N.1",
       "city": "GUATEMALA CITY",
       "country": "Guatemala",
-      "country_iso_code": "GT"
+      "countryIsoCode": "GT"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

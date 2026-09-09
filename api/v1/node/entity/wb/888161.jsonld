@@ -1,21 +1,36 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/888161",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/888161",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "HEBEI TIANYU CONSTRUCTION DEVELOPMENT CO., LTD.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "HEBEI TIANYU CONSTRUCTION DEVELOPMENT CO., LTD.",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/888161"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "city": "GAOBEIDIAN CITY, BAODING CITY, HEBEI PROVINCE",
       "country": "China",
-      "country_iso_code": "CN"
+      "countryIsoCode": "CN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/72880",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/72880",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Epishin Eduard Borisovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Epishin Eduard Borisovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/72880"
   ],
   "remarks": "Eduard Epishin is the General Director of JSC Avangard. JSC Avangard is a Russian manufacturer of large-sized fiberglass products, as well as plastic and rubber products, and is part of one of the largest rocket-building holdings in Russia, JSC MIC NPO Mashinostroyenia, which is itself part of JSC Tactical Missile Armament Corporation. JSC Avangard is involved in the production of armoured vehicles and missiles, which are used by the Russian Armed Forces in the war of aggression against Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1971-03-13",
-      "circa": false
+      "circa": false,
+      "year": 1971
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

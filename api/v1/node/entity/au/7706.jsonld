@@ -1,50 +1,71 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7706",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7706",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mohammad Reza Zahedi",
+      "@type": "NameVariant",
+      "fullName": "Mohammad Reza Zahedi",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Mohammad Reza ZAHIDI",
+      "@type": "NameVariant",
+      "fullName": "Mohammad Reza ZAHIDI",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Mohammad Raza ZAHEDI",
+      "@type": "NameVariant",
+      "fullName": "Mohammad Raza ZAHEDI",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Mohammadreza ZAHEDI",
+      "@type": "NameVariant",
+      "fullName": "Mohammadreza ZAHEDI",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Mohammad ZAHEDI",
+      "@type": "NameVariant",
+      "fullName": "Mohammad ZAHEDI",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ali Reza ZAHEDI",
+      "@type": "NameVariant",
+      "fullName": "Ali Reza ZAHEDI",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Previously listed under UNSC Resolution 2231 – Charter of the United Nations (Sanctions—Iran) Regulation 2016 [F2016L01181]\n\nCommander of the IRGC Ground Forces (last known position).; Listing: Instrument of first designation and declaration: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Iran) Amendment (No. 2) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7706"
   ],
-  "birth_info": [
+  "remarks": "Previously listed under UNSC Resolution 2231 – Charter of the United Nations (Sanctions—Iran) Regulation 2016 [F2016L01181]\n\nCommander of the IRGC Ground Forces (last known position).; Listing: Instrument of first designation and declaration: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Iran) Amendment (No. 2) Instrument 2023",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1944,
       "country": "Isfahan"
     }
   ],
   "nationalities": [
     "Iran"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

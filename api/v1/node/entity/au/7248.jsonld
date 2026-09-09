@@ -1,34 +1,53 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7248",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7248",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mikhail Alekseevich KLISHIN",
+      "@type": "NameVariant",
+      "fullName": "Mikhail Alekseevich KLISHIN",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Mykhaylo Oleksiyovych KLISHYN",
+      "@type": "NameVariant",
+      "fullName": "Mykhaylo Oleksiyovych KLISHYN",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Executive of Bank Rossiya, and a member of the Board of Directors at SOGAZ.; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 18) Instrument 2022",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7248"
   ],
-  "birth_info": [
+  "remarks": "Executive of Bank Rossiya, and a member of the Board of Directors at SOGAZ.; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 18) Instrument 2022",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1954,
       "country": "St Petersburg"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1954,
       "country": "Russia"
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

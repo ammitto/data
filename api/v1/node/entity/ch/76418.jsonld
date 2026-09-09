@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/76418",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/76418",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Odeh Ahmed Sharif Abdallah",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Odeh Ahmed Sharif Abdallah",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/76418"
   ],
   "remarks": "Ahmed Sharif Abdallah Odeh leads Hamas’ foreign investment activities. He has been involved in the group’s foreign investment portfolio for years. He was first in charge of the day-to-day management of the investment portfolio, and now oversees it on behalf of the Hamas Shura Council. Furthermore, he is a shareholder and a board member of several front companies for Hamas.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1951-02-20",
-      "circa": false
+      "circa": false,
+      "year": 1951
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

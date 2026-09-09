@@ -1,30 +1,47 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7429",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7429",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Oleg Aleksandrovich TERLYAKOV",
+      "@type": "NameVariant",
+      "fullName": "Oleg Aleksandrovich TERLYAKOV",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Oleg Aleksandrovich TERLIAKOV",
+      "@type": "NameVariant",
+      "fullName": "Oleg Aleksandrovich TERLIAKOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Deputy Head of the Federal Service for Supervision of Communications, Information and Mass Media (Roskomnadzor); Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 2) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7429"
   ],
-  "birth_info": [
+  "remarks": "Deputy Head of the Federal Service for Supervision of Communications, Information and Mass Media (Roskomnadzor); Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 2) Instrument 2023",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1979,
       "country": "Russia"
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

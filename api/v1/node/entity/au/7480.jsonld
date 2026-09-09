@@ -1,27 +1,43 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7480",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/7480",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Skolkovo Institute of Science and Technology ",
+      "@type": "NameVariant",
+      "fullName": "Skolkovo Institute of Science and Technology ",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Skoltech ",
+      "@type": "NameVariant",
+      "fullName": "Skoltech ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "State registration number: 1115000005922 ; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 2) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7480"
+  ],
+  "remarks": "State registration number: 1115000005922 ; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 2) Instrument 2023",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Bolshoy Boulevard 30, bld. 1, Moscow, 121205, Russia ",
       "country": "Russia "
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

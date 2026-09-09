@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/39346",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/39346",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Katherine Nayarith Harrington Padrón",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Katherine Nayarith Harrington Padrón",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/39346"
   ],
   "remarks": "President of the Criminal Judicial Circuit of the Metropolitan Area of Caracas. Former Deputy Prosecutor General (also translated as Deputy Attorney General) from Jul 2017 until Oct 2018. Appointed Deputy Prosecutor General by the Supreme Court rather than by the National Assembly, in violation of the Constitution. Responsible for undermining democracy and the rule of law in Venezuela, including by initiating politically-motivated prosecutions and failing to investigate allegations of human rights violations by the Maduro regime.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1971-12-05",
-      "circa": false
+      "circa": false,
+      "year": 1971
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,27 +1,43 @@
 {
-  "id": "https://www.ammitto.org/entity/au/1122",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/1122",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "HONG KONG ELECTRONICS",
+      "@type": "NameVariant",
+      "fullName": "HONG KONG ELECTRONICS",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "HONG KONG ELECTRONICS KISH CO.",
+      "@type": "NameVariant",
+      "fullName": "HONG KONG ELECTRONICS KISH CO.",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "KPe.005. Owned or controlled by, or acts or purports to act for or on behalf of Tanchon Commercial Bank and KOMID. Hong Kong Electronics has transferred millions of dollars of proliferation related funds on behalf of Tanchon Commercial Bank and KOMID (both designated by the Committee in April 2009) since 2007. Hong Kong Electronics has facilitated the movement of money from Iran to the DPRK on behalf of KOMID.Location: Sanaee St., Kish Island, Iran; Listing: Listed by the UN 1718 Committee on 16 July 2009",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/1122"
+  ],
+  "remarks": "KPe.005. Owned or controlled by, or acts or purports to act for or on behalf of Tanchon Commercial Bank and KOMID. Hong Kong Electronics has transferred millions of dollars of proliferation related funds on behalf of Tanchon Commercial Bank and KOMID (both designated by the Committee in April 2009) since 2007. Hong Kong Electronics has facilitated the movement of money from Iran to the DPRK on behalf of KOMID.Location: Sanaee St., Kish Island, Iran; Listing: Listed by the UN 1718 Committee on 16 July 2009",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Sanaee St., Kish Island, Iran",
       "country": "Iran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

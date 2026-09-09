@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/35753",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/35753",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Duraid Durgham",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Duraid Durgham",
+      "isPrimary": true
     }
   ],
-  "remarks": "Former Governor of the Central Bank of Syria. Was responsible for providing economic and financial support to the former al-Assad regime through his functions as the Governor of the Central Bank of Syria, which is also listed.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/35753"
+  ],
+  "remarks": "Former Governor of the Central Bank of Syria. Was responsible for providing economic and financial support to the former al-Assad regime through his functions as the Governor of the Central Bank of Syria.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1964-12-27",
-      "circa": false
+      "circa": false,
+      "year": 1964
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

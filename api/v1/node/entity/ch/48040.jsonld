@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/48040",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/48040",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Tolstoy Pyotr Olegovych",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Tolstoy Pyotr Olegovych",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/48040"
   ],
   "remarks": "Pyotr Tolstoy is a Member and Deputy Speaker of the State Duma and was the head of the Russian delegation at the Parliamentary Assembly of the Council of Europe (PACE) until 25 February 2022. He has also been the host of the television programme “Vremya Pokazhet”. A central figure in Government propaganda, he frequently takes positions in favour of the annexation of Crimea. He publicly supports Russian’s war of aggression against Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1969-06-20",
-      "circa": false
+      "circa": false,
+      "year": 1969
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

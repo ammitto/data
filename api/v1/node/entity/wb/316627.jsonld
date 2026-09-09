@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/316627",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/316627",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "GABICE S.A.C.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "GABICE S.A.C.",
+      "isPrimary": true
     }
   ],
-  "remarks": "*253",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/316627"
+  ],
+  "remarks": "*253",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "C/O MASTERWALL S.A., AV. MELGAREJO 668 URB. SANTA PATRICIA",
       "city": "LA MOLINA, LIMA 12",
       "country": "Peru",
-      "country_iso_code": "PE"
+      "countryIsoCode": "PE"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/325182",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/325182",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "INPRECO INGENIERIA PREFABRICADOS Y CONSTRUCCION",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "INPRECO INGENIERIA PREFABRICADOS Y CONSTRUCCION",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/325182"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "24 AVENIDA 2-61; ZONA 3",
       "city": "QUETZALTENANGO",
       "country": "Guatemala",
-      "country_iso_code": "GT"
+      "countryIsoCode": "GT"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

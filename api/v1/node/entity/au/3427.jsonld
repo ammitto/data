@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3427",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/3427",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Agricultural Development Bank",
+      "@type": "NameVariant",
+      "fullName": "Agricultural Development Bank",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "Part of North Korea’s financial network.; Listing: First listed on 27 Nov. 2017. Instrument of first designation and declaration: Autonomous Sanctions (Designated Persons and Entities – Democratic People’s Republic of Korea) Amendment List 2017 (No 3)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3427"
+  ],
+  "remarks": "Part of North Korea’s financial network.; Listing: First listed on 27 Nov. 2017. Instrument of first designation and declaration: Autonomous Sanctions (Designated Persons and Entities – Democratic People’s Republic of Korea) Amendment List 2017 (No 3)",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "58-1 Mansu-dong, Sungri Street, Central District, Pyongyang, North Korea",
       "country": "North Korea"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

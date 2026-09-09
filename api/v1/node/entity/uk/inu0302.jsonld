@@ -1,32 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/inu0302",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/inu0302",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "BANK SADERAT IRAN  ",
+      "@type": "NameVariant",
+      "fullName": "BANK SADERAT IRAN  ",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "IRAN EXPORT BANK ",
+      "@type": "NameVariant",
+      "fullName": "IRAN EXPORT BANK ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "نک صادرات ایران, ",
+      "@type": "NameVariant",
+      "fullName": "نک صادرات ایران, ",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/inu0302"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Bank Saderat Tower, P.O. Box 15745-631, Somayeh Street",
       "state": "Tehran",
       "country": "Iran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

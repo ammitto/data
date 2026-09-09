@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/71313",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/71313",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Albot Maria",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Albot Maria",
+      "isPrimary": true
     }
   ],
-  "remarks": "Maria Albot is a long-time trusted associate of listed person Ilan Shor. She currently has a leading role in one of his foundations, the “Miron Shor” Foundation, and she is involved in the “Bank Fraud” case that affected the financial stability of the Republic of Moldova. Previously, she held positions in other companies or foundations owned by or associated with Ilan Shor. Therefore, she is associated with Ilan Shor.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/71313"
+  ],
+  "remarks": "Maria Albot is a long-time trusted associate of listed person Ilan Shor. She currently has a leading role in one of his foundations, the “Miron Shor” Foundation, and she is involved in the “Bank Fraud” case that affected the financial stability of the Republic of Moldova. Previously, she held positions in other companies or foundations owned by or associated with Ilan Shor. She is currently involved in operations led by Ilan Shor to finance coordinated propaganda, mobilisation and protests aimed at destabilising the Republic of Moldova.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1986-01-21",
-      "circa": false
+      "circa": false,
+      "year": 1986
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

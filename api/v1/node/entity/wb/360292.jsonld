@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/360292",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/360292",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "M/S RKD CONSTRUCTION PVT. LTD.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "M/S RKD CONSTRUCTION PVT. LTD.",
+      "isPrimary": true
     }
   ],
-  "remarks": "(Reg. No: U452030R1996PTC004295)*431",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/360292"
+  ],
+  "remarks": "(Reg. No: U452030R1996PTC004295)*431",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "B-20, CHANDAKA INDUSTRIAL ESTATE",
       "city": "PATIA, BHUBANESWAR 751024",
       "country": "India",
-      "country_iso_code": "IN"
+      "countryIsoCode": "IN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

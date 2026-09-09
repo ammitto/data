@@ -1,23 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/318561",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/wb/318561",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MD. BODIUZZAMAN, PROPRIETOR",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "MD. BODIUZZAMAN, PROPRIETOR",
+      "isPrimary": true
     }
   ],
-  "remarks": "(NATIONAL ID: 8192223142650)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/318561"
+  ],
+  "remarks": "(NATIONAL ID: 8192223142650)",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "TIKAPARA, GHORAMARA",
       "city": "BOALIA, RAJSHAHI",
       "country": "Bangladesh",
-      "country_iso_code": "BD"
+      "countryIsoCode": "BD"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

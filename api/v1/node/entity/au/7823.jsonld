@@ -1,46 +1,63 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7823",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7823",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mahmoud Khaled Zahhar",
+      "@type": "NameVariant",
+      "fullName": "Mahmoud Khaled Zahhar",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Mahmoud Khaled Al Zahar",
+      "@type": "NameVariant",
+      "fullName": "Mahmoud Khaled Al Zahar",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Mahmoud Zahar",
+      "@type": "NameVariant",
+      "fullName": "Mahmoud Zahar",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Mahmoud al-Zahar",
+      "@type": "NameVariant",
+      "fullName": "Mahmoud al-Zahar",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Listing: Charter of the United Nations (Listed Entities) Amendment (No. 1) Instrument 2024",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7823"
   ],
-  "birth_info": [
+  "remarks": "Listing: Charter of the United Nations (Listed Entities) Amendment (No. 1) Instrument 2024",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1945,
       "country": "Gaza"
     }
   ],
   "nationalities": [
     "State of Palestine"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Gaza, State of Palestine",
       "country": "State of Palestine"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

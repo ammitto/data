@@ -1,27 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/irq0086",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/irq0086",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "AZIZ",
-      "first_name": "TARIQ",
+      "@type": "NameVariant",
+      "fullName": "AZIZ",
+      "firstName": "TARIQ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Aziz",
-      "first_name": "Tariq",
+      "@type": "NameVariant",
+      "fullName": "Aziz",
+      "firstName": "Tariq",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "طارق عزيز",
+      "@type": "NameVariant",
+      "fullName": "طارق عزيز",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/irq0086"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

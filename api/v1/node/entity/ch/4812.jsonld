@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/4812",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/4812",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Lomats Zianon Kuzmich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Lomats Zianon Kuzmich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/4812"
   ],
   "remarks": "Has actively undermined democracy in Belarus. In his former role as President of the State Control Committee (until 28 Dec 2010) he was one of the main persons involved in the case of Ales Byalyatski, one of the most prominent human rights defenders, Chief of the Belarusian Human Rights Centre \"Vyasna\", Vice President of FIDH. A. Byalyatski was active in defending and providing assistance to those who suffered from repression in relation to the 19 Dec 2010 elections and the crackdown on civil society and on the democratic opposition.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1944-01-27",
-      "circa": false
+      "circa": false,
+      "year": 1944
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

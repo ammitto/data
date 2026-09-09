@@ -1,38 +1,61 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/dpr0065",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/dpr0065",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Sobaeku United Corp.",
+      "@type": "NameVariant",
+      "fullName": "Sobaeku United Corp.",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Sobaeksu United Corp.",
+      "@type": "NameVariant",
+      "fullName": "Sobaeksu United Corp.",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/dpr0065"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "country": "North Korea"
     },
     {
+      "@type": "Address",
+      "street": "",
       "city": "Beijing",
       "country": "China"
     },
     {
-      "city": "Yinkou",
+      "@type": "Address",
+      "street": "",
+      "city": "Dandong",
       "country": "China"
     },
     {
-      "city": "Dandong",
+      "@type": "Address",
+      "street": "",
+      "city": "Yinkou",
       "country": "China"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

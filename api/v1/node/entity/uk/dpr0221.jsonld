@@ -1,29 +1,51 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/dpr0221",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/dpr0221",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MYONG GUK",
-      "first_name": "JON",
+      "@type": "NameVariant",
+      "fullName": "MYONG GUK",
+      "firstName": "JON",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Myo'ng-kuk",
-      "first_name": "Cho'n",
+      "@type": "NameVariant",
+      "fullName": "Myo'ng-kuk",
+      "firstName": "Cho'n",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Yong Sang",
-      "first_name": "Jon",
+      "@type": "NameVariant",
+      "fullName": "Yong Sang",
+      "firstName": "Jon",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Pursuant to Resolution 2371(2017) the Security Council added the following information: New AKA: Jon Yong Sang with date of birth 25 August 1976 and diplomatic passport number 836110035, which expires on 1 January 2020.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/dpr0221"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "remarks": "Pursuant to Resolution 2371(2017) the Security Council added the following information: New AKA: Jon Yong Sang with date of birth 25 August 1976 and diplomatic passport number 836110035, which expires on 1 January 2020.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

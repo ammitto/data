@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/97268",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/97268",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Behzad Morteza",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Behzad Morteza",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/97268"
   ],
   "remarks": "Designated for involvement in making centrifuge components.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1959-06-07",
-      "circa": false
+      "circa": false,
+      "year": 1959
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

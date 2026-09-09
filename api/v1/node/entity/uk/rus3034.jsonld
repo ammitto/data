@@ -1,32 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus3034",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus3034",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "VOLUNTEERS OF VICTORY ",
+      "@type": "NameVariant",
+      "fullName": "VOLUNTEERS OF VICTORY ",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Victory Volunteers ",
+      "@type": "NameVariant",
+      "fullName": "Victory Volunteers ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Волонтёры Победы ",
+      "@type": "NameVariant",
+      "fullName": "Волонтёры Победы ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus3034"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "UL. MYASNITSKAYA D. 46, STR. 1",
       "state": "Moscow Region",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

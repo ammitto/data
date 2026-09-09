@@ -1,40 +1,59 @@
 {
-  "id": "https://www.ammitto.org/entity/au/69",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/69",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Rustum Hanafi Habibullah",
+      "@type": "NameVariant",
+      "fullName": "Rustum Hanafi Habibullah",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Rostam Nuristani",
+      "@type": "NameVariant",
+      "fullName": "Rostam Nuristani",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "رستم حنفي حبيب الله",
+      "@type": "NameVariant",
+      "fullName": "رستم حنفي حبيب الله",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Hanafi Sahib",
+      "@type": "NameVariant",
+      "fullName": "Hanafi Sahib",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "TAi.069 Title: Maulavi. Designation: Deputy Minister of Public Works under the Taliban regime. Taliban member responsible for Nuristan province, Afghanistan, as of May 2007. Belongs to Nuristani tribe. Reportedly deceased in 2012. Review pursuant to Security Council resolution 1822 (2008) was concluded on 23 Jul. 2010; Listing: Listed on 25 January 2001 (amended 18 Jul 2007 and 21 Sep 2007, 29 Nov 2011, 18 May 2012 and 13 Aug 2012.)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/69"
   ],
-  "birth_info": [
+  "remarks": "TAi.069 Title: Maulavi. Designation: Deputy Minister of Public Works under the Taliban regime. Taliban member responsible for Nuristan province, Afghanistan, as of May 2007. Belongs to Nuristani tribe. Reportedly deceased in 2012. Review pursuant to Security Council resolution 1822 (2008) was concluded on 23 Jul. 2010; Listing: Listed on 25 January 2001 (amended 18 Jul 2007 and 21 Sep 2007, 29 Nov 2011, 18 May 2012 and 13 Aug 2012.)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1963,
       "country": "Dara Kolum"
     }
   ],
   "nationalities": [
     "Afghanistan"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

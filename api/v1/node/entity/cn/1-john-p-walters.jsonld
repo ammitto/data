@@ -1,22 +1,43 @@
 {
-  "id": "https://www.ammitto.org/entity/cn/1-john-p-walters",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/cn/1-john-p-walters",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "John P. Walters",
+      "@type": "NameVariant",
+      "fullName": "John P. Walters",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "约翰·瓦特斯",
+      "@type": "NameVariant",
+      "fullName": "约翰·瓦特斯",
       "script": "Hani",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/cn/anti-sanction-list/1-john-p-walters"
+  ],
   "remarks": "List: cn/anti-sanction-list; Title: 哈德逊研究所所长; Gender: male",
-  "sanction_entry_ids": [
-    "https://www.ammitto.org/entry/cn/unknown/1-john-p-walters"
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
   ],
   "gender": "male",
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

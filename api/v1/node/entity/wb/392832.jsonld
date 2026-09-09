@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/392832",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/392832",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "LONGNAN WUZHE TUNNEL ENGINEERING CO., LTD.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "LONGNAN WUZHE TUNNEL ENGINEERING CO., LTD.",
+      "isPrimary": true
     }
   ],
-  "remarks": "(陇南武浙隧道工程有限公司)*457",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/392832"
+  ],
+  "remarks": "(陇南武浙隧道工程有限公司)*457",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "GENERAL OFFICE BUILDING NO. 3, MUNICIPAL CENTER, DONGJIANG NEW DISTRICT, DONGJIANG TOWN, WUDU DISTRICT",
       "city": "LONGNAN CITY, GANSU PROVINCE",
       "country": "China",
-      "country_iso_code": "CN"
+      "countryIsoCode": "CN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

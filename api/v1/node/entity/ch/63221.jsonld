@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/63221",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/63221",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Zvinchuk Mikhail Sergeevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Zvinchuk Mikhail Sergeevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/63221"
   ],
   "remarks": "Mikhail Zvinchuk is a member of the working group established by President Putin in Dec 2022 to coordinate the mobilization efforts of the Russian Federation to support its war of aggression against Ukraine. Beyond his role in the working group, he is known as the creator of the pro-Russian military Telegram channel “Rybar” reporting on Russian war efforts and Ukrainian military positions, as well as distributing disinformation and pro-Kremlin propaganda about the war.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1991-07-19",
-      "circa": false
+      "circa": false,
+      "year": 1991
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

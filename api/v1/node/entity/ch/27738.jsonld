@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/27738",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/27738",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Malykhin Aleksandr Sergeevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Malykhin Aleksandr Sergeevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/27738"
   ],
   "remarks": "Former head of the \"Luhansk People's Republic\" Central Electoral Commission. Actively organised the referendum on 11 May 2014 on the self-determination of the \"Luhansk People's Republic\".",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1981-01-12",
-      "circa": false
+      "circa": false,
+      "year": 1981
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/37784",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/37784",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ri Song Hyok",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Ri Song Hyok",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/37784"
   ],
   "remarks": "Ri Song Hyok is an overseas representative for Koryo Bank and Koryo Credit Development Bank and has reportedly established front companies to procure items and conduct financial transactions on behalf of North Korea.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1965-03-19",
-      "circa": false
+      "circa": false,
+      "year": 1965
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

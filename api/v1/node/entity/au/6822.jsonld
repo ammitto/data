@@ -1,22 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/au/6822",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/6822",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Vyacheslav Aleksandrovich LENKEVICH",
+      "@type": "NameVariant",
+      "fullName": "Vyacheslav Aleksandrovich LENKEVICH",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "Deputy Commander in Charge of Logistics and Head of Logistics of the North-Western Operational Command of Belarus; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 10) Instrument 2022",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/6822"
   ],
-  "birth_info": [
+  "remarks": "Deputy Commander in Charge of Logistics and Head of Logistics of the North-Western Operational Command of Belarus; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 10) Instrument 2022",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1988,
       "country": "Belarus"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

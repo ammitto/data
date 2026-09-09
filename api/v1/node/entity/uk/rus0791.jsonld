@@ -1,29 +1,48 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus0791",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/rus0791",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "ILYASHENKO",
-      "first_name": "Andrey",
+      "@type": "NameVariant",
+      "fullName": "ILYASHENKO",
+      "firstName": "Andrey",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "ИЛЬЯШЕНКО Андрей Витальевич",
+      "@type": "NameVariant",
+      "fullName": "ИЛЬЯШЕНКО Андрей Витальевич",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus0791"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Krzhizhanovskogo Street 13/2",
       "state": "Moscow",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

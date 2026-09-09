@@ -1,42 +1,61 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus3055",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus3055",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "NPK PROGRESS ",
+      "@type": "NameVariant",
+      "fullName": "NPK PROGRESS ",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Limited Liability Company Scientific and Production Company PROGRESS",
+      "@type": "NameVariant",
+      "fullName": "Limited Liability Company Scientific and Production Company PROGRESS",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "NPK Progress",
+      "@type": "NameVariant",
+      "fullName": "NPK Progress",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "OOO \"NPK \"PROGRESS\" ",
+      "@type": "NameVariant",
+      "fullName": "OOO \"NPK \"PROGRESS\" ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "НПК ПРОГРЕСС  ",
+      "@type": "NameVariant",
+      "fullName": "НПК ПРОГРЕСС  ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus3055"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "129515, Akademika Koroleva str., 13",
       "state": "Moscow",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

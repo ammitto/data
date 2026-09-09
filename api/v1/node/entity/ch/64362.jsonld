@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/64362",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/64362",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Myint Kyaing",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Myint Kyaing",
+      "isPrimary": true
     }
   ],
-  "remarks": "Myint Kyaing has been the Union Minister for Immigration and Population since 19 Aug 2021. Before that, he was Union Minister of Labour following the coup of 1 Feb 2021. He is a member of the State Administration Council (SAC), led by Commander-in-Chief Min Aung Hlaing, which took over the legislative, executive and judicial powers of the State in a military coup on 1 Feb 2021.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/64362"
+  ],
+  "remarks": "Myint Kyaing has been the Union Minister for Immigration and Population since 19 August 2021. Before that, he was Union Minister of Labour following the coup of 1 February 2021. He was a member of the State Administration Council (SAC) until its dissolution on 31 July 2025, led by Commander-in-Chief Min Aung Hlaing, which took over the legislative, executive and judicial powers of the State in a military coup on 1 February 2021.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1957-04-17",
-      "circa": false
+      "circa": false,
+      "year": 1957
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

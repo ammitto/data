@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/35490",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/35490",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ri Won Ho",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Ri Won Ho",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/35490"
   ],
   "remarks": "Ri Won Ho is a DPRK Ministry of State Security Official stationed in Syria supporting KOMID.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1964-07-17",
-      "circa": false
+      "circa": false,
+      "year": 1964
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

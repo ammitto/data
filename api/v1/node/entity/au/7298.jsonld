@@ -1,54 +1,76 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7298",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7298",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kirill VASILYEV",
+      "@type": "NameVariant",
+      "fullName": "Kirill VASILYEV",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Kirill Yurievich VASILYEV",
+      "@type": "NameVariant",
+      "fullName": "Kirill Yurievich VASILYEV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Kirill VASILIEV",
+      "@type": "NameVariant",
+      "fullName": "Kirill VASILIEV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Kirill Yurievich VASILIEV",
+      "@type": "NameVariant",
+      "fullName": "Kirill Yurievich VASILIEV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Kirill Yuryevich VASILIEV",
+      "@type": "NameVariant",
+      "fullName": "Kirill Yuryevich VASILIEV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Kirill Jurjevitj VASILJEV",
+      "@type": "NameVariant",
+      "fullName": "Kirill Jurjevitj VASILJEV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Kirill VASILJEV",
+      "@type": "NameVariant",
+      "fullName": "Kirill VASILJEV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Thematic Sanctions) Amendment (No. 1) Instrument 2022",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7298"
   ],
-  "birth_info": [
+  "remarks": "Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Thematic Sanctions) Amendment (No. 1) Instrument 2022",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1973
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

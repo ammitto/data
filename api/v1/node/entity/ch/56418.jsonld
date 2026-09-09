@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/56418",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/56418",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mashkov Vladimir Lvovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Mashkov Vladimir Lvovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/56418"
   ],
   "remarks": "Vladimir Mashkov is a Russian actor, director and screenwriter who actively supported Russia’s war of aggression against Ukraine. He officially endorsed President Vladimir Putin's bid for re-election in 2018 and served as his elections representative. He was nominated for the position of member of the Presidential Council for Culture and Art. He also backed the illegal annexation of Crimea and Sevastopol and the recognition of the so-called separatist People’s Republics in Donbas by Russia. He performed during the propaganda rally in support for the illegal annexation of Crimea and the war against Ukraine, which took place on 18 Mar 2022 at Luzhniki Stadium in Moscow. Moreover, he installed the “Z” military symbol, which has been employed by Russian propaganda to promote Russia’s invasion of Ukraine, on the facade of the Oleg Tabakov theatre in Moscow. Therefore, he is responsible for actively supporting or implementing actions or policies which undermine or threaten the territorial integrity, sovereignty and independence of Ukraine, or stability or security in Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1963-11-27",
-      "circa": false
+      "circa": false,
+      "year": 1963
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

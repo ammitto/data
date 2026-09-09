@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/72345",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/72345",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ponomarev Igor Borisovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Ponomarev Igor Borisovich",
+      "isPrimary": true
     }
   ],
-  "remarks": "Igor Ponomarev is the General Director of JSC Concern Granit-Electron, which produces automatic control systems for P-800 Oniks (Yakhont) missiles, which are used by Russian Armed Forces in the war of aggression against Ukraine.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/72345"
+  ],
+  "remarks": "Igor Ponomarev is the former General Director of JSC Concern Granit-Electron, which produces automatic control systems for P-800 Oniks (Yakhont) missiles, which are used by Russian Armed Forces in the war of aggression against Ukraine.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1964-10-30",
-      "circa": false
+      "circa": false,
+      "year": 1964
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/76483",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/76483",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Barhoum Ismail",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Barhoum Ismail",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/76483"
   ],
   "remarks": "Ismail Barhoum is a member of the Hamas Political Bureau and the Hamas Shura Council. He is also the Head of the Hamas’ Charitable Institutions Association, which supervises 400 charities. Those charitable organisations are used to channel funds to Hamas.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1968-12-23",
-      "circa": false
+      "circa": false,
+      "year": 1968
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

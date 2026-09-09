@@ -1,28 +1,50 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/syr0055",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/syr0055",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ismail",
-      "first_name": "Ghassan",
+      "@type": "NameVariant",
+      "fullName": "Ismail",
+      "firstName": "Ghassan",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ismael",
-      "first_name": "Ghassan",
+      "@type": "NameVariant",
+      "fullName": "Ismael",
+      "firstName": "Ghassan",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "غسان جودت إسماعيل",
+      "@type": "NameVariant",
+      "fullName": "غسان جودت إسماعيل",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Commander in the Air Force Intelligence Agency (listed 23 August 2011) The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/syr0055"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "remarks": "Commander in the Air Force Intelligence Agency (listed 23 August 2011) The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

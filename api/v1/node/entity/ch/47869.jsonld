@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/47869",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/47869",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Grigorenko Dmitriy Yuryevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Grigorenko Dmitriy Yuryevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/47869"
   ],
   "remarks": "Dmitriy Grigorenko is Deputy Prime Minister of the Russian Federation and Chief of the Government Staff of the Russian Federation. He is also the Chairman of the Supervisory Council of the VTB Bank, a State-owned bank and associated with Maksim Reshetnikov, member of the Supervisory Council of VTB Bank.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1978-07-14",
-      "circa": false
+      "circa": false,
+      "year": 1978
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,45 +1,66 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7629",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7629",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Lesya Mikhailovna LAPTEVA",
+      "@type": "NameVariant",
+      "fullName": "Lesya Mikhailovna LAPTEVA",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Lesya Mikhaylovna LAPTEVA",
+      "@type": "NameVariant",
+      "fullName": "Lesya Mikhaylovna LAPTEVA",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Lesya Mykhaylivna LAPTIEVA",
+      "@type": "NameVariant",
+      "fullName": "Lesya Mykhaylivna LAPTIEVA",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Lesya TARASYUK",
+      "@type": "NameVariant",
+      "fullName": "Lesya TARASYUK",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Lesia LAPTIEVA",
+      "@type": "NameVariant",
+      "fullName": "Lesia LAPTIEVA",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Previously listed under 'Ukraine criteria' - Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Ukraine) Amendment List 2017 (No 2) [F2017L01118]; New listing start date 27 Aug 2023; Listing: Instrument of first designation: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 10) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7629"
   ],
-  "birth_info": [
+  "remarks": "Previously listed under 'Ukraine criteria' - Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Ukraine) Amendment List 2017 (No 2) [F2017L01118]; New listing start date 27 Aug 2023; Listing: Instrument of first designation: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 10) Instrument 2023",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1976,
       "country": "Dzhambul/ Jambul (currently known as Taraz)"
     }
   ],
   "nationalities": [
-    "Kazakhstan;Ukraine"
+    "Kazakhstan",
+    "Ukraine"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

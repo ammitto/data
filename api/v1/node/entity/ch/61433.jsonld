@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/61433",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/61433",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Damavandian Ghassem",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Damavandian Ghassem",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/61433"
   ],
   "remarks": "Ghassem Damavandian is the CEO and managing director of Qods Aviation Industry (QAI), an entity that is selling Mohajer-6 drones to Russia in order to be used in Russia’s war of aggression against Ukraine. He visited Moscow as an official representative of Iran for talks about building a new drone producing facility in Russia in the future. In his role, he is therefore responsible for actions and policies which undermine and threaten the territorial integrity, sovereignty and independence of Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1968-05-02",
-      "circa": false
+      "circa": false,
+      "year": 1968
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

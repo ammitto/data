@@ -1,37 +1,55 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8770",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/8770",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Limited Liability Company Corporate Registrar Company",
+      "@type": "NameVariant",
+      "fullName": "Limited Liability Company Corporate Registrar Company",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "CORPORATE REGISTRAR COMPANY",
+      "@type": "NameVariant",
+      "fullName": "CORPORATE REGISTRAR COMPANY",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "KRK",
+      "@type": "NameVariant",
+      "fullName": "KRK",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "KORPORATIVNAYA REGISTRATORSKAYA KOMPANIYA",
+      "@type": "NameVariant",
+      "fullName": "KORPORATIVNAYA REGISTRATORSKAYA KOMPANIYA",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Website: https://crc-reg.com/en/; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2026",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8770"
+  ],
+  "remarks": "Website: https://crc-reg.com/en/; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2026",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Office 412, floor 4, section 1, building 1, Vasilisa Kozhina street, Moscow, 121096",
       "country": "121096"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

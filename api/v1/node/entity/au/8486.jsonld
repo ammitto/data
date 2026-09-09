@@ -1,46 +1,70 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8486",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/8486",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "M. JAVAD KARIMI SABET",
+      "@type": "NameVariant",
+      "fullName": "M. JAVAD KARIMI SABET",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Mohammed Sabet",
+      "@type": "NameVariant",
+      "fullName": "Mohammed Sabet",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Mohammad Sabet",
+      "@type": "NameVariant",
+      "fullName": "Mohammad Sabet",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "M. Javad Kareemi Sabet",
+      "@type": "NameVariant",
+      "fullName": "M. Javad Kareemi Sabet",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "M. Jawad Kareemi Sabet",
+      "@type": "NameVariant",
+      "fullName": "M. Jawad Kareemi Sabet",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "M. Jawad Karimi Sabet",
+      "@type": "NameVariant",
+      "fullName": "M. Jawad Karimi Sabet",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "IRi.034. Designation: Head of Novin Energy Company, which is designated under resolution 1747 (2007) (designated under IRe.046).; Listing: Listed by the 1737 Committee on 3 March 2008 (amended on 17 December 2014)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8486"
   ],
-  "birth_info": [
+  "remarks": "IRi.034. Designation: Head of Novin Energy Company, which is designated under resolution 1747 (2007) (designated under IRe.046).; Listing: Listed by the 1737 Committee on 3 March 2008 (amended on 17 December 2014)",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1973
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

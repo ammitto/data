@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/356704",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/356704",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "LATIFI CONSTRUCTION AND ROAD CONSTRUCTION COMPANY",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "LATIFI CONSTRUCTION AND ROAD CONSTRUCTION COMPANY",
+      "isPrimary": true
     }
   ],
-  "remarks": "*443",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/356704"
+  ],
+  "remarks": "*443",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "HEAD OFFICE ADDRESS #1: 10TH STREET MAIN ROAD OF WAZIR AKBAR KHAN, NEXT TO THE CHILDREN HOSPITAL",
       "city": "KABUL",
       "country": "Afghanistan",
-      "country_iso_code": "AF"
+      "countryIsoCode": "AF"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

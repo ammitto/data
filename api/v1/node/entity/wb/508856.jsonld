@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/508856",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/508856",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "CESA TECNOLOGÍA DE EL SALVADOR S.A.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "CESA TECNOLOGÍA DE EL SALVADOR S.A.",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/508856"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "BOULEVARD DEL HIPÓDROMO, EDIFICIO NO. 237, TERCER NIVEL COLONIA SAN BENITO",
       "city": "SAN SALVADOR",
       "country": "El Salvador",
-      "country_iso_code": "SV"
+      "countryIsoCode": "SV"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

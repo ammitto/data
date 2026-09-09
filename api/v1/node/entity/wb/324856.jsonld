@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/324856",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/324856",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "HUNAN CONSTRUCTION GROUP CO., LTD.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "HUNAN CONSTRUCTION GROUP CO., LTD.",
+      "isPrimary": true
     }
   ],
-  "remarks": "(湖南建设集团有限公司) *301",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/324856"
+  ],
+  "remarks": "(湖南建设集团有限公司) *301",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "LAST KNOWN ADDRESS:23 CHENGNANZHONG ROAD, RONGAN BUILDING 5TH FLOOR, CHANGSHA",
       "city": "HUNAN",
       "country": "China",
-      "country_iso_code": "CN"
+      "countryIsoCode": "CN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,28 +1,45 @@
 {
-  "id": "https://www.ammitto.org/entity/au/1236",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/1236",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "HANNIBAL MUAMMAR QADHAFI",
+      "@type": "NameVariant",
+      "fullName": "HANNIBAL MUAMMAR QADHAFI",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "LYi.010. Passport No: Libya B/002210.  Listed pursuant to paragraphs 15 and 17 of resolution 1970 (Travel Ban, Asset Freeze); Listing: Listed on: 26 Feb. 2011 (amended on 11 Nov. 2016, 26 Sep. 2014 and 2 Apr. 2012)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/1236"
   ],
-  "birth_info": [
+  "remarks": "LYi.010. Passport No: Libya B/002210.  Listed pursuant to paragraphs 15 and 17 of resolution 1970 (Travel Ban, Asset Freeze); Listing: Listed on: 26 Feb. 2011 (amended on 11 Nov. 2016, 26 Sep. 2014 and 2 Apr. 2012)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1975,
       "country": "Tripoli"
     }
   ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Lebanon (in custody)",
       "country": "Lebanon (in custody)"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

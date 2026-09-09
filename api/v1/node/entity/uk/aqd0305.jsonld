@@ -1,53 +1,76 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/aqd0305",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/aqd0305",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "AL-DABSKI",
-      "first_name": "SALEM",
+      "@type": "NameVariant",
+      "fullName": "AL-DABSKI",
+      "firstName": "SALEM",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "al- Masri",
-      "first_name": "Abdallah",
+      "@type": "NameVariant",
+      "fullName": "al- Masri",
+      "firstName": "Abdallah",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Al-Ward",
-      "first_name": "Abu",
+      "@type": "NameVariant",
+      "fullName": "Al-Ward",
+      "firstName": "Abu",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Naim",
-      "first_name": "Abu",
+      "@type": "NameVariant",
+      "fullName": "Naim",
+      "firstName": "Abu",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ragab",
-      "first_name": "Abdullah",
+      "@type": "NameVariant",
+      "fullName": "Ragab",
+      "firstName": "Abdullah",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "سالم نور الدين امحمد الدبيسكي",
+      "@type": "NameVariant",
+      "fullName": "سالم نور الدين امحمد الدبيسكي",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Mother's name is Kalthoum Abdul Salam al-Shaftari. Senior member of Libyan Islamic Fighting Group (QDe.011) and member of Al-Qaida (QDe.004). Review pursuant to Security Council resolution 1822 (2008) was concluded on 24 Nov. 2009. Review pursuant to Security Council resolution 2253 (2015) was concluded on 21 Feb. 2019. INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/notice/search/un/1480002",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/aqd0305"
+  ],
+  "remarks": "Mother's name is Kalthoum Abdul Salam al-Shaftari. Senior member of Libyan Islamic Fighting Group (QDe.011) and member of Al-Qaida (QDe.004). Review pursuant to Security Council resolution 1822 (2008) was concluded on 24 Nov. 2009. Review pursuant to Security Council resolution 2253 (2015) was concluded on 21 Feb. 2019. INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/notice/search/un/1480002",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Bab Ben Ghasheer",
       "state": "Tripoli",
       "country": "Libya"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

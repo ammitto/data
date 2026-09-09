@@ -1,28 +1,45 @@
 {
-  "id": "https://www.ammitto.org/entity/au/1240",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/1240",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "SAIF AL-ISLAM QADHAFI",
+      "@type": "NameVariant",
+      "fullName": "SAIF AL-ISLAM QADHAFI",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "LYi.017. Passport number: Libya B014995.  Director, Qadhafi Foundation. Listed pursuant to paragraphs 15 and 17 of resolution 1970 (Travel Ban, Asset Freeze).; Listing: Listed on: 26 Feb. 2011 (amended on 11 Nov. 2016, 26 Sep. 2014 and 2 Apr. 2012)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/1240"
   ],
-  "birth_info": [
+  "remarks": "LYi.017. Passport number: Libya B014995.  Director, Qadhafi Foundation. Listed pursuant to paragraphs 15 and 17 of resolution 1970 (Travel Ban, Asset Freeze).; Listing: Listed on: 26 Feb. 2011 (amended on 11 Nov. 2016, 26 Sep. 2014 and 2 Apr. 2012)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1972,
       "country": "Tripoli"
     }
   ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Libya (Believed status/location: restricted freedom of movement in Zintan, Libya)",
       "country": "Libya)"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

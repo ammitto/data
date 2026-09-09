@@ -1,35 +1,58 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus0031",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/rus0031",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Milchakov",
-      "first_name": "Alexey",
+      "@type": "NameVariant",
+      "fullName": "Milchakov",
+      "firstName": "Alexey",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Fritz",
+      "@type": "NameVariant",
+      "fullName": "Fritz",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Serbian",
+      "@type": "NameVariant",
+      "fullName": "Serbian",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus0031"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
-      "country": "Syria"
+      "@type": "Address",
+      "street": "",
+      "country": "Russia"
     },
     {
-      "country": "Russia"
+      "@type": "Address",
+      "street": "",
+      "country": "Syria"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

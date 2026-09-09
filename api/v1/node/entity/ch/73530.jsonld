@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/73530",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/73530",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Leonor Eugenia Morales Lazo De Sánchez",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Leonor Eugenia Morales Lazo De Sánchez",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/73530"
   ],
   "remarks": "Leonor Morales Lazo De Sánchez is a prosecutor in the Special Prosecution Office Against Impunity (FECI), which operates under the Public Ministry (Ministerio Público) of Guatemala (equivalent to the Public Prosecutor’s Office). She is directly involved in the ongoing investigation into the creation of the political party Movimiento Semilla of President Arévalo. Following the second round of Presidential elections in August 2023, she participated in the raid by the Public Ministry of the premises of the Supreme Electoral Tribunal that entailed the opening of sealed ballot boxes. She also participated in a press conference in December 2023 where the Public Ministry presented claims that the outcome of the first round of elections in June 2023 was invalid.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1979-09-19",
-      "circa": false
+      "circa": false,
+      "year": 1979
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

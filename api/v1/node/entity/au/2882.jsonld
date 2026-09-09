@@ -1,37 +1,55 @@
 {
-  "id": "https://www.ammitto.org/entity/au/2882",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/2882",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "SMP Bank",
+      "@type": "NameVariant",
+      "fullName": "SMP Bank",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "SMP Bank Open Joint-Stock Company",
+      "@type": "NameVariant",
+      "fullName": "SMP Bank Open Joint-Stock Company",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Back Severny Morskoy Put",
+      "@type": "NameVariant",
+      "fullName": "Back Severny Morskoy Put",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Open Joint Stock Company Bank Severniy morskoy put",
+      "@type": "NameVariant",
+      "fullName": "Open Joint Stock Company Bank Severniy morskoy put",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Controlled by Arkady and Boris Rotenberg\nEmail: smpbank@smpbank.ru\nWebsite: www.smpbank.ru\nSWIFT/BIC: SMBKRUMM \nSWIFT/BIC: SMBKRUMMXXX  \nRegistration ID: 1097711000078 (Russia)\nTax ID No.: 7750005482 (Russia); Listing: Listed on 16 June 2017, re-listed 10 Jun 2020 and 29 March 2021 and 10 June 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/2882"
+  ],
+  "remarks": "Controlled by Arkady and Boris Rotenberg\nEmail: smpbank@smpbank.ru\nWebsite: www.smpbank.ru\nSWIFT/BIC: SMBKRUMM \nSWIFT/BIC: SMBKRUMMXXX  \nRegistration ID: 1097711000078 (Russia)\nTax ID No.: 7750005482 (Russia); Listing: Listed on 16 June 2017, re-listed 10 Jun 2020 and 29 March 2021 and 10 June 2023",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "71/11 Sadovnicheskaya Street, Moscow 115035, Russian Federation",
       "country": "Russian Federation"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

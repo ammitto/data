@@ -1,41 +1,58 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3591",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/3591",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Abraham Succarieh",
+      "@type": "NameVariant",
+      "fullName": "Abraham Succarieh",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Abraham Sukkarieh",
+      "@type": "NameVariant",
+      "fullName": "Abraham Sukkarieh",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abu Essa",
+      "@type": "NameVariant",
+      "fullName": "Abu Essa",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Australian Passport No. M9381974 (revoked 8 July 2014).; Listing: Instrument of first listing - Charter of the United Nations Act 1945 Listing 2018 (No. 2) [F2021L00639, Gazette C2018G00646]. The Minister for Foreign Affairs listed this individual on 16 August 2018 and subsequently on 12 October 2020 under subsection 15(1) of the Charter of the United Nations Act 1945 (CotUNA), pursuant to Australia's obligations under UNSC resolution 1373 (2001). The Minister has listed this individual afresh on 11 October 2023.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3591"
   ],
-  "birth_info": [
+  "remarks": "Australian Passport No. M9381974 (revoked 8 July 2014).; Listing: Instrument of first listing - Charter of the United Nations Act 1945 Listing 2018 (No. 2) [F2021L00639, Gazette C2018G00646]. The Minister for Foreign Affairs listed this individual on 16 August 2018 and subsequently on 12 October 2020 under subsection 15(1) of the Charter of the United Nations Act 1945 (CotUNA), pursuant to Australia's obligations under UNSC resolution 1373 (2001). The Minister has listed this individual afresh on 11 October 2023.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1985,
       "country": "Brisbane"
     }
   ],
   "nationalities": [
-    "Australia;Lebanon"
+    "Australia",
+    "Lebanon"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Syria",
       "country": "Syria"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

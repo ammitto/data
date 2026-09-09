@@ -1,32 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7473",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/7473",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "AO NPP Topaz ",
+      "@type": "NameVariant",
+      "fullName": "AO NPP Topaz ",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Closed Joint-Stock Company Scientific Production Enterprise Topaz",
+      "@type": "NameVariant",
+      "fullName": "Closed Joint-Stock Company Scientific Production Enterprise Topaz",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Joint-Stock Company Research and Production Enterprise Topaz ",
+      "@type": "NameVariant",
+      "fullName": "Joint-Stock Company Research and Production Enterprise Topaz ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Website: https://topazlab.ru/en/main-en/ ; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 2) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7473"
+  ],
+  "remarks": "Website: https://topazlab.ru/en/main-en/ ; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 2) Instrument 2023",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "16k34 3 Mytishchinskaya Str., Moscow, 129626, Russia ",
       "country": "Russia "
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

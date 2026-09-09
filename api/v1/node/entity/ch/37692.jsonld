@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/37692",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/37692",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kim Jong Sik",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kim Jong Sik",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/37692"
   ],
   "remarks": "A leading official guiding the DPRK's WMD development efforts. Serving as Deputy Director of the Workers' Party of Korea Munitions Industry Department.",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1967
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

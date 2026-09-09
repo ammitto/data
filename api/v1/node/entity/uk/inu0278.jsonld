@@ -1,29 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/inu0278",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/inu0278",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "TABATABAEI",
-      "first_name": "SAYYID",
+      "@type": "NameVariant",
+      "fullName": "TABATABAEI",
+      "firstName": "SAYYID",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "TAHMAESEBI",
-      "first_name": "Sayed",
+      "@type": "NameVariant",
+      "fullName": "TAHMAESEBI",
+      "firstName": "Sayed",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Ali Akbar Tabatabaei was listed pursuant to paragraph 12 of resolution 1737 (2006), as read with resolutions 1747, 1803 and 1929, as 19th April 2012 Committee. The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/inu0278"
+  ],
+  "remarks": "Ali Akbar Tabatabaei was listed pursuant to paragraph 12 of resolution 1737 (2006), as read with resolutions 1747, 1803 and 1929, as 19th April 2012 Committee. The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "state": "Tehran",
       "country": "Iran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/50939",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/50939",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Pinchuk Sergei Mikhailovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Pinchuk Sergei Mikhailovich",
+      "isPrimary": true
     }
   ],
-  "remarks": "Sergey Pinchuk is Vice-Admiral and Commander-in-Chief of the Black Sea Fleet, which is subordinated to the Southern Military District of the Russian Armed Forces, and has been involved in military actions against Ukraine.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/50939"
+  ],
+  "remarks": "Sergey Pinchuk is the Admiral Commander-in-Chief of the Black Sea Fleet, which is subordinated to the Southern Military District of the Russian Armed Forces, and has been involved in military actions against Ukraine.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1971-07-26",
-      "circa": false
+      "circa": false,
+      "year": 1971
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

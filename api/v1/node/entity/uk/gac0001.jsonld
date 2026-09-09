@@ -1,28 +1,50 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/gac0001",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/gac0001",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "KUZNETSOV",
-      "first_name": "Artem",
+      "@type": "NameVariant",
+      "fullName": "KUZNETSOV",
+      "firstName": "Artem",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "KUZNETSOV",
-      "first_name": "Artyom",
+      "@type": "NameVariant",
+      "fullName": "KUZNETSOV",
+      "firstName": "Artyom",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Артëм Константинович КУЗНЕЦОВ",
+      "@type": "NameVariant",
+      "fullName": "Артëм Константинович КУЗНЕЦОВ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/gac0001"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

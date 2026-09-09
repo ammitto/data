@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/53033",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/53033",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mikhailov Sergey Vladimirovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Mikhailov Sergey Vladimirovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/53033"
   ],
   "remarks": "Sergey Mikhailov is the former Director General of the News Agency TASS, the largest Russian news agency, which disseminates through its massive network of foreign representations, which includes 70 offices in the Commonwealth of Independent States and 68 bureaus around the world distorted information on Ukraine, serving the interests of the political leadership of the Russian Federation.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1971-03-17",
-      "circa": false
+      "circa": false,
+      "year": 1971
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

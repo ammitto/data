@@ -1,44 +1,66 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7643",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7643",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Dmitry Aleksandrovich SEMYONOV",
+      "@type": "NameVariant",
+      "fullName": "Dmitry Aleksandrovich SEMYONOV",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Dmitrii Aleksandrovich SEMENOV",
+      "@type": "NameVariant",
+      "fullName": "Dmitrii Aleksandrovich SEMENOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Dmytro Oleksandrovych SEMENOV",
+      "@type": "NameVariant",
+      "fullName": "Dmytro Oleksandrovych SEMENOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Demitry SEMYONOV",
+      "@type": "NameVariant",
+      "fullName": "Demitry SEMYONOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Previously listed under 'Ukraine criteria' - Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Ukraine) Amendment List 2017 (No 2) [F2017L01118]; New listing start date 27 Aug 2023; Listing: Instrument of first designation: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 10) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7643"
   ],
-  "birth_info": [
+  "remarks": "Previously listed under 'Ukraine criteria' - Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Ukraine) Amendment List 2017 (No 2) [F2017L01118]; New listing start date 27 Aug 2023; Listing: Instrument of first designation: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 10) Instrument 2023",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1963,
       "country": "Moscow"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1977,
       "country": "Russia"
     }
   ],
   "nationalities": [
-    "Russia;Ukraine"
+    "Russia",
+    "Ukraine"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

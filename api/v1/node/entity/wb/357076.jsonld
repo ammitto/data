@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/357076",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/357076",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "CHASHA LANDS PVT. LTD.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "CHASHA LANDS PVT. LTD.",
+      "isPrimary": true
     }
   ],
-  "remarks": "*477",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/357076"
+  ],
+  "remarks": "*477",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "S-481 GREATER KAILASH-II",
       "city": "NEW DELHI, SOUTH DELHI, 110048",
       "country": "India",
-      "country_iso_code": "IN"
+      "countryIsoCode": "IN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

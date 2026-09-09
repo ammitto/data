@@ -1,32 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3340",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/3340",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "National Standards and Calibration Laboratory",
+      "@type": "NameVariant",
+      "fullName": "National Standards and Calibration Laboratory",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "NSCL",
+      "@type": "NameVariant",
+      "fullName": "NSCL",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "National Calibration Centre",
+      "@type": "NameVariant",
+      "fullName": "National Calibration Centre",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Listing: Listed on: 17 Aug. 2017 (Relisted on 3 Aug. 2020 and 2 Aug. 2023)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3340"
+  ],
+  "remarks": "Listing: Listed on: 17 Aug. 2017 (Relisted on 3 Aug. 2020 and 2 Aug. 2023)",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "P.O. Box 4470, Damascus, Syria",
       "country": "Syria"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

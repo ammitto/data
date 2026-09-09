@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/61228",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/61228",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kots Alexandr Igorevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kots Alexandr Igorevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/61228"
   ],
   "remarks": "Alexandr Kots is a special correspondent of a pro-Kremlin Komsomolskaya Pravda tabloid. He is a member of the Presidential Council for Civil Society and Human Rights, where he sits on the working group on the “special military operation” (war) in Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1978-11-03",
-      "circa": false
+      "circa": false,
+      "year": 1978
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

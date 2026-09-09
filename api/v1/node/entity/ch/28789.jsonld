@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/28789",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/28789",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Amr Armanazi",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Amr Armanazi",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/28789"
   ],
   "remarks": "Director-General of the Syrian Scientific Studies and Research Centre (SSRC), responsible for providing support to the Syrian army during the al-Assad regime for the acquisition of equipment used for the surveillance and repression of demonstrators. Also responsible for the development and production of non-conventional weapons, including chemical weapons, and the missiles to deliver them.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1944-02-07",
-      "circa": false
+      "circa": false,
+      "year": 1944
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

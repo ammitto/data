@@ -1,38 +1,56 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/inu0095",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/inu0095",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Modern Technologies FZC",
+      "@type": "NameVariant",
+      "fullName": "Modern Technologies FZC",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Modern Technologies",
+      "@type": "NameVariant",
+      "fullName": "Modern Technologies",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Modern Technologies Co.",
+      "@type": "NameVariant",
+      "fullName": "Modern Technologies Co.",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "MTFZC",
+      "@type": "NameVariant",
+      "fullName": "MTFZC",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/inu0095"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "PO Box 8032",
       "state": "Sharjah",
       "country": "United Arab Emirates"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/4660",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/4660",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Makei Uladzimir Uladzimiravich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Makei Uladzimir Uladzimiravich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/4660"
   ],
   "remarks": "Minister for Foreign Affairs, former Head of the President's Adminstration. As Head of the President's Administration, he was considered to be the second most powerful person in the regime and, as such, was responsible for organising fraudulent elections in 2008 and 2010 and for the subsequent repression of peaceful demonstrators.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1958-08-05",
-      "circa": false
+      "circa": false,
+      "year": 1958
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,39 +1,58 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3294",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/3294",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ahmad BALLUL",
+      "@type": "NameVariant",
+      "fullName": "Ahmad BALLUL",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Ahmad Muhammad BALLUL",
+      "@type": "NameVariant",
+      "fullName": "Ahmad Muhammad BALLUL",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ahmed BALOL",
+      "@type": "NameVariant",
+      "fullName": "Ahmed BALOL",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ahmed BALLUL",
+      "@type": "NameVariant",
+      "fullName": "Ahmed BALLUL",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Last known rank and position ‑ Major General and Commander of the Syrian Air Force and Syrian Arab Air Defense Forces; Listing: Listed on: 17 Aug. 2017 (Relisted on 3 Aug. 2020 and 2 Aug. 2023)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3294"
   ],
-  "birth_info": [
+  "remarks": "Last known rank and position ‑ Major General and Commander of the Syrian Air Force and Syrian Arab Air Defense Forces; Listing: Listed on: 17 Aug. 2017 (Relisted on 3 Aug. 2020 and 2 Aug. 2023)",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1954
     }
   ],
   "nationalities": [
     "Syria"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,31 +1,50 @@
 {
-  "id": "https://www.ammitto.org/entry/nz/consolidated-list/ind-639",
-  "entity_id": "https://www.ammitto.org/entity/nz/ind-639",
-  "regime": {
-    "@id": "https://www.ammitto.org/regime/nz-ru"
+  "@id": "https://www.ammitto.org/entry/nz/consolidated-list/ind-639",
+  "@type": "SanctionEntry",
+  "entityId": "https://www.ammitto.org/entity/nz/ind-639",
+  "authority": {
+    "@id": "https://www.ammitto.org/authority/nz"
   },
+  "regime": {
+    "@id": "https://www.ammitto.org/regime/nz-ru",
+    "name": "New Zealand Russia Sanctions"
+  },
+  "legalBases": [
+
+  ],
   "effects": [
     {
-      "effect_type": "travel_ban",
+      "@type": "SanctionEffect",
+      "effectType": "travel_ban",
       "scope": "full"
     },
     {
-      "effect_type": "asset_freeze",
+      "@type": "SanctionEffect",
+      "effectType": "asset_freeze",
       "scope": "full"
     },
     {
-      "effect_type": "vessel_ban",
+      "@type": "SanctionEffect",
+      "effectType": "vessel_ban",
       "scope": "full"
     },
     {
-      "effect_type": "aircraft_ban",
+      "@type": "SanctionEffect",
+      "effectType": "aircraft_ban",
       "scope": "full"
     }
   ],
+  "reasons": [
+
+  ],
   "period": {
-    "listed_date": "2022-05-03",
-    "is_indefinite": true
+    "@type": "TemporalPeriod",
+    "listedDate": "2022-05-03",
+    "isIndefinite": true
   },
   "status": "active",
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "statusHistory": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

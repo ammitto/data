@@ -1,39 +1,59 @@
 {
-  "id": "https://www.ammitto.org/entity/au/441",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/441",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Parlindungan Siregar",
+      "@type": "NameVariant",
+      "fullName": "Parlindungan Siregar",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Siregar, Parlin",
+      "@type": "NameVariant",
+      "fullName": "Siregar, Parlin",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Siregar, Saleh Parlindungan",
+      "@type": "NameVariant",
+      "fullName": "Siregar, Saleh Parlindungan",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Review pursuant to Security Council resolution 1822 (2008) was concluded on 25 May 2010. Review pursuant to Security Council resolution 2368 (2017) was concluded on 4 Dec. 2019. Review pursuant to Security Council resolution 2610 (2021) was concluded on 8 November 2022.; Listing: Listed by UN 1267 Committee on 9 September 2003 (amended 6 Ded 2019)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/441"
   ],
-  "birth_info": [
+  "remarks": "Review pursuant to Security Council resolution 1822 (2008) was concluded on 25 May 2010. Review pursuant to Security Council resolution 2368 (2017) was concluded on 4 Dec. 2019. Review pursuant to Security Council resolution 2610 (2021) was concluded on 8 November 2022.; Listing: Listed by UN 1267 Committee on 9 September 2003 (amended 6 Ded 2019)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1957,
       "country": "Indonesia"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1967,
       "country": "Indonesia"
     }
   ],
   "nationalities": [
     "Indonesia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

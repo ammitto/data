@@ -1,25 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7329",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7329",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Saw Daniel",
+      "@type": "NameVariant",
+      "fullName": "Saw Daniel",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "Political party: Kayah State Democratic Party; Member of the State Administration Council; Listing: Autonomous Sanctions (Designated and Declared Persons—Myanmar) Amendment Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7329"
   ],
-  "birth_info": [
+  "remarks": "Political party: Kayah State Democratic Party; Member of the State Administration Council; Listing: Autonomous Sanctions (Designated and Declared Persons—Myanmar) Amendment Instrument 2023",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1957,
       "country": "Myanmar"
     }
   ],
   "nationalities": [
     "Myanmar"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

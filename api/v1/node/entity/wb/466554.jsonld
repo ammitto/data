@@ -1,23 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/466554",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/wb/466554",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "LAXMI NARAYAN CONSTRUCTION",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "LAXMI NARAYAN CONSTRUCTION",
+      "isPrimary": true
     }
   ],
-  "remarks": "(Also doing business under LAXMINARAYAN MALLICK and Laxminarayan Construction) *187",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/466554"
+  ],
+  "remarks": "(Also doing business under LAXMINARAYAN MALLICK and Laxminarayan Construction) *187",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "PLOT NO. 2D – 221/10 SECTOR - 11",
       "city": "CDA CUTTACK, 753014",
       "country": "India",
-      "country_iso_code": "IN"
+      "countryIsoCode": "IN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

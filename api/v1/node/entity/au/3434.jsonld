@@ -1,29 +1,46 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3434",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/3434",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "KIM TONG CHOL",
+      "@type": "NameVariant",
+      "fullName": "KIM TONG CHOL",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Kim Tong-ch'o'l",
+      "@type": "NameVariant",
+      "fullName": "Kim Tong-ch'o'l",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "KPi.068 Former overseas Foreign Trade Bank Deputy representative. Passport no: a) 927234267 b) 108120258 (issued by the Democratic People's Republic of Korea on 14 Feb. 2018; expiration date 14 Feb. 2023). Gender: male.; Listing: Listed on: 22 December 2017 (amended on 26 July 2022 and 29 June 2023)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3434"
   ],
-  "birth_info": [
+  "remarks": "KPi.068 Former overseas Foreign Trade Bank Deputy representative. Passport no: a) 927234267 b) 108120258 (issued by the Democratic People's Republic of Korea on 14 Feb. 2018; expiration date 14 Feb. 2023). Gender: male.; Listing: Listed on: 22 December 2017 (amended on 26 July 2022 and 29 June 2023)",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1966
     }
   ],
   "nationalities": [
     "Democratic People's Republic of Korea (North Korea)"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/55388",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/55388",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Volozh Arkady Yurievich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Volozh Arkady Yurievich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/55388"
   ],
   "remarks": "Arkady Volozh is a Russian businessperson with business interests in IT and technology. He is the founder and former CEO of Yandex, having resigned following his listing by the European Union. He is a major shareholder of Yandex, the largest Internet company in Russia, operating Russia’s most popular search engine. Yandex operates in the ICT sector, which brings considerable tax revenue to the Government of the Russian Federation.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1964-02-11",
-      "circa": false
+      "circa": false,
+      "year": 1964
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

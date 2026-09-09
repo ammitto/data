@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/76411",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/76411",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Aliyan Jamil Yusuf Ahmad",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Aliyan Jamil Yusuf Ahmad",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/76411"
   ],
   "remarks": "Jamil Yusuf Ahmad Aliyan is an official of the Palestinian Islamic Jihad (PIJ) and leader of the Muhjat AlQuds Foundation. The Muhjat AlQuds Foundation is a PIJ-run, Iran-funded organisation the primary mission of which is to provide financial support to the families of PIJ fighters and prisoners. Furthermore, Aliyan has served on PIJ’s executive committee, thereby overseeing PIJ finances.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1955-01-01",
-      "circa": false
+      "circa": false,
+      "year": 1955
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

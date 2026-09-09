@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3561",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/3561",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "HAPJANGGANG SHIPPING CORP",
+      "@type": "NameVariant",
+      "fullName": "HAPJANGGANG SHIPPING CORP",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "KPe.058. Registered owner of the DPRK tanker NAM SAN 8, believed to have been involved in ship-to-ship transfer operations for oil, and owner of vessel HAP JANG GANG 6. IMO number: 5787684.; Listing: Listed on: 30 Mar. 2018 (amended on 26 Jul. 2022)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3561"
+  ],
+  "remarks": "KPe.058. Registered owner of the DPRK tanker NAM SAN 8, believed to have been involved in ship-to-ship transfer operations for oil, and owner of vessel HAP JANG GANG 6. IMO number: 5787684.; Listing: Listed on: 30 Mar. 2018 (amended on 26 Jul. 2022)",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Kumsong 3-dong, Mangyongdae-guyok, Pyongyang, Democratic People's Republic of Korea",
       "country": "Democratic People's Republic of Korea"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

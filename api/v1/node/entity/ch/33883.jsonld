@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/33883",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/33883",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Yu Chol U",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Yu Chol U",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/33883"
   ],
   "remarks": "Yu Chol U is the Director of the National Aerospace Development Administration.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1959-08-08",
-      "circa": false
+      "circa": false,
+      "year": 1959
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

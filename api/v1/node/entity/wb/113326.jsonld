@@ -1,21 +1,36 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/113326",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/113326",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "NORSK-AGRO LTD.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "NORSK-AGRO LTD.",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/113326"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "city": "LONDON",
       "country": "United Kingdom",
-      "country_iso_code": "GB"
+      "countryIsoCode": "GB"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

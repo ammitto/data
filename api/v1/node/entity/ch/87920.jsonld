@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/87920",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/87920",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Carlos Enrique Quintero Cuevas",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Carlos Enrique Quintero Cuevas",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/87920"
   ],
   "remarks": "Vice President of the National Electoral Council of Venezuela (CNE). As Vice President of the CNE, Carlos Enrique Quintero Cuevas fully took part in the decision-making process of the CNE which impeded a transparent electoral process and the release of accurate election results and thus played a crucial role in the management of the presidential election of 28 July 2024.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1972-02-16",
-      "circa": false
+      "circa": false,
+      "year": 1972
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

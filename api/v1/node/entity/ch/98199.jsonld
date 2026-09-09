@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/98199",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/98199",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Lugantseva Oksana Gennadyevna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Lugantseva Oksana Gennadyevna",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/98199"
   ],
   "remarks": "Oksana Lugantseva is the Chief of Staff of the regional branch of “Yunarmiya” within the so-called “Luhansk People’s Republic”. Under her leadership, the regional branch promotes sentiments that Luhansk is Russian. Moreover, the regional branch encourages Ukrainian children to be faithful to Russia, and to enrol in its armed forces. The regional branch also provides the children with militarised education.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1978-02-07",
-      "circa": false
+      "circa": false,
+      "year": 1978
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

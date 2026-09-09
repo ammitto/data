@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/44186",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/44186",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kuryan Dzmitry Aliaksandravich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kuryan Dzmitry Aliaksandravich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/44186"
   ],
   "remarks": "In his former leadership position as Deputy Head of the Main Department and Head of the Department of Law Enforcement in the Ministry of Internal Affairs, he was responsible for the repression and intimidation campaign led by the police forces in the wake of the 2020 presidential election, in particular arbitrary arrests and ill-treatment, including torture, of peaceful demonstrators as well as intimidation and violence against journalists. He remains active in the Lukashenka regime as the Deputy Head of the public militia of the Academy of the Ministry of Internal Affairs and retains the rank of Police Colonel.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1974-10-03",
-      "circa": false
+      "circa": false,
+      "year": 1974
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

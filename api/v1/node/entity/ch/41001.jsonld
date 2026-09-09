@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/41001",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/41001",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Rafael Ramón Blanco Marrero",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Rafael Ramón Blanco Marrero",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/41001"
   ],
   "remarks": "Inspector-General of the Venezuelan Bolivarian National Army since July 2023. Former Division General of the Venezuelan Bolivarian National Army (July 2019 – July 2023). Former deputy Director of the Directorate-General of Military Counter-Intelligence (Dirección General de Contrainteligencia Militar (DGCIM)). Responsible for serious human rights violations, including torture, the use of excessive force and the mistreatment of detainees in DGCIM facilities, that were committed by DGCIM officials under his command. Linked to the death of Captain Acosta.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1968-02-28",
-      "circa": false
+      "circa": false,
+      "year": 1968
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

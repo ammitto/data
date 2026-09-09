@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/61016",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/61016",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Shuvaev Georgy Ivanovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Shuvaev Georgy Ivanovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/61016"
   ],
   "remarks": "Georgy Shuvaev is a Russian military leader, and Head of Missile Troops and Artillery of the 1st Tank Army (military unit 73621) of the Western Military District of the Russian Armed Forces. The Missile Troops and Artillery of the 1st Tank Army (military unit\n73621) participated in the war of aggression against Ukraine. As Head of the Missile Troops and Artillery of the 1st Tank Army (military unit 73621) of the Western Military District of the Russian Armed Forces, he is responsible for the actions of his unit. Georgy\nShuvaev is therefore responsible for supporting and implementing actions which undermine the territorial integrity, sovereignty and independence of Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1969-05-06",
-      "circa": false
+      "circa": false,
+      "year": 1969
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

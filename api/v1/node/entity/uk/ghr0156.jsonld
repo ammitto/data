@@ -1,33 +1,53 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/ghr0156",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/ghr0156",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "SABAH",
-      "first_name": "Zohar ",
+      "@type": "NameVariant",
+      "fullName": "SABAH",
+      "firstName": "Zohar ",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "SABACH ",
-      "first_name": "Zohar ",
+      "@type": "NameVariant",
+      "fullName": "SABACH ",
+      "firstName": "Zohar ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "הר סבאח",
+      "@type": "NameVariant",
+      "fullName": "הר סבאח",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/ghr0156"
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Mevo'ot Yericho, West Bank",
       "country": "Occupied Palestinian Territories"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

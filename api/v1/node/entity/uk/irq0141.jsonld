@@ -1,72 +1,105 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/irq0141",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/irq0141",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "AHMAD",
-      "first_name": "MUHAMMAD",
+      "@type": "NameVariant",
+      "fullName": "AHMAD",
+      "firstName": "MUHAMMAD",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ahmed",
-      "first_name": "Muhammad",
+      "@type": "NameVariant",
+      "fullName": "Ahmed",
+      "firstName": "Muhammad",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Al-Ahmed",
-      "first_name": "Muhammad",
+      "@type": "NameVariant",
+      "fullName": "Al-Ahmed",
+      "firstName": "Muhammad",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Al-Badrani",
-      "first_name": "Muhammed",
+      "@type": "NameVariant",
+      "fullName": "Al-Badrani",
+      "firstName": "Muhammed",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Al-Moali",
-      "first_name": "Muhammad",
+      "@type": "NameVariant",
+      "fullName": "Al-Moali",
+      "firstName": "Muhammad",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "محمد يونس أحمد",
+      "@type": "NameVariant",
+      "fullName": "محمد يونس أحمد",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/irq0141"
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "state": "Al-Hasaka",
       "country": "Syria"
     },
     {
+      "@type": "Address",
+      "street": "",
       "state": "Damascus",
       "country": "Syria"
     },
     {
+      "@type": "Address",
+      "street": "",
       "state": "Dubai",
       "country": "United Arab Emirates"
     },
     {
+      "@type": "Address",
+      "street": "",
       "state": "Mosul",
       "country": "Iraq"
     },
     {
+      "@type": "Address",
+      "street": "",
       "state": "Wadi Al-Hawi",
       "country": "Iraq"
     },
     {
+      "@type": "Address",
       "street": "Al-Dawar Street",
       "state": "Bludan",
       "country": "Syria"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

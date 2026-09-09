@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/62753",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/62753",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Solodov Vladimir Viktorovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Solodov Vladimir Viktorovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/62753"
   ],
   "remarks": "In his capacity as governor of Kamchatka Krai, Vladimir Solodov is contributing to the illegal deportation of Ukrainian children. He is facilitating the illegal deportation of Ukrainian children to camps located in his region. He is one of the senior Russian (regional) leaders involved in the illegal deportation of Ukrainian children to Russia. Solodov’s actions violate the rights of Ukrainian children and infringe Ukraine’s law and administrative order.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1982-07-26",
-      "circa": false
+      "circa": false,
+      "year": 1982
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

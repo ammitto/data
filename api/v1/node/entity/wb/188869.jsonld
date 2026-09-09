@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/188869",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/188869",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "DHEMA AGENCIES LIMITED",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "DHEMA AGENCIES LIMITED",
+      "isPrimary": true
     }
   ],
-  "remarks": "*96",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/188869"
+  ],
+  "remarks": "*96",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "3 PILKINGTON ROAD, P.O. BOX 2909",
       "city": "KAMPALA",
       "country": "Uganda",
-      "country_iso_code": "UG"
+      "countryIsoCode": "UG"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

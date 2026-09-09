@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/548309",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/548309",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "GRUPO OLIGARRY, S.A.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "GRUPO OLIGARRY, S.A.",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/548309"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "CALLE MURCIA 1, 13610 CAMPO DE CRIPTANA",
       "city": "CIUDAD REAL",
       "country": "Spain",
-      "country_iso_code": "ES"
+      "countryIsoCode": "ES"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

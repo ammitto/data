@@ -1,35 +1,53 @@
 {
-  "id": "https://www.ammitto.org/entity/au/100",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/100",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Nazir Mohammad Abdul Basir",
+      "@type": "NameVariant",
+      "fullName": "Nazir Mohammad Abdul Basir",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Nazar Mohammad",
+      "@type": "NameVariant",
+      "fullName": "Nazar Mohammad",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "نظر محمد",
+      "@type": "NameVariant",
+      "fullName": "نظر محمد",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "TAi.100 Title: Maulavi. Designation: Acting, Governor of Kunduz Province under the Taliban regime.  Alternative title:  Sar Muallim.  Reconciled after the fall of the Taliban regime, and assumed duties under the new Government on district level in Kunduz Province. Confirmed assassinated by Taliban on 9 November 2008.; Listing: Listed on 23 February 2001 (amended on 21 Sep 2007, 18 May 2012 and 31 Dec. 2013)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/100"
   ],
-  "birth_info": [
+  "remarks": "TAi.100 Title: Maulavi. Designation: Acting, Governor of Kunduz Province under the Taliban regime.  Alternative title:  Sar Muallim.  Reconciled after the fall of the Taliban regime, and assumed duties under the new Government on district level in Kunduz Province. Confirmed assassinated by Taliban on 9 November 2008.; Listing: Listed on 23 February 2001 (amended on 21 Sep 2007, 18 May 2012 and 31 Dec. 2013)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1954,
       "country": "Malaghi Village"
     }
   ],
   "nationalities": [
     "Afghanistan"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

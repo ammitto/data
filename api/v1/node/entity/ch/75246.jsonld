@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/75246",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/75246",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Vinnik Sergey Vyacheslavovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Vinnik Sergey Vyacheslavovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/75246"
   ],
   "remarks": "Sergey Vinnik is a judge of the Military Court of Appeal of the Russian Federation. In his position, he prosecuted various members of the Crimean Tatars, such as Tymur Ibrahimov and Seyran Saliyev, as well as other Crimean political prisoners. He is therefore supporting and implementing actions and policies which undermine and threaten the territorial integrity, sovereignty and independence of Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1983
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,16 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/83073",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/83073",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Fazeel-A-Tul Shaykh Abu Mohammed Ameen Al-Peshawari",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Fazeel-A-Tul Shaykh Abu Mohammed Ameen Al-Peshawari",
+      "isPrimary": true
     }
   ],
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/83073"
+  ],
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1967
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

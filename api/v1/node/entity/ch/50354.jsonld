@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/50354",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/50354",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kolokoltsev Vladimir Alexandrovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kolokoltsev Vladimir Alexandrovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/50354"
   ],
   "remarks": "Minister of the Interior of the Russian Federation. As a member of the Security Council of the Russian Federation, supported Russia’s immediate recognition of the two self-proclaimed republics.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1961-05-11",
-      "circa": false
+      "circa": false,
+      "year": 1961
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

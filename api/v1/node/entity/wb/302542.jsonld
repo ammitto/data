@@ -1,22 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/302542",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/wb/302542",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MR. HAO ZHIYONG",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "MR. HAO ZHIYONG",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/302542"
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "VIA DRUZHBA RESTAURANT, 12 AYBEK STREET",
       "city": "TASHKENT 100015 MIRABAD DISTRICT",
       "country": "Uzbekistan",
-      "country_iso_code": "UZ"
+      "countryIsoCode": "UZ"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

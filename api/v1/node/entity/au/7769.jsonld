@@ -1,42 +1,61 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7769",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/7769",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "MARINE INDUSTRIES",
+      "@type": "NameVariant",
+      "fullName": "MARINE INDUSTRIES",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Shahid Joolaee Marine Industries",
+      "@type": "NameVariant",
+      "fullName": "Shahid Joolaee Marine Industries",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Shahid Goolaee Marine Industries",
+      "@type": "NameVariant",
+      "fullName": "Shahid Goolaee Marine Industries",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Marine Industries Organization (MIO)",
+      "@type": "NameVariant",
+      "fullName": "Marine Industries Organization (MIO)",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "DIO Marine Industries Group",
+      "@type": "NameVariant",
+      "fullName": "DIO Marine Industries Group",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Subsidiary of the DIO.; Listing: Instrument of first designation: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Iran) Amendment (No. 2) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7769"
+  ],
+  "remarks": "Subsidiary of the DIO.; Listing: Instrument of first designation: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Iran) Amendment (No. 2) Instrument 2023",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "44 Sharif St., Hoveyzeh, Korramshahr, North Sohrevardi Ave, Tehran;\n\nP.O. Box 19585 348, Tehran, Iran",
       "country": "Iran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

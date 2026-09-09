@@ -1,33 +1,54 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/afg0137",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/afg0137",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "ZADRAN",
-      "first_name": "MUHAMMAD",
+      "@type": "NameVariant",
+      "fullName": "ZADRAN",
+      "firstName": "MUHAMMAD",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "JADRAN",
-      "first_name": "Mohammad-Omar",
+      "@type": "NameVariant",
+      "fullName": "JADRAN",
+      "firstName": "Mohammad-Omar",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "محمد عمر ځدران",
+      "@type": "NameVariant",
+      "fullName": "محمد عمر ځدران",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Haqqani Network (HQN) (TAe.012) leader in command of over 100 militants active in Khost Province, Afghanistan as of 2013. Involved in the preparation of attacks against Afghan and international forces in Afghanistan. INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/How-wework/Notices/View-UN-Notices-Individuals click here. Pakistan Border Area",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/afg0137"
+  ],
+  "remarks": "Haqqani Network (HQN) (TAe.012) leader in command of over 100 militants active in Khost Province, Afghanistan as of 2013. Involved in the preparation of attacks against Afghan and international forces in Afghanistan. INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/How-wework/Notices/View-UN-Notices-Individuals click here. Pakistan Border Area",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "country": "Afghanistan"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

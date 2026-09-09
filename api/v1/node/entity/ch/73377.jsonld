@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/73377",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/73377",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Bulatov Ruslan Rustemovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Bulatov Ruslan Rustemovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/73377"
   ],
   "remarks": "Ruslan Bulatov is the General Director of LLC Testkomplekt. LLC Testkomplekt supplies goods falling under Union restrictive measures to the Russian Federation. In particular, LLC Testkomplekt offers wide range of analogue-to-digital components, microcontrollers, diodes and sensors that cannot be exported to the Russian Federation. Furthermore, LLC Testkomplekt is a supplier of Radiopriborsnab, a subsidiary of Concern Radioelectronic Technologies (KRET), Russia’s major developer and manufacturer of military radio-electronic products",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1986-04-04",
-      "circa": false
+      "circa": false,
+      "year": 1986
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

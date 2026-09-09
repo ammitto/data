@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/79928",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/79928",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Abdul Habib Alizai Haji Hadji",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Abdul Habib Alizai Haji Hadji",
+      "isPrimary": true
     }
   ],
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/79928"
+  ],
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1963-10-15",
-      "circa": false
+      "circa": false,
+      "year": 1963
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

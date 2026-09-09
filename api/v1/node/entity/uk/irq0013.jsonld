@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/irq0013",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/irq0013",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "IDLEB COMPANY FOR SPINNING",
+      "@type": "NameVariant",
+      "fullName": "IDLEB COMPANY FOR SPINNING",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Funds or financial assets or economic resources received on or after 23 May 2003 are not to be regarded as frozen nor required to be transferred to the successor arrangements to the DFI",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/irq0013"
+  ],
+  "remarks": "Funds or financial assets or economic resources received on or after 23 May 2003 are not to be regarded as frozen nor required to be transferred to the successor arrangements to the DFI",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "PO Box 9",
       "state": "Idleb",
       "country": "Iraq"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

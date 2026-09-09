@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/43562",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/43562",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Zhurauski Leanid",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Zhurauski Leanid Viachaslavavich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/43562"
   ],
   "remarks": "In his former command position over OMON forces in Vitebsk/Viciebsk, he was responsible for the repression and intimidation campaign led by OMON forces in Vitebsk/Viciebsk in the wake of the 2020 presidential election, in particular arbitrary arrests and ill-treatment of peaceful demonstrators.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1975-09-20",
-      "circa": false
+      "circa": false,
+      "year": 1975
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

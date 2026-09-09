@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/60541",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/60541",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Parikin Alexey Nikolaievich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Parikin Alexey Nikolaievich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/60541"
   ],
   "remarks": "Alexey Parikin is the so-called “First Deputy Governor” of the “Federal City” of Sevastopol. In that role, Alexey Parikin is responsible for implementing state policies, including the illegal recognition of the “Federal City” of Sevastopol. In that capacity, and\nthrough his actions, he is therefore responsible for supporting and implementing actions and policies which undermine and threaten the territorial integrity, sovereignty and independence of Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1978-12-03",
-      "circa": false
+      "circa": false,
+      "year": 1978
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

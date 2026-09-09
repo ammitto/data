@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/43619",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/43619",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kanyuk Aliaksandr Uladzimiravich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kanyuk Aliaksandr Uladzimiravich",
+      "isPrimary": true
     }
   ],
-  "remarks": "In his former position as Prosecutor General, he was responsible for the widespread use of criminal proceedings to disqualify opposition candidates ahead of the 2020 presidential election and to prevent persons from joining the Coordination Council launched by the opposition to challenge the outcome of that election. He remains active in the Lukashenka regime as the ambassador of Belarus to Armenia.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/43619"
+  ],
+  "remarks": "In his former position as Prosecutor General, he was responsible for the widespread use of criminal proceedings to disqualify opposition candidates ahead of the 2020 presidential election and to prevent persons from joining the Coordination Council launched by the opposition to challenge the outcome of that election.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1960-07-11",
-      "circa": false
+      "circa": false,
+      "year": 1960
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

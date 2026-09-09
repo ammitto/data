@@ -1,28 +1,48 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/lib0056",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/lib0056",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "QADHAFI",
-      "first_name": "MOHAMMED",
+      "@type": "NameVariant",
+      "fullName": "QADHAFI",
+      "firstName": "MOHAMMED",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abdul Salam",
-      "first_name": "Muhammed",
+      "@type": "NameVariant",
+      "fullName": "Abdul Salam",
+      "firstName": "Muhammed",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Listed pursuant to paragraphs 15 and 17 of resolution 1970 (Travel Ban, Asset Freeze). INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/notice/search/un/5525875",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/lib0056"
+  ],
+  "remarks": "Listed pursuant to paragraphs 15 and 17 of resolution 1970 (Travel Ban, Asset Freeze). INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/notice/search/un/5525875",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "country": "Oman"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

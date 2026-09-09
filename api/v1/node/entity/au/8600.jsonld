@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8600",
-  "entity_type": "vessel",
+  "@id": "https://www.ammitto.org/entity/au/8600",
+  "@type": "VesselEntity",
+  "entityType": "vessel",
   "names": [
     {
-      "full_name": "INVICTA",
+      "@type": "NameVariant",
+      "fullName": "INVICTA",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "NEOMI",
+      "@type": "NameVariant",
+      "fullName": "NEOMI",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Previous names include NEOMI; Listing: Designated as a sanctioned vessel in the Autonomous Sanctions (Sanctioned Vessels – Russia) Designation 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8600"
   ],
-  "imo_number": "9250543",
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "remarks": "Previous names include NEOMI; Listing: Designated as a sanctioned vessel in the Autonomous Sanctions (Sanctioned Vessels – Russia) Designation 2025",
+  "imoNumber": "9250543",
+  "previousNames": [
+
+  ],
+  "previousFlags": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

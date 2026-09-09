@@ -1,43 +1,62 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus1075",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus1075",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Alrosa",
+      "@type": "NameVariant",
+      "fullName": "Alrosa",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "AK Alrosa PAO",
+      "@type": "NameVariant",
+      "fullName": "AK Alrosa PAO",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Aktsionernaya kompaniya ALROSA PAO",
+      "@type": "NameVariant",
+      "fullName": "Aktsionernaya kompaniya ALROSA PAO",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "ALROSA Company PJSC",
+      "@type": "NameVariant",
+      "fullName": "ALROSA Company PJSC",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Алроса ",
+      "@type": "NameVariant",
+      "fullName": "Алроса ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus1075"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "ul. Lenina, 6, Republic of Sakha (Yakutia)",
       "state": "Mirny",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

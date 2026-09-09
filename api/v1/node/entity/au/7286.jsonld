@@ -1,30 +1,47 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7286",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7286",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Aleksandr Dmitrievich BEGLOV",
+      "@type": "NameVariant",
+      "fullName": "Aleksandr Dmitrievich BEGLOV",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Alexander Dmitryevich BEGLOV",
+      "@type": "NameVariant",
+      "fullName": "Alexander Dmitryevich BEGLOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Member of the Russian Security Council; Listing: Instrument of first designation\nand declaration\nAutonomous Sanctions (Designated Persons and\nEntities and Declared Persons—Russia and\nUkraine) Amendment (No. 21) Instrument 2022",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7286"
   ],
-  "birth_info": [
+  "remarks": "Member of the Russian Security Council; Listing: Instrument of first designation\nand declaration\nAutonomous Sanctions (Designated Persons and\nEntities and Declared Persons—Russia and\nUkraine) Amendment (No. 21) Instrument 2022",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1956,
       "country": "Baku"
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

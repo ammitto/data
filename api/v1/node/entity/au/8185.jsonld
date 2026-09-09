@@ -1,34 +1,52 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8185",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/8185",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "V'yacheslav Rafaelevich MANUCHAROV",
+      "@type": "NameVariant",
+      "fullName": "V'yacheslav Rafaelevich MANUCHAROV",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "V'iacheslav Rafaelevich MANUCHAROV",
+      "@type": "NameVariant",
+      "fullName": "V'iacheslav Rafaelevich MANUCHAROV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Viacheslav Rafaelovych MANUCHAROV",
+      "@type": "NameVariant",
+      "fullName": "Viacheslav Rafaelovych MANUCHAROV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 3) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8185"
   ],
-  "birth_info": [
+  "remarks": "Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 3) Instrument 2025",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1981
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

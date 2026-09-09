@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/888340",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/888340",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "HEBEI CONSTRUCTION GROUP CORPORATION LIMITED JILIN BRANCH",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "HEBEI CONSTRUCTION GROUP CORPORATION LIMITED JILIN BRANCH",
+      "isPrimary": true
     }
   ],
-  "remarks": "河北建设集团股份有限公司吉林分公司",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/888340"
+  ],
+  "remarks": "河北建设集团股份有限公司吉林分公司",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "GATE 201, BUILDING A13, HUAQIAO CHENG COMMUNITY, KUANCHENG DISTRICT",
       "city": "CHANGCHUN",
       "country": "China",
-      "country_iso_code": "CN"
+      "countryIsoCode": "CN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

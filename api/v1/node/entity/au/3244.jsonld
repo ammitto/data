@@ -1,30 +1,44 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3244",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/3244",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kim Chol Nam",
+      "@type": "NameVariant",
+      "fullName": "Kim Chol Nam",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "KPi.044 President of Korea Kumsan Trading Corporation, a company that procures supplies for General Bureau of Atomic Energy and serves as a cash route to the Democratic People's Republic of Korea. Passport No.: 563120238.; Listing: Listed on: 2 Jun. 2017",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3244"
   ],
-  "birth_info": [
+  "remarks": "KPi.044 President of Korea Kumsan Trading Corporation, a company that procures supplies for General Bureau of Atomic Energy and serves as a cash route to the Democratic People's Republic of Korea. Passport No.: 563120238.; Listing: Listed on: 2 Jun. 2017",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1970
     }
   ],
   "nationalities": [
     "Democratic People's Republic of Korea (North Korea)"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Democratic People's Republic of Korea",
       "country": "Democratic People's Republic of Korea"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

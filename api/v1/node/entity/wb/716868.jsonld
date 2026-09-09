@@ -1,22 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/716868",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/wb/716868",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "FERNANDO BLADIMIR PEÑA PINEDA",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "FERNANDO BLADIMIR PEÑA PINEDA",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/716868"
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "RESIDENCIA VILLA DEL SOL ILL, SENDA 64,NÚMERO 77",
       "city": "LLOPANGO",
       "country": "El Salvador",
-      "country_iso_code": "SV"
+      "countryIsoCode": "SV"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

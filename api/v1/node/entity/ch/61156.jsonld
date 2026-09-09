@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/61156",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/61156",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Fadeyev Valery Aleksandrovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Fadeyev Valery Aleksandrovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/61156"
   ],
   "remarks": "Valery Fadeyev is a chairman of the Presidential Council for Civil Society and Human Rights. He helped to subordinate that body to the political line of the Government of the Russian Federation upon Russia’s invasion of Ukraine. He is an advisor to Vladimir Putin.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1960-10-10",
-      "circa": false
+      "circa": false,
+      "year": 1960
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

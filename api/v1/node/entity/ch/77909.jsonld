@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/77909",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/77909",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Shautsou Viktar Arkadzievich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Shautsou Viktar Arkadzievich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/77909"
   ],
   "remarks": "Viktar Shautsou is a businessman with business interests in Belarus.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1963-12-05",
-      "circa": false
+      "circa": false,
+      "year": 1963
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

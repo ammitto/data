@@ -1,24 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/941202",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/941202",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "CABLE ANDINO USA INC.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "CABLE ANDINO USA INC.",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/941202"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "1100 NW 163RD DRIVE",
       "city": "MIAMI",
       "state": "FL",
       "country": "United States",
-      "country_iso_code": "US",
-      "postal_code": "33169"
+      "countryIsoCode": "US",
+      "postalCode": "33169"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

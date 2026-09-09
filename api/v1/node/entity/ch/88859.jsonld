@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/88859",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/88859",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Badekha Vadim Aleksandrovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Badekha Vadim Aleksandrovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/88859"
   ],
   "remarks": "Vadim Badekha is the General Director of United Aircraft Corporation (UAC). UAC is a Russian manufacturer of civil and military aircraft and is an important supplier to the Russian Ministry of Defence, which is administering Russia’s war of aggression against Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1979-07-27",
-      "circa": false
+      "circa": false,
+      "year": 1979
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

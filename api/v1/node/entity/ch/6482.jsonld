@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/6482",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/6482",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Madzongwe Edna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Madzongwe Edna",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/6482"
   ],
   "remarks": "Member of the ZANU-PF Politburo. Used influence to motivate political prosecutions in February 2008. Involved in violence in Chegutu including the takeover of the Stockade Citrus Estate in 2008, giving direct orders to those leading the repression.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1943-07-11",
-      "circa": false
+      "circa": false,
+      "year": 1943
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/84293",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/84293",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ali ben Taher ben Faleh Ouni Harzi",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Ali ben Taher ben Faleh Ouni Harzi",
+      "isPrimary": true
     }
   ],
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/84293"
+  ],
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1986-03-09",
-      "circa": false
+      "circa": false,
+      "year": 1986
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

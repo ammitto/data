@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/41353",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/41353",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Khodr Ali Taher",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Khodr Ali Taher",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/41353"
   ],
   "remarks": "Leading businessperson linked to the former al-Assad regime operating across multiple sectors of the Syrian economy, including private security, mobile phone retail, hotel management, advertising services, domestic money transfer, alcoholic and non-alcoholic beverages.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1976-05-15",
-      "circa": false
+      "circa": false,
+      "year": 1976
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

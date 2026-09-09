@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/12152",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/12152",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ahmed Dibe",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Ahmed Dibe",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/12152"
   ],
   "remarks": "As Head of the Deraa Regional Branch of the General Security Directorate under the former al-Assad regime, responsible for arbitrary detention and torture of detainees in Deraa.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1961-11-15",
-      "circa": false
+      "circa": false,
+      "year": 1961
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

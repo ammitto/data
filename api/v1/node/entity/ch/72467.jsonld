@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/72467",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/72467",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Terlikov Andrey Leonidovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Terlikov Andrey Leonidovich",
+      "isPrimary": true
     }
   ],
-  "remarks": "Andrey Terlikov is the General Director of JSC “UKBTM”. The company develops and modernises T-72 and T-90 tanks for the Armed Forces of the Russian Federation, used in Russia’s war of aggression against Ukraine.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/72467"
+  ],
+  "remarks": "Andrey Terlikov is the former General Director of JSC “UKBTM”. The company develops and modernises T-72 and T-90 tanks for the Armed Forces of the Russian Federation, used in Russia’s war of aggression against Ukraine.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1962-02-22",
-      "circa": false
+      "circa": false,
+      "year": 1962
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

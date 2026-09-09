@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/39853",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/39853",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Bidyovka Vladimir Anatolievich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Bidyovka Vladimir Anatolievich",
+      "isPrimary": true
     }
   ],
-  "remarks": "“Chairperson” of the so-called “People's Council” of the so-called “Donetsk People's Republic”. In taking on and acting in this capacity, he actively supported and implemented actions and policies which undermine the territorial integrity, sovereignty and independence of Ukraine, and further destabilised Ukraine.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/39853"
+  ],
+  "remarks": "Former “Chairperson” of the so-called “People’s Council” of the so-called “Donetsk People’s Republic”. In taking on and acting in this capacity, he actively supported and implemented actions and policies which undermine the territorial integrity, sovereignty and independence of Ukraine, and further destabilised Ukraine.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1981-03-07",
-      "circa": false
+      "circa": false,
+      "year": 1981
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/6610",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/6610",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mohadi Kembo Campbell Dugishi",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Mohadi Kembo Campbell Dugishi",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/6610"
   ],
   "remarks": "ZANU-PF Member of Government and member of Joint Operational Command.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1949-11-15",
-      "circa": false
+      "circa": false,
+      "year": 1949
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,22 +1,43 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/ven0010",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/ven0010",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Rodriguez Gomez",
-      "first_name": "Delcy",
+      "@type": "NameVariant",
+      "fullName": "Rodriguez Gomez",
+      "firstName": "Delcy",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Delcy Eloina Rodríguez Gómez",
+      "@type": "NameVariant",
+      "fullName": "Delcy Eloina Rodríguez Gómez",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "President of the National Constituent Assembly The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/ven0010"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "remarks": "President of the National Constituent Assembly The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

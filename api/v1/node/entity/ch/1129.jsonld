@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/1129",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/1129",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Uday Saddam Hussein Al-Tikriti",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Uday Saddam Hussein Al-Tikriti",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/1129"
   ],
   "remarks": "Saddam’s Eldest Son; Leader Of Paramilitary Organization Fedayeen Saddam",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1964
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

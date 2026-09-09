@@ -1,33 +1,48 @@
 {
-  "id": "https://www.ammitto.org/entry/uk/consolidated-list/caf0016",
-  "entity_id": "https://www.ammitto.org/entity/uk/caf0016",
+  "@id": "https://www.ammitto.org/entry/uk/consolidated-list/caf0016",
+  "@type": "SanctionEntry",
+  "entityId": "https://www.ammitto.org/entity/uk/caf0016",
   "authority": {
     "@id": "https://www.ammitto.org/authority/uk"
   },
   "regime": {
-    "@id": "https://www.ammitto.org/regime/the_central_african_republic_sanctions_eu_exit_regulations_2020"
+    "@id": "https://www.ammitto.org/regime/the_central_african_republic_sanctions_eu_exit_regulations_2020",
+    "name": "The Central African Republic (Sanctions) (EU Exit) Regulations 2020"
   },
+  "legalBases": [
+
+  ],
   "effects": [
     {
-      "effect_type": "asset_freeze",
+      "@type": "SanctionEffect",
+      "effectType": "asset_freeze",
       "scope": "full"
     },
     {
-      "effect_type": "travel_ban",
+      "@type": "SanctionEffect",
+      "effectType": "travel_ban",
       "scope": "full"
     }
   ],
+  "reasons": [
+
+  ],
   "period": {
-    "listed_date": "2021-12-21",
-    "effective_date": "2021-12-21",
-    "is_indefinite": true,
-    "last_updated": "2022-01-13"
+    "@type": "TemporalPeriod",
+    "listedDate": "2021-12-21",
+    "effectiveDate": "2021-12-21",
+    "isIndefinite": true,
+    "lastUpdated": "2022-01-13"
   },
   "status": "active",
-  "reference_number": "CAF0016",
-  "raw_source_data": {
-    "source_format": "xml",
-    "source_specific_fields": {
+  "statusHistory": [
+
+  ],
+  "referenceNumber": "CAF0016",
+  "rawSourceData": {
+    "@type": "RawSourceData",
+    "sourceFormat": "xml",
+    "sourceSpecificFields": {
       "uk:ofsiGroupId": "14168",
       "uk:unReferenceNumber": "CFi.015",
       "uk:designationSource": "UN",
@@ -35,5 +50,5 @@
       "uk:entityType": "Individual"
     }
   },
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

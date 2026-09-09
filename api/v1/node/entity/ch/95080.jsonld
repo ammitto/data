@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/95080",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/95080",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Litvinenko Tatyana Petrovna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Litvinenko Tatyana Petrovna",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/95080"
   ],
   "remarks": "Tatyana Litvinenko is a major shareholder of PhosAgro, a globally leading producer of phosphate fertilisers. Russia is the world’s leading exporter of fertilisers, a sector which provides substantial revenue to the Russian Government. Tatyana Litvinenko is therefore a businessperson involved in an economic sector providing a substantial source of revenue to the Government of the Russian Federation, which is responsible for the annexation of Crimea and the destabilisation of Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1958-05-02",
-      "circa": false
+      "circa": false,
+      "year": 1958
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

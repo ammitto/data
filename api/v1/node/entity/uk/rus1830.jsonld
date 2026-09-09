@@ -1,46 +1,71 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus1830",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/rus1830",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "KOLESNIKOV",
-      "first_name": "Denis",
+      "@type": "NameVariant",
+      "fullName": "KOLESNIKOV",
+      "firstName": "Denis",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Colesnicov",
-      "first_name": "Denis",
+      "@type": "NameVariant",
+      "fullName": "Colesnicov",
+      "firstName": "Denis",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Coliesnicov",
-      "first_name": "Denis",
+      "@type": "NameVariant",
+      "fullName": "Coliesnicov",
+      "firstName": "Denis",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Kolesnikov",
-      "first_name": "Denis",
+      "@type": "NameVariant",
+      "fullName": "Kolesnikov",
+      "firstName": "Denis",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Kolesnikov",
-      "first_name": "Denys",
+      "@type": "NameVariant",
+      "fullName": "Kolesnikov",
+      "firstName": "Denys",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "КОЛЕСНИКОВ Денис Владимирович",
+      "@type": "NameVariant",
+      "fullName": "КОЛЕСНИКОВ Денис Владимирович",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus1830"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

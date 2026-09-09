@@ -1,46 +1,81 @@
 {
-  "id": "https://www.ammitto.org/entity/au/1074",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/1074",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "AHMED DEGHDEGH",
+      "@type": "NameVariant",
+      "fullName": "AHMED DEGHDEGH",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "أحمد دغداغ",
+      "@type": "NameVariant",
+      "fullName": "أحمد دغداغ",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abd El Illah  ",
+      "@type": "NameVariant",
+      "fullName": "Abd El Illah  ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abdellillah dit Abdellah Ahmed dit Said",
+      "@type": "NameVariant",
+      "fullName": "Abdellillah dit Abdellah Ahmed dit Said",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
+    },
+    {
+      "@type": "NameVariant",
+      "fullName": "ABD EL ILAH",
+      "script": "Latn",
+      "isPrimary": false
+    },
+    {
+      "@type": "NameVariant",
+      "fullName": "ABOU ABDELLAH AHMED",
+      "script": "Latn",
+      "isPrimary": false
+    },
+    {
+      "@type": "NameVariant",
+      "fullName": "SAID DIT MERRIKH",
+      "script": "Latn",
+      "isPrimary": false
     }
   ],
-  "remarks": "Belongs to the leadership and is the finance chief of the Organization of Al-Qaida in the Islamic Maghreb (QE.T.14.01.). Mother’s name is Zakia Chebira. Father’s name is Lakhdar. Review pursuant to Security Council resolution 2368 (2017) was concluded on 15 November 2021.; Listing: Listed by the UN 1267 Committee on 3 Jun. 2008 (amended on 24 Mar. 2009, 15 Nov. 2012).",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/1074"
   ],
-  "birth_info": [
+  "remarks": "Belongs to the leadership and is the finance chief of the Organization of Al-Qaida in the Islamic Maghreb (QE.T.14.01.). Mother’s name is Zakia Chebira. Father’s name is Lakhdar.  Reportedly died in Algeria in 2020. Review pursuant to Security Council resolution 2368 (2017) was concluded on 15 November 2021.; Listing: Listed by the UN 1267 Committee on 3 Jun. 2008 (amended on 24 Mar. 2009, 15 Nov. 2012, 18 Aug, 2026).",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1967,
       "country": "Anser"
     }
   ],
   "nationalities": [
     "Algeria"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Algeria",
       "country": "Algeria"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

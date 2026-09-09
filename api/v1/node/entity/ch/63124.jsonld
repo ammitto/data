@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/63124",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/63124",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Saprunov Roman Viktorovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Saprunov Roman Viktorovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/63124"
   ],
   "remarks": "Roman Saprunov is a judge of the Southern District Military Court in Rostov-on-Don. He took politically motivated decisions against the Ukrainian citizens who opposed the illegal annexation of Crimea and Sevastopol.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1973-03-23",
-      "circa": false
+      "circa": false,
+      "year": 1973
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/66390",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/66390",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Naqdi Mohammad Reza",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Naqdi Mohammad Reza",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/66390"
   ],
   "remarks": "Brigadier-General",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1949-02-11",
-      "circa": false
+      "circa": false,
+      "year": 1949
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/72123",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/72123",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Alekseyenko Andrey Anatolievich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Alekseyenko Andrey Anatolievich",
+      "isPrimary": true
     }
   ],
-  "remarks": "Andrey Alekseyenko has been the so-called “Chair of the Kherson Military-Civilian Administration” since 25 November 2022. He has assumed this role, without the consent of the Ukrainian authorities, in the illegally occupied territories of Kherson Region and is implementing the official policies of the Russian Federation in the region.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/72123"
+  ],
+  "remarks": "Andrey Alekseyenko is the former so-called “Chair of the Kherson Military-Civilian Administration”. He held this role, without the consent of the Ukrainian authorities, in the illegally occupied territories of Kherson Region and implemented the official policies of the Russian Federation in the region.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1978-04-23",
-      "circa": false
+      "circa": false,
+      "year": 1978
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

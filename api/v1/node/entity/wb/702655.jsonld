@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/702655",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/702655",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "INNER MONGOLIA YUHE CONSTRUCTION ENGINEERING CO., LTD.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "INNER MONGOLIA YUHE CONSTRUCTION ENGINEERING CO., LTD.",
+      "isPrimary": true
     }
   ],
-  "remarks": "(内蒙古禹和建设工程有限公司)*632",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/702655"
+  ],
+  "remarks": "(内蒙古禹和建设工程有限公司)*632",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "12-01-01181, ZONE A, JINYU INTERNATIONAL COMMUNITY, SOUTH OF ZHAOSUHE STREET AND WEST OF CHIXI ROAD, QIAOBEI TOWN, HONGSHAN DISTRICT",
       "city": "CHIFENG CITY, INNER MONGOLIA",
       "country": "China",
-      "country_iso_code": "CN"
+      "countryIsoCode": "CN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,56 +1,75 @@
 {
-  "id": "https://www.ammitto.org/entity/au/731",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/731",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "AYMAN SABAWI IBRAHIM HASAN AL-TIKRITI",
+      "@type": "NameVariant",
+      "fullName": "AYMAN SABAWI IBRAHIM HASAN AL-TIKRITI",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "أيمن سبعاوي إبراهيم حسن التكريتي",
+      "@type": "NameVariant",
+      "fullName": "أيمن سبعاوي إبراهيم حسن التكريتي",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Aiman Sabawi Ibrahim Hasan Al-Tikriti",
+      "@type": "NameVariant",
+      "fullName": "Aiman Sabawi Ibrahim Hasan Al-Tikriti",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ayman Sab’awi Ibrahim Hasan Al-Tikriti",
+      "@type": "NameVariant",
+      "fullName": "Ayman Sab’awi Ibrahim Hasan Al-Tikriti",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ayman Sabawi Ibrahim Hassan Al-Tikriti",
+      "@type": "NameVariant",
+      "fullName": "Ayman Sabawi Ibrahim Hassan Al-Tikriti",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Qais Muhammad Salman",
+      "@type": "NameVariant",
+      "fullName": "Qais Muhammad Salman",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "IQi.083; Listing: Listed by the 1518 Committee",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/731"
   ],
-  "birth_info": [
+  "remarks": "IQi.083; Listing: Listed by the 1518 Committee",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1971,
       "country": "a) Baghdad"
     }
   ],
   "nationalities": [
     "Iraq"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "a) Bludan, Syrian Arab Republic b) Mutanabi Area, Al Monsur, Baghdad, Baghdad, Iraq",
       "country": "Iraq"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

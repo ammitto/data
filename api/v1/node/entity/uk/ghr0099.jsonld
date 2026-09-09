@@ -1,58 +1,83 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/ghr0099",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/ghr0099",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "ZHAO",
-      "first_name": "Wei",
+      "@type": "NameVariant",
+      "fullName": "ZHAO",
+      "firstName": "Wei",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "CHIO",
-      "first_name": "Wai",
+      "@type": "NameVariant",
+      "fullName": "CHIO",
+      "firstName": "Wai",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Jao",
-      "first_name": "Hwei",
+      "@type": "NameVariant",
+      "fullName": "Jao",
+      "firstName": "Hwei",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Jiao",
-      "first_name": "Wei ",
+      "@type": "NameVariant",
+      "fullName": "Jiao",
+      "firstName": "Wei ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Zhang",
-      "first_name": "Wei",
+      "@type": "NameVariant",
+      "fullName": "Zhang",
+      "firstName": "Wei",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Thanchai",
-      "first_name": "Saechou",
+      "@type": "NameVariant",
+      "fullName": "Thanchai",
+      "firstName": "Saechou",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "赵伟",
+      "@type": "NameVariant",
+      "fullName": "赵伟",
       "script": "Hani",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/ghr0099"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "state": "Golden Triangle Special Economic Zone",
       "country": "Laos"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

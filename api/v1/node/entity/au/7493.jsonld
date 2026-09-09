@@ -1,39 +1,58 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7493",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7493",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mohammad Sadegh HEIDARI MOUSA ",
+      "@type": "NameVariant",
+      "fullName": "Mohammad Sadegh HEIDARI MOUSA ",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Mohammad Ali Mohammad Sadegh HEIDARI",
+      "@type": "NameVariant",
+      "fullName": "Mohammad Ali Mohammad Sadegh HEIDARI",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Mohammad Sadegh HEYDARI",
+      "@type": "NameVariant",
+      "fullName": "Mohammad Sadegh HEYDARI",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Mohammad Sadegh HEIDARI MUSA",
+      "@type": "NameVariant",
+      "fullName": "Mohammad Sadegh HEIDARI MUSA",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Member of the Board of Directors of Paravar Pars Company ; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 3) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7493"
   ],
-  "birth_info": [
+  "remarks": "Member of the Board of Directors of Paravar Pars Company ; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 3) Instrument 2023",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1977
     }
   ],
   "nationalities": [
     "Iran"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

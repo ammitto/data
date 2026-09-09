@@ -1,43 +1,62 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/bel0165",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/bel0165",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Ruchservomotor LLC",
+      "@type": "NameVariant",
+      "fullName": "Ruchservomotor LLC",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Ruckservomotor OOO",
+      "@type": "NameVariant",
+      "fullName": "Ruckservomotor OOO",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Rukhervomotor",
+      "@type": "NameVariant",
+      "fullName": "Rukhervomotor",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Rukhervomotor LLC",
+      "@type": "NameVariant",
+      "fullName": "Rukhervomotor LLC",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "ТАА Рухсерваматор",
+      "@type": "NameVariant",
+      "fullName": "ТАА Рухсерваматор",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/bel0165"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "5 st Montazhnikov",
       "state": "Minsk",
       "country": "Belarus"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

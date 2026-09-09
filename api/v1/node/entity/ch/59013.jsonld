@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/59013",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/59013",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Siguta Andrey Leonidovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Siguta Andrey Leonidovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/59013"
   ],
   "remarks": "Andrey Leonidovich Siguta is the Russian-appointed acting head of the military-civilian administration of the Melitopol district. In his role, he supervises the seizure of Ukrainian agricultural products and grain for their transfer into Russia. He is therefore responsible for, supporting and implementing actions or policies, which undermine or threaten the territorial integrity, sovereignty and independence of Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1979-05-05",
-      "circa": false
+      "circa": false,
+      "year": 1979
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

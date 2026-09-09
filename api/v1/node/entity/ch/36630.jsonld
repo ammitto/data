@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/36630",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/36630",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ali Wanus",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Ali Wanus",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/36630"
   ],
   "remarks": "Holds the rank of Major General under the former al-Assad regime, in post after May 2011.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1964-02-05",
-      "circa": false
+      "circa": false,
+      "year": 1964
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

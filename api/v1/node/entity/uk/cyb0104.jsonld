@@ -1,26 +1,46 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/cyb0104",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/cyb0104",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Antonov",
-      "first_name": "Boris",
+      "@type": "NameVariant",
+      "fullName": "Antonov",
+      "firstName": "Boris",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Борис Алексеевич АНТОНОВ",
+      "@type": "NameVariant",
+      "fullName": "Борис Алексеевич АНТОНОВ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/cyb0104"
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

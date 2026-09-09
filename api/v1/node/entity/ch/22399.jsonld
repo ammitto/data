@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/22399",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/22399",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mahmoud Ibraheem Sa’iid Dr.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Mahmoud Ibraheem Sa’iid Dr.",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/22399"
   ],
   "remarks": "Former Minister of Transport in power after May 2011 under the former al-Assad regime. As a former Government Minister, shares responsibility for the former al-Assad regime’s violent repression of the civilian population.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1953-05-30",
-      "circa": false
+      "circa": false,
+      "year": 1953
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

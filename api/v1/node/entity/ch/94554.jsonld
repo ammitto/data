@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/94554",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/94554",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Grozavu Vadim",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Grozavu Vadim",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/94554"
   ],
   "remarks": "Vadim Grozavu is the leader of the “Victorie” political party, which is one of the successors of the outlawed ȘOR political party, led by listed person Ilan Shor. In April 2024, Ilan Shor launched in Moscow the Victory/Pobeda Political Bloc, which unites the successors of his party, including Victory.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1984-12-02",
-      "circa": false
+      "circa": false,
+      "year": 1984
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

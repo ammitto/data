@@ -1,37 +1,47 @@
 {
-  "id": "https://www.ammitto.org/entry/au/consolidated-list/7342",
-  "entity_id": "https://www.ammitto.org/entity/au/7342",
+  "@id": "https://www.ammitto.org/entry/au/consolidated-list/7342",
+  "@type": "SanctionEntry",
+  "entityId": "https://www.ammitto.org/entity/au/7342",
   "authority": {
     "@id": "https://www.ammitto.org/authority/au"
   },
   "regime": {
-    "@id": "https://www.ammitto.org/regime/autonomous__thematic___human_rights_"
+    "@id": "https://www.ammitto.org/regime/autonomous__thematic___human_rights_",
+    "name": "Autonomous (Thematic - Human Rights)"
   },
-  "legal_bases": [
+  "legalBases": [
     {
-      "type": "instrument",
-      "identifier": "Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Thematic Sanctions) Amendment (No. 1) Instrument 2023",
-      "title": "Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Thematic Sanctions) Amendment (No. 1) Instrument 2023"
+      "@id": "https://www.ammitto.org/legal-instrument/au/autonomous-sanctions-designated-persons-and-entities-and-declared-persons-thematic-sanctions-amendment-no.-1-instrument-2023"
     }
   ],
   "effects": [
     {
-      "effect_type": "asset_freeze",
+      "@type": "SanctionEffect",
+      "effectType": "asset_freeze",
       "scope": "full"
     },
     {
-      "effect_type": "travel_ban",
+      "@type": "SanctionEffect",
+      "effectType": "travel_ban",
       "scope": "full"
     }
   ],
+  "reasons": [
+
+  ],
   "period": {
-    "is_indefinite": true
+    "@type": "TemporalPeriod",
+    "isIndefinite": true
   },
   "status": "active",
-  "reference_number": "7342",
-  "raw_source_data": {
-    "source_format": "csv",
-    "source_specific_fields": {
+  "statusHistory": [
+
+  ],
+  "referenceNumber": "7342",
+  "rawSourceData": {
+    "@type": "RawSourceData",
+    "sourceFormat": "csv",
+    "sourceSpecificFields": {
       "au:reference": "7342",
       "au:committees": "Autonomous (Thematic - Human Rights)",
       "au:control_date": "2023-02-01",
@@ -39,5 +49,5 @@
       "au:listing_info": "Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Thematic Sanctions) Amendment (No. 1) Instrument 2023"
     }
   },
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

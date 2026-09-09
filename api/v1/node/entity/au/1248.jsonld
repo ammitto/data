@@ -1,37 +1,57 @@
 {
-  "id": "https://www.ammitto.org/entity/au/1248",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/1248",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "ABDULLAH AL-SENUSSI",
+      "@type": "NameVariant",
+      "fullName": "ABDULLAH AL-SENUSSI",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Abdoullah Ould Ahmed",
+      "@type": "NameVariant",
+      "fullName": "Abdoullah Ould Ahmed",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "LYi.018. Title: Colonel Designation: Director Military Intelligence. Believed status/location: in custody in Libya.; Listing: Listed on 26 February 2011 pursuant to paragraph 15 of resolution 1970; on 17 March 2011 pursuant to paragraph 17 of resolution 1970 (amended on 27 June 2014)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/1248"
   ],
-  "birth_info": [
+  "remarks": "LYi.018. Title: Colonel Designation: Director Military Intelligence. Believed status/location: in custody in Libya.; Listing: Listed on 26 February 2011 pursuant to paragraph 15 of resolution 1970; on 17 March 2011 pursuant to paragraph 17 of resolution 1970 (amended on 27 June 2014)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1949,
       "country": "Sudan "
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1948,
       "country": "Anefif (Kidal)"
     }
   ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Libya (Believed status/location: in custody in Libya.)",
       "country": "Libya (Believed status/location: in custody in Libya.)"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

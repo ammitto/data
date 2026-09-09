@@ -1,62 +1,90 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/som0018",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/som0018",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ayman",
-      "first_name": "Maalim",
+      "@type": "NameVariant",
+      "fullName": "Ayman",
+      "firstName": "Maalim",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abdi",
-      "first_name": "Nuh",
+      "@type": "NameVariant",
+      "fullName": "Abdi",
+      "firstName": "Nuh",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ali",
-      "first_name": "Abdiaziz",
+      "@type": "NameVariant",
+      "fullName": "Ali",
+      "firstName": "Abdiaziz",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ayman",
-      "first_name": "Ma'alim",
+      "@type": "NameVariant",
+      "fullName": "Ayman",
+      "firstName": "Ma'alim",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ayman",
-      "first_name": "Mo'alim",
+      "@type": "NameVariant",
+      "fullName": "Ayman",
+      "firstName": "Mo'alim",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Kabo",
-      "first_name": "Ayman",
+      "@type": "NameVariant",
+      "fullName": "Kabo",
+      "firstName": "Ayman",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Listed pursuant to paragraph 8(a) of resolution 1844 (2008) as “Engaging in or providing support for acts that threaten the peace, security or stability of Somalia, including acts that threaten the Djibouti Agreement of 18 August 2008 or the political process, or threaten the TFIs or AMISOM by force.” Maalim Ayman is the founder and leader of Jaysh Ayman, an al-Shabaab unit conducting attacks and operations in Kenya and Somalia. Ayman helped with preparations for the January 5, 2020 attack on Camp Simba in Lamu County, Kenya.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/som0018"
+  ],
+  "remarks": "Listed pursuant to paragraph 8(a) of resolution 1844 (2008) as “Engaging in or providing support for acts that threaten the peace, security or stability of Somalia, including acts that threaten the Djibouti Agreement of 18 August 2008 or the political process, or threaten the TFIs or AMISOM by force.” Maalim Ayman is the founder and leader of Jaysh Ayman, an al-Shabaab unit conducting attacks and operations in Kenya and Somalia. Ayman helped with preparations for the January 5, 2020 attack on Camp Simba in Lamu County, Kenya.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "state": "Kenya/Somalia border",
       "country": "Kenya"
     },
     {
+      "@type": "Address",
+      "street": "",
       "state": "Kenya/Somalia border",
       "country": "Somalia"
     },
     {
+      "@type": "Address",
+      "street": "",
       "city": "Badamadow",
       "state": "Lower Juba Region",
       "country": "Somalia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

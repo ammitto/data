@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/12916",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/12916",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Al-Baghdadi Abdulqader Mohammed Dr",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Al-Baghdadi Abdulqader Mohammed Dr",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/12916"
   ],
   "remarks": "Head of the Liaison Office of the Revolutionary Committees. Revolutionary Committees involved in violence against demonstrators.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1950-07-01",
-      "circa": false
+      "circa": false,
+      "year": 1950
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,33 +1,50 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus1352",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus1352",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Rocket and Space Centre Progress JSC",
+      "@type": "NameVariant",
+      "fullName": "Rocket and Space Centre Progress JSC",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "AO Raketno-Kosmicheskii Tsentr Progress",
+      "@type": "NameVariant",
+      "fullName": "AO Raketno-Kosmicheskii Tsentr Progress",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "AO RRT Progress",
+      "@type": "NameVariant",
+      "fullName": "AO RRT Progress",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus1352"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "18 Pskovskaya Street",
       "state": "Samara",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

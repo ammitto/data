@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/4429",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/4429",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Rusakevich Uladzimir Vasilievich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Rusakevich Uladzimir Vasilievich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/4429"
   ],
   "remarks": "Has actively undermined democracy in Belarus. As a former Minister of Information, he was the main person responsible for the pressure and repression of the independent media and journalists between 2003 and 2009.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1947-09-13",
-      "circa": false
+      "circa": false,
+      "year": 1947
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

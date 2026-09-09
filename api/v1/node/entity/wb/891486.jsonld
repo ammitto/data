@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/891486",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/891486",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "NETWORKS EUROPE LP",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "NETWORKS EUROPE LP",
+      "isPrimary": true
     }
   ],
-  "remarks": "*685",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/891486"
+  ],
+  "remarks": "*685",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "SUITE 1, 78 MONTGOMERY STREET, EDINBURGH EH7 5JA",
       "city": "SCOTLAND",
       "country": "United Kingdom",
-      "country_iso_code": "GB"
+      "countryIsoCode": "GB"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

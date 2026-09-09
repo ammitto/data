@@ -1,51 +1,69 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7825",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7825",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ali Morshed Shirazi",
+      "@type": "NameVariant",
+      "fullName": "Ali Morshed Shirazi",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Ali Abd Al Rasul Murshid Shirazi",
+      "@type": "NameVariant",
+      "fullName": "Ali Abd Al Rasul Murshid Shirazi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ali Marshad Shirazi",
+      "@type": "NameVariant",
+      "fullName": "Ali Marshad Shirazi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abu Javad",
+      "@type": "NameVariant",
+      "fullName": "Abu Javad",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "علی مرشد شیرازی",
+      "@type": "NameVariant",
+      "fullName": "علی مرشد شیرازی",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Passport D100008420 (Iran) expires 26 Jul 2026; National ID No. 4720725929 (Iran).; Listing: Charter of the United Nations (Listed Entities) Amendment (No. 1) Instrument 2024",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7825"
   ],
-  "birth_info": [
+  "remarks": "Passport D100008420 (Iran) expires 26 Jul 2026; National ID No. 4720725929 (Iran).; Listing: Charter of the United Nations (Listed Entities) Amendment (No. 1) Instrument 2024",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1969,
       "country": "Najaf"
     }
   ],
   "nationalities": [
     "Iran"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Lebanon",
       "country": "Lebanon"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

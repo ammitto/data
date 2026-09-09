@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/27589",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/27589",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Bolotov Valeriy Dmitrievich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Bolotov Valeriy Dmitrievich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/27589"
   ],
   "remarks": "One of the leaders of the separatist group \"Army of the South-East\" which occupied the building of the Security Service in the Lugansk region. Retired officer. Before seizing the building he and other accomplices possessed arms apparently supplied illegally from Russia and from local criminal groups.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1970-02-13",
-      "circa": false
+      "circa": false,
+      "year": 1970
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

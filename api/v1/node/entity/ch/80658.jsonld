@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/80658",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/80658",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Omar Mahmoud Uthman",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Omar Mahmoud Uthman",
+      "isPrimary": true
     }
   ],
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/80658"
+  ],
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1960-12-30",
-      "circa": false
+      "circa": false,
+      "year": 1960
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

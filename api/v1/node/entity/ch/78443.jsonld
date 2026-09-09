@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/78443",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/78443",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ghalandari Seyed Hamzeh",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Ghalandari Seyed Hamzeh",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/78443"
   ],
   "remarks": "Seyed Hamzeh Ghalandari is the deputy defence minister of Iran, with a focus on international affairs within the ministry.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1984-07-16",
-      "circa": false
+      "circa": false,
+      "year": 1984
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

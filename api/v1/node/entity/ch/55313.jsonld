@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/55313",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/55313",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Akopov Petr",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Akopov Petr",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/55313"
   ],
   "remarks": "Petr Akopov is a Russian propagandist and columnist at RIA Novosti, a Russian State-owned domestic news agency under the effective State control of Rossiya Segodnya. He is a central figure in Government propaganda and has authored articles denying Ukraine’s right to statehood and calls for the ‘denazification’ as well as the ‘de-Ukrainisation’ of the country, promoting the idea that Ukraine should be an integral part of Russia.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1968-10-07",
-      "circa": false
+      "circa": false,
+      "year": 1968
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

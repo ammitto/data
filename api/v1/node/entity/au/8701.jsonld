@@ -1,32 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8701",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/8701",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Evrofinance Mosnarbank",
+      "@type": "NameVariant",
+      "fullName": "Evrofinance Mosnarbank",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Aktsionernoe Obshchestvo Evrofinans Mosnarbank",
+      "@type": "NameVariant",
+      "fullName": "Aktsionernoe Obshchestvo Evrofinans Mosnarbank",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "AO AKB Evrofinans Mosnarbank",
+      "@type": "NameVariant",
+      "fullName": "AO AKB Evrofinans Mosnarbank",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Website: https://www.evrofinance.ru; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2026",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8701"
+  ],
+  "remarks": "Website: https://www.evrofinance.ru; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2026",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "29, Novy Arbat, 121099, Moscow, Russia",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

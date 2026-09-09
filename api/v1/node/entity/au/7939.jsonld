@@ -1,25 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7939",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7939",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Igor Borisovich RAKITIN",
+      "@type": "NameVariant",
+      "fullName": "Igor Borisovich RAKITIN",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "Regional Head of the Federal Penitentiary Service of Russia (FSIN) in the Yamal-Nenets Autonomous Area;\nTax ID No.: 100602094834; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 2) Instrument 2024",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7939"
   ],
-  "birth_info": [
+  "remarks": "Regional Head of the Federal Penitentiary Service of Russia (FSIN) in the Yamal-Nenets Autonomous Area;\nTax ID No.: 100602094834; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 2) Instrument 2024",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1973,
       "country": "Uvarovo"
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

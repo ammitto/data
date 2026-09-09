@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/797636",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/797636",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "CAIRO CONSULT",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "CAIRO CONSULT",
+      "isPrimary": true
     }
   ],
-  "remarks": "*654",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/797636"
+  ],
+  "remarks": "*654",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "2, NATIONAL COMPANY BUILDINGS, 3RD FLOOR",
       "city": "ELSEFARAT DISTRICT, NASR CITY, CAIRO",
       "country": "Egypt, Arab Republic of",
-      "country_iso_code": "EG"
+      "countryIsoCode": "EG"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

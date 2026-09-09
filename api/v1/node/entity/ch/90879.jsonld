@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/90879",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/90879",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Skuratovich Ala",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Skuratovich Ala",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/90879"
   ],
   "remarks": "Ala Skuratovich is a Belarusian judge of the court of the Frunzensky district of the city of Minsk. She has issued politically motivated sentences concerning, inter alia, freedom of expression or freedom of assembly against Andrus Asmalousk, Ivan Charavaka, Dzmitry Lapets , Andrei Akushka, Dziana Charnushyna, Andrei Mirashnichenka , and Artur Smaliakou. Ala Skuratovich is therefore responsible for the repression of civil society in Belarus.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1980-10-18",
-      "circa": false
+      "circa": false,
+      "year": 1980
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

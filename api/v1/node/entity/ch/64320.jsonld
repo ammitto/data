@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/64320",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/64320",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Saghaei Fereydoun Mohammadi",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Saghaei Fereydoun Mohammadi",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/64320"
   ],
   "remarks": "Fereydoun Mohammadi Saghaei is Deputy Commander of the Islamic Revolutionary Guard Corps (IRGC) Aerospace Force. He is in charge of the IRGC’s air defence project in Syria. That project takes place within the context of Iran supporting the former al-Assad regime by sending military equipment and personnel to Syria. Therefore, Fereydoun Mohammadi Saghaei is supporting the former al-Assad regime.",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1964
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

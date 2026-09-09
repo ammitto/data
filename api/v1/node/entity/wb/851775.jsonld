@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/851775",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/851775",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "YOZYOVAN AGRO LYUKS",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "YOZYOVAN AGRO LYUKS",
+      "isPrimary": true
     }
   ],
-  "remarks": "(TIN No. 305967596) *489",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/851775"
+  ],
+  "remarks": "(TIN No. 305967596) *489",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "YOZYOVON DISTRICT, VILLAGE CITIZENS' ASSEMBLIES OF YOZYOVON",
       "city": "FERGANA REGION",
       "country": "Uzbekistan",
-      "country_iso_code": "UZ"
+      "countryIsoCode": "UZ"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,21 +1,36 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/392385",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/392385",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "IM DISTRIBUCIONES",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "IM DISTRIBUCIONES",
+      "isPrimary": true
     }
   ],
-  "remarks": "*469",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/392385"
+  ],
+  "remarks": "*469",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "country": "Honduras",
-      "country_iso_code": "HN"
+      "countryIsoCode": "HN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

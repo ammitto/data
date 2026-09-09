@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/336546",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/336546",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "PROYECTOS DIVERSOS INTEGRADOS SA DE CV (PRODIEL)",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "PROYECTOS DIVERSOS INTEGRADOS SA DE CV (PRODIEL)",
+      "isPrimary": true
     }
   ],
-  "remarks": "*385",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/336546"
+  ],
+  "remarks": "*385",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "URBANIZACION NUEVOS HORIZONTES, FINAL CALLE 2, CASA NÚMERO 10, SAN MARTÍN, DEPARTAMENTO DE SAN SALVADOR",
       "city": "SAN SALVADOR",
       "country": "El Salvador",
-      "country_iso_code": "SV"
+      "countryIsoCode": "SV"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

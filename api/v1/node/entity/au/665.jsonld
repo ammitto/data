@@ -1,30 +1,47 @@
 {
-  "id": "https://www.ammitto.org/entity/au/665",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/665",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "TAHA YASSIN RAMADAN AL-JIZRAWI",
+      "@type": "NameVariant",
+      "fullName": "TAHA YASSIN RAMADAN AL-JIZRAWI",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "طه ياسين رمضان الجزراوي",
+      "@type": "NameVariant",
+      "fullName": "طه ياسين رمضان الجزراوي",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "IQi.020; Listing: Listed by the 1518 Committee",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/665"
   ],
-  "birth_info": [
+  "remarks": "IQi.020; Listing: Listed by the 1518 Committee",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1938,
       "country": "Mosul"
     }
   ],
   "nationalities": [
     "Iraq"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

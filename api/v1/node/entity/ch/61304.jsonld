@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/61304",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/61304",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Zamshev Maxim Adolfovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Zamshev Maxim Adolfovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/61304"
   ],
   "remarks": "Maxim Zamshev is a Russian writer. He is a member of the Presidential Council for Civil Society and Human Rights. He is also an editor-in-chief of the Literaturnaya Gazeta. Since the start of Russia’s war of aggression against Ukraine he has supported Russia’s invasion, and spread Russian propaganda and disinformation about the war.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1972-04-27",
-      "circa": false
+      "circa": false,
+      "year": 1972
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

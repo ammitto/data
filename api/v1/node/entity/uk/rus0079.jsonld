@@ -1,38 +1,60 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus0079",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/rus0079",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Besedina",
-      "first_name": "Olga",
+      "@type": "NameVariant",
+      "fullName": "Besedina",
+      "firstName": "Olga",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "BESEDINA",
-      "first_name": "Olha",
+      "@type": "NameVariant",
+      "fullName": "BESEDINA",
+      "firstName": "Olha",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ольга Игоревна БЕСЕДИНА",
+      "@type": "NameVariant",
+      "fullName": "Ольга Игоревна БЕСЕДИНА",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ольга Ігорівна БЕСЕДІНА",
+      "@type": "NameVariant",
+      "fullName": "Ольга Ігорівна БЕСЕДІНА",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus0079"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "state": "Lugansk"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

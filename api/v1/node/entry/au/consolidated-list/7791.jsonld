@@ -1,37 +1,47 @@
 {
-  "id": "https://www.ammitto.org/entry/au/consolidated-list/7791",
-  "entity_id": "https://www.ammitto.org/entity/au/7791",
+  "@id": "https://www.ammitto.org/entry/au/consolidated-list/7791",
+  "@type": "SanctionEntry",
+  "entityId": "https://www.ammitto.org/entity/au/7791",
   "authority": {
     "@id": "https://www.ammitto.org/authority/au"
   },
   "regime": {
-    "@id": "https://www.ammitto.org/regime/au_dprk"
+    "@id": "https://www.ammitto.org/regime/au_dprk",
+    "name": "Democratic People's Republic of Korea"
   },
-  "legal_bases": [
+  "legalBases": [
     {
-      "type": "instrument",
-      "identifier": "Instrument of first designation: Autonomous Sanctions (Designated Persons and Entities and Declared Persons - Democratic People's Republic of Korea) Amendment (No. 2) Instrument 2023.",
-      "title": "Instrument of first designation: Autonomous Sanctions (Designated Persons and Entities and Declared Persons - Democratic People's Republic of Korea) Amendment (No. 2) Instrument 2023."
+      "@id": "https://www.ammitto.org/legal-instrument/au/instrument-of-first-designation-autonomous-sanctions-designated-persons-and-entities-and-declared-persons-democratic-people-s-republic-of-korea-amendment-no.-2-instrument-2023."
     }
   ],
   "effects": [
     {
-      "effect_type": "asset_freeze",
+      "@type": "SanctionEffect",
+      "effectType": "asset_freeze",
       "scope": "full"
     },
     {
-      "effect_type": "travel_ban",
+      "@type": "SanctionEffect",
+      "effectType": "travel_ban",
       "scope": "full"
     }
   ],
+  "reasons": [
+
+  ],
   "period": {
-    "is_indefinite": true
+    "@type": "TemporalPeriod",
+    "isIndefinite": true
   },
   "status": "active",
-  "reference_number": "7791",
-  "raw_source_data": {
-    "source_format": "csv",
-    "source_specific_fields": {
+  "statusHistory": [
+
+  ],
+  "referenceNumber": "7791",
+  "rawSourceData": {
+    "@type": "RawSourceData",
+    "sourceFormat": "csv",
+    "sourceSpecificFields": {
       "au:reference": "7791",
       "au:committees": "Autonomous (DPRK)",
       "au:control_date": "2023-12-01",
@@ -39,5 +49,5 @@
       "au:listing_info": "Instrument of first designation: Autonomous Sanctions (Designated Persons and Entities and Declared Persons - Democratic People's Republic of Korea) Amendment (No. 2) Instrument 2023."
     }
   },
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

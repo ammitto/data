@@ -1,44 +1,64 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3158",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/3158",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "KIM YONG CHOL",
+      "@type": "NameVariant",
+      "fullName": "KIM YONG CHOL",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Kim Yong-Chol",
+      "@type": "NameVariant",
+      "fullName": "Kim Yong-Chol",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Kim Young-Chol",
+      "@type": "NameVariant",
+      "fullName": "Kim Young-Chol",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Kim Young-Cheol",
+      "@type": "NameVariant",
+      "fullName": "Kim Young-Cheol",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Young-Chul",
+      "@type": "NameVariant",
+      "fullName": "Young-Chul",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "KPi.024. KOMID Representative. Passport no: 472310168 (issued by the Democratic People's Republic of Korea). Served as the KOMID representative in Iran.; Listing: First listed on 2 /03/2016 (amended on 1/06/2017 and 26/07/2022)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3158"
   ],
-  "birth_info": [
+  "remarks": "KPi.024. KOMID Representative. Passport no: 472310168 (issued by the Democratic People's Republic of Korea). Served as the KOMID representative in Iran.; Listing: First listed on 2 /03/2016 (amended on 1/06/2017 and 26/07/2022)",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1962
     }
   ],
   "nationalities": [
     "Democratic People's Republic of Korea (North Korea)"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/8086",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/8086",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Omar Hammami",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Omar Hammami",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/8086"
   ],
   "remarks": "Omar Hammami is engaging in acts that threaten the peace, security or stability of Somalia.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1984-05-06",
-      "circa": false
+      "circa": false,
+      "year": 1984
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

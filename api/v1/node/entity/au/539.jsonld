@@ -1,46 +1,63 @@
 {
-  "id": "https://www.ammitto.org/entity/au/539",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/539",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Faycal Boughanemi",
+      "@type": "NameVariant",
+      "fullName": "Faycal Boughanemi",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Faical Boughanmi",
+      "@type": "NameVariant",
+      "fullName": "Faical Boughanmi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "فيصل بوغانمي",
+      "@type": "NameVariant",
+      "fullName": "فيصل بوغانمي",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Faysal al-Bughanimi",
+      "@type": "NameVariant",
+      "fullName": "Faysal al-Bughanimi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Italian Fiscal code: BGHFCL66R28Z352G.   Sentenced to 7 years imprisonment in Italy on 29 Jun. 2007 by the Brescia Second Appeals Court. In detention in Italy as at Jun. 2009. Review pursuant to Security Council resolution 1822 (2008) was concluded on 20 Jul. 2009. Review pursuant to Security Council resolution 2253 (2015) was concluded on 21 Feb. 2019. Review pursuant to Security Council resolution 2610 (2021) was concluded on 8 November 2022.; Listing: Listed on 29 Jul. 2005 (amended on 7 Jun. 2007, 10 Aug. 2009, 1 Sep. 2009, 13 Dec. 2011, 1 May 2019)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/539"
   ],
-  "birth_info": [
+  "remarks": "Italian Fiscal code: BGHFCL66R28Z352G.   Sentenced to 7 years imprisonment in Italy on 29 Jun. 2007 by the Brescia Second Appeals Court. In detention in Italy as at Jun. 2009. Review pursuant to Security Council resolution 1822 (2008) was concluded on 20 Jul. 2009. Review pursuant to Security Council resolution 2253 (2015) was concluded on 21 Feb. 2019. Review pursuant to Security Council resolution 2610 (2021) was concluded on 8 November 2022.; Listing: Listed on 29 Jul. 2005 (amended on 7 Jun. 2007, 10 Aug. 2009, 1 Sep. 2009, 13 Dec. 2011, 1 May 2019)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1966,
       "country": "Tunis"
     }
   ],
   "nationalities": [
     "Tunisia"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Number 5/B viale Cambonino, Cremona, Italy",
       "country": "Italy"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

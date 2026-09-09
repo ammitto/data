@@ -1,42 +1,61 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3339",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/3339",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Organisation for Technological Industries",
+      "@type": "NameVariant",
+      "fullName": "Organisation for Technological Industries",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "OTI",
+      "@type": "NameVariant",
+      "fullName": "OTI",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Technical Industries Corporation (TIC)",
+      "@type": "NameVariant",
+      "fullName": "Technical Industries Corporation (TIC)",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Organization for Technological Industries",
+      "@type": "NameVariant",
+      "fullName": "Organization for Technological Industries",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "The Organization for Technical Industries",
+      "@type": "NameVariant",
+      "fullName": "The Organization for Technical Industries",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Listing: Listed on: 17 Aug. 2017 (Relisted on 3 Aug. 2020 and 2 Aug. 2023)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3339"
+  ],
+  "remarks": "Listing: Listed on: 17 Aug. 2017 (Relisted on 3 Aug. 2020 and 2 Aug. 2023)",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Sham Algadida OTip Box, P.O. Box 11037, Damascus, Syria",
       "country": "Syria"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

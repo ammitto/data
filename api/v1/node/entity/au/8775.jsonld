@@ -1,27 +1,43 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8775",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/8775",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "OOO REGISTRATOR GARANT",
+      "@type": "NameVariant",
+      "fullName": "OOO REGISTRATOR GARANT",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "LIMITED LIABILITY COMPANY RESPONSIBILITY OF THE REGISTRAR GUARANTEE",
+      "@type": "NameVariant",
+      "fullName": "LIMITED LIABILITY COMPANY RESPONSIBILITY OF THE REGISTRAR GUARANTEE",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Website: https://www.reggarant.ru/index.php/ru/; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2026",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8775"
+  ],
+  "remarks": "Website: https://www.reggarant.ru/index.php/ru/; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2026",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Nab. Krasnopresnenskaya D. 8, Et. 2, Pom. 228, Moscow, 123100, Russia",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

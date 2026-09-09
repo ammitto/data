@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/516780",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/516780",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "SANGAR & ASSOCIATES (NIGERIA) LIMITED",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "SANGAR & ASSOCIATES (NIGERIA) LIMITED",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/516780"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "CC 14, RAMAT CLOSE, UNGUWAR RIMI G.R.A.",
       "city": "KADUNA, KADUNA STATE",
       "country": "Nigeria",
-      "country_iso_code": "NG"
+      "countryIsoCode": "NG"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

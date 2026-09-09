@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/327405",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/327405",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "ZANOTTA SUDAMERICANA S.A.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "ZANOTTA SUDAMERICANA S.A.",
+      "isPrimary": true
     }
   ],
-  "remarks": "*347",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/327405"
+  ],
+  "remarks": "*347",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "C/O CENTRO PRODUCTIVO DE DISEÑO S.A., MEXICO 337, CP 1097, CABA",
       "city": "BUENOS AIRES",
       "country": "Argentina",
-      "country_iso_code": "AR"
+      "countryIsoCode": "AR"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

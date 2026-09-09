@@ -1,23 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/927832",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/wb/927832",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MR. RUFAT MAJIDOV",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "MR. RUFAT MAJIDOV",
+      "isPrimary": true
     }
   ],
-  "remarks": "*677",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/927832"
+  ],
+  "remarks": "*677",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "BINAGADI HIGHWAY, MADAN STREET 4 AZ1053",
       "city": "BAKU",
       "country": "Azerbaijan",
-      "country_iso_code": "AZ"
+      "countryIsoCode": "AZ"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

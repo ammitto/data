@@ -1,27 +1,43 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8103",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/8103",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "VNIIR-Progress Joint Stock Company",
+      "@type": "NameVariant",
+      "fullName": "VNIIR-Progress Joint Stock Company",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "VNIIR-Progress JSC",
+      "@type": "NameVariant",
+      "fullName": "VNIIR-Progress JSC",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Company Identification No. 1112130013270; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8103"
+  ],
+  "remarks": "Company Identification No. 1112130013270; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Prospekt I.Ya.Yakovleva d. 4 Cheboksary 428024 Russia",
       "country": "Prospekt I.Ya.Yakovleva d. 4 Cheboksary 428024 Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

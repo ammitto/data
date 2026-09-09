@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/51100",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/51100",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Miholap Dmitry Anatolievich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Miholap Dmitry Anatolievich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/51100"
   ],
   "remarks": "Dmitry Miholap has held the position of Deputy Commander of the Belarusian Air Force and Air Defence Forces. In May 2024, he was appointed as Head of the Faculty of the General Staff of the Armed Forces and Deputy Head of the Military Academy of Belarus.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1974-12-28",
-      "circa": false
+      "circa": false,
+      "year": 1974
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/888221",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/888221",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "HEBEI CONSTRUCTION GROUP CORPORATION LIMITED NANJING BRANCH",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "HEBEI CONSTRUCTION GROUP CORPORATION LIMITED NANJING BRANCH",
+      "isPrimary": true
     }
   ],
-  "remarks": "河北建设集团股份有限公司南京分公司",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/888221"
+  ],
+  "remarks": "河北建设集团股份有限公司南京分公司",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "ROOM 809, NO 111, TIANSHENG ROAD, NANJING CHEMICAL INDUSTRY PARK",
       "country": "China",
-      "country_iso_code": "CN"
+      "countryIsoCode": "CN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

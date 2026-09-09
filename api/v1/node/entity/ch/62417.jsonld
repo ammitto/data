@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/62417",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/62417",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Osama Ramadan",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Osama Ramadan",
+      "isPrimary": true
     }
   ],
-  "remarks": "Osama Ramadan owns shares in Castle Security and Protection LLC, which operates as a shell company for the Fourth Division of the Syrian Arab Army, led by the Maher al-Assad. He therefore benefits from and supports the former al-Assad regime.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/62417"
+  ],
+  "remarks": "Osama Ramadan owns shares in Castle Security and Protection LLC, which operates as a shell company for the Fourth Division of the Syrian Arab Army, led by the Maher al-Assad. He therefore supports the former al-Assad regime. He is also associated with Maher al-Assad.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1973-12-19",
-      "circa": false
+      "circa": false,
+      "year": 1973
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

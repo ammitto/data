@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/947308",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/947308",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "JOYCOT GENERAL CONTRACTORS LIMITED",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "JOYCOT GENERAL CONTRACTORS LIMITED",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/947308"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "VIKAS NYAHURURU P.O. BOX 2027-20300",
       "city": "NYAHURURU",
       "country": "Kenya",
-      "country_iso_code": "KE"
+      "countryIsoCode": "KE"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/46392",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/46392",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mozhelianskiy Viktor Anatolyevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Mozhelianskiy Viktor Anatolyevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/46392"
   ],
   "remarks": "Vice-chairman of the Central District Court in Simferopol and former judge of the Kievskiy District Court in Simferopol.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1964-05-10",
-      "circa": false
+      "circa": false,
+      "year": 1964
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

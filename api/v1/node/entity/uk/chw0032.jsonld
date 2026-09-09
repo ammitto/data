@@ -1,53 +1,74 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/chw0032",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/chw0032",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "JOINT STOCK COMPANY FEDERAL SCIENTIFIC AND PRODUCTION CENTRE SCIENTIFIC RESEARCH INSTITUTE OF APPLIED CHEMISTRY",
+      "@type": "NameVariant",
+      "fullName": "JOINT STOCK COMPANY FEDERAL SCIENTIFIC AND PRODUCTION CENTRE SCIENTIFIC RESEARCH INSTITUTE OF APPLIED CHEMISTRY",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "FEDERAL RESEARCH AND PRODUCTION CENTER SCIENTIFIC RESEARCH INSTITUTE OF APPLIED CHEMISTRY JSC",
+      "@type": "NameVariant",
+      "fullName": "FEDERAL RESEARCH AND PRODUCTION CENTER SCIENTIFIC RESEARCH INSTITUTE OF APPLIED CHEMISTRY JSC",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "FNPC NII APPLIED CHEMISTRY JSC",
+      "@type": "NameVariant",
+      "fullName": "FNPC NII APPLIED CHEMISTRY JSC",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "JSC FNPC Research Institute of Applied Chemistry",
+      "@type": "NameVariant",
+      "fullName": "JSC FNPC Research Institute of Applied Chemistry",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "JSC Research Institute of Applied Chemistry",
+      "@type": "NameVariant",
+      "fullName": "JSC Research Institute of Applied Chemistry",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "AO FNPTS NII PRIKLADNOI KHIMII",
+      "@type": "NameVariant",
+      "fullName": "AO FNPTS NII PRIKLADNOI KHIMII",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "NIIPKH",
+      "@type": "NameVariant",
+      "fullName": "NIIPKH",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Incorporation dates: 1945, 1 August 2011",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/chw0032"
+  ],
+  "remarks": "Incorporation dates: 1945, 1 August 2011",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "3 Akademika Silin Street, Sergiev Posad",
       "state": "Moscow Oblast",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

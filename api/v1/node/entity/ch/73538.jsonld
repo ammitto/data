@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/73538",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/73538",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Fredy Raúl Orellana Letona",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Fredy Raúl Orellana Letona",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/73538"
   ],
   "remarks": "As First Instance Criminal Judge of the Seventh Court, Fredy Orellana Letona is responsible for supervising and authorising the actions of the Special Prosecutor’s Office Against Impunity (FECI), which operates under the Public Ministry (Ministerio Público) of Guatemala (equivalent to the Public Prosecutor’s Office), investigating alleged irregularities in the creation of the political party Movimiento Semilla, whose candidate won the second round of the presidential elections in Guatemala in August 2023. As supervising judge, Fredy Orellana Letona authorised raids at the headquarters of Movimiento Semilla in July 2023 and the premises of the Supreme Electoral Tribunal in July and September 2023. He also ordered the provisional suspension of the legal personality of Movimiento Semilla and denied access to the case file for the defence. He has enabled FECI’s actions to prosecute elected authorities and the magistrates of the Supreme Electoral Tribunal.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1982-11-04",
-      "circa": false
+      "circa": false,
+      "year": 1982
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

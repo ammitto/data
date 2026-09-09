@@ -1,21 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/cn/202611-nec-network-and-sensor-systems",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/cn/202611-nec-network-and-sensor-systems",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "NEC Network and Sensor Systems, Ltd.",
+      "@type": "NameVariant",
+      "fullName": "NEC Network and Sensor Systems, Ltd.",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "日本电气网络传感器株式会社",
+      "@type": "NameVariant",
+      "fullName": "日本电气网络传感器株式会社",
       "script": "Hani",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "List: cn/export-control-list",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/cn/unknown/202611-nec-network-and-sensor-systems"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "remarks": "List: cn/export-control-list",
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

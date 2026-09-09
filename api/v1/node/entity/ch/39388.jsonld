@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/39388",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/39388",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Than Oo",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Than Oo",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/39388"
   ],
   "remarks": "Brigadier General Than Oo was the Commander of the 99th Light Infantry Division of the Myanmar Armed Forces (Tatmadaw) until May 2018. In that context, he is responsible for the atrocities and serious human rights violations committed against the Rohingya population in Rakhine State in the second half of 2017 by the 99th Light Infantry Division. These include unlawful killings, sexual violence and the systematic burning of Rohingya houses and buildings.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1973-10-12",
-      "circa": false
+      "circa": false,
+      "year": 1973
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

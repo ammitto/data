@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/nz/ind-262",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/nz/ind-262",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Sergey Fyodorovich Lisovsky",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Sergey Fyodorovich Lisovsky",
+      "isPrimary": true
     }
   ],
-  "source_references": [
+  "sourceReferences": [
     {
-      "source_code": "nz",
-      "reference_number": "IND-262"
+      "@type": "SourceReference",
+      "sourceCode": "nz",
+      "referenceNumber": "IND-262",
+      "retrievedAt": "2026-09-09T16:30:43Z"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "linkedEntities": [
+
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/nz/consolidated-list/ind-262"
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

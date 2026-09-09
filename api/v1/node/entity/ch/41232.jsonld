@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/41232",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/41232",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Razvozhaev Mikhail Vladimirovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Razvozhaev Mikhail Vladimirovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/41232"
   ],
   "remarks": "So-called “Governor” of the illegally annexed City of Sevastopol. Member of the Presidium of the State Council of the Russian Federation since 21 Dec 2020. In taking on and acting in his capacity as “Governor”, he has worked for further integration of the illegally annexed City of Sevastopol into the Russian Federation and thereby actively supported actions and implemented policies which undermine or threaten the territorial integrity, sovereignty and independence of Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1980-12-30",
-      "circa": false
+      "circa": false,
+      "year": 1980
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

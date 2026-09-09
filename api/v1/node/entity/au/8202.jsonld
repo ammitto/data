@@ -1,29 +1,47 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8202",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/8202",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Maxim Stanislavovich LIKSUTOV",
+      "@type": "NameVariant",
+      "fullName": "Maxim Stanislavovich LIKSUTOV",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Maksim Stanislavovich LIKSUTOV",
+      "@type": "NameVariant",
+      "fullName": "Maksim Stanislavovich LIKSUTOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Member of Board of Directors for Aeroflot; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 4) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8202"
   ],
-  "birth_info": [
+  "remarks": "Member of Board of Directors for Aeroflot; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 4) Instrument 2025",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1976
     }
   ],
   "nationalities": [
-    "Estonia;Russia"
+    "Estonia",
+    "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

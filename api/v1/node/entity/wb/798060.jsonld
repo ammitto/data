@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/798060",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/798060",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "ZHUZHOU SGCC URBAN INVESTMENT CONSTRUCTION CO., LTD.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "ZHUZHOU SGCC URBAN INVESTMENT CONSTRUCTION CO., LTD.",
+      "isPrimary": true
     }
   ],
-  "remarks": "(株洲新交建城投建设有限公司)(91430221MAC07P3A6A)*647",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/798060"
+  ],
+  "remarks": "(株洲新交建城投建设有限公司)(91430221MAC07P3A6A)*647",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "801-9, FLOOR 8, LUXIANG MANSION, JINKOU EAST ROAD, LUKOU DISTRICT, ZHUZHOU",
       "city": "HUNAN",
       "country": "China",
-      "country_iso_code": "CN"
+      "countryIsoCode": "CN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/72780",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/72780",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Varlamova Inna Gennadyevna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Varlamova Inna Gennadyevna",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/72780"
   ],
   "remarks": "Inna Varlamova is the wife of Sergei Mironov, who is a member of the Russian State Duma and the leader of the “Just Russia – For Truth” party faction in the Duma. Together with her husband, Varlamova adopted a child who was kidnapped from an orphanage in Kherson, a Ukrainian city which fell under Russian illegal occupation. Varlamova personally travelled to the Kherson region and illegally transported two children to the Russian Federation. For one of the children, the last name was changed to Mironova and her place of birth was changed to Podolsk, Russian Federation, instead of Kherson, Ukraine. The Russian Federation is involved in the illegal transportation of Ukrainian children to Russia and their adoption by Russian families. Those actions violate the rights of Ukrainian children and infringe Ukrainian law and administrative order. Therefore, Inna Varlamova is responsible for actions which undermine and threaten the territorial integrity, sovereignty and independence of Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1968-01-01",
-      "circa": false
+      "circa": false,
+      "year": 1968
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,22 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/189239",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/wb/189239",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MR. ROMAN NICU",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "MR. ROMAN NICU",
+      "isPrimary": true
     }
   ],
-  "remarks": "*68",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/189239"
+  ],
+  "remarks": "*68",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "STR. MUNCESTI, 801, CHISINAU MD-2029",
       "country": "Moldova",
-      "country_iso_code": "MD"
+      "countryIsoCode": "MD"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

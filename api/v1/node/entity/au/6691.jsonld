@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/au/6691",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/6691",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Profinet Pte Ltd",
+      "@type": "NameVariant",
+      "fullName": "Profinet Pte Ltd",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "Listing: Instrument of first designation Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Democratic People’s Republic of Korea) Amendment (No. 1) Instrument 2022",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/6691"
+  ],
+  "remarks": "Listing: Instrument of first designation Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Democratic People’s Republic of Korea) Amendment (No. 1) Instrument 2022",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "46 ul. Malinovskogo, Nakhodka, 692919, Primorski Kr., Russia",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

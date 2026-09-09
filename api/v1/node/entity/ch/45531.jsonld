@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/45531",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/45531",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Hrushko Andrei Vaclavavich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Hrushko Andrei Vaclavavich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/45531"
   ],
   "remarks": "In his position as judge of the Leninsky District Court of Brest, Andrei Hrushko is responsible for numerous politically motivated rulings against peaceful protesters, in particular by sentencing activists, recognized as political prisoners, and minors. He is therefore responsible for serious human rights violations and seriously undermining the rule of law, as well as the repression of civil society and democratic opposition. He currently serves as the Deputy Chairman of the Leninsky District Court of Brest.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1979-01-24",
-      "circa": false
+      "circa": false,
+      "year": 1979
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

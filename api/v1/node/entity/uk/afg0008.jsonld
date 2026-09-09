@@ -1,22 +1,43 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/afg0008",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/afg0008",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "GHULAM NABI",
-      "first_name": "Mohammed",
+      "@type": "NameVariant",
+      "fullName": "GHULAM NABI",
+      "firstName": "Mohammed",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "محمد عمر غلام نبی",
+      "@type": "NameVariant",
+      "fullName": "محمد عمر غلام نبی",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Father's name is Ghulam Nabi, also known as Mullah Musafir. Left eye missing. Brother-in-law of Ahmad Jan Akhundzada Shukoor Akhundzada (TAi.109). Believed to be in Afghanistan/Pakistan border area. Belongs to Hotak tribe. Review pursuant to Security Council resolution 1822 (2008) was concluded on 27 Jul. 2010. Reportedly deceased as of April 2013. INTERPOLUN Security Council Special Notice web link: https://www.interpol.int/en/How-we-work/Notices/View-UN-NoticesIndividuals click here",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/afg0008"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "remarks": "Father's name is Ghulam Nabi, also known as Mullah Musafir. Left eye missing. Brother-in-law of Ahmad Jan Akhundzada Shukoor Akhundzada (TAi.109). Believed to be in Afghanistan/Pakistan border area. Belongs to Hotak tribe. Review pursuant to Security Council resolution 1822 (2008) was concluded on 27 Jul. 2010. Reportedly deceased as of April 2013. INTERPOLUN Security Council Special Notice web link: https://www.interpol.int/en/How-we-work/Notices/View-UN-NoticesIndividuals click here",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

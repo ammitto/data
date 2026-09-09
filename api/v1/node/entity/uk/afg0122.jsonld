@@ -1,58 +1,82 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/afg0122",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/afg0122",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "AGHA",
-      "first_name": "AHMAD",
+      "@type": "NameVariant",
+      "fullName": "AGHA",
+      "firstName": "AHMAD",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "AGHA",
-      "first_name": "NOOR",
+      "@type": "NameVariant",
+      "fullName": "AGHA",
+      "firstName": "NOOR",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "AGHA",
-      "first_name": "Zia",
+      "@type": "NameVariant",
+      "fullName": "AGHA",
+      "firstName": "Zia",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "AHMAD",
-      "first_name": "Noor",
+      "@type": "NameVariant",
+      "fullName": "AHMAD",
+      "firstName": "Noor",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "AHMED",
-      "first_name": "Noor",
+      "@type": "NameVariant",
+      "fullName": "AHMED",
+      "firstName": "Noor",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "SAYEED",
-      "first_name": "Agha",
+      "@type": "NameVariant",
+      "fullName": "SAYEED",
+      "firstName": "Agha",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "احمد ضیا آغا",
+      "@type": "NameVariant",
+      "fullName": "احمد ضیا آغا",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Senior Taliban official with military and financial responsibilities as at 2011. Leader of the Taliban’s Military Council as of 2010. In 2008 and 2009, served as a Taliban finance officer and distributed money to Taliban commanders in Afghanistan/Pakistan border area. Height: 180cm. Photo available for inclusion in the INTERPOL-UN Security Council Special Notice. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals#2012-308182",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/afg0122"
+  ],
+  "remarks": "Senior Taliban official with military and financial responsibilities as at 2011. Leader of the Taliban’s Military Council as of 2010. In 2008 and 2009, served as a Taliban finance officer and distributed money to Taliban commanders in Afghanistan/Pakistan border area. Height: 180cm. Photo available for inclusion in the INTERPOL-UN Security Council Special Notice. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals#2012-308182",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Kabul",
       "country": "Afghanistan"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

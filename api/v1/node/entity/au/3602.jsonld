@@ -1,36 +1,51 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3602",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/3602",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Anjem Choudary",
+      "@type": "NameVariant",
+      "fullName": "Anjem Choudary",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Abu Luqman",
+      "@type": "NameVariant",
+      "fullName": "Abu Luqman",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Passport No: United Kingdom of Great Britain and Northern Ireland number 516384722, issued on 6 May 2013 (issued by Passport Office Glasgow, expires 06 Jun. 2023). Pledged allegiance to Islamic State in Iraq and the Levant (ISIL), listed as Al-Qaida in Iraq (QDe.115) in July 2014.  Imprisoned in the United Kingdom in September 2014 and subsequently released on licence in October 2018 which expires in July 2021. Review pursuant to Security Council resolution 2610 (2021) was concluded on 30 October 2023.; Listing: Listed on: 15 Oct. 2018 and amended on 11 October 2019",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3602"
   ],
-  "birth_info": [
+  "remarks": "Passport No: United Kingdom of Great Britain and Northern Ireland number 516384722, issued on 6 May 2013 (issued by Passport Office Glasgow, expires 06 Jun. 2023). Pledged allegiance to Islamic State in Iraq and the Levant (ISIL), listed as Al-Qaida in Iraq (QDe.115) in July 2014.  Imprisoned in the United Kingdom in September 2014 and subsequently released on licence in October 2018 which expires in July 2021. Review pursuant to Security Council resolution 2610 (2021) was concluded on 30 October 2023.; Listing: Listed on: 15 Oct. 2018 and amended on 11 October 2019",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1967,
       "country": "London"
     }
   ],
   "nationalities": [
     "United Kingdom"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "London, United Kingdom of Great Britain and Northern Ireland",
       "country": "United Kingdom of Great Britain and Northern Ireland"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

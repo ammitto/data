@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/59258",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/59258",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Nikitin Gleb Sergeevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Nikitin Gleb Sergeevich",
+      "isPrimary": true
     }
   ],
-  "remarks": "Gleb Nikitin is the governor of Nizhny Novgorod Oblast, appointed by President Vladimir Putin. In his role as governor, Gleb Nikitin manages a regional state body of the Russian Federation and is responsible for implementing state policies at regional level. He has expressed support for the illegal recognition of the so-called independence of the so-called Donetsk and Luhansk Peoples Republics and the war of aggression against Ukraine.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/59258"
+  ],
+  "remarks": "Gleb Nikitin is the governor of Nizhny Novgorod Oblast, appointed by President Vladimir Putin. In his role as governor, Gleb Nikitin manages a regional state body of the Russian Federation and is responsible for implementing state policies at regional level. He has expressed support for the illegal recognition of the so-called “independence” of the so-called “Donetsk and Luhansk People’s Republics” and the war of aggression against Ukraine.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1977-08-24",
-      "circa": false
+      "circa": false,
+      "year": 1977
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

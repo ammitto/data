@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/411211",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/411211",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "TECHONOLOGY SERVICES JOINT STOCK COMPANY (TSC)",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "TECHONOLOGY SERVICES JOINT STOCK COMPANY (TSC)",
+      "isPrimary": true
     }
   ],
-  "remarks": "(Reg. No: 0101397873)*617",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/411211"
+  ],
+  "remarks": "(Reg. No: 0101397873)*617",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "3RD FLOOR, THANH BINH BUILDING, N07, B2, THANH THAI ROAD, CAU GIAY",
       "city": "HA NOI",
       "country": "Viet Nam",
-      "country_iso_code": "VN"
+      "countryIsoCode": "VN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

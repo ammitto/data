@@ -1,22 +1,43 @@
 {
-  "id": "https://www.ammitto.org/entity/cn/13-steven-roger-rudder",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/cn/13-steven-roger-rudder",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Steven Roger Rudder",
+      "@type": "NameVariant",
+      "fullName": "Steven Roger Rudder",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "史蒂文·鲁德",
+      "@type": "NameVariant",
+      "fullName": "史蒂文·鲁德",
       "script": "Hani",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/cn/anti-sanction-list/13-steven-roger-rudder"
+  ],
   "remarks": "List: cn/anti-sanction-list; Title: 摇杆舵公司创始人; Gender: male",
-  "sanction_entry_ids": [
-    "https://www.ammitto.org/entry/cn/unknown/13-steven-roger-rudder"
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
   ],
   "gender": "male",
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

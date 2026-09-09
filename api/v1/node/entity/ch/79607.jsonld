@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/79607",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/79607",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Noor Mohammad Saqib",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Noor Mohammad Saqib",
+      "isPrimary": true
     }
   ],
-  "remarks": "Chief Justice of Supreme Court under the Taliban regime.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/79607"
+  ],
+  "remarks": "Chief Justice of Supreme Court under the Taliban regime (1996-2001).",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1958
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/71323",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/71323",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Petrov Victor",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Petrov Victor",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/71323"
   ],
   "remarks": "Victor Petrov is a deputy to the bashkan of the People’s Assembly of Gagauzia and the leader of the People’s Union of Gagauzia, a manifestly pro-Russian socio-political movement that merged with the “Renaștere” political party. He receives political backing from listed person Ilan Shor.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1975-06-29",
-      "circa": false
+      "circa": false,
+      "year": 1975
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

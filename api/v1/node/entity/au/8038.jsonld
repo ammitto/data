@@ -1,29 +1,46 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8038",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/8038",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Rafael Anatolyevich GAZARYAN",
+      "@type": "NameVariant",
+      "fullName": "Rafael Anatolyevich GAZARYAN",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Rafael Anatolevich GAZARYAN",
+      "@type": "NameVariant",
+      "fullName": "Rafael Anatolevich GAZARYAN",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Owner of Rafort LLC; National ID: 6102 814100; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8038"
   ],
-  "birth_info": [
+  "remarks": "Owner of Rafort LLC; National ID: 6102 814100; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1964
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

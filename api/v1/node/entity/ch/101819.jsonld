@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/101819",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/101819",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Algony Hamdan Dagalo Musa",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Algony Hamdan Dagalo Musa",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/101819"
   ],
   "remarks": "Algoney Hamdan Dagalo Musa is a major in the RSF and the brother of Mohammad Hamdan Dagalo (Hemedti), who is the head of the RSF. Algoney Hamdan Dagalo Musa is also involved in the procurement of arms for the RSF.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1990-08-09",
-      "circa": false
+      "circa": false,
+      "year": 1990
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

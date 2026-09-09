@@ -1,29 +1,46 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7531",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7531",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ekaterina Eduardovna PYRKOVA",
+      "@type": "NameVariant",
+      "fullName": "Ekaterina Eduardovna PYRKOVA",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Kateryna Eduardivna PYRKOVA",
+      "@type": "NameVariant",
+      "fullName": "Kateryna Eduardivna PYRKOVA",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Secretary of the Sevastopol Electoral Commission.\nPreviously listed under 'Ukraine criteria' - Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Ukraine) Amendment List 2020 [F2020L00083]; \nNew listing start date 31 March 2023; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 4) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7531"
   ],
-  "birth_info": [
+  "remarks": "Secretary of the Sevastopol Electoral Commission.\nPreviously listed under 'Ukraine criteria' - Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Ukraine) Amendment List 2020 [F2020L00083]; \nNew listing start date 31 March 2023; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 4) Instrument 2023",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1967
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

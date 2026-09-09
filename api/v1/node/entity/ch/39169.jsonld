@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/39169",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/39169",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ahmad Oumar Imhamad al-Fitouri",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Ahmad Oumar Imhamad al-Fitouri",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/39169"
   ],
   "remarks": "Commander of the Anas al-Dabbashi militia, Leader of a transnational trafficking network",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1988-05-07",
-      "circa": false
+      "circa": false,
+      "year": 1988
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,22 +1,43 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/irn0108",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/irn0108",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Hassanzadeh",
-      "first_name": "Hasan",
+      "@type": "NameVariant",
+      "fullName": "Hassanzadeh",
+      "firstName": "Hasan",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "حسن حسن زاده",
+      "@type": "NameVariant",
+      "fullName": "حسن حسن زاده",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/irn0108"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

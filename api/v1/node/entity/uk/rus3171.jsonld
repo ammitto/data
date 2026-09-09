@@ -1,27 +1,43 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus3171",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus3171",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "GELION BUSINESS TRADE MCHJ",
+      "@type": "NameVariant",
+      "fullName": "GELION BUSINESS TRADE MCHJ",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "OOO GELION BUSINESS TRADE",
+      "@type": "NameVariant",
+      "fullName": "OOO GELION BUSINESS TRADE",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus3171"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Building 28A, Kamarniso Street, Almazar District",
       "state": "Tashkent",
       "country": "Uzbekistan"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

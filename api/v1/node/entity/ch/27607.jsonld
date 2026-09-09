@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/27607",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/27607",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Girkin Igor Vsevolodovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Girkin Igor Vsevolodovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/27607"
   ],
   "remarks": "Identified as staff of the Main Intelligence Directorate of the General Staff of the Armed Forces of the Russian Federation (GRU). He was involved in incidents in Sloviansk. Head of the “Novorossia” public movement. Former “Minister of Defence” of the so-called “Donetsk People’s Republic”.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1970-12-17",
-      "circa": false
+      "circa": false,
+      "year": 1970
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

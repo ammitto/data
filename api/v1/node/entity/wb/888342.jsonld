@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/888342",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/888342",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "HEBEI CONSTRUCTION GROUP CORPORATION LIMITED  CONSTRUCTION INSTALLATION B",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "HEBEI CONSTRUCTION GROUP CORPORATION LIMITED  CONSTRUCTION INSTALLATION B",
+      "isPrimary": true
     }
   ],
-  "remarks": "河北建设集团有限公司建筑安装大厦",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/888342"
+  ],
+  "remarks": "河北建设集团有限公司建筑安装大厦",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "ROOM 205, CENTRAL HEATING OFFICE BUILDING, NO.169 AIMIN WEST ROAD, ANCHI DISTRICT",
       "city": "LANGFANG CITY, HEBEI PROVINCE",
       "country": "China",
-      "country_iso_code": "CN"
+      "countryIsoCode": "CN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

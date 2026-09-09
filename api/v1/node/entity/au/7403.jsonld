@@ -1,35 +1,53 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7403",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7403",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Aleksey Leonidovich TEKSLER",
+      "@type": "NameVariant",
+      "fullName": "Aleksey Leonidovich TEKSLER",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Oleksii Leonidovych TEKSLER",
+      "@type": "NameVariant",
+      "fullName": "Oleksii Leonidovych TEKSLER",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Aleksei Leonidovich TEKSLER",
+      "@type": "NameVariant",
+      "fullName": "Aleksei Leonidovich TEKSLER",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Member of the State Council for the Russian Federation, Governor of Chelyabinsk Oblast; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 2) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7403"
   ],
-  "birth_info": [
+  "remarks": "Member of the State Council for the Russian Federation, Governor of Chelyabinsk Oblast; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 2) Instrument 2023",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1973,
       "country": "Chelyabinsk"
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

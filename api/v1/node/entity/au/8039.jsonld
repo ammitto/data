@@ -1,35 +1,50 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8039",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/8039",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Aleksey BUDNEV",
+      "@type": "NameVariant",
+      "fullName": "Aleksey BUDNEV",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Aleksei Viktorovich BUDNEV",
+      "@type": "NameVariant",
+      "fullName": "Aleksei Viktorovich BUDNEV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Owner of Tekhnologiya LLC; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8039"
   ],
-  "birth_info": [
+  "remarks": "Owner of Tekhnologiya LLC; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1964
     }
   ],
   "nationalities": [
     "Russia"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "34 Zolotorozhskiy Val, Building 2, Moscow, 111033",
       "country": "111033"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

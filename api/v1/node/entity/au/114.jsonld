@@ -1,30 +1,48 @@
 {
-  "id": "https://www.ammitto.org/entity/au/114",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/114",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Abdul Rahman Agha",
+      "@type": "NameVariant",
+      "fullName": "Abdul Rahman Agha",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "عبدالرحمان آغا",
+      "@type": "NameVariant",
+      "fullName": "عبدالرحمان آغا",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "TAi.114 Title: Maulavi. Designation: Chief Justice of Military Court under the Taliban regime. Believed to be in Afghanistan/Pakistan border area. Review pursuant to Security Council resolution 1822 (2008) was concluded on 21 Jul. 2010.; Listing: Listed on 25 January 2001 (amended on 9 July 2007, 21 Sep 2007, 29 Nov. 2011)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/114"
   ],
-  "birth_info": [
+  "remarks": "TAi.114 Title: Maulavi. Designation: Chief Justice of Military Court under the Taliban regime. Believed to be in Afghanistan/Pakistan border area. Review pursuant to Security Council resolution 1822 (2008) was concluded on 21 Jul. 2010.; Listing: Listed on 25 January 2001 (amended on 9 July 2007, 21 Sep 2007, 29 Nov. 2011)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1958,
       "country": "Arghandab District"
     }
   ],
   "nationalities": [
-    "Afghanistan;Pakistan"
+    "Afghanistan",
+    "Pakistan"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

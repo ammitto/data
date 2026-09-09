@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/541",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/541",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mrksic Mile",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Mrksic Mile",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/541"
   ],
   "remarks": "Indicted by International Criminal Tribunal for former Yugoslavia (IT-95-13a)",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1947-07-20",
-      "circa": false
+      "circa": false,
+      "year": 1947
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

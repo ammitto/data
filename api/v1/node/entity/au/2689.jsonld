@@ -1,46 +1,71 @@
 {
-  "id": "https://www.ammitto.org/entity/au/2689",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/2689",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Volodomyr Andriyovych KONSTANTYNOV",
+      "@type": "NameVariant",
+      "fullName": "Volodomyr Andriyovych KONSTANTYNOV",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Vladimir Andreevich KONSTANTINOV",
+      "@type": "NameVariant",
+      "fullName": "Vladimir Andreevich KONSTANTINOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Vladimir Andreyevich KONSTANTINOV",
+      "@type": "NameVariant",
+      "fullName": "Vladimir Andreyevich KONSTANTINOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Vladimir KONSTANTINOV",
+      "@type": "NameVariant",
+      "fullName": "Vladimir KONSTANTINOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Volodmyr Andriyovych KONSTANTINOV",
+      "@type": "NameVariant",
+      "fullName": "Volodmyr Andriyovych KONSTANTINOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Re-elected Chairman of the Crimean Parliament in September 2019 for a five-year term (until 2024).  Played a relevant role in the decisions taken by the parliament concerning the referendum against the territorial integrity of Ukraine and called on voters to cast votes in favour of Crimean Independence; Listing: Listed on 19 Jun. 2014 (relisted on 16 Jun. 2017 and 10 June 2023)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/2689"
   ],
-  "birth_info": [
+  "remarks": "Re-elected Chairman of the Crimean Parliament in September 2019 for a five-year term (until 2024).  Played a relevant role in the decisions taken by the parliament concerning the referendum against the territorial integrity of Ukraine and called on voters to cast votes in favour of Crimean Independence; Listing: Listed on 19 Jun. 2014 (relisted on 16 Jun. 2017 and 10 June 2023)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1967,
       "country": "Vladimirovka (a.k.a. Vladimirovca)"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1956,
       "country": "Slobozia Region"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

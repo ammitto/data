@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/nz/ind-881",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/nz/ind-881",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Dmitry Nikolaevich Kobylkin",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Dmitry Nikolaevich Kobylkin",
+      "isPrimary": true
     }
   ],
-  "source_references": [
+  "sourceReferences": [
     {
-      "source_code": "nz",
-      "reference_number": "IND-881"
+      "@type": "SourceReference",
+      "sourceCode": "nz",
+      "referenceNumber": "IND-881",
+      "retrievedAt": "2026-09-09T16:30:44Z"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "linkedEntities": [
+
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/nz/consolidated-list/ind-881"
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

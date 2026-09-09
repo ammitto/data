@@ -1,34 +1,52 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8666",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/8666",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Andriy Yuriovych TROFIMOV",
+      "@type": "NameVariant",
+      "fullName": "Andriy Yuriovych TROFIMOV",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Andrii Yuriiovych TROFYMOV;",
+      "@type": "NameVariant",
+      "fullName": "Andrii Yuriiovych TROFYMOV;",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Andrei Yurievich TROFIMOV",
+      "@type": "NameVariant",
+      "fullName": "Andrei Yurievich TROFIMOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Deputy Head of military-civil administration in the occupied Zaporizhzhia region; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2026",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8666"
   ],
-  "birth_info": [
+  "remarks": "Deputy Head of military-civil administration in the occupied Zaporizhzhia region; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2026",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1972
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/7776",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/7776",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Na Man Tcham Lieutenant-colonel",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Na Man Tcham Lieutenant-colonel",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/7776"
   ],
   "remarks": "Member of the \"Military Command\" which has assumed responsibility for the coup d'état of 12 April 2012. Also a member of the Military High Command (highest hierarchy of the Bissau-Guinean Armed Forces).",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1953-02-27",
-      "circa": false
+      "circa": false,
+      "year": 1953
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

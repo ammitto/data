@@ -1,21 +1,42 @@
 {
-  "id": "https://www.ammitto.org/entity/cn/15-luisa-durante",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/cn/15-luisa-durante",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Luisa Durante",
+      "@type": "NameVariant",
+      "fullName": "Luisa Durante",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "路易莎·杜兰特",
+      "@type": "NameVariant",
+      "fullName": "路易莎·杜兰特",
       "script": "Hani",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "List: cn/anti-sanction-list; Title: 加拿大西藏委员会副主席",
-  "sanction_entry_ids": [
-    "https://www.ammitto.org/entry/cn/unknown/15-luisa-durante"
+  "sourceReferences": [
+
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/cn/anti-sanction-list/15-luisa-durante"
+  ],
+  "remarks": "List: cn/anti-sanction-list; Title: 加拿大西藏委员会副主席",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

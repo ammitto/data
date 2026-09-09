@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/56339",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/56339",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Tsivilev Sergey Evgenievich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Tsivilev Sergey Evgenievich",
+      "isPrimary": true
     }
   ],
-  "remarks": "Sergey Tsivilev is governor of the Kemerovo region and a well-known public figure. He is also a member of the Bureau of the Supreme Council of the United Russia party.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/56339"
+  ],
+  "remarks": "Sergey Tsivilev is the Minister of Energy of the Russian Federation. He is former governor of the Kemerovo region and a well-known public figure. He is also a member of the Bureau of the Supreme Council of the United Russia party.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1961-09-21",
-      "circa": false
+      "circa": false,
+      "year": 1961
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

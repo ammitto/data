@@ -1,48 +1,68 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus1871",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus1871",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "NII Graphite",
+      "@type": "NameVariant",
+      "fullName": "NII Graphite",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Gosudarstvennyy NII Konstruktsionnykh Materialov na Osnove Grafita",
+      "@type": "NameVariant",
+      "fullName": "Gosudarstvennyy NII Konstruktsionnykh Materialov na Osnove Grafita",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Grafit Research Institute",
+      "@type": "NameVariant",
+      "fullName": "Grafit Research Institute",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "NIIGRAFIT",
+      "@type": "NameVariant",
+      "fullName": "NIIGRAFIT",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "State Research Institute of Constructional Materials Graphite (NIIGRAFIT)",
+      "@type": "NameVariant",
+      "fullName": "State Research Institute of Constructional Materials Graphite (NIIGRAFIT)",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "State Scientific Research Institute of Graphite (NII Grafit)",
+      "@type": "NameVariant",
+      "fullName": "State Scientific Research Institute of Graphite (NII Grafit)",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus1871"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Kashira Hwy, 33",
       "state": "Moscow",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

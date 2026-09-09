@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/44160",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/44160",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Bogdan Genadz Andreevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Bogdan Genadz Andreevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/44160"
   ],
   "remarks": "In his former position of Deputy Head of the Belarus President Property Management Directorate, he oversees the functioning of numerous enterprises. The body under his leadership provides financial, material and technical, social, household and medical support to the State apparatus and republican authorities. He is closely associated with the President and continues to support the Lukashenka regime.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1977-01-08",
-      "circa": false
+      "circa": false,
+      "year": 1977
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

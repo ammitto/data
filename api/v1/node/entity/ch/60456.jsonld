@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/60456",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/60456",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Nazarov Sergey Makarovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Nazarov Sergey Makarovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/60456"
   ],
   "remarks": "Sergey Nazarov is Deputy Minister of the Russian Ministry of Economic Development. During his administration, the Ministry of Economic Development has been involved in activities to undermine and threaten the territorial integrity of Ukraine, including measures to explore the economic potential of the annexed Ukrainian regions (Kherson, Zaporizhzhia, the so-called “Donetsk People’s Republic” and “Luhansk People’s Republic”) as well as activities to support war economy measures of the Russian government. Sergey Nazarov is therefore responsible for activities that undermine and threaten the territorial integrity of Ukraine, and he is a natural person supporting the Government of the Russian Federation, which is responsible for the annexation of Crimea and the destabilisation of Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1961-07-27",
-      "circa": false
+      "circa": false,
+      "year": 1961
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

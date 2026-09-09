@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/508858",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/508858",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "CESA DE HONDURAS S.A.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "CESA DE HONDURAS S.A.",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/508858"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "CALLE 50 Y ESQUINA CON ELVIRA MÉNDEZ, TORRE FINANCIERA, PISO 35",
       "city": "PANAMA CITY",
       "country": "Honduras",
-      "country_iso_code": "HN"
+      "countryIsoCode": "HN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

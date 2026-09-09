@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/845617",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/845617",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "T.E. NEW ZEALAND",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "T.E. NEW ZEALAND",
+      "isPrimary": true
     }
   ],
-  "remarks": "(Reg. No. 9429031962711)*658",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/845617"
+  ],
+  "remarks": "(Reg. No. 9429031962711)*658",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "UNIT 7, 325 TI RAKAU DRIVE, BURSWOOD",
       "city": "AUCKLAND, 2013",
       "country": "New Zealand",
-      "country_iso_code": "NZ"
+      "countryIsoCode": "NZ"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

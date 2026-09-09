@@ -1,35 +1,53 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8044",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/8044",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Andrei Viktorovich KAZAKOV",
+      "@type": "NameVariant",
+      "fullName": "Andrei Viktorovich KAZAKOV",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Andrey Viktorovich KAZAKOV",
+      "@type": "NameVariant",
+      "fullName": "Andrey Viktorovich KAZAKOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Andrii Viktorovych KAZAKOV",
+      "@type": "NameVariant",
+      "fullName": "Andrii Viktorovych KAZAKOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Acting General Director of Railways of Novorossiya Federal State Unitary Enterprise; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8044"
   ],
-  "birth_info": [
+  "remarks": "Acting General Director of Railways of Novorossiya Federal State Unitary Enterprise; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1964,
       "country": "Krasnouralsk"
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

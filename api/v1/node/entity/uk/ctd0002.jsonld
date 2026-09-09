@@ -1,77 +1,104 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/ctd0002",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/ctd0002",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "AHMAD",
-      "first_name": "Nazem",
+      "@type": "NameVariant",
+      "fullName": "AHMAD",
+      "firstName": "Nazem",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "AHMAD",
-      "first_name": "Nazem",
+      "@type": "NameVariant",
+      "fullName": "AHMAD",
+      "firstName": "Nazem",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "AHMAD",
-      "first_name": "Nazem",
+      "@type": "NameVariant",
+      "fullName": "AHMAD",
+      "firstName": "Nazem",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "AHMAD",
-      "first_name": "Nazim",
+      "@type": "NameVariant",
+      "fullName": "AHMAD",
+      "firstName": "Nazim",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "AHMAD",
-      "first_name": "Nazim",
+      "@type": "NameVariant",
+      "fullName": "AHMAD",
+      "firstName": "Nazim",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "AHMAD",
-      "first_name": "Nizam",
+      "@type": "NameVariant",
+      "fullName": "AHMAD",
+      "firstName": "Nizam",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "AHMED",
-      "first_name": "Nazem",
+      "@type": "NameVariant",
+      "fullName": "AHMED",
+      "firstName": "Nazem",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "AHMED",
-      "first_name": "Nazem",
+      "@type": "NameVariant",
+      "fullName": "AHMED",
+      "firstName": "Nazem",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "MUHAMADI",
-      "first_name": "Kariumu",
+      "@type": "NameVariant",
+      "fullName": "MUHAMADI",
+      "firstName": "Kariumu",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/ctd0002"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Baconia S.A.R.L, Mahfouz Store Street, Pearl Building, GF",
       "state": "Baabda",
       "country": "Lebanon"
     },
     {
+      "@type": "Address",
       "street": "Mteferraa From Es Semrlnd",
       "state": "Beirut",
       "country": "Lebanon"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

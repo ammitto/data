@@ -1,40 +1,59 @@
 {
-  "id": "https://www.ammitto.org/entity/au/2311",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/2311",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Amar ISMAEL",
+      "@type": "NameVariant",
+      "fullName": "Amar ISMAEL",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Ammar ISMAEL",
+      "@type": "NameVariant",
+      "fullName": "Ammar ISMAEL",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Amar ISMAIL",
+      "@type": "NameVariant",
+      "fullName": "Amar ISMAIL",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ammar ISMAIL",
+      "@type": "NameVariant",
+      "fullName": "Ammar ISMAIL",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Last known position: Civilian head of the 'Syrian electronic army'.; Listing: Designated under the Autonomous Sanctions Regulations 2011 on 2 March 2012. \nInstrument of first\ndesignation and\ndeclaration:\nAutonomous Sanctions (Designated Persons and Entities and\nDeclared Persons – Syria) List 2012 [F2012L00482]\nRelisted on 12 January 2024.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/2311"
   ],
-  "birth_info": [
+  "remarks": "Last known position: Civilian head of the 'Syrian electronic army'.; Listing: Designated under the Autonomous Sanctions Regulations 2011 on 2 March 2012. \nInstrument of first\ndesignation and\ndeclaration:\nAutonomous Sanctions (Designated Persons and Entities and\nDeclared Persons – Syria) List 2012 [F2012L00482]\nRelisted on 12 January 2024.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1973,
       "country": "Damascus"
     }
   ],
   "nationalities": [
     "Syria"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

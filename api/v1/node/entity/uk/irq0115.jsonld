@@ -1,27 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/irq0115",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/irq0115",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "AL-MUHAMMAD",
-      "first_name": "KHAMIS",
+      "@type": "NameVariant",
+      "fullName": "AL-MUHAMMAD",
+      "firstName": "KHAMIS",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Khamis",
-      "first_name": "Fnu",
+      "@type": "NameVariant",
+      "fullName": "Khamis",
+      "firstName": "Fnu",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "خميس سرحان المحمد",
+      "@type": "NameVariant",
+      "fullName": "خميس سرحان المحمد",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/irq0115"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

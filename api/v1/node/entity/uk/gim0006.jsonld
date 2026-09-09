@@ -1,26 +1,43 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/gim0006",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/gim0006",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "The Tetwani Gang",
+      "@type": "NameVariant",
+      "fullName": "The Tetwani Gang",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "The Tetouani Gang",
+      "@type": "NameVariant",
+      "fullName": "The Tetouani Gang",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/gim0006"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "state": "Horgos",
       "country": "Serbia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

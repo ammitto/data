@@ -1,0 +1,54 @@
+{
+  "@id": "https://www.ammitto.org/entry/un/consolidated-list/iri004",
+  "@type": "SanctionEntry",
+  "entityId": "https://www.ammitto.org/entity/un/iri004",
+  "authority": {
+    "@id": "https://www.ammitto.org/authority/un"
+  },
+  "regime": {
+    "@id": "https://www.ammitto.org/regime/iran",
+    "name": "Iran"
+  },
+  "legalBases": [
+
+  ],
+  "effects": [
+    {
+      "@type": "SanctionEffect",
+      "effectType": "asset_freeze",
+      "scope": "full"
+    },
+    {
+      "@type": "SanctionEffect",
+      "effectType": "travel_ban",
+      "scope": "full"
+    }
+  ],
+  "reasons": [
+
+  ],
+  "period": {
+    "@type": "TemporalPeriod",
+    "listedDate": "2007-03-24",
+    "effectiveDate": "2007-03-24",
+    "isIndefinite": true,
+    "lastUpdated": "\n      "
+  },
+  "status": "active",
+  "statusHistory": [
+
+  ],
+  "referenceNumber": "IRi.004",
+  "remarks": "Position changed. [Old Reference # I.47.D.2]",
+  "rawSourceData": {
+    "@type": "RawSourceData",
+    "sourceFormat": "xml",
+    "sourceSpecificFields": {
+      "un:dataId": "110443",
+      "un:versionNum": "1",
+      "un:gender": null,
+      "un:entityType": "individual"
+    }
+  },
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
+}

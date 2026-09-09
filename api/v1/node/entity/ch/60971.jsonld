@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/60971",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/60971",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Novikov Alexander Vladimirovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Novikov Alexander Vladimirovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/60971"
   ],
   "remarks": "Alexander Novikov is a Russian military leader, and Head of the Directorate for construction and development of unmanned aerial vehicles. In Ukraine, the Russian Armed Forces frequently use drones against military and civilian targets. As Head of the Directorate for construction and development of unmanned aerial vehicles, Alexander Novikov is responsible for the development of unmanned aerial vehicles, which are used by the Russian Armed Forces. Alexander Novikov is therefore responsible for supporting and implementing actions which undermine the territorial integrity, sovereignty and independence of Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1964-11-28",
-      "circa": false
+      "circa": false,
+      "year": 1964
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/88507",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/88507",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Lee Chang Ho",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Lee Chang Ho",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/88507"
   ],
   "remarks": "Lee Chang Ho coordinated North Korean soldiers deployed on the battlefield in Ukraine, who may have been given tasks related to irregular guerrilla warfare. Thus, he was involved in the participation of North Korean soldiers in the war against Ukraine. He has led cyber-attack units such as Lazarus and Kim Suki.",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1967
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

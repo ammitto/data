@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/496405",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/496405",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "AARON INGENIEROS CONSTRUCTORES & CONSULTORES E.I.R.L.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "AARON INGENIEROS CONSTRUCTORES & CONSULTORES E.I.R.L.",
+      "isPrimary": true
     }
   ],
-  "remarks": "*533",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/496405"
+  ],
+  "remarks": "*533",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "JR. CHAUPIMAYO D-5 SANTA ANA – LA CONVENCIÓN",
       "city": "CUSCO",
       "country": "Peru",
-      "country_iso_code": "PE"
+      "countryIsoCode": "PE"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

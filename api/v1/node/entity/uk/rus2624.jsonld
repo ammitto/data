@@ -1,32 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus2624",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus2624",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "ELECTRONIC SCIENTIFIC ENGINEERING LTD",
+      "@type": "NameVariant",
+      "fullName": "ELECTRONIC SCIENTIFIC ENGINEERING LTD",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "ESE",
+      "@type": "NameVariant",
+      "fullName": "ESE",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "科电工程有限公司",
+      "@type": "NameVariant",
+      "fullName": "科电工程有限公司",
       "script": "Hani",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus2624"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "25/F. Chinachem Exchange Square, No 1 Hoi Wan Street, Quarry Bay",
       "state": "Hong Kong",
       "country": "China"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

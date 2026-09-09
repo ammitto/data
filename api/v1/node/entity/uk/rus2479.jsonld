@@ -1,68 +1,92 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus2479",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus2479",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "OJSC KEREMET BANK",
+      "@type": "NameVariant",
+      "fullName": "OJSC KEREMET BANK",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "OAO Keremet Bank",
+      "@type": "NameVariant",
+      "fullName": "OAO Keremet Bank",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "OJCS Keremet Bank",
+      "@type": "NameVariant",
+      "fullName": "OJCS Keremet Bank",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "OJSC Rosinbank",
+      "@type": "NameVariant",
+      "fullName": "OJSC Rosinbank",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Open Joint Stock Company Keremet Bank",
+      "@type": "NameVariant",
+      "fullName": "Open Joint Stock Company Keremet Bank",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Otkrytoe Aktsionernoe Obschestvo Keremet Bank ",
+      "@type": "NameVariant",
+      "fullName": "Otkrytoe Aktsionernoe Obschestvo Keremet Bank ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "OAO Керемет-банк",
+      "@type": "NameVariant",
+      "fullName": "OAO Керемет-банк",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "ОАО Росинбанк",
+      "@type": "NameVariant",
+      "fullName": "ОАО Росинбанк",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Открытое акционерное общество Керемет Банк",
+      "@type": "NameVariant",
+      "fullName": "Открытое акционерное общество Керемет Банк",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus2479"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "80/1, Moskovskaya Street",
       "state": "Bishkek",
       "country": "Kyrgyzstan"
     },
     {
+      "@type": "Address",
       "street": "40/4, Togolok Moldo",
       "state": "Bishkek",
       "country": "Kyrgyzstan"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

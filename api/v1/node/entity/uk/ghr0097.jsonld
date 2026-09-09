@@ -1,48 +1,68 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/ghr0097",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/ghr0097",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Golden Sun Sky Entertainment Co., Ltd.",
+      "@type": "NameVariant",
+      "fullName": "Golden Sun Sky Entertainment Co., Ltd.",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Golden Haoli Entertainment Co., Ltd.",
+      "@type": "NameVariant",
+      "fullName": "Golden Haoli Entertainment Co., Ltd.",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Golden Sun Sky Entertainment Complex",
+      "@type": "NameVariant",
+      "fullName": "Golden Sun Sky Entertainment Complex",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Golden Sun Sky Hotel",
+      "@type": "NameVariant",
+      "fullName": "Golden Sun Sky Hotel",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Golden Sun Sky Resort",
+      "@type": "NameVariant",
+      "fullName": "Golden Sun Sky Resort",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Haigang Hotel",
+      "@type": "NameVariant",
+      "fullName": "Haigang Hotel",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/ghr0097"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Otres Beach, Preah Sihanouk",
       "state": "Sihanoukville",
       "country": "Cambodia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

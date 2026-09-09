@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/46272",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/46272",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Bayardo Arce Castaño",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Bayardo Arce Castaño",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/46272"
   ],
   "remarks": "In his position as Economic Advisor to President Daniel Ortega, Bayardo Arce Castano holds significant influence over the policies of the Ortega regime. He is therefore associated with persons responsible for serious violations of human rights in Nicaragua. He supported the development of legislation preventing opposition candidates from taking part in elections. He is therefore responsible for repression against civil society and democratic opposition in Nicaragua.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1950-03-21",
-      "circa": false
+      "circa": false,
+      "year": 1950
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

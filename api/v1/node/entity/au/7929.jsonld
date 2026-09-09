@@ -1,32 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7929",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/7929",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Horizont Holding Management Company Open Joint Stock Company",
+      "@type": "NameVariant",
+      "fullName": "Horizont Holding Management Company Open Joint Stock Company",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Horizont Group",
+      "@type": "NameVariant",
+      "fullName": "Horizont Group",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Horizont Holding Management Company OJSC",
+      "@type": "NameVariant",
+      "fullName": "Horizont Holding Management Company OJSC",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "http://www.horizont.by/; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2024",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7929"
+  ],
+  "remarks": "http://www.horizont.by/; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2024",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "35-1 Kuibysheva St. Minsk 220029 Belarus",
       "country": "35-1 Kuibysheva St. Minsk 220029 Belarus"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

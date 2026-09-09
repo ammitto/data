@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/578814",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/578814",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "A2Z WASTE MANAGEMENT (JAIPUR) LIMITED",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "A2Z WASTE MANAGEMENT (JAIPUR) LIMITED",
+      "isPrimary": true
     }
   ],
-  "remarks": "*553",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/578814"
+  ],
+  "remarks": "*553",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "1676, OPP. POLICE CHOWKI, MOHALA JANAK PURI, SECTOR -31, GURUGRAM – 122001",
       "city": "HARYANA",
       "country": "India",
-      "country_iso_code": "IN"
+      "countryIsoCode": "IN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

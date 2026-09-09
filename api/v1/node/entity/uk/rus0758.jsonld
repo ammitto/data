@@ -1,22 +1,43 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus0758",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/rus0758",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "KEOSAYAN",
-      "first_name": "Tigran",
+      "@type": "NameVariant",
+      "fullName": "KEOSAYAN",
+      "firstName": "Tigran",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "КЕОСАЯН Тигран Эдмондович",
+      "@type": "NameVariant",
+      "fullName": "КЕОСАЯН Тигран Эдмондович",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Margarita Simonovna Simonyan (Russian: Маргарита Симоновна Симонян)  - wife (RUS0702)  The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus0758"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "remarks": "Margarita Simonovna Simonyan (Russian: Маргарита Симоновна Симонян)  - wife (RUS0702)  The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

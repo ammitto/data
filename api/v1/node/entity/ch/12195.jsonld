@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/12195",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/12195",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Emad Abdul-Ghani Sabouni",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Emad Abdul-Ghani Sabouni",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/12195"
   ],
   "remarks": "Former Minister of Telecommunications and Technology under the former al-Assad regime, in office until at least April 2014. As a former Government Minister, shares responsibility for the former al-Assad regime’s violent repression of the civilian population. Former Head of Planning and International Cooperation Agency (PICC). The PICC is a government agency, affiliated to the Prime Ministry and produces, in particular, the five-year plans that provide the broad guidelines for the Government’s economic and development policies.",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1964
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

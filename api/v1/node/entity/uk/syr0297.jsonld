@@ -1,53 +1,74 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/syr0297",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/syr0297",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "El Jazireh",
+      "@type": "NameVariant",
+      "fullName": "El Jazireh",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Al Jazireh",
+      "@type": "NameVariant",
+      "fullName": "Al Jazireh",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Al-Jazeerah General Transport Company, Petroleum Derivatives and Oil Services",
+      "@type": "NameVariant",
+      "fullName": "Al-Jazeerah General Transport Company, Petroleum Derivatives and Oil Services",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "El Jazeera",
+      "@type": "NameVariant",
+      "fullName": "El Jazeera",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "El Jazeerah",
+      "@type": "NameVariant",
+      "fullName": "El Jazeerah",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "El Jazerra",
+      "@type": "NameVariant",
+      "fullName": "El Jazerra",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "El Jazira",
+      "@type": "NameVariant",
+      "fullName": "El Jazira",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/syr0297"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Shaheen Building, 2nd Floor, Sami el Solh",
       "state": "Beirut",
       "country": "Lebanon"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

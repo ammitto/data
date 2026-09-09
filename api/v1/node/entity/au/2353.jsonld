@@ -1,27 +1,43 @@
 {
-  "id": "https://www.ammitto.org/entity/au/2353",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/2353",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Mada Transport Group",
+      "@type": "NameVariant",
+      "fullName": "Mada Transport Group",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Mada Transport",
+      "@type": "NameVariant",
+      "fullName": "Mada Transport",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Mada Transport Group is a subsidiary of Cham Holding. Tel +963 11 99 62.; Listing: Designated under the Autonomous Sanctions Regulations 2011 on 2 March 2012. Instrument of first\ndesignation Autonomous Sanctions (Designated Persons and Entities and\nDeclared Persons – Syria) List 2012 [F2012L00482]. Relisted on 12 January 2024.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/2353"
+  ],
+  "remarks": "Mada Transport Group is a subsidiary of Cham Holding. Tel +963 11 99 62.; Listing: Designated under the Autonomous Sanctions Regulations 2011 on 2 March 2012. Instrument of first\ndesignation Autonomous Sanctions (Designated Persons and Entities and\nDeclared Persons – Syria) List 2012 [F2012L00482]. Relisted on 12 January 2024.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Dara’a Highway, P.O. Box 9525, Ashrafiyat Sahnaya Area, Syrian Arab Republic",
       "country": "Syrian Arab Republic"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

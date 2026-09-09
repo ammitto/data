@@ -1,36 +1,57 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/irn0123",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/irn0123",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Basij Resistance Force",
+      "@type": "NameVariant",
+      "fullName": "Basij Resistance Force",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Basij-e Mostaz'afin",
+      "@type": "NameVariant",
+      "fullName": "Basij-e Mostaz'afin",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Nirouye Moqavemate Basij",
+      "@type": "NameVariant",
+      "fullName": "Nirouye Moqavemate Basij",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "نیروی مقاومت بسیج",
+      "@type": "NameVariant",
+      "fullName": "نیروی مقاومت بسیج",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "سازمان بسیج مستضعفین",
+      "@type": "NameVariant",
+      "fullName": "سازمان بسیج مستضعفین",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/irn0123"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

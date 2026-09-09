@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/94433",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/94433",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Abubakar Swalleh",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Abubakar Swalleh",
+      "isPrimary": true
     }
   ],
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/94433"
+  ],
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1992-01-13",
-      "circa": false
+      "circa": false,
+      "year": 1992
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

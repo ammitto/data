@@ -1,21 +1,42 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus2447",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/rus2447",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Dinara Dzhamilievna MUSTAFAEVA",
+      "@type": "NameVariant",
+      "fullName": "Dinara Dzhamilievna MUSTAFAEVA",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Динара Джамилиевна Мустафаева",
+      "@type": "NameVariant",
+      "fullName": "Динара Джамилиевна Мустафаева",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus2447"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

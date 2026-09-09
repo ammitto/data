@@ -1,95 +1,122 @@
 {
-  "id": "https://www.ammitto.org/entity/au/1141",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/1141",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Hassan Dahir Aweys",
+      "@type": "NameVariant",
+      "fullName": "Hassan Dahir Aweys",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "ALI, Sheikh Hassan Dahir Aweys",
+      "@type": "NameVariant",
+      "fullName": "ALI, Sheikh Hassan Dahir Aweys",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "AWES, Hassan Dahir",
+      "@type": "NameVariant",
+      "fullName": "AWES, Hassan Dahir",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "AWES, Shaykh Hassan Dahir",
+      "@type": "NameVariant",
+      "fullName": "AWES, Shaykh Hassan Dahir",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "AWEYES, Hassen Dahir",
+      "@type": "NameVariant",
+      "fullName": "AWEYES, Hassen Dahir",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "AWEYS, Ahmed Dahir",
+      "@type": "NameVariant",
+      "fullName": "AWEYS, Ahmed Dahir",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "AWEYS, Sheikh",
+      "@type": "NameVariant",
+      "fullName": "AWEYS, Sheikh",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "AWEYS, Sheikh Hassan Dahir",
+      "@type": "NameVariant",
+      "fullName": "AWEYS, Sheikh Hassan Dahir",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "DAHIR, Aweys Hassan",
+      "@type": "NameVariant",
+      "fullName": "DAHIR, Aweys Hassan",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "IBRAHIM, Mohammed Hassan",
+      "@type": "NameVariant",
+      "fullName": "IBRAHIM, Mohammed Hassan",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "OAIS, Hassan Tahir",
+      "@type": "NameVariant",
+      "fullName": "OAIS, Hassan Tahir",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "UWAYS, Hassan Tahir",
+      "@type": "NameVariant",
+      "fullName": "UWAYS, Hassan Tahir",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "HASSAN, Sheikh",
+      "@type": "NameVariant",
+      "fullName": "HASSAN, Sheikh",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "حسن ظاهرعويس",
+      "@type": "NameVariant",
+      "fullName": "حسن ظاهرعويس",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "SOi.002.; Listing: Listed by UN 751 Committee on 12 April 2010, amended 16 May 2011.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/1141"
   ],
-  "birth_info": [
+  "remarks": "SOi.002.; Listing: Listed by UN 751 Committee on 12 April 2010, amended 16 May 2011.",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1935
     }
   ],
   "nationalities": [
     "Somalia"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Somalia. Also reported to be in Eritrea as of November 2007.",
       "country": "Somalia. Also reported to be in Eritrea as of November 2007."
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

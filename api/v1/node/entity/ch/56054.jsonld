@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/56054",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/56054",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Delimkhanov Alibek Sultanovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Delimkhanov Alibek Sultanovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/56054"
   ],
   "remarks": "Deputy Commander of the Chechen branch of the National Guard of the Russian Federation. Responsible for commanding the Chechen forces during Russia's war of aggression against Ukraine, including in the Kyiv and Donbas regions. In this capacity, he is responsible for, supporting or implementing actions or policies which undermine or threaten the territorial integrity, sovereignty and independence of Ukraine, or stability or security in Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1974-10-16",
-      "circa": false
+      "circa": false,
+      "year": 1974
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

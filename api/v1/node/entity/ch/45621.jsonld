@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/45621",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/45621",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Chamadanava Volha Mikalaeuna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Chamadanava Volha Mikalaeuna",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/45621"
   ],
   "remarks": "In her former position as the main media person of the Ministry of Internal Affairs of Belarus, Volha Chamadanava played a key role in distorting and deflecting the facts regarding violence against protesters, as well as in spreading false information about them. She threatened peaceful protesters and continuously justified violence against them. Since she has been a part of the security apparatus and has spoken on its behalf, she is therefore supporting the Lukashenka regime. She remains active in the Lukashenka regime as the Head of the Main Directorate for Ideology and Youth of the Minsk City Executive Committee.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1977-10-13",
-      "circa": false
+      "circa": false,
+      "year": 1977
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,75 +1,101 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/inu0037",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/inu0037",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Marine Industries",
+      "@type": "NameVariant",
+      "fullName": "Marine Industries",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "DIO Marine Industries Group",
+      "@type": "NameVariant",
+      "fullName": "DIO Marine Industries Group",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Marine Industries Factory",
+      "@type": "NameVariant",
+      "fullName": "Marine Industries Factory",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Marine Industries Group",
+      "@type": "NameVariant",
+      "fullName": "Marine Industries Group",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Marine Industries Organization",
+      "@type": "NameVariant",
+      "fullName": "Marine Industries Organization",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "MIO",
+      "@type": "NameVariant",
+      "fullName": "MIO",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Nautical Industries Department",
+      "@type": "NameVariant",
+      "fullName": "Nautical Industries Department",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Naval Industries Group",
+      "@type": "NameVariant",
+      "fullName": "Naval Industries Group",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Offshore Industries Group",
+      "@type": "NameVariant",
+      "fullName": "Offshore Industries Group",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/inu0037"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "44 Sharif St., Hoveyzeh, Korramshahr, North Sohrevardi Ave"
+    },
+    {
+      "@type": "Address",
+      "street": "P.O. Box 19585 348",
+      "state": "Tehran",
+      "country": "Iran"
+    },
+    {
+      "@type": "Address",
       "street": "P.O. Box 19585/777",
       "state": "Tehran"
     },
     {
+      "@type": "Address",
       "street": "Pasdaran Avenue.",
-      "state": "Tehran",
-      "country": "Iran"
-    },
-    {
-      "street": "44 Sharif St., Hoveyzeh, Korramshahr, North Sohrevardi Ave"
-    },
-    {
-      "street": "P.O. Box 19585 348",
       "state": "Tehran",
       "country": "Iran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,47 +1,69 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7288",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7288",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mohammad Rostami Cheshmeh GACHI",
+      "@type": "NameVariant",
+      "fullName": "Mohammad Rostami Cheshmeh GACHI",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Mohammad GACHI",
+      "@type": "NameVariant",
+      "fullName": "Mohammad GACHI",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Mohammad ROSTAMI",
+      "@type": "NameVariant",
+      "fullName": "Mohammad ROSTAMI",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Mohammad ROSTAMI CHESHMEH GACHI",
+      "@type": "NameVariant",
+      "fullName": "Mohammad ROSTAMI CHESHMEH GACHI",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Mohammad Rostami CHESHMEH GACHI",
+      "@type": "NameVariant",
+      "fullName": "Mohammad Rostami CHESHMEH GACHI",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Thematic Sanctions) Amendment (No. 1) Instrument 2022",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7288"
   ],
-  "birth_info": [
+  "remarks": "Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Thematic Sanctions) Amendment (No. 1) Instrument 2022",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1976
     },
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1977
     }
   ],
   "nationalities": [
     "Iran"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/44200",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/44200",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Shumilin Dzmitry Mikalaevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Shumilin Dzmitry Mikalaevich",
+      "isPrimary": true
     }
   ],
-  "remarks": "In his former position as Deputy Head of the department for mass events of the GUVD of the Minsk City Executive Committee, he was responsible for the repression and intimidation campaign led by the local apparatus in the wake of the 2020 presidential election, in particular arbitrary arrests and ill-treatment, including torture, of peaceful demonstrators as well as intimidation and violence against journalists. He was documented as personally taking part in the unlawful detention of peaceful protesters. He remains active in the Lukashenka regime as Deputy Head of the Directorate for the Protection of Law and Order and Prevention of the GUVD (Main Department of Internal Affairs) of the Minsk City Executive Committee.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/44200"
+  ],
+  "remarks": "In his former position as Deputy Head of the department for mass events of the GUVD of the Minsk City Executive Committee, he was responsible for the repression and intimidation campaign led by the local apparatus in the wake of the 2020 presidential election, in particular arbitrary arrests and ill-treatment, including torture, of peaceful demonstrators as well as intimidation and violence against journalists.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1977-07-26",
-      "circa": false
+      "circa": false,
+      "year": 1977
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

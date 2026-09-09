@@ -1,36 +1,54 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/ghr0162",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/ghr0162",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "COCO's FARM OUTPOST",
+      "@type": "NameVariant",
+      "fullName": "COCO's FARM OUTPOST",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Koko's Farm ",
+      "@type": "NameVariant",
+      "fullName": "Koko's Farm ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Marom Schmuel Farm Outpost",
+      "@type": "NameVariant",
+      "fullName": "Marom Schmuel Farm Outpost",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "החווה של קוקו ",
+      "@type": "NameVariant",
+      "fullName": "החווה של קוקו ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/ghr0162"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "COCO’s FARM OUTPOST (Marom Schmuel Outpost), West Bank",
       "country": "Occupied Palestinian Territories"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,21 +1,42 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus2918",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/rus2918",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MALITSKIY",
-      "first_name": "Alexey",
+      "@type": "NameVariant",
+      "fullName": "MALITSKIY",
+      "firstName": "Alexey",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Алексей Малитский ",
+      "@type": "NameVariant",
+      "fullName": "Алексей Малитский ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus2918"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

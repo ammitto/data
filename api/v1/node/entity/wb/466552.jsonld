@@ -1,23 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/466552",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/wb/466552",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MR. LI YI",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "MR. LI YI",
+      "isPrimary": true
     }
   ],
-  "remarks": "*192 MR. PETER LEE",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/466552"
+  ],
+  "remarks": "*192 MR. PETER LEE",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "NO. 88 ERQI NORTH ROAD",
       "city": "NANCHANG, 330046",
       "country": "China",
-      "country_iso_code": "CN"
+      "countryIsoCode": "CN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

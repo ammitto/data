@@ -1,23 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/gac0048",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/gac0048",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kitutu",
-      "first_name": "Mary",
+      "@type": "NameVariant",
+      "fullName": "Kitutu",
+      "firstName": "Mary",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/gac0048"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Parliament of the Republic of Uganda, Plot 16-18 Parliament Avenue, Kampala",
       "country": "Uganda"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

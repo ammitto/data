@@ -1,30 +1,47 @@
 {
-  "id": "https://www.ammitto.org/entity/au/1119",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/1119",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mohammed Yahya Mujahid",
+      "@type": "NameVariant",
+      "fullName": "Mohammed Yahya Mujahid",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Mohammad Yahya Aziz",
+      "@type": "NameVariant",
+      "fullName": "Mohammad Yahya Aziz",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "National Identification Number: Pakistani national identification number 35404-1577309-9. Associated with Lashkar-e-Tayyiba (QDe.118). In detention as at June 2009.  Review pursuant to Security Council resolution 2253 (2015) was concluded on 21 Feb. 2019. Review pursuant to Security Council resolution 2610 (2021) was concluded on 8 November 2022.; Listing: Listed on 29 Jun. 2009 (amended on 1 May 2019)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/1119"
   ],
-  "birth_info": [
+  "remarks": "National Identification Number: Pakistani national identification number 35404-1577309-9. Associated with Lashkar-e-Tayyiba (QDe.118). In detention as at June 2009.  Review pursuant to Security Council resolution 2253 (2015) was concluded on 21 Feb. 2019. Review pursuant to Security Council resolution 2610 (2021) was concluded on 8 November 2022.; Listing: Listed on 29 Jun. 2009 (amended on 1 May 2019)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1961,
       "country": "Lahore"
     }
   ],
   "nationalities": [
     "Pakistan"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

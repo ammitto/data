@@ -1,59 +1,89 @@
 {
-  "id": "https://www.ammitto.org/entity/au/25",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/25",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Abdul Rauf Khadem",
+      "@type": "NameVariant",
+      "fullName": "Abdul Rauf Khadem",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "عبدالروف خادم",
+      "@type": "NameVariant",
+      "fullName": "عبدالروف خادم",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Mullah Abdul Rauf Aliza",
+      "@type": "NameVariant",
+      "fullName": "Mullah Abdul Rauf Aliza",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "TAi.025 Title: Mullah. Designation: Commander of Central Corps under the Taliban regime. Member of the Taliban Quetta Shura as at 2009. Taliban member responsible for Uruzgan Province, Afghanistan, as at 2011. Review pursuant to Security Council resolution 1822 (2008) was concluded on 1 Jun. 2010.; Listing: Listed on 23 February 2001 (amended on 3 September 2003, 21 Sep 2007 and 13 February 2012)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/25"
   ],
-  "birth_info": [
+  "remarks": "TAi.025 Title: Mullah. Designation: Commander of Central Corps under the Taliban regime. Member of the Taliban Quetta Shura as at 2009. Taliban member responsible for Uruzgan Province, Afghanistan, as at 2011. Review pursuant to Security Council resolution 1822 (2008) was concluded on 1 Jun. 2010.; Listing: Listed on 23 February 2001 (amended on 3 September 2003, 21 Sep 2007 and 13 February 2012)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1958,
       "country": "a) Azan village"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1959,
       "country": "Kajaki District"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1960,
       "country": "Helmand Province"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1961,
       "country": "Afghanistan  b) Spin Boldak District"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1962,
       "country": "Kandahar Province"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1963,
       "country": "Afghanistan"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1970,
       "country": "a) Azan village"
     }
   ],
   "nationalities": [
     "Afghanistan"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

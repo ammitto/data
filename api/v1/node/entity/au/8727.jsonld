@@ -1,32 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8727",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/8727",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "NK Bank Joint Stock Company",
+      "@type": "NameVariant",
+      "fullName": "NK Bank Joint Stock Company",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Natsionalny Kosmicheski Bank",
+      "@type": "NameVariant",
+      "fullName": "Natsionalny Kosmicheski Bank",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "NK BANK",
+      "@type": "NameVariant",
+      "fullName": "NK BANK",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Website: https://www.nkbank.ru; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2026",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8727"
+  ],
+  "remarks": "Website: https://www.nkbank.ru; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2026",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "2, Miusskaya Square, Moscow, 125047, Russia",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/31750",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/31750",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Yekatom Alfred",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Yekatom Alfred",
+      "isPrimary": true
     }
   ],
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/31750"
+  ],
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1976-06-23",
-      "circa": false
+      "circa": false,
+      "year": 1976
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

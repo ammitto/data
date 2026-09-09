@@ -1,42 +1,62 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/mya0077",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/mya0077",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "77th Light Infantry Division",
+      "@type": "NameVariant",
+      "fullName": "77th Light Infantry Division",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "77 LID",
+      "@type": "NameVariant",
+      "fullName": "77 LID",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "77 Light Infantry Division",
+      "@type": "NameVariant",
+      "fullName": "77 Light Infantry Division",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "LID 77",
+      "@type": "NameVariant",
+      "fullName": "LID 77",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Light Infantry Division 77",
+      "@type": "NameVariant",
+      "fullName": "Light Infantry Division 77",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/mya0077"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "state": "BAGO",
       "country": "Myanmar"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/798009",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/798009",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "XINJIANG COMMUNICATION CONSTRUCTION TRANSPORTATION ENGINEERING TECHNOLOGY CO., L",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "XINJIANG COMMUNICATION CONSTRUCTION TRANSPORTATION ENGINEERING TECHNOLOGY CO., L",
+      "isPrimary": true
     }
   ],
-  "remarks": "(新疆交建交通工程科技有限责任公司)(91650106053190805E)*647",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/798009"
+  ],
+  "remarks": "(新疆交建交通工程科技有限责任公司)(91650106053190805E)*647",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "NO. 427, MINGCHEN STREET, WANGJIAGOU, TOUTUNHE, URUMQI",
       "city": "XINJIANG",
       "country": "China",
-      "country_iso_code": "CN"
+      "countryIsoCode": "CN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

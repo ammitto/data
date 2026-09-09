@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/56998",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/56998",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ryzhkov Sergey Borissovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Ryzhkov Sergey Borissovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/56998"
   ],
   "remarks": "Major General of the Russian armed forces and Commander of the 41st Combined Arms Army. As such, he is a key figure in Russia’s order of battle and has played a central role in the invasion and occupation of Ukrainian territory. In this role, he is responsible for the Russian war effort at large.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1968-10-25",
-      "circa": false
+      "circa": false,
+      "year": 1968
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

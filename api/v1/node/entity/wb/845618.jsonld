@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/845618",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/845618",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "TAIHAN CNS",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "TAIHAN CNS",
+      "isPrimary": true
     }
   ],
-  "remarks": "(Reg. No. 168-86-01556)*658",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/845618"
+  ],
+  "remarks": "(Reg. No. 168-86-01556)*658",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "TAIHAN SMART TOWER, 317 SIMIN-DAERO, DONGAN-GU, ANYANG-SI, 14055",
       "city": "GYEONGGI-DO",
       "country": "Korea, Republic of",
-      "country_iso_code": "KR"
+      "countryIsoCode": "KR"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

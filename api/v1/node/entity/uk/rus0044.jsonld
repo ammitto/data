@@ -1,44 +1,67 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus0044",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/rus0044",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Orlov",
-      "first_name": "Yevgeniy",
+      "@type": "NameVariant",
+      "fullName": "Orlov",
+      "firstName": "Yevgeniy",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Orlov",
-      "first_name": "Evgeny",
+      "@type": "NameVariant",
+      "fullName": "Orlov",
+      "firstName": "Evgeny",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Orlov",
-      "first_name": "Yevhen",
+      "@type": "NameVariant",
+      "fullName": "Orlov",
+      "firstName": "Yevhen",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Евгений Вячеславович ОРЛОВ",
+      "@type": "NameVariant",
+      "fullName": "Евгений Вячеславович ОРЛОВ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Євген Орлов.",
+      "@type": "NameVariant",
+      "fullName": "Євген Орлов.",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus0044"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "country": "Ukraine"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

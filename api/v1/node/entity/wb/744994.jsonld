@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/744994",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/744994",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "PERFECT DREDGING COMPANY PVT. LTD.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "PERFECT DREDGING COMPANY PVT. LTD.",
+      "isPrimary": true
     }
   ],
-  "remarks": "*645",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/744994"
+  ],
+  "remarks": "*645",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "SUITE NO. 205, II FLOOR, PLAZA CENTRE,#129 G.N. CHETTY ROAD, CHENNAI 600 006",
       "city": "TAMIL NADU",
       "country": "India",
-      "country_iso_code": "IN"
+      "countryIsoCode": "IN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

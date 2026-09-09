@@ -1,37 +1,55 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8095",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/8095",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "144 Armored Tank Repair Plant Joint Stock Company",
+      "@type": "NameVariant",
+      "fullName": "144 Armored Tank Repair Plant Joint Stock Company",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "JSC Armour Repair Plant No. 144",
+      "@type": "NameVariant",
+      "fullName": "JSC Armour Repair Plant No. 144",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "144 bronetankoviy remontniy zavod",
+      "@type": "NameVariant",
+      "fullName": "144 bronetankoviy remontniy zavod",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "144 BTRZ",
+      "@type": "NameVariant",
+      "fullName": "144 BTRZ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Company Identification No. 1096674009332; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8095"
+  ],
+  "remarks": "Company Identification No. 1096674009332; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Simskaya Street, 2, Ekaterinburg, Sverdlovsk Region, 620024, Russia",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

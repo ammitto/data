@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/56302",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/56302",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Struk Mikhail Vladimirovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Struk Mikhail Vladimirovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/56302"
   ],
   "remarks": "Mr. Struk is a member of the Legislative Assembly of the Volgograd Oblast (region) since 2017. Mr. Struk is a member of the Kremlin-aligned ruling party “United Russia”. On his account on the social media platform Vkontakte, and in his statements published in a local newspaper, which Mr. Struk maintains as a deputy of the Legislative Assembly of the Volgograd Oblast, he has repeatedly expressed support for Russia’s invasion of Ukraine and denounced Ukrainians as Nazis. Mr. Struk expresses support for the Russian soldiers fighting in Ukraine. Given his political influence and his influence as General Director at ZAO Volzhskaya Poultry Farm, Mr. Struk is responsible for inciting hatred against Ukraine, spreading pro-Russian disinformation and propaganda in the context of the war, as well as seeking to garner domestic support in Russia for the war against Ukraine. Therefore, he is responsible for supporting actions or policies which undermine the territorial integrity, sovereignty and independence of Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1977-10-26",
-      "circa": false
+      "circa": false,
+      "year": 1977
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

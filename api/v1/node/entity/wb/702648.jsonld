@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/702648",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/702648",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "GANZHOU JIDA CONSTRUCTION ENGINEERING CO., LTD.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "GANZHOU JIDA CONSTRUCTION ENGINEERING CO., LTD.",
+      "isPrimary": true
     }
   ],
-  "remarks": "(赣州集达建筑工程有限公司)*632",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/702648"
+  ],
+  "remarks": "(赣州集达建筑工程有限公司)*632",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "4TH FLOOR, NO. 37, FENGSHUTANG, HENGLING VILLAGE, FENGGANG TOWN, GANZHOU ECONOMIC AND TECHNOLOGICAL DEVELOPMENT ZONE",
       "city": "GANZHOU CITY, JIANGXI",
       "country": "China",
-      "country_iso_code": "CN"
+      "countryIsoCode": "CN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

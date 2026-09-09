@@ -1,38 +1,56 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/inu0040",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/inu0040",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Organisation of Defensive Innovation and Research (SPND)",
+      "@type": "NameVariant",
+      "fullName": "Organisation of Defensive Innovation and Research (SPND)",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "New Defense Research Organization",
+      "@type": "NameVariant",
+      "fullName": "New Defense Research Organization",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Sazman e Pazhouheshhaye Novin e Defa'i",
+      "@type": "NameVariant",
+      "fullName": "Sazman e Pazhouheshhaye Novin e Defa'i",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "SPND",
+      "@type": "NameVariant",
+      "fullName": "SPND",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/inu0040"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Negarestan 3,, off of Pasdaran Street",
       "state": "Tehran",
       "country": "Iran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

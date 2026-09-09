@@ -1,61 +1,87 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/syr0260",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/syr0260",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Foz",
-      "first_name": "Samer",
+      "@type": "NameVariant",
+      "fullName": "Foz",
+      "firstName": "Samer",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Fawz",
-      "first_name": "Samer",
+      "@type": "NameVariant",
+      "fullName": "Fawz",
+      "firstName": "Samer",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Fawz",
-      "first_name": "Samer Zuhair",
+      "@type": "NameVariant",
+      "fullName": "Fawz",
+      "firstName": "Samer Zuhair",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Fawz",
-      "first_name": "Samir",
+      "@type": "NameVariant",
+      "fullName": "Fawz",
+      "firstName": "Samir",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Foz",
-      "first_name": "Samer Zuhair",
+      "@type": "NameVariant",
+      "fullName": "Foz",
+      "firstName": "Samer Zuhair",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Foz",
-      "first_name": "Samir",
+      "@type": "NameVariant",
+      "fullName": "Foz",
+      "firstName": "Samir",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Executive President of Aman Group. Subsidiaries: Foz for Trading, Al-Mohaimen for Transportation & Contracting. Aman Group is the private sector partner in Joint Venture Aman Damascus JSC with Damascus Cham Holding, in which Foz is an individual shareholder. Emmar Industries is a joint venture between Aman Group and the Hamisho Group, in which Foz has the majority stake and is the Chairman. The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/syr0260"
+  ],
+  "remarks": "Executive President of Aman Group. Subsidiaries: Foz for Trading, Al-Mohaimen for Transportation & Contracting. Aman Group is the private sector partner in Joint Venture Aman Damascus JSC with Damascus Cham Holding, in which Foz is an individual shareholder. Emmar Industries is a joint venture between Aman Group and the Hamisho Group, in which Foz has the majority stake and is the Chairman. The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "state": "Damascus"
     },
     {
+      "@type": "Address",
       "street": "Meadows 2, Street 3, Villa 5",
       "state": "Dubai",
       "country": "United Arab Emirates"
     },
     {
+      "@type": "Address",
       "street": "Office No. 2405, Platinum Tower, Jumeirah Lake Towers, Dubai",
       "country": "United Arab Emirates"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/8805",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/8805",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Rezaie Morteza",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Rezaie Morteza",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/8805"
   ],
   "remarks": "Brigadier General, Deputy Commander of IRGC.",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1956
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

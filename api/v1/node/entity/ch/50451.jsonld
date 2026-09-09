@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/50451",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/50451",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Zhuk Andrey Vladimirovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Zhuk Andrey Vladimirovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/50451"
   ],
   "remarks": "Andrey Zhuk is the former Deputy Minister of Defence of the Republic of Belarus. In this capacity he participated in the joint military exercises of Russia and Belarus preceding the military build-up at the Ukrainian border which prepared and facilitated the Russian military aggression of 24 February 2022.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1969-08-06",
-      "circa": false
+      "circa": false,
+      "year": 1969
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

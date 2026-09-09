@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/11912",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/11912",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Samir Hassan",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Samir Hassan",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/11912"
   ],
   "remarks": "Leading businessperson operating in Syria, with interests and/or activities in multiple sectors of Syria’s economy. He holds interests in and/or has significant influence in the Amir Group and Cham Holding, two conglomerates with interests in the real estate, tourism, transport and finance sectors. President of the Syria-Russia Business Council and plays a significant role in the economic relations with the Russian Federation through the Syria-Russia Business Council.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1953-08-10",
-      "circa": false
+      "circa": false,
+      "year": 1953
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

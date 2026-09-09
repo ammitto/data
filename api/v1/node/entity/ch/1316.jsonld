@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/1316",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/1316",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Tariq Aziz",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Tariq Aziz",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/1316"
   ],
   "remarks": "Deputy Prime Minister",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1936-07-01",
-      "circa": false
+      "circa": false,
+      "year": 1936
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

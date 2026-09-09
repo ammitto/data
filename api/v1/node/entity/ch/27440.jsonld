@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/27440",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/27440",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Naryshkin Sergei Evgenevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Naryshkin Sergei Evgenevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/27440"
   ],
   "remarks": "Former Speaker of the State Duma. Publicly supported the deployment of Russian forces in Ukraine. Publicly supported the Russia-Crimea reunification treaty and the related federal constitutional law.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1954-10-27",
-      "circa": false
+      "circa": false,
+      "year": 1954
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

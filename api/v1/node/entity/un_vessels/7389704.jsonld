@@ -1,18 +1,34 @@
 {
-  "id": "https://www.ammitto.org/entity/un_vessels/7389704",
-  "entity_type": "vessel",
+  "@id": "https://www.ammitto.org/entity/un_vessels/7389704",
+  "@type": "VesselEntity",
+  "entityType": "vessel",
   "names": [
     {
-      "full_name": "RYE SONG GANG 1",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "RYE SONG GANG 1",
+      "isPrimary": true
     }
   ],
-  "source_references": [
+  "sourceReferences": [
     {
-      "source_code": "un_vessels",
-      "reference_number": "7389704"
+      "@type": "SourceReference",
+      "sourceCode": "un_vessels",
+      "referenceNumber": "7389704",
+      "retrievedAt": "2026-09-09T16:30:54Z"
     }
   ],
-  "imo_number": "7389704",
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "linkedEntities": [
+
+  ],
+  "imoNumber": "7389704",
+  "previousNames": [
+
+  ],
+  "previousFlags": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/7389704"
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

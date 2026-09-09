@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/4974",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/4974",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Iakubovich Pavel Izotavich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Iakubovich Pavel Izotavich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/4974"
   ],
   "remarks": "Editor-in-Chief of the newspaper of the President's Administration and main propaganda newspaper «Sovietskaia Belarus», former Member of the Upper House of the Parliament appointed by President Lukashenka. He is one of the most vocal and influential members of the state propaganda machine in the printed press. He has supported and justified the repression of the democratic opposition and of civil society, which are systematically highlighted in a negative and derogatory way using falsified information. He was particularly active in this regard after the crackdown on peaceful demonstrations on 19 Dec 2010 and on subsequent protests.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1946-09-23",
-      "circa": false
+      "circa": false,
+      "year": 1946
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

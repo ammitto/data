@@ -1,28 +1,47 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus0782",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/rus0782",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "KIRIYENKO",
-      "first_name": "Vladimir",
+      "@type": "NameVariant",
+      "fullName": "KIRIYENKO",
+      "firstName": "Vladimir",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "КИРИЕНКО Владимир Сергеевич",
+      "@type": "NameVariant",
+      "fullName": "КИРИЕНКО Владимир Сергеевич",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus0782"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Nesivizhsky Pereulok 12 Bld 1 Flat 16, Moscow",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

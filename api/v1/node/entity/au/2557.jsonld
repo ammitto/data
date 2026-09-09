@@ -1,38 +1,57 @@
 {
-  "id": "https://www.ammitto.org/entity/au/2557",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/2557",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Innocent Kaina",
+      "@type": "NameVariant",
+      "fullName": "Innocent Kaina",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Colonel Innocent KAINA",
+      "@type": "NameVariant",
+      "fullName": "Colonel Innocent KAINA",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "India Queen",
+      "@type": "NameVariant",
+      "fullName": "India Queen",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "CDi.004 Former M23 Deputy Commander. Became M23 deputy commander after the flight of Bosco Taganda's faction to Rwanda in March 2013. Fled to Uganda in November 2013. In Uganda as of early 2016.; Listing: Listed by 1533 Committee on 30 Nov. 2012 (amended on 13 Oct. 2016)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/2557"
   ],
-  "birth_info": [
+  "remarks": "CDi.004 Former M23 Deputy Commander. Became M23 deputy commander after the flight of Bosco Taganda's faction to Rwanda in March 2013. Fled to Uganda in November 2013. In Uganda as of early 2016.; Listing: Listed by 1533 Committee on 30 Nov. 2012 (amended on 13 Oct. 2016)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1973,
       "country": "Bunagana"
     }
   ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Uganda (as of early 2016)",
       "country": "Uganda (as of early 2016)"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

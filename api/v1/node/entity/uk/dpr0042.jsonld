@@ -1,40 +1,62 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/dpr0042",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/dpr0042",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kim",
-      "first_name": "Rak",
+      "@type": "NameVariant",
+      "fullName": "Kim",
+      "firstName": "Rak",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Kim",
-      "first_name": "Rak",
+      "@type": "NameVariant",
+      "fullName": "Kim",
+      "firstName": "Rak",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Kim",
-      "first_name": "Rak-Gyom",
+      "@type": "NameVariant",
+      "fullName": "Kim",
+      "firstName": "Rak-Gyom",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Kim",
-      "first_name": "Ryak",
+      "@type": "NameVariant",
+      "fullName": "Kim",
+      "firstName": "Ryak",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/dpr0042"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "country": "North Korea"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

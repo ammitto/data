@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/505083",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/505083",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "LUXPORT EXPORT LTD.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "LUXPORT EXPORT LTD.",
+      "isPrimary": true
     }
   ],
-  "remarks": "*560",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/505083"
+  ],
+  "remarks": "*560",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "2003, 20/F, TOWER 5, CHINA HONG KONG CITY, 33 CANTON ROAD",
       "city": "TSIM SHA TSUI, KOWLOON, HONG KONG",
       "country": "Hong Kong SAR, China",
-      "country_iso_code": "HK"
+      "countryIsoCode": "HK"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

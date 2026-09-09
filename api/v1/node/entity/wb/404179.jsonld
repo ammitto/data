@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/404179",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/404179",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "VODOKANALPROEKT – METALPROECT INGENEERING AD",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "VODOKANALPROEKT – METALPROECT INGENEERING AD",
+      "isPrimary": true
     }
   ],
-  "remarks": "*519",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/404179"
+  ],
+  "remarks": "*519",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "24 KAMEN ANDREEV ST., FL. 8",
       "city": "SOFIA 1606",
       "country": "Bulgaria",
-      "country_iso_code": "BG"
+      "countryIsoCode": "BG"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

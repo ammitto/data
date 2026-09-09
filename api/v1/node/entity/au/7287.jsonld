@@ -1,51 +1,69 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7287",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7287",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "AHMAD AL-HAMZI",
+      "@type": "NameVariant",
+      "fullName": "AHMAD AL-HAMZI",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Ahmad 'Ali al-Hamzi",
+      "@type": "NameVariant",
+      "fullName": "Ahmad 'Ali al-Hamzi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ahmed Ali al-Hamzi",
+      "@type": "NameVariant",
+      "fullName": "Ahmed Ali al-Hamzi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Muti al-Hamzi",
+      "@type": "NameVariant",
+      "fullName": "Muti al-Hamzi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "أحمد الحمزي",
+      "@type": "NameVariant",
+      "fullName": "أحمد الحمزي",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "YEi.012. Designation: Major General, Commander of the Houthi Air Force and Air Defense Forces. Ahmad al-Hamzi, the commander of the Houthi Air Force and Air Defense Forces, as well as its UAV program, plays a leading role in Houthi military efforts that directly threaten the peace, security, and stability of Yemen. Physical Description: Eye Color: Brown; Hair: Brown.; Listing: Listed by the 2140 Committee on 4 October 2022",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7287"
   ],
-  "birth_info": [
+  "remarks": "YEi.012. Designation: Major General, Commander of the Houthi Air Force and Air Defense Forces. Ahmad al-Hamzi, the commander of the Houthi Air Force and Air Defense Forces, as well as its UAV program, plays a leading role in Houthi military efforts that directly threaten the peace, security, and stability of Yemen. Physical Description: Eye Color: Brown; Hair: Brown.; Listing: Listed by the 2140 Committee on 4 October 2022",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1985,
       "country": "Sana’a"
     }
   ],
   "nationalities": [
     "Yemen"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Yemen",
       "country": "Yemen"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

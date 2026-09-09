@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/46685",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/46685",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Liubavitski Ihar Viachaslavavich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Liubavitski Ihar Viachaslavavich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/46685"
   ],
   "remarks": "In his position as judge at the Supreme Court of the Republic of Belarus, Ihar Liubavitski is responsible for politically motivated rulings against opposition leaders, activists and journalists, in particular the sentencing of opposition presidential candidate Viktar Babarika, who is considered a political prisoner by human rights organisations. He is therefore responsible for serious human rights violations and for seriously undermining the rule of law, as well as for the repression of civil society and democratic opposition.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1983-07-21",
-      "circa": false
+      "circa": false,
+      "year": 1983
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

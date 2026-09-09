@@ -1,22 +1,43 @@
 {
-  "id": "https://www.ammitto.org/entity/cn/14-barbara-borgonovi",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/cn/14-barbara-borgonovi",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Barbara Borgonovi",
+      "@type": "NameVariant",
+      "fullName": "Barbara Borgonovi",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "芭芭拉·博尔戈诺维",
+      "@type": "NameVariant",
+      "fullName": "芭芭拉·博尔戈诺维",
       "script": "Hani",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/cn/anti-sanction-list/14-barbara-borgonovi"
+  ],
   "remarks": "List: cn/anti-sanction-list; Title: 雷神公司海军力量战略业务部总裁; Gender: female",
-  "sanction_entry_ids": [
-    "https://www.ammitto.org/entry/cn/unknown/14-barbara-borgonovi"
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
   ],
   "gender": "female",
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

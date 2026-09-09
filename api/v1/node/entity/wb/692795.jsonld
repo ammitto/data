@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/692795",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/692795",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "OOO RBC CENTER",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "OOO RBC CENTER",
+      "isPrimary": true
     }
   ],
-  "remarks": "(CURRENTLY KNOWN AS OOO ARMADA CENTER) *197",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/692795"
+  ],
+  "remarks": "(CURRENTLY KNOWN AS OOO ARMADA CENTER) *197",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "15, 5TH DONSKOY PROEZD, BUILDING 6, 117344",
       "city": "MOSCOW",
       "country": "Russian Federation",
-      "country_iso_code": "RU"
+      "countryIsoCode": "RU"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

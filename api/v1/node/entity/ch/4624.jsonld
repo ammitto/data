@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/4624",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/4624",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Iarmoshyna Lidziia Mikhailauna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Iarmoshyna Lidziia Mikhailauna",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/4624"
   ],
   "remarks": "Chairwoman of the Central Election Commission of Belarus. Since 1996, she has been one of the main persons participating in the falsifications of the fraudulent elections and referendum, in particular in 2004, 2006, 2008, 2010, 2012.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1953-01-29",
-      "circa": false
+      "circa": false,
+      "year": 1953
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

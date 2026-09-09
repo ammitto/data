@@ -1,22 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/190494",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/wb/190494",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "LY MONI ROTH",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "LY MONI ROTH",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/190494"
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "NO. 06, NATIONAL ROAD NO. 5 & ST. 1, SANGKET CHARNG CHAMRES II, KHAN RUSSEY KEO",
       "city": "PHNOM PENH",
       "country": "Cambodia",
-      "country_iso_code": "KH"
+      "countryIsoCode": "KH"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

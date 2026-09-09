@@ -1,46 +1,69 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/sud0023",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/sud0023",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "IDRIS",
-      "first_name": "Al-Fateh",
+      "@type": "NameVariant",
+      "fullName": "IDRIS",
+      "firstName": "Al-Fateh",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Adam ",
-      "first_name": "Eifateh ",
+      "@type": "NameVariant",
+      "fullName": "Adam ",
+      "firstName": "Eifateh ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Idris ",
-      "first_name": "Eifateh ",
+      "@type": "NameVariant",
+      "fullName": "Idris ",
+      "firstName": "Eifateh ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Idris",
-      "first_name": "Fateh ",
+      "@type": "NameVariant",
+      "fullName": "Idris",
+      "firstName": "Fateh ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Lulu",
-      "first_name": "Abu",
+      "@type": "NameVariant",
+      "fullName": "Lulu",
+      "firstName": "Abu",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Al-Fateh Abdullah Idris was sanctioned by the UN on 24/02/2026 on the following ground: \n\nListed pursuant to paragraph 3(c) of UN Security Council Resolution 1591 (2005). As a Brigadier General of the RSF, IDRIS is an individual who impedes the peace process, constitutes a threat to stability in Darfur and the region and has committed violations of international humanitarian or human rights law or other atrocities. ",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/sud0023"
+  ],
+  "remarks": "Al-Fateh Abdullah Idris was sanctioned by the UN on 24/02/2026 on the following ground: \n\nListed pursuant to paragraph 3(c) of UN Security Council Resolution 1591 (2005). As a Brigadier General of the RSF, IDRIS is an individual who impedes the peace process, constitutes a threat to stability in Darfur and the region and has committed violations of international humanitarian or human rights law or other atrocities. ",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "country": "Sudan"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

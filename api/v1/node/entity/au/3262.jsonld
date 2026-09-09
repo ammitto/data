@@ -1,56 +1,75 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3262",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/3262",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MUHAMMAD BAHRUM NAIM ANGGIH TAMTOMO",
+      "@type": "NameVariant",
+      "fullName": "MUHAMMAD BAHRUM NAIM ANGGIH TAMTOMO",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Bahrun Naim",
+      "@type": "NameVariant",
+      "fullName": "Bahrun Naim",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Anggih Tamtomo",
+      "@type": "NameVariant",
+      "fullName": "Anggih Tamtomo",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abu Rayyan",
+      "@type": "NameVariant",
+      "fullName": "Abu Rayyan",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abu Rayan",
+      "@type": "NameVariant",
+      "fullName": "Abu Rayan",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abu Aisyah",
+      "@type": "NameVariant",
+      "fullName": "Abu Aisyah",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Syrian-based Indonesian national who has served in a variety of roles supporting the Islamic State in Iraq and the Levant, listed as Al-Qaida in Iraq (QDe.115). Review pursuant to Security Council resolution 2610 (2021) was concluded on 8 November 2022.; Listing: Listed on: 20 Jul. 2017 (amended on 2 February 2023)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3262"
   ],
-  "birth_info": [
+  "remarks": "Syrian-based Indonesian national who has served in a variety of roles supporting the Islamic State in Iraq and the Levant, listed as Al-Qaida in Iraq (QDe.115). Review pursuant to Security Council resolution 2610 (2021) was concluded on 8 November 2022.; Listing: Listed on: 20 Jul. 2017 (amended on 2 February 2023)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1983,
       "country": "Surakarta"
     }
   ],
   "nationalities": [
     "Indonesia"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "a) Aleppo, Syrian Arab Republic b) Raqqa, Syrian Arab Republic",
       "country": "Syrian Arab Republic"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

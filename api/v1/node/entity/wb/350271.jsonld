@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/350271",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/350271",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "NATIONAL BIO-MEDICAL PVT. LTD.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "NATIONAL BIO-MEDICAL PVT. LTD.",
+      "isPrimary": true
     }
   ],
-  "remarks": "*432",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/350271"
+  ],
+  "remarks": "*432",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "TRIPURAPATH, TRIPURESHWOR",
       "city": "KATHMANDU",
       "country": "Nepal",
-      "country_iso_code": "NP"
+      "countryIsoCode": "NP"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

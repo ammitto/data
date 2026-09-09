@@ -1,42 +1,61 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8135",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/8135",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Ural Mining and Metallurgical Company Joint Stock Company",
+      "@type": "NameVariant",
+      "fullName": "Ural Mining and Metallurgical Company Joint Stock Company",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Otkrytoe Aktsionernoe Obshchestvo Uralskaya Gorno",
+      "@type": "NameVariant",
+      "fullName": "Otkrytoe Aktsionernoe Obshchestvo Uralskaya Gorno",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Metallurgicheskaya Kompaniya",
+      "@type": "NameVariant",
+      "fullName": "Metallurgicheskaya Kompaniya",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "UMMC",
+      "@type": "NameVariant",
+      "fullName": "UMMC",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "UGMK",
+      "@type": "NameVariant",
+      "fullName": "UGMK",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "https://www.ugmk.com/en/ \nhttps://ugmk.com/; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8135"
+  ],
+  "remarks": "https://www.ugmk.com/en/ \nhttps://ugmk.com/; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Uspenskiy Prospekt, 1 Verkhnyaya Pyshma Sverdlovsk Region 624091 Russia",
       "country": "1 Verkhnyaya Pyshma Sverdlovsk Region 624091 Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

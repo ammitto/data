@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/323479",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/323479",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "ROPRUCSA CONTRATISTAS GENERALES S.A.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "ROPRUCSA CONTRATISTAS GENERALES S.A.",
+      "isPrimary": true
     }
   ],
-  "remarks": "*305",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/323479"
+  ],
+  "remarks": "*305",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "AV. NARANJAL NO. 543, URBANIZACION NARANJAL, DISTRITO DE LOS OLIVOS 39",
       "city": "LIMA",
       "country": "Peru",
-      "country_iso_code": "PE"
+      "countryIsoCode": "PE"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

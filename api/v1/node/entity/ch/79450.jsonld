@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/79450",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/79450",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Abdul Bari Akhund Maulavi Mullah",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Abdul Bari Akhund Maulavi Mullah",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/79450"
   ],
   "remarks": "Governor of Helmand Province under the Taliban regime.",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1953
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/nz/ind-702",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/nz/ind-702",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Sergey Alekseevich BORODIN",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Sergey Alekseevich BORODIN",
+      "isPrimary": true
     }
   ],
-  "source_references": [
+  "sourceReferences": [
     {
-      "source_code": "nz",
-      "reference_number": "IND-702"
+      "@type": "SourceReference",
+      "sourceCode": "nz",
+      "referenceNumber": "IND-702",
+      "retrievedAt": "2026-09-09T16:30:44Z"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "linkedEntities": [
+
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/nz/consolidated-list/ind-702"
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

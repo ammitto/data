@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/62234",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/62234",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Samer Al-Dibis",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Samer Al-Dibis",
+      "isPrimary": true
     }
   ],
-  "remarks": "Samer al-Dibis is a leading businessperson operating in Syria linked to the former al-Assad regime, active in several sectors of the economy, especially in the chemical industry and in real estate. He is a member of the Board of Directors of the Syrian-Chinese Business Council and the chairman of the Damascus and Rural Damascus Chamber of Industry. He is also a member of Parliament and a close associate of Maher al-Assad. In these functions Samer al-Dibis benefits from and supports the former al-Assad regime.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/62234"
+  ],
+  "remarks": "Samer al-Dibis is a leading businessperson operating in Syria linked to the former al-Assad regime, active in several sectors of the economy, especially in the chemical industry and in real estate. He is a former member of the Board of Directors of the Syrian-Chinese Business Council and the former chairman of the Damascus and Rural Damascus Chamber of Industry. He is also a former member of Parliament and a close associate of Maher al-Assad. In these functions Samer al-Dibis benefits from and supports the former al-Assad regime.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1962-03-30",
-      "circa": false
+      "circa": false,
+      "year": 1962
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/39124",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/39124",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mohammed Al Amin Al-Arabi Kashlaf",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Mohammed Al Amin Al-Arabi Kashlaf",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/39124"
   ],
   "remarks": "Commander of the Shuhada al-Nasr brigade, Head of the Petrol Refinery Guard of Zawiya’s refinery",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1985-12-02",
-      "circa": false
+      "circa": false,
+      "year": 1985
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

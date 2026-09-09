@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/57181",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/57181",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Aghajani Saeed",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Aghajani Saeed",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/57181"
   ],
   "remarks": "Brigadier-General Saeed Aghajani is Commander of the Islamic Revolutionary Guard Corps - Aerospace Force (IRGC ASF) UAV Command, the backbone of Iran’s Unmanned Aerial Vehicles (UAVs) programme. Brigadier-General Saeed Aghajani oversees and directs the planning, equipment and training for Iran’s UAV operations, which include also the supply of drones to international allies of Iran, including the Russian Federation. Therefore, Brigadier-General Saeed Aghajani is responsible for supporting actions which undermine or threaten the territorial integrity, sovereignty and independence of Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1969-04-03",
-      "circa": false
+      "circa": false,
+      "year": 1969
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

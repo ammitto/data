@@ -1,32 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7457",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/7457",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Aviastar-SP Joint Stock Company ",
+      "@type": "NameVariant",
+      "fullName": "Aviastar-SP Joint Stock Company ",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Aviastar-SP Aircraft Manufacturing Enterprise",
+      "@type": "NameVariant",
+      "fullName": "Aviastar-SP Aircraft Manufacturing Enterprise",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Branch of PAO Il-Aviastar ",
+      "@type": "NameVariant",
+      "fullName": "Branch of PAO Il-Aviastar ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "State registration number: 1027301570636 ; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 2) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7457"
+  ],
+  "remarks": "State registration number: 1027301570636 ; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 2) Instrument 2023",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "pr-kt Antonov, 1, Region Ulyanovsk, Ulyanovsk, 432072, Russia ",
       "country": "Russia "
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

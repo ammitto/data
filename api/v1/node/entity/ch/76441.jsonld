@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/76441",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/76441",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Obeid Maher Rebhi",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Obeid Maher Rebhi",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/76441"
   ],
   "remarks": "Maher Rebhi Obeid has been a member of the Hamas Political Bureau since 2010. Obeid is in charge of the Hamas West Bank Headquarters, which is responsible for directing Hamas’ terrorist operatives in the West Bank, leading terrorist attacks, building terrorist infrastructure and issuing instructions for terrorist attacks against Israel and the Palestinian Authority.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1958-03-10",
-      "circa": false
+      "circa": false,
+      "year": 1958
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

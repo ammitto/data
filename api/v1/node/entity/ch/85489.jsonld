@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/85489",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/85489",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Adnan Abou Walid Al-Sahraoui",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Adnan Abou Walid Al-Sahraoui",
+      "isPrimary": true
     }
   ],
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/85489"
+  ],
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1973-02-16",
-      "circa": false
+      "circa": false,
+      "year": 1973
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

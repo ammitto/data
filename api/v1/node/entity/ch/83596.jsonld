@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/83596",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/83596",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Zafar Iqbal",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Zafar Iqbal",
+      "isPrimary": true
     }
   ],
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/83596"
+  ],
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1953-10-04",
-      "circa": false
+      "circa": false,
+      "year": 1953
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/8738",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/8738",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Hejazi Mohammad",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Hejazi Mohammad",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/8738"
   ],
   "remarks": "Brigadier General, Commander of Bassij resistance force.",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1959
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

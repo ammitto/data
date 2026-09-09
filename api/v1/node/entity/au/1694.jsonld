@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/au/1694",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/1694",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Kohas AG",
+      "@type": "NameVariant",
+      "fullName": "Kohas AG",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "Switzerland-based company; C.R. No. CH-217.0.135.79-4 (Switzerland); Listing: Instrument of first designation: Autonomous Sanctions (Designated Persons and Entities – Democratic People’s Republic of Korea) List 2012. \nFormerly listed on the RBA Consolidated List as 2006NKR0012",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/1694"
+  ],
+  "remarks": "Switzerland-based company; C.R. No. CH-217.0.135.79-4 (Switzerland); Listing: Instrument of first designation: Autonomous Sanctions (Designated Persons and Entities – Democratic People’s Republic of Korea) List 2012. \nFormerly listed on the RBA Consolidated List as 2006NKR0012",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Route des Arsenaux 15, Fribourg, FR 1700, Switzerland",
       "country": "Switzerland"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

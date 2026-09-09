@@ -1,23 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/311049",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/wb/311049",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MR. CHEA VANTHA",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "MR. CHEA VANTHA",
+      "isPrimary": true
     }
   ],
-  "remarks": "*225",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/311049"
+  ],
+  "remarks": "*225",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "190EO, MAO TSE TUNG BLVD, SANGKAT TUMNUP TEK, KHAN CHAMKER",
       "city": "PHNOM PENH",
       "country": "Cambodia",
-      "country_iso_code": "KH"
+      "countryIsoCode": "KH"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

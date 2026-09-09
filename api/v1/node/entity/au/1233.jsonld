@@ -1,79 +1,111 @@
 {
-  "id": "https://www.ammitto.org/entity/au/1233",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/1233",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "KHALIL AHMED HAQQANI",
+      "@type": "NameVariant",
+      "fullName": "KHALIL AHMED HAQQANI",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "خلیل احمد حقانی",
+      "@type": "NameVariant",
+      "fullName": "خلیل احمد حقانی",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Khalil Al-Rahman Haqqani ",
+      "@type": "NameVariant",
+      "fullName": "Khalil Al-Rahman Haqqani ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Khalil ur Rahman Haqqani ",
+      "@type": "NameVariant",
+      "fullName": "Khalil ur Rahman Haqqani ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Khaleel Haqqani  ",
+      "@type": "NameVariant",
+      "fullName": "Khaleel Haqqani  ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "TAi.150 Title: Haji. Has previously traveled to, and raised funds in, Dubai, United Arab Emirates. Brother of Jalaluddin Haqqani (TI.H.40.01.) and uncle of Sirajuddin Jallaloudine Haqqani (TI.H.144.07.).  Reportedly deceased as of 11 December 2024.; Listing: Listed on 9 Feb. 2011 (amended on 1 Jun. 2012 and 22 April 2013, 15 Apr. 2026)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/1233"
   ],
-  "birth_info": [
+  "remarks": "TAi.150 Title: Haji. Has previously traveled to, and raised funds in, Dubai, United Arab Emirates. Brother of Jalaluddin Haqqani (TI.H.40.01.) and uncle of Sirajuddin Jallaloudine Haqqani (TI.H.144.07.).  Reportedly deceased as of 11 December 2024.; Listing: Listed on 9 Feb. 2011 (amended on 1 Jun. 2012 and 22 April 2013, 15 Apr. 2026)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1966,
       "country": "Sarana Village"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1958,
       "country": "Garda Saray area"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1959,
       "country": "Waza Zadran District"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1960,
       "country": "Paktia Province"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1961,
       "country": "Afghanistan"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1962,
       "country": "Sarana Village"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1963,
       "country": "Sarana Village"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1964,
       "country": "Sarana Village"
     }
   ],
   "nationalities": [
     "Afghanistan"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Sarana Zadran Village, Paktia Province, Afghanistan  ",
       "country": "Afghanistan  "
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

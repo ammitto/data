@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/7063",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/7063",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Zhuwao Patrick",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Zhuwao Patrick",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/7063"
   ],
   "remarks": "Former ZANU-PF Member of Government. Disrupted Conference on the Constitution in July 2009. Terrorised MDC supporters around Norton, accompanied by CIO agents.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1967-05-23",
-      "circa": false
+      "circa": false,
+      "year": 1967
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

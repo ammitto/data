@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/36501",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/36501",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ri Su Yong",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Ri Su Yong",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/36501"
   ],
   "remarks": "Official for Korea Ryonbong General Corporation, specializes in acquisition for DPRK’s defense industries and support to Pyongyang’s military-related sales. Its procurements also probably support the DPRK’s chemical weapons programme.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1968-06-25",
-      "circa": false
+      "circa": false,
+      "year": 1968
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,51 +1,69 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7829",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7829",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Nabil Khaled Halil Chouman",
+      "@type": "NameVariant",
+      "fullName": "Nabil Khaled Halil Chouman",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Nabil Chouman",
+      "@type": "NameVariant",
+      "fullName": "Nabil Chouman",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Nabil Khalled Halil Chouman",
+      "@type": "NameVariant",
+      "fullName": "Nabil Khalled Halil Chouman",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Nabil Shuman",
+      "@type": "NameVariant",
+      "fullName": "Nabil Shuman",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "نبيل خالد هلال شومان",
+      "@type": "NameVariant",
+      "fullName": "نبيل خالد هلال شومان",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Listing: Charter of the United Nations (Listed Entities) Amendment (No. 1) Instrument 2024",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7829"
   ],
-  "birth_info": [
+  "remarks": "Listing: Charter of the United Nations (Listed Entities) Amendment (No. 1) Instrument 2024",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1954,
       "country": "Lebanon"
     }
   ],
   "nationalities": [
     "Lebanon"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Beirut, Lebanon",
       "country": "Lebanon"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

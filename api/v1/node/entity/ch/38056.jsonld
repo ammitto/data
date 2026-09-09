@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/38056",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/38056",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kanonga Gédéon Kyungu Mutanga Wa Bafunkwa",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kanonga Gédéon Kyungu Mutanga Wa Bafunkwa",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/38056"
   ],
   "remarks": "Gédéon Kyungu belongs to the Balubakat ethnic group. After completing primary education in Likasi and secondary school in Manono, he obtained a degree in pedagogy. In 1999 he joined the Maï Maï movement, commanding from 2003 one of the most active groups in the province of Katanga. In 2006, he visited UN peacekeeping forces to integrate through the disarmament, demobilization and reintegration (DDR) process. He escaped from prison in 2011 and surrendered in October 2016. He is a threat to the peace, stability and security of the DRC under UNSCR 2293 paragraph 7(e).",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1974
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

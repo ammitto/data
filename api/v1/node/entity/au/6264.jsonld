@@ -1,79 +1,105 @@
 {
-  "id": "https://www.ammitto.org/entity/au/6264",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/6264",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mohammad Ali Al Habbo",
+      "@type": "NameVariant",
+      "fullName": "Mohammad Ali Al Habbo",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Mohamad Abdulkarim ",
+      "@type": "NameVariant",
+      "fullName": "Mohamad Abdulkarim ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Muhammad Abd-al-Karim",
+      "@type": "NameVariant",
+      "fullName": "Muhammad Abd-al-Karim",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Al-Hebo",
+      "@type": "NameVariant",
+      "fullName": "Al-Hebo",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Al-Habu",
+      "@type": "NameVariant",
+      "fullName": "Al-Habu",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Alhobo",
+      "@type": "NameVariant",
+      "fullName": "Alhobo",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Habo",
+      "@type": "NameVariant",
+      "fullName": "Habo",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Hebbo",
+      "@type": "NameVariant",
+      "fullName": "Hebbo",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Habu ",
+      "@type": "NameVariant",
+      "fullName": "Habu ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Turkey-based facilitator who provides financial services to, or in support of, Islamic State in Iraq and the Levant, listed as Al-Qaida in Iraq (QDe.115). INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals. Syrian Arab Republic number 00814L001424; a) Syrian Arab Republic national identification card number 10716775 b) Syrian Arab Republic national identification card number 2020316097 c) Syrian Arab Republic national identification card number 2020409266; Listing: Listed on 17 June 2021",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/6264"
   ],
-  "birth_info": [
+  "remarks": "Turkey-based facilitator who provides financial services to, or in support of, Islamic State in Iraq and the Levant, listed as Al-Qaida in Iraq (QDe.115). INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals. Syrian Arab Republic number 00814L001424; a) Syrian Arab Republic national identification card number 10716775 b) Syrian Arab Republic national identification card number 2020316097 c) Syrian Arab Republic national identification card number 2020409266; Listing: Listed on 17 June 2021",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1983,
       "country": "Raqqa"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1983,
       "country": "Syrian Arab Republic"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1980,
       "country": "Raqqa"
     }
   ],
   "nationalities": [
     "Syria"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Gazantiep, Turkey (since 2016), Raqqa, Syrian Arab Republic",
       "country": "Syrian Arab Republic"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

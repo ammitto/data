@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/85414",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/85414",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ryazantsev Oleg Nikolaevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Ryazantsev Oleg Nikolaevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/85414"
   ],
   "remarks": "Oleg Ryazantsev, former Deputy Minister of Industry and Trade of the Russian Federation, is acting as Chief Executive Officer (CEO) of the Russian JSC “NPO Vysokotochnye Kompleksy” (High Precision Systems) since November 2022.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1982-04-16",
-      "circa": false
+      "circa": false,
+      "year": 1982
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

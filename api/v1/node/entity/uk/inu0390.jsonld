@@ -1,23 +1,44 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/inu0390",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/inu0390",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Monajemi",
-      "first_name": "Ehsan",
+      "@type": "NameVariant",
+      "fullName": "Monajemi",
+      "firstName": "Ehsan",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Monajemi",
-      "first_name": "Ihsan",
+      "@type": "NameVariant",
+      "fullName": "Monajemi",
+      "firstName": "Ihsan",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Persons involved in nuclear programme. Construction Project Manager Natanz",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/inu0390"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "remarks": "Persons involved in nuclear programme. Construction Project Manager Natanz",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

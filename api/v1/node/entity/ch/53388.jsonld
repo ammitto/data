@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/53388",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/53388",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Borodin Sergey Alekseevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Borodin Sergey Alekseevich",
+      "isPrimary": true
     }
   ],
-  "remarks": "Former so-called “Chairman of the State Committee for Taxes and Duties” of the so-called “Luhansk People’s Republic”. In taking on and acting in this capacity, he has actively undermined the territorial integrity, sovereignty and independence of Ukraine.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/53388"
+  ],
+  "remarks": "Former so-called “Chairman of the State Committee for Taxes and Duties” of the so-called “Luhansk People’s Republic”. In taking on and acting in this capacity, Sergey Borodin has actively undermined the territorial integrity, sovereignty and independence of Ukraine.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1968-01-15",
-      "circa": false
+      "circa": false,
+      "year": 1968
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

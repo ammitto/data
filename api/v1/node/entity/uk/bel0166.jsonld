@@ -1,38 +1,56 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/bel0166",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/bel0166",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "CJSC Alfa Bank Belarus",
+      "@type": "NameVariant",
+      "fullName": "CJSC Alfa Bank Belarus",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Alfa Bank Belarus",
+      "@type": "NameVariant",
+      "fullName": "Alfa Bank Belarus",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Closed Joint Stock Company Alfa Bank",
+      "@type": "NameVariant",
+      "fullName": "Closed Joint Stock Company Alfa Bank",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "ЗАО Альфа-Банк",
+      "@type": "NameVariant",
+      "fullName": "ЗАО Альфа-Банк",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/bel0166"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "43-47 Surganova Street",
       "state": "Minsk",
       "country": "Belarus"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

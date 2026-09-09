@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/51290",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/51290",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Melnichenko Andrey Igorevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Melnichenko Andrey Igorevich",
+      "isPrimary": true
     }
   ],
-  "remarks": "Andrey Melnichenko is a Russian industrialist who continues to control major fertiliser producer EuroChem Group and coal company SUEK. On 9 March 2022, Melnichenko transferred his interests in SUEK and Eurochem Group to his spouse, Aleksandra Melnichenko. He continues to benefit from the wealth he transferred to his wife. His wealth has increased very considerably in recent years.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/51290"
+  ],
+  "remarks": "Andrey Melnichenko is a Russian industrialist who continues to control major fertiliser producer EuroChem Group and coal company SUEK. On 9 March 2022, Melnichenko transferred his interests in SUEK and EuroChem Group to his spouse, Aleksandra Melnichenko. Andrey Melnichenko continues to benefit from the wealth he transferred to his wife. His wealth has increased very considerably in recent years.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1972-03-08",
-      "circa": false
+      "circa": false,
+      "year": 1972
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

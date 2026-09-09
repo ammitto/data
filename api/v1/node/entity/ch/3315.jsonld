@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/3315",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/3315",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Nsanzubukire Felicien",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Nsanzubukire Felicien",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/3315"
   ],
   "remarks": "Felicien Nsanzubukire supervised and coordinated the trafficking of ammunition and weapons between at least November 2008 and April 2009 from the United Republic of Tanzania, via Lake Tanganyika, to FDLR units based in the Uvira and Fizi areas of South Kivu.",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1967
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

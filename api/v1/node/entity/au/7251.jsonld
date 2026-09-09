@@ -1,30 +1,47 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7251",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7251",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Evgeny Grigorievich NOVITSKY",
+      "@type": "NameVariant",
+      "fullName": "Evgeny Grigorievich NOVITSKY",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Evgeni Grigorevich NOVITSKI",
+      "@type": "NameVariant",
+      "fullName": "Evgeni Grigorevich NOVITSKI",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Former head of Sistema and Chairman of Radiotechnical and Information Systems Concern (RTI); Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 18) Instrument 2022",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7251"
   ],
-  "birth_info": [
+  "remarks": "Former head of Sistema and Chairman of Radiotechnical and Information Systems Concern (RTI); Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 18) Instrument 2022",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1957,
       "country": "Asino"
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

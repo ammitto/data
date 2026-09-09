@@ -1,29 +1,46 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7322",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7322",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Tin Aung San",
+      "@type": "NameVariant",
+      "fullName": "Tin Aung San",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Admiral Tin Aung San",
+      "@type": "NameVariant",
+      "fullName": "Admiral Tin Aung San",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Minister for Transport and Communications; Member of the State Administration Council; Listing: Autonomous Sanctions (Designated and Declared Persons—Myanmar) Amendment Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7322"
   ],
-  "birth_info": [
+  "remarks": "Minister for Transport and Communications; Member of the State Administration Council; Listing: Autonomous Sanctions (Designated and Declared Persons—Myanmar) Amendment Instrument 2023",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1960
     }
   ],
   "nationalities": [
     "Myanmar"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

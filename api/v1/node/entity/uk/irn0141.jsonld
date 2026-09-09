@@ -1,42 +1,63 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/irn0141",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/irn0141",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Tabatabai",
-      "first_name": "Seyyed",
+      "@type": "NameVariant",
+      "fullName": "Tabatabai",
+      "firstName": "Seyyed",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Tabatbayi",
-      "first_name": "Aminallah",
+      "@type": "NameVariant",
+      "fullName": "Tabatbayi",
+      "firstName": "Aminallah",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Tabatbayi",
-      "first_name": "Aminallah",
+      "@type": "NameVariant",
+      "fullName": "Tabatbayi",
+      "firstName": "Aminallah",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "سید امین الله امامی طباطبایی",
+      "@type": "NameVariant",
+      "fullName": "سید امین الله امامی طباطبایی",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/irn0141"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Unit 29 5th Floor, Talaieh Block -B1, Elahiyeh Complex 1 Number 0, Alley 2- Shahid Sajjad Rushanai, Rabbaninejad Street",
       "city": "Zein Aldin Municipality",
       "state": "Qom",
       "country": "Iran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,22 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/818299",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/wb/818299",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "FARAD DOS SANTOS MERCÊS",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "FARAD DOS SANTOS MERCÊS",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/818299"
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "RUA TEIXEIRA DE FREITAS 272, SALGADO FILHO",
       "city": "ARACAJU - SE, 49020-530",
       "country": "Brazil",
-      "country_iso_code": "BR"
+      "countryIsoCode": "BR"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

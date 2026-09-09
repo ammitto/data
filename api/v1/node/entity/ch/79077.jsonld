@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/79077",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/79077",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Abdul Rahman Ahmad Hottak Maulavi",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Abdul Rahman Ahmad Hottak Maulavi",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/79077"
   ],
   "remarks": "Deputy (Cultural) Minister of Information and Culture under the Taliban regime.",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1957
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

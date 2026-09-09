@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/63057",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/63057",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Belova Olga Nikolaevna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Belova Olga Nikolaevna",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/63057"
   ],
   "remarks": "Olga BELOVA is a propagandist working at TV Zvezda, an outlet of the Russian Armed Forces. She is a host of TV Zvezda’s flagship programmes, which regularly spreads disinformation regarding Russia’s war of aggression against Ukraine, undermines\nUkraine’s territorial integrity and sovereignty, and provides crucial media support for Kremlin policy. In particular, she has spread disinformation concerning Ukrainians being Nazis who are also preparing biological and chemical bombs against Russians.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1976-07-19",
-      "circa": false
+      "circa": false,
+      "year": 1976
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

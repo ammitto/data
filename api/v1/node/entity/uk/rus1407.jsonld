@@ -1,38 +1,56 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus1407",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus1407",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "ANALITICHESKI TSENTR KATEKHON OOO",
+      "@type": "NameVariant",
+      "fullName": "ANALITICHESKI TSENTR KATEKHON OOO",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "KATEHON",
+      "@type": "NameVariant",
+      "fullName": "KATEHON",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Katekhon",
+      "@type": "NameVariant",
+      "fullName": "Katekhon",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Центр Катехон",
+      "@type": "NameVariant",
+      "fullName": "Центр Катехон",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Organization Established Date 11 Feb 2016 The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus1407"
+  ],
+  "remarks": "Organization Established Date 11 Feb 2016 The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "ul. Gorbunova d. 2, str. 3, e 9 pom II of 89",
       "state": "Moscow",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

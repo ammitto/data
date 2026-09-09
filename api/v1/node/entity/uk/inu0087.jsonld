@@ -1,38 +1,56 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/inu0087",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/inu0087",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Karanir",
+      "@type": "NameVariant",
+      "fullName": "Karanir",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Karanir Sanat Co.",
+      "@type": "NameVariant",
+      "fullName": "Karanir Sanat Co.",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Moaser",
+      "@type": "NameVariant",
+      "fullName": "Moaser",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Tajhiz Sanat",
+      "@type": "NameVariant",
+      "fullName": "Tajhiz Sanat",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/inu0087"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "1139/1 Unit 104 Gol Building, Gol Alley, North Side of Sae, Vali Asr Avenue",
       "city": "PO Box 19395-6439",
       "state": "Tehran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

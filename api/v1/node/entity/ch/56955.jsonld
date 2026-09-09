@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/56955",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/56955",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Bulgakov Dmitriy Vitalyevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Bulgakov Dmitriy Vitalyevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/56955"
   ],
   "remarks": "Deputy Minister of Defense of the Russian Federation until Sep 2022 and General in the Russian Army. In this role, he is responsible for the Russian war effort at large. Furthermore, he has openly justified, defended and supported Russia’s war of aggression against Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1954-10-20",
-      "circa": false
+      "circa": false,
+      "year": 1954
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

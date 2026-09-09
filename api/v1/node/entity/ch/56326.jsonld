@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/56326",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/56326",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kholin Dmitryi Vladimirovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kholin Dmitryi Vladimirovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/56326"
   ],
   "remarks": "Dmitryi Kholin is a member of the Samara Provincial Duma, where he served as the Chairman of the Regulations Committee. He is currently the Deputy Governor of the Samara Region and Head of Administration for the Governor of the Region. From 2020 to 2021 he was the head of the Executive Committee of the Samara Regional Branch of the Kremlin-aligned ruling party “United Russia”. He is also a member of the Samara Regional Branch of the all-Russian public organisation “Combat Brotherhood” (organisation for veterans).",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1977-09-25",
-      "circa": false
+      "circa": false,
+      "year": 1977
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

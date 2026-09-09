@@ -1,49 +1,71 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3620",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/3620",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mohammed Masood Azhar Alvi",
+      "@type": "NameVariant",
+      "fullName": "Mohammed Masood Azhar Alvi",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "محمد مسعود اظہر علوی",
+      "@type": "NameVariant",
+      "fullName": "محمد مسعود اظہر علوی",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Masud Azhar",
+      "@type": "NameVariant",
+      "fullName": "Masud Azhar",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Wali Adam Isah",
+      "@type": "NameVariant",
+      "fullName": "Wali Adam Isah",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Wali Adam Esah",
+      "@type": "NameVariant",
+      "fullName": "Wali Adam Esah",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Founder of Jaish-i-Mohammed (QDe.019). Former leader of Harakat ul-Mujahidin / HUM (QDe.008).; Listing: Listed on: 1 May 2019",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3620"
   ],
-  "birth_info": [
+  "remarks": "Founder of Jaish-i-Mohammed (QDe.019). Former leader of Harakat ul-Mujahidin / HUM (QDe.008).; Listing: Listed on: 1 May 2019",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1968,
       "country": "Bahawalpur"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1968,
       "country": "Punjab Province"
     }
   ],
   "nationalities": [
     "Pakistan"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

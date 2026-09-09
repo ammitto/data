@@ -1,31 +1,53 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/lib0062",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/lib0062",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "AL-BARASSI",
-      "first_name": "SAFIA",
+      "@type": "NameVariant",
+      "fullName": "AL-BARASSI",
+      "firstName": "SAFIA",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Al-Hadad",
-      "first_name": "Safia",
+      "@type": "NameVariant",
+      "fullName": "Al-Hadad",
+      "firstName": "Safia",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Listed pursuant to paragraph 19 of resolution 1973 (Asset Freeze). INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/notice/search/un/5526015. Believed Location - Egypt",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/lib0062"
+  ],
+  "remarks": "Listed pursuant to paragraph 19 of resolution 1973 (Asset Freeze). INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/notice/search/un/5526015. Believed Location - Egypt",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "country": "Egypt"
     },
     {
+      "@type": "Address",
+      "street": "",
       "country": "Oman"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

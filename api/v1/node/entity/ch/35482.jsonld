@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/35482",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/35482",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kim Se Gon",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kim Se Gon",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/35482"
   ],
   "remarks": "Kim Se Gon works on behalf of the Ministry of Atomic Energy Industry.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1969-11-13",
-      "circa": false
+      "circa": false,
+      "year": 1969
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

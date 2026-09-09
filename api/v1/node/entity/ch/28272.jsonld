@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/28272",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/28272",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Zdriliuk Serhii Anatoliyovych",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Zdriliuk Serhii Anatoliyovych",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/28272"
   ],
   "remarks": "Senior aid to Igor Strelkov/Girkin who is responsible for actions which undermine or threaten the territorial integrity, sovereignty and independence of Ukraine. In taking on and acting in this capacity, Zdriliuk has therefore supported actions and policies which undermine the territorial integrity, sovereignty and independence of Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1972-06-23",
-      "circa": false
+      "circa": false,
+      "year": 1972
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

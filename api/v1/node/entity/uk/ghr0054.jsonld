@@ -1,27 +1,47 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/ghr0054",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/ghr0054",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "BALABA",
-      "first_name": "Dmitry",
+      "@type": "NameVariant",
+      "fullName": "BALABA",
+      "firstName": "Dmitry",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "БАЛАБА, Дмитрий Владимирович",
+      "@type": "NameVariant",
+      "fullName": "БАЛАБА, Дмитрий Владимирович",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/ghr0054"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "country": "Belarus"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

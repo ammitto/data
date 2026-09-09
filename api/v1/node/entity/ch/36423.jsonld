@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/36423",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/36423",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Choe Hwi",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Choe Hwi",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/36423"
   ],
   "remarks": "First Vice Director of the Workers' Party of Korea Propaganda and Agitation Department, which controls all DPRK media and is used by the government to control the public.",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1954
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

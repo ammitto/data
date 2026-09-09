@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/62697",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/62697",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Alyoshin Boris Sergeevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Alyoshin Boris Sergeevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/62697"
   ],
   "remarks": "Boris Alyoshin is a Russian businessman involved in the activities of Russian companies and corporations contributing to the strengthening of Russia’s military base. He is one of the founders and managers of the LLC “SoyuzMash Russia”, which unites more than a thousand Russian military and civilian industries.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1955-03-03",
-      "circa": false
+      "circa": false,
+      "year": 1955
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

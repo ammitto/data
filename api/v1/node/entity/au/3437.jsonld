@@ -1,29 +1,46 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3437",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/3437",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mun Kyong Hwan",
+      "@type": "NameVariant",
+      "fullName": "Mun Kyong Hwan",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Mun Kyo'ng-hwan",
+      "@type": "NameVariant",
+      "fullName": "Mun Kyo'ng-hwan",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "KPi.071 Mun Kyong Hwan is an overseas Bank of East Land representative. Passport No: 381120660 (Expires 25 March 2016). Gender: male.; Listing: Listed on: 22 Dec. 2017",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3437"
   ],
-  "birth_info": [
+  "remarks": "KPi.071 Mun Kyong Hwan is an overseas Bank of East Land representative. Passport No: 381120660 (Expires 25 March 2016). Gender: male.; Listing: Listed on: 22 Dec. 2017",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1967
     }
   ],
   "nationalities": [
     "Democratic People's Republic of Korea (North Korea)"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

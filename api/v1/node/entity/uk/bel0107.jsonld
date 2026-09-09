@@ -1,53 +1,74 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/bel0107",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/bel0107",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "BNK (UK) Ltd",
+      "@type": "NameVariant",
+      "fullName": "BNK (UK) Ltd",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "BNK (UK)",
+      "@type": "NameVariant",
+      "fullName": "BNK (UK)",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "BNK (UK) Limited",
+      "@type": "NameVariant",
+      "fullName": "BNK (UK) Limited",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "BNK UK",
+      "@type": "NameVariant",
+      "fullName": "BNK UK",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "BNK UK Limited",
+      "@type": "NameVariant",
+      "fullName": "BNK UK Limited",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "BNK UK Ltd",
+      "@type": "NameVariant",
+      "fullName": "BNK UK Ltd",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/bel0107"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "26-28 Hammersmith Grove, MWB Business Exchange Centre",
       "country": "United Kingdom"
     },
     {
+      "@type": "Address",
       "street": "Salatin House, 19 Cedar Road",
       "city": "Sutton",
       "state": "Surrey",
       "country": "United Kingdom"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,59 +1,83 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/irq0145",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/irq0145",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "AL-TIKRITI",
-      "first_name": "IBRAHIM",
+      "@type": "NameVariant",
+      "fullName": "AL-TIKRITI",
+      "firstName": "IBRAHIM",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Al-Tikriti",
-      "first_name": "Ibrahim",
+      "@type": "NameVariant",
+      "fullName": "Al-Tikriti",
+      "firstName": "Ibrahim",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Al-Tikriti",
-      "first_name": "Ibrahim",
+      "@type": "NameVariant",
+      "fullName": "Al-Tikriti",
+      "firstName": "Ibrahim",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Al-Tikriti",
-      "first_name": "Ibrahim",
+      "@type": "NameVariant",
+      "fullName": "Al-Tikriti",
+      "firstName": "Ibrahim",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Salman",
-      "first_name": "Muhammad",
+      "@type": "NameVariant",
+      "fullName": "Salman",
+      "firstName": "Muhammad",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "إبراهيم سبعاوي إبراهيم حسن التكريتي",
+      "@type": "NameVariant",
+      "fullName": "إبراهيم سبعاوي إبراهيم حسن التكريتي",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/irq0145"
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Al-Shahid Street",
       "city": "Al-Mahata Neighbourhood",
       "state": "Az Zabadani",
       "country": "Syria"
     },
     {
+      "@type": "Address",
       "street": "Fuad Dawod Farm",
       "city": "Az Zabadani",
       "state": "Damascus",
       "country": "Syria"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

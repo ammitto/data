@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/58242",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/58242",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Falkov Valery Nikolayevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Falkov Valery Nikolayevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/58242"
   ],
   "remarks": "Valery Nikolayevich Falkov is the Minister of Science and Higher Education of the Russian Federation. Under his control, the higher education in the so-called ‘Donetsk People’s Republic’ and ‘Luhansk People’s Republic’ has been incorporated into the Russian education system, and financial provisions have been made to fund science and higher education on the territory of the four illegally annexed regions of Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1978-10-18",
-      "circa": false
+      "circa": false,
+      "year": 1978
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

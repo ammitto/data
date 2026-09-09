@@ -1,37 +1,55 @@
 {
-  "id": "https://www.ammitto.org/entity/au/2938",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/2938",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "The Volga Group",
+      "@type": "NameVariant",
+      "fullName": "The Volga Group",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Volga Group Investments",
+      "@type": "NameVariant",
+      "fullName": "Volga Group Investments",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "OOO Volga Group",
+      "@type": "NameVariant",
+      "fullName": "OOO Volga Group",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Volga Resources",
+      "@type": "NameVariant",
+      "fullName": "Volga Resources",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "An investment strategy group that is owned or controlled by Gennady Timchenko. \nWebsite: http://volga-resources.ru/ \nWebsite: http://volga-group.com/en/\nCompany Identification No.: B127651; Listing: Listed on 16 June 2017, re-listed 10 Jun 2020 and 29 March 2021 and 10 June 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/2938"
+  ],
+  "remarks": "An investment strategy group that is owned or controlled by Gennady Timchenko. \nWebsite: http://volga-resources.ru/ \nWebsite: http://volga-group.com/en/\nCompany Identification No.: B127651; Listing: Listed on 16 June 2017, re-listed 10 Jun 2020 and 29 March 2021 and 10 June 2023",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "3, rue de la Reine L-2418, Luxembourg; 58, Rue Charles Martel, L-2134, Luxembourg",
       "country": "Luxembourg"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

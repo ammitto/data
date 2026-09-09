@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/84532",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/84532",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mu'tassim Yahya 'Ali al-Rumaysh",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Mu'tassim Yahya 'Ali al-Rumaysh",
+      "isPrimary": true
     }
   ],
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/84532"
+  ],
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1973-01-04",
-      "circa": false
+      "circa": false,
+      "year": 1973
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

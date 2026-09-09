@@ -1,39 +1,57 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus0201",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus0201",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "'Joint-Stock Company 'Sparkling Wine Plant Novy Svet'",
+      "@type": "NameVariant",
+      "fullName": "'Joint-Stock Company 'Sparkling Wine Plant Novy Svet'",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Gosudarstvennoye unitarnoye predpriyatiye Respubliki Krym 'Zavod shampanskykh vin 'Novy Svet'",
+      "@type": "NameVariant",
+      "fullName": "Gosudarstvennoye unitarnoye predpriyatiye Respubliki Krym 'Zavod shampanskykh vin 'Novy Svet'",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "State Enterprise 'Sparkling Wine Plant 'Novy Svet'",
+      "@type": "NameVariant",
+      "fullName": "State Enterprise 'Sparkling Wine Plant 'Novy Svet'",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "State Unitary Enterprise of the 'Republic of Crimea' 'Sparkling Wine Plant Novy Svet'",
+      "@type": "NameVariant",
+      "fullName": "State Unitary Enterprise of the 'Republic of Crimea' 'Sparkling Wine Plant Novy Svet'",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus0201"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Str. Shalapina 1, Novy Svet",
       "city": "Sudak",
       "state": "The Autonomous Republic of Crimea and the city of Sevastopol",
       "country": "Ukraine"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

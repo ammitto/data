@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/au/6780",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/6780",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "National Wealth Fund of the Russian Federation",
+      "@type": "NameVariant",
+      "fullName": "National Wealth Fund of the Russian Federation",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "Website: minfin.gov.ru/en/key/nationalwealthfund; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 8) Instrument 2022",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/6780"
+  ],
+  "remarks": "Website: minfin.gov.ru/en/key/nationalwealthfund; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 8) Instrument 2022",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Ilinka Str 9, Moscow 109097, Russia",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,22 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/au/1782",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/1782",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Milan Lukić",
+      "@type": "NameVariant",
+      "fullName": "Milan Lukić",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "ICTY Indictee; Listing: Designated under the Autonomous Sanctions Regulations 2011 on 2 March 2012. Formerly listed on the RBA as 2001FRY0027. (Relisted on 12 January 2024)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/1782"
   ],
-  "birth_info": [
+  "remarks": "ICTY Indictee; Listing: Designated under the Autonomous Sanctions Regulations 2011 on 2 March 2012. Formerly listed on the RBA as 2001FRY0027. (Relisted on 12 January 2024)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1967,
       "country": "Foča"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

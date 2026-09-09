@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/31518",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/31518",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Gabriel Jok Riak Makol Lieutenant General",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Gabriel Jok Riak Makol Lieutenant General",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/31518"
   ],
   "remarks": "Former Sudan People’s Liberation Army’s (SPLA) Sector One Commander.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1966-01-01",
-      "circa": false
+      "circa": false,
+      "year": 1966
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,23 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/618874",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/wb/618874",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MR. RAMIL BAHADIR OĜLU ALIYEV",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "MR. RAMIL BAHADIR OĜLU ALIYEV",
+      "isPrimary": true
     }
   ],
-  "remarks": "*600",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/618874"
+  ],
+  "remarks": "*600",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "I.ISMALIYOV STREET, DOM 8, KVARTIRA 79",
       "city": "KHATAINSKIY RAYON, BAKU",
       "country": "Azerbaijan",
-      "country_iso_code": "AZ"
+      "countryIsoCode": "AZ"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

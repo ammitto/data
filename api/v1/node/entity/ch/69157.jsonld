@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/69157",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/69157",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Borisova Darya Olegovna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Borisova Darya Olegovna",
+      "isPrimary": true
     }
   ],
-  "remarks": "Darya Borisova is the Director of Educational and Methodological Centre “Avangard”, an organisation providing so-called patriotic education, including basic military training, to the youths of Russia, as well as to children in the temporarily occupied regions of Ukraine.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/69157"
+  ],
+  "remarks": "Darya Borisova is the Director of Educational and Methodological Centre “Avangard”, an organisation providing so-called “patriotic education”, including basic military training, to the youths of Russia, as well as to children in the temporarily occupied regions of Ukraine. She also serves as deputy of the Moscow City Duma from the United Russia party.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1990-05-02",
-      "circa": false
+      "circa": false,
+      "year": 1990
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

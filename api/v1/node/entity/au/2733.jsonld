@@ -1,47 +1,71 @@
 {
-  "id": "https://www.ammitto.org/entity/au/2733",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/2733",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Colonel-General Andrei Valeryevich KARTAPOLOV",
+      "@type": "NameVariant",
+      "fullName": "Colonel-General Andrei Valeryevich KARTAPOLOV",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Andrei Valeryevich KARTAPOLOV",
+      "@type": "NameVariant",
+      "fullName": "Andrei Valeryevich KARTAPOLOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Andrei KARTAPOLOV",
+      "@type": "NameVariant",
+      "fullName": "Andrei KARTAPOLOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Andrey Valerievich KARTAPOLOV",
+      "@type": "NameVariant",
+      "fullName": "Andrey Valerievich KARTAPOLOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Andriy Valeriyovych KARTAPOLOV",
+      "@type": "NameVariant",
+      "fullName": "Andriy Valeriyovych KARTAPOLOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Colonel-General Andrei KARTAPOLOV",
+      "@type": "NameVariant",
+      "fullName": "Colonel-General Andrei KARTAPOLOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Former Commander of the Western Military District (appointed in November 2015).  Actively involved in shaping and implementing the military campaign of the Russian forces in Ukraine.  Deputy Minister of Defence since July 2018.; Listing: Listed on 16 June 2017, re-listed 10 Jun 2020 and 29 March 2021 and 10 June 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/2733"
   ],
-  "birth_info": [
+  "remarks": "Former Commander of the Western Military District (appointed in November 2015).  Actively involved in shaping and implementing the military campaign of the Russian forces in Ukraine.  Deputy Minister of Defence since July 2018.; Listing: Listed on 16 June 2017, re-listed 10 Jun 2020 and 29 March 2021 and 10 June 2023",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1963,
       "country": "Former German Democratic Republic (DDR)"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

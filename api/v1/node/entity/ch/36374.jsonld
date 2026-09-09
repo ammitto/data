@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/36374",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/36374",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Salam Mohammad al-Saffaf",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Salam Mohammad al-Saffaf",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/36374"
   ],
   "remarks": "Administrative Development Minister under the former al-Assad regime. Appointed in March 2017.",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1979
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,21 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/cn/12-act1-federal",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/cn/12-act1-federal",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "ACT1 Federal",
+      "@type": "NameVariant",
+      "fullName": "ACT1 Federal",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "ACT1联邦公司",
+      "@type": "NameVariant",
+      "fullName": "ACT1联邦公司",
       "script": "Hani",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "List: cn/anti-sanction-list",
-  "sanction_entry_ids": [
-    "https://www.ammitto.org/entry/cn/unknown/12-act1-federal"
+  "sourceReferences": [
+
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/cn/anti-sanction-list/12-act1-federal"
+  ],
+  "remarks": "List: cn/anti-sanction-list",
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,27 +1,43 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8726",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/8726",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "National Standard Bank Joint Stock Company",
+      "@type": "NameVariant",
+      "fullName": "National Standard Bank Joint Stock Company",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Bank Natsionalniy Standart",
+      "@type": "NameVariant",
+      "fullName": "Bank Natsionalniy Standart",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Website: https://www.ns-bank.ru/; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2026",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8726"
+  ],
+  "remarks": "Website: https://www.ns-bank.ru/; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2026",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Building 57-Building 2-3, Party Lane 1, Moscow, 115093, Russia",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

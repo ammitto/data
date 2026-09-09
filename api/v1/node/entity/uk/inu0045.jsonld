@@ -1,48 +1,68 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/inu0045",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/inu0045",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Tidewater",
+      "@type": "NameVariant",
+      "fullName": "Tidewater",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Faraz Royal Qeshm LLC",
+      "@type": "NameVariant",
+      "fullName": "Faraz Royal Qeshm LLC",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Middle East Tidewater Company",
+      "@type": "NameVariant",
+      "fullName": "Middle East Tidewater Company",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Tidewater Middle East Co.",
+      "@type": "NameVariant",
+      "fullName": "Tidewater Middle East Co.",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Tidewater Middle East Company",
+      "@type": "NameVariant",
+      "fullName": "Tidewater Middle East Company",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "شرکت تایدواتر خاورمیانه",
+      "@type": "NameVariant",
+      "fullName": "شرکت تایدواتر خاورمیانه",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/inu0045"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "No. 80, Tidewater Building, Vozara Street, Saie Park",
       "state": "Tehran",
       "country": "Iran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

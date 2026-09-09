@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/80143",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/80143",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ahmed Shah Noorzai Obaidullah Mullah",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Ahmed Shah Noorzai Obaidullah Mullah",
+      "isPrimary": true
     }
   ],
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/80143"
+  ],
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1985-01-01",
-      "circa": false
+      "circa": false,
+      "year": 1985
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

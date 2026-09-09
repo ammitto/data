@@ -1,55 +1,77 @@
 {
-  "id": "https://www.ammitto.org/entity/au/2262",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/2262",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ra'if AL-QUWATL",
+      "@type": "NameVariant",
+      "fullName": "Ra'if AL-QUWATL",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Ri’af AL-QUATLI",
+      "@type": "NameVariant",
+      "fullName": "Ri’af AL-QUATLI",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ra’if AL-QUWATLY",
+      "@type": "NameVariant",
+      "fullName": "Ra’if AL-QUWATLY",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Raeef AL-KOUATLY",
+      "@type": "NameVariant",
+      "fullName": "Raeef AL-KOUATLY",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Raif AL-KOUATLY",
+      "@type": "NameVariant",
+      "fullName": "Raif AL-KOUATLY",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Raif AL-QUWATLI",
+      "@type": "NameVariant",
+      "fullName": "Raif AL-QUWATLI",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Raif AL-QUWATLY",
+      "@type": "NameVariant",
+      "fullName": "Raif AL-QUWATLY",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Last known position: Business associate of Mahir AL‑ASSAD.; Listing: Designated under the Autonomous Sanctions Regulations 2011 on 2 March 2012. Formerly listed on the RBA Consolidated List as 2011SYR0040. Relisted on 12 January 2024.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/2262"
   ],
-  "birth_info": [
+  "remarks": "Last known position: Business associate of Mahir AL‑ASSAD.; Listing: Designated under the Autonomous Sanctions Regulations 2011 on 2 March 2012. Formerly listed on the RBA Consolidated List as 2011SYR0040. Relisted on 12 January 2024.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1967,
       "country": "Damascus"
     }
   ],
   "nationalities": [
     "Syria"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

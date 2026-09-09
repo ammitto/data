@@ -1,29 +1,46 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7862",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7862",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Svetlana Viktorovna ADAMENKO",
+      "@type": "NameVariant",
+      "fullName": "Svetlana Viktorovna ADAMENKO",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Svitlana Viktorivna ADAMENKO",
+      "@type": "NameVariant",
+      "fullName": "Svitlana Viktorivna ADAMENKO",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Children’s Rights Commissioner of Stavropol Krai; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2024",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7862"
   ],
-  "birth_info": [
+  "remarks": "Children’s Rights Commissioner of Stavropol Krai; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2024",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1956
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

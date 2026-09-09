@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/74544",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/74544",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Marchevskyi Artem Pavlovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Marchevskyi Artem Pavlovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/74544"
   ],
   "remarks": "Artem Marchevskyi is a former Ukrainian politician, who is closely associated with Viktor Medvedchuk, a former Ukrainian politician and businessperson.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1988-07-05",
-      "circa": false
+      "circa": false,
+      "year": 1988
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

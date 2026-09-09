@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/38915",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/38915",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Guzeyeva Inna Nikolayevna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Guzeyeva Inna Nikolayevna",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/38915"
   ],
   "remarks": "Deputy Chair of the Crimea Electoral Commission. In this capacity, she participated in the organisation of the Russian presidential elections of 18 Mar 2018, regional and local elections of 8 Sep 2019, and State Duma election in Sep 2021 in the illegally annexed Crimea and Sevastopol, and thereby actively supported and implemented policies that undermine the territorial integrity, sovereignty and independence of Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1971-05-20",
-      "circa": false
+      "circa": false,
+      "year": 1971
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

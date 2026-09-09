@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/561405",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/561405",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "A2Z WASTE MANAGEMENT (ALIGARH) LTD.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "A2Z WASTE MANAGEMENT (ALIGARH) LTD.",
+      "isPrimary": true
     }
   ],
-  "remarks": "*553",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/561405"
+  ],
+  "remarks": "*553",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "GROUND FLOOR, PLOT NO. 58, SECTOR-44, GURUGRAM-122003",
       "city": "HARYANA",
       "country": "India",
-      "country_iso_code": "IN"
+      "countryIsoCode": "IN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

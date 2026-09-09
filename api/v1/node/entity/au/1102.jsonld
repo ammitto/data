@@ -1,36 +1,52 @@
 {
-  "id": "https://www.ammitto.org/entity/au/1102",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/1102",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "REDOUANE EL HABHAB",
+      "@type": "NameVariant",
+      "fullName": "REDOUANE EL HABHAB",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Abdelrahman",
+      "@type": "NameVariant",
+      "fullName": "Abdelrahman",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Passport no.: German passport number 1005552350, issued on 27 Mar. 2001 by Municipality of Kiel, Germany, expired on 26 Mar. 2011 National identification no.: German federal identity card number 1007850441, issued on 27 Mar. 2001 by Municipality of Kiel, Germany, expired on 26 Mar. 2011. Released from custody in Germany in Apr. 2012. Review pursuant to Security Council resolution 2368 (2017) was concluded on 15 November 2021.; Listing: Listed by the UN 1267 Committee on 12 Nov. 2008 (amended on 30 Jan. 2009, 24 Mar. 2009, 15 Nov 2012).",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/1102"
   ],
-  "birth_info": [
+  "remarks": "Passport no.: German passport number 1005552350, issued on 27 Mar. 2001 by Municipality of Kiel, Germany, expired on 26 Mar. 2011 National identification no.: German federal identity card number 1007850441, issued on 27 Mar. 2001 by Municipality of Kiel, Germany, expired on 26 Mar. 2011. Released from custody in Germany in Apr. 2012. Review pursuant to Security Council resolution 2368 (2017) was concluded on 15 November 2021.; Listing: Listed by the UN 1267 Committee on 12 Nov. 2008 (amended on 30 Jan. 2009, 24 Mar. 2009, 15 Nov 2012).",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1969,
       "country": "Casablanca"
     }
   ],
   "nationalities": [
-    "Germany;Morocco"
+    "Germany",
+    "Morocco"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "lltisstrasse 58, 24143 Kiel, Germany (previous address)",
       "country": "Germany (previous address)"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

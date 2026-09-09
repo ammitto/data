@@ -1,35 +1,53 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8051",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/8051",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Iskander Kakhramonovich MAKHMUDOV",
+      "@type": "NameVariant",
+      "fullName": "Iskander Kakhramonovich MAKHMUDOV",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Iskandar Kakhramonovic MAKHMUDOV",
+      "@type": "NameVariant",
+      "fullName": "Iskandar Kakhramonovic MAKHMUDOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Iskandar Kakhramonovych MAKHMUDOV",
+      "@type": "NameVariant",
+      "fullName": "Iskandar Kakhramonovych MAKHMUDOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Co-founder and President of Ural Mining Metallurgical Company; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8051"
   ],
-  "birth_info": [
+  "remarks": "Co-founder and President of Ural Mining Metallurgical Company; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1963,
       "country": "Bukhara"
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

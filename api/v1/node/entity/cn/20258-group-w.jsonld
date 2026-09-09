@@ -1,21 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/cn/20258-group-w",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/cn/20258-group-w",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Group W",
+      "@type": "NameVariant",
+      "fullName": "Group W",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Group W公司",
+      "@type": "NameVariant",
+      "fullName": "Group W公司",
       "script": "Hani",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "List: cn/unreliable-entity-list",
-  "sanction_entry_ids": [
-    "https://www.ammitto.org/entry/cn/unknown/20258-group-w"
+  "sourceReferences": [
+
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/cn/unreliable-entity-list/20258-group-w"
+  ],
+  "remarks": "List: cn/unreliable-entity-list",
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

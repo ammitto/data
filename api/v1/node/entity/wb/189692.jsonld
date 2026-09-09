@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/189692",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/189692",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "URALKOTLOSERVICE PKF ZAO (TAMBOV)",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "URALKOTLOSERVICE PKF ZAO (TAMBOV)",
+      "isPrimary": true
     }
   ],
-  "remarks": "(also known as UralKotloservice Commercial Production Firm Closed Joint-Stock Co.) *78",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/189692"
+  ],
+  "remarks": "(also known as UralKotloservice Commercial Production Firm Closed Joint-Stock Co.) *78",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "7A SHIROKAYA STREET, 390218",
       "city": "TAMBOV",
       "country": "Russian Federation",
-      "country_iso_code": "RU"
+      "countryIsoCode": "RU"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

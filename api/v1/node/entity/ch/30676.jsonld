@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/30676",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/30676",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Samir Hamsho",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Samir Hamsho",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/30676"
   ],
   "remarks": "Samir Hamsho is a prominent Syrian businessman benefiting from and supporting the regime. He is the owner and chairman of Al Buroj and Syria Steel/Hmisho Steel, subsidiaries of Hamsho Trading, a subsidiary of Hamsho International, which has been designated.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1972-03-01",
-      "circa": false
+      "circa": false,
+      "year": 1972
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

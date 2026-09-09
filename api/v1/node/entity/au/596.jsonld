@@ -1,71 +1,93 @@
 {
-  "id": "https://www.ammitto.org/entity/au/596",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/596",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "JABER ABDALLAH JABER AHMAD AL-JALAHMAH",
+      "@type": "NameVariant",
+      "fullName": "JABER ABDALLAH JABER AHMAD AL-JALAHMAH",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "جابر عبد اللله جابر أحمد الجلاهمة",
+      "@type": "NameVariant",
+      "fullName": "جابر عبد اللله جابر أحمد الجلاهمة",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Jaber Al-Jalamah",
+      "@type": "NameVariant",
+      "fullName": "Jaber Al-Jalamah",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abu Muhammad Al-Jalahmah",
+      "@type": "NameVariant",
+      "fullName": "Abu Muhammad Al-Jalahmah",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Jabir Abdallah Jabir Ahmad Jalahmah",
+      "@type": "NameVariant",
+      "fullName": "Jabir Abdallah Jabir Ahmad Jalahmah",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Jabir 'Abdallah Jabir Ahmad Al-Jalamah",
+      "@type": "NameVariant",
+      "fullName": "Jabir 'Abdallah Jabir Ahmad Al-Jalamah",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Jabir Al-Jalhami",
+      "@type": "NameVariant",
+      "fullName": "Jabir Al-Jalhami",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abdul-Ghani",
+      "@type": "NameVariant",
+      "fullName": "Abdul-Ghani",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abu Muhammad",
+      "@type": "NameVariant",
+      "fullName": "Abu Muhammad",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Passport no.: a) 101423404 b) Kuwaiti passport number 2541451 , valid until 16 Feb. 2017 c) Kuwaiti passport number 002327881. National identification no.: Kuwaiti national identification number 259092401188. Previously listed between 16 Jan. 2008 and 3 Jan. 2014 (amended on 1 Jul. 2008, 23 Jul. 2008, 25 Jan. 2010). Review pursuant to Security Council resolution 1822 (2008) was concluded on 14 Sep. 2009.; Listing: Listed by the UN 1267 Committee on 16 January 2008 (amended on 1 Jul. 2008, 23 Jul. 2008, 25 Jan. 2010 and 3 Jan. 2014)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/596"
   ],
-  "birth_info": [
+  "remarks": "Passport no.: a) 101423404 b) Kuwaiti passport number 2541451 , valid until 16 Feb. 2017 c) Kuwaiti passport number 002327881. National identification no.: Kuwaiti national identification number 259092401188. Previously listed between 16 Jan. 2008 and 3 Jan. 2014 (amended on 1 Jul. 2008, 23 Jul. 2008, 25 Jan. 2010). Review pursuant to Security Council resolution 1822 (2008) was concluded on 14 Sep. 2009.; Listing: Listed by the UN 1267 Committee on 16 January 2008 (amended on 1 Jul. 2008, 23 Jul. 2008, 25 Jan. 2010 and 3 Jan. 2014)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1959,
       "country": "Al-Khitan area"
     }
   ],
   "nationalities": [
     "Kuwait"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Kuwait, (residence as at March 2009 and at December 2013)",
       "country": "(residence as at March 2009 and at December 2013)"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

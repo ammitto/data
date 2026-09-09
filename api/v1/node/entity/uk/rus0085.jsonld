@@ -1,45 +1,68 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus0085",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/rus0085",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Bugrov",
-      "first_name": "Oleg",
+      "@type": "NameVariant",
+      "fullName": "Bugrov",
+      "firstName": "Oleg",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Bugrov",
-      "first_name": "Oleg",
+      "@type": "NameVariant",
+      "fullName": "Bugrov",
+      "firstName": "Oleg",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "BUHROV",
-      "first_name": "Oleh",
+      "@type": "NameVariant",
+      "fullName": "BUHROV",
+      "firstName": "Oleh",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Олег Евгеньевич БУГРОВ",
+      "@type": "NameVariant",
+      "fullName": "Олег Евгеньевич БУГРОВ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Олег Євгенович БУГРОВ",
+      "@type": "NameVariant",
+      "fullName": "Олег Євгенович БУГРОВ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus0085"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "state": "St. Petersburg",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

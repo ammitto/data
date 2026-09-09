@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/851773",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/851773",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "ROYAL THAY BRANCH",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "ROYAL THAY BRANCH",
+      "isPrimary": true
     }
   ],
-  "remarks": "(TIN No. 303808059) *489",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/851773"
+  ],
+  "remarks": "(TIN No. 303808059) *489",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "FERGANA DISTRICT, INDEPENDENCE STREET, 312",
       "city": "FERGANA REGION",
       "country": "Uzbekistan",
-      "country_iso_code": "UZ"
+      "countryIsoCode": "UZ"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

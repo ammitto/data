@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/532124",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/532124",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "ALLONWARD HYDRO-GENERATING EQUIPMENT (HONGKONG) CO., LTD.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "ALLONWARD HYDRO-GENERATING EQUIPMENT (HONGKONG) CO., LTD.",
+      "isPrimary": true
     }
   ],
-  "remarks": "*570",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/532124"
+  ],
+  "remarks": "*570",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "city": "HONGKONG",
       "country": "Hong Kong SAR, China",
-      "country_iso_code": "HK"
+      "countryIsoCode": "HK"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

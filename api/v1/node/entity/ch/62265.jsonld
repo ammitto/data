@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/62265",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/62265",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Osama Al-Maliki",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Osama Al-Maliki",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/62265"
   ],
   "remarks": "Osama al-Maliki is majority owner of Al-Jabal Security and Protection LLC. Al-Jabal Security and Protection LLC acts as a shell company to allow for the continuation of activities of the Saraya al-Areen 313 militia, a former al-Assad-regime-affiliated militia. Osama al-Maliki therefore benefits from and supports the former al-Assad regime.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1963-02-10",
-      "circa": false
+      "circa": false,
+      "year": 1963
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

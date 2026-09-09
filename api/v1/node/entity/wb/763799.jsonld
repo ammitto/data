@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/763799",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/763799",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "“TIMIR” LLP",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "“TIMIR” LLP",
+      "isPrimary": true
     }
   ],
-  "remarks": "*661",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/763799"
+  ],
+  "remarks": "*661",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "DOSTYK STREET, 117/6, OFFICE 203",
       "city": "ALMATY",
       "country": "Kazakhstan",
-      "country_iso_code": "KZ"
+      "countryIsoCode": "KZ"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

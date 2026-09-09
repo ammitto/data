@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/870855",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/870855",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "FUTURE NETWINGS SOLUTIONS PRIVATE LIMITED",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "FUTURE NETWINGS SOLUTIONS PRIVATE LIMITED",
+      "isPrimary": true
     }
   ],
-  "remarks": "*664",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/870855"
+  ],
+  "remarks": "*664",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "SYNERGY BUILDING, 5TH FLOOR, RAJARHAT P.O., THAKDARI ROAD, RAJARHAT, KOLKATA",
       "city": "WEST BENGAL 700 102",
       "country": "India",
-      "country_iso_code": "IN"
+      "countryIsoCode": "IN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

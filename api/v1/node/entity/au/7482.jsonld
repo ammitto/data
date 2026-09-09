@@ -1,27 +1,43 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7482",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/7482",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Far Eastern Bank Joint Stock Company ",
+      "@type": "NameVariant",
+      "fullName": "Far Eastern Bank Joint Stock Company ",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "JSC Dalnevostochniy Bank ",
+      "@type": "NameVariant",
+      "fullName": "JSC Dalnevostochniy Bank ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Website: www.dvbank.ru ; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 2) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7482"
+  ],
+  "remarks": "Website: www.dvbank.ru ; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 2) Instrument 2023",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "27, Verkhneportovaya Street, Vladivostok, 690990, Russia ",
       "country": "Russia "
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

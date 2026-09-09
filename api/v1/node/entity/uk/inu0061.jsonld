@@ -1,43 +1,62 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/inu0061",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/inu0061",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "ESNICO (Equipment Supplier for Nuclear Industries Corporation)",
+      "@type": "NameVariant",
+      "fullName": "ESNICO (Equipment Supplier for Nuclear Industries Corporation)",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Equipment Supplier for Nuclear Industries Corporation",
+      "@type": "NameVariant",
+      "fullName": "Equipment Supplier for Nuclear Industries Corporation",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Equipment Supply of Nuclear Industries Co",
+      "@type": "NameVariant",
+      "fullName": "Equipment Supply of Nuclear Industries Co",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "ESNICO Co.",
+      "@type": "NameVariant",
+      "fullName": "ESNICO Co.",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Esnico Company",
+      "@type": "NameVariant",
+      "fullName": "Esnico Company",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/inu0061"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "No1, 37th Avenue, Asadabadi Street",
       "state": "Tehran",
       "country": "Iran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

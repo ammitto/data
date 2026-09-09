@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/960083",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/960083",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "CONSTRUTORA COESA S.A. - SUCURSAL PANAMA",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "CONSTRUTORA COESA S.A. - SUCURSAL PANAMA",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/960083"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "CALLE OBARRIO, P.H. PLAZA 2000, P-16, URBANIZACION, BELLA VISTA",
       "city": "PANAMA CITY",
       "country": "Panama",
-      "country_iso_code": "PA"
+      "countryIsoCode": "PA"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

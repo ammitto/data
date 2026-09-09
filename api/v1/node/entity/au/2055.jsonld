@@ -1,52 +1,73 @@
 {
-  "id": "https://www.ammitto.org/entity/au/2055",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/2055",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Iran Aircraft Manufacturing Company",
+      "@type": "NameVariant",
+      "fullName": "Iran Aircraft Manufacturing Company",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "HESA",
+      "@type": "NameVariant",
+      "fullName": "HESA",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "HESA Trade Center",
+      "@type": "NameVariant",
+      "fullName": "HESA Trade Center",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "HTC",
+      "@type": "NameVariant",
+      "fullName": "HTC",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "IAMCO",
+      "@type": "NameVariant",
+      "fullName": "IAMCO",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "IAMI",
+      "@type": "NameVariant",
+      "fullName": "IAMI",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Iran Aircraft",
+      "@type": "NameVariant",
+      "fullName": "Iran Aircraft",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Listing: Designated under the Autonomous Sanctions Regulations 2011 on 2 March 2012 (F2012L00479). Formerly listed on the RBA Consolidated List as 2010IRN0098. Relisted 12 January 2024",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/2055"
+  ],
+  "remarks": "Listing: Designated under the Autonomous Sanctions Regulations 2011 on 2 March 2012 (F2012L00479). Formerly listed on the RBA Consolidated List as 2010IRN0098. Relisted 12 January 2024",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "PO Box 83145 311, 28 km Esfahan – Tehran Freeway, Shahin Shahr, Esfahan, Iran;\nPO Box 14155 5568, No 27 Ahahamat Ave, Vallie Asr Square, Tehran 15946, Iran;\nPO Box 81465 935, Esfahan, Iran;\nShahih Shar Industrial Zone, Isfahan, Iran;\nPO Box 8140, No 107, Sepahbod Gharany Ave, Tehran, Iran",
       "country": "Iran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

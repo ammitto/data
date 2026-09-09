@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/6944",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/6944",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Savanhu Tendai",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Savanhu Tendai",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/6944"
   ],
   "remarks": "Member of the ZANU-PF Politburo associated with the ZANU-PF faction of the Government. Organised militias to assault MDC supporters in Mbare, leading to violence and chaos, in February 2011. Involved in abductions of MDC women in June 2008.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1968-03-21",
-      "circa": false
+      "circa": false,
+      "year": 1968
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

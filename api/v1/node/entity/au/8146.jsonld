@@ -1,27 +1,43 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8146",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/8146",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Stroytreyd LLC",
+      "@type": "NameVariant",
+      "fullName": "Stroytreyd LLC",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Stroytrade",
+      "@type": "NameVariant",
+      "fullName": "Stroytrade",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Company Identification Number: 1237700700665\nNational Tax Number: 9728108831; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8146"
+  ],
+  "remarks": "Company Identification Number: 1237700700665\nNational Tax Number: 9728108831; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Pomeshch 1/1, D. 32, K. 1, Novoyasenevskiy Avenue, Yasenevo District, Moscow, 117463",
       "country": "117463"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

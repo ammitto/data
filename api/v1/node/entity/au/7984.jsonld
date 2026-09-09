@@ -1,35 +1,53 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7984",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7984",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Delavar ALGHASI-MEHR",
+      "@type": "NameVariant",
+      "fullName": "Delavar ALGHASI-MEHR",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Delavar ALGHASIMEHR",
+      "@type": "NameVariant",
+      "fullName": "Delavar ALGHASIMEHR",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Delavar ALQASI MEHR",
+      "@type": "NameVariant",
+      "fullName": "Delavar ALQASI MEHR",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "A Commander of Law Enforcement Command (LEF) forces in Tehran Province since 2019 and former Commander of LEF forces in Shiraz City from 2016 to 2019. \nPassport number: M51374090; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Iran) Amendment (No. 2) Instrument 2024",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7984"
   ],
-  "birth_info": [
+  "remarks": "A Commander of Law Enforcement Command (LEF) forces in Tehran Province since 2019 and former Commander of LEF forces in Shiraz City from 2016 to 2019. \nPassport number: M51374090; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Iran) Amendment (No. 2) Instrument 2024",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1974,
       "country": "Chegeni"
     }
   ],
   "nationalities": [
     "Iran"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

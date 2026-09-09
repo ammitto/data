@@ -1,42 +1,63 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7490",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7490",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ali Reza TANGSIRI ",
+      "@type": "NameVariant",
+      "fullName": "Ali Reza TANGSIRI ",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Alireza TANGSIRI",
+      "@type": "NameVariant",
+      "fullName": "Alireza TANGSIRI",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Tangsiri Ali REZA",
+      "@type": "NameVariant",
+      "fullName": "Tangsiri Ali REZA",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ali Rida TANGSIRI",
+      "@type": "NameVariant",
+      "fullName": "Ali Rida TANGSIRI",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Commander of the IRGC Navy; Chairman of the Board of Directors of Paravar Pars Company; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 3) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7490"
   ],
-  "birth_info": [
+  "remarks": "Commander of the IRGC Navy; Chairman of the Board of Directors of Paravar Pars Company; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 3) Instrument 2023",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1963
     },
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1962
     }
   ],
   "nationalities": [
     "Iran"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

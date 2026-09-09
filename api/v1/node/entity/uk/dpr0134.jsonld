@@ -1,34 +1,51 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/dpr0134",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/dpr0134",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "FOREIGN TRADE BANK (FTB)",
+      "@type": "NameVariant",
+      "fullName": "FOREIGN TRADE BANK (FTB)",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Korea Trading Bank",
+      "@type": "NameVariant",
+      "fullName": "Korea Trading Bank",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Mooyokbank",
+      "@type": "NameVariant",
+      "fullName": "Mooyokbank",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Foreign Trade Bank is a state-owned bank and acts as the DPRK’s primary foreign exchange bank and has provided key financial support to the Korea Kwangson Banking Corporation. SWIFT/BIC: FTBDKPPY.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/dpr0134"
+  ],
+  "remarks": "Foreign Trade Bank is a state-owned bank and acts as the DPRK’s primary foreign exchange bank and has provided key financial support to the Korea Kwangson Banking Corporation. SWIFT/BIC: FTBDKPPY.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "FTB Building, Jungsong-dong",
       "city": "Central District",
       "state": "Pyongyang",
       "country": "North Korea"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/4537",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/4537",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mikhasiou Uladzimir Ilich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Mikhasiou Uladzimir Ilich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/4537"
   ],
   "remarks": "Has actively undermined democracy in Belarus. Former Сhairman of the Regional Election Committee of the Gomel region, former Member of the Lower Chamber of the Parliament. As Chairman of a Regional Electoral Commission, he was directly responsible for the violations of international electoral standards, in particular in the Presidential elections in 2006 in the Gomel region.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1949-10-14",
-      "circa": false
+      "circa": false,
+      "year": 1949
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

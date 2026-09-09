@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/nz/ind-633",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/nz/ind-633",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Aleksandr Nikolayevich Nekrasov",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Aleksandr Nikolayevich Nekrasov",
+      "isPrimary": true
     }
   ],
-  "source_references": [
+  "sourceReferences": [
     {
-      "source_code": "nz",
-      "reference_number": "IND-633"
+      "@type": "SourceReference",
+      "sourceCode": "nz",
+      "referenceNumber": "IND-633",
+      "retrievedAt": "2026-09-09T16:30:44Z"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "linkedEntities": [
+
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/nz/consolidated-list/ind-633"
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

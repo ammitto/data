@@ -1,52 +1,76 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/aqd0263",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/aqd0263",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "KIRAM",
-      "first_name": "MUHAMMED",
+      "@type": "NameVariant",
+      "fullName": "KIRAM",
+      "firstName": "MUHAMMED",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "al Filipini",
-      "first_name": "Abu",
+      "@type": "NameVariant",
+      "fullName": "al Filipini",
+      "firstName": "Abu",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Rahman",
-      "first_name": "Abdul",
+      "@type": "NameVariant",
+      "fullName": "Rahman",
+      "firstName": "Abdul",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Rahman",
-      "first_name": "Abtol",
+      "@type": "NameVariant",
+      "fullName": "Rahman",
+      "firstName": "Abtol",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Senior member of Islamic State in Iraq and the Levant (ISIL), listed as Al-Qaida in Iraq (QDe.115). Recruited for ISIL and instructed individuals to perpetrate terrorist acts via online video. Physical description: height: 156cm; weight: 60 kg (as at Sep. 2016); eye colour: black; hair colour: black; build: medium; high cheekbones. Speaks Tagalog, English, Arabic. INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/notice/search/un/6244385. Philippines (previous address)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/aqd0263"
+  ],
+  "remarks": "Senior member of Islamic State in Iraq and the Levant (ISIL), listed as Al-Qaida in Iraq (QDe.115). Recruited for ISIL and instructed individuals to perpetrate terrorist acts via online video. Physical description: height: 156cm; weight: 60 kg (as at Sep. 2016); eye colour: black; hair colour: black; build: medium; high cheekbones. Speaks Tagalog, English, Arabic. INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/notice/search/un/6244385. Philippines (previous address)",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "country": "Syria"
     },
     {
+      "@type": "Address",
       "street": "96 IlangIlang, Sarmiento Subdivision, Panabo",
       "city": "Davao City",
       "state": "Eastern Mindanao",
       "country": "Philippines"
     },
     {
+      "@type": "Address",
       "street": "Brgy Recodo",
       "city": "Zamboanga City",
       "state": "Western Mindanao",
       "country": "Philippines"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/36406",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/36406",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Cho Il U",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Cho Il U",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/36406"
   ],
   "remarks": "Director of the Fifth Bureau of the Reconnaissance General Bureau. Cho is believed to be in charge of overseas espionage operations and foreign intelligence collection for the DPRK.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1945-05-10",
-      "circa": false
+      "circa": false,
+      "year": 1945
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

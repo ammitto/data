@@ -1,27 +1,45 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7326",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7326",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Khin Maung Swe",
+      "@type": "NameVariant",
+      "fullName": "Khin Maung Swe",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "Political party: National Democratic Force; Member of the State Administration Council; Listing: Autonomous Sanctions (Designated and Declared Persons—Myanmar) Amendment Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7326"
   ],
-  "birth_info": [
+  "remarks": "Political party: National Democratic Force; Member of the State Administration Council; Listing: Autonomous Sanctions (Designated and Declared Persons—Myanmar) Amendment Instrument 2023",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1942
     },
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1942
     }
   ],
   "nationalities": [
     "Myanmar"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

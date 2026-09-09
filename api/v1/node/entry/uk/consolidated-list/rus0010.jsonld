@@ -1,47 +1,65 @@
 {
-  "id": "https://www.ammitto.org/entry/uk/consolidated-list/rus0010",
-  "entity_id": "https://www.ammitto.org/entity/uk/rus0010",
+  "@id": "https://www.ammitto.org/entry/uk/consolidated-list/rus0010",
+  "@type": "SanctionEntry",
+  "entityId": "https://www.ammitto.org/entity/uk/rus0010",
   "authority": {
     "@id": "https://www.ammitto.org/authority/uk"
   },
   "regime": {
-    "@id": "https://www.ammitto.org/regime/the_russia_sanctions_eu_exit_regulations_2019"
+    "@id": "https://www.ammitto.org/regime/the_russia_sanctions_eu_exit_regulations_2019",
+    "name": "The Russia (Sanctions) (EU Exit) Regulations 2019"
   },
+  "legalBases": [
+
+  ],
   "effects": [
     {
-      "effect_type": "asset_freeze",
+      "@type": "SanctionEffect",
+      "effectType": "asset_freeze",
       "scope": "full"
     },
     {
-      "effect_type": "travel_ban",
+      "@type": "SanctionEffect",
+      "effectType": "travel_ban",
       "scope": "full"
     },
     {
-      "effect_type": "financial_restriction",
+      "@type": "SanctionEffect",
+      "effectType": "financial_restriction",
       "scope": "full"
     },
     {
-      "effect_type": "debarment",
+      "@type": "SanctionEffect",
+      "effectType": "debarment",
       "scope": "full"
     }
   ],
+  "reasons": [
+
+  ],
   "period": {
-    "listed_date": "2020-12-31",
-    "effective_date": "2020-12-31",
-    "is_indefinite": true,
-    "last_updated": "2025-04-09"
+    "@type": "TemporalPeriod",
+    "listedDate": "2020-12-31",
+    "effectiveDate": "2020-12-31",
+    "isIndefinite": true,
+    "lastUpdated": "2025-04-09"
   },
   "status": "active",
-  "reference_number": "RUS0010",
+  "statusHistory": [
+
+  ],
+  "referenceNumber": "RUS0010",
   "remarks": "\nCurrent or Former Member of the State Duma, elected from the illegally annexed Autonomous Republic of Crimea.  Former member of the Duma Committee on Financial Markets and coordinator of the Interparliamentary Group on interaction with Parliament of the People's Republic of Bangladesh.  \nIn March 2014 Kozenko was appointed as Deputy Chairperson of the State Council of the socalled “Republic of Crimea”.  For his involvement in the annexation process he has been awarded with a medal “For the defence of Republic of Crimea” by the local “authorities”.  \n The trust services sanctions were imposed on 21/03/2023.",
-  "raw_source_data": {
-    "source_format": "xml",
-    "source_specific_fields": {
+  "rawSourceData": {
+    "@type": "RawSourceData",
+    "sourceFormat": "xml",
+    "sourceSpecificFields": {
       "uk:ofsiGroupId": "13393",
+      "uk:unReferenceNumber": null,
       "uk:designationSource": "UK",
       "uk:sanctionsImposed": "Asset freeze|Travel Ban|Trust Services Sanctions|Director Disqualification Sanction",
       "uk:entityType": "Individual"
     }
   },
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

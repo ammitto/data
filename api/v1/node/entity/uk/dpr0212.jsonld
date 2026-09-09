@@ -1,22 +1,43 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/dpr0212",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/dpr0212",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "SOK-HWA",
-      "first_name": "HWANG",
+      "@type": "NameVariant",
+      "fullName": "SOK-HWA",
+      "firstName": "HWANG",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "HWANG SOK HA",
+      "@type": "NameVariant",
+      "fullName": "HWANG SOK HA",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Director in the General Bureau of Atomic Energy (GBAE); involved in DPRK’s nuclear program; as Chief of the Scientific Guidance Bureau in the GBAE, served on the Science Committee inside the Joint Institute for Nuclear Research.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/dpr0212"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "remarks": "Director in the General Bureau of Atomic Energy (GBAE); involved in DPRK’s nuclear program; as Chief of the Scientific Guidance Bureau in the GBAE, served on the Science Committee inside the Joint Institute for Nuclear Research.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

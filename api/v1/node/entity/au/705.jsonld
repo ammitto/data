@@ -1,35 +1,53 @@
 {
-  "id": "https://www.ammitto.org/entity/au/705",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/705",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "SAMIRA SHAHBANDAR",
+      "@type": "NameVariant",
+      "fullName": "SAMIRA SHAHBANDAR",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "سميرة الشاهبندر",
+      "@type": "NameVariant",
+      "fullName": "سميرة الشاهبندر",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Chadian",
+      "@type": "NameVariant",
+      "fullName": "Chadian",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "IQi.060; Listing: Listed by the 1518 Committee",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/705"
   ],
-  "birth_info": [
+  "remarks": "IQi.060; Listing: Listed by the 1518 Committee",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1946,
       "country": "Baghdad"
     }
   ],
   "nationalities": [
     "Iraq"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

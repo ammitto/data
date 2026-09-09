@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/63276",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/63276",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Sabitov Rifat Abdulvagapovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Sabitov Rifat Abdulvagapovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/63276"
   ],
   "remarks": "Rifat Sabitov is the Deputy Director General of All-Russia Television and Radio Broadcasting Company (VGTRK), Russia’s largest media corporation. During the war against Ukraine, TV channels and other parts of VGTRK holding have been among the most active and important instruments in spreading the Kremlin narrative and supporting the war with aggressive commentaries and unverified information.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1956-04-30",
-      "circa": false
+      "circa": false,
+      "year": 1956
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/20452",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/20452",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Houej Mohamad Ali",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Houej Mohamad Ali",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/20452"
   ],
   "remarks": "Minister for Industry, Economy and Trade in Colonel Qadhafi’s Government. Closely associated with the former regime of Muammar Qadhafi.",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1949
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/40690",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/40690",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mohamed Ben Ahmed Mahri",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Mohamed Ben Ahmed Mahri",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/40690"
   ],
   "remarks": "Mohamed Ben Ahmed Mahri is a businessman from the Arab Lehmar community in Gao region who previously collaborated with the Mouvement pour l’Unification et le Jihad en Afrique de l’Ouest (MUJAO) (QDe.134). Listed pursuant to paragraphs 1 to 3 of Security Council resolution 2374 (2017) (Travel Ban, Asset Freeze).",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1979-01-01",
-      "circa": false
+      "circa": false,
+      "year": 1979
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

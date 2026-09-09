@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/346815",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/346815",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "NATIONAL ALIMENTATION SERVICES",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "NATIONAL ALIMENTATION SERVICES",
+      "isPrimary": true
     }
   ],
-  "remarks": "*421",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/346815"
+  ],
+  "remarks": "*421",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "39 TABARRE, 48 BLVD 15 OCTOBRE",
       "city": "PORT-AU-PRINCE",
       "country": "Haiti",
-      "country_iso_code": "HT"
+      "countryIsoCode": "HT"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

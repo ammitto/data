@@ -1,27 +1,47 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3616",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/3616",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Leonid Ivanovich Pasechnik",
+      "@type": "NameVariant",
+      "fullName": "Leonid Ivanovich Pasechnik",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Leonid Ivanovych Pasichnyk",
+      "@type": "NameVariant",
+      "fullName": "Leonid Ivanovych Pasichnyk",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Listing: Listed on: 16 Mar. 2019",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3616"
   ],
-  "birth_info": [
+  "remarks": "Listing: Listed on: 16 Mar. 2019",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1970,
       "country": "Voroshilovgrad - Luhansk"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

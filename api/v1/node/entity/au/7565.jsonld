@@ -1,34 +1,52 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7565",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7565",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Yuri PYZHIK",
+      "@type": "NameVariant",
+      "fullName": "Yuri PYZHIK",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Yuri Nikolaevich PYZHIK",
+      "@type": "NameVariant",
+      "fullName": "Yuri Nikolaevich PYZHIK",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Yurii Mykolaiovych PYZHYK",
+      "@type": "NameVariant",
+      "fullName": "Yurii Mykolaiovych PYZHYK",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Colonel, Commander of the Belarussian 61st Fighter Air Base/Baranovichi Airfield, Armed Forces of the Republic of Belarus; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 8) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7565"
   ],
-  "birth_info": [
+  "remarks": "Colonel, Commander of the Belarussian 61st Fighter Air Base/Baranovichi Airfield, Armed Forces of the Republic of Belarus; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 8) Instrument 2023",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1970
     }
   ],
   "nationalities": [
     "Belarus"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

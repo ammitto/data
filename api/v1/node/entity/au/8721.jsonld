@@ -1,32 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8721",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/8721",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Energobank Joint Stock Commercial Bank",
+      "@type": "NameVariant",
+      "fullName": "Energobank Joint Stock Commercial Bank",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "JSCB ENERGOBANK",
+      "@type": "NameVariant",
+      "fullName": "JSCB ENERGOBANK",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "AKB ENERGOBANK",
+      "@type": "NameVariant",
+      "fullName": "AKB ENERGOBANK",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Website: https://energobank.ru/; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2026",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8721"
+  ],
+  "remarks": "Website: https://energobank.ru/; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2026",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "13/52 Pushkina Str., 420111 Kazan, Republic of Tatarstan, Russia",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

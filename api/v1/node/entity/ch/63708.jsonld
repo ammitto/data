@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/63708",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/63708",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Pantus Dmitriy Aleksandrovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Pantus Dmitriy Aleksandrovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/63708"
   ],
   "remarks": "Dmitriy Pantus is the Chairman of the State Authority for Military Industry of Belarus. The State Authority for Military Industry of Belarus develops and maintains weapons, promotes the production of weapons by subordinate enterprises to supply the Russian armed forces, provides military-industrial cooperation, oversees the movement of weapons across the state border and provides navigation to the Russian armed forces. In his position, Dmitriy Pantus is providing military support to the Russian Federation in its war of aggression against Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1982-06-09",
-      "circa": false
+      "circa": false,
+      "year": 1982
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

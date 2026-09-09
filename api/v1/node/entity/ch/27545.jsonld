@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/27545",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/27545",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Menyailo Sergei Ivanovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Menyailo Sergei Ivanovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/27545"
   ],
   "remarks": "Former Governor of the Ukrainian annexed city of Sevastopol.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1960-08-22",
-      "circa": false
+      "circa": false,
+      "year": 1960
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

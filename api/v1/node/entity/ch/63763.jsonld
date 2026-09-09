@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/63763",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/63763",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kosterina Aleksandra Vladimirovna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kosterina Aleksandra Vladimirovna",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/63763"
   ],
   "remarks": "Aleksandra Kosterina (Kosharnitskaya) is a First Deputy Director General, Director of the Information Directorate and Editor-in-Chief of NTV (HTB), a major Russian TV channel which is direct control of the Russian Federation.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1980-02-26",
-      "circa": false
+      "circa": false,
+      "year": 1980
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

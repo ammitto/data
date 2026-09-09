@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/79666",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/79666",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Azizirahman Abdul Ahad Mr",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Azizirahman Abdul Ahad Mr",
+      "isPrimary": true
     }
   ],
-  "remarks": "Third Secretary, Taliban Embassy, Abu Dhabi, United Arab Emirates.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/79666"
+  ],
+  "remarks": "Third Secretary, Taliban Embassy, Abu Dhabi, United Arab Emirates (1996-2001).",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1972
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

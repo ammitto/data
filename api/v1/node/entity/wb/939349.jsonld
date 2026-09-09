@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/939349",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/939349",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "HUNAN ZHONGGE CONSTRUCTION GROUP CORPORATION LTD.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "HUNAN ZHONGGE CONSTRUCTION GROUP CORPORATION LTD.",
+      "isPrimary": true
     }
   ],
-  "remarks": "*692",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/939349"
+  ],
+  "remarks": "*692",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "NO. 41 WEST TONGZIPO ROAD",
       "city": "CHANGSHA CITY, HUNAN, 410205",
       "country": "China",
-      "country_iso_code": "CN"
+      "countryIsoCode": "CN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

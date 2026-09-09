@@ -1,45 +1,65 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8042",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/8042",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ramil Rakhmatulovich IBATULLIN",
+      "@type": "NameVariant",
+      "fullName": "Ramil Rakhmatulovich IBATULLIN",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Ramil Rakhmatullovich IBATULLIN",
+      "@type": "NameVariant",
+      "fullName": "Ramil Rakhmatullovich IBATULLIN",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ramil Rakhmatullovych IBATULLIN",
+      "@type": "NameVariant",
+      "fullName": "Ramil Rakhmatullovych IBATULLIN",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ramil Rachmatullovitj IBATULLIN",
+      "@type": "NameVariant",
+      "fullName": "Ramil Rachmatullovitj IBATULLIN",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Rami Rachmatullovič IBATULLIN",
+      "@type": "NameVariant",
+      "fullName": "Rami Rachmatullovič IBATULLIN",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Commander of the 90th Guards Tank Division; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8042"
   ],
-  "birth_info": [
+  "remarks": "Commander of the 90th Guards Tank Division; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1976,
       "country": "Bagishevo"
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

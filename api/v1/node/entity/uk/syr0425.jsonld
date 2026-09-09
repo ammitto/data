@@ -1,57 +1,82 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/syr0425",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/syr0425",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "KHOURY",
-      "first_name": "Mudallal",
+      "@type": "NameVariant",
+      "fullName": "KHOURY",
+      "firstName": "Mudallal",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Khouri",
-      "first_name": "Mudallal",
+      "@type": "NameVariant",
+      "fullName": "Khouri",
+      "firstName": "Mudallal",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Khoury",
-      "first_name": "Madalal",
+      "@type": "NameVariant",
+      "fullName": "Khoury",
+      "firstName": "Madalal",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Khoury",
-      "first_name": "Mtanyus",
+      "@type": "NameVariant",
+      "fullName": "Khoury",
+      "firstName": "Mtanyus",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Khoury",
-      "first_name": "Mudalal",
+      "@type": "NameVariant",
+      "fullName": "Khoury",
+      "firstName": "Mudalal",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Khuri",
-      "first_name": "Mudallal",
+      "@type": "NameVariant",
+      "fullName": "Khuri",
+      "firstName": "Mudallal",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "مدلل خوري ",
+      "@type": "NameVariant",
+      "fullName": "مدلل خوري ",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/syr0425"
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "state": "Moscow",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

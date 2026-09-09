@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/6491",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/6491",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mahofa Shuvai Ben",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Mahofa Shuvai Ben",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/6491"
   ],
   "remarks": "Sponsored those who established torture bases in Masvingo. Persons from these bases killed Mapurisa Zvidzai on 24 April 2008 and Tiziro Moyo on 11 June 2008.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1941-04-04",
-      "circa": false
+      "circa": false,
+      "year": 1941
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

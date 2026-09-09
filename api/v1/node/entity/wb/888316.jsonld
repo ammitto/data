@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/888316",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/888316",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "HEBEI CONSTRUCTION GROUP CORPORATION LIMITED HUAILAI BRANCH",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "HEBEI CONSTRUCTION GROUP CORPORATION LIMITED HUAILAI BRANCH",
+      "isPrimary": true
     }
   ],
-  "remarks": "河北建设集团股份有限公司怀来分公司",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/888316"
+  ],
+  "remarks": "河北建设集团股份有限公司怀来分公司",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "NO 7,COMMERCIAL RESIDENTIAL BUILDING EAST , BEIMEI FENGQING COMMUNITY,YONGAN  STREET , SHANGCHENG TOWN",
       "city": "HUAILAI COUNTY",
       "country": "China",
-      "country_iso_code": "CN"
+      "countryIsoCode": "CN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,34 @@
 {
-  "id": "https://www.ammitto.org/entity/nz/shp-145",
-  "entity_type": "vessel",
+  "@id": "https://www.ammitto.org/entity/nz/shp-145",
+  "@type": "VesselEntity",
+  "entityType": "vessel",
   "names": [
     {
-      "full_name": "Sabina",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Sabina",
+      "isPrimary": true
     }
   ],
-  "source_references": [
+  "sourceReferences": [
     {
-      "source_code": "nz",
-      "reference_number": "SHP-145"
+      "@type": "SourceReference",
+      "sourceCode": "nz",
+      "referenceNumber": "SHP-145",
+      "retrievedAt": "2026-09-09T16:30:45Z"
     }
   ],
-  "imo_number": "9524451",
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "linkedEntities": [
+
+  ],
+  "imoNumber": "9524451",
+  "previousNames": [
+
+  ],
+  "previousFlags": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/nz/consolidated-list/shp-145"
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/tr/73",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/tr/73",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "PAK BONGNAM",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "PAK BONGNAM",
+      "isPrimary": true
     }
   ],
-  "source_references": [
+  "sourceReferences": [
     {
-      "source_code": "tr",
-      "reference_number": "73"
+      "@type": "SourceReference",
+      "sourceCode": "tr",
+      "referenceNumber": "73",
+      "retrievedAt": "2026-09-09T16:30:41Z"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "linkedEntities": [
+
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/tr/consolidated-list/73"
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

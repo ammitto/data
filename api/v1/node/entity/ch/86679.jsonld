@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/86679",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/86679",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Balashov Alexander Alekseevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Balashov Alexander Alekseevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/86679"
   ],
   "remarks": "Alexander Balashov is the General Director of JSC Plastmass Plant. JSC Plastmass Plant is a Russian entity and part of Rostec State Corporation, producing artillery ammunition for the Russian Armed Forces, in particular for howitzers, which are widely used by the Russian military in Russia’s war of aggression against Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1951-09-21",
-      "circa": false
+      "circa": false,
+      "year": 1951
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

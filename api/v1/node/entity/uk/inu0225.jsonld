@@ -1,32 +1,50 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/inu0225",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/inu0225",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "ELECTRO SANAM COMPANY",
+      "@type": "NameVariant",
+      "fullName": "ELECTRO SANAM COMPANY",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "E. S. Co.",
+      "@type": "NameVariant",
+      "fullName": "E. S. Co.",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "E.X. Co",
+      "@type": "NameVariant",
+      "fullName": "E.X. Co",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "ELECTRO SANAM COMPANY was listed pursuant to paragraph 12 of resolution 1737 (2006), as read with resolutions 1747, 1803 and 1929, as: AIO front-company, involved in the ballistic missile programme. \n\nThe Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/inu0225"
+  ],
+  "remarks": "ELECTRO SANAM COMPANY was listed pursuant to paragraph 12 of resolution 1737 (2006), as read with resolutions 1747, 1803 and 1929, as: AIO front-company, involved in the ballistic missile programme. \n\nThe Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "state": "Tehran",
       "country": "Iran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

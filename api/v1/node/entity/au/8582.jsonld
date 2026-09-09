@@ -1,70 +1,95 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8582",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/8582",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ali Saidi HOJATOLESLAM",
+      "@type": "NameVariant",
+      "fullName": "Ali Saidi HOJATOLESLAM",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "سعیدی",
+      "@type": "NameVariant",
+      "fullName": "سعیدی",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ali Akbar Aboutorabi Fard",
+      "@type": "NameVariant",
+      "fullName": "Ali Akbar Aboutorabi Fard",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Hojatoleslam Seyyed Ali Akbar Aboutorabi Fard",
+      "@type": "NameVariant",
+      "fullName": "Hojatoleslam Seyyed Ali Akbar Aboutorabi Fard",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Hojatoleslam Ali Saidi",
+      "@type": "NameVariant",
+      "fullName": "Hojatoleslam Ali Saidi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Hojatoleslam Ali Saidi Shahroudi",
+      "@type": "NameVariant",
+      "fullName": "Hojatoleslam Ali Saidi Shahroudi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ali Saidi",
+      "@type": "NameVariant",
+      "fullName": "Ali Saidi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Hojjat al Eslam Ali Saeedi",
+      "@type": "NameVariant",
+      "fullName": "Hojjat al Eslam Ali Saeedi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Shahroudi Ali Saeedi",
+      "@type": "NameVariant",
+      "fullName": "Shahroudi Ali Saeedi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Hojjat al Eslam Ali Saidi",
+      "@type": "NameVariant",
+      "fullName": "Hojjat al Eslam Ali Saidi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Commander-in-Chief of the IRGC Ideological-Political Office; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Iran) List 2012",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8582"
   ],
-  "birth_info": [
+  "remarks": "Commander-in-Chief of the IRGC Ideological-Political Office; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Iran) List 2012",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1950,
       "country": "Shahrud"
     }
   ],
   "nationalities": [
     "Iran"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

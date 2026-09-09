@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/195833",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/195833",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "PT CITRA GADING ASRITAMA",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "PT CITRA GADING ASRITAMA",
+      "isPrimary": true
     }
   ],
-  "remarks": "*116",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/195833"
+  ],
+  "remarks": "*116",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "JL. GAYUNG KEBONSARI A-7",
       "city": "SURABAYA",
       "country": "Indonesia",
-      "country_iso_code": "ID"
+      "countryIsoCode": "ID"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

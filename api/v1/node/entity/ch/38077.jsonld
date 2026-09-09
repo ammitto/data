@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/38077",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/38077",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kumba Gabriel Amisi",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kumba Gabriel Amisi",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/38077"
   ],
   "remarks": "Former Commander of the first defence zone of the Congolese Armed Forces (FARDC), which took part in the disproportionate use of force and violent repression in September 2016 in Kinshasa.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1964-05-28",
-      "circa": false
+      "circa": false,
+      "year": 1964
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

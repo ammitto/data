@@ -1,41 +1,62 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/irn0143",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/irn0143",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Babamoradi",
-      "first_name": "Jamal",
+      "@type": "NameVariant",
+      "fullName": "Babamoradi",
+      "firstName": "Jamal",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Babamoradi",
-      "first_name": "Jamal",
+      "@type": "NameVariant",
+      "fullName": "Babamoradi",
+      "firstName": "Jamal",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "جاما بابامرادی",
+      "@type": "NameVariant",
+      "fullName": "جاما بابامرادی",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "جمال علی بابامرادی",
+      "@type": "NameVariant",
+      "fullName": "جمال علی بابامرادی",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/irn0143"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Unit 29 5th Floor, Talaieh Block - B1, Elahiyeh Complex 1 Number 0, Alley 2- Shahid Sajjad Rushanai, Rabbaninejad Street",
       "city": "Zein Aldin Municipality",
       "state": "Qom",
       "country": "Iran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

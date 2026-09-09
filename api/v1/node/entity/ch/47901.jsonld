@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/47901",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/47901",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kasatonov Vladimir Lvovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kasatonov Vladimir Lvovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/47901"
   ],
   "remarks": "Vladimir Kasatonov is the Deputy Commander-in-Chief of the Russian Navy. As such, he is responsible for naval operations in or to Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1952-06-17",
-      "circa": false
+      "circa": false,
+      "year": 1952
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

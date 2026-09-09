@@ -1,37 +1,51 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7780",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7780",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Bernard Maheshe Byamungu",
+      "@type": "NameVariant",
+      "fullName": "Bernard Maheshe Byamungu",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Tiger One",
+      "@type": "NameVariant",
+      "fullName": "Tiger One",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "CDi.038 Designation: a) Brigadier General b) Deputy Commander of operations and intelligence for M23. Listed pursuant to paragraphs 7 (c) and 7 (h) of resolution 2293 (2016) as “political and military leaders of Congolese militias, including those receiving support from outside the DRC, who impede the participation of their combatants in disarmament, demobilization and reintegration processes” and “acting on behalf of or at the direction of a designated individual or entity, or acting on behalf of or at the direction of an entity owned or controlled by a designated individual or entity”, as reaffirmed by paragraph 2 of resolution 2688 (2023). As a leader of M23 (CDe.006), he is involved in promulgating and supporting the armed group’s activities. He was promoted in January 2023 to Brigadier for the Congolese Revolutionary Army, the M23 armed branch. He was then appointed chief of staff and deputy to SULTANI MAKENGA (CDi.008), and has validated the planning for every M23 operations in DRC since then. A warrant has been issued by Congolese authorities for his arrest.; Listing: Listed by 1533 Committee on 25 Oct. 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7780"
   ],
-  "birth_info": [
+  "remarks": "CDi.038 Designation: a) Brigadier General b) Deputy Commander of operations and intelligence for M23. Listed pursuant to paragraphs 7 (c) and 7 (h) of resolution 2293 (2016) as “political and military leaders of Congolese militias, including those receiving support from outside the DRC, who impede the participation of their combatants in disarmament, demobilization and reintegration processes” and “acting on behalf of or at the direction of a designated individual or entity, or acting on behalf of or at the direction of an entity owned or controlled by a designated individual or entity”, as reaffirmed by paragraph 2 of resolution 2688 (2023). As a leader of M23 (CDe.006), he is involved in promulgating and supporting the armed group’s activities. He was promoted in January 2023 to Brigadier for the Congolese Revolutionary Army, the M23 armed branch. He was then appointed chief of staff and deputy to SULTANI MAKENGA (CDi.008), and has validated the planning for every M23 operations in DRC since then. A warrant has been issued by Congolese authorities for his arrest.; Listing: Listed by 1533 Committee on 25 Oct. 2023",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1974,
       "country": "Democratic Republic of Congo"
     }
   ],
   "nationalities": [
-    "Congo",
-    "Democratic Republic of the"
+    "Congo, Democratic Republic of the"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Democratic Republic of the Congo",
       "country": "Democratic Republic of the Congo"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

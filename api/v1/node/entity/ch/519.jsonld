@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/519",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/519",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ojdanic Dragoljub",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Ojdanic Dragoljub",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/519"
   ],
   "remarks": "Former Minister of Defence",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1941-06-01",
-      "circa": false
+      "circa": false,
+      "year": 1941
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

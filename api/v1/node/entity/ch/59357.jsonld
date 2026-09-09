@@ -1,17 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/59357",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/59357",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Petrov Aleksey Aleksandrovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Petrov Aleksey Aleksandrovich",
+      "isPrimary": true
     }
   ],
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/59357"
+  ],
+  "remarks": "Aleksey Petrov is the Advisor to the Office of the Commissioner for Childrens’ Rights of the Russian Federation. In this role, he is involved in the illegal transportation of Ukrainian children to Russia and their adoption by Russian families. Aleksey Aleksandrovich Petrov’s actions violate the rights of Ukrainian children and infringe Ukrainian law and administrative order, he is therefore responsible for, supporting and implementing actions and policies which undermine the sovereignty and independence of Ukraine and stability and security in Ukraine.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1995-09-29",
-      "circa": false
+      "circa": false,
+      "year": 1995
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

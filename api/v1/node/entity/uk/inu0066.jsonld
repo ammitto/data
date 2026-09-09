@@ -1,37 +1,55 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/inu0066",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/inu0066",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Ghani Sazi Uranium Company",
+      "@type": "NameVariant",
+      "fullName": "Ghani Sazi Uranium Company",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "IEC",
+      "@type": "NameVariant",
+      "fullName": "IEC",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Iranian Enrichment Company",
+      "@type": "NameVariant",
+      "fullName": "Iranian Enrichment Company",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Sherkat-e Ghanisazi-ye Uranium",
+      "@type": "NameVariant",
+      "fullName": "Sherkat-e Ghanisazi-ye Uranium",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/inu0066"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Qarqavol Close, 20th Street",
       "state": "Tehran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

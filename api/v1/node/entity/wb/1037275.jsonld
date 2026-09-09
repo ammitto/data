@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/1037275",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/1037275",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "OMRAB ENGINEERING COMPANY (P.J.S.)",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "OMRAB ENGINEERING COMPANY (P.J.S.)",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/1037275"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "NO. 1, KAJOUR ST. MIRDAMAD BOULEVARD, PO BOX: 1918973116",
       "city": "TEHRAN",
       "country": "Iran, Islamic Republic of",
-      "country_iso_code": "IR"
+      "countryIsoCode": "IR"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

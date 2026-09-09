@@ -1,27 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus3040",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/rus3040",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "CHALAYEV ",
-      "first_name": "Zamid ",
+      "@type": "NameVariant",
+      "fullName": "CHALAYEV ",
+      "firstName": "Zamid ",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "CHALAEV ",
-      "first_name": "Zamid ",
+      "@type": "NameVariant",
+      "fullName": "CHALAEV ",
+      "firstName": "Zamid ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Замид Алиевич ЧАЛАЕВ ",
+      "@type": "NameVariant",
+      "fullName": "Замид Алиевич ЧАЛАЕВ ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus3040"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

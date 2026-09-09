@@ -1,40 +1,59 @@
 {
-  "id": "https://www.ammitto.org/entity/au/1071",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/1071",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "YAHIA DJOUADI",
+      "@type": "NameVariant",
+      "fullName": "YAHIA DJOUADI",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "يحي جوادي",
+      "@type": "NameVariant",
+      "fullName": "يحي جوادي",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Yahia Abou Ammar ",
+      "@type": "NameVariant",
+      "fullName": "Yahia Abou Ammar ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abou Ala  ",
+      "@type": "NameVariant",
+      "fullName": "Abou Ala  ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Reportedly deceased as of February 2022. Belonged to the leadership of the Organization of Al-Qaida in the Islamic Maghreb (listed under permanent reference number QE.T.14.01.). Located in Northern Mali as of Jun. 2008. Mother’s name is Zohra Fares. Father’s name is Mohamed. Review pursuant to Security Council resolution 2368 (2017) was concluded on 15 November 2021. Review pursuant to Security Council resolution 2610 (2021) was concluded on 8 November 2022.; Listing: Listed by the UN 1267 Committee on 3 Jun. 2008 (amended on 15 Nov. 2012, 2 February 2023).",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/1071"
   ],
-  "birth_info": [
+  "remarks": "Located in Northern Mali as of Jun. 2008. Reportedly killed on 25 February 2022 in Timbuktu, Mali. Belonged to the leadership of the Organization of Al-Qaida in the Islamic Maghreb (listed under permanent reference number QE.T.14.01.). Mother’s name is Zohra Fares. Father’s name is Mohamed. Review pursuant to Security Council resolution 2368 (2017) was concluded on 15 November 2021. Review pursuant to Security Council resolution 2610 (2021) was concluded on 8 November 2022.; Listing: Listed by the UN 1267 Committee on 3 Jun. 2008 (amended on 15 Nov. 2012, 2 February 2023, 18 Aug. 2026).",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1967,
       "country": "M’Hamid"
     }
   ],
   "nationalities": [
     "Algeria"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,27 +1,43 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3573",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/3573",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "PHYONGCHON SHIPPING & MARINE",
+      "@type": "NameVariant",
+      "fullName": "PHYONGCHON SHIPPING & MARINE",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "PHYONGCHON SHIPPING AND MARINE",
+      "@type": "NameVariant",
+      "fullName": "PHYONGCHON SHIPPING AND MARINE",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "KPe.070. Registered owner of DPRK tanker JI SONG 6, which is believed to have been involved in ship-to-ship transfer operations of oil in late January 2018. The company also owns vessels JI SONG 8 and WOORY STAR. IMO number: 5878561.; Listing: Listed on: 30 Mar. 2018 (amended on 26 Jul. 2022)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3573"
+  ],
+  "remarks": "KPe.070. Registered owner of DPRK tanker JI SONG 6, which is believed to have been involved in ship-to-ship transfer operations of oil in late January 2018. The company also owns vessels JI SONG 8 and WOORY STAR. IMO number: 5878561.; Listing: Listed on: 30 Mar. 2018 (amended on 26 Jul. 2022)",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Otan-dong, Chung-guyok, Pyongyang, Democratic People's Republic of Korea",
       "country": "Democratic People's Republic of Korea"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

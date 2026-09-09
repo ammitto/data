@@ -1,32 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7960",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/7960",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "THE ISLAMIC REVOLUTIONARY GUARD CORPS NAVY",
+      "@type": "NameVariant",
+      "fullName": "THE ISLAMIC REVOLUTIONARY GUARD CORPS NAVY",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "IRGC NAVY",
+      "@type": "NameVariant",
+      "fullName": "IRGC NAVY",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "ISLAMIC REVOLUTION GUARD CORPS NAVAL FORCE",
+      "@type": "NameVariant",
+      "fullName": "ISLAMIC REVOLUTION GUARD CORPS NAVAL FORCE",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The IRGC NAVY, separate from Iran’s conventional naval branch (which operates in parallel), is responsible for patrolling Iran’s maritime borders, including the Strait of Hormuz.; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Iran) Amendment (No. 1) Instrument 2024",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7960"
+  ],
+  "remarks": "The IRGC NAVY, separate from Iran’s conventional naval branch (which operates in parallel), is responsible for patrolling Iran’s maritime borders, including the Strait of Hormuz.; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Iran) Amendment (No. 1) Instrument 2024",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Tehran, Iran",
       "country": "Iran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

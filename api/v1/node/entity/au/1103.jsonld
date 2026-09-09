@@ -1,81 +1,105 @@
 {
-  "id": "https://www.ammitto.org/entity/au/1103",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/1103",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Hafiz Muhammad Saeed",
+      "@type": "NameVariant",
+      "fullName": "Hafiz Muhammad Saeed",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Hafiz Muhammad",
+      "@type": "NameVariant",
+      "fullName": "Hafiz Muhammad",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Hafiz Saeed",
+      "@type": "NameVariant",
+      "fullName": "Hafiz Saeed",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Hafiz Mohammad Sahib",
+      "@type": "NameVariant",
+      "fullName": "Hafiz Mohammad Sahib",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Hafez Mohammad Saeed",
+      "@type": "NameVariant",
+      "fullName": "Hafez Mohammad Saeed",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Hafiz Mohammad Sayeed",
+      "@type": "NameVariant",
+      "fullName": "Hafiz Mohammad Sayeed",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Hafiz Mohammad Sayid",
+      "@type": "NameVariant",
+      "fullName": "Hafiz Mohammad Sayid",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Tata Mohammad Syeed",
+      "@type": "NameVariant",
+      "fullName": "Tata Mohammad Syeed",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Mohammad Sayed",
+      "@type": "NameVariant",
+      "fullName": "Mohammad Sayed",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Hafiz Ji",
+      "@type": "NameVariant",
+      "fullName": "Hafiz Ji",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Muhammad Saeed",
+      "@type": "NameVariant",
+      "fullName": "Muhammad Saeed",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Muhammad Saeed is the leader of Lashkar-e-Tayyiba QE.L.118.05.). DFAT consolidated list No. 300. In custody of the Government of Pakistan serving a 78 year imprisonment sentence since 12 February 2020 as a result of conviction in seven terror financing cases. Review pursuant to Security Council resolution 2610 (2021) was concluded on 30 October 2023.; Listing: Listed by the UN 1267 Committee on 10 Dec. 2008 (amended on 17 Jul. 2009, 19 Dec. 2023)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/1103"
   ],
-  "birth_info": [
+  "remarks": "Muhammad Saeed is the leader of Lashkar-e-Tayyiba QE.L.118.05.). DFAT consolidated list No. 300. In custody of the Government of Pakistan serving a 78 year imprisonment sentence since 12 February 2020 as a result of conviction in seven terror financing cases. Review pursuant to Security Council resolution 2610 (2021) was concluded on 30 October 2023.; Listing: Listed by the UN 1267 Committee on 10 Dec. 2008 (amended on 17 Jul. 2009, 19 Dec. 2023)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1950,
       "country": "Sargodha"
     }
   ],
   "nationalities": [
     "Pakistan"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "House No. 116E, Mohalla Johar, Lahore, Tehsil, Lahore City, Lahore District, Pakistan, (location as of May 2008)",
       "country": "(location as of May 2008)"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

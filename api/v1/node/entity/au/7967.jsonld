@@ -1,37 +1,55 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7967",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/7967",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Sovfracht Joint Stock Company",
+      "@type": "NameVariant",
+      "fullName": "Sovfracht Joint Stock Company",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "OJSC Sovfracht",
+      "@type": "NameVariant",
+      "fullName": "OJSC Sovfracht",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "PJSC ‘Sovfracht’",
+      "@type": "NameVariant",
+      "fullName": "PJSC ‘Sovfracht’",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Sovfracht",
+      "@type": "NameVariant",
+      "fullName": "Sovfracht",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "https://www.sovfracht.ru/; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 5) Instrument 2024",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7967"
+  ],
+  "remarks": "https://www.sovfracht.ru/; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 5) Instrument 2024",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Office 611, Floor 6, Building 1, Vasilisa Kozhina street, Park Pobedy DC Moscow 121096 Russia;\nRakhmanovskiy lane, 4, bld. 1, Morskoy House Moscow 127994 Russia",
       "country": "Morskoy House Moscow 127994 Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/33869",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/33869",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ri Man Gon",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Ri Man Gon",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/33869"
   ],
   "remarks": "Former Minister of the Munitions Industry Department",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1945-10-29",
-      "circa": false
+      "circa": false,
+      "year": 1945
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

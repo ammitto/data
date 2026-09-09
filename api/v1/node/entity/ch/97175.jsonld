@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/97175",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/97175",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Qannadi Mohammad",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Qannadi Mohammad",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/97175"
   ],
   "remarks": "Vice President for Research and Development of the AEOI",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1952-10-13",
-      "circa": false
+      "circa": false,
+      "year": 1952
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

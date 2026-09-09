@@ -1,33 +1,50 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus2424",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus2424",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "NEWAY CNC EQUIPMENT (SUZHOU) CO LTD ",
+      "@type": "NameVariant",
+      "fullName": "NEWAY CNC EQUIPMENT (SUZHOU) CO LTD ",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "NEWAY CNC",
+      "@type": "NameVariant",
+      "fullName": "NEWAY CNC",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "纽威数控装备 ",
+      "@type": "NameVariant",
+      "fullName": "纽威数控装备 ",
       "script": "Hani",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus2424"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "No 69 Xunyangjiang Road, High-Tech Zone",
       "state": "Suzhou",
       "country": "China"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

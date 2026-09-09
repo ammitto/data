@@ -1,35 +1,53 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7379",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7379",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Aleksey Olegovich CHEKUNKOV",
+      "@type": "NameVariant",
+      "fullName": "Aleksey Olegovich CHEKUNKOV",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Oleksii Olehovych CHEKUNKOV",
+      "@type": "NameVariant",
+      "fullName": "Oleksii Olehovych CHEKUNKOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Aleksei Olegovich CHEKUNKOV",
+      "@type": "NameVariant",
+      "fullName": "Aleksei Olegovich CHEKUNKOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Minister of the Russian Federation for the Development of the Far East and the Arctic; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 2) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7379"
   ],
-  "birth_info": [
+  "remarks": "Minister of the Russian Federation for the Development of the Far East and the Arctic; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 2) Instrument 2023",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1980,
       "country": "Minsk"
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

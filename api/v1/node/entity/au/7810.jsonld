@@ -1,35 +1,53 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7810",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7810",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Vitaly Alexsandrovich BELITSKY",
+      "@type": "NameVariant",
+      "fullName": "Vitaly Alexsandrovich BELITSKY",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Vitaliy Alexandrovich BELITSKIY",
+      "@type": "NameVariant",
+      "fullName": "Vitaliy Alexandrovich BELITSKIY",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Vitaly Alexandrovich BELITSKY",
+      "@type": "NameVariant",
+      "fullName": "Vitaly Alexandrovich BELITSKY",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Moscow City Court Judge; Listing: Instrument of first designation and declaration: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 11) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7810"
   ],
-  "birth_info": [
+  "remarks": "Moscow City Court Judge; Listing: Instrument of first designation and declaration: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 11) Instrument 2023",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1980,
       "country": "Russia"
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,73 +1,99 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/drc0008",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/drc0008",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Boshab",
-      "first_name": "Evariste",
+      "@type": "NameVariant",
+      "fullName": "Boshab",
+      "firstName": "Evariste",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Boshab",
-      "first_name": "Evarist",
+      "@type": "NameVariant",
+      "fullName": "Boshab",
+      "firstName": "Evarist",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Boshab Mabudj",
-      "first_name": "Evarist",
+      "@type": "NameVariant",
+      "fullName": "Boshab Mabudj",
+      "firstName": "Evarist",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Boshab Mabudj",
-      "first_name": "Evariste",
+      "@type": "NameVariant",
+      "fullName": "Boshab Mabudj",
+      "firstName": "Evariste",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Boshab Mabudj Mabilenge",
-      "first_name": "Evarist",
+      "@type": "NameVariant",
+      "fullName": "Boshab Mabudj Mabilenge",
+      "firstName": "Evarist",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Boshab Mabudj Mabilenge",
-      "first_name": "Evariste",
+      "@type": "NameVariant",
+      "fullName": "Boshab Mabudj Mabilenge",
+      "firstName": "Evariste",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Boshab Mabudj-Ma-Bilenge",
-      "first_name": "Evariste",
+      "@type": "NameVariant",
+      "fullName": "Boshab Mabudj-Ma-Bilenge",
+      "firstName": "Evariste",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Boshab Mabutsh",
-      "first_name": "Evariste",
+      "@type": "NameVariant",
+      "fullName": "Boshab Mabutsh",
+      "firstName": "Evariste",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Mulumbu Boshab",
-      "first_name": "Evariste",
+      "@type": "NameVariant",
+      "fullName": "Mulumbu Boshab",
+      "firstName": "Evariste",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Schengen visa expired on 5.1.2017 The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/drc0008"
+  ],
+  "remarks": "Schengen visa expired on 5.1.2017 The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Avenue du Rail 5",
       "city": "Ngaliema",
       "state": "Kinshasa",
       "country": "Congo (Democratic Republic)"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

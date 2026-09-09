@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/62615",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/62615",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Shor Ilan Mironovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Shor Ilan Mironovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/62615"
   ],
   "remarks": "Ilan Shor is a Moldovan politician (leader of the ȘOR political party) and businessman from the Republic of Moldova who is involved in the illegal financing of political parties in the Republic of Moldova and in incitement to violence against the political opposition. Before being declared unconstitutional in June 2023, the ȘOR Party, which Ilan Shor leads, was involved in the payment and training of persons in order to provoke disorder and unrest during the protests in the Republic of Moldova.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1987-03-06",
-      "circa": false
+      "circa": false,
+      "year": 1987
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

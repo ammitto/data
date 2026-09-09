@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/87930",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/87930",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Conrado Ramón Pérez Briceño",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Conrado Ramón Pérez Briceño",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/87930"
   ],
   "remarks": "Principal Rector of the National Electoral Council (CNE) of Venezuela since October 2024. He joined the CNE as alternate Rector and Member of the National Electoral Board of the CNE in August 2023.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1954-04-24",
-      "circa": false
+      "circa": false,
+      "year": 1954
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

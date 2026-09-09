@@ -1,23 +1,44 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/dpr0264",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/dpr0264",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "JE-SON",
-      "first_name": "RI",
+      "@type": "NameVariant",
+      "fullName": "JE-SON",
+      "firstName": "RI",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Che-son",
-      "first_name": "Ri",
+      "@type": "NameVariant",
+      "fullName": "Che-son",
+      "firstName": "Ri",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Former Minister of Atomic Energy Industry. Former Director of the General Bureau of Atomic Energy (GBAE), chief agency directing DPRK's nuclear program; facilitated several nuclear endeavors including GBAE's management of Yongbyon Nuclear Research Center and Namchongang Trading Corporation.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/dpr0264"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "remarks": "Former Minister of Atomic Energy Industry. Former Director of the General Bureau of Atomic Energy (GBAE), chief agency directing DPRK's nuclear program; facilitated several nuclear endeavors including GBAE's management of Yongbyon Nuclear Research Center and Namchongang Trading Corporation.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/53353",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/53353",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Antonov Anatoli Andreevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Antonov Anatoli Andreevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/53353"
   ],
   "remarks": "Former so-called “Minister of State Security” of the so-called “Luhansk People’s Republic”. In taking on and acting in this capacity, he has actively undermined the territorial integrity, sovereignty and independence of Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1966-11-06",
-      "circa": false
+      "circa": false,
+      "year": 1966
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

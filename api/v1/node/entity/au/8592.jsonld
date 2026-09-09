@@ -1,49 +1,70 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8592",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/8592",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Hasan Saburinezhad",
+      "@type": "NameVariant",
+      "fullName": "Hasan Saburinezhad",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "حسن سبری نژاد",
+      "@type": "NameVariant",
+      "fullName": "حسن سبری نژاد",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ali Saburinejad",
+      "@type": "NameVariant",
+      "fullName": "Ali Saburinejad",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Hasan Saburi Nazhad",
+      "@type": "NameVariant",
+      "fullName": "Hasan Saburi Nazhad",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ali Saburinezhad",
+      "@type": "NameVariant",
+      "fullName": "Ali Saburinezhad",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Engineer Morteza",
+      "@type": "NameVariant",
+      "fullName": "Engineer Morteza",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "National ID Number: 0383595282;\n\nLinked to Islamic Revolutionary Guard Corps; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Iran) List 2012",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8592"
   ],
-  "birth_info": [
+  "remarks": "National ID Number: 0383595282;\n\nLinked to Islamic Revolutionary Guard Corps; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Iran) List 2012",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1965
     }
   ],
   "nationalities": [
     "Iran"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

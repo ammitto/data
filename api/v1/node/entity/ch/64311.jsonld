@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/64311",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/64311",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Heidari Mousa Mohammad Sadegh",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Heidari Mousa Mohammad Sadegh",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/64311"
   ],
   "remarks": "Mohammad Sadegh Heidari Mousa is a member of the Board of Paravar Pars Company, which has produced Unmanned Aerial Vehicles (UAVs) for the Islamic Revolutionary Guard Corps (IRGC) Aerospace Force (IRGC AF) and has tested UAVs for the IRGC Navy. In particular, Paravar Pars Company was involved in the research, development and production of the Iranian Shahed-171 UAV developed by the IRGC AF. Shahed-171 UAVs produced in Iran are used by the Russian Federation in the war of aggression against Ukraine. In his role, he is therefore responsible for actions and policies which undermine and threaten the territorial integrity, sovereignty and independence of Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1977-09-24",
-      "circa": false
+      "circa": false,
+      "year": 1977
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

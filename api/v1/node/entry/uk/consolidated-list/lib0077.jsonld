@@ -1,39 +1,55 @@
 {
-  "id": "https://www.ammitto.org/entry/uk/consolidated-list/lib0077",
-  "entity_id": "https://www.ammitto.org/entity/uk/lib0077",
+  "@id": "https://www.ammitto.org/entry/uk/consolidated-list/lib0077",
+  "@type": "SanctionEntry",
+  "entityId": "https://www.ammitto.org/entity/uk/lib0077",
   "authority": {
     "@id": "https://www.ammitto.org/authority/uk"
   },
   "regime": {
-    "@id": "https://www.ammitto.org/regime/the_libya_sanctions_eu_exit_regulations_2020"
+    "@id": "https://www.ammitto.org/regime/the_libya_sanctions_eu_exit_regulations_2020",
+    "name": "The Libya (Sanctions) (EU Exit) Regulations 2020"
   },
+  "legalBases": [
+
+  ],
   "effects": [
     {
-      "effect_type": "asset_freeze",
+      "@type": "SanctionEffect",
+      "effectType": "asset_freeze",
       "scope": "full"
     },
     {
-      "effect_type": "debarment",
+      "@type": "SanctionEffect",
+      "effectType": "debarment",
       "scope": "full"
     }
   ],
+  "reasons": [
+
+  ],
   "period": {
-    "listed_date": "2024-11-07",
-    "effective_date": "2024-11-07",
-    "is_indefinite": true,
-    "last_updated": "2025-04-09"
+    "@type": "TemporalPeriod",
+    "listedDate": "2024-11-07",
+    "effectiveDate": "2024-11-07",
+    "isIndefinite": true,
+    "lastUpdated": "2025-04-09"
   },
   "status": "active",
-  "reference_number": "LIB0077",
+  "statusHistory": [
+
+  ],
+  "referenceNumber": "LIB0077",
   "remarks": "\nThe Africa Corps is and has been an involved person on the basis that the “Africa Corps” (“Africa Corps”) or “Expeditionary Corps” and formerly known as the “Wagner Group” or “PMC Wagner” has and continues to threaten the peace, stability and security of Libya. \n",
-  "raw_source_data": {
-    "source_format": "xml",
-    "source_specific_fields": {
+  "rawSourceData": {
+    "@type": "RawSourceData",
+    "sourceFormat": "xml",
+    "sourceSpecificFields": {
       "uk:ofsiGroupId": "16630",
+      "uk:unReferenceNumber": null,
       "uk:designationSource": "UK",
       "uk:sanctionsImposed": "Asset freeze|Director Disqualification Sanction",
       "uk:entityType": "Entity"
     }
   },
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

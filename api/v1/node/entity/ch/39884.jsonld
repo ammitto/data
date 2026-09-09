@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/39884",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/39884",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Tereshchenko Ekaterina Vasilyevna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Tereshchenko Ekaterina Vasilyevna",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/39884"
   ],
   "remarks": "So-called “Secretary” of the so-called “Central Electoral Commission” of the so-called “Luhansk People’s Republic”. In this capacity, she participated in the organisation of the so-called “elections” of 11 November 2018 and 8-10 September 2023 in the so-called “Luhansk People’s Republic”, and thereby actively supported and implemented policies that undermine the territorial integrity, sovereignty and independence of Ukraine, and further destabilise Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1986-05-31",
-      "circa": false
+      "circa": false,
+      "year": 1986
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

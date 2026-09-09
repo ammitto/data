@@ -1,38 +1,56 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus0234",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus0234",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Joint Stock Company Genbank",
+      "@type": "NameVariant",
+      "fullName": "Joint Stock Company Genbank",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Aktsionernoe Obshchestvo Genbank",
+      "@type": "NameVariant",
+      "fullName": "Aktsionernoe Obshchestvo Genbank",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "АО \"ГЕНБАНК\"",
+      "@type": "NameVariant",
+      "fullName": "АО \"ГЕНБАНК\"",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The prohibition on correspondent banking relationships and processing payments was imposed on 15/12/2023. The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus0234"
+  ],
+  "remarks": "The prohibition on correspondent banking relationships and processing payments was imposed on 15/12/2023. The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Ozerkovskaya Naberezhnaya 12",
       "state": "Moscow",
       "country": "Russia"
     },
     {
+      "@type": "Address",
       "street": "Sevastopolskaya Street, 13, Simferopol",
       "state": "Crimea",
       "country": "Ukraine"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

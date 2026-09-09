@@ -1,36 +1,51 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3117",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/3117",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Maxime Hauchard",
+      "@type": "NameVariant",
+      "fullName": "Maxime Hauchard",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Abou Abdallah al Faransi",
+      "@type": "NameVariant",
+      "fullName": "Abou Abdallah al Faransi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "French national identity card number 101127200129 (issued by the Sous-Prefecture of Bernay, France and expires 4 Nov.2020).  French foreign terrorist fighter for Islamic State in Iraq and the Levant, listed as Al-Qaida in Iraq (QDe.115). French arrest warrant issued on 20 Jan. 2015 by a magistrate of the anti-terrorism division of the Prosecutor's Office in Paris for murder in connection with a terrorist entity and participation in a terrorist criminal association. Review pursuant to Security Council resolution 2368 (2017) was concluded on 15 November 2021.; Listing: Listed on 29 Sep. 2015 (amended on 24 Jun. 2016)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3117"
   ],
-  "birth_info": [
+  "remarks": "French national identity card number 101127200129 (issued by the Sous-Prefecture of Bernay, France and expires 4 Nov.2020).  French foreign terrorist fighter for Islamic State in Iraq and the Levant, listed as Al-Qaida in Iraq (QDe.115). French arrest warrant issued on 20 Jan. 2015 by a magistrate of the anti-terrorism division of the Prosecutor's Office in Paris for murder in connection with a terrorist entity and participation in a terrorist criminal association. Review pursuant to Security Council resolution 2368 (2017) was concluded on 15 November 2021.; Listing: Listed on 29 Sep. 2015 (amended on 24 Jun. 2016)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1992,
       "country": "Saint Aubin les Elbeuf"
     }
   ],
   "nationalities": [
     "France"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Syrian Arab Republic (as at Sep. 2015)",
       "country": "Syrian Arab Republic (as at Sep. 2015)"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

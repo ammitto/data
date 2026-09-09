@@ -1,28 +1,48 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/lib0072",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/lib0072",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "al Kani",
-      "first_name": "Mohamed",
+      "@type": "NameVariant",
+      "fullName": "al Kani",
+      "firstName": "Mohamed",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "al Kani",
-      "first_name": "Omar",
+      "@type": "NameVariant",
+      "fullName": "al Kani",
+      "firstName": "Omar",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/lib0072"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "country": "Libya"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

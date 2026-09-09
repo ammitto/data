@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/870861",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/870861",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "FUTURE NETWINGS SOLUTIONS PVT LTD",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "FUTURE NETWINGS SOLUTIONS PVT LTD",
+      "isPrimary": true
     }
   ],
-  "remarks": "*664",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/870861"
+  ],
+  "remarks": "*664",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "21 BUKIT BATOK CRESCENT, #10-71 WCEGA TOWER",
       "city": "658065",
       "country": "Singapore",
-      "country_iso_code": "SG"
+      "countryIsoCode": "SG"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

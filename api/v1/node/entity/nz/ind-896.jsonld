@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/nz/ind-896",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/nz/ind-896",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Andrey Konstantinovich Lugovoy",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Andrey Konstantinovich Lugovoy",
+      "isPrimary": true
     }
   ],
-  "source_references": [
+  "sourceReferences": [
     {
-      "source_code": "nz",
-      "reference_number": "IND-896"
+      "@type": "SourceReference",
+      "sourceCode": "nz",
+      "referenceNumber": "IND-896",
+      "retrievedAt": "2026-09-09T16:30:44Z"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "linkedEntities": [
+
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/nz/consolidated-list/ind-896"
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

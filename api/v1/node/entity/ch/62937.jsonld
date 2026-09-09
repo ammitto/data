@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/62937",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/62937",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Chaika Igor Yurievich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Chaika Igor Yurievich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/62937"
   ],
   "remarks": "Igor Chaika is the younger son of Yuri Chaika, the ex-Prosecutor General and the Plenipotentiary Representative of the President of the Russian Federation in the North Caucasus Federal District.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1988-12-13",
-      "circa": false
+      "circa": false,
+      "year": 1988
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

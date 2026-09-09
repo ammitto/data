@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/28531",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/28531",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Litvinov Boris Alekseevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Litvinov Boris Alekseevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/28531"
   ],
   "remarks": "Former member of the so-called \"People's Council\" and former chairman of the so-called \"Supreme Council\" of the so-called \"Donetsk People's Republic\" who was at the source of policies and the organisation of the illegal \"referendum\" leading to the proclamation of the so-called \"Donetsk People's Republic\", which constituted a breach of the territorial integrity, sovereignty and unity of Ukraine. Remains active in supporting separatist actions or policies. Current leader of Communist Party of DNR.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1954-01-13",
-      "circa": false
+      "circa": false,
+      "year": 1954
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

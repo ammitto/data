@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/75879",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/75879",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Dronov Yaroslav Yuryevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Dronov Yaroslav Yuryevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/75879"
   ],
   "remarks": "Yaroslav Dronov is a Russian singer. Since the beginning of Russia’s war of aggression against Ukraine, he has repeatedly participated in Kremlin-organised concerts, including the Kremlin’s anniversary event for that war, and given concerts in the illegally occupied regions of Ukraine, including as part of troop entertainment events for the Russian Armed Forces. Therefore, Yaroslav Dronov is supporting actions and policies that undermine the territorial integrity and sovereignty of Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1991-11-22",
-      "circa": false
+      "circa": false,
+      "year": 1991
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

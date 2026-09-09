@@ -1,33 +1,56 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/chw0001",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/chw0001",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ahmed",
-      "first_name": "Firas",
+      "@type": "NameVariant",
+      "fullName": "Ahmed",
+      "firstName": "Firas",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ahmad",
-      "first_name": "Firas",
+      "@type": "NameVariant",
+      "fullName": "Ahmad",
+      "firstName": "Firas",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ahmad",
+      "@type": "NameVariant",
+      "fullName": "Ahmad",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "فراس أحمد",
+      "@type": "NameVariant",
+      "fullName": "فراس أحمد",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Important employee at Scientific Studies and Research Centre (listed under the EU's Chemical Weapons and Syria sanctions regime). The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/chw0001"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "remarks": "Important employee at Scientific Studies and Research Centre (listed under the EU's Chemical Weapons and Syria sanctions regime). The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/343101",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/343101",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "P-SQUARE ASSOCIATES, CO.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "P-SQUARE ASSOCIATES, CO.",
+      "isPrimary": true
     }
   ],
-  "remarks": "*425",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/343101"
+  ],
+  "remarks": "*425",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "LAST KNOWN ADDRESS: UNIT 4A, 4TH FLOOR, J&P BUILDING, LOT 3, BLK 17.V.V. SOLIVEN AVE 1, SAN ISIDRO",
       "city": "CAINTA RIZAL",
       "country": "Philippines",
-      "country_iso_code": "PH"
+      "countryIsoCode": "PH"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/84973",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/84973",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Shvakau Aliaksei Ivanovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Shvakau Aliaksei Ivanovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/84973"
   ],
   "remarks": "In his role as Chairman of the Belarusian Republican Bar Association, Aliaksei Shvakau has been leading and shaping the the Belarusian Republican Bar Association policy of systemic repression against lawyers who represent clients in politically motivated cases or who speak out against abuses by the Lukashenko regime. In his former role as chairman of the Minsk City Bar Association, he also targeted lawyers representing clients in politically motivated cases.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1964-10-05",
-      "circa": false
+      "circa": false,
+      "year": 1964
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

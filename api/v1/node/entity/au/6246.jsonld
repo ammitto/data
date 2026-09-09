@@ -1,41 +1,65 @@
 {
-  "id": "https://www.ammitto.org/entity/au/6246",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/6246",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Denis Vladimirovich PUSHILIN",
+      "@type": "NameVariant",
+      "fullName": "Denis Vladimirovich PUSHILIN",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Denys Volodymyrovych PUSHYLIN",
+      "@type": "NameVariant",
+      "fullName": "Denys Volodymyrovych PUSHYLIN",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Denis PUSHILIN",
+      "@type": "NameVariant",
+      "fullName": "Denis PUSHILIN",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Denis Volodymyrovych PUSHYLIN",
+      "@type": "NameVariant",
+      "fullName": "Denis Volodymyrovych PUSHYLIN",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "So-called ‘Head of the Donetsk People's Republic’ following the so-called elections of 11 November 2018. Former so-called Deputy Chairman of the ‘People's Council’ of the so-called ‘Donetsk People's Republic’. Former Speaker of the Donetsk People's Republic \"parliament\", the People's Council. Donetsk People's Republic's representative in the Contact Group for the Minsk talks; Listing: Listed on 19 Jun. 2014 (re-listed on 16 Jun. 2017, 10 June 2020 and 10 June 2023)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/6246"
   ],
-  "birth_info": [
+  "remarks": "So-called ‘Head of the Donetsk People's Republic’ following the so-called elections of 11 November 2018. Former so-called Deputy Chairman of the ‘People's Council’ of the so-called ‘Donetsk People's Republic’. Former Speaker of the Donetsk People's Republic \"parliament\", the People's Council. Donetsk People's Republic's representative in the Contact Group for the Minsk talks; Listing: Listed on 19 Jun. 2014 (re-listed on 16 Jun. 2017, 10 June 2020 and 10 June 2023)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1982,
       "country": "Makiiva (Donetsk Oblast)"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1981,
       "country": "Makiiva (Donetsk Oblast)"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

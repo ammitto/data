@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/27524",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/27524",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kozak Dmitry Nikolayevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kozak Dmitry Nikolayevich",
+      "isPrimary": true
     }
   ],
-  "remarks": "Former Deputy Prime Minister. Responsible for overseeing the integration of the annexed \"Autonomous Republic of Crimea\" into the Russian Federation. Deputy Chief of Staff of the Presidential Administration of the Russian Federation. He is the President’s Special Envoy for conflict-management in Ukraine.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/27524"
+  ],
+  "remarks": "Former Deputy Prime Minister. Responsible for overseeing the integration of the annexed “Autonomous Republic of Crimea” into the Russian Federation. Former Deputy Chief of Staff of the Presidential Administration of the Russian Federation and President’s Special Envoy for conflict-management in Ukraine.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1958-11-07",
-      "circa": false
+      "circa": false,
+      "year": 1958
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

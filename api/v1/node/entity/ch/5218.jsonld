@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/5218",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/5218",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Batura Mikhail Paulavich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Batura Mikhail Paulavich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/5218"
   ],
   "remarks": "Rector of Minsk State University of Informatics and Radioelectronics. Responsible for the expulsion of students involved in protests following the December 2010 elections.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1950-05-16",
-      "circa": false
+      "circa": false,
+      "year": 1950
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

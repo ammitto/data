@@ -1,35 +1,53 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7383",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7383",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Sergey Sergeevich KRAVSTOV",
+      "@type": "NameVariant",
+      "fullName": "Sergey Sergeevich KRAVSTOV",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Serhii Serhiiovych KRAVSTOV",
+      "@type": "NameVariant",
+      "fullName": "Serhii Serhiiovych KRAVSTOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Sergei Sergeyevich KRAVSTOV",
+      "@type": "NameVariant",
+      "fullName": "Sergei Sergeyevich KRAVSTOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Minister of Education of the Russian Federation; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 2) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7383"
   ],
-  "birth_info": [
+  "remarks": "Minister of Education of the Russian Federation; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 2) Instrument 2023",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1974,
       "country": "Moscow"
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

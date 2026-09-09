@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/12109",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/12109",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ghassan Afif Brigadier General",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Ghassan Afif Brigadier General",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/12109"
   ],
   "remarks": "Commander of military operations in Homs, Baniyas and Idlib under the former al-Assad regime.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1958-02-10",
-      "circa": false
+      "circa": false,
+      "year": 1958
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/343107",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/343107",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "JOSE BENIGNO CORONADO MENDEZ",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "JOSE BENIGNO CORONADO MENDEZ",
+      "isPrimary": true
     }
   ],
-  "remarks": "(ID No. 001-030765-0048T) *388",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/343107"
+  ],
+  "remarks": "(ID No. 001-030765-0048T) *388",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "HOSPITAL HUMBERTO ALVARADO 1 CUADRA AL ESTE",
       "city": "MASAYA",
       "country": "Nicaragua",
-      "country_iso_code": "NI"
+      "countryIsoCode": "NI"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

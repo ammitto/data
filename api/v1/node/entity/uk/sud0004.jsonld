@@ -1,39 +1,61 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/sud0004",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/sud0004",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MAYU",
-      "first_name": "JIBRIL",
+      "@type": "NameVariant",
+      "fullName": "MAYU",
+      "firstName": "JIBRIL",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Badri",
-      "first_name": "Gabril",
+      "@type": "NameVariant",
+      "fullName": "Badri",
+      "firstName": "Gabril",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Barey",
-      "first_name": "Gibril",
+      "@type": "NameVariant",
+      "fullName": "Barey",
+      "firstName": "Gibril",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Tek",
+      "@type": "NameVariant",
+      "fullName": "Tek",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/sud0004"
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "state": "Tine, Resides in Tine, on the Sudanese side of the border with Chad",
       "country": "Sudan"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

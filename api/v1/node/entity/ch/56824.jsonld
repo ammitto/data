@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/56824",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/56824",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Rapoport Boris Yakovlevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Rapoport Boris Yakovlevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/56824"
   ],
   "remarks": "Deputy head of the Division of Operation of the State Council in the Administration of the President of the Russian Federation. The Division has been tasked with the preparations for the illegal referenda in the occupied regions of Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1967-08-14",
-      "circa": false
+      "circa": false,
+      "year": 1967
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

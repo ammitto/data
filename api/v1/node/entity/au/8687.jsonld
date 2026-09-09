@@ -1,32 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8687",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/8687",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Center for Unmanned Systems and Technologies",
+      "@type": "NameVariant",
+      "fullName": "Center for Unmanned Systems and Technologies",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Autonomous non-profit organization \"The center for uncrewed vehicle systems and technology\"",
+      "@type": "NameVariant",
+      "fullName": "Autonomous non-profit organization \"The center for uncrewed vehicle systems and technology\"",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "CUST",
+      "@type": "NameVariant",
+      "fullName": "CUST",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2026",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8687"
+  ],
+  "remarks": "Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2026",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Kirov Street, 135, Building 1, Premise 9, 15, Tula, Tula Region, 300004, Russia.",
       "country": "Russia."
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

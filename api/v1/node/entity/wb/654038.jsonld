@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/654038",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/654038",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "CP POWER EAST AFRICA LIMITED",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "CP POWER EAST AFRICA LIMITED",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/654038"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "OFF NAMANGA ROAD, ATHI RIVER, P.O. BOX 1550-00621",
       "city": "NAIROBI",
       "country": "Kenya",
-      "country_iso_code": "KE"
+      "countryIsoCode": "KE"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

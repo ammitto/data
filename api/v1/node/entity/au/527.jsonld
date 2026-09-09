@@ -1,47 +1,71 @@
 {
-  "id": "https://www.ammitto.org/entity/au/527",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/527",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Assad Ahmad BARAKAT",
+      "@type": "NameVariant",
+      "fullName": "Assad Ahmad BARAKAT",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Assad Ahmed Muhammad BARAKAT",
+      "@type": "NameVariant",
+      "fullName": "Assad Ahmed Muhammad BARAKAT",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Assad BARAKAT",
+      "@type": "NameVariant",
+      "fullName": "Assad BARAKAT",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Assad Hassan BARAKAT",
+      "@type": "NameVariant",
+      "fullName": "Assad Hassan BARAKAT",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Hajj As’ad AHMAD",
+      "@type": "NameVariant",
+      "fullName": "Hajj As’ad AHMAD",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Jach Assad Ahmad BARAKAT",
+      "@type": "NameVariant",
+      "fullName": "Jach Assad Ahmad BARAKAT",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Mr Barakat is associated with Hizballah (a listed entity under Australian sanctions law) and has previously resided in Brazil, Chile and Paraguay.; Listing: Instrument of first listing: Charter of the United Nations Act 1945 List 2004 (No. 2) [F2021L00642, Gazette No. GN 46, 17 November 2004]. Last listed on: 13/09/2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/527"
   ],
-  "birth_info": [
+  "remarks": "Mr Barakat is associated with Hizballah (a listed entity under Australian sanctions law) and has previously resided in Brazil, Chile and Paraguay.; Listing: Instrument of first listing: Charter of the United Nations Act 1945 List 2004 (No. 2) [F2021L00642, Gazette No. GN 46, 17 November 2004]. Last listed on: 13/09/2025",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1967,
       "country": "Lebanon"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

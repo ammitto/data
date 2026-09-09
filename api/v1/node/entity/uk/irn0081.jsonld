@@ -1,47 +1,67 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/irn0081",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/irn0081",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Morality Police",
+      "@type": "NameVariant",
+      "fullName": "Morality Police",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Guidance Patrol",
+      "@type": "NameVariant",
+      "fullName": "Guidance Patrol",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Iran Morality Police",
+      "@type": "NameVariant",
+      "fullName": "Iran Morality Police",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Morality Security Police",
+      "@type": "NameVariant",
+      "fullName": "Morality Security Police",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Gasht-e Ershad",
+      "@type": "NameVariant",
+      "fullName": "Gasht-e Ershad",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Polīs-e Amnīyat-e Akhlāqī",
+      "@type": "NameVariant",
+      "fullName": "Polīs-e Amnīyat-e Akhlāqī",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/irn0081"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Vozara Street, corner of 25th Street, District 6",
       "state": "Tehran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

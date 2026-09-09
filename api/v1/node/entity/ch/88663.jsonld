@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/88663",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/88663",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Strukov Konstantin Ivanovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Strukov Konstantin Ivanovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/88663"
   ],
   "remarks": "Konstantin Strukov is a Russian businessperson. He is the President and major shareholder of the Yuzhuralzoloto Group of Companies (which includes UGC, one of the leading gold and mining companies in the Russian Federation).",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1958-09-10",
-      "circa": false
+      "circa": false,
+      "year": 1958
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

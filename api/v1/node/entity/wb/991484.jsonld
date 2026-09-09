@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/991484",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/991484",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "MIEN TRUNG JOINT STOCK CORPORATION",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "MIEN TRUNG JOINT STOCK CORPORATION",
+      "isPrimary": true
     }
   ],
-  "remarks": "*700",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/991484"
+  ],
+  "remarks": "*700",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "137 LY NAM DE ROAD, DONG HUONG WARD",
       "city": "THANH HOA CITY,THANH HOA PROVINCE",
       "country": "Viet Nam",
-      "country_iso_code": "VN"
+      "countryIsoCode": "VN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

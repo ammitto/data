@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/1056007",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/1056007",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "YESSAN SARLU",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "YESSAN SARLU",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/1056007"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "QUARTIER AGBONOU, 201BP.60",
       "city": "ATAKPAMÉ",
       "country": "Togo",
-      "country_iso_code": "TG"
+      "countryIsoCode": "TG"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

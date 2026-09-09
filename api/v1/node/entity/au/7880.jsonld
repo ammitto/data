@@ -1,35 +1,53 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7880",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7880",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Alexander Aleksandrovich MALKEVICH",
+      "@type": "NameVariant",
+      "fullName": "Alexander Aleksandrovich MALKEVICH",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Alexander Alexandrovich MALKEVICH",
+      "@type": "NameVariant",
+      "fullName": "Alexander Alexandrovich MALKEVICH",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Oleksandr Oleksandrovych MALKEVYCH",
+      "@type": "NameVariant",
+      "fullName": "Oleksandr Oleksandrovych MALKEVYCH",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Businessman and journalist; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2024",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7880"
   ],
-  "birth_info": [
+  "remarks": "Businessman and journalist; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2024",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1975,
       "country": "Leningrad"
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

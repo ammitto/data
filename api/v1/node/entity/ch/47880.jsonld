@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/47880",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/47880",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Reshetnikov Maxim Gennadyevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Reshetnikov Maxim Gennadyevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/47880"
   ],
   "remarks": "Maxim Reshetnikov is the Minister of Economic Development of the Russian Federation. He is also a Member of the Supervisory Council of the VTB Bank, a State-owned bank and associated with Dmitriy Grigorenko, member of the Supervisory Council of VTB Bank.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1979-07-11",
-      "circa": false
+      "circa": false,
+      "year": 1979
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

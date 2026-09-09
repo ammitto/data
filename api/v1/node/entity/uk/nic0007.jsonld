@@ -1,30 +1,50 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/nic0007",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/nic0007",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Murillo Zambrana",
-      "first_name": "Rosario",
+      "@type": "NameVariant",
+      "fullName": "Murillo Zambrana",
+      "firstName": "Rosario",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Murillo de Ortega",
-      "first_name": "Rosario",
+      "@type": "NameVariant",
+      "fullName": "Murillo de Ortega",
+      "firstName": "Rosario",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/nic0007"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "city": "El Carmen",
       "state": "Managua",
       "country": "Nicaragua"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

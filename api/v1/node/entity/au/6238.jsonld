@@ -1,50 +1,68 @@
 {
-  "id": "https://www.ammitto.org/entity/au/6238",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/6238",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Seka Baluku",
+      "@type": "NameVariant",
+      "fullName": "Seka Baluku",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Mzee Kajaju",
+      "@type": "NameVariant",
+      "fullName": "Mzee Kajaju",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Musa",
+      "@type": "NameVariant",
+      "fullName": "Musa",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Lumu",
+      "@type": "NameVariant",
+      "fullName": "Lumu",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Lumonde",
+      "@type": "NameVariant",
+      "fullName": "Lumonde",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "CDi.036  Designation: Overall leader of the Allied Democratic Forces (ADF) (CDe.001).  Longtime member of the ADF (CDe.001), Baluku used to be the second in command to ADF founder Jamil Mukulu (CDi.015) until he took over after FARDC military operation Sukola I in 2014; Listing: Listed by 1533 Committee on 6 February 2020",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/6238"
   ],
-  "birth_info": [
+  "remarks": "CDi.036  Designation: Overall leader of the Allied Democratic Forces (ADF) (CDe.001).  Longtime member of the ADF (CDe.001), Baluku used to be the second in command to ADF founder Jamil Mukulu (CDi.015) until he took over after FARDC military operation Sukola I in 2014; Listing: Listed by 1533 Committee on 6 February 2020",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1977
     }
   ],
   "nationalities": [
     "Uganda"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Kajuju camp of Medina II, Beni territory, North Kivu, Democratic Republic of the Congo (Last known location)",
       "country": "Democratic Republic of the Congo (Last known location)"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

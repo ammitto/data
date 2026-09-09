@@ -1,24 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7992",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7992",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Amir RADFAR",
+      "@type": "NameVariant",
+      "fullName": "Amir RADFAR",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "Director of Shahid Bagheri Industrial Group (SBIG), a position he has held since at least late 2023.; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons - Iran) Amendment (No. 3) Instrument 2024",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7992"
   ],
-  "birth_info": [
+  "remarks": "Director of Shahid Bagheri Industrial Group (SBIG), a position he has held since at least late 2023.; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons - Iran) Amendment (No. 3) Instrument 2024",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1971
     }
   ],
   "nationalities": [
     "Iran"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,45 +1,68 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus0103",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/rus0103",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Gubareva",
-      "first_name": "Ekaterina",
+      "@type": "NameVariant",
+      "fullName": "Gubareva",
+      "firstName": "Ekaterina",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Gubarieva",
-      "first_name": "Kateryna",
+      "@type": "NameVariant",
+      "fullName": "Gubarieva",
+      "firstName": "Kateryna",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "HUBARIEVA",
-      "first_name": "Kateryna",
+      "@type": "NameVariant",
+      "fullName": "HUBARIEVA",
+      "firstName": "Kateryna",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Екатерина Юрьевна ГУБАРЕВА",
+      "@type": "NameVariant",
+      "fullName": "Екатерина Юрьевна ГУБАРЕВА",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Катерина Юріівна ГУБАРЄВА",
+      "@type": "NameVariant",
+      "fullName": "Катерина Юріівна ГУБАРЄВА",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus0103"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "state": "The Autonomous Republic of Crimea and the city of Sevastopol",
       "country": "Ukraine"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

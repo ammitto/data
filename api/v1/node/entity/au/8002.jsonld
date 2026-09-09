@@ -1,34 +1,52 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8002",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/8002",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Igor Vladimirovich ODINTSOV",
+      "@type": "NameVariant",
+      "fullName": "Igor Vladimirovich ODINTSOV",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Sayrocs",
+      "@type": "NameVariant",
+      "fullName": "Sayrocs",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Igor1994v",
+      "@type": "NameVariant",
+      "fullName": "Igor1994v",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Employee of Zservers; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Thematic Sanctions) Amendment (No. 1) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8002"
   ],
-  "birth_info": [
+  "remarks": "Employee of Zservers; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Thematic Sanctions) Amendment (No. 1) Instrument 2025",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1994
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

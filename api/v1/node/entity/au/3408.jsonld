@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3408",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/3408",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Organization and Guidance Department (OGD)",
+      "@type": "NameVariant",
+      "fullName": "Organization and Guidance Department (OGD)",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "KPe.052. The Organization and Guidance Department is a very powerful body of the Worker’s Party of Korea. It directs key personnel appointments for the Workers’ Party of Korea, the DPRK’s military, and the DPRK’s government administration. It also purports to control the political affairs of all of the DPRK and is instrumental in implementing the DPRK’s censorship policies.; Listing: Listed on 11 Sep. 2017",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3408"
+  ],
+  "remarks": "KPe.052. The Organization and Guidance Department is a very powerful body of the Worker’s Party of Korea. It directs key personnel appointments for the Workers’ Party of Korea, the DPRK’s military, and the DPRK’s government administration. It also purports to control the political affairs of all of the DPRK and is instrumental in implementing the DPRK’s censorship policies.; Listing: Listed on 11 Sep. 2017",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "DPRK",
       "country": "DPRK"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

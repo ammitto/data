@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/28265",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/28265",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kaurov Valery Vladimirovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kaurov Valery Vladimirovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/28265"
   ],
   "remarks": "The self-described \"president\" of the so-called \"Republic of Novorossiya\" who has called on Russia to deploy troops to Ukraine. In taking on and acting in this capacity he has therefore supported actions and policies which undermine the territorial integrity, sovereignty and independence of Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1956-04-02",
-      "circa": false
+      "circa": false,
+      "year": 1956
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

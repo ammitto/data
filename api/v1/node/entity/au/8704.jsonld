@@ -1,32 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8704",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/8704",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Joint Stock Commercial Bank National Reserve Bank",
+      "@type": "NameVariant",
+      "fullName": "Joint Stock Commercial Bank National Reserve Bank",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "National reserve bank",
+      "@type": "NameVariant",
+      "fullName": "National reserve bank",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "NRBANK JSCB",
+      "@type": "NameVariant",
+      "fullName": "NRBANK JSCB",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Website: http://www.nrb.ru/; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2026",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8704"
+  ],
+  "remarks": "Website: http://www.nrb.ru/; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2026",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "10A, 60-letiya Oktyabrya Avenue, Moscow, Russia, 117292",
       "country": "117292"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

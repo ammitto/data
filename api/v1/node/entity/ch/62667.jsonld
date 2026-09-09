@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/62667",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/62667",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Plahotniuc Vladimir Gheorghe",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Plahotniuc Vladimir Gheorghe",
+      "isPrimary": true
     }
   ],
-  "remarks": "Vladimir Plahotniuc is subject to numerous criminal proceedings in the Republic of Moldova related to crimes in connection with the embezzlement of State funds of the Republic of Moldova and their illegal transfer outside the Republic of Moldova. He was accused in the Republic of Moldova in the “Bank Fraud” case, the economic effects of which are still affecting the country. He is also being investigated for bribing the former president of the Republic of Moldova with a bag of cash in exchange for political favours.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/62667"
+  ],
+  "remarks": "Vladimir Plahotniuc is subject to numerous criminal proceedings in the Republic of Moldova related to crimes in connection with the embezzlement of State funds of the Republic of Moldova and their illegal transfer outside the Republic of Moldova. He was accused in the Republic of Moldova in the “Bank Fraud” case, the economic effects of which are still affecting the country. He is also being investigated for bribing the former president of the Republic of Moldova with a bag of cash in exchange for political favours. Furthermore, he has held meetings with the Kremlin to gain support for his interference in the 2025 parliamentary elections in the Republic of Moldova.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1966-01-01",
-      "circa": false
+      "circa": false,
+      "year": 1966
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

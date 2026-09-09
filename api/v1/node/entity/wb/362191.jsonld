@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/362191",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/362191",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "AFRICA RAILWAYS LOGISTICS LIMITED",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "AFRICA RAILWAYS LOGISTICS LIMITED",
+      "isPrimary": true
     }
   ],
-  "remarks": "*434",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/362191"
+  ],
+  "remarks": "*434",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "AUGENTIUS FUND ADMINISTRATION (MAURITIUS) LIMITED LEVEL 3, ALEXANDER HOUSE, 35 CYBERCITY",
       "city": "EBENE",
       "country": "Mauritius",
-      "country_iso_code": "MU"
+      "countryIsoCode": "MU"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,21 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/cn/202510-cubic-global-defense",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/cn/202510-cubic-global-defense",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Cubic Global Defense",
+      "@type": "NameVariant",
+      "fullName": "Cubic Global Defense",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "立方全球防务公司",
+      "@type": "NameVariant",
+      "fullName": "立方全球防务公司",
       "script": "Hani",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "List: cn/unreliable-entity-list",
-  "sanction_entry_ids": [
-    "https://www.ammitto.org/entry/cn/unknown/202510-cubic-global-defense"
+  "sourceReferences": [
+
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/cn/unreliable-entity-list/202510-cubic-global-defense"
+  ],
+  "remarks": "List: cn/unreliable-entity-list",
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

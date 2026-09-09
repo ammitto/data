@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/4177",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/4177",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Dennis James Willie Adolphus Coo Coo",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Dennis James Willie Adolphus Coo Coo",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/4177"
   ],
   "remarks": "Associate of former Liberian President Charles Taylor with ongoing ties to him.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1948-03-15",
-      "circa": false
+      "circa": false,
+      "year": 1948
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,24 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/dpr0133",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/dpr0133",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "FIRST OIL JV CO LTD",
+      "@type": "NameVariant",
+      "fullName": "FIRST OIL JV CO LTD",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Owner of the DPRK tanker PAEK MA, which was involved in ship-to-ship transfer operations for oil in mid-January 2018. IMO number: 5963351.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/dpr0133"
+  ],
+  "remarks": "Owner of the DPRK tanker PAEK MA, which was involved in ship-to-ship transfer operations for oil in mid-January 2018. IMO number: 5963351.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Jongbaek 1-dong",
       "city": "Rakrang-guyok",
       "state": "Pyongyang",
       "country": "North Korea"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

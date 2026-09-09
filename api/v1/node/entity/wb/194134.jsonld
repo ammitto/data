@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/194134",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/194134",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "BAUFIRMA",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "BAUFIRMA",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/194134"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "10A AVENIDA 2-18, ZONA 15, COLONIA TUCUN UMAN,",
       "city": "GUATEMALA CITY (CUIDAD DE GUATEMALA)",
       "country": "Guatemala",
-      "country_iso_code": "GT"
+      "countryIsoCode": "GT"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

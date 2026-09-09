@@ -1,40 +1,59 @@
 {
-  "id": "https://www.ammitto.org/entity/au/1105",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/1105",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "HAJI MUHAMMAD ASHRAF",
+      "@type": "NameVariant",
+      "fullName": "HAJI MUHAMMAD ASHRAF",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Haji M. Ashraf",
+      "@type": "NameVariant",
+      "fullName": "Haji M. Ashraf",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Muhammad Ashraf Manshah",
+      "@type": "NameVariant",
+      "fullName": "Muhammad Ashraf Manshah",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Muhammad Ashraf Munsha",
+      "@type": "NameVariant",
+      "fullName": "Muhammad Ashraf Munsha",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Chief of finance of Lashkar-e-Tayyiba (listed under permanent reference number QDe.118). His fathers name is Noor Muhammad. Pakistani passport number AT0712501, issued on 12 Mar. 2008 , expired 11 Mar. 2013. Pakistani passport number A-374184. Pakistani national identification number 6110125312507. Pakistani national identification number 24492025390. Review pursuant to Security Council resolution 2253 (2015) was concluded on 21 Feb. 2019. Review pursuant to Security Council resolution 2610 (2021) was concluded on 8 November 2022.; Listing: Listed on 10 Dec. 2008 (amended on 17 Jul 2009 and 24 July 2013, 1 May 2019)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/1105"
   ],
-  "birth_info": [
+  "remarks": "Chief of finance of Lashkar-e-Tayyiba (listed under permanent reference number QDe.118). His fathers name is Noor Muhammad. Pakistani passport number AT0712501, issued on 12 Mar. 2008 , expired 11 Mar. 2013. Pakistani passport number A-374184. Pakistani national identification number 6110125312507. Pakistani national identification number 24492025390. Review pursuant to Security Council resolution 2253 (2015) was concluded on 21 Feb. 2019. Review pursuant to Security Council resolution 2610 (2021) was concluded on 8 November 2022.; Listing: Listed on 10 Dec. 2008 (amended on 17 Jul 2009 and 24 July 2013, 1 May 2019)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1965,
       "country": "Faisalabad"
     }
   ],
   "nationalities": [
     "Pakistan"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

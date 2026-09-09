@@ -1,33 +1,50 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus1421",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus1421",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "GARANTEX EUROPE OU",
+      "@type": "NameVariant",
+      "fullName": "GARANTEX EUROPE OU",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "ГАРАНТЕКС",
+      "@type": "NameVariant",
+      "fullName": "ГАРАНТЕКС",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Digital Currency Address: XBT 3Lpoy53K625zVeE47ZasiG5jGkAxJ27kh1\t \t \t  \t \t \nDigital Currency Address: ETH 0x7FF9cFad3877F21d41Da833E2F775dB0569eE3D9\t \t \t \nDigital Currency Address: USDT 3E6ZCKRrsdPc35chA9Eftp1h3DLW18NFNV The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus1421"
+  ],
+  "remarks": "Digital Currency Address: XBT 3Lpoy53K625zVeE47ZasiG5jGkAxJ27kh1\t \t \t  \t \t \nDigital Currency Address: ETH 0x7FF9cFad3877F21d41Da833E2F775dB0569eE3D9\t \t \t \nDigital Currency Address: USDT 3E6ZCKRrsdPc35chA9Eftp1h3DLW18NFNV The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Harju maakond, Kesklinna linnaosa, J., Poska tn 51a/1-3",
       "state": "Tallinn",
       "country": "Estonia"
     },
     {
+      "@type": "Address",
       "street": "Harju maakond, Lasnamae linnaosa, Peterburi tee 47",
       "state": "Tallinn",
       "country": "Estonia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

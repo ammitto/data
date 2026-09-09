@@ -1,35 +1,53 @@
 {
-  "id": "https://www.ammitto.org/entity/au/2561",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/2561",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Paek Chang-Ho",
+      "@type": "NameVariant",
+      "fullName": "Paek Chang-Ho",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Pak Chang-Ho",
+      "@type": "NameVariant",
+      "fullName": "Pak Chang-Ho",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Paek Ch'ang-Ho",
+      "@type": "NameVariant",
+      "fullName": "Paek Ch'ang-Ho",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "KPi.006. Senior official and head of the satellite control center of Koreean Committee for Space Technology. Passport: 381420754; Passport Date of Issue: 7 December 2011; Passport Date of Expiration: 7 December 2016.; Listing: First listed on 22/01/2013",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/2561"
   ],
-  "birth_info": [
+  "remarks": "KPi.006. Senior official and head of the satellite control center of Koreean Committee for Space Technology. Passport: 381420754; Passport Date of Issue: 7 December 2011; Passport Date of Expiration: 7 December 2016.; Listing: First listed on 22/01/2013",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1964,
       "country": "Kaesong"
     }
   ],
   "nationalities": [
     "Democratic People's Republic of Korea (North Korea)"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

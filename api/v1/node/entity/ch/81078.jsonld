@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/81078",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/81078",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mehrez Ben Mahmoud Ben Sassi Al-Amdouni",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Mehrez Ben Mahmoud Ben Sassi Al-Amdouni",
+      "isPrimary": true
     }
   ],
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/81078"
+  ],
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1969-12-18",
-      "circa": false
+      "circa": false,
+      "year": 1969
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

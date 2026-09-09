@@ -1,43 +1,64 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/dpr0188",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/dpr0188",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "RECONNAISSANCE GENERAL BUREAU (RGB)",
+      "@type": "NameVariant",
+      "fullName": "RECONNAISSANCE GENERAL BUREAU (RGB)",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Chongch'ai Ch'ongguk",
+      "@type": "NameVariant",
+      "fullName": "Chongch'ai Ch'ongguk",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "KPA Unit 586",
+      "@type": "NameVariant",
+      "fullName": "KPA Unit 586",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "RGB",
+      "@type": "NameVariant",
+      "fullName": "RGB",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Reconnaissance General Bureau is the DPRK's premiere intelligence organization, created in early 2009 by the merger of existing intelligence organizations from the Korean Workers' Party, the Operations Department and Office 35, and the Reconnaissance Bureau of the Korean People's Army. The Reconnaissance General Bureau trades in conventional arms and controls the DPRK conventional arms firm Green Pine Associated Corporation.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/dpr0188"
+  ],
+  "remarks": "The Reconnaissance General Bureau is the DPRK's premiere intelligence organization, created in early 2009 by the merger of existing intelligence organizations from the Korean Workers' Party, the Operations Department and Office 35, and the Reconnaissance Bureau of the Korean People's Army. The Reconnaissance General Bureau trades in conventional arms and controls the DPRK conventional arms firm Green Pine Associated Corporation.",
+  "identifications": [
+
   ],
   "addresses": [
     {
-      "city": "Hyongjesan-Guyok",
+      "@type": "Address",
+      "street": "",
+      "city": "Nungrado",
       "state": "Pyongyang",
       "country": "North Korea"
     },
     {
-      "city": "Nungrado",
+      "@type": "Address",
+      "street": "",
+      "city": "Hyongjesan-Guyok",
       "state": "Pyongyang",
       "country": "North Korea"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

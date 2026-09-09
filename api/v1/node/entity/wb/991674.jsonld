@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/991674",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/991674",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "TAIHAN CANADA LTD.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "TAIHAN CANADA LTD.",
+      "isPrimary": true
     }
   ],
-  "remarks": "(Reg. No. BC1543491) *658",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/991674"
+  ],
+  "remarks": "(Reg. No. BC1543491) *658",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "1000-595 BURRARD STREET",
       "city": "VANCOUVER BC V7X 1S8",
       "country": "Canada",
-      "country_iso_code": "CA"
+      "countryIsoCode": "CA"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

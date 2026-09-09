@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/59063",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/59063",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Lepsveridze Grigoriy Viktorovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Lepsveridze Grigoriy Viktorovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/59063"
   ],
   "remarks": "Grigoriy Viktorovich Lepsveridze is a Russian singer, musician, composer and music producer. Lepsveridze has a large audience and a lot of influence on his fans.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1962-07-16",
-      "circa": false
+      "circa": false,
+      "year": 1962
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,23 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/614739",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/wb/614739",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "NOAH ROSENKRANTZ",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "NOAH ROSENKRANTZ",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/614739"
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "city": "WASHINGTON",
       "state": "DC",
       "country": "United States",
-      "country_iso_code": "US",
-      "postal_code": "20036"
+      "countryIsoCode": "US",
+      "postalCode": "20036"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

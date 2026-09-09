@@ -1,69 +1,102 @@
 {
-  "id": "https://www.ammitto.org/entity/au/302",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/302",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mahmood Sultan Bashir-Ud-Din",
+      "@type": "NameVariant",
+      "fullName": "Mahmood Sultan Bashir-Ud-Din",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Mahmood, Sultan Bashiruddin",
+      "@type": "NameVariant",
+      "fullName": "Mahmood, Sultan Bashiruddin",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Mehmood, Dr. Bashir Uddin",
+      "@type": "NameVariant",
+      "fullName": "Mehmood, Dr. Bashir Uddin",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Mekmud, Sultan Baishiruddin",
+      "@type": "NameVariant",
+      "fullName": "Mekmud, Sultan Baishiruddin",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "QDi.055\nReview pursuant to Security Council resolution 1822 (2008) was concluded on 1 Jun. 2010. Review pursuant to Security Council resolution 2253 (2015) was concluded on 21 Feb. 2019. Review pursuant to Security Council resolution 2610 (2021) was concluded on 8 November 2022.; Listing: Listed on: 24 Dec. 2001 (amended on 1 May 2019, 8 Nov. 2022).",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/302"
   ],
-  "birth_info": [
+  "remarks": "QDi.055\nReview pursuant to Security Council resolution 1822 (2008) was concluded on 1 Jun. 2010. Review pursuant to Security Council resolution 2253 (2015) was concluded on 21 Feb. 2019. Review pursuant to Security Council resolution 2610 (2021) was concluded on 8 November 2022.; Listing: Listed on: 24 Dec. 2001 (amended on 1 May 2019, 8 Nov. 2022).",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1937
     },
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1938
     },
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1939
     },
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1940
     },
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1941
     },
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1942
     },
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1943
     },
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1944
     },
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1945
     }
   ],
   "nationalities": [
     "Pakistan"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Street 13, Wazir Akbar Khan, Kabul, Afghanistan",
       "country": "Afghanistan"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

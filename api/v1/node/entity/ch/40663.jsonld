@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/40663",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/40663",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Houka Houka Ag Alhousseini Cadi",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Houka Houka Ag Alhousseini Cadi",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/40663"
   ],
   "remarks": "Houka Houka Ag Alhousseini was appointed by Iyad Ag Ghaly (QDi.316) as the Cadi of Timbuktu in Apr 2012 after the establishment of the jihadist caliphate in northern Mali. Houka Houka used to work closely with the Hesbah, the Islamic police headed by Ahmad Al Faqi Al Mahdi, jailed at the Detention Centre of the International Criminal Court in The Hague since Sep 2016",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1962-01-01",
-      "circa": false
+      "circa": false,
+      "year": 1962
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

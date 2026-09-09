@@ -1,24 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/inu0368",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/inu0368",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "First East Export Bank, P.L.C",
+      "@type": "NameVariant",
+      "fullName": "First East Export Bank, P.L.C",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "Owned or controlled by, or acts on behalf of, Bank Mellat. Over the last seven years, Bank Mellat has facilitated hundreds of millions of dollars in transactions for Iranian nuclear, missile, and defense entities.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/inu0368"
+  ],
+  "remarks": "Owned or controlled by, or acts on behalf of, Bank Mellat. Over the last seven years, Bank Mellat has facilitated hundreds of millions of dollars in transactions for Iranian nuclear, missile, and defense entities.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Unit Level 10 (B1), Main Officer Tower, Financial Park Labuan, Jalan Merdeka",
       "city": "87000 WP",
       "state": "Labuan",
       "country": "Malaysia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

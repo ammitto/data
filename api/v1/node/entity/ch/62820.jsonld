@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/62820",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/62820",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Romanov Leonid Mikhailovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Romanov Leonid Mikhailovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/62820"
   ],
   "remarks": "Leonid Romanov is a director general of the Evgeny Primakov Children’s Aid Foundation, which implements the project “Children of Donbas”, under which Ukrainian children from Donbas are being relocated to the territory of the illegally annexed Crimea and Russia. One of the goals of the “Children of Donbas” project is to integrate children from the Donbas region of Ukraine into life in Russia.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1947-02-13",
-      "circa": false
+      "circa": false,
+      "year": 1947
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

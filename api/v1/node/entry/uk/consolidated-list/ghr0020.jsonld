@@ -1,43 +1,60 @@
 {
-  "id": "https://www.ammitto.org/entry/uk/consolidated-list/ghr0020",
-  "entity_id": "https://www.ammitto.org/entity/uk/ghr0020",
+  "@id": "https://www.ammitto.org/entry/uk/consolidated-list/ghr0020",
+  "@type": "SanctionEntry",
+  "entityId": "https://www.ammitto.org/entity/uk/ghr0020",
   "authority": {
     "@id": "https://www.ammitto.org/authority/uk"
   },
   "regime": {
-    "@id": "https://www.ammitto.org/regime/the_global_human_rights_sanctions_regulations_2020"
+    "@id": "https://www.ammitto.org/regime/the_global_human_rights_sanctions_regulations_2020",
+    "name": "The Global Human Rights Sanctions Regulations 2020"
   },
+  "legalBases": [
+
+  ],
   "effects": [
     {
-      "effect_type": "asset_freeze",
+      "@type": "SanctionEffect",
+      "effectType": "asset_freeze",
       "scope": "full"
     },
     {
-      "effect_type": "travel_ban",
+      "@type": "SanctionEffect",
+      "effectType": "travel_ban",
       "scope": "full"
     },
     {
-      "effect_type": "debarment",
+      "@type": "SanctionEffect",
+      "effectType": "debarment",
       "scope": "full"
     }
   ],
+  "reasons": [
+
+  ],
   "period": {
-    "listed_date": "2020-07-06",
-    "effective_date": "2020-07-06",
-    "is_indefinite": true,
-    "last_updated": "2025-04-09"
+    "@type": "TemporalPeriod",
+    "listedDate": "2020-07-06",
+    "effectiveDate": "2020-07-06",
+    "isIndefinite": true,
+    "lastUpdated": "2025-04-09"
   },
   "status": "active",
-  "reference_number": "GHR0020",
+  "statusHistory": [
+
+  ],
+  "referenceNumber": "GHR0020",
   "remarks": "\nAleksei Droganov was an officer in the Tax Crimes Department in the Moscow directorate of the Interior Ministry and was involved in the detention and mistreatment of Sergei Magnitsky, which contributed significantly to his death. Droganov was part of the ‘team’ of investigators, led by Artem Kuznetsov, the Deputy Head of the Tax Crimes Department, who were allegedly involved in the initial fraud exposed by Sergei Magnitsky and who falsified evidence to justify his arrest and detention. As part of this investigation team Aleksei Droganov facilitated the mistreatment of Sergei Magnitsky whilst in detention which was designed to force Magnitsky to retract his earlier testimony.",
-  "raw_source_data": {
-    "source_format": "xml",
-    "source_specific_fields": {
+  "rawSourceData": {
+    "@type": "RawSourceData",
+    "sourceFormat": "xml",
+    "sourceSpecificFields": {
       "uk:ofsiGroupId": "13880",
+      "uk:unReferenceNumber": null,
       "uk:designationSource": "UK",
       "uk:sanctionsImposed": "Asset freeze|Travel Ban|Director Disqualification Sanction",
       "uk:entityType": "Individual"
     }
   },
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

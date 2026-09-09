@@ -1,32 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7914",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/7914",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Kaluga Research Institute of Radio Engineering Joint Stock Company",
+      "@type": "NameVariant",
+      "fullName": "Kaluga Research Institute of Radio Engineering Joint Stock Company",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "KNIRTI",
+      "@type": "NameVariant",
+      "fullName": "KNIRTI",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Kaluga Scientific Research Radio Technology Institute",
+      "@type": "NameVariant",
+      "fullName": "Kaluga Scientific Research Radio Technology Institute",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "http://knirti.kret.com; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2024",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7914"
+  ],
+  "remarks": "http://knirti.kret.com; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2024",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Goncharnaya Street, d 20 / 1, Building 1 Moscow Zhukov District Kaluga Region 109240 Russia",
       "country": "Building 1 Moscow Zhukov District Kaluga Region 109240 Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

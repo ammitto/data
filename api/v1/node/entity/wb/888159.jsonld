@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/888159",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/888159",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "HENGSHUI JIZHOU DISTRICT JIUCHEN CONSTRUCTION DEVELOPMENT CO., LTD.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "HENGSHUI JIZHOU DISTRICT JIUCHEN CONSTRUCTION DEVELOPMENT CO., LTD.",
+      "isPrimary": true
     }
   ],
-  "remarks": "衡水市冀州区九辰建设开发有限公司",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/888159"
+  ],
+  "remarks": "衡水市冀州区九辰建设开发有限公司",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "HOT SPRING COMMUNITY,JIZHOU DISTRICT",
       "city": "HENGSHUI CITY",
       "country": "China",
-      "country_iso_code": "CN"
+      "countryIsoCode": "CN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

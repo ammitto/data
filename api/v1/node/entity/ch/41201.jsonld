@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/41201",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/41201",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Basova Lidia Aleksandrovna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Basova Lidia Aleksandrovna",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/41201"
   ],
   "remarks": "Former Deputy Head of the Sevastopol Electoral Commission. In this capacity, she participated in the organisation of the local elections in the illegally annexed City of Sevastopol on 8 Sep 2019 and thereby actively supported actions and implemented policies which undermine or threaten the territorial integrity, sovereignty and independence of Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1972-09-04",
-      "circa": false
+      "circa": false,
+      "year": 1972
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

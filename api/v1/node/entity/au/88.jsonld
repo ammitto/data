@@ -1,40 +1,59 @@
 {
-  "id": "https://www.ammitto.org/entity/au/88",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/88",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Abdul Jabbar Omari",
+      "@type": "NameVariant",
+      "fullName": "Abdul Jabbar Omari",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "عبدالجبار عمری",
+      "@type": "NameVariant",
+      "fullName": "عبدالجبار عمری",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Mullah Jabbar",
+      "@type": "NameVariant",
+      "fullName": "Mullah Jabbar",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Muawin Jabbar",
+      "@type": "NameVariant",
+      "fullName": "Muawin Jabbar",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "TAi.088 Title: Maulavi. Designation: Governor of Baghlan Province under the Taliban regime. Belongs to Hottak tribe. Review pursuant to Security Council resolution 1822 (2008) was concluded on 1 Jun. 2010.; Listing: Listed on 23 February 2001 (amended on 21 Sep 2007, 29 Nov. 2011 and 22 April 2013)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/88"
   ],
-  "birth_info": [
+  "remarks": "TAi.088 Title: Maulavi. Designation: Governor of Baghlan Province under the Taliban regime. Belongs to Hottak tribe. Review pursuant to Security Council resolution 1822 (2008) was concluded on 1 Jun. 2010.; Listing: Listed on 23 February 2001 (amended on 21 Sep 2007, 29 Nov. 2011 and 22 April 2013)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1958,
       "country": "Zabul Province"
     }
   ],
   "nationalities": [
     "Afghanistan"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

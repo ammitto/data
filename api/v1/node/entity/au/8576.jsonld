@@ -1,32 +1,51 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8576",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/8576",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mohamed SADEGHI",
+      "@type": "NameVariant",
+      "fullName": "Mohamed SADEGHI",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Mohammad SADEGHI",
+      "@type": "NameVariant",
+      "fullName": "Mohammad SADEGHI",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Colonel and Deputy of the Iranian Revolutionary Guard Corps; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Iran) List 2012",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8576"
   ],
-  "birth_info": [
+  "remarks": "Colonel and Deputy of the Iranian Revolutionary Guard Corps; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Iran) List 2012",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1958
     },
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1959
     }
   ],
   "nationalities": [
     "Iran"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

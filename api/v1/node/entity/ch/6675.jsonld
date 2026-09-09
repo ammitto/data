@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/6675",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/6675",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Muchena Olivia Nyembesi",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Muchena Olivia Nyembesi",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/6675"
   ],
   "remarks": "ZANU-PF Member of the Government. Linked to politically motivated murders and personally involved in the destruction of Revai Kativhu’s home on 1 May 2008.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1946-08-18",
-      "circa": false
+      "circa": false,
+      "year": 1946
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

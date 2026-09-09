@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/6928",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/6928",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ruwodo Richard",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Ruwodo Richard",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/6928"
   ],
   "remarks": "Senior army officer directly involved in the campaign of terror waged before and after the elections. Oversees the war veterans, which as a group have been used to carry out the repressive policies of the ZANU-PF faction of the Government.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1954-03-14",
-      "circa": false
+      "circa": false,
+      "year": 1954
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

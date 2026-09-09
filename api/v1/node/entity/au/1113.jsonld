@@ -1,42 +1,61 @@
 {
-  "id": "https://www.ammitto.org/entity/au/1113",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/1113",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Korea Mining Development Trading Corporation",
+      "@type": "NameVariant",
+      "fullName": "Korea Mining Development Trading Corporation",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Changgwang Sinyong Corporation",
+      "@type": "NameVariant",
+      "fullName": "Changgwang Sinyong Corporation",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "External Technology General Corporation",
+      "@type": "NameVariant",
+      "fullName": "External Technology General Corporation",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "DPRKN Mining Development Trading Cooperation",
+      "@type": "NameVariant",
+      "fullName": "DPRKN Mining Development Trading Cooperation",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "KOMID",
+      "@type": "NameVariant",
+      "fullName": "KOMID",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "KPe.001 Primary arms dealer and main exporter of goods and equipment related to ballistic missiles and conventional weapons.; Listing: Listed by the UN1718 committee on 24 Apr. 2009",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/1113"
+  ],
+  "remarks": "KPe.001 Primary arms dealer and main exporter of goods and equipment related to ballistic missiles and conventional weapons.; Listing: Listed by the UN1718 committee on 24 Apr. 2009",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Central District, Pyongyang, DPRK",
       "country": "DPRK"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

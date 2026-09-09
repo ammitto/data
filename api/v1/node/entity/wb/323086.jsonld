@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/323086",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/323086",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "KUVASOY TAMIR KURLISH LLC",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "KUVASOY TAMIR KURLISH LLC",
+      "isPrimary": true
     }
   ],
-  "remarks": "(now known as Stroy Montaj Invest) (Reg. No. 200124780) *444",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/323086"
+  ],
+  "remarks": "(now known as Stroy Montaj Invest) (Reg. No. 200124780) *444",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "125 NEMAT BERK STREET, MIRZO ULUGBEK DISTRICT",
       "city": "TASHKENT CITY",
       "country": "Uzbekistan",
-      "country_iso_code": "UZ"
+      "countryIsoCode": "UZ"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

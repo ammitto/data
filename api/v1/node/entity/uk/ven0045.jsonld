@@ -1,28 +1,48 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/ven0045",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/ven0045",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Suarez Anderson",
-      "first_name": "Lourdes",
+      "@type": "NameVariant",
+      "fullName": "Suarez Anderson",
+      "firstName": "Lourdes",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Lourdes Benicia Suárez Anderson",
+      "@type": "NameVariant",
+      "fullName": "Lourdes Benicia Suárez Anderson",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/ven0045"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "state": "Caracas",
       "country": "Venezuela"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

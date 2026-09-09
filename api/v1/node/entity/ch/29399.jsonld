@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/29399",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/29399",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Zhurova Svetlana Sergeevna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Zhurova Svetlana Sergeevna",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/29399"
   ],
   "remarks": "First Deputy Chairman of the Committee on Foreign Affairs, State Duma. On 20 March 2014 she voted in favour of the draft Federal Constitutional Law “on the acceptance into the Russian Federation of the ‘Republic of Crimea’ and the formation within the Russian Federation of new federal subjects – the ‘Republic of Crimea’ and the City of Federal Status Sevastopol”.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1972-01-07",
-      "circa": false
+      "circa": false,
+      "year": 1972
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

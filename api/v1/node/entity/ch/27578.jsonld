@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/27578",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/27578",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Gerasimov Valery Vasilevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Gerasimov Valery Vasilevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/27578"
   ],
   "remarks": "Chief of the General Staff of the Armed Forces of the Russian Federation, First Deputy Minister of Defence of the Russian Federation, General of the Army. Responsible for the massive deployment of Russian troops along the border with Ukraine and Russia’s military attack against Ukraine in February 2022.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1955-09-08",
-      "circa": false
+      "circa": false,
+      "year": 1955
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

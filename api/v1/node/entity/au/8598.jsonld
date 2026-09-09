@@ -1,36 +1,57 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8598",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/8598",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Islamic Revolutionary Guard Corps Intelligence Organisation",
+      "@type": "NameVariant",
+      "fullName": "Islamic Revolutionary Guard Corps Intelligence Organisation",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "سازمان اطلاعات سپاه پاسداران انقلاب اسلامی",
+      "@type": "NameVariant",
+      "fullName": "سازمان اطلاعات سپاه پاسداران انقلاب اسلامی",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Intelligence Organization",
+      "@type": "NameVariant",
+      "fullName": "Intelligence Organization",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "IO-IRGC",
+      "@type": "NameVariant",
+      "fullName": "IO-IRGC",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "IRGC-IO",
+      "@type": "NameVariant",
+      "fullName": "IRGC-IO",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Iran) List 2012",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8598"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "remarks": "Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Iran) List 2012",
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

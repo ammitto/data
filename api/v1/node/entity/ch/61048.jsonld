@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/61048",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/61048",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Zusko Mikhail Stepanovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Zusko Mikhail Stepanovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/61048"
   ],
   "remarks": "Mikhail Zusko is a Russian military leader, Chief of Staff of the Russian Force Grouping “West”. The Grouping “West” participates in the Russian war of aggression against Ukraine. As Chief of Staff of the Russian Force Grouping “West”, he is responsible for the actions of his unit. Mikhail Zusko is therefore responsible for supporting and\nimplementing actions which undermine the territorial integrity, sovereignty and independence of Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1972-05-24",
-      "circa": false
+      "circa": false,
+      "year": 1972
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

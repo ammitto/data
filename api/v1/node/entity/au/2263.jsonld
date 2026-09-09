@@ -1,40 +1,59 @@
 {
-  "id": "https://www.ammitto.org/entity/au/2263",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/2263",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Rami MAKHLOUF",
+      "@type": "NameVariant",
+      "fullName": "Rami MAKHLOUF",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Rami MAKHLUF",
+      "@type": "NameVariant",
+      "fullName": "Rami MAKHLUF",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Rami Bin Mohammed MAKHOUF",
+      "@type": "NameVariant",
+      "fullName": "Rami Bin Mohammed MAKHOUF",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Rami Mohammad MAKHLOUF",
+      "@type": "NameVariant",
+      "fullName": "Rami Mohammad MAKHLOUF",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Prominent business figure and financial backer of the Syrian regime.\nClose associate and cousin of President Bashar AL-ASSAD and Mahir AL-ASSAD.\nPassport No.: 000098044; 002-03-0015187; Listing: Designated under the Autonomous Sanctions Regulations 2011 on 2 March 2012. Formerly listed on the RBA Consolidated List as 2011SYR0013. Instrument of first\ndesignation and\ndeclaration:\nAutonomous Sanctions (Designated Persons and Entities and\nDeclared Persons – Syria) List 2012 [F2012L00482]\nRelisted on 12 January 2024.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/2263"
   ],
-  "birth_info": [
+  "remarks": "Prominent business figure and financial backer of the Syrian regime.\nClose associate and cousin of President Bashar AL-ASSAD and Mahir AL-ASSAD.\nPassport No.: 000098044; 002-03-0015187; Listing: Designated under the Autonomous Sanctions Regulations 2011 on 2 March 2012. Formerly listed on the RBA Consolidated List as 2011SYR0013. Instrument of first\ndesignation and\ndeclaration:\nAutonomous Sanctions (Designated Persons and Entities and\nDeclared Persons – Syria) List 2012 [F2012L00482]\nRelisted on 12 January 2024.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1969,
       "country": "Damascus"
     }
   ],
   "nationalities": [
     "Syria"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

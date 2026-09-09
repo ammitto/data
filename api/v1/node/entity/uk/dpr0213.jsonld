@@ -1,22 +1,43 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/dpr0213",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/dpr0213",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "KWANG IL",
-      "first_name": "HYON",
+      "@type": "NameVariant",
+      "fullName": "KWANG IL",
+      "firstName": "HYON",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Gwang Il",
-      "first_name": "Hyon",
+      "@type": "NameVariant",
+      "fullName": "Gwang Il",
+      "firstName": "Hyon",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/dpr0213"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

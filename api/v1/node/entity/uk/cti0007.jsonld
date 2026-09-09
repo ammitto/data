@@ -1,34 +1,55 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/cti0007",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/cti0007",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "El-Hajj",
-      "first_name": "Hassan",
+      "@type": "NameVariant",
+      "fullName": "El-Hajj",
+      "firstName": "Hassan",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "El-Hajj",
-      "first_name": "El-Hajj",
+      "@type": "NameVariant",
+      "fullName": "El-Hajj",
+      "firstName": "El-Hajj",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Hassan",
-      "first_name": "El-Hajj",
+      "@type": "NameVariant",
+      "fullName": "Hassan",
+      "firstName": "El-Hajj",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/cti0007"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "country": "Lebanon"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

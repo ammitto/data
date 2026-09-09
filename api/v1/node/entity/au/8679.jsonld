@@ -1,37 +1,55 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8679",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/8679",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Limited Liability Company Zavod Sokol",
+      "@type": "NameVariant",
+      "fullName": "Limited Liability Company Zavod Sokol",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Limited liability company plant \"Sokol\" of the closed joint stock company \"Saratov Aviation Plant\"",
+      "@type": "NameVariant",
+      "fullName": "Limited liability company plant \"Sokol\" of the closed joint stock company \"Saratov Aviation Plant\"",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "OOO ZAVOD \"SOKOL\" ZAO \"SAZ\"",
+      "@type": "NameVariant",
+      "fullName": "OOO ZAVOD \"SOKOL\" ZAO \"SAZ\"",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "SOKOL CJSC SAZ Plant",
+      "@type": "NameVariant",
+      "fullName": "SOKOL CJSC SAZ Plant",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2026",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8679"
+  ],
+  "remarks": "Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2026",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Pl. G.K. Ordzhonikidze, d. 1, Saratov, Saratov Region, 410015, Russia",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

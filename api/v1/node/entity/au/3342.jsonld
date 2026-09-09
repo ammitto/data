@@ -1,52 +1,73 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3342",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/3342",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Yona Star International",
+      "@type": "NameVariant",
+      "fullName": "Yona Star International",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Unistar Company",
+      "@type": "NameVariant",
+      "fullName": "Unistar Company",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Yona Holding",
+      "@type": "NameVariant",
+      "fullName": "Yona Holding",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Yona Star",
+      "@type": "NameVariant",
+      "fullName": "Yona Star",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Yona Star Company",
+      "@type": "NameVariant",
+      "fullName": "Yona Star Company",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Yona Star Shipping",
+      "@type": "NameVariant",
+      "fullName": "Yona Star Shipping",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Yona Star Trading International Co. Ltd",
+      "@type": "NameVariant",
+      "fullName": "Yona Star Trading International Co. Ltd",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Listing: Listed on: 17 Aug. 2017 (Relisted on 3 Aug. 2020 and 2 Aug. 2023)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3342"
+  ],
+  "remarks": "Listing: Listed on: 17 Aug. 2017 (Relisted on 3 Aug. 2020 and 2 Aug. 2023)",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Damascus Airport Free Zone, Damascus, Syria; Al Maktoum Street, Building MM Office #7, Deira, Dubai, United Arab Emirates",
       "country": "United Arab Emirates"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

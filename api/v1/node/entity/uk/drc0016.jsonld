@@ -1,27 +1,44 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/drc0016",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/drc0016",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "BUTEMBO AIRLINES",
+      "@type": "NameVariant",
+      "fullName": "BUTEMBO AIRLINES",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "BAL",
+      "@type": "NameVariant",
+      "fullName": "BAL",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Privately-owned airline, operates out of Butembo. Since December 2008, BAL no longer holds an aircraft operating license in the DRC. INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/notice/search/une/5278478",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/drc0016"
+  ],
+  "remarks": "Privately-owned airline, operates out of Butembo. Since December 2008, BAL no longer holds an aircraft operating license in the DRC. INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/notice/search/une/5278478",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "state": "Butembo",
       "country": "Congo (Democratic Republic)"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

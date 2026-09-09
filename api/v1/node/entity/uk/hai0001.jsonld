@@ -1,29 +1,48 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/hai0001",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/hai0001",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Cherizier",
-      "first_name": "Jimmy",
+      "@type": "NameVariant",
+      "fullName": "Cherizier",
+      "firstName": "Jimmy",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Barbeque",
+      "@type": "NameVariant",
+      "fullName": "Barbeque",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Jimmy Cherizier (AKA “Barbeque”) has engaged in acts that threaten the peace, security, and stability of Haiti and has planned, directed, or committed acts that constitute serious human rights abuses. Jimmy Cherizier is one of Haiti’s most influential gang leaders and leads an alliance of Haitian gangs known as the \"G9 Family and Allies.\"  ",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/hai0001"
+  ],
+  "remarks": "Jimmy Cherizier (AKA “Barbeque”) has engaged in acts that threaten the peace, security, and stability of Haiti and has planned, directed, or committed acts that constitute serious human rights abuses. Jimmy Cherizier is one of Haiti’s most influential gang leaders and leads an alliance of Haitian gangs known as the \"G9 Family and Allies.\"  ",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "16 Imp Manius, Delmas 40 B",
       "state": "Port-au-Prince",
       "country": "Haiti"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

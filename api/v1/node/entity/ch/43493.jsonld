@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/43493",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/43493",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Shepeleu Aliaksandr Sviataslavavich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Shepeleu Aliaksandr Sviataslavavich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/43493"
   ],
   "remarks": "In his senior position as Head of the Department for Safety and Security in the Ministry of Internal Affairs (MoIA), he is involved in the repression and intimidation campaign led by MoIA forces in the wake of the 2020 presidential election, in particular arbitrary arrests and ill-treatment, including torture, of peaceful demonstrators as well as intimidation and violence against journalists.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1975-10-14",
-      "circa": false
+      "circa": false,
+      "year": 1975
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,35 +1,53 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3138",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/3138",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Muhannad Al-Najdi",
+      "@type": "NameVariant",
+      "fullName": "Muhannad Al-Najdi",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Ali Manahi 'Ali al-Mahaydali al-'Utaybi",
+      "@type": "NameVariant",
+      "fullName": "Ali Manahi 'Ali al-Mahaydali al-'Utaybi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ghassan al-Tajiki",
+      "@type": "NameVariant",
+      "fullName": "Ghassan al-Tajiki",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Syria-based Al-Qaida (QDe.004) facilitator. Involved in the development of improvised explosive devices for use in Afghanistan and Syrian Arab Republic since at least 2010. Review pursuant to Security Council resolution 2368 (2017) was concluded on 24 November 2020.; Listing: Listed on: 29 Feb. 2016 (amended on 24 Nov. 2020)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3138"
   ],
-  "birth_info": [
+  "remarks": "Syria-based Al-Qaida (QDe.004) facilitator. Involved in the development of improvised explosive devices for use in Afghanistan and Syrian Arab Republic since at least 2010. Review pursuant to Security Council resolution 2368 (2017) was concluded on 24 November 2020.; Listing: Listed on: 29 Feb. 2016 (amended on 24 Nov. 2020)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1984,
       "country": "al-Duwadmi"
     }
   ],
   "nationalities": [
     "Saudi Arabia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

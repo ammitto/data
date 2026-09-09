@@ -1,27 +1,43 @@
 {
-  "id": "https://www.ammitto.org/entity/au/2593",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/2593",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "TARH O PALAYESH",
+      "@type": "NameVariant",
+      "fullName": "TARH O PALAYESH",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Tarh O Palayesh Engineering",
+      "@type": "NameVariant",
+      "fullName": "Tarh O Palayesh Engineering",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Listing: Designated under the Autonomous Sanctions Regulations 2011 on 3 July 2013. Instrument of first designation Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Iran) Amendment List 2013 (No. 1) [F2013L01312]. Relisted on 12 January 2024.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/2593"
+  ],
+  "remarks": "Listing: Designated under the Autonomous Sanctions Regulations 2011 on 3 July 2013. Instrument of first designation Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Iran) Amendment List 2013 (No. 1) [F2013L01312]. Relisted on 12 January 2024.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Tehran, Iran",
       "country": "Iran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

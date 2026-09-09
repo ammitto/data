@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/77803",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/77803",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Rachylouski Mikita Sviatoslavovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Rachylouski Mikita Sviatoslavovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/77803"
   ],
   "remarks": "Mikita Rachylouski holds senior positions in the government institution the Youth Council, the GONGO Moving Forward and the media (the “Senate” television programme). Using those positions, Mykyta Rachylouski has spoken out against Belarusian citizens for criticising the government, participating in protests in 2020 and having opposing views. He has been especially vocal in seeking punishment and persecution for the blogger Kokobay, as well as the music band Drozdy and others. His statements incite persecution and promote hatred towards critics of the regime. During one of his numerous television appearances, he advocated for the removal of history faculty staff at Belarusian universities.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1997-07-28",
-      "circa": false
+      "circa": false,
+      "year": 1997
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

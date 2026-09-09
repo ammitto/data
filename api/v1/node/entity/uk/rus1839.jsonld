@@ -1,53 +1,74 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus1839",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus1839",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "PAO Magnitogorskiy Metallurgicheskiy Kombinat ",
+      "@type": "NameVariant",
+      "fullName": "PAO Magnitogorskiy Metallurgicheskiy Kombinat ",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Magnitogorsk Iron & Steel Works ",
+      "@type": "NameVariant",
+      "fullName": "Magnitogorsk Iron & Steel Works ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Magnitogorskiy metallurgicheskiy kombinat OAO ",
+      "@type": "NameVariant",
+      "fullName": "Magnitogorskiy metallurgicheskiy kombinat OAO ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "PJSC Magnitogorsk Metallurgical Plant ",
+      "@type": "NameVariant",
+      "fullName": "PJSC Magnitogorsk Metallurgical Plant ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "PJSC MMK",
+      "@type": "NameVariant",
+      "fullName": "PJSC MMK",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "PUBLICHNOE AKTSIONERNOE OBSCHESTVO MAGNITOGORSKIY METALLURGICHESKIY KOMBINAT ",
+      "@type": "NameVariant",
+      "fullName": "PUBLICHNOE AKTSIONERNOE OBSCHESTVO MAGNITOGORSKIY METALLURGICHESKIY KOMBINAT ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "ПАО Магнитогорский металлургический комбинат ",
+      "@type": "NameVariant",
+      "fullName": "ПАО Магнитогорский металлургический комбинат ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus1839"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "93 Kirov Street",
       "state": "Magnitogorsk",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

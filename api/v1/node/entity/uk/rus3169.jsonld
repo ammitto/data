@@ -1,27 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus3169",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/rus3169",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "PALEVICH",
-      "first_name": "Andrej",
+      "@type": "NameVariant",
+      "fullName": "PALEVICH",
+      "firstName": "Andrej",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "PALEVICH",
-      "first_name": "Andrey ",
+      "@type": "NameVariant",
+      "fullName": "PALEVICH",
+      "firstName": "Andrey ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "АНДРЕЙ АНАТОЛЬЕВИЧ ПАЛЕВИЧ",
+      "@type": "NameVariant",
+      "fullName": "АНДРЕЙ АНАТОЛЬЕВИЧ ПАЛЕВИЧ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus3169"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

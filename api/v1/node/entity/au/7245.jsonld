@@ -1,25 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7245",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7245",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Roman Igorevich PUTIN",
+      "@type": "NameVariant",
+      "fullName": "Roman Igorevich PUTIN",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "Chair of the board of directors of the MRT Group of Companies LLC, and relative of President Putin; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 18) Instrument 2022",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7245"
   ],
-  "birth_info": [
+  "remarks": "Chair of the board of directors of the MRT Group of Companies LLC, and relative of President Putin; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 18) Instrument 2022",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1977,
       "country": "Ryazan"
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

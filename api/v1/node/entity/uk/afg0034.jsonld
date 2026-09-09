@@ -1,46 +1,68 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/afg0034",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/afg0034",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "AWAL SHAH",
-      "first_name": "ABDUL BAQI",
+      "@type": "NameVariant",
+      "fullName": "AWAL SHAH",
+      "firstName": "ABDUL BAQI",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": " HAQQANI ",
-      "first_name": "ABDUL",
+      "@type": "NameVariant",
+      "fullName": " HAQQANI ",
+      "firstName": "ABDUL",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Baqi",
-      "first_name": "Abdul",
+      "@type": "NameVariant",
+      "fullName": "Baqi",
+      "firstName": "Abdul",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "عبد الباقي بصير أول شاه",
+      "@type": "NameVariant",
+      "fullName": "عبد الباقي بصير أول شاه",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": " حقاني عبدالباقي ",
+      "@type": "NameVariant",
+      "fullName": " حقاني عبدالباقي ",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Taliban member responsible for Nangarhar Province as at 2008. Until 7 Sep. 2007 he was also listed under number TAi.048. Height 175 cm. Review pursuant to Security Council resolution 1822 (2008) was concluded on 1 Jun. 2010. Photo available for inclusion in the INTERPOL-UN Security Council Special Notice. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals#2007-47507",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/afg0034"
+  ],
+  "remarks": "Taliban member responsible for Nangarhar Province as at 2008. Until 7 Sep. 2007 he was also listed under number TAi.048. Height 175 cm. Review pursuant to Security Council resolution 1822 (2008) was concluded on 1 Jun. 2010. Photo available for inclusion in the INTERPOL-UN Security Council Special Notice. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals#2007-47507",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Afshar Main road, Police District 5, near Kabul Education University",
       "state": "Kabul",
       "country": "Afghanistan"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

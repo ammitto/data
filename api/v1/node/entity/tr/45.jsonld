@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/tr/45",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/tr/45",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "KİM  KYONG OK",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "KİM  KYONG OK",
+      "isPrimary": true
     }
   ],
-  "source_references": [
+  "sourceReferences": [
     {
-      "source_code": "tr",
-      "reference_number": "45"
+      "@type": "SourceReference",
+      "sourceCode": "tr",
+      "referenceNumber": "45",
+      "retrievedAt": "2026-09-09T16:30:41Z"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "linkedEntities": [
+
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/tr/consolidated-list/45"
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

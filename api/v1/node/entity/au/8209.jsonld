@@ -1,29 +1,46 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8209",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/8209",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Katerina Evgenievna KIRICHENKO",
+      "@type": "NameVariant",
+      "fullName": "Katerina Evgenievna KIRICHENKO",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Katerina Yevgenevna KIRICHENKO",
+      "@type": "NameVariant",
+      "fullName": "Katerina Yevgenevna KIRICHENKO",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Judge of the Presnensky District Court; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 4) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8209"
   ],
-  "birth_info": [
+  "remarks": "Judge of the Presnensky District Court; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 4) Instrument 2025",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1986
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

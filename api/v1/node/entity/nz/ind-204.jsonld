@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/nz/ind-204",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/nz/ind-204",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Nikolai Nikolaevich Ivanov",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Nikolai Nikolaevich Ivanov",
+      "isPrimary": true
     }
   ],
-  "source_references": [
+  "sourceReferences": [
     {
-      "source_code": "nz",
-      "reference_number": "IND-204"
+      "@type": "SourceReference",
+      "sourceCode": "nz",
+      "referenceNumber": "IND-204",
+      "retrievedAt": "2026-09-09T16:30:43Z"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "linkedEntities": [
+
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/nz/consolidated-list/ind-204"
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

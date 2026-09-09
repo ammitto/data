@@ -1,51 +1,74 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/ghr0091",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/ghr0091",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Shambazov",
-      "first_name": "Artur",
+      "@type": "NameVariant",
+      "fullName": "Shambazov",
+      "firstName": "Artur",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Shambazov",
-      "first_name": "Artur",
+      "@type": "NameVariant",
+      "fullName": "Shambazov",
+      "firstName": "Artur",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Shambazov",
-      "first_name": "Artur",
+      "@type": "NameVariant",
+      "fullName": "Shambazov",
+      "firstName": "Artur",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Артур Рінатович Шамбазов",
+      "@type": "NameVariant",
+      "fullName": "Артур Рінатович Шамбазов",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Артур Ринатович Шамбазов",
+      "@type": "NameVariant",
+      "fullName": "Артур Ринатович Шамбазов",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/ghr0091"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Evpatoria st, No.37",
       "state": "Mirnoye, Crimea",
       "country": "Ukraine"
     },
     {
+      "@type": "Address",
       "street": "Mate Zalki st 7K, Apt. 93",
       "state": "Simferopol, Crimea",
       "country": "Ukraine"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

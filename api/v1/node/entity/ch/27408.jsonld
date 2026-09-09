@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/27408",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/27408",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Sidorov Anatoliy Alekseevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Sidorov Anatoliy Alekseevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/27408"
   ],
   "remarks": "Former Commander, Russia's Western Military District, units of which are deployed in Crimea. He was responsible for part of the Russian military presence in Crimea which is undermining the sovereignty of the Ukraine and assisted the Crimean authorities in preventing public demonstrations against moves towards a referendum and incorporation into Russia. Since Nov 2015 Chief of the Joint Staff of the Collective Security Treaty Organisation (CSTO).",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1958-07-02",
-      "circa": false
+      "circa": false,
+      "year": 1958
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

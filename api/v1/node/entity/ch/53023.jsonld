@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/53023",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/53023",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Zubitskiy Evgeny Borisovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Zubitskiy Evgeny Borisovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/53023"
   ],
   "remarks": "Evgeny Zubitskiy is the co-owner, Chairman of the Board and CEO of Industrial Metallurgical Holding (PMH). He is a shareholder of the Koks Group, the parent enterprise of PMH and Russia’s largest producer of marketable coke, founded by State Duma deputy Boris Zubitsky.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1968-03-10",
-      "circa": false
+      "circa": false,
+      "year": 1968
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

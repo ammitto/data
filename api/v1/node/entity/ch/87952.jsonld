@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/87952",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/87952",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Luis Ernesto Dueñez Reyes",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Luis Ernesto Dueñez Reyes",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/87952"
   ],
   "remarks": "Assistant Prosecutor in the Venezuelan Public Prosecutor’s office. In this role, Luis Ernesto Dueñez Reyes was involved in the political prosecution of Edmundo González Urrutia, presidential candidate of the democratic opposition.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1988-09-20",
-      "circa": false
+      "circa": false,
+      "year": 1988
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

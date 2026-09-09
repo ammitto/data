@@ -1,37 +1,55 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3146",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/3146",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "HARAKAT SHAM AL-ISLAM",
+      "@type": "NameVariant",
+      "fullName": "HARAKAT SHAM AL-ISLAM",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Haraket Sham al-Islam",
+      "@type": "NameVariant",
+      "fullName": "Haraket Sham al-Islam",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Sham al-Islam",
+      "@type": "NameVariant",
+      "fullName": "Sham al-Islam",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Sham al-Islam Movement",
+      "@type": "NameVariant",
+      "fullName": "Sham al-Islam Movement",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "QDe.149. Moroccan-led terrorist organization formed in Aug. 2013 and operating in Syrian Arab Republic. Principally composed of foreign terrorist fighters and associated with AI-Nusrah Front for the People of the Levant (QDe.137).; Listing: Listed by the 1267 Committee on 29 Feb. 2016",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3146"
+  ],
+  "remarks": "QDe.149. Moroccan-led terrorist organization formed in Aug. 2013 and operating in Syrian Arab Republic. Principally composed of foreign terrorist fighters and associated with AI-Nusrah Front for the People of the Levant (QDe.137).; Listing: Listed by the 1267 Committee on 29 Feb. 2016",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Syrian Arab Republic",
       "country": "Syrian Arab Republic"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

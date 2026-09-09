@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/28200",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/28200",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Nurgaliev Rashid Gumarovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Nurgaliev Rashid Gumarovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/28200"
   ],
   "remarks": "Member and, since Feb 2023, First Deputy Secretary of the Security Council of the Russian Federation. As a member of the Security Council, which provides advice on and coordinates national security affairs, he was involved in shaping the policy of the Russian Government threatening the territorial integrity, sovereignty and independence of Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1956-10-08",
-      "circa": false
+      "circa": false,
+      "year": 1956
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

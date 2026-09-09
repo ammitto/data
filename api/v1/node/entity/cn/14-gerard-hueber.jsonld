@@ -1,22 +1,43 @@
 {
-  "id": "https://www.ammitto.org/entity/cn/14-gerard-hueber",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/cn/14-gerard-hueber",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Gerard Hueber",
+      "@type": "NameVariant",
+      "fullName": "Gerard Hueber",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "杰拉德·许贝尔",
+      "@type": "NameVariant",
+      "fullName": "杰拉德·许贝尔",
       "script": "Hani",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/cn/anti-sanction-list/14-gerard-hueber"
+  ],
   "remarks": "List: cn/anti-sanction-list; Title: 雷神公司海军力量战略业务部副总裁; Gender: male",
-  "sanction_entry_ids": [
-    "https://www.ammitto.org/entry/cn/unknown/14-gerard-hueber"
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
   ],
   "gender": "male",
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

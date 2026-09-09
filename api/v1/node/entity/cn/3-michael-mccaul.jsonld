@@ -1,22 +1,43 @@
 {
-  "id": "https://www.ammitto.org/entity/cn/3-michael-mccaul",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/cn/3-michael-mccaul",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Michael McCaul",
+      "@type": "NameVariant",
+      "fullName": "Michael McCaul",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "迈克·麦考尔",
+      "@type": "NameVariant",
+      "fullName": "迈克·麦考尔",
       "script": "Hani",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/cn/anti-sanction-list/3-michael-mccaul"
+  ],
   "remarks": "List: cn/anti-sanction-list; Title: 美国得克萨斯州共和党联邦众议员; Gender: male",
-  "sanction_entry_ids": [
-    "https://www.ammitto.org/entry/cn/unknown/3-michael-mccaul"
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
   ],
   "gender": "male",
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,51 +1,69 @@
 {
-  "id": "https://www.ammitto.org/entity/au/407",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/407",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Moussa Ben Omar Ben Ali Essaadi",
+      "@type": "NameVariant",
+      "fullName": "Moussa Ben Omar Ben Ali Essaadi",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "DAH DAH",
+      "@type": "NameVariant",
+      "fullName": "DAH DAH",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "ABDELRAHMMAN",
+      "@type": "NameVariant",
+      "fullName": "ABDELRAHMMAN",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "BECHIR",
+      "@type": "NameVariant",
+      "fullName": "BECHIR",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "موسى بن عمر بن علي السعدي",
+      "@type": "NameVariant",
+      "fullName": "موسى بن عمر بن علي السعدي",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Tunisian passport number L335915, issued in Milan, Italy on 8 November 1996, expired on 7 November 2001. Considered a fugitive from justice by Italian authorities (as of Oct. 2019).  Left Sudan to Tunisia in 2011. The review pursuant to Security Council resolution 1822 (2008) was completed on 15 June 2010 The review pursuant to resolution 2368 (2017) concluded on 4 Dec 2019 The review pursuant to Security Council resolution 2610 (2021) was concluded on 30 October 2023; Listing: Listed by UN 1267 Committee on 25 June 2003 (amended on 20 Dec 2005 and 17 Oct 2007, 10 Aug 2009, 16 May 2011, 20 Jul 2012, 6 Dec 2019, 10 Sep 2020)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/407"
   ],
-  "birth_info": [
+  "remarks": "Tunisian passport number L335915, issued in Milan, Italy on 8 November 1996, expired on 7 November 2001. Considered a fugitive from justice by Italian authorities (as of Oct. 2019).  Left Sudan to Tunisia in 2011. The review pursuant to Security Council resolution 1822 (2008) was completed on 15 June 2010 The review pursuant to resolution 2368 (2017) concluded on 4 Dec 2019 The review pursuant to Security Council resolution 2610 (2021) was concluded on 30 October 2023; Listing: Listed by UN 1267 Committee on 25 June 2003 (amended on 20 Dec 2005 and 17 Oct 2007, 10 Aug 2009, 16 May 2011, 20 Jul 2012, 6 Dec 2019, 10 Sep 2020)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1964,
       "country": "Tabarka"
     }
   ],
   "nationalities": [
     "Tunisia"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Tunisia",
       "country": "Tunisia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

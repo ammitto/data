@@ -1,33 +1,56 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/bel0148",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/bel0148",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Orlov",
-      "first_name": "Petr",
+      "@type": "NameVariant",
+      "fullName": "Orlov",
+      "firstName": "Petr",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Arlou",
-      "first_name": "Piotr",
+      "@type": "NameVariant",
+      "fullName": "Arlou",
+      "firstName": "Piotr",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Петр Александрович ОРЛОВ ",
+      "@type": "NameVariant",
+      "fullName": "Петр Александрович ОРЛОВ ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Пётр Александровiч АРЛОЎ ",
+      "@type": "NameVariant",
+      "fullName": "Пётр Александровiч АРЛОЎ ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/bel0148"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

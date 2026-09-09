@@ -1,37 +1,55 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/inu0304",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/inu0304",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "CEMENT INVESTMENT AND DEVELOPMENT COMPANY ",
+      "@type": "NameVariant",
+      "fullName": "CEMENT INVESTMENT AND DEVELOPMENT COMPANY ",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Cement Industry Investment and Development Company  ",
+      "@type": "NameVariant",
+      "fullName": "Cement Industry Investment and Development Company  ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "CIDCO ",
+      "@type": "NameVariant",
+      "fullName": "CIDCO ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "CIDCO Cement Holding  ",
+      "@type": "NameVariant",
+      "fullName": "CIDCO Cement Holding  ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/inu0304"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Number 20, W. Nahid Street, Africa Blvd",
       "state": "Tehran",
       "country": "Iran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

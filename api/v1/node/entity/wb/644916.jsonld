@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/644916",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/644916",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "AIM CONSULTANTS LIMITED",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "AIM CONSULTANTS LIMITED",
+      "isPrimary": true
     }
   ],
-  "remarks": "*601",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/644916"
+  ],
+  "remarks": "*601",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "PLOT 267A, ETIM INYANG CRESCENT, VICTORIA ISLAND ANNEX",
       "city": "LAGOS",
       "country": "Nigeria",
-      "country_iso_code": "NG"
+      "countryIsoCode": "NG"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

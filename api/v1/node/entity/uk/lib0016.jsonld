@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/lib0016",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/lib0016",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Kinloss Property Limited",
+      "@type": "NameVariant",
+      "fullName": "Kinloss Property Limited",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Based on British Virgin Islands The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/lib0016"
+  ],
+  "remarks": "Based on British Virgin Islands The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Woodbourne Hall, PO Box 3162, Road Town",
       "city": "Tortola",
       "state": "British Virgin Islands"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

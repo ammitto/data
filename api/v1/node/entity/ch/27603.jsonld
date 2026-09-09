@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/27603",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/27603",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Tsyplakov Sergey Gennadevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Tsyplakov Sergey Gennadevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/27603"
   ],
   "remarks": "One of the leaders of the ideologically radical organisation “People's Militia of Donbas”. He took active part in the seizure of a number of State buildings in the Donetsk region.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1983-05-01",
-      "circa": false
+      "circa": false,
+      "year": 1983
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,35 +1,53 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8007",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/8007",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Viktor Petrovich GOREMYKIN",
+      "@type": "NameVariant",
+      "fullName": "Viktor Petrovich GOREMYKIN",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Viktor Petrovich GOREMIYKIN",
+      "@type": "NameVariant",
+      "fullName": "Viktor Petrovich GOREMIYKIN",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Viktor Petrovych HOREMYKIN",
+      "@type": "NameVariant",
+      "fullName": "Viktor Petrovych HOREMYKIN",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Deputy Minister of Defence of the Russian Federation; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8007"
   ],
-  "birth_info": [
+  "remarks": "Deputy Minister of Defence of the Russian Federation; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1959,
       "country": "Kormovoe"
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

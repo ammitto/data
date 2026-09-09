@@ -1,27 +1,47 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus0022",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/rus0022",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Malofeev",
-      "first_name": "Konstantin",
+      "@type": "NameVariant",
+      "fullName": "Malofeev",
+      "firstName": "Konstantin",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Константин Валерьевич МАЛОФЕЕВ",
+      "@type": "NameVariant",
+      "fullName": "Константин Валерьевич МАЛОФЕЕВ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus0022"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

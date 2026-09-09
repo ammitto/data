@@ -1,25 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7437",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7437",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Boris Yuryevich TITOV",
+      "@type": "NameVariant",
+      "fullName": "Boris Yuryevich TITOV",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "Presidential Commissioner for Entrepreneur’s Rights and member of the Presidential Economic Council; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 2) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7437"
   ],
-  "birth_info": [
+  "remarks": "Presidential Commissioner for Entrepreneur’s Rights and member of the Presidential Economic Council; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 2) Instrument 2023",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1960,
       "country": "Moscow"
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

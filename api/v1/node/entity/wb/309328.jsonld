@@ -1,23 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/309328",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/wb/309328",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MR. JHONNY CHOQUE ROJAS",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "MR. JHONNY CHOQUE ROJAS",
+      "isPrimary": true
     }
   ],
-  "remarks": "*200",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/309328"
+  ],
+  "remarks": "*200",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "CALLE 6 NO. 151 ZONA KAMI, QUILLACOLLO",
       "city": "COCHABAMBA",
       "country": "Bolivia",
-      "country_iso_code": "BO"
+      "countryIsoCode": "BO"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

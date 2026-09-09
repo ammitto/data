@@ -1,33 +1,54 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus0124",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/rus0124",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Rudenko",
-      "first_name": "Miroslav",
+      "@type": "NameVariant",
+      "fullName": "Rudenko",
+      "firstName": "Miroslav",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Rudenko",
-      "first_name": "Myroslav",
+      "@type": "NameVariant",
+      "fullName": "Rudenko",
+      "firstName": "Myroslav",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Мирослав Володимирович РУДЕНКО",
+      "@type": "NameVariant",
+      "fullName": "Мирослав Володимирович РУДЕНКО",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus0124"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "country": "Ukraine"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

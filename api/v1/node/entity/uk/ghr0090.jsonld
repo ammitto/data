@@ -1,52 +1,75 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/ghr0090",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/ghr0090",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Tishenin",
-      "first_name": "Andrey",
+      "@type": "NameVariant",
+      "fullName": "Tishenin",
+      "firstName": "Andrey",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Tishenin",
-      "first_name": "Andrei",
+      "@type": "NameVariant",
+      "fullName": "Tishenin",
+      "firstName": "Andrei",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Tishenin",
-      "first_name": "Andrej",
+      "@type": "NameVariant",
+      "fullName": "Tishenin",
+      "firstName": "Andrej",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Tishenin",
-      "first_name": "Andrey",
+      "@type": "NameVariant",
+      "fullName": "Tishenin",
+      "firstName": "Andrey",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Андрей Вячеславович Тишенин",
+      "@type": "NameVariant",
+      "fullName": "Андрей Вячеславович Тишенин",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Андрій В`ячеславович Тішенін ",
+      "@type": "NameVariant",
+      "fullName": "Андрій В`ячеславович Тішенін ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Former Senior Detective of the Ukrainian Security Service, Major. He worked with Shambazov. The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/ghr0090"
+  ],
+  "remarks": "Former Senior Detective of the Ukrainian Security Service, Major. He worked with Shambazov. The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "6 Power Engineers St, Apt 21",
       "state": "Simferopol, Crimea",
       "country": "Ukraine"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

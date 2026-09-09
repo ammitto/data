@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/877157",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/877157",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "NISHAN ENGINEERS (PVT) LIMITED",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "NISHAN ENGINEERS (PVT) LIMITED",
+      "isPrimary": true
     }
   ],
-  "remarks": "*674",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/877157"
+  ],
+  "remarks": "*674",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "NISHAN HOUSE 76-K, IZMIR HOUSING SOCIETY, MULTAN ROAD",
       "city": "LAHORE, 54500",
       "country": "Pakistan",
-      "country_iso_code": "PK"
+      "countryIsoCode": "PK"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/60846",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/60846",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Karakaev Sergey Viktorovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Karakaev Sergey Viktorovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/60846"
   ],
   "remarks": "Sergey Karakaev is a Russian military leader, and Commander of the Strategic Missile Forces of the Russian Federation. Russian military missiles massively hit civilian infrastructure – in particular power and water supplies – across Ukraine. As Commander of the Strategic Missile Forces, he is responsible for the strategic bombardment of civilian infrastructures in Ukraine. Sergey Karakaev is therefore responsible for supporting and implementing actions which undermine the territorial integrity, sovereignty and independence of Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1961-06-04",
-      "circa": false
+      "circa": false,
+      "year": 1961
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

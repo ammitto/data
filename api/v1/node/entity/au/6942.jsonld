@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/au/6942",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/6942",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Alrosa",
+      "@type": "NameVariant",
+      "fullName": "Alrosa",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "eng.alrosa.ru; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Ukraine) Amendment (No. 12) Instrument 2022",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/6942"
+  ],
+  "remarks": "eng.alrosa.ru; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Ukraine) Amendment (No. 12) Instrument 2022",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "6 ul. Lenina, Mirny, Republic of Sakha (Yakutia), 678174, Russia",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

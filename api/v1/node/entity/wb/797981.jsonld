@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/797981",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/797981",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "XINJIANG COMMUNICATIONS CONSTRUCTION GROUP CO., LTD.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "XINJIANG COMMUNICATIONS CONSTRUCTION GROUP CO., LTD.",
+      "isPrimary": true
     }
   ],
-  "remarks": "(新疆交通建设集团股份有限公司, 新疆交建)*647",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/797981"
+  ],
+  "remarks": "(新疆交通建设集团股份有限公司, 新疆交建)*647",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "NO. 229, SONGSHAN ROAD, URUMQI ECONOMIC AND TECHNOLOGICAL DEVELOPMENT ZONE (TOUTUNHE DISTRICT)",
       "city": "XINJIANG",
       "country": "China",
-      "country_iso_code": "CN"
+      "countryIsoCode": "CN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

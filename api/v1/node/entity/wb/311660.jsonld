@@ -1,23 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/311660",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/wb/311660",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MR. KUOY VUOCH",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "MR. KUOY VUOCH",
+      "isPrimary": true
     }
   ],
-  "remarks": "*223",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/311660"
+  ],
+  "remarks": "*223",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "PEAL NHEK I VILLAGE, SANGKAT PTEAS PREY",
       "city": "PURSAT CITY, PURSAT PROVINCE",
       "country": "Cambodia",
-      "country_iso_code": "KH"
+      "countryIsoCode": "KH"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/86804",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/86804",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Troost Niels",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Troost Niels",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/86804"
   ],
   "remarks": "Niels Troost is a Dutch businessperson and the sole shareholder of EZI-DIAROC. EZI-DIAROC is the sole shareholder of Paramount Energy and Commodities SA (PECSA). PECSA controls the Dubai-based subsidiary Paramount Energy and Commodities DMCC (Paramount DMCC).",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1969-11-27",
-      "circa": false
+      "circa": false,
+      "year": 1969
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

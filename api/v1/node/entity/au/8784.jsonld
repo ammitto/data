@@ -1,37 +1,55 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8784",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/8784",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "International Center For Quantum Optics And Quantum Technologies Limited Liabilities Company",
+      "@type": "NameVariant",
+      "fullName": "International Center For Quantum Optics And Quantum Technologies Limited Liabilities Company",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "RUSSIAN QUANTUM CENTER",
+      "@type": "NameVariant",
+      "fullName": "RUSSIAN QUANTUM CENTER",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "LIMITED LIABILITY COMPANY \"MCCT\"",
+      "@type": "NameVariant",
+      "fullName": "LIMITED LIABILITY COMPANY \"MCCT\"",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "MTSKT",
+      "@type": "NameVariant",
+      "fullName": "MTSKT",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Website: https://www.rqc.ru/; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2026",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8784"
+  ],
+  "remarks": "Website: https://www.rqc.ru/; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2026",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "30 Bld., 1 Bolshoy Blvd, Skolkovo Innovation Center, Moscow, 121205, Russia",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,23 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/542410",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/wb/542410",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MR. SUJIT DAS",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "MR. SUJIT DAS",
+      "isPrimary": true
     }
   ],
-  "remarks": "*580",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/542410"
+  ],
+  "remarks": "*580",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "ADMINISTRATION MANAGER, CROSSWORDS LIMITED, UN DRIVE & RANDALL STREET JN., OPP. STELLA MARIS POLYTECHNIC",
       "city": "MONROVIA",
       "country": "Liberia",
-      "country_iso_code": "LR"
+      "countryIsoCode": "LR"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

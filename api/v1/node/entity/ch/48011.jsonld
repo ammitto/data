@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/48011",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/48011",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Soloviev Vladimir Roudolfovitch",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Soloviev Vladimir Roudolfovitch",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/48011"
   ],
   "remarks": "Vladimir Solovyev is a Propagandist and Presenter of the Russia-1 channel and Rossia 24. He received a medal (Order of Alexander Nevsky) for “high professionalism and objectivity in covering events in the Republic of Crimea”. In July 2022, he also received the Order of Merit for the Fatherland “for the formation of a positive image of Russia”.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1963-10-20",
-      "circa": false
+      "circa": false,
+      "year": 1963
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

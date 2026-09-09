@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/41309",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/41309",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Waseem Al-Kattan",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Waseem Al-Kattan",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/41309"
   ],
   "remarks": "Leading businessperson operating in Syria benefitting from and supporting the former al-Assad regime. Owner of multiple businesses and holding companies with interests and activities in various economic sectors such as real estate, the luxury hotel industry and commercial centres. Waseem al-Kattan rose rapidly as a leading businessperson by imposing taxes on goods smuggled into Eastern Ghouta under siege, and is now involved in aggressive forms of clientelism to the benefit of the former al-Assad regime. Waseem al-Kattan benefits financially from favoured access to public tenders as well as to licences and contracts awarded by government agencies as a result of his close ties to the former al-Assad regime.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1976-06-20",
-      "circa": false
+      "circa": false,
+      "year": 1976
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

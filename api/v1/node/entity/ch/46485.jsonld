@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/46485",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/46485",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Muhammad Abd Al-Karim Al-Ghamari",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Muhammad Abd Al-Karim Al-Ghamari",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/46485"
   ],
   "remarks": "Designation: Major General, Houthi Chief of General Staff",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1979
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

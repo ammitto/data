@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/45457",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/45457",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Yarokhina Mariya Viachaslavauna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Yarokhina Mariya Viachaslavauna",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/45457"
   ],
   "remarks": "In her position as judge of the Frunzensky District Court in Minsk, Mariya Yerokhina is responsible for numerous politically motivated rulings against journalists, opposition leaders, trade union activists, sportsmen and protesters, in particular the sentencing of journalist Uladzimir Hrydzin. She is therefore responsible for serious human rights violations and for seriously undermining the rule of law, as well as for the repression of civil society and democratic opposition.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1987-07-04",
-      "circa": false
+      "circa": false,
+      "year": 1987
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

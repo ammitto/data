@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/88573",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/88573",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Lisitsyna Anna Valeryevna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Lisitsyna Anna Valeryevna",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/88573"
   ],
   "remarks": "Anna Lisitsyna is a deputy of the so-called “People’s Council” of the so-called “Luhansk People’s Republic” and a member of its Committee on Construction, Housing and Utilities, Energy, Transport and Communications.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1988-03-04",
-      "circa": false
+      "circa": false,
+      "year": 1988
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

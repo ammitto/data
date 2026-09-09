@@ -1,36 +1,51 @@
 {
-  "id": "https://www.ammitto.org/entity/au/6268",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/6268",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Yusuf Al-Madani",
+      "@type": "NameVariant",
+      "fullName": "Yusuf Al-Madani",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "وسف المداني",
+      "@type": "NameVariant",
+      "fullName": "وسف المداني",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "YEi.009. Title: Major General. Designation: Commander of the Houthi’s Fifth Military Region. A prominent leader of Houthi forces and commander of forces in Hudaydah, Hajjah, Al Mahwit, and Raymah, Yemen – threatening the peace, security, and stability of Yemen. As of 2021, Al-Madani was assigned to the offensive targeting Marib.; Listing: Listed by the 2140 Committee on 9 November 2021",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/6268"
   ],
-  "birth_info": [
+  "remarks": "YEi.009. Title: Major General. Designation: Commander of the Houthi’s Fifth Military Region. A prominent leader of Houthi forces and commander of forces in Hudaydah, Hajjah, Al Mahwit, and Raymah, Yemen – threatening the peace, security, and stability of Yemen. As of 2021, Al-Madani was assigned to the offensive targeting Marib.; Listing: Listed by the 2140 Committee on 9 November 2021",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1977,
       "country": "Muhatta Directorate"
     }
   ],
   "nationalities": [
     "Yemen"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Yemen",
       "country": "Yemen"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

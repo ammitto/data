@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/845616",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/845616",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "T.E. AUSTRALIA",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "T.E. AUSTRALIA",
+      "isPrimary": true
     }
   ],
-  "remarks": "(Reg. No. 120653250)*658",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/845616"
+  ],
+  "remarks": "(Reg. No. 120653250)*658",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "SUITE 704, 815 PACIFIC HIGHWAY",
       "city": "CHATSWOOD NSW 2067",
       "country": "Australia",
-      "country_iso_code": "AU"
+      "countryIsoCode": "AU"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

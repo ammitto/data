@@ -1,49 +1,70 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3373",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/3373",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Petr Alekseyovich SAVCHENKO",
+      "@type": "NameVariant",
+      "fullName": "Petr Alekseyovich SAVCHENKO",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Peter SAVCHENKO",
+      "@type": "NameVariant",
+      "fullName": "Peter SAVCHENKO",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Petro Oleksiiovych SAVCHENKO",
+      "@type": "NameVariant",
+      "fullName": "Petro Oleksiiovych SAVCHENKO",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Petro Oleksiyovych SAVCHENKO",
+      "@type": "NameVariant",
+      "fullName": "Petro Oleksiyovych SAVCHENKO",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Peter A. SAVCHENKO",
+      "@type": "NameVariant",
+      "fullName": "Peter A. SAVCHENKO",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Petr Alekseevich SAVCHENKO",
+      "@type": "NameVariant",
+      "fullName": "Petr Alekseevich SAVCHENKO",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Listing: Listed on 1 Sep. 2017 (relisted on 28 Aug. 2020) (relisted on 27 Aug 2023)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3373"
   ],
-  "birth_info": [
+  "remarks": "Listing: Listed on 1 Sep. 2017 (relisted on 28 Aug. 2020) (relisted on 27 Aug 2023)",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1968
     }
   ],
   "nationalities": [
     "Ukraine"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

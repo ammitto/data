@@ -1,22 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/dpr0190",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/dpr0190",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "SECOND ECONOMIC COMMITTEE",
+      "@type": "NameVariant",
+      "fullName": "SECOND ECONOMIC COMMITTEE",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Second Economic Committee is involved in key aspects of the DPRK's missile program. The Second Economic Committee is responsible for overseeing the production of the DPRK's ballistic missiles, and directs the activities of KOMID.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/dpr0190"
+  ],
+  "remarks": "The Second Economic Committee is involved in key aspects of the DPRK's missile program. The Second Economic Committee is responsible for overseeing the production of the DPRK's ballistic missiles, and directs the activities of KOMID.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "state": "Kangdong",
       "country": "North Korea"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

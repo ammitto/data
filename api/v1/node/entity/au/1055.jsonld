@@ -1,38 +1,59 @@
 {
-  "id": "https://www.ammitto.org/entity/au/1055",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/1055",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MUZAHIM SA'B HASSAN AL-TIKRITI",
+      "@type": "NameVariant",
+      "fullName": "MUZAHIM SA'B HASSAN AL-TIKRITI",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "مزاحم صعب حسن التكريتي",
+      "@type": "NameVariant",
+      "fullName": "مزاحم صعب حسن التكريتي",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "IQi.012; Listing: Listed by the 1518 Committee",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/1055"
   ],
-  "birth_info": [
+  "remarks": "IQi.012; Listing: Listed by the 1518 Committee",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1946,
       "country": "Salah al-Din or al-Awja near Tikrit"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1949,
       "country": "Iraq"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1960,
       "country": "Salah al-Din or al-Awja near Tikrit"
     }
   ],
   "nationalities": [
     "Iraq"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

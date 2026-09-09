@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/60345",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/60345",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mikhailov Oleg Alexeyevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Mikhailov Oleg Alexeyevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/60345"
   ],
   "remarks": "Member of the State Duma who, on 21 Dec 2022, voted in favour of the draft bill No. 242406-8 “On the contract system”, according to which the right to regulate public procurement in the four illegally annexed Ukrainian territories and regions was arrogated\nto the Russian government.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1987-01-06",
-      "circa": false
+      "circa": false,
+      "year": 1987
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

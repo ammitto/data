@@ -1,37 +1,55 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3446",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/3446",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Ministry of National Defence",
+      "@type": "NameVariant",
+      "fullName": "Ministry of National Defence",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Ministry of Defence",
+      "@type": "NameVariant",
+      "fullName": "Ministry of Defence",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ministry of Defense",
+      "@type": "NameVariant",
+      "fullName": "Ministry of Defense",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ministry of the People's Armed Forces (MPAF)",
+      "@type": "NameVariant",
+      "fullName": "Ministry of the People's Armed Forces (MPAF)",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "KPe.054. The Ministry of National Defence manages the general administrative and logistical needs of the Korean People's Army.; Listing: Listed on: 22 Dec. 2017",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3446"
+  ],
+  "remarks": "KPe.054. The Ministry of National Defence manages the general administrative and logistical needs of the Korean People's Army.; Listing: Listed on: 22 Dec. 2017",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Pyongyang, DPRK",
       "country": "DPRK"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

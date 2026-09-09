@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/27302",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/27302",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Berezovskiy Denis Valentinovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Berezovskiy Denis Valentinovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/27302"
   ],
   "remarks": "Berezovskiy was appointed commander of the Ukrainian Navy on 1 Mar 2014 but thereafter swore an oath to the Crimean armed forces, thereby breaking his oath to the Ukrainian Navy.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1974-07-15",
-      "circa": false
+      "circa": false,
+      "year": 1974
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

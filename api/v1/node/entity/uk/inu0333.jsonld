@@ -1,47 +1,67 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/inu0333",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/inu0333",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "PETROIRAN DEVELOPMENT COMPANY (PEDCO) LIMITED ",
+      "@type": "NameVariant",
+      "fullName": "PETROIRAN DEVELOPMENT COMPANY (PEDCO) LIMITED ",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "PEDCO ",
+      "@type": "NameVariant",
+      "fullName": "PEDCO ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Petroiran ",
+      "@type": "NameVariant",
+      "fullName": "Petroiran ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Petroiran Development Company",
+      "@type": "NameVariant",
+      "fullName": "Petroiran Development Company",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Petroiran Development Group  ",
+      "@type": "NameVariant",
+      "fullName": "Petroiran Development Group  ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "شرکت توسعه پتروایران (شرکت پتروایران) ",
+      "@type": "NameVariant",
+      "fullName": "شرکت توسعه پتروایران (شرکت پتروایران) ",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/inu0333"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "41 No. 20, Tabrizian St, Dastgerdi (Zafar) St, Shariati Ave",
       "state": "Tehran",
       "country": "Iran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

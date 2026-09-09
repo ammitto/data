@@ -1,0 +1,58 @@
+{
+  "@id": "https://www.ammitto.org/entry/wb/debarment-list/559844",
+  "@type": "SanctionEntry",
+  "entityId": "https://www.ammitto.org/entity/wb/559844",
+  "authority": {
+    "@id": "https://www.ammitto.org/authority/wb"
+  },
+  "regime": {
+    "@id": "https://www.ammitto.org/regime/debarment",
+    "name": "World Bank Debarment"
+  },
+  "legalBases": [
+
+  ],
+  "effects": [
+    {
+      "@type": "SanctionEffect",
+      "effectType": "debarment",
+      "scope": "full",
+      "description": "Excluded from World Bank-financed contracts"
+    }
+  ],
+  "reasons": [
+
+  ],
+  "period": {
+    "@type": "TemporalPeriod",
+    "effectiveDate": "2021-03-12",
+    "expiryDate": "2028-02-08",
+    "isIndefinite": false
+  },
+  "status": "active",
+  "statusHistory": [
+
+  ],
+  "referenceNumber": "559844",
+  "remarks": "Cross Debarment: IDB",
+  "rawSourceData": {
+    "@type": "RawSourceData",
+    "sourceFormat": "json",
+    "sourceSpecificFields": {
+      "wb:suppTypeCode": "F",
+      "wb:debarType": null,
+      "wb:debarTypeDesc": null,
+      "wb:suppPreAcrn": null,
+      "wb:suppPostAcrn": null,
+      "wb:legacyFlag": "N",
+      "wb:unSuppFlag": "N",
+      "wb:ineligFlag": "X",
+      "wb:crossDebarment": "N",
+      "wb:crossDebarmentStatus": "CLEARED",
+      "wb:eligStatus": "X-DEBARRED",
+      "wb:suppEligStat": "X-DEBARRED",
+      "wb:ineligiblyStatus": null
+    }
+  },
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
+}

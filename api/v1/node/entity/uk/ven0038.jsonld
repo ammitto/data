@@ -1,28 +1,48 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/ven0038",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/ven0038",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ortega Rios",
-      "first_name": "Calixto",
+      "@type": "NameVariant",
+      "fullName": "Ortega Rios",
+      "firstName": "Calixto",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Calixto Antonio Ortega Ríos ",
+      "@type": "NameVariant",
+      "fullName": "Calixto Antonio Ortega Ríos ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/ven0038"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "state": "Maracaibo",
       "country": "Venezuela"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

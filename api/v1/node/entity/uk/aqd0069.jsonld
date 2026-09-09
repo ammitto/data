@@ -1,29 +1,48 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/aqd0069",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/aqd0069",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Mouvement pour l'Unification et le Jihad en Afrique de l'Ouest (MUJAO)",
+      "@type": "NameVariant",
+      "fullName": "Mouvement pour l'Unification et le Jihad en Afrique de l'Ouest (MUJAO)",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "حركة التوحيد والجهاد في غرب إفريقيا",
+      "@type": "NameVariant",
+      "fullName": "حركة التوحيد والجهاد في غرب إفريقيا",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Associated with The Organization of Al-Qaida in the Islamic Maghreb (QDe.014), Al Mourabitoun (QDe.141), and Mokhtar Belmokhtar (QDi.136). Active in the Sahel/Sahara region. Review pursuant to Security Council resolution 2268 (2017) was concluded on 15 November 2021. INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/notice/search/une/5282020",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/aqd0069"
+  ],
+  "remarks": "Associated with The Organization of Al-Qaida in the Islamic Maghreb (QDe.014), Al Mourabitoun (QDe.141), and Mokhtar Belmokhtar (QDi.136). Active in the Sahel/Sahara region. Review pursuant to Security Council resolution 2268 (2017) was concluded on 15 November 2021. INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/notice/search/une/5282020",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "country": "Algeria"
     },
     {
+      "@type": "Address",
+      "street": "",
       "country": "Mali"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

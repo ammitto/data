@@ -1,23 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/200682",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/wb/200682",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MR. RENÉ SANDOVAL SOLIZ",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "MR. RENÉ SANDOVAL SOLIZ",
+      "isPrimary": true
     }
   ],
-  "remarks": "*184",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/200682"
+  ],
+  "remarks": "*184",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "CALLE BUENOS AIRES # 141, EDIFICIO SANDOVAL, PISO 1, OFICINA 1, ZONA: B/25 DE DECIEMBRE",
       "city": "MONTERO – SANTA CRUZ",
       "country": "Bolivia",
-      "country_iso_code": "BO"
+      "countryIsoCode": "BO"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/8774",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/8774",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Naqdi Mohammad Reza",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Naqdi Mohammad Reza",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/8774"
   ],
   "remarks": "Brigadier-General, former Deputy Chief of Armed Forces General Staff for Logistics and Industrial Research, Head of State Anti-Smuggling Headquarters.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1949-02-11",
-      "circa": false
+      "circa": false,
+      "year": 1949
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

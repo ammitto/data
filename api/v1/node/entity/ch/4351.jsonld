@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/4351",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/4351",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Tešic Slobodan",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Tešic Slobodan",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/4351"
   ],
   "remarks": "Serbian national, director of the society «Temex». Relevant information is contained in the Panel of Experts report S/2003/498. Director of Temex, Belgrade.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1958-12-21",
-      "circa": false
+      "circa": false,
+      "year": 1958
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

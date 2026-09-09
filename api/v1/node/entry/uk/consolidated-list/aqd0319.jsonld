@@ -1,38 +1,54 @@
 {
-  "id": "https://www.ammitto.org/entry/uk/consolidated-list/aqd0319",
-  "entity_id": "https://www.ammitto.org/entity/uk/aqd0319",
+  "@id": "https://www.ammitto.org/entry/uk/consolidated-list/aqd0319",
+  "@type": "SanctionEntry",
+  "entityId": "https://www.ammitto.org/entity/uk/aqd0319",
   "authority": {
     "@id": "https://www.ammitto.org/authority/uk"
   },
   "regime": {
-    "@id": "https://www.ammitto.org/regime/isil_da_esh_and_al_qaeda_united_nations_sanctions_eu_exit_regulations_2019"
+    "@id": "https://www.ammitto.org/regime/isil_da_esh_and_al_qaeda_united_nations_sanctions_eu_exit_regula",
+    "name": "Isil (Da'esh) and Al-Qaeda (United Nations Sanctions) (EU Exit) Regulations 2019"
   },
+  "legalBases": [
+
+  ],
   "effects": [
     {
-      "effect_type": "asset_freeze",
+      "@type": "SanctionEffect",
+      "effectType": "asset_freeze",
       "scope": "full"
     },
     {
-      "effect_type": "travel_ban",
+      "@type": "SanctionEffect",
+      "effectType": "travel_ban",
       "scope": "full"
     },
     {
-      "effect_type": "arms_embargo",
+      "@type": "SanctionEffect",
+      "effectType": "arms_embargo",
       "scope": "full"
     }
   ],
+  "reasons": [
+
+  ],
   "period": {
-    "listed_date": "2015-09-29",
-    "effective_date": "2015-09-29",
-    "is_indefinite": true,
-    "last_updated": "2021-12-18"
+    "@type": "TemporalPeriod",
+    "listedDate": "2015-09-29",
+    "effectiveDate": "2015-09-29",
+    "isIndefinite": true,
+    "lastUpdated": "2021-12-18"
   },
   "status": "active",
-  "reference_number": "AQD0319",
+  "statusHistory": [
+
+  ],
+  "referenceNumber": "AQD0319",
   "remarks": "\n",
-  "raw_source_data": {
-    "source_format": "xml",
-    "source_specific_fields": {
+  "rawSourceData": {
+    "@type": "RawSourceData",
+    "sourceFormat": "xml",
+    "sourceSpecificFields": {
       "uk:ofsiGroupId": "13295",
       "uk:unReferenceNumber": "QDi.370",
       "uk:designationSource": "UN",
@@ -40,5 +56,5 @@
       "uk:entityType": "Individual"
     }
   },
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

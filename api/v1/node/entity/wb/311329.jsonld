@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/311329",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/311329",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "C.D.W. CONSTRUCTION CO., LTD",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "C.D.W. CONSTRUCTION CO., LTD",
+      "isPrimary": true
     }
   ],
-  "remarks": "*221",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/311329"
+  ],
+  "remarks": "*221",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "HOUSE NO. 35B, ST. 476, SANGKAT TOULTOMPOUNG II, KHAN. CHAMKARMORN",
       "city": "PHNOM PENH",
       "country": "Cambodia",
-      "country_iso_code": "KH"
+      "countryIsoCode": "KH"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

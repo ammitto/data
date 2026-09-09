@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/63184",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/63184",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Desyatova Natalya Leonidovna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Desyatova Natalya Leonidovna",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/63184"
   ],
   "remarks": "Natalya Desyatova was appointed in Jul 2022 as the director of the Kherson Fine Arts Museum by the Russian authorities. When Kherson was still under the control of the Russian Armed Forces, the cultural property of the Kherson Fine Arts Museum was removed from the museum in Oct and Nov 2022 and taken illegally to Simferopol, in illegally annexed Crimea. This was done under Desyatova’s control and with the assistance of Russian security forces.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1966-07-11",
-      "circa": false
+      "circa": false,
+      "year": 1966
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

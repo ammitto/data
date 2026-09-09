@@ -1,47 +1,67 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3404",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/3404",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Crimean Sea Ports",
+      "@type": "NameVariant",
+      "fullName": "Crimean Sea Ports",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Crimean Ports",
+      "@type": "NameVariant",
+      "fullName": "Crimean Ports",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "‘State Unitary Enterprise of the Crimean Republic “Crimean Sea Ports”’ including branches: Feodosia Commercial Port, Kerch Ferry, Kerch Commercial Port",
+      "@type": "NameVariant",
+      "fullName": "‘State Unitary Enterprise of the Crimean Republic “Crimean Sea Ports”’ including branches: Feodosia Commercial Port, Kerch Ferry, Kerch Commercial Port",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "RK KMP",
+      "@type": "NameVariant",
+      "fullName": "RK KMP",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Sue RK ‘Crimean Ports’",
+      "@type": "NameVariant",
+      "fullName": "Sue RK ‘Crimean Ports’",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "State Unitary Enterprise of the Crimean Republic ‘Crimean Ports’",
+      "@type": "NameVariant",
+      "fullName": "State Unitary Enterprise of the Crimean Republic ‘Crimean Ports’",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Listing: Listed on 1 Sep. 2017 (relisted on 28 Aug. 2020) (relisted on 27 Aug 2023)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3404"
+  ],
+  "remarks": "Listing: Listed on 1 Sep. 2017 (relisted on 28 Aug. 2020) (relisted on 27 Aug 2023)",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "28 Kirov Street, Kerch, Autonomous Republic of Crimea, 298312, Ukraine",
       "country": "Ukraine"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

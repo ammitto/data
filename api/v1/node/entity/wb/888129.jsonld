@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/888129",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/888129",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "GAOYANG TIANXIN CONSTRUCTION CO., LTD.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "GAOYANG TIANXIN CONSTRUCTION CO., LTD.",
+      "isPrimary": true
     }
   ],
-  "remarks": "高阳县天鑫建设有限公司",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/888129"
+  ],
+  "remarks": "高阳县天鑫建设有限公司",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "ROOM 105, NO 109, CHAOYANG ROAD, JINHUA STREET, GAOYANG COUNTY",
       "city": "BAODING CITY, HEBEI PROVINCE",
       "country": "China",
-      "country_iso_code": "CN"
+      "countryIsoCode": "CN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

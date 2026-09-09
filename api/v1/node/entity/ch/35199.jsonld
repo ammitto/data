@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/35199",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/35199",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Hilal Hilal",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Hilal Hilal",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/35199"
   ],
   "remarks": "Member of the regime-affiliated militias known as “Kataeb al-Baath” (the Baath Party militia). Vice-Chairman of the Baath Party. Supports the former al-Assad regime through his role in the recruitment and organisation of the Baath Party militia.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1966-06-30",
-      "circa": false
+      "circa": false,
+      "year": 1966
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

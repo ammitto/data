@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/56604",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/56604",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Yanukovych Viktor Fedorovych",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Yanukovych Viktor Fedorovych",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/56604"
   ],
   "remarks": "From 2010 until 2014, Viktor Yanukovych was President of Ukraine. He pursued a pro-Russian policy when in office. A Ukrainian court found Viktor Yanukovych guilty of treason for having invited the Russian Federation to invade Ukraine. After being removed from power, he relocated to Russia, from where he has continued his activities aimed at destabilising Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1950-07-09",
-      "circa": false
+      "circa": false,
+      "year": 1950
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

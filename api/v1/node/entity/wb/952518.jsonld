@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/952518",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/952518",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "MAFAP S.A.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "MAFAP S.A.",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/952518"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "SAN MARTÍN 749, ANDALGALÁ C.P.4740",
       "city": "CATAMARCA",
       "country": "Argentina",
-      "country_iso_code": "AR"
+      "countryIsoCode": "AR"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

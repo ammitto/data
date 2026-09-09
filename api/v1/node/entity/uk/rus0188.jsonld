@@ -1,33 +1,50 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus0188",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus0188",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Peace To Luhansk Region",
+      "@type": "NameVariant",
+      "fullName": "Peace To Luhansk Region",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Mir Luganschine",
+      "@type": "NameVariant",
+      "fullName": "Mir Luganschine",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Мир Луганщине",
+      "@type": "NameVariant",
+      "fullName": "Мир Луганщине",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Director: Igor Plotnitsky (subject to sanctions) The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus0188"
+  ],
+  "remarks": "Director: Igor Plotnitsky (subject to sanctions) The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Karl Marx Street 7",
       "state": "Luhansk",
       "country": "Ukraine"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

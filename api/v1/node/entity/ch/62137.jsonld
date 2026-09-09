@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/62137",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/62137",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Amer Tayseer Khiti",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Amer Tayseer Khiti",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/62137"
   ],
   "remarks": "Amer Tayseer Khiti is a leading businessperson operating in Syria with interests in real estate, construction and industry. He has close ties to the Assad family. He is a supporter of former President al-Assad and organised rallies for him.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1980-07-31",
-      "circa": false
+      "circa": false,
+      "year": 1980
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

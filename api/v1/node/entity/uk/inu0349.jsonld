@@ -1,47 +1,67 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/inu0349",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/inu0349",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "NATIONAL IRANIAN OIL REFINING AND DISTRIBUTION COMPANY ",
+      "@type": "NameVariant",
+      "fullName": "NATIONAL IRANIAN OIL REFINING AND DISTRIBUTION COMPANY ",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "National Iranian Oil Refining & Distribution Company ",
+      "@type": "NameVariant",
+      "fullName": "National Iranian Oil Refining & Distribution Company ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "National Iranian Oil Refining & Product Distribution Company ",
+      "@type": "NameVariant",
+      "fullName": "National Iranian Oil Refining & Product Distribution Company ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "NIORDC",
+      "@type": "NameVariant",
+      "fullName": "NIORDC",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "NIORDC - Esfahan Oil Refining Company",
+      "@type": "NameVariant",
+      "fullName": "NIORDC - Esfahan Oil Refining Company",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "ملی پالایش و پخش فرآورده های نفتی ایران",
+      "@type": "NameVariant",
+      "fullName": "ملی پالایش و پخش فرآورده های نفتی ایران",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/inu0349"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "4 Varsho Street",
       "state": "Tehran",
       "country": "Iran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

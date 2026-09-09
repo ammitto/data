@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus0203",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus0203",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Stroygazmontazh Corporation (SGM Group)",
+      "@type": "NameVariant",
+      "fullName": "Stroygazmontazh Corporation (SGM Group)",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Names of Director(s)/Management: Vera Loseva, CEO appointed June 2020|Ultimate beneficial owner(s): Gazstroyprom Business Sector: Construction The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus0203"
+  ],
+  "remarks": "Names of Director(s)/Management: Vera Loseva, CEO appointed June 2020|Ultimate beneficial owner(s): Gazstroyprom Business Sector: Construction The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Prospect Vernadskogo 53",
       "state": "Moscow",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

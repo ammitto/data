@@ -1,65 +1,87 @@
 {
-  "id": "https://www.ammitto.org/entity/au/2978",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/2978",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ekaterina Yurievna GUBAREVA",
+      "@type": "NameVariant",
+      "fullName": "Ekaterina Yurievna GUBAREVA",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Kateryna Yuriyivna GUBARIEVA",
+      "@type": "NameVariant",
+      "fullName": "Kateryna Yuriyivna GUBARIEVA",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Kateryna Yuriyivna HUBAREVA",
+      "@type": "NameVariant",
+      "fullName": "Kateryna Yuriyivna HUBAREVA",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Yekaterina GUBAREVA",
+      "@type": "NameVariant",
+      "fullName": "Yekaterina GUBAREVA",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ekaterina Yurevna GUBEREVA",
+      "@type": "NameVariant",
+      "fullName": "Ekaterina Yurevna GUBEREVA",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Katerina Yuriyovna GUBARIEVA",
+      "@type": "NameVariant",
+      "fullName": "Katerina Yuriyovna GUBARIEVA",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ekaterina Yurievna KRASKO",
+      "@type": "NameVariant",
+      "fullName": "Ekaterina Yurievna KRASKO",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Listing: Listed on 2 Sep. 2014 (relisted on 1 Sep. 2017) (relisted on 28 Aug. 2020 (relisted on 27 Aug 2023)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/2978"
   ],
-  "birth_info": [
+  "remarks": "Listing: Listed on 2 Sep. 2014 (relisted on 1 Sep. 2017) (relisted on 28 Aug. 2020 (relisted on 27 Aug 2023)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1983,
       "country": "Kakhovka"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1983,
       "country": "Kherson"
     }
   ],
   "nationalities": [
     "Ukraine"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "a) Kherson, Ukraine            b) Donetsk, Ukraine",
       "country": "Ukraine"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

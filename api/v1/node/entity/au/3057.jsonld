@@ -1,54 +1,76 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3057",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/3057",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "ABD AL-KHALIQ AL-HOUTHI",
+      "@type": "NameVariant",
+      "fullName": "ABD AL-KHALIQ AL-HOUTHI",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Abd-al-Khaliq al-Huthi",
+      "@type": "NameVariant",
+      "fullName": "Abd-al-Khaliq al-Huthi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abd-al-Khaliq Badr-al-Din al Huthi",
+      "@type": "NameVariant",
+      "fullName": "Abd-al-Khaliq Badr-al-Din al Huthi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "‘Abd al-Khaliq Badr al-Din al-Huthi",
+      "@type": "NameVariant",
+      "fullName": "‘Abd al-Khaliq Badr al-Din al-Huthi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abd al-Khaliq al-Huthi",
+      "@type": "NameVariant",
+      "fullName": "Abd al-Khaliq al-Huthi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abu-Yunus",
+      "@type": "NameVariant",
+      "fullName": "Abu-Yunus",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "عبدالخالق الحوثي",
+      "@type": "NameVariant",
+      "fullName": "عبدالخالق الحوثي",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "YEi.001. Huthi military commander. Gender [Male].; Listing: Listed by the 2140 Committee on 7 November 2014 (amended on 20 Nov. 2014, 26 Aug. 2016)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3057"
   ],
-  "birth_info": [
+  "remarks": "YEi.001. Huthi military commander. Gender [Male].; Listing: Listed by the 2140 Committee on 7 November 2014 (amended on 20 Nov. 2014, 26 Aug. 2016)",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1984
     }
   ],
   "nationalities": [
     "Yemen"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

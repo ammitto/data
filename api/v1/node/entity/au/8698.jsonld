@@ -1,32 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8698",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/8698",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Commercial Bank Khlynov",
+      "@type": "NameVariant",
+      "fullName": "Commercial Bank Khlynov",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "AO KB Khlynov",
+      "@type": "NameVariant",
+      "fullName": "AO KB Khlynov",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Commercial Bank Khlynov Joint Stock Company Pjsc",
+      "@type": "NameVariant",
+      "fullName": "Commercial Bank Khlynov Joint Stock Company Pjsc",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Website: https://www.bank-hlynov.ru; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2026",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8698"
+  ],
+  "remarks": "Website: https://www.bank-hlynov.ru; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2026",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "40, Uritskogo Street, Kirov, Russia, 610002",
       "country": "610002"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

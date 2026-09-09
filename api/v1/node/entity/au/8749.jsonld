@@ -1,47 +1,67 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8749",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/8749",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Yakutia Securities Centre Republican Specialised Registrar Joint Stock Company",
+      "@type": "NameVariant",
+      "fullName": "Yakutia Securities Centre Republican Specialised Registrar Joint Stock Company",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Joint Stock Company Republican Special Registrar",
+      "@type": "NameVariant",
+      "fullName": "Joint Stock Company Republican Special Registrar",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Yakut Fund Center",
+      "@type": "NameVariant",
+      "fullName": "Yakut Fund Center",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Joint Stock Company ssr \"yafc\"",
+      "@type": "NameVariant",
+      "fullName": "Joint Stock Company ssr \"yafc\"",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Republican Special Registrar Yakut Fund Center",
+      "@type": "NameVariant",
+      "fullName": "Republican Special Registrar Yakut Fund Center",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "RSR Yafts",
+      "@type": "NameVariant",
+      "fullName": "RSR Yafts",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Website: http://www.yfc.ru/; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2026",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8749"
+  ],
+  "remarks": "Website: http://www.yfc.ru/; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2026",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Per. Glukhoi D. 2, Korp. 1, Yakutsk, Republic of Sakha (Yakutia), 677007, Russia",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,40 +1,59 @@
 {
-  "id": "https://www.ammitto.org/entity/au/2260",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/2260",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mundir AL-ASSAD",
+      "@type": "NameVariant",
+      "fullName": "Mundir AL-ASSAD",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Munzir AL-ASSAD",
+      "@type": "NameVariant",
+      "fullName": "Munzir AL-ASSAD",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Monzer Jamil AL‑ASSAD",
+      "@type": "NameVariant",
+      "fullName": "Monzer Jamil AL‑ASSAD",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Mundhir Jamil AL‑ASSAD",
+      "@type": "NameVariant",
+      "fullName": "Mundhir Jamil AL‑ASSAD",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Last known position: Member of the Shabiha militia. Passport No.: a) 86449, b) 842781.; Listing: Designated under the Autonomous Sanctions Regulations 2011 on 2 March 2012. Formerly listed on the RBA Consolidated List as 2011SYR0005. Relisted on 12 January 2024.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/2260"
   ],
-  "birth_info": [
+  "remarks": "Last known position: Member of the Shabiha militia. Passport No.: a) 86449, b) 842781.; Listing: Designated under the Autonomous Sanctions Regulations 2011 on 2 March 2012. Formerly listed on the RBA Consolidated List as 2011SYR0005. Relisted on 12 January 2024.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1961,
       "country": "Latakia"
     }
   ],
   "nationalities": [
     "Syria"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

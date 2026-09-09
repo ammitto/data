@@ -1,41 +1,52 @@
 {
-  "id": "https://www.ammitto.org/entry/au/consolidated-list/7287",
-  "entity_id": "https://www.ammitto.org/entity/au/7287",
+  "@id": "https://www.ammitto.org/entry/au/consolidated-list/7287",
+  "@type": "SanctionEntry",
+  "entityId": "https://www.ammitto.org/entity/au/7287",
   "authority": {
     "@id": "https://www.ammitto.org/authority/au"
   },
   "regime": {
-    "@id": "https://www.ammitto.org/regime/au_yemen"
+    "@id": "https://www.ammitto.org/regime/au_yemen",
+    "name": "Yemen"
   },
-  "legal_bases": [
+  "legalBases": [
     {
-      "type": "regulation",
-      "identifier": "Charter of the United Nations (Sanctions—Yemen) Regulation 2014",
-      "title": "Charter of the United Nations (Sanctions—Yemen) Regulation 2014"
+      "@id": "https://www.ammitto.org/legal-instrument/au/charter-of-the-united-nations-sanctions-yemen-regulation-2014"
     }
   ],
   "effects": [
     {
-      "effect_type": "asset_freeze",
+      "@type": "SanctionEffect",
+      "effectType": "asset_freeze",
       "scope": "full"
     },
     {
-      "effect_type": "travel_ban",
+      "@type": "SanctionEffect",
+      "effectType": "travel_ban",
       "scope": "full"
     },
     {
-      "effect_type": "arms_embargo",
+      "@type": "SanctionEffect",
+      "effectType": "arms_embargo",
       "scope": "full"
     }
   ],
+  "reasons": [
+
+  ],
   "period": {
-    "is_indefinite": true
+    "@type": "TemporalPeriod",
+    "isIndefinite": true
   },
   "status": "active",
-  "reference_number": "7287",
-  "raw_source_data": {
-    "source_format": "csv",
-    "source_specific_fields": {
+  "statusHistory": [
+
+  ],
+  "referenceNumber": "7287",
+  "rawSourceData": {
+    "@type": "RawSourceData",
+    "sourceFormat": "csv",
+    "sourceSpecificFields": {
       "au:reference": "7287",
       "au:committees": "2140 (Yemen)",
       "au:control_date": "2026-02-20",
@@ -43,5 +54,5 @@
       "au:listing_info": "Listed by the 2140 Committee on 4 October 2022"
     }
   },
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

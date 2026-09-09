@@ -1,37 +1,55 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7582",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/7582",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Joint Stock Company Military-Industrial Corporation NPO Mashinostroyenia",
+      "@type": "NameVariant",
+      "fullName": "Joint Stock Company Military-Industrial Corporation NPO Mashinostroyenia",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "VPK NPO Mashinostroeniya",
+      "@type": "NameVariant",
+      "fullName": "VPK NPO Mashinostroeniya",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Military-Industrial Corporation NPO Mashinostroyenia",
+      "@type": "NameVariant",
+      "fullName": "Military-Industrial Corporation NPO Mashinostroyenia",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "MIC NPO Mashinostroyenia",
+      "@type": "NameVariant",
+      "fullName": "MIC NPO Mashinostroyenia",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Company identification number: 1025005243251;http://www.npomash.ru; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 8) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7582"
+  ],
+  "remarks": "Company identification number: 1025005243251;http://www.npomash.ru; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 8) Instrument 2023",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "33 Gagarina Street, Reutov, Moscow Region, 143966 Russia",
       "country": "143966 Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

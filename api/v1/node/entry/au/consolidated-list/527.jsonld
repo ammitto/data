@@ -1,33 +1,42 @@
 {
-  "id": "https://www.ammitto.org/entry/au/consolidated-list/527",
-  "entity_id": "https://www.ammitto.org/entity/au/527",
+  "@id": "https://www.ammitto.org/entry/au/consolidated-list/527",
+  "@type": "SanctionEntry",
+  "entityId": "https://www.ammitto.org/entity/au/527",
   "authority": {
     "@id": "https://www.ammitto.org/authority/au"
   },
   "regime": {
-    "@id": "https://www.ammitto.org/regime/1373__2001_"
+    "@id": "https://www.ammitto.org/regime/1373__2001_",
+    "name": "1373 (2001)"
   },
-  "legal_bases": [
+  "legalBases": [
     {
-      "type": "act",
-      "identifier": "Instrument of first listing: Charter of the United Nations Act 1945 List 2004 (No. 2) [F2021L00642, Gazette No. GN 46, 17 November 2004]. Last listed on: 13/09/2025",
-      "title": "Instrument of first listing: Charter of the United Nations Act 1945 List 2004 (No. 2) [F2021L00642, Gazette No. GN 46, 17 November 2004]. Last listed on: 13/09/2025"
+      "@id": "https://www.ammitto.org/legal-instrument/au/instrument-of-first-listing-charter-of-the-united-nations-act-1945-list-2004-no.-2-f2021l00642-gazette-no.-gn-46-17-november-2004-.-last-listed-on-13-09-2025"
     }
   ],
   "effects": [
     {
-      "effect_type": "asset_freeze",
+      "@type": "SanctionEffect",
+      "effectType": "asset_freeze",
       "scope": "full"
     }
   ],
+  "reasons": [
+
+  ],
   "period": {
-    "is_indefinite": true
+    "@type": "TemporalPeriod",
+    "isIndefinite": true
   },
   "status": "active",
-  "reference_number": "527",
-  "raw_source_data": {
-    "source_format": "csv",
-    "source_specific_fields": {
+  "statusHistory": [
+
+  ],
+  "referenceNumber": "527",
+  "rawSourceData": {
+    "@type": "RawSourceData",
+    "sourceFormat": "csv",
+    "sourceSpecificFields": {
       "au:reference": "527",
       "au:committees": "1373 (2001)",
       "au:control_date": "2022-09-16",
@@ -35,5 +44,5 @@
       "au:listing_info": "Instrument of first listing: Charter of the United Nations Act 1945 List 2004 (No. 2) [F2021L00642, Gazette No. GN 46, 17 November 2004]. Last listed on: 13/09/2025"
     }
   },
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

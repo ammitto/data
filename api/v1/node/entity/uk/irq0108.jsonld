@@ -1,21 +1,42 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/irq0108",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/irq0108",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "GHARIB",
-      "first_name": "FADIL",
+      "@type": "NameVariant",
+      "fullName": "GHARIB",
+      "firstName": "FADIL",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "فاضل محمود غريب",
+      "@type": "NameVariant",
+      "fullName": "فاضل محمود غريب",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/irq0108"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

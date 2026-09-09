@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/85077",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/85077",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Novik Viktar Viktaravich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Novik Viktar Viktaravich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/85077"
   ],
   "remarks": "Viktar Novik is a Belarusian judge who has served in the Zhabinka District court since 2017. He was appointed by Aliaksandr Lukashenka. Novik issued numerous rulings against opponents of the Belarusian authorities. He issued politically motivated prison sentences against Vitali Ivanyukovich (2 years), Natalia Letsko (1 years), Andrei Vlasov and Yulia Suvalko (3 years) and Valentin Shumik (2 years).",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1963-05-27",
-      "circa": false
+      "circa": false,
+      "year": 1963
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

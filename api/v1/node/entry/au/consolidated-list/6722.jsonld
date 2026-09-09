@@ -1,37 +1,47 @@
 {
-  "id": "https://www.ammitto.org/entry/au/consolidated-list/6722",
-  "entity_id": "https://www.ammitto.org/entity/au/6722",
+  "@id": "https://www.ammitto.org/entry/au/consolidated-list/6722",
+  "@type": "SanctionEntry",
+  "entityId": "https://www.ammitto.org/entity/au/6722",
   "authority": {
     "@id": "https://www.ammitto.org/authority/au"
   },
   "regime": {
-    "@id": "https://www.ammitto.org/regime/autonomous__ukraine_"
+    "@id": "https://www.ammitto.org/regime/autonomous__ukraine_",
+    "name": "Autonomous (Ukraine)"
   },
-  "legal_bases": [
+  "legalBases": [
     {
-      "type": "instrument",
-      "identifier": "Instrument of first designation and declaration Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 4) Instrument 2022",
-      "title": "Instrument of first designation and declaration Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 4) Instrument 2022"
+      "@id": "https://www.ammitto.org/legal-instrument/au/instrument-of-first-designation-and-declaration-autonomous-sanctions-designated-persons-and-entities-and-declared-persons-russia-and-ukraine-amendment-no.-4-instrument-2022"
     }
   ],
   "effects": [
     {
-      "effect_type": "asset_freeze",
+      "@type": "SanctionEffect",
+      "effectType": "asset_freeze",
       "scope": "full"
     },
     {
-      "effect_type": "travel_ban",
+      "@type": "SanctionEffect",
+      "effectType": "travel_ban",
       "scope": "full"
     }
   ],
+  "reasons": [
+
+  ],
   "period": {
-    "is_indefinite": true
+    "@type": "TemporalPeriod",
+    "isIndefinite": true
   },
   "status": "active",
-  "reference_number": "6722",
-  "raw_source_data": {
-    "source_format": "csv",
-    "source_specific_fields": {
+  "statusHistory": [
+
+  ],
+  "referenceNumber": "6722",
+  "rawSourceData": {
+    "@type": "RawSourceData",
+    "sourceFormat": "csv",
+    "sourceSpecificFields": {
       "au:reference": "6722",
       "au:committees": "Autonomous (Ukraine)",
       "au:control_date": "2022-03-08",
@@ -39,5 +49,5 @@
       "au:listing_info": "Instrument of first designation and declaration Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 4) Instrument 2022"
     }
   },
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

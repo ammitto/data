@@ -1,27 +1,43 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8109",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/8109",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Central Scientific Research Institute of Chemistry and Mechanics Federal State Unitary Enterprise",
+      "@type": "NameVariant",
+      "fullName": "Central Scientific Research Institute of Chemistry and Mechanics Federal State Unitary Enterprise",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "TsNIIKhM FSUE",
+      "@type": "NameVariant",
+      "fullName": "TsNIIKhM FSUE",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "http://cniihm.ru; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8109"
+  ],
+  "remarks": "http://cniihm.ru; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "16a Nagatinskaya Street Moscow Russia 115487",
       "country": "16a Nagatinskaya Street Moscow Russia 115487"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

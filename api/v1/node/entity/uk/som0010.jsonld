@@ -1,52 +1,76 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/som0010",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/som0010",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "HAMMAMI",
-      "first_name": "OMAR",
+      "@type": "NameVariant",
+      "fullName": "HAMMAMI",
+      "firstName": "OMAR",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Al-Amriki",
-      "first_name": "Abu",
+      "@type": "NameVariant",
+      "fullName": "Al-Amriki",
+      "firstName": "Abu",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Al-Amriki",
-      "first_name": "Abu",
+      "@type": "NameVariant",
+      "fullName": "Al-Amriki",
+      "firstName": "Abu",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Al-Amriki",
-      "first_name": "Abu",
+      "@type": "NameVariant",
+      "fullName": "Al-Amriki",
+      "firstName": "Abu",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Al-Amriki",
-      "first_name": "Abu",
+      "@type": "NameVariant",
+      "fullName": "Al-Amriki",
+      "firstName": "Abu",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Hammami",
-      "first_name": "Umar",
+      "@type": "NameVariant",
+      "fullName": "Hammami",
+      "firstName": "Umar",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Married to a Somali woman. Lived in Egypt in 2005 and moved to Somalia in2009. INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals click here",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/som0010"
+  ],
+  "remarks": "Married to a Somali woman. Lived in Egypt in 2005 and moved to Somalia in2009. INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals click here",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "country": "Somalia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/46603",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/46603",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Lapo Anatol Piatrovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Lapo Anatol Piatrovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/46603"
   ],
   "remarks": "In his former position as Chairman of the State Border Committee, Anatol Lapo was responsible for actions of border control bodies under his command, whose border guards were documented as directing, guiding or forcing migrants to illegally cross the border between Belarus and Union Member States, and whose deliberate failure to carry out their duties properly facilitates attempts by migrants to cross that border. He is therefore responsible for organising activities by the Lukashenka regime that facilitate the illegal crossing of the external borders of the Union. He was passed to the military reserve in May 2023.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1963-05-24",
-      "circa": false
+      "circa": false,
+      "year": 1963
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

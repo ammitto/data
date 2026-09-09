@@ -1,58 +1,82 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/aqd0141",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/aqd0141",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "TRINIDAD",
-      "first_name": "ANGELO",
+      "@type": "NameVariant",
+      "fullName": "TRINIDAD",
+      "firstName": "ANGELO",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abdukahlil",
+      "@type": "NameVariant",
+      "fullName": "Abdukahlil",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Anis",
+      "@type": "NameVariant",
+      "fullName": "Anis",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Khalil",
-      "first_name": "Abdul",
+      "@type": "NameVariant",
+      "fullName": "Khalil",
+      "firstName": "Abdul",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Khalil",
-      "first_name": "Abu",
+      "@type": "NameVariant",
+      "fullName": "Khalil",
+      "firstName": "Abu",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Trinidad",
-      "first_name": "Calib",
+      "@type": "NameVariant",
+      "fullName": "Trinidad",
+      "firstName": "Calib",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Trinidad",
-      "first_name": "Kalib",
+      "@type": "NameVariant",
+      "fullName": "Trinidad",
+      "firstName": "Kalib",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Distinguishing marks include scars on both legs. Member of the Rajah Solaiman Movement (QDe.128), and associated with the Abu Sayyaf Group (QDe.001) and the Jemaah Islamiyah (QDe.092). In detention in the Philippines as of May 2011. Review pursuant to Security Council resolution 1822 (2008) was concluded on 13 May 2010. Review pursuant to Security Council resolution 2368 (2017) was concluded on 4 Dec. 2019. INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/aqd0141"
+  ],
+  "remarks": "Distinguishing marks include scars on both legs. Member of the Rajah Solaiman Movement (QDe.128), and associated with the Abu Sayyaf Group (QDe.001) and the Jemaah Islamiyah (QDe.092). In detention in the Philippines as of May 2011. Review pursuant to Security Council resolution 1822 (2008) was concluded on 13 May 2010. Review pursuant to Security Council resolution 2368 (2017) was concluded on 4 Dec. 2019. INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "3111 Ma. Bautista, Punta, Santa Ana",
       "state": "Manila",
       "country": "Philippines"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

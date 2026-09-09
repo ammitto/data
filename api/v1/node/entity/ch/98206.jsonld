@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/98206",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/98206",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Velichko Yulia Sergeevna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Velichko Yulia Sergeevna",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/98206"
   ],
   "remarks": "Yulia Velichko is the First Deputy Minister of Culture of the so-called “Luhansk People’s Republic”. That ministry is directly involved in the manipulation of Ukraine’s cultural heritage. In particular, she was previously acting as the “Minister of Youth Policy”, in which capacity she has actively supported and implemented Russian education policies relating to Ukrainian children, including promoting Russian national propaganda and military education in illegally occupied territories. She also facilitated the issuance of Russian passports to Ukrainian children in the region of Luhansk.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1993-06-26",
-      "circa": false
+      "circa": false,
+      "year": 1993
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

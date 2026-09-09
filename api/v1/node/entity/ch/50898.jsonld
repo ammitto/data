@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/50898",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/50898",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Babayan Roman Georgievich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Babayan Roman Georgievich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/50898"
   ],
   "remarks": "Roman Babayan is a journalist and member of the Moscow City Duma. He hosts the “Own Truth” TV show on NTV channel. He is also an editor-in-chief of “Moscow Speaks” radio. He has spread anti-Ukrainian propaganda and promoted a positive attitude to the actions of separatists in Donbas.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1967-12-07",
-      "circa": false
+      "circa": false,
+      "year": 1967
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/57041",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/57041",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Gazmanov Oleg Mikhaylovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Gazmanov Oleg Mikhaylovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/57041"
   ],
   "remarks": "Russian musician. A member of the Public Council of the Ministry of Defense of the Russian Federation, which was established in 2006 by the Decree of the President of the Russian Federation with a publicly stated purpose to assure civil control over the Ministry of Defense and the Armed Forced of the Russian Federation. He participated in the public events organised by the ruling United Russia party.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1951-07-22",
-      "circa": false
+      "circa": false,
+      "year": 1951
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

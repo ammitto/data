@@ -1,48 +1,68 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus2154",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus2154",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Joint Stock Company NPO Moskovskiy Radiotekhnicheskiy Zavod",
+      "@type": "NameVariant",
+      "fullName": "Joint Stock Company NPO Moskovskiy Radiotekhnicheskiy Zavod",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "AO Nauchno-Proizvodstvennoe Obedinenie Moskovski Radiotekhnicheski Zavod",
+      "@type": "NameVariant",
+      "fullName": "AO Nauchno-Proizvodstvennoe Obedinenie Moskovski Radiotekhnicheski Zavod",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "AO NPO MRTZ",
+      "@type": "NameVariant",
+      "fullName": "AO NPO MRTZ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "JSC \"Scientific and Production Association \"Moscow Radio Engineering Plant\"",
+      "@type": "NameVariant",
+      "fullName": "JSC \"Scientific and Production Association \"Moscow Radio Engineering Plant\"",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "JSC NPO MRTZ",
+      "@type": "NameVariant",
+      "fullName": "JSC NPO MRTZ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "АКЦИОНЕРНОЕ ОБЩЕСТВО \"НАУЧНО- ПРОИЗВОДСТВЕННОЕ ОБЪЕДИНЕНИЕ \"МОСКОВСКИЙ РАДИОТЕХНИЧЕСКИЙ ЗАВОД\"",
+      "@type": "NameVariant",
+      "fullName": "АКЦИОНЕРНОЕ ОБЩЕСТВО \"НАУЧНО- ПРОИЗВОДСТВЕННОЕ ОБЪЕДИНЕНИЕ \"МОСКОВСКИЙ РАДИОТЕХНИЧЕСКИЙ ЗАВОД\"",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus2154"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Vereiskaya st., 29",
       "state": "Moscow",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

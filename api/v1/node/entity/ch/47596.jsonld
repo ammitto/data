@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/47596",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/47596",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ali Mohamed Rage",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Ali Mohamed Rage",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/47596"
   ],
   "remarks": "Listed pursuant to paragraph 43(a) of resolution 2093 (2013) as “Engaging in or providing support for acts that threaten the peace, security or stability of Somalia, including acts that threaten the peace and reconciliation process in Somalia, or threaten the Federal Government of Somalia or AMISOM by force.” As a spokesperson for Al-Shabaab, Rage is involved in promulgating and supporting the group’s terrorist activities. INTERPOL-UN Security Council Special Notice web link available.",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1966
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

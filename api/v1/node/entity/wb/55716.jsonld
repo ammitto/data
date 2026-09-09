@@ -1,23 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/55716",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/wb/55716",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MD. ABDUR RAZZAK",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "MD. ABDUR RAZZAK",
+      "isPrimary": true
     }
   ],
-  "remarks": "*53",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/55716"
+  ],
+  "remarks": "*53",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "LAST KNOWN ADDRESS: RAHMAN COLONY, C/O ANISUR RAHMAN, 2ND FLOOR, THANAPARA, POST OFFICE ISHURDI",
       "city": "DISTRICT PABNA",
       "country": "Bangladesh",
-      "country_iso_code": "BD"
+      "countryIsoCode": "BD"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

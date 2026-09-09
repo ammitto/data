@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/64267",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/64267",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Sharifi Tehrani Hamid Reza",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Sharifi Tehrani Hamid Reza",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/64267"
   ],
   "remarks": "Hamid Reza Sharifi Tehrani is a primary member of the Board of Directors of Qods Aviation Industries (QAI), an entity that is selling Mohajer-6 drones to Russia in order to be used in Russia’s war of aggression against Ukraine. In his role, he is therefore responsible for actions and policies which undermine and threaten the territorial integrity, sovereignty and independence of Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1974-07-06",
-      "circa": false
+      "circa": false,
+      "year": 1974
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

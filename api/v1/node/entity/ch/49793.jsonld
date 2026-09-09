@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/49793",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/49793",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Chmyhalov Aleksandr Evgenevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Chmyhalov Aleksandr Evgenevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/49793"
   ],
   "remarks": "Deputy Head of the Sevastopol electoral commission, which took part in the organisation of the so-called elections in the illegally annexed ‘Autonomous Republic of Crimea’ and City of Sevastopol held in Sep 2021.\n\nMember of the ruling ‘United Russia’ party.\n\nIn taking on and acting in this capacity, he actively supported and implemented actions and policies which undermine the territorial integrity, sovereignty and independence of Ukraine, and further destabilised Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1990-06-13",
-      "circa": false
+      "circa": false,
+      "year": 1990
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

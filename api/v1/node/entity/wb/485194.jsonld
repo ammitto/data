@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/485194",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/485194",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "UNIQUE CONCEPT ENTERPRISES",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "UNIQUE CONCEPT ENTERPRISES",
+      "isPrimary": true
     }
   ],
-  "remarks": "*556",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/485194"
+  ],
+  "remarks": "*556",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "NO. 40 NELSON WILLIAMS STREET",
       "city": "WARRI, DELTA STATE",
       "country": "Nigeria",
-      "country_iso_code": "NG"
+      "countryIsoCode": "NG"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

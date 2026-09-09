@@ -1,38 +1,56 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus2109",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus2109",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "PRIVATE MILITARY COMPANY REDUT ",
+      "@type": "NameVariant",
+      "fullName": "PRIVATE MILITARY COMPANY REDUT ",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "LIMITED LIABILITY COMPANY REDUT SECURITY ",
+      "@type": "NameVariant",
+      "fullName": "LIMITED LIABILITY COMPANY REDUT SECURITY ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "LIMITED LIABILITY COMPANY REDUT-BEZOPASNOST   PMC REDUT ",
+      "@type": "NameVariant",
+      "fullName": "LIMITED LIABILITY COMPANY REDUT-BEZOPASNOST   PMC REDUT ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "ЧАСТНАЯ ВОЕННАЯ КОМПАНИЯ РЕДУТ ",
+      "@type": "NameVariant",
+      "fullName": "ЧАСТНАЯ ВОЕННАЯ КОМПАНИЯ РЕДУТ ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus2109"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "room. IV room 35, st. Dubininskaya, 61,",
       "state": "Moscow",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/46703",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/46703",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kulik Valiantsina Genadzeuna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kulik Valiantsina Genadzeuna",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/46703"
   ],
   "remarks": "In her position as judge at the Supreme Court of the Republic of Belarus, Valiantsina Kulik is responsible for politically motivated decisions against activists and opposition leaders. In particular she denied Viktar Babarika’s complaint to initiate a civil case based on his complaints against the Central Electoral Commission’s decision to refuse registration as a presidential candidate. She is therefore responsible for serious human rights violations and for seriously undermining the rule of law, as well as for the repression of civil society and democratic opposition.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1960-01-15",
-      "circa": false
+      "circa": false,
+      "year": 1960
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/5300",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/5300",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Peftsieu Uladzimir Paulavich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Peftsieu Uladzimir Paulavich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/5300"
   ],
   "remarks": "Person associated with President Lukashenka, Viktar Lukashenka and Dzmitry Lukashenka. Benefits from and supports the Lukashenka regime. Provides economic advice to President Lukashenka and is a key financial sponsor of the Lukashenka regime through his business interests which include BT Telecommunications.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1957-07-01",
-      "circa": false
+      "circa": false,
+      "year": 1957
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,30 +1,47 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3430",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/3430",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ch'oe So'k Min",
+      "@type": "NameVariant",
+      "fullName": "Ch'oe So'k Min",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Choe Sok Min",
+      "@type": "NameVariant",
+      "fullName": "Choe Sok Min",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "KPi.064 Former overseas Foreign Trade Bank representative.  In 2016, Ch'oe So'k-min was the deputy representative at the Foreign Trade Bank branch office in that overseas location. He has been associated with cash transfers from that overseas Foreign Trade Bank office to banks affiliated with North Korean special organisations and Reconnaissance General Bureau operatives located overseas in an effort to evade sanctions. Gender: male.; Listing: Listed on: 22 December 2017 (amended on 29 June 2023)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3430"
   ],
-  "birth_info": [
+  "remarks": "KPi.064 Former overseas Foreign Trade Bank representative.  In 2016, Ch'oe So'k-min was the deputy representative at the Foreign Trade Bank branch office in that overseas location. He has been associated with cash transfers from that overseas Foreign Trade Bank office to banks affiliated with North Korean special organisations and Reconnaissance General Bureau operatives located overseas in an effort to evade sanctions. Gender: male.; Listing: Listed on: 22 December 2017 (amended on 29 June 2023)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1978,
       "country": "Democratic People's Republic of Korea"
     }
   ],
   "nationalities": [
     "Democratic People's Republic of Korea (North Korea)"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

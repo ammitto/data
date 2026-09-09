@@ -1,36 +1,55 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/mal0010",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/mal0010",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Katiba Macina",
+      "@type": "NameVariant",
+      "fullName": "Katiba Macina",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Front de liberation du Macina",
+      "@type": "NameVariant",
+      "fullName": "Front de liberation du Macina",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Katibat Macina",
+      "@type": "NameVariant",
+      "fullName": "Katibat Macina",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Macina Katiba",
+      "@type": "NameVariant",
+      "fullName": "Macina Katiba",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/mal0010"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "country": "Mali"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

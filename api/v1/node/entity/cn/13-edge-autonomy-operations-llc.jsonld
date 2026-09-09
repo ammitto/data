@@ -1,21 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/cn/13-edge-autonomy-operations-llc",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/cn/13-edge-autonomy-operations-llc",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Edge Autonomy Operations LLC",
+      "@type": "NameVariant",
+      "fullName": "Edge Autonomy Operations LLC",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "边缘自治运营公司",
+      "@type": "NameVariant",
+      "fullName": "边缘自治运营公司",
       "script": "Hani",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "List: cn/anti-sanction-list",
-  "sanction_entry_ids": [
-    "https://www.ammitto.org/entry/cn/unknown/13-edge-autonomy-operations-llc"
+  "sourceReferences": [
+
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/cn/anti-sanction-list/13-edge-autonomy-operations-llc"
+  ],
+  "remarks": "List: cn/anti-sanction-list",
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

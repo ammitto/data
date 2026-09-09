@@ -1,56 +1,75 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3584",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/3584",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mohammed al-Hadi al-Arabi Kashlaf",
+      "@type": "NameVariant",
+      "fullName": "Mohammed al-Hadi al-Arabi Kashlaf",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Kashlaf",
+      "@type": "NameVariant",
+      "fullName": "Kashlaf",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Koshlaf",
+      "@type": "NameVariant",
+      "fullName": "Koshlaf",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Keslaf",
+      "@type": "NameVariant",
+      "fullName": "Keslaf",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "al-Qasab",
+      "@type": "NameVariant",
+      "fullName": "al-Qasab",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "محمد الهادي العربي كشلاف",
+      "@type": "NameVariant",
+      "fullName": "محمد الهادي العربي كشلاف",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "LYi.025. Designation: Commander of the Shuhada al-Nasr brigade, Head of the Petrol Refinery Guard of Zawiya’s refinery. Passport no: HR8CHGP8; Date of issue: 27 April 2015; Place of issue: Zawiyah. National identification no: a) 119880210419 b) Personal Identification Card no: 728498; Date of issue: 24 February 2007). Listed pursuant to paragraphs 15 and 17 of resolution 1970 (Travel Ban, Asset Freeze).; Listing: Listed on: 7 Jun. 2018 (amended on 17 Sep. 2018)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3584"
   ],
-  "birth_info": [
+  "remarks": "LYi.025. Designation: Commander of the Shuhada al-Nasr brigade, Head of the Petrol Refinery Guard of Zawiya’s refinery. Passport no: HR8CHGP8; Date of issue: 27 April 2015; Place of issue: Zawiyah. National identification no: a) 119880210419 b) Personal Identification Card no: 728498; Date of issue: 24 February 2007). Listed pursuant to paragraphs 15 and 17 of resolution 1970 (Travel Ban, Asset Freeze).; Listing: Listed on: 7 Jun. 2018 (amended on 17 Sep. 2018)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1988,
       "country": "Zawiya"
     }
   ],
   "nationalities": [
     "Libya"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Zawiya, Libya",
       "country": "Libya"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

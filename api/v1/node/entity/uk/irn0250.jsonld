@@ -1,20 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/irn0250",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/irn0250",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Petrochemical Commercial Company",
+      "@type": "NameVariant",
+      "fullName": "Petrochemical Commercial Company",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "PCC",
+      "@type": "NameVariant",
+      "fullName": "PCC",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/irn0250"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

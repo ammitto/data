@@ -1,68 +1,92 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/inu0070",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/inu0070",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Iran Aircraft Industries (IACI)",
+      "@type": "NameVariant",
+      "fullName": "Iran Aircraft Industries (IACI)",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "IAI",
+      "@type": "NameVariant",
+      "fullName": "IAI",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Iran Aircraft Industries Co.",
+      "@type": "NameVariant",
+      "fullName": "Iran Aircraft Industries Co.",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "SAHA",
+      "@type": "NameVariant",
+      "fullName": "SAHA",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "صها مخفف فارسی صنایع هواپیمایی ایران",
+      "@type": "NameVariant",
+      "fullName": "صها مخفف فارسی صنایع هواپیمایی ایران",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/inu0070"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Ekbatan City, Karaj Road, Azadi Sq.",
       "state": "Tehran",
       "country": "Iran"
     },
     {
+      "@type": "Address",
       "street": "P.O. Box 14155/1449",
       "state": "Tehran",
       "country": "Iran"
     },
     {
+      "@type": "Address",
       "street": "P.O. Box 83145/311",
       "state": "Tehran",
       "country": "Iran"
     },
     {
+      "@type": "Address",
       "street": "Plant No. 1, opp. Of 2nd Phase of Shahrak e Ekbatan, Karaj Special Road, Mehrabad Airport",
       "state": "1000 Tehran",
       "country": "Iran"
     },
     {
+      "@type": "Address",
       "street": "Special Karaj Road, Mehrabad Airport",
       "state": "Tehran",
       "country": "Iran"
     },
     {
+      "@type": "Address",
       "street": "Sepabhod Gharani 36",
       "state": "Tehran",
       "country": "Iran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

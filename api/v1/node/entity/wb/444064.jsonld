@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/444064",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/444064",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "INDUSTRIAL INVESTMENT GROUP ALC",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "INDUSTRIAL INVESTMENT GROUP ALC",
+      "isPrimary": true
     }
   ],
-  "remarks": "*526   Currently doing business as Industrial Investment Group LLC",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/444064"
+  ],
+  "remarks": "*526   Currently doing business as Industrial Investment Group LLC",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "35A PONOMARENKO ST., OFFICE 214",
       "city": "MINSK",
       "country": "Belarus",
-      "country_iso_code": "BY"
+      "countryIsoCode": "BY"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

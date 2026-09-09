@@ -1,40 +1,59 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8384",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/8384",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Park Jin Hyok",
+      "@type": "NameVariant",
+      "fullName": "Park Jin Hyok",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Kim Hyon U",
+      "@type": "NameVariant",
+      "fullName": "Kim Hyon U",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Pak Chin Hyok",
+      "@type": "NameVariant",
+      "fullName": "Pak Chin Hyok",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Pak Kwang Jin",
+      "@type": "NameVariant",
+      "fullName": "Pak Kwang Jin",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Democratic People’s Republic of Korea) List 2012",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8384"
   ],
-  "birth_info": [
+  "remarks": "Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Democratic People’s Republic of Korea) List 2012",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1984,
       "country": "Democratic People's Republic of Korea"
     }
   ],
   "nationalities": [
     "Democratic People's Republic of Korea (North Korea)"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

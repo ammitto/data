@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/nz/ind-671",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/nz/ind-671",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Alexander Ivanovich Bas",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Alexander Ivanovich Bas",
+      "isPrimary": true
     }
   ],
-  "source_references": [
+  "sourceReferences": [
     {
-      "source_code": "nz",
-      "reference_number": "IND-671"
+      "@type": "SourceReference",
+      "sourceCode": "nz",
+      "referenceNumber": "IND-671",
+      "retrievedAt": "2026-09-09T16:30:44Z"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "linkedEntities": [
+
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/nz/consolidated-list/ind-671"
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

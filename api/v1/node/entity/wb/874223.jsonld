@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/874223",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/874223",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "NISHAN ENGINEERS UK LTD.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "NISHAN ENGINEERS UK LTD.",
+      "isPrimary": true
     }
   ],
-  "remarks": "*675",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/874223"
+  ],
+  "remarks": "*675",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "103 CYPRESS ROAD",
       "city": "MOTHERWELL, SCOTLAND ML1 5FS",
       "country": "United Kingdom",
-      "country_iso_code": "GB"
+      "countryIsoCode": "GB"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

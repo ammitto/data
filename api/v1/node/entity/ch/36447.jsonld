@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/36447",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/36447",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kim Kyong Ok",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kim Kyong Ok",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/36447"
   ],
   "remarks": "Vice Director of the Organization and Guidance Department, which directs key personnel appointments for the Workers’ Party of Korea and the DPRK’s military.",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1937
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

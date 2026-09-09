@@ -1,81 +1,105 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3145",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/3145",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Abu Ubaydah Yusuf Al-Anabi",
+      "@type": "NameVariant",
+      "fullName": "Abu Ubaydah Yusuf Al-Anabi",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Abou Obeida Youssef Al-Annabi",
+      "@type": "NameVariant",
+      "fullName": "Abou Obeida Youssef Al-Annabi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abu-Ubaydah Yusuf Al-Inabi",
+      "@type": "NameVariant",
+      "fullName": "Abu-Ubaydah Yusuf Al-Inabi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Mebrak Yazid",
+      "@type": "NameVariant",
+      "fullName": "Mebrak Yazid",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Youcef Abu Obeida",
+      "@type": "NameVariant",
+      "fullName": "Youcef Abu Obeida",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Mibrak Yazid",
+      "@type": "NameVariant",
+      "fullName": "Mibrak Yazid",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Yousif Abu Obayda Yazid",
+      "@type": "NameVariant",
+      "fullName": "Yousif Abu Obayda Yazid",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Yazid Mebrak",
+      "@type": "NameVariant",
+      "fullName": "Yazid Mebrak",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Yazid Mabrak",
+      "@type": "NameVariant",
+      "fullName": "Yazid Mabrak",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Yusuf Abu Ubaydah",
+      "@type": "NameVariant",
+      "fullName": "Yusuf Abu Ubaydah",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abou Youcef",
+      "@type": "NameVariant",
+      "fullName": "Abou Youcef",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "A leader of the Organization of Al-Qaida in the Islamic Maghreb (AQIM) (QDe.014). Photo available for inclusion in the INTERPOL-UN Security Council Special Notice. Review pursuant to Security Council resolution 2368 (2017) was concluded on 15 November 2021.; Listing: Listed on: 29 Feb. 2016",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3145"
   ],
-  "birth_info": [
+  "remarks": "A leader of the Organization of Al-Qaida in the Islamic Maghreb (AQIM) (QDe.014). Father’s name is Omar Mebrak. Mother’s name is Zohra Mebrak.  Photo available for inclusion in the INTERPOL-UN Security Council Special Notice. Review pursuant to Security Council resolution 2368 (2017) was concluded on 15 November 2021.; Listing: Listed on: 29 Feb. 2016 ( amended on 15 Nov. 2021, 18 Aug. 2026)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1969,
       "country": "Annaba"
     }
   ],
   "nationalities": [
     "Algeria"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Algeria",
       "country": "Algeria"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

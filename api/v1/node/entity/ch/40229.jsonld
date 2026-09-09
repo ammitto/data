@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/40229",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/40229",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Salyaev Aleksey Mikhailovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Salyaev Aleksey Mikhailovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/40229"
   ],
   "remarks": "Commanding officer of the border patrol boat “Don” (side markings 353) of the Border Guard Service of the Federal Security Service of the Russian Federation. He was in command of the vessel that actively participated in actions of the Russian Federation against Ukrainian vessels and their crew on 25 Nov 2018, and conducted ramming of the estuary tug, “Yany Kapu”, of the Ukrainian Navy. Those actions prevented access by Ukrainian vessels to their coast on the Sea of Azov, thereby undermining the territorial integrity and sovereignty of Ukraine and undermining the security of Ukraine through the disruption of the movements and operability of Ukrainian naval vessels.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1978-08-22",
-      "circa": false
+      "circa": false,
+      "year": 1978
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

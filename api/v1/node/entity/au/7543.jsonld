@@ -1,32 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7543",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/7543",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Public Joint Stock Company Ural Bank for Reconstruction and Development",
+      "@type": "NameVariant",
+      "fullName": "Public Joint Stock Company Ural Bank for Reconstruction and Development",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "UBRD PJSC",
+      "@type": "NameVariant",
+      "fullName": "UBRD PJSC",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "UBRD",
+      "@type": "NameVariant",
+      "fullName": "UBRD",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Website: http://www.ubrr.ru/; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 6) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7543"
+  ],
+  "remarks": "Website: http://www.ubrr.ru/; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 6) Instrument 2023",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "5th Floor, 502, 7 Bolshoi Strochenovskiy pereulok, Moscow, 115054, Russia",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

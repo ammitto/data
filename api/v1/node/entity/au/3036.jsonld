@@ -1,42 +1,61 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3036",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/3036",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Sobol",
+      "@type": "NameVariant",
+      "fullName": "Sobol",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Soboli",
+      "@type": "NameVariant",
+      "fullName": "Soboli",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "“Sobol”",
+      "@type": "NameVariant",
+      "fullName": "“Sobol”",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Radical Paramilitary Organisation Sobol",
+      "@type": "NameVariant",
+      "fullName": "Radical Paramilitary Organisation Sobol",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Russian community \"Sobol\"",
+      "@type": "NameVariant",
+      "fullName": "Russian community \"Sobol\"",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Listing: Listed on 2 Sep. 2014 (relisted on 1 Sep. 2017) (relisted on 28 Aug. 2020 (relisted on 27 Aug 2023)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3036"
+  ],
+  "remarks": "Listing: Listed on 2 Sep. 2014 (relisted on 1 Sep. 2017) (relisted on 28 Aug. 2020 (relisted on 27 Aug 2023)",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Kyevskaya Street, 4, Simferopol, Autonomous Republic of Crimea, 95053, Ukraine",
       "country": "Ukraine"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

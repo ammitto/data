@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/58294",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/58294",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Chuychenko Konstantin Anatolyevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Chuychenko Konstantin Anatolyevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/58294"
   ],
   "remarks": "Konstantin Anatolyevich Chuychenko is Minister of Justice of the Russian Federation. He has supported cooperation with the so-called ‘Ministry of Justice of the Donetsk People’s Republic’, as well as that of agencies under his leadership. The Ministry of Justice is\nresponsible for the implementation of the law on censoring the information space about Russia’s war of aggression against Ukraine, thereby supporting the war effort directly.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1965-07-12",
-      "circa": false
+      "circa": false,
+      "year": 1965
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

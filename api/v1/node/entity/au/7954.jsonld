@@ -1,54 +1,77 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7954",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7954",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Esmail QAANI",
+      "@type": "NameVariant",
+      "fullName": "Esmail QAANI",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Esmail GHANI",
+      "@type": "NameVariant",
+      "fullName": "Esmail GHANI",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Esmaeil AKBARNEJAD",
+      "@type": "NameVariant",
+      "fullName": "Esmaeil AKBARNEJAD",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ismail NEZHAD",
+      "@type": "NameVariant",
+      "fullName": "Ismail NEZHAD",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Esma'il QA’ANI",
+      "@type": "NameVariant",
+      "fullName": "Esma'il QA’ANI",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Esmail GHAANI",
+      "@type": "NameVariant",
+      "fullName": "Esmail GHAANI",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Brigadier General Esmail QAANI serves as Commander of the IRGC Qods Force (IRGC QF).; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Iran) Amendment (No. 1) Instrument 2024",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7954"
   ],
-  "birth_info": [
+  "remarks": "Brigadier General Esmail QAANI serves as Commander of the IRGC Qods Force (IRGC QF).; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Iran) Amendment (No. 1) Instrument 2024",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1957,
       "country": "Mashhad"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1957,
       "country": "Iran"
     }
   ],
   "nationalities": [
     "Iran"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

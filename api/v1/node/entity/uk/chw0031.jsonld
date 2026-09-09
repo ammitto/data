@@ -1,21 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/chw0031",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/chw0031",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MARCHENKO",
-      "first_name": "Andrei",
+      "@type": "NameVariant",
+      "fullName": "MARCHENKO",
+      "firstName": "Andrei",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/chw0031"
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

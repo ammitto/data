@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/958239",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/958239",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "PANAQUE 2025",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "PANAQUE 2025",
+      "isPrimary": true
     }
   ],
-  "remarks": "*686",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/958239"
+  ],
+  "remarks": "*686",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "STRADA PROVINCIALE VEJANESE SNC, 01012",
       "city": "CAPRANICA",
       "country": "Italy",
-      "country_iso_code": "IT"
+      "countryIsoCode": "IT"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

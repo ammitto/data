@@ -1,22 +1,43 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/dpr0244",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/dpr0244",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "HUN",
-      "first_name": "KO",
+      "@type": "NameVariant",
+      "fullName": "HUN",
+      "firstName": "KO",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Gi",
-      "first_name": "Kim",
+      "@type": "NameVariant",
+      "fullName": "Gi",
+      "firstName": "Kim",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/dpr0244"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

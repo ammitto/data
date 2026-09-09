@@ -1,25 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7250",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7250",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "God Semenovich NISANOV",
+      "@type": "NameVariant",
+      "fullName": "God Semenovich NISANOV",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "Property developer and chairman of Kievskaya Ploschad Group of Companies; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 18) Instrument 2022",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7250"
   ],
-  "birth_info": [
+  "remarks": "Property developer and chairman of Kievskaya Ploschad Group of Companies; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 18) Instrument 2022",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1972,
       "country": "Krasnaya Sloboda"
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

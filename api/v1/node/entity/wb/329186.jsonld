@@ -1,23 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/329186",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/wb/329186",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MR. IYKE AMBROSE",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "MR. IYKE AMBROSE",
+      "isPrimary": true
     }
   ],
-  "remarks": "*356",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/329186"
+  ],
+  "remarks": "*356",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "10 OBANLE ARO AVENUE, OFF COKER ROAD, ILUPEJU",
       "city": "LAGOS",
       "country": "Nigeria",
-      "country_iso_code": "NG"
+      "countryIsoCode": "NG"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

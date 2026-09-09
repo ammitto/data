@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/59316",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/59316",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Shapsha Vladislav Valerievich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Shapsha Vladislav Valerievich",
+      "isPrimary": true
     }
   ],
-  "remarks": "Vladislav Shapsha is the governor of Kaluga Oblast, appointed by President Vladimir Putin. In his role as governor, Vladislav Shapsha manages a regional state body of the Russian Federation and is responsible for implementing state policies at regional level. He has expressed support for the illegal recognition of the so-called independence of the so-called Donetsk and Luhansk Peoples Republics and the war of aggression against Ukraine.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/59316"
+  ],
+  "remarks": "Vladislav Shapsha is the governor of Kaluga Oblast, appointed by President Vladimir Putin. In his role as governor, Vladislav Shapsha manages a regional state body of the Russian Federation and is responsible for implementing state policies at regional level. He has expressed support for the illegal recognition of the so-called “independence” of the so-called “Donetsk and Luhansk People’s Republics” and the war of aggression against Ukraine.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1972-09-20",
-      "circa": false
+      "circa": false,
+      "year": 1972
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

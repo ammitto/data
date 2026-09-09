@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/52287",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/52287",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kuzmichev Alexey Viktorovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kuzmichev Alexey Viktorovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/52287"
   ],
   "remarks": "Alexey Kuzmichev is a major shareholder of the Alfa Group Consortium. He is ranked among the most influential persons in Russia.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1962-10-15",
-      "circa": false
+      "circa": false,
+      "year": 1962
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

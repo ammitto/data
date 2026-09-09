@@ -1,0 +1,49 @@
+{
+  "@id": "https://www.ammitto.org/entry/eu/consolidated-list/eu140117",
+  "@type": "SanctionEntry",
+  "entityId": "https://www.ammitto.org/entity/eu/eu140117",
+  "authority": {
+    "@id": "https://www.ammitto.org/authority/eu"
+  },
+  "regime": {
+    "@id": "https://www.ammitto.org/regime/irq",
+    "name": "Iraq"
+  },
+  "legalBases": [
+    {
+      "@id": "https://www.ammitto.org/legal-instrument/eu/1086-2004-oj-l207"
+    }
+  ],
+  "effects": [
+    {
+      "@type": "SanctionEffect",
+      "effectType": "asset_freeze",
+      "scope": "full"
+    }
+  ],
+  "reasons": [
+
+  ],
+  "period": {
+    "@type": "TemporalPeriod",
+    "listedDate": "2004-06-10",
+    "effectiveDate": "2004-06-09",
+    "isIndefinite": true
+  },
+  "status": "active",
+  "statusHistory": [
+
+  ],
+  "referenceNumber": "EU.1401.17",
+  "rawSourceData": {
+    "@type": "RawSourceData",
+    "sourceFormat": "xml",
+    "sourceSpecificFields": {
+      "eu:logicalId": "2225",
+      "eu:unitedNationId": null,
+      "eu:designationDetails": null,
+      "eu:subjectTypeCode": "enterprise"
+    }
+  },
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
+}

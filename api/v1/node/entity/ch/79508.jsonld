@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/79508",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/79508",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Nazir Mohammad Abdul Basir Maulavi",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Nazir Mohammad Abdul Basir Maulavi",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/79508"
   ],
   "remarks": "Mayor of Kunduz City.",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1954
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

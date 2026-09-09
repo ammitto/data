@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/55004",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/55004",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kochergin Alexander Anatolyevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kochergin Alexander Anatolyevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/55004"
   ],
   "remarks": "Alexander Anatolyevich Kochergin is a major of the 64th Separate Motorised Rifle Brigade of the 35th Combined Arms Army of the Russian Federation, which reportedly killed, raped and tortured civilians in Bucha, Ukraine. These atrocities may constitute crimes against humanity and war crimes.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1971-12-10",
-      "circa": false
+      "circa": false,
+      "year": 1971
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

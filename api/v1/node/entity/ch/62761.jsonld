@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/62761",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/62761",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Fazleeva Leyla Rinatovna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Fazleeva Leyla Rinatovna",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/62761"
   ],
   "remarks": "In her capacity as Deputy Prime Minister of the Republic of Tatarstan as well as Chairwoman of the Republic’s Commission on Juvenile Affairs and the Protection of their Rights, Leyla Fazleeva is contributing to the illegal deportation of Ukrainian children. She is facilitating the illegal deportation of Ukrainian children to camps located in her region, including the “Miras” camp in the district of Zelenodolsky. She is one of the regional officials involved in the planning, budgeting and oversight of camps in Tatarstan, hosting groups of children from occupied territories of Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1975-05-29",
-      "circa": false
+      "circa": false,
+      "year": 1975
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

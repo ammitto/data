@@ -1,25 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7223",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7223",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Evgeny Poddubny",
+      "@type": "NameVariant",
+      "fullName": "Evgeny Poddubny",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "War correspondent at All-Russian State Television and Radio Broadcasting Company; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 17) Instrument 2022",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7223"
   ],
-  "birth_info": [
+  "remarks": "War correspondent at All-Russian State Television and Radio Broadcasting Company; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 17) Instrument 2022",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1983,
       "country": "Belgorod"
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

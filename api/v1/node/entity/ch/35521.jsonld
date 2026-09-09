@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/35521",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/35521",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Chang Chang Ha",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Chang Chang Ha",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/35521"
   ],
   "remarks": "Chang Chang Ha is the President of the Second Academy of Natural Sciences (SANS).",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1964-01-10",
-      "circa": false
+      "circa": false,
+      "year": 1964
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

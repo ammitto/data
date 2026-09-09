@@ -1,34 +1,55 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/aqd0251",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/aqd0251",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "LAABOUDI",
-      "first_name": "MORAD",
+      "@type": "NameVariant",
+      "fullName": "LAABOUDI",
+      "firstName": "MORAD",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "al-Maghribi",
-      "first_name": "Abu",
+      "@type": "NameVariant",
+      "fullName": "al-Maghribi",
+      "firstName": "Abu",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ismail",
-      "first_name": "Abu",
+      "@type": "NameVariant",
+      "fullName": "Ismail",
+      "firstName": "Abu",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Facilitator for travel of foreign terrorist fighters to join Islamic State in Iraq and the Levant, listed as Al-Qaida in Iraq (QDe.115), in Syrian Arab Republic. Review pursuant to Security Council resolution 2268 (2017) was concluded on 15 November 2021. INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/notice/search/un/5930723",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/aqd0251"
+  ],
+  "remarks": "Facilitator for travel of foreign terrorist fighters to join Islamic State in Iraq and the Levant, listed as Al-Qaida in Iraq (QDe.115), in Syrian Arab Republic. Review pursuant to Security Council resolution 2268 (2017) was concluded on 15 November 2021. INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/notice/search/un/5930723",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "country": "Turkey"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

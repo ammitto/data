@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/75144",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/75144",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Nuriev Konstantin Sergeyevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Nuriev Konstantin Sergeyevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/75144"
   ],
   "remarks": "Konstantin Nuriev is the General Director of R-Stroy LLC, which has received Russian government contracts to re-build the city of Mariupol, currently under Russian control. It operates in the occupied territories of Ukraine, without the permission of the Ukrainian authorities.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1987-09-27",
-      "circa": false
+      "circa": false,
+      "year": 1987
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

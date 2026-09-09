@@ -1,35 +1,53 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8155",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/8155",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Sergey Ottovich FRANK",
+      "@type": "NameVariant",
+      "fullName": "Sergey Ottovich FRANK",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Serhii Ottovych Frank",
+      "@type": "NameVariant",
+      "fullName": "Serhii Ottovych Frank",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Sergiy Ottovych Frank",
+      "@type": "NameVariant",
+      "fullName": "Sergiy Ottovych Frank",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Member of the Board of Directors for Sovcomflot; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 3) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8155"
   ],
-  "birth_info": [
+  "remarks": "Member of the Board of Directors for Sovcomflot; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 3) Instrument 2025",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1960,
       "country": "Novosibirsk"
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

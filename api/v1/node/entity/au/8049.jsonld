@@ -1,30 +1,47 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8049",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/8049",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Vildan Khanifovich ZINNUROV",
+      "@type": "NameVariant",
+      "fullName": "Vildan Khanifovich ZINNUROV",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Vildan Khanifovich ZINUROV",
+      "@type": "NameVariant",
+      "fullName": "Vildan Khanifovich ZINUROV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Shareholder in VOLGA-DNEPR GROUP; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8049"
   ],
-  "birth_info": [
+  "remarks": "Shareholder in VOLGA-DNEPR GROUP; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1964,
       "country": "Pokhbistnevsky"
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

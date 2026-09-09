@@ -1,21 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/cn/20243-pvh-corp",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/cn/20243-pvh-corp",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "PVH Corp.",
+      "@type": "NameVariant",
+      "fullName": "PVH Corp.",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "PVH集团",
+      "@type": "NameVariant",
+      "fullName": "PVH集团",
       "script": "Hani",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "List: cn/unreliable-entity-list",
-  "sanction_entry_ids": [
-    "https://www.ammitto.org/entry/cn/unknown/20243-pvh-corp"
+  "sourceReferences": [
+
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/cn/unreliable-entity-list/20243-pvh-corp"
+  ],
+  "remarks": "List: cn/unreliable-entity-list",
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,26 +1,45 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/cti0032",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/cti0032",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Hizballah",
+      "@type": "NameVariant",
+      "fullName": "Hizballah",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Hezbollah",
+      "@type": "NameVariant",
+      "fullName": "Hezbollah",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Hizbullah",
+      "@type": "NameVariant",
+      "fullName": "Hizbullah",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Includes Hizballah Military Wing The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/cti0032"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "remarks": "Includes Hizballah Military Wing The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/4462",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/4462",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kastsian Siarhei Ivanavich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kastsian Siarhei Ivanavich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/4462"
   ],
   "remarks": "Former Chairman of the Foreign Affairs Committee of the Lower House. Chairman of the pro-regime Belarusian Slavic Committee. Important figure in the Lukashenko regime.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1941-01-15",
-      "circa": false
+      "circa": false,
+      "year": 1941
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,55 +1,77 @@
 {
-  "id": "https://www.ammitto.org/entity/au/2250",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/2250",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Jamil HASSAN",
+      "@type": "NameVariant",
+      "fullName": "Jamil HASSAN",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Jameel HASSAN",
+      "@type": "NameVariant",
+      "fullName": "Jameel HASSAN",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Jamil AL-HASSAN",
+      "@type": "NameVariant",
+      "fullName": "Jamil AL-HASSAN",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Jameel ASSAN",
+      "@type": "NameVariant",
+      "fullName": "Jameel ASSAN",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Jamieel AL-HASSAN",
+      "@type": "NameVariant",
+      "fullName": "Jamieel AL-HASSAN",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Jamieel ASSAN",
+      "@type": "NameVariant",
+      "fullName": "Jamieel ASSAN",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Jamil ASSAN",
+      "@type": "NameVariant",
+      "fullName": "Jamil ASSAN",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Retired.\nFormerly Major General and Head of Syrian Air Force\nIntelligence.; Listing: Designated under the Autonomous Sanctions Regulations 2011 on 2 March 2012. Formerly listed on the RBA Consolidated List as 2011SYR0009. Instrument of first\ndesignation and\ndeclaration:\nAutonomous Sanctions (Designated Persons and Entities and\nDeclared Persons – Syria) List 2012 [F2012L00482]\nRelisted on 12 January 2024.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/2250"
   ],
-  "birth_info": [
+  "remarks": "Retired.\nFormerly Major General and Head of Syrian Air Force\nIntelligence.; Listing: Designated under the Autonomous Sanctions Regulations 2011 on 2 March 2012. Formerly listed on the RBA Consolidated List as 2011SYR0009. Instrument of first\ndesignation and\ndeclaration:\nAutonomous Sanctions (Designated Persons and Entities and\nDeclared Persons – Syria) List 2012 [F2012L00482]\nRelisted on 12 January 2024.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1953,
       "country": "Quasayr"
     }
   ],
   "nationalities": [
     "Syria"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

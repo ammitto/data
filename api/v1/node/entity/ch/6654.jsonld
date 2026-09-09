@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/6654",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/6654",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mpofu Obert Moses",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Mpofu Obert Moses",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/6654"
   ],
   "remarks": "ZANU-PF Member of Government. In March 2008 incited ZANU-PF supports to drive MDC opponents out of their homes to stop them voting.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1951-10-12",
-      "circa": false
+      "circa": false,
+      "year": 1951
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

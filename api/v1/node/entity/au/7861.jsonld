@@ -1,35 +1,53 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7861",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7861",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Marina Yurevna EZHOVA",
+      "@type": "NameVariant",
+      "fullName": "Marina Yurevna EZHOVA",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Maryna Yuriivna YEZHOVA",
+      "@type": "NameVariant",
+      "fullName": "Maryna Yuriivna YEZHOVA",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Marina Yurievna EZHOVA",
+      "@type": "NameVariant",
+      "fullName": "Marina Yurievna EZHOVA",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Children’s Rights Commissioner of the Republic of Dagestan; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2024",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7861"
   ],
-  "birth_info": [
+  "remarks": "Children’s Rights Commissioner of the Republic of Dagestan; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2024",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1979,
       "country": "Makhachkala"
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

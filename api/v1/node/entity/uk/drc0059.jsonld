@@ -1,46 +1,68 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/drc0059",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/drc0059",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "BALUKU",
-      "first_name": "SEKA",
+      "@type": "NameVariant",
+      "fullName": "BALUKU",
+      "firstName": "SEKA",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Kajaju",
-      "first_name": "Mzee",
+      "@type": "NameVariant",
+      "fullName": "Kajaju",
+      "firstName": "Mzee",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Lumonde",
+      "@type": "NameVariant",
+      "fullName": "Lumonde",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Lumu",
+      "@type": "NameVariant",
+      "fullName": "Lumu",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Musa",
+      "@type": "NameVariant",
+      "fullName": "Musa",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Longtime member of the ADF (CDe.001), Baluku used to be the second in command to ADF founder Jamil Mukulu (CDi.015) until he took over after FARDC military operation Sukola I in 2014.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/drc0059"
+  ],
+  "remarks": "Longtime member of the ADF (CDe.001), Baluku used to be the second in command to ADF founder Jamil Mukulu (CDi.015) until he took over after FARDC military operation Sukola I in 2014.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Kajuju camp of Medina II",
       "city": "Beni territory",
       "state": "North Kivu",
       "country": "Congo (Democratic Republic)"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

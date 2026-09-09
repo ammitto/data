@@ -1,73 +1,103 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/sud0002",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/sud0002",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "ALNSIEM",
-      "first_name": "MUSA",
+      "@type": "NameVariant",
+      "fullName": "ALNSIEM",
+      "firstName": "MUSA",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abdallah",
+      "@type": "NameVariant",
+      "fullName": "Abdallah",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Al Naseem",
+      "@type": "NameVariant",
+      "fullName": "Al Naseem",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Al Nasim",
+      "@type": "NameVariant",
+      "fullName": "Al Nasim",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Al Nasseem",
+      "@type": "NameVariant",
+      "fullName": "Al Nasseem",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Allah",
-      "first_name": "Abd",
+      "@type": "NameVariant",
+      "fullName": "Allah",
+      "firstName": "Abd",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "AlNaseem",
+      "@type": "NameVariant",
+      "fullName": "AlNaseem",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "AlNasim",
+      "@type": "NameVariant",
+      "fullName": "AlNasim",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "AlNasseem",
+      "@type": "NameVariant",
+      "fullName": "AlNasseem",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Hilal",
-      "first_name": "Musa",
+      "@type": "NameVariant",
+      "fullName": "Hilal",
+      "firstName": "Musa",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/sud0002"
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "state": "Kabkabiya",
       "country": "Sudan"
     },
     {
+      "@type": "Address",
+      "street": "",
       "state": "Kutum",
       "country": "Sudan"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,32 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7554",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/7554",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "JSC State Machine-Building Design Bureau “Raduga”",
+      "@type": "NameVariant",
+      "fullName": "JSC State Machine-Building Design Bureau “Raduga”",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Raduga Design Bureau",
+      "@type": "NameVariant",
+      "fullName": "Raduga Design Bureau",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Raduga State MBDB",
+      "@type": "NameVariant",
+      "fullName": "Raduga State MBDB",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Company identification No. 1055024900006; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 6) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7554"
+  ],
+  "remarks": "Company identification No. 1055024900006; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 6) Instrument 2023",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "2a, Zhukovsky St, Dubna, Moscow Region, 141980, Russian Federation",
       "country": "Russian Federation"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

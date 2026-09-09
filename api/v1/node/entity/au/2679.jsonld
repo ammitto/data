@@ -1,37 +1,55 @@
 {
-  "id": "https://www.ammitto.org/entity/au/2679",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/2679",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "AL MOURABITOUN",
+      "@type": "NameVariant",
+      "fullName": "AL MOURABITOUN",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "المرابطون",
+      "@type": "NameVariant",
+      "fullName": "المرابطون",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Les Sentinelles",
+      "@type": "NameVariant",
+      "fullName": "Les Sentinelles",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "The Sentinels",
+      "@type": "NameVariant",
+      "fullName": "The Sentinels",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "QDe.141. Founded on 20 Aug. 2013 as result of a merger between Al Moulathamoun (QDe.140) and the Mouvement pour l’Unification et le Jihad en Afrique de l’Ouest (MUJAO) (QDe.134). Associated with the Organization of Al-Qaida in the Islamic Maghreb (QDe.014) and led by Mokhtar Belmokhtar (QDi.136). Active in the Sahel/Sahara region. Review pursuant to Security Council resolution 2368 (2017) was concluded on 4 Dec. 2019. Review pursuant to Security Council resolution 2610 (2021) was concluded on 30 October 2023.; Listing: Listed by the 1267 Committee on 2 Jun. 2014 ( amended on 6 Dec. 2019, 30 Oct. 2023 )",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/2679"
+  ],
+  "remarks": "QDe.141. Founded on 20 Aug. 2013 as result of a merger between Al Moulathamoun (QDe.140) and the Mouvement pour l’Unification et le Jihad en Afrique de l’Ouest (MUJAO) (QDe.134). Associated with the Organization of Al-Qaida in the Islamic Maghreb (QDe.014) and led by Mokhtar Belmokhtar (QDi.136). Active in the Sahel/Sahara region. Review pursuant to Security Council resolution 2368 (2017) was concluded on 4 Dec. 2019. Review pursuant to Security Council resolution 2610 (2021) was concluded on 30 October 2023.; Listing: Listed by the 1267 Committee on 2 Jun. 2014 ( amended on 6 Dec. 2019, 30 Oct. 2023 )",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Mali",
       "country": "Mali"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

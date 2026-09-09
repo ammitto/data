@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/702654",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/702654",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "INNER MONGOLIA YUANSHAN ENERGY CO., LTD.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "INNER MONGOLIA YUANSHAN ENERGY CO., LTD.",
+      "isPrimary": true
     }
   ],
-  "remarks": "(内蒙古沅山能源有限公司)*632",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/702654"
+  ],
+  "remarks": "(内蒙古沅山能源有限公司)*632",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "ROOM 1803, JIAQI COMPREHENSIVE SERVICE BUILDING, EQUIPMENT MANUFACTURING BASE, DONGSHENG DISTRICT",
       "city": "ORDOS CITY, INNER MONGOLIA",
       "country": "China",
-      "country_iso_code": "CN"
+      "countryIsoCode": "CN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

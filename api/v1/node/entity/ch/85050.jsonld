@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/85050",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/85050",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Osipava Alesya Uladzimiravna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Osipava Alesya Uladzimiravna",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/85050"
   ],
   "remarks": "Alesya Osipava is a Belarusian judge who has served in the Central District Court of the city of Gomel since 2019. She was appointed by Aliaksandr Lukashenka. She issued sentences against citizens of Belarus who voiced their opinions against the President, the system and brutality of Belarusian law enforcement structures.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1979-09-04",
-      "circa": false
+      "circa": false,
+      "year": 1979
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

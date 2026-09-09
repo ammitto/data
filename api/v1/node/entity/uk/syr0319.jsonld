@@ -1,35 +1,55 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/syr0319",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/syr0319",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "National Standards & Calibration Laboratory",
+      "@type": "NameVariant",
+      "fullName": "National Standards & Calibration Laboratory",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "NSCL",
+      "@type": "NameVariant",
+      "fullName": "NSCL",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "SSRC",
+      "@type": "NameVariant",
+      "fullName": "SSRC",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Manufacturing/Proliferation The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/syr0319"
+  ],
+  "remarks": "Manufacturing/Proliferation The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
-      "state": "Damascus"
-    },
-    {
+      "@type": "Address",
+      "street": "",
       "city": "PO Box 4470",
       "country": "Syria"
+    },
+    {
+      "@type": "Address",
+      "street": "",
+      "state": "Damascus"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

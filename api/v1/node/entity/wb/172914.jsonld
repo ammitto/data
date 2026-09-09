@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/172914",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/172914",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "PT DDC CONSULTANTS",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "PT DDC CONSULTANTS",
+      "isPrimary": true
     }
   ],
-  "remarks": "* 29",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/172914"
+  ],
+  "remarks": "* 29",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "JL. MASJID AN'NUR NO. 51A, KEBAYORAN LAMA, JAKARTA SELATAN",
       "state": "BANTEN",
       "country": "Indonesia",
-      "country_iso_code": "ID"
+      "countryIsoCode": "ID"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

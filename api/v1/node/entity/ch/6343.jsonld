@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/6343",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/6343",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kwainona Martin",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kwainona Martin",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/6343"
   ],
   "remarks": "Senior police officer, passed orders to local authorities to incite violence in Kanyuchi Village, Mount Darwin in April 2008.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1953-01-19",
-      "circa": false
+      "circa": false,
+      "year": 1953
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

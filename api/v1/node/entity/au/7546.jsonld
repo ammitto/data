@@ -1,42 +1,61 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7546",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/7546",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Trest Rosspetsenergomontazh",
+      "@type": "NameVariant",
+      "fullName": "Trest Rosspetsenergomontazh",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "OOO Trest Rosspetsenergomontazh",
+      "@type": "NameVariant",
+      "fullName": "OOO Trest Rosspetsenergomontazh",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Trust Rosspetsenergomontazh",
+      "@type": "NameVariant",
+      "fullName": "Trust Rosspetsenergomontazh",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "LLC Trest Rosspetsenergomontazh",
+      "@type": "NameVariant",
+      "fullName": "LLC Trest Rosspetsenergomontazh",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Trest RosSEM Ltd",
+      "@type": "NameVariant",
+      "fullName": "Trest RosSEM Ltd",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Company identification No. 1056906004550; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 6) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7546"
+  ],
+  "remarks": "Company identification No. 1056906004550; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 6) Instrument 2023",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Promzona Kaes, Udomlya, 171840, Russia",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

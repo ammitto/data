@@ -1,15 +1,21 @@
 {
-  "id": "https://www.ammitto.org/entry/cn/unknown/202611-kawaju-gifu-engineering-co-lt",
-  "entity_id": "https://www.ammitto.org/entity/cn/202611-kawaju-gifu-engineering-co-lt",
+  "@id": "https://www.ammitto.org/entry/cn/unknown/202611-kawaju-gifu-engineering-co-lt",
+  "@type": "SanctionEntry",
+  "entityId": "https://www.ammitto.org/entity/cn/202611-kawaju-gifu-engineering-co-lt",
   "authority": {
     "@id": "https://www.ammitto.org/authority/cn"
   },
   "regime": {
-    "@id": "https://www.ammitto.org/regime/unknown"
+    "@id": "https://www.ammitto.org/regime/unknown",
+    "name": "cn/export-control-list"
   },
+  "legalBases": [
+
+  ],
   "effects": [
     {
-      "effect_type": "prohibit_export_dual_use_items",
+      "@type": "SanctionEffect",
+      "effectType": "prohibit_export_dual_use_items",
       "scope": "full",
       "description": [
         {
@@ -27,7 +33,8 @@
       ]
     },
     {
-      "effect_type": "export_license_requirement",
+      "@type": "SanctionEffect",
+      "effectType": "export_license_requirement",
       "scope": "full",
       "description": [
         {
@@ -47,6 +54,7 @@
   ],
   "reasons": [
     {
+      "@type": "SanctionReason",
       "category": "other",
       "description": [
         {
@@ -65,42 +73,50 @@
     }
   ],
   "period": {
-    "effective_date": "2026-02-24",
-    "is_indefinite": false
+    "@type": "TemporalPeriod",
+    "effectiveDate": "2026-02-24",
+    "isIndefinite": false
   },
   "status": "active",
-  "reference_number": "202611-kawaju-gifu-engineering-co-lt",
+  "statusHistory": [
+
+  ],
+  "referenceNumber": "202611-kawaju-gifu-engineering-co-lt",
+  "groupId": "https://www.ammitto.org/group/cn/202611",
+  "legalCitations": [
+    {
+      "@type": "LegalCitation",
+      "legalInstrumentId": "https://www.ammitto.org/legal-instrument/cn/npc-export-control-law",
+      "citationType": "legal_basis"
+    },
+    {
+      "@type": "LegalCitation",
+      "legalInstrumentId": "https://www.ammitto.org/legal-instrument/cn/mofcom-dual-use-export-control-regulation",
+      "citationType": "legal_basis"
+    }
+  ],
   "announcement": {
+    "@type": "OfficialAnnouncement",
     "title": "公布将20家日本实体列入出口管制管控名单",
     "url": "https://www.mofcom.gov.cn/zwgk/zcfb/art/2026/art_b5159a773124428a9813884015d1b8b3.html",
-    "publish_date": "2026-02-24",
-    "document_type": "cn/ministry-of-commerce-announcement",
-    "document_id": "2026年第11号",
+    "publishDate": "2026-02-24",
+    "documentType": "cn/ministry-of-commerce-announcement",
+    "documentId": "2026年第11号",
     "signatory": "cn/ministry-of-commerce",
     "publisher": "cn/ministry-of-commerce",
     "authority": "cn/ministry-of-commerce",
     "content": "根据《中华人民共和国出口管制法》和《中华人民共和国两用物项出口管制条例》等法律法规有关规定，为维护国家安全和利益，履行防扩散等国际义务，决定将三菱造船株式会社等参与提升日本军事实力的20家日本实体列入出口管制管控名单（见附件），并采取以下措施：\n\n一、禁止出口经营者向上述20家实体出口两用物项，禁止境外组织和个人将原产于中华人民共和国的两用物项转移或提供给上述20家实体；正在开展的相关活动应当立即停止。\n二、特殊情况下确需出口的，出口经营者应当向商务部提出申请。\n\n本公告自公布之日起正式实施。\n",
     "language": "zh-CN"
   },
-  "group_id": "https://www.ammitto.org/group/cn/202611",
-  "legal_citations": [
-    {
-      "legal_instrument_id": "https://www.ammitto.org/legal-instrument/cn/npc-export-control-law",
-      "citation_type": "legal_basis"
-    },
-    {
-      "legal_instrument_id": "https://www.ammitto.org/legal-instrument/cn/mofcom-dual-use-export-control-regulation",
-      "citation_type": "legal_basis"
-    }
-  ],
-  "raw_source_data": {
-    "source_format": "yaml",
-    "source_specific_fields": {
+  "rawSourceData": {
+    "@type": "RawSourceData",
+    "sourceFormat": "yaml",
+    "sourceSpecificFields": {
       "cn:list_type": "unknown",
       "cn:sanction_list": "cn/export-control-list",
       "cn:chinese_name": "川重岐阜工程株式会社",
       "cn:english_name": "KAWAJU Gifu Engineering Co., Ltd."
     }
   },
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

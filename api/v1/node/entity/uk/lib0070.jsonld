@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/lib0070",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/lib0070",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Med Wave Shipping",
+      "@type": "NameVariant",
+      "fullName": "Med Wave Shipping",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/lib0070"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Adel Al-Hojrat building number 3, First Floor opposite Swefieh, Mall-Swfieh, PO Box 850880",
       "state": "Amman",
       "country": "Jordan"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

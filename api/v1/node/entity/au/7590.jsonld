@@ -1,32 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7590",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/7590",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "AO Zavod Elekon",
+      "@type": "NameVariant",
+      "fullName": "AO Zavod Elekon",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Elekon Plant JSC",
+      "@type": "NameVariant",
+      "fullName": "Elekon Plant JSC",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Elecon Plant Joint Stock Company",
+      "@type": "NameVariant",
+      "fullName": "Elecon Plant Joint Stock Company",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Company identification number: 1021603145541; http://www.zavod-elecon.ru; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 8) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7590"
+  ],
+  "remarks": "Company identification number: 1021603145541; http://www.zavod-elecon.ru; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 8) Instrument 2023",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "58 Korolenko Street, Kazan, Republic of Tatarstan, 420094, Russia",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

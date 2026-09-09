@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/49999",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/49999",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Arshba Otari Yonovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Arshba Otari Yonovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/49999"
   ],
   "remarks": "Member of the State Duma who ratified the government decisions of the Treaty of Friendship, Cooperation and Mutual Assistance between the Russian Federation and the Donetsk People's Republic and between the Russian Federation and the Luhansk People's Republic.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1955-04-12",
-      "circa": false
+      "circa": false,
+      "year": 1955
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

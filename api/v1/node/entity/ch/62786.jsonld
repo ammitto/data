@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/62786",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/62786",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Morozova Darya Vasilievna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Morozova Darya Vasilievna",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/62786"
   ],
   "remarks": "Darya Morozova is a Commissioner of Human Rights of the so-called “Donetsk People’s Republic”. She was involved in the illegal deportation of Ukrainian children from Donbas to camps in the illegally annexed Crimean Peninsula and to accommodation centers in Russia. Her actions infringe Ukraine’s law and administrative order, and violate the rights of Ukrainian children.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1989-02-27",
-      "circa": false
+      "circa": false,
+      "year": 1989
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

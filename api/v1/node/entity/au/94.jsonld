@@ -1,40 +1,59 @@
 {
-  "id": "https://www.ammitto.org/entity/au/94",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/94",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Abdul Bari Akhund",
+      "@type": "NameVariant",
+      "fullName": "Abdul Bari Akhund",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "أخوند عبد الباری",
+      "@type": "NameVariant",
+      "fullName": "أخوند عبد الباری",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Haji Mullah Sahib",
+      "@type": "NameVariant",
+      "fullName": "Haji Mullah Sahib",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Zakir",
+      "@type": "NameVariant",
+      "fullName": "Zakir",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "TAi.094 Title: a) Maulavi b) Mullah. Designation: Governor of Helmand Province under the Taliban regime. Member of the Taliban Supreme Council as of 2009. Believed to be in Afghanistan/Pakistan border area. Belongs to Alokozai tribe. Member of Taliban leadership in Helmand Province, Afghanistan. Review pursuant to Security Council resolution 1822 (2008) was concluded on 1 Jun. 2010.; Listing: Listed on 23 February 2001 (amended on3 Sep 2003, 18 Jul 2007, 21 Sep 2007 and 13 Feb 2012)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/94"
   ],
-  "birth_info": [
+  "remarks": "TAi.094 Title: a) Maulavi b) Mullah. Designation: Governor of Helmand Province under the Taliban regime. Member of the Taliban Supreme Council as of 2009. Believed to be in Afghanistan/Pakistan border area. Belongs to Alokozai tribe. Member of Taliban leadership in Helmand Province, Afghanistan. Review pursuant to Security Council resolution 1822 (2008) was concluded on 1 Jun. 2010.; Listing: Listed on 23 February 2001 (amended on3 Sep 2003, 18 Jul 2007, 21 Sep 2007 and 13 Feb 2012)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1953,
       "country": "a) Baghran District"
     }
   ],
   "nationalities": [
     "Afghanistan"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

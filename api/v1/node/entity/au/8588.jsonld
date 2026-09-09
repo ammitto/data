@@ -1,29 +1,46 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8588",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/8588",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Alireza Fadakar",
+      "@type": "NameVariant",
+      "fullName": "Alireza Fadakar",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Ali Reza Fedakr",
+      "@type": "NameVariant",
+      "fullName": "Ali Reza Fedakr",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Quds Force commander in Najaf, Iraq\n\nPassport ID # H46055007 (Iran)\n\nPassport ID # N35636890 (Iran)\n\nPassport ID # U41671790 (Iran); Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Iran) List 2012",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8588"
   ],
-  "birth_info": [
+  "remarks": "Quds Force commander in Najaf, Iraq\n\nPassport ID # H46055007 (Iran)\n\nPassport ID # N35636890 (Iran)\n\nPassport ID # U41671790 (Iran); Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Iran) List 2012",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1966
     }
   ],
   "nationalities": [
     "Iran"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

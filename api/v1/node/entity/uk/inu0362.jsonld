@@ -1,37 +1,55 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/inu0362",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/inu0362",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "IRAN INSURANCE COMPANY",
+      "@type": "NameVariant",
+      "fullName": "IRAN INSURANCE COMPANY",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "BIMEH IRAN ",
+      "@type": "NameVariant",
+      "fullName": "BIMEH IRAN ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "IIC ",
+      "@type": "NameVariant",
+      "fullName": "IIC ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "IRAN INSURANCE CO. ",
+      "@type": "NameVariant",
+      "fullName": "IRAN INSURANCE CO. ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/inu0362"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Hasht Behesh St-Fatemi St-No 121",
       "state": "Tehran",
       "country": "Iran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

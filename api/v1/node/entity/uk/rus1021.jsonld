@@ -1,29 +1,48 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus1021",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/rus1021",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kuchment",
-      "first_name": "Mikhail",
+      "@type": "NameVariant",
+      "fullName": "Kuchment",
+      "firstName": "Mikhail",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Михаил Львович Кучмент",
+      "@type": "NameVariant",
+      "fullName": "Михаил Львович Кучмент",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus1021"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Demiana Bednogo Street, 23, block 1, flat 40",
       "state": "Moscow",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

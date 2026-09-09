@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/505294",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/505294",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "JUCKON CONSTRUCTION AND ALLIED SERVICES NIGERIA LIMITED",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "JUCKON CONSTRUCTION AND ALLIED SERVICES NIGERIA LIMITED",
+      "isPrimary": true
     }
   ],
-  "remarks": "*554",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/505294"
+  ],
+  "remarks": "*554",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "10 ODOZI OBODO STREET, OFF EZENEI ROAD",
       "city": "ASABA, DELTA STATE",
       "country": "Nigeria",
-      "country_iso_code": "NG"
+      "countryIsoCode": "NG"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

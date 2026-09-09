@@ -1,29 +1,46 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7196",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7196",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Vladimir Abdualievich VASILIEV",
+      "@type": "NameVariant",
+      "fullName": "Vladimir Abdualievich VASILIEV",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Vladimir Abdualievich VASILEV",
+      "@type": "NameVariant",
+      "fullName": "Vladimir Abdualievich VASILEV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Member of the State Duma of the Federal Assembly of the Russian Federation; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 15) Instrument 2022",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7196"
   ],
-  "birth_info": [
+  "remarks": "Member of the State Duma of the Federal Assembly of the Russian Federation; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 15) Instrument 2022",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1949
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

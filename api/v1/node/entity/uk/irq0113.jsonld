@@ -1,21 +1,42 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/irq0113",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/irq0113",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MAHDI",
-      "first_name": "ADIL",
+      "@type": "NameVariant",
+      "fullName": "MAHDI",
+      "firstName": "ADIL",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "عادل عبد الله مهدي",
+      "@type": "NameVariant",
+      "fullName": "عادل عبد الله مهدي",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/irq0113"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

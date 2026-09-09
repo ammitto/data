@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/63092",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/63092",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kondrashov Andrey Olegovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kondrashov Andrey Olegovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/63092"
   ],
   "remarks": "Andrey Kondrashov is the former First Deputy Director General of All-Russia Television and Radio Broadcasting Company (VGTRK), Russia’s largest media corporation. He is also the Director General of the Russian News Agency TASS.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1973-06-30",
-      "circa": false
+      "circa": false,
+      "year": 1973
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

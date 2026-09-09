@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/53125",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/53125",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ignatova Anastasia",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Ignatova Anastasia",
+      "isPrimary": true
     }
   ],
-  "remarks": "Anastasia Ignatova is the stepdaughter of Sergei Chemezov, who is the CEO of the Russian state corporation Rostec (State Corporation for the Promotion of the Development, Manufacture and Export of High Tech Products).",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/53125"
+  ],
+  "remarks": "Anastasia Ignatova is the stepdaughter of Sergei Chemezov, who is the CEO of the Russian state corporation Rostec (State Corporation for the Promotion of the Development, Manufacture and Export of High-Tech Products).",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1988-02-15",
-      "circa": false
+      "circa": false,
+      "year": 1988
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

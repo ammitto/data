@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/312118",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/312118",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "DUTCHMED B.V.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "DUTCHMED B.V.",
+      "isPrimary": true
     }
   ],
-  "remarks": "*370",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/312118"
+  ],
+  "remarks": "*370",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "AVELINGEN WEST 72",
       "city": "4202 MV GORINCHEM",
       "country": "Netherlands",
-      "country_iso_code": "NL"
+      "countryIsoCode": "NL"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

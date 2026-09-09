@@ -1,23 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/198425",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/wb/198425",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MR. MOUSA MAHDI MAKAWI",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "MR. MOUSA MAHDI MAKAWI",
+      "isPrimary": true
     }
   ],
-  "remarks": "*145",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/198425"
+  ],
+  "remarks": "*145",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "AL KAZIMIYAH, ABDUL MOHSEN AL-KAZIMI SQUARE, DISTRICT: 411 SH/17, BUILDING: 20",
       "city": "BAGHDAD",
       "country": "Iraq",
-      "country_iso_code": "IQ"
+      "countryIsoCode": "IQ"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,37 +1,47 @@
 {
-  "id": "https://www.ammitto.org/entry/au/consolidated-list/3069",
-  "entity_id": "https://www.ammitto.org/entity/au/3069",
+  "@id": "https://www.ammitto.org/entry/au/consolidated-list/3069",
+  "@type": "SanctionEntry",
+  "entityId": "https://www.ammitto.org/entity/au/3069",
   "authority": {
     "@id": "https://www.ammitto.org/authority/au"
   },
   "regime": {
-    "@id": "https://www.ammitto.org/regime/au_dprk"
+    "@id": "https://www.ammitto.org/regime/au_dprk",
+    "name": "Democratic People's Republic of Korea"
   },
-  "legal_bases": [
+  "legalBases": [
     {
-      "type": "regulation",
-      "identifier": "Designated under the Autonomous Sanctions Regulations 2011 on 20 January 2015.\nInstrument of first designation and declaration: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Democratic People’s Republic of Korea) Amendment List 2015",
-      "title": "Designated under the Autonomous Sanctions Regulations 2011 on 20 January 2015.\nInstrument of first designation and declaration: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Democratic People’s Republic of Korea) Amendment List 2015"
+      "@id": "https://www.ammitto.org/legal-instrument/au/designated-under-the-autonomous-sanctions-regulations-2011-on-20-january-2015.-instrument-of-first-d-2aff7474ef0d"
     }
   ],
   "effects": [
     {
-      "effect_type": "asset_freeze",
+      "@type": "SanctionEffect",
+      "effectType": "asset_freeze",
       "scope": "full"
     },
     {
-      "effect_type": "travel_ban",
+      "@type": "SanctionEffect",
+      "effectType": "travel_ban",
       "scope": "full"
     }
   ],
+  "reasons": [
+
+  ],
   "period": {
-    "is_indefinite": true
+    "@type": "TemporalPeriod",
+    "isIndefinite": true
   },
   "status": "active",
-  "reference_number": "3069",
-  "raw_source_data": {
-    "source_format": "csv",
-    "source_specific_fields": {
+  "statusHistory": [
+
+  ],
+  "referenceNumber": "3069",
+  "rawSourceData": {
+    "@type": "RawSourceData",
+    "sourceFormat": "csv",
+    "sourceSpecificFields": {
       "au:reference": "3069",
       "au:committees": "Autonomous (DPRK)",
       "au:control_date": "2023-12-01",
@@ -39,5 +49,5 @@
       "au:listing_info": "Designated under the Autonomous Sanctions Regulations 2011 on 20 January 2015.\nInstrument of first designation and declaration: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Democratic People’s Republic of Korea) Amendment List 2015"
     }
   },
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

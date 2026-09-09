@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/53155",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/53155",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kerimov Said",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kerimov Said",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/53155"
   ],
   "remarks": "Said Kerimov is the son of Suleiman Kerimov. Suleiman Kerimov is a Russia-based billionaire, founder of the Suleiman Kerimov Foundation and representative of the Republic of Dagestan in the Federation Council of Russia. Suleiman Kerimov transferred a large part of his assets, including his shares in Russia’s largest gold producer, Polyus Gold, to his son, Said Kerimov.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1995-07-06",
-      "circa": false
+      "circa": false,
+      "year": 1995
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

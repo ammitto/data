@@ -1,42 +1,61 @@
 {
-  "id": "https://www.ammitto.org/entity/au/6688",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/6688",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Otkritie Bank",
+      "@type": "NameVariant",
+      "fullName": "Otkritie Bank",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Public Joint Stock Company Bank Financial Corporation Otkritie",
+      "@type": "NameVariant",
+      "fullName": "Public Joint Stock Company Bank Financial Corporation Otkritie",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Pao Bank Otkritie Financial Corporation",
+      "@type": "NameVariant",
+      "fullName": "Pao Bank Otkritie Financial Corporation",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "PJSC Bank Fk Otkritie",
+      "@type": "NameVariant",
+      "fullName": "PJSC Bank Fk Otkritie",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Public Joint Stock Company Bank Otkritie Financial Corporation",
+      "@type": "NameVariant",
+      "fullName": "Public Joint Stock Company Bank Otkritie Financial Corporation",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Website: http://www.open.ru; Listing: Instrument of first designation and declaration: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 3) Instrument 2022",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/6688"
+  ],
+  "remarks": "Website: http://www.open.ru; Listing: Instrument of first designation and declaration: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 3) Instrument 2022",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "d. 2, str. 4, ul. Letnikovskaya, Moscow 115114, Russia",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

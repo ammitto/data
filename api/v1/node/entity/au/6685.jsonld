@@ -1,57 +1,79 @@
 {
-  "id": "https://www.ammitto.org/entity/au/6685",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/6685",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "RVC Management Company",
+      "@type": "NameVariant",
+      "fullName": "RVC Management Company",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Limited Liability Company RVC Management Company",
+      "@type": "NameVariant",
+      "fullName": "Limited Liability Company RVC Management Company",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Obshchestvo S Ogranichennoy Otvetstvennostyu Upravlyayushchaya Kompaniya Rvk",
+      "@type": "NameVariant",
+      "fullName": "Obshchestvo S Ogranichennoy Otvetstvennostyu Upravlyayushchaya Kompaniya Rvk",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Russian Venture Company",
+      "@type": "NameVariant",
+      "fullName": "Russian Venture Company",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Rvc Management Company Llc",
+      "@type": "NameVariant",
+      "fullName": "Rvc Management Company Llc",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Llc Mc Rvc",
+      "@type": "NameVariant",
+      "fullName": "Llc Mc Rvc",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Llc Uk Rvk",
+      "@type": "NameVariant",
+      "fullName": "Llc Uk Rvk",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ooo Uk Rvk",
+      "@type": "NameVariant",
+      "fullName": "Ooo Uk Rvk",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Website: https://rvc.ru; Listing: Instrument of first designation and declaration: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 3) Instrument 2022",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/6685"
+  ],
+  "remarks": "Website: https://rvc.ru; Listing: Instrument of first designation and declaration: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 3) Instrument 2022",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "D. 8, Str. 1, Etaj 12, Nab. Presnenskaya, Moscow 123112, Russia",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

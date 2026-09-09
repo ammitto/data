@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/72680",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/72680",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Antsev Georgiy Vladimirovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Antsev Georgiy Vladimirovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/72680"
   ],
   "remarks": "Georgiy Antsev is Chairman of the St. Petersburg branch of SoyuzMash of Russia, as well as the General Director and General Designer of Joint Stock Company Research and Production Enterprise Radar MMS (JSC NPP Radar MMS). JSC NPP Radar MMS is a Russian defence industry enterprise that designs and produces homing systems for high-precision weapons, military and civil avionics, monitoring and navigation systems.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1961-01-29",
-      "circa": false
+      "circa": false,
+      "year": 1961
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

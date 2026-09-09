@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/62656",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/62656",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Chaika Igor Yuryevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Chaika Igor Yuryevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/62656"
   ],
   "remarks": "Igor Chaika is a Russian businessman responsible for funnelling money in support of the Russian Federal Security Service (FSB) projects aimed at destabilising the Republic of Moldova. He played the role of Russian “purse”, channelling money to FSB assets in the Republic of Moldova in order to bring the country under the control of the Kremlin.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1988-12-13",
-      "circa": false
+      "circa": false,
+      "year": 1988
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

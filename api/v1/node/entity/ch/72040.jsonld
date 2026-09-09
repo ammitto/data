@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/72040",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/72040",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Makushev Igor Yurievich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Makushev Igor Yurievich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/72040"
   ],
   "remarks": "Igor Makushev is a high-ranking official in the Russian military and Director of JSC MAK Vympel. JSC MAK Vympel (a.k.a. Public Joint Stock Company Vympel Interstate Corporation) is a Russian military-industrial state enterprise that develops antiballistic missile systems and space control systems deployed by the Russian Armed Forces. Moreover, JSC MAK Vympel is part of the Almaz-Antey concern, a Russian state-owned arms manufacturer that develops anti-aircraft defence and cruise missile systems for the Russian military.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1964-08-06",
-      "circa": false
+      "circa": false,
+      "year": 1964
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

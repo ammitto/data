@@ -1,48 +1,68 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/gac0072",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/gac0072",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Evrazia",
+      "@type": "NameVariant",
+      "fullName": "Evrazia",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Autonomous Non-Commercial Organization for the Promotion of International Cooperation Eurasia",
+      "@type": "NameVariant",
+      "fullName": "Autonomous Non-Commercial Organization for the Promotion of International Cooperation Eurasia",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Eurasia",
+      "@type": "NameVariant",
+      "fullName": "Eurasia",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Evrazia - autonome niet-commerciele organisatie voor de bevordering van internationale samenwerking",
+      "@type": "NameVariant",
+      "fullName": "Evrazia - autonome niet-commerciele organisatie voor de bevordering van internationale samenwerking",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Evraziya",
+      "@type": "NameVariant",
+      "fullName": "Evraziya",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Organisation autonome non commerciale pour la promotion de la cooperation internationale",
+      "@type": "NameVariant",
+      "fullName": "Organisation autonome non commerciale pour la promotion de la cooperation internationale",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/gac0072"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Krasnoproletarskaya Street 7, office 4/P",
       "state": "Moscow",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

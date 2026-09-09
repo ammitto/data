@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/12655",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/12655",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Hussam Luqa Major General",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Hussam Luqa Major General",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/12655"
   ],
   "remarks": "Former Head of the Security Committee of the Southern Region from 2018 to 2020 under the former al-Assad regime. Former Head of the General Security Directorate. Major General. From April 2012 to 2 December 2018, was head of the Homs branch of the Political Security Directorate (succeeded Brigadier General Nasr al-Ali). Since 3 December 2018, head of the Political Security Directorate. Director of the General Intelligence Department since 2019. Responsible for the torture of opponents in custody.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1960-09-20",
-      "circa": false
+      "circa": false,
+      "year": 1960
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

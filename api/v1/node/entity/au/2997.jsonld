@@ -1,90 +1,118 @@
 {
-  "id": "https://www.ammitto.org/entity/au/2997",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/2997",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Andriy Evgenevich PURGIN",
+      "@type": "NameVariant",
+      "fullName": "Andriy Evgenevich PURGIN",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Andrei Evgenevich PURGIN",
+      "@type": "NameVariant",
+      "fullName": "Andrei Evgenevich PURGIN",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Andriy Yevhenovych PURHIN",
+      "@type": "NameVariant",
+      "fullName": "Andriy Yevhenovych PURHIN",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Andrej PURGIN",
+      "@type": "NameVariant",
+      "fullName": "Andrej PURGIN",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Andrei PURGIN",
+      "@type": "NameVariant",
+      "fullName": "Andrei PURGIN",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Andriy PURGIN",
+      "@type": "NameVariant",
+      "fullName": "Andriy PURGIN",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Andrey Yevgenyevich PURGIN",
+      "@type": "NameVariant",
+      "fullName": "Andrey Yevgenyevich PURGIN",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Andriy Yevgenovych PURGIN",
+      "@type": "NameVariant",
+      "fullName": "Andriy Yevgenovych PURGIN",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Andriy Yevgenevich PURGIN",
+      "@type": "NameVariant",
+      "fullName": "Andriy Yevgenevich PURGIN",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Andriy Evhenovych PURGIN",
+      "@type": "NameVariant",
+      "fullName": "Andriy Evhenovych PURGIN",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Andrey Evgenovich PURGIN",
+      "@type": "NameVariant",
+      "fullName": "Andrey Evgenovich PURGIN",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Andrii Evhenovych PURHIN",
+      "@type": "NameVariant",
+      "fullName": "Andrii Evhenovych PURHIN",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Listing: Listed on 2 Sep. 2014 (relisted on 1 Sep. 2017) (relisted on 28 Aug. 2020 (relisted on 27 Aug 2023)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/2997"
   ],
-  "birth_info": [
+  "remarks": "Listing: Listed on 2 Sep. 2014 (relisted on 1 Sep. 2017) (relisted on 28 Aug. 2020 (relisted on 27 Aug 2023)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1972,
       "country": "Donetsk"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1972,
       "country": "Ukraine"
     }
   ],
   "nationalities": [
-    "Russia;Ukraine"
+    "Russia",
+    "Ukraine"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Donetsk, Ukraine",
       "country": "Ukraine"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/4926",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/4926",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Siarheenka Ihar Piatrovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Siarheenka Ihar Piatrovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/4926"
   ],
   "remarks": "First Deputy Head of the KGB, former Head of the KGB of the Mogilev region. Responsible for the repressive activity of the KGB against civil society and democratic opposition in the region of Mogilev and in Belarus.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1963-01-14",
-      "circa": false
+      "circa": false,
+      "year": 1963
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

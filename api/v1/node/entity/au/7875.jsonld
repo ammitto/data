@@ -1,30 +1,47 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7875",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7875",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Boris Yurevich KOVALCHUK",
+      "@type": "NameVariant",
+      "fullName": "Boris Yurevich KOVALCHUK",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Boris Yurievich KOVALCHUK",
+      "@type": "NameVariant",
+      "fullName": "Boris Yurievich KOVALCHUK",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "General Director and Chairman of the Management Board of Inter RAO; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2024",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7875"
   ],
-  "birth_info": [
+  "remarks": "General Director and Chairman of the Management Board of Inter RAO; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2024",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1977,
       "country": "St Petersburg"
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

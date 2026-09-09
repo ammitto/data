@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/992932",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/992932",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "GENKEY AFRICA LTD.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "GENKEY AFRICA LTD.",
+      "isPrimary": true
     }
   ],
-  "remarks": "(Reg. No: CS574332015) *697",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/992932"
+  ],
+  "remarks": "(Reg. No: CS574332015) *697",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "NO. 5, 1ST ASOYI STREET, BAWALESHIE, EAST LEGON",
       "city": "ACCRA",
       "country": "Ghana",
-      "country_iso_code": "GH"
+      "countryIsoCode": "GH"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/488",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/488",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Milosevic Slobodan",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Milosevic Slobodan",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/488"
   ],
   "remarks": "Former President of the Federal Republic of Yugoslavia",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1941-08-20",
-      "circa": false
+      "circa": false,
+      "year": 1941
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

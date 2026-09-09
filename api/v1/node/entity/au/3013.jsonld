@@ -1,41 +1,58 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3013",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/3013",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Sergey Gennadevich TSYPLAKOV",
+      "@type": "NameVariant",
+      "fullName": "Sergey Gennadevich TSYPLAKOV",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Serhiy Hennadiyovych TSYPLAKOV",
+      "@type": "NameVariant",
+      "fullName": "Serhiy Hennadiyovych TSYPLAKOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Serhiy Gennadiyovych TSYPLAKOV",
+      "@type": "NameVariant",
+      "fullName": "Serhiy Gennadiyovych TSYPLAKOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Listing: Listed on 2 Sep. 2014 (relisted on 1 Sep. 2017) (relisted on 28 Aug. 2020 (relisted on 27 Aug 2023)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3013"
   ],
-  "birth_info": [
+  "remarks": "Listing: Listed on 2 Sep. 2014 (relisted on 1 Sep. 2017) (relisted on 28 Aug. 2020 (relisted on 27 Aug 2023)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1983,
       "country": "Khartsyzsk"
     }
   ],
   "nationalities": [
-    "Russia;Ukraine"
+    "Russia",
+    "Ukraine"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Luhansk, Ukraine",
       "country": "Ukraine"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

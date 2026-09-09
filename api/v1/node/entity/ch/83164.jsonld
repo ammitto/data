@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/83164",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/83164",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Qasim Mohamed Mahdi Al-Rimi",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Qasim Mohamed Mahdi Al-Rimi",
+      "isPrimary": true
     }
   ],
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/83164"
+  ],
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1978-06-05",
-      "circa": false
+      "circa": false,
+      "year": 1978
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

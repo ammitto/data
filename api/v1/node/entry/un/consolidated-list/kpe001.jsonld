@@ -1,0 +1,52 @@
+{
+  "@id": "https://www.ammitto.org/entry/un/consolidated-list/kpe001",
+  "@type": "SanctionEntry",
+  "entityId": "https://www.ammitto.org/entity/un/kpe001",
+  "authority": {
+    "@id": "https://www.ammitto.org/authority/un"
+  },
+  "regime": {
+    "@id": "https://www.ammitto.org/regime/dprk",
+    "name": "Democratic People's Republic of Korea"
+  },
+  "legalBases": [
+
+  ],
+  "effects": [
+    {
+      "@type": "SanctionEffect",
+      "effectType": "asset_freeze",
+      "scope": "full"
+    },
+    {
+      "@type": "SanctionEffect",
+      "effectType": "travel_ban",
+      "scope": "full"
+    }
+  ],
+  "reasons": [
+
+  ],
+  "period": {
+    "@type": "TemporalPeriod",
+    "listedDate": "2009-04-24",
+    "effectiveDate": "2009-04-24",
+    "isIndefinite": true
+  },
+  "status": "active",
+  "statusHistory": [
+
+  ],
+  "referenceNumber": "KPe.001",
+  "remarks": "Primary arms dealer and main exporter of goods and equipment related to\nballistic missiles and conventional weapons.",
+  "rawSourceData": {
+    "@type": "RawSourceData",
+    "sourceFormat": "xml",
+    "sourceSpecificFields": {
+      "un:dataId": "690735",
+      "un:versionNum": "1",
+      "un:entityType": "entity"
+    }
+  },
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
+}

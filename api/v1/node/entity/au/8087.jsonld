@@ -1,32 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8087",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/8087",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "JSC Resurs",
+      "@type": "NameVariant",
+      "fullName": "JSC Resurs",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "AO Resurs",
+      "@type": "NameVariant",
+      "fullName": "AO Resurs",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "AO “Pecypc”",
+      "@type": "NameVariant",
+      "fullName": "AO “Pecypc”",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Company Identification No. 1027102670760; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8087"
+  ],
+  "remarks": "Company Identification No. 1027102670760; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "PR-D Zavodskoi D. 4, Bogoroditsk 301830 Russia",
       "country": "Bogoroditsk 301830 Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/78651",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/78651",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mohammed Omar Ghulam Nabi Mullah",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Mohammed Omar Ghulam Nabi Mullah",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/78651"
   ],
   "remarks": "Leader of the Faithful ('Amir ul-Mumineen'), Afghanistan.",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1966
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

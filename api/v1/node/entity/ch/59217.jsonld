@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/59217",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/59217",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Babushkin Igor Yuryevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Babushkin Igor Yuryevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/59217"
   ],
   "remarks": "Igor Babushkin is the governor of Astrakhan Oblast, appointed by President Vladimir Putin. In his role as governor, Igor Babushkin manages a regional state body of the Russian Federation and is responsible for implementing state policies at regional level. He has expressed support for the illegal recognition of the so-called independence of the so-called Donetsk and Luhansk Peoples Republics and the war of aggression against Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1970-04-05",
-      "circa": false
+      "circa": false,
+      "year": 1970
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

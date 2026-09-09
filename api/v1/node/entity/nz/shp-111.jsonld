@@ -1,18 +1,34 @@
 {
-  "id": "https://www.ammitto.org/entity/nz/shp-111",
-  "entity_type": "vessel",
+  "@id": "https://www.ammitto.org/entity/nz/shp-111",
+  "@type": "VesselEntity",
+  "entityType": "vessel",
   "names": [
     {
-      "full_name": "Millerovo",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Millerovo",
+      "isPrimary": true
     }
   ],
-  "source_references": [
+  "sourceReferences": [
     {
-      "source_code": "nz",
-      "reference_number": "SHP-111"
+      "@type": "SourceReference",
+      "sourceCode": "nz",
+      "referenceNumber": "SHP-111",
+      "retrievedAt": "2026-09-09T16:30:44Z"
     }
   ],
-  "imo_number": "9035541",
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "linkedEntities": [
+
+  ],
+  "imoNumber": "9035541",
+  "previousNames": [
+
+  ],
+  "previousFlags": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/nz/consolidated-list/shp-111"
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

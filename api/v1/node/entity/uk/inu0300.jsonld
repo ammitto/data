@@ -1,42 +1,61 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/inu0300",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/inu0300",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Bank Melli ",
+      "@type": "NameVariant",
+      "fullName": "Bank Melli ",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Bank Melli Iran",
+      "@type": "NameVariant",
+      "fullName": "Bank Melli Iran",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Melli Bank",
+      "@type": "NameVariant",
+      "fullName": "Melli Bank",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "National Bank of Iran  ",
+      "@type": "NameVariant",
+      "fullName": "National Bank of Iran  ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "بانک ملی ایران, ",
+      "@type": "NameVariant",
+      "fullName": "بانک ملی ایران, ",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/inu0300"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Ferdowsi Avenue",
       "state": "Tehran",
       "country": "Iran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/4666",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/4666",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Iancheuski Usevalad Viachaslavavich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Iancheuski Usevalad Viachaslavavich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/4666"
   ],
   "remarks": "Assistant to the President, Head of the Ideological Department of the President's Administration. He is the main creator of the regime's ideology and state propaganda, which supports and justifies the repression of the democratic opposition and of civil society. Democratic opposition and civil society are systematically highlighted in a negative and derogatory way using falsified information.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1976-04-22",
-      "circa": false
+      "circa": false,
+      "year": 1976
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

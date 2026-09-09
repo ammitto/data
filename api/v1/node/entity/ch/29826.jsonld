@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/29826",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/29826",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mohamad Ghazi Jalali",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Mohamad Ghazi Jalali",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/29826"
   ],
   "remarks": "Former Minister of Communications and Technology under the former al-Assad regime, in power after May 2011 (appointed 27.8.2014). As a former Government Minister, shares responsibility for the former al-Assad regime’s violent repression of the civilian population.",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1969
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

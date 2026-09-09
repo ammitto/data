@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/958232",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/958232",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "PANAQUE, S.R.L.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "PANAQUE, S.R.L.",
+      "isPrimary": true
     }
   ],
-  "remarks": "*686",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/958232"
+  ],
+  "remarks": "*686",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "VIA COPENAGHEN 40, 00144",
       "city": "ROME",
       "country": "Italy",
-      "country_iso_code": "IT"
+      "countryIsoCode": "IT"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

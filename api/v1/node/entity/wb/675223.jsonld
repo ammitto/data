@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/675223",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/675223",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "CHEZ AVIV NIGERIA LIMITED",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "CHEZ AVIV NIGERIA LIMITED",
+      "isPrimary": true
     }
   ],
-  "remarks": "*620",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/675223"
+  ],
+  "remarks": "*620",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "PLOT 23/25 UNIJE STREET, INDEPENDENCE LAYOUT",
       "city": "ENUGU, ENUGU STATE",
       "country": "Nigeria",
-      "country_iso_code": "NG"
+      "countryIsoCode": "NG"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

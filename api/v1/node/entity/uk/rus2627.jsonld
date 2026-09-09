@@ -1,27 +1,43 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus2627",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus2627",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "INNOPOLIS LTD",
+      "@type": "NameVariant",
+      "fullName": "INNOPOLIS LTD",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "伊诺波利斯有限公",
+      "@type": "NameVariant",
+      "fullName": "伊诺波利斯有限公",
       "script": "Hani",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus2627"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Rm 8, S-V, 6/F Valient Industrial Centre 2-12 Au Pui, Wan St, Fo Tan, NT",
       "state": "Hong Kong",
       "country": "China"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

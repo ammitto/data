@@ -1,27 +1,43 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7924",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/7924",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Azia Shipping Holdings",
+      "@type": "NameVariant",
+      "fullName": "Azia Shipping Holdings",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Azia Shipping Holdings Limited",
+      "@type": "NameVariant",
+      "fullName": "Azia Shipping Holdings Limited",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Company Identification No.HE 131171 (Cyprus); Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2024",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7924"
+  ],
+  "remarks": "Company Identification No.HE 131171 (Cyprus); Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2024",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Office 4, 1st Floor, Mitsi Building 1, Stasinou Avenue Nicosia 1060 Cyprus",
       "country": "Stasinou Avenue Nicosia 1060 Cyprus"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

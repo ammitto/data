@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/85089",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/85089",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Oman Rochman Ustadz",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Oman Rochman Ustadz",
+      "isPrimary": true
     }
   ],
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/85089"
+  ],
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1972-01-05",
-      "circa": false
+      "circa": false,
+      "year": 1972
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

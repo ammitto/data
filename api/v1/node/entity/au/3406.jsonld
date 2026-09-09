@@ -1,35 +1,50 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3406",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/3406",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "PAK YONG SIK",
+      "@type": "NameVariant",
+      "fullName": "PAK YONG SIK",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Pak Yo’ng-sik",
+      "@type": "NameVariant",
+      "fullName": "Pak Yo’ng-sik",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "KPi.063 Pak Yong Sik is a former member of the Workers’ Party of Korea Central Military Commission, which is responsible for the development and implementation of the Workers’ Party of Korea military policies, commands and controls the DPRK’s military, and helps direct the country’s military defense industries.; Listing: Listed on: 11 September 2017 (amended on 26 July 2022 and 29 June 2023)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3406"
   ],
-  "birth_info": [
+  "remarks": "KPi.063 Pak Yong Sik is a former member of the Workers’ Party of Korea Central Military Commission, which is responsible for the development and implementation of the Workers’ Party of Korea military policies, commands and controls the DPRK’s military, and helps direct the country’s military defense industries.; Listing: Listed on: 11 September 2017 (amended on 26 July 2022 and 29 June 2023)",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1949
     }
   ],
   "nationalities": [
     "Democratic People's Republic of Korea (North Korea)"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Democratic People's Republic of Korea",
       "country": "Democratic People's Republic of Korea"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/63173",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/63173",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Manezhina Tatyana Anatolyevna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Manezhina Tatyana Anatolyevna",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/63173"
   ],
   "remarks": "Tetyana Manezhyna was appointed on Dec 2021 as the so-called “Minister of Culture of the Republic of Crimea”. In accepting this role, she is working without the authorisation of the Ukrainian authorities in the illegally annexed Crimean peninsula. She has continued to pursue actions in the so-called Ministry, as instigated by her predecessor. Under her leadership and control, she is responsible for actions against the cultural legacy and monuments of the Crimean Tatars, which are conducted in contravention of international law and without appropriate expertise, thereby undermining the cultural legacy of Crimea.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1963-06-14",
-      "circa": false
+      "circa": false,
+      "year": 1963
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/779973",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/779973",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "STRATEGIC ASIA GLOBAL, LTD.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "STRATEGIC ASIA GLOBAL, LTD.",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/779973"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "PALMEIRA MANSIONS, 29 PALMEIRA AVENUE MANSIONS, 21-23 CHURCH ROAD HOVE",
       "city": "SUSSEX, BN3 2FA",
       "country": "United Kingdom",
-      "country_iso_code": "GB"
+      "countryIsoCode": "GB"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

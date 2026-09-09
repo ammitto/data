@@ -1,22 +1,43 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/irq0097",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/irq0097",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "AL-TIKRITI",
-      "first_name": "SAB'AWI",
+      "@type": "NameVariant",
+      "fullName": "AL-TIKRITI",
+      "firstName": "SAB'AWI",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "سبعاوي إبراهيم حسن التكريتي",
+      "@type": "NameVariant",
+      "fullName": "سبعاوي إبراهيم حسن التكريتي",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "N/A",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/irq0097"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "remarks": "N/A",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,22 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/au/6915",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/6915",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Alexandr Porfiryevich TORSHIN",
+      "@type": "NameVariant",
+      "fullName": "Alexandr Porfiryevich TORSHIN",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "Former politician and Deputy Governor of the Central Bank of Russia; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 11) Instrument 2022",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/6915"
   ],
-  "birth_info": [
+  "remarks": "Former politician and Deputy Governor of the Central Bank of Russia; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 11) Instrument 2022",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1953,
       "country": "Mitoga village"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

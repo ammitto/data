@@ -1,28 +1,48 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/dpr0055",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/dpr0055",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kim",
-      "first_name": "Kyong",
+      "@type": "NameVariant",
+      "fullName": "Kim",
+      "firstName": "Kyong",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Hui",
-      "first_name": "Kim",
+      "@type": "NameVariant",
+      "fullName": "Hui",
+      "firstName": "Kim",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Association with Tcheul Hy Djang, Yong Nam Kim and Su Gwang Kim The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/dpr0055"
+  ],
+  "remarks": "Association with Tcheul Hy Djang, Yong Nam Kim and Su Gwang Kim The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "country": "North Korea"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

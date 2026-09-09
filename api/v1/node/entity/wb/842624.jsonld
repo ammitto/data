@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/842624",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/842624",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "CONSTRUCCIONES DEL SIGLO 21 S.A.S.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "CONSTRUCCIONES DEL SIGLO 21 S.A.S.",
+      "isPrimary": true
     }
   ],
-  "remarks": "(f.k.a Constructora Fajardo Nieto Ltda.) *665",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/842624"
+  ],
+  "remarks": "(f.k.a Constructora Fajardo Nieto Ltda.) *665",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "CALLE 109 19 36 P 4",
       "city": "BOGOTA D.C.",
       "country": "Colombia",
-      "country_iso_code": "CO"
+      "countryIsoCode": "CO"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

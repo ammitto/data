@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/75786",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/75786",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Moiseyev Alexander Alexeyevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Moiseyev Alexander Alexeyevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/75786"
   ],
   "remarks": "Admiral Alexander Moiseyev has been the Commander-in-Chief of the Russian Navy since 2 April 2024. As such, he is responsible for any maritime operation of the Russian Navy, including against Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1962-04-16",
-      "circa": false
+      "circa": false,
+      "year": 1962
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

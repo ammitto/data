@@ -1,23 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/188868",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/wb/188868",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "JOHN B. KATENDE",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "JOHN B. KATENDE",
+      "isPrimary": true
     }
   ],
-  "remarks": "*66",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/188868"
+  ],
+  "remarks": "*66",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "PLOT 636, NBEEBA, MASAKA ROAD, P.O. BOX 22057",
       "city": "KAMPALA",
       "country": "Uganda",
-      "country_iso_code": "UG"
+      "countryIsoCode": "UG"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,32 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8147",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/8147",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Timer Bank AO",
+      "@type": "NameVariant",
+      "fullName": "Timer Bank AO",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Timer Bank JSC",
+      "@type": "NameVariant",
+      "fullName": "Timer Bank JSC",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Aktsionernoe obshchestvo Timer Bank",
+      "@type": "NameVariant",
+      "fullName": "Aktsionernoe obshchestvo Timer Bank",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "URL: https://timerbank.ru\nBank Identifier Code: TimeRU2KXXX\nCompany Identification Number: 1021600000146; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8147"
+  ],
+  "remarks": "URL: https://timerbank.ru\nBank Identifier Code: TimeRU2KXXX\nCompany Identification Number: 1021600000146; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Bakhrushina Street, 23, 2 Moscow, 115054, Russia",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

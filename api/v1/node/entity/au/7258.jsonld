@@ -1,48 +1,69 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7258",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7258",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MANSUR AL-SA’ADI",
+      "@type": "NameVariant",
+      "fullName": "MANSUR AL-SA’ADI",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Mansoor Ahmed Al Saadi",
+      "@type": "NameVariant",
+      "fullName": "Mansoor Ahmed Al Saadi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Mansur Ahmad al-Sa’adi",
+      "@type": "NameVariant",
+      "fullName": "Mansur Ahmad al-Sa’adi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abu Sajjad",
+      "@type": "NameVariant",
+      "fullName": "Abu Sajjad",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "منصور السعادي",
+      "@type": "NameVariant",
+      "fullName": "منصور السعادي",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "YEi.010. Designation: Major General, Houthi Commander of Yemen's Naval and Coastal Defense Forces. Houthi Naval Forces Chief of Staff, who has masterminded lethal attacks against international shipping in the Red Sea, plays a leading role in Houthi naval efforts that directly threaten the peace, security, and stability of Yemen. Physical Description: Eye Color: Brown; Hair: Brown.; Listing: Listed by the 2140 Committee on 26 September 2022",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7258"
   ],
-  "birth_info": [
+  "remarks": "YEi.010. Designation: Major General, Houthi Commander of Yemen's Naval and Coastal Defense Forces. Houthi Naval Forces Chief of Staff, who has masterminded lethal attacks against international shipping in the Red Sea, plays a leading role in Houthi naval efforts that directly threaten the peace, security, and stability of Yemen. Physical Description: Eye Color: Brown; Hair: Brown.; Listing: Listed by the 2140 Committee on 26 September 2022",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1988,
       "country": "Yemen"
     }
   ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Yemen",
       "country": "Yemen"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

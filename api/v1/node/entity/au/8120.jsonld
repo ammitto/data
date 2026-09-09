@@ -1,37 +1,55 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8120",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/8120",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Radiological Chemical and Biological Defense Troops of The Ministry of Defense of The Russian Federation",
+      "@type": "NameVariant",
+      "fullName": "Radiological Chemical and Biological Defense Troops of The Ministry of Defense of The Russian Federation",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "CBR Defense Troops",
+      "@type": "NameVariant",
+      "fullName": "CBR Defense Troops",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Military Unit Number 52688",
+      "@type": "NameVariant",
+      "fullName": "Military Unit Number 52688",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Radiation Chemical and Biological Defense Troops",
+      "@type": "NameVariant",
+      "fullName": "Radiation Chemical and Biological Defense Troops",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Company Identification No. 1037739635890; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8120"
+  ],
+  "remarks": "Company Identification No. 1037739635890; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Corpus 2, Building 22, Frunze Embankment, Moscow 119160 Russia",
       "country": "Moscow 119160 Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

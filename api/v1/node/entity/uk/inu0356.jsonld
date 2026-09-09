@@ -1,29 +1,48 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/inu0356",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/inu0356",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "FAQIHIAN ",
-      "first_name": "Hoseyn ",
+      "@type": "NameVariant",
+      "fullName": "FAQIHIAN ",
+      "firstName": "Hoseyn ",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "FAGHIHIAN",
-      "first_name": "Hossein ",
+      "@type": "NameVariant",
+      "fullName": "FAGHIHIAN",
+      "firstName": "Hossein ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/inu0356"
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Nuclear Fuel Production and Procurement Company (NFPC), AEOI-NFPD",
       "state": "Tehran",
       "country": "Iran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/sud0012",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/sud0012",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "M-Invest",
+      "@type": "NameVariant",
+      "fullName": "M-Invest",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "Tax ID No.: 7811636632, Government Gazette Number: 06513574  The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/sud0012"
+  ],
+  "remarks": "Tax ID No.: 7811636632, Government Gazette Number: 06513574  The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "d. 76 korp, 4 litera A ofis N620, Prospekt Obukhovskoi Oborony",
       "state": "St. Petersburg",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

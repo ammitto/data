@@ -1,38 +1,56 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus2297",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus2297",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "CJSC Perspective Technologies Agency ",
+      "@type": "NameVariant",
+      "fullName": "CJSC Perspective Technologies Agency ",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "JSC UPT",
+      "@type": "NameVariant",
+      "fullName": "JSC UPT",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Management of Prospective Technologies",
+      "@type": "NameVariant",
+      "fullName": "Management of Prospective Technologies",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "АКЦИОНЕРНОЕ ОБЩЕСТВО УПРАВЛЕНИЕ ПЕРСПЕКТИВНЫХ ТЕХНОЛОГИЙ ",
+      "@type": "NameVariant",
+      "fullName": "АКЦИОНЕРНОЕ ОБЩЕСТВО УПРАВЛЕНИЕ ПЕРСПЕКТИВНЫХ ТЕХНОЛОГИЙ ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus2297"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "UL. Samokatnaya D.1, STR. 2",
       "state": "Moscow",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

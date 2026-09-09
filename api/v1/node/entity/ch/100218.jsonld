@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/100218",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/100218",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Dajmar Mohammad Hossein",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Dajmar Mohammad Hossein",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/100218"
   ],
   "remarks": "As former Chairman and Managing Director of IRISL he is associated with IRISL. He is also the former Chairman of Soroush Sarzamin Asatir Ship Management Co. (SSA), Safiran Payam Darya Shipping Co. (SAPID), and Hafiz Darya Shipping Co. (HDS), known IRISL affiliates.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1956-02-19",
-      "circa": false
+      "circa": false,
+      "year": 1956
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

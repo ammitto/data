@@ -1,24 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8668",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/8668",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Narmina DADASHOVA",
+      "@type": "NameVariant",
+      "fullName": "Narmina DADASHOVA",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "Director and beneficial owner of ALT CAPITAL; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2026",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8668"
   ],
-  "birth_info": [
+  "remarks": "Director and beneficial owner of ALT CAPITAL; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2026",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1982
     }
   ],
   "nationalities": [
     "Singapore"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

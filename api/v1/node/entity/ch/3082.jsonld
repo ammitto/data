@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/3082",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/3082",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Shareif Adam",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Shareif Adam",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/3082"
   ],
   "remarks": "Sudanese Liberation Army (SLA) Commander.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1970-01-01",
-      "circa": false
+      "circa": false,
+      "year": 1970
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

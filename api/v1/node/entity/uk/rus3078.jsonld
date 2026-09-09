@@ -1,47 +1,67 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus3078",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus3078",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "PUBLIC JOINT-STOCK COMPANY SOCIAL COMMERCIAL BANK OF PRIMORYE PRIMSOTSBANK ",
+      "@type": "NameVariant",
+      "fullName": "PUBLIC JOINT-STOCK COMPANY SOCIAL COMMERCIAL BANK OF PRIMORYE PRIMSOTSBANK ",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "PJS SCBP PRIMSOTSBANK ",
+      "@type": "NameVariant",
+      "fullName": "PJS SCBP PRIMSOTSBANK ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "PRIMSOTSBANK ",
+      "@type": "NameVariant",
+      "fullName": "PRIMSOTSBANK ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "ПУБЛИЧНОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО СОЦИАЛЬНЫЙ КОММЕРЧЕСКИЙ БАНК ПРИМОРЬЯ «ПРИМСОЦБАНК»  ",
+      "@type": "NameVariant",
+      "fullName": "ПУБЛИЧНОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО СОЦИАЛЬНЫЙ КОММЕРЧЕСКИЙ БАНК ПРИМОРЬЯ «ПРИМСОЦБАНК»  ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "ПАО СКБП ПРИМСОЦБАНК ",
+      "@type": "NameVariant",
+      "fullName": "ПАО СКБП ПРИМСОЦБАНК ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "ПРИМСОТСБАНК ",
+      "@type": "NameVariant",
+      "fullName": "ПРИМСОТСБАНК ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus3078"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "d.44, Partizanski Vladivostok, Primorsky region",
       "state": "VLADIVOSTOK",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

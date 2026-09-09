@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/7795",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/7795",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Djaló Idrissa Major",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Djaló Idrissa Major",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/7795"
   ],
   "remarks": "Point of Contact for the \"Military Command\" which has assumed responsibility for the coup d'état of 12 Apr 2012 and one of its most active members. He was one of the first officers to publicly assume his affiliation to the “Military Command”, having signed one of its first communiqués (no 5, dated 13 Apr 2012). Major Djaló also belongs to the Military Intelligence.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1954-12-18",
-      "circa": false
+      "circa": false,
+      "year": 1954
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

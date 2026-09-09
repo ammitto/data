@@ -1,37 +1,57 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7989",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7989",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Seid Mir Ahmad NOOSHIN",
+      "@type": "NameVariant",
+      "fullName": "Seid Mir Ahmad NOOSHIN",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Seyed Mirahmad NOOSHIN",
+      "@type": "NameVariant",
+      "fullName": "Seyed Mirahmad NOOSHIN",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Sayyed Mir Ahmad NUSHIN",
+      "@type": "NameVariant",
+      "fullName": "Sayyed Mir Ahmad NUSHIN",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Director of the Aerospace Industries Organization (AIO), a position he has held since 2020.; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons - Iran) Amendment (No. 3) Instrument 2024",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7989"
   ],
-  "birth_info": [
+  "remarks": "Director of the Aerospace Industries Organization (AIO), a position he has held since 2020.; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons - Iran) Amendment (No. 3) Instrument 2024",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1966
     },
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1966
     }
   ],
   "nationalities": [
     "Iran"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

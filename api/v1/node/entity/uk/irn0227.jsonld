@@ -1,27 +1,43 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/irn0227",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/irn0227",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "The Anzali Free Trade Industrial Zone Organisation",
+      "@type": "NameVariant",
+      "fullName": "The Anzali Free Trade Industrial Zone Organisation",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "بندرانزلی ",
+      "@type": "NameVariant",
+      "fullName": "بندرانزلی ",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/irn0227"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Bandar Anzali, Sefid River",
       "country": "Iran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

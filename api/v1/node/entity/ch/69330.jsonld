@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/69330",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/69330",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Burakov Sergey Dmitrievich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Burakov Sergey Dmitrievich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/69330"
   ],
   "remarks": "Lieutenant General Sergey Burakov is Commander of the North-Western District of the Russian National Guard. He also took part in Russia’s war of aggression against Ukraine, including the capture of the Chernobyl nuclear power plant. Therefore, Lieutenant General Sergey Burakov is supporting and implementing actions and policies which undermine and threaten the territorial integrity, sovereignty and independence of Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1970-08-31",
-      "circa": false
+      "circa": false,
+      "year": 1970
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

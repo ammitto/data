@@ -1,18 +1,34 @@
 {
-  "id": "https://www.ammitto.org/entity/nz/shp-118",
-  "entity_type": "vessel",
+  "@id": "https://www.ammitto.org/entity/nz/shp-118",
+  "@type": "VesselEntity",
+  "entityType": "vessel",
   "names": [
     {
-      "full_name": "Liteyny Prospect",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Liteyny Prospect",
+      "isPrimary": true
     }
   ],
-  "source_references": [
+  "sourceReferences": [
     {
-      "source_code": "nz",
-      "reference_number": "SHP-118"
+      "@type": "SourceReference",
+      "sourceCode": "nz",
+      "referenceNumber": "SHP-118",
+      "retrievedAt": "2026-09-09T16:30:44Z"
     }
   ],
-  "imo_number": "9256078",
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "linkedEntities": [
+
+  ],
+  "imoNumber": "9256078",
+  "previousNames": [
+
+  ],
+  "previousFlags": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/nz/consolidated-list/shp-118"
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

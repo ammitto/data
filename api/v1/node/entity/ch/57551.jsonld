@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/57551",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/57551",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Salami Hossein",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Salami Hossein",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/57551"
   ],
   "remarks": "Major-General Hossein Salami is the Commander of the Islamic Revolutionary Guard Corps, which supervises the development of Iran’s Unmanned Aerial Vehicle (UAV) programme as well as the transfer of UAVs abroad.",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1960
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

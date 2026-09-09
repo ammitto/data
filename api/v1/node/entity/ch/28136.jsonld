@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/28136",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/28136",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Bashirov Marat Faatovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Bashirov Marat Faatovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/28136"
   ],
   "remarks": "Former so-called “Prime Minister of the Council of Ministers of the Luhansk People’s Republic”, confirmed on 8 July 2014.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1964-01-20",
-      "circa": false
+      "circa": false,
+      "year": 1964
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

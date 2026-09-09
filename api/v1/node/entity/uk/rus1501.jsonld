@@ -1,34 +1,54 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus1501",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/rus1501",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MAMAKOVA",
-      "first_name": "Aelita",
+      "@type": "NameVariant",
+      "fullName": "MAMAKOVA",
+      "firstName": "Aelita",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Mamakowa",
-      "first_name": "Aelita",
+      "@type": "NameVariant",
+      "fullName": "Mamakowa",
+      "firstName": "Aelita",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Мамакова Аэлита Леонидовна",
+      "@type": "NameVariant",
+      "fullName": "Мамакова Аэлита Леонидовна",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus1501"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Prospekt Nikolskiy, Dom 2, Kvartira 71, Rabochiy poselok Kolkovo",
       "state": "Oblast Novosibirskaya"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

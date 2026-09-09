@@ -1,61 +1,81 @@
 {
-  "id": "https://www.ammitto.org/entity/au/1059",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/1059",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "DINNO AMOR ROSALEJOS PAREJA",
+      "@type": "NameVariant",
+      "fullName": "DINNO AMOR ROSALEJOS PAREJA",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Johnny Pareja",
+      "@type": "NameVariant",
+      "fullName": "Johnny Pareja",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Khalil Pareja  ",
+      "@type": "NameVariant",
+      "fullName": "Khalil Pareja  ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Mohammad ",
+      "@type": "NameVariant",
+      "fullName": "Mohammad ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Akmad ",
+      "@type": "NameVariant",
+      "fullName": "Akmad ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Mighty",
+      "@type": "NameVariant",
+      "fullName": "Mighty",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Rash",
+      "@type": "NameVariant",
+      "fullName": "Rash",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Member of the Rajah Solaiman Movement (listed under permanent reference number Qde.128). Father’s name is Amorsolo Jarabata Pareja. Mother’s name is Leonila Cambaya Rosalejos. Review pursuant to Security Council\nresolution 1822 (2008) was concluded on 13 May 2010. Review pursuant to Security Council resolution 2368\n(2017) was concluded on 4 Dec. 2019. Review pursuant to Security Council resolution 2610 (2021) was concluded on 30 October 2023.; Listing: Resolution 1735 (2006) Listed on: 4 June. 2008 (amended on 3 June 2009, 13 Dec. 2011,6 December 2019)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/1059"
   ],
-  "birth_info": [
+  "remarks": "Member of the Rajah Solaiman Movement (listed under permanent reference number Qde.128). Father’s name is Amorsolo Jarabata Pareja. Mother’s name is Leonila Cambaya Rosalejos. Review pursuant to Security Council\nresolution 1822 (2008) was concluded on 13 May 2010. Review pursuant to Security Council resolution 2368\n(2017) was concluded on 4 Dec. 2019. Review pursuant to Security Council resolution 2610 (2021) was concluded on 30 October 2023.; Listing: Resolution 1735 (2006) Listed on: 4 June. 2008 (amended on 3 June 2009, 13 Dec. 2011,6 December 2019)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1981,
       "country": "Cebu City"
     }
   ],
   "nationalities": [
     "Philippines"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Atimonana, Quezon Province, Philippines",
       "country": "Philippines"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

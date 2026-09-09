@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/51238",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/51238",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Zabrotsky Dmitry Alexandrovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Zabrotsky Dmitry Alexandrovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/51238"
   ],
   "remarks": "Dmitry Zabrotsky is the First Deputy Head of the Main Financial and Economic Department of the Ministry of Defence of Belarus.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1971-07-02",
-      "circa": false
+      "circa": false,
+      "year": 1971
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/53383",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/53383",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Sidorov Dmitry Sergeevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Sidorov Dmitry Sergeevich",
+      "isPrimary": true
     }
   ],
-  "remarks": "So-called ‘Minister of Culture, Sports and Youth’ of the so-called ‘Luhansk People's Republic’. In taking on and acting in this capacity, he has actively undermined the territorial integrity, sovereignty and independence of Ukraine.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/53383"
+  ],
+  "remarks": "Former so-called “Minister of Culture, Sports and Youth” of the so-called “Luhansk People’s Republic”. In taking on and acting in this capacity, Dmitry Sidorov has actively undermined the territorial integrity, sovereignty and independence of Ukraine.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1989-09-02",
-      "circa": false
+      "circa": false,
+      "year": 1989
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/5474",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/5474",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Barsukou Aliaksandr Piatrovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Barsukou Aliaksandr Piatrovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/5474"
   ],
   "remarks": "General, Chief of Minsk police. Since his appointment as Chief of Minsk police chief on 21 Oct 2011 he has been responsible, as commander, for the repression of approximately a dozen peaceful protesters in Minsk, who were later convicted for breaking the law on mass events. For several years he commanded police action against street protests of the opposition.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1965-04-29",
-      "circa": false
+      "circa": false,
+      "year": 1965
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

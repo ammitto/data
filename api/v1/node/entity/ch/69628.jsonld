@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/69628",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/69628",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Afzalov Viktor Musavirovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Afzalov Viktor Musavirovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/69628"
   ],
   "remarks": "Colonel-General Viktor Afzalov is Chief of the General Staff of the Russian Aerospace Forces since August 2018, and acting Commanderin-Chief of the Russian Aerospace Forces since 23 August 2023. As such, he is responsible for conducting air operations against Ukraine during Russia’s war of aggression against Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1968-06-09",
-      "circa": false
+      "circa": false,
+      "year": 1968
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

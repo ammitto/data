@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/90867",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/90867",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Budrevich Siarhei",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Budrevich Siarhei",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/90867"
   ],
   "remarks": "Siarhei Budrevich is a Belarusian judge of the Oktyabrsky District Court of the City of Minsk. He has issued politically motivated sentences concerning freedom of expression or freedom of assembly against Yuliya Kashaverava, Siarhei Paspelau, Siarhei Belski, Aliaksandr Mikhailau, Andrei Hryva, Siarhei Yupatau, Artsiom Isakau, and Aliaksandr Zhaliazousk, among others. Siarhei Budrevich is therefore responsible for the repression of civil society in Belarus.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1986-06-29",
-      "circa": false
+      "circa": false,
+      "year": 1986
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,61 +1,89 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/lib0046",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/lib0046",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "al-Fitouri",
-      "first_name": "Ahmad",
+      "@type": "NameVariant",
+      "fullName": "al-Fitouri",
+      "firstName": "Ahmad",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Al Ammu",
+      "@type": "NameVariant",
+      "fullName": "Al Ammu",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Al Dabbashi",
+      "@type": "NameVariant",
+      "fullName": "Al Dabbashi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Al-Ahwal",
+      "@type": "NameVariant",
+      "fullName": "Al-Ahwal",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Al-Dabachi",
+      "@type": "NameVariant",
+      "fullName": "Al-Dabachi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "The Uncle",
+      "@type": "NameVariant",
+      "fullName": "The Uncle",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "احمد عمر امحمد الفيتوري",
+      "@type": "NameVariant",
+      "fullName": "احمد عمر امحمد الفيتوري",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Listed pursuant to paragraphs 15 and 17 of resolution 1970 (Travel Ban, Asset Freeze) INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/notice/search/un/",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/lib0046"
+  ],
+  "remarks": "Listed pursuant to paragraphs 15 and 17 of resolution 1970 (Travel Ban, Asset Freeze) INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/notice/search/un/",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "state": "Dbabsha-Sabratah"
     },
     {
+      "@type": "Address",
+      "street": "",
       "state": "Zawiya",
       "country": "Libya"
     },
     {
+      "@type": "Address",
       "street": "Garabulli",
       "state": "Garabulli",
       "country": "Libya"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,22 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/au/6804",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/6804",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Sergei Mikhailovich PINCHUK",
+      "@type": "NameVariant",
+      "fullName": "Sergei Mikhailovich PINCHUK",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "Deputy Commander in Chief of the Black Sea Fleet; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 10) Instrument 2022",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/6804"
   ],
-  "birth_info": [
+  "remarks": "Deputy Commander in Chief of the Black Sea Fleet; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 10) Instrument 2022",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1971,
       "country": "Sevastopol"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

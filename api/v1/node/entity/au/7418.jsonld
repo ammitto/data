@@ -1,30 +1,47 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7418",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7418",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Sergey Alimovich MELIKOV",
+      "@type": "NameVariant",
+      "fullName": "Sergey Alimovich MELIKOV",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Sergei Alimovich MELIKOV",
+      "@type": "NameVariant",
+      "fullName": "Sergei Alimovich MELIKOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Member of the State Council for the Russian Federation, Head of the Republic of Dagestan; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 2) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7418"
   ],
-  "birth_info": [
+  "remarks": "Member of the State Council for the Russian Federation, Head of the Republic of Dagestan; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 2) Instrument 2023",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1965,
       "country": "Orekhovo-Zuevo"
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

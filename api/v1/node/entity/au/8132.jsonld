@@ -1,32 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8132",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/8132",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "AlfaStrakhovanie Joint Stock Company",
+      "@type": "NameVariant",
+      "fullName": "AlfaStrakhovanie Joint Stock Company",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Alfa Insurance",
+      "@type": "NameVariant",
+      "fullName": "Alfa Insurance",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "AlfaStrakhovanie Open Joint Stock Company",
+      "@type": "NameVariant",
+      "fullName": "AlfaStrakhovanie Open Joint Stock Company",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "https://www.alfastrah.ru/; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8132"
+  ],
+  "remarks": "https://www.alfastrah.ru/; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Shabolovka Street, 31-B, Moscow 115162 Russia",
       "country": "Moscow 115162 Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

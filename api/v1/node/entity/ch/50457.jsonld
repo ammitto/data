@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/50457",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/50457",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Simonenko Sergei Dmitrevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Simonenko Sergei Dmitrevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/50457"
   ],
   "remarks": "Sergei Simonenko is Major General, former Deputy Minister of Defence for Armament and Chief of Armament of the Republic of Belarus. He was part of the Belarusian army, which has supported and facilitated Russia’s war of aggression against Ukraine since 24 Feb 2022, in particular by hosting and participating in joint exercises of the armed forces of Belarus and Russia in the weeks preceding the armed aggression. In his former position as Major General and Deputy Minister of Defence for Armament of the Republic of Belarus, Sergei Simonenko was responsible for and actively supporting actions undermining the territorial integrity, sovereignty and independence of Ukraine, as well as stability and security in Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1968-04-02",
-      "circa": false
+      "circa": false,
+      "year": 1968
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

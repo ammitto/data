@@ -1,50 +1,71 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7651",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7651",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Lieutenant General Igor Nikolaevich TURCHENYUK",
+      "@type": "NameVariant",
+      "fullName": "Lieutenant General Igor Nikolaevich TURCHENYUK",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Lt. Gen. Igor Mykolayovich TURCHENYUK",
+      "@type": "NameVariant",
+      "fullName": "Lt. Gen. Igor Mykolayovich TURCHENYUK",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Igor Nikolaevich TURCHENYUK",
+      "@type": "NameVariant",
+      "fullName": "Igor Nikolaevich TURCHENYUK",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ihor Mykolayovych TURCHENYUK",
+      "@type": "NameVariant",
+      "fullName": "Ihor Mykolayovych TURCHENYUK",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Igor TURCHENYUK",
+      "@type": "NameVariant",
+      "fullName": "Igor TURCHENYUK",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Igor Nikoolaevich TURCHENYUK",
+      "@type": "NameVariant",
+      "fullName": "Igor Nikoolaevich TURCHENYUK",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Previously listed under 'Ukraine criteria' - Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Ukraine) Amendment List 2014 [F2014L01184]; New listing start date 27 Aug 2023; Listing: Instrument of first designation: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 10) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7651"
   ],
-  "birth_info": [
+  "remarks": "Previously listed under 'Ukraine criteria' - Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Ukraine) Amendment List 2014 [F2014L01184]; New listing start date 27 Aug 2023; Listing: Instrument of first designation: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 10) Instrument 2023",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1959,
       "country": "Osh"
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

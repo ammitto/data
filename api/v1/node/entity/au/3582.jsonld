@@ -1,61 +1,81 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3582",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/3582",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ahmad Oumar Imhamad al-Fitouri",
+      "@type": "NameVariant",
+      "fullName": "Ahmad Oumar Imhamad al-Fitouri",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Al-Dabachi",
+      "@type": "NameVariant",
+      "fullName": "Al-Dabachi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Al Ammu",
+      "@type": "NameVariant",
+      "fullName": "Al Ammu",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "The Uncle",
+      "@type": "NameVariant",
+      "fullName": "The Uncle",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Al-Ahwal",
+      "@type": "NameVariant",
+      "fullName": "Al-Ahwal",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "احمد عمر امحمد الفيتوري",
+      "@type": "NameVariant",
+      "fullName": "احمد عمر امحمد الفيتوري",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Al Dabbashi",
+      "@type": "NameVariant",
+      "fullName": "Al Dabbashi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "LYi.023. Designation: Commander of the Anas al-Dabbashi militia, Leader of a transnational trafficking network. Listed pursuant to paragraphs 15 and 17 of resolution 1970 (Travel Ban, Asset Freeze).; Listing: Listed on: 7 Jun. 2018 (amended on 17 Sep. 2018)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3582"
   ],
-  "birth_info": [
+  "remarks": "LYi.023. Designation: Commander of the Anas al-Dabbashi militia, Leader of a transnational trafficking network. Listed pursuant to paragraphs 15 and 17 of resolution 1970 (Travel Ban, Asset Freeze).; Listing: Listed on: 7 Jun. 2018 (amended on 17 Sep. 2018)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1988,
       "country": "(possibly Sabratha"
     }
   ],
   "nationalities": [
     "Libya"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "a) Garabulli, Libya b) Zawiya, Libya",
       "country": "Libya"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

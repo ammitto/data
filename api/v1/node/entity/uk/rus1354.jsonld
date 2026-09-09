@@ -1,43 +1,62 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus1354",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus1354",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Radiotechnical and Information Systems Concern",
+      "@type": "NameVariant",
+      "fullName": "Radiotechnical and Information Systems Concern",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "AO RTI",
+      "@type": "NameVariant",
+      "fullName": "AO RTI",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "JSC RTI",
+      "@type": "NameVariant",
+      "fullName": "JSC RTI",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Радиотехнические и Информационные Системы",
+      "@type": "NameVariant",
+      "fullName": "Радиотехнические и Информационные Системы",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "AO РТИ",
+      "@type": "NameVariant",
+      "fullName": "AO РТИ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "INN: 7713269230 The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus1354"
+  ],
+  "remarks": "INN: 7713269230 The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "8 Marta Street, 10, building 1",
       "state": "Moscow",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

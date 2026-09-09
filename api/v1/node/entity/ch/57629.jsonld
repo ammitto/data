@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/57629",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/57629",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Nkalubo Meddie",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Nkalubo Meddie",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/57629"
   ],
   "remarks": "Meddie Nkalubo is a senior leader of the Allied Democratic Forces (ADF), a non-governmental armed group operating in Uganda, Rwanda and the Eastern DRC. He has been identified as holding various responsibilities in the ADF, including communication and propaganda, recruitment, fabrication of arms, and rapprochement with ISIL (Da’esh). Meddie Nkalubo has also been identified as the leading figure in charge of the ADF’s external operations, tasked with organising and overseeing its external financing and coordinating the flow of ISIL (Da’esh) funds towards the ADF.",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1987
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

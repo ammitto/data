@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/46981",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/46981",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kuznetsov Aleksandr Sergeevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kuznetsov Aleksandr Sergeevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/46981"
   ],
   "remarks": "Aleksandr Sergeevich Kuznetsov belongs to the command structure of the Wagner Group, a Russia-based unincorporated private military entity. He took command of the 1st Attack and Reconnaissance Company of the Wagner Group in 2014. He was injured in Sep 2019 in Libya while fighting alongside the Libyan National Liberation Army (NLA) as commander of the Wagner Group’s military operatives. Through his position and actions, Kuznetsov is responsible for the Wagner Group’s activities that threaten the peace, stability and security of Libya.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1977-10-08",
-      "circa": false
+      "circa": false,
+      "year": 1977
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,59 +1,83 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus1120",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/rus1120",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "IVANOV",
-      "first_name": "Sergei",
+      "@type": "NameVariant",
+      "fullName": "IVANOV",
+      "firstName": "Sergei",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "IVANOV",
-      "first_name": "Sergei",
+      "@type": "NameVariant",
+      "fullName": "IVANOV",
+      "firstName": "Sergei",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "IVANOV",
-      "first_name": "Sergejj",
+      "@type": "NameVariant",
+      "fullName": "IVANOV",
+      "firstName": "Sergejj",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "IVANOV",
-      "first_name": "Sergey",
+      "@type": "NameVariant",
+      "fullName": "IVANOV",
+      "firstName": "Sergey",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "IVANOV JR.",
-      "first_name": "Sergey",
+      "@type": "NameVariant",
+      "fullName": "IVANOV JR.",
+      "firstName": "Sergey",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Iwanow",
-      "first_name": "Sergei",
+      "@type": "NameVariant",
+      "fullName": "Iwanow",
+      "firstName": "Sergei",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Сергей Сергеевич Иванов ",
+      "@type": "NameVariant",
+      "fullName": "Сергей Сергеевич Иванов ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus1120"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Apt 13, 12 BLD, 1 Rochdelskaya Street",
       "state": "Moscow",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

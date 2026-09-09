@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/27325",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/27325",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ozerov Viktor Alekseevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Ozerov Viktor Alekseevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/27325"
   ],
   "remarks": "Former Chairman of the Security and Defence Committee of the Federation Council of the Russian Federation",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1958-01-05",
-      "circa": false
+      "circa": false,
+      "year": 1958
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

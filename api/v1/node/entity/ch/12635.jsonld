@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/12635",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/12635",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Qusay Ibrahim Mihoub Colonel",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Qusay Ibrahim Mihoub Colonel",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/12635"
   ],
   "remarks": "High-ranking officer at the Syrian Air Force Intelligence Service under the former al-Assad regime. Former Head of the Deraa branch of the air force’s intelligence service (sent from Damascus to Deraa at the start of demonstrations there). Responsible for the torture of opponents in custody as well as the violent repression of peaceful protests in the southern region.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1961-04-15",
-      "circa": false
+      "circa": false,
+      "year": 1961
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

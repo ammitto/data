@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/45791",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/45791",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Shapetska Yauhen Andreevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Shapetska Yauhen Andreevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/45791"
   ],
   "remarks": "In his position as the Head of the Akrestina Isolation Centre for Offenders, Yauhen Shapetska is responsible for appalling conditions in the isolation centre and for the inhumane and degrading treatment, including torture, inflicted on citizens who participated in peaceful protests and were detained in this detention facility in the wake of the 2020 presidential election. He is therefore responsible for serious violations of human rights and for the repression of civil society and democratic opposition.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1989-03-30",
-      "circa": false
+      "circa": false,
+      "year": 1989
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

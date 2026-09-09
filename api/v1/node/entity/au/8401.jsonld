@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8401",
-  "entity_type": "vessel",
+  "@id": "https://www.ammitto.org/entity/au/8401",
+  "@type": "VesselEntity",
+  "entityType": "vessel",
   "names": [
     {
-      "full_name": "JASMINE",
+      "@type": "NameVariant",
+      "fullName": "JASMINE",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "ZALIV AMURSKIY",
+      "@type": "NameVariant",
+      "fullName": "ZALIV AMURSKIY",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Previous names include ZALIV AMURSKIY; Listing: Designated as a sanctioned vessel in the Autonomous Sanctions (Sanctioned Vessels – Russia) Designation 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8401"
   ],
-  "imo_number": "9354313",
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "remarks": "Previous names include ZALIV AMURSKIY; Listing: Designated as a sanctioned vessel in the Autonomous Sanctions (Sanctioned Vessels – Russia) Designation 2025",
+  "imoNumber": "9354313",
+  "previousNames": [
+
+  ],
+  "previousFlags": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

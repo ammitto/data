@@ -1,32 +1,55 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/syr0421",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/syr0421",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "BOULAD",
-      "first_name": "Sayf",
+      "@type": "NameVariant",
+      "fullName": "BOULAD",
+      "firstName": "Sayf",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Bakr",
-      "first_name": "Abu",
+      "@type": "NameVariant",
+      "fullName": "Bakr",
+      "firstName": "Abu",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "سيف الدين بولاد ",
+      "@type": "NameVariant",
+      "fullName": "سيف الدين بولاد ",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "أبو بكر ",
+      "@type": "NameVariant",
+      "fullName": "أبو بكر ",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/syr0421"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

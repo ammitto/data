@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/75289",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/75289",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Manucharov Vyacheslav Rafaelevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Manucharov Vyacheslav Rafaelevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/75289"
   ],
   "remarks": "Vyacheslav Manucharov is a Russian TV presenter, blogger and actor. He is the host of a show called “Empatiya Manuchi”.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1981-10-06",
-      "circa": false
+      "circa": false,
+      "year": 1981
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

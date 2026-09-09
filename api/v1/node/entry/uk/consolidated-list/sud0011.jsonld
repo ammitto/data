@@ -1,39 +1,55 @@
 {
-  "id": "https://www.ammitto.org/entry/uk/consolidated-list/sud0011",
-  "entity_id": "https://www.ammitto.org/entity/uk/sud0011",
+  "@id": "https://www.ammitto.org/entry/uk/consolidated-list/sud0011",
+  "@type": "SanctionEntry",
+  "entityId": "https://www.ammitto.org/entity/uk/sud0011",
   "authority": {
     "@id": "https://www.ammitto.org/authority/uk"
   },
   "regime": {
-    "@id": "https://www.ammitto.org/regime/the_sudan_sanctions_eu_exit_regulations_2020"
+    "@id": "https://www.ammitto.org/regime/the_sudan_sanctions_eu_exit_regulations_2020",
+    "name": "The Sudan (Sanctions) (EU Exit) Regulations 2020"
   },
+  "legalBases": [
+
+  ],
   "effects": [
     {
-      "effect_type": "asset_freeze",
+      "@type": "SanctionEffect",
+      "effectType": "asset_freeze",
       "scope": "full"
     },
     {
-      "effect_type": "debarment",
+      "@type": "SanctionEffect",
+      "effectType": "debarment",
       "scope": "full"
     }
   ],
+  "reasons": [
+
+  ],
   "period": {
-    "listed_date": "2023-07-12",
-    "effective_date": "2023-07-12",
-    "is_indefinite": true,
-    "last_updated": "2025-04-09"
+    "@type": "TemporalPeriod",
+    "listedDate": "2023-07-12",
+    "effectiveDate": "2023-07-12",
+    "isIndefinite": true,
+    "lastUpdated": "2025-04-09"
   },
   "status": "active",
-  "reference_number": "SUD0011",
+  "statusHistory": [
+
+  ],
+  "referenceNumber": "SUD0011",
   "remarks": "\nZadna\n International Company for Investment Limited (ZANDA COMPANY LTD) is an involved person under the Sudan (Sanctions) (EU Exit) Regulations 2020 as it is associated with the Sudanese Armed Forces (SAF), an involved person. It provides support to the SAF, and funding for activity which threatens the peace, stability and security of Sudan. It is an involved person by carrying out activity that undermines efforts at resolving the conflict. \n",
-  "raw_source_data": {
-    "source_format": "xml",
-    "source_specific_fields": {
+  "rawSourceData": {
+    "@type": "RawSourceData",
+    "sourceFormat": "xml",
+    "sourceSpecificFields": {
       "uk:ofsiGroupId": "16009",
+      "uk:unReferenceNumber": null,
       "uk:designationSource": "UK",
       "uk:sanctionsImposed": "Asset freeze|Director Disqualification Sanction",
       "uk:entityType": "Entity"
     }
   },
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

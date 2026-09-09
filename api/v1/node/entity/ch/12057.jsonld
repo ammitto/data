@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/12057",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/12057",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mohammad Al-Shaar",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Mohammad Al-Shaar",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/12057"
   ],
   "remarks": "Political Security Division. Military official under the former al-Assad regime involved in the violence in Homs.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1950-10-01",
-      "circa": false
+      "circa": false,
+      "year": 1950
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

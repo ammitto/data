@@ -1,29 +1,48 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus1718",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/rus1718",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "NIYAZI-ANGILI",
-      "first_name": "Majid Reza",
+      "@type": "NameVariant",
+      "fullName": "NIYAZI-ANGILI",
+      "firstName": "Majid Reza",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "مجید رضا نیازی انگیلی",
+      "@type": "NameVariant",
+      "fullName": "مجید رضا نیازی انگیلی",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus1718"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Km 5 Karaj Special Road, Unit (or suite) 207 Saleh Boulevard, Basiri Building Tarasht., Tarajit Maydane Taymori Square",
       "state": "Tehran",
       "country": "Iran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

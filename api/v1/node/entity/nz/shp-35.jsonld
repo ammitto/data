@@ -1,18 +1,34 @@
 {
-  "id": "https://www.ammitto.org/entity/nz/shp-35",
-  "entity_type": "vessel",
+  "@id": "https://www.ammitto.org/entity/nz/shp-35",
+  "@type": "VesselEntity",
+  "entityType": "vessel",
   "names": [
     {
-      "full_name": "Regal I",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Regal I",
+      "isPrimary": true
     }
   ],
-  "source_references": [
+  "sourceReferences": [
     {
-      "source_code": "nz",
-      "reference_number": "SHP-35"
+      "@type": "SourceReference",
+      "sourceCode": "nz",
+      "referenceNumber": "SHP-35",
+      "retrievedAt": "2026-09-09T16:30:45Z"
     }
   ],
-  "imo_number": "9247431",
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "linkedEntities": [
+
+  ],
+  "imoNumber": "9247431",
+  "previousNames": [
+
+  ],
+  "previousFlags": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/nz/consolidated-list/shp-35"
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

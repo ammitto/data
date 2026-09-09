@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/86386",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/86386",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mohammed Masood Azhar Alvi",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Mohammed Masood Azhar Alvi",
+      "isPrimary": true
     }
   ],
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/86386"
+  ],
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1968-07-10",
-      "circa": false
+      "circa": false,
+      "year": 1968
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

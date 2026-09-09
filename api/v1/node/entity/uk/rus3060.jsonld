@@ -1,36 +1,54 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus3060",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus3060",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "S-MIKRON ELEKTRONIK ELEKTRIK SANAYI TAAHHUT TICARET ANONIM SIRKETI",
+      "@type": "NameVariant",
+      "fullName": "S-MIKRON ELEKTRONIK ELEKTRIK SANAYI TAAHHUT TICARET ANONIM SIRKETI",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "S Micron Electronic Electrical Industry Contracting Trade Joint Stock Company ",
+      "@type": "NameVariant",
+      "fullName": "S Micron Electronic Electrical Industry Contracting Trade Joint Stock Company ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "S-MIKRON ELEKTRONIK",
+      "@type": "NameVariant",
+      "fullName": "S-MIKRON ELEKTRONIK",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "S-MİKRON ELEKTRONİK ELEKTRİK SANAYİ TAAHHÜT TİCARET ANONİM ŞİRKET ",
+      "@type": "NameVariant",
+      "fullName": "S-MİKRON ELEKTRONİK ELEKTRİK SANAYİ TAAHHÜT TİCARET ANONİM ŞİRKET ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus3060"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Nilufer Ticaret Merkezi 66. Sokak No:8 Nilufar / Bursa",
       "country": "Turkey"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,39 +1,59 @@
 {
-  "id": "https://www.ammitto.org/entity/au/706",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/706",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "ALI SADDAM HUSSEIN AL-TIKRITI",
+      "@type": "NameVariant",
+      "fullName": "ALI SADDAM HUSSEIN AL-TIKRITI",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "علي صدام حسين التكريتي",
+      "@type": "NameVariant",
+      "fullName": "علي صدام حسين التكريتي",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Hassan",
+      "@type": "NameVariant",
+      "fullName": "Hassan",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "IQi.061; Listing: Listed by the 1518 Committee",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/706"
   ],
-  "birth_info": [
+  "remarks": "IQi.061; Listing: Listed by the 1518 Committee",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1980,
       "country": "Iraq"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1983,
       "country": "Iraq"
     }
   ],
   "nationalities": [
     "Iraq"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

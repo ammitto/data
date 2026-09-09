@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/83516",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/83516",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Fazal Rahim",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Fazal Rahim",
+      "isPrimary": true
     }
   ],
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/83516"
+  ],
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1974-01-05",
-      "circa": false
+      "circa": false,
+      "year": 1974
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

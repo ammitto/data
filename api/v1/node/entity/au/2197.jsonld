@@ -1,42 +1,61 @@
 {
-  "id": "https://www.ammitto.org/entity/au/2197",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/2197",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "YARSANAT",
+      "@type": "NameVariant",
+      "fullName": "YARSANAT",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Yar Sanat",
+      "@type": "NameVariant",
+      "fullName": "Yar Sanat",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Yarestan Vacuumi",
+      "@type": "NameVariant",
+      "fullName": "Yarestan Vacuumi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Yarsanat Co. Ltd.",
+      "@type": "NameVariant",
+      "fullName": "Yarsanat Co. Ltd.",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Yar San’at",
+      "@type": "NameVariant",
+      "fullName": "Yar San’at",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Listing: Designated under the Autonomous Sanctions Regulations 2011 on 2 March 2012. Instrument of first designation Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Iran) List 2012 [F2012L00479]. Relisted on 12 January 2024.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/2197"
+  ],
+  "remarks": "Listing: Designated under the Autonomous Sanctions Regulations 2011 on 2 March 2012. Instrument of first designation Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Iran) List 2012 [F2012L00479]. Relisted on 12 January 2024.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "No. 101, West Zardosht St, 3rd Floor, 14157 Tehran, Iran;\nNo. 139 Hoveyzeh St, 15337, Tehran, Iran",
       "country": "Iran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

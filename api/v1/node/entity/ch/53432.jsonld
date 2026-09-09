@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/53432",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/53432",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Makeeva Olga Alexandrovna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Makeeva Olga Alexandrovna",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/53432"
   ],
   "remarks": "Former Member of the so-called “People’s Council” of the so-called “Donetsk People’s Republic”. She was appointed “Ambassador Extraordinary and Plenipotentiary of the Donetsk People’s Republic to the Russian Federation”. Has therefore supported and implemented actions and policies which undermine the territorial integrity, sovereignty and independence of Ukraine, and further destabilised Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
-      "date": "1974-11-21",
-      "circa": false
+      "@type": "BirthInfo",
+      "date": "1974-01-21",
+      "circa": false,
+      "year": 1974
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

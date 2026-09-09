@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/97280",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/97280",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mohajerani Hamid-Reza",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Mohajerani Hamid-Reza",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/97280"
   ],
   "remarks": "Designated for involvement in production management at the Uranium Conversion Facility (UCF) at Esfahan.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1977-09-09",
-      "circa": false
+      "circa": false,
+      "year": 1977
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,46 +1,63 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3594",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/3594",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Muhammed Reza Lahaman Kiram",
+      "@type": "NameVariant",
+      "fullName": "Muhammed Reza Lahaman Kiram",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Abdul Rahman",
+      "@type": "NameVariant",
+      "fullName": "Abdul Rahman",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abu Abdul Rahman al Filipini",
+      "@type": "NameVariant",
+      "fullName": "Abu Abdul Rahman al Filipini",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abtol Rahman",
+      "@type": "NameVariant",
+      "fullName": "Abtol Rahman",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Passport no: a) Philippines number XX3966391, issued on 25 Feb. 2015 (issued by the Department of Foreign\nAffairs of Philippines, expiration date 24 Feb. 2020) b) Philippines number EC3524065. Senior member of Islamic State in Iraq and the Levant (ISIL), listed as Al-Qaida in Iraq (QDe.115). Recruited for ISIL and instructed individuals to perpetrate terrorist acts via online video.  Physical description: height: 156cm; weight: 60 kg (as at\nSep. 2016); eye colour: black; hair colour: black; build: medium; high cheekbones. Speaks Tagalog, English, Arabic. Review pursuant to Security Council resolution 2610 (2021) was concluded on 30 October 2023.; Listing: Listed on: 23 Aug. 2018",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3594"
   ],
-  "birth_info": [
+  "remarks": "Passport no: a) Philippines number XX3966391, issued on 25 Feb. 2015 (issued by the Department of Foreign\nAffairs of Philippines, expiration date 24 Feb. 2020) b) Philippines number EC3524065. Senior member of Islamic State in Iraq and the Levant (ISIL), listed as Al-Qaida in Iraq (QDe.115). Recruited for ISIL and instructed individuals to perpetrate terrorist acts via online video.  Physical description: height: 156cm; weight: 60 kg (as at\nSep. 2016); eye colour: black; hair colour: black; build: medium; high cheekbones. Speaks Tagalog, English, Arabic. Review pursuant to Security Council resolution 2610 (2021) was concluded on 30 October 2023.; Listing: Listed on: 23 Aug. 2018",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1990,
       "country": "Zamboanga City"
     }
   ],
   "nationalities": [
     "Philippines"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "a) Brgy Recodo, Zamboanga City, Western Mindanao, Philippines (previous address) b) 96 IlangIlang, Sarmiento Subdivision, Panabo, Davao City, Eastern Mindanao, Philippines (previous address) c) Syrian Arab Republic (location since 2015)",
       "country": "Philippines (previous address) c) Syrian Arab Republic (location since 2015)"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

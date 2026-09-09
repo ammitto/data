@@ -1,44 +1,63 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus2396",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus2396",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "SUZHOU PARSUN POWER MACHINE CO., LTD.  ",
+      "@type": "NameVariant",
+      "fullName": "SUZHOU PARSUN POWER MACHINE CO., LTD.  ",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "SUZHOU BAISHENG POWER",
+      "@type": "NameVariant",
+      "fullName": "SUZHOU BAISHENG POWER",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "SUZHOU BAISHENG POWER MACHINERY CO., LTD.",
+      "@type": "NameVariant",
+      "fullName": "SUZHOU BAISHENG POWER MACHINERY CO., LTD.",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "SUZHOU YUM POWER MACHINERY CO., LTD.",
+      "@type": "NameVariant",
+      "fullName": "SUZHOU YUM POWER MACHINERY CO., LTD.",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "苏州百胜动力机器股份有限公司 ",
+      "@type": "NameVariant",
+      "fullName": "苏州百胜动力机器股份有限公司 ",
       "script": "Hani",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus2396"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "No. 567, Liangang Road, Xushugian Development Zone",
       "city": "Jiangsu",
       "state": "Suzhou City",
       "country": "China"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

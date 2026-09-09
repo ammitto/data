@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/38167",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/38167",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mupompa Alex Kande",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Mupompa Alex Kande",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/38167"
   ],
   "remarks": "As Governor of Kasai Central until October 2017, Alex Kande Mupompa was responsible for the disproportionate use of force, violent repression and extrajudicial killings committed by security forces and the Congolese National Police (PNC) in Kasai Central from August 2016, including killings in the territory of Dibaya in February 2017.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1950-09-23",
-      "circa": false
+      "circa": false,
+      "year": 1950
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

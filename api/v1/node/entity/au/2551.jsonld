@@ -1,43 +1,65 @@
 {
-  "id": "https://www.ammitto.org/entity/au/2551",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/2551",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Abdul Rauf Zakir",
+      "@type": "NameVariant",
+      "fullName": "Abdul Rauf Zakir",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "عبد الروف ذاکر",
+      "@type": "NameVariant",
+      "fullName": "عبد الروف ذاکر",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Qari Zakir",
+      "@type": "NameVariant",
+      "fullName": "Qari Zakir",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "TAi.164 Chief of suicide operations for the Haqqani Network\n\n(TE.H.12.12.) under Sirajuddin Jallaloudine Haqqani (TI.H.144.07.) and in charge of all\n\noperations in Kabul, Takhar, Kunduz and Baghlan provinces. Oversees training of\n\nsuicide attackers and provides instructions on how to construct improvised explosives\n\ndevices (IEDs). Reportedly deceased as of 22 September 2018.; Listing: Listed on 5 November 2012 (amended on 31 May 2013, 15 Apr. 2026)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/2551"
   ],
-  "birth_info": [
+  "remarks": "TAi.164 Chief of suicide operations for the Haqqani Network\n\n(TE.H.12.12.) under Sirajuddin Jallaloudine Haqqani (TI.H.144.07.) and in charge of all\n\noperations in Kabul, Takhar, Kunduz and Baghlan provinces. Oversees training of\n\nsuicide attackers and provides instructions on how to construct improvised explosives\n\ndevices (IEDs). Reportedly deceased as of 22 September 2018.; Listing: Listed on 5 November 2012 (amended on 31 May 2013, 15 Apr. 2026)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1969,
       "country": "Kabul Province"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1970,
       "country": "Afghanistan"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1971,
       "country": "Kabul Province"
     }
   ],
   "nationalities": [
     "Afghanistan"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

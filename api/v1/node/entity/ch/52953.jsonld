@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/52953",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/52953",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kuprin Anton Valerevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kuprin Anton Valerevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/52953"
   ],
   "remarks": "Anton Valerevich Kuprin is the Captain of the frigate “Admiral Essen” of the Russian Black Sea fleet. The frigate “Admiral Essen” is contributing to Russia’s war efforts in the Black Sea. Anton Valerevich Kuprin is therefore responsible for actions undermining or threatening the territorial integrity, sovereignty and independence of Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1978-08-03",
-      "circa": false
+      "circa": false,
+      "year": 1978
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

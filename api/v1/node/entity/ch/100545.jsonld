@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/100545",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/100545",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ikan Ilya Valerievich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Ikan Ilya Valerievich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/100545"
   ],
   "remarks": "Ilya Ikan is the Chairman of the Belarusian State Concern for Oil and Chemistry (Belneftekhim).",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1981-01-10",
-      "circa": false
+      "circa": false,
+      "year": 1981
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

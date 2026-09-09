@@ -1,37 +1,55 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8718",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/8718",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Joint Stock Company Severgazbank",
+      "@type": "NameVariant",
+      "fullName": "Joint Stock Company Severgazbank",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "SEVERGAZBANK",
+      "@type": "NameVariant",
+      "fullName": "SEVERGAZBANK",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "AO BANK SGB",
+      "@type": "NameVariant",
+      "fullName": "AO BANK SGB",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "BANK SGB",
+      "@type": "NameVariant",
+      "fullName": "BANK SGB",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Website: https://severgazbank.ru/; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2026",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8718"
+  ],
+  "remarks": "Website: https://severgazbank.ru/; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2026",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "3, Blagoveschenskaya Ul., Vologda, 160001, Russia",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

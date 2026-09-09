@@ -1,37 +1,55 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus3076",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus3076",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "JSC NATIONAL CARD PAYMENT SYSTEM (NSPK)",
+      "@type": "NameVariant",
+      "fullName": "JSC NATIONAL CARD PAYMENT SYSTEM (NSPK)",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "NSPK JSC",
+      "@type": "NameVariant",
+      "fullName": "NSPK JSC",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Национальная система платёжных карт ",
+      "@type": "NameVariant",
+      "fullName": "Национальная система платёжных карт ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "АО НСПК",
+      "@type": "NameVariant",
+      "fullName": "АО НСПК",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus3076"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "UL. BOLSHAYA TATARSKAYA D. 11",
       "state": "Moscow",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

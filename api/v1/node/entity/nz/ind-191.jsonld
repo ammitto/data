@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/nz/ind-191",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/nz/ind-191",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Alexey Borisovich Govyrin",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Alexey Borisovich Govyrin",
+      "isPrimary": true
     }
   ],
-  "source_references": [
+  "sourceReferences": [
     {
-      "source_code": "nz",
-      "reference_number": "IND-191"
+      "@type": "SourceReference",
+      "sourceCode": "nz",
+      "referenceNumber": "IND-191",
+      "retrievedAt": "2026-09-09T16:30:43Z"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "linkedEntities": [
+
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/nz/consolidated-list/ind-191"
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

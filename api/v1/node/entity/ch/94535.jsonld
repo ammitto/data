@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/94535",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/94535",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Beșchieru Alexandru",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Beșchieru Alexandru",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/94535"
   ],
   "remarks": "Alexandru Beșchieru is the leader of the “Forța de Alternativă și de Salvare a Moldovei” (“FASM”) political party, which is one of the successors of the outlawed ȘOR political party, led by Ilan Shor. In April 2024, Ilan Shor launched in Moscow the Victory/Pobeda Political Bloc, which unites the successors of his party, including FASM.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1990-07-05",
-      "circa": false
+      "circa": false,
+      "year": 1990
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

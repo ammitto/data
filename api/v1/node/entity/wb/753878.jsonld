@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/753878",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/753878",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "BARAKA QURILISH SERVIS LLC",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "BARAKA QURILISH SERVIS LLC",
+      "isPrimary": true
     }
   ],
-  "remarks": "*651",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/753878"
+  ],
+  "remarks": "*651",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "35 A BEGMATOV ST.",
       "city": "GULISTAN CITY, SYRDARYA REGION",
       "country": "Uzbekistan",
-      "country_iso_code": "UZ"
+      "countryIsoCode": "UZ"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

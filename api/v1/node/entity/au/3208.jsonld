@@ -1,29 +1,46 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3208",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/3208",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Cho Chun Ryong",
+      "@type": "NameVariant",
+      "fullName": "Cho Chun Ryong",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Jo Chun Ryong",
+      "@type": "NameVariant",
+      "fullName": "Jo Chun Ryong",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "KPi.038 Chairman of the Second Economic Committee (SEC); Listing: Listed on: 30 Nov. 2016",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3208"
   ],
-  "birth_info": [
+  "remarks": "KPi.038 Chairman of the Second Economic Committee (SEC); Listing: Listed on: 30 Nov. 2016",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1960
     }
   ],
   "nationalities": [
     "Democratic People's Republic of Korea (North Korea)"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

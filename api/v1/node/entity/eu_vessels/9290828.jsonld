@@ -1,18 +1,34 @@
 {
-  "id": "https://www.ammitto.org/entity/eu_vessels/9290828",
-  "entity_type": "vessel",
+  "@id": "https://www.ammitto.org/entity/eu_vessels/9290828",
+  "@type": "VesselEntity",
+  "entityType": "vessel",
   "names": [
     {
-      "full_name": "Dorin (formerly E Mei Shan)",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Dorin (formerly E Mei Shan)",
+      "isPrimary": true
     }
   ],
-  "source_references": [
+  "sourceReferences": [
     {
-      "source_code": "eu_vessels",
-      "reference_number": "9290828"
+      "@type": "SourceReference",
+      "sourceCode": "eu_vessels",
+      "referenceNumber": "9290828",
+      "retrievedAt": "2026-09-09T16:30:54Z"
     }
   ],
-  "imo_number": "9290828",
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "linkedEntities": [
+
+  ],
+  "imoNumber": "9290828",
+  "previousNames": [
+
+  ],
+  "previousFlags": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/eu_vessels/vessel-sanctions-list/9290828"
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

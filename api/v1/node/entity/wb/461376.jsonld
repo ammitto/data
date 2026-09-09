@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/461376",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/461376",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "SWANSEA TOOLS RESOURCES",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "SWANSEA TOOLS RESOURCES",
+      "isPrimary": true
     }
   ],
-  "remarks": "*537",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/461376"
+  ],
+  "remarks": "*537",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "PLOT 28 GOVT HOUSE/ILLAH ROAD, OPPOSITE NELROSE HOTEL, GRA",
       "city": "ASABA, DELTA STATE",
       "country": "Nigeria",
-      "country_iso_code": "NG"
+      "countryIsoCode": "NG"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

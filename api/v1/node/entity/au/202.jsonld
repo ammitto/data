@@ -1,37 +1,55 @@
 {
-  "id": "https://www.ammitto.org/entity/au/202",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/202",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "JAM'YAH TA'AWUN AL-ISLAMIA",
+      "@type": "NameVariant",
+      "fullName": "JAM'YAH TA'AWUN AL-ISLAMIA",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Society of Islamic Cooperation",
+      "@type": "NameVariant",
+      "fullName": "Society of Islamic Cooperation",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Jam'iyat Al Ta'awun Al Islamiyya",
+      "@type": "NameVariant",
+      "fullName": "Jam'iyat Al Ta'awun Al Islamiyya",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Jit",
+      "@type": "NameVariant",
+      "fullName": "Jit",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "QDe.020. Founded by Usama Mohammad Awad bin Laden (deceased) in 2001. Review pursuant to Security Council resolution 1822 (2008) was concluded on 21 Jun. 2010. Review pursuant to Security Council resolution 2368 (2017) was concluded on 15 November 2021.; Listing: Listed by the 1267 Committee on 17 Oct. 2001 ( amended on 13 Dec. 2011, 15 Nov. 2021 )",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/202"
+  ],
+  "remarks": "QDe.020. Founded by Usama Mohammad Awad bin Laden (deceased) in 2001. Review pursuant to Security Council resolution 1822 (2008) was concluded on 21 Jun. 2010. Review pursuant to Security Council resolution 2368 (2017) was concluded on 15 November 2021.; Listing: Listed by the 1267 Committee on 17 Oct. 2001 ( amended on 13 Dec. 2011, 15 Nov. 2021 )",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Kandahar City, Afghanistan  ",
       "country": "Afghanistan  "
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/411200",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/411200",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "WATER, ELECTRIC AND MECHANICAL INSTALLATION AND CONSTRUCTION JSC (VIWASEEN.4)",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "WATER, ELECTRIC AND MECHANICAL INSTALLATION AND CONSTRUCTION JSC (VIWASEEN.4)",
+      "isPrimary": true
     }
   ],
-  "remarks": "(Reg. No: 0101890292)*617",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/411200"
+  ],
+  "remarks": "(Reg. No: 0101890292)*617",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "KM14+500 - HIGHWAY 1A, LIEN NINH, THANH TRI",
       "city": "HA NOI",
       "country": "Viet Nam",
-      "country_iso_code": "VN"
+      "countryIsoCode": "VN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

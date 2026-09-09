@@ -1,34 +1,52 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3415",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/3415",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kim Kwang-myong",
+      "@type": "NameVariant",
+      "fullName": "Kim Kwang-myong",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Kim Kwang Myong",
+      "@type": "NameVariant",
+      "fullName": "Kim Kwang Myong",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Kim Kwang-myo'ng",
+      "@type": "NameVariant",
+      "fullName": "Kim Kwang-myo'ng",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Passport information: 83633502.; Listing: First listed on 27 Nov. 2017. Instrument of first designation and declaration: Autonomous Sanctions (Designated Persons and Entities – Democratic People’s Republic of Korea) Amendment List 2017 (No 3)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3415"
   ],
-  "birth_info": [
+  "remarks": "Passport information: 83633502.; Listing: First listed on 27 Nov. 2017. Instrument of first designation and declaration: Autonomous Sanctions (Designated Persons and Entities – Democratic People’s Republic of Korea) Amendment List 2017 (No 3)",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1976
     }
   ],
   "nationalities": [
     "Democratic People's Republic of Korea (North Korea)"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

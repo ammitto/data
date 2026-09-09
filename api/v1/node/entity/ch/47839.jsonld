@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/47839",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/47839",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Shoigu Sergei Kuzhugetovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Shoigu Sergei Kuzhugetovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/47839"
   ],
   "remarks": "Sergei Shoigu is the former Defence Minister of the Russian Federation. He has made public comments about Crimea being and remaining Russian. Under his command and orders, Russian troops have held military drills in the illegally annexed Crimea and launched a full-scale military invasion against Ukraine. As former Defence Minister, he was ultimately responsible for the military action against Ukraine launched on 24 February 2022. Sergei Shoigu is now Secretary of the Security Council of the Russian Federation.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1955-05-21",
-      "circa": false
+      "circa": false,
+      "year": 1955
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

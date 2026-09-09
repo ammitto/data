@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/20687",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/20687",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Fakhiri Abdelkebir Mohamad",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Fakhiri Abdelkebir Mohamad",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/20687"
   ],
   "remarks": "Minister for Education, Higher Education and Research in Colonel Qadhafi’s Government. Closely associated with the former regime of Muammar Qadhafi.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1963-05-04",
-      "circa": false
+      "circa": false,
+      "year": 1963
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

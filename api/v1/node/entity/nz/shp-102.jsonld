@@ -1,18 +1,34 @@
 {
-  "id": "https://www.ammitto.org/entity/nz/shp-102",
-  "entity_type": "vessel",
+  "@id": "https://www.ammitto.org/entity/nz/shp-102",
+  "@type": "VesselEntity",
+  "entityType": "vessel",
   "names": [
     {
-      "full_name": "Rimma",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Rimma",
+      "isPrimary": true
     }
   ],
-  "source_references": [
+  "sourceReferences": [
     {
-      "source_code": "nz",
-      "reference_number": "SHP-102"
+      "@type": "SourceReference",
+      "sourceCode": "nz",
+      "referenceNumber": "SHP-102",
+      "retrievedAt": "2026-09-09T16:30:44Z"
     }
   ],
-  "imo_number": "9337901",
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "linkedEntities": [
+
+  ],
+  "imoNumber": "9337901",
+  "previousNames": [
+
+  ],
+  "previousFlags": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/nz/consolidated-list/shp-102"
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

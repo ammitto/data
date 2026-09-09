@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/51071",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/51071",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Voinov Oleg Leonidovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Voinov Oleg Leonidovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/51071"
   ],
   "remarks": "Oleg Voinov is the Director of National Historical Archives of Belarus since May 2022. He previously held the position of Head of the International Military Cooperation Department of the Belarusian Ministry of Defence and Assistant to the Minister of Defence for International Military Cooperation.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1967-03-26",
-      "circa": false
+      "circa": false,
+      "year": 1967
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

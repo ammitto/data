@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/29406",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/29406",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Naumets Aleksey Vasilevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Naumets Aleksey Vasilevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/29406"
   ],
   "remarks": "Major-general of the Russian Army. Former commander of the 76th airborne division which has been involved in the Russian military presence on the territory of Ukraine, notably during the illegal annexation of Crimea. Since 2018 Deputy Chief of Staff of the Airborne Forces.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1968-02-11",
-      "circa": false
+      "circa": false,
+      "year": 1968
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

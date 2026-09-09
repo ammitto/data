@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/37050",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/37050",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Cherezov Andrey Vladimirovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Cherezov Andrey Vladimirovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/37050"
   ],
   "remarks": "Former Vice-Minister for Energy of the Russian Federation.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1967-10-12",
-      "circa": false
+      "circa": false,
+      "year": 1967
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

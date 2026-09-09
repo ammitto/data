@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/53719",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/53719",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Bilyalov Rinat Alievich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Bilyalov Rinat Alievich",
+      "isPrimary": true
     }
   ],
-  "remarks": "Member of the so-called ‘People’s Council’ of the so-called ‘Donetsk People’s Republic’. Has therefore supported and implemented actions and policies which undermine the territorial integrity, sovereignty and independence of Ukraine, and further destabilised Ukraine.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/53719"
+  ],
+  "remarks": "Former member of the so-called “People’s Council” of the so-called “Donetsk People’s Republic”. Has therefore supported and implemented actions and policies which undermine the territorial integrity, sovereignty and independence of Ukraine, and further destabilised Ukraine.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1969-10-20",
-      "circa": false
+      "circa": false,
+      "year": 1969
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

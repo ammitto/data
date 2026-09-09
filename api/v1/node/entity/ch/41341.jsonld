@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/41341",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/41341",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Abdelkader Sabra",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Abdelkader Sabra",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/41341"
   ],
   "remarks": "Leading businessperson operating in Syria with multiple economic interests, especially in the maritime and tourism sectors. As a major shipping magnate and a close business associate of Rami Makhlouf (regime supporter and cousin of President Bashar al‐Assad), Abdelkader Sabra provides financial and economic support for the Syrian regime, including through offshore companies. Abdelkader Sabra also benefits from his ties to the regime, which have allowed him to expand his activities in the real estate sector. He is also involved in money laundering and commercial activities in support of the Syrian regime and its associates.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1955-09-14",
-      "circa": false
+      "circa": false,
+      "year": 1955
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

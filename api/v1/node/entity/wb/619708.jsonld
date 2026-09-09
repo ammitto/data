@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/619708",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/619708",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "AFRICA DEVELOPMENT PROFESSIONAL GROUP LTD.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "AFRICA DEVELOPMENT PROFESSIONAL GROUP LTD.",
+      "isPrimary": true
     }
   ],
-  "remarks": "(Registration No. C. 148524)*588",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/619708"
+  ],
+  "remarks": "(Registration No. C. 148524)*588",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "K-REP CENTRE, 4TH FLOOR, WOOD AVENUE, P.O. BOX 9390-00100",
       "city": "NAIROBI",
       "country": "Kenya",
-      "country_iso_code": "KE"
+      "countryIsoCode": "KE"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

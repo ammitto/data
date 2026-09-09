@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/72513",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/72513",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Petrov Sergei Valentinovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Petrov Sergei Valentinovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/72513"
   ],
   "remarks": "Sergei Petrov is the CEO and owner of PSV Technologies LLC. PSV Technologies LLC is a Russian entity involved in the procurement of high-tech goods on behalf of the Government of the Russian Federation. The entity functions as a supplier in at least 10 contracts with the Russian Government, which includes contracts with leading state owned weapons manufacturers within Russia’s military-industrial complex. In particular, PSV Technologies LLC facilitates the acquisition of sanctioned dual-use and military goods from the European Union on behalf of Russian state-owned weapons manufacturers.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1961-04-26",
-      "circa": false
+      "circa": false,
+      "year": 1961
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

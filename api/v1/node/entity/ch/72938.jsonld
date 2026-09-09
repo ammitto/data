@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/72938",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/72938",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Gusev Nikolai Anatolievich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Gusev Nikolai Anatolievich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/72938"
   ],
   "remarks": "Nikolai Gusev is the General Director of JSC “State Design Bureau ‘Vympel’ named after I.I. Toropov”, which is a leading Russian missiles manufacturer. JSC “State Design Bureau ‘Vympel’ named after I.I. Toropov” produces air-to-air and air-to-surface guided missiles, guided missiles for land and sea anti-aircraft systems, launchers, and catapults for airborne guided missiles, beam holders for suspension of aerial bomber armament and units for unguided aircraft missiles.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1956-12-13",
-      "circa": false
+      "circa": false,
+      "year": 1956
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

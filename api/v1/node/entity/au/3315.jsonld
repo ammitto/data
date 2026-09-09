@@ -1,44 +1,64 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3315",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/3315",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Muhammed Bin‑Muhammed Faris QUWAYDIR",
+      "@type": "NameVariant",
+      "fullName": "Muhammed Bin‑Muhammed Faris QUWAYDIR",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Muhammad KWEIDER",
+      "@type": "NameVariant",
+      "fullName": "Muhammad KWEIDER",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Muhammad KWEITER",
+      "@type": "NameVariant",
+      "fullName": "Muhammad KWEITER",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Samir QASSAR",
+      "@type": "NameVariant",
+      "fullName": "Samir QASSAR",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Muhammad QUAYDIR",
+      "@type": "NameVariant",
+      "fullName": "Muhammad QUAYDIR",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Last known position ‑ Contracts Director for the Scientific Studies and Research Center, a sanctioned entity under Australian sanctions law; Passport information: N004123298; Listing: Listed on: 17 Aug. 2017 (Relisted on 3 Aug. 2020 and 2 Aug. 2023)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3315"
   ],
-  "birth_info": [
+  "remarks": "Last known position ‑ Contracts Director for the Scientific Studies and Research Center, a sanctioned entity under Australian sanctions law; Passport information: N004123298; Listing: Listed on: 17 Aug. 2017 (Relisted on 3 Aug. 2020 and 2 Aug. 2023)",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1967
     }
   ],
   "nationalities": [
     "Syria"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

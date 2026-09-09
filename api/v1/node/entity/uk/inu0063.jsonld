@@ -1,48 +1,68 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/inu0063",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/inu0063",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Eyvas Technic",
+      "@type": "NameVariant",
+      "fullName": "Eyvas Technic",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Eyvaz Technic Industrial Company Ltd.",
+      "@type": "NameVariant",
+      "fullName": "Eyvaz Technic Industrial Company Ltd.",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Eyvaz Technic Manufacturing Company",
+      "@type": "NameVariant",
+      "fullName": "Eyvaz Technic Manufacturing Company",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Gostar Vacuum Device Technology Development Company",
+      "@type": "NameVariant",
+      "fullName": "Gostar Vacuum Device Technology Development Company",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Tosee Fanavari Tajhizat Khala",
+      "@type": "NameVariant",
+      "fullName": "Tosee Fanavari Tajhizat Khala",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/inu0063"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "No 3, Building 3, Shahid Hamid Sadigh Alley, Shariati Street",
       "state": "Tehran",
       "country": "Iran"
     },
     {
+      "@type": "Address",
       "street": "Sharia'ati St., Shahid Hamid Sadik Alley, Building 3, Number 3",
       "state": "Tehran",
       "country": "Iran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

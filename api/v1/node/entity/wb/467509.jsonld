@@ -1,23 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/467509",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/wb/467509",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "A.K.A. INDRALAL GUNATHILAKE",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "A.K.A. INDRALAL GUNATHILAKE",
+      "isPrimary": true
     }
   ],
-  "remarks": "MR. G.I.P. GUNATHILAKE",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/467509"
+  ],
+  "remarks": "MR. G.I.P. GUNATHILAKE",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "275/6 A, VITTO MAWATHA HOSPITAL ROAD",
       "city": "KIRIBATHGODA",
       "country": "Sri Lanka",
-      "country_iso_code": "LK"
+      "countryIsoCode": "LK"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

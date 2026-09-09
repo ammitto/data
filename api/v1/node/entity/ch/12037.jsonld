@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/12037",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/12037",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Khalil Zghraybih Brigadier",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Khalil Zghraybih Brigadier",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/12037"
   ],
   "remarks": "14th Division. Military official under the former al-Assad regime involved in the violence in Homs.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1955-02-04",
-      "circa": false
+      "circa": false,
+      "year": 1955
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

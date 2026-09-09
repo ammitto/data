@@ -1,35 +1,53 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7430",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7430",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Milosh Eduardovich VAGNER",
+      "@type": "NameVariant",
+      "fullName": "Milosh Eduardovich VAGNER",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Milosh E'duardovich VAGNER",
+      "@type": "NameVariant",
+      "fullName": "Milosh E'duardovich VAGNER",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Milos WAGNER",
+      "@type": "NameVariant",
+      "fullName": "Milos WAGNER",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Deputy Head of the Federal Service for Supervision of Communications, Information and Mass Media (Roskomnadzor); Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 2) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7430"
   ],
-  "birth_info": [
+  "remarks": "Deputy Head of the Federal Service for Supervision of Communications, Information and Mass Media (Roskomnadzor); Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 2) Instrument 2023",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1979,
       "country": "Ukhta"
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

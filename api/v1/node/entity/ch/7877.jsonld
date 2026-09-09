@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/7877",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/7877",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Fofie Martin Kouakou",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Fofie Martin Kouakou",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/7877"
   ],
   "remarks": "Chief Corporal New Force Commandant, Korhogo Sector. Forces under his command engaged in recruitment of child soldiers, abductions, imposition of forced labor, sexual abuse of women, arbitrary arrests and extrajudicial killings, contrary to human rights conventions and to international humanitarian law; obstacle to the action of the IWG, UNOCI, French Forces and to the peace process as defined by resolution 1643 (2005).",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1968-01-01",
-      "circa": false
+      "circa": false,
+      "year": 1968
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

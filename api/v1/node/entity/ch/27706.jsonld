@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/27706",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/27706",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Jarosh Petr Grigorievich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Jarosh Petr Grigorievich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/27706"
   ],
   "remarks": "Former head of the Federal Migration Service office for Crimea. Responsible for the systematic and expedited issuance of Russian passports for the residents of Crimea.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1971-01-30",
-      "circa": false
+      "circa": false,
+      "year": 1971
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

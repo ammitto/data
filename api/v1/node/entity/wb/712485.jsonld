@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/712485",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/712485",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "LOTTE DATA COMMUNICATION R&D CENTER INDIA LLP",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "LOTTE DATA COMMUNICATION R&D CENTER INDIA LLP",
+      "isPrimary": true
     }
   ],
-  "remarks": "*623",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/712485"
+  ],
+  "remarks": "*623",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "city": "CHENNAI, TAMIL NADU",
       "country": "India",
-      "country_iso_code": "IN"
+      "countryIsoCode": "IN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

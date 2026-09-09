@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/75523",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/75523",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Achmatov Ibrahim Mahomedovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Achmatov Ibrahim Mahomedovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/75523"
   ],
   "remarks": "Ibrahim Achmatov is the General Director of JSC Kizlyar Electromechanical Plant, a Russian military industry company. The plant specialises in the development and manufacture of aircraft ground control and diagnostic systems, and the production of attachments and on-board equipment. The company produces DZ-UM lock for SU-25 fighters, which are used by Russian military forces to attack Ukraine. JSC Kizlyar Electromechanical Plant fulfils Russia’s state defence orders.",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1948
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

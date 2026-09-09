@@ -1,27 +1,47 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/ven0037",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/ven0037",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Brito Hernandez ",
-      "first_name": "Asdrubal ",
+      "@type": "NameVariant",
+      "fullName": "Brito Hernandez ",
+      "firstName": "Asdrubal ",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Asdrubal José Brito Hernández ",
+      "@type": "NameVariant",
+      "fullName": "Asdrubal José Brito Hernández ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/ven0037"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "country": "Venezuela"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

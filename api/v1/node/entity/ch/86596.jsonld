@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/86596",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/86596",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Zdunov Artyom Alexeevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Zdunov Artyom Alexeevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/86596"
   ],
   "remarks": "Artyom Zdunov is the Head of the Republic of Mordovia (a Russian federal subject) since at least 18 November 2020. In this position, Artyom Zdunov has played a leadership role in implementing the Russian Government’s policy of illegally removing Ukrainian children from regions of Ukraine that are under temporary Russian control, in particular by organising the movement of children from occupied Ukrainian regions, in particular from the Kherson region and the Kalanchak Raion to the Republic of Mordovia.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1978-05-18",
-      "circa": false
+      "circa": false,
+      "year": 1978
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

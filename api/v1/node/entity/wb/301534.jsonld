@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/301534",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/301534",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "YAVUZER İNŞAAT MAKINE VE MALZEMELERI SANAYI VE TICARET LTD. ŞTI",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "YAVUZER İNŞAAT MAKINE VE MALZEMELERI SANAYI VE TICARET LTD. ŞTI",
+      "isPrimary": true
     }
   ],
-  "remarks": "*156",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/301534"
+  ],
+  "remarks": "*156",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "ISTIKLAL MAHALLESI SANTRAL SOKAK NO:1/ 23",
       "city": "ESKIŞCHIR",
       "country": "Turkiye",
-      "country_iso_code": "TR"
+      "countryIsoCode": "TR"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

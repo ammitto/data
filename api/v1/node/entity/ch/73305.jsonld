@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/73305",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/73305",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Astafurov Sergey Ivanovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Astafurov Sergey Ivanovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/73305"
   ],
   "remarks": "Sergey Astafurov is the Director of JSC STC Promtekhaero (a.k.a. Scientific and Technical Center for Industrial Technologies and Air Navigation Systems). JSC STC Promtekhaero is a Russian military-industrial state enterprise that develops radio transmission and navigation equipment deployed by the Russian Armed Forces.\nMoreover, JSC STC Promtekhaero is part of the Joint Stock Company Almaz-Antey air and space defence corporation, a Russian state-owned arms manufacturer that develops anti-aircraft defence and cruise missile systems for the Russian military.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1953-01-25",
-      "circa": false
+      "circa": false,
+      "year": 1953
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

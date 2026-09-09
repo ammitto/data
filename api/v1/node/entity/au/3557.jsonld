@@ -1,31 +1,52 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3557",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/3557",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Tsang Yung Yuan",
+      "@type": "NameVariant",
+      "fullName": "Tsang Yung Yuan",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Neil Tsang",
+      "@type": "NameVariant",
+      "fullName": "Neil Tsang",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Yun Yuan Tsang",
+      "@type": "NameVariant",
+      "fullName": "Yun Yuan Tsang",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "KPi.080 Passport No: 302001581. Tsang Yung Yuan has coordinated North Korean coal exports with a North Korean broker operating in a third country, and he has a history of other sanctions evasion activities.; Listing: Listed on: 30 Mar. 2018",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3557"
   ],
-  "birth_info": [
+  "remarks": "KPi.080 Passport No: 302001581. Tsang Yung Yuan has coordinated North Korean coal exports with a North Korean broker operating in a third country, and he has a history of other sanctions evasion activities.; Listing: Listed on: 30 Mar. 2018",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1957
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

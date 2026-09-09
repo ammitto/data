@@ -1,68 +1,92 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus2420",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus2420",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "JSC STROYSERVIS",
+      "@type": "NameVariant",
+      "fullName": "JSC STROYSERVIS",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "AO Stroiservis",
+      "@type": "NameVariant",
+      "fullName": "AO Stroiservis",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "AO StroyService",
+      "@type": "NameVariant",
+      "fullName": "AO StroyService",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Joint Stock Company Stroiservis",
+      "@type": "NameVariant",
+      "fullName": "Joint Stock Company Stroiservis",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Joint Stock Company StroyService",
+      "@type": "NameVariant",
+      "fullName": "Joint Stock Company StroyService",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "JOINT STOCK COMPANY STROYSERVIS",
+      "@type": "NameVariant",
+      "fullName": "JOINT STOCK COMPANY STROYSERVIS",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "JSC Stroyservis",
+      "@type": "NameVariant",
+      "fullName": "JSC Stroyservis",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "LLC StroyServis",
+      "@type": "NameVariant",
+      "fullName": "LLC StroyServis",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "OJSC Stroyservis",
+      "@type": "NameVariant",
+      "fullName": "OJSC Stroyservis",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "АО СТРОЙСЕРВИС ",
+      "@type": "NameVariant",
+      "fullName": "АО СТРОЙСЕРВИС ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Transport sanctions: where transport sanctions apply, a ship owned, controlled, chartered or operated by a designated person is prohibited from entering a port in the UK, may be given a movement or a port entry direction, can be detained, and will be refused permission to register on the UK Ship Register or have its existing registration terminated. Similarly, an aircraft owned, chartered or operated by a designated person is prohibited from overflying or landing in the UK, may be given a movement direction, can be detained or moved to a specified airport, and will be refused permission to register on the CAA Aircraft Register or have its existing registration terminated. This also includes a prohibition of technical assistance relating to aircraft and ships: a prohibition on the provision of technical assistance relating to aircraft or ships will prevent a person from directly or indirectly providing technical assistance to, or for the benefit of, the designated person, where that technical assistance relates to an aircraft or ship. The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus2420"
+  ],
+  "remarks": "Transport sanctions: where transport sanctions apply, a ship owned, controlled, chartered or operated by a designated person is prohibited from entering a port in the UK, may be given a movement or a port entry direction, can be detained, and will be refused permission to register on the UK Ship Register or have its existing registration terminated. Similarly, an aircraft owned, chartered or operated by a designated person is prohibited from overflying or landing in the UK, may be given a movement direction, can be detained or moved to a specified airport, and will be refused permission to register on the CAA Aircraft Register or have its existing registration terminated. This also includes a prohibition of technical assistance relating to aircraft and ships: a prohibition on the provision of technical assistance relating to aircraft or ships will prevent a person from directly or indirectly providing technical assistance to, or for the benefit of, the designated person, where that technical assistance relates to an aircraft or ship. The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "121 Kuznetskiy Street",
       "state": "Kemerovo",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

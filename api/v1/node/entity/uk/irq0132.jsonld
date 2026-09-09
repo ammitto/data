@@ -1,26 +1,46 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/irq0132",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/irq0132",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "AL-UBAYDI",
-      "first_name": "INTISSAR",
+      "@type": "NameVariant",
+      "fullName": "AL-UBAYDI",
+      "firstName": "INTISSAR",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "انتصار العبيدي",
+      "@type": "NameVariant",
+      "fullName": "انتصار العبيدي",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/irq0132"
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "country": "Iraq"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/75391",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/75391",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Bolataeva Lyudmila Sergeevna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Bolataeva Lyudmila Sergeevna",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/75391"
   ],
   "remarks": "Lyudmila Bolataeva is the deputy governor of Moscow region and the former Minister of Social Development of Moscow Oblast. In her role as the Minister of Social Development of Moscow Oblast, she was involved in organising the deportation of children from occupied Ukrainian territories to Russia. Those actions violate the rights of Ukrainian children and infringe Ukrainian law and administrative order. Therefore, Lyudmila Bolataeva is supporting and implementing actions and policies which undermine and threaten the territorial integrity, sovereignty and independence of Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1957-01-30",
-      "circa": false
+      "circa": false,
+      "year": 1957
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

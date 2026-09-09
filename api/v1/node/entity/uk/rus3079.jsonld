@@ -1,47 +1,67 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus3079",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus3079",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "JSC TRANSSTROIBANK ",
+      "@type": "NameVariant",
+      "fullName": "JSC TRANSSTROIBANK ",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Joint-Stock Commercial Bank Transstroybank ",
+      "@type": "NameVariant",
+      "fullName": "Joint-Stock Commercial Bank Transstroybank ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "JSCB TRANSSTROYBANK",
+      "@type": "NameVariant",
+      "fullName": "JSCB TRANSSTROYBANK",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "АО ТРАНССТРОЙБАНК ",
+      "@type": "NameVariant",
+      "fullName": "АО ТРАНССТРОЙБАНК ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Акционерный коммерческий банк Трансстройбанк ",
+      "@type": "NameVariant",
+      "fullName": "Акционерный коммерческий банк Трансстройбанк ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "АО «Трансстройбанк» ",
+      "@type": "NameVariant",
+      "fullName": "АО «Трансстройбанк» ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus3079"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Dubininskaya Street, 94",
       "state": "Moscow",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

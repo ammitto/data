@@ -1,25 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7244",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7244",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mikhail Evgenievich PUTIN",
+      "@type": "NameVariant",
+      "fullName": "Mikhail Evgenievich PUTIN",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "Deputy Chairman of the Management Board of Sogaz Insurance and Gazprom, and relative of President Putin; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 18) Instrument 2022",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7244"
   ],
-  "birth_info": [
+  "remarks": "Deputy Chairman of the Management Board of Sogaz Insurance and Gazprom, and relative of President Putin; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 18) Instrument 2022",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1967,
       "country": "Ivanovo"
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

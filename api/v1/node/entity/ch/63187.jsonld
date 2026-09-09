@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/63187",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/63187",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Uss Artem Alexandrovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Uss Artem Alexandrovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/63187"
   ],
   "remarks": "Artem Uss is the owner of Sibougol LCC, a key Siberian company which produces more than 2 million tonnes of coal per year, with a revenue of more than RUB 2 000 000 000 registered in 2020. Together with his family, he is also associated with the company “Krasnoyarsklesomaterialy”, one of the largest exporters of Siberian timber.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1982-04-22",
-      "circa": false
+      "circa": false,
+      "year": 1982
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,29 +1,48 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/irn0112",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/irn0112",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Afshari",
-      "first_name": "Iman",
+      "@type": "NameVariant",
+      "fullName": "Afshari",
+      "firstName": "Iman",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "ایمان افشاری",
+      "@type": "NameVariant",
+      "fullName": "ایمان افشاری",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/irn0112"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Islamic Revolutionary Court of Tehran, Shariati St. – corner of Moalem St",
       "state": "Tehran",
       "country": "Iran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

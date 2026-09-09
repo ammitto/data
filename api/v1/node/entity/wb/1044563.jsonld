@@ -1,25 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/1044563",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/1044563",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "POMEGA ENERGY STORAGE TECHNOLOGIES INC.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "POMEGA ENERGY STORAGE TECHNOLOGIES INC.",
+      "isPrimary": true
     }
   ],
-  "remarks": "(Reg. No: FTN 95-2422044) *706",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/1044563"
+  ],
+  "remarks": "(Reg. No: FTN 95-2422044) *706",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "8260 GREENSBORO DR",
       "city": "MC LEAN",
       "state": "VA",
       "country": "United States",
-      "country_iso_code": "US",
-      "postal_code": "22102"
+      "countryIsoCode": "US",
+      "postalCode": "22102"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

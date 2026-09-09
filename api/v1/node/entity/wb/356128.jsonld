@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/356128",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/356128",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "VEVAKANAND DALIP ENTERPRISE",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "VEVAKANAND DALIP ENTERPRISE",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/356128"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "LOT 97 PHASE 2, LETHEM, RUPUNINI",
       "city": "REGION NO. 9, ESSEQUIBO",
       "country": "Guyana",
-      "country_iso_code": "GY"
+      "countryIsoCode": "GY"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

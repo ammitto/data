@@ -1,48 +1,68 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus0242",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus0242",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Public Joint Stock Company \"United Shipbuilding Corporation\"",
+      "@type": "NameVariant",
+      "fullName": "Public Joint Stock Company \"United Shipbuilding Corporation\"",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "PJSC United Shipbuilding Corporation",
+      "@type": "NameVariant",
+      "fullName": "PJSC United Shipbuilding Corporation",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "PJSC USC",
+      "@type": "NameVariant",
+      "fullName": "PJSC USC",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "USC",
+      "@type": "NameVariant",
+      "fullName": "USC",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Публичное акционерное общество «бъединённая судостроительная корпорация»",
+      "@type": "NameVariant",
+      "fullName": "Публичное акционерное общество «бъединённая судостроительная корпорация»",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus0242"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "11, Bolshaya Tatarskaya Street, Bld.B",
       "state": "Moscow",
       "country": "Russia"
     },
     {
+      "@type": "Address",
       "street": "St Petersburg – ul. Marat, 90",
       "state": "St Petersburg",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

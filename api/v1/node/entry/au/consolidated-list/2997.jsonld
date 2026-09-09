@@ -1,37 +1,47 @@
 {
-  "id": "https://www.ammitto.org/entry/au/consolidated-list/2997",
-  "entity_id": "https://www.ammitto.org/entity/au/2997",
+  "@id": "https://www.ammitto.org/entry/au/consolidated-list/2997",
+  "@type": "SanctionEntry",
+  "entityId": "https://www.ammitto.org/entity/au/2997",
   "authority": {
     "@id": "https://www.ammitto.org/authority/au"
   },
   "regime": {
-    "@id": "https://www.ammitto.org/regime/autonomous__ukraine_"
+    "@id": "https://www.ammitto.org/regime/autonomous__ukraine_",
+    "name": "Autonomous (Ukraine)"
   },
-  "legal_bases": [
+  "legalBases": [
     {
-      "type": "regulation",
-      "identifier": "Listed on 2 Sep. 2014 (relisted on 1 Sep. 2017) (relisted on 28 Aug. 2020 (relisted on 27 Aug 2023)",
-      "title": "Listed on 2 Sep. 2014 (relisted on 1 Sep. 2017) (relisted on 28 Aug. 2020 (relisted on 27 Aug 2023)"
+      "@id": "https://www.ammitto.org/legal-instrument/au/listed-on-2-sep.-2014-relisted-on-1-sep.-2017-relisted-on-28-aug.-2020-relisted-on-27-aug-2023"
     }
   ],
   "effects": [
     {
-      "effect_type": "asset_freeze",
+      "@type": "SanctionEffect",
+      "effectType": "asset_freeze",
       "scope": "full"
     },
     {
-      "effect_type": "travel_ban",
+      "@type": "SanctionEffect",
+      "effectType": "travel_ban",
       "scope": "full"
     }
   ],
+  "reasons": [
+
+  ],
   "period": {
-    "is_indefinite": true
+    "@type": "TemporalPeriod",
+    "isIndefinite": true
   },
   "status": "active",
-  "reference_number": "2997",
-  "raw_source_data": {
-    "source_format": "csv",
-    "source_specific_fields": {
+  "statusHistory": [
+
+  ],
+  "referenceNumber": "2997",
+  "rawSourceData": {
+    "@type": "RawSourceData",
+    "sourceFormat": "csv",
+    "sourceSpecificFields": {
       "au:reference": "2997",
       "au:committees": "Autonomous (Ukraine)",
       "au:control_date": "2023-08-27",
@@ -39,5 +49,5 @@
       "au:listing_info": "Listed on 2 Sep. 2014 (relisted on 1 Sep. 2017) (relisted on 28 Aug. 2020 (relisted on 27 Aug 2023)"
     }
   },
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

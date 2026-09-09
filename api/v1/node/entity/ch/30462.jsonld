@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/30462",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/30462",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Antonov Anatoly Ivanovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Antonov Anatoly Ivanovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/30462"
   ],
   "remarks": "Former Deputy Minister of Defence and, in that capacity, involved in supporting the deployment of Russian troops in Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1955-05-15",
-      "circa": false
+      "circa": false,
+      "year": 1955
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

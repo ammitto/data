@@ -1,31 +1,45 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8442",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/8442",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Vitelhomme Innocent",
+      "@type": "NameVariant",
+      "fullName": "Vitelhomme Innocent",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "HTi.005. Leader of Kraze Barye gang; National identification no: Haiti 004-341-263-3; Listing: Listed by UN 2653 Committee on 8 December 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8442"
   ],
-  "birth_info": [
+  "remarks": "HTi.005. Leader of Kraze Barye gang; National identification no: Haiti 004-341-263-3; Listing: Listed by UN 2653 Committee on 8 December 2023",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1986,
       "country": "Port-au-Prince"
     }
   ],
   "nationalities": [
     "Haiti"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "64, Soisson, Tabarre 49, Port-au-Prince, Haiti",
       "country": "Haiti"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

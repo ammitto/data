@@ -1,34 +1,55 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8669",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/8669",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Aleksandra MELNICHENKO",
+      "@type": "NameVariant",
+      "fullName": "Aleksandra MELNICHENKO",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Alexandra MELNICHENKO",
+      "@type": "NameVariant",
+      "fullName": "Alexandra MELNICHENKO",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Sandra MELNICHENKO",
+      "@type": "NameVariant",
+      "fullName": "Sandra MELNICHENKO",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Wife of Andrey MELNICHENKO; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2026",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8669"
   ],
-  "birth_info": [
+  "remarks": "Wife of Andrey MELNICHENKO; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2026",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1977
     }
   ],
   "nationalities": [
-    "Croatia;Montenegro;Russia;Serbia"
+    "Croatia",
+    "Montenegro",
+    "Russia",
+    "Serbia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

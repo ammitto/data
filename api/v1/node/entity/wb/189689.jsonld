@@ -1,23 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/189689",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/wb/189689",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MR. DMITRY GENNADYEVICH KOSTOUSOV",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "MR. DMITRY GENNADYEVICH KOSTOUSOV",
+      "isPrimary": true
     }
   ],
-  "remarks": "*80",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/189689"
+  ],
+  "remarks": "*80",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "1 KRASNOARMEISKAYA SQUARE, 392023",
       "city": "TAMBOV",
       "country": "Russian Federation",
-      "country_iso_code": "RU"
+      "countryIsoCode": "RU"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

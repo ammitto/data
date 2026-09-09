@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/125551",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/125551",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "SINCAM WATER TECHNOLOGY CO., LTD",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "SINCAM WATER TECHNOLOGY CO., LTD",
+      "isPrimary": true
     }
   ],
-  "remarks": "*92",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/125551"
+  ],
+  "remarks": "*92",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "21B STREET 334, SANGKAT BOEUNG KENG KANG 1, KHAN CHAMKAR MON",
       "city": "PHNOM PENH",
       "country": "Cambodia",
-      "country_iso_code": "KH"
+      "countryIsoCode": "KH"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

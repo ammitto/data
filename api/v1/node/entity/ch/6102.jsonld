@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/6102",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/6102",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Abu Basutu Titus Mehliswa Johna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Abu Basutu Titus Mehliswa Johna",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/6102"
   ],
   "remarks": "Senior military officer, directly involved in the terror campaign waged before and during the elections in the Gwanda area. Deputy to Air Marshal Perence Shiri.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1956-06-02",
-      "circa": false
+      "circa": false,
+      "year": 1956
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

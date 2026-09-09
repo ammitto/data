@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/45951",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/45951",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Makrytski Vital Mikhailavich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Makrytski Vital Mikhailavich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/45951"
   ],
   "remarks": "In his former position as Deputy Head of the Oktyabrsky District Police Department of Minsk, Vital Makrytski was responsible for overseeing the severe beatings and torture of peaceful protesters and bystanders detained on the premises of this police department, in the wake of the 2020 presidential election. In Dec 2020 he was promoted to the position of the Head of the Partizanski District Police Department of Minsk. He is therefore responsible for serious violations of human rights and the repression of civil society and democratic opposition.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1975-02-17",
-      "circa": false
+      "circa": false,
+      "year": 1975
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

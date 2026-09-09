@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/402109",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/402109",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "ROJOKE CNE SERVICES LTD.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "ROJOKE CNE SERVICES LTD.",
+      "isPrimary": true
     }
   ],
-  "remarks": "*465",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/402109"
+  ],
+  "remarks": "*465",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "NO. 2, PINTO AVENUE, GANA SAPELE",
       "city": "DELTA STATE",
       "country": "Nigeria",
-      "country_iso_code": "NG"
+      "countryIsoCode": "NG"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

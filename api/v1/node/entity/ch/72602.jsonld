@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/72602",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/72602",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Baikin Evgeniy Vladimirovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Baikin Evgeniy Vladimirovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/72602"
   ],
   "remarks": "Evgeniy Baikin is a Director of JSC Globus, a specialised enterprise engaged in development, production and implementation of automated systems for the maintenance and control of weapons and military equipment. The enterprise is engaged in the development and manufacture of complexes, designed to prepare for combat use, and to monitor the technical condition of, airborne guided weapons, missile air and naval defence systems.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1982-07-11",
-      "circa": false
+      "circa": false,
+      "year": 1982
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

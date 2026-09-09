@@ -1,42 +1,62 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/syr0270",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/syr0270",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Rawafed Damascus Private Joint Stock Company",
+      "@type": "NameVariant",
+      "fullName": "Rawafed Damascus Private Joint Stock Company",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Rawafed Tributary Damascus Private Joint Stock Company",
+      "@type": "NameVariant",
+      "fullName": "Rawafed Tributary Damascus Private Joint Stock Company",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Rawafid Damascus Private Joint Stock Company",
+      "@type": "NameVariant",
+      "fullName": "Rawafid Damascus Private Joint Stock Company",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Rawafid Tributary Damascus Private Joint Stock Company",
+      "@type": "NameVariant",
+      "fullName": "Rawafid Tributary Damascus Private Joint Stock Company",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "روافد",
+      "@type": "NameVariant",
+      "fullName": "روافد",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/syr0270"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "state": "Damascus",
       "country": "Syria"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

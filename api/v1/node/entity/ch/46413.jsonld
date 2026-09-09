@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/46413",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/46413",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Terentev Vladimir Nikolaevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Terentev Vladimir Nikolaevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/46413"
   ],
   "remarks": "Head of the Main Investigation Department of the Investigative Committee of Russia for the Republic of Crimea and the city of Sevastopol.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1977-11-11",
-      "circa": false
+      "circa": false,
+      "year": 1977
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

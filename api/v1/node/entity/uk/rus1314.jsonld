@@ -1,34 +1,54 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus1314",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/rus1314",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "BABAKOV",
-      "first_name": "Mikhail",
+      "@type": "NameVariant",
+      "fullName": "BABAKOV",
+      "firstName": "Mikhail",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Михаил Aлександрович БАБАКОВ",
+      "@type": "NameVariant",
+      "fullName": "Михаил Aлександрович БАБАКОВ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus1314"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "11 Rue Jean Nicot",
       "state": "Paris",
       "country": "France"
     },
     {
+      "@type": "Address",
       "street": "78 Avenue Raymond Poincare",
       "state": "Paris",
       "country": "France"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/960068",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/960068",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "CONSTRUTORA COESA S.A. - SUCURSAL ANGOLA",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "CONSTRUTORA COESA S.A. - SUCURSAL ANGOLA",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/960068"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "CONDOMFNIO BELAS BUSINESS PARK, EDIFFCIO MALANGE, SALA 503, TALATONA",
       "city": "LUANDA",
       "country": "Angola",
-      "country_iso_code": "AO"
+      "countryIsoCode": "AO"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,32 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8725",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/8725",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Limited Liability Company Krona Bank",
+      "@type": "NameVariant",
+      "fullName": "Limited Liability Company Krona Bank",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Commercial Bank Trustcombank Limited Liability Company",
+      "@type": "NameVariant",
+      "fullName": "Commercial Bank Trustcombank Limited Liability Company",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Krona-bank",
+      "@type": "NameVariant",
+      "fullName": "Krona-bank",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Website: https://www.krona-bank.ru/; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2026",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8725"
+  ],
+  "remarks": "Website: https://www.krona-bank.ru/; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2026",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "ul. Dzerzhinskogo 29, Irkutsk, 664007, Russia",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,32 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8117",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/8117",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Structura National Technologies",
+      "@type": "NameVariant",
+      "fullName": "Structura National Technologies",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Company Group Structura LLC",
+      "@type": "NameVariant",
+      "fullName": "Company Group Structura LLC",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "GK Struktura",
+      "@type": "NameVariant",
+      "fullName": "GK Struktura",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "http://structura.pro; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8117"
+  ],
+  "remarks": "http://structura.pro; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Per. Bolshoi Kislovskii, d. 1, str. 2, Pomeshch/Kom I/42, Moscow 125009, Russia",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

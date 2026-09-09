@@ -1,39 +1,61 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/irq0134",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/irq0134",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "AHMED",
-      "first_name": "ADNAN",
+      "@type": "NameVariant",
+      "fullName": "AHMED",
+      "firstName": "ADNAN",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Adnan",
-      "first_name": "Hasan",
+      "@type": "NameVariant",
+      "fullName": "Adnan",
+      "firstName": "Hasan",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Sultan",
-      "first_name": "Ahmed",
+      "@type": "NameVariant",
+      "fullName": "Sultan",
+      "firstName": "Ahmed",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "عدنان س. حسن أحمد",
+      "@type": "NameVariant",
+      "fullName": "عدنان س. حسن أحمد",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/irq0134"
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "state": "Amman",
       "country": "Jordan"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

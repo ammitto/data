@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/717314",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/717314",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "GESAWORLD USA LIMITED LIABILITY",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "GESAWORLD USA LIMITED LIABILITY",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/717314"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "city": "MIAMI",
       "state": "FL",
       "country": "United States",
-      "country_iso_code": "US",
-      "postal_code": "33131"
+      "countryIsoCode": "US",
+      "postalCode": "33131"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

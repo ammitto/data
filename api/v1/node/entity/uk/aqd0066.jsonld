@@ -1,31 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/aqd0066",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/aqd0066",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "LIBYAN ISLAMIC FIGHTING GROUP",
+      "@type": "NameVariant",
+      "fullName": "LIBYAN ISLAMIC FIGHTING GROUP",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "LIFG",
+      "@type": "NameVariant",
+      "fullName": "LIFG",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "الجماعة الاسلامية المقاتلة الليبية",
+      "@type": "NameVariant",
+      "fullName": "الجماعة الاسلامية المقاتلة الليبية",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Members in Afghanistan merged with Al-Qaida (QDe.004) in Nov. 2007. Review pursuant to Security Council resolution 1822 (2008) was concluded on 21 Jun. 2010. INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/notice/search/une/5281977",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/aqd0066"
+  ],
+  "remarks": "Members in Afghanistan merged with Al-Qaida (QDe.004) in Nov. 2007. Review pursuant to Security Council resolution 1822 (2008) was concluded on 21 Jun. 2010. INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/notice/search/une/5281977",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "country": "Libya"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

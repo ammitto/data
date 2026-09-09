@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/53175",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/53175",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Gref German Oskarovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Gref German Oskarovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/53175"
   ],
   "remarks": "German Gref is Chief Executive Officer and Chairman of the Executive Board of Sberbank of Russia. Sberbank of Russia is a Public Joint-Stock Company. The majority shareholder of Sberbank is the Russian National Wealth Fund managed by the Government of the Russian Federation.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1964-02-08",
-      "circa": false
+      "circa": false,
+      "year": 1964
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

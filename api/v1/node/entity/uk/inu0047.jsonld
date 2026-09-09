@@ -1,34 +1,51 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/inu0047",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/inu0047",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Aluminat",
+      "@type": "NameVariant",
+      "fullName": "Aluminat",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Aluminat Productions and Industrial Company",
+      "@type": "NameVariant",
+      "fullName": "Aluminat Productions and Industrial Company",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/inu0047"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
-      "street": "Parcham St, 13th Km of Qom Rd",
-      "state": "Arak",
-      "country": "Iran"
-    },
-    {
+      "@type": "Address",
       "street": "Unit 38, 5th Fl, Bldg No 60, Golfam St",
       "city": "Jordan",
       "state": "Tehran",
       "country": "Iran"
+    },
+    {
+      "@type": "Address",
+      "street": "Parcham St, 13th Km of Qom Rd",
+      "state": "Arak",
+      "country": "Iran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

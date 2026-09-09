@@ -1,40 +1,59 @@
 {
-  "id": "https://www.ammitto.org/entity/au/87",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/87",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Saduddin Sayyed",
+      "@type": "NameVariant",
+      "fullName": "Saduddin Sayyed",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Sadudin Sayed",
+      "@type": "NameVariant",
+      "fullName": "Sadudin Sayed",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Sadruddin",
+      "@type": "NameVariant",
+      "fullName": "Sadruddin",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "سعد الدين سيد",
+      "@type": "NameVariant",
+      "fullName": "سعد الدين سيد",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "TAi.087 Title: a) Maulavi b) Alhaj c) Mullah. Designation: a) Vice-Minister of Work and Social Affairs under the Taliban regime b) Mayor of Kabul City under the Taliban regime. Advisor to the Taliban Supreme Council as of mid-2013. Believed to be in Afghanistan/Pakistan border area. Belongs to Barakzai tribe. Review pursuant to Security Council resolution 1822 (2008) was concluded on 21 Jul. 2010.; Listing: Listed on 25 January 2001 (amended on 21 Sep 2007, 3 Oct. 2008, 29 Nov 2011 and 31 Dec. 2013)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/87"
   ],
-  "birth_info": [
+  "remarks": "TAi.087 Title: a) Maulavi b) Alhaj c) Mullah. Designation: a) Vice-Minister of Work and Social Affairs under the Taliban regime b) Mayor of Kabul City under the Taliban regime. Advisor to the Taliban Supreme Council as of mid-2013. Believed to be in Afghanistan/Pakistan border area. Belongs to Barakzai tribe. Review pursuant to Security Council resolution 1822 (2008) was concluded on 21 Jul. 2010.; Listing: Listed on 25 January 2001 (amended on 21 Sep 2007, 3 Oct. 2008, 29 Nov 2011 and 31 Dec. 2013)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1968,
       "country": "a) Chaman District"
     }
   ],
   "nationalities": [
     "Afghanistan"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/tr/123",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/tr/123",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "KOREA COMPLEX EQUIPMENT IMPORT CORPORATION",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "KOREA COMPLEX EQUIPMENT IMPORT CORPORATION",
+      "isPrimary": true
     }
   ],
-  "source_references": [
+  "sourceReferences": [
     {
-      "source_code": "tr",
-      "reference_number": "123"
+      "@type": "SourceReference",
+      "sourceCode": "tr",
+      "referenceNumber": "123",
+      "retrievedAt": "2026-09-09T16:30:41Z"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "linkedEntities": [
+
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/tr/consolidated-list/123"
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

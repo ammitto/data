@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/6974",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/6974",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Shamuyarira Nathan Marwirakuwa",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Shamuyarira Nathan Marwirakuwa",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/6974"
   ],
   "remarks": "Member of the ZANU-PF Politburo with strong ties to the ZANU-PF Government faction. Involved in violent attempted farm take-over in September 2009 which ended in an arson attack.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1928-09-29",
-      "circa": false
+      "circa": false,
+      "year": 1928
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

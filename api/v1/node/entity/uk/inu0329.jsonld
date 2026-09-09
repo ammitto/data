@@ -1,32 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/inu0329",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/inu0329",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "EAST OIL & GAS PRODUCTION COMPANY",
+      "@type": "NameVariant",
+      "fullName": "EAST OIL & GAS PRODUCTION COMPANY",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "East Oil & Gas Production Co.",
+      "@type": "NameVariant",
+      "fullName": "East Oil & Gas Production Co.",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "EOGPC",
+      "@type": "NameVariant",
+      "fullName": "EOGPC",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/inu0329"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "NO. 18,, PAYAM 6 ST, PAYAM AVE, SHESHSAD",
       "city": "DASTGAH MASHHAD",
       "country": "Iran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

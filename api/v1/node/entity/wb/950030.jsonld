@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/950030",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/950030",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "HIDRALRICA DISTRIBUÇÃO DE TUBOS E CONEXÕES EIRELI",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "HIDRALRICA DISTRIBUÇÃO DE TUBOS E CONEXÕES EIRELI",
+      "isPrimary": true
     }
   ],
-  "remarks": "*683",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/950030"
+  ],
+  "remarks": "*683",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "RUA SOLDADO JOSÉ ANTÔNIO MOREIRA, 223",
       "city": "JARDIM JAPÃO – SP/SP, CEP: 02143-060",
       "country": "Brazil",
-      "country_iso_code": "BR"
+      "countryIsoCode": "BR"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

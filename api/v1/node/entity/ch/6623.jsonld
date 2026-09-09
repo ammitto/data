@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/6623",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/6623",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Moyo Jonathan Nathaniel",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Moyo Jonathan Nathaniel",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/6623"
   ],
   "remarks": "Former member of the ZANU-PF Government. Incited violence and hatred, and architect of laws inhibiting freedom of speech.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1957-01-12",
-      "circa": false
+      "circa": false,
+      "year": 1957
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

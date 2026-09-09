@@ -1,46 +1,67 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus2982",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus2982",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "JSC SARAPUL RADIO PLANT",
+      "@type": "NameVariant",
+      "fullName": "JSC SARAPUL RADIO PLANT",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "JOINT-STOCK COMPANY SARAPULSKY RADIOZAVOD",
+      "@type": "NameVariant",
+      "fullName": "JOINT-STOCK COMPANY SARAPULSKY RADIOZAVOD",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "OPEN JOINT STOCK COMPANY SARAPUL RADIO PLANT",
+      "@type": "NameVariant",
+      "fullName": "OPEN JOINT STOCK COMPANY SARAPUL RADIO PLANT",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "АО САРАПУЛЬСКИЙ РАДИОЗАВОД» ",
+      "@type": "NameVariant",
+      "fullName": "АО САРАПУЛЬСКИЙ РАДИОЗАВОД» ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "ОТКРЫТОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО САРАПУЛЬСКИЙ РАДИОЗАВОД",
+      "@type": "NameVariant",
+      "fullName": "ОТКРЫТОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО САРАПУЛЬСКИЙ РАДИОЗАВОД",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus2982"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "country": "Russia"
     },
     {
+      "@type": "Address",
       "street": "Gogol Street 40",
       "city": "Sarapul",
       "state": "Udmurt Republic",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

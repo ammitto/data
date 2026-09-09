@@ -1,56 +1,80 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/ghr0082",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/ghr0082",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Bangalzai",
-      "first_name": "Furqan",
+      "@type": "NameVariant",
+      "fullName": "Bangalzai",
+      "firstName": "Furqan",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Abdullah",
+      "@type": "NameVariant",
+      "fullName": "Abdullah",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Azam",
-      "first_name": " ",
+      "@type": "NameVariant",
+      "fullName": "Azam",
+      "firstName": " ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Bangalzai ",
-      "first_name": "Farooq",
+      "@type": "NameVariant",
+      "fullName": "Bangalzai ",
+      "firstName": "Farooq",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Brohi",
-      "first_name": "Farhan",
+      "@type": "NameVariant",
+      "fullName": "Brohi",
+      "firstName": "Farhan",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Farooq",
+      "@type": "NameVariant",
+      "fullName": "Farooq",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "affiliated with ISIS-K The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/ghr0082"
+  ],
+  "remarks": "affiliated with ISIS-K The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Karachi central prison",
       "country": "Pakistan"
     },
     {
+      "@type": "Address",
       "street": "Saryab Road",
       "state": "Sindhi Gali Quetta",
       "country": "Pakistan"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

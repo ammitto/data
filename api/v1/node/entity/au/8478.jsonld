@@ -1,34 +1,59 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8478",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/8478",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MOHAMMAD REZA NAQDI",
+      "@type": "NameVariant",
+      "fullName": "MOHAMMAD REZA NAQDI",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "IRi.026. Designation: a) Brigadier-General b) Former Deputy Chief of Armed Forces General Staff for Logistics and Industrial Research c) Head of State Anti-Smuggling Headquarters.  Engaged in efforts to get round the sanctions imposed by resolutions 1737 (2006) and 1747 (2007).; Listing: Listed by the 1737 Committee on 3 March 2008 (amended on 17 December 2014)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8478"
   ],
-  "birth_info": [
+  "remarks": "IRi.026. Designation: a) Brigadier-General b) Former Deputy Chief of Armed Forces General Staff for Logistics and Industrial Research c) Head of State Anti-Smuggling Headquarters.  Engaged in efforts to get round the sanctions imposed by resolutions 1737 (2006) and 1747 (2007).; Listing: Listed by the 1737 Committee on 3 March 2008 (amended on 17 December 2014)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1949,
       "country": "a) Najaf"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1952,
       "country": "Iraq b) Tehran"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1953,
       "country": "Iran"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1961,
       "country": "a) Najaf"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

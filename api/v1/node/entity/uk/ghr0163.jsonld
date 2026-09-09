@@ -1,26 +1,45 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/ghr0163",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/ghr0163",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "BEN-GVIR",
-      "first_name": "Itamar",
+      "@type": "NameVariant",
+      "fullName": "BEN-GVIR",
+      "firstName": "Itamar",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "איתמר בן גביר",
+      "@type": "NameVariant",
+      "fullName": "איתמר בן גביר",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/ghr0163"
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Giv'at HaAvot, Kiryat Arba. West Bank"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

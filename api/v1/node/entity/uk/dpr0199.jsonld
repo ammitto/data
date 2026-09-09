@@ -1,23 +1,44 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/dpr0199",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/dpr0199",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "HA",
-      "first_name": "CHANG",
+      "@type": "NameVariant",
+      "fullName": "HA",
+      "firstName": "CHANG",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ha",
-      "first_name": "Jang",
+      "@type": "NameVariant",
+      "fullName": "Ha",
+      "firstName": "Jang",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "N/A",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/dpr0199"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "remarks": "N/A",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

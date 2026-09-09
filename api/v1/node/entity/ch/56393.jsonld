@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/56393",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/56393",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kamaltynov Yury Zimelevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kamaltynov Yury Zimelevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/56393"
   ],
   "remarks": "Mr. Kamaltynov is the Deputy Chairman of the State Council of the Republic of Tatarstan. Previously, he served as a Deputy Prime Minister of the Republic of Tatarstan and as plenipotentiary representative of the President of the Republic of Tatarstan in the State Council of the Republic of Tatarstan. Mr. Kamaltynov is a member of the Kremlin-aligned ruling party “United Russia”. In his statements on local and regional media platforms, Mr. Kamaltynov publicly supported and promoted the decision to invade Ukraine. Given his political influence, Mr. Kamaltynov is responsible for inciting hatred against Ukraine, spreading pro-Russian disinformation and propaganda in the context of the war, as well as seeking to garner domestic support in Russia for the war against Ukraine. Therefore, he is responsible for supporting actions or policies which undermine the territorial integrity, sovereignty and independence of Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1957-03-11",
-      "circa": false
+      "circa": false,
+      "year": 1957
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

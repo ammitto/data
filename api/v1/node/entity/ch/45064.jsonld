@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/45064",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/45064",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Banyar Aung Moe Dr",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Banyar Aung Moe Dr",
+      "isPrimary": true
     }
   ],
-  "remarks": "Banyar Aung Moe is a member of the State Administrative Council (SAC) and its Central Advisory Body.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/45064"
+  ],
+  "remarks": "Banyar Aung Moe is a member of the National Defence and Security Council (NDSC) and its Central Advisory Body, as well as a former member of the State Administrative Council (SAC) and its Central Advisory Body.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1947-08-14",
-      "circa": false
+      "circa": false,
+      "year": 1947
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

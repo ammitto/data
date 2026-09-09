@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/55991",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/55991",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Yasar Hussein Ibrahim",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Yasar Hussein Ibrahim",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/55991"
   ],
   "remarks": "Yasar Hussein Ibrahim is the co-owner of Al-Sayyad Company for Guarding and Protection Services Ltd, a Syrian private security company established in 2017 and supervised by the Wagner Group in Syria, active in the protection of Russian interests (phosphates, gas and securing oil sites). The company is active in the recruitment of Syrian mercenaries to Libya and Ukraine. Yasar Hussein Ibrahim is therefore responsible for, supporting or implementing actions or policies which undermine or threaten the territorial integrity, sovereignty and independence of Ukraine, or stability or security in Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1983-04-09",
-      "circa": false
+      "circa": false,
+      "year": 1983
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

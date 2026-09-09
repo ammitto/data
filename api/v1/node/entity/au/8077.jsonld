@@ -1,32 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8077",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/8077",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Detal Ural Design Bureau Joint Stock Company",
+      "@type": "NameVariant",
+      "fullName": "Detal Ural Design Bureau Joint Stock Company",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Aktsionernoe Obshchestvo \"Uralskoe Proektno-Konstruktorskoe Byuro \"Detal\"",
+      "@type": "NameVariant",
+      "fullName": "Aktsionernoe Obshchestvo \"Uralskoe Proektno-Konstruktorskoe Byuro \"Detal\"",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "AO UPKB Detal",
+      "@type": "NameVariant",
+      "fullName": "AO UPKB Detal",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "http://upkb.ru; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8077"
+  ],
+  "remarks": "http://upkb.ru; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Pionerskaya Street, 8, Kamensk-Uralskiy, Sverdlovsk Region 623409 Russia",
       "country": "Sverdlovsk Region 623409 Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

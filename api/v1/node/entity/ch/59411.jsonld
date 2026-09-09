@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/59411",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/59411",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Anosov Viktor Yuryevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Anosov Viktor Yuryevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/59411"
   ],
   "remarks": "Viktor Anosov is a board member of the ’Union of Donbas Volunteers’, a paramilitary organisation that actively fights alongside the Russian armed forces in Russia’s war of aggression against Ukraine. In his capacity as board member of the Union of Donbas Volunteers, Viktor Anosov has been stationed in Slovyansk, Donetsk region, fighting on behalf of the Russian armed forces. Additionally, Viktor Anosov has served as chairman of the military ‘tribunal’ of the so-called ‘Donetsk People’s Republic’, in which capacity he has been responsible for the torture and murder of Ukrainian prisoners.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1965-10-31",
-      "circa": false
+      "circa": false,
+      "year": 1965
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

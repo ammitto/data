@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/189690",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/189690",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "URALKOTLOSERVICE PKF ZAO",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "URALKOTLOSERVICE PKF ZAO",
+      "isPrimary": true
     }
   ],
-  "remarks": "*77",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/189690"
+  ],
+  "remarks": "*77",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "2 BRUSNITSYN, STREET, APT. 14, 623700, BEREZOVSKY",
       "city": "SVERDLOVSK OBLAST",
       "country": "Russian Federation",
-      "country_iso_code": "RU"
+      "countryIsoCode": "RU"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

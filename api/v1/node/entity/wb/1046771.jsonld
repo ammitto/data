@@ -1,22 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/1046771",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/wb/1046771",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "ERLING RASK",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "ERLING RASK",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/1046771"
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "LADEGAARDSVEJ , 2770",
       "city": "KASTRUP",
       "country": "Denmark",
-      "country_iso_code": "DK"
+      "countryIsoCode": "DK"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

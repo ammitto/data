@@ -1,34 +1,57 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/syr0114",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/syr0114",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Al-Musa",
-      "first_name": "Jayyiz",
+      "@type": "NameVariant",
+      "fullName": "Al-Musa",
+      "firstName": "Jayyiz",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "al-Mousa",
-      "first_name": "Jaez",
+      "@type": "NameVariant",
+      "fullName": "al-Mousa",
+      "firstName": "Jaez",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "al-Mousa",
-      "first_name": "Jayez",
+      "@type": "NameVariant",
+      "fullName": "al-Mousa",
+      "firstName": "Jayez",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "جايز الحمود الموسى",
+      "@type": "NameVariant",
+      "fullName": "جايز الحمود الموسى",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/syr0114"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

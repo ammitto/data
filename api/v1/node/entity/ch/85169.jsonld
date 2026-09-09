@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/85169",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/85169",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Shane Dominic Crawford",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Shane Dominic Crawford",
+      "isPrimary": true
     }
   ],
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/85169"
+  ],
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1986-02-22",
-      "circa": false
+      "circa": false,
+      "year": 1986
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/22363",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/22363",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Waleed Al Mo’allem",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Waleed Al Mo’allem",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/22363"
   ],
   "remarks": "Vice Prime Minister, Minister of Foreign Affairs and Expatriates. As a Government Minister, shares responsibility for the Syrian regime’s violent repression of the civilian population.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1941-07-17",
-      "circa": false
+      "circa": false,
+      "year": 1941
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

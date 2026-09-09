@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/60509",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/60509",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kerefov Murat Anatolyevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kerefov Murat Anatolyevich",
+      "isPrimary": true
     }
   ],
-  "remarks": "Murat Kerefov is Deputy Minister of the Russian Ministry of Economic Development. During his administration, the Ministry of Economic Development has been involved in activities to undermine and threaten the territorial integrity of Ukraine, including measures to explore the economic potential of the annexed Ukrainian regions (Kherson, Zaporizhzhia, the so-called “Donetsk People’s Republic” and “Luhansk People’s Republic”) as well as activities to support war economy measures of the Russian government.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/60509"
+  ],
+  "remarks": "Murat Kerefov is the Deputy Chairman of VEB.RF and the former Deputy Minister of the Russian Ministry of Economic Development. During his administration, the Ministry of Economic Development has been involved in activities to undermine and threaten the territorial integrity of Ukraine, including measures to explore the economic potential of the annexed Ukrainian regions (Kherson, Zaporizhzhia, the so-called “Donetsk People’s Republic” and so-called “Luhansk People’s Republic”) as well as activities to support war economy measures of the Russian government.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1978-06-21",
-      "circa": false
+      "circa": false,
+      "year": 1978
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

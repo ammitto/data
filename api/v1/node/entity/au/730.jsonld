@@ -1,56 +1,75 @@
 {
-  "id": "https://www.ammitto.org/entity/au/730",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/730",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "OMAR SABAWI IBRAHIM HASAN AL-TIKRITI",
+      "@type": "NameVariant",
+      "fullName": "OMAR SABAWI IBRAHIM HASAN AL-TIKRITI",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "عمر سبعاوي إبراهيم حسن التكريتي",
+      "@type": "NameVariant",
+      "fullName": "عمر سبعاوي إبراهيم حسن التكريتي",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Umar Sabawi Ibrahim Hasan Al-Tikriti",
+      "@type": "NameVariant",
+      "fullName": "Umar Sabawi Ibrahim Hasan Al-Tikriti",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Omar Sab’awi Ibrahim Hasan Al-Tikriti",
+      "@type": "NameVariant",
+      "fullName": "Omar Sab’awi Ibrahim Hasan Al-Tikriti",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Omar Sabawi Ibrahim Hassan Al-Tikriti",
+      "@type": "NameVariant",
+      "fullName": "Omar Sabawi Ibrahim Hassan Al-Tikriti",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Umar Ahmad Ali Al-Alusi",
+      "@type": "NameVariant",
+      "fullName": "Umar Ahmad Ali Al-Alusi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "IQi.082; Listing: Listed by the 1518 Committee",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/730"
   ],
-  "birth_info": [
+  "remarks": "IQi.082; Listing: Listed by the 1518 Committee",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1970,
       "country": "Baghdad"
     }
   ],
   "nationalities": [
     "Iraq"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "a) Damascus, Syrian Arab Republic b) Al-Shahid Street, Al-Mahata Neighborhood, Az Zabadani, Az Zabadani, Syrian Arab Republic c) Yemen",
       "country": "Syrian Arab Republic c) Yemen"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,37 +1,55 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus1960",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus1960",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "PARAVAR PARS CO",
+      "@type": "NameVariant",
+      "fullName": "PARAVAR PARS CO",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Paravar Pars Aerospace Research and Engineering Services ",
+      "@type": "NameVariant",
+      "fullName": "Paravar Pars Aerospace Research and Engineering Services ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Paravar Pars Aerospace Research Institute ",
+      "@type": "NameVariant",
+      "fullName": "Paravar Pars Aerospace Research Institute ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Paravar Pars Company",
+      "@type": "NameVariant",
+      "fullName": "Paravar Pars Company",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus1960"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Km 13 of Shahid Babaei Highway – after Imam Hossein (AS) University – next to Telo Road.",
       "country": "Iran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

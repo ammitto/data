@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/65416",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/65416",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Harmash Alena Stanislavauna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Harmash Alena Stanislavauna",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/65416"
   ],
   "remarks": "Alena Harmash is a Belarussian judge who serves in a Court of the Bobruisk District and Bobruisk. She has issued politically-motivated rulings against the opponents of the Belarusian authorities. She convicted six opposition supporters and activists on political grounds. She has a documented history of having issued politically-motivated rulings against the opponents of the Belarusian authorities since 2020. She is therefore responsible for serious violations of human rights and the repression of civil society and democratic opposition in Belarus.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1967-09-10",
-      "circa": false
+      "circa": false,
+      "year": 1967
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

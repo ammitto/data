@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/45001",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/45001",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Thein Nyunt",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Thein Nyunt",
+      "isPrimary": true
     }
   ],
-  "remarks": "Thein Nyunt is a member of the State Administrative Council (SAC) and its Central Advisory Body.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/45001"
+  ],
+  "remarks": "Thein Nyunt is a member of the National Defence and Security Council (NDSC) and its Central Advisory Body, as well as a former member of the State Administrative Council (SAC) and its Central Advisory Body.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1944-12-26",
-      "circa": false
+      "circa": false,
+      "year": 1944
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

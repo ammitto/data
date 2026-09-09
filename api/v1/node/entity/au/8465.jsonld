@@ -1,27 +1,44 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8465",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/8465",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "AHMAD DERAKHSHANDEH",
+      "@type": "NameVariant",
+      "fullName": "AHMAD DERAKHSHANDEH",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "IRi.013. Designation: Chairman and Managing Director of Bank Sepah, which provides support for the AIO and subordinates, including SHIG and SBIG, both of which were designated under resolution 1737 (2006).; Listing: Listed by the 1737 Committee on 24 March 2007 (amended on 17 December 2014)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8465"
   ],
-  "birth_info": [
+  "remarks": "IRi.013. Designation: Chairman and Managing Director of Bank Sepah, which provides support for the AIO and subordinates, including SHIG and SBIG, both of which were designated under resolution 1737 (2006).; Listing: Listed by the 1737 Committee on 24 March 2007 (amended on 17 December 2014)",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1956
     }
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "33 Hormozan Building, Pirozan St., Sharak Ghods, Tehran, Iran",
       "country": "Iran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

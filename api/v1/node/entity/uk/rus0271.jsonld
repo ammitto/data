@@ -1,34 +1,57 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus0271",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/rus0271",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "TOKAREV",
-      "first_name": "Nikolai",
+      "@type": "NameVariant",
+      "fullName": "TOKAREV",
+      "firstName": "Nikolai",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "TOKAREV",
-      "first_name": "Nikolai ",
+      "@type": "NameVariant",
+      "fullName": "TOKAREV",
+      "firstName": "Nikolai ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "TOKAREV",
-      "first_name": "Nikolay",
+      "@type": "NameVariant",
+      "fullName": "TOKAREV",
+      "firstName": "Nikolay",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Николай Петрович ТОКАРЕВ",
+      "@type": "NameVariant",
+      "fullName": "Николай Петрович ТОКАРЕВ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus0271"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

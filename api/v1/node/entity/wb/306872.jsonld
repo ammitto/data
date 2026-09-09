@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/306872",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/306872",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "COMPUAIDS INC.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "COMPUAIDS INC.",
+      "isPrimary": true
     }
   ],
-  "remarks": "(d/b/a Groupe Systèmes et Solutions D’entreprise, ESS Group, Enterprise Systems and Solutions Group) (Now known as MetaFlow Inc.) (Reg. No. 1859937)*189",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/306872"
+  ],
+  "remarks": "(d/b/a Groupe Systèmes et Solutions D’entreprise, ESS Group, Enterprise Systems and Solutions Group) (Now known as MetaFlow Inc.) (Reg. No. 1859937)*189",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "201-290 PICTON AVENUE",
       "city": "OTTAWA, ONTARIO, K1Z 8P8",
       "country": "Canada",
-      "country_iso_code": "CA"
+      "countryIsoCode": "CA"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

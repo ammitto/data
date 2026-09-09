@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/85014",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/85014",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Sinila Vitali Viktaravich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Sinila Vitali Viktaravich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/85014"
   ],
   "remarks": "Vitali Sinila is a Belarusian judge and chairman of the court of the Mostovsky district of the Grodno region. He was appointed by Aliaksandr Lukashenka. He issued sentences against a number of citizens of Belarus who voiced their opinions against the President and the regime’s authorities, e.g. Viktor Tsarikevich and Sergei Burak, for the dissent they expressed on social media and offline.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1976-05-15",
-      "circa": false
+      "circa": false,
+      "year": 1976
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

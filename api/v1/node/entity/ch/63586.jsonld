@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/63586",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/63586",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Shevtsova Tatyana Viktorovna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Shevtsova Tatyana Viktorovna",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/63586"
   ],
   "remarks": "Tatyana Shevtsova is a former Deputy Minister of Defence of the Russian Federation, responsible for the budget and financial activities of the Ministry. She oversaw the handling of resources and was responsible for payments to mobilised soldiers fighting in Russia’s war of aggression against Ukraine. Military financiers under her control were directing resources to the illegally annexed territories of Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1969-07-22",
-      "circa": false
+      "circa": false,
+      "year": 1969
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

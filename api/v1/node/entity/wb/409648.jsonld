@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/409648",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/409648",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "EMMYWAYS ENGINEERING/CONSTRUCTION LIMITED",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "EMMYWAYS ENGINEERING/CONSTRUCTION LIMITED",
+      "isPrimary": true
     }
   ],
-  "remarks": "*487",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/409648"
+  ],
+  "remarks": "*487",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "HEAD OFFICE AT ANTAFIO BARIFA ROAD, PLOT 2 AYIVU CLOSE, P.O. BOX 1093",
       "city": "ARUA",
       "country": "Uganda",
-      "country_iso_code": "UG"
+      "countryIsoCode": "UG"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/631417",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/631417",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "INGENIEROS CONSULTORES Y ASESORES TÉCNICOS SOCIEDAD DE RESPONSABILIDAD LIMITADA",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "INGENIEROS CONSULTORES Y ASESORES TÉCNICOS SOCIEDAD DE RESPONSABILIDAD LIMITADA",
+      "isPrimary": true
     }
   ],
-  "remarks": "Ingenieros Consultores y Asesores Técnicos Sociedad de Responsabilidad Limitada de Capital Variable",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/631417"
+  ],
+  "remarks": "Ingenieros Consultores y Asesores Técnicos Sociedad de Responsabilidad Limitada de Capital Variable",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "COLONIA HATO DE ENMEDIO, SECTOR 8, BLOQUE 108, CASA 3902, CALLE PRINCIPAL, IN FRONT OF HOSPITAL SAN JORGE, SAME PLACE AS HOTEL LA ESTANCIA.",
       "city": "TEGUCIGALPA",
       "country": "Honduras",
-      "country_iso_code": "HN"
+      "countryIsoCode": "HN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

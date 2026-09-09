@@ -1,32 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus1869",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus1869",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Renera",
+      "@type": "NameVariant",
+      "fullName": "Renera",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "LLC Renera",
+      "@type": "NameVariant",
+      "fullName": "LLC Renera",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Renera Limited Liability Company (LLC)",
+      "@type": "NameVariant",
+      "fullName": "Renera Limited Liability Company (LLC)",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus1869"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Kashirskoe highway, 49",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

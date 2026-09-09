@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/82253",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/82253",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kamel Djermane",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kamel Djermane",
+      "isPrimary": true
     }
   ],
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/82253"
+  ],
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1965-10-12",
-      "circa": false
+      "circa": false,
+      "year": 1965
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

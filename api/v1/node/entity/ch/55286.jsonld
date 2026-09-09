@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/55286",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/55286",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Cherevko Serhiy Mikolayovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Cherevko Serhiy Mikolayovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/55286"
   ],
   "remarks": "Serhiy Cherevko participated in Mar 2022 in the creation of the so-called ‘Salvation Committee for Peace and Order’, an organ for collaboration with the Russian occupation in Kherson Oblast.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1975-08-11",
-      "circa": false
+      "circa": false,
+      "year": 1975
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

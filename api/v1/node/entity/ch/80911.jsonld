@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/80911",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/80911",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mehdi Ben Mohamed Ben Mohamed Kammoun",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Mehdi Ben Mohamed Ben Mohamed Kammoun",
+      "isPrimary": true
     }
   ],
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/80911"
+  ],
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1968-04-03",
-      "circa": false
+      "circa": false,
+      "year": 1968
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

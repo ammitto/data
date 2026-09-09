@@ -1,37 +1,55 @@
 {
-  "id": "https://www.ammitto.org/entity/au/6949",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/6949",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "RusHydro",
+      "@type": "NameVariant",
+      "fullName": "RusHydro",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Federal Hydro-Generating Company RusHydro",
+      "@type": "NameVariant",
+      "fullName": "Federal Hydro-Generating Company RusHydro",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Publichnoe Aktsionernoe Obshchestvo Federalnaya Gydrogeneriruyuschaya",
+      "@type": "NameVariant",
+      "fullName": "Publichnoe Aktsionernoe Obshchestvo Federalnaya Gydrogeneriruyuschaya",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "RusGidro",
+      "@type": "NameVariant",
+      "fullName": "RusGidro",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "www.eng.rushydro.ru; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Ukraine) Amendment (No. 12) Instrument 2022",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/6949"
+  ],
+  "remarks": "www.eng.rushydro.ru; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Ukraine) Amendment (No. 12) Instrument 2022",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "d. 43 k. 1, ul. Dubrovinskogo Krasnoyarsk, Krasnoyarski Kr., 660017, Russia",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

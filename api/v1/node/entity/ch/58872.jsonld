@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/58872",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/58872",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kovalchuk Boris Yurievich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kovalchuk Boris Yurievich",
+      "isPrimary": true
     }
   ],
-  "remarks": "Boris Yurievich Kovalchuk is the former General Director and Chairman of the Management Board of PJSC Inter RAO, one of Russia’s largest public energy companies. Major shareholders of PJSC Inter RAO include state-owned entities (e.g. Rozneftegaz). He was appointed deputy head of the Presidential Control Directorate in March 2024. Boris Kovalchuk is further closely associated with his father Yuriy Kovalchuk, a long-time acquaintance of President Vladimir Putin. They allegedly co-own luxury assets through the companies “LLC Invest” and “Prime”, which can be linked to Putin, including a property called “Fishermen’s hut”. Boris Kovalchuk is therefore a leading businessperson involved in economic sectors providing a substantial source of revenue to the Government of the Russian Federation, which is responsible for the annexation of Crimea and the destabilisation of Ukraine.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/58872"
+  ],
+  "remarks": "Boris Yurievich Kovalchuk is the Chairman of the Accounts Chamber of the Russian Federation, and the former General Director and Chairman of the Management Board of PJSC Inter RAO, one of Russia’s largest public energy companies.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1977-12-01",
-      "circa": false
+      "circa": false,
+      "year": 1977
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

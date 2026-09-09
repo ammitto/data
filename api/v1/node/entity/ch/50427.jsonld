@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/50427",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/50427",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Nekrashevich Andrei Konstantinovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Nekrashevich Andrei Konstantinovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/50427"
   ],
   "remarks": "Andrei Konstantinovich Nekrashevich is the former Chief of the Belarusian Main Directorate of Combat Training of the Armed Forces of the Republic of Belarus, in office until 21 December 2022. He has been the Chairman of the Central Council of the republican State-public association the Voluntary Society of Assistance to the Army, the Air Force and the Navy (DOSAAF) of the Republic of Belarus since October 2023. He was part of the Belarusian army, which has supported the Russian military aggression against Ukraine of 24 February 2022. In his former position, he was responsible for overseeing the joint combat training of Belarusian Armed Forces and armed forces of foreign states. He publicly praised the joint Belarusian-Russian military exercises, which prepared and facilitated the Russian military aggression against Ukraine of 24 February 2022.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1968-01-01",
-      "circa": false
+      "circa": false,
+      "year": 1968
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

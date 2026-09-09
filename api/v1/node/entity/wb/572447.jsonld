@@ -1,23 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/572447",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/wb/572447",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MR. MARTIN KURIA KIBAARA",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "MR. MARTIN KURIA KIBAARA",
+      "isPrimary": true
     }
   ],
-  "remarks": "*578",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/572447"
+  ],
+  "remarks": "*578",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "LUKENYA GREENS LIMITED, MITSUMI BUSINESS PARK, 5TH FLOOR, SUITE 502, 67 MUTHITHI ROAD, WESTLANDS NAIROBI, P.O. BOX 72149",
       "city": "NAIROBI 00200",
       "country": "Kenya",
-      "country_iso_code": "KE"
+      "countryIsoCode": "KE"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

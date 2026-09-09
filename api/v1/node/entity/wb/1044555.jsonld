@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/1044555",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/1044555",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "PROLECTRIC ENERJI ÜRETIM A.S.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "PROLECTRIC ENERJI ÜRETIM A.S.",
+      "isPrimary": true
     }
   ],
-  "remarks": "(Reg. No: 0733112789700001) *706",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/1044555"
+  ],
+  "remarks": "(Reg. No: 0733112789700001) *706",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "HUZUR MAH. AHMET BAYMAN CAD. NO:2A SARIYER",
       "city": "ISTANBUL",
       "country": "Turkiye",
-      "country_iso_code": "TR"
+      "countryIsoCode": "TR"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

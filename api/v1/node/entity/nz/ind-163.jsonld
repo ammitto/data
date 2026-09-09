@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/nz/ind-163",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/nz/ind-163",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Yulia Nikolaevna Drozhzhina",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Yulia Nikolaevna Drozhzhina",
+      "isPrimary": true
     }
   ],
-  "source_references": [
+  "sourceReferences": [
     {
-      "source_code": "nz",
-      "reference_number": "IND-163"
+      "@type": "SourceReference",
+      "sourceCode": "nz",
+      "referenceNumber": "IND-163",
+      "retrievedAt": "2026-09-09T16:30:43Z"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "linkedEntities": [
+
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/nz/consolidated-list/ind-163"
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

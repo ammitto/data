@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/316890",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/316890",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "LIMITED LIABILITY COMPANY MANUFACTURING AND COMMERCIAL FIRM “ROMA LLC”",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "LIMITED LIABILITY COMPANY MANUFACTURING AND COMMERCIAL FIRM “ROMA LLC”",
+      "isPrimary": true
     }
   ],
-  "remarks": "*257",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/316890"
+  ],
+  "remarks": "*257",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "39, 40-RICHCHIA RADIANSKOYI UKRAYINY STR.",
       "city": "ZAPORIZHZHIA, 69037",
       "country": "Ukraine",
-      "country_iso_code": "UA"
+      "countryIsoCode": "UA"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

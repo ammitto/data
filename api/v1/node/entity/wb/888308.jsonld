@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/888308",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/888308",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "HEBEI CONSTRUCTION GROUP CORPORATION LIMITED SHIJIAZHUANG ARCHITECTURAL",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "HEBEI CONSTRUCTION GROUP CORPORATION LIMITED SHIJIAZHUANG ARCHITECTURAL",
+      "isPrimary": true
     }
   ],
-  "remarks": "河北建设集团有限公司石家庄建筑",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/888308"
+  ],
+  "remarks": "河北建设集团有限公司石家庄建筑",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "ROOM 2-811, WANDA PLAZA BUSINESS COMPLEX BUILDING, NO 123, HUAIAN EAST ROAD, YUHUA DISTRICT",
       "city": "SHIJIAZHUANG CITY, HEBEI PROVINCE",
       "country": "China",
-      "country_iso_code": "CN"
+      "countryIsoCode": "CN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

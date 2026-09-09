@@ -1,55 +1,79 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/ghr0179",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/ghr0179",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Chen",
-      "first_name": "Zhi",
+      "@type": "NameVariant",
+      "fullName": "Chen",
+      "firstName": "Zhi",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "CHEN",
-      "first_name": "Zhi",
+      "@type": "NameVariant",
+      "fullName": "CHEN",
+      "firstName": "Zhi",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Vincent",
+      "@type": "NameVariant",
+      "fullName": "Vincent",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "ចេន ហ្ស៊ី",
+      "@type": "NameVariant",
+      "fullName": "ចេន ហ្ស៊ី",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "陈志",
+      "@type": "NameVariant",
+      "fullName": "陈志",
       "script": "Hani",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/ghr0179"
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "68 Kimberley Road, Tsim Sha Tsui, Kowloon",
       "state": "Hong Kong",
       "country": "China"
     },
     {
+      "@type": "Address",
       "street": "Unit 2002, 20/F Cheung Kong Centre, 2 Queens Road Central",
       "state": "Hong Kong",
       "country": "China"
     },
     {
+      "@type": "Address",
       "street": "YO2, Street Y02, Village 14, Sangkat Tonle Bassac",
       "city": "Khan Chamkar Mon",
       "state": "Phnom Penh",
       "country": "Cambodia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

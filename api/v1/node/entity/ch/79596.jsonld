@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/79596",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/79596",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ahmad Jan Akhundzada Shukoor Akhundzada Maulavi Mullah",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Ahmad Jan Akhundzada Shukoor Akhundzada Maulavi Mullah",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/79596"
   ],
   "remarks": "Governor of Zabol and Uruzgan Provinces under the Taliban regime.",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1966
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

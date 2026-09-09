@@ -1,22 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/631419",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/wb/631419",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "WALTERIO ROMERO VALLADARES",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "WALTERIO ROMERO VALLADARES",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/631419"
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "COLONIA HATO DE ENMEDIO, SECTOR 8,BLOQUE 108, CASA 3902, CALLE PRINCIPAL, IN FRONT OF HOSPITAL SAN JORGE, SAME PLACE AS HOTEL LA ESTANCIA.",
       "city": "TEGUCIGALPA",
       "country": "Honduras",
-      "country_iso_code": "HN"
+      "countryIsoCode": "HN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

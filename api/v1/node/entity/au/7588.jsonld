@@ -1,27 +1,43 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7588",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/7588",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Ural Civil Aviation Plant JSC",
+      "@type": "NameVariant",
+      "fullName": "Ural Civil Aviation Plant JSC",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "JSC Urals Works of Civil Aviation",
+      "@type": "NameVariant",
+      "fullName": "JSC Urals Works of Civil Aviation",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Company identification number: 1026605766560; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 8) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7588"
+  ],
+  "remarks": "Company identification number: 1026605766560; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 8) Instrument 2023",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "2G Bakhchivandzhi S, Ekaterinbourg, 620025, Russia",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

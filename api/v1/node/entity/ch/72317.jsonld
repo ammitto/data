@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/72317",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/72317",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ivanov Alexander Vladimirovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Ivanov Alexander Vladimirovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/72317"
   ],
   "remarks": "Alexander Ivanov is the Director of JSC VMP Avitek (a.k.a. Vyatka Machine-Building Enterprise Avitek). JSC VMP Avitek is a Russian military-industrial state enterprise that develops and produces surface-to-air anti-aircraft guided missiles deployed by the Russian Armed Forces. Additionally, JSC VMP Avitek develops and produces ejection seats for fighter jets deployed by the Russian Armed Forces. Notably, JSC VMP Avitek is part of the Almaz-Antey concern, a Russian state-owned arms manufacturer that develops anti-aircraft defence and cruise missile systems for the Russian military.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1959-01-04",
-      "circa": false
+      "circa": false,
+      "year": 1959
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/308485",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/308485",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "DIVIARQ",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "DIVIARQ",
+      "isPrimary": true
     }
   ],
-  "remarks": "*214",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/308485"
+  ],
+  "remarks": "*214",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "CALLE PEDRO ALMARÁZ NO. 3380 Ó 3379, BARRIO CHACARILLA",
       "city": "SANTA CRUZ DE LA SIERRA",
       "country": "Bolivia",
-      "country_iso_code": "BO"
+      "countryIsoCode": "BO"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

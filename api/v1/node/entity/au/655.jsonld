@@ -1,30 +1,47 @@
 {
-  "id": "https://www.ammitto.org/entity/au/655",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/655",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "HANI ABD-AL-LATIF TILFAH AL-TIKRITI",
+      "@type": "NameVariant",
+      "fullName": "HANI ABD-AL-LATIF TILFAH AL-TIKRITI",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "هاني عبد اللطيف طلفاح التكريتي",
+      "@type": "NameVariant",
+      "fullName": "هاني عبد اللطيف طلفاح التكريتي",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "IQi.007; Listing: Listed by the 1518 Committee",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/655"
   ],
-  "birth_info": [
+  "remarks": "IQi.007; Listing: Listed by the 1518 Committee",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1962,
       "country": "al-Awja"
     }
   ],
   "nationalities": [
     "Iraq"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

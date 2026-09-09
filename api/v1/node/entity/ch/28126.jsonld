@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/28126",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/28126",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kalyussky Alexandr Arkadievich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kalyussky Alexandr Arkadievich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/28126"
   ],
   "remarks": "Former so-called \"de facto Deputy Prime Minister for Social Affairs of the Donetsk People's Republic\". Responsible for the separatist \"governmental\" activities of the so-called \"government of the Donetsk People's Republic\".",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1975-10-09",
-      "circa": false
+      "circa": false,
+      "year": 1975
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

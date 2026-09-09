@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/38027",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/38027",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mundos Muhindo Akili",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Mundos Muhindo Akili",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/38027"
   ],
   "remarks": "Muhindo Akili Mundos is an FARDC General, Commander of the 31st Brigade. He was appointed commander of the FARDC’s Operational Sector in the areas of Beni and Lubero, including Operation Sukola I against the Allied Democratic Forces (ADF) in September 2014. He remained in that position until June 2015. He is also a threat to the peace, stability and security of the DRC under UNSCR 2293 paragraph 7(e)",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1972-11-10",
-      "circa": false
+      "circa": false,
+      "year": 1972
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

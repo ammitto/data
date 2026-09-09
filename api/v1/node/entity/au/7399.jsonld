@@ -1,35 +1,53 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7399",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7399",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Aleksandr Viktorovich MOOR",
+      "@type": "NameVariant",
+      "fullName": "Aleksandr Viktorovich MOOR",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Oleksandr Viktorovych MOOR",
+      "@type": "NameVariant",
+      "fullName": "Oleksandr Viktorovych MOOR",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Alexander Viktorovich MOOR",
+      "@type": "NameVariant",
+      "fullName": "Alexander Viktorovich MOOR",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Member of the State Council for the Russian Federation, Governor of the Tyumen Oblast; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 2) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7399"
   ],
-  "birth_info": [
+  "remarks": "Member of the State Council for the Russian Federation, Governor of the Tyumen Oblast; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 2) Instrument 2023",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1974,
       "country": "Bereznyaki"
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

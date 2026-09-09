@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/6283",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/6283",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Gurira Cephas T.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Gurira Cephas T.",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/6283"
   ],
   "remarks": "Directly involved in the terror campaign waged before and during the 2008 elections. Responsible for inciting violence in Mhondoro.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1963-05-01",
-      "circa": false
+      "circa": false,
+      "year": 1963
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

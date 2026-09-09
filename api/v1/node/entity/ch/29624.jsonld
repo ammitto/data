@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/29624",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/29624",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Abdullah Yahya al Hakim",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Abdullah Yahya al Hakim",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/29624"
   ],
   "remarks": "Huthi group second-in-command",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1985
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/712502",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/712502",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "JOONGANG CONTROL CO., LTD.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "JOONGANG CONTROL CO., LTD.",
+      "isPrimary": true
     }
   ],
-  "remarks": "*623 (Reg. No. 111-81-21018)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/712502"
+  ],
+  "remarks": "*623 (Reg. No. 111-81-21018)",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "54, JIKJI-DAERO 409BEON-GIL, HEUNGDEOK-GU, CHEONGJU-SI",
       "city": "CHUNGCHEONGBUK-DO",
       "country": "Korea, Republic of",
-      "country_iso_code": "KR"
+      "countryIsoCode": "KR"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/4791",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/4791",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Siankevich Eduard Aliaksandravich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Siankevich Eduard Aliaksandravich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/4791"
   ],
   "remarks": "Member of the Lower Chamber of the Parliament, Deputy Head of the Permanent Comittee on Law, former Prosecutor of the region of Mogilev. Responsible for the repression of civil society following the December 2010 elections.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1952-04-15",
-      "circa": false
+      "circa": false,
+      "year": 1952
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

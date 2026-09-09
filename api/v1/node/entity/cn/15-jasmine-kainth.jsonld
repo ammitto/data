@@ -1,21 +1,42 @@
 {
-  "id": "https://www.ammitto.org/entity/cn/15-jasmine-kainth",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/cn/15-jasmine-kainth",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Jasmine Kainth",
+      "@type": "NameVariant",
+      "fullName": "Jasmine Kainth",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "贾丝明·凯因特",
+      "@type": "NameVariant",
+      "fullName": "贾丝明·凯因特",
       "script": "Hani",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "List: cn/anti-sanction-list; Title: 维吾尔人权倡导项目政策及宣传主任",
-  "sanction_entry_ids": [
-    "https://www.ammitto.org/entry/cn/unknown/15-jasmine-kainth"
+  "sourceReferences": [
+
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/cn/anti-sanction-list/15-jasmine-kainth"
+  ],
+  "remarks": "List: cn/anti-sanction-list; Title: 维吾尔人权倡导项目政策及宣传主任",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

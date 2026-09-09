@@ -1,29 +1,43 @@
 {
-  "id": "https://www.ammitto.org/entry/uk/consolidated-list/inu0365",
-  "entity_id": "https://www.ammitto.org/entity/uk/inu0365",
+  "@id": "https://www.ammitto.org/entry/uk/consolidated-list/inu0365",
+  "@type": "SanctionEntry",
+  "entityId": "https://www.ammitto.org/entity/uk/inu0365",
   "authority": {
     "@id": "https://www.ammitto.org/authority/uk"
   },
   "regime": {
-    "@id": "https://www.ammitto.org/regime/the_iran_sanctions_nuclear_eu_exit_regulations_2019"
+    "@id": "https://www.ammitto.org/regime/the_iran_sanctions_nuclear_eu_exit_regulations_2019",
+    "name": "The Iran (Sanctions) (Nuclear) (EU Exit) Regulations 2019"
   },
+  "legalBases": [
+
+  ],
   "effects": [
     {
-      "effect_type": "asset_freeze",
+      "@type": "SanctionEffect",
+      "effectType": "asset_freeze",
       "scope": "full"
     }
   ],
+  "reasons": [
+
+  ],
   "period": {
-    "listed_date": "2025-09-28",
-    "effective_date": "2025-09-28",
-    "is_indefinite": true,
-    "last_updated": "2025-10-01"
+    "@type": "TemporalPeriod",
+    "listedDate": "2025-09-28",
+    "effectiveDate": "2025-09-28",
+    "isIndefinite": true,
+    "lastUpdated": "2025-10-01"
   },
   "status": "active",
-  "reference_number": "INU0365",
-  "raw_source_data": {
-    "source_format": "xml",
-    "source_specific_fields": {
+  "statusHistory": [
+
+  ],
+  "referenceNumber": "INU0365",
+  "rawSourceData": {
+    "@type": "RawSourceData",
+    "sourceFormat": "xml",
+    "sourceSpecificFields": {
       "uk:ofsiGroupId": "17104",
       "uk:unReferenceNumber": "IRe.008",
       "uk:designationSource": "UN",
@@ -31,5 +45,5 @@
       "uk:entityType": "Entity"
     }
   },
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

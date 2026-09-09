@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/29309",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/29309",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Rodkin Andrei Nikolaevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Rodkin Andrei Nikolaevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/29309"
   ],
   "remarks": "Former Moscow Representative of the so-called “Donetsk People's Republic”. In his statements he has, inter alia, talked about the militias' readiness to conduct a guerrilla war and their seizure of weapon systems from the Ukrainian armed forces. He has therefore supported actions and policies which undermine the territorial integrity, sovereignty and independence of Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1976-09-23",
-      "circa": false
+      "circa": false,
+      "year": 1976
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

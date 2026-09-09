@@ -1,30 +1,44 @@
 {
-  "id": "https://www.ammitto.org/entity/au/1129",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/1129",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "RI HONG-SOP",
+      "@type": "NameVariant",
+      "fullName": "RI HONG-SOP",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "KPi.004. Former director, Yongbyon Nuclear Research Center, and Head of Nuclear Weapons Institute. Former director, Yongbyon Nuclear Research Center, oversaw three core facilities that assist in the production of weapons-grade plutonium: the Fuel Fabrication Facility, the Nuclear Reactor, and the Reprocessing Plant.; Listing: First listed on 16/07/2009 (amended on 9/07/2018, 26/07/2022 and 29/06/2023)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/1129"
   ],
-  "birth_info": [
+  "remarks": "KPi.004. Former director, Yongbyon Nuclear Research Center, and Head of Nuclear Weapons Institute. Former director, Yongbyon Nuclear Research Center, oversaw three core facilities that assist in the production of weapons-grade plutonium: the Fuel Fabrication Facility, the Nuclear Reactor, and the Reprocessing Plant.; Listing: First listed on 16/07/2009 (amended on 9/07/2018, 26/07/2022 and 29/06/2023)",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1940
     }
   ],
   "nationalities": [
     "Democratic People's Republic of Korea (North Korea)"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Pyongyang, Democratic People's Republic of Korea",
       "country": "Democratic People's Republic of Korea"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,22 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/187377",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/wb/187377",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MR. SEALTIEL OROZCO",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "MR. SEALTIEL OROZCO",
+      "isPrimary": true
     }
   ],
-  "remarks": "*51",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/187377"
+  ],
+  "remarks": "*51",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "CENTRO COMERCIAL SAN FRANCISCO MODULO H-4, MANAGUA, NICARAGUA",
       "country": "Nicaragua",
-      "country_iso_code": "NI"
+      "countryIsoCode": "NI"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

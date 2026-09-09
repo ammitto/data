@@ -1,21 +1,42 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus3047",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/rus3047",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Vasadze",
-      "first_name": "Levan",
+      "@type": "NameVariant",
+      "fullName": "Vasadze",
+      "firstName": "Levan",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Леван Васадзе ",
+      "@type": "NameVariant",
+      "fullName": "Леван Васадзе ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus3047"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

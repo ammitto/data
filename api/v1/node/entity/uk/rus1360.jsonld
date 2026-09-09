@@ -1,35 +1,55 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus1360",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/rus1360",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Belozyorov",
-      "first_name": "Oleg",
+      "@type": "NameVariant",
+      "fullName": "Belozyorov",
+      "firstName": "Oleg",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Belozerov",
-      "first_name": "Oleg",
+      "@type": "NameVariant",
+      "fullName": "Belozerov",
+      "firstName": "Oleg",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Олег Валентинович Белозёров",
+      "@type": "NameVariant",
+      "fullName": "Олег Валентинович Белозёров",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus1360"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Red Gates Square",
       "state": "Moscow",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

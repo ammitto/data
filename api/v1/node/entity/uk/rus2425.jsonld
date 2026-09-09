@@ -1,39 +1,57 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus2425",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus2425",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "SHVABE OPTO-ELECTRONICS",
+      "@type": "NameVariant",
+      "fullName": "SHVABE OPTO-ELECTRONICS",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "SHVABE OPTO-ELECTRONICS MEIZHOU CO., LTD",
+      "@type": "NameVariant",
+      "fullName": "SHVABE OPTO-ELECTRONICS MEIZHOU CO., LTD",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "SHVABE OPTO-ELECTRONICS SHENZHEN CO., LTD",
+      "@type": "NameVariant",
+      "fullName": "SHVABE OPTO-ELECTRONICS SHENZHEN CO., LTD",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "UOMZ MEIZHOU CO., LTD",
+      "@type": "NameVariant",
+      "fullName": "UOMZ MEIZHOU CO., LTD",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus2425"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "16A 1619 Number 4044 Pingshan Avenue, Heping Avenue, Pingshan Street Office",
       "city": "Guangdong",
       "state": "Shenzhen",
       "country": "China"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

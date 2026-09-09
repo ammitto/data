@@ -1,56 +1,81 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/afg0114",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/afg0114",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "HAQQANI",
-      "first_name": "NASIRUDDIN",
+      "@type": "NameVariant",
+      "fullName": "HAQQANI",
+      "firstName": "NASIRUDDIN",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "GHAIR",
-      "first_name": "Alim",
+      "@type": "NameVariant",
+      "fullName": "GHAIR",
+      "firstName": "Alim",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "HAQQANI",
-      "first_name": "Maseer",
+      "@type": "NameVariant",
+      "fullName": "HAQQANI",
+      "firstName": "Maseer",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "HAQQANI",
-      "first_name": "Nashir",
+      "@type": "NameVariant",
+      "fullName": "HAQQANI",
+      "firstName": "Nashir",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "HAQQANI",
-      "first_name": "Nassir",
+      "@type": "NameVariant",
+      "fullName": "HAQQANI",
+      "firstName": "Nassir",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "NASERUDDIN",
+      "@type": "NameVariant",
+      "fullName": "NASERUDDIN",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "نصیر الدین حقانی",
+      "@type": "NameVariant",
+      "fullName": "نصیر الدین حقانی",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "A leader of the Haqqani Network (TAe.012), which operates out of North Waziristan in the Federally Administered Tribal Areas of Pakistan. Son of Jalaluddin Haqqani (TAi.040). Has travelled to Saudi Arabia and the United Arab Emirates to raise funds for the Taliban. Reportedly deceased as of 2013. INTERPOLUN Security Council Special Notice web link: https://www.interpol.int/en/How-we-work/Notices/View-UN-NoticesIndividuals click here",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/afg0114"
+  ],
+  "remarks": "A leader of the Haqqani Network (TAe.012), which operates out of North Waziristan in the Federally Administered Tribal Areas of Pakistan. Son of Jalaluddin Haqqani (TAi.040). Has travelled to Saudi Arabia and the United Arab Emirates to raise funds for the Taliban. Reportedly deceased as of 2013. INTERPOLUN Security Council Special Notice web link: https://www.interpol.int/en/How-we-work/Notices/View-UN-NoticesIndividuals click here",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "country": "Pakistan"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

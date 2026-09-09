@@ -1,23 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/gim0028",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/gim0028",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "DERAKHSHAN",
-      "first_name": "Vahid",
+      "@type": "NameVariant",
+      "fullName": "DERAKHSHAN",
+      "firstName": "Vahid",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/gim0028"
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "204 Nouf Tower, Umm Hurair Road, Deira",
       "state": "Dubai",
       "country": "United Arab Emirates"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

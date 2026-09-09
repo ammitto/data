@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/50477",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/50477",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Denisenko Vadim Ivanovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Denisenko Vadim Ivanovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/50477"
   ],
   "remarks": "Vadim Denisenko is Major General, Commander of the Special Operations Forces. In this capacity, he participated in the joint military exercises of Russia and Belarus preceding the military build-up at the Ukrainian border which prepared the Russian military aggression against Ukraine of 24 Feb 2022. He is part of the Belarussian army, which has supported Russian military aggression against Ukraine. He is therefore responsible for and actively supporting actions undermining the territorial integrity, sovereignty and independence of Ukraine, as well as stability and security in Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1967-09-03",
-      "circa": false
+      "circa": false,
+      "year": 1967
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

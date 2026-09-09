@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/81905",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/81905",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Dawood Ibrahim Kaskar Sheikh",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Dawood Ibrahim Kaskar Sheikh",
+      "isPrimary": true
     }
   ],
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/81905"
+  ],
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1955-12-26",
-      "circa": false
+      "circa": false,
+      "year": 1955
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

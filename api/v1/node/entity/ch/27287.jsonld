@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/27287",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/27287",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Aksyonov Sergey Valeryevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Aksyonov Sergey Valeryevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/27287"
   ],
   "remarks": "Sergey Aksyonov was elected “Prime Minister of Crimea” in the Crimean Verkhovna Rada on 27 February 2014 in the presence of pro-Russian gunmen. His “election” was decreed unconstitutional by the acting Ukrainian President Oleksandr Turchynov on 1 March 2014. He actively lobbied for the “referendum” of 16 March 2014 and was one of the co-signatories of the “treaty on Crimea’s accession to the Russian Federation” of 18 March 2014. On 9 April 2014, he was appointed acting “Head” of the so-called “Republic of Crimea” by the President of the Russian Federation Vladimir Putin. On 9 October 2014, he was formally “elected”“Head” of the so-called “Republic of Crimea”. He was “re-elected” in this position in September 2019 and September 2024.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1972-11-26",
-      "circa": false
+      "circa": false,
+      "year": 1972
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

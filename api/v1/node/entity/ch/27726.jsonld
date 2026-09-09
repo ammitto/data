@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/27726",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/27726",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kakidzyanov Igor Evgenevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kakidzyanov Igor Evgenevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/27726"
   ],
   "remarks": "One of the former leaders of armed forces of the self-proclaimed “Donetsk People's Republic”. The aim of the forces is to “protect the people of the Donetsk People's Republic and territorial integrity of the republic” according to Pushylin, one of the leaders of the “Donetsk People's Republic”.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1980-07-25",
-      "circa": false
+      "circa": false,
+      "year": 1980
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,47 +1,67 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus3053",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus3053",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "ABSOLUT TRADE LLC  ",
+      "@type": "NameVariant",
+      "fullName": "ABSOLUT TRADE LLC  ",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "ABSOLUT TRADE LTD ",
+      "@type": "NameVariant",
+      "fullName": "ABSOLUT TRADE LTD ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "ABSOLYUT TREID LLC ",
+      "@type": "NameVariant",
+      "fullName": "ABSOLYUT TREID LLC ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "LLC ELKO RUS  ",
+      "@type": "NameVariant",
+      "fullName": "LLC ELKO RUS  ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "LLCABSOLUTE TRADE ",
+      "@type": "NameVariant",
+      "fullName": "LLCABSOLUTE TRADE ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "ООО АБСОЛЮТ ТРЕЙД ",
+      "@type": "NameVariant",
+      "fullName": "ООО АБСОЛЮТ ТРЕЙД ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus3053"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Office 506, Building 7, Greenwood District, Putilkovo, Krasnogorsk",
       "state": "Moscow Region",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/40217",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/40217",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Stankevich Sergey Nikolayevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Stankevich Sergey Nikolayevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/40217"
   ],
   "remarks": "Head of Border Directorate of the Federal Security Service of the Russian Federation for “Republic of Crimea and City of Sevastopol”, Rear Admiral. In this capacity, he was responsible for actions of the coast guard naval fleet of the Russian Federation against Ukraine on 25 Nov 2018 which prevented access by Ukrainian vessels to their coast on the Sea of Azov, thereby undermining the territorial integrity and sovereignty of Ukraine and undermining the security of Ukraine through the disruption of the movements and operability of Ukrainian naval vessels.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1963-01-27",
-      "circa": false
+      "circa": false,
+      "year": 1963
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

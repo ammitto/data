@@ -1,46 +1,67 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/ghr0049",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/ghr0049",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Ministry of People's Security Correctional (MPS) Bureau",
+      "@type": "NameVariant",
+      "fullName": "Ministry of People's Security Correctional (MPS) Bureau",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ministry of People's Security Correctional Management Bureau",
+      "@type": "NameVariant",
+      "fullName": "Ministry of People's Security Correctional Management Bureau",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ministry of People's Security Prison Bureau",
+      "@type": "NameVariant",
+      "fullName": "Ministry of People's Security Prison Bureau",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ministry of Public Security Correctional Bureau",
+      "@type": "NameVariant",
+      "fullName": "Ministry of Public Security Correctional Bureau",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ministry of Public Security Correctional Management Bureau",
+      "@type": "NameVariant",
+      "fullName": "Ministry of Public Security Correctional Management Bureau",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ministry of Public Security Prison Bureau",
+      "@type": "NameVariant",
+      "fullName": "Ministry of Public Security Prison Bureau",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "No details regarding the Head of MPS Correctional Bureau are available. The Minister of People’s Security, who we understand to have been Kim Jong Ho since December 2019 (although DPRK sources have not confirmed he still holds that position), is assumed to have responsibility for MPS Correctional Bureau. The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/ghr0049"
+  ],
+  "remarks": "No details regarding the Head of MPS Correctional Bureau are available. The Minister of People’s Security, who we understand to have been Kim Jong Ho since December 2019 (although DPRK sources have not confirmed he still holds that position), is assumed to have responsibility for MPS Correctional Bureau. The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "state": "Pyongyang"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

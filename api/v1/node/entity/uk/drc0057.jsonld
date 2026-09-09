@@ -1,49 +1,73 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/drc0057",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/drc0057",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MUDACUMURA",
-      "first_name": "SYLVESTRE",
+      "@type": "NameVariant",
+      "fullName": "MUDACUMURA",
+      "firstName": "SYLVESTRE",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Bernard",
-      "first_name": "Mupenzi",
+      "@type": "NameVariant",
+      "fullName": "Bernard",
+      "firstName": "Mupenzi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Mudacumura",
+      "@type": "NameVariant",
+      "fullName": "Mudacumura",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Mupenzi",
+      "@type": "NameVariant",
+      "fullName": "Mupenzi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Pharaoh",
+      "@type": "NameVariant",
+      "fullName": "Pharaoh",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Radja",
+      "@type": "NameVariant",
+      "fullName": "Radja",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The International Criminal Court issued an arrest warrant for Mudacumura on 12 July 2012 for nine counts of war crimes, including attacking civilians, murder, mutilation, cruel treatment, rape, torture, destruction of property, pillaging and outrages against personal dignity, allegedly committed between 2009 and 2010 in the DRC.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/drc0057"
+  ],
+  "remarks": "The International Criminal Court issued an arrest warrant for Mudacumura on 12 July 2012 for nine counts of war crimes, including attacking civilians, murder, mutilation, cruel treatment, rape, torture, destruction of property, pillaging and outrages against personal dignity, allegedly committed between 2009 and 2010 in the DRC.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "state": "North Kivu Province ( as of June 2016)",
       "country": "Congo (Democratic Republic)"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

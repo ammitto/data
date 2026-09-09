@@ -1,22 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/538221",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/wb/538221",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "ZHAO XU",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "ZHAO XU",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/538221"
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "NO. 6 EFANG FIRST ROAD, WEIYANG DISTRICT",
       "city": "XI'AN CITY",
       "country": "China",
-      "country_iso_code": "CN"
+      "countryIsoCode": "CN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

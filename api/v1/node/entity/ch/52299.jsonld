@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/52299",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/52299",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mikheev Alexander Alexandrovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Mikheev Alexander Alexandrovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/52299"
   ],
   "remarks": "Alexander Mikheev is the CEO of Rosoboronexport, Russia’s only official State intermediary for the export and import of military and dual-use products, technologies and services. Rosoboronexport is a subsidiary company of Rostec, a state-owned corporation that oversees the research and development of military technologies, and owns several production facilities which play an instrumental role in the deployment of those technologies into operation on the battlefield. Arms sales provide an important source of revenue to the Russian government. They are also used to advance Russia’s economic and strategic objectives. From 2000 to 2020 Rosoboronexport sold USD 180 billion worth of arms to foreign customers.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1961-11-18",
-      "circa": false
+      "circa": false,
+      "year": 1961
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

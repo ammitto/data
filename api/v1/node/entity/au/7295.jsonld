@@ -1,55 +1,77 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7295",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7295",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Vladimir PANYAEV",
+      "@type": "NameVariant",
+      "fullName": "Vladimir PANYAEV",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Vladimir Alexandrovich PANYAEV",
+      "@type": "NameVariant",
+      "fullName": "Vladimir Alexandrovich PANYAEV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Vladimir Aleksandrovich PANAIEV",
+      "@type": "NameVariant",
+      "fullName": "Vladimir Aleksandrovich PANAIEV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Vladimir ALEXEEV",
+      "@type": "NameVariant",
+      "fullName": "Vladimir ALEXEEV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Vladimir ALEXEYEV",
+      "@type": "NameVariant",
+      "fullName": "Vladimir ALEXEYEV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Vladimir ALEXEJEV",
+      "@type": "NameVariant",
+      "fullName": "Vladimir ALEXEJEV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Vladimir Aleksandrovitj PANJAJEV",
+      "@type": "NameVariant",
+      "fullName": "Vladimir Aleksandrovitj PANJAJEV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Thematic Sanctions) Amendment (No. 1) Instrument 2022",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7295"
   ],
-  "birth_info": [
+  "remarks": "Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Thematic Sanctions) Amendment (No. 1) Instrument 2022",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1980,
       "country": "Serdobsk"
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

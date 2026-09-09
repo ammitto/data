@@ -1,31 +1,50 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/nic0010",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/nic0010",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Guido Ochoa",
-      "first_name": "Ana",
+      "@type": "NameVariant",
+      "fullName": "Guido Ochoa",
+      "firstName": "Ana",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Guido de Romero",
-      "first_name": "Ana",
+      "@type": "NameVariant",
+      "fullName": "Guido de Romero",
+      "firstName": "Ana",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/nic0010"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Km 4 Carretera a Masaya",
       "city": "Contiguo a Bancentro",
       "state": "Managua",
       "country": "Nicaragua"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

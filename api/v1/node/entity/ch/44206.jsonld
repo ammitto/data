@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/44206",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/44206",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Stasiukevich Vital Ivanavich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Stasiukevich Vital Ivanavich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/44206"
   ],
   "remarks": "In his position as Deputy Chief of Public Security Police in Grodno/Hrodna, he is responsible for the repression and intimidation campaign led by the local police force under his command in the wake of the 2020 presidential election, in particular with arbitrary arrests and ill-treatment, including torture, of peaceful demonstrators as well as intimidation and violence against journalists. According to witnesses, he personally supervised the unlawful detention of peaceful protesters.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1976-03-05",
-      "circa": false
+      "circa": false,
+      "year": 1976
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

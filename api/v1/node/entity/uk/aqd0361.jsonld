@@ -1,28 +1,50 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/aqd0361",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/aqd0361",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "AG MOUSSA",
-      "first_name": "Bah",
+      "@type": "NameVariant",
+      "fullName": "AG MOUSSA",
+      "firstName": "Bah",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ag Mossa",
+      "@type": "NameVariant",
+      "fullName": "Ag Mossa",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Salim",
-      "first_name": "Ammi",
+      "@type": "NameVariant",
+      "fullName": "Salim",
+      "firstName": "Ammi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Founding member of Ansar Eddine (QDe.135), operational leader of Jama'a Nusrat ul-Islam wa al-Muslimin (JNIM) (QDe.159). INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals click here",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/aqd0361"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "remarks": "Founding member of Ansar Eddine (QDe.135), operational leader of Jama'a Nusrat ul-Islam wa al-Muslimin (JNIM) (QDe.159). INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals click here",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

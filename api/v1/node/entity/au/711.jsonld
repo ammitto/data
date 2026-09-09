@@ -1,35 +1,50 @@
 {
-  "id": "https://www.ammitto.org/entity/au/711",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/711",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "KHAWLA BARZAN IBRAHIM HASAN AL-TIKRITI",
+      "@type": "NameVariant",
+      "fullName": "KHAWLA BARZAN IBRAHIM HASAN AL-TIKRITI",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "خولة برزان إبراهيم حسن التكريتي",
+      "@type": "NameVariant",
+      "fullName": "خولة برزان إبراهيم حسن التكريتي",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "IQi.066; Listing: Listed by the 1518 Committee",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/711"
   ],
-  "birth_info": [
+  "remarks": "IQi.066; Listing: Listed by the 1518 Committee",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1986
     }
   ],
   "nationalities": [
     "Iraq"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Geneva, Switzerland",
       "country": "Switzerland"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

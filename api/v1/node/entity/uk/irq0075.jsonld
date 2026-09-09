@@ -1,27 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/irq0075",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/irq0075",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "AL-RAWI",
-      "first_name": "SAIF-AL-DIN",
+      "@type": "NameVariant",
+      "fullName": "AL-RAWI",
+      "firstName": "SAIF-AL-DIN",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Al-Rawi",
-      "first_name": "Ayad",
+      "@type": "NameVariant",
+      "fullName": "Al-Rawi",
+      "firstName": "Ayad",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "سيف الدين فليح حسن طه الراوي",
+      "@type": "NameVariant",
+      "fullName": "سيف الدين فليح حسن طه الراوي",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/irq0075"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

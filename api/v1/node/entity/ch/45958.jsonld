@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/45958",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/45958",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Urubleuski Yauhen Aliakseevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Urubleuski Yauhen Aliakseevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/45958"
   ],
   "remarks": "In his position as a senior police sergeant of the Akrestina Offenders Isolation Centre. Yauhen Urubleuski is responsible for the inhumane and degrading treatment, including torture, inflicted on citizens detained in the Offenders’ Detention Centre. According to witnesses and media reports, he personally took part in brutal beatings of civilians detained in Aug 2020. He is therefore responsible for serious human rights violations.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1966-01-28",
-      "circa": false
+      "circa": false,
+      "year": 1966
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

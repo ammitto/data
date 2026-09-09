@@ -1,40 +1,59 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8050",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/8050",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Pavel Alekseevich MARINYCHEV",
+      "@type": "NameVariant",
+      "fullName": "Pavel Alekseevich MARINYCHEV",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Pavel Alekseyevich MARINYCHEV",
+      "@type": "NameVariant",
+      "fullName": "Pavel Alekseyevich MARINYCHEV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Pavel Alexeevich MARINYCHEV",
+      "@type": "NameVariant",
+      "fullName": "Pavel Alexeevich MARINYCHEV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Pavel Alexeyevich MARINYCHEV",
+      "@type": "NameVariant",
+      "fullName": "Pavel Alexeyevich MARINYCHEV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "CEO of Alrosa; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8050"
   ],
-  "birth_info": [
+  "remarks": "CEO of Alrosa; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1978,
       "country": "Yakutsk"
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

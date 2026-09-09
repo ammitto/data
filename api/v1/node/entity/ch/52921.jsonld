@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/52921",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/52921",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Gusev Pavel Nikolayevitch",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Gusev Pavel Nikolayevitch",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/52921"
   ],
   "remarks": "Pavel Nikolayevitch Gusev is the head of the main Russian tabloid “Moskovskiy Komsomolets”, supporting the Kremlin’s narrative and actions which undermine or threaten the territorial integrity, sovereignty and independence of Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1949-04-04",
-      "circa": false
+      "circa": false,
+      "year": 1949
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

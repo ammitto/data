@@ -1,42 +1,61 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7579",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/7579",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "NPK Tekhmash",
+      "@type": "NameVariant",
+      "fullName": "NPK Tekhmash",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "JSC SPC Tekhmash",
+      "@type": "NameVariant",
+      "fullName": "JSC SPC Tekhmash",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Scientific Industrial Concern Manufacturing Engineering",
+      "@type": "NameVariant",
+      "fullName": "Scientific Industrial Concern Manufacturing Engineering",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Manufacturing Engineering Scientific Industrial Concern",
+      "@type": "NameVariant",
+      "fullName": "Manufacturing Engineering Scientific Industrial Concern",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Aktsionernoe Obshchestvo Nauchno-Proizvodstvenny Kontsern Tekhnologii Mashinostroeniya",
+      "@type": "NameVariant",
+      "fullName": "Aktsionernoe Obshchestvo Nauchno-Proizvodstvenny Kontsern Tekhnologii Mashinostroeniya",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Company identification number: 1117746260477; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 8) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7579"
+  ],
+  "remarks": "Company identification number: 1117746260477; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 8) Instrument 2023",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "35 Bolshaya Tatarskaya Street, Building 5, Moscow, 115184, Russia",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

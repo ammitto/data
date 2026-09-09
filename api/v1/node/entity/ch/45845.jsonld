@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/45845",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/45845",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ahafonau Aliaksandr Dzmitryevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Ahafonau Aliaksandr Dzmitryevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/45845"
   ],
   "remarks": "In his position as the First Deputy Head of the Main Investigation Department of the Investigative Committee of Belarus, Aliaksandr Ahafonau is responsible for politically motivated prosecutions and arrests of the presidential candidate Siarhei Tsikhanousky – opposition activist and husband of presidential candidate Svetlana Tsikhanouskaya. and other political activists, including Mikalai Statkevich and Dzmitry Kazlou. Siarhei Tsikhanousky, Dzmitry Kazlou, and Mikalai Statkevich are recognised as political prisoners by Viasna, a Belarussian human rights organisation. He is therefore responsible for the repression of civil society and democratic opposition.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1982-03-13",
-      "circa": false
+      "circa": false,
+      "year": 1982
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

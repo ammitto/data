@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/75494",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/75494",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Altushkin Igor Alexeyevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Altushkin Igor Alexeyevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/75494"
   ],
   "remarks": "Igor Altushkin is a Russian oligarch and founder of the Russian Copper Company. The company is one of the three main copper producers in Russia, and copper is an economic sector providing a substantial source of revenue to the Government of the Russian Federation. Igor Altushkin financially supports a Russian military unit fighting in Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1970-09-10",
-      "circa": false
+      "circa": false,
+      "year": 1970
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

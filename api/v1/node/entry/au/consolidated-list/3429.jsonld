@@ -1,33 +1,42 @@
 {
-  "id": "https://www.ammitto.org/entry/au/consolidated-list/3429",
-  "entity_id": "https://www.ammitto.org/entity/au/3429",
+  "@id": "https://www.ammitto.org/entry/au/consolidated-list/3429",
+  "@type": "SanctionEntry",
+  "entityId": "https://www.ammitto.org/entity/au/3429",
   "authority": {
     "@id": "https://www.ammitto.org/authority/au"
   },
   "regime": {
-    "@id": "https://www.ammitto.org/regime/au_dprk"
+    "@id": "https://www.ammitto.org/regime/au_dprk",
+    "name": "Democratic People's Republic of Korea"
   },
-  "legal_bases": [
+  "legalBases": [
     {
-      "type": "instrument",
-      "identifier": "First listed on 27 Nov. 2017. Instrument of first designation and declaration: Autonomous Sanctions (Designated Persons and Entities – Democratic People’s Republic of Korea) Amendment List 2017 (No 3)",
-      "title": "First listed on 27 Nov. 2017. Instrument of first designation and declaration: Autonomous Sanctions (Designated Persons and Entities – Democratic People’s Republic of Korea) Amendment List 2017 (No 3)"
+      "@id": "https://www.ammitto.org/legal-instrument/au/first-listed-on-27-nov.-2017.-instrument-of-first-designation-and-declaration-autonomous-sanctions-designated-persons-and-entities-democratic-people-s-republic-of-korea-amendment-list-2017-no-3"
     }
   ],
   "effects": [
     {
-      "effect_type": "asset_freeze",
+      "@type": "SanctionEffect",
+      "effectType": "asset_freeze",
       "scope": "full"
     }
   ],
+  "reasons": [
+
+  ],
   "period": {
-    "is_indefinite": true
+    "@type": "TemporalPeriod",
+    "isIndefinite": true
   },
   "status": "active",
-  "reference_number": "3429",
-  "raw_source_data": {
-    "source_format": "csv",
-    "source_specific_fields": {
+  "statusHistory": [
+
+  ],
+  "referenceNumber": "3429",
+  "rawSourceData": {
+    "@type": "RawSourceData",
+    "sourceFormat": "csv",
+    "sourceSpecificFields": {
       "au:reference": "3429",
       "au:committees": "Autonomous (DPRK)",
       "au:control_date": "2023-12-01",
@@ -35,5 +44,5 @@
       "au:listing_info": "First listed on 27 Nov. 2017. Instrument of first designation and declaration: Autonomous Sanctions (Designated Persons and Entities – Democratic People’s Republic of Korea) Amendment List 2017 (No 3)"
     }
   },
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

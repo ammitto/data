@@ -1,30 +1,47 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8440",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/8440",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Renel Destina",
+      "@type": "NameVariant",
+      "fullName": "Renel Destina",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Ti Lapli",
+      "@type": "NameVariant",
+      "fullName": "Ti Lapli",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "HTi.003.  Main leader of Grand Ravine gang. Gender: Male.; Listing: Listed by UN 2653 Committee on 8 December 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8440"
   ],
-  "birth_info": [
+  "remarks": "HTi.003.  Main leader of Grand Ravine gang. Gender: Male.; Listing: Listed by UN 2653 Committee on 8 December 2023",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1982,
       "country": "Haiti"
     }
   ],
   "nationalities": [
     "Haiti"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

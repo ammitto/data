@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/1062285",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/1062285",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "METAFLOW INC.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "METAFLOW INC.",
+      "isPrimary": true
     }
   ],
-  "remarks": "(formerly known as CompuAids (doing business as (dba) Groupe Systèmes et Solutions D’enterprise also dba ESS Group, also dba Enterprise Systems and Solutions) (Reg. No. 1859937) *189",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/1062285"
+  ],
+  "remarks": "(formerly known as CompuAids (doing business as (dba) Groupe Systèmes et Solutions D’enterprise also dba ESS Group, also dba Enterprise Systems and Solutions) (Reg. No. 1859937) *189",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "201-290 PICTON AVENUE",
       "city": "OTTAWA, ONTARIO, K1Z 8P8",
       "country": "Canada",
-      "country_iso_code": "CA"
+      "countryIsoCode": "CA"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

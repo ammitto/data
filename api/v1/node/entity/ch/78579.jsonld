@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/78579",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/78579",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Parutenco Nelli",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Parutenco Nelli",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/78579"
   ],
   "remarks": "Nelli Parutenco was the treasurer of Ilan Shor’s political party “SHOR” (“ȘOR”), until it was banned. In the context of investigations into the ȘOR Party for illegal financing, she escaped to Moscow in 2022.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1962-03-21",
-      "circa": false
+      "circa": false,
+      "year": 1962
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

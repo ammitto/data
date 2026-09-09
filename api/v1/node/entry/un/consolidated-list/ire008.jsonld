@@ -1,0 +1,52 @@
+{
+  "@id": "https://www.ammitto.org/entry/un/consolidated-list/ire008",
+  "@type": "SanctionEntry",
+  "entityId": "https://www.ammitto.org/entity/un/ire008",
+  "authority": {
+    "@id": "https://www.ammitto.org/authority/un"
+  },
+  "regime": {
+    "@id": "https://www.ammitto.org/regime/iran",
+    "name": "Iran"
+  },
+  "legalBases": [
+
+  ],
+  "effects": [
+    {
+      "@type": "SanctionEffect",
+      "effectType": "asset_freeze",
+      "scope": "full"
+    },
+    {
+      "@type": "SanctionEffect",
+      "effectType": "travel_ban",
+      "scope": "full"
+    }
+  ],
+  "reasons": [
+
+  ],
+  "period": {
+    "@type": "TemporalPeriod",
+    "listedDate": "2008-03-03",
+    "effectiveDate": "2008-03-03",
+    "isIndefinite": true
+  },
+  "status": "active",
+  "statusHistory": [
+
+  ],
+  "referenceNumber": "IRe.008",
+  "remarks": "A subsidiary of Saccal System companies, this company tried to purchase\nsensitive goods for an entity listed in resolution 1737 (2006). [Old Reference #\nE.03.III.2]",
+  "rawSourceData": {
+    "@type": "RawSourceData",
+    "sourceFormat": "xml",
+    "sourceSpecificFields": {
+      "un:dataId": "110396",
+      "un:versionNum": "1",
+      "un:entityType": "entity"
+    }
+  },
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
+}

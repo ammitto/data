@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/506452",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/506452",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "FEDDERS LLOYD CORPORATION LIMITED",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "FEDDERS LLOYD CORPORATION LIMITED",
+      "isPrimary": true
     }
   ],
-  "remarks": "*320",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/506452"
+  ],
+  "remarks": "*320",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "159 OKHLA INDUSTRIAL ESTATE, PHASE III 110020",
       "city": "NEW DELHI",
       "country": "India",
-      "country_iso_code": "IN"
+      "countryIsoCode": "IN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

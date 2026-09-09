@@ -1,22 +1,43 @@
 {
-  "id": "https://www.ammitto.org/entity/cn/14-charles-woodburn",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/cn/14-charles-woodburn",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Charles Woodburn",
+      "@type": "NameVariant",
+      "fullName": "Charles Woodburn",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "查尔斯·伍德伯恩",
+      "@type": "NameVariant",
+      "fullName": "查尔斯·伍德伯恩",
       "script": "Hani",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/cn/anti-sanction-list/14-charles-woodburn"
+  ],
   "remarks": "List: cn/anti-sanction-list; Title: 贝宜陆上和武器系统公司首席执行官; Gender: male",
-  "sanction_entry_ids": [
-    "https://www.ammitto.org/entry/cn/unknown/14-charles-woodburn"
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
   ],
   "gender": "male",
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

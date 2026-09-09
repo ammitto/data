@@ -1,39 +1,55 @@
 {
-  "id": "https://www.ammitto.org/entry/uk/consolidated-list/irn0165",
-  "entity_id": "https://www.ammitto.org/entity/uk/irn0165",
+  "@id": "https://www.ammitto.org/entry/uk/consolidated-list/irn0165",
+  "@type": "SanctionEntry",
+  "entityId": "https://www.ammitto.org/entity/uk/irn0165",
   "authority": {
     "@id": "https://www.ammitto.org/authority/uk"
   },
   "regime": {
-    "@id": "https://www.ammitto.org/regime/the_iran_sanctions_regulations_2023"
+    "@id": "https://www.ammitto.org/regime/the_iran_sanctions_regulations_2023",
+    "name": "The Iran (Sanctions) Regulations 2023"
   },
+  "legalBases": [
+
+  ],
   "effects": [
     {
-      "effect_type": "asset_freeze",
+      "@type": "SanctionEffect",
+      "effectType": "asset_freeze",
       "scope": "full"
     },
     {
-      "effect_type": "debarment",
+      "@type": "SanctionEffect",
+      "effectType": "debarment",
       "scope": "full"
     }
   ],
+  "reasons": [
+
+  ],
   "period": {
-    "listed_date": "2023-09-15",
-    "effective_date": "2023-09-15",
-    "is_indefinite": true,
-    "last_updated": "2025-04-09"
+    "@type": "TemporalPeriod",
+    "listedDate": "2023-09-15",
+    "effectiveDate": "2023-09-15",
+    "isIndefinite": true,
+    "lastUpdated": "2025-04-09"
   },
   "status": "active",
-  "reference_number": "IRN0165",
+  "statusHistory": [
+
+  ],
+  "referenceNumber": "IRN0165",
   "remarks": "\nArvan Cloud is an involved person within the meaning of the Iran (Sanctions) Regulations 2023 as it is or has been involved in the commission of serious human rights violations or abuses in Iran, including providing support for any serious human rights violation or abuse in Iran and being involved in the supply of technology to Iran which could contribute to any serious human rights violation or abuse in Iran.",
-  "raw_source_data": {
-    "source_format": "xml",
-    "source_specific_fields": {
+  "rawSourceData": {
+    "@type": "RawSourceData",
+    "sourceFormat": "xml",
+    "sourceSpecificFields": {
       "uk:ofsiGroupId": "16087",
+      "uk:unReferenceNumber": null,
       "uk:designationSource": "UK",
       "uk:sanctionsImposed": "Asset freeze|Director Disqualification Sanction",
       "uk:entityType": "Entity"
     }
   },
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

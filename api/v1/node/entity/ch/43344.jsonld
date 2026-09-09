@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/43344",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/43344",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Al-Werfalli Mahmoud Mustafa Busayf",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Al-Werfalli Mahmoud Mustafa Busayf",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/43344"
   ],
   "remarks": "Mahmoud al-Werfalli serves as a commander (lieutenant) of the Benghazi-based al-Saiqa Brigade. In this role, al-Werfalli is responsible for and has directly or indirectly engaged in serious human rights abuses including killings and executions.",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1978
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

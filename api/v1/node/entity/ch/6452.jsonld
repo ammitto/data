@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/6452",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/6452",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mabunda Musarashana",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Mabunda Musarashana",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/6452"
   ],
   "remarks": "Member of the security forces and bearing wide responsibility for serious violations of the freedom of peaceful assembly. Directed 11 March 2007 beatings, torture and repression. June 2008 threatened to kill Lovemore Madhuku.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1958-11-11",
-      "circa": false
+      "circa": false,
+      "year": 1958
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,21 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/cn/10-aevex-aerospace",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/cn/10-aevex-aerospace",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "AEVEX Aerospace",
+      "@type": "NameVariant",
+      "fullName": "AEVEX Aerospace",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "AEVEX航天公司",
+      "@type": "NameVariant",
+      "fullName": "AEVEX航天公司",
       "script": "Hani",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "List: cn/anti-sanction-list",
-  "sanction_entry_ids": [
-    "https://www.ammitto.org/entry/cn/unknown/10-aevex-aerospace"
+  "sourceReferences": [
+
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/cn/anti-sanction-list/10-aevex-aerospace"
+  ],
+  "remarks": "List: cn/anti-sanction-list",
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

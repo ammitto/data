@@ -1,18 +1,34 @@
 {
-  "id": "https://www.ammitto.org/entity/eu_vessels/8700096",
-  "entity_type": "vessel",
+  "@id": "https://www.ammitto.org/entity/eu_vessels/8700096",
+  "@type": "VesselEntity",
+  "entityType": "vessel",
   "names": [
     {
-      "full_name": "Partizansk",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Partizansk",
+      "isPrimary": true
     }
   ],
-  "source_references": [
+  "sourceReferences": [
     {
-      "source_code": "eu_vessels",
-      "reference_number": "8700096"
+      "@type": "SourceReference",
+      "sourceCode": "eu_vessels",
+      "referenceNumber": "8700096",
+      "retrievedAt": "2026-09-09T16:30:54Z"
     }
   ],
-  "imo_number": "8700096",
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "linkedEntities": [
+
+  ],
+  "imoNumber": "8700096",
+  "previousNames": [
+
+  ],
+  "previousFlags": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/eu_vessels/vessel-sanctions-list/8700096"
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

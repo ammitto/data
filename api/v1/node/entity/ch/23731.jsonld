@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/23731",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/23731",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Djédjé Alcide",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Djédjé Alcide",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/23731"
   ],
   "remarks": "Close advisor to Mr. Gbagbo: participation in the illegitimate government of Mr. Gbagbo, obstruction of the peace and reconciliation process, public incitement to hatred and violence.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1956-10-20",
-      "circa": false
+      "circa": false,
+      "year": 1956
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

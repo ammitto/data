@@ -1,29 +1,46 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7564",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7564",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Aleksandr KRIVETS",
+      "@type": "NameVariant",
+      "fullName": "Aleksandr KRIVETS",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Aleksandr Sergeevich KRIVETS",
+      "@type": "NameVariant",
+      "fullName": "Aleksandr Sergeevich KRIVETS",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Colonel, Commander of the 116th Guards Assault Aviation Radomskaya Red Banner Base/Lida Airfield, Armed Forces of the Republic of Belarus; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 8) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7564"
   ],
-  "birth_info": [
+  "remarks": "Colonel, Commander of the 116th Guards Assault Aviation Radomskaya Red Banner Base/Lida Airfield, Armed Forces of the Republic of Belarus; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 8) Instrument 2023",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1974
     }
   ],
   "nationalities": [
     "Belarus"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

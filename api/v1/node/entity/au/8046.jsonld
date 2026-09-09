@@ -1,40 +1,59 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8046",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/8046",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Igor Borisovich AKSENOV",
+      "@type": "NameVariant",
+      "fullName": "Igor Borisovich AKSENOV",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Igor Borisovich AXENOV",
+      "@type": "NameVariant",
+      "fullName": "Igor Borisovich AXENOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Igor Borisovich AKSYONOV",
+      "@type": "NameVariant",
+      "fullName": "Igor Borisovich AKSYONOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Igor Borisovich AXYONOV",
+      "@type": "NameVariant",
+      "fullName": "Igor Borisovich AXYONOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "General Director of VOLGA-DNEPR AIRLINES; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8046"
   ],
-  "birth_info": [
+  "remarks": "General Director of VOLGA-DNEPR AIRLINES; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1971,
       "country": "Baikonur"
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

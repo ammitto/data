@@ -1,56 +1,76 @@
 {
-  "id": "https://www.ammitto.org/entity/au/2577",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/2577",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "HAMADA OULD MOHAMED EL KHAIRY",
+      "@type": "NameVariant",
+      "fullName": "HAMADA OULD MOHAMED EL KHAIRY",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "حماده ولد محمد الخيري",
+      "@type": "NameVariant",
+      "fullName": "حماده ولد محمد الخيري",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Hamad el Khairy",
+      "@type": "NameVariant",
+      "fullName": "Hamad el Khairy",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Hamada Ould Mohamed Lemine Ould Mohamed el Khairy",
+      "@type": "NameVariant",
+      "fullName": "Hamada Ould Mohamed Lemine Ould Mohamed el Khairy",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ould Kheirou",
+      "@type": "NameVariant",
+      "fullName": "Ould Kheirou",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abou QumQum",
+      "@type": "NameVariant",
+      "fullName": "Abou QumQum",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Leader of the Mouvement pour l’Unification et le Jihad en Afrique de l’Ouest (MUJAO) (QDe.134). Has\nprovided logistical support to the Sahelian group Al Moulathamine, linked with the Organization of Al-Qaida in the Islamic Maghreb (QDe.014). International arrest warrant issued by Mauritania. Mother’s name is Tijal Bint Mohamed Dadda. Malian Passport no: A1447120, expired on 19 Oct. 2011. Review pursuant to Security Council resolution 2253 (2015) was concluded on 21 Feb. 2019. Review pursuant to Security Council resolution 2610 (2021) was concluded on 8 November 2022.; Listing: Listed on: 22 Feb. 2013 (amended on 1 May 2019)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/2577"
   ],
-  "birth_info": [
+  "remarks": "Leader of the Mouvement pour l’Unification et le Jihad en Afrique de l’Ouest (MUJAO) (QDe.134). Has\nprovided logistical support to the Sahelian group Al Moulathamine, linked with the Organization of Al-Qaida in the Islamic Maghreb (QDe.014). International arrest warrant issued by Mauritania. Mother’s name is Tijal Bint Mohamed Dadda. Malian Passport no: A1447120, expired on 19 Oct. 2011. Review pursuant to Security Council resolution 2253 (2015) was concluded on 21 Feb. 2019. Review pursuant to Security Council resolution 2610 (2021) was concluded on 8 November 2022.; Listing: Listed on: 22 Feb. 2013 (amended on 1 May 2019)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1970,
       "country": "Nouakchott"
     }
   ],
   "nationalities": [
-    "Mali;Mauritania"
+    "Mali",
+    "Mauritania"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Gao, Mali",
       "country": "Mali"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/63347",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/63347",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Yanovsky Boris Georgievich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Yanovsky Boris Georgievich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/63347"
   ],
   "remarks": "Boris Yanovsky is a propagandist and the general producer of TV Zvezda. As the general producer, Yanovsky is responsible for the production and promotion of content for TV Zvezda, which regularly spreads disinformation regarding Russia’s ongoing war of aggression against Ukraine and provides crucial media support for Kremlin policy. As general producer of TV Zvezda, he is involved in spreading disinformation concerning Ukrainians being Nazis and preparing biological and chemical bombs to be used against Russians.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1968-10-25",
-      "circa": false
+      "circa": false,
+      "year": 1968
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

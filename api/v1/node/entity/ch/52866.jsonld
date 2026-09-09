@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/52866",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/52866",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Pimanov Aleksei Viktorovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Pimanov Aleksei Viktorovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/52866"
   ],
   "remarks": "Aleksei Pimanov is a propagandist and the Head of the Krasnaya Zvezda media holding, owned by the Russian Defence Ministry. The Minister of Defence, Sergey Shoygu, personally requested Pimanov to become the Head of the Krasnaya Zvezda. The media holding was established by decree of the Russian Minister of Defence and controls the federal TV channel Zvezda.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1962-02-09",
-      "circa": false
+      "circa": false,
+      "year": 1962
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/98190",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/98190",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Boltenko Nadezhda Nikolaevna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Boltenko Nadezhda Nikolaevna",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/98190"
   ],
   "remarks": "Nadezhda Boltenko is the Commissioner for Children’s Rights in the Novosibirsk Region. In that role, she has been involved in the illegal transportation of Ukrainian children to Russia and is actively supporting their adoption by Russian families. She is also involved in the organisation and the promotion of so-called “recreational camps” where Ukrainian children taken from illegally occupied territories of Ukraine receive Russian patriotic education.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1957-01-29",
-      "circa": false
+      "circa": false,
+      "year": 1957
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

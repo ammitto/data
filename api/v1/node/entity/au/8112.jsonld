@@ -1,27 +1,43 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8112",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/8112",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Rossiyskaya Gazeta",
+      "@type": "NameVariant",
+      "fullName": "Rossiyskaya Gazeta",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Rossiiskaja Gazeta",
+      "@type": "NameVariant",
+      "fullName": "Rossiiskaja Gazeta",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "https://rg.ru/; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8112"
+  ],
+  "remarks": "https://rg.ru/; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Pravdy st., 24, bldg. 4, Moscow, 125993, Russia",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

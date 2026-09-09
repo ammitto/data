@@ -1,30 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus1694",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/rus1694",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "ABOUTALEBI",
-      "first_name": "Yousef",
+      "@type": "NameVariant",
+      "fullName": "ABOUTALEBI",
+      "firstName": "Yousef",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "یوسف ابوطالبی ",
+      "@type": "NameVariant",
+      "fullName": "یوسف ابوطالبی ",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus1694"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Qom, No. 1106, 11 Hemmat Corner, Hemmat Square, Hemmat Bouelvard",
       "city": "Shokuhieh Industrial Town",
       "state": "Qom, Qom Province",
       "country": "Iran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

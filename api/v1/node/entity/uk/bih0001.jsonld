@@ -1,28 +1,47 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/bih0001",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/bih0001",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Cvijanovic",
-      "first_name": "Zeljka ",
+      "@type": "NameVariant",
+      "fullName": "Cvijanovic",
+      "firstName": "Zeljka ",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Жељка Цвијановић",
+      "@type": "NameVariant",
+      "fullName": "Жељка Цвијановић",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Previously 11th Prime Minister of Republika Srpska. She is a member of the Alliance of Independent Social Democrats party (SNSD/СНСД), also a member of the party’s Executive Board and its Main Board The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/bih0001"
+  ],
+  "remarks": "Previously 11th Prime Minister of Republika Srpska. She is a member of the Alliance of Independent Social Democrats party (SNSD/СНСД), also a member of the party’s Executive Board and its Main Board The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Bana Milosavljevica 4, Banja Luka",
       "country": "Bosnia and Herzegovina"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

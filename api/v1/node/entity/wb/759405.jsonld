@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/759405",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/759405",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "SUJAINCO",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "SUJAINCO",
+      "isPrimary": true
     }
   ],
-  "remarks": "(also doing business as PT. Suburo Jayana Indah Corp.) (Reg. No. 09.04.1.46.28307) *502",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/759405"
+  ],
+  "remarks": "(also doing business as PT. Suburo Jayana Indah Corp.) (Reg. No. 09.04.1.46.28307) *502",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "JL. MANUNGGAL PRATAMA NO. 8, KEL. CIPINANG MELAYU",
       "city": "KEC. MAKASSAR JAKARTA TIMUR 13620",
       "country": "Indonesia",
-      "country_iso_code": "ID"
+      "countryIsoCode": "ID"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

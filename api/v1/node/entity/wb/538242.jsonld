@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/538242",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/538242",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "SHAANXI HUAXING NEW CENTURY AUTOMOBILE SERVICE TRADE CO. LTD.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "SHAANXI HUAXING NEW CENTURY AUTOMOBILE SERVICE TRADE CO. LTD.",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/538242"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "AREA C5, FENGCHENG FOURTH ROAD ECONOMIC DEVELOPMENT (JINGKAI) DISTRICT",
       "city": "XI'AN CITY",
       "country": "China",
-      "country_iso_code": "CN"
+      "countryIsoCode": "CN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,37 +1,55 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8145",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/8145",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Russian Financial Corporation Bank",
+      "@type": "NameVariant",
+      "fullName": "Russian Financial Corporation Bank",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "AO RFK-Bank",
+      "@type": "NameVariant",
+      "fullName": "AO RFK-Bank",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "RFC Bank",
+      "@type": "NameVariant",
+      "fullName": "RFC Bank",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Bank Rossiyskaya finansovaya korporatsiya",
+      "@type": "NameVariant",
+      "fullName": "Bank Rossiyskaya finansovaya korporatsiya",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Company Identification Number: 1037744005771; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8145"
+  ],
+  "remarks": "Company Identification Number: 1037744005771; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "St George’s Lane, D.1, p.1, Moscow, 125009",
       "country": "125009"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,23 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/326611",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/wb/326611",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MR. PEDRO CESAR LAZO MONTEJO",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "MR. PEDRO CESAR LAZO MONTEJO",
+      "isPrimary": true
     }
   ],
-  "remarks": ", also MR. PEDRO CÉSAR LAZO MONTEJO *340",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/326611"
+  ],
+  "remarks": ", also MR. PEDRO CÉSAR LAZO MONTEJO *340",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "AV. TAMARINDO MANZANA H LOTE 30, URBANIZACIÓN LA CAPULLANA, SANTIAGO DE SURCO",
       "city": "LIMA",
       "country": "Peru",
-      "country_iso_code": "PE"
+      "countryIsoCode": "PE"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

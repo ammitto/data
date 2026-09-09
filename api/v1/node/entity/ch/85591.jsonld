@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/85591",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/85591",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mohamad Rafi Bin Udin",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Mohamad Rafi Bin Udin",
+      "isPrimary": true
     }
   ],
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/85591"
+  ],
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1966-06-03",
-      "circa": false
+      "circa": false,
+      "year": 1966
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

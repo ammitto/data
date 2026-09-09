@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/6188",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/6188",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Chihota Phineas",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Chihota Phineas",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/6188"
   ],
   "remarks": "ZANU-PF Member of Government. Threatened MDC supporters with death and associated with abduction and torture of people in June 2008.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1950-11-23",
-      "circa": false
+      "circa": false,
+      "year": 1950
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,35 +1,55 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus1265",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/rus1265",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "DADONOV",
-      "first_name": "Oleg",
+      "@type": "NameVariant",
+      "fullName": "DADONOV",
+      "firstName": "Oleg",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "DADONOV",
-      "first_name": "Oleg ",
+      "@type": "NameVariant",
+      "fullName": "DADONOV",
+      "firstName": "Oleg ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "ДАДОНОВ Олег Вячеславович",
+      "@type": "NameVariant",
+      "fullName": "ДАДОНОВ Олег Вячеславович",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus1265"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "9 Square of Heroes of the Great Patriotic War",
       "state": "Luhansk",
       "country": "Ukraine"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

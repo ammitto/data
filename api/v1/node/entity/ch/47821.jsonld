@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/47821",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/47821",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kinda Mohammed Makhlouf",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kinda Mohammed Makhlouf",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/47821"
   ],
   "remarks": "Daughter of Mohammed Makhlouf. Member of the Makhlouf family.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1977-09-25",
-      "circa": false
+      "circa": false,
+      "year": 1977
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

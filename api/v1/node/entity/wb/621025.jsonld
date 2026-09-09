@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/621025",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/621025",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "BFG CONSULTING LIMITED",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "BFG CONSULTING LIMITED",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/621025"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "VISTRA CORPORATE SERVICES CENTRE, WICKHAMS CAY II,ROAD TOWN",
       "city": "TORTOLA, VG1110",
       "country": "Virgin Islands, British",
-      "country_iso_code": "VG"
+      "countryIsoCode": "VG"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

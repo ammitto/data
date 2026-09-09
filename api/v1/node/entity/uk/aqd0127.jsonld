@@ -1,73 +1,103 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/aqd0127",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/aqd0127",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "CHATAEV",
-      "first_name": "AKHMED",
+      "@type": "NameVariant",
+      "fullName": "CHATAEV",
+      "firstName": "AKHMED",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Mayer",
-      "first_name": "David",
+      "@type": "NameVariant",
+      "fullName": "Mayer",
+      "firstName": "David",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Odnorukiy",
+      "@type": "NameVariant",
+      "fullName": "Odnorukiy",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Sene",
-      "first_name": "Elmir",
+      "@type": "NameVariant",
+      "fullName": "Sene",
+      "firstName": "Elmir",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Shishani",
-      "first_name": "Akhmad",
+      "@type": "NameVariant",
+      "fullName": "Shishani",
+      "firstName": "Akhmad",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ахмед Ражапович Чатаев",
+      "@type": "NameVariant",
+      "fullName": "Ахмед Ражапович Чатаев",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Давид Майер",
+      "@type": "NameVariant",
+      "fullName": "Давид Майер",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Однорукий",
+      "@type": "NameVariant",
+      "fullName": "Однорукий",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Эльмир Сене",
+      "@type": "NameVariant",
+      "fullName": "Эльмир Сене",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ахмад Шишани",
+      "@type": "NameVariant",
+      "fullName": "Ахмад Шишани",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "As at Aug. 2015, one of the leaders of the Islamic State in Iraq and the Levant (ISIL), listed as Al-Qaida in Iraq (QDe.115), commanding directly 130 militants. Physical description: eye colour: brown, hair colour: black, build: solid; distinguishing marks: oval face, beard, missing a right hand and left leg, speaks Russian, Chechen and possibly German and Arabic. Wanted by the authorities of the Russian Federation for terrorist crimes committed in its territory. Photo available for inclusion in the INTERPOL-UN Security Council Special Notice. INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/notice/search/un/5899829. Address country Syria, located in as at August 2015",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/aqd0127"
+  ],
+  "remarks": "As at Aug. 2015, one of the leaders of the Islamic State in Iraq and the Levant (ISIL), listed as Al-Qaida in Iraq (QDe.115), commanding directly 130 militants. Physical description: eye colour: brown, hair colour: black, build: solid; distinguishing marks: oval face, beard, missing a right hand and left leg, speaks Russian, Chechen and possibly German and Arabic. Wanted by the authorities of the Russian Federation for terrorist crimes committed in its territory. Photo available for inclusion in the INTERPOL-UN Security Council Special Notice. INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/notice/search/un/5899829. Address country Syria, located in as at August 2015",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "country": "Syria"
     },
     {
+      "@type": "Address",
+      "street": "",
       "country": "Iraq"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

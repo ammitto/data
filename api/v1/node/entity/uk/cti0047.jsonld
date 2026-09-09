@@ -1,52 +1,76 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/cti0047",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/cti0047",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Dudin",
-      "first_name": "Musa",
+      "@type": "NameVariant",
+      "fullName": "Dudin",
+      "firstName": "Musa",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Dodin",
-      "first_name": "Musa",
+      "@type": "NameVariant",
+      "fullName": "Dodin",
+      "firstName": "Musa",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Doudin",
-      "first_name": "Musa",
+      "@type": "NameVariant",
+      "fullName": "Doudin",
+      "firstName": "Musa",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Dudin",
-      "first_name": "Mousa",
+      "@type": "NameVariant",
+      "fullName": "Dudin",
+      "firstName": "Mousa",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Dudin",
-      "first_name": "Mussa",
+      "@type": "NameVariant",
+      "fullName": "Dudin",
+      "firstName": "Mussa",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "موسى دودين ",
+      "@type": "NameVariant",
+      "fullName": "موسى دودين ",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/cti0047"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "state": "Gaza",
       "country": "Occupied Palestinian Territories"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

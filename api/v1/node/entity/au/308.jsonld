@@ -1,37 +1,55 @@
 {
-  "id": "https://www.ammitto.org/entity/au/308",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/308",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "ULSTER DEFENCE ASSOCIATION",
+      "@type": "NameVariant",
+      "fullName": "ULSTER DEFENCE ASSOCIATION",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "ULSTER FREEDOM FIGHTERS",
+      "@type": "NameVariant",
+      "fullName": "ULSTER FREEDOM FIGHTERS",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "UDA",
+      "@type": "NameVariant",
+      "fullName": "UDA",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "UFF",
+      "@type": "NameVariant",
+      "fullName": "UFF",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Ulster Defence Association (UDA) is the largest loyalist paramilitary group in Northern Ireland history. It was formed in September 1971 from a number of loyalist vigilante groups.; Listing: Instrument of first listing: Charter of the United Nations (Anti terrorism — Persons and Entities) List 2002 (No 1). Relisted on: 13/09/2025 - Charter of the United Nations (Listed Persons and Entities) Amendment (No.2) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/308"
+  ],
+  "remarks": "The Ulster Defence Association (UDA) is the largest loyalist paramilitary group in Northern Ireland history. It was formed in September 1971 from a number of loyalist vigilante groups.; Listing: Instrument of first listing: Charter of the United Nations (Anti terrorism — Persons and Entities) List 2002 (No 1). Relisted on: 13/09/2025 - Charter of the United Nations (Listed Persons and Entities) Amendment (No.2) Instrument 2025",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Northern Ireland",
       "country": "Northern Ireland"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

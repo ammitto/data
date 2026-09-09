@@ -1,0 +1,58 @@
+{
+  "@id": "https://www.ammitto.org/entry/au/consolidated-list/8790",
+  "@type": "SanctionEntry",
+  "entityId": "https://www.ammitto.org/entity/au/8790",
+  "authority": {
+    "@id": "https://www.ammitto.org/authority/au"
+  },
+  "regime": {
+    "@id": "https://www.ammitto.org/regime/au_isil",
+    "name": "ISIL (Da'esh) and Al-Qaida"
+  },
+  "legalBases": [
+    {
+      "@id": "https://www.ammitto.org/legal-instrument/au/charter-of-the-united-nations-sanctions-isil-da-esh-and-al-qaida-regulations-2008"
+    }
+  ],
+  "effects": [
+    {
+      "@type": "SanctionEffect",
+      "effectType": "asset_freeze",
+      "scope": "full"
+    },
+    {
+      "@type": "SanctionEffect",
+      "effectType": "travel_ban",
+      "scope": "full"
+    },
+    {
+      "@type": "SanctionEffect",
+      "effectType": "arms_embargo",
+      "scope": "full"
+    }
+  ],
+  "reasons": [
+
+  ],
+  "period": {
+    "@type": "TemporalPeriod",
+    "isIndefinite": true
+  },
+  "status": "active",
+  "statusHistory": [
+
+  ],
+  "referenceNumber": "8790",
+  "rawSourceData": {
+    "@type": "RawSourceData",
+    "sourceFormat": "csv",
+    "sourceSpecificFields": {
+      "au:reference": "8790",
+      "au:committees": "1267 (ISIL (Da'esh) and Al-Qaida)",
+      "au:control_date": "2026-04-09",
+      "au:instrument": "Charter of the United Nations (Sanctions—ISIL (Da’esh) and Al-Qaida) Regulations 2008",
+      "au:listing_info": "Listed 26 March 2026 pursuant to UNSC resolutions 1267 (1999), 1989 (2011) and 2253 (2015)."
+    }
+  },
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
+}

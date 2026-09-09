@@ -1,36 +1,51 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8438",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/8438",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Jimmy Cherizier",
+      "@type": "NameVariant",
+      "fullName": "Jimmy Cherizier",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "BARBEQUE",
+      "@type": "NameVariant",
+      "fullName": "BARBEQUE",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "HTi.001. Former police officer.  Jimmy Cherizier (AKA “Barbeque”) has engaged in acts that threaten the peace, security, and stability of Haiti and has planned, directed, or committed acts that constitute serious human rights abuses. Jimmy Cherizier is one of Haiti’s most influential gang leaders and leads an alliance of Haitian gangs known as the \"G9 Family and Allies.\n\nNational identification no: 001-843-989-7 (NIF - Haiti); Listing: Listed by UN 2653 Committee on 21 October 2022 (amended on 20 October 2023)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8438"
   ],
-  "birth_info": [
+  "remarks": "HTi.001. Former police officer.  Jimmy Cherizier (AKA “Barbeque”) has engaged in acts that threaten the peace, security, and stability of Haiti and has planned, directed, or committed acts that constitute serious human rights abuses. Jimmy Cherizier is one of Haiti’s most influential gang leaders and leads an alliance of Haitian gangs known as the \"G9 Family and Allies.\n\nNational identification no: 001-843-989-7 (NIF - Haiti); Listing: Listed by UN 2653 Committee on 21 October 2022 (amended on 20 October 2023)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1977,
       "country": "Port-au-Prince"
     }
   ],
   "nationalities": [
     "Haiti"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "16, Imp Manius, Delmas 40 B, Port-au-Prince, Haiti",
       "country": "Haiti"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

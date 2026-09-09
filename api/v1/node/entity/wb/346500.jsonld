@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/346500",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/346500",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "T&G LTD.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "T&G LTD.",
+      "isPrimary": true
     }
   ],
-  "remarks": "*438",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/346500"
+  ],
+  "remarks": "*438",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "LAST KNOWN ADDRESS: APT. 44, #22 DIMITRY TAVDADEBULI STR.",
       "city": "TBILISI",
       "country": "Georgia",
-      "country_iso_code": "GE"
+      "countryIsoCode": "GE"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/38940",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/38940",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kapranova Anastasiya Nikolayevna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kapranova Anastasiya Nikolayevna",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/38940"
   ],
   "remarks": "Former Secretary of the Sevastopol Electoral Commission (until May 2019). In this capacity she participated in the organisation of the Russian presidential elections of 18 Mar 2018 in the illegally annexed Crimea and Sevastopol, and thereby actively supported and implemented policies that undermine the territorial integrity, sovereignty and independence of Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1964
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

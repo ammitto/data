@@ -1,40 +1,65 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3379",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/3379",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Zaur Raufovich ISMAILOV",
+      "@type": "NameVariant",
+      "fullName": "Zaur Raufovich ISMAILOV",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Zaur Raufovych ISMAYILOV",
+      "@type": "NameVariant",
+      "fullName": "Zaur Raufovych ISMAYILOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Zaur Ismailov RAUFOVICH",
+      "@type": "NameVariant",
+      "fullName": "Zaur Ismailov RAUFOVICH",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Listing: Listed on 1 Sep. 2017 (relisted on 28 Aug. 2020) (relisted on 27 Aug 2023)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3379"
   ],
-  "birth_info": [
+  "remarks": "Listing: Listed on 1 Sep. 2017 (relisted on 28 Aug. 2020) (relisted on 27 Aug 2023)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1978,
       "country": "Krasny Luch"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1975,
       "country": "Voroshilovgrad"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1975,
       "country": "Luhansk"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

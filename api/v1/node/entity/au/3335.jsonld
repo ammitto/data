@@ -1,47 +1,67 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3335",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/3335",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Mahrous Group",
+      "@type": "NameVariant",
+      "fullName": "Mahrous Group",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Al Mahrus Group Trading Company",
+      "@type": "NameVariant",
+      "fullName": "Al Mahrus Group Trading Company",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Mahrous Trading Establishment",
+      "@type": "NameVariant",
+      "fullName": "Mahrous Trading Establishment",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Mahrous Trading Institute",
+      "@type": "NameVariant",
+      "fullName": "Mahrous Trading Institute",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Mahrus Group",
+      "@type": "NameVariant",
+      "fullName": "Mahrus Group",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Mahrus Trading Establishment",
+      "@type": "NameVariant",
+      "fullName": "Mahrus Trading Establishment",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Listing: Listed on: 17 Aug. 2017 (Relisted on 3 Aug. 2020 and 2 Aug. 2023)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3335"
+  ],
+  "remarks": "Listing: Listed on: 17 Aug. 2017 (Relisted on 3 Aug. 2020 and 2 Aug. 2023)",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Rawda Street, Damascus, Syria; Al Rawdah, Damascus, Syria",
       "country": "Syria"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

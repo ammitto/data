@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/62810",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/62810",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Fedorenko Konstantin Albertovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Fedorenko Konstantin Albertovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/62810"
   ],
   "remarks": "Konstantin Fedorenko is a director of the Artek International Children’s Center. He was involved in organizing Russian military and patriotic camps for children from the illegally annexed Crimean Peninsula, and children who were illegally deportated to the Crimean Peninsula from other parts of Ukraine under Russia’s control. His actions infringe Ukraine’s law and administrative order, and violate the rights of Ukrainian children.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1976-12-29",
-      "circa": false
+      "circa": false,
+      "year": 1976
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

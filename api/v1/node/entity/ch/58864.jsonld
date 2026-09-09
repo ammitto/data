@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/58864",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/58864",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ibragimov Turpal-Ali Vakhayevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Ibragimov Turpal-Ali Vakhayevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/58864"
   ],
   "remarks": "Turpal-Ali Vakhayevich Ibragimov is a cousin of Ramzan Kadyrov, President Vladimir Putin's key Chechen ally. He has been appointed to various government posts such as Minister of Physical Culture, Sports and Youth Policy and Minister of Property and Land Issues of the Chechen Republic due to his family relations with Ramzan Kadyrov. He is therefore associated with Ramzan Kadyrov, President of the Republic of Chechnya.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1979-07-24",
-      "circa": false
+      "circa": false,
+      "year": 1979
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

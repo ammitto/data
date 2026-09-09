@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/53277",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/53277",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kushakov Mikhail Nikolaevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kushakov Mikhail Nikolaevich",
+      "isPrimary": true
     }
   ],
-  "remarks": "Former so-called “Minister of Education and Science” of the so-called “Donetsk People’s Republic”. He is the Rector of the Donbass Law Academy. In taking on and acting in those capacities, he has actively undermined the territorial integrity, sovereignty and independence of Ukraine.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/53277"
+  ],
+  "remarks": "Former so-called “Minister of Education and Science” of the so-called “Donetsk People’s Republic (DNR)” and former Rector of the Donbass Law Academy. He is currently an advisor to the Head of the DNR, Denis Pushilin. In taking on and acting in those capacities, he has actively undermined the territorial integrity, sovereignty and independence of Ukraine.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1958-11-23",
-      "circa": false
+      "circa": false,
+      "year": 1958
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

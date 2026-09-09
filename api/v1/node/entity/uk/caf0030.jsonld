@@ -1,48 +1,68 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/caf0030",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/caf0030",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Radio Centrafricaine Lengo Sengo",
+      "@type": "NameVariant",
+      "fullName": "Radio Centrafricaine Lengo Sengo",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Lengosongo",
+      "@type": "NameVariant",
+      "fullName": "Lengosongo",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Radio Centafrique Lengo Sengo",
+      "@type": "NameVariant",
+      "fullName": "Radio Centafrique Lengo Sengo",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Radio Lengo Sengo",
+      "@type": "NameVariant",
+      "fullName": "Radio Lengo Sengo",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Radio Lengo Songo",
+      "@type": "NameVariant",
+      "fullName": "Radio Lengo Songo",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Radio Lengosengo",
+      "@type": "NameVariant",
+      "fullName": "Radio Lengosengo",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/caf0030"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "8eme Arr, Commune de Bangui, Galabadja",
       "state": "Bangui",
       "country": "Central African Republic"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

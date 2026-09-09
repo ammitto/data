@@ -1,16 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/83427",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/83427",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mati Ur-Rehman Ali Muhammad",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Mati Ur-Rehman Ali Muhammad",
+      "isPrimary": true
     }
   ],
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/83427"
+  ],
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1977
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

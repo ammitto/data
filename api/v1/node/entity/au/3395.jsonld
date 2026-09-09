@@ -1,27 +1,43 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3395",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/3395",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Somali Battalion",
+      "@type": "NameVariant",
+      "fullName": "Somali Battalion",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Separate Guards Motorised Rifle Assault Battalion",
+      "@type": "NameVariant",
+      "fullName": "Separate Guards Motorised Rifle Assault Battalion",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Listing: Listed on 1 Sep. 2017 (relisted on 28 Aug. 2020) (relisted on 27 Aug 2023)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3395"
+  ],
+  "remarks": "Listing: Listed on 1 Sep. 2017 (relisted on 28 Aug. 2020) (relisted on 27 Aug 2023)",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Str Shosseynaya 1, St Zaplavskaya, October C, Rostov, Russia",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

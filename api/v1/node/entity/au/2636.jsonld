@@ -1,37 +1,55 @@
 {
-  "id": "https://www.ammitto.org/entity/au/2636",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/2636",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "PARS AMAYESH SANAAT KISH",
+      "@type": "NameVariant",
+      "fullName": "PARS AMAYESH SANAAT KISH",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "PASK",
+      "@type": "NameVariant",
+      "fullName": "PASK",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Vacuum Karan",
+      "@type": "NameVariant",
+      "fullName": "Vacuum Karan",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Vacuum Karan Co",
+      "@type": "NameVariant",
+      "fullName": "Vacuum Karan Co",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Listing: Designated under the Autonomous Sanctions Regulations 2011 on 3 July 2013. Instrument of first designation Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Iran) Amendment List 2013 (No. 1). Relisted on 12 January 2024.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/2636"
+  ],
+  "remarks": "Listing: Designated under the Autonomous Sanctions Regulations 2011 on 3 July 2013. Instrument of first designation Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Iran) Amendment List 2013 (No. 1). Relisted on 12 January 2024.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "3rd Floor, No. 6, East 2nd, North Kheradmand, Karimkhan St., Tehran, Iran",
       "country": "Iran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

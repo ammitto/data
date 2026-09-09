@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/62407",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/62407",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ahmad Ali Taher",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Ahmad Ali Taher",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/62407"
   ],
   "remarks": "Ahmad Ali Taher owns shares in Castle Security and Protection LLC, which operates as a shell company for the Fourth Division of the Syrian Arab Army, led by Maher al-Assad. He therefore benefits from and supports the former al-Assad regime.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1982-01-01",
-      "circa": false
+      "circa": false,
+      "year": 1982
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

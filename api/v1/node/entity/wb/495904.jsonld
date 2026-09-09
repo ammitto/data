@@ -1,23 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/495904",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/wb/495904",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "ROBERTO SIQUEIRA NUÑES",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "ROBERTO SIQUEIRA NUÑES",
+      "isPrimary": true
     }
   ],
-  "remarks": "*544",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/495904"
+  ],
+  "remarks": "*544",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "AVENIDA FERNÃO DIAS PAES LEME, 135 D – ALTOS, CONJUNTO DOM PEDRO II, CEP: 69042-690",
       "city": "MANAUS, AM",
       "country": "Brazil",
-      "country_iso_code": "BR"
+      "countryIsoCode": "BR"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

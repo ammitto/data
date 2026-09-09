@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/69147",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/69147",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Okroyan Mkrtich Okroevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Okroyan Mkrtich Okroevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/69147"
   ],
   "remarks": "Mkrtich Okroyan is the Chief Designer at Russian company Soyuz, an entity of Russia’s military-industrial complex, and shareholder in and board member of OJSC Balashikha Casting and Mechanical Plant, a contracted supplier of the Russian Armed Forces. Both those companies produce weapons, which Russia uses against Ukraine in the course of its war of aggression against Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1965-04-21",
-      "circa": false
+      "circa": false,
+      "year": 1965
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

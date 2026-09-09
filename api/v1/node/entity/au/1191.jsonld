@@ -1,41 +1,57 @@
 {
-  "id": "https://www.ammitto.org/entity/au/1191",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/1191",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "AMIR ABDULLAH",
+      "@type": "NameVariant",
+      "fullName": "AMIR ABDULLAH",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "امیر عبد الله",
+      "@type": "NameVariant",
+      "fullName": "امیر عبد الله",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Amir Abdullah Sahib",
+      "@type": "NameVariant",
+      "fullName": "Amir Abdullah Sahib",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "TAi.145 Designation: Former Kandahar Province Deputy Taliban Governor. Has travelled to Kuwait, Saudi Arabia, the Libyan Arab Jamahiriya and the United Arab Emirates to raise funds for the Taliban. Treasurer to Abdul Ghani Baradar Abdul Ahmad Turk (TI.B.24.01). Believed to be in Afghanistan/Pakistan border area; Listing: Listed on 19 July 2010 (amended on 29 Nov. 2011)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/1191"
   ],
-  "birth_info": [
+  "remarks": "TAi.145 Designation: Former Kandahar Province Deputy Taliban Governor. Has travelled to Kuwait, Saudi Arabia, the Libyan Arab Jamahiriya and the United Arab Emirates to raise funds for the Taliban. Treasurer to Abdul Ghani Baradar Abdul Ahmad Turk (TI.B.24.01). Believed to be in Afghanistan/Pakistan border area; Listing: Listed on 19 July 2010 (amended on 29 Nov. 2011)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1972,
       "country": "Paktika Province"
     }
   ],
   "nationalities": [
     "Afghanistan"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Karachi, Pakistan",
       "country": "Pakistan"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

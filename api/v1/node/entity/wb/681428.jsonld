@@ -1,23 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/681428",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/wb/681428",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MR. PHAM HONG HA",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "MR. PHAM HONG HA",
+      "isPrimary": true
     }
   ],
-  "remarks": "*625",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/681428"
+  ],
+  "remarks": "*625",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "B14 BUILDING, LANE 65, PHAM NGOC THACH STREET",
       "city": "HANOI",
       "country": "Viet Nam",
-      "country_iso_code": "VN"
+      "countryIsoCode": "VN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

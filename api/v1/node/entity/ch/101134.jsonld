@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/101134",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/101134",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Dagalo Abdelrahim Hamdan",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Dagalo Abdelrahim Hamdan",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/101134"
   ],
   "remarks": "Abdelrahim Hamdan Dagalo is Deputy Commander of the Rapid Support Forces (RSF) and the brother of Mohamed Hamdan Dagalo (Hemedti), Commander of the RSF.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1972-01-01",
-      "circa": false
+      "circa": false,
+      "year": 1972
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

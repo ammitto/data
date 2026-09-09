@@ -1,25 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/848891",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/848891",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "LOTTE INNOVATE AMERICA CO.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "LOTTE INNOVATE AMERICA CO.",
+      "isPrimary": true
     }
   ],
-  "remarks": "*623 (Reg. No. 3267112)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/848891"
+  ],
+  "remarks": "*623 (Reg. No. 3267112)",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "1209 ORANGE ST.",
       "city": "WILMINGTON",
       "state": "DE",
       "country": "United States",
-      "country_iso_code": "US",
-      "postal_code": "19801"
+      "countryIsoCode": "US",
+      "postalCode": "19801"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

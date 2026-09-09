@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/61081",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/61081",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Parshin Nikolay Mikhailovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Parshin Nikolay Mikhailovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/61081"
   ],
   "remarks": "Nikolay Parshin is a Russian military leader, and Head of the Main Rocket and Artillery Directorate of the Ministry of Defense of the Russian Federation. In the war of aggression against Ukraine, the Russian army frequently used missiles against military and civilian\ntargets. As Head of the Main Rocket and Artillery Directorate of the Ministry of Defense of the Russian Federation, he is responsible for the bombardment of Ukraine. Nikolay Parshin is therefore responsible for supporting and implementing actions which undermine the territorial integrity, sovereignty and independence of Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1962-12-20",
-      "circa": false
+      "circa": false,
+      "year": 1962
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

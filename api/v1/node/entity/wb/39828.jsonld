@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/39828",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/39828",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "IG-TOGO SARL",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "IG-TOGO SARL",
+      "isPrimary": true
     }
   ],
-  "remarks": "*75",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/39828"
+  ],
+  "remarks": "*75",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "173 MOBUTU SESE SEKO BOULEVARD, BP 391",
       "city": "LOMÉ",
       "country": "Togo",
-      "country_iso_code": "TG"
+      "countryIsoCode": "TG"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

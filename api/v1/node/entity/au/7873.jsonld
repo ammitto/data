@@ -1,30 +1,47 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7873",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7873",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Yan Valentinovich NOVIKOV",
+      "@type": "NameVariant",
+      "fullName": "Yan Valentinovich NOVIKOV",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Yan Valentynovych NOVIKOV",
+      "@type": "NameVariant",
+      "fullName": "Yan Valentynovych NOVIKOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Director General and CEO of Aerospace Defense Concern Almaz-Antey; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2024",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7873"
   ],
-  "birth_info": [
+  "remarks": "Director General and CEO of Aerospace Defense Concern Almaz-Antey; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2024",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1959,
       "country": "St Petersburg"
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

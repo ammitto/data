@@ -1,35 +1,53 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8071",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/8071",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ilya Andreïevitch GAMBACHIDZE",
+      "@type": "NameVariant",
+      "fullName": "Ilya Andreïevitch GAMBACHIDZE",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Ilya Andreievitch GAMBACHIDZE",
+      "@type": "NameVariant",
+      "fullName": "Ilya Andreievitch GAMBACHIDZE",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ilya Andreevich GAMBASHIDZE",
+      "@type": "NameVariant",
+      "fullName": "Ilya Andreevich GAMBASHIDZE",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Co-founder of the Social Design Agency; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8071"
   ],
-  "birth_info": [
+  "remarks": "Co-founder of the Social Design Agency; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1977,
       "country": "Kyiv"
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

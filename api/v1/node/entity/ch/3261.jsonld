@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/3261",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/3261",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Musoni Straton",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Musoni Straton",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/3261"
   ],
   "remarks": "Through his leadership of the FDLR, a foreign armed group operating in the DRC, Musoni is impeding the disarmament and voluntary repatriation or resettlement of combatants belonging to those groups, in breach of resolution 1649 (2005).",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1961-04-06",
-      "circa": false
+      "circa": false,
+      "year": 1961
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/621023",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/621023",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "ASESORES BYPSA",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "ASESORES BYPSA",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/621023"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "CALLE SAN CAMILO, EDIFICIO LAS TAPARITAS PISO 2, 2-2,LAS PALMAS",
       "city": "CARACAS 1050",
       "country": "Venezuela, Republica Bolivariana de",
-      "country_iso_code": "VE"
+      "countryIsoCode": "VE"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

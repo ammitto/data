@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/426580",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/426580",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "PT. RUDY JAYA",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "PT. RUDY JAYA",
+      "isPrimary": true
     }
   ],
-  "remarks": "*506",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/426580"
+  ],
+  "remarks": "*506",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "JL. GAJAH MADA NO. 404 DESA JANTI, KEC. TARIK",
       "city": "SIDOARJO, JAWA TIMUR",
       "country": "Indonesia",
-      "country_iso_code": "ID"
+      "countryIsoCode": "ID"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

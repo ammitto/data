@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/41302",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/41302",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mahir Burhan Eddine Al-Imam",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Mahir Burhan Eddine Al-Imam",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/41302"
   ],
   "remarks": "Leading businessperson operating in Syria with business interests in tourism, telecommunications and real estate. As General Manager of the regime-backed Telsa Communication Group as well as of Castro LLC, and through his other business interests, Mahir Burhan Eddine al-Imam benefits from the Syrian regime and supports its financing and lobbying policy as well as its construction policy.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1978-08-22",
-      "circa": false
+      "circa": false,
+      "year": 1978
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

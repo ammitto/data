@@ -1,56 +1,78 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8577",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/8577",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mohammad Salah JOKAR",
+      "@type": "NameVariant",
+      "fullName": "Mohammad Salah JOKAR",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "محمد صالح جوکار",
+      "@type": "NameVariant",
+      "fullName": "محمد صالح جوکار",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Mohammad Saleh JOKAR",
+      "@type": "NameVariant",
+      "fullName": "Mohammad Saleh JOKAR",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Mohamed Saleh JOKAR",
+      "@type": "NameVariant",
+      "fullName": "Mohamed Saleh JOKAR",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Mohammadsaleh JOKAR",
+      "@type": "NameVariant",
+      "fullName": "Mohammadsaleh JOKAR",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "General of the Islamic Revolutionary Guards Corps; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Iran) List 2012",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8577"
   ],
-  "birth_info": [
+  "remarks": "General of the Islamic Revolutionary Guards Corps; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Iran) List 2012",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1957-05-05",
       "circa": false,
+      "year": 1957,
       "country": "Yazd"
     },
     {
-      "date": "1957-04-01",
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1957,
       "country": "Iran"
     },
     {
-      "date": "1957-05-01",
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1957,
       "country": "Yazd"
     }
   ],
   "nationalities": [
     "Iran"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

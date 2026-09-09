@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/46425",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/46425",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Manager of Al Nasr Detention Center in Zawiyah Al Kuni Osama Ibrahim",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Manager of Al Nasr Detention Center in Zawiyah Al Kuni Osama Ibrahim",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/46425"
   ],
   "remarks": "As de facto manager of the Al Nasr detention center the person concerned has directly, and/or through subordinates engaged in or provided support to acts that violate applicable international human rights law, or acts that constitute human rights abuses in Libya. The Person concerned has acted for or on behalf of or at the direction of two listed individuals intrinsically linked to the human trafficking activities of the Zawiyah network, namely Mohamed Kashlaf and Abdulrahman al Milad.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1976-04-02",
-      "circa": false
+      "circa": false,
+      "year": 1976
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

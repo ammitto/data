@@ -1,45 +1,67 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/gac0031",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/gac0031",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Radojcic",
-      "first_name": "Milan",
+      "@type": "NameVariant",
+      "fullName": "Radojcic",
+      "firstName": "Milan",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Radoicic",
-      "first_name": "Milan",
+      "@type": "NameVariant",
+      "fullName": "Radoicic",
+      "firstName": "Milan",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Radojicic",
-      "first_name": "Milan",
+      "@type": "NameVariant",
+      "fullName": "Radojicic",
+      "firstName": "Milan",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Милан Радоичић ",
+      "@type": "NameVariant",
+      "fullName": "Милан Радоичић ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Milan Rajko Radoičić",
+      "@type": "NameVariant",
+      "fullName": "Milan Rajko Radoičić",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/gac0031"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Lola Ribar St 58/7, Mitrovica",
       "country": "Kosovo"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

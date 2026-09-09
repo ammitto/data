@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/71069",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/71069",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Yasser Hussein Ibrahim",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Yasser Hussein Ibrahim",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/71069"
   ],
   "remarks": "Yasser Ibrahim is an economic advisor to Bashar al-Assad and acts in the economic council run by Asma al-Assad. Together with Ali Najib Ibrahim he operates a number of shell companies, and acts as a front for business activities of Bashar al-Assad and Asma al-Assad. Therefore, Yasser Ibrahim is benefitting from and supporting the former al-Assad regime.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1983-04-09",
-      "circa": false
+      "circa": false,
+      "year": 1983
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

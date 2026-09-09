@@ -1,30 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/syr0242",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/syr0242",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ajeeb",
-      "first_name": "Yusuf",
+      "@type": "NameVariant",
+      "fullName": "Ajeeb",
+      "firstName": "Yusuf",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ajib",
-      "first_name": "Yusuf",
+      "@type": "NameVariant",
+      "fullName": "Ajib",
+      "firstName": "Yusuf",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/syr0242"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Scientific Studies and Research Centre (SSRC), Barzeh Street, PO Box 4470",
       "state": "Damascus",
       "country": "Syria"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/50868",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/50868",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Skabeyeva Olga Vladimirovna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Skabeyeva Olga Vladimirovna",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/50868"
   ],
   "remarks": "Ms. Olga Skabeyeva is a journalist of the state-owned TV station Rossiya-1. Together with her husband Yevgeniy Popov, she hosts the most popular political talk-show in Russia, “60 Minutes”, where she has spread anti-Ukrainian propaganda, and promoted a positive attitude to the annexation of Crimea and the actions of separatists in Donbas.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1984-12-11",
-      "circa": false
+      "circa": false,
+      "year": 1984
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

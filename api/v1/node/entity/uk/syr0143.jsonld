@@ -1,28 +1,50 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/syr0143",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/syr0143",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Dabul",
-      "first_name": "Samir",
+      "@type": "NameVariant",
+      "fullName": "Dabul",
+      "firstName": "Samir",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Daaboul",
-      "first_name": "Samir",
+      "@type": "NameVariant",
+      "fullName": "Daaboul",
+      "firstName": "Samir",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "دعبول سمير",
+      "@type": "NameVariant",
+      "fullName": "دعبول سمير",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/syr0143"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

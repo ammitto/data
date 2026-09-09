@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/65268",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/65268",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Pirozhnikava Tatsiana Valerieuna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Pirozhnikava Tatsiana Valerieuna",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/65268"
   ],
   "remarks": "In her position as Judge of Moskovsky district of Minsk, Tatsiana Pirozhnikava sentenced several Belarusian citizens on political grounds, including for their participation in protests and for publishing anti-government comments on Telegram. She is documented as occasionally issuing heavier sentences than those requested by the prosecutor. She is therefore responsible for serious human rights violations and for seriously undermining the rule of law, as well as for the repression of civil society and democratic opposition In Belarus.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1987-01-08",
-      "circa": false
+      "circa": false,
+      "year": 1987
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

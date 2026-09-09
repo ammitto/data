@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/134371",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/134371",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "AL-AJAM COMPANY FOR GENERAL CONTRACTING LTD. (AL-AJAM)",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "AL-AJAM COMPANY FOR GENERAL CONTRACTING LTD. (AL-AJAM)",
+      "isPrimary": true
     }
   ],
-  "remarks": "*101",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/134371"
+  ],
+  "remarks": "*101",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "BUNYAN AL-SA'DI BUILDING, AL-RABEE STREET",
       "city": "BAGHDAD",
       "country": "Iraq",
-      "country_iso_code": "IQ"
+      "countryIsoCode": "IQ"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

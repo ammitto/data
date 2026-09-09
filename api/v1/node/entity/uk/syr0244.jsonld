@@ -1,48 +1,70 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/syr0244",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/syr0244",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Fadhlun",
-      "first_name": "Zuhair",
+      "@type": "NameVariant",
+      "fullName": "Fadhlun",
+      "firstName": "Zuhair",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "FADHLOUN",
-      "first_name": "Zoher",
+      "@type": "NameVariant",
+      "fullName": "FADHLOUN",
+      "firstName": "Zoher",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "FADHLOUN",
-      "first_name": "Zuhair",
+      "@type": "NameVariant",
+      "fullName": "FADHLOUN",
+      "firstName": "Zuhair",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Fadhlun",
-      "first_name": "Zoher",
+      "@type": "NameVariant",
+      "fullName": "Fadhlun",
+      "firstName": "Zoher",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Fadlon",
-      "first_name": "Zoher",
+      "@type": "NameVariant",
+      "fullName": "Fadlon",
+      "firstName": "Zoher",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/syr0244"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Scientific Studies and Research Centre (SSRC), Barzeh Street, PO Box 4470",
       "state": "Damascus",
       "country": "Syria"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/95041",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/95041",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Burova Olga Vasilyevna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Burova Olga Vasilyevna",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/95041"
   ],
   "remarks": "Olga Burova has been the so-called “First Deputy Minister of Culture of the Republic of Crimea” since 15 May 2023. In that role, she has promoted Crimea as a centre of Russian culture and as a part of Russian history, and supported its illegal annexation by Russia in 2014.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1972-08-29",
-      "circa": false
+      "circa": false,
+      "year": 1972
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

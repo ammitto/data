@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/764021",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/764021",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "M/S GUL CONSTRUCTION CO. (GUL PRIME)",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "M/S GUL CONSTRUCTION CO. (GUL PRIME)",
+      "isPrimary": true
     }
   ],
-  "remarks": "*639",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/764021"
+  ],
+  "remarks": "*639",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "PLOT NO. 815/C BLOCK 2, CENTRAL COMMERCIAL AREA, P.E.C.H.S.",
       "city": "KARACHI",
       "country": "Pakistan",
-      "country_iso_code": "PK"
+      "countryIsoCode": "PK"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

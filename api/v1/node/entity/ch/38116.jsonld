@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/38116",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/38116",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Numbi John",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Numbi John",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/38116"
   ],
   "remarks": "John Numbi was Inspector General of the Congolese Armed Forces (FARDC) from July 2018 until July 2020. Owing to his role, he bears responsibility for the human rights violations committed by the FARDC between July 2018 and July 2020, such as disproportionate violence against illegal miners from June to July 2019 committed by FARDC troops under his direct authority.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1962-08-16",
-      "circa": false
+      "circa": false,
+      "year": 1962
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

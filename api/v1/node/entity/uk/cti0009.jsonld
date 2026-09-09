@@ -1,40 +1,64 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/cti0009",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/cti0009",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Al-Din",
-      "first_name": "Hasan",
+      "@type": "NameVariant",
+      "fullName": "Al-Din",
+      "firstName": "Hasan",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Al-Din",
-      "first_name": "Hassan",
+      "@type": "NameVariant",
+      "fullName": "Al-Din",
+      "firstName": "Hassan",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Garbaya",
-      "first_name": "Ahmed",
+      "@type": "NameVariant",
+      "fullName": "Garbaya",
+      "firstName": "Ahmed",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Sa'id",
+      "@type": "NameVariant",
+      "fullName": "Sa'id",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Salwwan",
-      "first_name": "Samir",
+      "@type": "NameVariant",
+      "fullName": "Salwwan",
+      "firstName": "Samir",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/cti0009"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

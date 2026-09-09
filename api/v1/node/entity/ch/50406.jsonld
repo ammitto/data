@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/50406",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/50406",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Krivets Aleksandr Sergeyevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Krivets Aleksandr Sergeyevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/50406"
   ],
   "remarks": "Aleksandr Krivets is the Commander of the Belarusian 116th Guards Assault Aviation Radomskaya Red Banner Base/Lida airfield. He is part of the Belarusian army, which has supported Russian military aggression. In this capacity, he participated in the Russian military build-up at Lida airfield prior to the Russian military aggression of 24 February 2022.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1974-07-07",
-      "circa": false
+      "circa": false,
+      "year": 1974
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

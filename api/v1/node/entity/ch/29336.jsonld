@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/29336",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/29336",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Zhirinovsky Vladimir Volfovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Zhirinovsky Vladimir Volfovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/29336"
   ],
   "remarks": "Member of the Council of the State Duma; leader of the LDPR party. He actively supported the use of Russian Armed Forces in Ukraine and annexation of Crimea. He has actively called for the split of Ukraine. He signed on behalf of the LDPR party he chairs, an agreement with the so-called \"Donetsk People's Republic\".",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1946-04-25",
-      "circa": false
+      "circa": false,
+      "year": 1946
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

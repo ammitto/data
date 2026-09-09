@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/69420",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/69420",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mishchenko Oleg Grigorievich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Mishchenko Oleg Grigorievich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/69420"
   ],
   "remarks": "Oleg Mishchenko is the First Deputy Chairman of the State Military-Industrial Committee of the Republic of Belarus. In his capacity as the First Deputy Chairman of the State Military-Industrial Committee of the Republic of Belarus he increased the supply of military equipment to Russia against the backdrop of its war of aggression against Ukraine. Moreover, a military-technical cooperation programme between Moscow and Minsk until 2025 will be put into effect, which provides for mutual deliveries of military products in the interests of the law enforcement agencies of Belarus and Russia. Therefore, Oleg Mishchenko is supporting materially the Government of the Russian Federation, which is responsible for the annexation of Crimea and the destabilisation of Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1968-08-11",
-      "circa": false
+      "circa": false,
+      "year": 1968
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

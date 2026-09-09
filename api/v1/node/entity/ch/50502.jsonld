@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/50502",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/50502",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Shuleyko Yuri Vitoldovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Shuleyko Yuri Vitoldovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/50502"
   ],
   "remarks": "Yuri Vitoldovich Shuleyko is Chairman of the Brest Regional Executive Committee. In this capacity, he is responsible for mobilisation and civil defence as well as his interaction with military organisations, including at a time of joint Russian-Belarus military exercises taking place near Brest in the build-up to Russia's military aggression against Ukraine of 24 February 2022.",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1968
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

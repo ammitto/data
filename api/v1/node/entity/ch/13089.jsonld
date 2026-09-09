@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/13089",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/13089",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Jafari Mohammad-Ali",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Jafari Mohammad-Ali",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/13089"
   ],
   "remarks": "Director of the Hazrat-e Baqiatollah Social and Cultural Base. Former Commander of the IRGC (Sep 2007 - Apr 2019). IRGC and the Sarollah Base commanded by General Mohammad-Ali (Aziz) Jafari have played a key role in illegally interfering with the 2009 Presidential Elections, arresting and detaining political activists, as well as clashing with protestors in the streets.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1957-09-01",
-      "circa": false
+      "circa": false,
+      "year": 1957
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

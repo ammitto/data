@@ -1,18 +1,34 @@
 {
-  "id": "https://www.ammitto.org/entity/un_vessels/8122347",
-  "entity_type": "vessel",
+  "@id": "https://www.ammitto.org/entity/un_vessels/8122347",
+  "@type": "VesselEntity",
+  "entityType": "vessel",
   "names": [
     {
-      "full_name": "NAM SAN 8",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "NAM SAN 8",
+      "isPrimary": true
     }
   ],
-  "source_references": [
+  "sourceReferences": [
     {
-      "source_code": "un_vessels",
-      "reference_number": "8122347"
+      "@type": "SourceReference",
+      "sourceCode": "un_vessels",
+      "referenceNumber": "8122347",
+      "retrievedAt": "2026-09-09T16:30:54Z"
     }
   ],
-  "imo_number": "8122347",
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "linkedEntities": [
+
+  ],
+  "imoNumber": "8122347",
+  "previousNames": [
+
+  ],
+  "previousFlags": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/8122347"
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

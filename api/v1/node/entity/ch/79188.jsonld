@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/79188",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/79188",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Rustum Hanafi Habibullah Maulavi",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Rustum Hanafi Habibullah Maulavi",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/79188"
   ],
   "remarks": "Deputy Minister of Public Works under the Taliban regime.",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1963
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

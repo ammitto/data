@@ -1,28 +1,44 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus1887",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus1887",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "JOINT STOCK COMPANY \"SCIENTIFIC-RESEARCH INSTITUTE OF TECHNICAL GLASS NAMED AFTER V.F. SOLINOV\"",
+      "@type": "NameVariant",
+      "fullName": "JOINT STOCK COMPANY \"SCIENTIFIC-RESEARCH INSTITUTE OF TECHNICAL GLASS NAMED AFTER V.F. SOLINOV\"",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "АКЦИОНЕРНОЕ ОБЩЕСТВО \"НАУЧНО-ИССЛЕДОВАТЕЛЬСКИЙ ИНСТИТУТ ТЕХНИЧЕСКОГО СТЕКЛА ИМЕНИ В.Ф. СОЛИНОВА\"",
+      "@type": "NameVariant",
+      "fullName": "АКЦИОНЕРНОЕ ОБЩЕСТВО \"НАУЧНО-ИССЛЕДОВАТЕЛЬСКИЙ ИНСТИТУТ ТЕХНИЧЕСКОГО СТЕКЛА ИМЕНИ В.Ф. СОЛИНОВА\"",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus1887"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "D. 29, K. 5, STR. KRZHIZHANOVSKOY",
       "state": "Moscow",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/80315",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/80315",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Osman Mohamed Hamid Mohamed",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Osman Mohamed Hamid Mohamed",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/80315"
   ],
   "remarks": "Rapid Support Forces (RSF) Major General and Head of RSF Operations Department",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1966-01-01",
-      "circa": false
+      "circa": false,
+      "year": 1966
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

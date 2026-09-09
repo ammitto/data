@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/13072",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/13072",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Allahkaram Hossein",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Allahkaram Hossein",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/13072"
   ],
   "remarks": "Head of Ansar-e Hezbollah Coordination Council and former general in the IRGC. He co-founded Ansar-e Hezbollah. This paramilitary force was responsible for extreme violence during crackdown against students and universities in 1999, 2002 and 2009.",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1945
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

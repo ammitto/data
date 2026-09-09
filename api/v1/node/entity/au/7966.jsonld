@@ -1,32 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7966",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/7966",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "M Leasing LLC",
+      "@type": "NameVariant",
+      "fullName": "M Leasing LLC",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "M Leasing Limited Liability Company",
+      "@type": "NameVariant",
+      "fullName": "M Leasing Limited Liability Company",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "M Lizing",
+      "@type": "NameVariant",
+      "fullName": "M Lizing",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Company Identification No.1217700121737;\nIMO Identification Number: 6246853 (Company); Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 5) Instrument 2024",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7966"
+  ],
+  "remarks": "Company Identification No.1217700121737;\nIMO Identification Number: 6246853 (Company); Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 5) Instrument 2024",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Of. 301, Str. 1, D.7, Baumanskaya Ul., Moscow, Russia, 105005",
       "country": "105005"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

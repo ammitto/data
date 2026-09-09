@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/97867",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/97867",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Tilus Ferdens",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Tilus Ferdens",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/97867"
   ],
   "remarks": "Ferdens Tilus is the leader of the Kokorat San Ras Gang in Haiti (area of Atribonite/NorthWest).",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1995-09-15",
-      "circa": false
+      "circa": false,
+      "year": 1995
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

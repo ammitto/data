@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/13238",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/13238",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Firuzabadi Seyyed Hasan Dr",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Firuzabadi Seyyed Hasan Dr",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/13238"
   ],
   "remarks": "As Chief of Staff of Iran's Armed Forces (1989 to 2016), he was the highest military commander responsible for directing all military divisions and policies, including the Islamic Revolutionary Guards Corps (IRGC) and police. In 2009, forces under his formal chain of command brutally suppressed peaceful protestors and perpetrated mass detentions.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1951-02-03",
-      "circa": false
+      "circa": false,
+      "year": 1951
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

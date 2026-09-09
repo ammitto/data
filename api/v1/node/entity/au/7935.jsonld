@@ -1,39 +1,58 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7935",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7935",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mikhail Alekseevich NEIMOVICH",
+      "@type": "NameVariant",
+      "fullName": "Mikhail Alekseevich NEIMOVICH",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Michail Alexejevič NAIMOVIČ",
+      "@type": "NameVariant",
+      "fullName": "Michail Alexejevič NAIMOVIČ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Michail Aleksejevitj NEJMOVICH",
+      "@type": "NameVariant",
+      "fullName": "Michail Aleksejevitj NEJMOVICH",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Michail NEJMOVIČ",
+      "@type": "NameVariant",
+      "fullName": "Michail NEJMOVIČ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Lieutenant in IK-6 penal colony in Vladimir region; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Thematic Sanctions) Amendment (No. 2) Instrument 2024",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7935"
   ],
-  "birth_info": [
+  "remarks": "Lieutenant in IK-6 penal colony in Vladimir region; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Thematic Sanctions) Amendment (No. 2) Instrument 2024",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1997
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

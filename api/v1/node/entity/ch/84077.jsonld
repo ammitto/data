@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/84077",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/84077",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Anas Hasan Khattab",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Anas Hasan Khattab",
+      "isPrimary": true
     }
   ],
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/84077"
+  ],
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1986-04-07",
-      "circa": false
+      "circa": false,
+      "year": 1986
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

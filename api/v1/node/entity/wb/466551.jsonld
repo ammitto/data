@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/466551",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/466551",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "ECOGRAPHY COMPANY",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "ECOGRAPHY COMPANY",
+      "isPrimary": true
     }
   ],
-  "remarks": "*294 ECOGRAPH LLC",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/466551"
+  ],
+  "remarks": "*294 ECOGRAPH LLC",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "BUILDING OF MONGOL ENGINEER CO. LTD., KHOROO 20, BAYANGOL DISTRICT",
       "city": "ULANBATAAR",
       "country": "Mongolia",
-      "country_iso_code": "MN"
+      "countryIsoCode": "MN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

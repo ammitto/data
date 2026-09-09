@@ -1,45 +1,65 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3102",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/3102",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Marial Chanuong Yol Mangok",
+      "@type": "NameVariant",
+      "fullName": "Marial Chanuong Yol Mangok",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Marial Chinuong",
+      "@type": "NameVariant",
+      "fullName": "Marial Chinuong",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Marial Chan",
+      "@type": "NameVariant",
+      "fullName": "Marial Chan",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Marial Chanoung Yol",
+      "@type": "NameVariant",
+      "fullName": "Marial Chanoung Yol",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Marial Chinoum",
+      "@type": "NameVariant",
+      "fullName": "Marial Chinoum",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "SSi.005 Designation: a) Sudan People’s Liberation Army Major General b) Commander, Presidential Guard Unit. Passport no: R00005943, South Sudan. His Presidential Guard led the slaughter of Nuer civilians in and around Juba, many who were buried in mass graves. One such grave was purported to contain 200-300 civilians.; Listing: Listed on 1 July 2015.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3102"
   ],
-  "birth_info": [
+  "remarks": "SSi.005 Designation: a) Sudan People’s Liberation Army Major General b) Commander, Presidential Guard Unit. Passport no: R00005943, South Sudan. His Presidential Guard led the slaughter of Nuer civilians in and around Juba, many who were buried in mass graves. One such grave was purported to contain 200-300 civilians.; Listing: Listed on 1 July 2015.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1960,
       "country": "Yirol"
     }
   ],
   "nationalities": [
     "South Sudan"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

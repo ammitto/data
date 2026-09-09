@@ -1,32 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7944",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/7944",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Crimean Railway Federal State Unitary Enterprise",
+      "@type": "NameVariant",
+      "fullName": "Crimean Railway Federal State Unitary Enterprise",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Crimean Railway",
+      "@type": "NameVariant",
+      "fullName": "Crimean Railway",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "The Railways of Crimea",
+      "@type": "NameVariant",
+      "fullName": "The Railways of Crimea",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Previously listed under Part 2 of Schedule 1 (Ukraine) to the Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) List 2014, through Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Ukraine) Amendment (No. 1) Instrument 2021 [F2021L00366]\nhttps://crimearw.ru \nRegistration ID (OGRN no.): 1 159 102 022 738\nCompany number: 9102157783; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 3) Instrument 2024",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7944"
+  ],
+  "remarks": "Previously listed under Part 2 of Schedule 1 (Ukraine) to the Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) List 2014, through Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Ukraine) Amendment (No. 1) Instrument 2021 [F2021L00366]\nhttps://crimearw.ru \nRegistration ID (OGRN no.): 1 159 102 022 738\nCompany number: 9102157783; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 3) Instrument 2024",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Pavlenko St 34, Simferopol, The Autonomous Republic of Crimea and the city of Sevastopol, Ukraine, 95006",
       "country": "95006"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

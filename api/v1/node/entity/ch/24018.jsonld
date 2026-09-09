@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/24018",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/24018",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Paek Chang-Ho",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Paek Chang-Ho",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/24018"
   ],
   "remarks": "Senior official and head of the satellite control center of Korean Committee for Space Technology.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1964-06-18",
-      "circa": false
+      "circa": false,
+      "year": 1964
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

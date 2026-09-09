@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/6444",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/6444",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Langa Andrew",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Langa Andrew",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/6444"
   ],
   "remarks": "ZANU-PF Member of the Government. In 2005 opened fire on 11 members of the MDC Youth Assembly. Intimidated voters on election day 2008.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1965-01-13",
-      "circa": false
+      "circa": false,
+      "year": 1965
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

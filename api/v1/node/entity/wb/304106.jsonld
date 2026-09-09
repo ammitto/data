@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/304106",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/304106",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "D.A. CONSTRUCTION LIMITED",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "D.A. CONSTRUCTION LIMITED",
+      "isPrimary": true
     }
   ],
-  "remarks": "*198",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/304106"
+  ],
+  "remarks": "*198",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "HOUSE NO. 1, 114 ROAD, OFF II ROAD, 1ST AVENUE (A.P. FILLING STATION END), GWARINPA II, P.O. BOX 4824",
       "city": "GARKI, ABUJA",
       "country": "Nigeria",
-      "country_iso_code": "NG"
+      "countryIsoCode": "NG"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

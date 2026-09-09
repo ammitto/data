@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/54501",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/54501",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mikusheu Dzianis Aliaksandravich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Mikusheu Dzianis Aliaksandravich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/54501"
   ],
   "remarks": "Dzianis Mikusheu is the Head of the Department for Supervision of Compliance with the Law of Court Decisions in Criminal Cases of the Prosecutor’s Office of the Gomel Region/Oblast and senior legal adviser. In that position, he is responsible for initiating the prosecutions of Siarhei Tsikhanouski, Artsiom Sakau, Dzmitry Papou, lhar Losik, Uladzimir Tsyhanovich and Mikalai Statkevich. He contributed to the arbitrary detention of Siarhei Tsikhanouski, as presented in the report by the Human Rights Council’s Working Group on Arbitrary Detention. He is therefore responsible for serious human rights violations and for undermining the rule of law, as well as for the repression of civil society and democratic opposition.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1980-03-21",
-      "circa": false
+      "circa": false,
+      "year": 1980
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/58816",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/58816",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kadyrova Ayshat Ramzanovna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kadyrova Ayshat Ramzanovna",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/58816"
   ],
   "remarks": "Ayshat Ramzanovna Kadyrova is the eldest daughter of Ramzan Kadyrov, President Vladimir Putin’s key Chechen ally. Thanks to the support of her father, she has been appointed Minister of Culture of the Republic of Chechnya, and she is currently the owner of Limited Liability Company Firdaws, the first ‘national fashion brand’ of Chechnya. She is therefore associated with Ramzan Kadyrov, President of the Republic of Chechnya.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1998-12-31",
-      "circa": false
+      "circa": false,
+      "year": 1998
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

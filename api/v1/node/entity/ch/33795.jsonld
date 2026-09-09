@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/33795",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/33795",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Jang Bom Su",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Jang Bom Su",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/33795"
   ],
   "remarks": "Tanchon Commercial Bank Representative in Syria.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1957-04-15",
-      "circa": false
+      "circa": false,
+      "year": 1957
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,61 +1,88 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/irq0142",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/irq0142",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "AL-TIKRITI",
-      "first_name": "YASIR",
+      "@type": "NameVariant",
+      "fullName": "AL-TIKRITI",
+      "firstName": "YASIR",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abdallah",
-      "first_name": "Ali",
+      "@type": "NameVariant",
+      "fullName": "Abdallah",
+      "firstName": "Ali",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Al-Tikriti",
-      "first_name": "Yasir",
+      "@type": "NameVariant",
+      "fullName": "Al-Tikriti",
+      "firstName": "Yasir",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Al-Tikriti",
-      "first_name": "Yasir",
+      "@type": "NameVariant",
+      "fullName": "Al-Tikriti",
+      "firstName": "Yasir",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Al-Tikriti",
-      "first_name": "Yasser",
+      "@type": "NameVariant",
+      "fullName": "Al-Tikriti",
+      "firstName": "Yasser",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Al-Tikriti",
-      "first_name": "Yassir",
+      "@type": "NameVariant",
+      "fullName": "Al-Tikriti",
+      "firstName": "Yassir",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "ياسر سبعاوي إبراهيم حسن التكريتي",
+      "@type": "NameVariant",
+      "fullName": "ياسر سبعاوي إبراهيم حسن التكريتي",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/irq0142"
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "state": "Az Zabadani",
       "country": "Syria"
     },
     {
+      "@type": "Address",
+      "street": "",
       "state": "Mosul",
       "country": "Iraq"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

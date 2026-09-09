@@ -1,23 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/326155",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/wb/326155",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MR. NGO DUNG TOAN",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "MR. NGO DUNG TOAN",
+      "isPrimary": true
     }
   ],
-  "remarks": "*333",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/326155"
+  ],
+  "remarks": "*333",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "DIRECTOR, AN HOA LIMITED COMPANY, 231 TRUÒNG CHINH, HAI BÀ TRUNG, PHÛ LÝ",
       "city": "HÀ NAM",
       "country": "Viet Nam",
-      "country_iso_code": "VN"
+      "countryIsoCode": "VN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

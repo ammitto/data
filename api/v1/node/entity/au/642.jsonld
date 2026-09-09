@@ -1,37 +1,51 @@
 {
-  "id": "https://www.ammitto.org/entity/au/642",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/642",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MATHIEU, CHUI NGUDJOLO",
+      "@type": "NameVariant",
+      "fullName": "MATHIEU, CHUI NGUDJOLO",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Cui Ngudjolo",
+      "@type": "NameVariant",
+      "fullName": "Cui Ngudjolo",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "CDi.020 Arrested by MONUC in Bunia in October 2003. Surrendered by the Government of the DRC to the International Criminal Court on 7 February 2008. Aquitted of all charges by the ICC in December 2012, and the verdict was upheld by the Appeals Chamber on 27 February 2015. Ngudjolo filed a claim for asylum in the Netherlands, but was denied. He was deported to the DRC on 11 May 2015.; Listing: Listed by 1533 Committee on: 1 Nov. 2005 (amended on 13 Oct. 2016)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/642"
   ],
-  "birth_info": [
+  "remarks": "CDi.020 Arrested by MONUC in Bunia in October 2003. Surrendered by the Government of the DRC to the International Criminal Court on 7 February 2008. Aquitted of all charges by the ICC in December 2012, and the verdict was upheld by the Appeals Chamber on 27 February 2015. Ngudjolo filed a claim for asylum in the Netherlands, but was denied. He was deported to the DRC on 11 May 2015.; Listing: Listed by 1533 Committee on: 1 Nov. 2005 (amended on 13 Oct. 2016)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1970,
       "country": "Bunia"
     }
   ],
   "nationalities": [
-    "Congo",
-    "Democratic Republic of the"
+    "Congo, Democratic Republic of the"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Democratic Republic of the Congo",
       "country": "Democratic Republic of the Congo"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

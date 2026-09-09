@@ -1,49 +1,73 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/afg0026",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/afg0026",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MOTAQI",
-      "first_name": "AMIR",
+      "@type": "NameVariant",
+      "fullName": "MOTAQI",
+      "firstName": "AMIR",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "MUTAQI",
-      "first_name": "AMIR ",
+      "@type": "NameVariant",
+      "fullName": "MUTAQI",
+      "firstName": "AMIR ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "MUTTAQI",
-      "first_name": "Amir",
+      "@type": "NameVariant",
+      "fullName": "MUTTAQI",
+      "firstName": "Amir",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "امیر خان متقی",
+      "@type": "NameVariant",
+      "fullName": "امیر خان متقی",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "اميرخان متقي",
+      "@type": "NameVariant",
+      "fullName": "اميرخان متقي",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Member of the Taliban Supreme Council as of June 2007.  Belongs to Sulaimankhel tribe. Height 170 cm. Review pursuant to Security Council resolution 1822 (2008) was concluded on 21 Jul. 2010. Photo available for inclusion in the INTERPOL-UN Security Council Special Notice. INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/How-we-work/Notices/View-UNNotices-Individuals click here",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/afg0026"
+  ],
+  "remarks": "Member of the Taliban Supreme Council as of June 2007.  Belongs to Sulaimankhel tribe. Height 170 cm. Review pursuant to Security Council resolution 1822 (2008) was concluded on 21 Jul. 2010. Photo available for inclusion in the INTERPOL-UN Security Council Special Notice. INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/How-we-work/Notices/View-UNNotices-Individuals click here",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "state": "Kabul",
       "country": "Afghanistan"
     },
     {
+      "@type": "Address",
       "street": "Kabul",
       "country": "Afghanistan"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/29611",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/29611",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Abd al-Khaliq al-Houthi",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Abd al-Khaliq al-Houthi",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/29611"
   ],
   "remarks": "Huthi military commander",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1984
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

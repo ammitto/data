@@ -1,87 +1,123 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3175",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/3175",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Joseph Kony",
+      "@type": "NameVariant",
+      "fullName": "Joseph Kony",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Kony",
+      "@type": "NameVariant",
+      "fullName": "Kony",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Joseph Rao Kony",
+      "@type": "NameVariant",
+      "fullName": "Joseph Rao Kony",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Josef Kony",
+      "@type": "NameVariant",
+      "fullName": "Josef Kony",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Le Messie sanglant",
+      "@type": "NameVariant",
+      "fullName": "Le Messie sanglant",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "CFi.009 Title: General. Designation: Commander of the Lord’s Resistance Army. Kony is the founder and leader of the Lord’s Resistance Army (LRA) (CFe.002). Under his leadership, the LRA has engaged in the abduction, killing, and mutilation of thousands of civilians across Central Africa. The LRA has been responsible for kidnapping, displacing, committing sexual violence against, and killing hundreds of individuals across CAR, and has looted and destroyed civilian property. Father’s name is Luizi Obol. Mother’s name is Nora Obol.; Listing: Listed on: 7 Mar. 2016",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3175"
   ],
-  "birth_info": [
+  "remarks": "CFi.009 Title: General. Designation: Commander of the Lord’s Resistance Army. Kony is the founder and leader of the Lord’s Resistance Army (LRA) (CFe.002). Under his leadership, the LRA has engaged in the abduction, killing, and mutilation of thousands of civilians across Central Africa. The LRA has been responsible for kidnapping, displacing, committing sexual violence against, and killing hundreds of individuals across CAR, and has looted and destroyed civilian property. Father’s name is Luizi Obol. Mother’s name is Nora Obol.; Listing: Listed on: 7 Mar. 2016",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1959,
       "country": "a) Palaro Village"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1960,
       "country": "Palaro Parish"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1961,
       "country": "Omoro County"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1963,
       "country": "Gulu District"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1964,
       "country": "Uganda; b) Odek"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1965,
       "country": "Omoro"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1961,
       "country": "Gulu"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1961,
       "country": "Uganda c) Atyak"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1961,
       "country": "Uganda"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1963,
       "country": "a) Palaro Village"
     }
   ],
   "nationalities": [
     "Uganda"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "a) Vakaga, Central African Republic  b) Haute-Kotto, Central African Republic  c) Basse-Kotto, Central African Republic  d) Haut-Mbomou, Central African Republic  e) Mbomou, Central African Republic  f) Haut-Uolo, Democratic Republic of the Congo  g) Bas-Uolo, Democratic Republic of the Congo  h) (Reported address: Kafia Kingi (a territory on the border of Sudan and South Sudan whose final status has yet to be determined). As of January 2015, 500 Lord’s Resistance Army elements were reportedly expelled from the Sudan.)",
       "country": "500 Lord’s Resistance Army elements were reportedly expelled from the Sudan.)"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

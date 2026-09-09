@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/52880",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/52880",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Korotchenko Igor Yurievich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Korotchenko Igor Yurievich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/52880"
   ],
   "remarks": "Igor Korotchenko, the Chairman of the Public Council under the Ministry of Defence of the Russian Federation, is a regular contributor to the main Russian propaganda TV shows as a defence and foreign policy expert. Igor Korotchenko is known for his aggressive and derogatory statements against Ukraine territorial integrity and provokes military confrontation between the Russian Federation and the West, including Ukraine. On his social media platforms or in his TV shows he makes calls to “denazify” and demilitarise Ukraine as well as to unite Ukraine with Russia (“its historical fraternal union”), stating that Ukraine is part of the big “Russian world”.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1960-02-15",
-      "circa": false
+      "circa": false,
+      "year": 1960
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

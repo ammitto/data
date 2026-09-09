@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/50930",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/50930",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mamontov Arkady Viktorovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Mamontov Arkady Viktorovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/50930"
   ],
   "remarks": "Mr Arkady Mamontov is host of the television show “Author’s Program of Arkady Mamontov” and author of documentary films for Russian TV. He has spread anti-Ukrainian propaganda.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1962-05-26",
-      "circa": false
+      "circa": false,
+      "year": 1962
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

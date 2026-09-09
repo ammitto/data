@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8517",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/8517",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "FIRST EAST EXPORT BANK, P.L.C.",
+      "@type": "NameVariant",
+      "fullName": "FIRST EAST EXPORT BANK, P.L.C.",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "IRe.021. Designation: Owned or controlled by, or acts on behalf of, Bank Mellat. Bank Mellat has facilitated hundreds of millions of dollars in transactions for Iranian nuclear, missile, and defense entities. \n\nBusiness Registration Number LL06889 (Malaysia)); Listing: Listed by the 1737 Committee on 9 June 2010.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8517"
+  ],
+  "remarks": "IRe.021. Designation: Owned or controlled by, or acts on behalf of, Bank Mellat. Bank Mellat has facilitated hundreds of millions of dollars in transactions for Iranian nuclear, missile, and defense entities. \n\nBusiness Registration Number LL06889 (Malaysia)); Listing: Listed by the 1737 Committee on 9 June 2010.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Unit Level 10 (B1), Main Office Tower, Financial Park Labuan, Jalan Merdeka, 87000 WP, Labuan, Malaysia",
       "country": "Malaysia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,37 +1,55 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7573",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/7573",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Joint Stock Company Lazurit Design Bureau",
+      "@type": "NameVariant",
+      "fullName": "Joint Stock Company Lazurit Design Bureau",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "JSC Lazurit Design Bureau",
+      "@type": "NameVariant",
+      "fullName": "JSC Lazurit Design Bureau",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Lazurit Central Design Bureau",
+      "@type": "NameVariant",
+      "fullName": "Lazurit Central Design Bureau",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Lazurit CDB",
+      "@type": "NameVariant",
+      "fullName": "Lazurit CDB",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Company identification number: 1025204408910;http://www.cdb-lazurit.ru/en_index.html; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 8) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7573"
+  ],
+  "remarks": "Company identification number: 1025204408910;http://www.cdb-lazurit.ru/en_index.html; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 8) Instrument 2023",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Svobody Street, 57, Nizhniy Novgorod, Nizhniy Novgorod Region, 603003, Russia",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3256",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/3256",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "KORYO BANK",
+      "@type": "NameVariant",
+      "fullName": "KORYO BANK",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "KPe.045. Koryo Bank operates in the financial services industry in the DPRK’s economy and is associated with Office 38 and Office 39 of the KWP; Listing: Listed on: 2 Jun. 2017 (amended on 26 Jul. 2022)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3256"
+  ],
+  "remarks": "KPe.045. Koryo Bank operates in the financial services industry in the DPRK’s economy and is associated with Office 38 and Office 39 of the KWP; Listing: Listed on: 2 Jun. 2017 (amended on 26 Jul. 2022)",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Koryo Bank Building, Pulgun Street, Pyongyang, Democratic People's Republic of Korea",
       "country": "Democratic People's Republic of Korea"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

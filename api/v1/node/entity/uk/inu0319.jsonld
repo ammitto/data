@@ -1,27 +1,43 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/inu0319",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/inu0319",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "IRANIAN OFFSHORE ENGINEERING & CONSTRUCTION COMPANY",
+      "@type": "NameVariant",
+      "fullName": "IRANIAN OFFSHORE ENGINEERING & CONSTRUCTION COMPANY",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "شرکت مهندسی و ساخت تأسیسات دریایی ایران (IOEC) ",
+      "@type": "NameVariant",
+      "fullName": "شرکت مهندسی و ساخت تأسیسات دریایی ایران (IOEC) ",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/inu0319"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "No. 27, Ostad Nejatollahi (Villa) Ave., Arak St",
       "state": "Tehran",
       "country": "Iran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

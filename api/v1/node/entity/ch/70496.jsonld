@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/70496",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/70496",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Chikhanchin Yury Anatolevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Chikhanchin Yury Anatolevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/70496"
   ],
   "remarks": "Yury Chikhanchin is the Director of Rosfinmonitoring, which is a Russian federal executive body created by a decree of the President of the Russian Federation in 2001, responsible for countering money laundering and terrorism financing. All activities undertaken by Rosfinmonitoring fall under the direct supervision of President of the Russian Federation Vladimir Putin.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1951-06-17",
-      "circa": false
+      "circa": false,
+      "year": 1951
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/301475",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/301475",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "M/S WIJEKAMAL ENGINEERING PVT. LTD.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "M/S WIJEKAMAL ENGINEERING PVT. LTD.",
+      "isPrimary": true
     }
   ],
-  "remarks": "*154",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/301475"
+  ],
+  "remarks": "*154",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "E-52, UDUKUMBURA",
       "city": "NELUNDENIYA",
       "country": "Sri Lanka",
-      "country_iso_code": "LK"
+      "countryIsoCode": "LK"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

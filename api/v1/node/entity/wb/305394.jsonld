@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/305394",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/305394",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "PROGRESSIVE CONSTRUCTIONS LIMITED",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "PROGRESSIVE CONSTRUCTIONS LIMITED",
+      "isPrimary": true
     }
   ],
-  "remarks": "*171",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/305394"
+  ],
+  "remarks": "*171",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "7TH FLOOR, RAGHAVA NORTH BLOCK, RAGHAVA RATNA TOWERS, CHIRAG ALI LANE, ABIDS, HYDERABAD, 500 001",
       "city": "ANDHRA PRADESH",
       "country": "India",
-      "country_iso_code": "IN"
+      "countryIsoCode": "IN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

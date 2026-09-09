@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/nz/ind-971",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/nz/ind-971",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Irina Anatolievna Yarovaya",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Irina Anatolievna Yarovaya",
+      "isPrimary": true
     }
   ],
-  "source_references": [
+  "sourceReferences": [
     {
-      "source_code": "nz",
-      "reference_number": "IND-971"
+      "@type": "SourceReference",
+      "sourceCode": "nz",
+      "referenceNumber": "IND-971",
+      "retrievedAt": "2026-09-09T16:30:44Z"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "linkedEntities": [
+
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/nz/consolidated-list/ind-971"
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/78919",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/78919",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mohammad Ahmadi Mullah Haji",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Mohammad Ahmadi Mullah Haji",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/78919"
   ],
   "remarks": "President of Central Bank (Da Afghanistan Bank) under the Taliban regime.",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1963
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

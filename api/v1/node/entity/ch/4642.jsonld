@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/4642",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/4642",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Bazanau Aliaksandr Viktaravich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Bazanau Aliaksandr Viktaravich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/4642"
   ],
   "remarks": "Deputy Director general of Beltelecom in charge of external relations and relations with the state institutions. Former Director of the Information and Analytical Center of the President's Administration which acts as one of the main sources of state propaganda, supporting and justifying the repression of the democratic opposition and of civil society.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1962-11-26",
-      "circa": false
+      "circa": false,
+      "year": 1962
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

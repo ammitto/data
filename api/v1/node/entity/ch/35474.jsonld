@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/35474",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/35474",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Son Jong Hyok",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Son Jong Hyok",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/35474"
   ],
   "remarks": "Son Jong Hyok is a KOMID official that has conducted business in Sudan on behalf of KOMID’s interests.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1980-05-20",
-      "circa": false
+      "circa": false,
+      "year": 1980
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

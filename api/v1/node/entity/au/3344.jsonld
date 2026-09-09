@@ -1,27 +1,43 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3344",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/3344",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Technolab",
+      "@type": "NameVariant",
+      "fullName": "Technolab",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Techno Lab",
+      "@type": "NameVariant",
+      "fullName": "Techno Lab",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Registration number: 6000845 Nabatieh, Lebanon.; Listing: Listed on: 17 Aug. 2017 (Relisted on 3 Aug. 2020 and 2 Aug. 2023)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3344"
+  ],
+  "remarks": "Registration number: 6000845 Nabatieh, Lebanon.; Listing: Listed on: 17 Aug. 2017 (Relisted on 3 Aug. 2020 and 2 Aug. 2023)",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Trabolsi Building, 2nd Floor, Main Road, Deir El Zahrani, Nabatieh, Lebanon",
       "country": "Lebanon"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

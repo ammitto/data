@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/nz/ind-63",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/nz/ind-63",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Anatoly Anatolyevich Seryshev",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Anatoly Anatolyevich Seryshev",
+      "isPrimary": true
     }
   ],
-  "source_references": [
+  "sourceReferences": [
     {
-      "source_code": "nz",
-      "reference_number": "IND-63"
+      "@type": "SourceReference",
+      "sourceCode": "nz",
+      "referenceNumber": "IND-63",
+      "retrievedAt": "2026-09-09T16:30:44Z"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "linkedEntities": [
+
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/nz/consolidated-list/ind-63"
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

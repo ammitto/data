@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/845602",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/845602",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "VELVETSKY NINE LTD.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "VELVETSKY NINE LTD.",
+      "isPrimary": true
     }
   ],
-  "remarks": "(Reg. No. 1998/017039/07)*658",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/845602"
+  ],
+  "remarks": "(Reg. No. 1998/017039/07)*658",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "STEEL ROAD, PEACEHAVEN, VEREENIGING, 1939",
       "city": "GAUTENG",
       "country": "South Africa",
-      "country_iso_code": "ZA"
+      "countryIsoCode": "ZA"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

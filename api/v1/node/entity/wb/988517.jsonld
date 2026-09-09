@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/988517",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/988517",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "DARCHEVILLE CONSTRUCTION EQUIPMENT SALES LTD.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "DARCHEVILLE CONSTRUCTION EQUIPMENT SALES LTD.",
+      "isPrimary": true
     }
   ],
-  "remarks": "*695",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/988517"
+  ],
+  "remarks": "*695",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "SAN SOUCI, CASTRIES ST. LUCIA. BONNE TERRE, P.O. BOX 1865",
       "city": "GRIS ISLET",
       "country": "St. Lucia",
-      "country_iso_code": "LC"
+      "countryIsoCode": "LC"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

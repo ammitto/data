@@ -1,32 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7962",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/7962",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Vostochnaya Stevedoring Company LLC",
+      "@type": "NameVariant",
+      "fullName": "Vostochnaya Stevedoring Company LLC",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "VSC",
+      "@type": "NameVariant",
+      "fullName": "VSC",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Limited Liability Company Eastern Stevedoring Company",
+      "@type": "NameVariant",
+      "fullName": "Limited Liability Company Eastern Stevedoring Company",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "http://www.vscport.ru; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 5) Instrument 2024",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7962"
+  ],
+  "remarks": "http://www.vscport.ru; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 5) Instrument 2024",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "14а, ul. Vnutriportovaya, Nakhodka, 692941, Russia",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,27 +1,43 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7476",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/7476",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "AO NII-Vektor ",
+      "@type": "NameVariant",
+      "fullName": "AO NII-Vektor ",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Joint Stock Company Scientific-Research Institute \"Vektor\" ",
+      "@type": "NameVariant",
+      "fullName": "Joint Stock Company Scientific-Research Institute \"Vektor\" ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Website: https://nii-vektor.ru/ ; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 2) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7476"
+  ],
+  "remarks": "Website: https://nii-vektor.ru/ ; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 2) Instrument 2023",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "14 St. Academician Pavlova, Saint Petersburg, Russia ",
       "country": "Russia "
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

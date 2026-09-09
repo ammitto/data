@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/6964",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/6964",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Shamu Webster Kotiwani",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Shamu Webster Kotiwani",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/6964"
   ],
   "remarks": "ZANU-PF Member of the Government involved activities interfering with the freedom of the press in 2009.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1945-06-06",
-      "circa": false
+      "circa": false,
+      "year": 1945
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

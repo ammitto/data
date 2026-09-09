@@ -1,5 +1,5 @@
 {
-  "@context": "https://www.ammitto.org/ontology/context.jsonld",
+  "@context": "https://ammitto.org/api/v1/context.jsonld",
   "@graph": [
     {
       "@id": "https://www.ammitto.org/ontology/Entity",
@@ -217,7 +217,11 @@
       "comment": "Birth date and place information",
       "properties": [
         "https://www.ammitto.org/ontology/date",
+        "https://www.ammitto.org/ontology/dateRangeFrom",
+        "https://www.ammitto.org/ontology/dateRangeTo",
         "https://www.ammitto.org/ontology/year",
+        "https://www.ammitto.org/ontology/yearRangeFrom",
+        "https://www.ammitto.org/ontology/yearRangeTo",
         "https://www.ammitto.org/ontology/place",
         "https://www.ammitto.org/ontology/country",
         "https://www.ammitto.org/ontology/circa"

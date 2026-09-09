@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/12957",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/12957",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Qadhafi Aisha Muammar Muhammed Abu Minyar",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Qadhafi Aisha Muammar Muhammed Abu Minyar",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/12957"
   ],
   "remarks": "Daughter of Muammar Qadhafi. Closeness of association with regime. Travelled in violation of paragraph 15 of resolution 1970, as described by the Panel of Experts on Libya in its 2013 Interim Report.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1978-01-01",
-      "circa": false
+      "circa": false,
+      "year": 1978
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

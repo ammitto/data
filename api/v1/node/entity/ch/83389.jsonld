@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/83389",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/83389",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Muhammad Jibril Abdul Rahman",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Muhammad Jibril Abdul Rahman",
+      "isPrimary": true
     }
   ],
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/83389"
+  ],
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1984-05-28",
-      "circa": false
+      "circa": false,
+      "year": 1984
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

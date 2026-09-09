@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/43400",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/43400",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ryzhenkin Leonid Kronidovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Ryzhenkin Leonid Kronidovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/43400"
   ],
   "remarks": "Former Deputy General Director for infrastructure projects at Stroigazmontazh (SGM) who since 2015 had supervised the construction of the bridge over the Kerch Strait (including the railway part of the bridge) connecting Russia and the illegally annexed Crimean peninsula. Therefore, he supports the consolidation of the illegally annexed Crimean peninsula into the Russian Federation, which in turn further undermines the territorial integrity, sovereignty and independence of Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1967-11-10",
-      "circa": false
+      "circa": false,
+      "year": 1967
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/58456",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/58456",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Balanova Svetlana Evgenievna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Balanova Svetlana Evgenievna",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/58456"
   ],
   "remarks": "Svetlana Balanova is the head of National Media Group (NMG) – a media holding – which is the founder of 28 media enterprises in Russia, including Channel One, Channel 5, REN TV and STS, 78.ru, the national newspaper Izvestia, Delovoy Peterburg and others. She was included in the list of ‘1500 warmongers’ compiled by the Free Russia Forum. Media controlled by NMG is actively spreading propaganda and disinformation related to Russia’s war of aggression against Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1970-10-05",
-      "circa": false
+      "circa": false,
+      "year": 1970
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

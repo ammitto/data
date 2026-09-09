@@ -1,30 +1,47 @@
 {
-  "id": "https://www.ammitto.org/entity/au/139",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/139",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Abdul Ghafar Shinwari",
+      "@type": "NameVariant",
+      "fullName": "Abdul Ghafar Shinwari",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "عبدالغفار شینواری",
+      "@type": "NameVariant",
+      "fullName": "عبدالغفار شینواری",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "TAi.139 Title: Haji. Designation: Third Secretary, Taliban Consulate General, Karachi. Afghan passport no. D 000763 issued 9 Jan 1997. Believed to be in Afghanistan/Pakistan border area. Belongs to Safi tribe. Review pursuant to Security Council resolution 1822 (2008) was concluded on 29 Jul. 2010.; Listing: Listed on 25 January 2001 (amended 25 July 2006, 21 Sep 2007, 29 Nov. 2011)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/139"
   ],
-  "birth_info": [
+  "remarks": "TAi.139 Title: Haji. Designation: Third Secretary, Taliban Consulate General, Karachi. Afghan passport no. D 000763 issued 9 Jan 1997. Believed to be in Afghanistan/Pakistan border area. Belongs to Safi tribe. Review pursuant to Security Council resolution 1822 (2008) was concluded on 29 Jul. 2010.; Listing: Listed on 25 January 2001 (amended 25 July 2006, 21 Sep 2007, 29 Nov. 2011)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1965,
       "country": "Nangarhar Province"
     }
   ],
   "nationalities": [
     "Afghanistan"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/197466",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/197466",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "CONSTRUTORA RAMOS E FRANÇA LTDA",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "CONSTRUTORA RAMOS E FRANÇA LTDA",
+      "isPrimary": true
     }
   ],
-  "remarks": "*130",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/197466"
+  ],
+  "remarks": "*130",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "AV. GENERAL RIVAS S/N",
       "city": "SANTA RITA, MARANHÃO",
       "country": "Brazil",
-      "country_iso_code": "BR"
+      "countryIsoCode": "BR"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

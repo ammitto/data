@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/90684",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/90684",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Baldouskaya Alena Anatolieuna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Baldouskaya Alena Anatolieuna",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/90684"
   ],
   "remarks": "Alena Baldouskaya is the Secretary of the Belarusian Central Election Commission. As Secretary, Alena Baldouskaya is responsible for the organisation of the 2025 presidential election, which was neither free, nor fair. The election violated basic laws and international standards of fairness and transparency, and the results were falsified.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1980-04-14",
-      "circa": false
+      "circa": false,
+      "year": 1980
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

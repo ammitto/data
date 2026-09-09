@@ -1,22 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/475240",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/wb/475240",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MR. SISIRA KUMARA KUMARAGAMAGE DON",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "MR. SISIRA KUMARA KUMARAGAMAGE DON",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/475240"
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "22, VERNA AV MITCHAM",
       "city": "VIC 3132",
       "country": "Australia",
-      "country_iso_code": "AU"
+      "countryIsoCode": "AU"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

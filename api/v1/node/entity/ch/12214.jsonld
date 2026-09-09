@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/12214",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/12214",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Saleh Al-Rashed Dr.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Saleh Al-Rashed Dr.",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/12214"
   ],
   "remarks": "Former Minister of Education under the former al-Assad regime and current Head of the International Relations Department at the Faculty of International Relations and Diplomacy at Al-Sham Private University. Associated with the former al-Assad regime and its violent repression of the civilian population.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1964-08-01",
-      "circa": false
+      "circa": false,
+      "year": 1964
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

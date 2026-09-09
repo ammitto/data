@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/6472",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/6472",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Made Joseph Mtakwese",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Made Joseph Mtakwese",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/6472"
   ],
   "remarks": "ZANU-PF Member of the Government.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1954-11-21",
-      "circa": false
+      "circa": false,
+      "year": 1954
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

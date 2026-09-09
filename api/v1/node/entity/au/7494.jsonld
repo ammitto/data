@@ -1,39 +1,58 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7494",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7494",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Abulfazl SALEHNEJAD ",
+      "@type": "NameVariant",
+      "fullName": "Abulfazl SALEHNEJAD ",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Abulfazl SALEH-NEJAD",
+      "@type": "NameVariant",
+      "fullName": "Abulfazl SALEH-NEJAD",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abolfazl SALEHNEZHAD",
+      "@type": "NameVariant",
+      "fullName": "Abolfazl SALEHNEZHAD",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abolfazl Ali SALEHNEZHAD",
+      "@type": "NameVariant",
+      "fullName": "Abolfazl Ali SALEHNEZHAD",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Member of the Board of Directors of Paravar Pars Company ; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 3) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7494"
   ],
-  "birth_info": [
+  "remarks": "Member of the Board of Directors of Paravar Pars Company ; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 3) Instrument 2023",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1960
     }
   ],
   "nationalities": [
     "Iran"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

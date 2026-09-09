@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/81011",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/81011",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mounir El Motassadeq",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Mounir El Motassadeq",
+      "isPrimary": true
     }
   ],
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/81011"
+  ],
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1974-04-03",
-      "circa": false
+      "circa": false,
+      "year": 1974
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

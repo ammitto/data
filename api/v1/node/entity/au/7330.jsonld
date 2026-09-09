@@ -1,34 +1,52 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7330",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7330",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Sai Lone Saing",
+      "@type": "NameVariant",
+      "fullName": "Sai Lone Saing",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Sai Long Hseng",
+      "@type": "NameVariant",
+      "fullName": "Sai Long Hseng",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Sai Lon Hsai",
+      "@type": "NameVariant",
+      "fullName": "Sai Lon Hsai",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Political party: Union Solidarity and Development Party; Member of the State Administration Council; Listing: Autonomous Sanctions (Designated and Declared Persons—Myanmar) Amendment Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7330"
   ],
-  "birth_info": [
+  "remarks": "Political party: Union Solidarity and Development Party; Member of the State Administration Council; Listing: Autonomous Sanctions (Designated and Declared Persons—Myanmar) Amendment Instrument 2023",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1947
     }
   ],
   "nationalities": [
     "Myanmar"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/56294",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/56294",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ishchenko Alexander Valentinovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Ishchenko Alexander Valentinovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/56294"
   ],
   "remarks": "Alexander Ishchenko is the Chairman of the Legislative Assembly of the Rostov Region and Secretary of the Rostov Regional Branch of the Kremlin-aligned ruling party “United Russia” (both since 2016). He is also a member of the General Council of the United Russia party.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1970-03-09",
-      "circa": false
+      "circa": false,
+      "year": 1970
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

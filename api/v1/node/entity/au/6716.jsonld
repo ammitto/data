@@ -1,42 +1,61 @@
 {
-  "id": "https://www.ammitto.org/entity/au/6716",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/6716",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Hurras al-Din",
+      "@type": "NameVariant",
+      "fullName": "Hurras al-Din",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Al-Qa’ida in Syria",
+      "@type": "NameVariant",
+      "fullName": "Al-Qa’ida in Syria",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Guardians of Religion",
+      "@type": "NameVariant",
+      "fullName": "Guardians of Religion",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Tanzim Hurras ad-Din",
+      "@type": "NameVariant",
+      "fullName": "Tanzim Hurras ad-Din",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Tandhim Hurras al-Deen",
+      "@type": "NameVariant",
+      "fullName": "Tandhim Hurras al-Deen",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Listing: Instrument of first listing: Charter of the United Nations (Listed Entities) Amendment (No. 1) Instrument 2022",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/6716"
+  ],
+  "remarks": "Listing: Instrument of first listing: Charter of the United Nations (Listed Entities) Amendment (No. 1) Instrument 2022",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Syria",
       "country": "Syria"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

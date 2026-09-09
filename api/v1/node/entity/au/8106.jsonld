@@ -1,37 +1,55 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8106",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/8106",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Urals Plant of Transportation Machinery Joint Stock Company",
+      "@type": "NameVariant",
+      "fullName": "Urals Plant of Transportation Machinery Joint Stock Company",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Uraltransmash JSC",
+      "@type": "NameVariant",
+      "fullName": "Uraltransmash JSC",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Aktsionernoe Obshchestvo Uralskiy Zavod Transportnogo Mashinostroeniya",
+      "@type": "NameVariant",
+      "fullName": "Aktsionernoe Obshchestvo Uralskiy Zavod Transportnogo Mashinostroeniya",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ural Transport Engineering Plant JSC",
+      "@type": "NameVariant",
+      "fullName": "Ural Transport Engineering Plant JSC",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "http://www.uraltransmash.com; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8106"
+  ],
+  "remarks": "http://www.uraltransmash.com; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "29 Frontovykh Brigad St, Ekaterinburg, Sverdlovsk Region, 620017 Russia",
       "country": "620017 Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,53 +1,77 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/drc0012",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/drc0012",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Shadari Mulanda",
-      "first_name": "Emmanuel",
+      "@type": "NameVariant",
+      "fullName": "Shadari Mulanda",
+      "firstName": "Emmanuel",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Shadari",
-      "first_name": "Emmanuel",
+      "@type": "NameVariant",
+      "fullName": "Shadari",
+      "firstName": "Emmanuel",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Shadari",
-      "first_name": "Ramazani",
+      "@type": "NameVariant",
+      "fullName": "Shadari",
+      "firstName": "Ramazani",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Shadari Mulanda",
-      "first_name": "Ramazani",
+      "@type": "NameVariant",
+      "fullName": "Shadari Mulanda",
+      "firstName": "Ramazani",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Shadary",
-      "first_name": "Emmanuel",
+      "@type": "NameVariant",
+      "fullName": "Shadary",
+      "firstName": "Emmanuel",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Shadary",
-      "first_name": "Ramazani",
+      "@type": "NameVariant",
+      "fullName": "Shadary",
+      "firstName": "Ramazani",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/drc0012"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "state": "Kinhasa",
       "country": "Congo (Democratic Republic)"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

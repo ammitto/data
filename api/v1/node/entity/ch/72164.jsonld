@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/72164",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/72164",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Reznik Alexander Evgenievich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Reznik Alexander Evgenievich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/72164"
   ],
   "remarks": "Alexander Reznik is the General Director of JSC Petrovsky Electromechanical Plant “Molot”, which is a military industry company producing various components and instruments for weapons used in the war of aggression against Ukraine. JSC Petrovsky Electromechanical Plant “Molot” is a subsidiary of JSC Concern Granit-Electron, which is part of JSC Tactical Missiles Corporation.",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1976
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

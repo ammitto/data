@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/tr/65",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/tr/65",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "CHU HYO’K",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "CHU HYO’K",
+      "isPrimary": true
     }
   ],
-  "source_references": [
+  "sourceReferences": [
     {
-      "source_code": "tr",
-      "reference_number": "65"
+      "@type": "SourceReference",
+      "sourceCode": "tr",
+      "referenceNumber": "65",
+      "retrievedAt": "2026-09-09T16:30:41Z"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "linkedEntities": [
+
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/tr/consolidated-list/65"
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

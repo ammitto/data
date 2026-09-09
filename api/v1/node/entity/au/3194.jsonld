@@ -1,106 +1,143 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3194",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/3194",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ali Kony",
+      "@type": "NameVariant",
+      "fullName": "Ali Kony",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Ali Lalobo",
+      "@type": "NameVariant",
+      "fullName": "Ali Lalobo",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ali Mohammad Labolo",
+      "@type": "NameVariant",
+      "fullName": "Ali Mohammad Labolo",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ali Mohammed",
+      "@type": "NameVariant",
+      "fullName": "Ali Mohammed",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ali Mohammed Lalobo",
+      "@type": "NameVariant",
+      "fullName": "Ali Mohammed Lalobo",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ali Mohammed Kony",
+      "@type": "NameVariant",
+      "fullName": "Ali Mohammed Kony",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ali Mohammed Labola",
+      "@type": "NameVariant",
+      "fullName": "Ali Mohammed Labola",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ali Mohammed Salongo",
+      "@type": "NameVariant",
+      "fullName": "Ali Mohammed Salongo",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ali Bashir Lalobo",
+      "@type": "NameVariant",
+      "fullName": "Ali Bashir Lalobo",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ali Lalobo Bashir",
+      "@type": "NameVariant",
+      "fullName": "Ali Lalobo Bashir",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Otim Kapere",
+      "@type": "NameVariant",
+      "fullName": "Otim Kapere",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Bashir",
+      "@type": "NameVariant",
+      "fullName": "Bashir",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Caesar",
+      "@type": "NameVariant",
+      "fullName": "Caesar",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "One-P",
+      "@type": "NameVariant",
+      "fullName": "One-P",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "1-P",
+      "@type": "NameVariant",
+      "fullName": "1-P",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "CFi.010 Ali Kony is a Deputy in the Lord's Resistance Army (LRA) (CFe.002), a designated entity and the son of LRA leader Joseph Kony (CFi.009), a designated individual. Ali was incorporated into the LRA's leadership hierarchy in 2010.  He is part of a group of senior LRA officers who are based with Joseph Kony.; Listing: Listed on: 23 Aug. 2016",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3194"
   ],
-  "birth_info": [
+  "remarks": "CFi.010 Ali Kony is a Deputy in the Lord's Resistance Army (LRA) (CFe.002), a designated entity and the son of LRA leader Joseph Kony (CFi.009), a designated individual. Ali was incorporated into the LRA's leadership hierarchy in 2010.  He is part of a group of senior LRA officers who are based with Joseph Kony.; Listing: Listed on: 23 Aug. 2016",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1994
     },
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1993
     },
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1995
     },
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1992
     }
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Kafia Kingi, (a territory on the border of Sudan and South Sudan whose final status has yet to be determined)",
       "country": "(a territory on the border of Sudan and South Sudan whose final status has yet to be determined)"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

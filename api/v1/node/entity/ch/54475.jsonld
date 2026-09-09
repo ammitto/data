@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/54475",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/54475",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Aleksin Vital Aliakseevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Aleksin Vital Aliakseevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/54475"
   ],
   "remarks": "Vital Aleksin is the son of Aliaksei Aleksin, a prominent Belarusian businessman. In 2021 he became the co-owner of companies owned by or associated with his father, including Energo-Oil, Belneftgaz and Grantlo (formerly Energo-Oil-Invest). Those companies were given preferential treatment based on presidential decrees signed by Aliaksandr Lukashenka: Inter Tobacco was given exclusive privileges to import tobacco products to Belarus, while Belneftgaz was appointed national transit monitoring operator. He is therefore benefitting from the Lukashenka regime.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1997-08-29",
-      "circa": false
+      "circa": false,
+      "year": 1997
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,37 +1,56 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/dpr0177",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/dpr0177",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "MUNITIONS INDUSTRY DEPARTMENT",
+      "@type": "NameVariant",
+      "fullName": "MUNITIONS INDUSTRY DEPARTMENT",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Machine Industry Department",
+      "@type": "NameVariant",
+      "fullName": "Machine Industry Department",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "MID",
+      "@type": "NameVariant",
+      "fullName": "MID",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Military Supplies Industry Department",
+      "@type": "NameVariant",
+      "fullName": "Military Supplies Industry Department",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Munitions Industry Department is involved in key aspects of the DPRK's missile program. MID is responsible for overseeing the development of the DPRK's ballistic missiles, including the Taepo Dong-2.The MID oversees the DPRK's weapons production and R&D programs, including the DPRK's ballistic missile program. The Second Economic Committee and the Second Academy of Natural Sciences – also designated in August 2010 – are subordinate to the MID. The MID in recent years has worked to develop the KN08 road-mobile ICBM. The MID oversees the DPRK’s nuclear program. The Nuclear Weapons Institute is subordinate to the MID.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/dpr0177"
+  ],
+  "remarks": "The Munitions Industry Department is involved in key aspects of the DPRK's missile program. MID is responsible for overseeing the development of the DPRK's ballistic missiles, including the Taepo Dong-2.The MID oversees the DPRK's weapons production and R&D programs, including the DPRK's ballistic missile program. The Second Economic Committee and the Second Academy of Natural Sciences – also designated in August 2010 – are subordinate to the MID. The MID in recent years has worked to develop the KN08 road-mobile ICBM. The MID oversees the DPRK’s nuclear program. The Nuclear Weapons Institute is subordinate to the MID.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "state": "Pyongyang",
       "country": "North Korea"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

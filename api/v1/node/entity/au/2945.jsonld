@@ -1,32 +1,53 @@
 {
-  "id": "https://www.ammitto.org/entity/au/2945",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/2945",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "SAIDULLAH JAN",
+      "@type": "NameVariant",
+      "fullName": "SAIDULLAH JAN",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "سعيدالله جان",
+      "@type": "NameVariant",
+      "fullName": "سعيدالله جان",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abid Khan",
+      "@type": "NameVariant",
+      "fullName": "Abid Khan",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "TAi.170 Senior member of the Haqqani Network (HQN) (TE.H.12.12.) as of 2013. Provided critical facilitation support to drivers and vehicles transporting HQN ammunition. Also involved in the group’s recruiting\nefforts as of 2011. Father’s name is Bakhta Jan.; Listing: Listed on 31 July 2014",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/2945"
   ],
-  "birth_info": [
+  "remarks": "TAi.170 Senior member of the Haqqani Network (HQN) (TE.H.12.12.) as of 2013. Provided critical facilitation support to drivers and vehicles transporting HQN ammunition. Also involved in the group’s recruiting\nefforts as of 2011. Father’s name is Bakhta Jan.; Listing: Listed on 31 July 2014",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1982,
       "country": "Giyan District"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

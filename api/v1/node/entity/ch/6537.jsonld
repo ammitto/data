@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/6537",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/6537",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mathema Cain Ginyilitshe Ndabazekhaya",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Mathema Cain Ginyilitshe Ndabazekhaya",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/6537"
   ],
   "remarks": "Provincial Governor associated with ZANU-PF faction of Government.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1948-01-28",
-      "circa": false
+      "circa": false,
+      "year": 1948
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

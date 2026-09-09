@@ -1,47 +1,67 @@
 {
-  "id": "https://www.ammitto.org/entity/au/2206",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/2206",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Colonel Amid Husain AL KUNI",
+      "@type": "NameVariant",
+      "fullName": "Colonel Amid Husain AL KUNI",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Amid Husain AL KUNI",
+      "@type": "NameVariant",
+      "fullName": "Amid Husain AL KUNI",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Amid Husain AL-KUNI",
+      "@type": "NameVariant",
+      "fullName": "Amid Husain AL-KUNI",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Amid Husain KUNI",
+      "@type": "NameVariant",
+      "fullName": "Amid Husain KUNI",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Amid Hussain AL KUNI",
+      "@type": "NameVariant",
+      "fullName": "Amid Hussain AL KUNI",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Amid Husain ALKUNI",
+      "@type": "NameVariant",
+      "fullName": "Amid Husain ALKUNI",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Former Governor of Ghat (South Libya) and Ambassador to Niger under Qadhafi regime. Responsible for implementing regime’s violent and repressive policies through recruitment of mercenaries, in conjunction with Muammar Qadhafi’s most trusted aides.\nDesignated for a travel ban by UNSC Resolution 1973 (2011); Listing: Designated under the Autonomous Sanctions Regulations 2011 on 2 March 2012. Formerly listed on the RBA Consolidated List as 2011LBY0017. \nInstrument of first designation and declaration: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Libya) List 2012 [F2012L00481]\nRelisting on 12 January 2024.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/2206"
+  ],
+  "remarks": "Former Governor of Ghat (South Libya) and Ambassador to Niger under Qadhafi regime. Responsible for implementing regime’s violent and repressive policies through recruitment of mercenaries, in conjunction with Muammar Qadhafi’s most trusted aides.\nDesignated for a travel ban by UNSC Resolution 1973 (2011); Listing: Designated under the Autonomous Sanctions Regulations 2011 on 2 March 2012. Formerly listed on the RBA Consolidated List as 2011LBY0017. \nInstrument of first designation and declaration: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Libya) List 2012 [F2012L00481]\nRelisting on 12 January 2024.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "South Libya, Libya",
       "country": "Libya"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,66 +1,87 @@
 {
-  "id": "https://www.ammitto.org/entity/au/1118",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/1118",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Arif Qasmani",
+      "@type": "NameVariant",
+      "fullName": "Arif Qasmani",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Muhammad Arif Qasmani",
+      "@type": "NameVariant",
+      "fullName": "Muhammad Arif Qasmani",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Muhammad ‘Arif Qasmani",
+      "@type": "NameVariant",
+      "fullName": "Muhammad ‘Arif Qasmani",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Mohammad Arif Qasmani",
+      "@type": "NameVariant",
+      "fullName": "Mohammad Arif Qasmani",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Arif Umer",
+      "@type": "NameVariant",
+      "fullName": "Arif Umer",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Qasmani Baba",
+      "@type": "NameVariant",
+      "fullName": "Qasmani Baba",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Memon Baba",
+      "@type": "NameVariant",
+      "fullName": "Memon Baba",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Baba Ji",
+      "@type": "NameVariant",
+      "fullName": "Baba Ji",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Associated with Lashkar-e-Tayyiba (QDe.118) and Al-Qaida (QDe.004). In detention as at June 2009. Listed 29 June 2009.  Review pursuant to Security Council resolution 2253 (2015) was concluded on 21 Feb. 2019. Review pursuant to Security Council resolution 2610 (2021) was concluded on 8 November 2022.; Listing: Listed on 29 Jun. 2009 (amended on 1 May 2019)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/1118"
   ],
-  "birth_info": [
+  "remarks": "Associated with Lashkar-e-Tayyiba (QDe.118) and Al-Qaida (QDe.004). In detention as at June 2009. Listed 29 June 2009.  Review pursuant to Security Council resolution 2253 (2015) was concluded on 21 Feb. 2019. Review pursuant to Security Council resolution 2610 (2021) was concluded on 8 November 2022.; Listing: Listed on 29 Jun. 2009 (amended on 1 May 2019)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1944,
       "country": "Pakistan"
     }
   ],
   "nationalities": [
     "Pakistan"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "House Number 136, KDA Scheme No. 1, Tipu Sultan Road, Karachi, Pakistan",
       "country": "Pakistan"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

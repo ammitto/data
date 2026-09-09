@@ -1,40 +1,59 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8030",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/8030",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Viktor Alekseevich ZUBKOV",
+      "@type": "NameVariant",
+      "fullName": "Viktor Alekseevich ZUBKOV",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Viktor Alexeevich ZUBKOV",
+      "@type": "NameVariant",
+      "fullName": "Viktor Alexeevich ZUBKOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Viktor Alekseyevich ZUBKOV",
+      "@type": "NameVariant",
+      "fullName": "Viktor Alekseyevich ZUBKOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Viktor Oleksiiovych ZUBKOV",
+      "@type": "NameVariant",
+      "fullName": "Viktor Oleksiiovych ZUBKOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Former First Deputy Prime Minister of the Russian Federation and current Chairman of the Gazprom Board of Directors; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8030"
   ],
-  "birth_info": [
+  "remarks": "Former First Deputy Prime Minister of the Russian Federation and current Chairman of the Gazprom Board of Directors; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1941,
       "country": "Arbat"
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

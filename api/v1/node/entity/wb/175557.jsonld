@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/175557",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/175557",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "INTREPRINDEREA MIXTA MOLDO-IRLANDEZA \"ROMANY GAZ GROUP\" S.R.L.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "INTREPRINDEREA MIXTA MOLDO-IRLANDEZA \"ROMANY GAZ GROUP\" S.R.L.",
+      "isPrimary": true
     }
   ],
-  "remarks": "*69",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/175557"
+  ],
+  "remarks": "*69",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "STR. MUNCESTI, 801, CHISINAU MD-2029",
       "country": "Moldova",
-      "country_iso_code": "MD"
+      "countryIsoCode": "MD"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

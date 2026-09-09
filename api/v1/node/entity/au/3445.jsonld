@@ -1,34 +1,52 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3445",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/3445",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ri U'n So'ng",
+      "@type": "NameVariant",
+      "fullName": "Ri U'n So'ng",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Ri Eun Song",
+      "@type": "NameVariant",
+      "fullName": "Ri Eun Song",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ri Un Song",
+      "@type": "NameVariant",
+      "fullName": "Ri Un Song",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "KPi.078 Former overseas Korea Unification Development Bank representative. Gender: male.; Listing: Listed on: 22 December 2017 (amended on 29 June 2023)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3445"
   ],
-  "birth_info": [
+  "remarks": "KPi.078 Former overseas Korea Unification Development Bank representative. Gender: male.; Listing: Listed on: 22 December 2017 (amended on 29 June 2023)",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1969
     }
   ],
   "nationalities": [
     "Democratic People's Republic of Korea (North Korea)"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

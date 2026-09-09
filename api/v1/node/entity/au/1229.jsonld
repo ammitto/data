@@ -1,36 +1,51 @@
 {
-  "id": "https://www.ammitto.org/entity/au/1229",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/1229",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "FELICIEN NSANZUBUKIRE",
+      "@type": "NameVariant",
+      "fullName": "FELICIEN NSANZUBUKIRE",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Fred Irakeza",
+      "@type": "NameVariant",
+      "fullName": "Fred Irakeza",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "CDi.023 Designation: a) FDLR-FOCA Subsector Commander b) FDLR-FOCA Colonel.; Listing: Listed by 1533 Committee on 1 December 2010 (amended on 13 Oct. 2016)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/1229"
   ],
-  "birth_info": [
+  "remarks": "CDi.023 Designation: a) FDLR-FOCA Subsector Commander b) FDLR-FOCA Colonel.; Listing: Listed by 1533 Committee on 1 December 2010 (amended on 13 Oct. 2016)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1967,
       "country": "a) Murama"
     }
   ],
   "nationalities": [
     "Rwanda"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "South Kivu Province, Democratic Republic of the Congo (as of June 2016)",
       "country": "Democratic Republic of the Congo (as of June 2016)"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,21 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/cn/1-lockheed-martin-aeronautics",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/cn/1-lockheed-martin-aeronautics",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Lockheed Martin Aeronautics",
+      "@type": "NameVariant",
+      "fullName": "Lockheed Martin Aeronautics",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "洛克希德·马丁航空公司",
+      "@type": "NameVariant",
+      "fullName": "洛克希德·马丁航空公司",
       "script": "Hani",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "List: cn/anti-sanction-list",
-  "sanction_entry_ids": [
-    "https://www.ammitto.org/entry/cn/unknown/1-lockheed-martin-aeronautics"
+  "sourceReferences": [
+
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/cn/anti-sanction-list/1-lockheed-martin-aeronautics"
+  ],
+  "remarks": "List: cn/anti-sanction-list",
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

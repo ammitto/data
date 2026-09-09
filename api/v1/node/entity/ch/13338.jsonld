@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/13338",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/13338",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Hajmoham-Madi Aziz",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Hajmoham-Madi Aziz",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/13338"
   ],
   "remarks": "Attorney in Tehran since 2020. Former judge at branch 71 of the Tehran Provincial Criminal Court. Working for the judiciary since 1971, he has been involved in several trials of demonstrators, including that of Abdol-Reza Ghanbari, a teacher arrested in January 2010 and sentenced to death for his political activities. He has a track record of human rights violations, including the issuing of inhumane sentences, death sentences and prison sentences for political prisoners.",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1948
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

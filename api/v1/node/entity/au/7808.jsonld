@@ -1,30 +1,47 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7808",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7808",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Andrei Andreevich ZADACHIN",
+      "@type": "NameVariant",
+      "fullName": "Andrei Andreevich ZADACHIN",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Andrey Andreevich ZADACHIN",
+      "@type": "NameVariant",
+      "fullName": "Andrey Andreevich ZADACHIN",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Special Investigator to the Chief Investigative Directorate of the Investigative Committee of the Russian Federation; Listing: Instrument of first designation and declaration: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 11) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7808"
   ],
-  "birth_info": [
+  "remarks": "Special Investigator to the Chief Investigative Directorate of the Investigative Committee of the Russian Federation; Listing: Instrument of first designation and declaration: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 11) Instrument 2023",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1990,
       "country": "Russia"
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

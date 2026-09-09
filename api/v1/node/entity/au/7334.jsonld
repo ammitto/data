@@ -1,37 +1,55 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7334",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/7334",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Myanmar Economic Holdings Public Company Ltd",
+      "@type": "NameVariant",
+      "fullName": "Myanmar Economic Holdings Public Company Ltd",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Myanma Economic Holdings Public Company Ltd",
+      "@type": "NameVariant",
+      "fullName": "Myanma Economic Holdings Public Company Ltd",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Myanma Economic Holdings Ltd",
+      "@type": "NameVariant",
+      "fullName": "Myanma Economic Holdings Ltd",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Myanmar Economic Holdings Ltd",
+      "@type": "NameVariant",
+      "fullName": "Myanmar Economic Holdings Ltd",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Registration Number 156387282; Listing: Autonomous Sanctions (Designated and Declared Persons—Myanmar) Amendment Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7334"
+  ],
+  "remarks": "Registration Number 156387282; Listing: Autonomous Sanctions (Designated and Declared Persons—Myanmar) Amendment Instrument 2023",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "189/191 Mahaban Doola Road Corner of 50th Street Yangon",
       "country": "189/191 Mahaban Doola Road Corner of 50th Street Yangon"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/50828",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/50828",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Faizullin Irek Envarovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Faizullin Irek Envarovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/50828"
   ],
   "remarks": "Mr Irek Faizullin is Minister of Construction and Housing of Russia and member of the Board of Directors of the Russian Railways, appointed to this position by the Government of the Russian Federation.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1962-12-08",
-      "circa": false
+      "circa": false,
+      "year": 1962
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

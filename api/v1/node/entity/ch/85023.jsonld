@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/85023",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/85023",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Bregan Yauheni Anatolevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Bregan Yauheni Anatolevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/85023"
   ],
   "remarks": "Yauheni Bregan is a Belarusian judge of the Brest Regional Court. He was appointed by Aliaksandr Lukashenka. He was formerly a judge of the Moskovsky District Court of Brest and judge of the city of Baranovichi in the Brest region. He issued sentences against a large number of citizens of Belarus accused, amongst other things, of having taken part in the protests against the Belarusian regime in August 2020.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1982-03-26",
-      "circa": false
+      "circa": false,
+      "year": 1982
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,58 +1,83 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/aqd0091",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/aqd0091",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "AL-KAWARI",
-      "first_name": "ABD",
+      "@type": "NameVariant",
+      "fullName": "AL-KAWARI",
+      "firstName": "ABD",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "al-Kawari",
-      "first_name": "Abd-al-Latif",
+      "@type": "NameVariant",
+      "fullName": "al-Kawari",
+      "firstName": "Abd-al-Latif",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "al-Kawari",
-      "first_name": "Abd-al-Latif",
+      "@type": "NameVariant",
+      "fullName": "al-Kawari",
+      "firstName": "Abd-al-Latif",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "al-Kawari",
-      "first_name": "Abu",
+      "@type": "NameVariant",
+      "fullName": "al-Kawari",
+      "firstName": "Abu",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "al-Kawwari",
-      "first_name": "Abd-al-Latif",
+      "@type": "NameVariant",
+      "fullName": "al-Kawwari",
+      "firstName": "Abd-al-Latif",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "al-Kuwari",
-      "first_name": "Abd-al-Latif",
+      "@type": "NameVariant",
+      "fullName": "al-Kuwari",
+      "firstName": "Abd-al-Latif",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "عبداللطیف بن عبدلله صالح محمد الكواري",
+      "@type": "NameVariant",
+      "fullName": "عبداللطیف بن عبدلله صالح محمد الكواري",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Qatar-based facilitator who provides financial services to, or in support of, Al-Qaida (QDe.004). Review pursuant to Security Council resolution 2253 (2015) was concluded on 21 Feb. 2019. INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/notice/search/un/5896805",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/aqd0091"
+  ],
+  "remarks": "Qatar-based facilitator who provides financial services to, or in support of, Al-Qaida (QDe.004). Review pursuant to Security Council resolution 2253 (2015) was concluded on 21 Feb. 2019. INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/notice/search/un/5896805",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "state": "Al Kharaitiyat",
       "country": "Qatar"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,37 +1,55 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7596",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/7596",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Mariyskiy Machine-Building Plant Joint Stock Company",
+      "@type": "NameVariant",
+      "fullName": "Mariyskiy Machine-Building Plant Joint Stock Company",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Mari Machine-Building Plant",
+      "@type": "NameVariant",
+      "fullName": "Mari Machine-Building Plant",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "MMZ JSC",
+      "@type": "NameVariant",
+      "fullName": "MMZ JSC",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "АО ММЗ",
+      "@type": "NameVariant",
+      "fullName": "АО ММЗ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Company identification number: 1021200757808; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 8) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7596"
+  ],
+  "remarks": "Company identification number: 1021200757808; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 8) Instrument 2023",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "15 Suvorova Street, Yoshkar-Ola, Republic of Mari-El, 424003, Russia",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

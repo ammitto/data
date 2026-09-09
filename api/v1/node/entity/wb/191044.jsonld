@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/191044",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/191044",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "SERVICIOS INDUSTRIALES EN CONSTRUCCIÓN DE METALMÉCANICA Y PETROLERAS \"SICOMETP\"",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "SERVICIOS INDUSTRIALES EN CONSTRUCCIÓN DE METALMÉCANICA Y PETROLERAS \"SICOMETP\"",
+      "isPrimary": true
     }
   ],
-  "remarks": "*64",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/191044"
+  ],
+  "remarks": "*64",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "CALLE EL CAFETAL NO. 77, ZONA BARRIO EL BAJIO KM. 6, DOBLE VIA LA GUARDIA",
       "city": "SANTA CRUZ DE LA SIERRA",
       "country": "Bolivia",
-      "country_iso_code": "BO"
+      "countryIsoCode": "BO"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

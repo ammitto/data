@@ -1,49 +1,70 @@
 {
-  "id": "https://www.ammitto.org/entity/au/2315",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/2315",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kifah MOULHEM",
+      "@type": "NameVariant",
+      "fullName": "Kifah MOULHEM",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Moulhem KIFAH",
+      "@type": "NameVariant",
+      "fullName": "Moulhem KIFAH",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Kifa MILHEM",
+      "@type": "NameVariant",
+      "fullName": "Kifa MILHEM",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Kifah AL-MILHEM",
+      "@type": "NameVariant",
+      "fullName": "Kifah AL-MILHEM",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Kifah MELHEM",
+      "@type": "NameVariant",
+      "fullName": "Kifah MELHEM",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Kifah MILHIM",
+      "@type": "NameVariant",
+      "fullName": "Kifah MILHIM",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Last known position: Head of Syrian Military Intelligence.; Listing: Designated under the Autonomous Sanctions Regulations 2011 on 2 March 2012. Instrument of first\ndesignation and\ndeclaration:\nAutonomous Sanctions (Designated Persons and Entities and\nDeclared Persons – Syria) List 2012 [F2012L00482]\nRelisted on 12 January 2024.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/2315"
   ],
-  "birth_info": [
+  "remarks": "Last known position: Head of Syrian Military Intelligence.; Listing: Designated under the Autonomous Sanctions Regulations 2011 on 2 March 2012. Instrument of first\ndesignation and\ndeclaration:\nAutonomous Sanctions (Designated Persons and Entities and\nDeclared Persons – Syria) List 2012 [F2012L00482]\nRelisted on 12 January 2024.",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1961
     }
   ],
   "nationalities": [
     "Syria"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

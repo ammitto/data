@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/80674",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/80674",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Abdul Rahman Yasin",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Abdul Rahman Yasin",
+      "isPrimary": true
     }
   ],
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/80674"
+  ],
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1960-04-10",
-      "circa": false
+      "circa": false,
+      "year": 1960
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

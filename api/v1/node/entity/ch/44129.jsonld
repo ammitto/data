@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/44129",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/44129",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kachanava Natallia Ivanauna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kachanava Natallia Ivanauna",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/44129"
   ],
   "remarks": "In her current leadership position as Chair of the Council of the Republic of the National Assembly of Belarus, she is responsible for supporting the decisions of the President in the field of domestic policy. She is also responsible for organising the fraudulent elections that took place on 9 Aug 2020. She made public statements defending the brutal crackdown of the security apparatus on peaceful demonstrators.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1960-09-25",
-      "circa": false
+      "circa": false,
+      "year": 1960
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

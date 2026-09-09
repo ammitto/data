@@ -1,40 +1,59 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7380",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7380",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Valeriy Nikolaevich FALKOV",
+      "@type": "NameVariant",
+      "fullName": "Valeriy Nikolaevich FALKOV",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Valerii Mykolaiovych FALKOV",
+      "@type": "NameVariant",
+      "fullName": "Valerii Mykolaiovych FALKOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Valerii Nikolaevich FALKOV",
+      "@type": "NameVariant",
+      "fullName": "Valerii Nikolaevich FALKOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Valery Nikolaevich FALKOV",
+      "@type": "NameVariant",
+      "fullName": "Valery Nikolaevich FALKOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Minister of Science and Higher Education of the Russian Federation; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 2) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7380"
   ],
-  "birth_info": [
+  "remarks": "Minister of Science and Higher Education of the Russian Federation; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 2) Instrument 2023",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1978,
       "country": "Tyumen"
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

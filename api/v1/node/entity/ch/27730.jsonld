@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/27730",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/27730",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Tsariov Oleg",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Tsariov Oleg",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/27730"
   ],
   "remarks": "Former Member of the Verkhovna Rada of Ukraine, as such publicly called for the creation of the so-called “Federal Republic of Novorossiya”, composed of south-eastern Ukrainian regions. Former “Speaker” of the so-called “Parliament of the Union of the People’s Republics” (“Parliament of Novorossiya”).",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1970-06-02",
-      "circa": false
+      "circa": false,
+      "year": 1970
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

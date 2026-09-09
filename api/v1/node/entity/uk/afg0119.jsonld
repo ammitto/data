@@ -1,92 +1,122 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/afg0119",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/afg0119",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "NOORZAI",
-      "first_name": "FAIZULLAH",
+      "@type": "NameVariant",
+      "fullName": "NOORZAI",
+      "firstName": "FAIZULLAH",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Faizullah",
-      "first_name": "Mullah",
+      "@type": "NameVariant",
+      "fullName": "Faizullah",
+      "firstName": "Mullah",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Fiazullah",
+      "@type": "NameVariant",
+      "fullName": "Fiazullah",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Khan",
-      "first_name": "Faizullah",
+      "@type": "NameVariant",
+      "fullName": "Khan",
+      "firstName": "Faizullah",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Khan",
-      "first_name": "Faizullah",
+      "@type": "NameVariant",
+      "fullName": "Khan",
+      "firstName": "Faizullah",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Noor",
-      "first_name": "Faizullah",
+      "@type": "NameVariant",
+      "fullName": "Noor",
+      "firstName": "Faizullah",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Noori",
-      "first_name": "Faizullah",
+      "@type": "NameVariant",
+      "fullName": "Noori",
+      "firstName": "Faizullah",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Noorzai",
-      "first_name": "Faizullah",
+      "@type": "NameVariant",
+      "fullName": "Noorzai",
+      "firstName": "Faizullah",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Noorzai",
-      "first_name": "Pazullah",
+      "@type": "NameVariant",
+      "fullName": "Noorzai",
+      "firstName": "Pazullah",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Norezai",
-      "first_name": "Faizuulah",
+      "@type": "NameVariant",
+      "fullName": "Norezai",
+      "firstName": "Faizuulah",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "فیض الله خان نورزی",
+      "@type": "NameVariant",
+      "fullName": "فیض الله خان نورزی",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "حاجى فیض الله خان نورزى",
+      "@type": "NameVariant",
+      "fullName": "حاجى فیض الله خان نورزى",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Prominent Taliban financier. As of mid-2009, supplied weapons, ammunition, explosives and medical equipment to Taliban fighters; and raised funds for the Taliban, and provided training to them, in the Afghanistan/Pakistan border region. Has previously organized and funded Taliban operations in Kandahar Province, Afghanistan. As of 2010, travelled to and owned businesses in Dubai, United Arab Emirates, and Japan. Believed to be in the Afghanistan/ Pakistan border area. Belongs to Noorzai tribe, Miralzai sub-tribe. Brother of Malik Noorzai (TAi.154). Father’s name is Akhtar Mohammed (a.k.a.: Haji Mira Khan). INTERPOL-UN Security Council Special Notice web link: https:// www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals click here",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/afg0119"
+  ],
+  "remarks": "Prominent Taliban financier. As of mid-2009, supplied weapons, ammunition, explosives and medical equipment to Taliban fighters; and raised funds for the Taliban, and provided training to them, in the Afghanistan/Pakistan border region. Has previously organized and funded Taliban operations in Kandahar Province, Afghanistan. As of 2010, travelled to and owned businesses in Dubai, United Arab Emirates, and Japan. Believed to be in the Afghanistan/ Pakistan border area. Belongs to Noorzai tribe, Miralzai sub-tribe. Brother of Malik Noorzai (TAi.154). Father’s name is Akhtar Mohammed (a.k.a.: Haji Mira Khan). INTERPOL-UN Security Council Special Notice web link: https:// www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals click here",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
-      "street": "Boghra Road, Miralzei Village, Chaman",
-      "state": "Baluchistan Province",
-      "country": "Pakistan"
-    },
-    {
+      "@type": "Address",
       "street": "Kalay Rangin, Spin Boldak District",
       "state": "Kandahar Province",
       "country": "Afghanistan"
+    },
+    {
+      "@type": "Address",
+      "street": "Boghra Road, Miralzei Village, Chaman",
+      "state": "Baluchistan Province",
+      "country": "Pakistan"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

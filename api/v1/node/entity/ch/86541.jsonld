@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/86541",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/86541",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Noor Wali Mehsud Mufti",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Noor Wali Mehsud Mufti",
+      "isPrimary": true
     }
   ],
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/86541"
+  ],
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1978-06-26",
-      "circa": false
+      "circa": false,
+      "year": 1978
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

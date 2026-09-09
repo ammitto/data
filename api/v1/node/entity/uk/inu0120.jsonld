@@ -1,42 +1,61 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/inu0120",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/inu0120",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "SURENA",
+      "@type": "NameVariant",
+      "fullName": "SURENA",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Sakhd Va Rah-An-Da-Zi",
+      "@type": "NameVariant",
+      "fullName": "Sakhd Va Rah-An-Da-Zi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "SURENA Co.",
+      "@type": "NameVariant",
+      "fullName": "SURENA Co.",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Surena Company",
+      "@type": "NameVariant",
+      "fullName": "Surena Company",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "The Construction and Commissioning of Nuclear Power Plants Company",
+      "@type": "NameVariant",
+      "fullName": "The Construction and Commissioning of Nuclear Power Plants Company",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/inu0120"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "PO Box 1516913813, 4 East 37th Alley, Alvand Street, Argentina Sq.",
       "state": "Tehran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,25 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7994",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7994",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "OSMAN MOHAMED HAMID MOHAMED",
+      "@type": "NameVariant",
+      "fullName": "OSMAN MOHAMED HAMID MOHAMED",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "SDi.006. Designation: Rapid Support Forces (RSF) Major General and Head of RSF Operations. National identification no: Sudan 11540384888. Other information: Gender: Male; Listing: Listed by the 1591 Committee",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7994"
   ],
-  "birth_info": [
+  "remarks": "SDi.006. Designation: Rapid Support Forces (RSF) Major General and Head of RSF Operations. National identification no: Sudan 11540384888. Other information: Gender: Male; Listing: Listed by the 1591 Committee",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1966,
       "country": "Kadiqali"
     }
   ],
   "nationalities": [
     "Sudan"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

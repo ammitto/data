@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/51813",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/51813",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Muratov Sergey Nikolayevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Muratov Sergey Nikolayevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/51813"
   ],
   "remarks": "Member of the Federation Council who ratified the government decisions on the ‘Treaty of Friendship, Cooperation and Mutual Assistance between the Russian Federation and the Donetsk People's Republic and between the Russian Federation and the Luhansk People’s Republic’.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1964-01-13",
-      "circa": false
+      "circa": false,
+      "year": 1964
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

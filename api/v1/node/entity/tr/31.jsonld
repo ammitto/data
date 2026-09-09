@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/tr/31",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/tr/31",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "SON JONG HYOK",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "SON JONG HYOK",
+      "isPrimary": true
     }
   ],
-  "source_references": [
+  "sourceReferences": [
     {
-      "source_code": "tr",
-      "reference_number": "31"
+      "@type": "SourceReference",
+      "sourceCode": "tr",
+      "referenceNumber": "31",
+      "retrievedAt": "2026-09-09T16:30:41Z"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "linkedEntities": [
+
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/tr/consolidated-list/31"
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

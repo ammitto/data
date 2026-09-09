@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/40346",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/40346",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Suhail Mohammad Abdullatif",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Suhail Mohammad Abdullatif",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/40346"
   ],
   "remarks": "Minister of Public Works and Housing under the former al-Assad regime. Appointed in November 2018. As a Government Minister, shares responsibility for the former al-Assad regime’s violent repression of the civilian population.",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1961
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

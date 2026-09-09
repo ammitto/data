@@ -1,0 +1,52 @@
+{
+  "@id": "https://www.ammitto.org/entry/un/consolidated-list/kpe025",
+  "@type": "SanctionEntry",
+  "entityId": "https://www.ammitto.org/entity/un/kpe025",
+  "authority": {
+    "@id": "https://www.ammitto.org/authority/un"
+  },
+  "regime": {
+    "@id": "https://www.ammitto.org/regime/dprk",
+    "name": "Democratic People's Republic of Korea"
+  },
+  "legalBases": [
+
+  ],
+  "effects": [
+    {
+      "@type": "SanctionEffect",
+      "effectType": "asset_freeze",
+      "scope": "full"
+    },
+    {
+      "@type": "SanctionEffect",
+      "effectType": "travel_ban",
+      "scope": "full"
+    }
+  ],
+  "reasons": [
+
+  ],
+  "period": {
+    "@type": "TemporalPeriod",
+    "listedDate": "2016-03-02",
+    "effectiveDate": "2016-03-02",
+    "isIndefinite": true
+  },
+  "status": "active",
+  "statusHistory": [
+
+  ],
+  "referenceNumber": "KPe.025",
+  "remarks": "KKBC provides financial services in support to Tanchon Commercial Bank and Korea Hyoksin Trading Corporation, a subordinate of the Korea Ryonbong General Corporation. Tanchon Commercial Bank has used KKBC to facilitate funds transfers likely amounting to millions of dollars, including transfers involving Korea Mining Development Corporation related funds.",
+  "rawSourceData": {
+    "@type": "RawSourceData",
+    "sourceFormat": "xml",
+    "sourceSpecificFields": {
+      "un:dataId": "6908518",
+      "un:versionNum": "1",
+      "un:entityType": "entity"
+    }
+  },
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
+}

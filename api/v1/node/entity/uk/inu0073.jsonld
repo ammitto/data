@@ -1,63 +1,86 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/inu0073",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/inu0073",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Iran Communications Industries (ICI)",
+      "@type": "NameVariant",
+      "fullName": "Iran Communications Industries (ICI)",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Iran Communication Industries",
+      "@type": "NameVariant",
+      "fullName": "Iran Communication Industries",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Iran Communications Industries Co.",
+      "@type": "NameVariant",
+      "fullName": "Iran Communications Industries Co.",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Sanaye Mokhaberat Iran",
+      "@type": "NameVariant",
+      "fullName": "Sanaye Mokhaberat Iran",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/inu0073"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "34 Khorramshar Street",
       "state": "Tehran",
       "country": "Iran"
     },
     {
+      "@type": "Address",
       "street": "Apadana Ave.",
       "state": "Tehran",
       "country": "Iran"
     },
     {
+      "@type": "Address",
       "street": "P.O. Box 15875 4337",
       "state": "Tehran",
       "country": "Iran"
     },
     {
+      "@type": "Address",
       "street": "PO Box 19295 4731, Pasdaran Ave",
       "state": "Tehran",
       "country": "Iran"
     },
     {
+      "@type": "Address",
       "street": "PO Box 19575 131, 34 Apadana Ave",
       "state": "Tehran",
       "country": "Iran"
     },
     {
+      "@type": "Address",
       "street": "Shahid Langary St, Nobonyad Square Ave, Pasdaran",
       "state": "Tehran",
       "country": "Iran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

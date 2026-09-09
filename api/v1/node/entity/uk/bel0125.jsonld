@@ -1,39 +1,57 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/bel0125",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/bel0125",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "KB RADAR",
-      "first_name": "OJSC KB RADAR-MANAGING COMPANY HOLDING RADAR SYSTEM",
+      "@type": "NameVariant",
+      "fullName": "KB RADAR",
+      "firstName": "OJSC KB RADAR-MANAGING COMPANY HOLDING RADAR SYSTEM",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "OJSC KB RADAR-MANAGING COMPANY HOLDING RADAR SYSTEM",
+      "@type": "NameVariant",
+      "fullName": "OJSC KB RADAR-MANAGING COMPANY HOLDING RADAR SYSTEM",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "КБ Радар",
+      "@type": "NameVariant",
+      "fullName": "КБ Радар",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/bel0125"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "24 Promyshlennaya str",
       "state": "Minsk",
       "country": "Belarus"
     },
     {
+      "@type": "Address",
       "street": "64A Partizanskii Prospect",
       "state": "Minsk",
       "country": "Belarus"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/600087",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/600087",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "NEWSTECH VIETNAM TRADING AND INVESTMENT CONSTRUCTION JOINT STOCK COMPANY",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "NEWSTECH VIETNAM TRADING AND INVESTMENT CONSTRUCTION JOINT STOCK COMPANY",
+      "isPrimary": true
     }
   ],
-  "remarks": "(Reg. No. 0106042747)*586",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/600087"
+  ],
+  "remarks": "(Reg. No. 0106042747)*586",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "NO. 14 – ADJACENT HOUSES 6, DAI THANH URBAN, TA THANH OAI COMMUNAL, THANH TRI DISTRICT",
       "city": "HANOI",
       "country": "Viet Nam",
-      "country_iso_code": "VN"
+      "countryIsoCode": "VN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

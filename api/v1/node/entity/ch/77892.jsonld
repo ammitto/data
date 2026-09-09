@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/77892",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/77892",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ziamtsau Ihar Fiodaravich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Ziamtsau Ihar Fiodaravich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/77892"
   ],
   "remarks": "Ihar Ziamtsau is a judge who has served in the Mogilev Regional Court since 2017, having been appointed by Aliaksandr Lukashenka. He has issued politically motivated sentences against citizens of Belarus who voiced their opinions against the President and the brutality of Belarusian law-enforcement structures.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1975-03-20",
-      "circa": false
+      "circa": false,
+      "year": 1975
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

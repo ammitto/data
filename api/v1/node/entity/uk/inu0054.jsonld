@@ -1,43 +1,62 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/inu0054",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/inu0054",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Armed Forces Geographical Organisation",
+      "@type": "NameVariant",
+      "fullName": "Armed Forces Geographical Organisation",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Geographical Organization of Iranian Armed Forces",
+      "@type": "NameVariant",
+      "fullName": "Geographical Organization of Iranian Armed Forces",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Iranian National Geographical Organisation of Armed forces",
+      "@type": "NameVariant",
+      "fullName": "Iranian National Geographical Organisation of Armed forces",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "سازمان جغرافیایی",
+      "@type": "NameVariant",
+      "fullName": "سازمان جغرافیایی",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/inu0054"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Ferdowsi Avenue",
       "state": "Sarhang",
       "country": "Iran"
     },
     {
+      "@type": "Address",
       "street": "Sakhei Avenue",
       "state": "Tehran",
       "country": "Iran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

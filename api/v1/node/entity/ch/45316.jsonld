@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/45316",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/45316",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Win Shein",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Win Shein",
+      "isPrimary": true
     }
   ],
-  "remarks": "Win Shein is the Deputy Prime Minister, since 1 Feb 2023, and the Minister for Planning and Finance in the Union Government, since 1 Feb 2021, appointed by Commander-in-Chief Min Aung Hlaing. On 1 Feb 2021, the Myanmar Armed Forces (Tatmadaw), led by Commander-in-Chief Min Aung Hlaing, staged a coup in Myanmar by setting aside the results of the elections held on 8 Nov 2020 and by overthrowing the democratically elected government. As part of the coup, Vice-President Myint Swe, functioning as Acting President, declared a state of emergency and transferred the legislative, executive and judicial powers of the state to Min Aung Hlaing.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/45316"
+  ],
+  "remarks": "Win Shein was the Deputy Prime Minister from 1 February 2023 to 31 July 2025 and the Minister for Planning and Finance in the Union Government from 1 February 2021 to 31 July 2025 appointed by Commander-in-Chief Min Aung Hlaing.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1957-07-31",
-      "circa": false
+      "circa": false,
+      "year": 1957
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

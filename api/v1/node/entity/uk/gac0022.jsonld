@@ -1,33 +1,54 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/gac0022",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/gac0022",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "LOPEZ CENTENO",
-      "first_name": "Jose",
+      "@type": "NameVariant",
+      "fullName": "LOPEZ CENTENO",
+      "firstName": "Jose",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "LOPEZ",
-      "first_name": "CHICO",
+      "@type": "NameVariant",
+      "fullName": "LOPEZ",
+      "firstName": "CHICO",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Jose Francisco LÓPEZ CENTENO",
+      "@type": "NameVariant",
+      "fullName": "Jose Francisco LÓPEZ CENTENO",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/gac0022"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "country": "Nicaragua"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,37 +1,47 @@
 {
-  "id": "https://www.ammitto.org/entry/au/consolidated-list/2673",
-  "entity_id": "https://www.ammitto.org/entity/au/2673",
+  "@id": "https://www.ammitto.org/entry/au/consolidated-list/2673",
+  "@type": "SanctionEntry",
+  "entityId": "https://www.ammitto.org/entity/au/2673",
   "authority": {
     "@id": "https://www.ammitto.org/authority/au"
   },
   "regime": {
-    "@id": "https://www.ammitto.org/regime/au_car"
+    "@id": "https://www.ammitto.org/regime/au_car",
+    "name": "Central African Republic"
   },
-  "legal_bases": [
+  "legalBases": [
     {
-      "type": "regulation",
-      "identifier": "Charter of the United Nations (Sanctions—Central African Republic) Regulation 2014",
-      "title": "Charter of the United Nations (Sanctions—Central African Republic) Regulation 2014"
+      "@id": "https://www.ammitto.org/legal-instrument/au/charter-of-the-united-nations-sanctions-central-african-republic-regulation-2014"
     }
   ],
   "effects": [
     {
-      "effect_type": "asset_freeze",
+      "@type": "SanctionEffect",
+      "effectType": "asset_freeze",
       "scope": "full"
     },
     {
-      "effect_type": "travel_ban",
+      "@type": "SanctionEffect",
+      "effectType": "travel_ban",
       "scope": "full"
     }
   ],
+  "reasons": [
+
+  ],
   "period": {
-    "is_indefinite": true
+    "@type": "TemporalPeriod",
+    "isIndefinite": true
   },
   "status": "active",
-  "reference_number": "2673",
-  "raw_source_data": {
-    "source_format": "csv",
-    "source_specific_fields": {
+  "statusHistory": [
+
+  ],
+  "referenceNumber": "2673",
+  "rawSourceData": {
+    "@type": "RawSourceData",
+    "sourceFormat": "csv",
+    "sourceSpecificFields": {
       "au:reference": "2673",
       "au:committees": "2127 (Central African Republic)",
       "au:control_date": "2026-02-05",
@@ -39,5 +49,5 @@
       "au:listing_info": "Listed on 9 May 2014 (amended on 4 Nov. 2014; 16 Feb. 2018; 1 Mar. 2019; 28 Jul. 2020)"
     }
   },
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

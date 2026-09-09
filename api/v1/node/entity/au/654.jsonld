@@ -1,40 +1,59 @@
 {
-  "id": "https://www.ammitto.org/entity/au/654",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/654",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "IZZAT IBRAHIM AL-DURI",
+      "@type": "NameVariant",
+      "fullName": "IZZAT IBRAHIM AL-DURI",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "عزت ابراهيم الدوري",
+      "@type": "NameVariant",
+      "fullName": "عزت ابراهيم الدوري",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abu Brays",
+      "@type": "NameVariant",
+      "fullName": "Abu Brays",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abu Ahmad",
+      "@type": "NameVariant",
+      "fullName": "Abu Ahmad",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "IQi.006; Listing: Listed by the 1518 Committee",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/654"
   ],
-  "birth_info": [
+  "remarks": "IQi.006; Listing: Listed by the 1518 Committee",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1942,
       "country": "al-Dur"
     }
   ],
   "nationalities": [
     "Iraq"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

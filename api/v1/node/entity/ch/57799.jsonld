@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/57799",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/57799",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Noskov Vasiliy Viktorovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Noskov Vasiliy Viktorovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/57799"
   ],
   "remarks": "Vasiliy Viktorovich Noskov is a representative of the Russian authorities who has recently been appointed as deputy Minister of Culture, Sports and Youth of the so-called ‘Luhansk People’s Republic’ (LPR) in Ukraine. His appointment is largely seen as part\nof a broader move by Russia to place trusted Russian officials in key positions in Ukraine, as a step that contributed to the annexation of the occupied territories. From his position, as well as his recent statements glorifying the Russian war effort, it follows that Noskov actively supports, justifies and defends the war of aggression against Ukraine. He is therefore responsible for, supporting and implementing actions and policies undermining or threatening the territorial integrity, sovereignty and independence of Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1993-07-14",
-      "circa": false
+      "circa": false,
+      "year": 1993
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/52383",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/52383",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kerimov Suleyman Abusaidovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kerimov Suleyman Abusaidovich",
+      "isPrimary": true
     }
   ],
-  "remarks": "Suleyman Kerimov is a leading Russian businessperson and member of the Federation Council of the Federal Assembly of the Russian Federation and of the Committee on the Rules of Procedure and Parliamentary Governance. He is former owner of the financial and industrial group Nafta Moscow. The net worth of Kerimov and his family is estimated at USD 9,8 billion. He received large sums of money from Sergei Roldugin, who is the caretaker of the wealth of the President of the Russian Federation Vladimir Putin.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/52383"
+  ],
+  "remarks": "Suleyman Kerimov is a leading Russian businessperson and member of the Federation Council of the Federal Assembly of the Russian Federation and of the Committee on the Rules of Procedure and Parliamentary Governance. He is former owner of the financial and industrial group Nafta Moscow. The net worth of Kerimov and his family is estimated at USD 16,4  billion. He received large sums of money from Sergei Roldugin, who is the caretaker of the wealth of the President of the Russian Federation Vladimir Putin.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1966-03-12",
-      "circa": false
+      "circa": false,
+      "year": 1966
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

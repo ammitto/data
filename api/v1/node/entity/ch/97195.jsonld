@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/97195",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/97195",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Leilabadi Ali Hajinia",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Leilabadi Ali Hajinia",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/97195"
   ],
   "remarks": "Director General of Mesbah Energy Company",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1950-02-19",
-      "circa": false
+      "circa": false,
+      "year": 1950
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

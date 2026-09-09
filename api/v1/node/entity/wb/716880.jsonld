@@ -1,22 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/716880",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/wb/716880",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MARCELO DANIEL ROMERO",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "MARCELO DANIEL ROMERO",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/716880"
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "NIEVA DE CASTILLA 214, ANDALGALÁ,4740",
       "city": "PROVINCIA DE CATAMARCA C.P.",
       "country": "Argentina",
-      "country_iso_code": "AR"
+      "countryIsoCode": "AR"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

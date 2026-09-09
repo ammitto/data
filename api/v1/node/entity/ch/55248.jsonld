@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/55248",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/55248",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Savostyanov Sergey Vladimirovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Savostyanov Sergey Vladimirovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/55248"
   ],
   "remarks": "Sergey Savostyanov is a statesman and politician of Russia. He was elected a deputy of the Moscow city Duma on 8 September 2019.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1984-08-22",
-      "circa": false
+      "circa": false,
+      "year": 1984
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/54915",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/54915",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mamedov Faik Sameddin ogly",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Mamedov Faik Sameddin ogly",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/54915"
   ],
   "remarks": "Faik Mamedov is a major of the 64th Separate Motorised Rifle Brigade of the 35th Combined Arms Army of the Russian Federation, which reportedly killed, raped and tortured civilians in Bucha, Ukraine. These atrocities may constitute crimes against humanity and war crimes.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1978-11-24",
-      "circa": false
+      "circa": false,
+      "year": 1978
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

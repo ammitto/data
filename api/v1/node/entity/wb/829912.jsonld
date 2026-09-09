@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/829912",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/829912",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "GLOBAL INTERJAPAN (KENYA) LIMITED",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "GLOBAL INTERJAPAN (KENYA) LIMITED",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/829912"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "PARSONIC HOTEL BUILDING, KIRINYAGA ROAD, P.O. BOX 28783, POST CODE 00200",
       "city": "NAIROBI",
       "country": "Kenya",
-      "country_iso_code": "KE"
+      "countryIsoCode": "KE"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

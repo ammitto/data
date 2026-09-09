@@ -1,116 +1,147 @@
 {
-  "id": "https://www.ammitto.org/entity/au/575",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/575",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Taufik Rifki",
+      "@type": "NameVariant",
+      "fullName": "Taufik Rifki",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Refke, Taufek",
+      "@type": "NameVariant",
+      "fullName": "Refke, Taufek",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Rifqi, Taufik",
+      "@type": "NameVariant",
+      "fullName": "Rifqi, Taufik",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Rifqi, Tawfiq",
+      "@type": "NameVariant",
+      "fullName": "Rifqi, Tawfiq",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ami Iraq",
+      "@type": "NameVariant",
+      "fullName": "Ami Iraq",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ami Irza",
+      "@type": "NameVariant",
+      "fullName": "Ami Irza",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Amy Erja",
+      "@type": "NameVariant",
+      "fullName": "Amy Erja",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ammy Erza",
+      "@type": "NameVariant",
+      "fullName": "Ammy Erza",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ammy Izza",
+      "@type": "NameVariant",
+      "fullName": "Ammy Izza",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ami Kusoman",
+      "@type": "NameVariant",
+      "fullName": "Ami Kusoman",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abu Obaida",
+      "@type": "NameVariant",
+      "fullName": "Abu Obaida",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abu Obaidah",
+      "@type": "NameVariant",
+      "fullName": "Abu Obaidah",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abu Obeida",
+      "@type": "NameVariant",
+      "fullName": "Abu Obeida",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abu Ubaidah",
+      "@type": "NameVariant",
+      "fullName": "Abu Ubaidah",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Obaidah",
+      "@type": "NameVariant",
+      "fullName": "Obaidah",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abu Obayda",
+      "@type": "NameVariant",
+      "fullName": "Abu Obayda",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Izza Kusoman",
+      "@type": "NameVariant",
+      "fullName": "Izza Kusoman",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Yacub, Eric",
+      "@type": "NameVariant",
+      "fullName": "Yacub, Eric",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "In detention in the Philippines as at May 2011. Review pursuant to Security Council resolution 2368 (2017) was concluded on 24 November 2020.; Listing: Listed by the UN 1267 Committee on 21 April 2006 (amended on 13 Dec. 2011, 24 Nov. 2020)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/575"
   ],
-  "birth_info": [
+  "remarks": "In detention in the Philippines as at May 2011. Review pursuant to Security Council resolution 2368 (2017) was concluded on 24 November 2020.; Listing: Listed by the UN 1267 Committee on 21 April 2006 (amended on 13 Dec. 2011, 24 Nov. 2020)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1974,
       "country": "Dacusuman Surakarta"
     }
   ],
   "nationalities": [
     "Indonesia"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Philippines",
       "country": "Philippines"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

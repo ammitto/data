@@ -1,40 +1,60 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8047",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/8047",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Valery Alexandrovich GABRIEL",
+      "@type": "NameVariant",
+      "fullName": "Valery Alexandrovich GABRIEL",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Valeriy Aleksandrovich GABRIEL",
+      "@type": "NameVariant",
+      "fullName": "Valeriy Aleksandrovich GABRIEL",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Valeriy Alexandrovich GABRIEL",
+      "@type": "NameVariant",
+      "fullName": "Valeriy Alexandrovich GABRIEL",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Valerii Aleksandrovich GABRIEL",
+      "@type": "NameVariant",
+      "fullName": "Valerii Aleksandrovich GABRIEL",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Shareholder in VOLGA-DNEPR GROUP; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8047"
   ],
-  "birth_info": [
+  "remarks": "Shareholder in VOLGA-DNEPR GROUP; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1956,
       "country": "Starobelsk"
     }
   ],
   "nationalities": [
-    "Germany;Russia"
+    "Germany",
+    "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

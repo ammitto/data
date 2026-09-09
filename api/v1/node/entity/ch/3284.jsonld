@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/3284",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/3284",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ngudjolo Mathieu Chui",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Ngudjolo Mathieu Chui",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/3284"
   ],
   "remarks": "FNI Chief of Staff and former Chief of Staff of the FRPI, exercising influence over policies and maintaining command and control over the activities of FRPI forces, one of the armed groups and militias referred to in paragraph 20 of Res. 1493 (2003), responsible for trafficking of arms, in violation of the arms embargo. According to the Office of the SRSG on Children and Armed Conflict, he was responsible for recruitment and use of children under 15 years old in Ituri in 2006.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1970-10-08",
-      "circa": false
+      "circa": false,
+      "year": 1970
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

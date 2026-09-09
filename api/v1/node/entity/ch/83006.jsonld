@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/83006",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/83006",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mahmoud Mohammad Ahmed Bahaziq",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Mahmoud Mohammad Ahmed Bahaziq",
+      "isPrimary": true
     }
   ],
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/83006"
+  ],
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1943-08-17",
-      "circa": false
+      "circa": false,
+      "year": 1943
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

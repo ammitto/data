@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/28240",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/28240",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Gubarev Pavel Yurievich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Gubarev Pavel Yurievich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/28240"
   ],
   "remarks": "One of the self-described leaders of the so-called “People’s Republic of Donetsk”. He requested Russian intervention in eastern Ukraine, including through the deployment of Russian peacekeeping forces. He was associated with Igor Strelkov/Girkin who is responsible for actions which undermine or threaten the territorial integrity, sovereignty and independence of Ukraine. Gubarev was responsible for recruiting people for armed forces of separatists.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1983-02-10",
-      "circa": false
+      "circa": false,
+      "year": 1983
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

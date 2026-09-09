@@ -1,48 +1,68 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/irn0240",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/irn0240",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Islamic Republic of Iran Airlines",
+      "@type": "NameVariant",
+      "fullName": "Islamic Republic of Iran Airlines",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "HAVAPEYMAYI MELLI IRAN",
+      "@type": "NameVariant",
+      "fullName": "HAVAPEYMAYI MELLI IRAN",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Iran Air",
+      "@type": "NameVariant",
+      "fullName": "Iran Air",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "IRAN AIR PJSC",
+      "@type": "NameVariant",
+      "fullName": "IRAN AIR PJSC",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "IRANAIR CARGO",
+      "@type": "NameVariant",
+      "fullName": "IRANAIR CARGO",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "The Airline of the Islamic Republic of Iran",
+      "@type": "NameVariant",
+      "fullName": "The Airline of the Islamic Republic of Iran",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/irn0240"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Iran Air Building, Mehrabad Airport",
       "state": "Tehran",
       "country": "Iran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

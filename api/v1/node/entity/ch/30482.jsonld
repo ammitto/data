@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/30482",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/30482",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kobzon Iosif Davydovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kobzon Iosif Davydovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/30482"
   ],
   "remarks": "Member of the State Duma.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1937-09-11",
-      "circa": false
+      "circa": false,
+      "year": 1937
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

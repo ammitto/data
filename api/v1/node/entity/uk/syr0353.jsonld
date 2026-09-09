@@ -1,22 +1,43 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/syr0353",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/syr0353",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Foz",
-      "first_name": "Amer",
+      "@type": "NameVariant",
+      "fullName": "Foz",
+      "firstName": "Amer",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "عامر فوز",
+      "@type": "NameVariant",
+      "fullName": "عامر فوز",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "General Manager of ASM International General Trading, LLC (ASM International Trading). Linked to EU-designated Samer Foz ; EU-designated Aman Holding (Aman Damascus Joint Stock Company) ; ASM International General Trading, LLC (ASM International Trading) The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/syr0353"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "remarks": "General Manager of ASM International General Trading, LLC (ASM International Trading). Linked to EU-designated Samer Foz ; EU-designated Aman Holding (Aman Damascus Joint Stock Company) ; ASM International General Trading, LLC (ASM International Trading) The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,51 +1,75 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/cti0064",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/cti0064",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Odeh",
-      "first_name": "Ahmed   ",
+      "@type": "NameVariant",
+      "fullName": "Odeh",
+      "firstName": "Ahmed   ",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Odeh ",
-      "first_name": "Ahmad",
+      "@type": "NameVariant",
+      "fullName": "Odeh ",
+      "firstName": "Ahmad",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Odeh",
-      "first_name": "Ahmed",
+      "@type": "NameVariant",
+      "fullName": "Odeh",
+      "firstName": "Ahmed",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ouda ",
-      "first_name": "Ahmed",
+      "@type": "NameVariant",
+      "fullName": "Ouda ",
+      "firstName": "Ahmed",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Udih ",
-      "first_name": "Ahmad",
+      "@type": "NameVariant",
+      "fullName": "Udih ",
+      "firstName": "Ahmad",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "أحمد شريف عبد الله عودة",
+      "@type": "NameVariant",
+      "fullName": "أحمد شريف عبد الله عودة",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/cti0064"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "country": "Jordan"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

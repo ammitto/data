@@ -1,29 +1,46 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7527",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7527",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Lidia Aleksandrovna BASOVA",
+      "@type": "NameVariant",
+      "fullName": "Lidia Aleksandrovna BASOVA",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Lidiya Oleksandrivna BASOVA",
+      "@type": "NameVariant",
+      "fullName": "Lidiya Oleksandrivna BASOVA",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Former Deputy Chair of the Sevastopol Electoral Commission.\nPreviously listed under 'Ukraine criteria' - Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Ukraine) Amendment List 2020 [F2020L00083]; \nNew listing start date 31 March 2023; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 4) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7527"
   ],
-  "birth_info": [
+  "remarks": "Former Deputy Chair of the Sevastopol Electoral Commission.\nPreviously listed under 'Ukraine criteria' - Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Ukraine) Amendment List 2020 [F2020L00083]; \nNew listing start date 31 March 2023; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 4) Instrument 2023",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1972
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,50 +1,71 @@
 {
-  "id": "https://www.ammitto.org/entity/au/97",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/97",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Abdul Manan Nyazi",
+      "@type": "NameVariant",
+      "fullName": "Abdul Manan Nyazi",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Abdul Manan Nayazi",
+      "@type": "NameVariant",
+      "fullName": "Abdul Manan Nayazi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abdul Manan Niazi",
+      "@type": "NameVariant",
+      "fullName": "Abdul Manan Niazi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Baryaly",
+      "@type": "NameVariant",
+      "fullName": "Baryaly",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Baryalai",
+      "@type": "NameVariant",
+      "fullName": "Baryalai",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "عبدالمنان نيازی",
+      "@type": "NameVariant",
+      "fullName": "عبدالمنان نيازی",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "TAi.097 Title: Mullah. Designation: a) Governor of Kabul Province under the Taliban regime b) Governor of Balk Province under the Taliban regime. Taliban member responsible for Herat, Farah and Nimroz provinces as at mid-2013. Member of the Taliban Supreme Council and Quetta Shura. Believed to be in Afghanistan/Pakistan border area. Belongs to Achekzai tribe. Involved in transporting suicide bombers to Afghanistan. Review pursuant to Security Council resolution 1822 (2008) was concluded on 23 Jul. 2010.; Listing: Listed on 25 January 2001 (amended on 3 Sep. 2003, 18 Jul. 2007, 21 Sep. 2007, 12 Apr. 2010, 29 Nov. 2011, 13 Feb. 2012 and 31 Dec. 2013)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/97"
   ],
-  "birth_info": [
+  "remarks": "TAi.097 Title: Mullah. Designation: a) Governor of Kabul Province under the Taliban regime b) Governor of Balk Province under the Taliban regime. Taliban member responsible for Herat, Farah and Nimroz provinces as at mid-2013. Member of the Taliban Supreme Council and Quetta Shura. Believed to be in Afghanistan/Pakistan border area. Belongs to Achekzai tribe. Involved in transporting suicide bombers to Afghanistan. Review pursuant to Security Council resolution 1822 (2008) was concluded on 23 Jul. 2010.; Listing: Listed on 25 January 2001 (amended on 3 Sep. 2003, 18 Jul. 2007, 21 Sep. 2007, 12 Apr. 2010, 29 Nov. 2011, 13 Feb. 2012 and 31 Dec. 2013)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1968,
       "country": "a) Pashtoon Zarghoon District"
     }
   ],
   "nationalities": [
     "Afghanistan"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

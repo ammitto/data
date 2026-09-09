@@ -1,45 +1,67 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus0260",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/rus0260",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "ZHUK",
-      "first_name": "Andrey",
+      "@type": "NameVariant",
+      "fullName": "ZHUK",
+      "firstName": "Andrey",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "ZUK",
-      "first_name": "Andrej",
+      "@type": "NameVariant",
+      "fullName": "ZUK",
+      "firstName": "Andrej",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Андрей Жук",
+      "@type": "NameVariant",
+      "fullName": "Андрей Жук",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Andrej ŽUK",
+      "@type": "NameVariant",
+      "fullName": "Andrej ŽUK",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Андрэй Жук",
+      "@type": "NameVariant",
+      "fullName": "Андрэй Жук",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus0260"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Ministry of Defence of the Republic of Belarus, 1 Kommunisticheskaya St.",
       "state": "Minsk",
       "country": "Belarus"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

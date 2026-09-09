@@ -1,75 +1,99 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7822",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7822",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Khaled Qaddoumi",
+      "@type": "NameVariant",
+      "fullName": "Khaled Qaddoumi",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Khaled Al-Qaddumi",
+      "@type": "NameVariant",
+      "fullName": "Khaled Al-Qaddumi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Khalid al-Qaddumi",
+      "@type": "NameVariant",
+      "fullName": "Khalid al-Qaddumi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Khaled Farid Ahmed Assad",
+      "@type": "NameVariant",
+      "fullName": "Khaled Farid Ahmed Assad",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Khaled Ghodomi",
+      "@type": "NameVariant",
+      "fullName": "Khaled Ghodomi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Khaled Kaddoumi",
+      "@type": "NameVariant",
+      "fullName": "Khaled Kaddoumi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Khaled Qadomi",
+      "@type": "NameVariant",
+      "fullName": "Khaled Qadomi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Khalid Qadomi",
+      "@type": "NameVariant",
+      "fullName": "Khalid Qadomi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "خالد القدومي",
+      "@type": "NameVariant",
+      "fullName": "خالد القدومي",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Identification Number 9701027203 (Jordan).; Listing: Charter of the United Nations (Listed Entities) Amendment (No. 1) Instrument 2024",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7822"
   ],
-  "birth_info": [
+  "remarks": "Identification Number 9701027203 (Jordan).; Listing: Charter of the United Nations (Listed Entities) Amendment (No. 1) Instrument 2024",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1970,
       "country": "Jordan"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1970,
       "country": "Jordan"
     }
   ],
   "nationalities": [
     "Jordan"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Tehran, Iran",
       "country": "Iran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

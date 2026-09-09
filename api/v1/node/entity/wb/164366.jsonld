@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/164366",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/164366",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "M/S CONCEPT PHARMACEUTICALS LTD.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "M/S CONCEPT PHARMACEUTICALS LTD.",
+      "isPrimary": true
     }
   ],
-  "remarks": "*105",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/164366"
+  ],
+  "remarks": "*105",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "167 C.S.T. ROAD, KALINA, SANTACRUZ (EAST), MUMBAI - 400098",
       "country": "India",
-      "country_iso_code": "IN"
+      "countryIsoCode": "IN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

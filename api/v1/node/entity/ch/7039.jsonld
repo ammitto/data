@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/7039",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/7039",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Tarumbwa Nathaniel Charles",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Tarumbwa Nathaniel Charles",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/7039"
   ],
   "remarks": "Senior military officer directly involved in the terror campaign waged before and during the elections. In charge of torture base in Makoni West, Mutasa Central in 2007/2008.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1960-10-06",
-      "circa": false
+      "circa": false,
+      "year": 1960
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/55304",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/55304",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Danilchenko Galina Viktorivna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Danilchenko Galina Viktorivna",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/55304"
   ],
   "remarks": "Galina Danilchenko is the acting mayor of the city of Melitopol.",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1964
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

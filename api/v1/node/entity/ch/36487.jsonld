@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/36487",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/36487",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Pak To Chun",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Pak To Chun",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/36487"
   ],
   "remarks": "Pak To Chun is a former Secretary of Munitions Industry Department (MID) and currently advises on affairs relating to nuclear and missile programmes. He is a former State Affairs Commission member and is a member Workers’ Party of Korea Political Bureau. Died on 27 Jul 2022.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1944-03-09",
-      "circa": false
+      "circa": false,
+      "year": 1944
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

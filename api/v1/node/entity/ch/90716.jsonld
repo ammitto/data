@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/90716",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/90716",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Fedasenka Katsiaryna Aliaksandrauna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Fedasenka Katsiaryna Aliaksandrauna",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/90716"
   ],
   "remarks": "Katsiaryna Fedasenka is a member of the Belarusian Central Election Commission. As CEC Member, Katsiaryna Fedasenka is responsible for the organisation of the 2025 presidential election, which was neither free, nor fair. The election violated basic laws and international standards of fairness and transparency, and the results were falsified.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1976-12-20",
-      "circa": false
+      "circa": false,
+      "year": 1976
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

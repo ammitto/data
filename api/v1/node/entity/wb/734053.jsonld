@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/734053",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/734053",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "GENÇ İNŞAAT LIMITED ŞIRKETI",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "GENÇ İNŞAAT LIMITED ŞIRKETI",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/734053"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "ILKBAHAR, 606. SOKAK NO: 22",
       "city": "YILDIZ/ANKARA",
       "country": "Turkiye",
-      "country_iso_code": "TR"
+      "countryIsoCode": "TR"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

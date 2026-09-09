@@ -1,33 +1,54 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus0861",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/rus0861",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "PECHATNIKOV",
-      "first_name": "Anatolii",
+      "@type": "NameVariant",
+      "fullName": "PECHATNIKOV",
+      "firstName": "Anatolii",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "PECHATNIKOV",
-      "first_name": "Anatoly",
+      "@type": "NameVariant",
+      "fullName": "PECHATNIKOV",
+      "firstName": "Anatoly",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "ЕЧАТНИКОВ Анатолий Юрьевич",
+      "@type": "NameVariant",
+      "fullName": "ЕЧАТНИКОВ Анатолий Юрьевич",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus0861"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "state": "Moscow"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

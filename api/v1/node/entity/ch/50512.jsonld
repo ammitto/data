@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/50512",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/50512",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Krupko Ivan Ivanovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Krupko Ivan Ivanovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/50512"
   ],
   "remarks": "Ivan Ivanovich Krupko is the Chairman of the Gomel Regional Executive Committee. In this position, he is responsible for overseeing the interactions between local executive and administrative bodies of the region with military authorities, as well as implementing defence and state security issues. Joint Russian-Belarussian military exercises, which preceded the Russian military aggression against Ukraine, took place in the Gomel Region.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1974-07-23",
-      "circa": false
+      "circa": false,
+      "year": 1974
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

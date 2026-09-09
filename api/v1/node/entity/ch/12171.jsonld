@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/12171",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/12171",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mehran Khwanda",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Mehran Khwanda",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/12171"
   ],
   "remarks": "Provides logistical support to violent repression of civilian population in areas of operation of pro-government militias involved in violence (shabihas).",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1938-05-11",
-      "circa": false
+      "circa": false,
+      "year": 1938
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

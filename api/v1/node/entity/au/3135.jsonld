@@ -1,46 +1,63 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3135",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/3135",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Abd Al-Baset Azzouz",
+      "@type": "NameVariant",
+      "fullName": "Abd Al-Baset Azzouz",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Abdelbassed Azouz",
+      "@type": "NameVariant",
+      "fullName": "Abdelbassed Azouz",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abdul Baset Azouz",
+      "@type": "NameVariant",
+      "fullName": "Abdul Baset Azouz",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "AA (initials)",
+      "@type": "NameVariant",
+      "fullName": "AA (initials)",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Passport no.:  a) Libyan passport  number 223611 b) British passport number C00146605. Key operative in Al-Qaida (QDe.004). Under the direction of Aiman al-Zawahiri (QDi.006), recruited 200 militants in the eastern part of Libya. Review pursuant to Security Council resolution 2368 (2017) was concluded on 24 November 2020.; Listing: Listed on: 29 Feb. 2016 (amended on 24 Nov. 2020)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3135"
   ],
-  "birth_info": [
+  "remarks": "Passport no.:  a) Libyan passport  number 223611 b) British passport number C00146605. Key operative in Al-Qaida (QDe.004). Under the direction of Aiman al-Zawahiri (QDi.006), recruited 200 militants in the eastern part of Libya. Review pursuant to Security Council resolution 2368 (2017) was concluded on 24 November 2020.; Listing: Listed on: 29 Feb. 2016 (amended on 24 Nov. 2020)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1966,
       "country": "Doma"
     }
   ],
   "nationalities": [
     "Libya"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Libya (last known location)",
       "country": "Libya (last known location)"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

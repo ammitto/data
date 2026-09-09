@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/888314",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/888314",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "HEBEI CONSTRUCTION GROUP CORPORATION LIMITED BEIJING NO 4 BRANCH",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "HEBEI CONSTRUCTION GROUP CORPORATION LIMITED BEIJING NO 4 BRANCH",
+      "isPrimary": true
     }
   ],
-  "remarks": "河北建设集团股份有限公司北京第四分公司",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/888314"
+  ],
+  "remarks": "河北建设集团股份有限公司北京第四分公司",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "B1-07, BUILDING 3, NO 1, ZHONGGUANCUN EAST ROAD, HAIDIAN DISTRICT",
       "city": "BEIJING",
       "country": "China",
-      "country_iso_code": "CN"
+      "countryIsoCode": "CN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

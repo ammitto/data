@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/69217",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/69217",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Andreev Pavel Viktorovych",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Andreev Pavel Viktorovych",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/69217"
   ],
   "remarks": "Pavel Andreev has served as a member of the Central Election Committee of the Russian Federation (CEC) since 2021. During his tenure, the CEC has been responsible for organising illegal referenda in 2022, as well as illegal elections in September 2023, in occupied parts of Ukraine, thus attempting to legitimise the Russian invasion of those\nparts. In this role, Pavel Andreev is supporting and implementing actions and policies which undermine or threaten the territorial integrity, sovereignty and independence of Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1980-02-06",
-      "circa": false
+      "circa": false,
+      "year": 1980
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

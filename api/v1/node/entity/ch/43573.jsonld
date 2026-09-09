@@ -1,12 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/43573",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/43573",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mikhovich Maxim",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Mikhovich Maxim Yakaulevich",
+      "isPrimary": true
     }
   ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/43573"
+  ],
   "remarks": "In his command position over OMON forces in Brest, he is responsible for the repression and intimidation campaign led by OMON forces in Brest in the wake of the 2020 presidential election, in particular arbitrary arrests and ill-treatment of peaceful demonstrators.",
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "birthInfo": [
+    {
+      "@type": "BirthInfo",
+      "date": "1974-11-25",
+      "circa": false,
+      "year": 1974
+    }
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/323167",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/323167",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "SOCIÉTÉ GRANDS TRAVAUX MGHAIETH (GTM)",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "SOCIÉTÉ GRANDS TRAVAUX MGHAIETH (GTM)",
+      "isPrimary": true
     }
   ],
-  "remarks": "*302",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/323167"
+  ],
+  "remarks": "*302",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "21, KEMAL ATATURK STREET",
       "city": "TUNIS 1001",
       "country": "Tunisia",
-      "country_iso_code": "TN"
+      "countryIsoCode": "TN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

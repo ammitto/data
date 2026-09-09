@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/35537",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/35537",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Son Mun San",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Son Mun San",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/35537"
   ],
   "remarks": "Son Mun San is the Director-General of the External Affairs Bureau of the General Bureau of Atomic Energy (GBAE).",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1951-01-23",
-      "circa": false
+      "circa": false,
+      "year": 1951
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

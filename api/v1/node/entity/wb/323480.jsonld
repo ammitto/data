@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/323480",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/323480",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "BMR CONSULTORIA Y CONSTRUCCIÓN S.A.C.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "BMR CONSULTORIA Y CONSTRUCCIÓN S.A.C.",
+      "isPrimary": true
     }
   ],
-  "remarks": "*306",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/323480"
+  ],
+  "remarks": "*306",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "CALLE BILBAO MZ. U LOTE 19, A.H., VILLA ESPANA, CHIMBOTE",
       "city": "ANCASH",
       "country": "Peru",
-      "country_iso_code": "PE"
+      "countryIsoCode": "PE"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/988459",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/988459",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "PARS TABLEAU AFGHANISTAN",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "PARS TABLEAU AFGHANISTAN",
+      "isPrimary": true
     }
   ],
-  "remarks": "(Reg. No: 115244) *696",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/988459"
+  ],
+  "remarks": "(Reg. No: 115244) *696",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "NO. 11, SARAK 2, GHALE FATHOLLAH, CENTRAL KABUL",
       "city": "KABUL",
       "country": "Afghanistan",
-      "country_iso_code": "AF"
+      "countryIsoCode": "AF"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,37 +1,55 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8116",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/8116",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Social Design Agency",
+      "@type": "NameVariant",
+      "fullName": "Social Design Agency",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Social Planning Agency",
+      "@type": "NameVariant",
+      "fullName": "Social Planning Agency",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Agentstvo Sotsialnogo Proektirovaniya",
+      "@type": "NameVariant",
+      "fullName": "Agentstvo Sotsialnogo Proektirovaniya",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "ASP",
+      "@type": "NameVariant",
+      "fullName": "ASP",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "http://sp-agency.ru; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8116"
+  ],
+  "remarks": "http://sp-agency.ru; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Solviny Pr, 18A, Fl 2, Pom I K 9A O 1 Moscow 117593 Russia;\nPr-kt novoyasenevskii, d. 32, k. 1, pomeshch 1/1 Moscow 117463 Russia;\nBolshoy Kislovsky, per 1, building 2 Moscow; Russia;\nBol'shaya Nikiskaya Ulitsa, 12cl Moscow 125009\t Russia",
       "country": "12cl Moscow 125009\t Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

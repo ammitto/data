@@ -1,32 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8118",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/8118",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "ANO Dialog",
+      "@type": "NameVariant",
+      "fullName": "ANO Dialog",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Autonomous Non-Profit Organization Dialog",
+      "@type": "NameVariant",
+      "fullName": "Autonomous Non-Profit Organization Dialog",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Dialog",
+      "@type": "NameVariant",
+      "fullName": "Dialog",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "http://www.anodialog.ru; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8118"
+  ],
+  "remarks": "http://www.anodialog.ru; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "st. Timura Frunze, d.11, p. 1, BC Demidov Moscow 119021 Russia",
       "country": "BC Demidov Moscow 119021 Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

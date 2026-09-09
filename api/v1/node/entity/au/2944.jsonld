@@ -1,48 +1,67 @@
 {
-  "id": "https://www.ammitto.org/entity/au/2944",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/2944",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "YAHYA HAQQANI",
+      "@type": "NameVariant",
+      "fullName": "YAHYA HAQQANI",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "يحيى حقانی",
+      "@type": "NameVariant",
+      "fullName": "يحيى حقانی",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Yaya",
+      "@type": "NameVariant",
+      "fullName": "Yaya",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Qari Sahab",
+      "@type": "NameVariant",
+      "fullName": "Qari Sahab",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "TAi.169 Senior Haqqani Network (HQN) (TE.H.12.12.) member. Closely involved in the group’s military, financial, and propaganda activities. Injured leg. Father’s name is Hajji Meyawar Khan (deceased).; Listing: Listed on 31 July 2014",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/2944"
   ],
-  "birth_info": [
+  "remarks": "TAi.169 Senior Haqqani Network (HQN) (TE.H.12.12.) member. Closely involved in the group’s military, financial, and propaganda activities. Injured leg. Father’s name is Hajji Meyawar Khan (deceased).; Listing: Listed on 31 July 2014",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1982
     },
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1978
     }
   ],
   "nationalities": [
     "Afghanistan"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "A Haqqani Madrassa in the Afghanistan/Pakistan Border Area",
       "country": "A Haqqani Madrassa in the Afghanistan/Pakistan Border Area"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

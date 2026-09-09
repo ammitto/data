@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/11924",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/11924",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Issam Anbouba",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Issam Anbouba",
+      "isPrimary": true
     }
   ],
-  "remarks": "Leading businessperson active in different sectors of the Syrian economy, such as agriculture, real estate, oil and banking. He continues profiting from his business empire that he was able to establish due to his close relations to the former al-Assad regime, via his offshore companies in Lebanon. He has financial relations with high-ranking Syrian officials and the Syrian business elite related to the former al-Assad regime. Co-founder of Cham Holding and shareholder in that company.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/11924"
+  ],
+  "remarks": "Leading businessperson active in different sectors of the Syrian economy, such as agriculture, real estate, oil and banking. He continues to profit from the business empire that he was able to establish due to his close relationship with the former al-Assad regime, via his offshore companies in Lebanon. He has financial relations with the Syrian business elite and high-ranking members of the former al-Assad regime, inter alia, via his roles in “Siloserv” and as Co-founder of Cham Holding.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1952-03-18",
-      "circa": false
+      "circa": false,
+      "year": 1952
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

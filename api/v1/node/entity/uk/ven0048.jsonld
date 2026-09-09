@@ -1,28 +1,48 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/ven0048",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/ven0048",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Munoz Palacios",
-      "first_name": "Miguel",
+      "@type": "NameVariant",
+      "fullName": "Munoz Palacios",
+      "firstName": "Miguel",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Miguel Antonio Muñoz Palacios",
+      "@type": "NameVariant",
+      "fullName": "Miguel Antonio Muñoz Palacios",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/ven0048"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "state": "Caracas",
       "country": "Venezuela"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

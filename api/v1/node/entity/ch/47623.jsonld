@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/47623",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/47623",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Shalaa Mohammed Makhlouf",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Shalaa Mohammed Makhlouf",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/47623"
   ],
   "remarks": "Daughter of Mohammed Makhlouf. Member of the Makhlouf family.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1967-03-22",
-      "circa": false
+      "circa": false,
+      "year": 1967
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

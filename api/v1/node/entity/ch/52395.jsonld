@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/52395",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/52395",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Khudaverdyan Tigran Oganesovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Khudaverdyan Tigran Oganesovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/52395"
   ],
   "remarks": "Tigran Khudaverdyan is former Executive Director and deputy CEO of Yandex N.V., having resigned from those positions following his designation by the Union. He remains among the top managers of Yandex, shaping the activities of the company.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1981-12-28",
-      "circa": false
+      "circa": false,
+      "year": 1981
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

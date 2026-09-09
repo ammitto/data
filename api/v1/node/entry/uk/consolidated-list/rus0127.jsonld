@@ -1,47 +1,65 @@
 {
-  "id": "https://www.ammitto.org/entry/uk/consolidated-list/rus0127",
-  "entity_id": "https://www.ammitto.org/entity/uk/rus0127",
+  "@id": "https://www.ammitto.org/entry/uk/consolidated-list/rus0127",
+  "@type": "SanctionEntry",
+  "entityId": "https://www.ammitto.org/entity/uk/rus0127",
   "authority": {
     "@id": "https://www.ammitto.org/authority/uk"
   },
   "regime": {
-    "@id": "https://www.ammitto.org/regime/the_russia_sanctions_eu_exit_regulations_2019"
+    "@id": "https://www.ammitto.org/regime/the_russia_sanctions_eu_exit_regulations_2019",
+    "name": "The Russia (Sanctions) (EU Exit) Regulations 2019"
   },
+  "legalBases": [
+
+  ],
   "effects": [
     {
-      "effect_type": "asset_freeze",
+      "@type": "SanctionEffect",
+      "effectType": "asset_freeze",
       "scope": "full"
     },
     {
-      "effect_type": "travel_ban",
+      "@type": "SanctionEffect",
+      "effectType": "travel_ban",
       "scope": "full"
     },
     {
-      "effect_type": "financial_restriction",
+      "@type": "SanctionEffect",
+      "effectType": "financial_restriction",
       "scope": "full"
     },
     {
-      "effect_type": "debarment",
+      "@type": "SanctionEffect",
+      "effectType": "debarment",
       "scope": "full"
     }
   ],
+  "reasons": [
+
+  ],
   "period": {
-    "listed_date": "2020-12-31",
-    "effective_date": "2020-12-31",
-    "is_indefinite": true,
-    "last_updated": "2025-04-09"
+    "@type": "TemporalPeriod",
+    "listedDate": "2020-12-31",
+    "effectiveDate": "2020-12-31",
+    "isIndefinite": true,
+    "lastUpdated": "2025-04-09"
   },
   "status": "active",
-  "reference_number": "RUS0127",
+  "statusHistory": [
+
+  ],
+  "referenceNumber": "RUS0127",
   "remarks": "\nFormer Minister for Crimean Affairs. Responsible for the integration of the annexed Autonomous Republic of Crimea into the Russian Federation. Former Deputy Chief of Staff of the Russian Government, responsible for the organisation of the work of the Governmental Commission on socio-economic development of the so-called \"Republic of Crimea\". Former Chief of Staff of the Accounts Chamber of the Russian Federation. Since September 2019 Auditor of the Accounts Chamber of the Russian Federation. The trust services sanctions were imposed on 21/03/2023.",
-  "raw_source_data": {
-    "source_format": "xml",
-    "source_specific_fields": {
+  "rawSourceData": {
+    "@type": "RawSourceData",
+    "sourceFormat": "xml",
+    "sourceSpecificFields": {
       "uk:ofsiGroupId": "12952",
+      "uk:unReferenceNumber": null,
       "uk:designationSource": "UK",
       "uk:sanctionsImposed": "Asset freeze|Travel Ban|Trust Services Sanctions|Director Disqualification Sanction",
       "uk:entityType": "Individual"
     }
   },
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

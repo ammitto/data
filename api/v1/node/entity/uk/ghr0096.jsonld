@@ -1,27 +1,43 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/ghr0096",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/ghr0096",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Heng He Casino",
+      "@type": "NameVariant",
+      "fullName": "Heng He Casino",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Heng Heng Casino",
+      "@type": "NameVariant",
+      "fullName": "Heng Heng Casino",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/ghr0096"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "3599+QX, Krong Bavet",
       "country": "Cambodia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

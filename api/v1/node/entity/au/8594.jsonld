@@ -1,45 +1,65 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8594",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/8594",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Yahya Hosseini Panjaki",
+      "@type": "NameVariant",
+      "fullName": "Yahya Hosseini Panjaki",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Yahya Hamidi",
+      "@type": "NameVariant",
+      "fullName": "Yahya Hamidi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Yahya Husseini Panjaki",
+      "@type": "NameVariant",
+      "fullName": "Yahya Husseini Panjaki",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Seyed Yahya Hamidi",
+      "@type": "NameVariant",
+      "fullName": "Seyed Yahya Hamidi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Seyed Yahya Hosseiny Panjaki",
+      "@type": "NameVariant",
+      "fullName": "Seyed Yahya Hosseiny Panjaki",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Iranian Ministry of Intelligence and Security (MOIS) Deputy Intelligence Minister for Internal Security Affairs;\n\nPassport No: T56344199 (expires 30 March 2027); Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Iran) List 2012",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8594"
   ],
-  "birth_info": [
+  "remarks": "Iranian Ministry of Intelligence and Security (MOIS) Deputy Intelligence Minister for Internal Security Affairs;\n\nPassport No: T56344199 (expires 30 March 2027); Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Iran) List 2012",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1975,
       "country": "Karaj"
     }
   ],
   "nationalities": [
     "Iran"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

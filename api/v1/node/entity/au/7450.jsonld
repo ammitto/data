@@ -1,32 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7450",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/7450",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Kurganmashzavod Public Joint Stock Company ",
+      "@type": "NameVariant",
+      "fullName": "Kurganmashzavod Public Joint Stock Company ",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Kurgan Machinery Plant",
+      "@type": "NameVariant",
+      "fullName": "Kurgan Machinery Plant",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "PJSC Kurgansky Mashinostroitelny Factory ",
+      "@type": "NameVariant",
+      "fullName": "PJSC Kurgansky Mashinostroitelny Factory ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Website: www.kurganmash.ru ; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 2) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7450"
+  ],
+  "remarks": "Website: www.kurganmash.ru ; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 2) Instrument 2023",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "17 Mashinostroitelny Ave. Letter 1J, Kurgan, 640021, Russia ",
       "country": "Russia "
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

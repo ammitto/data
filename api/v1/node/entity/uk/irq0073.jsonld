@@ -1,21 +1,42 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/irq0073",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/irq0073",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "AL-TIKRITI",
-      "first_name": "MUZAHIM",
+      "@type": "NameVariant",
+      "fullName": "AL-TIKRITI",
+      "firstName": "MUZAHIM",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "مزاحم صعب حسن التكريتي",
+      "@type": "NameVariant",
+      "fullName": "مزاحم صعب حسن التكريتي",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/irq0073"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,37 +1,55 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3054",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/3054",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "ABDALLAH AZZAM BRIGADES (AAB)",
+      "@type": "NameVariant",
+      "fullName": "ABDALLAH AZZAM BRIGADES (AAB)",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Abdullah Azzam Brigades",
+      "@type": "NameVariant",
+      "fullName": "Abdullah Azzam Brigades",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ziyad al-Jarrah Battalions of the Abdallah Azzam Brigades",
+      "@type": "NameVariant",
+      "fullName": "Ziyad al-Jarrah Battalions of the Abdallah Azzam Brigades",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Yusuf al-'Uyayri Battalions of the Abdallah Azzam Brigades",
+      "@type": "NameVariant",
+      "fullName": "Yusuf al-'Uyayri Battalions of the Abdallah Azzam Brigades",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "QDe.144. An armed group that has carried out joint attacks with Al-Nusrah Front for the People of the Levant (QDe.137). Review pursuant to Security Council resolution 2368 (2017) was concluded on 4 Dec. 2019. Review pursuant to Security Council resolution 2610 (2021) was concluded on 30 October 2023.; Listing: Listed by the 1267 Committee on 23 Sep. 2014 ( amended on 6 Dec. 2019, 30 Oct. 2023 )",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3054"
+  ],
+  "remarks": "QDe.144. An armed group that has carried out joint attacks with Al-Nusrah Front for the People of the Levant (QDe.137). Review pursuant to Security Council resolution 2368 (2017) was concluded on 4 Dec. 2019. Review pursuant to Security Council resolution 2610 (2021) was concluded on 30 October 2023.; Listing: Listed by the 1267 Committee on 23 Sep. 2014 ( amended on 6 Dec. 2019, 30 Oct. 2023 )",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "(Operates in Lebanon, Syria and the Arabian Peninsula)",
       "country": "Syria and the Arabian Peninsula)"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

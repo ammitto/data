@@ -1,35 +1,54 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7886",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7886",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Tina KANDELAKI",
+      "@type": "NameVariant",
+      "fullName": "Tina KANDELAKI",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Tinatin Givievna KANDELAKI",
+      "@type": "NameVariant",
+      "fullName": "Tinatin Givievna KANDELAKI",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Tinatin Hiviivna KANDELAKI",
+      "@type": "NameVariant",
+      "fullName": "Tinatin Hiviivna KANDELAKI",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "TV presenter and deputy CEO of Gazprom-Media; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2024",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7886"
   ],
-  "birth_info": [
+  "remarks": "TV presenter and deputy CEO of Gazprom-Media; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2024",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1975,
       "country": "Tbilisi"
     }
   ],
   "nationalities": [
-    "Georgia;Russia"
+    "Georgia",
+    "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

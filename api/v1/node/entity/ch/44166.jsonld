@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/44166",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/44166",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Burmistrau Ihar Paulavich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Burmistrau Ihar Paulavich",
+      "isPrimary": true
     }
   ],
-  "remarks": "In his former leadership position as First Deputy Commander of the Internal Troops of the Ministry of Internal Affairs, he was responsible for the repression and intimidation campaign led by the Internal Troops under his command in the wake of the 2020 presidential election, in particular arbitrary arrests and ill-treatment, including torture, of peaceful demonstrators as well as intimidation and violence against journalists. He was passed to the military reserve. He has the right to wear military uniform and insignia.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/44166"
+  ],
+  "remarks": "In his former leadership position as First Deputy Commander of the Internal Troops of the Ministry of Internal Affairs, he was responsible for the repression and intimidation campaign led by the Internal Troops under his command in the wake of the 2020 presidential election, in particular arbitrary arrests and ill-treatment, including torture, of peaceful demonstrators as well as intimidation and violence against journalists.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1968-09-30",
-      "circa": false
+      "circa": false,
+      "year": 1968
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/529559",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/529559",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "PT. BINA CIPTA UTAMA",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "PT. BINA CIPTA UTAMA",
+      "isPrimary": true
     }
   ],
-  "remarks": "*565",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/529559"
+  ],
+  "remarks": "*565",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "JL. CIDENG RAYA NO. 48 BLOK, STRIKEMBENG, RT/RW 003/001 DS. KERTAWINANGUN, KEC. KEDAWUNG",
       "city": "CIREBON, JAWA BARAT 45153",
       "country": "Indonesia",
-      "country_iso_code": "ID"
+      "countryIsoCode": "ID"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

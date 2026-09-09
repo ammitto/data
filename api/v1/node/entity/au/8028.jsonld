@@ -1,30 +1,47 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8028",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/8028",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Vadim Vladimirovich YAKOVENKO",
+      "@type": "NameVariant",
+      "fullName": "Vadim Vladimirovich YAKOVENKO",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Vadim Vladimirovich IAKOVENKO",
+      "@type": "NameVariant",
+      "fullName": "Vadim Vladimirovich IAKOVENKO",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Head of the Federal Agency for State Property Management (Rosimushchestvo); Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8028"
   ],
-  "birth_info": [
+  "remarks": "Head of the Federal Agency for State Property Management (Rosimushchestvo); Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1970,
       "country": "Sochi"
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

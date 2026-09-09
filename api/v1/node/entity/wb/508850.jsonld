@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/508850",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/508850",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "CESA DE GUATEMALA S.A.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "CESA DE GUATEMALA S.A.",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/508850"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "18 CALLE BLVD LOS PRÓCERES 24-69, ZONA 10. EDIFICIO EMPRESARIAL ZONA PRADERA, TORRE IV, NIVEL 11, OFICINA 1107",
       "city": "GUATEMALA CITY",
       "country": "Guatemala",
-      "country_iso_code": "GT"
+      "countryIsoCode": "GT"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

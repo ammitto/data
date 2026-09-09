@@ -1,22 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/au/6752",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/6752",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Alexander PONOMARENKO",
+      "@type": "NameVariant",
+      "fullName": "Alexander PONOMARENKO",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "Chairman of the Board of Sheremetyevo International Airport; Listing: Instrument of first designation and declaration Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Ukraine) Amendment (No. 6) Instrument 2022",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/6752"
   ],
-  "birth_info": [
+  "remarks": "Chairman of the Board of Sheremetyevo International Airport; Listing: Instrument of first designation and declaration Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Ukraine) Amendment (No. 6) Instrument 2022",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1964,
       "country": "Bilohirsk"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

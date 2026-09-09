@@ -1,20 +1,35 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/658736",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/658736",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "BIENES RAÍCES Y CONSTRUCCIONES NOSTROT S.A.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "BIENES RAÍCES Y CONSTRUCCIONES NOSTROT S.A.",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/658736"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "country": "Panama",
-      "country_iso_code": "PA"
+      "countryIsoCode": "PA"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/85502",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/85502",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Arkadzyeu Uladzimir Mihaylavych",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Arkadzyeu Uladzimir Mihaylavych",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/85502"
   ],
   "remarks": "Uladzimir Arkadzyeu is part-owner of Vlate Logistik LLC, a transport and storage company which holds the status of authorised economic operator. Through this status, issued by state authorities, it enjoys significant tax advantages. Through ownership of Vlate Logistik LLC, Arkadzyeu is associated with an entity benefitting from the Lukashenka regime.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1965-04-23",
-      "circa": false
+      "circa": false,
+      "year": 1965
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

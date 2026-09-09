@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/29305",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/29305",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Bereza Oleg Vladimirovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Bereza Oleg Vladimirovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/29305"
   ],
   "remarks": "Former so-called \"Internal affairs minister\" of the \"Donetsk People's Republic\". Associated with Vladimir Antyufeyev, who was responsible for the separatist \"governmental\" activities of the so-called \"Government of the Donetsk People's Republic\". He has therefore supported actions and policies which undermine the territorial integrity, sovereignty and independence of Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1977-03-01",
-      "circa": false
+      "circa": false,
+      "year": 1977
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

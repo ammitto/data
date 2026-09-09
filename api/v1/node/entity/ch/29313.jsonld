@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/29313",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/29313",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Karaman Aleksandr Akimovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Karaman Aleksandr Akimovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/29313"
   ],
   "remarks": "Former so-called “Deputy Prime Minister for Social Issues” of the “Donetsk People's Republic”. Associated with Vladimir Antyufeyev, who was responsible for the separatist “governmental” activities of the so-called “Government of the Donetsk People's Republic”. He has therefore supported actions and policies which undermine the territorial integrity, sovereignty and independence of Ukraine. Protégé of Russia's former Deputy Prime Minister Dmitry Rogozin. Former Head of the Administration of the Council of Ministers of the “Donetsk People's Republic”.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1956-07-26",
-      "circa": false
+      "circa": false,
+      "year": 1956
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

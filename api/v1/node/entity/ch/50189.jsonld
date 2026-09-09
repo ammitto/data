@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/50189",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/50189",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Pevtsov Dmitriy Anatolyevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Pevtsov Dmitriy Anatolyevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/50189"
   ],
   "remarks": "Member of the State Duma who ratified the government decisions of the Treaty of Friendship, Cooperation and Mutual Assistance between the Russian Federation and the Donetsk People's Republic and between the Russian Federation and the Luhansk People's Republic.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1963-07-08",
-      "circa": false
+      "circa": false,
+      "year": 1963
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

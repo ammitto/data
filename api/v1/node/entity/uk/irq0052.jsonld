@@ -1,26 +1,43 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/irq0052",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/irq0052",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "AVIATRANS ANSTALT",
+      "@type": "NameVariant",
+      "fullName": "AVIATRANS ANSTALT",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "AVIATRANS ESTABLISHMENT",
+      "@type": "NameVariant",
+      "fullName": "AVIATRANS ESTABLISHMENT",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/irq0052"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "state": "Ruggell",
       "country": "Liechtenstein"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

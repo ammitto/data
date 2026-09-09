@@ -1,29 +1,45 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus2249",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus2249",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Jinhua Hairun Power Technology Co., Ltd ",
+      "@type": "NameVariant",
+      "fullName": "Jinhua Hairun Power Technology Co., Ltd ",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "金华市海润动力科技有限公司 ",
+      "@type": "NameVariant",
+      "fullName": "金华市海润动力科技有限公司 ",
       "script": "Hani",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus2249"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "No. 260, Chang'an Road, Jiangbin Industrial Zone",
       "city": "Jinhua City",
       "state": "Zhejiang Province",
       "country": "China"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

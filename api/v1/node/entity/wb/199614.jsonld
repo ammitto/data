@@ -1,23 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/199614",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/wb/199614",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MR. ERICK RODOLFO GONZÁLEZ CHÁVEZ",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "MR. ERICK RODOLFO GONZÁLEZ CHÁVEZ",
+      "isPrimary": true
     }
   ],
-  "remarks": "*143",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/199614"
+  ],
+  "remarks": "*143",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "BOULEVARD SAN CRISTOBAL 12-13, ZONA 8 MIXCO",
       "city": "GUATEMALA CITY",
       "country": "Guatemala",
-      "country_iso_code": "GT"
+      "countryIsoCode": "GT"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

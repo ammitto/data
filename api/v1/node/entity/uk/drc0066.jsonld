@@ -1,32 +1,53 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/drc0066",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/drc0066",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "AMURI YAKUTUMBA",
-      "first_name": "William",
+      "@type": "NameVariant",
+      "fullName": "AMURI YAKUTUMBA",
+      "firstName": "William",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "YAKUTUMBA",
-      "first_name": "William",
+      "@type": "NameVariant",
+      "fullName": "YAKUTUMBA",
+      "firstName": "William",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "YAKUTUMBA",
+      "@type": "NameVariant",
+      "fullName": "YAKUTUMBA",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/drc0066"
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "country": "Congo (Democratic Republic)"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

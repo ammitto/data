@@ -1,28 +1,50 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/som0008",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/som0008",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MANA'A",
-      "first_name": "FARES",
+      "@type": "NameVariant",
+      "fullName": "MANA'A",
+      "firstName": "FARES",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Manaa",
-      "first_name": "Fares",
+      "@type": "NameVariant",
+      "fullName": "Manaa",
+      "firstName": "Fares",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Mana'a",
-      "first_name": "Faris",
+      "@type": "NameVariant",
+      "fullName": "Mana'a",
+      "firstName": "Faris",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/som0008"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

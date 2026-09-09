@@ -1,30 +1,47 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7224",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7224",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Aleksandr Yakovlevich Shkolnik",
+      "@type": "NameVariant",
+      "fullName": "Aleksandr Yakovlevich Shkolnik",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Alexander Yakovlevich Shkolnik",
+      "@type": "NameVariant",
+      "fullName": "Alexander Yakovlevich Shkolnik",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Director of Central Museum of the Great Patriotic War and Chairman of the Presidium of the Foundation for Strategic Initiatives of the Victory Museum in Russia; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 17) Instrument 2022",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7224"
   ],
-  "birth_info": [
+  "remarks": "Director of Central Museum of the Great Patriotic War and Chairman of the Presidium of the Foundation for Strategic Initiatives of the Victory Museum in Russia; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 17) Instrument 2022",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1964,
       "country": "Nizhny Tagil"
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

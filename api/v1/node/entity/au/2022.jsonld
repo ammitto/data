@@ -1,27 +1,43 @@
 {
-  "id": "https://www.ammitto.org/entity/au/2022",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/2022",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Eyvaz Technic",
+      "@type": "NameVariant",
+      "fullName": "Eyvaz Technic",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Eyvaz Technic Industrial Company Ltd",
+      "@type": "NameVariant",
+      "fullName": "Eyvaz Technic Industrial Company Ltd",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Listing: Designated under the Autonomous Sanctions Regulations 2011 on 2 March 2012 (F2012L00479). Relisted 12 January 2024",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/2022"
+  ],
+  "remarks": "Listing: Designated under the Autonomous Sanctions Regulations 2011 on 2 March 2012 (F2012L00479). Relisted 12 January 2024",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "No. 3 Building 3, Shahid Hamid Sadigh Alley, Shari’ati Street, Tehran;\nSharia ati St, Shahid Hamid Sadik Alley, building 3, Number 3, Tehran, Iran",
       "country": "Iran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

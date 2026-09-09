@@ -1,34 +1,57 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus1770",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/rus1770",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "PESKOV",
-      "first_name": "Dmitry",
+      "@type": "NameVariant",
+      "fullName": "PESKOV",
+      "firstName": "Dmitry",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "PESKOV",
-      "first_name": "Dmitri",
+      "@type": "NameVariant",
+      "fullName": "PESKOV",
+      "firstName": "Dmitri",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "PESKOV",
-      "first_name": "Dmitriy",
+      "@type": "NameVariant",
+      "fullName": "PESKOV",
+      "firstName": "Dmitriy",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Песков Дмитрий Николаевич  ",
+      "@type": "NameVariant",
+      "fullName": "Песков Дмитрий Николаевич  ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus1770"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

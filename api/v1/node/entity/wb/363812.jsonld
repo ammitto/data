@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/363812",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/363812",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "PT. GUNAKARYA NUSANTARA",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "PT. GUNAKARYA NUSANTARA",
+      "isPrimary": true
     }
   ],
-  "remarks": "*451",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/363812"
+  ],
+  "remarks": "*451",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "JL. SURYALAYA XVIII NO. 13 – 15, BUAH BATU, BANDUNG 40265",
       "city": "WEST JAVA",
       "country": "Indonesia",
-      "country_iso_code": "ID"
+      "countryIsoCode": "ID"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

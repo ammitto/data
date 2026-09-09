@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/7071",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/7071",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Zimondi Paradzai Willings",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Zimondi Paradzai Willings",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/7071"
   ],
   "remarks": "Member of Joint Operational Command and complicit in forming or directing oppressive state policy. Responsible for funding and accommodating militias in 2008. Ordered prison officers to vote for Mugabe, and responsible for human rights abuses in prisons.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1947-03-04",
-      "circa": false
+      "circa": false,
+      "year": 1947
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/46365",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/46365",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kolpikov Yevgeniy Sergeevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kolpikov Yevgeniy Sergeevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/46365"
   ],
   "remarks": "Prosecutor of the Military Prosecutor’s Office of the Southern Military District of the Russian Federation in Rostov-on-Don.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1974-05-06",
-      "circa": false
+      "circa": false,
+      "year": 1974
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

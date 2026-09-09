@@ -1,62 +1,88 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus0077",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/rus0077",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Berezovskiy",
-      "first_name": "Denis",
+      "@type": "NameVariant",
+      "fullName": "Berezovskiy",
+      "firstName": "Denis",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
+      "@type": "NameVariant",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Berezocskiy",
-      "first_name": "Denis",
+      "@type": "NameVariant",
+      "fullName": "Berezocskiy",
+      "firstName": "Denis",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Berezocskiy",
-      "first_name": "Denys",
+      "@type": "NameVariant",
+      "fullName": "Berezocskiy",
+      "firstName": "Denys",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Berezovskiy",
-      "first_name": "Denys",
+      "@type": "NameVariant",
+      "fullName": "Berezovskiy",
+      "firstName": "Denys",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Berezovsky",
-      "first_name": "Denis",
+      "@type": "NameVariant",
+      "fullName": "Berezovsky",
+      "firstName": "Denis",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Berezovsky",
-      "first_name": "Denys",
+      "@type": "NameVariant",
+      "fullName": "Berezovsky",
+      "firstName": "Denys",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Денис Валентинович БЕРЕЗОВСКИЙ",
+      "@type": "NameVariant",
+      "fullName": "Денис Валентинович БЕРЕЗОВСКИЙ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus0077"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "state": "Crimea",
       "country": "Ukraine"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

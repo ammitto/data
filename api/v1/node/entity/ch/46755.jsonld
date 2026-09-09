@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/46755",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/46755",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Karsiuk Dzmitry Siarheevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Karsiuk Dzmitry Siarheevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/46755"
   ],
   "remarks": "In his position as judge at the Central District of the City of Minsk Court, Dzmitriy Karsiuk is responsible for numerous politically motivated rulings against peaceful protesters, in particular the sentencing of Yahor Viarshynin, Pavel Lukoyanov, Artsiom Sakovich and Mikalai Shemetau, who are recognised as political prisoners by Belarusian Human rights organisation Viasna. He has sentenced people to penal colony, prison and house arrest for taking part in peaceful protests, posts on social media, use of the white-red-white flag of Belarus and other exercises of civil freedoms. He is therefore responsible for serious human rights violations and for seriously undermining the rule of law, as well as for the repression of civil society and democratic opposition.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1995-07-07",
-      "circa": false
+      "circa": false,
+      "year": 1995
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

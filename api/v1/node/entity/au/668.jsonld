@@ -1,30 +1,47 @@
 {
-  "id": "https://www.ammitto.org/entity/au/668",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/668",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MIZBAN KHADR HADI",
+      "@type": "NameVariant",
+      "fullName": "MIZBAN KHADR HADI",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "مزبان خضر هادي",
+      "@type": "NameVariant",
+      "fullName": "مزبان خضر هادي",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "IQi.023; Listing: Listed by the 1518 Committee",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/668"
   ],
-  "birth_info": [
+  "remarks": "IQi.023; Listing: Listed by the 1518 Committee",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1938,
       "country": "Mandali District"
     }
   ],
   "nationalities": [
     "Iraq"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

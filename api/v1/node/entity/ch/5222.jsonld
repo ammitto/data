@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/5222",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/5222",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Chasnouski Mechyslau Edvardavich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Chasnouski Mechyslau Edvardavich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/5222"
   ],
   "remarks": "Rector of Brest State University. Responsible for the expulsion of students involved in protests following the December 2010 elections.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1948-05-18",
-      "circa": false
+      "circa": false,
+      "year": 1948
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

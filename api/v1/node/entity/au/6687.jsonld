@@ -1,52 +1,73 @@
 {
-  "id": "https://www.ammitto.org/entity/au/6687",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/6687",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "EXIAR",
+      "@type": "NameVariant",
+      "fullName": "EXIAR",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Russian Agency for Export Credit and Investment Insurance OJSC",
+      "@type": "NameVariant",
+      "fullName": "Russian Agency for Export Credit and Investment Insurance OJSC",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "EKSAR OAO",
+      "@type": "NameVariant",
+      "fullName": "EKSAR OAO",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "EXIAR JSC",
+      "@type": "NameVariant",
+      "fullName": "EXIAR JSC",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "EXIAR OJSC",
+      "@type": "NameVariant",
+      "fullName": "EXIAR OJSC",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Rossiskoe Agentstvo Po Strakhovaniyu Eksportnykh Kreditov I Investitsi Otkrytoe Aktsionernoe Obshchestvo",
+      "@type": "NameVariant",
+      "fullName": "Rossiskoe Agentstvo Po Strakhovaniyu Eksportnykh Kreditov I Investitsi Otkrytoe Aktsionernoe Obshchestvo",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Russian Agency for Export Credit and Investment Insurance JSC",
+      "@type": "NameVariant",
+      "fullName": "Russian Agency for Export Credit and Investment Insurance JSC",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Website: exiar.ru; Listing: Instrument of first designation and declaration: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 3) Instrument 2022",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/6687"
+  ],
+  "remarks": "Website: exiar.ru; Listing: Instrument of first designation and declaration: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 3) Instrument 2022",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "nab. Krasnopresnenskaya d. 12, Moscow 123610, Russia",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

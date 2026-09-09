@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/64729",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/64729",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Sematama Charles",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Sematama Charles",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/64729"
   ],
   "remarks": "Charles Sematama is a former officer of the Congolese armed forces (FARDC) and holds the leading position of Commander and Military leader of the non-governmental armed group Twirwaneho operating in South Kivu, which claims to represent the Banyamulenge Community.",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1975
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

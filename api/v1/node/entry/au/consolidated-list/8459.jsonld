@@ -1,37 +1,47 @@
 {
-  "id": "https://www.ammitto.org/entry/au/consolidated-list/8459",
-  "entity_id": "https://www.ammitto.org/entity/au/8459",
+  "@id": "https://www.ammitto.org/entry/au/consolidated-list/8459",
+  "@type": "SanctionEntry",
+  "entityId": "https://www.ammitto.org/entity/au/8459",
   "authority": {
     "@id": "https://www.ammitto.org/authority/au"
   },
   "regime": {
-    "@id": "https://www.ammitto.org/regime/au_iran_1737"
+    "@id": "https://www.ammitto.org/regime/au_iran_1737",
+    "name": "Iran (UNSCR 1737)"
   },
-  "legal_bases": [
+  "legalBases": [
     {
-      "type": "regulation",
-      "identifier": "Charter of the United Nations (Sanctions - Iran) Regulations 2025",
-      "title": "Charter of the United Nations (Sanctions - Iran) Regulations 2025"
+      "@id": "https://www.ammitto.org/legal-instrument/au/charter-of-the-united-nations-sanctions-iran-regulations-2025"
     }
   ],
   "effects": [
     {
-      "effect_type": "asset_freeze",
+      "@type": "SanctionEffect",
+      "effectType": "asset_freeze",
       "scope": "full"
     },
     {
-      "effect_type": "travel_ban",
+      "@type": "SanctionEffect",
+      "effectType": "travel_ban",
       "scope": "full"
     }
   ],
+  "reasons": [
+
+  ],
   "period": {
-    "is_indefinite": true
+    "@type": "TemporalPeriod",
+    "isIndefinite": true
   },
   "status": "active",
-  "reference_number": "8459",
-  "raw_source_data": {
-    "source_format": "csv",
-    "source_specific_fields": {
+  "statusHistory": [
+
+  ],
+  "referenceNumber": "8459",
+  "rawSourceData": {
+    "@type": "RawSourceData",
+    "sourceFormat": "csv",
+    "sourceSpecificFields": {
       "au:reference": "8459",
       "au:committees": "1737 (Iran)",
       "au:control_date": "2025-12-12",
@@ -39,5 +49,5 @@
       "au:listing_info": "Listed by the 1737 Committee on 3 March 2008 (amended on 17 December 2014)"
     }
   },
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

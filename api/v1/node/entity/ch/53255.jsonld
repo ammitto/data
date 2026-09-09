@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/53255",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/53255",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Oprischenko Aleksandr Aleksandrovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Oprischenko Aleksandr Aleksandrovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/53255"
   ],
   "remarks": "Former so-called “Acting Minister of Health” of the so-called “Donetsk People’s Republic” and current “First Deputy Minister of Healthcare”. In taking on and acting in those capacities, he has actively undermined the territorial integrity, sovereignty and independence of Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1976-04-24",
-      "circa": false
+      "circa": false,
+      "year": 1976
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

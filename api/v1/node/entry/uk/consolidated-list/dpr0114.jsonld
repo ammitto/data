@@ -1,28 +1,46 @@
 {
-  "id": "https://www.ammitto.org/entry/uk/consolidated-list/dpr0114",
-  "entity_id": "https://www.ammitto.org/entity/uk/dpr0114",
+  "@id": "https://www.ammitto.org/entry/uk/consolidated-list/dpr0114",
+  "@type": "SanctionEntry",
+  "entityId": "https://www.ammitto.org/entity/uk/dpr0114",
   "authority": {
     "@id": "https://www.ammitto.org/authority/uk"
   },
   "regime": {
-    "@id": "https://www.ammitto.org/regime/the_democratic_people_s_republic_of_korea_sanctions_eu_exit_regulations_2019"
+    "@id": "https://www.ammitto.org/regime/the_democratic_people_s_republic_of_korea_sanctions_eu_exit_regu",
+    "name": "The Democratic People's Republic of Korea (Sanctions) (EU Exit) Regulations 2019"
   },
+  "legalBases": [
+
+  ],
+  "effects": [
+
+  ],
+  "reasons": [
+
+  ],
   "period": {
-    "listed_date": "2018-03-30",
-    "effective_date": "2018-03-30",
-    "is_indefinite": true,
-    "last_updated": "2021-12-18"
+    "@type": "TemporalPeriod",
+    "listedDate": "2018-03-30",
+    "effectiveDate": "2018-03-30",
+    "isIndefinite": true,
+    "lastUpdated": "2021-12-18"
   },
   "status": "active",
-  "reference_number": "DPR0114",
+  "statusHistory": [
+
+  ],
+  "referenceNumber": "DPR0114",
   "remarks": "\n",
-  "raw_source_data": {
-    "source_format": "xml",
-    "source_specific_fields": {
+  "rawSourceData": {
+    "@type": "RawSourceData",
+    "sourceFormat": "xml",
+    "sourceSpecificFields": {
+      "uk:ofsiGroupId": null,
+      "uk:unReferenceNumber": null,
       "uk:designationSource": "UN",
       "uk:sanctionsImposed": "De-flag|Prohibition of port entry",
       "uk:entityType": "Ship"
     }
   },
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

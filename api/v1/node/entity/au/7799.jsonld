@@ -1,60 +1,83 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7799",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7799",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Alexander SAMOFAL",
+      "@type": "NameVariant",
+      "fullName": "Alexander SAMOFAL",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Alexander Alexandrovich SAMOFAL",
+      "@type": "NameVariant",
+      "fullName": "Alexander Alexandrovich SAMOFAL",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Aleksandr Aleksandrovich SAMOFAL",
+      "@type": "NameVariant",
+      "fullName": "Aleksandr Aleksandrovich SAMOFAL",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Aleksander Aleksandrovich SAMOFAL",
+      "@type": "NameVariant",
+      "fullName": "Aleksander Aleksandrovich SAMOFAL",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Alexandr Alexandrovich SAMOFAL",
+      "@type": "NameVariant",
+      "fullName": "Alexandr Alexandrovich SAMOFAL",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Alexandr SAMOFAL",
+      "@type": "NameVariant",
+      "fullName": "Alexandr SAMOFAL",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Aleksandr Aleksandrovitj SAMOFAL",
+      "@type": "NameVariant",
+      "fullName": "Aleksandr Aleksandrovitj SAMOFAL",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Alexander Alexandrovič SAMOFAL",
+      "@type": "NameVariant",
+      "fullName": "Alexander Alexandrovič SAMOFAL",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Officer at the Federal Security Service (FSB) Second Service (the Service for Protecting the Constitutional System and Combating Terrorism); Listing: Instrument of first designation and declaration: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Thematic Sanctions) Amendment (No. 3) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7799"
   ],
-  "birth_info": [
+  "remarks": "Officer at the Federal Security Service (FSB) Second Service (the Service for Protecting the Constitutional System and Combating Terrorism); Listing: Instrument of first designation and declaration: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Thematic Sanctions) Amendment (No. 3) Instrument 2023",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1981,
       "country": "Moscow"
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

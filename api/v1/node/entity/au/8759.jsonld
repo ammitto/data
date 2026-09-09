@@ -1,32 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8759",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/8759",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Joint Stock Company Interregional Registration Center",
+      "@type": "NameVariant",
+      "fullName": "Joint Stock Company Interregional Registration Center",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Joint stock company MRC",
+      "@type": "NameVariant",
+      "fullName": "Joint stock company MRC",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "AKTSIONERNE TOVARYSTVO MIZHREHIONALNYI REIESTRATORSKYI TSENTR",
+      "@type": "NameVariant",
+      "fullName": "AKTSIONERNE TOVARYSTVO MIZHREHIONALNYI REIESTRATORSKYI TSENTR",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Website: https://mrz.ru/en/; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2026",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8759"
+  ],
+  "remarks": "Website: https://mrz.ru/en/; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2026",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "26, Str. 2, Podsosensky per., Moscow, 05062, Russia",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

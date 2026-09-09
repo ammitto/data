@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/82388",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/82388",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ali Sayyid Muhamed Mustafa Bakri",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Ali Sayyid Muhamed Mustafa Bakri",
+      "isPrimary": true
     }
   ],
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/82388"
+  ],
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1966-04-18",
-      "circa": false
+      "circa": false,
+      "year": 1966
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,31 +1,54 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/irn0249",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/irn0249",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
+      "@type": "NameVariant",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "SHAMKHANI",
-      "first_name": "Hossein",
+      "@type": "NameVariant",
+      "fullName": "SHAMKHANI",
+      "firstName": "Hossein",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "SHAMKHANI",
-      "first_name": "Hector",
+      "@type": "NameVariant",
+      "fullName": "SHAMKHANI",
+      "firstName": "Hector",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "شمخانی حسین",
+      "@type": "NameVariant",
+      "fullName": "شمخانی حسین",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/irn0249"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

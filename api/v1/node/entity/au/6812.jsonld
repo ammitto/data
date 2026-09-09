@@ -1,22 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/au/6812",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/6812",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Oleg Leonidovich VOINOV",
+      "@type": "NameVariant",
+      "fullName": "Oleg Leonidovich VOINOV",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "Head of the International Military Cooperation Department of the Belarusian Ministry of Defense; Assistant to the Minister of Defense for International Military Cooperation; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 10) Instrument 2022",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/6812"
   ],
-  "birth_info": [
+  "remarks": "Head of the International Military Cooperation Department of the Belarusian Ministry of Defense; Assistant to the Minister of Defense for International Military Cooperation; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 10) Instrument 2022",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1967,
       "country": "Dnepropetrovsk"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

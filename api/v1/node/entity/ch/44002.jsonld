@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/44002",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/44002",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Buzouski Ihar Ivanavich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Buzouski Ihar Ivanavich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/44002"
   ],
   "remarks": "In his leadership position as Deputy Minister of Information, he is responsible for the repression of civil society, in particular the Ministry of Information decision to cut off access to independent websites and limit internet access in Belarus in the wake of the 2020 presidential election, as a tool of repression of civil society, peaceful demonstrators and journalists.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1972-07-10",
-      "circa": false
+      "circa": false,
+      "year": 1972
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/29717",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/29717",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kofman Aleksandr Igorevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kofman Aleksandr Igorevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/29717"
   ],
   "remarks": "Former so-called \"Foreign Minister\" and so-called \"First deputy speaker\" of the \"Parliament\" of the \"Donetsk People's Republic\". Stood as a candidate in the so-called illegal \"elections\" of 2 Nov 2014 to the post of so-called \"Head\" of the \"Donetsk People's Republic\". These elections were in breach of Ukrainian law and therefore illegal.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1977-08-30",
-      "circa": false
+      "circa": false,
+      "year": 1977
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

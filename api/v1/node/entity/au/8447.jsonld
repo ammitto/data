@@ -1,31 +1,51 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8447",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/8447",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Gran Grif",
+      "@type": "NameVariant",
+      "fullName": "Gran Grif",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Gran Grif De Savien",
+      "@type": "NameVariant",
+      "fullName": "Gran Grif De Savien",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Savien Gang",
+      "@type": "NameVariant",
+      "fullName": "Savien Gang",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Baz Gran Grif",
+      "@type": "NameVariant",
+      "fullName": "Baz Gran Grif",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "HTe.001. Luckson Elan (HTi.007) is the leader of the Gran Grif gang.; Listing: Listed by UN 2653 Committee on 8 July 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8447"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "remarks": "HTe.001. Luckson Elan (HTi.007) is the leader of the Gran Grif gang.; Listing: Listed by UN 2653 Committee on 8 July 2025",
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

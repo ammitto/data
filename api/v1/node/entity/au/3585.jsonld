@@ -1,46 +1,63 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3585",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/3585",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Abd Al-Rahman al-Milad",
+      "@type": "NameVariant",
+      "fullName": "Abd Al-Rahman al-Milad",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Abdurahman Salem Ibrahim Milad",
+      "@type": "NameVariant",
+      "fullName": "Abdurahman Salem Ibrahim Milad",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Rahman Salim Milad",
+      "@type": "NameVariant",
+      "fullName": "Rahman Salim Milad",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "al-Bija",
+      "@type": "NameVariant",
+      "fullName": "al-Bija",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "LYi.026. Commander of the Coast Guard in Zawiya. Libya Passport no: na Libya G52FYPRL, issued on 8 May 2014 (Date of\nexpiration: 7 May 2022); Listing: Listed on: 7 Jun. 2018 (amended on 29 Apr. 2021)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3585"
   ],
-  "birth_info": [
+  "remarks": "LYi.026. Commander of the Coast Guard in Zawiya. Libya Passport no: na Libya G52FYPRL, issued on 8 May 2014 (Date of\nexpiration: 7 May 2022); Listing: Listed on: 7 Jun. 2018 (amended on 29 Apr. 2021)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1986,
       "country": "Tripoli"
     }
   ],
   "nationalities": [
     "Libya"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Zawiya, Libya",
       "country": "Libya"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

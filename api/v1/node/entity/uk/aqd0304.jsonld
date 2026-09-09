@@ -1,51 +1,74 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/aqd0304",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/aqd0304",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "GASMI",
-      "first_name": "SALAH",
+      "@type": "NameVariant",
+      "fullName": "GASMI",
+      "firstName": "SALAH",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Bounouader",
+      "@type": "NameVariant",
+      "fullName": "Bounouader",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Bounouadher",
+      "@type": "NameVariant",
+      "fullName": "Bounouadher",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Malek",
-      "first_name": "Abou",
+      "@type": "NameVariant",
+      "fullName": "Malek",
+      "firstName": "Abou",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Salah",
-      "first_name": "Abou",
+      "@type": "NameVariant",
+      "fullName": "Salah",
+      "firstName": "Abou",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "صالح قاسمي",
+      "@type": "NameVariant",
+      "fullName": "صالح قاسمي",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Belongs to the leadership and is in charge of information committee of the Organization of Al-Qaida in the Islamic Maghreb (QDe.014). Mother’s name is Yamina Soltane. Father’s name is Abdelaziz. Associated with Abdelmalek Droukdel (QDi.232, reported deceased in June 2020). Arrested in Algeria on 16 Dec. 2012. Incarcerated at the El-Harrach prison in Algiers, as of August 2015. Incarcerated in the Blida penitentiary, Algeria as of November 2023. Photograph and fingerprints available for inclusion in INTERPOL-UNSC Special Notice. Review pursuant to Security Council resolution 2368 (2017) was concluded on 24 November 2020. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/aqd0304"
+  ],
+  "remarks": "Belongs to the leadership and is in charge of information committee of the Organization of Al-Qaida in the Islamic Maghreb (QDe.014). Mother’s name is Yamina Soltane. Father’s name is Abdelaziz. Associated with Abdelmalek Droukdel (QDi.232, reported deceased in June 2020). Arrested in Algeria on 16 Dec. 2012. Incarcerated at the El-Harrach prison in Algiers, as of August 2015. Incarcerated in the Blida penitentiary, Algeria as of November 2023. Photograph and fingerprints available for inclusion in INTERPOL-UNSC Special Notice. Review pursuant to Security Council resolution 2368 (2017) was concluded on 24 November 2020. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "No. 7250 Zeribat El Oued",
       "state": "Biskra",
       "country": "Algeria"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

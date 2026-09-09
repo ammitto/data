@@ -1,31 +1,52 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8471",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/8471",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "SEYYED HUSSEIN HOSSEINI",
+      "@type": "NameVariant",
+      "fullName": "SEYYED HUSSEIN HOSSEINI",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Syed Husain Husaini",
+      "@type": "NameVariant",
+      "fullName": "Syed Husain Husaini",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Syed Husein Huseini",
+      "@type": "NameVariant",
+      "fullName": "Syed Husein Huseini",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "IRi.019. Designation: AEOI official involved in the heavy water research reactor project at Arak. Passport no: K8196482; Listing: Listed by the 1737 Committee on 3 March 2008 (amended on 17 December 2014)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8471"
   ],
-  "birth_info": [
+  "remarks": "IRi.019. Designation: AEOI official involved in the heavy water research reactor project at Arak. Passport no: K8196482; Listing: Listed by the 1737 Committee on 3 March 2008 (amended on 17 December 2014)",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1973
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

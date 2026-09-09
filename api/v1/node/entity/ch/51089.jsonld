@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/51089",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/51089",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Boguslavsky Ivan Josephovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Boguslavsky Ivan Josephovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/51089"
   ],
   "remarks": "Ivan Boguslavsky has held the position of Head of the Chief Military Inspectorate of the Armed Forces in the Belarusian Ministry of Defence. He is currently reassigned to the reserves.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1968-08-04",
-      "circa": false
+      "circa": false,
+      "year": 1968
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/195956",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/195956",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "INFORMATION COMPUTER SYSTEMS, CJSC",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "INFORMATION COMPUTER SYSTEMS, CJSC",
+      "isPrimary": true
     }
   ],
-  "remarks": "*219,  *328",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/195956"
+  ],
+  "remarks": "*219,  *328",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "31-33 SMOLENSKA STR.",
       "city": "KYIV, 03005",
       "country": "Ukraine",
-      "country_iso_code": "UA"
+      "countryIsoCode": "UA"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

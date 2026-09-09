@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/85259",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/85259",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Piatrou Aleh Uladzimiravych",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Piatrou Aleh Uladzimiravych",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/85259"
   ],
   "remarks": "Aleh Piatrou is part-owner of Vlate Logistik LLC, a transport and storage company which holds a status of authorised economic operator. Through this status, issued by state authorities, it enjoys significant tax advantages. Through the privileges awarded to the company, Piatrou benefits from the Lukashenka regime.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1962-03-26",
-      "circa": false
+      "circa": false,
+      "year": 1962
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

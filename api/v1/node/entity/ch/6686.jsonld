@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/6686",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/6686",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Muchinguri Oppah Chamu Zvipange",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Muchinguri Oppah Chamu Zvipange",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/6686"
   ],
   "remarks": "Former ZANU-PF member of the Government, remains a member of ZANU-PF Politburo. Played a lead role in the violence in Masvingo province in 2008.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1958-12-14",
-      "circa": false
+      "circa": false,
+      "year": 1958
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

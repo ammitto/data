@@ -1,88 +1,121 @@
 {
-  "id": "https://www.ammitto.org/entity/au/1234",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/1234",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "SAID JAN  ‘ABD AL-SALAM",
+      "@type": "NameVariant",
+      "fullName": "SAID JAN  ‘ABD AL-SALAM",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "سعید جان عبد السلام",
+      "@type": "NameVariant",
+      "fullName": "سعید جان عبد السلام",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Sa'id Jan 'Abd-al-Salam ",
+      "@type": "NameVariant",
+      "fullName": "Sa'id Jan 'Abd-al-Salam ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Dilawar Khan Zain Khan",
+      "@type": "NameVariant",
+      "fullName": "Dilawar Khan Zain Khan",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Qazi 'Abdallah ",
+      "@type": "NameVariant",
+      "fullName": "Qazi 'Abdallah ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Qazi Abdullah ",
+      "@type": "NameVariant",
+      "fullName": "Qazi Abdullah ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ibrahim Walid ",
+      "@type": "NameVariant",
+      "fullName": "Ibrahim Walid ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Qasi Sa'id Jan ",
+      "@type": "NameVariant",
+      "fullName": "Qasi Sa'id Jan ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Said Jhan ",
+      "@type": "NameVariant",
+      "fullName": "Said Jhan ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Farhan Khan ",
+      "@type": "NameVariant",
+      "fullName": "Farhan Khan ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Aziz Cairo ",
+      "@type": "NameVariant",
+      "fullName": "Aziz Cairo ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Nangiali ",
+      "@type": "NameVariant",
+      "fullName": "Nangiali ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Passport no.: a) Afghan passport number OR801168, issued on 28 Feb. 2006 , expired 27 Feb. 2011, under name Said Jan 'Abd al-Salam  b) Pakistani passport number 4117921, issued on 9 Sep. 2008 , expired 9 Sep. 2013, issued under name Dilawar Khan Zain Khan  National identification no.: Kuwaiti Civil Identification number 281020505755, under name Said Jan 'Abd al-Salam.  In approximately 2005, ran a \"basic training\" camp for Al-Qaida (QDe.004) in Pakistan. Review pursuant to Security Council resolution 2253 (2015) was concluded on 21 February 2019. Review pursuant to Security Council resolution 2610 (2021) was concluded on 8 November 2022.; Listing: Listed on: 9 Feb. 2011 (amended on 1 May 2019, 14 Nov. 2023)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/1234"
   ],
-  "birth_info": [
+  "remarks": "Passport no.: a) Afghan passport number OR801168, issued on 28 Feb. 2006 , expired 27 Feb. 2011, under name Said Jan 'Abd al-Salam  b) Pakistani passport number 4117921, issued on 9 Sep. 2008 , expired 9 Sep. 2013, issued under name Dilawar Khan Zain Khan  National identification no.: Kuwaiti Civil Identification number 281020505755, under name Said Jan 'Abd al-Salam.  In approximately 2005, ran a \"basic training\" camp for Al-Qaida (QDe.004) in Pakistan. Review pursuant to Security Council resolution 2253 (2015) was concluded on 21 February 2019. Review pursuant to Security Council resolution 2610 (2021) was concluded on 8 November 2022.; Listing: Listed on: 9 Feb. 2011 (amended on 1 May 2019, 14 Nov. 2023)",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1981
     },
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1972
     },
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1972
     },
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1972
     }
   ],
   "nationalities": [
     "Afghanistan"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

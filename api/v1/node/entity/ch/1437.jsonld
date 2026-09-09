@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/1437",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/1437",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Huda Salih Mahdi Ammash",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Huda Salih Mahdi Ammash",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/1437"
   ],
   "remarks": "Member, Ba’th Party Regional Command; Head, Biological Laboratories, Military Industrial Organization, mid-1990s; Former Head, Student and Youth Bureau, Ba’th Party; Former Head, Professional Bureau Of Women’s Affairs",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1953
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

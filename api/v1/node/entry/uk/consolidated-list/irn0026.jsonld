@@ -1,43 +1,60 @@
 {
-  "id": "https://www.ammitto.org/entry/uk/consolidated-list/irn0026",
-  "entity_id": "https://www.ammitto.org/entity/uk/irn0026",
+  "@id": "https://www.ammitto.org/entry/uk/consolidated-list/irn0026",
+  "@type": "SanctionEntry",
+  "entityId": "https://www.ammitto.org/entity/uk/irn0026",
   "authority": {
     "@id": "https://www.ammitto.org/authority/uk"
   },
   "regime": {
-    "@id": "https://www.ammitto.org/regime/the_iran_sanctions_regulations_2023"
+    "@id": "https://www.ammitto.org/regime/the_iran_sanctions_regulations_2023",
+    "name": "The Iran (Sanctions) Regulations 2023"
   },
+  "legalBases": [
+
+  ],
   "effects": [
     {
-      "effect_type": "asset_freeze",
+      "@type": "SanctionEffect",
+      "effectType": "asset_freeze",
       "scope": "full"
     },
     {
-      "effect_type": "travel_ban",
+      "@type": "SanctionEffect",
+      "effectType": "travel_ban",
       "scope": "full"
     },
     {
-      "effect_type": "debarment",
+      "@type": "SanctionEffect",
+      "effectType": "debarment",
       "scope": "full"
     }
   ],
+  "reasons": [
+
+  ],
   "period": {
-    "listed_date": "2020-12-31",
-    "effective_date": "2020-12-31",
-    "is_indefinite": true,
-    "last_updated": "2025-04-09"
+    "@type": "TemporalPeriod",
+    "listedDate": "2020-12-31",
+    "effectiveDate": "2020-12-31",
+    "isIndefinite": true,
+    "lastUpdated": "2025-04-09"
   },
   "status": "active",
-  "reference_number": "IRN0026",
+  "statusHistory": [
+
+  ],
+  "referenceNumber": "IRN0026",
   "remarks": "\nFormer Senior Advisor for Security Affairs to the Chief of the Armed Forces General Staff. Chief of Iran's National Police from 2005 until early 2015. Also Head of the Iranian Cyber Police (listed) from January 2011 until early 2015. Forces under his command led brutal attacks on peaceful protests, and a violent night time attack on the dormitories of Tehran University on 15 June 2009",
-  "raw_source_data": {
-    "source_format": "xml",
-    "source_specific_fields": {
+  "rawSourceData": {
+    "@type": "RawSourceData",
+    "sourceFormat": "xml",
+    "sourceSpecificFields": {
       "uk:ofsiGroupId": "11583",
+      "uk:unReferenceNumber": null,
       "uk:designationSource": "UK",
       "uk:sanctionsImposed": "Asset freeze|Travel Ban|Director Disqualification Sanction",
       "uk:entityType": "Individual"
     }
   },
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

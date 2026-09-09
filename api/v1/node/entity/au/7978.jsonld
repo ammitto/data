@@ -1,44 +1,63 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7978",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7978",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mohamed Mohamud Mire",
+      "@type": "NameVariant",
+      "fullName": "Mohamed Mohamud Mire",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Mohamed Mire",
+      "@type": "NameVariant",
+      "fullName": "Mohamed Mire",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "SOi.024\n\nGender: Male. Listed pursuant to paragraph 26 of resolution 2662 (2022): (a) having engaged in, or provided support for, acts that threatened the peace, security or stability of Somalia, including acts that threatened the peace and reconciliation process in Somalia, or threatened the Federal Government of Somalia or ATMIS by force; and (b)(i) participating in the financing, planning, facilitating, preparing, or perpetrating of acts or activities by, in conjunction with, under the name of, on behalf of, or in support of Al-Shabaab.; Listing: Listed on 21 May 2024",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7978"
   ],
-  "birth_info": [
+  "remarks": "SOi.024\n\nGender: Male. Listed pursuant to paragraph 26 of resolution 2662 (2022): (a) having engaged in, or provided support for, acts that threatened the peace, security or stability of Somalia, including acts that threatened the peace and reconciliation process in Somalia, or threatened the Federal Government of Somalia or ATMIS by force; and (b)(i) participating in the financing, planning, facilitating, preparing, or perpetrating of acts or activities by, in conjunction with, under the name of, on behalf of, or in support of Al-Shabaab.; Listing: Listed on 21 May 2024",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1962,
       "country": "Kismayo"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1960,
       "country": "Somalia"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1955,
       "country": "Kismayo"
     }
   ],
   "nationalities": [
     "Somalia"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "a) Jilib, Somalia;\nb) Qunyo Barrow, Somalia",
       "country": "Somalia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

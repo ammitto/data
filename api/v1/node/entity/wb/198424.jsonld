@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/198424",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/198424",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "AL THUHAT COMPANY, GENERAL CONTRACTING AND TRADE (AL THUHAT)",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "AL THUHAT COMPANY, GENERAL CONTRACTING AND TRADE (AL THUHAT)",
+      "isPrimary": true
     }
   ],
-  "remarks": "*144",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/198424"
+  ],
+  "remarks": "*144",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "AL KAZIMIYAH, ABDUL MOHSEN AL-KAZIMI SQUARE, DISTRICT: 411 SH/17, BUILDING: 20",
       "city": "BAGHDAD",
       "country": "Iraq",
-      "country_iso_code": "IQ"
+      "countryIsoCode": "IQ"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

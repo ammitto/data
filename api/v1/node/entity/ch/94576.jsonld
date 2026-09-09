@@ -1,12 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/94576",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/94576",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Lungu Alexei",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Lungu Alexei",
+      "isPrimary": true
     }
   ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/94576"
+  ],
   "remarks": "Alexei Lungu is the leader of the “Șansă” political party, which is one of the successors of the outlawed ȘOR political party, led by listed person Ilan Shor. In April 2024, Ilan Shor launched in Moscow the Victory/Pobeda political bloc, which unites the successors of his party, including Șansă.",
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "birthInfo": [
+    {
+      "@type": "BirthInfo",
+      "date": "1983-11-19",
+      "circa": false,
+      "year": 1983
+    }
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

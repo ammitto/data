@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/45600",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/45600",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Gusachenka Siarhei Aliaksandravich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Gusachenka Siarhei Aliaksandravich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/45600"
   ],
   "remarks": "In his position as the First Deputy Chairman of Belteleradio Company (the National State Television and Radio Company), author and host of weekly propaganda television show “Glavnyy efir”, Siarhei Gusachenka has been willingly providing the Belarusian public with false information about the outcome of elections, protests, repressions perpetrated by the state authorities and activities of the Lukashenka regime that facilitate illegal crossing of the external borders of the Union. He is directly responsible for the way in which the state television presents information about the situation in the country, thus lending support to the authorities including Lukashenka.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1983-11-05",
-      "circa": false
+      "circa": false,
+      "year": 1983
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

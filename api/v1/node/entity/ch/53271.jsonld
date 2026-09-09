@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/53271",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/53271",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Gromakov Aleksandr Yurevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Gromakov Aleksandr Yurevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/53271"
   ],
   "remarks": "Former so-called “Minister of Youth, Sports, and Tourism” of the so-called “Donetsk People’s Republic”. In taking on and acting in this capacity, he has actively undermined the territorial integrity, sovereignty and independence of Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1958-09-04",
-      "circa": false
+      "circa": false,
+      "year": 1958
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

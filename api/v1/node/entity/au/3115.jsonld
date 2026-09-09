@@ -1,61 +1,82 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3115",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/3115",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Boubaker Ben Habib Ben Al-Hakim",
+      "@type": "NameVariant",
+      "fullName": "Boubaker Ben Habib Ben Al-Hakim",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Boubakeur el-Hakim",
+      "@type": "NameVariant",
+      "fullName": "Boubakeur el-Hakim",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Boubaker el Hakim",
+      "@type": "NameVariant",
+      "fullName": "Boubaker el Hakim",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abou al Moukatel",
+      "@type": "NameVariant",
+      "fullName": "Abou al Moukatel",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abou Mouqatel",
+      "@type": "NameVariant",
+      "fullName": "Abou Mouqatel",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abu-Muqatil al-Tunisi",
+      "@type": "NameVariant",
+      "fullName": "Abu-Muqatil al-Tunisi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "El Hakim Boubakeur",
+      "@type": "NameVariant",
+      "fullName": "El Hakim Boubakeur",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "French-Tunisian foreign terrorist fighter for Islamic State in Iraq and the Levant (ISIL), listed as Al-Qaida in Iraq (QDe.115). Review pursuant to Security Council resolution 2368 (2017) was concluded on 15 November 2021.; Listing: Listed on 29 Sep. 2015 (amended on 24 Jun. 2016)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3115"
   ],
-  "birth_info": [
+  "remarks": "French-Tunisian foreign terrorist fighter for Islamic State in Iraq and the Levant (ISIL), listed as Al-Qaida in Iraq (QDe.115).  Reportedly killed in Raqqa, Syria on 26 November 2016. Review pursuant to Security Council resolution 2368 (2017) was concluded on 15 November 2021.; Listing: Listed on: 29 Sep. 2015 ( amended on 24 Jun. 2016, 15 Nov. 2021, 18 Aug. 2026)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1983,
       "country": "Paris"
     }
   ],
   "nationalities": [
-    "France;Tunisia"
+    "France",
+    "Tunisia"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Syrian Arab Republic (as at Sep. 2015)",
       "country": "Syrian Arab Republic (as at Sep. 2015)"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

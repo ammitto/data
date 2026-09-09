@@ -1,38 +1,60 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus0040",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/rus0040",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Nikitin",
-      "first_name": "Vasilii",
+      "@type": "NameVariant",
+      "fullName": "Nikitin",
+      "firstName": "Vasilii",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Nikitin",
-      "first_name": "Vasyl",
+      "@type": "NameVariant",
+      "fullName": "Nikitin",
+      "firstName": "Vasyl",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Василий Александрович НИКИТИН",
+      "@type": "NameVariant",
+      "fullName": "Василий Александрович НИКИТИН",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Василь Олександрович Нiкiтiн",
+      "@type": "NameVariant",
+      "fullName": "Василь Олександрович Нiкiтiн",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus0040"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

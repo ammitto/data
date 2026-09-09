@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/54705",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/54705",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kurbanov Andrei Boevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kurbanov Andrei Boevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/54705"
   ],
   "remarks": "Andrei Boevich Kurbanov is a colonel of the 64th Separate Motorised Rifle Brigade of the 35th Combined Arms Army of the Russian Federation, which reportedly killed, raped and tortured civilians in Bucha, Ukraine. These atrocities may constitute crimes against humanity and war crimes.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1970-01-07",
-      "circa": false
+      "circa": false,
+      "year": 1970
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

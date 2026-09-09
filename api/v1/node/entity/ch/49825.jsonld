@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/49825",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/49825",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Lavrov Sergey Viktorovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Lavrov Sergey Viktorovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/49825"
   ],
   "remarks": "Minister of Foreign Affairs of the Russian Federation.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1950-03-21",
-      "circa": false
+      "circa": false,
+      "year": 1950
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

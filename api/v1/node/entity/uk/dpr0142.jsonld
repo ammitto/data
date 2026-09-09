@@ -1,21 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/dpr0142",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/dpr0142",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "KANGBONG TRADING CORPORATION",
+      "@type": "NameVariant",
+      "fullName": "KANGBONG TRADING CORPORATION",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Kangbong Trading Corporation sold, supplied, transferred, or purchased, directly or indirectly, to or from the DPRK, metal, graphite, coal, or software, where revenue or goods received may benefit the Government of the DPRK or the Workers’ Party of Korea. The Kangbong Trading Corporation’s parent is the Ministry of People’s Armed Forces",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/dpr0142"
+  ],
+  "remarks": "The Kangbong Trading Corporation sold, supplied, transferred, or purchased, directly or indirectly, to or from the DPRK, metal, graphite, coal, or software, where revenue or goods received may benefit the Government of the DPRK or the Workers’ Party of Korea. The Kangbong Trading Corporation’s parent is the Ministry of People’s Armed Forces",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "country": "North Korea"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

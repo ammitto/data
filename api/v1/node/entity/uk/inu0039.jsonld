@@ -1,58 +1,80 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/inu0039",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/inu0039",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Ministry of Defence and Armed Forces Logistics",
+      "@type": "NameVariant",
+      "fullName": "Ministry of Defence and Armed Forces Logistics",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ministry of Defense and Support for Armed Forces Logistics",
+      "@type": "NameVariant",
+      "fullName": "Ministry of Defense and Support for Armed Forces Logistics",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "MODAFL",
+      "@type": "NameVariant",
+      "fullName": "MODAFL",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "MODSAF",
+      "@type": "NameVariant",
+      "fullName": "MODSAF",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "وزارت دفاع و پشتیبانی نیروهای مسلح",
+      "@type": "NameVariant",
+      "fullName": "وزارت دفاع و پشتیبانی نیروهای مسلح",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/inu0039"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Ferdowsi Avenue, Sarhang Sakhaei Street",
       "state": "Tehran",
       "country": "Iran"
     },
     {
+      "@type": "Address",
       "street": "PO Box 11365 8439, Pasdaran Ave.",
       "state": "Tehran",
       "country": "Iran"
     },
     {
+      "@type": "Address",
       "street": "Sargord Sakhaei Ave.",
       "state": "Tehran",
       "country": "Iran"
     },
     {
+      "@type": "Address",
       "street": "West side of Dabestan Street,, Abbas Abad District",
       "state": "Tehran",
       "country": "Iran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

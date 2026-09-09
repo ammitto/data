@@ -1,42 +1,61 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7897",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/7897",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Motovilicha Plants Public Joint Stock Company",
+      "@type": "NameVariant",
+      "fullName": "Motovilicha Plants Public Joint Stock Company",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Motovilicha Plants PJSC",
+      "@type": "NameVariant",
+      "fullName": "Motovilicha Plants PJSC",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Motovilicha Plants Stock Corporation",
+      "@type": "NameVariant",
+      "fullName": "Motovilicha Plants Stock Corporation",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Motovilikhinskie Zavody Special Machine-Building and Metallurgy PJSC",
+      "@type": "NameVariant",
+      "fullName": "Motovilikhinskie Zavody Special Machine-Building and Metallurgy PJSC",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Motovilikhinskiye Zavody PJSC",
+      "@type": "NameVariant",
+      "fullName": "Motovilikhinskiye Zavody PJSC",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "http://mz.perm.ru/; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2024",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7897"
+  ],
+  "remarks": "http://mz.perm.ru/; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2024",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "35 1905 Goda Street Perm Perm Territory 614014 Russia",
       "country": "35 1905 Goda Street Perm Perm Territory 614014 Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

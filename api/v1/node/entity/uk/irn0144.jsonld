@@ -1,47 +1,69 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/irn0144",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/irn0144",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ala'oddini",
-      "first_name": "Yahya",
+      "@type": "NameVariant",
+      "fullName": "Ala'oddini",
+      "firstName": "Yahya",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Alaa Al Dini",
-      "first_name": "Yahya",
+      "@type": "NameVariant",
+      "fullName": "Alaa Al Dini",
+      "firstName": "Yahya",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Alaeddini",
-      "first_name": "Yahya",
+      "@type": "NameVariant",
+      "fullName": "Alaeddini",
+      "firstName": "Yahya",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "یحیی الدینی",
+      "@type": "NameVariant",
+      "fullName": "یحیی الدینی",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "یحیی علاالدینی",
+      "@type": "NameVariant",
+      "fullName": "یحیی علاالدینی",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/irn0144"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Unit 29 5th Floor, Talaieh Block - B1, Elahiyeh Complex 1 Number 0, Alley 2- Shahid Sajjad Rushanai, Rabbaninejad Street",
       "city": "Zein Aldin Municipality",
       "state": "Qom",
       "country": "Iran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

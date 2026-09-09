@@ -1,40 +1,59 @@
 {
-  "id": "https://www.ammitto.org/entity/au/2304",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/2304",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ali Abdullah AYYUB",
+      "@type": "NameVariant",
+      "fullName": "Ali Abdullah AYYUB",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Ali Abdallah AYYUB",
+      "@type": "NameVariant",
+      "fullName": "Ali Abdallah AYYUB",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ali Abdullah AYOUB",
+      "@type": "NameVariant",
+      "fullName": "Ali Abdullah AYOUB",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ali Abdullah AYYOUB",
+      "@type": "NameVariant",
+      "fullName": "Ali Abdullah AYYOUB",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Last known position: Deputy Prime Minister of Syria.\nFormer Minister of Defence from 2018 to 2022.\nFormer Chief of the General Staff of the Army and Armed Forces.; Listing: Designated under the Autonomous Sanctions Regulations 2011 on 2 March 2012. \nInstrument of first\ndesignation and\ndeclaration: Autonomous Sanctions (Designated Persons and Entities and\nDeclared Persons – Syria) List 2012 [F2012L00482]\nRelisted on 12 January 2024.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/2304"
   ],
-  "birth_info": [
+  "remarks": "Last known position: Deputy Prime Minister of Syria.\nFormer Minister of Defence from 2018 to 2022.\nFormer Chief of the General Staff of the Army and Armed Forces.; Listing: Designated under the Autonomous Sanctions Regulations 2011 on 2 March 2012. \nInstrument of first\ndesignation and\ndeclaration: Autonomous Sanctions (Designated Persons and Entities and\nDeclared Persons – Syria) List 2012 [F2012L00482]\nRelisted on 12 January 2024.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1952,
       "country": "Latakia"
     }
   ],
   "nationalities": [
     "Syria"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

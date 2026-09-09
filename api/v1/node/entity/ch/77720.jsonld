@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/77720",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/77720",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Dubrouka Viktar Aliaksandravich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Dubrouka Viktar Aliaksandravich",
+      "isPrimary": true
     }
   ],
-  "remarks": "Viktar Dubrouka is the head of the correctional institution Penal Colony No 11, where Siarhei Ramanau is serving a sentence of 20 years and 11 months and Vadzim Bobyrau is serving a sentence of 11 years. Both Ramanau and Bobyrau have been placed in the punishment cell multiple times.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/77720"
+  ],
+  "remarks": "Viktar Dubrouka is the former head of the correctional institution Penal Colony No 11, where Siarhei Ramanau is serving a sentence of 20 years and 11 months and Vadzim Bobyrau is serving a sentence of 11 years. Both Ramanau and Bobyrau have been placed in the punishment cell multiple times.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1978-06-19",
-      "circa": false
+      "circa": false,
+      "year": 1978
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

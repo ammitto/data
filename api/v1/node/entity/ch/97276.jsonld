@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/97276",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/97276",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Karimi Sabet M. Javad",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Karimi Sabet M. Javad",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/97276"
   ],
   "remarks": "Head of Novin Energy Company, which is designated under resolution 1747 (2007) (designated under IRe.046).",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1973-07-25",
-      "circa": false
+      "circa": false,
+      "year": 1973
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

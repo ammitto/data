@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/71912",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/71912",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Klyueva Irina Dmitrievna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Klyueva Irina Dmitrievna",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/71912"
   ],
   "remarks": "Irina Klyueva is the Commissioner for Children’s Rights in the so-called Republic of Crimea. In this role, she is one of the most involved persons in the illegal transportation of Ukrainian children to Russia and their adoption by Russian families. Irina Klyueva’s actions violate the rights of Ukrainian children and infringe Ukrainian law and administrative order.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1966-08-13",
-      "circa": false
+      "circa": false,
+      "year": 1966
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/52902",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/52902",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Dobrodeev Oleg Borisovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Dobrodeev Oleg Borisovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/52902"
   ],
   "remarks": "Oleg Dobrodeev is the Director General of the largest state-owned media holding in Russia. He has actively participated in the Kremlin’s propaganda by creating and disseminating distorted information in the interests of the political leadership of the Russian Federation.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1959-10-28",
-      "circa": false
+      "circa": false,
+      "year": 1959
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

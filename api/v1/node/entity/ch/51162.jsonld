@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/51162",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/51162",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kilchevsky Vitaly Fridrikhovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kilchevsky Vitaly Fridrikhovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/51162"
   ],
   "remarks": "Vitaly Fridrikhovich Kilchevsky is the Head of the Armoured Vehicles Directorate of the Ministry of Defence He is the former Deputy Commander for Armaments and the former Head of Armaments of Belarus.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1978-10-31",
-      "circa": false
+      "circa": false,
+      "year": 1978
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,27 +1,43 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7773",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/7773",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "IRAN CENTRIFUGE TECHNOLOGY COMPANY",
+      "@type": "NameVariant",
+      "fullName": "IRAN CENTRIFUGE TECHNOLOGY COMPANY",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "TESA",
+      "@type": "NameVariant",
+      "fullName": "TESA",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Listing: Instrument of first designation: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Iran) Amendment (No. 2) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7773"
+  ],
+  "remarks": "Listing: Instrument of first designation: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Iran) Amendment (No. 2) Instrument 2023",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "No.66, Sarhang Sakhaei St., Hafez Avenue, Tehran;\n\nNorth Kordestan Highway, Jahan Ara Entrance, Ashkshahr Street, West 21st Alley, Number 39, Tehran, Iran",
       "country": "Iran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

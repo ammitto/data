@@ -1,45 +1,65 @@
 {
-  "id": "https://www.ammitto.org/entity/au/2286",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/2286",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Rafiq SHAHADAH",
+      "@type": "NameVariant",
+      "fullName": "Rafiq SHAHADAH",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Rafeeq SHAHADAH",
+      "@type": "NameVariant",
+      "fullName": "Rafeeq SHAHADAH",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Rafik SHEHADEH",
+      "@type": "NameVariant",
+      "fullName": "Rafik SHEHADEH",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Rafiq SHIHADA",
+      "@type": "NameVariant",
+      "fullName": "Rafiq SHIHADA",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Wafiq SHIHADAH",
+      "@type": "NameVariant",
+      "fullName": "Wafiq SHIHADAH",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Last known position: Brigadier General and Head of the Security Committee in Deir‑ez‑Zour. Former advisor to President Bashar AL‑ASSAD on strategic questions and military intelligence.; Listing: Designated under the Autonomous Sanctions Regulations 2011 on 2 March 2012. Relisted on 12 January 2024.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/2286"
   ],
-  "birth_info": [
+  "remarks": "Last known position: Brigadier General and Head of the Security Committee in Deir‑ez‑Zour. Former advisor to President Bashar AL‑ASSAD on strategic questions and military intelligence.; Listing: Designated under the Autonomous Sanctions Regulations 2011 on 2 March 2012. Relisted on 12 January 2024.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1954,
       "country": "Jablah"
     }
   ],
   "nationalities": [
     "Syria"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

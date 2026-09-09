@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/356133",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/356133",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "INVEPAR CONSTRUTORA LTDA - ME",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "INVEPAR CONSTRUTORA LTDA - ME",
+      "isPrimary": true
     }
   ],
-  "remarks": "(CNPJ: 20.182.043/0001-42)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/356133"
+  ],
+  "remarks": "(CNPJ: 20.182.043/0001-42)",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "71 SOMERSET COURT, GARDEN OF EDEN",
       "city": "EAST BANK DEMERARA",
       "country": "Guyana",
-      "country_iso_code": "GY"
+      "countryIsoCode": "GY"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

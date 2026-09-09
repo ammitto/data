@@ -1,39 +1,61 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/aqd0089",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/aqd0089",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "AZZOUZ",
-      "first_name": "ABD",
+      "@type": "NameVariant",
+      "fullName": "AZZOUZ",
+      "firstName": "ABD",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "AA",
+      "@type": "NameVariant",
+      "fullName": "AA",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Azouz",
-      "first_name": "Abdelbassed",
+      "@type": "NameVariant",
+      "fullName": "Azouz",
+      "firstName": "Abdelbassed",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Azouz",
-      "first_name": "Abdul",
+      "@type": "NameVariant",
+      "fullName": "Azouz",
+      "firstName": "Abdul",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Key operative in Al-Qaida (QDe.004). Under the direction of Aiman al-Zawahiri (QDi.006), recruited 200 militants in the eastern part of Libya. INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/notice/search/un/5930719",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/aqd0089"
+  ],
+  "remarks": "Key operative in Al-Qaida (QDe.004). Under the direction of Aiman al-Zawahiri (QDi.006), recruited 200 militants in the eastern part of Libya. INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/notice/search/un/5930719",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "country": "Libya"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

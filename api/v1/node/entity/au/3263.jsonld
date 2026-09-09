@@ -1,46 +1,63 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3263",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/3263",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Malik Ruslanovich Barkhanoev",
+      "@type": "NameVariant",
+      "fullName": "Malik Ruslanovich Barkhanoev",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Saifuddin",
+      "@type": "NameVariant",
+      "fullName": "Saifuddin",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Saifuddin al-Ingushi",
+      "@type": "NameVariant",
+      "fullName": "Saifuddin al-Ingushi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Saifuddin Ingushi",
+      "@type": "NameVariant",
+      "fullName": "Saifuddin Ingushi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Joined the Islamic State in Iraq and the Levant (ISIL), listed as Al-Qaida in Iraq (QDe.115) in September 2016. Review pursuant to Security Council resolution 2610 (2021) was concluded on 8 November 2022.; Listing: Listed on: 20 Jul. 2017",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3263"
   ],
-  "birth_info": [
+  "remarks": "Joined the Islamic State in Iraq and the Levant (ISIL), listed as Al-Qaida in Iraq (QDe.115) in September 2016. Review pursuant to Security Council resolution 2610 (2021) was concluded on 8 November 2022.; Listing: Listed on: 20 Jul. 2017",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1992,
       "country": "Ordzhonikidzevskaya village"
     }
   ],
   "nationalities": [
     "Russia"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Mosul, Iraq",
       "country": "Iraq"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

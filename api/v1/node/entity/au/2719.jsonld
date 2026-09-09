@@ -1,37 +1,59 @@
 {
-  "id": "https://www.ammitto.org/entity/au/2719",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/2719",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mikhail Grigorevich MALYSHEV",
+      "@type": "NameVariant",
+      "fullName": "Mikhail Grigorevich MALYSHEV",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Mykhaylo Hryhorovych MALYSHEV",
+      "@type": "NameVariant",
+      "fullName": "Mykhaylo Hryhorovych MALYSHEV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Mikhail MALYSHEV",
+      "@type": "NameVariant",
+      "fullName": "Mikhail MALYSHEV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Mikhail Grigoryevich MALYSHEV",
+      "@type": "NameVariant",
+      "fullName": "Mikhail Grigoryevich MALYSHEV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Re-elected Chairman of the Crimea Electoral Commission for a second five-year term in May 2019 (until 2024).  Responsible for administering the Crimean referendum.  Responsible under the Russian system for signing referendum results.  In the capacity of Chair of the Crimea Electoral Commission he participated in the organisation of the Russian presidential elections of 18 March 2018 in the illegally annexed Crimea and Sevastopol.; Listing: Listed on 19 Jun. 2014 (re-listed on 16 Jun. 2017, 10 June 2020 and 10 June 2023)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/2719"
   ],
-  "birth_info": [
+  "remarks": "Re-elected Chairman of the Crimea Electoral Commission for a second five-year term in May 2019 (until 2024).  Responsible for administering the Crimean referendum.  Responsible under the Russian system for signing referendum results.  In the capacity of Chair of the Crimea Electoral Commission he participated in the organisation of the Russian presidential elections of 18 March 2018 in the illegally annexed Crimea and Sevastopol.; Listing: Listed on 19 Jun. 2014 (re-listed on 16 Jun. 2017, 10 June 2020 and 10 June 2023)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1955,
       "country": "Simferopol"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,24 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8225",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/8225",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Julio NHATE",
+      "@type": "NameVariant",
+      "fullName": "Julio NHATE",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "GBi.010 Designation: a) Lieutenant-colonel b) Commander of the Paratroops Regiment. Other information: Nhate was listed on 18 Jul. 2012 pursuant to paragraph 4 of resolution 2048 (2012) as “Member of the \"Military Command\" which has assumed responsibility for the coup d'état of 12 April 2012. A loyal ally of António Injai, Lt.Col. Júlio Nhate has the material responsibility for the 12 April 2012 coup, having conducted the military operation.”; Listing: Listed by 2048 Committee on 18 Jul 2012",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8225"
   ],
-  "birth_info": [
+  "remarks": "GBi.010 Designation: a) Lieutenant-colonel b) Commander of the Paratroops Regiment. Other information: Nhate was listed on 18 Jul. 2012 pursuant to paragraph 4 of resolution 2048 (2012) as “Member of the \"Military Command\" which has assumed responsibility for the coup d'état of 12 April 2012. A loyal ally of António Injai, Lt.Col. Júlio Nhate has the material responsibility for the 12 April 2012 coup, having conducted the military operation.”; Listing: Listed by 2048 Committee on 18 Jul 2012",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1965
     }
   ],
   "nationalities": [
     "Guinea-Bissau"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

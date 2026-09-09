@@ -1,23 +1,44 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/syr0083",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/syr0083",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Safiyeh",
-      "first_name": "Hassan",
+      "@type": "NameVariant",
+      "fullName": "Safiyeh",
+      "firstName": "Hassan",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Safiye",
-      "first_name": "Hassan",
+      "@type": "NameVariant",
+      "fullName": "Safiye",
+      "firstName": "Hassan",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/syr0083"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

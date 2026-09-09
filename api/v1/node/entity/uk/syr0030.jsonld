@@ -1,30 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/syr0030",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/syr0030",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Bitar",
-      "first_name": "Bayan",
+      "@type": "NameVariant",
+      "fullName": "Bitar",
+      "firstName": "Bayan",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Al-Bitar",
-      "first_name": "Bayan",
+      "@type": "NameVariant",
+      "fullName": "Al-Bitar",
+      "firstName": "Bayan",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/syr0030"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "PO Box 11037",
       "state": "Damascus",
       "country": "Syria"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

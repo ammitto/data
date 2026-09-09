@@ -1,38 +1,56 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus1422",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus1422",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Kamaz",
+      "@type": "NameVariant",
+      "fullName": "Kamaz",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "KAMA AUTOMOBILE PLANT",
+      "@type": "NameVariant",
+      "fullName": "KAMA AUTOMOBILE PLANT",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "камаз",
+      "@type": "NameVariant",
+      "fullName": "камаз",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ка́мский автомоби́льный заво́д ",
+      "@type": "NameVariant",
+      "fullName": "Ка́мский автомоби́льный заво́д ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus1422"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "2 Avtozavodskiy Prospect, Naberezhnye Chelny",
       "state": "Republic of Tatarstan",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

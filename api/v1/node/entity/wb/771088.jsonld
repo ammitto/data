@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/771088",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/771088",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "JIANGXI MINGZHENG INTELLIGENT ELECTRICAL CO., LTD.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "JIANGXI MINGZHENG INTELLIGENT ELECTRICAL CO., LTD.",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/771088"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "JINCHAO AVENUE, FUZHOU HIGH-TECH INDUSTRIAL PARK",
       "city": "JIANGXI PROVINCE",
       "country": "China",
-      "country_iso_code": "CN"
+      "countryIsoCode": "CN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

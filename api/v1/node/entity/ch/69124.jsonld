@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/69124",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/69124",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Wunna Maung Lwin",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Wunna Maung Lwin",
+      "isPrimary": true
     }
   ],
-  "remarks": "Wunna Maung Lwin is a member of the State Administrative Council (SAC) since 20 February 2023. He is also a member of military-proxy party Union Solidarity and Development Party (USDP).",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/69124"
+  ],
+  "remarks": "Wunna Maung Lwin is a member of the National Defence and Security Council (NDSC) and its Central Advisory Body, as well as a former member of the State Administrative Council (SAC). He is also a member of military-proxy party Union Solidarity and Development Party (USDP).",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1952-05-30",
-      "circa": false
+      "circa": false,
+      "year": 1952
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

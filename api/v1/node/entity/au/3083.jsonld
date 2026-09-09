@@ -1,35 +1,53 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3083",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/3083",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Wiji Joko Santoso",
+      "@type": "NameVariant",
+      "fullName": "Wiji Joko Santoso",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Abu Seif al-Jawi",
+      "@type": "NameVariant",
+      "fullName": "Abu Seif al-Jawi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abu Seif",
+      "@type": "NameVariant",
+      "fullName": "Abu Seif",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Qdi.350 Passport no.: Indonesian passport number A2823222, issued on 28 May 2012 (expires 28 May 2017, issued under name Wiji Joko Santoso, born 14 Jul. 1975 in Rembang, Jawa Tengah, Indonesia) Other information: Head of the foreign affairs\ndivision and key outreach player of Jemaah Islamiyah (QDe.092). Associated with Hilal Ahmar Society Indonesia (HASI) (QDe.147). Review pursuant to Security Council resolution 2368 (2017) was concluded on 24 November 2020.; Listing: Listed on 13 Mar. 2015 (amended on 24 Nov. 2020)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3083"
   ],
-  "birth_info": [
+  "remarks": "Qdi.350 Passport no.: Indonesian passport number A2823222, issued on 28 May 2012 (expires 28 May 2017, issued under name Wiji Joko Santoso, born 14 Jul. 1975 in Rembang, Jawa Tengah, Indonesia) Other information: Head of the foreign affairs\ndivision and key outreach player of Jemaah Islamiyah (QDe.092). Associated with Hilal Ahmar Society Indonesia (HASI) (QDe.147). Review pursuant to Security Council resolution 2368 (2017) was concluded on 24 November 2020.; Listing: Listed on 13 Mar. 2015 (amended on 24 Nov. 2020)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1975,
       "country": "Rembang"
     }
   ],
   "nationalities": [
     "Indonesia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

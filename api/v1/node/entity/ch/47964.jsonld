@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/47964",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/47964",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Bortnikov Denis Aleksandrovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Bortnikov Denis Aleksandrovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/47964"
   ],
   "remarks": "Denis Bortnikov is the son of, and as such is associated with, Alexander Bortnikov – Director of the Federal Security Service (FSB) and Permanent member of the Security Council of the Russian Federation, who is involved in shaping the policy of the Russian Government threatening the territorial integrity, sovereignty and independence of Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1974-11-19",
-      "circa": false
+      "circa": false,
+      "year": 1974
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

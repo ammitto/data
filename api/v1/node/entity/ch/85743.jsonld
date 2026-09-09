@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/85743",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/85743",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Salah Abdallah Mohamed Salah",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Salah Abdallah Mohamed Salah",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/85743"
   ],
   "remarks": "Salah Abdallah Mohamed Salah is the former national security advisor of the Republic of Sudan and the former Director of the Sudanese National Intelligence and Security Service (NISS).",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1957
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

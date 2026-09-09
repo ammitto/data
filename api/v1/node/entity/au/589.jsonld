@@ -1,46 +1,63 @@
 {
-  "id": "https://www.ammitto.org/entity/au/589",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/589",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Aly Soliman Massoud Abdul Sayed",
+      "@type": "NameVariant",
+      "fullName": "Aly Soliman Massoud Abdul Sayed",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Ibn El Qaim",
+      "@type": "NameVariant",
+      "fullName": "Ibn El Qaim",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Mohamed Osman",
+      "@type": "NameVariant",
+      "fullName": "Mohamed Osman",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Adam",
+      "@type": "NameVariant",
+      "fullName": "Adam",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Libyan Passport No. 96/184442. Member of Libyan Islamic Fighting Group (Qde.011). Review pursuant to Security Council resolution 1822 (2008) was concluded on 5 Oct. 2009. Review pursuant to Security Council resolution 2253 (2015) was concluded on 21 Feb. 2019. Review pursuant to Security Council resolution 2610 (2021) was concluded on 8 November 2022.; Listing: Listed on 8 Jun. 2007 (amended on 13 Dec. 2011, 1 May 2019)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/589"
   ],
-  "birth_info": [
+  "remarks": "Libyan Passport No. 96/184442. Member of Libyan Islamic Fighting Group (Qde.011). Review pursuant to Security Council resolution 1822 (2008) was concluded on 5 Oct. 2009. Review pursuant to Security Council resolution 2253 (2015) was concluded on 21 Feb. 2019. Review pursuant to Security Council resolution 2610 (2021) was concluded on 8 November 2022.; Listing: Listed on 8 Jun. 2007 (amended on 13 Dec. 2011, 1 May 2019)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1969,
       "country": "Tripoli"
     }
   ],
   "nationalities": [
     "Libya"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Ghout El Shamal, Tripoli, Libyan Arab Jamahiriya  ",
       "country": "Libyan Arab Jamahiriya  "
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

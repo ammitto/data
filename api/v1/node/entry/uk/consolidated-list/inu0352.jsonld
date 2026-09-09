@@ -1,43 +1,60 @@
 {
-  "id": "https://www.ammitto.org/entry/uk/consolidated-list/inu0352",
-  "entity_id": "https://www.ammitto.org/entity/uk/inu0352",
+  "@id": "https://www.ammitto.org/entry/uk/consolidated-list/inu0352",
+  "@type": "SanctionEntry",
+  "entityId": "https://www.ammitto.org/entity/uk/inu0352",
   "authority": {
     "@id": "https://www.ammitto.org/authority/uk"
   },
   "regime": {
-    "@id": "https://www.ammitto.org/regime/the_iran_sanctions_nuclear_eu_exit_regulations_2019"
+    "@id": "https://www.ammitto.org/regime/the_iran_sanctions_nuclear_eu_exit_regulations_2019",
+    "name": "The Iran (Sanctions) (Nuclear) (EU Exit) Regulations 2019"
   },
+  "legalBases": [
+
+  ],
   "effects": [
     {
-      "effect_type": "asset_freeze",
+      "@type": "SanctionEffect",
+      "effectType": "asset_freeze",
       "scope": "full"
     },
     {
-      "effect_type": "travel_ban",
+      "@type": "SanctionEffect",
+      "effectType": "travel_ban",
       "scope": "full"
     },
     {
-      "effect_type": "debarment",
+      "@type": "SanctionEffect",
+      "effectType": "debarment",
       "scope": "full"
     }
   ],
+  "reasons": [
+
+  ],
   "period": {
-    "listed_date": "2025-09-29",
-    "effective_date": "2025-09-29",
-    "is_indefinite": true,
-    "last_updated": "2025-09-29"
+    "@type": "TemporalPeriod",
+    "listedDate": "2025-09-29",
+    "effectiveDate": "2025-09-29",
+    "isIndefinite": true,
+    "lastUpdated": "2025-09-29"
   },
   "status": "active",
-  "reference_number": "INU0352",
+  "statusHistory": [
+
+  ],
+  "referenceNumber": "INU0352",
   "remarks": "\nReza Aghazadeh is an involved person under the Iran (Sanctions) (Nuclear) (EU Exit) Regulations 2019. As the former president of the Atomic Energy Organization of Iran, Reza Aghazadeh has been responsible for engaging in, providing support for, and facilitating a relevant nuclear activity in, or for use in, Iran.  \n",
-  "raw_source_data": {
-    "source_format": "xml",
-    "source_specific_fields": {
+  "rawSourceData": {
+    "@type": "RawSourceData",
+    "sourceFormat": "xml",
+    "sourceSpecificFields": {
       "uk:ofsiGroupId": "9087",
+      "uk:unReferenceNumber": null,
       "uk:designationSource": "UK",
       "uk:sanctionsImposed": "Asset freeze|Travel Ban|Director Disqualification Sanction",
       "uk:entityType": "Individual"
     }
   },
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

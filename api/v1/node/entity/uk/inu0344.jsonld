@@ -1,36 +1,54 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/inu0344",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/inu0344",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Bonab Research Center ",
+      "@type": "NameVariant",
+      "fullName": "Bonab Research Center ",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Bonab Atomic Energy Studies Center",
+      "@type": "NameVariant",
+      "fullName": "Bonab Atomic Energy Studies Center",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Bonab Research Centre",
+      "@type": "NameVariant",
+      "fullName": "Bonab Research Centre",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "BRC",
+      "@type": "NameVariant",
+      "fullName": "BRC",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/inu0344"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "P.O. Box 56515-196, East Azarbaijan-Bonab, Jade ye Tabriz (Km 7),, East Azerbaijan",
       "country": "Iran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

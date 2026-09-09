@@ -1,30 +1,47 @@
 {
-  "id": "https://www.ammitto.org/entity/au/133",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/133",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Abdul Wali Seddiqi",
+      "@type": "NameVariant",
+      "fullName": "Abdul Wali Seddiqi",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "عبدالولی صدیقی",
+      "@type": "NameVariant",
+      "fullName": "عبدالولی صدیقی",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "TAi.133 Title: Qari. Designation: Third Secretary, Taliban Consulate General, Peshwar, Pakistan.  Afghan passport No. D000769 issued 2 Feb 1997. Believed to be in Afghanistan/Pakistan border area. Review pursuant to Security Council resolution 1822 (2008) was concluded on 21 Jul. 2010; Listing: Listed on 25 January 2001 (amended 25 July 2006, 21 Sep 2007, 29 Nov. 2011)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/133"
   ],
-  "birth_info": [
+  "remarks": "TAi.133 Title: Qari. Designation: Third Secretary, Taliban Consulate General, Peshwar, Pakistan.  Afghan passport No. D000769 issued 2 Feb 1997. Believed to be in Afghanistan/Pakistan border area. Review pursuant to Security Council resolution 1822 (2008) was concluded on 21 Jul. 2010; Listing: Listed on 25 January 2001 (amended 25 July 2006, 21 Sep 2007, 29 Nov. 2011)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1974,
       "country": "Zilzilay village"
     }
   ],
   "nationalities": [
     "Afghanistan"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

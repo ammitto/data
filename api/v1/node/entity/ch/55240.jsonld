@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/55240",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/55240",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Navka Tatiana Aleksandrovna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Navka Tatiana Aleksandrovna",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/55240"
   ],
   "remarks": "Tatiana Navka is the wife of Dmitry Peskov, press secretary of the President of the Russian Federation, Vladimir Putin, who has been listed under Decision 2014/145/CFSP.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1975-04-13",
-      "circa": false
+      "circa": false,
+      "year": 1975
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

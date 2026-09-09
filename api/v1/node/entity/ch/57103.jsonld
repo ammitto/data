@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/57103",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/57103",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Dugin Aleksander Gelyevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Dugin Aleksander Gelyevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/57103"
   ],
   "remarks": "Russian political philosopher, political scientist, analyst, strategist and long- standing ideologue of the theories of Russky Mir and Eurasianism. He is a member of the so-called Izborsk Club, a Russian Conservative think tank which specializes in studying Russia’s foreign and domestic policy.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1962-01-07",
-      "circa": false
+      "circa": false,
+      "year": 1962
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

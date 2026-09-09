@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/60269",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/60269",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Vorona Dmitry Nikolayevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Vorona Dmitry Nikolayevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/60269"
   ],
   "remarks": "Former CEO of the Crimea Development Corporation. Member of the Federation Council of the Russian Federation since 20 Dec 2022, as the representative of the illegally annexed Zaporizhzhia region. In taking on and acting in this capacity, he is therefore supporting actions and policies, which undermine the territorial integrity, sovereignty and independence of Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1980-07-24",
-      "circa": false
+      "circa": false,
+      "year": 1980
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

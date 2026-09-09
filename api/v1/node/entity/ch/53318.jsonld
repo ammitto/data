@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/53318",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/53318",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Chausova Yana Sergeevna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Chausova Yana Sergeevna",
+      "isPrimary": true
     }
   ],
-  "remarks": "So-called ‘Minister of Finance’ of the so-called ‘Donetsk People’s Republic’. In taking on and acting in this capacity, she has actively undermined the territorial integrity, sovereignty and independence of Ukraine.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/53318"
+  ],
+  "remarks": "Former so-called “Minister of Finance” of the so-called “Donetsk People’s Republic” and current Advisor to the Head of the so-called “Donetsk People’s Republic”. In taking on and acting in this capacity, Yana Chausova has actively undermined the territorial integrity, sovereignty and independence of Ukraine.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1980-09-22",
-      "circa": false
+      "circa": false,
+      "year": 1980
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

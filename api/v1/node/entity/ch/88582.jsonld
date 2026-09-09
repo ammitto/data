@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/88582",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/88582",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Alyoshina Svetlana Yanovna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Alyoshina Svetlana Yanovna",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/88582"
   ],
   "remarks": "Svetlana Alyoshina is a deputy of the so-called “People’s Council” of the so-called “Luhansk People’s Republic” and a member of its Committee on Construction, Housing and Utilities, Energy, Transport and Communications.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1964-11-02",
-      "circa": false
+      "circa": false,
+      "year": 1964
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

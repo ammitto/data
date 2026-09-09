@@ -1,51 +1,69 @@
 {
-  "id": "https://www.ammitto.org/entity/au/2641",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/2641",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MOHAMED LAHBOUS",
+      "@type": "NameVariant",
+      "fullName": "MOHAMED LAHBOUS",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "محمد لحبوس",
+      "@type": "NameVariant",
+      "fullName": "محمد لحبوس",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Mohamed Ennouini",
+      "@type": "NameVariant",
+      "fullName": "Mohamed Ennouini",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Hassan",
+      "@type": "NameVariant",
+      "fullName": "Hassan",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Hocine",
+      "@type": "NameVariant",
+      "fullName": "Hocine",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Member of the Mouvement pour l’Unification et le Jihad en Afrique de l’Ouest (MUJAO) (QDe.134). Reportedly deceased as of 14 February 2018. Review pursuant to Security Council resolution 2253 (2015) was concluded on 21 Feb. 2019. Review pursuant to Security Council resolution 2610 (2021) was concluded on 8 November 2022.; Listing: Listed on: 24 Oct. 2013 (amended 29 Mar. 2019, 1 May 2019)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/2641"
   ],
-  "birth_info": [
+  "remarks": "Member of the Mouvement pour l’Unification et le Jihad en Afrique de l’Ouest (MUJAO) (QDe.134). Reportedly deceased as of 14 February 2018. Review pursuant to Security Council resolution 2253 (2015) was concluded on 21 Feb. 2019. Review pursuant to Security Council resolution 2610 (2021) was concluded on 8 November 2022.; Listing: Listed on: 24 Oct. 2013 (amended 29 Mar. 2019, 1 May 2019)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1978,
       "country": "Mali"
     }
   ],
   "nationalities": [
     "Mali"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Mali",
       "country": "Mali"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

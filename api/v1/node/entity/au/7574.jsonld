@@ -1,32 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7574",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/7574",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "A.A. Bochvar High-Technology Research Institute of Inorganic Materials Joint Stock Company",
+      "@type": "NameVariant",
+      "fullName": "A.A. Bochvar High-Technology Research Institute of Inorganic Materials Joint Stock Company",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "VNIINM JSC",
+      "@type": "NameVariant",
+      "fullName": "VNIINM JSC",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Bochvar National Research Institute for Inorganic Materials",
+      "@type": "NameVariant",
+      "fullName": "Bochvar National Research Institute for Inorganic Materials",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Company identification number: 1037739096141; https://www.bochvar.ru/; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 8) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7574"
+  ],
+  "remarks": "Company identification number: 1037739096141; https://www.bochvar.ru/; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 8) Instrument 2023",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "5a Rogova Street, Moscow 123098, Russia",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

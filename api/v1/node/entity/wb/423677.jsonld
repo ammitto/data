@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/423677",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/423677",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "KENOSTER (NIGERIA) LIMITED",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "KENOSTER (NIGERIA) LIMITED",
+      "isPrimary": true
     }
   ],
-  "remarks": "*515",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/423677"
+  ],
+  "remarks": "*515",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "35 KENYATTA STREET",
       "city": "UWAMI-ENUGU",
       "country": "Nigeria",
-      "country_iso_code": "NG"
+      "countryIsoCode": "NG"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,32 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/irq0059",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/irq0059",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "ALFA COMPANY LIMITED FOR INTERNATIONAL TRADING AND MARKETING",
+      "@type": "NameVariant",
+      "fullName": "ALFA COMPANY LIMITED FOR INTERNATIONAL TRADING AND MARKETING",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "ALFA INVESTMENT AND INTERNATIONAL TRADING",
+      "@type": "NameVariant",
+      "fullName": "ALFA INVESTMENT AND INTERNATIONAL TRADING",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "ALFA TRADING COMPANY",
+      "@type": "NameVariant",
+      "fullName": "ALFA TRADING COMPANY",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/irq0059"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "PO Box 910606",
       "state": "Amman",
       "country": "Jordan"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,28 +1,44 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/mya0046",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/mya0046",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Ural Avia LLC",
+      "@type": "NameVariant",
+      "fullName": "Ural Avia LLC",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "ООО \"УРАЛ АВИА\"",
+      "@type": "NameVariant",
+      "fullName": "ООО \"УРАЛ АВИА\"",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/mya0046"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Ulitsa Krestinskogo, 59/1, оф. 141, Yekaterinburg",
       "state": "Sverdlovsk Oblast",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

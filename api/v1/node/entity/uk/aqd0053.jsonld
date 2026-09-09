@@ -1,25 +1,42 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/aqd0053",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/aqd0053",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "JAISH-I-MOHAMMED",
+      "@type": "NameVariant",
+      "fullName": "JAISH-I-MOHAMMED",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Army of Mohammed",
+      "@type": "NameVariant",
+      "fullName": "Army of Mohammed",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/aqd0053"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "country": "Pakistan"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/72133",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/72133",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Leonov Alexander Georgievich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Leonov Alexander Georgievich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/72133"
   ],
   "remarks": "Alexander Leonov is the General Director of JSC Mashinostroyeniya, which produces P-800 Oniks (Onyx) missiles, which are used by the Russian Armed Forces in the war of aggression against Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1952-02-26",
-      "circa": false
+      "circa": false,
+      "year": 1952
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

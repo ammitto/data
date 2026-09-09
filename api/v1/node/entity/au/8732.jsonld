@@ -1,27 +1,43 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8732",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/8732",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Public Joint Stock Company Finstar Bank",
+      "@type": "NameVariant",
+      "fullName": "Public Joint Stock Company Finstar Bank",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Finstar Bank",
+      "@type": "NameVariant",
+      "fullName": "Finstar Bank",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Website: https://finstarbank.ru/en/; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2026",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8732"
+  ],
+  "remarks": "Website: https://finstarbank.ru/en/; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2026",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "8, Liter A, Chernigovskaya Street, St. Petersburg, 196084, Russia",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

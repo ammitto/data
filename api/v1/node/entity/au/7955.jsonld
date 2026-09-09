@@ -1,39 +1,59 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7955",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7955",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Gholam RASHID",
+      "@type": "NameVariant",
+      "fullName": "Gholam RASHID",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Gholamali RASHID",
+      "@type": "NameVariant",
+      "fullName": "Gholamali RASHID",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Gholamali RASHID ALINOUR",
+      "@type": "NameVariant",
+      "fullName": "Gholamali RASHID ALINOUR",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Major General Gholam RASHID serves as Commander of Khatam al-Anbiya Central Headquarters (KCHQ).; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Iran) Amendment (No. 1) Instrument 2024",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7955"
   ],
-  "birth_info": [
+  "remarks": "Major General Gholam RASHID serves as Commander of Khatam al-Anbiya Central Headquarters (KCHQ).; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Iran) Amendment (No. 1) Instrument 2024",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1953,
       "country": "a) Dezful"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1954,
       "country": "Iran; b) Dezful"
     }
   ],
   "nationalities": [
     "Iran"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

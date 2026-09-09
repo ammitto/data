@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/191046",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/191046",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "MULTISTAR HOLDINGS LIMITED (FORMERLY MULTI-CON SYSTEMS PTE LTD.)",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "MULTISTAR HOLDINGS LIMITED (FORMERLY MULTI-CON SYSTEMS PTE LTD.)",
+      "isPrimary": true
     }
   ],
-  "remarks": "*98",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/191046"
+  ],
+  "remarks": "*98",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "HOCK SENG BUILDING #03-02, 114 LAVENDER STREET",
       "city": "SINGAPORE 338729",
       "country": "Singapore",
-      "country_iso_code": "SG"
+      "countryIsoCode": "SG"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

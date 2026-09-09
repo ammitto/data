@@ -1,28 +1,48 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/dpr0041",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/dpr0041",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kim",
-      "first_name": "Jong-Gak",
+      "@type": "NameVariant",
+      "fullName": "Kim",
+      "firstName": "Jong-Gak",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Kim",
-      "first_name": "Jong",
+      "@type": "NameVariant",
+      "fullName": "Kim",
+      "firstName": "Jong",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Vice Marshal in the Korean People’s Army, Rector of the Military University of Kim Il-Sung, former Minister of the People's Armed Forces, former member of the Central Military Commission of the Workers’ Party of Korea, which is a key body for national defence matters in the DPRK. As such, responsible for supporting or promoting the DPRK’s nuclear-related, ballistic missile-related or other weapons of mass destruction-related programmes. Former Director of the General Political Department of the Korean People’s Army. Former Member of the Central Military Commission of the Workers Party of Korea. Responsible for supporting or promoting the DPRK's nuclear-related, ballistic-missile-related or other weapons of mass destruction related programmes. The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/dpr0041"
+  ],
+  "remarks": "Vice Marshal in the Korean People’s Army, Rector of the Military University of Kim Il-Sung, former Minister of the People's Armed Forces, former member of the Central Military Commission of the Workers’ Party of Korea, which is a key body for national defence matters in the DPRK. As such, responsible for supporting or promoting the DPRK’s nuclear-related, ballistic missile-related or other weapons of mass destruction-related programmes. Former Director of the General Political Department of the Korean People’s Army. Former Member of the Central Military Commission of the Workers Party of Korea. Responsible for supporting or promoting the DPRK's nuclear-related, ballistic-missile-related or other weapons of mass destruction related programmes. The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "country": "North Korea"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

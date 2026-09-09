@@ -1,47 +1,65 @@
 {
-  "id": "https://www.ammitto.org/entry/uk/consolidated-list/rus1380",
-  "entity_id": "https://www.ammitto.org/entity/uk/rus1380",
+  "@id": "https://www.ammitto.org/entry/uk/consolidated-list/rus1380",
+  "@type": "SanctionEntry",
+  "entityId": "https://www.ammitto.org/entity/uk/rus1380",
   "authority": {
     "@id": "https://www.ammitto.org/authority/uk"
   },
   "regime": {
-    "@id": "https://www.ammitto.org/regime/the_russia_sanctions_eu_exit_regulations_2019"
+    "@id": "https://www.ammitto.org/regime/the_russia_sanctions_eu_exit_regulations_2019",
+    "name": "The Russia (Sanctions) (EU Exit) Regulations 2019"
   },
+  "legalBases": [
+
+  ],
   "effects": [
     {
-      "effect_type": "asset_freeze",
+      "@type": "SanctionEffect",
+      "effectType": "asset_freeze",
       "scope": "full"
     },
     {
-      "effect_type": "travel_ban",
+      "@type": "SanctionEffect",
+      "effectType": "travel_ban",
       "scope": "full"
     },
     {
-      "effect_type": "financial_restriction",
+      "@type": "SanctionEffect",
+      "effectType": "financial_restriction",
       "scope": "full"
     },
     {
-      "effect_type": "debarment",
+      "@type": "SanctionEffect",
+      "effectType": "debarment",
       "scope": "full"
     }
   ],
+  "reasons": [
+
+  ],
   "period": {
-    "listed_date": "2022-05-04",
-    "effective_date": "2022-05-04",
-    "is_indefinite": true,
-    "last_updated": "2025-04-09"
+    "@type": "TemporalPeriod",
+    "listedDate": "2022-05-04",
+    "effectiveDate": "2022-05-04",
+    "isIndefinite": true,
+    "lastUpdated": "2025-04-09"
   },
   "status": "active",
-  "reference_number": "RUS1380",
+  "statusHistory": [
+
+  ],
+  "referenceNumber": "RUS1380",
   "remarks": "\nSHKOLNIK is Director of the Central Museum of the Great Patriotic War and Chairman of the Presidium of the Foundation for Strategic Initiatives of the Victory Museum in Russia. He has used his position as the head of a significant national cultural institution to spread disinformation, including supporting and promoting the Government of Russia’s false narrative that the invasion of Ukraine is an exercise of “de-Nazification”. SHKOLNIK has therefore provided support for or promoted policies and actions which destabilise Ukraine and threaten the territorial integrity, sovereignty or independence of Ukraine. \n The trust services sanctions were imposed on 21/03/2023.",
-  "raw_source_data": {
-    "source_format": "xml",
-    "source_specific_fields": {
+  "rawSourceData": {
+    "@type": "RawSourceData",
+    "sourceFormat": "xml",
+    "sourceSpecificFields": {
       "uk:ofsiGroupId": "15337",
+      "uk:unReferenceNumber": null,
       "uk:designationSource": "UK",
       "uk:sanctionsImposed": "Asset freeze|Travel Ban|Trust Services Sanctions|Director Disqualification Sanction",
       "uk:entityType": "Individual"
     }
   },
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

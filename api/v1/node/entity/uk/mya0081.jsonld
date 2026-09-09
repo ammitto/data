@@ -1,33 +1,50 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/mya0081",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/mya0081",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Myan-Oil Company Limited",
+      "@type": "NameVariant",
+      "fullName": "Myan-Oil Company Limited",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Myan Oil",
+      "@type": "NameVariant",
+      "fullName": "Myan Oil",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Myan-Oil ",
+      "@type": "NameVariant",
+      "fullName": "Myan-Oil ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/mya0081"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Bergayar Road, Sanchuang Township",
       "state": "Yangon",
       "country": "Myanmar"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

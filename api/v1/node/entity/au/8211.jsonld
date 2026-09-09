@@ -1,34 +1,52 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8211",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/8211",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Yuri Ivanovich BORISOV",
+      "@type": "NameVariant",
+      "fullName": "Yuri Ivanovich BORISOV",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Yuriy Ivanovich BORISOV",
+      "@type": "NameVariant",
+      "fullName": "Yuriy Ivanovich BORISOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Yury Ivanovich BORISOV",
+      "@type": "NameVariant",
+      "fullName": "Yury Ivanovich BORISOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Deputy Prime Minister in Russian Government, Former Head of Roscosmos and current Senator; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 4) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8211"
   ],
-  "birth_info": [
+  "remarks": "Deputy Prime Minister in Russian Government, Former Head of Roscosmos and current Senator; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 4) Instrument 2025",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1956
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

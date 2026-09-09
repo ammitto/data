@@ -1,28 +1,50 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/irn0132",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/irn0132",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "BARATI",
-      "first_name": "Morteza",
+      "@type": "NameVariant",
+      "fullName": "BARATI",
+      "firstName": "Morteza",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "BARATI",
-      "first_name": "Qazi",
+      "@type": "NameVariant",
+      "fullName": "BARATI",
+      "firstName": "Qazi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "مرتضی براتی",
+      "@type": "NameVariant",
+      "fullName": "مرتضی براتی",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/irn0132"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

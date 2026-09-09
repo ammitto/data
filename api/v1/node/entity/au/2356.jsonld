@@ -1,47 +1,67 @@
 {
-  "id": "https://www.ammitto.org/entity/au/2356",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/2356",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "El-Tel Co",
+      "@type": "NameVariant",
+      "fullName": "El-Tel Co",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "El-Tel Middle East Company",
+      "@type": "NameVariant",
+      "fullName": "El-Tel Middle East Company",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Sociedad El-Tel",
+      "@type": "NameVariant",
+      "fullName": "Sociedad El-Tel",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "El-Tel",
+      "@type": "NameVariant",
+      "fullName": "El-Tel",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "El-Tel Middle East",
+      "@type": "NameVariant",
+      "fullName": "El-Tel Middle East",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abraj Tech",
+      "@type": "NameVariant",
+      "fullName": "Abraj Tech",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "El-Tel Co. is a Syrian company that manufactures and supplies communication and transmission towers and other equipment for the Syrian Army.\nTel: +963 11 2212345; +963 11 694 1480;\nFax: +963 11 44694450;\nEmail: sales@eltelme.com; Listing: Designated under the Autonomous Sanctions Regulations 2011 on 2 March 2012. Relisted on 12 January 2024",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/2356"
+  ],
+  "remarks": "El-Tel Co. is a Syrian company that manufactures and supplies communication and transmission towers and other equipment for the Syrian Army.\nTel: +963 11 2212345; +963 11 694 1480;\nFax: +963 11 44694450;\nEmail: sales@eltelme.com; Listing: Designated under the Autonomous Sanctions Regulations 2011 on 2 March 2012. Relisted on 12 January 2024",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Dair Ali Jordan Highway, P.O. Box 13052, Damascus, Syrian\nArab Republic",
       "country": "Syrian\nArab Republic"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

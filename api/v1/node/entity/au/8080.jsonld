@@ -1,37 +1,55 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8080",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/8080",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Arzamas Research and Production Enterprise TEMP-AVIA Joint Stock Company",
+      "@type": "NameVariant",
+      "fullName": "Arzamas Research and Production Enterprise TEMP-AVIA Joint Stock Company",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "ANPP TEMP AIR",
+      "@type": "NameVariant",
+      "fullName": "ANPP TEMP AIR",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "ANPP TEMP AVIA",
+      "@type": "NameVariant",
+      "fullName": "ANPP TEMP AVIA",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "OKB Temp",
+      "@type": "NameVariant",
+      "fullName": "OKB Temp",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "http://www.temp-avia.ru/; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8080"
+  ],
+  "remarks": "http://www.temp-avia.ru/; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Kirova Street, 26 Arzamas, Nizhniy Novgorod Region 607220 Russia",
       "country": "Nizhniy Novgorod Region 607220 Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

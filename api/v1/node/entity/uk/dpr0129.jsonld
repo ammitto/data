@@ -1,36 +1,54 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/dpr0129",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/dpr0129",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "CHONG-CHONGANG SHIPPING COMPANY",
+      "@type": "NameVariant",
+      "fullName": "CHONG-CHONGANG SHIPPING COMPANY",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Chong Chon Gang Shipping Co. Ltd.",
+      "@type": "NameVariant",
+      "fullName": "Chong Chon Gang Shipping Co. Ltd.",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Chongchongang Shipping Co LTD",
+      "@type": "NameVariant",
+      "fullName": "Chongchongang Shipping Co LTD",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "IMO Number: 5342883. The Chongchongang Shipping Company, through its vessel, the Chong Chon Gang, attempted to directly import the illicit shipment of conventional weapons and arms to the DPRK in July 2013.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/dpr0129"
+  ],
+  "remarks": "IMO Number: 5342883. The Chongchongang Shipping Company, through its vessel, the Chong Chon Gang, attempted to directly import the illicit shipment of conventional weapons and arms to the DPRK in July 2013.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "817, Haeum, Tonghun-dong, Chung-gu",
       "state": "Pyongyang"
     },
     {
+      "@type": "Address",
       "street": "817 Haeun, Donghung-dong, Central District",
       "state": "Pyongyang"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

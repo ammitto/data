@@ -1,27 +1,43 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7904",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/7904",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Kupol Izhevsk Electromechanical Plant Joint Stock Company",
+      "@type": "NameVariant",
+      "fullName": "Kupol Izhevsk Electromechanical Plant Joint Stock Company",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "IEMZ Kupol JSC",
+      "@type": "NameVariant",
+      "fullName": "IEMZ Kupol JSC",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "http://www.kupol.ru; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2024",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7904"
+  ],
+  "remarks": "http://www.kupol.ru; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2024",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "3 Pesochnaya Street Izhevsk Udmurt Republic 426033 Russia",
       "country": "3 Pesochnaya Street Izhevsk Udmurt Republic 426033 Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

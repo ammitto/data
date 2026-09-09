@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/8185",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/8185",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Aleksic Jovan",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Aleksic Jovan",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/8185"
   ],
   "remarks": "Employee of the Serbian company Aviogenex that was involved in making the necessary arrangement to fly more than 200 tons of weapons to Liberia. He accompanied Tezic and Dragas on their trips to Liberia.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1950-12-06",
-      "circa": false
+      "circa": false,
+      "year": 1950
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

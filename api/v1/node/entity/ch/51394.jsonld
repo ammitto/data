@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/51394",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/51394",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Guryev Andrey Andreevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Guryev Andrey Andreevich",
+      "isPrimary": true
     }
   ],
-  "remarks": "Andrey Guryev is a shareholder of PJSC PhosAgro and the President of the Russian Association of Fertiliser Producers (RAPU). Furthermore, he is a Member of the Bureau of the Board of the Russian Union of Industrialists and Entrepreneurs. As such, he is actively involved in facilitating the export of fertilisers from Russia, in close cooperation with the Russian Government. Russia is the largest exporter of fertilisers in the world and PhosAgro is one of the leading producers of phosphate-based fertilisers.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/51394"
+  ],
+  "remarks": "Andrey Guryev is a shareholder of PJSC PhosAgro; a Member of the Bureau of the Board of the Russian Union of Industrialists and Entrepreneurs (RSPP); the head of the RSPP Committee on Corporate Social Responsibility and Sustainable Development, an organisation representing the interests of business circles, including in the fertilizers sector, in Russia and internationally; and President of the Russian Association of Fertilizer Producers, an organisation established by the largest Russian producers of mineral fertilizers to promote their interests in Russia and internationally. He is also involved in AgroGard, a Russian agricultural holding, through a trust investing in the company.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1982-03-07",
-      "circa": false
+      "circa": false,
+      "year": 1982
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

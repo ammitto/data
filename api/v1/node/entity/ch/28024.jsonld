@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/28024",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/28024",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Hassan Hijazi",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Hassan Hijazi",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/28024"
   ],
   "remarks": "Former Minister for Labour under the former al-Assad regime in power after May 2011. As a former Government Minister, shares responsibility for the former al-Assad regime’s violent repression of the civilian population.",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1964
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

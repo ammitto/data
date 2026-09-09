@@ -1,50 +1,71 @@
 {
-  "id": "https://www.ammitto.org/entity/au/2305",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/2305",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Fahd Jasim AL-FURAYJ",
+      "@type": "NameVariant",
+      "fullName": "Fahd Jasim AL-FURAYJ",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Fah Jassem AL-FREIJ",
+      "@type": "NameVariant",
+      "fullName": "Fah Jassem AL-FREIJ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Jasim AL-FURAYJ",
+      "@type": "NameVariant",
+      "fullName": "Jasim AL-FURAYJ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Jasem AL-FREIJ",
+      "@type": "NameVariant",
+      "fullName": "Jasem AL-FREIJ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Fahd AL-FREIJ",
+      "@type": "NameVariant",
+      "fullName": "Fahd AL-FREIJ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Fahd Jassem AL FREIJ",
+      "@type": "NameVariant",
+      "fullName": "Fahd Jassem AL FREIJ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Last known position: Minister of Defence and Deputy Commander in Chief of the Syrian Arab Army and the Armed Forces.; Listing: Designated under the Autonomous Sanctions Regulations 2011 on 2 March 2012. Instrument of first\ndesignation and\ndeclaration:\nAutonomous Sanctions (Designated Persons and Entities and\nDeclared Persons – Syria) List 2012 [F2012L00482]\nRelisted on 12 January 2024.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/2305"
   ],
-  "birth_info": [
+  "remarks": "Last known position: Minister of Defence and Deputy Commander in Chief of the Syrian Arab Army and the Armed Forces.; Listing: Designated under the Autonomous Sanctions Regulations 2011 on 2 March 2012. Instrument of first\ndesignation and\ndeclaration:\nAutonomous Sanctions (Designated Persons and Entities and\nDeclared Persons – Syria) List 2012 [F2012L00482]\nRelisted on 12 January 2024.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1950,
       "country": "Hama"
     }
   ],
   "nationalities": [
     "Syria"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

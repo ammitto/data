@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/39832",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/39832",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Pozdnyakova Olga Valerievna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Pozdnyakova Olga Valerievna",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/39832"
   ],
   "remarks": "Former “Chairperson” of the “Central Electoral Commission” of the so-called “Donetsk People’s Republic”. In this capacity, she participated in the organisation of the so-called “elections” of 11 Nov 2018 in the so-called “Donetsk People’s Republic”, and thereby actively supported and implemented actions and policies which undermine the territorial integrity, sovereignty and independence of Ukraine, and further destabilised Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1982-03-30",
-      "circa": false
+      "circa": false,
+      "year": 1982
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

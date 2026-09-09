@@ -1,22 +1,43 @@
 {
-  "id": "https://www.ammitto.org/entity/cn/7-christopher-j-brady",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/cn/7-christopher-j-brady",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Christopher J. Brady",
+      "@type": "NameVariant",
+      "fullName": "Christopher J. Brady",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "克里斯托弗·布雷迪",
+      "@type": "NameVariant",
+      "fullName": "克里斯托弗·布雷迪",
       "script": "Hani",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/cn/anti-sanction-list/7-christopher-j-brady"
+  ],
   "remarks": "List: cn/anti-sanction-list; Title: 通用动力公司副总裁、通用动力任务系统公司总裁; Gender: male",
-  "sanction_entry_ids": [
-    "https://www.ammitto.org/entry/cn/unknown/7-christopher-j-brady"
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
   ],
   "gender": "male",
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

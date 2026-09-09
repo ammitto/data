@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/33861",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/33861",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ko Tae Hun",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Ko Tae Hun",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/33861"
   ],
   "remarks": "Tanchon Commercial Bank official.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1972-05-25",
-      "circa": false
+      "circa": false,
+      "year": 1972
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,29 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/caf0006",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/caf0006",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "SOUSSOU",
-      "first_name": "HABIB",
+      "@type": "NameVariant",
+      "fullName": "SOUSSOU",
+      "firstName": "HABIB",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abib",
-      "first_name": "Soussou",
+      "@type": "NameVariant",
+      "fullName": "Abib",
+      "firstName": "Soussou",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Appointed as anti-balaka zone commander (COMZONE) of Boda on 11 April 2014 and on 28 June 2014, for the entire Lobaye Province. Under his command, targeted killings, clashes and attacks against humanitarian organizations and aid workers have continued to take place. Physical description: eye colour: brown; hair colour: black; height: 160cm; weight: 60kg. Photo available for inclusion in the INTERPOL-UN Security Council Special Notice. INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/caf0006"
+  ],
+  "remarks": "Appointed as anti-balaka zone commander (COMZONE) of Boda on 11 April 2014 and on 28 June 2014, for the entire Lobaye Province. Under his command, targeted killings, clashes and attacks against humanitarian organizations and aid workers have continued to take place. Physical description: eye colour: brown; hair colour: black; height: 160cm; weight: 60kg. Photo available for inclusion in the INTERPOL-UN Security Council Special Notice. INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "state": "Boda",
       "country": "Central African Republic"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

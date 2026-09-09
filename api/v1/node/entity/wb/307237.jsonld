@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/307237",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/307237",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "OSTEK CONSTRUCTION ELECTRIC AUTOMATION SYSTEM TECHNOLOGIES LTD",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "OSTEK CONSTRUCTION ELECTRIC AUTOMATION SYSTEM TECHNOLOGIES LTD",
+      "isPrimary": true
     }
   ],
-  "remarks": "*178",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/307237"
+  ],
+  "remarks": "*178",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "MEŞRUTIYET CAD. HATAY SK. NO: 20/7",
       "city": "KIZILAY, ANKARA",
       "country": "Turkiye",
-      "country_iso_code": "TR"
+      "countryIsoCode": "TR"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

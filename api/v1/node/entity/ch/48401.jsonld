@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/48401",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/48401",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Markov Yevgeny Vladimirovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Markov Yevgeny Vladimirovich",
+      "isPrimary": true
     }
   ],
-  "remarks": "Member of the State Duma who voted in favour of the resolution No. 58243-8 “On the appeal of the State Duma of the Federal Assembly of the Russian Federation To the President of the Russian Federation V.V. Putin on the need to recognize the Donetsk People’s Republic and the Luhansk People’s Republic” and therefore supported and implemented actions and policies which undermine the territorial integrity, sovereignty and independence of Ukraine, and further destabilised Ukraine.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/48401"
+  ],
+  "remarks": "Former member of the State Duma who voted in favour of the resolution No. 58243-8 “On the appeal of the State Duma of the Federal Assembly of the Russian Federation To the President of the Russian Federation V.V. Putin on the need to recognise the Donetsk People’s Republic and the Luhansk People’s Republic”. Yevgeny Markov therefore supported and implemented actions and policies which undermine the territorial integrity, sovereignty and independence of Ukraine, and further destabilised Ukraine.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1973-11-08",
-      "circa": false
+      "circa": false,
+      "year": 1973
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

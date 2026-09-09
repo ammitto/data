@@ -1,42 +1,61 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7675",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/7675",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Kerch Ferry – State Ferry Enterprise",
+      "@type": "NameVariant",
+      "fullName": "Kerch Ferry – State Ferry Enterprise",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "State Shipping Company Kerch Sea Ferry",
+      "@type": "NameVariant",
+      "fullName": "State Shipping Company Kerch Sea Ferry",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Kerch Ferry SE",
+      "@type": "NameVariant",
+      "fullName": "Kerch Ferry SE",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Kerch Ferry – State Enterpise",
+      "@type": "NameVariant",
+      "fullName": "Kerch Ferry – State Enterpise",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "State ferry enterprise “Kerch Ferry”",
+      "@type": "NameVariant",
+      "fullName": "State ferry enterprise “Kerch Ferry”",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Previously listed under 'Ukraine criteria' - Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Ukraine) Amendment List 2014 [F2014L01184]; New listing start date 27 Aug 2023; Listing: Instrument of first designation: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 10) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7675"
+  ],
+  "remarks": "Previously listed under 'Ukraine criteria' - Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Ukraine) Amendment List 2014 [F2014L01184]; New listing start date 27 Aug 2023; Listing: Instrument of first designation: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 10) Instrument 2023",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Tselimberna Street, 16, Kerch, Autonomous Republic of Crimea, 98307, Ukraine",
       "country": "Ukraine"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

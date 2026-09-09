@@ -1,32 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8781",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/8781",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Limited Liability Company Of Yuzhno Regional Registrar",
+      "@type": "NameVariant",
+      "fullName": "Limited Liability Company Of Yuzhno Regional Registrar",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "OOO YURR",
+      "@type": "NameVariant",
+      "fullName": "OOO YURR",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "SOUTHERN REGIONAL REGISTRAR",
+      "@type": "NameVariant",
+      "fullName": "SOUTHERN REGIONAL REGISTRAR",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2026",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8781"
+  ],
+  "remarks": "Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2026",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Ul. Menzhinskogo 2/1, Floor 3, Rostov-na-Donu, 344029, Russia",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

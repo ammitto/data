@@ -1,71 +1,99 @@
 {
-  "id": "https://www.ammitto.org/entity/au/23",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/23",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Fazl Mohammad Mazloom",
+      "@type": "NameVariant",
+      "fullName": "Fazl Mohammad Mazloom",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Molah Fazl ",
+      "@type": "NameVariant",
+      "fullName": "Molah Fazl ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Fazel Mohammad Mazloom",
+      "@type": "NameVariant",
+      "fullName": "Fazel Mohammad Mazloom",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "فضل محمد مظلوم",
+      "@type": "NameVariant",
+      "fullName": "فضل محمد مظلوم",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "MOHAMMAD FADEL AAKHUND",
+      "@type": "NameVariant",
+      "fullName": "MOHAMMAD FADEL AAKHUND",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "TAi.023 Title: Mullah. Designation: Deputy Chief of Army Staff of the Taliban regime (1996-2001).  Afghanistan diplomatic passport D0009726, issued on 13 Oct. 2021, issued in Kabul, Afghanistan, expires 13 Oct. 2026. (Name in Latin script: Mohammad Fadel Aakhund; name in original script: محمد فاضل آخوند). Missing left leg since 1996. Serious injury on his right foot. Height 168 cm.; Listing: Listed on 23 Feb. 2001 (amended on 3 Sep. 2003, 21 Sep. 2007, 3 Oct. 2008 and 31 Dec. 2013, 7 Sep. 2016, 10 Mar. 2026, 28 Apr. 2026)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/23"
   ],
-  "birth_info": [
+  "remarks": "TAi.023 Title: Mullah. Designation: Deputy Chief of Army Staff of the Taliban regime (1996-2001).  Afghanistan diplomatic passport D0009726, issued on 13 Oct. 2021, issued in Kabul, Afghanistan, expires 13 Oct. 2026. (Name in Latin script: Mohammad Fadel Aakhund; name in original script: محمد فاضل آخوند). Missing left leg since 1996. Serious injury on his right foot. Height 168 cm.; Listing: Listed on 23 Feb. 2001 (amended on 3 Sep. 2003, 21 Sep. 2007, 3 Oct. 2008 and 31 Dec. 2013, 7 Sep. 2016, 10 Mar. 2026, 28 Apr. 2026)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1963,
       "country": "Uruzgan"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1964,
       "country": "Afghanistan"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1966,
       "country": "Uruzgan"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1967,
       "country": "Uruzgan"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1968,
       "country": "Uruzgan"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1971,
       "country": "Uruzgan"
     }
   ],
   "nationalities": [
     "Afghanistan"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Pule Mahmood Khan, PD2, 10011, Kabul, Afghanistan",
       "country": "Afghanistan"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

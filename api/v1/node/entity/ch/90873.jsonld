@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/90873",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/90873",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Brysina Zhanna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Brysina Zhanna",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/90873"
   ],
   "remarks": "Zhanna Brysina is a Belarusian judge of Minsk City Court. Zhanna Brysina has issued politically motivated rulings concerning freedom of expression or freedom of assembly against Pavel Belavus, Siarhei Kreida, Tsimafei Shkuratovich, Maksim Hrechkayedau, Vadzim Baranau, Aliaksandr Loban, Dzmitry Maholin, Ihar Artsiukh, Aliaksandr Ziankou, Ruslan Zavadzich, Artsiom Ziankou, Andrei Velikaselets, and Pavel Kharytonau, among others. Zhanna Brysina is therefore responsible for the repression of civil society in Belarus.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1961-10-21",
-      "circa": false
+      "circa": false,
+      "year": 1961
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

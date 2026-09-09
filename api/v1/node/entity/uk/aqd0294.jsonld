@@ -1,29 +1,48 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/aqd0294",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/aqd0294",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "EL HABHAB",
-      "first_name": "Redouane",
+      "@type": "NameVariant",
+      "fullName": "EL HABHAB",
+      "firstName": "Redouane",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abdelrahman",
+      "@type": "NameVariant",
+      "fullName": "Abdelrahman",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Released from custody in Germany in Apr. 2012. Review pursuant to Security Council resolution 2268 (2017) was concluded on 15 November 2021. INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/notice/search/un/4474065. Address Kiel, previous address",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/aqd0294"
+  ],
+  "remarks": "Released from custody in Germany in Apr. 2012. Review pursuant to Security Council resolution 2268 (2017) was concluded on 15 November 2021. INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/notice/search/un/4474065. Address Kiel, previous address",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "lltisstrasse 58",
       "state": "Kiel",
       "country": "Germany"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

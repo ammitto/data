@@ -1,40 +1,59 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7378",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7378",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Aleksey Logvinovich OVERCHUK",
+      "@type": "NameVariant",
+      "fullName": "Aleksey Logvinovich OVERCHUK",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Alexei Loginovich OVERCHUK",
+      "@type": "NameVariant",
+      "fullName": "Alexei Loginovich OVERCHUK",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Oleksii Lohvynovych OVERCHUK",
+      "@type": "NameVariant",
+      "fullName": "Oleksii Lohvynovych OVERCHUK",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Aleksei Logvinovich OVERCHUK",
+      "@type": "NameVariant",
+      "fullName": "Aleksei Logvinovich OVERCHUK",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Deputy Prime Minister of the Russian Federation; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 2) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7378"
   ],
-  "birth_info": [
+  "remarks": "Deputy Prime Minister of the Russian Federation; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 2) Instrument 2023",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1964,
       "country": "Korostyshev"
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

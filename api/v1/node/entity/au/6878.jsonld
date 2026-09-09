@@ -1,22 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/au/6878",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/6878",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Viktor Filippovich RASHNIKOV",
+      "@type": "NameVariant",
+      "fullName": "Viktor Filippovich RASHNIKOV",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "Owner, Chairman of the Board of Directors and Chairman of the Committee for Strategic Planning of the Magnitogorsk Iron & Steel Works; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 11) Instrument 2022",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/6878"
   ],
-  "birth_info": [
+  "remarks": "Owner, Chairman of the Board of Directors and Chairman of the Committee for Strategic Planning of the Magnitogorsk Iron & Steel Works; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 11) Instrument 2022",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1948,
       "country": "Magnitogorsk"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

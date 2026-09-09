@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/35251",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/35251",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Bakharev Konstantin Mikhailovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Bakharev Konstantin Mikhailovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/35251"
   ],
   "remarks": "Member of the State Duma, elected from the illegally annexed Autonomous \"Republic of Crimea\".",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1972-10-20",
-      "circa": false
+      "circa": false,
+      "year": 1972
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,23 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/936659",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/wb/936659",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MR.NORMAN BWURUK DIDAM",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "MR.NORMAN BWURUK DIDAM",
+      "isPrimary": true
     }
   ],
-  "remarks": "*682",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/936659"
+  ],
+  "remarks": "*682",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "12 LIBREVILE STREET, WUSE 2",
       "city": "ABUJA",
       "country": "Nigeria",
-      "country_iso_code": "NG"
+      "countryIsoCode": "NG"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

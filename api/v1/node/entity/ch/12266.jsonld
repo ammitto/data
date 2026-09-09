@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/12266",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/12266",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Omar Ibrahim Ghalawanji",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Omar Ibrahim Ghalawanji",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/12266"
   ],
   "remarks": "Former Vice Prime Minister for Services Affairs under the former al-Assad regime, former Minister of Local Administration, in office until 3.7.2016. As a former Government Minister, shares responsibility for the former al-Assad regime’s violent repression of the civilian population.",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1954
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

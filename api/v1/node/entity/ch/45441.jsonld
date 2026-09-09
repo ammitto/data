@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/45441",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/45441",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Shatsila Siarhei Viktaravich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Shatsila Siarhei Viktaravich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/45441"
   ],
   "remarks": "In his position as judge of the Sovetsky District Court in Minsk, Siarhei Shatsila is responsible for numerous politically motivated rulings against protesters, in particular the sentencing of Natallia Hersche, Dzmitry Halko and Dzmitry Karatkevich, considered as political prisoners by Viasna, a Belarusian human rights organisation. He is therefore responsible for serious human rights violations and for seriously undermining the rule of law, as well as for the repression of civil society and democratic opposition.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1989-08-13",
-      "circa": false
+      "circa": false,
+      "year": 1989
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

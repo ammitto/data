@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/56833",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/56833",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Koltsov Anton Viktorovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Koltsov Anton Viktorovich",
+      "isPrimary": true
     }
   ],
-  "remarks": "Appointed so-called “Head of the Government of the Zaporizhzhia Oblast” on 18 Jul 2022 and was involved in the preparations for the illegal referendum for Zaporizhzhia to become part of the Russian Federation.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/56833"
+  ],
+  "remarks": "Appointed so-called “Head of the Government of the Zaporizhzhia Oblast” on 18 July 2022 and was involved in the preparations for the illegal referendum for Zaporizhzhia to become part of the Russian Federation.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1973-06-24",
-      "circa": false
+      "circa": false,
+      "year": 1973
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

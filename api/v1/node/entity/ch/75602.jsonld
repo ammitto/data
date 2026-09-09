@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/75602",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/75602",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kusov Ivan Sergeevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kusov Ivan Sergeevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/75602"
   ],
   "remarks": "Ivan Kusov is the Minister of Education and Science of the so-called “Luhansk People’s Republic”. He is involved in child abduction and actively supports the re-education of Ukrainian children with the intent of alienating them from their home country and relatives.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1987-01-24",
-      "circa": false
+      "circa": false,
+      "year": 1987
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,37 +1,55 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus3096",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus3096",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "LMSISTEMS LLC",
+      "@type": "NameVariant",
+      "fullName": "LMSISTEMS LLC",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "LLC LMSISTEMY ",
+      "@type": "NameVariant",
+      "fullName": "LLC LMSISTEMY ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "OOO LMSISTEMY",
+      "@type": "NameVariant",
+      "fullName": "OOO LMSISTEMY",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "ООО \"ЛМСИСТЕМЫ\"",
+      "@type": "NameVariant",
+      "fullName": "ООО \"ЛМСИСТЕМЫ\"",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus3096"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "MOSCOW VN. TER.G., MUNICIPAL DISTRICT MOZHAI, UL GORBUNOVA",
       "state": "MOSCOW",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/37066",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/37066",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Topor-Gilka Sergey Anatolevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Topor-Gilka Sergey Anatolevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/37066"
   ],
   "remarks": "In his capacity as Director General of OAO \"VO TPE\", he led the negotiations with Siemens Gas Turbine Technologies OOO regarding the purchase and delivery of the gas turbines for a power plant in Taman, Krasnodar region, Russian Federation. He was later, as Director General of OOO \"VO TPE\", responsible for the transfer of the gas turbines to Crimea and for the implementation of the construction project of the thermal power plants Balaklava and Tavricheskaya, where the turbines were installed. This contributes to establishing an independent power supply for Crimea and Sevastopol as a means of supporting their separation from Ukraine, and undermines the territorial integrity, sovereignty and independence of Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1970-02-17",
-      "circa": false
+      "circa": false,
+      "year": 1970
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/82833",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/82833",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ruben Pestano Lavilla Jr. Sheik",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Ruben Pestano Lavilla Jr. Sheik",
+      "isPrimary": true
     }
   ],
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/82833"
+  ],
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1972-10-04",
-      "circa": false
+      "circa": false,
+      "year": 1972
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/27347",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/27347",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ryzhkov Nikolai Ivanovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Ryzhkov Nikolai Ivanovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/27347"
   ],
   "remarks": "Former member of the Committee for federal issues, regional politics and the North of the Federation Council of the Russian Federation.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1929-09-28",
-      "circa": false
+      "circa": false,
+      "year": 1929
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

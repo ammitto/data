@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/61071",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/61071",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Moskalkova Tatiana Nikolaevna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Moskalkova Tatiana Nikolaevna",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/61071"
   ],
   "remarks": "Tatiana Moskalkova is the Commissioner for Human Rights of the Russian Federation. In that capacity, she serves as a key government interlocutor, actively promoting official narratives that deny the existence of Russian “filtration” and deportation practices implemented vis-à-vis the Ukrainian population. Authoritative sources confirm that \"filtration” camps are part of a major Russian effort to “filter” the Ukrainian population as a means of suppressing Ukrainian resistance and enforcing loyalty among the remaining population. As part of Russia’s “filtration” operations, Russia’s forces and proxies have interrogated, detained, and forcibly deported between 900 000 and 1,6 million Ukrainian citizens, including thousands of children.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1955-05-30",
-      "circa": false
+      "circa": false,
+      "year": 1955
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

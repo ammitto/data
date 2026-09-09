@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/8121",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/8121",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mohammed Aboud Rogo",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Mohammed Aboud Rogo",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/8121"
   ],
   "remarks": "Kenya-based extremist Aboud Rogo Mohammed has threatened the peace, security, or stability of Somalia, by providing financial, material, logistical, or technical support to al-Shabaab, an entity listed by the UNSC Committee established pursuant to resolution 751 (1992) concerning Somalia and resolution 1907 (2009) concerning Eritrea for engaging in acts that directly or indirectly threaten the peace, security, or stability of Somalia.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1960-11-11",
-      "circa": false
+      "circa": false,
+      "year": 1960
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

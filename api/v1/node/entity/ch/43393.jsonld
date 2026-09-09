@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/43393",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/43393",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ganov Alexander Nikolaevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Ganov Alexander Nikolaevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/43393"
   ],
   "remarks": "General director of the JSC TC Grand Service Express, which operates railway service between Russia and the illegally annexed Crimean peninsula. Therefore, he supports the consolidation of the illegally annexed Crimean peninsula into the Russian Federation, which in turn further undermines the territorial integrity, sovereignty and independence of Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1974-10-24",
-      "circa": false
+      "circa": false,
+      "year": 1974
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

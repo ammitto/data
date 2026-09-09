@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/4845",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/4845",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Zaitsau Vadzim Iurievich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Zaitsau Vadzim Iurievich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/4845"
   ],
   "remarks": "CEO of the semi-private Cosmos TV since June 2013, appointed by the Government of Belarus as representative of the state. Former Head of the KGB (July 2008 - November 2012). Responsible for transforming the KGB into the main organ of repression of civil society and of the democratic opposition. Responsible for the dissemination, through the media, of false information about the demonstrators on 19 Dec 2010, alleging that they had brought materials to be used as weapons. He personally threatened the lives and health of the wife and child of former presidential candidate, Andrei Sannikov. He is the main initiator of orders for unlawful harassment of democratic opposition, the torture of political opponents and the mistreatment of prisoners.",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1964
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

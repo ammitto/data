@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/318949",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/318949",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "M/S. JANATA TRADERS",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "M/S. JANATA TRADERS",
+      "isPrimary": true
     }
   ],
-  "remarks": "*406",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/318949"
+  ],
+  "remarks": "*406",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "TCB BHAB (7TH FLOOR), 1, KAWRAN BAZAR",
       "city": "DHAKA-1215",
       "country": "Bangladesh",
-      "country_iso_code": "BD"
+      "countryIsoCode": "BD"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

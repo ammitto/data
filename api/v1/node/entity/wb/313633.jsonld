@@ -1,22 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/313633",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/wb/313633",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MR. FAUSTO ALEJANDRO LOPEZ CIFUENTES",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "MR. FAUSTO ALEJANDRO LOPEZ CIFUENTES",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/313633"
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "25A CALLE 18-70, ZONA 11, MINERVA SUR MUNICIPIO DE MIXCO, DPTO,",
       "city": "GUATEMALA CITY (CUIDAD DE GUATEMALA)",
       "country": "Guatemala",
-      "country_iso_code": "GT"
+      "countryIsoCode": "GT"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

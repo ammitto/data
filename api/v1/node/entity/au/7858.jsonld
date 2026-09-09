@@ -1,35 +1,53 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7858",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7858",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Olga Yevhenivna BAS",
+      "@type": "NameVariant",
+      "fullName": "Olga Yevhenivna BAS",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Olha Yevhenivna BAS",
+      "@type": "NameVariant",
+      "fullName": "Olha Yevhenivna BAS",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Olga Yevgenyevna BAS",
+      "@type": "NameVariant",
+      "fullName": "Olga Yevgenyevna BAS",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Member of the Federation Council of the Federal Assembly of the Russian Federation; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2024",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7858"
   ],
-  "birth_info": [
+  "remarks": "Member of the Federation Council of the Federal Assembly of the Russian Federation; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2024",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1964,
       "country": "Noginsk"
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

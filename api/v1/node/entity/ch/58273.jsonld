@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/58273",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/58273",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kozlov Alexander Alexandrovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kozlov Alexander Alexandrovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/58273"
   ],
   "remarks": "Alexander Alexandrovich Kozlov is the Minister of Natural Resources and Ecology of the Russian Federation. He is in charge of developing and implementing policies, which aims to create new environmental policies in the so-called ‘Donetsk People’s Republic’ and ‘Luhansk People’s Republic’ and has committed ministry resources for this purpose. In implementing these policies, he is responsible for, supporting or implementing actions or policies which undermine or threaten the territorial integrity, sovereignty and independence of Ukraine, or stability or security in Ukraine, or which obstruct the work of international organisations in Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1981-01-02",
-      "circa": false
+      "circa": false,
+      "year": 1981
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

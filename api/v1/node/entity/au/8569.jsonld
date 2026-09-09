@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8569",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/8569",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "SPECIAL INDUSTRIES GROUP (SIG)",
+      "@type": "NameVariant",
+      "fullName": "SPECIAL INDUSTRIES GROUP (SIG)",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "IRe.073. Designation: Subordinate of DIO.; Listing: Listed by the 1737 Committee on 9 June 2010.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8569"
+  ],
+  "remarks": "IRe.073. Designation: Subordinate of DIO.; Listing: Listed by the 1737 Committee on 9 June 2010.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Pasdaran Avenue, PO Box 19585/777, Tehran, Iran (Islamic Republic of)",
       "country": "Iran (Islamic Republic of)"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

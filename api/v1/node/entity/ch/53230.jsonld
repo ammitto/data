@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/53230",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/53230",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kramarenko Artem Alexandrovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kramarenko Artem Alexandrovich",
+      "isPrimary": true
     }
   ],
-  "remarks": "So-called “Deputy Chairman of the Government” and so-called “Minister of Agro-Industrial Policy and Food” of the so-called “Donetsk People’s Republic”. In taking on and acting in those capacities, he has actively undermined the territorial integrity, sovereignty and independence of Ukraine.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/53230"
+  ],
+  "remarks": "So-called “Deputy Chairman of the Government” and so-called “Minister of Agro-Industrial Policy and Food” of the so-called “Donetsk People’s Republic”. He is a member of the United Russia Party. In taking on and acting in those capacities, he has actively undermined the territorial integrity, sovereignty and independence of Ukraine.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1980-01-13",
-      "circa": false
+      "circa": false,
+      "year": 1980
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

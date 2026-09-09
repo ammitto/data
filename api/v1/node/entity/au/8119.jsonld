@@ -1,32 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8119",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/8119",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Scientific Research Institute of Applied Acoustics Federal State Unitary Enterprise",
+      "@type": "NameVariant",
+      "fullName": "Scientific Research Institute of Applied Acoustics Federal State Unitary Enterprise",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Applied Acoustics Research Institute",
+      "@type": "NameVariant",
+      "fullName": "Applied Acoustics Research Institute",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "NIIPA",
+      "@type": "NameVariant",
+      "fullName": "NIIPA",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "http://niipa.ru/main.php; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8119"
+  ],
+  "remarks": "http://niipa.ru/main.php; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "9 Maya Street, 7A, Dubna, Moscow Region 141981 Russia",
       "country": "Moscow Region 141981 Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

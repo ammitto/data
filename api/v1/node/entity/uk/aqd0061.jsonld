@@ -1,41 +1,62 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/aqd0061",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/aqd0061",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Jund Al Aqsa",
+      "@type": "NameVariant",
+      "fullName": "Jund Al Aqsa",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Sarayat Al Quds",
+      "@type": "NameVariant",
+      "fullName": "Sarayat Al Quds",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Soldiers of Aqsa",
+      "@type": "NameVariant",
+      "fullName": "Soldiers of Aqsa",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "The Soldiers of Aqsa",
+      "@type": "NameVariant",
+      "fullName": "The Soldiers of Aqsa",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Associated with the Al Nusrah Front for the People of the Levant (QDe.137). INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/notice/search/une/6116596 Also suspected to be in Hama Governorate, Syrian Arab Republic",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/aqd0061"
+  ],
+  "remarks": "Associated with the Al Nusrah Front for the People of the Levant (QDe.137). INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/notice/search/une/6116596 Also suspected to be in Hama Governorate, Syrian Arab Republic",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "state": "Hama Governate",
       "country": "Syria"
     },
     {
+      "@type": "Address",
+      "street": "",
       "state": "Idlib Governorate",
       "country": "Syria"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

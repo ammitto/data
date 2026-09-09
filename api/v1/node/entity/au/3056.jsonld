@@ -1,58 +1,81 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3056",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/3056",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ahmed Diriye",
+      "@type": "NameVariant",
+      "fullName": "Ahmed Diriye",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Sheikh Ahmed Umar Abu Ubaidah",
+      "@type": "NameVariant",
+      "fullName": "Sheikh Ahmed Umar Abu Ubaidah",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Sheikh Omar Abu Ubaidaha",
+      "@type": "NameVariant",
+      "fullName": "Sheikh Omar Abu Ubaidaha",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Sheikh Ahmed Umar",
+      "@type": "NameVariant",
+      "fullName": "Sheikh Ahmed Umar",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Sheikh Mahad Omar Abdikarim",
+      "@type": "NameVariant",
+      "fullName": "Sheikh Mahad Omar Abdikarim",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abu Ubaidah",
+      "@type": "NameVariant",
+      "fullName": "Abu Ubaidah",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abu Diriye",
+      "@type": "NameVariant",
+      "fullName": "Abu Diriye",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "SOi.014; Listing: Listed on 24 September 2014",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3056"
   ],
-  "birth_info": [
+  "remarks": "SOi.014; Listing: Listed on 24 September 2014",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1972,
       "country": "Somalia"
     }
   ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Somalia",
       "country": "Somalia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

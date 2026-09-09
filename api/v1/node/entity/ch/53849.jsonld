@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/53849",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/53849",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kryukova Julia Mikhailovna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kryukova Julia Mikhailovna",
+      "isPrimary": true
     }
   ],
-  "remarks": "Member of the so-called ‘People’s Council’ of the so-called ‘Donetsk People’s Republic’. Has therefore supported and implemented actions and policies which undermine the territorial integrity, sovereignty and independence of Ukraine, and further destabilised Ukraine.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/53849"
+  ],
+  "remarks": "Deputy of the so-called “People’s Council” of the so-called “Donetsk People’s Republic” and member of the Committee on Labor, Social Policy and Veterans Affairs. She is therefore supporting and implementing actions and policies which undermine the territorial integrity, sovereignty and independence of Ukraine, and is further destabilising Ukraine.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1978-05-28",
-      "circa": false
+      "circa": false,
+      "year": 1978
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/tr/112",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/tr/112",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "KOREAN TANGUN TRADING CORPORATION",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "KOREAN TANGUN TRADING CORPORATION",
+      "isPrimary": true
     }
   ],
-  "source_references": [
+  "sourceReferences": [
     {
-      "source_code": "tr",
-      "reference_number": "112"
+      "@type": "SourceReference",
+      "sourceCode": "tr",
+      "referenceNumber": "112",
+      "retrievedAt": "2026-09-09T16:30:41Z"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "linkedEntities": [
+
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/tr/consolidated-list/112"
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

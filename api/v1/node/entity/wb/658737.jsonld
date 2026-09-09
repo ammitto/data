@@ -1,20 +1,35 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/658737",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/658737",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "LOGITRANS LOGÍSTICA ENGENHARIA E TRANSPORTES LTDA.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "LOGITRANS LOGÍSTICA ENGENHARIA E TRANSPORTES LTDA.",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/658737"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "country": "Brazil",
-      "country_iso_code": "BR"
+      "countryIsoCode": "BR"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

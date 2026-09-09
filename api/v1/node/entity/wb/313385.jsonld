@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/313385",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/313385",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "K.R.G. ASSOCIATES",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "K.R.G. ASSOCIATES",
+      "isPrimary": true
     }
   ],
-  "remarks": "*251",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/313385"
+  ],
+  "remarks": "*251",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "#5 CHELLAN NAGAR",
       "city": "PUDUCHERRY 605011",
       "country": "India",
-      "country_iso_code": "IN"
+      "countryIsoCode": "IN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

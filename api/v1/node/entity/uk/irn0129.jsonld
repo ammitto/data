@@ -1,39 +1,63 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/irn0129",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/irn0129",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Abnoush",
-      "first_name": "Salar",
+      "@type": "NameVariant",
+      "fullName": "Abnoush",
+      "firstName": "Salar",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Abanush",
-      "first_name": "Salar",
+      "@type": "NameVariant",
+      "fullName": "Abanush",
+      "firstName": "Salar",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Velayatmadar",
-      "first_name": "Salar",
+      "@type": "NameVariant",
+      "fullName": "Velayatmadar",
+      "firstName": "Salar",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "سالار آبنوش",
+      "@type": "NameVariant",
+      "fullName": "سالار آبنوش",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "سالار ولایتمدار",
+      "@type": "NameVariant",
+      "fullName": "سالار ولایتمدار",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/irn0129"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

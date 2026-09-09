@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/72212",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/72212",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Brykov Yevhen Oleksandrovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Brykov Yevhen Oleksandrovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/72212"
   ],
   "remarks": "Yevhen Brykov is the so-called “Minister of Information Policy” of Kherson Region since 22 December 2022. He has assumed this role, without the consent of Ukrainian authorities, in the illegally occupied territories of Kherson Region and is implementing the official policies of the Russian Federation in the region.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1988-05-21",
-      "circa": false
+      "circa": false,
+      "year": 1988
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,23 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/309783",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/wb/309783",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MR. VALERIY RUSHCHAK",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "MR. VALERIY RUSHCHAK",
+      "isPrimary": true
     }
   ],
-  "remarks": "*226",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/309783"
+  ],
+  "remarks": "*226",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "OKRUZHNA STR. 51/10",
       "city": "79000 LVIV",
       "country": "Ukraine",
-      "country_iso_code": "UA"
+      "countryIsoCode": "UA"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

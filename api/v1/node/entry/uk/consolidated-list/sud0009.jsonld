@@ -1,39 +1,55 @@
 {
-  "id": "https://www.ammitto.org/entry/uk/consolidated-list/sud0009",
-  "entity_id": "https://www.ammitto.org/entity/uk/sud0009",
+  "@id": "https://www.ammitto.org/entry/uk/consolidated-list/sud0009",
+  "@type": "SanctionEntry",
+  "entityId": "https://www.ammitto.org/entity/uk/sud0009",
   "authority": {
     "@id": "https://www.ammitto.org/authority/uk"
   },
   "regime": {
-    "@id": "https://www.ammitto.org/regime/the_sudan_sanctions_eu_exit_regulations_2020"
+    "@id": "https://www.ammitto.org/regime/the_sudan_sanctions_eu_exit_regulations_2020",
+    "name": "The Sudan (Sanctions) (EU Exit) Regulations 2020"
   },
+  "legalBases": [
+
+  ],
   "effects": [
     {
-      "effect_type": "asset_freeze",
+      "@type": "SanctionEffect",
+      "effectType": "asset_freeze",
       "scope": "full"
     },
     {
-      "effect_type": "debarment",
+      "@type": "SanctionEffect",
+      "effectType": "debarment",
       "scope": "full"
     }
   ],
+  "reasons": [
+
+  ],
   "period": {
-    "listed_date": "2023-07-12",
-    "effective_date": "2023-07-12",
-    "is_indefinite": true,
-    "last_updated": "2025-04-09"
+    "@type": "TemporalPeriod",
+    "listedDate": "2023-07-12",
+    "effectiveDate": "2023-07-12",
+    "isIndefinite": true,
+    "lastUpdated": "2025-04-09"
   },
   "status": "active",
-  "reference_number": "SUD0009",
+  "statusHistory": [
+
+  ],
+  "referenceNumber": "SUD0009",
   "remarks": "\n \nSUDAN MASTER TECHNOLOGY is an arms company associated with the SAF, an involved person under the Sudan (Sanctions) (EU Exit) Regulations 2020.   \n \nSUDAN MASTER TECHNOLOGY supports the SAF by supplying it with equipment. It provides financial support for activity that undermines the peace and security of Sudan by providing funds to SAF.   \n \nSUDAN MASTER TECHNOLOGY is therefore responsible for activity which threatens the peace, stability and security of Sudan though supporting SAF’s ongoing participation in hostilities in Sudan and frequent breaches of ceasefires. \n \n",
-  "raw_source_data": {
-    "source_format": "xml",
-    "source_specific_fields": {
+  "rawSourceData": {
+    "@type": "RawSourceData",
+    "sourceFormat": "xml",
+    "sourceSpecificFields": {
       "uk:ofsiGroupId": "16007",
+      "uk:unReferenceNumber": null,
       "uk:designationSource": "UK",
       "uk:sanctionsImposed": "Asset freeze|Director Disqualification Sanction",
       "uk:entityType": "Entity"
     }
   },
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

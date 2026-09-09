@@ -1,33 +1,42 @@
 {
-  "id": "https://www.ammitto.org/entry/au/consolidated-list/288",
-  "entity_id": "https://www.ammitto.org/entity/au/288",
+  "@id": "https://www.ammitto.org/entry/au/consolidated-list/288",
+  "@type": "SanctionEntry",
+  "entityId": "https://www.ammitto.org/entity/au/288",
   "authority": {
     "@id": "https://www.ammitto.org/authority/au"
   },
   "regime": {
-    "@id": "https://www.ammitto.org/regime/1373__2001_"
+    "@id": "https://www.ammitto.org/regime/1373__2001_",
+    "name": "1373 (2001)"
   },
-  "legal_bases": [
+  "legalBases": [
     {
-      "type": "instrument",
-      "identifier": "Instrument of first listing: Charter of the United Nations (Anti terrorism — Persons and Entities) List 2001 (No. 2) [F2021L00643, Gazette No. S 500, 21 December 2001]. Re-listed on: 16/09/2022, 13/09/2025 in Charter of the United Nations (Listed Persons and Entities) Amendment (No. 2) Instrument 2025",
-      "title": "Instrument of first listing: Charter of the United Nations (Anti terrorism — Persons and Entities) List 2001 (No. 2) [F2021L00643, Gazette No. S 500, 21 December 2001]. Re-listed on: 16/09/2022, 13/09/2025 in Charter of the United Nations (Listed Persons and Entities) Amendment (No. 2) Instrument 2025"
+      "@id": "https://www.ammitto.org/legal-instrument/au/instrument-of-first-listing-charter-of-the-united-nations-anti-terrorism-persons-and-entities-list-2-275c6b70b669"
     }
   ],
   "effects": [
     {
-      "effect_type": "asset_freeze",
+      "@type": "SanctionEffect",
+      "effectType": "asset_freeze",
       "scope": "full"
     }
   ],
+  "reasons": [
+
+  ],
   "period": {
-    "is_indefinite": true
+    "@type": "TemporalPeriod",
+    "isIndefinite": true
   },
   "status": "active",
-  "reference_number": "288",
-  "raw_source_data": {
-    "source_format": "csv",
-    "source_specific_fields": {
+  "statusHistory": [
+
+  ],
+  "referenceNumber": "288",
+  "rawSourceData": {
+    "@type": "RawSourceData",
+    "sourceFormat": "csv",
+    "sourceSpecificFields": {
       "au:reference": "288",
       "au:committees": "1373 (2001)",
       "au:control_date": "2025-09-13",
@@ -35,5 +44,5 @@
       "au:listing_info": "Instrument of first listing: Charter of the United Nations (Anti terrorism — Persons and Entities) List 2001 (No. 2) [F2021L00643, Gazette No. S 500, 21 December 2001]. Re-listed on: 16/09/2022, 13/09/2025 in Charter of the United Nations (Listed Persons and Entities) Amendment (No. 2) Instrument 2025"
     }
   },
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

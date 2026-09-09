@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/4563",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/4563",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Rybakou Aliaksei Vasilievich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Rybakou Aliaksei Vasilievich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/4563"
   ],
   "remarks": "Judge of the Supreme Court. A former Judge of the Minsk Moskovski District Court and currently judge of the Supreme Court. He sentenced the former presidential candidate, Alyaksandr Kazulin, to five-and-a-half years in jail for organising protests in March 2006 against the fraudulent elections.The way he conducted the trial was a clear violation of the Code of Criminal Procedure.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1966-07-31",
-      "circa": false
+      "circa": false,
+      "year": 1966
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

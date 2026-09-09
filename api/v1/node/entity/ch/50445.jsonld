@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/50445",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/50445",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Volfovich Aleksandr Grigoryevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Volfovich Aleksandr Grigoryevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/50445"
   ],
   "remarks": "Aleksandr Grigoryevich Volfovich is the State Secretary of the Security Council of the Republic of Belarus, and according to local military sources has been supervising the military exercise “Allied Resolve 2022”, which prepared and facilitated the Russian military aggression against Ukraine of 24 February 2022.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1967-06-28",
-      "circa": false
+      "circa": false,
+      "year": 1967
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

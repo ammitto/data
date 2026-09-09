@@ -1,57 +1,79 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/aqd0044",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/aqd0044",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "HANIFA MONEY EXCHANGE OFFICE (BRANCH LOCATED IN ALBU KAMAL, SYRIAN ARAB REPUBLIC)",
+      "@type": "NameVariant",
+      "fullName": "HANIFA MONEY EXCHANGE OFFICE (BRANCH LOCATED IN ALBU KAMAL, SYRIAN ARAB REPUBLIC)",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Hanifa Exchange",
+      "@type": "NameVariant",
+      "fullName": "Hanifa Exchange",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Hanifa Money Exchange Office",
+      "@type": "NameVariant",
+      "fullName": "Hanifa Money Exchange Office",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Hanifah Currency Exchange",
+      "@type": "NameVariant",
+      "fullName": "Hanifah Currency Exchange",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Hanifah Exchange Company",
+      "@type": "NameVariant",
+      "fullName": "Hanifah Exchange Company",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Hanifeh Exchange",
+      "@type": "NameVariant",
+      "fullName": "Hanifeh Exchange",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Hunaifa Office",
+      "@type": "NameVariant",
+      "fullName": "Hunaifa Office",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "مكتب حنيفة للصرافة",
+      "@type": "NameVariant",
+      "fullName": "مكتب حنيفة للصرافة",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Money exchange business in Albu Kamal, (Al-Bukamal), Syrian Arab Republic, facilitating the movement of funds on behalf of Islamic State in Iraq and the Levant (ISIL), listed as Al-Qaida in Iraq (QDe.115). Used exclusively for ISIL-related transactions. INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/notice/search/une/6116591",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/aqd0044"
+  ],
+  "remarks": "Money exchange business in Albu Kamal, (Al-Bukamal), Syrian Arab Republic, facilitating the movement of funds on behalf of Islamic State in Iraq and the Levant (ISIL), listed as Al-Qaida in Iraq (QDe.115). Used exclusively for ISIL-related transactions. INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/notice/search/une/6116591",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Albu Kamal, (Al-Bukamal)",
       "country": "Syria"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

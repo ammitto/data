@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/1538",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/1538",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ghazi Hammud Al-Ubaidi",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Ghazi Hammud Al-Ubaidi",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/1538"
   ],
   "remarks": "Ba’th Party Regional Command Chairman, Wasit",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1944
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

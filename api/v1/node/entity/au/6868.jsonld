@@ -1,22 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/au/6868",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/6868",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Yulia Mikhailovna MAYOROVA",
+      "@type": "NameVariant",
+      "fullName": "Yulia Mikhailovna MAYOROVA",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "Passport: 622264502 (as of 2006); Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Thematic Sanctions) Instrument 2022",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/6868"
   ],
-  "birth_info": [
+  "remarks": "Passport: 622264502 (as of 2006); Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Thematic Sanctions) Instrument 2022",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1979,
       "country": "Moscow"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/82433",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/82433",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Isnilon Totoni Hapilon",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Isnilon Totoni Hapilon",
+      "isPrimary": true
     }
   ],
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/82433"
+  ],
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1966-03-18",
-      "circa": false
+      "circa": false,
+      "year": 1966
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

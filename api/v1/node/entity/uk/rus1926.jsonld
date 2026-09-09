@@ -1,28 +1,44 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus1926",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus1926",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "AFK SISTEMA",
+      "@type": "NameVariant",
+      "fullName": "AFK SISTEMA",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "ПУБЛИЧНОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО «АКЦИОНЕРНАЯ ФИНАНСОВАЯ КОРПОРАЦИЯ «СИСТЕМА» ",
+      "@type": "NameVariant",
+      "fullName": "ПУБЛИЧНОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО «АКЦИОНЕРНАЯ ФИНАНСОВАЯ КОРПОРАЦИЯ «СИСТЕМА» ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus1926"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "13/1, Mokhovaya St.",
       "state": "Moscow",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

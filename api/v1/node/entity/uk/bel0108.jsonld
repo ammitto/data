@@ -1,28 +1,44 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/bel0108",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/bel0108",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "BELAERONAVIGATSIA Republican Unitary Air Navigation Services Enterprise",
+      "@type": "NameVariant",
+      "fullName": "BELAERONAVIGATSIA Republican Unitary Air Navigation Services Enterprise",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "BELAERONAVIGATSIA State-Owned Enterprise",
+      "@type": "NameVariant",
+      "fullName": "BELAERONAVIGATSIA State-Owned Enterprise",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/bel0108"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "19 Korotkevic Street",
       "state": "Minsk",
       "country": "Belarus"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

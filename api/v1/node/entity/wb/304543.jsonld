@@ -1,24 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/304543",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/304543",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "CONSIA CONSULTANTS APS",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "CONSIA CONSULTANTS APS",
+      "isPrimary": true
     }
   ],
-  "remarks": "*363",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/304543"
+  ],
+  "remarks": "*363",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "LADEGAARDSVEJ 8, DK-2770",
       "city": "KASTRUP",
       "country": "Denmark",
-      "country_iso_code": "DK",
-      "postal_code": "2770"
+      "countryIsoCode": "DK",
+      "postalCode": "2770"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

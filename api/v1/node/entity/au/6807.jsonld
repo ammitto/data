@@ -1,22 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/au/6807",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/6807",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Andrei BURDYKO",
+      "@type": "NameVariant",
+      "fullName": "Andrei BURDYKO",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "Deputy Minister of Defense for Logistics and Chief of Logistics of the Belarussian Armed Forces; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 10) Instrument 2022",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/6807"
   ],
-  "birth_info": [
+  "remarks": "Deputy Minister of Defense for Logistics and Chief of Logistics of the Belarussian Armed Forces; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 10) Instrument 2022",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1973,
       "country": "Pleshchenitsy"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,22 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/au/1778",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/1778",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mićo Stanišić",
+      "@type": "NameVariant",
+      "fullName": "Mićo Stanišić",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "ICTY Indictee; Listing: Designated under the Autonomous Sanctions Regulations 2011 on 2 March 2012. Formerly listed on the RBA as 2009FRY0131. \n(Relisted on 12 January 2024)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/1778"
   ],
-  "birth_info": [
+  "remarks": "ICTY Indictee; Listing: Designated under the Autonomous Sanctions Regulations 2011 on 2 March 2012. Formerly listed on the RBA as 2009FRY0131. \n(Relisted on 12 January 2024)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1954,
       "country": "Ponor"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

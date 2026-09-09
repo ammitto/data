@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/59295",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/59295",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Rudenya Igor Mikhaylovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Rudenya Igor Mikhaylovich",
+      "isPrimary": true
     }
   ],
-  "remarks": "Igor Rudenya is the governor of Tver Oblast, appointed by President Vladimir Putin. In his role as governor, Igor Rudenya manages a regional state body of the Russian Federation and is responsible for implementing state policies at regional level. He has expressed support for the illegal recognition of the so-called independence of the so-called Donetsk and Luhansk Peoples Republics and the war of aggression against Ukraine.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/59295"
+  ],
+  "remarks": "Igor Rudenya is the Plenipotentiary Representative of the President of the Russian Federation in the Northwestern Federal District, and the former governor of Tver Oblast, appointed by President Vladimir Putin. In his role as governor, Igor Rudenya managed a regional state body of the Russian Federation and was responsible for implementing state policies at regional level. He has expressed support for the illegal recognition of the so-called independence of the so-called “Donetsk and Luhansk People’s Republics” and the war of aggression against Ukraine.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1968-02-15",
-      "circa": false
+      "circa": false,
+      "year": 1968
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

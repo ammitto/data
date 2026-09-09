@@ -1,45 +1,63 @@
 {
-  "id": "https://www.ammitto.org/entity/au/6267",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/6267",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Muhammad Abd Al-Karim Al-Ghamari",
+      "@type": "NameVariant",
+      "fullName": "Muhammad Abd Al-Karim Al-Ghamari",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Mohammad Al-Ghamari",
+      "@type": "NameVariant",
+      "fullName": "Mohammad Al-Ghamari",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "محمد عبدالكریم الغماري",
+      "@type": "NameVariant",
+      "fullName": "محمد عبدالكریم الغماري",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "YEi.008. Major General, Houthi Military Chief of General Staff, plays the leading role in orchestrating the Houthis’ military efforts that are directly threatening the peace, security and stability of Yemen, including in Marib, as well as cross-border attacks against Saudi Arabia.; Listing: Listed by the 2140 Committee on 9 November 2021",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/6267"
   ],
-  "birth_info": [
+  "remarks": "YEi.008. Major General, Houthi Military Chief of General Staff, plays the leading role in orchestrating the Houthis’ military efforts that are directly threatening the peace, security and stability of Yemen, including in Marib, as well as cross-border attacks against Saudi Arabia.; Listing: Listed by the 2140 Committee on 9 November 2021",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1979,
       "country": "Izla Dhaen"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1984,
       "country": "Wahha District"
     }
   ],
   "nationalities": [
     "Yemen"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Yemen",
       "country": "Yemen"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

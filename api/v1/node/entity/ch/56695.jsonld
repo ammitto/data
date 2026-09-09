@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/56695",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/56695",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Nasser Deeb Deeb",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Nasser Deeb Deeb",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/56695"
   ],
   "remarks": "Nasser Deeb Deeb is the co-owner of Sanad Protection and Security Services, a Syrian private security company established in 2017 and supervised by the Wagner Group, active in the protection of Russian interests (phosphates, gas and securing oil sites) in Syria. The exploitation of natural resources provides revenues to the former al-Assad regime. In addition, he is also co-owner of the company Ella Services together with Khodr Ali Taher.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1974-02-21",
-      "circa": false
+      "circa": false,
+      "year": 1974
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

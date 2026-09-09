@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/52323",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/52323",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ryumin Andrey Valerievich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Ryumin Andrey Valerievich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/52323"
   ],
   "remarks": "Andrey Ryumin the executive director of Rosseti PJSC, a company controlled by the Russian state, which is an operator of energy grids, provides technological connection services, electricity transmission and distribution services in Russia.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1980-06-12",
-      "circa": false
+      "circa": false,
+      "year": 1980
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

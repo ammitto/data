@@ -1,33 +1,50 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/irq0056",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/irq0056",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Al-ARABI TRADING COMPANY",
+      "@type": "NameVariant",
+      "fullName": "Al-ARABI TRADING COMPANY",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/irq0056"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Hai Al-Wahda, Lane 15, Area 902, Office 10",
       "state": "Baghdad",
       "country": "Iraq"
     },
     {
+      "@type": "Address",
       "street": "Hai Babil, Lane 11, District 929",
       "state": "Baghdad",
       "country": "Iraq"
     },
     {
+      "@type": "Address",
       "street": "PO Box 2337",
       "city": "Alwiyah",
       "state": "Baghdad",
       "country": "Iraq"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

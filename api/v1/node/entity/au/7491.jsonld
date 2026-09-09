@@ -1,29 +1,46 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7491",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7491",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Abualfazl NAZERI ",
+      "@type": "NameVariant",
+      "fullName": "Abualfazl NAZERI ",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Abolfazl NAZARI ",
+      "@type": "NameVariant",
+      "fullName": "Abolfazl NAZARI ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Vice Chairman of the Board of Directors of Paravar Pars Company ; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 3) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7491"
   ],
-  "birth_info": [
+  "remarks": "Vice Chairman of the Board of Directors of Paravar Pars Company ; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 3) Instrument 2023",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1969
     }
   ],
   "nationalities": [
     "Iran"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

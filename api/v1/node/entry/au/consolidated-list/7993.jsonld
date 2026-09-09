@@ -1,37 +1,47 @@
 {
-  "id": "https://www.ammitto.org/entry/au/consolidated-list/7993",
-  "entity_id": "https://www.ammitto.org/entity/au/7993",
+  "@id": "https://www.ammitto.org/entry/au/consolidated-list/7993",
+  "@type": "SanctionEntry",
+  "entityId": "https://www.ammitto.org/entity/au/7993",
   "authority": {
     "@id": "https://www.ammitto.org/authority/au"
   },
   "regime": {
-    "@id": "https://www.ammitto.org/regime/au_sudan"
+    "@id": "https://www.ammitto.org/regime/au_sudan",
+    "name": "Sudan"
   },
-  "legal_bases": [
+  "legalBases": [
     {
-      "type": "regulation",
-      "identifier": "Charter of the United Nations (Sanctions — Sudan) Regulations 2008",
-      "title": "Charter of the United Nations (Sanctions — Sudan) Regulations 2008"
+      "@id": "https://www.ammitto.org/legal-instrument/au/charter-of-the-united-nations-sanctions-sudan-regulations-2008"
     }
   ],
   "effects": [
     {
-      "effect_type": "asset_freeze",
+      "@type": "SanctionEffect",
+      "effectType": "asset_freeze",
       "scope": "full"
     },
     {
-      "effect_type": "travel_ban",
+      "@type": "SanctionEffect",
+      "effectType": "travel_ban",
       "scope": "full"
     }
   ],
+  "reasons": [
+
+  ],
   "period": {
-    "is_indefinite": true
+    "@type": "TemporalPeriod",
+    "isIndefinite": true
   },
   "status": "active",
-  "reference_number": "7993",
-  "raw_source_data": {
-    "source_format": "csv",
-    "source_specific_fields": {
+  "statusHistory": [
+
+  ],
+  "referenceNumber": "7993",
+  "rawSourceData": {
+    "@type": "RawSourceData",
+    "sourceFormat": "csv",
+    "sourceSpecificFields": {
       "au:reference": "7993",
       "au:committees": "1591 (Sudan)",
       "au:control_date": "2025-12-16",
@@ -39,5 +49,5 @@
       "au:listing_info": "Listed by the 1591 Committee"
     }
   },
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

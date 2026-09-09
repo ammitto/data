@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/42062",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/42062",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Luís Pérez Olivas",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Luís Pérez Olivas",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/42062"
   ],
   "remarks": "Head of District Three Police Station in Managua since 2023. Former General Commissioner and Legal Assistance Main Officer (DAEJ) in the “El Chipote” penitentiary centre. Responsible for serious human rights violations, including torture, use of extensive force, mistreatment of detainees and other forms of degrading treatment.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1956-01-08",
-      "circa": false
+      "circa": false,
+      "year": 1956
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

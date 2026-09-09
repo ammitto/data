@@ -1,37 +1,59 @@
 {
-  "id": "https://www.ammitto.org/entity/au/2727",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/2727",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Aleksandr Viktorovich GALKIN",
+      "@type": "NameVariant",
+      "fullName": "Aleksandr Viktorovich GALKIN",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Aleksandr GALKIN",
+      "@type": "NameVariant",
+      "fullName": "Aleksandr GALKIN",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Oleksandr Viktorovych HALKIN",
+      "@type": "NameVariant",
+      "fullName": "Oleksandr Viktorovych HALKIN",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Colonel-General Aleksandr Viktorovich GALKIN",
+      "@type": "NameVariant",
+      "fullName": "Colonel-General Aleksandr Viktorovich GALKIN",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Aide to Defence Minister Sergei Shoigu since January 2017.  Former Commander of Russia’s Southern Military District (SMD).  SMD forces are deployed in Crimea.  Responsible for part of the Russian military presence in Crimea.  Additionally, the Black Sea Fleet falls within the District’s control; Listing: Listed on 19 Jun. 2014 (re-listed on 16 Jun. 2017, 10 June 2020 and 10 June 2023)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/2727"
   ],
-  "birth_info": [
+  "remarks": "Aide to Defence Minister Sergei Shoigu since January 2017.  Former Commander of Russia’s Southern Military District (SMD).  SMD forces are deployed in Crimea.  Responsible for part of the Russian military presence in Crimea.  Additionally, the Black Sea Fleet falls within the District’s control; Listing: Listed on 19 Jun. 2014 (re-listed on 16 Jun. 2017, 10 June 2020 and 10 June 2023)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1958,
       "country": "Ordzhonikidze"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

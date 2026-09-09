@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/323388",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/323388",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "SAN ISIDRO-L S.R.L.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "SAN ISIDRO-L S.R.L.",
+      "isPrimary": true
     }
   ],
-  "remarks": "*303",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/323388"
+  ],
+  "remarks": "*303",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "JR. SANTIAGO ANTÚNEZ DE MAYALO NO. 190, INDEPENDENCIA, ANCASH",
       "city": "HUARAZ",
       "country": "Peru",
-      "country_iso_code": "PE"
+      "countryIsoCode": "PE"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

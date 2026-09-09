@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/59106",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/59106",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mikheev Sergey Aleksandrovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Mikheev Sergey Aleksandrovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/59106"
   ],
   "remarks": "Sergey Mikheev is a political scientist and politician. He is a member of the Central Council of the Just Russia — Patriots — For Truth party, which backed Russia’s invasion of Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1967-05-28",
-      "circa": false
+      "circa": false,
+      "year": 1967
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

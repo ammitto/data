@@ -1,68 +1,92 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/inu0042",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/inu0042",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Sharif University of Technology",
+      "@type": "NameVariant",
+      "fullName": "Sharif University of Technology",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Arya mehr University of Technology",
+      "@type": "NameVariant",
+      "fullName": "Arya mehr University of Technology",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Sharif Technical University",
+      "@type": "NameVariant",
+      "fullName": "Sharif Technical University",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "SHFT",
+      "@type": "NameVariant",
+      "fullName": "SHFT",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "SUT",
+      "@type": "NameVariant",
+      "fullName": "SUT",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/inu0042"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Azadi Ave, 11365 8639",
       "state": "Tehran",
       "country": "Iran"
     },
     {
+      "@type": "Address",
       "street": "Azadi Ave/Street, PO Box 11365 11155",
       "state": "Tehran",
       "country": "Iran"
     },
     {
+      "@type": "Address",
       "street": "P.O. Box 11155 9466",
       "state": "Tehran",
       "country": "Iran"
     },
     {
+      "@type": "Address",
       "street": "P.O. Box 11365 9161",
       "state": "Tehran",
       "country": "Iran"
     },
     {
+      "@type": "Address",
       "street": "P.O. Box 11365 9466",
       "state": "Tehran",
       "country": "Iran"
     },
     {
+      "@type": "Address",
       "street": "PO Box 11365 8639, Azadi St",
       "state": "Tehran",
       "country": "Iran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

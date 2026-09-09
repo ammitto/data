@@ -1,29 +1,46 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8200",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/8200",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Andrey Anatolievich KOZITSYN",
+      "@type": "NameVariant",
+      "fullName": "Andrey Anatolievich KOZITSYN",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Andrei Anatolevich KOZITSYN",
+      "@type": "NameVariant",
+      "fullName": "Andrei Anatolevich KOZITSYN",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Former CEO of UMMC and owner of MelSyTech; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 4) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8200"
   ],
-  "birth_info": [
+  "remarks": "Former CEO of UMMC and owner of MelSyTech; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 4) Instrument 2025",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1960
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

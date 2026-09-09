@@ -1,29 +1,46 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8172",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/8172",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mikhail Nikolaevich ROSSEEV",
+      "@type": "NameVariant",
+      "fullName": "Mikhail Nikolaevich ROSSEEV",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Mykhailo Mykolaiovych Rossieiev",
+      "@type": "NameVariant",
+      "fullName": "Mykhailo Mykolaiovych Rossieiev",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Member of the Board of Directors for Gazprombank; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 3) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8172"
   ],
-  "birth_info": [
+  "remarks": "Member of the Board of Directors for Gazprombank; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 3) Instrument 2025",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1975
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

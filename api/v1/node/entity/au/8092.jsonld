@@ -1,32 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8092",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/8092",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "IQ Components Limited Liability Company",
+      "@type": "NameVariant",
+      "fullName": "IQ Components Limited Liability Company",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Ai Kyu Komponents",
+      "@type": "NameVariant",
+      "fullName": "Ai Kyu Komponents",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "LLC IQ Components",
+      "@type": "NameVariant",
+      "fullName": "LLC IQ Components",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Company Identification No., 1197847052963; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8092"
+  ],
+  "remarks": "Company Identification No., 1197847052963; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Salova Steet, 45, Ya, 1N, 35, St. Petersburg, 192102, Russia",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,65 +1,88 @@
 {
-  "id": "https://www.ammitto.org/entity/au/6244",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/6244",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Martin Koumtamadji",
+      "@type": "NameVariant",
+      "fullName": "Martin Koumtamadji",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Abdoulaye Miskine",
+      "@type": "NameVariant",
+      "fullName": "Abdoulaye Miskine",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abdoullaye Miskine",
+      "@type": "NameVariant",
+      "fullName": "Abdoullaye Miskine",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Martin Nadingar Koumtamadji",
+      "@type": "NameVariant",
+      "fullName": "Martin Nadingar Koumtamadji",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Martin Nkoumtamadji",
+      "@type": "NameVariant",
+      "fullName": "Martin Nkoumtamadji",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Martin Koumta Madji",
+      "@type": "NameVariant",
+      "fullName": "Martin Koumta Madji",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Omar Mahamat",
+      "@type": "NameVariant",
+      "fullName": "Omar Mahamat",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "CFi.013 Designation: President and commander-in-chief of the Front Démocratique du Peuple Centrafricain (FDPC).\nCongo Passport no.: CAR diplomatic passport no. 06FBO2262, issued on 22 Feb. 2007 (expired on 21 Feb. 2012). Congo service passport number SA0020249, issued on 22 January 2019 (expires on 21 January 2022);\nMartin Koumtamadji founded the FDPC in 2005.  He joined the Séléka coalition in December 2012 before leaving it in April 2013 after the rebels took power in Bangui. After being arrested in Cameroon, he was then transferred to Brazzaville in the Republic of Congo. He always remained in command of his troops on the ground in the CAR even when he was in Brazzaville before returning to the CAR (between November 2014 and 2019).  The FDPC signed the Political Agreement for Peace and Reconciliation in the CAR on 6 February 2019 but Martin Koumtamadji remains a threat to the peace, stability and security of the CAR.; Listing: Listed on 20 April 2020 (amended on 8 May. 2020; 28 Jul. 2020)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/6244"
   ],
-  "birth_info": [
+  "remarks": "CFi.013 Designation: President and commander-in-chief of the Front Démocratique du Peuple Centrafricain (FDPC).\nCongo Passport no.: CAR diplomatic passport no. 06FBO2262, issued on 22 Feb. 2007 (expired on 21 Feb. 2012). Congo service passport number SA0020249, issued on 22 January 2019 (expires on 21 January 2022);\nMartin Koumtamadji founded the FDPC in 2005.  He joined the Séléka coalition in December 2012 before leaving it in April 2013 after the rebels took power in Bangui. After being arrested in Cameroon, he was then transferred to Brazzaville in the Republic of Congo. He always remained in command of his troops on the ground in the CAR even when he was in Brazzaville before returning to the CAR (between November 2014 and 2019).  The FDPC signed the Political Agreement for Peace and Reconciliation in the CAR on 6 February 2019 but Martin Koumtamadji remains a threat to the peace, stability and security of the CAR.; Listing: Listed on 20 April 2020 (amended on 8 May. 2020; 28 Jul. 2020)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1965,
       "country": "a) Ndïnaba"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1965,
       "country": "Chad \nb) Kobo"
     }
   ],
   "nationalities": [
-    "Central African Republic;Chad"
+    "Central African Republic",
+    "Chad"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "a) Am Dafock, Vakaga prefecture, Central African Republic b) Ndjamena, Chad (since his arrest in November 2019)",
       "country": "Chad (since his arrest in November 2019)"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

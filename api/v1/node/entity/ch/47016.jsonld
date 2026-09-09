@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/47016",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/47016",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Shcherbakov Sergey Vladimirovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Shcherbakov Sergey Vladimirovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/47016"
   ],
   "remarks": "Sergey Shcherbakov is a freelance employee of the Russian GRU and a Wagner Group mercenary.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1981-07-21",
-      "circa": false
+      "circa": false,
+      "year": 1981
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,27 +1,43 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8115",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/8115",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Institute for Internet Development",
+      "@type": "NameVariant",
+      "fullName": "Institute for Internet Development",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "IID",
+      "@type": "NameVariant",
+      "fullName": "IID",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Company Identification No. 1147799015231; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8115"
+  ],
+  "remarks": "Company Identification No. 1147799015231; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Presnenskaya embankment, 12, Vostok Federation Tower, 13th floor, Moscow 123100 Russia",
       "country": "Moscow 123100 Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

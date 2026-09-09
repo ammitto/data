@@ -1,42 +1,61 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/inu0324",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/inu0324",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "MASJED-SOLEYMAN OIL & GAS COMPANY ",
+      "@type": "NameVariant",
+      "fullName": "MASJED-SOLEYMAN OIL & GAS COMPANY ",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "MASJED -E-SOLEYMAN OIL AND GAS PRODUCING ",
+      "@type": "NameVariant",
+      "fullName": "MASJED -E-SOLEYMAN OIL AND GAS PRODUCING ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "MASJED-SOLEYMAN OIL AND GAS COMPANY (MSOGC) ",
+      "@type": "NameVariant",
+      "fullName": "MASJED-SOLEYMAN OIL AND GAS COMPANY (MSOGC) ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "MSOGC ",
+      "@type": "NameVariant",
+      "fullName": "MSOGC ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "شرکت نفت و گاز مسجدسلیمان ",
+      "@type": "NameVariant",
+      "fullName": "شرکت نفت و گاز مسجدسلیمان ",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/inu0324"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Central Building, Bank Melli Sq",
       "state": "Masjed Soleiman",
       "country": "Iran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

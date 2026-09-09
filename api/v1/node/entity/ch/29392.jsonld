@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/29392",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/29392",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Levichev Nikolai Vladimirovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Levichev Nikolai Vladimirovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/29392"
   ],
   "remarks": "Former member of the State Duma. Former Deputy Speaker, State Duma.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1953-05-28",
-      "circa": false
+      "circa": false,
+      "year": 1953
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

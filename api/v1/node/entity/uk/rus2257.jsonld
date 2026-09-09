@@ -1,38 +1,56 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus2257",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus2257",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Redlepus TSK Vektor Industrial (Shenzhen) Co., Ltd",
+      "@type": "NameVariant",
+      "fullName": "Redlepus TSK Vektor Industrial (Shenzhen) Co., Ltd",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Red Rabbit TSK Vektor Industrial (Shenzhen) Co., Ltd",
+      "@type": "NameVariant",
+      "fullName": "Red Rabbit TSK Vektor Industrial (Shenzhen) Co., Ltd",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Redlepus TSK Vector Industrial (Shenzhen) Co., Ltd",
+      "@type": "NameVariant",
+      "fullName": "Redlepus TSK Vector Industrial (Shenzhen) Co., Ltd",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "红兔矢量实业（深圳）有限公司",
+      "@type": "NameVariant",
+      "fullName": "红兔矢量实业（深圳）有限公司",
       "script": "Hani",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus2257"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Rm.101-19, Xinghua Building No. 1007, Banxuegang Avenue, Longgang District",
       "state": "Shenzhen",
       "country": "China"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

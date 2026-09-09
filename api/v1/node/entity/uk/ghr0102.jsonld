@@ -1,47 +1,70 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/ghr0102",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/ghr0102",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "SHE",
-      "first_name": "Zhijiang",
+      "@type": "NameVariant",
+      "fullName": "SHE",
+      "firstName": "Zhijiang",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Lunkai",
-      "first_name": "She",
+      "@type": "NameVariant",
+      "fullName": "Lunkai",
+      "firstName": "She",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "She",
-      "first_name": "Dylan",
+      "@type": "NameVariant",
+      "fullName": "She",
+      "firstName": "Dylan",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "SHE",
-      "first_name": "Kailun",
+      "@type": "NameVariant",
+      "fullName": "SHE",
+      "firstName": "Kailun",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "TANG",
-      "first_name": "Kriang ",
+      "@type": "NameVariant",
+      "fullName": "TANG",
+      "firstName": "Kriang ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/ghr0102"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "state": "Yatai New City, Shwe Kokko",
       "country": "Myanmar"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

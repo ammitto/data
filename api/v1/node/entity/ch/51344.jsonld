@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/51344",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/51344",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Poluboyarinov Mikhail Igorevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Poluboyarinov Mikhail Igorevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/51344"
   ],
   "remarks": "Mikhail Igorevich Poluboyarinov is the former CEO of OJSC Aeroflot. OJSC Aeroflot is the largest airline of the Russian Federation. OJSC Aeroflot not only provides services to the Russian Government, but also generates an important source of revenue for it. Aeroflot operated illegal flights to occupied Crimea.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1966-04-02",
-      "circa": false
+      "circa": false,
+      "year": 1966
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,29 +1,46 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3069",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/3069",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kim Kwang Yon",
+      "@type": "NameVariant",
+      "fullName": "Kim Kwang Yon",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Kim Kwang-y’on",
+      "@type": "NameVariant",
+      "fullName": "Kim Kwang-y’on",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Connected to designated entity Korea Mining Development Trading Corporation (KOMID), including as its representative in southern Africa. Passport number 563210059 (expired 2018); 654410104 (expired 2019); Listing: Designated under the Autonomous Sanctions Regulations 2011 on 20 January 2015.\nInstrument of first designation and declaration: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Democratic People’s Republic of Korea) Amendment List 2015",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3069"
   ],
-  "birth_info": [
+  "remarks": "Connected to designated entity Korea Mining Development Trading Corporation (KOMID), including as its representative in southern Africa. Passport number 563210059 (expired 2018); 654410104 (expired 2019); Listing: Designated under the Autonomous Sanctions Regulations 2011 on 20 January 2015.\nInstrument of first designation and declaration: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Democratic People’s Republic of Korea) Amendment List 2015",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1966
     }
   ],
   "nationalities": [
     "Democratic People's Republic of Korea (North Korea)"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

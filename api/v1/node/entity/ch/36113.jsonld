@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/36113",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/36113",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Saji' Darwish",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Saji' Darwish",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/36113"
   ],
   "remarks": "Holds the rank of Major General, a senior officer and former Commander of the 22nd Division of the Syrian Arab Air Force under the former al-Assad regime, in post after May 2011.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1957-01-11",
-      "circa": false
+      "circa": false,
+      "year": 1957
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

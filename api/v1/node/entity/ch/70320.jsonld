@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/70320",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/70320",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Gavrilchuk Sergey Alekseevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Gavrilchuk Sergey Alekseevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/70320"
   ],
   "remarks": "Sergey Gavrilchuk is Head of the Yunarmiya Regional Headquarters of the “Republic of Crimea” and a member of the United Russia Party. The All-Russia “Young Army” Military Patriotic Social Movement (Yunarmiya) is a Russian paramilitary organisation. In his capacity as the regional Head of Yunarmiya, he organises activities that promote military training and preparation of youth for military service in the Russian Army.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1977-05-30",
-      "circa": false
+      "circa": false,
+      "year": 1977
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

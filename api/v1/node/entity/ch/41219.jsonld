@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/41219",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/41219",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Gotsanyuk Yuriy Mikhailovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Gotsanyuk Yuriy Mikhailovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/41219"
   ],
   "remarks": "Prime Minister of the so-called “Republic of Crimea”. In taking on and acting in this capacity, he has worked for further integration of the so-called “Republic of Crimea” into the Russian Federation and thereby actively supported actions and implemented policies which undermine or threaten the territorial integrity, sovereignty and independence of Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1966-07-18",
-      "circa": false
+      "circa": false,
+      "year": 1966
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

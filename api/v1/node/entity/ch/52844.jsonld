@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/52844",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/52844",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Maslov Igor Venediktovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Maslov Igor Venediktovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/52844"
   ],
   "remarks": "Igor Maslov is a long-term Russian Presidential Administration official with a Russian Foreign Intelligence Service (SVR) background, responsible for Kremlin subversive policy and activities towards the so-called ‘Russia’s near abroad’ (former Soviet Union territories). He is known to advise President Vladimir Putin on Ukraine, Moldova and South Ossetia and is named amongst a group of people advising President Putin in relation to Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1960-10-18",
-      "circa": false
+      "circa": false,
+      "year": 1960
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

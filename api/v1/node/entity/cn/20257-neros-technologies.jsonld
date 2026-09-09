@@ -1,21 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/cn/20257-neros-technologies",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/cn/20257-neros-technologies",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Neros Technologies",
+      "@type": "NameVariant",
+      "fullName": "Neros Technologies",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "尼罗斯科技公司",
+      "@type": "NameVariant",
+      "fullName": "尼罗斯科技公司",
       "script": "Hani",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "List: cn/unreliable-entity-list",
-  "sanction_entry_ids": [
-    "https://www.ammitto.org/entry/cn/unknown/20257-neros-technologies"
+  "sourceReferences": [
+
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/cn/unreliable-entity-list/20257-neros-technologies"
+  ],
+  "remarks": "List: cn/unreliable-entity-list",
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

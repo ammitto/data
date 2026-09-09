@@ -1,27 +1,43 @@
 {
-  "id": "https://www.ammitto.org/entity/au/6943",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/6943",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Sovcomflot",
+      "@type": "NameVariant",
+      "fullName": "Sovcomflot",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Publichnoe Aktsionernoe Obshchestvo Sovremennyy Kommercheskiy Flot",
+      "@type": "NameVariant",
+      "fullName": "Publichnoe Aktsionernoe Obshchestvo Sovremennyy Kommercheskiy Flot",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "sovcomflot.ru/en; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Ukraine) Amendment (No. 12) Instrument 2022",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/6943"
+  ],
+  "remarks": "sovcomflot.ru/en; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Ukraine) Amendment (No. 12) Instrument 2022",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Nab. Reki Moiki d.3, Lit. A Saint Petersburg, 191186, Russia",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

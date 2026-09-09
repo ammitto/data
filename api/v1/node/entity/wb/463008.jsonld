@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/463008",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/463008",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "A2Z INFRA ENGINEERING LIMITED",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "A2Z INFRA ENGINEERING LIMITED",
+      "isPrimary": true
     }
   ],
-  "remarks": "(Previously known as A2Z Maintenance & Engineering Services Limited)*553",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/463008"
+  ],
+  "remarks": "(Previously known as A2Z Maintenance & Engineering Services Limited)*553",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "O-116, 1ST FLOOR, DLF SHOPPING MALL, ARJUN MARG, DLF PHASE-I, GURUGRAM-122002",
       "city": "HARYANA",
       "country": "India",
-      "country_iso_code": "IN"
+      "countryIsoCode": "IN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

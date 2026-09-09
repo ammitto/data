@@ -1,32 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8748",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/8748",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Aktsionernoe Obshchestvo Registratsionnaya Kompaniya Tsentr Invest",
+      "@type": "NameVariant",
+      "fullName": "Aktsionernoe Obshchestvo Registratsionnaya Kompaniya Tsentr Invest",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Joint Stock Company Rk Center Invest",
+      "@type": "NameVariant",
+      "fullName": "Joint Stock Company Rk Center Invest",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Joint Stock Company “Registration Company Centre Invest”",
+      "@type": "NameVariant",
+      "fullName": "Joint Stock Company “Registration Company Centre Invest”",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Website: http://www.centr-invest.ru/; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2026",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8748"
+  ],
+  "remarks": "Website: http://www.centr-invest.ru/; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2026",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Per. Mazhorov D. 14, Str. 7, Moscow, 107023, Russia",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

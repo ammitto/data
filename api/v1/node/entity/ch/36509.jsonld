@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/36509",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/36509",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ri Yong Mu",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Ri Yong Mu",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/36509"
   ],
   "remarks": "Ri Yong Mu is a Vice Chairman of the State Affairs Commission, which directs and guides all DPRK’s military, defense, and security-related affairs, including acquisition and procurement.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1925-01-25",
-      "circa": false
+      "circa": false,
+      "year": 1925
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

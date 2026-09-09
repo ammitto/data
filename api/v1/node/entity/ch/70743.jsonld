@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/70743",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/70743",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Medvedev Ilya Dmitrievich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Medvedev Ilya Dmitrievich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/70743"
   ],
   "remarks": "Ilya Medvedev is responsible for creating digital services in the illegally occupied Ukrainian regions of Donetsk, Luhansk, Kherson and Zaporizhzhia. He coordinated the project “I am Russian”, which aims to provide Russian governmental services to the inhabitants of those regions, including making available the simplified procedure for Russian citizenship, and social services.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1995-08-03",
-      "circa": false
+      "circa": false,
+      "year": 1995
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

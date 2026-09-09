@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/53358",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/53358",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kornet Igor Aleksandrovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kornet Igor Aleksandrovich",
+      "isPrimary": true
     }
   ],
-  "remarks": "So-called ‘Minister of Interior’ of the so-called ‘Luhansk People’s Republic’. In taking on and acting in this capacity, he has actively undermined the territorial integrity, sovereignty and independence of Ukraine.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/53358"
+  ],
+  "remarks": "Former so-called “Minister of Interior” of the so-called “Luhansk People’s Republic”. In taking on and acting in this capacity, Igor Kornet has actively undermined the territorial integrity, sovereignty and independence of Ukraine.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1973-04-29",
-      "circa": false
+      "circa": false,
+      "year": 1973
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

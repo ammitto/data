@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/64964",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/64964",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "MMK PROJECT SERVICES LIMITED",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "MMK PROJECT SERVICES LIMITED",
+      "isPrimary": true
     }
   ],
-  "remarks": "*177",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/64964"
+  ],
+  "remarks": "*177",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "POST OFFICE BOX 593, #30 BURHANI COMPLEX, MAGORE ST. UPANGA",
       "city": "DAR ES SALAAM",
       "country": "Tanzania",
-      "country_iso_code": "TZ"
+      "countryIsoCode": "TZ"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

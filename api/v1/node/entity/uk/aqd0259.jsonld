@@ -1,57 +1,83 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/aqd0259",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/aqd0259",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "TAMTOMO",
-      "first_name": "MUHAMMAD",
+      "@type": "NameVariant",
+      "fullName": "TAMTOMO",
+      "firstName": "MUHAMMAD",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Aisyah",
-      "first_name": "Abu",
+      "@type": "NameVariant",
+      "fullName": "Aisyah",
+      "firstName": "Abu",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Naim",
-      "first_name": "Bahrun",
+      "@type": "NameVariant",
+      "fullName": "Naim",
+      "firstName": "Bahrun",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Rayan",
-      "first_name": "Abu",
+      "@type": "NameVariant",
+      "fullName": "Rayan",
+      "firstName": "Abu",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Rayyan",
-      "first_name": "Abu",
+      "@type": "NameVariant",
+      "fullName": "Rayyan",
+      "firstName": "Abu",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Tamtomo",
-      "first_name": "Anggih",
+      "@type": "NameVariant",
+      "fullName": "Tamtomo",
+      "firstName": "Anggih",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Syrian-based Indonesian national who has served in a variety of roles supporting the Islamic State in Iraq and the Levant, listed as Al-Qaida in Iraq (QDe.115). INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/notice/search/un/6116575",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/aqd0259"
+  ],
+  "remarks": "Syrian-based Indonesian national who has served in a variety of roles supporting the Islamic State in Iraq and the Levant, listed as Al-Qaida in Iraq (QDe.115). INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/notice/search/un/6116575",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
-      "state": "Aleppo",
+      "@type": "Address",
+      "street": "",
+      "state": "Raqqa",
       "country": "Syria"
     },
     {
-      "state": "Raqqa",
+      "@type": "Address",
+      "street": "",
+      "state": "Aleppo",
       "country": "Syria"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

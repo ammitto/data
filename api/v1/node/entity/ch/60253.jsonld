@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/60253",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/60253",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Bas Olga Yevgenyevna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Bas Olga Yevgenyevna",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/60253"
   ],
   "remarks": "Member of the Federation Council of the Russian Federation since 20 Dec 2022, as the representative of the illegally annexed so-called “Luhansk People’s Republic”. In taking on and acting in this capacity, she is therefore supporting actions and policies which undermine the territorial integrity, sovereignty and independence of Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1964-02-27",
-      "circa": false
+      "circa": false,
+      "year": 1964
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

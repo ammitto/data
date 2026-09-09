@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/90860",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/90860",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Bondal Halina",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Bondal Halina",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/90860"
   ],
   "remarks": "Halina Bondal is a Belarusian judge of the Vitebsk Regional Court. Halina Bondal has issued politically motivated rulings concerning freedom of expression or freedom of assembly against Volha Brytsikava, Siarhei Dalivelia, Maryia Famina, Tatsiana Frantskevich, Tsimafei Halubko, Yaraslau Kazakevich, Robert Kuzniatsou, Natallia Labatsevich, Anatol Mikhailau, and Andrei Ruskikh, among others. Halina Bondal is therefore responsible for the repression of civil society in Belarus.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1962-04-30",
-      "circa": false
+      "circa": false,
+      "year": 1962
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

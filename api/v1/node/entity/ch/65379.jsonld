@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/65379",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/65379",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Tarakanau Aliaksandr Mikalaevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Tarakanau Aliaksandr Mikalaevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/65379"
   ],
   "remarks": "Aliaksandr Tarakanau is a Belarussian judge who serves in a Shklov District Court in Mogilev Region. He was appointed by Aliaksandr Lukashenka indefinitely in 2017. He mainly handed down sentences that increased the penalties against political opponents of the Belarusian authorities, especially in the context of changing sentences imposed to absolute imprisonment or a stricter regime for the serving of such sentences. Such a decision was made in the case of the philosopher and journalist Uladzimir Matskievich who is associated with the independent television channel Belsat. Aliaksandr Tarakanau is therefore responsible for serious human rights violations and for seriously undermining the rule of law, as well as for the repression of civil society and democratic opposition in Belarus.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1965-05-19",
-      "circa": false
+      "circa": false,
+      "year": 1965
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

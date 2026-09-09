@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/5154",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/5154",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Haidukevich Valery Uladzimiravich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Haidukevich Valery Uladzimiravich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/5154"
   ],
   "remarks": "Member of Parliament in the Lower Chamber, Head of the Committee on Security, Defence and Fight against crime of the Parliamentary Assembly of the Union State of Russia and Belarus. Former Deputy Minister of Interior and Commander of internal troops. As a commander of internal troops he was responsible for the violent repression of the demonstration on 19 Dec 2012 in Minsk, where his troops were the first to be actively involved.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1953-01-19",
-      "circa": false
+      "circa": false,
+      "year": 1953
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

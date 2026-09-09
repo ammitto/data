@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/27385",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/27385",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Zheleznyak Sergei Vladimirovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Zheleznyak Sergei Vladimirovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/27385"
   ],
   "remarks": "Former Deputy Speaker of the State Duma of the Russian Federation.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1970-07-30",
-      "circa": false
+      "circa": false,
+      "year": 1970
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

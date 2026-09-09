@@ -1,34 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entry/uk/consolidated-list/drc0071",
-  "entity_id": "https://www.ammitto.org/entity/uk/drc0071",
+  "@id": "https://www.ammitto.org/entry/uk/consolidated-list/drc0071",
+  "@type": "SanctionEntry",
+  "entityId": "https://www.ammitto.org/entity/uk/drc0071",
   "authority": {
     "@id": "https://www.ammitto.org/authority/uk"
   },
   "regime": {
-    "@id": "https://www.ammitto.org/regime/the_democratic_republic_of_the_congo_sanctions_eu_exit_regulations_2019"
+    "@id": "https://www.ammitto.org/regime/the_democratic_republic_of_the_congo_sanctions_eu_exit_regulatio",
+    "name": "The Democratic Republic of the Congo (Sanctions) (EU Exit) Regulations 2019"
   },
+  "legalBases": [
+
+  ],
   "effects": [
     {
-      "effect_type": "asset_freeze",
+      "@type": "SanctionEffect",
+      "effectType": "asset_freeze",
       "scope": "full"
     },
     {
-      "effect_type": "travel_ban",
+      "@type": "SanctionEffect",
+      "effectType": "travel_ban",
       "scope": "full"
     }
   ],
+  "reasons": [
+
+  ],
   "period": {
-    "listed_date": "2024-02-21",
-    "effective_date": "2024-02-21",
-    "is_indefinite": true,
-    "last_updated": "2024-02-21"
+    "@type": "TemporalPeriod",
+    "listedDate": "2024-02-21",
+    "effectiveDate": "2024-02-21",
+    "isIndefinite": true,
+    "lastUpdated": "2024-02-21"
   },
   "status": "active",
-  "reference_number": "DRC0071",
+  "statusHistory": [
+
+  ],
+  "referenceNumber": "DRC0071",
   "remarks": "\nListed pursuant to paragraph 7 (c), 7(d), 7(e) of resolution 2293 (2016) as “political and military leaders of Congolese militias, including those receiving support from outside the DRC, who impede the participation of their combatants in disarmament, demobilization and reintegration processes”; “recruiting or using children in armed conflict in the DRC in violation of applicable international law”; “planning, directing, or committing acts in the DRC that constitute human rights violations or abuses or violations of international humanitarian law, as applicable, including those acts involving the targeting of civilians, including killing and maiming, rape and other sexual violence, abduction, forced displacement, and attacks on schools and hospitals”; as extended by resolution 2688 (2023). As a military leader of an armed Congolese militia, \nRUKUNDA is involved in promulgating and supporting the group’s activities. \n",
-  "raw_source_data": {
-    "source_format": "xml",
-    "source_specific_fields": {
+  "rawSourceData": {
+    "@type": "RawSourceData",
+    "sourceFormat": "xml",
+    "sourceSpecificFields": {
       "uk:ofsiGroupId": "16381",
       "uk:unReferenceNumber": "CDi.041",
       "uk:designationSource": "UN",
@@ -36,5 +51,5 @@
       "uk:entityType": "Individual"
     }
   },
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

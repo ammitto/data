@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/65458",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/65458",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Yeliseenka Viachaslau Uladzimiravich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Yeliseenka Viachaslau Uladzimiravich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/65458"
   ],
   "remarks": "Viachaslau Yeliseenka is a Belarussian judge who serves in a Dokshitsy District Court. He has issued politically-motivated rulings against the opponents of the Belarusian authorities. He has convicted 10 Belarusian citizens on political grounds. He has a documented history of having issued politically-motivated rulings against the opponents of the Belarusian authorities since 2018. He is therefore responsible for serious violations of human rights and the repression of civil society and democratic opposition in Belarus.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1979-04-10",
-      "circa": false
+      "circa": false,
+      "year": 1979
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

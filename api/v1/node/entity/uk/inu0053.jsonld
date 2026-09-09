@@ -1,33 +1,50 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/inu0053",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/inu0053",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Aria Nikan",
+      "@type": "NameVariant",
+      "fullName": "Aria Nikan",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Aria Nikan Marine Industry",
+      "@type": "NameVariant",
+      "fullName": "Aria Nikan Marine Industry",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Pergas Aria Movalled",
+      "@type": "NameVariant",
+      "fullName": "Pergas Aria Movalled",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/inu0053"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Suite 1, 59 Azadi Ali North Sohrevardi Avenue",
       "state": "Tehran",
       "country": "Iran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

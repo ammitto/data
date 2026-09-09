@@ -1,27 +1,43 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8085",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/8085",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Severniy Press Joint Stock Company",
+      "@type": "NameVariant",
+      "fullName": "Severniy Press Joint Stock Company",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Joint Stock Company “Northern Press”",
+      "@type": "NameVariant",
+      "fullName": "Joint Stock Company “Northern Press”",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Company Identification No. 1146444000010; Organisation Code: 5067847021556; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8085"
+  ],
+  "remarks": "Company Identification No. 1146444000010; Organisation Code: 5067847021556; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "7 Tallinskaya Street, St. Petersburg 195196",
       "country": "St. Petersburg 195196"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/466848",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/466848",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "COMPEQ",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "COMPEQ",
+      "isPrimary": true
     }
   ],
-  "remarks": "*125   AKA  COMÉRCIO PRODUTOS E EQUIPAMENTOS LTDA",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/466848"
+  ],
+  "remarks": "*125   AKA  COMÉRCIO PRODUTOS E EQUIPAMENTOS LTDA",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "AVENIDA GUAJAJARAS, NO. 25 – JD. SÃO CRISTOVÃO",
       "city": "SÃO LUIS – MARANHÃO",
       "country": "Brazil",
-      "country_iso_code": "BR"
+      "countryIsoCode": "BR"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

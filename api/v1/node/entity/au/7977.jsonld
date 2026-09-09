@@ -1,56 +1,76 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7977",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7977",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Abdikadir Mohamed Abdikadir",
+      "@type": "NameVariant",
+      "fullName": "Abdikadir Mohamed Abdikadir",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Abdukadir",
+      "@type": "NameVariant",
+      "fullName": "Abdukadir",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abdukadir Mohamed Abdukadir",
+      "@type": "NameVariant",
+      "fullName": "Abdukadir Mohamed Abdukadir",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abdulkadir",
+      "@type": "NameVariant",
+      "fullName": "Abdulkadir",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abdulkadir Mohamed Abdulkadir",
+      "@type": "NameVariant",
+      "fullName": "Abdulkadir Mohamed Abdulkadir",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ikrima",
+      "@type": "NameVariant",
+      "fullName": "Ikrima",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "SOi.023\n\nGender: Male. Listed pursuant to paragraph 26(b) of resolution 2662 (2022): (i) participating in the financing, planning, facilitating, preparing, or perpetrating of acts or activities by, in conjunction with, under the name of, on behalf of, or in support of Al-Shabaab and (iii) recruiting for, or otherwise supporting acts or activities of Al-Shabaab or any cell, affiliate, splinter group or derivative thereof.; Listing: Listed on 21 May 2024",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7977"
   ],
-  "birth_info": [
+  "remarks": "SOi.023\n\nGender: Male. Listed pursuant to paragraph 26(b) of resolution 2662 (2022): (i) participating in the financing, planning, facilitating, preparing, or perpetrating of acts or activities by, in conjunction with, under the name of, on behalf of, or in support of Al-Shabaab and (iii) recruiting for, or otherwise supporting acts or activities of Al-Shabaab or any cell, affiliate, splinter group or derivative thereof.; Listing: Listed on 21 May 2024",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1985,
       "country": "Somalia"
     }
   ],
   "nationalities": [
-    "Kenya;Somalia"
+    "Kenya",
+    "Somalia"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Somalia",
       "country": "Somalia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

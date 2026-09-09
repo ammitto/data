@@ -1,33 +1,42 @@
 {
-  "id": "https://www.ammitto.org/entry/au/consolidated-list/7240",
-  "entity_id": "https://www.ammitto.org/entity/au/7240",
+  "@id": "https://www.ammitto.org/entry/au/consolidated-list/7240",
+  "@type": "SanctionEntry",
+  "entityId": "https://www.ammitto.org/entity/au/7240",
   "authority": {
     "@id": "https://www.ammitto.org/authority/au"
   },
   "regime": {
-    "@id": "https://www.ammitto.org/regime/1373__2001_"
+    "@id": "https://www.ammitto.org/regime/1373__2001_",
+    "name": "1373 (2001)"
   },
-  "legal_bases": [
+  "legalBases": [
     {
-      "type": "instrument",
-      "identifier": "Charter of the United Nations (Listed Entities) Amendment (No. 2) Instrument 2022",
-      "title": "Charter of the United Nations (Listed Entities) Amendment (No. 2) Instrument 2022"
+      "@id": "https://www.ammitto.org/legal-instrument/au/charter-of-the-united-nations-listed-entities-amendment-no.-2-instrument-2022"
     }
   ],
   "effects": [
     {
-      "effect_type": "asset_freeze",
+      "@type": "SanctionEffect",
+      "effectType": "asset_freeze",
       "scope": "full"
     }
   ],
+  "reasons": [
+
+  ],
   "period": {
-    "is_indefinite": true
+    "@type": "TemporalPeriod",
+    "isIndefinite": true
   },
   "status": "active",
-  "reference_number": "7240",
-  "raw_source_data": {
-    "source_format": "csv",
-    "source_specific_fields": {
+  "statusHistory": [
+
+  ],
+  "referenceNumber": "7240",
+  "rawSourceData": {
+    "@type": "RawSourceData",
+    "sourceFormat": "csv",
+    "sourceSpecificFields": {
       "au:reference": "7240",
       "au:committees": "1373 (2001)",
       "au:control_date": "2025-02-03",
@@ -35,5 +44,5 @@
       "au:listing_info": "Charter of the United Nations (Listed Entities) Amendment (No. 2) Instrument 2022"
     }
   },
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

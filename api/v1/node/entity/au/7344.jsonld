@@ -1,29 +1,46 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7344",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7344",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Hassan HASSANZADEH",
+      "@type": "NameVariant",
+      "fullName": "Hassan HASSANZADEH",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Hasan HASSANZADEH",
+      "@type": "NameVariant",
+      "fullName": "Hasan HASSANZADEH",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Brigadier-General, Commander of the Mohammad Rasulullah Corps unit of the Islamic Revolutionary Guard Corps in Tehran province; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Thematic Sanctions) Amendment (No. 1) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7344"
   ],
-  "birth_info": [
+  "remarks": "Brigadier-General, Commander of the Mohammad Rasulullah Corps unit of the Islamic Revolutionary Guard Corps in Tehran province; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Thematic Sanctions) Amendment (No. 1) Instrument 2023",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1957
     }
   ],
   "nationalities": [
     "Iran"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

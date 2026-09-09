@@ -1,33 +1,56 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/bel0017",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/bel0017",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "GALENKA",
-      "first_name": "Andrei",
+      "@type": "NameVariant",
+      "fullName": "GALENKA",
+      "firstName": "Andrei",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "GALENKA",
-      "first_name": "Andrey",
+      "@type": "NameVariant",
+      "fullName": "GALENKA",
+      "firstName": "Andrey",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "ГАЛЕНКА, Андрей Васильевич",
+      "@type": "NameVariant",
+      "fullName": "ГАЛЕНКА, Андрей Васильевич",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "ГАЛЕНКА, Андрэй Васiльевiч",
+      "@type": "NameVariant",
+      "fullName": "ГАЛЕНКА, Андрэй Васiльевiч",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/bel0017"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

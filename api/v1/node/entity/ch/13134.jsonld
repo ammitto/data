@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/13134",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/13134",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Dorri-Nadjafabadi Ghorban-Ali",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Dorri-Nadjafabadi Ghorban-Ali",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/13134"
   ],
   "remarks": "Member of the Assembly of Experts and representative of the Supreme Leader in Markazi (“Central”) Province and Head of the Supreme Administrative Court. Prosecutor General of Iran until Sep 2009, as well as former Intelligence Minister under Khatami presidency. As Prosecutor General of Iran, he ordered and supervised the show trials following the first post-election protests, where the accused were denied their rights and access to an attorney.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1950-12-03",
-      "circa": false
+      "circa": false,
+      "year": 1950
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

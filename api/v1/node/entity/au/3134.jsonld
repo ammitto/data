@@ -1,62 +1,86 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3134",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/3134",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Eugène Barret Ngaïkosset",
+      "@type": "NameVariant",
+      "fullName": "Eugène Barret Ngaïkosset",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Eugene Ngaikosset",
+      "@type": "NameVariant",
+      "fullName": "Eugene Ngaikosset",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Eugene Ngaikoisset",
+      "@type": "NameVariant",
+      "fullName": "Eugene Ngaikoisset",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Eugene Ngakosset",
+      "@type": "NameVariant",
+      "fullName": "Eugene Ngakosset",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Eugene Barret Ngaikosse",
+      "@type": "NameVariant",
+      "fullName": "Eugene Barret Ngaikosse",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Eugene Ngaikouesset",
+      "@type": "NameVariant",
+      "fullName": "Eugene Ngaikouesset",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "“The Butcher of Paoua”",
+      "@type": "NameVariant",
+      "fullName": "“The Butcher of Paoua”",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ngakosset",
+      "@type": "NameVariant",
+      "fullName": "Ngakosset",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "CFi.008 a) Former Captain, CAR Presidential Guard b) Former Captain, CAR Naval Forces. National identification no.: Central African Republic armed forces (FACA) Military identification number 911-10-77. Captain Eugène Barret Ngaïkosset is a former member of former President François Bozizé’s (CFi.001) presidential guard and associated with the anti-Balaka movement. He escaped from jail on 17 May 2015 following his extradition from Brazzaville and created his own anti-balaka faction including former FACA fighters.; Listing: Listed on 17 Dec. 2015 (amended 1 Mar. 2019)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3134"
   ],
-  "birth_info": [
+  "remarks": "CFi.008 a) Former Captain, CAR Presidential Guard b) Former Captain, CAR Naval Forces. National identification no.: Central African Republic armed forces (FACA) Military identification number 911-10-77. Captain Eugène Barret Ngaïkosset is a former member of former President François Bozizé’s (CFi.001) presidential guard and associated with the anti-Balaka movement. He escaped from jail on 17 May 2015 following his extradition from Brazzaville and created his own anti-balaka faction including former FACA fighters.; Listing: Listed on 17 Dec. 2015 (amended 1 Mar. 2019)",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1967
     }
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Bangui, Central African Republic",
       "country": "Central African Republic"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

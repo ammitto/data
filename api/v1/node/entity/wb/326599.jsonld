@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/326599",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/326599",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "APQ S.A.C.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "APQ S.A.C.",
+      "isPrimary": true
     }
   ],
-  "remarks": "*338",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/326599"
+  ],
+  "remarks": "*338",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "MANZANA D LOTE 18, URBANIZACIÓN BALLESTAS",
       "city": "PISCO, ICA",
       "country": "Peru",
-      "country_iso_code": "PE"
+      "countryIsoCode": "PE"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

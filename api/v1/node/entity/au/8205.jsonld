@@ -1,29 +1,46 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8205",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/8205",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Maksim Bronislavovich SOKOLOVSKIY",
+      "@type": "NameVariant",
+      "fullName": "Maksim Bronislavovich SOKOLOVSKIY",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Maksim  Bronislavovich SOKOLOVSKII",
+      "@type": "NameVariant",
+      "fullName": "Maksim  Bronislavovich SOKOLOVSKII",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Former Judge of the Moscow City Court; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 4) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8205"
   ],
-  "birth_info": [
+  "remarks": "Former Judge of the Moscow City Court; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 4) Instrument 2025",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1977
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,37 +1,55 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3032",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/3032",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "People’s Republic of Luhansk",
+      "@type": "NameVariant",
+      "fullName": "People’s Republic of Luhansk",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Lugansk People’s Republic",
+      "@type": "NameVariant",
+      "fullName": "Lugansk People’s Republic",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Luhansk People’s Republic",
+      "@type": "NameVariant",
+      "fullName": "Luhansk People’s Republic",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "So-called Lugansk People’s Republic",
+      "@type": "NameVariant",
+      "fullName": "So-called Lugansk People’s Republic",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Listing: Listed on 2 Sep. 2014 (relisted on 1 Sep. 2017) (relisted on 28 Aug. 2020 (relisted on 27 Aug 2023)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3032"
+  ],
+  "remarks": "Listing: Listed on 2 Sep. 2014 (relisted on 1 Sep. 2017) (relisted on 28 Aug. 2020 (relisted on 27 Aug 2023)",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Square Geroev Velikoy Otechestvennoy Voyny 3, Luhansk, Ukraine",
       "country": "Ukraine"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,23 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/322603",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/wb/322603",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MR. NGUYEN PHUONG QUY",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "MR. NGUYEN PHUONG QUY",
+      "isPrimary": true
     }
   ],
-  "remarks": "*298",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/322603"
+  ],
+  "remarks": "*298",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "TOWER CENTER OFFICE BUILDING,NO. 83A LY THUONG KIET STREET,DISTRICT HOAN KIEM",
       "city": "HANOI",
       "country": "Viet Nam",
-      "country_iso_code": "VN"
+      "countryIsoCode": "VN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

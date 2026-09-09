@@ -1,30 +1,47 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7260",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7260",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Sergey Vladimirovich ELISEEV",
+      "@type": "NameVariant",
+      "fullName": "Sergey Vladimirovich ELISEEV",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Sergei Vladimirovich YELISEYEV",
+      "@type": "NameVariant",
+      "fullName": "Sergei Vladimirovich YELISEYEV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "So-called ‘chairman’ of the government of the\nKherson region in Ukraine; Listing: Instrument of first designation\nand declaration\nAutonomous Sanctions (Designated Persons and\nEntities and Declared Persons—Russia and\nUkraine) Amendment (No. 21) Instrument 2022",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7260"
   ],
-  "birth_info": [
+  "remarks": "So-called ‘chairman’ of the government of the\nKherson region in Ukraine; Listing: Instrument of first designation\nand declaration\nAutonomous Sanctions (Designated Persons and\nEntities and Declared Persons—Russia and\nUkraine) Amendment (No. 21) Instrument 2022",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1971,
       "country": "Stavropol"
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

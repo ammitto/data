@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/tr/121",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/tr/121",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "LEADER (HONG KONG) INTERNATIONAL",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "LEADER (HONG KONG) INTERNATIONAL",
+      "isPrimary": true
     }
   ],
-  "source_references": [
+  "sourceReferences": [
     {
-      "source_code": "tr",
-      "reference_number": "121"
+      "@type": "SourceReference",
+      "sourceCode": "tr",
+      "referenceNumber": "121",
+      "retrievedAt": "2026-09-09T16:30:41Z"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "linkedEntities": [
+
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/tr/consolidated-list/121"
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

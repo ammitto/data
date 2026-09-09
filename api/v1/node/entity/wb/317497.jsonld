@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/317497",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/317497",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "PROJECT CONSTRUCTION S.A.C.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "PROJECT CONSTRUCTION S.A.C.",
+      "isPrimary": true
     }
   ],
-  "remarks": "*271",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/317497"
+  ],
+  "remarks": "*271",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "CALLE RICARDO ÁNGULO 834, URB. CORPAC-SAN ISIDRO",
       "city": "LIMA",
       "country": "Peru",
-      "country_iso_code": "PE"
+      "countryIsoCode": "PE"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

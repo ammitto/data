@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/77568",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/77568",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Nangaa Yobeluo Corneille",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Nangaa Yobeluo Corneille",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/77568"
   ],
   "remarks": "Corneille Nangaa Yobeluo holds a leading position as founder, leader and political coordinator of the “Alliance Fleuve Congo” (AFC), a politico-military movement operating in Eastern DRC and openly associated with several non-governmental armed groups, including the March 23 Movement / Congolese Revolutionary Army (M23/ARC).",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1970-07-09",
-      "circa": false
+      "circa": false,
+      "year": 1970
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

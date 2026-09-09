@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/53188",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/53188",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Deripaska Oleg Vladimirovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Deripaska Oleg Vladimirovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/53188"
   ],
   "remarks": "Oleg Deripaska is a leading businessperson, owner of Rusal, one of the world’s largest companies in the global aluminium industry.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1968-01-02",
-      "circa": false
+      "circa": false,
+      "year": 1968
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

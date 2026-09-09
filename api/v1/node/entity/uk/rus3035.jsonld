@@ -1,33 +1,53 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus3035",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/rus3035",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Fazleeva",
-      "first_name": "Leyla",
+      "@type": "NameVariant",
+      "fullName": "Fazleeva",
+      "firstName": "Leyla",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Fazleeva",
-      "first_name": "Leila",
+      "@type": "NameVariant",
+      "fullName": "Fazleeva",
+      "firstName": "Leila",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Лейла Фазлеева ",
+      "@type": "NameVariant",
+      "fullName": "Лейла Фазлеева ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus3035"
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Kazan, Republic of Tatarstan",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

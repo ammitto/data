@@ -1,38 +1,56 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/mal0012",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/mal0012",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Marko Mining",
+      "@type": "NameVariant",
+      "fullName": "Marko Mining",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Marco Mining",
+      "@type": "NameVariant",
+      "fullName": "Marco Mining",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Marco Mining Sarl",
+      "@type": "NameVariant",
+      "fullName": "Marco Mining Sarl",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Марко Майнинг ",
+      "@type": "NameVariant",
+      "fullName": "Марко Майнинг ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/mal0012"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Badalabougou SEMA, Rue 117, Porte 79",
       "state": "Bamako",
       "country": "Mali"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,42 +1,61 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8683",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/8683",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Central Research Institute for Machine Building Joint Stock Company",
+      "@type": "NameVariant",
+      "fullName": "Central Research Institute for Machine Building Joint Stock Company",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "AO TSNIIMASH",
+      "@type": "NameVariant",
+      "fullName": "AO TSNIIMASH",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "TSNIIMASH",
+      "@type": "NameVariant",
+      "fullName": "TSNIIMASH",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "TSENTRALNYI NAUKOVO-DOSLIDNYI INSTYTUT MASHYNOBUDUVANNIA",
+      "@type": "NameVariant",
+      "fullName": "TSENTRALNYI NAUKOVO-DOSLIDNYI INSTYTUT MASHYNOBUDUVANNIA",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "AKTSIONERNOYE OBSHCHESTVO TSENTRALNYI NAUKOVO-DOSLIDNYI INSTYTUT MASHYNOBUDUVANNIA",
+      "@type": "NameVariant",
+      "fullName": "AKTSIONERNOYE OBSHCHESTVO TSENTRALNYI NAUKOVO-DOSLIDNYI INSTYTUT MASHYNOBUDUVANNIA",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Website: https://www.tsniimash.ru; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2026",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8683"
+  ],
+  "remarks": "Website: https://www.tsniimash.ru; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2026",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "4 Pionerskaya St., Korolev, Moscow Region, 141070, Russia",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

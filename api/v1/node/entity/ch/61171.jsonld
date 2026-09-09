@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/61171",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/61171",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Roshal Leonid Mikhailovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Roshal Leonid Mikhailovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/61171"
   ],
   "remarks": "Leonid Roshal is the Co-Chairman of the Central Headquarters of the All-Russia People’s Front. Under his control and leadership, the People’s Front provides support for Russia’s war against Ukraine, including through the social campaign “All for Victory!”, including collecting physical and financial donations to support the military units of the so-called “Donetsk People’s Republic” and “Luhansk People’s Republic”. He has also made personal statements in support of the military action against Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1933-04-27",
-      "circa": false
+      "circa": false,
+      "year": 1933
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

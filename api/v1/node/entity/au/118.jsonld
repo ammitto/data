@@ -1,59 +1,81 @@
 {
-  "id": "https://www.ammitto.org/entity/au/118",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/118",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Hamidullah Akhund Sher Mohammad",
+      "@type": "NameVariant",
+      "fullName": "Hamidullah Akhund Sher Mohammad",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "حمید الله آخوند شیر محمد",
+      "@type": "NameVariant",
+      "fullName": "حمید الله آخوند شیر محمد",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Janat Gul",
+      "@type": "NameVariant",
+      "fullName": "Janat Gul",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Hamidullah akhund",
+      "@type": "NameVariant",
+      "fullName": "Hamidullah akhund",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "SAEED HAMIDULLAH",
+      "@type": "NameVariant",
+      "fullName": "SAEED HAMIDULLAH",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "TAi.118 Title: Mullah. Designation: Head of Ariana Afghan Airlines under the Taliban regime (1996-2001). Passport no: Afghanistan diplomatic passport D0009721 ; issued 12 Oct. 2021; (Name in Latin script: Hamidullah Saeed; name in original script: حميدالله سعيد ; expires 12 Oct. 2026.) Belongs to Ghilzai tribe. Height: 175cm; Listing: Listed on 25 January 2001 (amended on 3 Sep 2003, 9 July 2007, 21 Sep 2007, 29 Nov. 2011 and 13 Aug 2012, 10 Mar. 2026)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/118"
   ],
-  "birth_info": [
+  "remarks": "TAi.118 Title: Mullah. Designation: Head of Ariana Afghan Airlines under the Taliban regime (1996-2001). Passport no: Afghanistan diplomatic passport D0009721 ; issued 12 Oct. 2021; (Name in Latin script: Hamidullah Saeed; name in original script: حميدالله سعيد ; expires 12 Oct. 2026.) Belongs to Ghilzai tribe. Height: 175cm; Listing: Listed on 25 January 2001 (amended on 3 Sep 2003, 9 July 2007, 21 Sep 2007, 29 Nov. 2011 and 13 Aug 2012, 10 Mar. 2026)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1972,
       "country": "a) Sarpolad village"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1973,
       "country": "Washer District"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1973,
       "country": "Helmand Province"
     }
   ],
   "nationalities": [
     "Afghanistan"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Kabul, Afghanistan",
       "country": "Afghanistan"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

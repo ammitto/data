@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/20410",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/20410",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Alshargawi Bashir Saleh Bashir",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Alshargawi Bashir Saleh Bashir",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/20410"
   ],
   "remarks": "Head of Cabinet of Muammar Qadhafi. Closely associated with the former regime of Muammar Qadhafi.",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1946
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

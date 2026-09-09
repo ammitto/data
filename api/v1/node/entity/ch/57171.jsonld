@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/57171",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/57171",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Qureishi Sayed Hojatollah",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Qureishi Sayed Hojatollah",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/57171"
   ],
   "remarks": "In January 2024, General Sayed Qureishi was promoted to the position of Deputy Minister of Defence at the Iranian Ministry of Defence and Armed Forces Logistics MODAFL). Until then, he held the position of Head of the Supply, Research and Industrial Affairs Division at the Iranian Ministry of Defence and Armed Forces Logistics (MODAFL) and was responsible for negotiating the agreement with the Russian Federation in relation to the supply of Iranian-made Unmanned Aerial Vehicles (UAVs) for their use in the war of aggression against Ukraine. Therefore, General Sayed Qureishi is responsible for supporting actions which undermine or threaten the territorial integrity, sovereignty and independence of Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1964-09-27",
-      "circa": false
+      "circa": false,
+      "year": 1964
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

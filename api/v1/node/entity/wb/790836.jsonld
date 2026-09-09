@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/790836",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/790836",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "CONSULTORES EN INGENIERIA S.A. DE C.V.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "CONSULTORES EN INGENIERIA S.A. DE C.V.",
+      "isPrimary": true
     }
   ],
-  "remarks": "*636",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/790836"
+  ],
+  "remarks": "*636",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "OFFICINA PRINCIPAL, COL. FLORENCIA NORTE, BOULEVARD SUYAPA, NO. 4002",
       "city": "TEGUCIGALPA",
       "country": "Honduras",
-      "country_iso_code": "HN"
+      "countryIsoCode": "HN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

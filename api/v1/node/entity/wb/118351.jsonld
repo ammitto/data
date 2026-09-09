@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/118351",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/118351",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "ZHONGKE LIFE SCIENCE & TECHNOLOGY CO., LTD.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "ZHONGKE LIFE SCIENCE & TECHNOLOGY CO., LTD.",
+      "isPrimary": true
     }
   ],
-  "remarks": "*40",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/118351"
+  ],
+  "remarks": "*40",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "NO. 88, ZHIYUAN ROAD, WUKANG TOWN, DEQING COUNTY",
       "city": "ZHEJIANG 313200",
       "country": "China",
-      "country_iso_code": "CN"
+      "countryIsoCode": "CN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

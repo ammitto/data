@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/45565",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/45565",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Lyubetskaya Sviatlana Anatoleuna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Lyubetskaya Sviatlana Anatoleuna",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/45565"
   ],
   "remarks": "In her former position as Chairperson of the Parliamentary Commission on Law, Sviatlana Lyubetskaya was responsible for the adoption of the new Code of Administrative Infringements (entered into force on 1 March 2021) that authorises arbitrary arrests and imposed increased liability for participation in mass events, including for display of political symbols. Through these legislative activities, she is responsible for serious violations of human rights, including the right of peaceful assembly, and the repression of civil society and democratic opposition. These legislative activities also seriously undermine democracy and the rule of law in Belarus.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1971-06-03",
-      "circa": false
+      "circa": false,
+      "year": 1971
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

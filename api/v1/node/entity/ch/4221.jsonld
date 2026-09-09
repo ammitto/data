@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/4221",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/4221",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Jibba Macifierran Momo",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Jibba Macifierran Momo",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/4221"
   ],
   "remarks": "Former Senior Aide-de-Camp to ex-President Taylor. Associate of former Liberian President Charles Taylor with ongoing ties to him.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1972-05-04",
-      "circa": false
+      "circa": false,
+      "year": 1972
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

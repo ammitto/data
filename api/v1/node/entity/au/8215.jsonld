@@ -1,74 +1,99 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8215",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/8215",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Zaher Jabarin",
+      "@type": "NameVariant",
+      "fullName": "Zaher Jabarin",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Zaher Jabareen",
+      "@type": "NameVariant",
+      "fullName": "Zaher Jabareen",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Zahir Ali Mousa Jabbareen",
+      "@type": "NameVariant",
+      "fullName": "Zahir Ali Mousa Jabbareen",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Zaher Ali Mousa Jabarin",
+      "@type": "NameVariant",
+      "fullName": "Zaher Ali Mousa Jabarin",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Zahir Jabarin",
+      "@type": "NameVariant",
+      "fullName": "Zahir Jabarin",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Zahar Jabarin",
+      "@type": "NameVariant",
+      "fullName": "Zahar Jabarin",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Zaher Ali Mousa Jibril",
+      "@type": "NameVariant",
+      "fullName": "Zaher Ali Mousa Jibril",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "زاهر جبارين",
+      "@type": "NameVariant",
+      "fullName": "زاهر جبارين",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Listing: Charter of the United Nations (Listed Persons and Entities) Amendment (No. 3) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8215"
   ],
-  "birth_info": [
+  "remarks": "Listing: Charter of the United Nations (Listed Persons and Entities) Amendment (No. 3) Instrument 2025",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1968,
       "country": "Salfit"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1968,
       "country": "West Bank"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1968,
       "country": "Occupied Palestinian Territories"
     }
   ],
   "nationalities": [
     "State of Palestine"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Türkiye",
       "country": "Türkiye"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

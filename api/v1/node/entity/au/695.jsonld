@@ -1,35 +1,53 @@
 {
-  "id": "https://www.ammitto.org/entity/au/695",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/695",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "UGLA ABID SAKR AL-ZUBAISI",
+      "@type": "NameVariant",
+      "fullName": "UGLA ABID SAKR AL-ZUBAISI",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "عكلة عبد صكر القبيسي",
+      "@type": "NameVariant",
+      "fullName": "عكلة عبد صكر القبيسي",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Saqr al-Kabisi Abd Aqala",
+      "@type": "NameVariant",
+      "fullName": "Saqr al-Kabisi Abd Aqala",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "IQi.050; Listing: Listed by the 1518 Committee",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/695"
   ],
-  "birth_info": [
+  "remarks": "IQi.050; Listing: Listed by the 1518 Committee",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1944,
       "country": "Kubaisi"
     }
   ],
   "nationalities": [
     "Iraq"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

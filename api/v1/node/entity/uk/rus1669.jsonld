@@ -1,27 +1,46 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus1669",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/rus1669",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "PAMFILOVA",
-      "first_name": "Ella",
+      "@type": "NameVariant",
+      "fullName": "PAMFILOVA",
+      "firstName": "Ella",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Э́лла Алекса́ндровна Памфи́лова ",
+      "@type": "NameVariant",
+      "fullName": "Э́лла Алекса́ндровна Памфи́лова ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus1669"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "MOSCOW"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

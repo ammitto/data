@@ -1,39 +1,61 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus0163",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/rus0163",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Zima",
-      "first_name": "Pyotr",
+      "@type": "NameVariant",
+      "fullName": "Zima",
+      "firstName": "Pyotr",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "ZYMA",
-      "first_name": "Petro",
+      "@type": "NameVariant",
+      "fullName": "ZYMA",
+      "firstName": "Petro",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Петр Зима",
+      "@type": "NameVariant",
+      "fullName": "Петр Зима",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Петро Зима",
+      "@type": "NameVariant",
+      "fullName": "Петро Зима",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus0163"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "state": "The Autonomous Republic of Crimea and the city of Sevastopol",
       "country": "Ukraine"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

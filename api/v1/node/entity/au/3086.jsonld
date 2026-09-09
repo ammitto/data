@@ -1,69 +1,93 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3086",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/3086",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Abdul Basir Noorzai",
+      "@type": "NameVariant",
+      "fullName": "Abdul Basir Noorzai",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "عبد البصیر نورزی",
+      "@type": "NameVariant",
+      "fullName": "عبد البصیر نورزی",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Haji Abdul Basir",
+      "@type": "NameVariant",
+      "fullName": "Haji Abdul Basir",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Haji ‘Abd Al-Basir",
+      "@type": "NameVariant",
+      "fullName": "Haji ‘Abd Al-Basir",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Haji Basir Noorzai",
+      "@type": "NameVariant",
+      "fullName": "Haji Basir Noorzai",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abdul Baseer",
+      "@type": "NameVariant",
+      "fullName": "Abdul Baseer",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abdul Basir",
+      "@type": "NameVariant",
+      "fullName": "Abdul Basir",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "TAi.173 Title: Haji. Passport no.: Pakistani passport number AA3829182. National identification no.: Pakistani national identification number 5420124679187. Owner of Haji Basir and Zarjmil Company Hawala (TAe.014), which provides financial services to Taliban in the region.; Listing: Listed on 27 Mar. 2015",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3086"
   ],
-  "birth_info": [
+  "remarks": "TAi.173 Title: Haji. Passport no.: Pakistani passport number AA3829182. National identification no.: Pakistani national identification number 5420124679187. Owner of Haji Basir and Zarjmil Company Hawala (TAe.014), which provides financial services to Taliban in the region.; Listing: Listed on 27 Mar. 2015",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1965,
       "country": "Baluchistan Province"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1960,
       "country": "Pakistan"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1963,
       "country": "Baluchistan Province"
     }
   ],
   "nationalities": [
     "Afghanistan"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Chaman, Baluchistan Province, Pakistan.",
       "country": "Pakistan."
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

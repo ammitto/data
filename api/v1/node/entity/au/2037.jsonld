@@ -1,27 +1,43 @@
 {
-  "id": "https://www.ammitto.org/entity/au/2037",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/2037",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Fulmen",
+      "@type": "NameVariant",
+      "fullName": "Fulmen",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Fulmen Group",
+      "@type": "NameVariant",
+      "fullName": "Fulmen Group",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Listing: Designated under the Autonomous Sanctions Regulations 2011 on 2 March 2012 (F2012L00479). Formerly listed on the RBA Consolidated List as 2010IRN0094. Relisted 12 January 2024",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/2037"
+  ],
+  "remarks": "Listing: Designated under the Autonomous Sanctions Regulations 2011 on 2 March 2012 (F2012L00479). Formerly listed on the RBA Consolidated List as 2010IRN0094. Relisted 12 January 2024",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "167 Darya Boulevarde, Sharak e Qods, Tehran, Iran;\n167, Darya Blvd, Saadat Abad, 14669 83565 Tehran, Iran",
       "country": "Iran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

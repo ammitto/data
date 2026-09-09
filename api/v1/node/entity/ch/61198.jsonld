@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/61198",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/61198",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ashmanov Igor Stanislavovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Ashmanov Igor Stanislavovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/61198"
   ],
   "remarks": "Igor Ashmanov is a Russian IT expert and entrepreneur. He is a member of the Presidential Council for Civil Society and Human Rights. He was a confidant of the incumbent candidate Vladimir Putin during his presidential campaign in 2018.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1962-01-09",
-      "circa": false
+      "circa": false,
+      "year": 1962
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

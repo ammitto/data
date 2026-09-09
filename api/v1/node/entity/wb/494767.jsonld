@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/494767",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/494767",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "ARLADI GENERAL TRADING COMPANY LTD.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "ARLADI GENERAL TRADING COMPANY LTD.",
+      "isPrimary": true
     }
   ],
-  "remarks": "*551",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/494767"
+  ],
+  "remarks": "*551",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "HQ-AFAR-IRDOD STREET",
       "city": "BAIDOA, BAY",
       "country": "Somalia, Federal Republic of",
-      "country_iso_code": "SO"
+      "countryIsoCode": "SO"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

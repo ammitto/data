@@ -1,42 +1,61 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus3175",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus3175",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "RAW MATERIALS CELLULOSE MCHJ",
+      "@type": "NameVariant",
+      "fullName": "RAW MATERIALS CELLULOSE MCHJ",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "OOO Raw Materials Cellulose ",
+      "@type": "NameVariant",
+      "fullName": "OOO Raw Materials Cellulose ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Raw Materials Cellulose",
+      "@type": "NameVariant",
+      "fullName": "Raw Materials Cellulose",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Raw Materials Cellulose Limited Liability Company",
+      "@type": "NameVariant",
+      "fullName": "Raw Materials Cellulose Limited Liability Company",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Raw Materials Cellulose LLC",
+      "@type": "NameVariant",
+      "fullName": "Raw Materials Cellulose LLC",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus3175"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Industrial Zone A, Jizzakh Region",
       "state": "Jizzakh",
       "country": "Uzbekistan"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

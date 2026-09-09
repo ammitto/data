@@ -1,28 +1,45 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus0177",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus0177",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "International Union of Public Associations 'Great Don Army'",
+      "@type": "NameVariant",
+      "fullName": "International Union of Public Associations 'Great Don Army'",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus0177"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "city": "Voroshilovskiy Prospekt 12/85 - 87/13",
       "state": "Rostov-on-Don"
     },
     {
+      "@type": "Address",
       "street": "Shosseynaya 1 St., Zaplavskaya. Str.",
       "city": "October C District",
       "state": "Rostov Region",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

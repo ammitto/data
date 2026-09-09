@@ -1,40 +1,62 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus0001",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/rus0001",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kiselyov",
-      "first_name": "Dmitry",
+      "@type": "NameVariant",
+      "fullName": "Kiselyov",
+      "firstName": "Dmitry",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Kiselev",
-      "first_name": "Dmitrii",
+      "@type": "NameVariant",
+      "fullName": "Kiselev",
+      "firstName": "Dmitrii",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Kiselev",
-      "first_name": "Dmitry",
+      "@type": "NameVariant",
+      "fullName": "Kiselev",
+      "firstName": "Dmitry",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Kiselyov",
-      "first_name": "Dmitrii",
+      "@type": "NameVariant",
+      "fullName": "Kiselyov",
+      "firstName": "Dmitrii",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus0001"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,22 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/779971",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/wb/779971",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MR. SATISH CHANDRA MISHRA",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "MR. SATISH CHANDRA MISHRA",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/779971"
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "BALI, JALAN BADAK AGUNG 19, NO. 5 RENON",
       "city": "DENPASAR 80235",
       "country": "Indonesia",
-      "country_iso_code": "ID"
+      "countryIsoCode": "ID"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

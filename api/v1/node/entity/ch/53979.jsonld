@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/53979",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/53979",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kriyerenko Aleksandr Valeryevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kriyerenko Aleksandr Valeryevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/53979"
   ],
   "remarks": "Member of the so-called ‘People’s Council’ of the so-called ‘Luhansk People’s Republic’. Has therefore supported and implemented actions and policies which undermine the territorial integrity, sovereignty and independence of Ukraine, and further destabilised Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1993-10-14",
-      "circa": false
+      "circa": false,
+      "year": 1993
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

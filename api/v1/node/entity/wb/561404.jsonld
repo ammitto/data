@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/561404",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/561404",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "A2Z INFRASERVICES LANKA PVT. LTD.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "A2Z INFRASERVICES LANKA PVT. LTD.",
+      "isPrimary": true
     }
   ],
-  "remarks": "*553",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/561404"
+  ],
+  "remarks": "*553",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "BOC MERCHANT TOWER, LEVEL 8, NO: 28 ST. MICHAEL’S ROAD",
       "city": "COLOMBO 3",
       "country": "Sri Lanka",
-      "country_iso_code": "LK"
+      "countryIsoCode": "LK"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

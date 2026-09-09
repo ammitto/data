@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/69314",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/69314",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Styozhka Bogdan Vasilyevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Styozhka Bogdan Vasilyevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/69314"
   ],
   "remarks": "Bogdan Styozhka is the Chief of Staff of the Board of the Military Industrial Commission of the Russian Federation which is tasked with implementing Russian state policy concerning the military-industrial complex and military technology provision. In this capacity, Bogdan Styozhka participates in the meetings of the State Coordination Council\ndesignated to meet the Russian military needs arising during the war of aggression against Ukraine. Therefore, Bogdan Styozhka is supporting and implementing actions and policies which undermine and threaten the territorial integrity, sovereignty and independence of Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1977-06-29",
-      "circa": false
+      "circa": false,
+      "year": 1977
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

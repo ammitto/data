@@ -1,34 +1,57 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus2917",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/rus2917",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Lukovenko",
-      "first_name": "Victor",
+      "@type": "NameVariant",
+      "fullName": "Lukovenko",
+      "firstName": "Victor",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Lukovenko",
-      "first_name": "Viktor ",
+      "@type": "NameVariant",
+      "fullName": "Lukovenko",
+      "firstName": "Viktor ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Valisev",
-      "first_name": "Victor",
+      "@type": "NameVariant",
+      "fullName": "Valisev",
+      "firstName": "Victor",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Виктор Александрович Луковенко",
+      "@type": "NameVariant",
+      "fullName": "Виктор Александрович Луковенко",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Internet Services Sanctions: When an individual or entity is designated for the purposes of this measure, social media services, internet access services and application stores must take reasonable steps to prevent users in the UK from accessing content, sites or applications provided by designated individuals or entities. ",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus2917"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "remarks": "Internet Services Sanctions: When an individual or entity is designated for the purposes of this measure, social media services, internet access services and application stores must take reasonable steps to prevent users in the UK from accessing content, sites or applications provided by designated individuals or entities. ",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

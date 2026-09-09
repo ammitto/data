@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/79314",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/79314",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Sayed Esmatullah Asem Abdul Quddus Maulavi",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Sayed Esmatullah Asem Abdul Quddus Maulavi",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/79314"
   ],
   "remarks": "Deputy Minister of Preventing Vice and Propagating Virtue under the Taliban regime.",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1967
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

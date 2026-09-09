@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/nz/ind-781",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/nz/ind-781",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Alexander Alexandrovich MIKHEEV",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Alexander Alexandrovich MIKHEEV",
+      "isPrimary": true
     }
   ],
-  "source_references": [
+  "sourceReferences": [
     {
-      "source_code": "nz",
-      "reference_number": "IND-781"
+      "@type": "SourceReference",
+      "sourceCode": "nz",
+      "referenceNumber": "IND-781",
+      "retrievedAt": "2026-09-09T16:30:44Z"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "linkedEntities": [
+
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/nz/consolidated-list/ind-781"
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,58 +1,81 @@
 {
-  "id": "https://www.ammitto.org/entity/au/457",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/457",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Khalid MISHAAL",
+      "@type": "NameVariant",
+      "fullName": "Khalid MISHAAL",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Khalid MESHAAL",
+      "@type": "NameVariant",
+      "fullName": "Khalid MESHAAL",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Khaled MESHALL",
+      "@type": "NameVariant",
+      "fullName": "Khaled MESHALL",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Khaled MESHAL",
+      "@type": "NameVariant",
+      "fullName": "Khaled MESHAL",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Khaled MASHAL",
+      "@type": "NameVariant",
+      "fullName": "Khaled MASHAL",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Khalid MISHAL",
+      "@type": "NameVariant",
+      "fullName": "Khalid MISHAL",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Khalid MISHAL’AL",
+      "@type": "NameVariant",
+      "fullName": "Khalid MISHAL’AL",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Associated with Hamas.; Listing: Instrument of first listing: Charter of the United Nations Act 1945 List 2003 (No. 3) [F2021L00628, Gazette No. S 426, 21 November 2003]. Last listed 13/09/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/457"
   ],
-  "birth_info": [
+  "remarks": "Associated with Hamas.; Listing: Instrument of first listing: Charter of the United Nations Act 1945 List 2003 (No. 3) [F2021L00628, Gazette No. S 426, 21 November 2003]. Last listed 13/09/2025.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1956,
       "country": "Silwad"
     }
   ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Doha, Qatar",
       "country": "Qatar"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

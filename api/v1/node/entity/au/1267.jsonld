@@ -1,81 +1,105 @@
 {
-  "id": "https://www.ammitto.org/entity/au/1267",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/1267",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "OTHMAN AHMED OTHMAN AL-GHAMDI",
+      "@type": "NameVariant",
+      "fullName": "OTHMAN AHMED OTHMAN AL-GHAMDI",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "عثمان أحمد عثمان الغامدي",
+      "@type": "NameVariant",
+      "fullName": "عثمان أحمد عثمان الغامدي",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Othman al-Ghamdi",
+      "@type": "NameVariant",
+      "fullName": "Othman al-Ghamdi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Uthman al-Ghamdi",
+      "@type": "NameVariant",
+      "fullName": "Uthman al-Ghamdi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Uthman al-Ghamidi",
+      "@type": "NameVariant",
+      "fullName": "Uthman al-Ghamidi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Othman bin Ahmed bin Othman Alghamdi",
+      "@type": "NameVariant",
+      "fullName": "Othman bin Ahmed bin Othman Alghamdi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Othman Ahmed Othman Al Omairah",
+      "@type": "NameVariant",
+      "fullName": "Othman Ahmed Othman Al Omairah",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Uthman Ahmad Uthman al-Ghamdi",
+      "@type": "NameVariant",
+      "fullName": "Uthman Ahmad Uthman al-Ghamdi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Othman Ahmed Othman al-Omirah",
+      "@type": "NameVariant",
+      "fullName": "Othman Ahmed Othman al-Omirah",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Al Umairah al-Ghamdi",
+      "@type": "NameVariant",
+      "fullName": "Al Umairah al-Ghamdi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Othman Bin Ahmed Bin Othman",
+      "@type": "NameVariant",
+      "fullName": "Othman Bin Ahmed Bin Othman",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "National identification no.: Saudi Arabian national identity card number 1089516791. Operational commander of Al-Qaida in the Arabian Peninsula (AQAP) (QE.A.129.10.). Has been involved in raising funds and stockpiling arms for AQAP operations and activities in Yemen. Known associate of Qasim Yahya Mahdi al-Rimi (QI.A.282.10.) and Fahd Mohammed Ahmed al-Quso (QI.A.288.10.). INTERPOL Orange Notice (file number 2009/52/OS/CCC, #14). INTERPOL Red Notice (Control Number A-596/3-2009, File Number 2009/3731). Father’s name is Ahmed Othman Al Omirah. Review pursuant to Security Council resolution 2368 (2017) was concluded on 24 November 2020.; Listing: Listed by UN 1267 Committee on 16 June 2011 (amended on 24 Nov. 2020)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/1267"
   ],
-  "birth_info": [
+  "remarks": "National identification no.: Saudi Arabian national identity card number 1089516791. Operational commander of Al-Qaida in the Arabian Peninsula (AQAP) (QE.A.129.10.). Has been involved in raising funds and stockpiling arms for AQAP operations and activities in Yemen. Known associate of Qasim Yahya Mahdi al-Rimi (QI.A.282.10.) and Fahd Mohammed Ahmed al-Quso (QI.A.288.10.). INTERPOL Orange Notice (file number 2009/52/OS/CCC, #14). INTERPOL Red Notice (Control Number A-596/3-2009, File Number 2009/3731). Father’s name is Ahmed Othman Al Omirah. Review pursuant to Security Council resolution 2368 (2017) was concluded on 24 November 2020.; Listing: Listed by UN 1267 Committee on 16 June 2011 (amended on 24 Nov. 2020)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1979,
       "country": "Saudi Arabia"
     }
   ],
   "nationalities": [
     "Saudi Arabia"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Yemen",
       "country": "Yemen"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,48 +1,68 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus1408",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus1408",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "All-Russian Public Organization Society for the Promotion of Russian Historical Development Tsargrad",
+      "@type": "NameVariant",
+      "fullName": "All-Russian Public Organization Society for the Promotion of Russian Historical Development Tsargrad",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Double Headed Eagle Society",
+      "@type": "NameVariant",
+      "fullName": "Double Headed Eagle Society",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Tsargrad Society",
+      "@type": "NameVariant",
+      "fullName": "Tsargrad Society",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "ОБЩЕРОССИЙСКАЯ ОБЩЕСТВЕННАЯ ОРГАНИЗАЦИЯ ОБЩЕСТВО СОДЕЙСТВИЯ РУССКОМУ ИСТОРИЧЕСКОМУ РАЗВИТИЮ ЦАРЬГРАД ",
+      "@type": "NameVariant",
+      "fullName": "ОБЩЕРОССИЙСКАЯ ОБЩЕСТВЕННАЯ ОРГАНИЗАЦИЯ ОБЩЕСТВО СОДЕЙСТВИЯ РУССКОМУ ИСТОРИЧЕСКОМУ РАЗВИТИЮ ЦАРЬГРАД ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Общество двуглавого орла ",
+      "@type": "NameVariant",
+      "fullName": "Общество двуглавого орла ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Общество Царьград ",
+      "@type": "NameVariant",
+      "fullName": "Общество Царьград ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Established Date 01 Nov 2015 The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus1408"
+  ],
+  "remarks": "Established Date 01 Nov 2015 The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "1s3 Partynniy pereulok",
       "state": "Moscow",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

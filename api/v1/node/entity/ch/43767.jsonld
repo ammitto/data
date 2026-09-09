@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/43767",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/43767",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Prigozhin Yevgeniy Viktorovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Prigozhin Yevgeniy Viktorovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/43767"
   ],
   "remarks": "Yevgeniy Viktorovich Prigozhin is a Russian businessman with close links, including financial, to the Wagner Group, a Russia-based unincorporated private military entity.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1961-06-01",
-      "circa": false
+      "circa": false,
+      "year": 1961
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

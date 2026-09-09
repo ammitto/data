@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/186116",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/186116",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "ASSOCIATION MUHANDISON",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "ASSOCIATION MUHANDISON",
+      "isPrimary": true
     }
   ],
-  "remarks": "*31",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/186116"
+  ],
+  "remarks": "*31",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "C/O MR. NASRIDDIN NASIMOV, NEMAT KORABOEV STREET, BLD-15, APT-1, DUSHANBE",
       "country": "Tajikistan",
-      "country_iso_code": "TJ"
+      "countryIsoCode": "TJ"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

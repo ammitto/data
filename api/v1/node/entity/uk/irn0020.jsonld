@@ -1,23 +1,44 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/irn0020",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/irn0020",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Jafari",
-      "first_name": "Asadollah",
+      "@type": "NameVariant",
+      "fullName": "Jafari",
+      "firstName": "Asadollah",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Jafari",
-      "first_name": "Assadollah",
+      "@type": "NameVariant",
+      "fullName": "Jafari",
+      "firstName": "Assadollah",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/irn0020"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

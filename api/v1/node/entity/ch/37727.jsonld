@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/37727",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/37727",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ku Ja Hyong",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Ku Ja Hyong",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/37727"
   ],
   "remarks": "Ku Ja Hyong is a Foreign Trade Bank chief representative in Libya.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1957-09-08",
-      "circa": false
+      "circa": false,
+      "year": 1957
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

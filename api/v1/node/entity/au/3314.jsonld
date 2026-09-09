@@ -1,29 +1,46 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3314",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/3314",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Aziz ALLOUCH",
+      "@type": "NameVariant",
+      "fullName": "Aziz ALLOUCH",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "'Aziz Ahmad 'ALLUSH",
+      "@type": "NameVariant",
+      "fullName": "'Aziz Ahmad 'ALLUSH",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Last known position ‑ General Director of Technolab, a sanctioned entity under Australian sanctions law; Listing: Listed on: 17 Aug. 2017 (Relisted on 3 Aug. 2020 and 2 Aug. 2023)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3314"
   ],
-  "birth_info": [
+  "remarks": "Last known position ‑ General Director of Technolab, a sanctioned entity under Australian sanctions law; Listing: Listed on: 17 Aug. 2017 (Relisted on 3 Aug. 2020 and 2 Aug. 2023)",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1977
     }
   ],
   "nationalities": [
     "Syria"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

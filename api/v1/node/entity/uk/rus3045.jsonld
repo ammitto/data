@@ -1,21 +1,42 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus3045",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/rus3045",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "AKKURATOVA",
-      "first_name": "Anastasia",
+      "@type": "NameVariant",
+      "fullName": "AKKURATOVA",
+      "firstName": "Anastasia",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Анастасия Павловна АККУРАТОВА ",
+      "@type": "NameVariant",
+      "fullName": "Анастасия Павловна АККУРАТОВА ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus3045"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

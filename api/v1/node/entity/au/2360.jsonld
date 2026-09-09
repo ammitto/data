@@ -1,32 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/au/2360",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/2360",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Al-Watan",
+      "@type": "NameVariant",
+      "fullName": "Al-Watan",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Al Watan Newspaper",
+      "@type": "NameVariant",
+      "fullName": "Al Watan Newspaper",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "El Watan",
+      "@type": "NameVariant",
+      "fullName": "El Watan",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Al Watan is a pro-regime Arabic language daily newspaper\npublished in Syria. Al Watan incited violence against\ndemonstrators and spread disinformation. Al Watan’s last known owner is Rami MAKHLOUF.; Listing: Designated under the Autonomous Sanctions Regulations 2011 on 2 March 2012. Relisted on 12 January 2024",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/2360"
+  ],
+  "remarks": "Al Watan is a pro-regime Arabic language daily newspaper\npublished in Syria. Al Watan incited violence against\ndemonstrators and spread disinformation. Al Watan’s last known owner is Rami MAKHLOUF.; Listing: Designated under the Autonomous Sanctions Regulations 2011 on 2 March 2012. Relisted on 12 January 2024",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Al Watan Newspaper – Damascus, Duty Free Zone",
       "country": "Duty Free Zone"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

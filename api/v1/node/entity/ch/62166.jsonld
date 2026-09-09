@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/62166",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/62166",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Taher Al-Kayali",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Taher Al-Kayali",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/62166"
   ],
   "remarks": "Taher al-Kayali is a Syrian businessperson who owns several companies including Neptunus LLC.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1960-07-11",
-      "circa": false
+      "circa": false,
+      "year": 1960
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/71076",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/71076",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Bilal al-Naal",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Bilal al-Naal",
+      "isPrimary": true
     }
   ],
-  "remarks": "Bilal al-Naal is a founder and partner of multiple trading and investment companies in Syria.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/71076"
+  ],
+  "remarks": "Bilal al-Naal is a founder and partner of multiple trading and investment companies in Syria. During the Syrian civil war he provided financial support to the Shabiha militia.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1975-04-14",
-      "circa": false
+      "circa": false,
+      "year": 1975
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

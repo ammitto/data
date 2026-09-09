@@ -1,29 +1,46 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3438",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/3438",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Pae Won Uk",
+      "@type": "NameVariant",
+      "fullName": "Pae Won Uk",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Pae Wo'n-uk",
+      "@type": "NameVariant",
+      "fullName": "Pae Wo'n-uk",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "KPi.072 Pae Won Uk is an overseas Daesong Bank representative. Passport No: 472120208 (Expires 22 Feb 2017). Gender: male.; Listing: Listed on: 22 Dec. 2017",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3438"
   ],
-  "birth_info": [
+  "remarks": "KPi.072 Pae Won Uk is an overseas Daesong Bank representative. Passport No: 472120208 (Expires 22 Feb 2017). Gender: male.; Listing: Listed on: 22 Dec. 2017",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1969
     }
   ],
   "nationalities": [
     "Democratic People's Republic of Korea (North Korea)"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

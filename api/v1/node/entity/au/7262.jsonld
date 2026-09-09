@@ -1,30 +1,47 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7262",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7262",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Yevhen Vitaliiovych BALYTSKYI",
+      "@type": "NameVariant",
+      "fullName": "Yevhen Vitaliiovych BALYTSKYI",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Evgeniy Vitalevich BALITSKIY",
+      "@type": "NameVariant",
+      "fullName": "Evgeniy Vitalevich BALITSKIY",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "So-called ‘governor’ of the Zaporizhzhia region of Ukraine; Listing: Instrument of first designation\nand declaration\nAutonomous Sanctions (Designated Persons and\nEntities and Declared Persons—Russia and\nUkraine) Amendment (No. 21) Instrument 2022",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7262"
   ],
-  "birth_info": [
+  "remarks": "So-called ‘governor’ of the Zaporizhzhia region of Ukraine; Listing: Instrument of first designation\nand declaration\nAutonomous Sanctions (Designated Persons and\nEntities and Declared Persons—Russia and\nUkraine) Amendment (No. 21) Instrument 2022",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1969,
       "country": "Melitopol"
     }
   ],
   "nationalities": [
     "Ukraine"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,23 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/aqd0286",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/aqd0286",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "CHERIF",
-      "first_name": "PETER",
+      "@type": "NameVariant",
+      "fullName": "CHERIF",
+      "firstName": "PETER",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Member of Al-Qaida in the Arabian Peninsula (AQAP) (QDe.129). Convicted in absentia to five years in prison in France in 2012. Wanted by French authorities as of 2015. Review pursuant to Security Council resolution 2268 (2017) was concluded on 15 November 2021. INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/notice/search/un/5897329",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/aqd0286"
+  ],
+  "remarks": "Member of Al-Qaida in the Arabian Peninsula (AQAP) (QDe.129). Convicted in absentia to five years in prison in France in 2012. Sentenced to life imprisonment by a French court on 3 October 2024. Wanted by French authorities as of 2015. Review pursuant to Security Council resolution 2268 (2017) was concluded on 15 November 2021. INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/notice/search/un/5897329",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Al Mukalla, Hadramawt province",
       "country": "Yemen"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

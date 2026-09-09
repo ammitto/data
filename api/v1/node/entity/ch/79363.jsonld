@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/79363",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/79363",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ahmed Jan Akhundzada Wazir Maulavi",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Ahmed Jan Akhundzada Wazir Maulavi",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/79363"
   ],
   "remarks": "Minister of Water and Electricity under the Taliban regime.",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1953
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

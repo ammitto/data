@@ -1,40 +1,59 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3008",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/3008",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Valery Vladimirovich KULIKOV",
+      "@type": "NameVariant",
+      "fullName": "Valery Vladimirovich KULIKOV",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Valeriy Volodymyrovych KULYKOV",
+      "@type": "NameVariant",
+      "fullName": "Valeriy Volodymyrovych KULYKOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Valeriy Volodymyrovych KULIKOV",
+      "@type": "NameVariant",
+      "fullName": "Valeriy Volodymyrovych KULIKOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Rear Admiral Valeriy Vladimirovich KULIKOV",
+      "@type": "NameVariant",
+      "fullName": "Rear Admiral Valeriy Vladimirovich KULIKOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Listing: Listed on 2 Sep. 2014 (relisted on 1 Sep. 2017) (relisted on 28 Aug. 2020 (relisted on 27 Aug 2023)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3008"
   ],
-  "birth_info": [
+  "remarks": "Listing: Listed on 2 Sep. 2014 (relisted on 1 Sep. 2017) (relisted on 28 Aug. 2020 (relisted on 27 Aug 2023)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1956,
       "country": "Zaporizhia"
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

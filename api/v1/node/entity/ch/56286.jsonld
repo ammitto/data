@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/56286",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/56286",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Belskiy Alexander Nikolaevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Belskiy Alexander Nikolaevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/56286"
   ],
   "remarks": "Alexander Belskiy has been the Chairman of the Legislative Assembly of St. Petersburg since 29 September 2021 as a member of the Kremlin-aligned political party “United Russia”. The Legislative Assembly is the highest and only legislative body of state power in St. Petersburg. The assembly was set up under, and is regulated by, federal law and works closely with the St. Petersburg governor. Alexander Belskiy is also First Deputy Secretary of the regional branch of the “United Russia” Party.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1975-07-16",
-      "circa": false
+      "circa": false,
+      "year": 1975
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

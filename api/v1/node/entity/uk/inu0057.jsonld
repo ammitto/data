@@ -1,28 +1,44 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/inu0057",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/inu0057",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Bargh Azaraksh",
+      "@type": "NameVariant",
+      "fullName": "Bargh Azaraksh",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Barghe Azerakhsh Sakht",
+      "@type": "NameVariant",
+      "fullName": "Barghe Azerakhsh Sakht",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/inu0057"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "No 599, Stage 3, Ata Al Malek Blvd, Emam Khomeini Street",
       "state": "Esfahan",
       "country": "Iran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/aqd0013",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/aqd0013",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "AL-HARAMAIN FOUNDATION (PAKISTAN)",
+      "@type": "NameVariant",
+      "fullName": "AL-HARAMAIN FOUNDATION (PAKISTAN)",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Review pursuant to Security Council resolution 1822 (2008) was concluded on 19 Oct. 2009. INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/notice/search/une/5566695. Islamabad, Pakistan (at time of listing)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/aqd0013"
+  ],
+  "remarks": "As at late 2025, it was not active and had no structures in Pakistan. Review pursuant to Security Council resolution 1822 (2008) was concluded on 19 Oct. 2009. INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/notice/search/une/5566695. Islamabad, Pakistan (at time of listing)",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "House #279, Nazimuddin Road, F-10/1",
       "state": "Islamabad",
       "country": "Pakistan"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

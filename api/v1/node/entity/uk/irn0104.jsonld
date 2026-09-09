@@ -1,22 +1,43 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/irn0104",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/irn0104",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Hosseini",
-      "first_name": "Sardar",
+      "@type": "NameVariant",
+      "fullName": "Hosseini",
+      "firstName": "Sardar",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "سردار سید صادق حسینی",
+      "@type": "NameVariant",
+      "fullName": "سردار سید صادق حسینی",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/irn0104"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

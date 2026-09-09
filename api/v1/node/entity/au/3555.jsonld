@@ -1,49 +1,71 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3555",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/3555",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ahmad Iman Ali",
+      "@type": "NameVariant",
+      "fullName": "Ahmad Iman Ali",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Sheikh Ahmed Iman Ali",
+      "@type": "NameVariant",
+      "fullName": "Sheikh Ahmed Iman Ali",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Shaykh Ahmad Iman Ali",
+      "@type": "NameVariant",
+      "fullName": "Shaykh Ahmad Iman Ali",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ahmed Iman Ali",
+      "@type": "NameVariant",
+      "fullName": "Ahmed Iman Ali",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abu Zinira",
+      "@type": "NameVariant",
+      "fullName": "Abu Zinira",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "SOi.016; Listing: Listed on 8 March 2018",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3555"
   ],
-  "birth_info": [
+  "remarks": "SOi.016; Listing: Listed on 8 March 2018",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1973,
       "country": "Kenya"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1974,
       "country": "Kenya"
     }
   ],
   "nationalities": [
     "Kenya"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

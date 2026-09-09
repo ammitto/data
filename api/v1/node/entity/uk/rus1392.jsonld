@@ -1,41 +1,62 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus1392",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/rus1392",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Levin",
-      "first_name": "Dmitriy",
+      "@type": "NameVariant",
+      "fullName": "Levin",
+      "firstName": "Dmitriy",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Levin",
-      "first_name": "Dmitrii ",
+      "@type": "NameVariant",
+      "fullName": "Levin",
+      "firstName": "Dmitrii ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Levin",
-      "first_name": "Dmitry",
+      "@type": "NameVariant",
+      "fullName": "Levin",
+      "firstName": "Dmitry",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Дмитрий Олегович ЛЕВИН",
+      "@type": "NameVariant",
+      "fullName": "Дмитрий Олегович ЛЕВИН",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Linked To: PUBLIC JOINT STOCK COMPANY BANK FINANCIAL CORPORATION OTKRITIE The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus1392"
+  ],
+  "remarks": "Linked To: PUBLIC JOINT STOCK COMPANY BANK FINANCIAL CORPORATION OTKRITIE The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Apt. 5, H.3-14, Glazovsky Pereulok",
       "state": "Moscow",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

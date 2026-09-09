@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/au/6311",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/6311",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Kronshtadt",
+      "@type": "NameVariant",
+      "fullName": "Kronshtadt",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "Listing: Instrument of first designation and declaration: Autonomous Sanctions (Designated Persons and Entities and Declared Persons-Ukraine) Amendment (No. 2) Instrument 2022",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/6311"
+  ],
+  "remarks": "Listing: Instrument of first designation and declaration: Autonomous Sanctions (Designated Persons and Entities and Declared Persons-Ukraine) Amendment (No. 2) Instrument 2022",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "d. 18 k. 9 etazh/pomeshch. 13/36, prospekt Andropova Moscow, Moscow, 115432 Russia",
       "country": "115432 Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

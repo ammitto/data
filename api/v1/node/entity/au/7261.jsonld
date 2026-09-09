@@ -1,30 +1,47 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7261",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7261",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Konstantin Vladimirovich IVASHCHENKO",
+      "@type": "NameVariant",
+      "fullName": "Konstantin Vladimirovich IVASHCHENKO",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Kostyantyn Volodymyrovych IVASHCHENKO",
+      "@type": "NameVariant",
+      "fullName": "Kostyantyn Volodymyrovych IVASHCHENKO",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "So-called ‘mayor’ of the city of Mariupol in Ukraine; Listing: Instrument of first designation\nand declaration\nAutonomous Sanctions (Designated Persons and\nEntities and Declared Persons—Russia and\nUkraine) Amendment (No. 21) Instrument 2022",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7261"
   ],
-  "birth_info": [
+  "remarks": "So-called ‘mayor’ of the city of Mariupol in Ukraine; Listing: Instrument of first designation\nand declaration\nAutonomous Sanctions (Designated Persons and\nEntities and Declared Persons—Russia and\nUkraine) Amendment (No. 21) Instrument 2022",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1963,
       "country": "Mariupol"
     }
   ],
   "nationalities": [
     "Ukraine"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

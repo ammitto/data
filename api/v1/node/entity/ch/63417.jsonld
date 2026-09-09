@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/63417",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/63417",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Gusev Aleksandr Viktorovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Gusev Aleksandr Viktorovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/63417"
   ],
   "remarks": "Aleksandr Gusev is the Governor of the Voronezh region. In this role, he has been responsible for the illegal deportation of Ukrainian children to the Voronezh region for their subsequent illegal adoption by Russian families. His actions violate the rights of Ukrainian children and infringe Ukraine’s law and administrative order.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1963-01-27",
-      "circa": false
+      "circa": false,
+      "year": 1963
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

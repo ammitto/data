@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/98355",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/98355",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Sorokin Ilya Anatolyevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Sorokin Ilya Anatolyevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/98355"
   ],
   "remarks": "Ilya Sorokin, alias “Dr Evil”, is a medic at the Penal Colony No 10 in Mordovia in Russia. Prisoners of war (POWs) detained there recall inhumane and degrading treatment, ranging from sexual abuse to other physical abuse and indoctrination. That degrading behaviour is a violation of the Geneva Conventions.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1990-08-02",
-      "circa": false
+      "circa": false,
+      "year": 1990
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,32 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8689",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/8689",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Capital Bank of Central Asia",
+      "@type": "NameVariant",
+      "fullName": "Capital Bank of Central Asia",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Capital Bank Of Central Asia, OJSC",
+      "@type": "NameVariant",
+      "fullName": "Capital Bank Of Central Asia, OJSC",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "OJSC Capital Bank Of Central Asia",
+      "@type": "NameVariant",
+      "fullName": "OJSC Capital Bank Of Central Asia",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Website: https://www.capitalbank.kg/; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2026",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8689"
+  ],
+  "remarks": "Website: https://www.capitalbank.kg/; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2026",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "161 Moskovskaya Street, Bishkek, 720017, Kyrgyz Republic",
       "country": "Kyrgyz Republic"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

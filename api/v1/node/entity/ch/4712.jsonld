@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/4712",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/4712",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Rakhmanava Maryna Iurievna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Rakhmanava Maryna Iurievna",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/4712"
   ],
   "remarks": "Member of the Electoral Commision (CEC) and Head of the Department of Public Requests in the Hrodna regional administration. As a Member of the Central Electoral Commission, she was responsible for the violations of international electoral standards in the Presidential elections on 19 Dec 2010 and in the Parliamentary elections of September 2012.",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1970
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

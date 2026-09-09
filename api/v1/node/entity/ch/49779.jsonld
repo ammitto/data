@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/49779",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/49779",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Lobach Tatiana Georgievna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Lobach Tatiana Georgievna",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/49779"
   ],
   "remarks": "Member of the State Duma of the Russian Federation since 19 September 2021. Elected from the illegally annexed City of Sevastopol in the so-called “Sevastopol constituency”.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1974-01-08",
-      "circa": false
+      "circa": false,
+      "year": 1974
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

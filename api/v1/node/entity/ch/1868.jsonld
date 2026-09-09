@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/1868",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/1868",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ibrahim Sabawi Ibrahim Hasan Al-Tikriti",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Ibrahim Sabawi Ibrahim Hasan Al-Tikriti",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/1868"
   ],
   "remarks": "Immediate Family Members of Senior Former Iraqi Regime Official. Ibrahim Sabawi Ibrahim Hasan Al-Tikriti falls under the requirements of Security Council resolution 1483 (2003) by virtue of him being an «immediate family member» of a senior former Iraqi   regime official. His father, Sabawi Ibrahim Hasan Al-Tikriti, was former Presidential Advisor to Saddam Hussein.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1983-10-25",
-      "circa": false
+      "circa": false,
+      "year": 1983
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

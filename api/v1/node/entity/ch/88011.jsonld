@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/88011",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/88011",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Asdrúbal José Brito Hernández",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Asdrúbal José Brito Hernández",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/88011"
   ],
   "remarks": "Director of the Criminal Investigations department (DEIPC) of the Directorate-General of Military Counterintelligence (DGCIM) since 2021.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1974-01-06",
-      "circa": false
+      "circa": false,
+      "year": 1974
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

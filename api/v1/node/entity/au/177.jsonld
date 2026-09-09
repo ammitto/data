@@ -1,45 +1,65 @@
 {
-  "id": "https://www.ammitto.org/entity/au/177",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/177",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Abdullah Ahmed Abdullah El Alfi",
+      "@type": "NameVariant",
+      "fullName": "Abdullah Ahmed Abdullah El Alfi",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "عبد الله احمد عبدالله الالفي",
+      "@type": "NameVariant",
+      "fullName": "عبد الله احمد عبدالله الالفي",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abu Mariam",
+      "@type": "NameVariant",
+      "fullName": "Abu Mariam",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Al-Masri, Abu Mohamed",
+      "@type": "NameVariant",
+      "fullName": "Al-Masri, Abu Mohamed",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Saleh",
+      "@type": "NameVariant",
+      "fullName": "Saleh",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "QDi.019. Afghanistan. Review pursuant to Security Council resolution 1822 (2008) was concluded on 21 June 2010. Review pursuant to Security Council resolution 2368 (2017) was concluded on 4 December 2019. Review pursuant to Security Council resolution 2610 (2021) was concluded on 8 November 2022.\nFirst listed 17 Oct. 2001 (amended on 26 Nov. 2004, 6 Dec. 2019, 8 Nov. 2022); Listing: Listed by UN 1267 Committee on 17 October 2001 (amended 26 November 2004, 6 December 2019, 8 November 2022).",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/177"
   ],
-  "birth_info": [
+  "remarks": "QDi.019. Afghanistan. Review pursuant to Security Council resolution 1822 (2008) was concluded on 21 June 2010. Review pursuant to Security Council resolution 2368 (2017) was concluded on 4 December 2019. Review pursuant to Security Council resolution 2610 (2021) was concluded on 8 November 2022.\nFirst listed 17 Oct. 2001 (amended on 26 Nov. 2004, 6 Dec. 2019, 8 Nov. 2022); Listing: Listed by UN 1267 Committee on 17 October 2001 (amended 26 November 2004, 6 December 2019, 8 November 2022).",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1963,
       "country": "Gharbia"
     }
   ],
   "nationalities": [
     "Egypt"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

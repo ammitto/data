@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/84454",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/84454",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Akhmed Rajapovich Chataev",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Akhmed Rajapovich Chataev",
+      "isPrimary": true
     }
   ],
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/84454"
+  ],
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1980-07-04",
-      "circa": false
+      "circa": false,
+      "year": 1980
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/1044565",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/1044565",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "NENNKRAFT ENERGIE GMBH",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "NENNKRAFT ENERGIE GMBH",
+      "isPrimary": true
     }
   ],
-  "remarks": "(Reg. No: HRB 30257) *706",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/1044565"
+  ],
+  "remarks": "(Reg. No: HRB 30257) *706",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "MARSBRUCHSTRABE 133, 44287",
       "city": "DORTMUND, NORDRHEIN-WESTFALEN",
       "country": "Germany",
-      "country_iso_code": "DE"
+      "countryIsoCode": "DE"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

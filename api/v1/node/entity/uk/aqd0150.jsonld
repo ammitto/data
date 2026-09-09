@@ -1,51 +1,74 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/aqd0150",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/aqd0150",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "BYUTUKAEV",
-      "first_name": "ASLAN",
+      "@type": "NameVariant",
+      "fullName": "BYUTUKAEV",
+      "firstName": "ASLAN",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abubakar",
+      "@type": "NameVariant",
+      "fullName": "Abubakar",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Khazmat",
-      "first_name": "Amir",
+      "@type": "NameVariant",
+      "fullName": "Khazmat",
+      "firstName": "Amir",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Аслан Авгазарович Бютукаев",
+      "@type": "NameVariant",
+      "fullName": "Аслан Авгазарович Бютукаев",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Абубакар",
+      "@type": "NameVariant",
+      "fullName": "Абубакар",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Амир Хазмат",
+      "@type": "NameVariant",
+      "fullName": "Амир Хазмат",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Wanted by the authorities of the Russian Federation for terrorist crimes. Commands a suicide battalion of Riyadus-Salikhin Reconnaissance and Sabotage Battalion of Chechen Martyrs (RSRSBCM) (QDe.100). Review pursuant to Security Council resolution 2268 (2017) was concluded on 15 November 2021. INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/notice/search/un/5966084",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/aqd0150"
+  ],
+  "remarks": "Wanted by the authorities of the Russian Federation for terrorist crimes. Commands a suicide battalion of Riyadus-Salikhin Reconnaissance and Sabotage Battalion of Chechen Martyrs (RSRSBCM) (QDe.100). Review pursuant to Security Council resolution 2268 (2017) was concluded on 15 November 2021. INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/notice/search/un/5966084",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Akharkho Street, 11, Katyr-Yurt",
       "city": "Achkhoy-Martanovskiy District",
       "state": "Republic of Chechnya",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

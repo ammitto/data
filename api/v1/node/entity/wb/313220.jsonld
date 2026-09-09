@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/313220",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/313220",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "SFC VIETNAM INVESTMENT DEVELOPMENT FOR ENVIRONMENT CORPORATION",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "SFC VIETNAM INVESTMENT DEVELOPMENT FOR ENVIRONMENT CORPORATION",
+      "isPrimary": true
     }
   ],
-  "remarks": "*297",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/313220"
+  ],
+  "remarks": "*297",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "TOWER CENTER OFFICE BUILDING, NO. 83A LY THUONG KIET STREET, DISTRICT HOAN KIEM",
       "city": "HANOI",
       "country": "Viet Nam",
-      "country_iso_code": "VN"
+      "countryIsoCode": "VN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

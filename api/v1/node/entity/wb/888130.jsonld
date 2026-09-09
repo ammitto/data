@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/888130",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/888130",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "GUIZHOU TIANZE CONSTRUCTION ENGINEERING CO., LTD.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "GUIZHOU TIANZE CONSTRUCTION ENGINEERING CO., LTD.",
+      "isPrimary": true
     }
   ],
-  "remarks": "贵州天泽建筑工程有限责任公司",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/888130"
+  ],
+  "remarks": "贵州天泽建筑工程有限责任公司",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "4-17, BUILDING 24, FANJINGSHAN ECO-AGRICULTURAL SCIENCE PARK AND TONGREN YIWU COMMODITY CITY, NO 90 ,GUIHUA AVENUE, RENSHAN STREET, WANSHAN",
       "city": "TONGREN CITY, GUIZHOU PROVINCE",
       "country": "China",
-      "country_iso_code": "CN"
+      "countryIsoCode": "CN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/80895",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/80895",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Adel Ben Al-Azhar Ben Youssef Hamdi",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Adel Ben Al-Azhar Ben Youssef Hamdi",
+      "isPrimary": true
     }
   ],
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/80895"
+  ],
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1970-07-14",
-      "circa": false
+      "circa": false,
+      "year": 1970
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

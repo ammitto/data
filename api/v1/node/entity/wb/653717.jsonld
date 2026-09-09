@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/653717",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/653717",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "SOFTTECH IT SOLUTIONS AND SERVICES LTD.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "SOFTTECH IT SOLUTIONS AND SERVICES LTD.",
+      "isPrimary": true
     }
   ],
-  "remarks": "*604",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/653717"
+  ],
+  "remarks": "*604",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "SB 98 BANEX PLAZA",
       "city": "WUSE 11 – ABUJA, FCT",
       "country": "Nigeria",
-      "country_iso_code": "NG"
+      "countryIsoCode": "NG"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

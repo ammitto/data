@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/82902",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/82902",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Salah Eddine Gasmi",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Salah Eddine Gasmi",
+      "isPrimary": true
     }
   ],
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/82902"
+  ],
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1971-04-13",
-      "circa": false
+      "circa": false,
+      "year": 1971
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

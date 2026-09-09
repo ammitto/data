@@ -1,75 +1,101 @@
 {
-  "id": "https://www.ammitto.org/entity/au/443",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/443",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Yassin Syawal",
+      "@type": "NameVariant",
+      "fullName": "Yassin Syawal",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Salim Yasin",
+      "@type": "NameVariant",
+      "fullName": "Salim Yasin",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Yasin Mahmud Mochtar",
+      "@type": "NameVariant",
+      "fullName": "Yasin Mahmud Mochtar",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abdul Hadi Yasin",
+      "@type": "NameVariant",
+      "fullName": "Abdul Hadi Yasin",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Muhamad Mubarok",
+      "@type": "NameVariant",
+      "fullName": "Muhamad Mubarok",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Muhammad Syawal",
+      "@type": "NameVariant",
+      "fullName": "Muhammad Syawal",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Yassin Sywal (formerly listed as)",
+      "@type": "NameVariant",
+      "fullName": "Yassin Sywal (formerly listed as)",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abu Seta",
+      "@type": "NameVariant",
+      "fullName": "Abu Seta",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Mahmud",
+      "@type": "NameVariant",
+      "fullName": "Mahmud",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abu Muamar",
+      "@type": "NameVariant",
+      "fullName": "Abu Muamar",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Mubarok",
+      "@type": "NameVariant",
+      "fullName": "Mubarok",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "At large as at Dec. 2003. Review pursuant to Security Council resolution 1822 (2008) was concluded on 25 May 2010. Review pursuant to Security Council resolution 2253 (2015) was concluded on 21 Feb. 2019. Review pursuant to Security Council resolution 2610 (2021) was concluded on 8 November 2022.; Listing: Listed on: 9 Sep. 2003 (amended on 12 Dec. 2014, 29 Mar. 2019, 1 May 2019).",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/443"
   ],
-  "birth_info": [
+  "remarks": "At large as at Dec. 2003. Review pursuant to Security Council resolution 1822 (2008) was concluded on 25 May 2010. Review pursuant to Security Council resolution 2253 (2015) was concluded on 21 Feb. 2019. Review pursuant to Security Council resolution 2610 (2021) was concluded on 8 November 2022.; Listing: Listed on: 9 Sep. 2003 (amended on 12 Dec. 2014, 29 Mar. 2019, 1 May 2019).",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1962,
       "country": "Makassar"
     }
   ],
   "nationalities": [
     "Indonesia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

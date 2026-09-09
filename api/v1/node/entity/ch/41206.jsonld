@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/41206",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/41206",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Pyrkova Ekaterina Eduardovna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Pyrkova Ekaterina Eduardovna",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/41206"
   ],
   "remarks": "Secretary of the Sevastopol Electoral Commission. In this capacity, she participated in the organisation of the local elections in the illegally annexed City of Sevastopol on 8 Sep 2019 and thereby actively supported actions and implemented policies which undermine or threaten the territorial integrity, sovereignty and independence of Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1967-08-22",
-      "circa": false
+      "circa": false,
+      "year": 1967
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

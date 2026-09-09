@@ -1,35 +1,50 @@
 {
-  "id": "https://www.ammitto.org/entry/uk/consolidated-list/ctd0007",
-  "entity_id": "https://www.ammitto.org/entity/uk/ctd0007",
+  "@id": "https://www.ammitto.org/entry/uk/consolidated-list/ctd0007",
+  "@type": "SanctionEntry",
+  "entityId": "https://www.ammitto.org/entity/uk/ctd0007",
   "authority": {
     "@id": "https://www.ammitto.org/authority/uk"
   },
   "regime": {
-    "@id": "https://www.ammitto.org/regime/the_counter_terrorism_sanctions_eu_exit_regulations_2019"
+    "@id": "https://www.ammitto.org/regime/the_counter_terrorism_sanctions_eu_exit_regulations_2019",
+    "name": "The Counter-Terrorism (Sanctions) (EU Exit) Regulations 2019"
   },
+  "legalBases": [
+
+  ],
   "effects": [
     {
-      "effect_type": "asset_freeze",
+      "@type": "SanctionEffect",
+      "effectType": "asset_freeze",
       "scope": "full"
     }
   ],
+  "reasons": [
+
+  ],
   "period": {
-    "listed_date": "2025-09-25",
-    "effective_date": "2025-09-25",
-    "is_indefinite": true,
-    "last_updated": "2025-10-03"
+    "@type": "TemporalPeriod",
+    "listedDate": "2025-09-25",
+    "effectiveDate": "2025-09-25",
+    "isIndefinite": true,
+    "lastUpdated": "2025-10-03"
   },
   "status": "active",
-  "reference_number": "CTD0007",
+  "statusHistory": [
+
+  ],
+  "referenceNumber": "CTD0007",
   "remarks": "\nWe have reasonable grounds to suspect that Rampage Productions (“Rampage”) is an involved person on the basis that Rampage has been and is involved in the terrorist activity set out below. (a) Rampage has been and is facilitating, promoting and encouraging terrorism via its dissemination of music whose content promotes and encourages terrorism and through supporting events where such music is performed and disseminated; (b) Rampage has made funds available to, or for the benefit of, a person involved in terrorism for the purpose of promoting and encouraging terrorism through the sale of music and material whose content promotes and encourages terrorism; and through supporting events where such music is performed and such material disseminated; and (c) Rampage is an unincorporated association and/or organisation controlled directly by a person involved in terrorism. \n",
-  "raw_source_data": {
-    "source_format": "xml",
-    "source_specific_fields": {
+  "rawSourceData": {
+    "@type": "RawSourceData",
+    "sourceFormat": "xml",
+    "sourceSpecificFields": {
       "uk:ofsiGroupId": "17100",
+      "uk:unReferenceNumber": null,
       "uk:designationSource": "UK",
       "uk:sanctionsImposed": "Asset freeze",
       "uk:entityType": "Entity"
     }
   },
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/20580",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/20580",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Abdussalam Abdussalam Mohammed",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Abdussalam Abdussalam Mohammed",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/20580"
   ],
   "remarks": "Position: Head Counter-Terrorism, External Security Organisation. Prominent Revolutionary Committee member. Close associate of Muammar Qadhafi. Closely associated with the former regime of Muammar Qadhafi.",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1952
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/47973",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/47973",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kostin Andrei Leonidovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kostin Andrei Leonidovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/47973"
   ],
   "remarks": "Andrei Leonidovich Kostin is the president-chairman of Vneshtorbank (VTB) – one of the leading state-owned banks in Russia. He has been the chairman of the Board of Directors of the United Shipbuilding Corporation since 25 August 2023 and is a member of the Supreme Council of the “United Russia” political party.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1956-09-21",
-      "circa": false
+      "circa": false,
+      "year": 1956
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

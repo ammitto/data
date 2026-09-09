@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/100173",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/100173",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Aghazadeh Reza",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Aghazadeh Reza",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/100173"
   ],
   "remarks": "Reza Aghazadeh is an Iranian national, member of the Expediency Discernment Council. He served as Head of the Atomic Energy Organization between 1997 and 2009. His positions have led him to be at the forefront of the development of Iran’s nuclear programme. He is still consulted by his AEOI colleagues on nuclear issues. Reza Aghazadeh is therefore responsible for directly participating in Iran’s nuclear programme and nuclear escalation.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1949-03-14",
-      "circa": false
+      "circa": false,
+      "year": 1949
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

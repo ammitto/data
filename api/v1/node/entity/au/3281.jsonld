@@ -1,37 +1,55 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3281",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/3281",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Koryo Credit Development Bank",
+      "@type": "NameVariant",
+      "fullName": "Koryo Credit Development Bank",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Daesong Credit Development Bank",
+      "@type": "NameVariant",
+      "fullName": "Daesong Credit Development Bank",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Koryo Global Credit Bank",
+      "@type": "NameVariant",
+      "fullName": "Koryo Global Credit Bank",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Koryo Global Trust Bank",
+      "@type": "NameVariant",
+      "fullName": "Koryo Global Trust Bank",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "KPe.049. Koryo Credit Development Bank operates in the financial services industry in the DPRK's economy.; Listing: Listed on: 4 Aug. 2017",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3281"
+  ],
+  "remarks": "KPe.049. Koryo Credit Development Bank operates in the financial services industry in the DPRK's economy.; Listing: Listed on: 4 Aug. 2017",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Pyongyang, DPRK",
       "country": "DPRK"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

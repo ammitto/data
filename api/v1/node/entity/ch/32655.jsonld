@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/32655",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/32655",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Godefroid Bizimana",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Godefroid Bizimana",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/32655"
   ],
   "remarks": "“Chargé de missions de la Présidence” and former Deputy Director-General of the National Police. On 31 Dec 2019, Mr Bizimana was promoted to the rank of Chief Police Commissioner. Responsible for undermining democracy by making operational decisions that have led to a disproportionate use of force and acts of violent repression towards peaceful demonstrations that started on 26 Apr 2015 following the announcement of the presidential candidacy of President Nkurunziza.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1968-04-23",
-      "circa": false
+      "circa": false,
+      "year": 1968
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

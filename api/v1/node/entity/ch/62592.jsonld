@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/62592",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/62592",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "CARAMALAC Grigore",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "CARAMALAC Grigore",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/62592"
   ],
   "remarks": "Grigore Caramalac is a Russian/Moldovan businessperson. He exercises control over the IFAVIS Foundation (Russian Federation), through which he has engaged in organising patriotic and sports events in the occupied territories in eastern Ukraine, with the support of the occupation authorities. Furthermore, he is the assistant to the Russian senator for the Kursk region, Alexander Bryksin.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1965-05-21",
-      "circa": false
+      "circa": false,
+      "year": 1965
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

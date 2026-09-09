@@ -1,40 +1,61 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/syr0395",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/syr0395",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Youssef",
-      "first_name": "Amjad",
+      "@type": "NameVariant",
+      "fullName": "Youssef",
+      "firstName": "Amjad",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Yousef",
-      "first_name": "Amjad",
+      "@type": "NameVariant",
+      "fullName": "Yousef",
+      "firstName": "Amjad",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Youssuf",
-      "first_name": "Amjad",
+      "@type": "NameVariant",
+      "fullName": "Youssuf",
+      "firstName": "Amjad",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "أمجد يوسف",
+      "@type": "NameVariant",
+      "fullName": "أمجد يوسف",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/syr0395"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Military Intelligence Branch 227, Daboul Street, Tadamon",
       "country": "Syria"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

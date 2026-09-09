@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/53418",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/53418",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Degtyarev Yuriy Anatolievich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Degtyarev Yuriy Anatolievich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/53418"
   ],
   "remarks": "Former so-called “Minister of Natural Resources and Environmental Security” of the so-called “Luhansk People’s Republic”. In taking on and acting in this capacity, he has actively undermined the territorial integrity, sovereignty and independence of Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1977-07-07",
-      "circa": false
+      "circa": false,
+      "year": 1977
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,66 +1,87 @@
 {
-  "id": "https://www.ammitto.org/entity/au/2986",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/2986",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Alexander Vitaliyovych KHRYAKOV",
+      "@type": "NameVariant",
+      "fullName": "Alexander Vitaliyovych KHRYAKOV",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Aleksandr Vitalievich KHRYAKOV",
+      "@type": "NameVariant",
+      "fullName": "Aleksandr Vitalievich KHRYAKOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Oleksandr Vitaliyovych KHRYAKOV",
+      "@type": "NameVariant",
+      "fullName": "Oleksandr Vitaliyovych KHRYAKOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Aleksandr Vitaliyovych KHRYAKOV",
+      "@type": "NameVariant",
+      "fullName": "Aleksandr Vitaliyovych KHRYAKOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Oleksandr KHRYAKOV",
+      "@type": "NameVariant",
+      "fullName": "Oleksandr KHRYAKOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Oleksandr KHRIAKOV",
+      "@type": "NameVariant",
+      "fullName": "Oleksandr KHRIAKOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Alexandr KHRYAKOV",
+      "@type": "NameVariant",
+      "fullName": "Alexandr KHRYAKOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Alexander KHRYAKOV",
+      "@type": "NameVariant",
+      "fullName": "Alexander KHRYAKOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Listing: Listed on 2 Sep. 2014 (relisted on 1 Sep. 2017) (relisted on 28 Aug. 2020 (relisted on 27 Aug 2023)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/2986"
   ],
-  "birth_info": [
+  "remarks": "Listing: Listed on 2 Sep. 2014 (relisted on 1 Sep. 2017) (relisted on 28 Aug. 2020 (relisted on 27 Aug 2023)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1958,
       "country": "Donetsk"
     }
   ],
   "nationalities": [
     "Ukraine"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Donetsk, Ukraine",
       "country": "Ukraine"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

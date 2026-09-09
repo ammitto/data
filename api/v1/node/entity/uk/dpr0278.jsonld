@@ -1,29 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/dpr0278",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/dpr0278",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "HO-JIN",
-      "first_name": "YUN",
+      "@type": "NameVariant",
+      "fullName": "HO-JIN",
+      "firstName": "YUN",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ho-chin",
-      "first_name": "Yun",
+      "@type": "NameVariant",
+      "fullName": "Ho-chin",
+      "firstName": "Yun",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Director of Namchongang Trading Corporation; oversees the import of items needed for the uranium enrichment program.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/dpr0278"
+  ],
+  "remarks": "Director of Namchongang Trading Corporation; oversees the import of items needed for the uranium enrichment program.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "state": "Pyongyang",
       "country": "DPRK"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

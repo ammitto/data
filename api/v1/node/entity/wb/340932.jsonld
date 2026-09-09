@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/340932",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/340932",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "HANOITC EXPERT JOINT STOCK COMPANY",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "HANOITC EXPERT JOINT STOCK COMPANY",
+      "isPrimary": true
     }
   ],
-  "remarks": "(now known as INTERNATIONAL REAL ESTATE CONSULTING AND INVESTMENT JOINT STOCK COMPANY) *456",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/340932"
+  ],
+  "remarks": "(now known as INTERNATIONAL REAL ESTATE CONSULTING AND INVESTMENT JOINT STOCK COMPANY) *456",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "NO. 5, DINH CLUSTER, AN TRAI VILLAGE, VAN CAN COMMUNE, HOAI DUC DISTRICT",
       "city": "HANOI",
       "country": "Viet Nam",
-      "country_iso_code": "VN"
+      "countryIsoCode": "VN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

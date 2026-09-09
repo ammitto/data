@@ -1,31 +1,48 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus2724",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus2724",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "State Corporation Deposit Insurance Agency (DIA)",
+      "@type": "NameVariant",
+      "fullName": "State Corporation Deposit Insurance Agency (DIA)",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "ASV",
+      "@type": "NameVariant",
+      "fullName": "ASV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Агентство по страхованию вкладов (АСВ)",
+      "@type": "NameVariant",
+      "fullName": "Агентство по страхованию вкладов (АСВ)",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus2724"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "4 Vysotsky, Moscow",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

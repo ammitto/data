@@ -1,29 +1,46 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8203",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/8203",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ksenia Valentinovna YUDAEVA",
+      "@type": "NameVariant",
+      "fullName": "Ksenia Valentinovna YUDAEVA",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Ksenyia Valentinovna YUDAEVA",
+      "@type": "NameVariant",
+      "fullName": "Ksenyia Valentinovna YUDAEVA",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Former Member of Board of Directors for Bank of Russia; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 4) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8203"
   ],
-  "birth_info": [
+  "remarks": "Former Member of Board of Directors for Bank of Russia; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 4) Instrument 2025",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1970
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

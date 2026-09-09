@@ -1,21 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/dpr0149",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/dpr0149",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "KOREA FOREIGN TECHNICAL TRADE CENTER",
+      "@type": "NameVariant",
+      "fullName": "KOREA FOREIGN TECHNICAL TRADE CENTER",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Korea Foreign Technical Trade Center is a DPRK firm trading in coal. DPRK generates a significant share of the funds needed to finance its nuclear and ballistic missile programs by mining natural resources and selling those resources abroad.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/dpr0149"
+  ],
+  "remarks": "Korea Foreign Technical Trade Center is a DPRK firm trading in coal. DPRK generates a significant share of the funds needed to finance its nuclear and ballistic missile programs by mining natural resources and selling those resources abroad.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "country": "North Korea"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

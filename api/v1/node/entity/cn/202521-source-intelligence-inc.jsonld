@@ -1,21 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/cn/202521-source-intelligence-inc",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/cn/202521-source-intelligence-inc",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Source Intelligence, Inc.",
+      "@type": "NameVariant",
+      "fullName": "Source Intelligence, Inc.",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Source Intelligence公司",
+      "@type": "NameVariant",
+      "fullName": "Source Intelligence公司",
       "script": "Hani",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "List: cn/export-control-list",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/cn/unknown/202521-source-intelligence-inc"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "remarks": "List: cn/export-control-list",
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

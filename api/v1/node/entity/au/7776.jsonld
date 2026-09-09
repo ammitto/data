@@ -1,47 +1,67 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7776",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/7776",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "YASA PART",
+      "@type": "NameVariant",
+      "fullName": "YASA PART",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Arfa Paint Company",
+      "@type": "NameVariant",
+      "fullName": "Arfa Paint Company",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Arfeh Company",
+      "@type": "NameVariant",
+      "fullName": "Arfeh Company",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Farasepehr Engineering Company",
+      "@type": "NameVariant",
+      "fullName": "Farasepehr Engineering Company",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Hosseini Nejad Trading Co.",
+      "@type": "NameVariant",
+      "fullName": "Hosseini Nejad Trading Co.",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Iran Saffron Company",
+      "@type": "NameVariant",
+      "fullName": "Iran Saffron Company",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Listing: Instrument of first designation: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Iran) Amendment (No. 2) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7776"
+  ],
+  "remarks": "Listing: Instrument of first designation: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Iran) Amendment (No. 2) Instrument 2023",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Sa'adat Abaad, Shahrdari Square, Sarv Building, 9th Floor, Unit No. 5, Tehran, Iran",
       "country": "Iran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

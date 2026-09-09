@@ -1,47 +1,69 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/lib0049",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/lib0049",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Alem",
-      "first_name": "Ermias",
+      "@type": "NameVariant",
+      "fullName": "Alem",
+      "firstName": "Ermias",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ermias Ghermay",
-      "first_name": "Guro",
+      "@type": "NameVariant",
+      "fullName": "Ermias Ghermay",
+      "firstName": "Guro",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ghermay",
-      "first_name": "Ermies",
+      "@type": "NameVariant",
+      "fullName": "Ghermay",
+      "firstName": "Ermies",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ghirmay",
-      "first_name": "Ermias",
+      "@type": "NameVariant",
+      "fullName": "Ghirmay",
+      "firstName": "Ermias",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "ኤርሚኣስ ግርማይ",
+      "@type": "NameVariant",
+      "fullName": "ኤርሚኣስ ግርማይ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Listed pursuant to paragraphs 15 and 17 of resolution 1970 (Travel Ban, Asset Freeze)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/lib0049"
+  ],
+  "remarks": "Listed pursuant to paragraphs 15 and 17 of resolution 1970 (Travel Ban, Asset Freeze)",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Tarig sure no. 51",
       "state": "Tripoli",
       "country": "Libya"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

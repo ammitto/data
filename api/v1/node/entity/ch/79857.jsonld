@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/79857",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/79857",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Hamdullah Allah Noor Maulavi",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Hamdullah Allah Noor Maulavi",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/79857"
   ],
   "remarks": "Repatriation Attache, Taliban Consulate General, Quetta, Pakistan.",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1973
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

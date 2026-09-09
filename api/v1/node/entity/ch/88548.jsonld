@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/88548",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/88548",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Leshchenko Yan Vitalyevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Leshchenko Yan Vitalyevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/88548"
   ],
   "remarks": "Yan Leshchenko is a deputy of the so-called “People’s Council” of the so-called “Luhansk People’s Republic”. Leshchenko is also the regional coordinator of the actions of Russia’s war of aggression against Ukraine in the occupied territory of Luhansk. He has supported the war in actions and in public statements, including supporting specific attacks by Russia on Ukrainian territory.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1980-09-01",
-      "circa": false
+      "circa": false,
+      "year": 1980
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

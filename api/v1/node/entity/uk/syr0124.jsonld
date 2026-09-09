@@ -1,22 +1,43 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/syr0124",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/syr0124",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "al-Sayyed",
-      "first_name": "Khayr",
+      "@type": "NameVariant",
+      "fullName": "al-Sayyed",
+      "firstName": "Khayr",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "،السيد الدين خير",
+      "@type": "NameVariant",
+      "fullName": "،السيد الدين خير",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Brother of Dr. Mohammad Abdul-Sattar al-Sayyed, Minister of Awqaf The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/syr0124"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "remarks": "Brother of Dr. Mohammad Abdul-Sattar al-Sayyed, Minister of Awqaf The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

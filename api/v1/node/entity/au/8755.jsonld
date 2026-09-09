@@ -1,32 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8755",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/8755",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Joint Stock Company Agency Regional Independent Registrar",
+      "@type": "NameVariant",
+      "fullName": "Joint Stock Company Agency Regional Independent Registrar",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "AGENCY RNR",
+      "@type": "NameVariant",
+      "fullName": "AGENCY RNR",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "AKTSIONERNOE OBSHCHESTVO AGENTSTVO REGIONALNYI NEZAVISIMYI REGISTRATOR",
+      "@type": "NameVariant",
+      "fullName": "AKTSIONERNOE OBSHCHESTVO AGENTSTVO REGIONALNYI NEZAVISIMYI REGISTRATOR",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2026",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8755"
+  ],
+  "remarks": "Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2026",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "K.B, Building 10, 9-go Maya Street, Lipetsk City, Lipetsk Region, 398017, Russia",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,55 +1,77 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3388",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/3388",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Sergey Yurevich IGNATOV",
+      "@type": "NameVariant",
+      "fullName": "Sergey Yurevich IGNATOV",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Sergey IGNATOV",
+      "@type": "NameVariant",
+      "fullName": "Sergey IGNATOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Viktor IGNATOV",
+      "@type": "NameVariant",
+      "fullName": "Viktor IGNATOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Sergey Yuryevich KUZOVLEV",
+      "@type": "NameVariant",
+      "fullName": "Sergey Yuryevich KUZOVLEV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Serhiy Yuriyovych KUZOLEV",
+      "@type": "NameVariant",
+      "fullName": "Serhiy Yuriyovych KUZOLEV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Sergei Yuryevich KUZOLEV",
+      "@type": "NameVariant",
+      "fullName": "Sergei Yuryevich KUZOLEV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Sergey Yurevich TAMBOV",
+      "@type": "NameVariant",
+      "fullName": "Sergey Yurevich TAMBOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Listing: Listed on 1 Sep. 2017 (relisted on 28 Aug. 2020) (relisted on 27 Aug 2023)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3388"
   ],
-  "birth_info": [
+  "remarks": "Listing: Listed on 1 Sep. 2017 (relisted on 28 Aug. 2020) (relisted on 27 Aug 2023)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1967,
       "country": "Michurinsk"
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,27 +1,47 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/dpr0220",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/dpr0220",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "YONG-WON",
-      "first_name": "JO",
+      "@type": "NameVariant",
+      "fullName": "YONG-WON",
+      "firstName": "JO",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Yongwon",
-      "first_name": "Cho",
+      "@type": "NameVariant",
+      "fullName": "Yongwon",
+      "firstName": "Cho",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/dpr0220"
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "country": "North Korea"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

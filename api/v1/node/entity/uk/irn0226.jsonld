@@ -1,39 +1,57 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/irn0226",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/irn0226",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Saad Sazeh Faraz Sharif ",
+      "@type": "NameVariant",
+      "fullName": "Saad Sazeh Faraz Sharif ",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Daria Fanavar Borhan Sharif ",
+      "@type": "NameVariant",
+      "fullName": "Daria Fanavar Borhan Sharif ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Saad Sazeh Faraz Sharif ",
+      "@type": "NameVariant",
+      "fullName": "Saad Sazeh Faraz Sharif ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Sadid Sazeh Parvaz Sharif  ",
+      "@type": "NameVariant",
+      "fullName": "Sadid Sazeh Parvaz Sharif  ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/irn0226"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Ground Floor, Plate 0, Chogan Street 9, Tehran Karaj Highway",
       "city": "Shahrak Ansar Neighborhood",
       "state": "Tehran",
       "country": "Iran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

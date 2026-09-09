@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/63046",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/63046",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ivanaev Andrey Sergeevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Ivanaev Andrey Sergeevich",
+      "isPrimary": true
     }
   ],
-  "remarks": "Andrey Ivanaev is a Lieutenant General in the Russian Armed Forces. He is the commander of the 20th Guards Combined Arms Army of the Western Military District of the Russian Federation. In this capacity, he directly commands and has significant influence on the deployment of Russian forces that participate in Russia’s war of aggression against Ukraine. During Russia’s fullscale invasion of Ukraine, the 20th Guards Combined Arms Army, commanded by Andrey Ivanaev, has directly contributed to Russia’s offensive from the northeastern direction.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/63046"
+  ],
+  "remarks": "Andrey Ivanaev is a colonel general in the Russian Armed Forces. He is the commander of the 20th Guards Combined Arms Army of the Western Military District of the Russian Federation. In this capacity, he directly commands and has significant influence on the deployment of Russian forces that participate in Russia’s war of aggression against Ukraine. During Russia’s full-scale invasion of Ukraine, the 20th Guards Combined Arms Army, commanded by Andrey Ivanaev, has directly contributed to Russia’s offensive from the northeastern direction.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1972-01-19",
-      "circa": false
+      "circa": false,
+      "year": 1972
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

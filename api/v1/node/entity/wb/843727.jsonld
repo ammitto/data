@@ -1,23 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/843727",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/wb/843727",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MR. MALIK NASIR HUSSAIN TANOLI",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "MR. MALIK NASIR HUSSAIN TANOLI",
+      "isPrimary": true
     }
   ],
-  "remarks": "*655",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/843727"
+  ],
+  "remarks": "*655",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "HOUSE NO 38 E-MARKET COMMERCIAL AREA BLOCK-6, P.E.C.H.S",
       "city": "KARACHI, NEAR BAB E KHYBER",
       "country": "Pakistan",
-      "country_iso_code": "PK"
+      "countryIsoCode": "PK"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,21 +1,36 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/113328",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/113328",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "O-GROUP MANAGEMENT & CONSULTING URBAN PLANNER BV",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "O-GROUP MANAGEMENT & CONSULTING URBAN PLANNER BV",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/113328"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "city": "AMSTERDAM",
       "country": "Netherlands",
-      "country_iso_code": "NL"
+      "countryIsoCode": "NL"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

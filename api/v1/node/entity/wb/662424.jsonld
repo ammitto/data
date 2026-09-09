@@ -1,22 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/662424",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/wb/662424",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MR. EDMUND MABIRO",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "MR. EDMUND MABIRO",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/662424"
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "PLOT 24, KAMPALA ROAD, PO BOX 26534",
       "city": "KAMPALA",
       "country": "Uganda",
-      "country_iso_code": "UG"
+      "countryIsoCode": "UG"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,22 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/368771",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/wb/368771",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "JULIO ENRIQUE REYNA ARREAGA",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "JULIO ENRIQUE REYNA ARREAGA",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/368771"
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "EDIFICIO PLAZA POLANCO. ZONA 1, TERCER NIVEL, \"COMICASA\"",
       "city": "QUETZALTENANGO",
       "country": "Guatemala",
-      "country_iso_code": "GT"
+      "countryIsoCode": "GT"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

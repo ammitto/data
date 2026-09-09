@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/63857",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/63857",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "L’ENTREPRISE GÉNÉRALE DE CONSTRUCTION TSIMANAVAKA",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "L’ENTREPRISE GÉNÉRALE DE CONSTRUCTION TSIMANAVAKA",
+      "isPrimary": true
     }
   ],
-  "remarks": "*204",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/63857"
+  ],
+  "remarks": "*204",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "LOT IVO 69 K 43 BIS ANTOHOMADINIKA ATSIMO",
       "city": "101 ANTANANARIVO",
       "country": "Madagascar",
-      "country_iso_code": "MG"
+      "countryIsoCode": "MG"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

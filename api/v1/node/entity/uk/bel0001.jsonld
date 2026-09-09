@@ -1,47 +1,70 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/bel0001",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/bel0001",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Navumau",
-      "first_name": "Uladzimir",
+      "@type": "NameVariant",
+      "fullName": "Navumau",
+      "firstName": "Uladzimir",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Naumov",
-      "first_name": "Uladzimir",
+      "@type": "NameVariant",
+      "fullName": "Naumov",
+      "firstName": "Uladzimir",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Naumov",
-      "first_name": "Vladimir",
+      "@type": "NameVariant",
+      "fullName": "Naumov",
+      "firstName": "Vladimir",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Navamau",
-      "first_name": "Vladimir",
+      "@type": "NameVariant",
+      "fullName": "Navamau",
+      "firstName": "Vladimir",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Navumau",
-      "first_name": "Vladimir",
+      "@type": "NameVariant",
+      "fullName": "Navumau",
+      "firstName": "Vladimir",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Received a residence in the Drozdy nonmenklatura district in Minsk from the Presidential Administration. The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/bel0001"
+  ],
+  "remarks": "Received a residence in the Drozdy nonmenklatura district in Minsk from the Presidential Administration. The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "state": "Minsk",
       "country": "Belarus"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

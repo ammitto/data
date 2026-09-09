@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/56936",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/56936",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Lushnikov Alan Valerievich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Lushnikov Alan Valerievich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/56936"
   ],
   "remarks": "The largest shareholder and President of arms producer JSC Kalashnikov Concern. JSC Kalashnikov Concern is a Russian developer and manufacturer of army equipment, including personal rifles, missiles and vehicles. It is directly controlled by Rostec. Vikhr-1 guided aircraft missiles and AK-12 assault rifles produced by JSC Kalashnikov Concern were used by the Russian Armed Forces during Russia’s war of aggression against Ukraine in 2022.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1976-08-10",
-      "circa": false
+      "circa": false,
+      "year": 1976
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

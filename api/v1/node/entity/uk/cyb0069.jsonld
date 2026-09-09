@@ -1,33 +1,56 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/cyb0069",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/cyb0069",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Bolshakov ",
-      "first_name": "Dmitry ",
+      "@type": "NameVariant",
+      "fullName": "Bolshakov ",
+      "firstName": "Dmitry ",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Bolshakov ",
-      "first_name": "Dmitriy",
+      "@type": "NameVariant",
+      "fullName": "Bolshakov ",
+      "firstName": "Dmitriy",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "bolshak_junior",
+      "@type": "NameVariant",
+      "fullName": "bolshak_junior",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "sergeyvasil",
+      "@type": "NameVariant",
+      "fullName": "sergeyvasil",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/cyb0069"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

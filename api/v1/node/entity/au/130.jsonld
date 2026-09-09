@@ -1,45 +1,63 @@
 {
-  "id": "https://www.ammitto.org/entity/au/130",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/130",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Abdul Ghafar Qurishi Abdul Ghani",
+      "@type": "NameVariant",
+      "fullName": "Abdul Ghafar Qurishi Abdul Ghani",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Abdul Ghaffar Qureshi",
+      "@type": "NameVariant",
+      "fullName": "Abdul Ghaffar Qureshi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "عبدالغفار قریشی عبد الغنی",
+      "@type": "NameVariant",
+      "fullName": "عبدالغفار قریشی عبد الغنی",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "TAi.130 Title: Maulavi. Designation: Repatriation Attache, Taliban Embassy, Islamabad, Pakistan. Afghan passport number D 000933 issued in Kabul on 13 Sept. 1998. Afghan national identification card (tazkira)number 55130. Involved in drug trafficking. Belongs to Tajik ethnic group. Review pursuant to Security Council resolution 1822 (2008) was concluded on 29 Jul. 2010; Listing: Listed on: 25 Jan. 2001 (amended on 3 Sep. 2003, 18 Jul. 2007, 21 Sep. 2007, 29 Nov. 2011 and 31 Dec. 2013)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/130"
   ],
-  "birth_info": [
+  "remarks": "TAi.130 Title: Maulavi. Designation: Repatriation Attache, Taliban Embassy, Islamabad, Pakistan. Afghan passport number D 000933 issued in Kabul on 13 Sept. 1998. Afghan national identification card (tazkira)number 55130. Involved in drug trafficking. Belongs to Tajik ethnic group. Review pursuant to Security Council resolution 1822 (2008) was concluded on 29 Jul. 2010; Listing: Listed on: 25 Jan. 2001 (amended on 3 Sep. 2003, 18 Jul. 2007, 21 Sep. 2007, 29 Nov. 2011 and 31 Dec. 2013)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1970,
       "country": "Turshut village"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1967,
       "country": "Wursaj District"
     }
   ],
   "nationalities": [
     "Afghanistan"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Khairkhana Section Number 3, Kabul, Afghanistan",
       "country": "Afghanistan"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

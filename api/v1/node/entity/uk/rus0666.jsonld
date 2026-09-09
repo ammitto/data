@@ -1,45 +1,70 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus0666",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/rus0666",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "KHAN",
-      "first_name": "German",
+      "@type": "NameVariant",
+      "fullName": "KHAN",
+      "firstName": "German",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "HAN",
-      "first_name": "German",
+      "@type": "NameVariant",
+      "fullName": "HAN",
+      "firstName": "German",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "KHAN",
-      "first_name": "German",
+      "@type": "NameVariant",
+      "fullName": "KHAN",
+      "firstName": "German",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "KHAN",
-      "first_name": "Guerman",
+      "@type": "NameVariant",
+      "fullName": "KHAN",
+      "firstName": "Guerman",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Герман Борисович ХАН",
+      "@type": "NameVariant",
+      "fullName": "Герман Борисович ХАН",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Герман Бориссович ХАН",
+      "@type": "NameVariant",
+      "fullName": "Герман Бориссович ХАН",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus0666"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,39 +1,58 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus0171",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus0171",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Dobrolet",
+      "@type": "NameVariant",
+      "fullName": "Dobrolet",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Dobrolyot",
+      "@type": "NameVariant",
+      "fullName": "Dobrolyot",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Names of Director(s)/Management: GORBUNOV 1: Vladimir 2: Pavlovich (General Director) The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus0171"
+  ],
+  "remarks": "Names of Director(s)/Management: GORBUNOV 1: Vladimir 2: Pavlovich (General Director) The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "city": "G. Moskva",
       "state": "ul Kozhevnicheskaya d. 7 str 1"
     },
     {
+      "@type": "Address",
       "street": "Aeroflot, ul Arvat",
       "city": "D 10",
       "state": "OAO (Moscow)",
       "country": "Russia"
     },
     {
+      "@type": "Address",
       "street": "International Highway, House 31",
       "city": "Building 1",
       "state": "Moscow",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,51 +1,70 @@
 {
-  "id": "https://www.ammitto.org/entry/uk/consolidated-list/rus2152",
-  "entity_id": "https://www.ammitto.org/entity/uk/rus2152",
+  "@id": "https://www.ammitto.org/entry/uk/consolidated-list/rus2152",
+  "@type": "SanctionEntry",
+  "entityId": "https://www.ammitto.org/entity/uk/rus2152",
   "authority": {
     "@id": "https://www.ammitto.org/authority/uk"
   },
   "regime": {
-    "@id": "https://www.ammitto.org/regime/the_russia_sanctions_eu_exit_regulations_2019"
+    "@id": "https://www.ammitto.org/regime/the_russia_sanctions_eu_exit_regulations_2019",
+    "name": "The Russia (Sanctions) (EU Exit) Regulations 2019"
   },
+  "legalBases": [
+
+  ],
   "effects": [
     {
-      "effect_type": "asset_freeze",
+      "@type": "SanctionEffect",
+      "effectType": "asset_freeze",
       "scope": "full"
     },
     {
-      "effect_type": "travel_ban",
+      "@type": "SanctionEffect",
+      "effectType": "travel_ban",
       "scope": "full"
     },
     {
-      "effect_type": "financial_restriction",
+      "@type": "SanctionEffect",
+      "effectType": "financial_restriction",
       "scope": "full"
     },
     {
-      "effect_type": "debarment",
+      "@type": "SanctionEffect",
+      "effectType": "debarment",
       "scope": "full"
     },
     {
-      "effect_type": "technology_restriction",
+      "@type": "SanctionEffect",
+      "effectType": "technology_restriction",
       "scope": "full"
     }
   ],
+  "reasons": [
+
+  ],
   "period": {
-    "listed_date": "2024-06-13",
-    "effective_date": "2024-06-13",
-    "is_indefinite": true,
-    "last_updated": "2025-04-09"
+    "@type": "TemporalPeriod",
+    "listedDate": "2024-06-13",
+    "effectiveDate": "2024-06-13",
+    "isIndefinite": true,
+    "lastUpdated": "2025-04-09"
   },
   "status": "active",
-  "reference_number": "RUS2152",
+  "statusHistory": [
+
+  ],
+  "referenceNumber": "RUS2152",
   "remarks": "\nIvan Vladimirovich TAVRIN (hereafter TAVRIN) is an “involved person” under the Russia (Sanctions) (EU Exit) Regulations 2019 on the basis of the following grounds: 1) TAVRIN is or has been involved in destabilising Ukraine or undermining or threatening the territorial integrity, sovereignty or independence of Ukraine by making available technology, through his ownership of KEX eCommerce LLC, that could contribute to destabilising Ukraine or undermining or threatening the territorial integrity, sovereignty or independence of Ukraine; 2) TAVRIN is or has been involved in obtaining a benefit from or supporting the Government of Russia by owning or controlling an entity, KEX eCommerce LLC, which is carrying on business in a sector of strategic significance to the Government of Russia, namely the Russian information, communications and digital services sector; 3) TAVRIN is or has been involved in obtaining a benefit from or supporting the Government of Russia by owning or controlling an entity, New Towers, which is carrying on business in a sector of strategic significance to the Government of Russia, namely the Russian information, communications and digital services sector. \n",
-  "raw_source_data": {
-    "source_format": "xml",
-    "source_specific_fields": {
+  "rawSourceData": {
+    "@type": "RawSourceData",
+    "sourceFormat": "xml",
+    "sourceSpecificFields": {
       "uk:ofsiGroupId": "16535",
+      "uk:unReferenceNumber": null,
       "uk:designationSource": "UK",
       "uk:sanctionsImposed": "Asset freeze|Travel Ban|Technical assistance related to aircraft|Trust Services Sanctions|Director Disqualification Sanction",
       "uk:entityType": "Individual"
     }
   },
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,22 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/705595",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/wb/705595",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MR. KHAMKY SOMCHAYNEUK",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "MR. KHAMKY SOMCHAYNEUK",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/705595"
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "PHONSAVANH VILLAGE, PAKSE DISTRICT",
       "city": "CHAMPASAK PROVINCE",
       "country": "Lao People's Democratic Republic",
-      "country_iso_code": "LA"
+      "countryIsoCode": "LA"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

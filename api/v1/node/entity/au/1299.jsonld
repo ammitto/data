@@ -1,32 +1,45 @@
 {
-  "id": "https://www.ammitto.org/entity/au/1299",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/1299",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ntabo Ntaberi SHEKA",
+      "@type": "NameVariant",
+      "fullName": "Ntabo Ntaberi SHEKA",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "CDi.029 Commander-in-Chief, Nduma Defence of Congo, Mayi Mayi Sheka group. He surrendered to MONUSCO on 26 July 2017 and has been since detained by the Congolese authorities. His trial for war crimes, crimes against humanity and participation in an insurrectional movement, before the Military Court in Goma, started in November 2018. INTERPOL-UN Security Council Special Notice; Listing: Listed by the 1533 Committee on 28 November 2011 (amended on 19 August 2020)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/1299"
   ],
-  "birth_info": [
+  "remarks": "CDi.029 Commander-in-Chief, Nduma Defence of Congo, Mayi Mayi Sheka group. He surrendered to MONUSCO on 26 July 2017 and has been since detained by the Congolese authorities. His trial for war crimes, crimes against humanity and participation in an insurrectional movement, before the Military Court in Goma, started in November 2018. INTERPOL-UN Security Council Special Notice; Listing: Listed by the 1533 Committee on 28 November 2011 (amended on 19 August 2020)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1976,
       "country": "Walikale"
     }
   ],
   "nationalities": [
-    "Congo",
-    "Democratic Republic of the"
+    "Congo, Democratic Republic of the"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Goma, North Kivu, Democratic Republic of the Congo (in prison)",
       "country": "Democratic Republic of the Congo (in prison)"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

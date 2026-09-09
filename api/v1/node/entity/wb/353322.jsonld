@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/353322",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/353322",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "CONSTRUCTORA J. C. SEGURA CONSTRUCCIONES S.A. – GAVINOR S.R.L. – UTE",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "CONSTRUCTORA J. C. SEGURA CONSTRUCCIONES S.A. – GAVINOR S.R.L. – UTE",
+      "isPrimary": true
     }
   ],
-  "remarks": "(Reg. No. 30-71200934-5) *418",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/353322"
+  ],
+  "remarks": "(Reg. No. 30-71200934-5) *418",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "PASAJE JOSÉ A. RUÍZ NO. 330",
       "city": "4400 SALTA",
       "country": "Argentina",
-      "country_iso_code": "AR"
+      "countryIsoCode": "AR"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

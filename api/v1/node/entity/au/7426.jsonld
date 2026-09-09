@@ -1,34 +1,53 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7426",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7426",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Dmitry Andreevich ARTYUKHOV",
+      "@type": "NameVariant",
+      "fullName": "Dmitry Andreevich ARTYUKHOV",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Dmitrii Andreevich ARTIUKHOV",
+      "@type": "NameVariant",
+      "fullName": "Dmitrii Andreevich ARTIUKHOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Member of the State Council for the Russian Federation, Governor of Yamalo-Nenets Autonomous Okrug; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 2) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7426"
   ],
-  "birth_info": [
+  "remarks": "Member of the State Council for the Russian Federation, Governor of Yamalo-Nenets Autonomous Okrug; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 2) Instrument 2023",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1988,
       "country": "Salekhard"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1988,
       "country": "Russia"
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

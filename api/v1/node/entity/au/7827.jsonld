@@ -1,79 +1,105 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7827",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7827",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Muhammed Deif",
+      "@type": "NameVariant",
+      "fullName": "Muhammed Deif",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Muhammad Al-Dayf",
+      "@type": "NameVariant",
+      "fullName": "Muhammad Al-Dayf",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Muhammad Al-Masri",
+      "@type": "NameVariant",
+      "fullName": "Muhammad Al-Masri",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Mohammad Deif",
+      "@type": "NameVariant",
+      "fullName": "Mohammad Deif",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Mohammed Diab al Masri",
+      "@type": "NameVariant",
+      "fullName": "Mohammed Diab al Masri",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Mohammed al-Masri",
+      "@type": "NameVariant",
+      "fullName": "Mohammed al-Masri",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Mohammed Diab",
+      "@type": "NameVariant",
+      "fullName": "Mohammed Diab",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abu Khaled",
+      "@type": "NameVariant",
+      "fullName": "Abu Khaled",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "محمّد الضيف",
+      "@type": "NameVariant",
+      "fullName": "محمّد الضيف",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Listing: Charter of the United Nations (Listed Entities) Amendment (No. 1) Instrument 2024",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7827"
   ],
-  "birth_info": [
+  "remarks": "Listing: Charter of the United Nations (Listed Entities) Amendment (No. 1) Instrument 2024",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1963,
       "country": "Khan Younis"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1964,
       "country": "Gaza"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1965,
       "country": "Occupied Palestinian Territories"
     }
   ],
   "nationalities": [
     "State of Palestine"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Gaza, State of Palestine",
       "country": "State of Palestine"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

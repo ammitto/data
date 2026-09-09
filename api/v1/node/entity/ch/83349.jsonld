@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/83349",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/83349",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Abdul Rahim Ba'aysir",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Abdul Rahim Ba'aysir",
+      "isPrimary": true
     }
   ],
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/83349"
+  ],
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1977-11-16",
-      "circa": false
+      "circa": false,
+      "year": 1977
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

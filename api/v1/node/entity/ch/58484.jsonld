@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/58484",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/58484",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Minkov Stanislav Aleksandrovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Minkov Stanislav Aleksandrovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/58484"
   ],
   "remarks": "Captain Stanislav Minkov is a member of the Missile Pre-Planning unit at the Main Computing Centre of the General Staff (GVC) of Russia’s Armed Forces General Staff. In this role, he is a key figure in Russia’s missile strikes on Ukraine, including on civilian targets, throughout Apr to Oct 2022, killing over 30 people and wounding more than 100 in Oct 2022 alone. Captain Stanislav Minkov is thus a natural person responsible for, supporting or implementing actions or policies which undermine or threaten the territorial integrity, sovereignty and independence of Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1984-06-16",
-      "circa": false
+      "circa": false,
+      "year": 1984
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

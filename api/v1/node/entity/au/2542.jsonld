@@ -1,53 +1,75 @@
 {
-  "id": "https://www.ammitto.org/entity/au/2542",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/2542",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Abdul Satar Abdul Manan",
+      "@type": "NameVariant",
+      "fullName": "Abdul Satar Abdul Manan",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "عبد الستار عبد المنان",
+      "@type": "NameVariant",
+      "fullName": "عبد الستار عبد المنان",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Haji Abdul Sattar Barakzai",
+      "@type": "NameVariant",
+      "fullName": "Haji Abdul Sattar Barakzai",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Haji Abdul Satar",
+      "@type": "NameVariant",
+      "fullName": "Haji Abdul Satar",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Haji Satar Barakzai",
+      "@type": "NameVariant",
+      "fullName": "Haji Satar Barakzai",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abdulasattar",
+      "@type": "NameVariant",
+      "fullName": "Abdulasattar",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "TAi.162 Pakistan passport number AM5421691 expires on 11 August 2013; Pakistan National Identification number 5420250161699; Afghan National Identification number 585629; co-owner of Haji Khairullah Haji Sattar Money Exchange (TE.H.1.12.) and associated also with Khairullah Barakzai (TI.K.163.12.).  Belongs to Barakzai tribe.  Father's name is Hajji 'Abd-al-Manaf.; Listing: Listed on 28 June 2012 pursuant to resolution 1988 (2011).",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/2542"
   ],
-  "birth_info": [
+  "remarks": "TAi.162 Pakistan passport number AM5421691 expires on 11 August 2013; Pakistan National Identification number 5420250161699; Afghan National Identification number 585629; co-owner of Haji Khairullah Haji Sattar Money Exchange (TE.H.1.12.) and associated also with Khairullah Barakzai (TI.K.163.12.).  Belongs to Barakzai tribe.  Father's name is Hajji 'Abd-al-Manaf.; Listing: Listed on 28 June 2012 pursuant to resolution 1988 (2011).",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1964,
       "country": "a)  Mirmandaw village"
     }
   ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "a)  Kachray Road, Pashtunabad, Quetta, Baluchistan Province, Pakistan, b) Nasrullah Khan Chowk, Pashtunabad Area, Baluchistan Province, Pakistan, c) Chaman, Baluchistan Province, Pakistan, d) Abdul Satar Food Shop, Ayno Mina 0093, Kandahar Province, Afghanistan",
       "country": "Afghanistan"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/84859",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/84859",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Bassam Ahmad al-Hasri",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Bassam Ahmad al-Hasri",
+      "isPrimary": true
     }
   ],
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/84859"
+  ],
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1969-01-01",
-      "circa": false
+      "circa": false,
+      "year": 1969
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

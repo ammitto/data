@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/71060",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/71060",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mahmoud al-Dj",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Mahmoud al-Dj",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/71060"
   ],
   "remarks": "Mahmoud al-Dj is a leading businessperson operating in Syria under the former al-Assad regime, who owns several companies active in different sectors such as logistics and tourism. He facilitates illicit transactions between regime-affiliated persons and entities in Syria and Eastern Libya, including in relation to narcotics, and the shipments of arms and mercenaries. His position is enabled through his close ties with the former al-Assad regime, from which he and his businesses are benefitting. His activities, on the other hand, support the former al-Assad regime and enable it to access illicit revenues. He is therefore benefiting from, and providing support to, the former al-Assad regime.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1983-07-26",
-      "circa": false
+      "circa": false,
+      "year": 1983
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

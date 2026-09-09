@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/1044552",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/1044552",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "ENWAIR ENERJI TEKNOLOJILERI A.S.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "ENWAIR ENERJI TEKNOLOJILERI A.S.",
+      "isPrimary": true
     }
   ],
-  "remarks": "(Reg. No: 0336057235100016) *706",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/1044552"
+  ],
+  "remarks": "(Reg. No: 0336057235100016) *706",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "HUZUR MAH. AHMET BAYMAN CAD. NO:2/4 SARIYER",
       "city": "ISTANBUL",
       "country": "Turkiye",
-      "country_iso_code": "TR"
+      "countryIsoCode": "TR"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

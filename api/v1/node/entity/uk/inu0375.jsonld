@@ -1,47 +1,68 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/inu0375",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/inu0375",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Modern Industries Technique Company",
+      "@type": "NameVariant",
+      "fullName": "Modern Industries Technique Company",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "MITEC",
+      "@type": "NameVariant",
+      "fullName": "MITEC",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Rahkar Company",
+      "@type": "NameVariant",
+      "fullName": "Rahkar Company",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Rahkar Industries",
+      "@type": "NameVariant",
+      "fullName": "Rahkar Industries",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Rahkar Sanaye Company",
+      "@type": "NameVariant",
+      "fullName": "Rahkar Sanaye Company",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Rahkar Sanaye Novin",
+      "@type": "NameVariant",
+      "fullName": "Rahkar Sanaye Novin",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Responsible for design and construction of the IR-40 heavy water reactor in Arak. MITEC has spearheaded procurement for the construction of the IR-40 heavy water reactor.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/inu0375"
+  ],
+  "remarks": "Responsible for design and construction of the IR-40 heavy water reactor in Arak. MITEC has spearheaded procurement for the construction of the IR-40 heavy water reactor.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "state": "Arak",
       "country": "Iran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

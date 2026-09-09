@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/84982",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/84982",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Arlou Aleh Genadzevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Arlou Aleh Genadzevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/84982"
   ],
   "remarks": "Aleh Arlou is a businessperson operating in Belarus. He is the owner of Ruzekspeditsiya LLC since 7 August 2023.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1969-07-18",
-      "circa": false
+      "circa": false,
+      "year": 1969
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

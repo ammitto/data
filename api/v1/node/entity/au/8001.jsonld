@@ -1,35 +1,53 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8001",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/8001",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Dmitriy Konstantinovich BOLSHAKOV",
+      "@type": "NameVariant",
+      "fullName": "Dmitriy Konstantinovich BOLSHAKOV",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Sergeyvasil",
+      "@type": "NameVariant",
+      "fullName": "Sergeyvasil",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "bolshak_junior",
+      "@type": "NameVariant",
+      "fullName": "bolshak_junior",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Employee of Zservers; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Thematic Sanctions) Amendment (No. 1) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8001"
   ],
-  "birth_info": [
+  "remarks": "Employee of Zservers; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Thematic Sanctions) Amendment (No. 1) Instrument 2025",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 2001,
       "country": "Altayskiy Kray"
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

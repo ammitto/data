@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/88517",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/88517",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Nimchenko Yury Petrovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Nimchenko Yury Petrovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/88517"
   ],
   "remarks": "Yury Nimchenko has been a Senator of the Federation Council from the illegally annexed “Republic of Crimea” since 12 September 2024 and is a Member of the Federation Council’s Committee on Defence and Security. He is a veteran of Russia’s war of aggression against Ukraine, having fought as a tank driver, for which he was awarded the title of “Hero of Russia” by the President of the Russian Federation",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1980-06-04",
-      "circa": false
+      "circa": false,
+      "year": 1980
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

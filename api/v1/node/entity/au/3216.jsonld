@@ -1,37 +1,55 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3216",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/3216",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Korea International Chemical Joint Venture Company",
+      "@type": "NameVariant",
+      "fullName": "Korea International Chemical Joint Venture Company",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Choson International Chemicals Joint Operation Company",
+      "@type": "NameVariant",
+      "fullName": "Choson International Chemicals Joint Operation Company",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Chosun International Chemicals Joint Operation Company",
+      "@type": "NameVariant",
+      "fullName": "Chosun International Chemicals Joint Operation Company",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "International Chemical Joint Venture Company",
+      "@type": "NameVariant",
+      "fullName": "International Chemical Joint Venture Company",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "KPe.039. Korea International Chemical Joint Venture Company is a subsidiary of Korea Ryonbong General Corporation – DPRK’s defense conglomerate specializing in acquisition for DPRK defense industries and support to Pyongyang’s military related sales – and has engaged in proliferation-related transactions.; Listing: Listed on: 30 Nov. 2016",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3216"
+  ],
+  "remarks": "KPe.039. Korea International Chemical Joint Venture Company is a subsidiary of Korea Ryonbong General Corporation – DPRK’s defense conglomerate specializing in acquisition for DPRK defense industries and support to Pyongyang’s military related sales – and has engaged in proliferation-related transactions.; Listing: Listed on: 30 Nov. 2016",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "a) Hamhung, South Hamgyong Province, Democratic People's Republic of Korea b) Man gyongdae-kuyok, Pyongyang, Democratic People's Republic of Korea c) Mangyungdae-gu, Pyongyang, Democratic People's Republic of Korea",
       "country": "Democratic People's Republic of Korea"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

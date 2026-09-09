@@ -1,34 +1,53 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7709",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7709",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Seyyed Mahdi FARAHI",
+      "@type": "NameVariant",
+      "fullName": "Seyyed Mahdi FARAHI",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Seyyed FARAHI",
+      "@type": "NameVariant",
+      "fullName": "Seyyed FARAHI",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Deputy of MODAFL (last known position). Also former head of AIO and former managing director of DIO.; Listing: Instrument of first designation and declaration: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Iran) Amendment (No. 2) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7709"
   ],
-  "birth_info": [
+  "remarks": "Deputy of MODAFL (last known position). Also former head of AIO and former managing director of DIO.; Listing: Instrument of first designation and declaration: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Iran) Amendment (No. 2) Instrument 2023",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1962,
       "country": "Qom"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1963,
       "country": "Iran"
     }
   ],
   "nationalities": [
     "Iran"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

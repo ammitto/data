@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/27339",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/27339",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Klishas Andrei Aleksandrovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Klishas Andrei Aleksandrovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/27339"
   ],
   "remarks": "Chairman of the Committee on Constitutional Law and State Building of the Federation Council of the Russian Federation.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1972-11-09",
-      "circa": false
+      "circa": false,
+      "year": 1972
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

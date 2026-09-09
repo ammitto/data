@@ -1,55 +1,83 @@
 {
-  "id": "https://www.ammitto.org/entity/au/1239",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/1239",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MUTASSIM QADHAFI",
+      "@type": "NameVariant",
+      "fullName": "MUTASSIM QADHAFI",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Almuatesem Bellah Muammer Qadhafi",
+      "@type": "NameVariant",
+      "fullName": "Almuatesem Bellah Muammer Qadhafi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Mutassim Billah Abuminyar Qadhafi",
+      "@type": "NameVariant",
+      "fullName": "Mutassim Billah Abuminyar Qadhafi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Muatasmblla",
+      "@type": "NameVariant",
+      "fullName": "Muatasmblla",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Muatasimbllah",
+      "@type": "NameVariant",
+      "fullName": "Muatasimbllah",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Moatassam",
+      "@type": "NameVariant",
+      "fullName": "Moatassam",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "LYi.014. Designation: National Security Adviser. Passport no.: Libyan passport No. B/001897. Son of Muammar Qadhafi. Closeness of association with regime. Believed status/location: deceased. Reportedly deceased in Sirte, Libya, on 20 October 2011.; Listing: Listed 26 Feb. 2011 (amended on 2 Apr. 2012, 26 Sep. 2014, 1 Apr. 2016)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/1239"
   ],
-  "birth_info": [
+  "remarks": "LYi.014. Designation: National Security Adviser. Passport no.: Libyan passport No. B/001897. Son of Muammar Qadhafi. Closeness of association with regime. Believed status/location: deceased. Reportedly deceased in Sirte, Libya, on 20 October 2011.; Listing: Listed 26 Feb. 2011 (amended on 2 Apr. 2012, 26 Sep. 2014, 1 Apr. 2016)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1976,
       "country": "Tripoli"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1974,
       "country": "Libya."
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1974,
       "country": "Tripoli"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

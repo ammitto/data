@@ -1,34 +1,52 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7800",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7800",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Valery SUKHAREV",
+      "@type": "NameVariant",
+      "fullName": "Valery SUKHAREV",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Valeriy Nikolaevich SUKHAREV",
+      "@type": "NameVariant",
+      "fullName": "Valeriy Nikolaevich SUKHAREV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Nikolay Aleksandrovich GOROKHOV",
+      "@type": "NameVariant",
+      "fullName": "Nikolay Aleksandrovich GOROKHOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Officer at the FSB’s Criminalistics Institute; Listing: Instrument of first designation and declaration: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Thematic Sanctions) Amendment (No. 3) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7800"
   ],
-  "birth_info": [
+  "remarks": "Officer at the FSB’s Criminalistics Institute; Listing: Instrument of first designation and declaration: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Thematic Sanctions) Amendment (No. 3) Instrument 2023",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1956
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

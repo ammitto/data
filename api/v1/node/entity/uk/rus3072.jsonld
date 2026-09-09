@@ -1,39 +1,57 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus3072",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus3072",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "SURE TECHNOLOGY (HONGKONG) COMPANY LTD ",
+      "@type": "NameVariant",
+      "fullName": "SURE TECHNOLOGY (HONGKONG) COMPANY LTD ",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "SURE TECHNOLOGY (HONG KONG) COMPANY LIMITED ",
+      "@type": "NameVariant",
+      "fullName": "SURE TECHNOLOGY (HONG KONG) COMPANY LIMITED ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "易准科技(香港)有限公司 ",
+      "@type": "NameVariant",
+      "fullName": "易准科技(香港)有限公司 ",
       "script": "Hani",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus3072"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Rm 1318, Sunbeam Centre, 27 Shing Yip Street",
       "city": "Kwun Tong",
       "state": "Hong Kong",
       "country": "China"
     },
     {
+      "@type": "Address",
       "street": "Unit 1406A  14/F The Belgian Bank, Building Nos 721-725 Nathan Road",
       "city": "Kowloon Mongkok",
       "state": "Hong Kong",
       "country": "China"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

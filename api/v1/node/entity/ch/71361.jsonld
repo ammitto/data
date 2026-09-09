@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/71361",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/71361",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Hamza Abdelbasit Elhassan Mohamed Khair",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Hamza Abdelbasit Elhassan Mohamed Khair",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/71361"
   ],
   "remarks": "Abdelbasit Elhassan Mohamed Khair Hamza is a Sudan-based Hamas financier who manages companies in Hamas’ investment portfolio. Abdelbasit Elhassan Mohamed Khair Hamza has facilitated funds for Hamas through a network of companies, including, in particular, Al Rowad Real Estate Development and Al Zawaya Group for Development and Investment. Thus, Abdelbasit Elhassan Mohamed Khair Hamza participates in the financing of Hamas.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1955-08-28",
-      "circa": false
+      "circa": false,
+      "year": 1955
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

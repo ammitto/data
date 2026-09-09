@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/12797",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/12797",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Qadhafi Hannibal Muammar",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Qadhafi Hannibal Muammar",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/12797"
   ],
   "remarks": "Son of Muammar Qadhafi. Closeness of association with regime.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1975-09-20",
-      "circa": false
+      "circa": false,
+      "year": 1975
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,23 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/483779",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/wb/483779",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MR. JAMES TINNION-MORGAN",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "MR. JAMES TINNION-MORGAN",
+      "isPrimary": true
     }
   ],
-  "remarks": "*527",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/483779"
+  ],
+  "remarks": "*527",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "12/5 FOX STREET, PARNELL",
       "city": "AUCKLAND 1001",
       "country": "New Zealand",
-      "country_iso_code": "NZ"
+      "countryIsoCode": "NZ"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

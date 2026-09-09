@@ -1,30 +1,47 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8439",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/8439",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Johnson Andre",
+      "@type": "NameVariant",
+      "fullName": "Johnson Andre",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "IZO",
+      "@type": "NameVariant",
+      "fullName": "IZO",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "HTIi.002.  Leader of 5 Segond gang. Gender: Male.; Listing: Listed by UN 2653 Committee on 8 December 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8439"
   ],
-  "birth_info": [
+  "remarks": "HTIi.002.  Leader of 5 Segond gang. Gender: Male.; Listing: Listed by UN 2653 Committee on 8 December 2023",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1997,
       "country": "Port-au-Prince"
     }
   ],
   "nationalities": [
     "Haiti"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

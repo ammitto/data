@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/84847",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/84847",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Rustam Magomedovich Aselderov",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Rustam Magomedovich Aselderov",
+      "isPrimary": true
     }
   ],
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/84847"
+  ],
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1981-03-09",
-      "circa": false
+      "circa": false,
+      "year": 1981
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

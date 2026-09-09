@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/au/6675",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/6675",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Genbank",
+      "@type": "NameVariant",
+      "fullName": "Genbank",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "www.genbank.ru; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Ukraine) Amendment (No. 3) Instrument 2022",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/6675"
+  ],
+  "remarks": "www.genbank.ru; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Ukraine) Amendment (No. 3) Instrument 2022",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Sevastopolskaya Street, 13 Simeferopol, Crimea 295011",
       "country": "Crimea 295011"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

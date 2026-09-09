@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/72173",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/72173",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Galchenkov Alexey Sergeevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Galchenkov Alexey Sergeevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/72173"
   ],
   "remarks": "Alexey Galchenkov is the so-called former “Minister of Education” of Kherson Region. He assumed this role without the consent of Ukrainian authorities, in the illegally occupied territories of Kherson Region and implemented the official policies of the Russian Federation in the region.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1987-04-18",
-      "circa": false
+      "circa": false,
+      "year": 1987
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

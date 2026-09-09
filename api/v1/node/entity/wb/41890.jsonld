@@ -1,21 +1,36 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/41890",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/41890",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "INTER-RUSS LTD.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "INTER-RUSS LTD.",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/41890"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "city": "ISLE OF MAN",
       "country": "United Kingdom",
-      "country_iso_code": "GB"
+      "countryIsoCode": "GB"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

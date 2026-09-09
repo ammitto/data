@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/27566",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/27566",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Neverov Sergei Ivanovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Neverov Sergei Ivanovich",
+      "isPrimary": true
     }
   ],
-  "remarks": "Former Deputy Chairman of State Duma, United Russia. Responsible for initiating legislation to integrate the annexed Autonomous \"Republic of Crimea\" into the Russian Federation. Member of the Duma, head of the United Russia faction.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/27566"
+  ],
+  "remarks": "Former Deputy Chairman of State Duma. Responsible for initiating legislation to integrate the annexed Autonomous “Republic of Crimea” into the Russian Federation. Member of the Duma, former head of the United Russia faction. Actively supports Russia’s war of aggression against Ukraine.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1961-12-21",
-      "circa": false
+      "circa": false,
+      "year": 1961
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

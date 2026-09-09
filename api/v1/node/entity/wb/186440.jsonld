@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/186440",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/186440",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "CABINET DE RECHERCHE, DE FORMATION ET D'EXPERTISE EN SANTÉ",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "CABINET DE RECHERCHE, DE FORMATION ET D'EXPERTISE EN SANTÉ",
+      "isPrimary": true
     }
   ],
-  "remarks": "*39",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/186440"
+  ],
+  "remarks": "*39",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "167, AVENUE NGUNGU, COMMUNE DE KINSHASA",
       "city": "KINSHASA",
       "country": "Congo, Democratic Republic of",
-      "country_iso_code": "ZR"
+      "countryIsoCode": "ZR"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

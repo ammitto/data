@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/51357",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/51357",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kulikov Sergey Alexandrovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kulikov Sergey Alexandrovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/51357"
   ],
   "remarks": "Sergey Alexandrovich KULIKOV is the Chairman of the Board of Management Company RUSNANO LLC and Member of the Board of Directors of Rusnano JSC, as well as the First deputy Chairman of the board of the Military Industrial Commission. Rusnano LLC is a Russian innovation development institution created in the framework of a Presidential Initiative called \"Strategy for Development of Nanotechnology Industry\". Sergey Kulikov is therefore involved in economic sectors providing a substantial source of revenue to the Government of the Russian Federation.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1976-04-09",
-      "circa": false
+      "circa": false,
+      "year": 1976
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

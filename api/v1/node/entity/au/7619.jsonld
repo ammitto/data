@@ -1,60 +1,82 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7619",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7619",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ekaterina Vladimirovna FILIPPOVA",
+      "@type": "NameVariant",
+      "fullName": "Ekaterina Vladimirovna FILIPPOVA",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Kateryna Volodymyrivna FILIPPOVA",
+      "@type": "NameVariant",
+      "fullName": "Kateryna Volodymyrivna FILIPPOVA",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ekaterina FILIPPOVA",
+      "@type": "NameVariant",
+      "fullName": "Ekaterina FILIPPOVA",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ekaterina Vladimirovna GOGIASHVILI",
+      "@type": "NameVariant",
+      "fullName": "Ekaterina Vladimirovna GOGIASHVILI",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Kateryna Volodymy-myrvima GOGIASHVILI",
+      "@type": "NameVariant",
+      "fullName": "Kateryna Volodymy-myrvima GOGIASHVILI",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Kateryna Volodymy-myrvima FILIPPOVA",
+      "@type": "NameVariant",
+      "fullName": "Kateryna Volodymy-myrvima FILIPPOVA",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Previously listed under 'Ukraine criteria' - Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Ukraine) Amendment List 2017 (No 2) [F2017L01118]; New listing start date 27 Aug 2023; Listing: Instrument of first designation: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 10) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7619"
   ],
-  "birth_info": [
+  "remarks": "Previously listed under 'Ukraine criteria' - Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Ukraine) Amendment List 2017 (No 2) [F2017L01118]; New listing start date 27 Aug 2023; Listing: Instrument of first designation: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 10) Instrument 2023",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1988,
       "country": "Krasnoarmeisk"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1988,
       "country": "Saratov"
     }
   ],
   "nationalities": [
-    "Russia;Ukraine"
+    "Russia",
+    "Ukraine"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Donetsk, Ukraine",
       "country": "Ukraine"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

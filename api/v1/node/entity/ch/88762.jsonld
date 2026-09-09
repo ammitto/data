@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/88762",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/88762",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ostashko Ruslan Stanislavovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Ostashko Ruslan Stanislavovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/88762"
   ],
   "remarks": "Ruslan Ostashko is a figure active in the Russian public space. He works as a journalist and TV host on state TV Channel One and is the lead singer of the patriotic music band “Ours”. He is also editor-in-chief of the website “politrussia.com”, a website used to promote the Russian Government’s narrative, including on Russia’s war of aggression against Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1979-02-18",
-      "circa": false
+      "circa": false,
+      "year": 1979
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

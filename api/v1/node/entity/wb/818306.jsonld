@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/818306",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/818306",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "FUTURA DISTRIBUIDORA E COMÉRCIO EM GERAL EIRELI",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "FUTURA DISTRIBUIDORA E COMÉRCIO EM GERAL EIRELI",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/818306"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "PRAÇA VALDEMAR FONTES CARDOSO 33 BAIRRO SUIÇA",
       "city": "ARACAJU - SE, 49050-170",
       "country": "Brazil",
-      "country_iso_code": "BR"
+      "countryIsoCode": "BR"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

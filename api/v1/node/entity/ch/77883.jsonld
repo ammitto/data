@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/77883",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/77883",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Khlyszczankau Aliaksey Anatolevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Khlyszczankau Aliaksey Anatolevich",
+      "isPrimary": true
     }
   ],
-  "remarks": "Aliaksey Klyshchankau is a judge who has served in the Gomel Regional Court since 2019, having been appointed by Aliaksandr Lukashenka. He has issued politically motivated sentences against citizens of Belarus who voiced their opinions against the President and the brutality of Belarusian law-enforcement structures. He sentenced Yuri Vlasov, a confidant of presidential candidate Svetlana Tikhanovskaya, to 6,5 years in a maximum-security penal colony.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/77883"
+  ],
+  "remarks": "Aliaksey Klyshchankau is a judge who served in the Gomel Regional Court between 2019 and 2023, having been appointed by Aliaksandr Lukashenka. He has issued politically motivated sentences against citizens of Belarus who voiced their opinions against the President and the brutality of Belarusian law-enforcement structures. He sentenced Yuri Vlasov, a confidant of presidential candidate Svetlana Tikhanovskaya, to 6,5 years in a maximum-security penal colony.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1982-08-27",
-      "circa": false
+      "circa": false,
+      "year": 1982
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,20 +1,35 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/113396",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/113396",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "SCAN DISTRIBUTION PTE. LTD.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "SCAN DISTRIBUTION PTE. LTD.",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/113396"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "country": "Singapore",
-      "country_iso_code": "SG"
+      "countryIsoCode": "SG"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

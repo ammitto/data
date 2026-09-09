@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/57563",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/57563",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Hajizadeh Amir Ali",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Hajizadeh Amir Ali",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/57563"
   ],
   "remarks": "Brigadier-General Amir Ali Hajizadeh is the Commander of the Islamic Revolutionary Guard Corps - Aerospace Force, which supervises the development of Iran’s Unmanned Aerial Vehicle (UAV) programme as well as the transfer of UAVs abroad.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1962-02-28",
-      "circa": false
+      "circa": false,
+      "year": 1962
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

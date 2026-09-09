@@ -1,64 +1,95 @@
 {
-  "id": "https://www.ammitto.org/entity/au/2547",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/2547",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Aboud Rogo Mohammed",
+      "@type": "NameVariant",
+      "fullName": "Aboud Rogo Mohammed",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Aboud Mohammad Rogo",
+      "@type": "NameVariant",
+      "fullName": "Aboud Mohammad Rogo",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Aboud Seif Rogo",
+      "@type": "NameVariant",
+      "fullName": "Aboud Seif Rogo",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Aboud Mohammed Rogo",
+      "@type": "NameVariant",
+      "fullName": "Aboud Mohammed Rogo",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Sheikh Aboud Rogo",
+      "@type": "NameVariant",
+      "fullName": "Sheikh Aboud Rogo",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Aboud Rogo Muhammad",
+      "@type": "NameVariant",
+      "fullName": "Aboud Rogo Muhammad",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Aboud Rogo Mohamed",
+      "@type": "NameVariant",
+      "fullName": "Aboud Rogo Mohamed",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "SOi.011; Listing: Listed on 25 July 2012.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/2547"
   ],
-  "birth_info": [
+  "remarks": "SOi.011; Listing: Listed on 25 July 2012.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1960,
       "country": "Lamu Island"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1967,
       "country": "Kenya"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1969,
       "country": "Lamu Island"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1969,
       "country": "Lamu Island"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

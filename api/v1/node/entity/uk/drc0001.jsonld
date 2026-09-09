@@ -1,37 +1,57 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/drc0001",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/drc0001",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kampete",
-      "first_name": "Gaston",
+      "@type": "NameVariant",
+      "fullName": "Kampete",
+      "firstName": "Gaston",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Kampete",
-      "first_name": "Gastson",
+      "@type": "NameVariant",
+      "fullName": "Kampete",
+      "firstName": "Gastson",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Kampete",
-      "first_name": "Hugues",
+      "@type": "NameVariant",
+      "fullName": "Kampete",
+      "firstName": "Hugues",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/drc0001"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Av Nyangwile No 69, Kinsuka Mimosa",
       "city": "Ngaliema",
       "state": "Kinshasa",
       "country": "Congo (Democratic Republic)"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

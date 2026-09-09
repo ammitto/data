@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/50978",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/50978",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Timchenko Gennady Nikolayevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Timchenko Gennady Nikolayevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/50978"
   ],
   "remarks": "Gennady Timchenko is a long-time acquaintance of the President of the Russian Federation Vladimir Putin and broadly described as one of his confidants.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1952-11-09",
-      "circa": false
+      "circa": false,
+      "year": 1952
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

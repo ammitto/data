@@ -1,39 +1,60 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/gac0043",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/gac0043",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Salameh",
-      "first_name": "Riad",
+      "@type": "NameVariant",
+      "fullName": "Salameh",
+      "firstName": "Riad",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Salame",
-      "first_name": "Riad",
+      "@type": "NameVariant",
+      "fullName": "Salame",
+      "firstName": "Riad",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "رياض سلامة ",
+      "@type": "NameVariant",
+      "fullName": "رياض سلامة ",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Riad Salamé",
+      "@type": "NameVariant",
+      "fullName": "Riad Salamé",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/gac0043"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Street No.10, Rabieh, Matn District, Mount Lebanon Governorate",
       "country": "Lebanon"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

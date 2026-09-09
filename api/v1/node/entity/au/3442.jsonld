@@ -1,29 +1,46 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3442",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/3442",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ri Chun Song",
+      "@type": "NameVariant",
+      "fullName": "Ri Chun Song",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Ri Ch'un-so'ng",
+      "@type": "NameVariant",
+      "fullName": "Ri Ch'un-so'ng",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "KPi.075 Ri Chun Song is an overseas Foreign Trade Bank representative. Passport No: 654133553 (Expires 11 March 2019). Gender: male.; Listing: Listed on: 22 Dec. 2017",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3442"
   ],
-  "birth_info": [
+  "remarks": "KPi.075 Ri Chun Song is an overseas Foreign Trade Bank representative. Passport No: 654133553 (Expires 11 March 2019). Gender: male.; Listing: Listed on: 22 Dec. 2017",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1965
     }
   ],
   "nationalities": [
     "Democratic People's Republic of Korea (North Korea)"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,33 +1,51 @@
 {
-  "id": "https://www.ammitto.org/entity/au/6247",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/6247",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "NOOR WALI MEHSUD",
+      "@type": "NameVariant",
+      "fullName": "NOOR WALI MEHSUD",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Abu Mansoor Asim",
+      "@type": "NameVariant",
+      "fullName": "Abu Mansoor Asim",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Title: Mufti; Leader of Tehrik-e Taliban Pakistan (TTP) (QDe.132) following the death of former TTP leader Maulana Fazlullah (QDi.352). Review pursuant to Security Council resolution 2610 (2021) was concluded on 30 October 2023.; Listing: 16 Jul.2020 (amended on 19 Dec. 2023)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/6247"
   ],
-  "birth_info": [
+  "remarks": "Title: Mufti; Leader of Tehrik-e Taliban Pakistan (TTP) (QDe.132) following the death of former TTP leader Maulana Fazlullah (QDi.352). Review pursuant to Security Council resolution 2610 (2021) was concluded on 30 October 2023.; Listing: 16 Jul.2020 (amended on 19 Dec. 2023)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1978,
       "country": "Gurguray"
     }
   ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Lamman, District Barmal, Paktika Province, Afghanistan (as of 26 Nov. 2022)",
       "country": "Afghanistan (as of 26 Nov. 2022)"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

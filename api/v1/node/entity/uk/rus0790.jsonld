@@ -1,34 +1,54 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus0790",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/rus0790",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "IGNATOVA",
-      "first_name": "Ekaterina",
+      "@type": "NameVariant",
+      "fullName": "IGNATOVA",
+      "firstName": "Ekaterina",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "IGNATOVA",
-      "first_name": "Ekaterina",
+      "@type": "NameVariant",
+      "fullName": "IGNATOVA",
+      "firstName": "Ekaterina",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "ИГНАТОВА Екатерина Сергеевна",
+      "@type": "NameVariant",
+      "fullName": "ИГНАТОВА Екатерина Сергеевна",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus0790"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "10 Presnenskaya Naberezhnaya",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

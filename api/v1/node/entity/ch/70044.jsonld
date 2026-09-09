@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/70044",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/70044",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Chereukhin Vladimir Nikolaevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Chereukhin Vladimir Nikolaevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/70044"
   ],
   "remarks": "Vladimir Chereukhin is Head of the Gomel branch of Republican Unitary Enterprise for Air Navigation Services of Air Traffic “Belaeronavigatsia”, responsible for the activities of Gomel’s airport. At the beginning of the war of aggression, a Russian unmanned aircraft of the Russian Aerospace Forces took off from Gomel airport and destroyed a self-propelled artillery battery of the Armed Forces of Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1977-08-11",
-      "circa": false
+      "circa": false,
+      "year": 1977
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

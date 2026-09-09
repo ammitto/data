@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/79125",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/79125",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Nooruddin Turabi Muhammad Qasim Mullah Maulavi",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Nooruddin Turabi Muhammad Qasim Mullah Maulavi",
+      "isPrimary": true
     }
   ],
-  "remarks": "Minister of Justice under the Taliban regime.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/79125"
+  ],
+  "remarks": "Minister of Justice under the Taliban regime (1996-2001).",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1963
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

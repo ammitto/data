@@ -1,54 +1,77 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7648",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7648",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Oksana Aleksandrovna TCHIGRINA",
+      "@type": "NameVariant",
+      "fullName": "Oksana Aleksandrovna TCHIGRINA",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Oksana Aleksandrovna CHIGRINA",
+      "@type": "NameVariant",
+      "fullName": "Oksana Aleksandrovna CHIGRINA",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Oksana Aleksandrovna CHYHRYNA",
+      "@type": "NameVariant",
+      "fullName": "Oksana Aleksandrovna CHYHRYNA",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Oksana Oleksandrivna CHYHRYNA",
+      "@type": "NameVariant",
+      "fullName": "Oksana Oleksandrivna CHYHRYNA",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Oksana CHYRYNA",
+      "@type": "NameVariant",
+      "fullName": "Oksana CHYRYNA",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Oksana Aleksandrovna CHYRYNA",
+      "@type": "NameVariant",
+      "fullName": "Oksana Aleksandrovna CHYRYNA",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Previously listed under 'Ukraine criteria' - Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Ukraine) Amendment List 2014 [F2014L01184]; New listing start date 27 Aug 2023; Listing: Instrument of first designation: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 10) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7648"
   ],
-  "birth_info": [
+  "remarks": "Previously listed under 'Ukraine criteria' - Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Ukraine) Amendment List 2014 [F2014L01184]; New listing start date 27 Aug 2023; Listing: Instrument of first designation: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 10) Instrument 2023",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1981,
       "country": "Vordianske"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1980,
       "country": "Donetsk"
     }
   ],
   "nationalities": [
     "Ukraine"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

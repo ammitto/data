@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/nz/ind-1308",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/nz/ind-1308",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Trofim Aleksandrovich KAPSHA",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Trofim Aleksandrovich KAPSHA",
+      "isPrimary": true
     }
   ],
-  "source_references": [
+  "sourceReferences": [
     {
-      "source_code": "nz",
-      "reference_number": "IND-1308"
+      "@type": "SourceReference",
+      "sourceCode": "nz",
+      "referenceNumber": "IND-1308",
+      "retrievedAt": "2026-09-09T16:30:43Z"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "linkedEntities": [
+
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/nz/consolidated-list/ind-1308"
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

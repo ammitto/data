@@ -1,57 +1,79 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3267",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/3267",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "SELSELAT AL-THAHAB",
+      "@type": "NameVariant",
+      "fullName": "SELSELAT AL-THAHAB",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "سلسلة الذهب للصرافة",
+      "@type": "NameVariant",
+      "fullName": "سلسلة الذهب للصرافة",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Silsilet al Thahab",
+      "@type": "NameVariant",
+      "fullName": "Silsilet al Thahab",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Selselat al Thahab For Money Exchange",
+      "@type": "NameVariant",
+      "fullName": "Selselat al Thahab For Money Exchange",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Silsilat Money Exchange Company",
+      "@type": "NameVariant",
+      "fullName": "Silsilat Money Exchange Company",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Silsilah Money Exchange Company",
+      "@type": "NameVariant",
+      "fullName": "Silsilah Money Exchange Company",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Al Silsilah al Dhahaba",
+      "@type": "NameVariant",
+      "fullName": "Al Silsilah al Dhahaba",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Silsalat al Dhab",
+      "@type": "NameVariant",
+      "fullName": "Silsalat al Dhab",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "QDe.154. Money exchange business facilitating the movement of funds on behalf of Islamic State in Iraq and the Levant (ISIL), listed as Al-Qaida in Iraq (QDe.115), as of Apr. 2016. Conducted over one hundred financial transfers into ISIL-controlled territory. Review pursuant to Security Council resolution 2610 (2021) was concluded on 8 November 2022.; Listing: Listed by the 1267 Committee on 20 Jul. 2017 ( amended on 8 Nov. 2022 )",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3267"
+  ],
+  "remarks": "QDe.154. Money exchange business facilitating the movement of funds on behalf of Islamic State in Iraq and the Levant (ISIL), listed as Al-Qaida in Iraq (QDe.115), as of Apr. 2016. Conducted over one hundred financial transfers into ISIL-controlled territory. Review pursuant to Security Council resolution 2610 (2021) was concluded on 8 November 2022.; Listing: Listed by the 1267 Committee on 20 Jul. 2017 ( amended on 8 Nov. 2022 )",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "a) Al-Kadhumi Complex, Al-Harthia, Baghdad, Iraq b) Al-Abbas Street, Karbala, Iraq",
       "country": "Iraq"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

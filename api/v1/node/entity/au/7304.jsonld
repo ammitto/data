@@ -1,44 +1,64 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7304",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7304",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Saeed AGHAJANI",
+      "@type": "NameVariant",
+      "fullName": "Saeed AGHAJANI",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Saeed Ara JANI",
+      "@type": "NameVariant",
+      "fullName": "Saeed Ara JANI",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Said Ara JANI",
+      "@type": "NameVariant",
+      "fullName": "Said Ara JANI",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Said Agha JANI",
+      "@type": "NameVariant",
+      "fullName": "Said Agha JANI",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Hamid AGHAJANI",
+      "@type": "NameVariant",
+      "fullName": "Hamid AGHAJANI",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Brigadier-General, Commander of the Islamic Revolutionary Guard Corps - Aerospace Force (IRGC ASF) UAV Command; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 22) Instrument 2022",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7304"
   ],
-  "birth_info": [
+  "remarks": "Brigadier-General, Commander of the Islamic Revolutionary Guard Corps - Aerospace Force (IRGC ASF) UAV Command; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 22) Instrument 2022",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1969
     }
   ],
   "nationalities": [
     "Iran"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

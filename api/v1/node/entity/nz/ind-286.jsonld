@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/nz/ind-286",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/nz/ind-286",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Oleg Anatolievich Nilov",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Oleg Anatolievich Nilov",
+      "isPrimary": true
     }
   ],
-  "source_references": [
+  "sourceReferences": [
     {
-      "source_code": "nz",
-      "reference_number": "IND-286"
+      "@type": "SourceReference",
+      "sourceCode": "nz",
+      "referenceNumber": "IND-286",
+      "retrievedAt": "2026-09-09T16:30:43Z"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "linkedEntities": [
+
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/nz/consolidated-list/ind-286"
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

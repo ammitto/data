@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/30455",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/30455",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ismailov Zaur Raufovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Ismailov Zaur Raufovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/30455"
   ],
   "remarks": "Former so-called “General Prosecutor” of the so-called “Luhansk People's Republic” (until Oct 2017). Currently so-called “Minister of Justice” of the so-called “Luhansk People's Republic”.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1978-07-25",
-      "circa": false
+      "circa": false,
+      "year": 1978
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,34 +1,53 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7404",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7404",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Viktor Petrovich TOMENKO",
+      "@type": "NameVariant",
+      "fullName": "Viktor Petrovich TOMENKO",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Viktor Petrovych TOMENKO",
+      "@type": "NameVariant",
+      "fullName": "Viktor Petrovych TOMENKO",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Member of the State Council for the Russian Federation, Governor of Altai Krai; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 2) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7404"
   ],
-  "birth_info": [
+  "remarks": "Member of the State Council for the Russian Federation, Governor of Altai Krai; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 2) Instrument 2023",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1971,
       "country": "Norilsk"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1972,
       "country": "Krasnoyarsk region"
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

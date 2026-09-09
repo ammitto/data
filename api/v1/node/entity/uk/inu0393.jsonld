@@ -1,17 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/inu0393",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/inu0393",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Rahimi",
-      "first_name": "Amir",
+      "@type": "NameVariant",
+      "fullName": "Rahimi",
+      "firstName": "Amir",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "Persons involved in nuclear or ballistic missile activities. Head of Esfahan Nuclear Fuel Research and Production Center,\nwhich is part of the AEOI’s Nuclear Fuel Production and Procurement Company, which is involved in enrichment-related activities.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/inu0393"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "remarks": "Persons involved in nuclear or ballistic missile activities. Head of Esfahan Nuclear Fuel Research and Production Center,\nwhich is part of the AEOI’s Nuclear Fuel Production and Procurement Company, which is involved in enrichment-related activities.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

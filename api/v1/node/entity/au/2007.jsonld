@@ -1,52 +1,73 @@
 {
-  "id": "https://www.ammitto.org/entity/au/2007",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/2007",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "DALIAN SUNNY INDUSTRIES",
+      "@type": "NameVariant",
+      "fullName": "DALIAN SUNNY INDUSTRIES",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Dalian Sunny Industries",
+      "@type": "NameVariant",
+      "fullName": "Dalian Sunny Industries",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Dalian Sunny Industry and Trade Co.",
+      "@type": "NameVariant",
+      "fullName": "Dalian Sunny Industry and Trade Co.",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "LIMMT",
+      "@type": "NameVariant",
+      "fullName": "LIMMT",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "LIMMT Economic and Trade Company",
+      "@type": "NameVariant",
+      "fullName": "LIMMT Economic and Trade Company",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ansi metallurgy industry Co. Ltd",
+      "@type": "NameVariant",
+      "fullName": "Ansi metallurgy industry Co. Ltd",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Blue sky industry corporation",
+      "@type": "NameVariant",
+      "fullName": "Blue sky industry corporation",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Listing: Designated under the Autonomous Sanctions Regulations 2011 on 2 March 2012  (F2012L00479). Relisted 12 January 2024",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/2007"
+  ],
+  "remarks": "Listing: Designated under the Autonomous Sanctions Regulations 2011 on 2 March 2012  (F2012L00479). Relisted 12 January 2024",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "2501-2508 Yuexiu Mansion, No 82 Xinkai Road, Dalian, Liaoning, China;\nNo 08 F25, Yuexiu Mansion Xigang District, Dalian, Liaoning, China",
       "country": "China"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

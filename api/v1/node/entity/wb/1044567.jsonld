@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/1044567",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/1044567",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "KMT INTERNATIONAL PROJECTS DMCC",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "KMT INTERNATIONAL PROJECTS DMCC",
+      "isPrimary": true
     }
   ],
-  "remarks": "(Reg. No: DMCC66523) *706",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/1044567"
+  ],
+  "remarks": "(Reg. No: DMCC66523) *706",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "UNIT 1144 DMCC BUSINESS CENTRE, LEVEL 1, JEWELLERY & GEMPLEX 3",
       "city": "DUBAI",
       "country": "United Arab Emirates",
-      "country_iso_code": "AE"
+      "countryIsoCode": "AE"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

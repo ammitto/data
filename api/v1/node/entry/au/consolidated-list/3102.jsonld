@@ -1,37 +1,47 @@
 {
-  "id": "https://www.ammitto.org/entry/au/consolidated-list/3102",
-  "entity_id": "https://www.ammitto.org/entity/au/3102",
+  "@id": "https://www.ammitto.org/entry/au/consolidated-list/3102",
+  "@type": "SanctionEntry",
+  "entityId": "https://www.ammitto.org/entity/au/3102",
   "authority": {
     "@id": "https://www.ammitto.org/authority/au"
   },
   "regime": {
-    "@id": "https://www.ammitto.org/regime/au_sudan"
+    "@id": "https://www.ammitto.org/regime/au_sudan",
+    "name": "Sudan"
   },
-  "legal_bases": [
+  "legalBases": [
     {
-      "type": "regulation",
-      "identifier": "Charter of the United Nations (Sanctions—South Sudan) Regulation 2015",
-      "title": "Charter of the United Nations (Sanctions—South Sudan) Regulation 2015"
+      "@id": "https://www.ammitto.org/legal-instrument/au/charter-of-the-united-nations-sanctions-south-sudan-regulation-2015"
     }
   ],
   "effects": [
     {
-      "effect_type": "asset_freeze",
+      "@type": "SanctionEffect",
+      "effectType": "asset_freeze",
       "scope": "full"
     },
     {
-      "effect_type": "travel_ban",
+      "@type": "SanctionEffect",
+      "effectType": "travel_ban",
       "scope": "full"
     }
   ],
+  "reasons": [
+
+  ],
   "period": {
-    "is_indefinite": true
+    "@type": "TemporalPeriod",
+    "isIndefinite": true
   },
   "status": "active",
-  "reference_number": "3102",
-  "raw_source_data": {
-    "source_format": "csv",
-    "source_specific_fields": {
+  "statusHistory": [
+
+  ],
+  "referenceNumber": "3102",
+  "rawSourceData": {
+    "@type": "RawSourceData",
+    "sourceFormat": "csv",
+    "sourceSpecificFields": {
       "au:reference": "3102",
       "au:committees": "2206 (South Sudan)",
       "au:control_date": "2026-02-06",
@@ -39,5 +49,5 @@
       "au:listing_info": "Listed on 1 July 2015."
     }
   },
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

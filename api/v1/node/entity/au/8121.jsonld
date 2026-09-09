@@ -1,37 +1,55 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8121",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/8121",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "33rd Scientific Research and Testing Institute",
+      "@type": "NameVariant",
+      "fullName": "33rd Scientific Research and Testing Institute",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "33rd Central Experimental Institute for Scientific Research of the Ministry of Defence",
+      "@type": "NameVariant",
+      "fullName": "33rd Central Experimental Institute for Scientific Research of the Ministry of Defence",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "33rd Central Research and Testing Institute of the Ministry of Defence of the Russian Federation",
+      "@type": "NameVariant",
+      "fullName": "33rd Central Research and Testing Institute of the Ministry of Defence of the Russian Federation",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "33rd TsNIII",
+      "@type": "NameVariant",
+      "fullName": "33rd TsNIII",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Company Identification No. 1056404108001; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8121"
+  ],
+  "remarks": "Company Identification No. 1056404108001; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Krasnoznamennaya Street 1, Volsk-18, Saratov 412918 Russia",
       "country": "Saratov 412918 Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

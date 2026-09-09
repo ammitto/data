@@ -1,1285 +1,4367 @@
 {
-  "@context": "https://www.ammitto.org/ontology/context.jsonld",
+  "@context": "https://ammitto.org/api/v1/context.jsonld",
   "@graph": [
     {
-      "id": "https://www.ammitto.org/entity/un_vessels/7303803",
-      "entity_type": "vessel",
+      "@id": "https://www.ammitto.org/entity/un_vessels/7303803",
+      "@type": "VesselEntity",
+      "entityType": "vessel",
       "names": [
         {
-          "full_name": "AN SAN 1",
-          "is_primary": true
+          "@type": "NameVariant",
+          "fullName": "AN SAN 1",
+          "isPrimary": true
         }
       ],
-      "source_references": [
+      "sourceReferences": [
         {
-          "source_code": "un_vessels",
-          "reference_number": "7303803"
+          "@type": "SourceReference",
+          "sourceCode": "un_vessels",
+          "referenceNumber": "7303803",
+          "retrievedAt": "2026-09-09T16:30:54Z"
         }
       ],
-      "imo_number": "7303803"
+      "linkedEntities": [
+
+      ],
+      "imoNumber": "7303803",
+      "previousNames": [
+
+      ],
+      "previousFlags": [
+
+      ],
+      "hasSanctionEntry": [
+        "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/7303803"
+      ]
     },
     {
-      "id": "https://www.ammitto.org/entity/un_vessels/7389704",
-      "entity_type": "vessel",
-      "names": [
-        {
-          "full_name": "RYE SONG GANG 1",
-          "is_primary": true
-        }
-      ],
-      "source_references": [
-        {
-          "source_code": "un_vessels",
-          "reference_number": "7389704"
-        }
-      ],
-      "imo_number": "7389704"
-    },
-    {
-      "id": "https://www.ammitto.org/entity/un_vessels/7408873",
-      "entity_type": "vessel",
-      "names": [
-        {
-          "full_name": "SAM JONG 2",
-          "is_primary": true
-        }
-      ],
-      "source_references": [
-        {
-          "source_code": "un_vessels",
-          "reference_number": "7408873"
-        }
-      ],
-      "imo_number": "7408873"
-    },
-    {
-      "id": "https://www.ammitto.org/entity/un_vessels/8106496",
-      "entity_type": "vessel",
-      "names": [
-        {
-          "full_name": "SAM MA 2",
-          "is_primary": true
-        }
-      ],
-      "source_references": [
-        {
-          "source_code": "un_vessels",
-          "reference_number": "8106496"
-        }
-      ],
-      "imo_number": "8106496"
-    },
-    {
-      "id": "https://www.ammitto.org/entity/un_vessels/8122347",
-      "entity_type": "vessel",
-      "names": [
-        {
-          "full_name": "NAM SAN 8",
-          "is_primary": true
-        }
-      ],
-      "source_references": [
-        {
-          "source_code": "un_vessels",
-          "reference_number": "8122347"
-        }
-      ],
-      "imo_number": "8122347"
-    },
-    {
-      "id": "https://www.ammitto.org/entity/un_vessels/8126070",
-      "entity_type": "vessel",
-      "names": [
-        {
-          "full_name": "SHANG YUAN BAO",
-          "is_primary": true
-        }
-      ],
-      "source_references": [
-        {
-          "source_code": "un_vessels",
-          "reference_number": "8126070"
-        }
-      ],
-      "imo_number": "8126070"
-    },
-    {
-      "id": "https://www.ammitto.org/entity/un_vessels/8312497",
-      "entity_type": "vessel",
-      "names": [
-        {
-          "full_name": "NEW REGENT",
-          "is_primary": true
-        }
-      ],
-      "source_references": [
-        {
-          "source_code": "un_vessels",
-          "reference_number": "8312497"
-        }
-      ],
-      "imo_number": "8312497"
-    },
-    {
-      "id": "https://www.ammitto.org/entity/un_vessels/8405311",
-      "entity_type": "vessel",
-      "names": [
-        {
-          "full_name": "SAM JONG 1",
-          "is_primary": true
-        }
-      ],
-      "source_references": [
-        {
-          "source_code": "un_vessels",
-          "reference_number": "8405311"
-        }
-      ],
-      "imo_number": "8405311"
-    },
-    {
-      "id": "https://www.ammitto.org/entity/un_vessels/8408595",
-      "entity_type": "vessel",
-      "names": [
-        {
-          "full_name": "WOORY STAR",
-          "is_primary": true
-        }
-      ],
-      "source_references": [
-        {
-          "source_code": "un_vessels",
-          "reference_number": "8408595"
-        }
-      ],
-      "imo_number": "8408595"
-    },
-    {
-      "id": "https://www.ammitto.org/entity/un_vessels/8503228",
-      "entity_type": "vessel",
-      "names": [
-        {
-          "full_name": "JI SONG 8",
-          "is_primary": true
-        }
-      ],
-      "source_references": [
-        {
-          "source_code": "un_vessels",
-          "reference_number": "8503228"
-        }
-      ],
-      "imo_number": "8503228"
-    },
-    {
-      "id": "https://www.ammitto.org/entity/un_vessels/8518572",
-      "entity_type": "vessel",
-      "names": [
-        {
-          "full_name": "JIN HYE",
-          "is_primary": true
-        }
-      ],
-      "source_references": [
-        {
-          "source_code": "un_vessels",
-          "reference_number": "8518572"
-        }
-      ],
-      "imo_number": "8518572"
-    },
-    {
-      "id": "https://www.ammitto.org/entity/un_vessels/8604917",
-      "entity_type": "vessel",
-      "names": [
-        {
-          "full_name": "YU JONG 2",
-          "is_primary": true
-        }
-      ],
-      "source_references": [
-        {
-          "source_code": "un_vessels",
-          "reference_number": "8604917"
-        }
-      ],
-      "imo_number": "8604917"
-    },
-    {
-      "id": "https://www.ammitto.org/entity/un_vessels/8605026",
-      "entity_type": "vessel",
-      "names": [
-        {
-          "full_name": "YU PHYONG 5",
-          "is_primary": true
-        }
-      ],
-      "source_references": [
-        {
-          "source_code": "un_vessels",
-          "reference_number": "8605026"
-        }
-      ],
-      "imo_number": "8605026"
-    },
-    {
-      "id": "https://www.ammitto.org/entity/un_vessels/8660313",
-      "entity_type": "vessel",
-      "names": [
-        {
-          "full_name": "CHON MA SAN",
-          "is_primary": true
-        }
-      ],
-      "source_references": [
-        {
-          "source_code": "un_vessels",
-          "reference_number": "8660313"
-        }
-      ],
-      "imo_number": "8660313"
-    },
-    {
-      "id": "https://www.ammitto.org/entity/un_vessels/8691702",
-      "entity_type": "vessel",
-      "names": [
-        {
-          "full_name": "YU SON",
-          "is_primary": true
-        }
-      ],
-      "source_references": [
-        {
-          "source_code": "un_vessels",
-          "reference_number": "8691702"
-        }
-      ],
-      "imo_number": "8691702"
-    },
-    {
-      "id": "https://www.ammitto.org/entity/un_vessels/8705539",
-      "entity_type": "vessel",
-      "names": [
-        {
-          "full_name": "KUM UN SAN 3",
-          "is_primary": true
-        }
-      ],
-      "source_references": [
-        {
-          "source_code": "un_vessels",
-          "reference_number": "8705539"
-        }
-      ],
-      "imo_number": "8705539"
-    },
-    {
-      "id": "https://www.ammitto.org/entity/un_vessels/8712362",
-      "entity_type": "vessel",
-      "names": [
-        {
-          "full_name": "CHON MYONG 1",
-          "is_primary": true
-        }
-      ],
-      "source_references": [
-        {
-          "source_code": "un_vessels",
-          "reference_number": "8712362"
-        }
-      ],
-      "imo_number": "8712362"
-    },
-    {
-      "id": "https://www.ammitto.org/entity/un_vessels/8747604",
-      "entity_type": "vessel",
-      "names": [
-        {
-          "full_name": "HAO FAN 2",
-          "is_primary": true
-        }
-      ],
-      "source_references": [
-        {
-          "source_code": "un_vessels",
-          "reference_number": "8747604"
-        }
-      ],
-      "imo_number": "8747604"
-    },
-    {
-      "id": "https://www.ammitto.org/entity/un_vessels/8791667",
-      "entity_type": "vessel",
-      "names": [
-        {
-          "full_name": "WAN HENG 11",
-          "is_primary": true
-        }
-      ],
-      "source_references": [
-        {
-          "source_code": "un_vessels",
-          "reference_number": "8791667"
-        }
-      ],
-      "imo_number": "8791667"
-    },
-    {
-      "id": "https://www.ammitto.org/entity/un_vessels/8898740",
-      "entity_type": "vessel",
-      "names": [
-        {
-          "full_name": "JI SONG 6",
-          "is_primary": true
-        }
-      ],
-      "source_references": [
-        {
-          "source_code": "un_vessels",
-          "reference_number": "8898740"
-        }
-      ],
-      "imo_number": "8898740"
-    },
-    {
-      "id": "https://www.ammitto.org/entity/un_vessels/8914934",
-      "entity_type": "vessel",
-      "names": [
-        {
-          "full_name": "FAN KE",
-          "is_primary": true
-        }
-      ],
-      "source_references": [
-        {
-          "source_code": "un_vessels",
-          "reference_number": "8914934"
-        }
-      ],
-      "imo_number": "8914934"
-    },
-    {
-      "id": "https://www.ammitto.org/entity/un_vessels/8916580",
-      "entity_type": "vessel",
-      "names": [
-        {
-          "full_name": "ASIA BRIDGE 1",
-          "is_primary": true
-        }
-      ],
-      "source_references": [
-        {
-          "source_code": "un_vessels",
-          "reference_number": "8916580"
-        }
-      ],
-      "imo_number": "8916580"
-    },
-    {
-      "id": "https://www.ammitto.org/entity/un_vessels/9004700",
-      "entity_type": "vessel",
-      "names": [
-        {
-          "full_name": "XIN GUANG HAI",
-          "is_primary": true
-        }
-      ],
-      "source_references": [
-        {
-          "source_code": "un_vessels",
-          "reference_number": "9004700"
-        }
-      ],
-      "imo_number": "9004700"
-    },
-    {
-      "id": "https://www.ammitto.org/entity/un_vessels/9008201",
-      "entity_type": "vessel",
-      "names": [
-        {
-          "full_name": "DONG FENG 6",
-          "is_primary": true
-        }
-      ],
-      "source_references": [
-        {
-          "source_code": "un_vessels",
-          "reference_number": "9008201"
-        }
-      ],
-      "imo_number": "9008201"
-    },
-    {
-      "id": "https://www.ammitto.org/entity/un_vessels/9020003",
-      "entity_type": "vessel",
-      "names": [
-        {
-          "full_name": "HUA FU",
-          "is_primary": true
-        }
-      ],
-      "source_references": [
-        {
-          "source_code": "un_vessels",
-          "reference_number": "9020003"
-        }
-      ],
-      "imo_number": "9020003"
-    },
-    {
-      "id": "https://www.ammitto.org/entity/un_vessels/9020534",
-      "entity_type": "vessel",
-      "names": [
-        {
-          "full_name": "RUNG RA 2",
-          "is_primary": true
-        }
-      ],
-      "source_references": [
-        {
-          "source_code": "un_vessels",
-          "reference_number": "9020534"
-        }
-      ],
-      "imo_number": "9020534"
-    },
-    {
-      "id": "https://www.ammitto.org/entity/un_vessels/9030591",
-      "entity_type": "vessel",
-      "names": [
-        {
-          "full_name": "YUK TUNG",
-          "is_primary": true
-        }
-      ],
-      "source_references": [
-        {
-          "source_code": "un_vessels",
-          "reference_number": "9030591"
-        }
-      ],
-      "imo_number": "9030591"
-    },
-    {
-      "id": "https://www.ammitto.org/entity/un_vessels/9066540",
-      "entity_type": "vessel",
-      "names": [
-        {
-          "full_name": "HAP JANG GANG 6",
-          "is_primary": true
-        }
-      ],
-      "source_references": [
-        {
-          "source_code": "un_vessels",
-          "reference_number": "9066540"
-        }
-      ],
-      "imo_number": "9066540"
-    },
-    {
-      "id": "https://www.ammitto.org/entity/un_vessels/9066978",
-      "entity_type": "vessel",
-      "names": [
-        {
-          "full_name": "PAEK MA",
-          "is_primary": true
-        }
-      ],
-      "source_references": [
-        {
-          "source_code": "un_vessels",
-          "reference_number": "9066978"
-        }
-      ],
-      "imo_number": "9066978"
-    },
-    {
-      "id": "https://www.ammitto.org/entity/un_vessels/9114555",
-      "entity_type": "vessel",
-      "names": [
-        {
-          "full_name": "UL JI BONG 6",
-          "is_primary": true
-        }
-      ],
-      "source_references": [
-        {
-          "source_code": "un_vessels",
-          "reference_number": "9114555"
-        }
-      ],
-      "imo_number": "9114555"
-    },
-    {
-      "id": "https://www.ammitto.org/entity/un_vessels/9191773",
-      "entity_type": "vessel",
-      "names": [
-        {
-          "full_name": "BILLIONS NO. 18",
-          "is_primary": true
-        }
-      ],
-      "source_references": [
-        {
-          "source_code": "un_vessels",
-          "reference_number": "9191773"
-        }
-      ],
-      "imo_number": "9191773"
-    },
-    {
-      "id": "https://www.ammitto.org/entity/un_vessels/9417115",
-      "entity_type": "vessel",
-      "names": [
-        {
-          "full_name": "KOTI",
-          "is_primary": true
-        }
-      ],
-      "source_references": [
-        {
-          "source_code": "un_vessels",
-          "reference_number": "9417115"
-        }
-      ],
-      "imo_number": "9417115"
-    },
-    {
-      "id": "https://www.ammitto.org/entry/un_vessels/7303803",
-      "entity_id": "https://www.ammitto.org/entity/un_vessels/7303803",
-      "regime": {
-        "name": "UN Security Council - UN Security Council",
-        "code": "UN"
+      "@id": "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/7303803",
+      "@type": "SanctionEntry",
+      "entityId": "https://www.ammitto.org/entity/un_vessels/7303803",
+      "authority": {
+        "@id": "https://www.ammitto.org/authority/un_vessels"
       },
+      "regime": {
+        "@id": "https://www.ammitto.org/regime/un-1718",
+        "name": "UN Security Council - Resolution 1718 (2006)"
+      },
+      "legalBases": [
+
+      ],
       "effects": [
         {
-          "effect_type": "asset_freeze",
+          "@type": "SanctionEffect",
+          "effectType": "asset_freeze",
           "scope": "full"
         },
         {
-          "effect_type": "transport_sanction",
+          "@type": "SanctionEffect",
+          "effectType": "transport_sanction",
           "scope": "full"
         }
       ],
+      "reasons": [
+
+      ],
       "period": {
-        "listed_date": "2018-03-30",
-        "is_indefinite": true
+        "@type": "TemporalPeriod",
+        "listedDate": "2018-03-30",
+        "isIndefinite": true
       },
-      "status": "active"
+      "status": "active",
+      "statusHistory": [
+
+      ]
     },
     {
-      "id": "https://www.ammitto.org/entry/un_vessels/7389704",
-      "entity_id": "https://www.ammitto.org/entity/un_vessels/7389704",
-      "regime": {
-        "name": "UN Security Council - UN Security Council",
-        "code": "UN"
+      "@id": "https://www.ammitto.org/entity/un_vessels/7389704",
+      "@type": "VesselEntity",
+      "entityType": "vessel",
+      "names": [
+        {
+          "@type": "NameVariant",
+          "fullName": "RYE SONG GANG 1",
+          "isPrimary": true
+        }
+      ],
+      "sourceReferences": [
+        {
+          "@type": "SourceReference",
+          "sourceCode": "un_vessels",
+          "referenceNumber": "7389704",
+          "retrievedAt": "2026-09-09T16:30:54Z"
+        }
+      ],
+      "linkedEntities": [
+
+      ],
+      "imoNumber": "7389704",
+      "previousNames": [
+
+      ],
+      "previousFlags": [
+
+      ],
+      "hasSanctionEntry": [
+        "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/7389704"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/7389704",
+      "@type": "SanctionEntry",
+      "entityId": "https://www.ammitto.org/entity/un_vessels/7389704",
+      "authority": {
+        "@id": "https://www.ammitto.org/authority/un_vessels"
       },
+      "regime": {
+        "@id": "https://www.ammitto.org/regime/un-1718",
+        "name": "UN Security Council - Resolution 1718 (2006)"
+      },
+      "legalBases": [
+
+      ],
       "effects": [
         {
-          "effect_type": "asset_freeze",
+          "@type": "SanctionEffect",
+          "effectType": "asset_freeze",
           "scope": "full"
         },
         {
-          "effect_type": "transport_sanction",
+          "@type": "SanctionEffect",
+          "effectType": "transport_sanction",
           "scope": "full"
         }
       ],
+      "reasons": [
+
+      ],
       "period": {
-        "listed_date": "2017-12-28",
-        "is_indefinite": true
+        "@type": "TemporalPeriod",
+        "listedDate": "2017-12-28",
+        "isIndefinite": true
       },
-      "status": "active"
+      "status": "active",
+      "statusHistory": [
+
+      ]
     },
     {
-      "id": "https://www.ammitto.org/entry/un_vessels/7408873",
-      "entity_id": "https://www.ammitto.org/entity/un_vessels/7408873",
-      "regime": {
-        "name": "UN Security Council - UN Security Council",
-        "code": "UN"
+      "@id": "https://www.ammitto.org/entity/un_vessels/7408873",
+      "@type": "VesselEntity",
+      "entityType": "vessel",
+      "names": [
+        {
+          "@type": "NameVariant",
+          "fullName": "SAM JONG 2",
+          "isPrimary": true
+        }
+      ],
+      "sourceReferences": [
+        {
+          "@type": "SourceReference",
+          "sourceCode": "un_vessels",
+          "referenceNumber": "7408873",
+          "retrievedAt": "2026-09-09T16:30:54Z"
+        }
+      ],
+      "linkedEntities": [
+
+      ],
+      "imoNumber": "7408873",
+      "previousNames": [
+
+      ],
+      "previousFlags": [
+
+      ],
+      "hasSanctionEntry": [
+        "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/7408873"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/7408873",
+      "@type": "SanctionEntry",
+      "entityId": "https://www.ammitto.org/entity/un_vessels/7408873",
+      "authority": {
+        "@id": "https://www.ammitto.org/authority/un_vessels"
       },
+      "regime": {
+        "@id": "https://www.ammitto.org/regime/un-1718",
+        "name": "UN Security Council - Resolution 1718 (2006)"
+      },
+      "legalBases": [
+
+      ],
       "effects": [
         {
-          "effect_type": "asset_freeze",
+          "@type": "SanctionEffect",
+          "effectType": "asset_freeze",
           "scope": "full"
         },
         {
-          "effect_type": "transport_sanction",
+          "@type": "SanctionEffect",
+          "effectType": "transport_sanction",
           "scope": "full"
         }
       ],
+      "reasons": [
+
+      ],
       "period": {
-        "listed_date": "2018-03-30",
-        "is_indefinite": true
+        "@type": "TemporalPeriod",
+        "listedDate": "2018-03-30",
+        "isIndefinite": true
       },
-      "status": "active"
+      "status": "active",
+      "statusHistory": [
+
+      ]
     },
     {
-      "id": "https://www.ammitto.org/entry/un_vessels/8106496",
-      "entity_id": "https://www.ammitto.org/entity/un_vessels/8106496",
-      "regime": {
-        "name": "UN Security Council - UN Security Council",
-        "code": "UN"
+      "@id": "https://www.ammitto.org/entity/un_vessels/7640378",
+      "@type": "VesselEntity",
+      "entityType": "vessel",
+      "names": [
+        {
+          "@type": "NameVariant",
+          "fullName": "Ryong Gang 2",
+          "isPrimary": true
+        },
+        {
+          "@type": "NameVariant",
+          "fullName": "Tan Chon",
+          "isPrimary": false
+        }
+      ],
+      "sourceReferences": [
+        {
+          "@type": "SourceReference",
+          "sourceCode": "un_vessels",
+          "referenceNumber": "7640378",
+          "retrievedAt": "2026-09-09T16:30:54Z"
+        }
+      ],
+      "linkedEntities": [
+
+      ],
+      "imoNumber": "7640378",
+      "previousNames": [
+
+      ],
+      "previousFlags": [
+
+      ],
+      "hasSanctionEntry": [
+        "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/7640378"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/7640378",
+      "@type": "SanctionEntry",
+      "entityId": "https://www.ammitto.org/entity/un_vessels/7640378",
+      "authority": {
+        "@id": "https://www.ammitto.org/authority/un_vessels"
       },
+      "regime": {
+        "@id": "https://www.ammitto.org/regime/un-1718",
+        "name": "UN Security Council - Resolution 1718 (2006)"
+      },
+      "legalBases": [
+
+      ],
       "effects": [
         {
-          "effect_type": "asset_freeze",
+          "@type": "SanctionEffect",
+          "effectType": "asset_freeze",
           "scope": "full"
         },
         {
-          "effect_type": "transport_sanction",
+          "@type": "SanctionEffect",
+          "effectType": "transport_sanction",
           "scope": "full"
         }
       ],
+      "reasons": [
+
+      ],
       "period": {
-        "listed_date": "2018-03-30",
-        "is_indefinite": true
+        "@type": "TemporalPeriod",
+        "listedDate": "2017-06-21",
+        "isIndefinite": true
       },
-      "status": "active"
+      "status": "active",
+      "statusHistory": [
+
+      ]
     },
     {
-      "id": "https://www.ammitto.org/entry/un_vessels/8122347",
-      "entity_id": "https://www.ammitto.org/entity/un_vessels/8122347",
-      "regime": {
-        "name": "UN Security Council - UN Security Council",
-        "code": "UN"
+      "@id": "https://www.ammitto.org/entity/un_vessels/7937317",
+      "@type": "VesselEntity",
+      "entityType": "vessel",
+      "names": [
+        {
+          "@type": "NameVariant",
+          "fullName": "Chong Chon Gang",
+          "isPrimary": true
+        },
+        {
+          "@type": "NameVariant",
+          "fullName": "Tong Hung San",
+          "isPrimary": false
+        }
+      ],
+      "sourceReferences": [
+        {
+          "@type": "SourceReference",
+          "sourceCode": "un_vessels",
+          "referenceNumber": "7937317",
+          "retrievedAt": "2026-09-09T16:30:54Z"
+        }
+      ],
+      "linkedEntities": [
+
+      ],
+      "imoNumber": "7937317",
+      "previousNames": [
+
+      ],
+      "previousFlags": [
+
+      ],
+      "hasSanctionEntry": [
+        "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/7937317"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/7937317",
+      "@type": "SanctionEntry",
+      "entityId": "https://www.ammitto.org/entity/un_vessels/7937317",
+      "authority": {
+        "@id": "https://www.ammitto.org/authority/un_vessels"
       },
+      "regime": {
+        "@id": "https://www.ammitto.org/regime/un-1718",
+        "name": "UN Security Council - Resolution 1718 (2006)"
+      },
+      "legalBases": [
+
+      ],
       "effects": [
         {
-          "effect_type": "asset_freeze",
+          "@type": "SanctionEffect",
+          "effectType": "asset_freeze",
           "scope": "full"
         },
         {
-          "effect_type": "transport_sanction",
+          "@type": "SanctionEffect",
+          "effectType": "transport_sanction",
           "scope": "full"
         }
       ],
+      "reasons": [
+
+      ],
       "period": {
-        "listed_date": "2018-03-30",
-        "is_indefinite": true
+        "@type": "TemporalPeriod",
+        "listedDate": "2017-06-21",
+        "isIndefinite": true
       },
-      "status": "active"
+      "status": "active",
+      "statusHistory": [
+
+      ]
     },
     {
-      "id": "https://www.ammitto.org/entry/un_vessels/8126070",
-      "entity_id": "https://www.ammitto.org/entity/un_vessels/8126070",
-      "regime": {
-        "name": "UN Security Council - UN Security Council",
-        "code": "UN"
+      "@id": "https://www.ammitto.org/entity/un_vessels/8018900",
+      "@type": "VesselEntity",
+      "entityType": "vessel",
+      "names": [
+        {
+          "@type": "NameVariant",
+          "fullName": "Hyok Sin 2",
+          "isPrimary": true
+        },
+        {
+          "@type": "NameVariant",
+          "fullName": "Ji Hye San",
+          "isPrimary": false
+        },
+        {
+          "@type": "NameVariant",
+          "fullName": "Ri Won 105",
+          "isPrimary": false
+        }
+      ],
+      "sourceReferences": [
+        {
+          "@type": "SourceReference",
+          "sourceCode": "un_vessels",
+          "referenceNumber": "8018900",
+          "retrievedAt": "2026-09-09T16:30:54Z"
+        }
+      ],
+      "linkedEntities": [
+
+      ],
+      "imoNumber": "8018900",
+      "previousNames": [
+
+      ],
+      "previousFlags": [
+
+      ],
+      "hasSanctionEntry": [
+        "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/8018900"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/8018900",
+      "@type": "SanctionEntry",
+      "entityId": "https://www.ammitto.org/entity/un_vessels/8018900",
+      "authority": {
+        "@id": "https://www.ammitto.org/authority/un_vessels"
       },
+      "regime": {
+        "@id": "https://www.ammitto.org/regime/un-1718",
+        "name": "UN Security Council - Resolution 1718 (2006)"
+      },
+      "legalBases": [
+
+      ],
       "effects": [
         {
-          "effect_type": "asset_freeze",
+          "@type": "SanctionEffect",
+          "effectType": "asset_freeze",
           "scope": "full"
         },
         {
-          "effect_type": "transport_sanction",
+          "@type": "SanctionEffect",
+          "effectType": "transport_sanction",
           "scope": "full"
         }
       ],
+      "reasons": [
+
+      ],
       "period": {
-        "listed_date": "2018-10-16",
-        "is_indefinite": true
+        "@type": "TemporalPeriod",
+        "listedDate": "2017-06-21",
+        "isIndefinite": true
       },
-      "status": "active"
+      "status": "active",
+      "statusHistory": [
+
+      ]
     },
     {
-      "id": "https://www.ammitto.org/entry/un_vessels/8312497",
-      "entity_id": "https://www.ammitto.org/entity/un_vessels/8312497",
-      "regime": {
-        "name": "UN Security Council - UN Security Council",
-        "code": "UN"
+      "@id": "https://www.ammitto.org/entity/un_vessels/8018912",
+      "@type": "VesselEntity",
+      "entityType": "vessel",
+      "names": [
+        {
+          "@type": "NameVariant",
+          "fullName": "Jon Jin 2",
+          "isPrimary": true
+        },
+        {
+          "@type": "NameVariant",
+          "fullName": "Ryong Rim",
+          "isPrimary": false
+        },
+        {
+          "@type": "NameVariant",
+          "fullName": "Sin Pho 99",
+          "isPrimary": false
+        }
+      ],
+      "sourceReferences": [
+        {
+          "@type": "SourceReference",
+          "sourceCode": "un_vessels",
+          "referenceNumber": "8018912",
+          "retrievedAt": "2026-09-09T16:30:54Z"
+        }
+      ],
+      "linkedEntities": [
+
+      ],
+      "imoNumber": "8018912",
+      "previousNames": [
+
+      ],
+      "previousFlags": [
+
+      ],
+      "hasSanctionEntry": [
+        "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/8018912"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/8018912",
+      "@type": "SanctionEntry",
+      "entityId": "https://www.ammitto.org/entity/un_vessels/8018912",
+      "authority": {
+        "@id": "https://www.ammitto.org/authority/un_vessels"
       },
+      "regime": {
+        "@id": "https://www.ammitto.org/regime/un-1718",
+        "name": "UN Security Council - Resolution 1718 (2006)"
+      },
+      "legalBases": [
+
+      ],
       "effects": [
         {
-          "effect_type": "asset_freeze",
+          "@type": "SanctionEffect",
+          "effectType": "asset_freeze",
           "scope": "full"
         },
         {
-          "effect_type": "transport_sanction",
+          "@type": "SanctionEffect",
+          "effectType": "transport_sanction",
           "scope": "full"
         }
       ],
+      "reasons": [
+
+      ],
       "period": {
-        "listed_date": "2018-10-16",
-        "is_indefinite": true
+        "@type": "TemporalPeriod",
+        "listedDate": "2017-06-21",
+        "isIndefinite": true
       },
-      "status": "active"
+      "status": "active",
+      "statusHistory": [
+
+      ]
     },
     {
-      "id": "https://www.ammitto.org/entry/un_vessels/8405311",
-      "entity_id": "https://www.ammitto.org/entity/un_vessels/8405311",
-      "regime": {
-        "name": "UN Security Council - UN Security Council",
-        "code": "UN"
+      "@id": "https://www.ammitto.org/entity/un_vessels/8106496",
+      "@type": "VesselEntity",
+      "entityType": "vessel",
+      "names": [
+        {
+          "@type": "NameVariant",
+          "fullName": "SAM MA 2",
+          "isPrimary": true
+        }
+      ],
+      "sourceReferences": [
+        {
+          "@type": "SourceReference",
+          "sourceCode": "un_vessels",
+          "referenceNumber": "8106496",
+          "retrievedAt": "2026-09-09T16:30:54Z"
+        }
+      ],
+      "linkedEntities": [
+
+      ],
+      "imoNumber": "8106496",
+      "previousNames": [
+
+      ],
+      "previousFlags": [
+
+      ],
+      "hasSanctionEntry": [
+        "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/8106496"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/8106496",
+      "@type": "SanctionEntry",
+      "entityId": "https://www.ammitto.org/entity/un_vessels/8106496",
+      "authority": {
+        "@id": "https://www.ammitto.org/authority/un_vessels"
       },
+      "regime": {
+        "@id": "https://www.ammitto.org/regime/un-1718",
+        "name": "UN Security Council - Resolution 1718 (2006)"
+      },
+      "legalBases": [
+
+      ],
       "effects": [
         {
-          "effect_type": "asset_freeze",
+          "@type": "SanctionEffect",
+          "effectType": "asset_freeze",
           "scope": "full"
         },
         {
-          "effect_type": "transport_sanction",
+          "@type": "SanctionEffect",
+          "effectType": "transport_sanction",
           "scope": "full"
         }
       ],
+      "reasons": [
+
+      ],
       "period": {
-        "listed_date": "2018-03-30",
-        "is_indefinite": true
+        "@type": "TemporalPeriod",
+        "listedDate": "2018-03-30",
+        "isIndefinite": true
       },
-      "status": "active"
+      "status": "active",
+      "statusHistory": [
+
+      ]
     },
     {
-      "id": "https://www.ammitto.org/entry/un_vessels/8408595",
-      "entity_id": "https://www.ammitto.org/entity/un_vessels/8408595",
-      "regime": {
-        "name": "UN Security Council - UN Security Council",
-        "code": "UN"
+      "@id": "https://www.ammitto.org/entity/un_vessels/8122347",
+      "@type": "VesselEntity",
+      "entityType": "vessel",
+      "names": [
+        {
+          "@type": "NameVariant",
+          "fullName": "NAM SAN 8",
+          "isPrimary": true
+        }
+      ],
+      "sourceReferences": [
+        {
+          "@type": "SourceReference",
+          "sourceCode": "un_vessels",
+          "referenceNumber": "8122347",
+          "retrievedAt": "2026-09-09T16:30:54Z"
+        }
+      ],
+      "linkedEntities": [
+
+      ],
+      "imoNumber": "8122347",
+      "previousNames": [
+
+      ],
+      "previousFlags": [
+
+      ],
+      "hasSanctionEntry": [
+        "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/8122347"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/8122347",
+      "@type": "SanctionEntry",
+      "entityId": "https://www.ammitto.org/entity/un_vessels/8122347",
+      "authority": {
+        "@id": "https://www.ammitto.org/authority/un_vessels"
       },
+      "regime": {
+        "@id": "https://www.ammitto.org/regime/un-1718",
+        "name": "UN Security Council - Resolution 1718 (2006)"
+      },
+      "legalBases": [
+
+      ],
       "effects": [
         {
-          "effect_type": "asset_freeze",
+          "@type": "SanctionEffect",
+          "effectType": "asset_freeze",
           "scope": "full"
         },
         {
-          "effect_type": "transport_sanction",
+          "@type": "SanctionEffect",
+          "effectType": "transport_sanction",
           "scope": "full"
         }
       ],
+      "reasons": [
+
+      ],
       "period": {
-        "listed_date": "2018-03-30",
-        "is_indefinite": true
+        "@type": "TemporalPeriod",
+        "listedDate": "2018-03-30",
+        "isIndefinite": true
       },
-      "status": "active"
+      "status": "active",
+      "statusHistory": [
+
+      ]
     },
     {
-      "id": "https://www.ammitto.org/entry/un_vessels/8503228",
-      "entity_id": "https://www.ammitto.org/entity/un_vessels/8503228",
-      "regime": {
-        "name": "UN Security Council - UN Security Council",
-        "code": "UN"
+      "@id": "https://www.ammitto.org/entity/un_vessels/8126070",
+      "@type": "VesselEntity",
+      "entityType": "vessel",
+      "names": [
+        {
+          "@type": "NameVariant",
+          "fullName": "SHANG YUAN BAO",
+          "isPrimary": true
+        }
+      ],
+      "sourceReferences": [
+        {
+          "@type": "SourceReference",
+          "sourceCode": "un_vessels",
+          "referenceNumber": "8126070",
+          "retrievedAt": "2026-09-09T16:30:54Z"
+        }
+      ],
+      "linkedEntities": [
+
+      ],
+      "imoNumber": "8126070",
+      "previousNames": [
+
+      ],
+      "previousFlags": [
+
+      ],
+      "hasSanctionEntry": [
+        "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/8126070"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/8126070",
+      "@type": "SanctionEntry",
+      "entityId": "https://www.ammitto.org/entity/un_vessels/8126070",
+      "authority": {
+        "@id": "https://www.ammitto.org/authority/un_vessels"
       },
+      "regime": {
+        "@id": "https://www.ammitto.org/regime/un-1718",
+        "name": "UN Security Council - Resolution 1718 (2006)"
+      },
+      "legalBases": [
+
+      ],
       "effects": [
         {
-          "effect_type": "asset_freeze",
+          "@type": "SanctionEffect",
+          "effectType": "asset_freeze",
           "scope": "full"
         },
         {
-          "effect_type": "transport_sanction",
+          "@type": "SanctionEffect",
+          "effectType": "transport_sanction",
           "scope": "full"
         }
       ],
+      "reasons": [
+
+      ],
       "period": {
-        "listed_date": "2018-03-30",
-        "is_indefinite": true
+        "@type": "TemporalPeriod",
+        "listedDate": "2018-10-16",
+        "isIndefinite": true
       },
-      "status": "active"
+      "status": "active",
+      "statusHistory": [
+
+      ]
     },
     {
-      "id": "https://www.ammitto.org/entry/un_vessels/8518572",
-      "entity_id": "https://www.ammitto.org/entity/un_vessels/8518572",
-      "regime": {
-        "name": "UN Security Council - UN Security Council",
-        "code": "UN"
+      "@id": "https://www.ammitto.org/entity/un_vessels/8133530",
+      "@type": "VesselEntity",
+      "entityType": "vessel",
+      "names": [
+        {
+          "@type": "NameVariant",
+          "fullName": "Jang Ja San Chong Nyon Ho",
+          "isPrimary": true
+        },
+        {
+          "@type": "NameVariant",
+          "fullName": "Songjin",
+          "isPrimary": false
+        },
+        {
+          "@type": "NameVariant",
+          "fullName": "Song",
+          "isPrimary": false
+        }
+      ],
+      "sourceReferences": [
+        {
+          "@type": "SourceReference",
+          "sourceCode": "un_vessels",
+          "referenceNumber": "8133530",
+          "retrievedAt": "2026-09-09T16:30:54Z"
+        }
+      ],
+      "linkedEntities": [
+
+      ],
+      "imoNumber": "8133530",
+      "previousNames": [
+
+      ],
+      "previousFlags": [
+
+      ],
+      "hasSanctionEntry": [
+        "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/8133530"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/8133530",
+      "@type": "SanctionEntry",
+      "entityId": "https://www.ammitto.org/entity/un_vessels/8133530",
+      "authority": {
+        "@id": "https://www.ammitto.org/authority/un_vessels"
       },
+      "regime": {
+        "@id": "https://www.ammitto.org/regime/un-1718",
+        "name": "UN Security Council - Resolution 1718 (2006)"
+      },
+      "legalBases": [
+
+      ],
       "effects": [
         {
-          "effect_type": "asset_freeze",
+          "@type": "SanctionEffect",
+          "effectType": "asset_freeze",
           "scope": "full"
         },
         {
-          "effect_type": "transport_sanction",
+          "@type": "SanctionEffect",
+          "effectType": "transport_sanction",
           "scope": "full"
         }
       ],
+      "reasons": [
+
+      ],
       "period": {
-        "listed_date": "2018-03-30",
-        "is_indefinite": true
+        "@type": "TemporalPeriod",
+        "listedDate": "2017-06-21",
+        "isIndefinite": true
       },
-      "status": "active"
+      "status": "active",
+      "statusHistory": [
+
+      ]
     },
     {
-      "id": "https://www.ammitto.org/entry/un_vessels/8604917",
-      "entity_id": "https://www.ammitto.org/entity/un_vessels/8604917",
-      "regime": {
-        "name": "UN Security Council - UN Security Council",
-        "code": "UN"
+      "@id": "https://www.ammitto.org/entity/un_vessels/8312497",
+      "@type": "VesselEntity",
+      "entityType": "vessel",
+      "names": [
+        {
+          "@type": "NameVariant",
+          "fullName": "NEW REGENT",
+          "isPrimary": true
+        }
+      ],
+      "sourceReferences": [
+        {
+          "@type": "SourceReference",
+          "sourceCode": "un_vessels",
+          "referenceNumber": "8312497",
+          "retrievedAt": "2026-09-09T16:30:54Z"
+        }
+      ],
+      "linkedEntities": [
+
+      ],
+      "imoNumber": "8312497",
+      "previousNames": [
+
+      ],
+      "previousFlags": [
+
+      ],
+      "hasSanctionEntry": [
+        "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/8312497"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/8312497",
+      "@type": "SanctionEntry",
+      "entityId": "https://www.ammitto.org/entity/un_vessels/8312497",
+      "authority": {
+        "@id": "https://www.ammitto.org/authority/un_vessels"
       },
+      "regime": {
+        "@id": "https://www.ammitto.org/regime/un-1718",
+        "name": "UN Security Council - Resolution 1718 (2006)"
+      },
+      "legalBases": [
+
+      ],
       "effects": [
         {
-          "effect_type": "asset_freeze",
+          "@type": "SanctionEffect",
+          "effectType": "asset_freeze",
           "scope": "full"
         },
         {
-          "effect_type": "transport_sanction",
+          "@type": "SanctionEffect",
+          "effectType": "transport_sanction",
           "scope": "full"
         }
       ],
+      "reasons": [
+
+      ],
       "period": {
-        "listed_date": "2018-03-30",
-        "is_indefinite": true
+        "@type": "TemporalPeriod",
+        "listedDate": "2018-10-16",
+        "isIndefinite": true
       },
-      "status": "active"
+      "status": "active",
+      "statusHistory": [
+
+      ]
     },
     {
-      "id": "https://www.ammitto.org/entry/un_vessels/8605026",
-      "entity_id": "https://www.ammitto.org/entity/un_vessels/8605026",
-      "regime": {
-        "name": "UN Security Council - UN Security Council",
-        "code": "UN"
+      "@id": "https://www.ammitto.org/entity/un_vessels/8330815",
+      "@type": "VesselEntity",
+      "entityType": "vessel",
+      "names": [
+        {
+          "@type": "NameVariant",
+          "fullName": "O Un Chong Nyon Ho",
+          "isPrimary": true
+        },
+        {
+          "@type": "NameVariant",
+          "fullName": "Hu Chang",
+          "isPrimary": false
+        }
+      ],
+      "sourceReferences": [
+        {
+          "@type": "SourceReference",
+          "sourceCode": "un_vessels",
+          "referenceNumber": "8330815",
+          "retrievedAt": "2026-09-09T16:30:54Z"
+        }
+      ],
+      "linkedEntities": [
+
+      ],
+      "imoNumber": "8330815",
+      "previousNames": [
+
+      ],
+      "previousFlags": [
+
+      ],
+      "hasSanctionEntry": [
+        "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/8330815"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/8330815",
+      "@type": "SanctionEntry",
+      "entityId": "https://www.ammitto.org/entity/un_vessels/8330815",
+      "authority": {
+        "@id": "https://www.ammitto.org/authority/un_vessels"
       },
+      "regime": {
+        "@id": "https://www.ammitto.org/regime/un-1718",
+        "name": "UN Security Council - Resolution 1718 (2006)"
+      },
+      "legalBases": [
+
+      ],
       "effects": [
         {
-          "effect_type": "asset_freeze",
+          "@type": "SanctionEffect",
+          "effectType": "asset_freeze",
           "scope": "full"
         },
         {
-          "effect_type": "transport_sanction",
+          "@type": "SanctionEffect",
+          "effectType": "transport_sanction",
           "scope": "full"
         }
       ],
+      "reasons": [
+
+      ],
       "period": {
-        "listed_date": "2018-03-30",
-        "is_indefinite": true
+        "@type": "TemporalPeriod",
+        "listedDate": "2017-06-21",
+        "isIndefinite": true
       },
-      "status": "active"
+      "status": "active",
+      "statusHistory": [
+
+      ]
     },
     {
-      "id": "https://www.ammitto.org/entry/un_vessels/8660313",
-      "entity_id": "https://www.ammitto.org/entity/un_vessels/8660313",
-      "regime": {
-        "name": "UN Security Council - UN Security Council",
-        "code": "UN"
+      "@id": "https://www.ammitto.org/entity/un_vessels/8405270",
+      "@type": "VesselEntity",
+      "entityType": "vessel",
+      "names": [
+        {
+          "@type": "NameVariant",
+          "fullName": "Hwang Gum San 2",
+          "isPrimary": true
+        },
+        {
+          "@type": "NameVariant",
+          "fullName": "Hui Chon",
+          "isPrimary": false
+        },
+        {
+          "@type": "NameVariant",
+          "fullName": "Song Phyong",
+          "isPrimary": false
+        }
+      ],
+      "sourceReferences": [
+        {
+          "@type": "SourceReference",
+          "sourceCode": "un_vessels",
+          "referenceNumber": "8405270",
+          "retrievedAt": "2026-09-09T16:30:54Z"
+        }
+      ],
+      "linkedEntities": [
+
+      ],
+      "imoNumber": "8405270",
+      "previousNames": [
+
+      ],
+      "previousFlags": [
+
+      ],
+      "hasSanctionEntry": [
+        "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/8405270"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/8405270",
+      "@type": "SanctionEntry",
+      "entityId": "https://www.ammitto.org/entity/un_vessels/8405270",
+      "authority": {
+        "@id": "https://www.ammitto.org/authority/un_vessels"
       },
+      "regime": {
+        "@id": "https://www.ammitto.org/regime/un-1718",
+        "name": "UN Security Council - Resolution 1718 (2006)"
+      },
+      "legalBases": [
+
+      ],
       "effects": [
         {
-          "effect_type": "asset_freeze",
+          "@type": "SanctionEffect",
+          "effectType": "asset_freeze",
           "scope": "full"
         },
         {
-          "effect_type": "transport_sanction",
+          "@type": "SanctionEffect",
+          "effectType": "transport_sanction",
           "scope": "full"
         }
       ],
+      "reasons": [
+
+      ],
       "period": {
-        "listed_date": "2018-03-30",
-        "is_indefinite": true
+        "@type": "TemporalPeriod",
+        "listedDate": "2017-06-21",
+        "isIndefinite": true
       },
-      "status": "active"
+      "status": "active",
+      "statusHistory": [
+
+      ]
     },
     {
-      "id": "https://www.ammitto.org/entry/un_vessels/8691702",
-      "entity_id": "https://www.ammitto.org/entity/un_vessels/8691702",
-      "regime": {
-        "name": "UN Security Council - UN Security Council",
-        "code": "UN"
+      "@id": "https://www.ammitto.org/entity/un_vessels/8405311",
+      "@type": "VesselEntity",
+      "entityType": "vessel",
+      "names": [
+        {
+          "@type": "NameVariant",
+          "fullName": "SAM JONG 1",
+          "isPrimary": true
+        }
+      ],
+      "sourceReferences": [
+        {
+          "@type": "SourceReference",
+          "sourceCode": "un_vessels",
+          "referenceNumber": "8405311",
+          "retrievedAt": "2026-09-09T16:30:54Z"
+        }
+      ],
+      "linkedEntities": [
+
+      ],
+      "imoNumber": "8405311",
+      "previousNames": [
+
+      ],
+      "previousFlags": [
+
+      ],
+      "hasSanctionEntry": [
+        "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/8405311"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/8405311",
+      "@type": "SanctionEntry",
+      "entityId": "https://www.ammitto.org/entity/un_vessels/8405311",
+      "authority": {
+        "@id": "https://www.ammitto.org/authority/un_vessels"
       },
+      "regime": {
+        "@id": "https://www.ammitto.org/regime/un-1718",
+        "name": "UN Security Council - Resolution 1718 (2006)"
+      },
+      "legalBases": [
+
+      ],
       "effects": [
         {
-          "effect_type": "asset_freeze",
+          "@type": "SanctionEffect",
+          "effectType": "asset_freeze",
           "scope": "full"
         },
         {
-          "effect_type": "transport_sanction",
+          "@type": "SanctionEffect",
+          "effectType": "transport_sanction",
           "scope": "full"
         }
       ],
+      "reasons": [
+
+      ],
       "period": {
-        "listed_date": "2018-03-30",
-        "is_indefinite": true
+        "@type": "TemporalPeriod",
+        "listedDate": "2018-03-30",
+        "isIndefinite": true
       },
-      "status": "active"
+      "status": "active",
+      "statusHistory": [
+
+      ]
     },
     {
-      "id": "https://www.ammitto.org/entry/un_vessels/8705539",
-      "entity_id": "https://www.ammitto.org/entity/un_vessels/8705539",
-      "regime": {
-        "name": "UN Security Council - UN Security Council",
-        "code": "UN"
+      "@id": "https://www.ammitto.org/entity/un_vessels/8408595",
+      "@type": "VesselEntity",
+      "entityType": "vessel",
+      "names": [
+        {
+          "@type": "NameVariant",
+          "fullName": "WOORY STAR",
+          "isPrimary": true
+        }
+      ],
+      "sourceReferences": [
+        {
+          "@type": "SourceReference",
+          "sourceCode": "un_vessels",
+          "referenceNumber": "8408595",
+          "retrievedAt": "2026-09-09T16:30:54Z"
+        }
+      ],
+      "linkedEntities": [
+
+      ],
+      "imoNumber": "8408595",
+      "previousNames": [
+
+      ],
+      "previousFlags": [
+
+      ],
+      "hasSanctionEntry": [
+        "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/8408595"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/8408595",
+      "@type": "SanctionEntry",
+      "entityId": "https://www.ammitto.org/entity/un_vessels/8408595",
+      "authority": {
+        "@id": "https://www.ammitto.org/authority/un_vessels"
       },
+      "regime": {
+        "@id": "https://www.ammitto.org/regime/un-1718",
+        "name": "UN Security Council - Resolution 1718 (2006)"
+      },
+      "legalBases": [
+
+      ],
       "effects": [
         {
-          "effect_type": "asset_freeze",
+          "@type": "SanctionEffect",
+          "effectType": "asset_freeze",
           "scope": "full"
         },
         {
-          "effect_type": "transport_sanction",
+          "@type": "SanctionEffect",
+          "effectType": "transport_sanction",
           "scope": "full"
         }
       ],
+      "reasons": [
+
+      ],
       "period": {
-        "listed_date": "2018-10-16",
-        "is_indefinite": true
+        "@type": "TemporalPeriod",
+        "listedDate": "2018-03-30",
+        "isIndefinite": true
       },
-      "status": "active"
+      "status": "active",
+      "statusHistory": [
+
+      ]
     },
     {
-      "id": "https://www.ammitto.org/entry/un_vessels/8712362",
-      "entity_id": "https://www.ammitto.org/entity/un_vessels/8712362",
-      "regime": {
-        "name": "UN Security Council - UN Security Council",
-        "code": "UN"
+      "@id": "https://www.ammitto.org/entity/un_vessels/8412467",
+      "@type": "VesselEntity",
+      "entityType": "vessel",
+      "names": [
+        {
+          "@type": "NameVariant",
+          "fullName": "South Hill 2",
+          "isPrimary": true
+        }
+      ],
+      "sourceReferences": [
+        {
+          "@type": "SourceReference",
+          "sourceCode": "un_vessels",
+          "referenceNumber": "8412467",
+          "retrievedAt": "2026-09-09T16:30:54Z"
+        }
+      ],
+      "linkedEntities": [
+
+      ],
+      "imoNumber": "8412467",
+      "previousNames": [
+
+      ],
+      "previousFlags": [
+
+      ],
+      "hasSanctionEntry": [
+        "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/8412467"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/8412467",
+      "@type": "SanctionEntry",
+      "entityId": "https://www.ammitto.org/entity/un_vessels/8412467",
+      "authority": {
+        "@id": "https://www.ammitto.org/authority/un_vessels"
       },
+      "regime": {
+        "@id": "https://www.ammitto.org/regime/un-1718",
+        "name": "UN Security Council - Resolution 1718 (2006)"
+      },
+      "legalBases": [
+
+      ],
       "effects": [
         {
-          "effect_type": "asset_freeze",
+          "@type": "SanctionEffect",
+          "effectType": "asset_freeze",
           "scope": "full"
         },
         {
-          "effect_type": "transport_sanction",
+          "@type": "SanctionEffect",
+          "effectType": "transport_sanction",
           "scope": "full"
         }
       ],
+      "reasons": [
+
+      ],
       "period": {
-        "listed_date": "2018-03-30",
-        "is_indefinite": true
+        "@type": "TemporalPeriod",
+        "listedDate": "2017-06-21",
+        "isIndefinite": true
       },
-      "status": "active"
+      "status": "active",
+      "statusHistory": [
+
+      ]
     },
     {
-      "id": "https://www.ammitto.org/entry/un_vessels/8747604",
-      "entity_id": "https://www.ammitto.org/entity/un_vessels/8747604",
-      "regime": {
-        "name": "UN Security Council - UN Security Council",
-        "code": "UN"
+      "@id": "https://www.ammitto.org/entity/un_vessels/8503228",
+      "@type": "VesselEntity",
+      "entityType": "vessel",
+      "names": [
+        {
+          "@type": "NameVariant",
+          "fullName": "JI SONG 8",
+          "isPrimary": true
+        }
+      ],
+      "sourceReferences": [
+        {
+          "@type": "SourceReference",
+          "sourceCode": "un_vessels",
+          "referenceNumber": "8503228",
+          "retrievedAt": "2026-09-09T16:30:54Z"
+        }
+      ],
+      "linkedEntities": [
+
+      ],
+      "imoNumber": "8503228",
+      "previousNames": [
+
+      ],
+      "previousFlags": [
+
+      ],
+      "hasSanctionEntry": [
+        "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/8503228"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/8503228",
+      "@type": "SanctionEntry",
+      "entityId": "https://www.ammitto.org/entity/un_vessels/8503228",
+      "authority": {
+        "@id": "https://www.ammitto.org/authority/un_vessels"
       },
+      "regime": {
+        "@id": "https://www.ammitto.org/regime/un-1718",
+        "name": "UN Security Council - Resolution 1718 (2006)"
+      },
+      "legalBases": [
+
+      ],
       "effects": [
         {
-          "effect_type": "asset_freeze",
+          "@type": "SanctionEffect",
+          "effectType": "asset_freeze",
           "scope": "full"
         },
         {
-          "effect_type": "transport_sanction",
+          "@type": "SanctionEffect",
+          "effectType": "transport_sanction",
           "scope": "full"
         }
       ],
+      "reasons": [
+
+      ],
       "period": {
-        "listed_date": "2018-03-30",
-        "is_indefinite": true
+        "@type": "TemporalPeriod",
+        "listedDate": "2018-03-30",
+        "isIndefinite": true
       },
-      "status": "active"
+      "status": "active",
+      "statusHistory": [
+
+      ]
     },
     {
-      "id": "https://www.ammitto.org/entry/un_vessels/8791667",
-      "entity_id": "https://www.ammitto.org/entity/un_vessels/8791667",
-      "regime": {
-        "name": "UN Security Council - UN Security Council",
-        "code": "UN"
+      "@id": "https://www.ammitto.org/entity/un_vessels/8518572",
+      "@type": "VesselEntity",
+      "entityType": "vessel",
+      "names": [
+        {
+          "@type": "NameVariant",
+          "fullName": "JIN HYE",
+          "isPrimary": true
+        }
+      ],
+      "sourceReferences": [
+        {
+          "@type": "SourceReference",
+          "sourceCode": "un_vessels",
+          "referenceNumber": "8518572",
+          "retrievedAt": "2026-09-09T16:30:54Z"
+        }
+      ],
+      "linkedEntities": [
+
+      ],
+      "imoNumber": "8518572",
+      "previousNames": [
+
+      ],
+      "previousFlags": [
+
+      ],
+      "hasSanctionEntry": [
+        "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/8518572"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/8518572",
+      "@type": "SanctionEntry",
+      "entityId": "https://www.ammitto.org/entity/un_vessels/8518572",
+      "authority": {
+        "@id": "https://www.ammitto.org/authority/un_vessels"
       },
+      "regime": {
+        "@id": "https://www.ammitto.org/regime/un-1718",
+        "name": "UN Security Council - Resolution 1718 (2006)"
+      },
+      "legalBases": [
+
+      ],
       "effects": [
         {
-          "effect_type": "asset_freeze",
+          "@type": "SanctionEffect",
+          "effectType": "asset_freeze",
           "scope": "full"
         },
         {
-          "effect_type": "transport_sanction",
+          "@type": "SanctionEffect",
+          "effectType": "transport_sanction",
           "scope": "full"
         }
       ],
+      "reasons": [
+
+      ],
       "period": {
-        "listed_date": "2018-03-30",
-        "is_indefinite": true
+        "@type": "TemporalPeriod",
+        "listedDate": "2018-03-30",
+        "isIndefinite": true
       },
-      "status": "active"
+      "status": "active",
+      "statusHistory": [
+
+      ]
     },
     {
-      "id": "https://www.ammitto.org/entry/un_vessels/8898740",
-      "entity_id": "https://www.ammitto.org/entity/un_vessels/8898740",
-      "regime": {
-        "name": "UN Security Council - UN Security Council",
-        "code": "UN"
+      "@id": "https://www.ammitto.org/entity/un_vessels/8518780",
+      "@type": "VesselEntity",
+      "entityType": "vessel",
+      "names": [
+        {
+          "@type": "NameVariant",
+          "fullName": "JIE SHUN",
+          "isPrimary": true
+        }
+      ],
+      "sourceReferences": [
+        {
+          "@type": "SourceReference",
+          "sourceCode": "un_vessels",
+          "referenceNumber": "8518780",
+          "retrievedAt": "2026-09-09T16:30:54Z"
+        }
+      ],
+      "linkedEntities": [
+
+      ],
+      "imoNumber": "8518780",
+      "previousNames": [
+
+      ],
+      "previousFlags": [
+
+      ],
+      "hasSanctionEntry": [
+        "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/8518780"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/8518780",
+      "@type": "SanctionEntry",
+      "entityId": "https://www.ammitto.org/entity/un_vessels/8518780",
+      "authority": {
+        "@id": "https://www.ammitto.org/authority/un_vessels"
       },
+      "regime": {
+        "@id": "https://www.ammitto.org/regime/un-1718",
+        "name": "UN Security Council - Resolution 1718 (2006)"
+      },
+      "legalBases": [
+
+      ],
       "effects": [
         {
-          "effect_type": "asset_freeze",
+          "@type": "SanctionEffect",
+          "effectType": "asset_freeze",
           "scope": "full"
         },
         {
-          "effect_type": "transport_sanction",
+          "@type": "SanctionEffect",
+          "effectType": "transport_sanction",
           "scope": "full"
         }
       ],
+      "reasons": [
+
+      ],
       "period": {
-        "listed_date": "2018-03-30",
-        "is_indefinite": true
+        "@type": "TemporalPeriod",
+        "listedDate": "2017-10-03",
+        "isIndefinite": true
       },
-      "status": "active"
+      "status": "active",
+      "statusHistory": [
+
+      ]
     },
     {
-      "id": "https://www.ammitto.org/entry/un_vessels/8914934",
-      "entity_id": "https://www.ammitto.org/entity/un_vessels/8914934",
-      "regime": {
-        "name": "UN Security Council - UN Security Council",
-        "code": "UN"
+      "@id": "https://www.ammitto.org/entity/un_vessels/8604917",
+      "@type": "VesselEntity",
+      "entityType": "vessel",
+      "names": [
+        {
+          "@type": "NameVariant",
+          "fullName": "YU JONG 2",
+          "isPrimary": true
+        }
+      ],
+      "sourceReferences": [
+        {
+          "@type": "SourceReference",
+          "sourceCode": "un_vessels",
+          "referenceNumber": "8604917",
+          "retrievedAt": "2026-09-09T16:30:54Z"
+        }
+      ],
+      "linkedEntities": [
+
+      ],
+      "imoNumber": "8604917",
+      "previousNames": [
+
+      ],
+      "previousFlags": [
+
+      ],
+      "hasSanctionEntry": [
+        "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/8604917"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/8604917",
+      "@type": "SanctionEntry",
+      "entityId": "https://www.ammitto.org/entity/un_vessels/8604917",
+      "authority": {
+        "@id": "https://www.ammitto.org/authority/un_vessels"
       },
+      "regime": {
+        "@id": "https://www.ammitto.org/regime/un-1718",
+        "name": "UN Security Council - Resolution 1718 (2006)"
+      },
+      "legalBases": [
+
+      ],
       "effects": [
         {
-          "effect_type": "asset_freeze",
+          "@type": "SanctionEffect",
+          "effectType": "asset_freeze",
           "scope": "full"
         },
         {
-          "effect_type": "transport_sanction",
+          "@type": "SanctionEffect",
+          "effectType": "transport_sanction",
           "scope": "full"
         }
       ],
+      "reasons": [
+
+      ],
       "period": {
-        "listed_date": "2018-03-30",
-        "is_indefinite": true
+        "@type": "TemporalPeriod",
+        "listedDate": "2018-03-30",
+        "isIndefinite": true
       },
-      "status": "active"
+      "status": "active",
+      "statusHistory": [
+
+      ]
     },
     {
-      "id": "https://www.ammitto.org/entry/un_vessels/8916580",
-      "entity_id": "https://www.ammitto.org/entity/un_vessels/8916580",
-      "regime": {
-        "name": "UN Security Council - UN Security Council",
-        "code": "UN"
+      "@id": "https://www.ammitto.org/entity/un_vessels/8605026",
+      "@type": "VesselEntity",
+      "entityType": "vessel",
+      "names": [
+        {
+          "@type": "NameVariant",
+          "fullName": "YU PHYONG 5",
+          "isPrimary": true
+        }
+      ],
+      "sourceReferences": [
+        {
+          "@type": "SourceReference",
+          "sourceCode": "un_vessels",
+          "referenceNumber": "8605026",
+          "retrievedAt": "2026-09-09T16:30:54Z"
+        }
+      ],
+      "linkedEntities": [
+
+      ],
+      "imoNumber": "8605026",
+      "previousNames": [
+
+      ],
+      "previousFlags": [
+
+      ],
+      "hasSanctionEntry": [
+        "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/8605026"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/8605026",
+      "@type": "SanctionEntry",
+      "entityId": "https://www.ammitto.org/entity/un_vessels/8605026",
+      "authority": {
+        "@id": "https://www.ammitto.org/authority/un_vessels"
       },
+      "regime": {
+        "@id": "https://www.ammitto.org/regime/un-1718",
+        "name": "UN Security Council - Resolution 1718 (2006)"
+      },
+      "legalBases": [
+
+      ],
       "effects": [
         {
-          "effect_type": "asset_freeze",
+          "@type": "SanctionEffect",
+          "effectType": "asset_freeze",
           "scope": "full"
         },
         {
-          "effect_type": "transport_sanction",
+          "@type": "SanctionEffect",
+          "effectType": "transport_sanction",
           "scope": "full"
         }
       ],
+      "reasons": [
+
+      ],
       "period": {
-        "listed_date": "2018-03-30",
-        "is_indefinite": true
+        "@type": "TemporalPeriod",
+        "listedDate": "2018-03-30",
+        "isIndefinite": true
       },
-      "status": "active"
+      "status": "active",
+      "statusHistory": [
+
+      ]
     },
     {
-      "id": "https://www.ammitto.org/entry/un_vessels/9004700",
-      "entity_id": "https://www.ammitto.org/entity/un_vessels/9004700",
-      "regime": {
-        "name": "UN Security Council - UN Security Council",
-        "code": "UN"
+      "@id": "https://www.ammitto.org/entity/un_vessels/8606173",
+      "@type": "VesselEntity",
+      "entityType": "vessel",
+      "names": [
+        {
+          "@type": "NameVariant",
+          "fullName": "Ryong Gun Bong",
+          "isPrimary": true
+        },
+        {
+          "@type": "NameVariant",
+          "fullName": "Chol Ryong",
+          "isPrimary": false
+        },
+        {
+          "@type": "NameVariant",
+          "fullName": "Pukchong 33",
+          "isPrimary": false
+        }
+      ],
+      "sourceReferences": [
+        {
+          "@type": "SourceReference",
+          "sourceCode": "un_vessels",
+          "referenceNumber": "8606173",
+          "retrievedAt": "2026-09-09T16:30:54Z"
+        }
+      ],
+      "linkedEntities": [
+
+      ],
+      "imoNumber": "8606173",
+      "previousNames": [
+
+      ],
+      "previousFlags": [
+
+      ],
+      "hasSanctionEntry": [
+        "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/8606173"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/8606173",
+      "@type": "SanctionEntry",
+      "entityId": "https://www.ammitto.org/entity/un_vessels/8606173",
+      "authority": {
+        "@id": "https://www.ammitto.org/authority/un_vessels"
       },
+      "regime": {
+        "@id": "https://www.ammitto.org/regime/un-1718",
+        "name": "UN Security Council - Resolution 1718 (2006)"
+      },
+      "legalBases": [
+
+      ],
       "effects": [
         {
-          "effect_type": "asset_freeze",
+          "@type": "SanctionEffect",
+          "effectType": "asset_freeze",
           "scope": "full"
         },
         {
-          "effect_type": "transport_sanction",
+          "@type": "SanctionEffect",
+          "effectType": "transport_sanction",
           "scope": "full"
         }
       ],
+      "reasons": [
+
+      ],
       "period": {
-        "listed_date": "2018-03-30",
-        "is_indefinite": true
+        "@type": "TemporalPeriod",
+        "listedDate": "2017-06-21",
+        "isIndefinite": true
       },
-      "status": "active"
+      "status": "active",
+      "statusHistory": [
+
+      ]
     },
     {
-      "id": "https://www.ammitto.org/entry/un_vessels/9008201",
-      "entity_id": "https://www.ammitto.org/entity/un_vessels/9008201",
-      "regime": {
-        "name": "UN Security Council - UN Security Council",
-        "code": "UN"
+      "@id": "https://www.ammitto.org/entity/un_vessels/8625545",
+      "@type": "VesselEntity",
+      "entityType": "vessel",
+      "names": [
+        {
+          "@type": "NameVariant",
+          "fullName": "Ra Nam 2",
+          "isPrimary": true
+        }
+      ],
+      "sourceReferences": [
+        {
+          "@type": "SourceReference",
+          "sourceCode": "un_vessels",
+          "referenceNumber": "8625545",
+          "retrievedAt": "2026-09-09T16:30:54Z"
+        }
+      ],
+      "linkedEntities": [
+
+      ],
+      "imoNumber": "8625545",
+      "previousNames": [
+
+      ],
+      "previousFlags": [
+
+      ],
+      "hasSanctionEntry": [
+        "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/8625545"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/8625545",
+      "@type": "SanctionEntry",
+      "entityId": "https://www.ammitto.org/entity/un_vessels/8625545",
+      "authority": {
+        "@id": "https://www.ammitto.org/authority/un_vessels"
       },
+      "regime": {
+        "@id": "https://www.ammitto.org/regime/un-1718",
+        "name": "UN Security Council - Resolution 1718 (2006)"
+      },
+      "legalBases": [
+
+      ],
       "effects": [
         {
-          "effect_type": "asset_freeze",
+          "@type": "SanctionEffect",
+          "effectType": "asset_freeze",
           "scope": "full"
         },
         {
-          "effect_type": "transport_sanction",
+          "@type": "SanctionEffect",
+          "effectType": "transport_sanction",
           "scope": "full"
         }
       ],
+      "reasons": [
+
+      ],
       "period": {
-        "listed_date": "2018-03-30",
-        "is_indefinite": true
+        "@type": "TemporalPeriod",
+        "listedDate": "2017-06-21",
+        "isIndefinite": true
       },
-      "status": "active"
+      "status": "active",
+      "statusHistory": [
+
+      ]
     },
     {
-      "id": "https://www.ammitto.org/entry/un_vessels/9020003",
-      "entity_id": "https://www.ammitto.org/entity/un_vessels/9020003",
-      "regime": {
-        "name": "UN Security Council - UN Security Council",
-        "code": "UN"
+      "@id": "https://www.ammitto.org/entity/un_vessels/8628597",
+      "@type": "VesselEntity",
+      "entityType": "vessel",
+      "names": [
+        {
+          "@type": "NameVariant",
+          "fullName": "HAO FAN 6",
+          "isPrimary": true
+        }
+      ],
+      "sourceReferences": [
+        {
+          "@type": "SourceReference",
+          "sourceCode": "un_vessels",
+          "referenceNumber": "8628597",
+          "retrievedAt": "2026-09-09T16:30:54Z"
+        }
+      ],
+      "linkedEntities": [
+
+      ],
+      "imoNumber": "8628597",
+      "previousNames": [
+
+      ],
+      "previousFlags": [
+
+      ],
+      "hasSanctionEntry": [
+        "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/8628597"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/8628597",
+      "@type": "SanctionEntry",
+      "entityId": "https://www.ammitto.org/entity/un_vessels/8628597",
+      "authority": {
+        "@id": "https://www.ammitto.org/authority/un_vessels"
       },
+      "regime": {
+        "@id": "https://www.ammitto.org/regime/un-1718",
+        "name": "UN Security Council - Resolution 1718 (2006)"
+      },
+      "legalBases": [
+
+      ],
       "effects": [
         {
-          "effect_type": "asset_freeze",
+          "@type": "SanctionEffect",
+          "effectType": "asset_freeze",
           "scope": "full"
         },
         {
-          "effect_type": "transport_sanction",
+          "@type": "SanctionEffect",
+          "effectType": "transport_sanction",
           "scope": "full"
         }
       ],
+      "reasons": [
+
+      ],
       "period": {
-        "listed_date": "2018-03-30",
-        "is_indefinite": true
+        "@type": "TemporalPeriod",
+        "listedDate": "2017-10-03",
+        "isIndefinite": true
       },
-      "status": "active"
+      "status": "active",
+      "statusHistory": [
+
+      ]
     },
     {
-      "id": "https://www.ammitto.org/entry/un_vessels/9020534",
-      "entity_id": "https://www.ammitto.org/entity/un_vessels/9020534",
-      "regime": {
-        "name": "UN Security Council - UN Security Council",
-        "code": "UN"
+      "@id": "https://www.ammitto.org/entity/un_vessels/8660313",
+      "@type": "VesselEntity",
+      "entityType": "vessel",
+      "names": [
+        {
+          "@type": "NameVariant",
+          "fullName": "CHON MA SAN",
+          "isPrimary": true
+        }
+      ],
+      "sourceReferences": [
+        {
+          "@type": "SourceReference",
+          "sourceCode": "un_vessels",
+          "referenceNumber": "8660313",
+          "retrievedAt": "2026-09-09T16:30:54Z"
+        }
+      ],
+      "linkedEntities": [
+
+      ],
+      "imoNumber": "8660313",
+      "previousNames": [
+
+      ],
+      "previousFlags": [
+
+      ],
+      "hasSanctionEntry": [
+        "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/8660313"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/8660313",
+      "@type": "SanctionEntry",
+      "entityId": "https://www.ammitto.org/entity/un_vessels/8660313",
+      "authority": {
+        "@id": "https://www.ammitto.org/authority/un_vessels"
       },
+      "regime": {
+        "@id": "https://www.ammitto.org/regime/un-1718",
+        "name": "UN Security Council - Resolution 1718 (2006)"
+      },
+      "legalBases": [
+
+      ],
       "effects": [
         {
-          "effect_type": "asset_freeze",
+          "@type": "SanctionEffect",
+          "effectType": "asset_freeze",
           "scope": "full"
         },
         {
-          "effect_type": "transport_sanction",
+          "@type": "SanctionEffect",
+          "effectType": "transport_sanction",
           "scope": "full"
         }
       ],
+      "reasons": [
+
+      ],
       "period": {
-        "listed_date": "2017-12-28",
-        "is_indefinite": true
+        "@type": "TemporalPeriod",
+        "listedDate": "2018-03-30",
+        "isIndefinite": true
       },
-      "status": "active"
+      "status": "active",
+      "statusHistory": [
+
+      ]
     },
     {
-      "id": "https://www.ammitto.org/entry/un_vessels/9030591",
-      "entity_id": "https://www.ammitto.org/entity/un_vessels/9030591",
-      "regime": {
-        "name": "UN Security Council - UN Security Council",
-        "code": "UN"
+      "@id": "https://www.ammitto.org/entity/un_vessels/8661575",
+      "@type": "VesselEntity",
+      "entityType": "vessel",
+      "names": [
+        {
+          "@type": "NameVariant",
+          "fullName": "Tong Hung 1",
+          "isPrimary": true
+        }
+      ],
+      "sourceReferences": [
+        {
+          "@type": "SourceReference",
+          "sourceCode": "un_vessels",
+          "referenceNumber": "8661575",
+          "retrievedAt": "2026-09-09T16:30:54Z"
+        }
+      ],
+      "linkedEntities": [
+
+      ],
+      "imoNumber": "8661575",
+      "previousNames": [
+
+      ],
+      "previousFlags": [
+
+      ],
+      "hasSanctionEntry": [
+        "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/8661575"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/8661575",
+      "@type": "SanctionEntry",
+      "entityId": "https://www.ammitto.org/entity/un_vessels/8661575",
+      "authority": {
+        "@id": "https://www.ammitto.org/authority/un_vessels"
       },
+      "regime": {
+        "@id": "https://www.ammitto.org/regime/un-1718",
+        "name": "UN Security Council - Resolution 1718 (2006)"
+      },
+      "legalBases": [
+
+      ],
       "effects": [
         {
-          "effect_type": "asset_freeze",
+          "@type": "SanctionEffect",
+          "effectType": "asset_freeze",
           "scope": "full"
         },
         {
-          "effect_type": "transport_sanction",
+          "@type": "SanctionEffect",
+          "effectType": "transport_sanction",
           "scope": "full"
         }
       ],
+      "reasons": [
+
+      ],
       "period": {
-        "listed_date": "2018-03-30",
-        "is_indefinite": true
+        "@type": "TemporalPeriod",
+        "listedDate": "2017-06-21",
+        "isIndefinite": true
       },
-      "status": "active"
+      "status": "active",
+      "statusHistory": [
+
+      ]
     },
     {
-      "id": "https://www.ammitto.org/entry/un_vessels/9066540",
-      "entity_id": "https://www.ammitto.org/entity/un_vessels/9066540",
-      "regime": {
-        "name": "UN Security Council - UN Security Council",
-        "code": "UN"
+      "@id": "https://www.ammitto.org/entity/un_vessels/8691702",
+      "@type": "VesselEntity",
+      "entityType": "vessel",
+      "names": [
+        {
+          "@type": "NameVariant",
+          "fullName": "YU SON",
+          "isPrimary": true
+        }
+      ],
+      "sourceReferences": [
+        {
+          "@type": "SourceReference",
+          "sourceCode": "un_vessels",
+          "referenceNumber": "8691702",
+          "retrievedAt": "2026-09-09T16:30:54Z"
+        }
+      ],
+      "linkedEntities": [
+
+      ],
+      "imoNumber": "8691702",
+      "previousNames": [
+
+      ],
+      "previousFlags": [
+
+      ],
+      "hasSanctionEntry": [
+        "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/8691702"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/8691702",
+      "@type": "SanctionEntry",
+      "entityId": "https://www.ammitto.org/entity/un_vessels/8691702",
+      "authority": {
+        "@id": "https://www.ammitto.org/authority/un_vessels"
       },
+      "regime": {
+        "@id": "https://www.ammitto.org/regime/un-1718",
+        "name": "UN Security Council - Resolution 1718 (2006)"
+      },
+      "legalBases": [
+
+      ],
       "effects": [
         {
-          "effect_type": "asset_freeze",
+          "@type": "SanctionEffect",
+          "effectType": "asset_freeze",
           "scope": "full"
         },
         {
-          "effect_type": "transport_sanction",
+          "@type": "SanctionEffect",
+          "effectType": "transport_sanction",
           "scope": "full"
         }
       ],
+      "reasons": [
+
+      ],
       "period": {
-        "listed_date": "2018-03-30",
-        "is_indefinite": true
+        "@type": "TemporalPeriod",
+        "listedDate": "2018-03-30",
+        "isIndefinite": true
       },
-      "status": "active"
+      "status": "active",
+      "statusHistory": [
+
+      ]
     },
     {
-      "id": "https://www.ammitto.org/entry/un_vessels/9066978",
-      "entity_id": "https://www.ammitto.org/entity/un_vessels/9066978",
-      "regime": {
-        "name": "UN Security Council - UN Security Council",
-        "code": "UN"
+      "@id": "https://www.ammitto.org/entity/un_vessels/8705539",
+      "@type": "VesselEntity",
+      "entityType": "vessel",
+      "names": [
+        {
+          "@type": "NameVariant",
+          "fullName": "KUM UN SAN 3",
+          "isPrimary": true
+        }
+      ],
+      "sourceReferences": [
+        {
+          "@type": "SourceReference",
+          "sourceCode": "un_vessels",
+          "referenceNumber": "8705539",
+          "retrievedAt": "2026-09-09T16:30:54Z"
+        }
+      ],
+      "linkedEntities": [
+
+      ],
+      "imoNumber": "8705539",
+      "previousNames": [
+
+      ],
+      "previousFlags": [
+
+      ],
+      "hasSanctionEntry": [
+        "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/8705539"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/8705539",
+      "@type": "SanctionEntry",
+      "entityId": "https://www.ammitto.org/entity/un_vessels/8705539",
+      "authority": {
+        "@id": "https://www.ammitto.org/authority/un_vessels"
       },
+      "regime": {
+        "@id": "https://www.ammitto.org/regime/un-1718",
+        "name": "UN Security Council - Resolution 1718 (2006)"
+      },
+      "legalBases": [
+
+      ],
       "effects": [
         {
-          "effect_type": "asset_freeze",
+          "@type": "SanctionEffect",
+          "effectType": "asset_freeze",
           "scope": "full"
         },
         {
-          "effect_type": "transport_sanction",
+          "@type": "SanctionEffect",
+          "effectType": "transport_sanction",
           "scope": "full"
         }
       ],
+      "reasons": [
+
+      ],
       "period": {
-        "listed_date": "2018-03-30",
-        "is_indefinite": true
+        "@type": "TemporalPeriod",
+        "listedDate": "2018-10-16",
+        "isIndefinite": true
       },
-      "status": "active"
+      "status": "active",
+      "statusHistory": [
+
+      ]
     },
     {
-      "id": "https://www.ammitto.org/entry/un_vessels/9114555",
-      "entity_id": "https://www.ammitto.org/entity/un_vessels/9114555",
-      "regime": {
-        "name": "UN Security Council - UN Security Council",
-        "code": "UN"
+      "@id": "https://www.ammitto.org/entity/un_vessels/8712362",
+      "@type": "VesselEntity",
+      "entityType": "vessel",
+      "names": [
+        {
+          "@type": "NameVariant",
+          "fullName": "CHON MYONG 1",
+          "isPrimary": true
+        }
+      ],
+      "sourceReferences": [
+        {
+          "@type": "SourceReference",
+          "sourceCode": "un_vessels",
+          "referenceNumber": "8712362",
+          "retrievedAt": "2026-09-09T16:30:54Z"
+        }
+      ],
+      "linkedEntities": [
+
+      ],
+      "imoNumber": "8712362",
+      "previousNames": [
+
+      ],
+      "previousFlags": [
+
+      ],
+      "hasSanctionEntry": [
+        "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/8712362"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/8712362",
+      "@type": "SanctionEntry",
+      "entityId": "https://www.ammitto.org/entity/un_vessels/8712362",
+      "authority": {
+        "@id": "https://www.ammitto.org/authority/un_vessels"
       },
+      "regime": {
+        "@id": "https://www.ammitto.org/regime/un-1718",
+        "name": "UN Security Council - Resolution 1718 (2006)"
+      },
+      "legalBases": [
+
+      ],
       "effects": [
         {
-          "effect_type": "asset_freeze",
+          "@type": "SanctionEffect",
+          "effectType": "asset_freeze",
           "scope": "full"
         },
         {
-          "effect_type": "transport_sanction",
+          "@type": "SanctionEffect",
+          "effectType": "transport_sanction",
           "scope": "full"
         }
       ],
+      "reasons": [
+
+      ],
       "period": {
-        "listed_date": "2017-12-28",
-        "is_indefinite": true
+        "@type": "TemporalPeriod",
+        "listedDate": "2018-03-30",
+        "isIndefinite": true
       },
-      "status": "active"
+      "status": "active",
+      "statusHistory": [
+
+      ]
     },
     {
-      "id": "https://www.ammitto.org/entry/un_vessels/9191773",
-      "entity_id": "https://www.ammitto.org/entity/un_vessels/9191773",
-      "regime": {
-        "name": "UN Security Council - UN Security Council",
-        "code": "UN"
+      "@id": "https://www.ammitto.org/entity/un_vessels/8713471",
+      "@type": "VesselEntity",
+      "entityType": "vessel",
+      "names": [
+        {
+          "@type": "NameVariant",
+          "fullName": "Mi Rim",
+          "isPrimary": true
+        }
+      ],
+      "sourceReferences": [
+        {
+          "@type": "SourceReference",
+          "sourceCode": "un_vessels",
+          "referenceNumber": "8713471",
+          "retrievedAt": "2026-09-09T16:30:54Z"
+        }
+      ],
+      "linkedEntities": [
+
+      ],
+      "imoNumber": "8713471",
+      "previousNames": [
+
+      ],
+      "previousFlags": [
+
+      ],
+      "hasSanctionEntry": [
+        "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/8713471"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/8713471",
+      "@type": "SanctionEntry",
+      "entityId": "https://www.ammitto.org/entity/un_vessels/8713471",
+      "authority": {
+        "@id": "https://www.ammitto.org/authority/un_vessels"
       },
+      "regime": {
+        "@id": "https://www.ammitto.org/regime/un-1718",
+        "name": "UN Security Council - Resolution 1718 (2006)"
+      },
+      "legalBases": [
+
+      ],
       "effects": [
         {
-          "effect_type": "asset_freeze",
+          "@type": "SanctionEffect",
+          "effectType": "asset_freeze",
           "scope": "full"
         },
         {
-          "effect_type": "transport_sanction",
+          "@type": "SanctionEffect",
+          "effectType": "transport_sanction",
           "scope": "full"
         }
       ],
+      "reasons": [
+
+      ],
       "period": {
-        "listed_date": "2017-12-28",
-        "is_indefinite": true
+        "@type": "TemporalPeriod",
+        "listedDate": "2017-06-21",
+        "isIndefinite": true
       },
-      "status": "active"
+      "status": "active",
+      "statusHistory": [
+
+      ]
     },
     {
-      "id": "https://www.ammitto.org/entry/un_vessels/9417115",
-      "entity_id": "https://www.ammitto.org/entity/un_vessels/9417115",
-      "regime": {
-        "name": "UN Security Council - UN Security Council",
-        "code": "UN"
+      "@id": "https://www.ammitto.org/entity/un_vessels/8747604",
+      "@type": "VesselEntity",
+      "entityType": "vessel",
+      "names": [
+        {
+          "@type": "NameVariant",
+          "fullName": "HAO FAN 2",
+          "isPrimary": true
+        }
+      ],
+      "sourceReferences": [
+        {
+          "@type": "SourceReference",
+          "sourceCode": "un_vessels",
+          "referenceNumber": "8747604",
+          "retrievedAt": "2026-09-09T16:30:54Z"
+        }
+      ],
+      "linkedEntities": [
+
+      ],
+      "imoNumber": "8747604",
+      "previousNames": [
+
+      ],
+      "previousFlags": [
+
+      ],
+      "hasSanctionEntry": [
+        "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/8747604"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/8747604",
+      "@type": "SanctionEntry",
+      "entityId": "https://www.ammitto.org/entity/un_vessels/8747604",
+      "authority": {
+        "@id": "https://www.ammitto.org/authority/un_vessels"
       },
+      "regime": {
+        "@id": "https://www.ammitto.org/regime/un-1718",
+        "name": "UN Security Council - Resolution 1718 (2006)"
+      },
+      "legalBases": [
+
+      ],
       "effects": [
         {
-          "effect_type": "asset_freeze",
+          "@type": "SanctionEffect",
+          "effectType": "asset_freeze",
           "scope": "full"
         },
         {
-          "effect_type": "transport_sanction",
+          "@type": "SanctionEffect",
+          "effectType": "transport_sanction",
           "scope": "full"
         }
       ],
+      "reasons": [
+
+      ],
       "period": {
-        "listed_date": "2018-03-30",
-        "is_indefinite": true
+        "@type": "TemporalPeriod",
+        "listedDate": "2018-03-30",
+        "isIndefinite": true
       },
-      "status": "active"
+      "status": "active",
+      "statusHistory": [
+
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/entity/un_vessels/8791667",
+      "@type": "VesselEntity",
+      "entityType": "vessel",
+      "names": [
+        {
+          "@type": "NameVariant",
+          "fullName": "WAN HENG 11",
+          "isPrimary": true
+        }
+      ],
+      "sourceReferences": [
+        {
+          "@type": "SourceReference",
+          "sourceCode": "un_vessels",
+          "referenceNumber": "8791667",
+          "retrievedAt": "2026-09-09T16:30:54Z"
+        }
+      ],
+      "linkedEntities": [
+
+      ],
+      "imoNumber": "8791667",
+      "previousNames": [
+
+      ],
+      "previousFlags": [
+
+      ],
+      "hasSanctionEntry": [
+        "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/8791667"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/8791667",
+      "@type": "SanctionEntry",
+      "entityId": "https://www.ammitto.org/entity/un_vessels/8791667",
+      "authority": {
+        "@id": "https://www.ammitto.org/authority/un_vessels"
+      },
+      "regime": {
+        "@id": "https://www.ammitto.org/regime/un-1718",
+        "name": "UN Security Council - Resolution 1718 (2006)"
+      },
+      "legalBases": [
+
+      ],
+      "effects": [
+        {
+          "@type": "SanctionEffect",
+          "effectType": "asset_freeze",
+          "scope": "full"
+        },
+        {
+          "@type": "SanctionEffect",
+          "effectType": "transport_sanction",
+          "scope": "full"
+        }
+      ],
+      "reasons": [
+
+      ],
+      "period": {
+        "@type": "TemporalPeriod",
+        "listedDate": "2018-03-30",
+        "isIndefinite": true
+      },
+      "status": "active",
+      "statusHistory": [
+
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/entity/un_vessels/8819017",
+      "@type": "VesselEntity",
+      "entityType": "vessel",
+      "names": [
+        {
+          "@type": "NameVariant",
+          "fullName": "Rak Won 2",
+          "isPrimary": true
+        },
+        {
+          "@type": "NameVariant",
+          "fullName": "Se Pho",
+          "isPrimary": false
+        },
+        {
+          "@type": "NameVariant",
+          "fullName": "Buryong3",
+          "isPrimary": false
+        }
+      ],
+      "sourceReferences": [
+        {
+          "@type": "SourceReference",
+          "sourceCode": "un_vessels",
+          "referenceNumber": "8819017",
+          "retrievedAt": "2026-09-09T16:30:54Z"
+        }
+      ],
+      "linkedEntities": [
+
+      ],
+      "imoNumber": "8819017",
+      "previousNames": [
+
+      ],
+      "previousFlags": [
+
+      ],
+      "hasSanctionEntry": [
+        "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/8819017"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/8819017",
+      "@type": "SanctionEntry",
+      "entityId": "https://www.ammitto.org/entity/un_vessels/8819017",
+      "authority": {
+        "@id": "https://www.ammitto.org/authority/un_vessels"
+      },
+      "regime": {
+        "@id": "https://www.ammitto.org/regime/un-1718",
+        "name": "UN Security Council - Resolution 1718 (2006)"
+      },
+      "legalBases": [
+
+      ],
+      "effects": [
+        {
+          "@type": "SanctionEffect",
+          "effectType": "asset_freeze",
+          "scope": "full"
+        },
+        {
+          "@type": "SanctionEffect",
+          "effectType": "transport_sanction",
+          "scope": "full"
+        }
+      ],
+      "reasons": [
+
+      ],
+      "period": {
+        "@type": "TemporalPeriod",
+        "listedDate": "2017-06-21",
+        "isIndefinite": true
+      },
+      "status": "active",
+      "statusHistory": [
+
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/entity/un_vessels/8829555",
+      "@type": "VesselEntity",
+      "entityType": "vessel",
+      "names": [
+        {
+          "@type": "NameVariant",
+          "fullName": "Po Thong Gang",
+          "isPrimary": true
+        },
+        {
+          "@type": "NameVariant",
+          "fullName": "O Rang",
+          "isPrimary": false
+        },
+        {
+          "@type": "NameVariant",
+          "fullName": "Song Phyong 1",
+          "isPrimary": false
+        }
+      ],
+      "sourceReferences": [
+        {
+          "@type": "SourceReference",
+          "sourceCode": "un_vessels",
+          "referenceNumber": "8829555",
+          "retrievedAt": "2026-09-09T16:30:54Z"
+        }
+      ],
+      "linkedEntities": [
+
+      ],
+      "imoNumber": "8829555",
+      "previousNames": [
+
+      ],
+      "previousFlags": [
+
+      ],
+      "hasSanctionEntry": [
+        "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/8829555"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/8829555",
+      "@type": "SanctionEntry",
+      "entityId": "https://www.ammitto.org/entity/un_vessels/8829555",
+      "authority": {
+        "@id": "https://www.ammitto.org/authority/un_vessels"
+      },
+      "regime": {
+        "@id": "https://www.ammitto.org/regime/un-1718",
+        "name": "UN Security Council - Resolution 1718 (2006)"
+      },
+      "legalBases": [
+
+      ],
+      "effects": [
+        {
+          "@type": "SanctionEffect",
+          "effectType": "asset_freeze",
+          "scope": "full"
+        },
+        {
+          "@type": "SanctionEffect",
+          "effectType": "transport_sanction",
+          "scope": "full"
+        }
+      ],
+      "reasons": [
+
+      ],
+      "period": {
+        "@type": "TemporalPeriod",
+        "listedDate": "2017-06-21",
+        "isIndefinite": true
+      },
+      "status": "active",
+      "statusHistory": [
+
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/entity/un_vessels/8829593",
+      "@type": "VesselEntity",
+      "entityType": "vessel",
+      "names": [
+        {
+          "@type": "NameVariant",
+          "fullName": "Pi Ryu Gang",
+          "isPrimary": true
+        },
+        {
+          "@type": "NameVariant",
+          "fullName": "Kang Gye",
+          "isPrimary": false
+        }
+      ],
+      "sourceReferences": [
+        {
+          "@type": "SourceReference",
+          "sourceCode": "un_vessels",
+          "referenceNumber": "8829593",
+          "retrievedAt": "2026-09-09T16:30:54Z"
+        }
+      ],
+      "linkedEntities": [
+
+      ],
+      "imoNumber": "8829593",
+      "previousNames": [
+
+      ],
+      "previousFlags": [
+
+      ],
+      "hasSanctionEntry": [
+        "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/8829593"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/8829593",
+      "@type": "SanctionEntry",
+      "entityId": "https://www.ammitto.org/entity/un_vessels/8829593",
+      "authority": {
+        "@id": "https://www.ammitto.org/authority/un_vessels"
+      },
+      "regime": {
+        "@id": "https://www.ammitto.org/regime/un-1718",
+        "name": "UN Security Council - Resolution 1718 (2006)"
+      },
+      "legalBases": [
+
+      ],
+      "effects": [
+        {
+          "@type": "SanctionEffect",
+          "effectType": "asset_freeze",
+          "scope": "full"
+        },
+        {
+          "@type": "SanctionEffect",
+          "effectType": "transport_sanction",
+          "scope": "full"
+        }
+      ],
+      "reasons": [
+
+      ],
+      "period": {
+        "@type": "TemporalPeriod",
+        "listedDate": "2017-06-21",
+        "isIndefinite": true
+      },
+      "status": "active",
+      "statusHistory": [
+
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/entity/un_vessels/8898740",
+      "@type": "VesselEntity",
+      "entityType": "vessel",
+      "names": [
+        {
+          "@type": "NameVariant",
+          "fullName": "JI SONG 6",
+          "isPrimary": true
+        }
+      ],
+      "sourceReferences": [
+        {
+          "@type": "SourceReference",
+          "sourceCode": "un_vessels",
+          "referenceNumber": "8898740",
+          "retrievedAt": "2026-09-09T16:30:54Z"
+        }
+      ],
+      "linkedEntities": [
+
+      ],
+      "imoNumber": "8898740",
+      "previousNames": [
+
+      ],
+      "previousFlags": [
+
+      ],
+      "hasSanctionEntry": [
+        "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/8898740"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/8898740",
+      "@type": "SanctionEntry",
+      "entityId": "https://www.ammitto.org/entity/un_vessels/8898740",
+      "authority": {
+        "@id": "https://www.ammitto.org/authority/un_vessels"
+      },
+      "regime": {
+        "@id": "https://www.ammitto.org/regime/un-1718",
+        "name": "UN Security Council - Resolution 1718 (2006)"
+      },
+      "legalBases": [
+
+      ],
+      "effects": [
+        {
+          "@type": "SanctionEffect",
+          "effectType": "asset_freeze",
+          "scope": "full"
+        },
+        {
+          "@type": "SanctionEffect",
+          "effectType": "transport_sanction",
+          "scope": "full"
+        }
+      ],
+      "reasons": [
+
+      ],
+      "period": {
+        "@type": "TemporalPeriod",
+        "listedDate": "2018-03-30",
+        "isIndefinite": true
+      },
+      "status": "active",
+      "statusHistory": [
+
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/entity/un_vessels/8909575",
+      "@type": "VesselEntity",
+      "entityType": "vessel",
+      "names": [
+        {
+          "@type": "NameVariant",
+          "fullName": "Blue Nouvelle",
+          "isPrimary": true
+        },
+        {
+          "@type": "NameVariant",
+          "fullName": "Greenlight",
+          "isPrimary": false
+        },
+        {
+          "@type": "NameVariant",
+          "fullName": "Chong Bong",
+          "isPrimary": false
+        }
+      ],
+      "sourceReferences": [
+        {
+          "@type": "SourceReference",
+          "sourceCode": "un_vessels",
+          "referenceNumber": "8909575",
+          "retrievedAt": "2026-09-09T16:30:54Z"
+        }
+      ],
+      "linkedEntities": [
+
+      ],
+      "imoNumber": "8909575",
+      "previousNames": [
+
+      ],
+      "previousFlags": [
+
+      ],
+      "hasSanctionEntry": [
+        "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/8909575"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/8909575",
+      "@type": "SanctionEntry",
+      "entityId": "https://www.ammitto.org/entity/un_vessels/8909575",
+      "authority": {
+        "@id": "https://www.ammitto.org/authority/un_vessels"
+      },
+      "regime": {
+        "@id": "https://www.ammitto.org/regime/un-1718",
+        "name": "UN Security Council - Resolution 1718 (2006)"
+      },
+      "legalBases": [
+
+      ],
+      "effects": [
+        {
+          "@type": "SanctionEffect",
+          "effectType": "asset_freeze",
+          "scope": "full"
+        },
+        {
+          "@type": "SanctionEffect",
+          "effectType": "transport_sanction",
+          "scope": "full"
+        }
+      ],
+      "reasons": [
+
+      ],
+      "period": {
+        "@type": "TemporalPeriod",
+        "listedDate": "2017-06-21",
+        "isIndefinite": true
+      },
+      "status": "active",
+      "statusHistory": [
+
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/entity/un_vessels/8914934",
+      "@type": "VesselEntity",
+      "entityType": "vessel",
+      "names": [
+        {
+          "@type": "NameVariant",
+          "fullName": "FAN KE",
+          "isPrimary": true
+        }
+      ],
+      "sourceReferences": [
+        {
+          "@type": "SourceReference",
+          "sourceCode": "un_vessels",
+          "referenceNumber": "8914934",
+          "retrievedAt": "2026-09-09T16:30:54Z"
+        }
+      ],
+      "linkedEntities": [
+
+      ],
+      "imoNumber": "8914934",
+      "previousNames": [
+
+      ],
+      "previousFlags": [
+
+      ],
+      "hasSanctionEntry": [
+        "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/8914934"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/8914934",
+      "@type": "SanctionEntry",
+      "entityId": "https://www.ammitto.org/entity/un_vessels/8914934",
+      "authority": {
+        "@id": "https://www.ammitto.org/authority/un_vessels"
+      },
+      "regime": {
+        "@id": "https://www.ammitto.org/regime/un-1718",
+        "name": "UN Security Council - Resolution 1718 (2006)"
+      },
+      "legalBases": [
+
+      ],
+      "effects": [
+        {
+          "@type": "SanctionEffect",
+          "effectType": "asset_freeze",
+          "scope": "full"
+        },
+        {
+          "@type": "SanctionEffect",
+          "effectType": "transport_sanction",
+          "scope": "full"
+        }
+      ],
+      "reasons": [
+
+      ],
+      "period": {
+        "@type": "TemporalPeriod",
+        "listedDate": "2018-03-30",
+        "isIndefinite": true
+      },
+      "status": "active",
+      "statusHistory": [
+
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/entity/un_vessels/8916293",
+      "@type": "VesselEntity",
+      "entityType": "vessel",
+      "names": [
+        {
+          "@type": "NameVariant",
+          "fullName": "Chong Rim 2",
+          "isPrimary": true
+        },
+        {
+          "@type": "NameVariant",
+          "fullName": "Saebyol",
+          "isPrimary": false
+        }
+      ],
+      "sourceReferences": [
+        {
+          "@type": "SourceReference",
+          "sourceCode": "un_vessels",
+          "referenceNumber": "8916293",
+          "retrievedAt": "2026-09-09T16:30:54Z"
+        }
+      ],
+      "linkedEntities": [
+
+      ],
+      "imoNumber": "8916293",
+      "previousNames": [
+
+      ],
+      "previousFlags": [
+
+      ],
+      "hasSanctionEntry": [
+        "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/8916293"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/8916293",
+      "@type": "SanctionEntry",
+      "entityId": "https://www.ammitto.org/entity/un_vessels/8916293",
+      "authority": {
+        "@id": "https://www.ammitto.org/authority/un_vessels"
+      },
+      "regime": {
+        "@id": "https://www.ammitto.org/regime/un-1718",
+        "name": "UN Security Council - Resolution 1718 (2006)"
+      },
+      "legalBases": [
+
+      ],
+      "effects": [
+        {
+          "@type": "SanctionEffect",
+          "effectType": "asset_freeze",
+          "scope": "full"
+        },
+        {
+          "@type": "SanctionEffect",
+          "effectType": "transport_sanction",
+          "scope": "full"
+        }
+      ],
+      "reasons": [
+
+      ],
+      "period": {
+        "@type": "TemporalPeriod",
+        "listedDate": "2017-06-21",
+        "isIndefinite": true
+      },
+      "status": "active",
+      "statusHistory": [
+
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/entity/un_vessels/8916580",
+      "@type": "VesselEntity",
+      "entityType": "vessel",
+      "names": [
+        {
+          "@type": "NameVariant",
+          "fullName": "ASIA BRIDGE 1",
+          "isPrimary": true
+        }
+      ],
+      "sourceReferences": [
+        {
+          "@type": "SourceReference",
+          "sourceCode": "un_vessels",
+          "referenceNumber": "8916580",
+          "retrievedAt": "2026-09-09T16:30:54Z"
+        }
+      ],
+      "linkedEntities": [
+
+      ],
+      "imoNumber": "8916580",
+      "previousNames": [
+
+      ],
+      "previousFlags": [
+
+      ],
+      "hasSanctionEntry": [
+        "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/8916580"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/8916580",
+      "@type": "SanctionEntry",
+      "entityId": "https://www.ammitto.org/entity/un_vessels/8916580",
+      "authority": {
+        "@id": "https://www.ammitto.org/authority/un_vessels"
+      },
+      "regime": {
+        "@id": "https://www.ammitto.org/regime/un-1718",
+        "name": "UN Security Council - Resolution 1718 (2006)"
+      },
+      "legalBases": [
+
+      ],
+      "effects": [
+        {
+          "@type": "SanctionEffect",
+          "effectType": "asset_freeze",
+          "scope": "full"
+        },
+        {
+          "@type": "SanctionEffect",
+          "effectType": "transport_sanction",
+          "scope": "full"
+        }
+      ],
+      "reasons": [
+
+      ],
+      "period": {
+        "@type": "TemporalPeriod",
+        "listedDate": "2018-03-30",
+        "isIndefinite": true
+      },
+      "status": "active",
+      "statusHistory": [
+
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/entity/un_vessels/8937675",
+      "@type": "VesselEntity",
+      "entityType": "vessel",
+      "names": [
+        {
+          "@type": "NameVariant",
+          "fullName": "TONG SAN 2",
+          "isPrimary": true
+        }
+      ],
+      "sourceReferences": [
+        {
+          "@type": "SourceReference",
+          "sourceCode": "un_vessels",
+          "referenceNumber": "8937675",
+          "retrievedAt": "2026-09-09T16:30:54Z"
+        }
+      ],
+      "linkedEntities": [
+
+      ],
+      "imoNumber": "8937675",
+      "previousNames": [
+
+      ],
+      "previousFlags": [
+
+      ],
+      "hasSanctionEntry": [
+        "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/8937675"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/8937675",
+      "@type": "SanctionEntry",
+      "entityId": "https://www.ammitto.org/entity/un_vessels/8937675",
+      "authority": {
+        "@id": "https://www.ammitto.org/authority/un_vessels"
+      },
+      "regime": {
+        "@id": "https://www.ammitto.org/regime/un-1718",
+        "name": "UN Security Council - Resolution 1718 (2006)"
+      },
+      "legalBases": [
+
+      ],
+      "effects": [
+        {
+          "@type": "SanctionEffect",
+          "effectType": "asset_freeze",
+          "scope": "full"
+        },
+        {
+          "@type": "SanctionEffect",
+          "effectType": "transport_sanction",
+          "scope": "full"
+        }
+      ],
+      "reasons": [
+
+      ],
+      "period": {
+        "@type": "TemporalPeriod",
+        "listedDate": "2017-10-03",
+        "isIndefinite": true
+      },
+      "status": "active",
+      "statusHistory": [
+
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/entity/un_vessels/8987333",
+      "@type": "VesselEntity",
+      "entityType": "vessel",
+      "names": [
+        {
+          "@type": "NameVariant",
+          "fullName": "Ryo Myong",
+          "isPrimary": true
+        }
+      ],
+      "sourceReferences": [
+        {
+          "@type": "SourceReference",
+          "sourceCode": "un_vessels",
+          "referenceNumber": "8987333",
+          "retrievedAt": "2026-09-09T16:30:54Z"
+        }
+      ],
+      "linkedEntities": [
+
+      ],
+      "imoNumber": "8987333",
+      "previousNames": [
+
+      ],
+      "previousFlags": [
+
+      ],
+      "hasSanctionEntry": [
+        "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/8987333"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/8987333",
+      "@type": "SanctionEntry",
+      "entityId": "https://www.ammitto.org/entity/un_vessels/8987333",
+      "authority": {
+        "@id": "https://www.ammitto.org/authority/un_vessels"
+      },
+      "regime": {
+        "@id": "https://www.ammitto.org/regime/un-1718",
+        "name": "UN Security Council - Resolution 1718 (2006)"
+      },
+      "legalBases": [
+
+      ],
+      "effects": [
+        {
+          "@type": "SanctionEffect",
+          "effectType": "asset_freeze",
+          "scope": "full"
+        },
+        {
+          "@type": "SanctionEffect",
+          "effectType": "transport_sanction",
+          "scope": "full"
+        }
+      ],
+      "reasons": [
+
+      ],
+      "period": {
+        "@type": "TemporalPeriod",
+        "listedDate": "2017-06-21",
+        "isIndefinite": true
+      },
+      "status": "active",
+      "statusHistory": [
+
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/entity/un_vessels/9004700",
+      "@type": "VesselEntity",
+      "entityType": "vessel",
+      "names": [
+        {
+          "@type": "NameVariant",
+          "fullName": "XIN GUANG HAI",
+          "isPrimary": true
+        }
+      ],
+      "sourceReferences": [
+        {
+          "@type": "SourceReference",
+          "sourceCode": "un_vessels",
+          "referenceNumber": "9004700",
+          "retrievedAt": "2026-09-09T16:30:54Z"
+        }
+      ],
+      "linkedEntities": [
+
+      ],
+      "imoNumber": "9004700",
+      "previousNames": [
+
+      ],
+      "previousFlags": [
+
+      ],
+      "hasSanctionEntry": [
+        "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/9004700"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/9004700",
+      "@type": "SanctionEntry",
+      "entityId": "https://www.ammitto.org/entity/un_vessels/9004700",
+      "authority": {
+        "@id": "https://www.ammitto.org/authority/un_vessels"
+      },
+      "regime": {
+        "@id": "https://www.ammitto.org/regime/un-1718",
+        "name": "UN Security Council - Resolution 1718 (2006)"
+      },
+      "legalBases": [
+
+      ],
+      "effects": [
+        {
+          "@type": "SanctionEffect",
+          "effectType": "asset_freeze",
+          "scope": "full"
+        },
+        {
+          "@type": "SanctionEffect",
+          "effectType": "transport_sanction",
+          "scope": "full"
+        }
+      ],
+      "reasons": [
+
+      ],
+      "period": {
+        "@type": "TemporalPeriod",
+        "listedDate": "2018-03-30",
+        "isIndefinite": true
+      },
+      "status": "active",
+      "statusHistory": [
+
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/entity/un_vessels/9008201",
+      "@type": "VesselEntity",
+      "entityType": "vessel",
+      "names": [
+        {
+          "@type": "NameVariant",
+          "fullName": "DONG FENG 6",
+          "isPrimary": true
+        }
+      ],
+      "sourceReferences": [
+        {
+          "@type": "SourceReference",
+          "sourceCode": "un_vessels",
+          "referenceNumber": "9008201",
+          "retrievedAt": "2026-09-09T16:30:54Z"
+        }
+      ],
+      "linkedEntities": [
+
+      ],
+      "imoNumber": "9008201",
+      "previousNames": [
+
+      ],
+      "previousFlags": [
+
+      ],
+      "hasSanctionEntry": [
+        "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/9008201"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/9008201",
+      "@type": "SanctionEntry",
+      "entityId": "https://www.ammitto.org/entity/un_vessels/9008201",
+      "authority": {
+        "@id": "https://www.ammitto.org/authority/un_vessels"
+      },
+      "regime": {
+        "@id": "https://www.ammitto.org/regime/un-1718",
+        "name": "UN Security Council - Resolution 1718 (2006)"
+      },
+      "legalBases": [
+
+      ],
+      "effects": [
+        {
+          "@type": "SanctionEffect",
+          "effectType": "asset_freeze",
+          "scope": "full"
+        },
+        {
+          "@type": "SanctionEffect",
+          "effectType": "transport_sanction",
+          "scope": "full"
+        }
+      ],
+      "reasons": [
+
+      ],
+      "period": {
+        "@type": "TemporalPeriod",
+        "listedDate": "2018-03-30",
+        "isIndefinite": true
+      },
+      "status": "active",
+      "statusHistory": [
+
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/entity/un_vessels/9009085",
+      "@type": "VesselEntity",
+      "entityType": "vessel",
+      "names": [
+        {
+          "@type": "NameVariant",
+          "fullName": "Petrel 1",
+          "isPrimary": true
+        },
+        {
+          "@type": "NameVariant",
+          "fullName": "Thae Pyong San",
+          "isPrimary": false
+        }
+      ],
+      "sourceReferences": [
+        {
+          "@type": "SourceReference",
+          "sourceCode": "un_vessels",
+          "referenceNumber": "9009085",
+          "retrievedAt": "2026-09-09T16:30:54Z"
+        }
+      ],
+      "linkedEntities": [
+
+      ],
+      "imoNumber": "9009085",
+      "previousNames": [
+
+      ],
+      "previousFlags": [
+
+      ],
+      "hasSanctionEntry": [
+        "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/9009085"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/9009085",
+      "@type": "SanctionEntry",
+      "entityId": "https://www.ammitto.org/entity/un_vessels/9009085",
+      "authority": {
+        "@id": "https://www.ammitto.org/authority/un_vessels"
+      },
+      "regime": {
+        "@id": "https://www.ammitto.org/regime/un-1718",
+        "name": "UN Security Council - Resolution 1718 (2006)"
+      },
+      "legalBases": [
+
+      ],
+      "effects": [
+        {
+          "@type": "SanctionEffect",
+          "effectType": "asset_freeze",
+          "scope": "full"
+        },
+        {
+          "@type": "SanctionEffect",
+          "effectType": "transport_sanction",
+          "scope": "full"
+        }
+      ],
+      "reasons": [
+
+      ],
+      "period": {
+        "@type": "TemporalPeriod",
+        "listedDate": "2017-06-21",
+        "isIndefinite": true
+      },
+      "status": "active",
+      "statusHistory": [
+
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/entity/un_vessels/9020003",
+      "@type": "VesselEntity",
+      "entityType": "vessel",
+      "names": [
+        {
+          "@type": "NameVariant",
+          "fullName": "HUA FU",
+          "isPrimary": true
+        }
+      ],
+      "sourceReferences": [
+        {
+          "@type": "SourceReference",
+          "sourceCode": "un_vessels",
+          "referenceNumber": "9020003",
+          "retrievedAt": "2026-09-09T16:30:54Z"
+        }
+      ],
+      "linkedEntities": [
+
+      ],
+      "imoNumber": "9020003",
+      "previousNames": [
+
+      ],
+      "previousFlags": [
+
+      ],
+      "hasSanctionEntry": [
+        "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/9020003"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/9020003",
+      "@type": "SanctionEntry",
+      "entityId": "https://www.ammitto.org/entity/un_vessels/9020003",
+      "authority": {
+        "@id": "https://www.ammitto.org/authority/un_vessels"
+      },
+      "regime": {
+        "@id": "https://www.ammitto.org/regime/un-1718",
+        "name": "UN Security Council - Resolution 1718 (2006)"
+      },
+      "legalBases": [
+
+      ],
+      "effects": [
+        {
+          "@type": "SanctionEffect",
+          "effectType": "asset_freeze",
+          "scope": "full"
+        },
+        {
+          "@type": "SanctionEffect",
+          "effectType": "transport_sanction",
+          "scope": "full"
+        }
+      ],
+      "reasons": [
+
+      ],
+      "period": {
+        "@type": "TemporalPeriod",
+        "listedDate": "2018-03-30",
+        "isIndefinite": true
+      },
+      "status": "active",
+      "statusHistory": [
+
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/entity/un_vessels/9020534",
+      "@type": "VesselEntity",
+      "entityType": "vessel",
+      "names": [
+        {
+          "@type": "NameVariant",
+          "fullName": "RUNG RA 2",
+          "isPrimary": true
+        }
+      ],
+      "sourceReferences": [
+        {
+          "@type": "SourceReference",
+          "sourceCode": "un_vessels",
+          "referenceNumber": "9020534",
+          "retrievedAt": "2026-09-09T16:30:54Z"
+        }
+      ],
+      "linkedEntities": [
+
+      ],
+      "imoNumber": "9020534",
+      "previousNames": [
+
+      ],
+      "previousFlags": [
+
+      ],
+      "hasSanctionEntry": [
+        "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/9020534"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/9020534",
+      "@type": "SanctionEntry",
+      "entityId": "https://www.ammitto.org/entity/un_vessels/9020534",
+      "authority": {
+        "@id": "https://www.ammitto.org/authority/un_vessels"
+      },
+      "regime": {
+        "@id": "https://www.ammitto.org/regime/un-1718",
+        "name": "UN Security Council - Resolution 1718 (2006)"
+      },
+      "legalBases": [
+
+      ],
+      "effects": [
+        {
+          "@type": "SanctionEffect",
+          "effectType": "asset_freeze",
+          "scope": "full"
+        },
+        {
+          "@type": "SanctionEffect",
+          "effectType": "transport_sanction",
+          "scope": "full"
+        }
+      ],
+      "reasons": [
+
+      ],
+      "period": {
+        "@type": "TemporalPeriod",
+        "listedDate": "2017-12-28",
+        "isIndefinite": true
+      },
+      "status": "active",
+      "statusHistory": [
+
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/entity/un_vessels/9030591",
+      "@type": "VesselEntity",
+      "entityType": "vessel",
+      "names": [
+        {
+          "@type": "NameVariant",
+          "fullName": "YUK TUNG",
+          "isPrimary": true
+        }
+      ],
+      "sourceReferences": [
+        {
+          "@type": "SourceReference",
+          "sourceCode": "un_vessels",
+          "referenceNumber": "9030591",
+          "retrievedAt": "2026-09-09T16:30:54Z"
+        }
+      ],
+      "linkedEntities": [
+
+      ],
+      "imoNumber": "9030591",
+      "previousNames": [
+
+      ],
+      "previousFlags": [
+
+      ],
+      "hasSanctionEntry": [
+        "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/9030591"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/9030591",
+      "@type": "SanctionEntry",
+      "entityId": "https://www.ammitto.org/entity/un_vessels/9030591",
+      "authority": {
+        "@id": "https://www.ammitto.org/authority/un_vessels"
+      },
+      "regime": {
+        "@id": "https://www.ammitto.org/regime/un-1718",
+        "name": "UN Security Council - Resolution 1718 (2006)"
+      },
+      "legalBases": [
+
+      ],
+      "effects": [
+        {
+          "@type": "SanctionEffect",
+          "effectType": "asset_freeze",
+          "scope": "full"
+        },
+        {
+          "@type": "SanctionEffect",
+          "effectType": "transport_sanction",
+          "scope": "full"
+        }
+      ],
+      "reasons": [
+
+      ],
+      "period": {
+        "@type": "TemporalPeriod",
+        "listedDate": "2018-03-30",
+        "isIndefinite": true
+      },
+      "status": "active",
+      "statusHistory": [
+
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/entity/un_vessels/9041552",
+      "@type": "VesselEntity",
+      "entityType": "vessel",
+      "names": [
+        {
+          "@type": "NameVariant",
+          "fullName": "Hoe Ryong",
+          "isPrimary": true
+        }
+      ],
+      "sourceReferences": [
+        {
+          "@type": "SourceReference",
+          "sourceCode": "un_vessels",
+          "referenceNumber": "9041552",
+          "retrievedAt": "2026-09-09T16:30:54Z"
+        }
+      ],
+      "linkedEntities": [
+
+      ],
+      "imoNumber": "9041552",
+      "previousNames": [
+
+      ],
+      "previousFlags": [
+
+      ],
+      "hasSanctionEntry": [
+        "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/9041552"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/9041552",
+      "@type": "SanctionEntry",
+      "entityId": "https://www.ammitto.org/entity/un_vessels/9041552",
+      "authority": {
+        "@id": "https://www.ammitto.org/authority/un_vessels"
+      },
+      "regime": {
+        "@id": "https://www.ammitto.org/regime/un-1718",
+        "name": "UN Security Council - Resolution 1718 (2006)"
+      },
+      "legalBases": [
+
+      ],
+      "effects": [
+        {
+          "@type": "SanctionEffect",
+          "effectType": "asset_freeze",
+          "scope": "full"
+        },
+        {
+          "@type": "SanctionEffect",
+          "effectType": "transport_sanction",
+          "scope": "full"
+        }
+      ],
+      "reasons": [
+
+      ],
+      "period": {
+        "@type": "TemporalPeriod",
+        "listedDate": "2017-06-21",
+        "isIndefinite": true
+      },
+      "status": "active",
+      "statusHistory": [
+
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/entity/un_vessels/9066540",
+      "@type": "VesselEntity",
+      "entityType": "vessel",
+      "names": [
+        {
+          "@type": "NameVariant",
+          "fullName": "HAP JANG GANG 6",
+          "isPrimary": true
+        }
+      ],
+      "sourceReferences": [
+        {
+          "@type": "SourceReference",
+          "sourceCode": "un_vessels",
+          "referenceNumber": "9066540",
+          "retrievedAt": "2026-09-09T16:30:54Z"
+        }
+      ],
+      "linkedEntities": [
+
+      ],
+      "imoNumber": "9066540",
+      "previousNames": [
+
+      ],
+      "previousFlags": [
+
+      ],
+      "hasSanctionEntry": [
+        "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/9066540"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/9066540",
+      "@type": "SanctionEntry",
+      "entityId": "https://www.ammitto.org/entity/un_vessels/9066540",
+      "authority": {
+        "@id": "https://www.ammitto.org/authority/un_vessels"
+      },
+      "regime": {
+        "@id": "https://www.ammitto.org/regime/un-1718",
+        "name": "UN Security Council - Resolution 1718 (2006)"
+      },
+      "legalBases": [
+
+      ],
+      "effects": [
+        {
+          "@type": "SanctionEffect",
+          "effectType": "asset_freeze",
+          "scope": "full"
+        },
+        {
+          "@type": "SanctionEffect",
+          "effectType": "transport_sanction",
+          "scope": "full"
+        }
+      ],
+      "reasons": [
+
+      ],
+      "period": {
+        "@type": "TemporalPeriod",
+        "listedDate": "2018-03-30",
+        "isIndefinite": true
+      },
+      "status": "active",
+      "statusHistory": [
+
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/entity/un_vessels/9066978",
+      "@type": "VesselEntity",
+      "entityType": "vessel",
+      "names": [
+        {
+          "@type": "NameVariant",
+          "fullName": "PAEK MA",
+          "isPrimary": true
+        }
+      ],
+      "sourceReferences": [
+        {
+          "@type": "SourceReference",
+          "sourceCode": "un_vessels",
+          "referenceNumber": "9066978",
+          "retrievedAt": "2026-09-09T16:30:54Z"
+        }
+      ],
+      "linkedEntities": [
+
+      ],
+      "imoNumber": "9066978",
+      "previousNames": [
+
+      ],
+      "previousFlags": [
+
+      ],
+      "hasSanctionEntry": [
+        "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/9066978"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/9066978",
+      "@type": "SanctionEntry",
+      "entityId": "https://www.ammitto.org/entity/un_vessels/9066978",
+      "authority": {
+        "@id": "https://www.ammitto.org/authority/un_vessels"
+      },
+      "regime": {
+        "@id": "https://www.ammitto.org/regime/un-1718",
+        "name": "UN Security Council - Resolution 1718 (2006)"
+      },
+      "legalBases": [
+
+      ],
+      "effects": [
+        {
+          "@type": "SanctionEffect",
+          "effectType": "asset_freeze",
+          "scope": "full"
+        },
+        {
+          "@type": "SanctionEffect",
+          "effectType": "transport_sanction",
+          "scope": "full"
+        }
+      ],
+      "reasons": [
+
+      ],
+      "period": {
+        "@type": "TemporalPeriod",
+        "listedDate": "2018-03-30",
+        "isIndefinite": true
+      },
+      "status": "active",
+      "statusHistory": [
+
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/entity/un_vessels/9114555",
+      "@type": "VesselEntity",
+      "entityType": "vessel",
+      "names": [
+        {
+          "@type": "NameVariant",
+          "fullName": "UL JI BONG 6",
+          "isPrimary": true
+        }
+      ],
+      "sourceReferences": [
+        {
+          "@type": "SourceReference",
+          "sourceCode": "un_vessels",
+          "referenceNumber": "9114555",
+          "retrievedAt": "2026-09-09T16:30:54Z"
+        }
+      ],
+      "linkedEntities": [
+
+      ],
+      "imoNumber": "9114555",
+      "previousNames": [
+
+      ],
+      "previousFlags": [
+
+      ],
+      "hasSanctionEntry": [
+        "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/9114555"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/9114555",
+      "@type": "SanctionEntry",
+      "entityId": "https://www.ammitto.org/entity/un_vessels/9114555",
+      "authority": {
+        "@id": "https://www.ammitto.org/authority/un_vessels"
+      },
+      "regime": {
+        "@id": "https://www.ammitto.org/regime/un-1718",
+        "name": "UN Security Council - Resolution 1718 (2006)"
+      },
+      "legalBases": [
+
+      ],
+      "effects": [
+        {
+          "@type": "SanctionEffect",
+          "effectType": "asset_freeze",
+          "scope": "full"
+        },
+        {
+          "@type": "SanctionEffect",
+          "effectType": "transport_sanction",
+          "scope": "full"
+        }
+      ],
+      "reasons": [
+
+      ],
+      "period": {
+        "@type": "TemporalPeriod",
+        "listedDate": "2017-12-28",
+        "isIndefinite": true
+      },
+      "status": "active",
+      "statusHistory": [
+
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/entity/un_vessels/9191773",
+      "@type": "VesselEntity",
+      "entityType": "vessel",
+      "names": [
+        {
+          "@type": "NameVariant",
+          "fullName": "BILLIONS NO. 18",
+          "isPrimary": true
+        }
+      ],
+      "sourceReferences": [
+        {
+          "@type": "SourceReference",
+          "sourceCode": "un_vessels",
+          "referenceNumber": "9191773",
+          "retrievedAt": "2026-09-09T16:30:54Z"
+        }
+      ],
+      "linkedEntities": [
+
+      ],
+      "imoNumber": "9191773",
+      "previousNames": [
+
+      ],
+      "previousFlags": [
+
+      ],
+      "hasSanctionEntry": [
+        "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/9191773"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/9191773",
+      "@type": "SanctionEntry",
+      "entityId": "https://www.ammitto.org/entity/un_vessels/9191773",
+      "authority": {
+        "@id": "https://www.ammitto.org/authority/un_vessels"
+      },
+      "regime": {
+        "@id": "https://www.ammitto.org/regime/un-1718",
+        "name": "UN Security Council - Resolution 1718 (2006)"
+      },
+      "legalBases": [
+
+      ],
+      "effects": [
+        {
+          "@type": "SanctionEffect",
+          "effectType": "asset_freeze",
+          "scope": "full"
+        },
+        {
+          "@type": "SanctionEffect",
+          "effectType": "transport_sanction",
+          "scope": "full"
+        }
+      ],
+      "reasons": [
+
+      ],
+      "period": {
+        "@type": "TemporalPeriod",
+        "listedDate": "2017-12-28",
+        "isIndefinite": true
+      },
+      "status": "active",
+      "statusHistory": [
+
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/entity/un_vessels/9314650",
+      "@type": "VesselEntity",
+      "entityType": "vessel",
+      "names": [
+        {
+          "@type": "NameVariant",
+          "fullName": "Ra Nam 3",
+          "isPrimary": true
+        },
+        {
+          "@type": "NameVariant",
+          "fullName": "Ranam 3",
+          "isPrimary": false
+        }
+      ],
+      "sourceReferences": [
+        {
+          "@type": "SourceReference",
+          "sourceCode": "un_vessels",
+          "referenceNumber": "9314650",
+          "retrievedAt": "2026-09-09T16:30:54Z"
+        }
+      ],
+      "linkedEntities": [
+
+      ],
+      "imoNumber": "9314650",
+      "previousNames": [
+
+      ],
+      "previousFlags": [
+
+      ],
+      "hasSanctionEntry": [
+        "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/9314650"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/9314650",
+      "@type": "SanctionEntry",
+      "entityId": "https://www.ammitto.org/entity/un_vessels/9314650",
+      "authority": {
+        "@id": "https://www.ammitto.org/authority/un_vessels"
+      },
+      "regime": {
+        "@id": "https://www.ammitto.org/regime/un-1718",
+        "name": "UN Security Council - Resolution 1718 (2006)"
+      },
+      "legalBases": [
+
+      ],
+      "effects": [
+        {
+          "@type": "SanctionEffect",
+          "effectType": "asset_freeze",
+          "scope": "full"
+        },
+        {
+          "@type": "SanctionEffect",
+          "effectType": "transport_sanction",
+          "scope": "full"
+        }
+      ],
+      "reasons": [
+
+      ],
+      "period": {
+        "@type": "TemporalPeriod",
+        "listedDate": "2017-06-21",
+        "isIndefinite": true
+      },
+      "status": "active",
+      "statusHistory": [
+
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/entity/un_vessels/9361407",
+      "@type": "VesselEntity",
+      "entityType": "vessel",
+      "names": [
+        {
+          "@type": "NameVariant",
+          "fullName": "Mi Rim 2",
+          "isPrimary": true
+        }
+      ],
+      "sourceReferences": [
+        {
+          "@type": "SourceReference",
+          "sourceCode": "un_vessels",
+          "referenceNumber": "9361407",
+          "retrievedAt": "2026-09-09T16:30:54Z"
+        }
+      ],
+      "linkedEntities": [
+
+      ],
+      "imoNumber": "9361407",
+      "previousNames": [
+
+      ],
+      "previousFlags": [
+
+      ],
+      "hasSanctionEntry": [
+        "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/9361407"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/9361407",
+      "@type": "SanctionEntry",
+      "entityId": "https://www.ammitto.org/entity/un_vessels/9361407",
+      "authority": {
+        "@id": "https://www.ammitto.org/authority/un_vessels"
+      },
+      "regime": {
+        "@id": "https://www.ammitto.org/regime/un-1718",
+        "name": "UN Security Council - Resolution 1718 (2006)"
+      },
+      "legalBases": [
+
+      ],
+      "effects": [
+        {
+          "@type": "SanctionEffect",
+          "effectType": "asset_freeze",
+          "scope": "full"
+        },
+        {
+          "@type": "SanctionEffect",
+          "effectType": "transport_sanction",
+          "scope": "full"
+        }
+      ],
+      "reasons": [
+
+      ],
+      "period": {
+        "@type": "TemporalPeriod",
+        "listedDate": "2017-06-21",
+        "isIndefinite": true
+      },
+      "status": "active",
+      "statusHistory": [
+
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/entity/un_vessels/9417115",
+      "@type": "VesselEntity",
+      "entityType": "vessel",
+      "names": [
+        {
+          "@type": "NameVariant",
+          "fullName": "KOTI",
+          "isPrimary": true
+        }
+      ],
+      "sourceReferences": [
+        {
+          "@type": "SourceReference",
+          "sourceCode": "un_vessels",
+          "referenceNumber": "9417115",
+          "retrievedAt": "2026-09-09T16:30:54Z"
+        }
+      ],
+      "linkedEntities": [
+
+      ],
+      "imoNumber": "9417115",
+      "previousNames": [
+
+      ],
+      "previousFlags": [
+
+      ],
+      "hasSanctionEntry": [
+        "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/9417115"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/9417115",
+      "@type": "SanctionEntry",
+      "entityId": "https://www.ammitto.org/entity/un_vessels/9417115",
+      "authority": {
+        "@id": "https://www.ammitto.org/authority/un_vessels"
+      },
+      "regime": {
+        "@id": "https://www.ammitto.org/regime/un-1718",
+        "name": "UN Security Council - Resolution 1718 (2006)"
+      },
+      "legalBases": [
+
+      ],
+      "effects": [
+        {
+          "@type": "SanctionEffect",
+          "effectType": "asset_freeze",
+          "scope": "full"
+        },
+        {
+          "@type": "SanctionEffect",
+          "effectType": "transport_sanction",
+          "scope": "full"
+        }
+      ],
+      "reasons": [
+
+      ],
+      "period": {
+        "@type": "TemporalPeriod",
+        "listedDate": "2018-03-30",
+        "isIndefinite": true
+      },
+      "status": "active",
+      "statusHistory": [
+
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/entity/un_vessels/9562233",
+      "@type": "VesselEntity",
+      "entityType": "vessel",
+      "names": [
+        {
+          "@type": "NameVariant",
+          "fullName": "PETREL 8",
+          "isPrimary": true
+        }
+      ],
+      "sourceReferences": [
+        {
+          "@type": "SourceReference",
+          "sourceCode": "un_vessels",
+          "referenceNumber": "9562233",
+          "retrievedAt": "2026-09-09T16:30:54Z"
+        }
+      ],
+      "linkedEntities": [
+
+      ],
+      "imoNumber": "9562233",
+      "previousNames": [
+
+      ],
+      "previousFlags": [
+
+      ],
+      "hasSanctionEntry": [
+        "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/9562233"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/9562233",
+      "@type": "SanctionEntry",
+      "entityId": "https://www.ammitto.org/entity/un_vessels/9562233",
+      "authority": {
+        "@id": "https://www.ammitto.org/authority/un_vessels"
+      },
+      "regime": {
+        "@id": "https://www.ammitto.org/regime/un-1718",
+        "name": "UN Security Council - Resolution 1718 (2006)"
+      },
+      "legalBases": [
+
+      ],
+      "effects": [
+        {
+          "@type": "SanctionEffect",
+          "effectType": "asset_freeze",
+          "scope": "full"
+        },
+        {
+          "@type": "SanctionEffect",
+          "effectType": "transport_sanction",
+          "scope": "full"
+        }
+      ],
+      "reasons": [
+
+      ],
+      "period": {
+        "@type": "TemporalPeriod",
+        "listedDate": "2017-10-03",
+        "isIndefinite": true
+      },
+      "status": "active",
+      "statusHistory": [
+
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/entity/un_vessels/min-ning-de-you-078",
+      "@type": "VesselEntity",
+      "entityType": "vessel",
+      "names": [
+        {
+          "@type": "NameVariant",
+          "fullName": "MIN NING DE YOU 078",
+          "isPrimary": true
+        }
+      ],
+      "sourceReferences": [
+        {
+          "@type": "SourceReference",
+          "sourceCode": "un_vessels",
+          "referenceNumber": "min-ning-de-you-078",
+          "retrievedAt": "2026-09-09T16:30:54Z"
+        }
+      ],
+      "linkedEntities": [
+
+      ],
+      "previousNames": [
+
+      ],
+      "previousFlags": [
+
+      ],
+      "hasSanctionEntry": [
+        "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/min-ning-de-you-078"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/entry/un_vessels/vessel-sanctions-list/min-ning-de-you-078",
+      "@type": "SanctionEntry",
+      "entityId": "https://www.ammitto.org/entity/un_vessels/min-ning-de-you-078",
+      "authority": {
+        "@id": "https://www.ammitto.org/authority/un_vessels"
+      },
+      "regime": {
+        "@id": "https://www.ammitto.org/regime/un-1718",
+        "name": "UN Security Council - Resolution 1718 (2006)"
+      },
+      "legalBases": [
+
+      ],
+      "effects": [
+        {
+          "@type": "SanctionEffect",
+          "effectType": "asset_freeze",
+          "scope": "full"
+        },
+        {
+          "@type": "SanctionEffect",
+          "effectType": "transport_sanction",
+          "scope": "full"
+        }
+      ],
+      "reasons": [
+
+      ],
+      "period": {
+        "@type": "TemporalPeriod",
+        "listedDate": "2018-03-30",
+        "isIndefinite": true
+      },
+      "status": "active",
+      "statusHistory": [
+
+      ]
     }
   ]
 }

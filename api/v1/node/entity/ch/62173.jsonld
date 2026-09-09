@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/62173",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/62173",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Imad Abu Zureiq",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Imad Abu Zureiq",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/62173"
   ],
   "remarks": "Imad Abu Zureiq is a leading member of a former al-Assad-regime-affiliated militia in Southwest Syria that reports directly to the Syrian regime’s Military Security branch.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1979-02-09",
-      "circa": false
+      "circa": false,
+      "year": 1979
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

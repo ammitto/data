@@ -1,32 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/inu0342",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/inu0342",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "BANCO INTERNACIONAL DE DESARROLLO CA ",
+      "@type": "NameVariant",
+      "fullName": "BANCO INTERNACIONAL DE DESARROLLO CA ",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Banco Internacional De Desarrollo, C.A.",
+      "@type": "NameVariant",
+      "fullName": "Banco Internacional De Desarrollo, C.A.",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "BID",
+      "@type": "NameVariant",
+      "fullName": "BID",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/inu0342"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Urb El Rosal, Avenue Francisco de Miranda Edificio Dozsa, Piso 8",
       "state": "Caracas",
       "country": "Venezuela"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

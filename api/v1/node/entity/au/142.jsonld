@@ -1,41 +1,57 @@
 {
-  "id": "https://www.ammitto.org/entity/au/142",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/142",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Abdul Hai Hazem Abdul Qader",
+      "@type": "NameVariant",
+      "fullName": "Abdul Hai Hazem Abdul Qader",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "عبدالحی عظیم ﻋﻧﺪﺍﻟﻗﺎﺪﺮ",
+      "@type": "NameVariant",
+      "fullName": "عبدالحی عظیم ﻋﻧﺪﺍﻟﻗﺎﺪﺮ",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abdul Hai Hazem",
+      "@type": "NameVariant",
+      "fullName": "Abdul Hai Hazem",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "TAi.142 Title: a) Maulavi b) Mullah. Designation: First Secretary, Taliban Consulate General, Quetta, Pakistan. Afghan passport number D0001203. Review pursuant to Security Council resolution 1822 (2008) was concluded on 29 Jul. 2010.; Listing: Listed on 25 January 2001 (amended 25 July 2006, 21 Sep 2007, 29 Nov. 2011, 18 May 2012)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/142"
   ],
-  "birth_info": [
+  "remarks": "TAi.142 Title: a) Maulavi b) Mullah. Designation: First Secretary, Taliban Consulate General, Quetta, Pakistan. Afghan passport number D0001203. Review pursuant to Security Council resolution 1822 (2008) was concluded on 29 Jul. 2010.; Listing: Listed on 25 January 2001 (amended 25 July 2006, 21 Sep 2007, 29 Nov. 2011, 18 May 2012)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1971,
       "country": "Pashawal Yargatoo village"
     }
   ],
   "nationalities": [
     "Afghanistan"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "a) Iltifat village, Shakardara District, Kabul Province, Afghanistan  b) Puli Charkhi Area, District Number 9, Kabul City, Kabul Province",
       "country": "Kabul Province"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

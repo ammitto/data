@@ -1,34 +1,51 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/dpr0147",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/dpr0147",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "KOREA DAESONG BANK",
+      "@type": "NameVariant",
+      "fullName": "KOREA DAESONG BANK",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Choson Taesong Unhaeng",
+      "@type": "NameVariant",
+      "fullName": "Choson Taesong Unhaeng",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Taesong Bank",
+      "@type": "NameVariant",
+      "fullName": "Taesong Bank",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Daesong Bank is owned and controlled by Office 39 of the Korea Workers’ Party. SWIFT/BIC: KDBKKPPY",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/dpr0147"
+  ],
+  "remarks": "Daesong Bank is owned and controlled by Office 39 of the Korea Workers’ Party. SWIFT/BIC: KDBKKPPY",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Segori-dong, Gyongheung",
       "city": "St. Potonggang District",
       "state": "Pyongyang",
       "country": "North Korea"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

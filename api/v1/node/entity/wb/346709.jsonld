@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/346709",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/346709",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "DATEX HAITI",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "DATEX HAITI",
+      "isPrimary": true
     }
   ],
-  "remarks": "*420",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/346709"
+  ],
+  "remarks": "*420",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "33 PARC INDUSTRIEL (SONAPI)",
       "city": "DELMAS",
       "country": "Haiti",
-      "country_iso_code": "HT"
+      "countryIsoCode": "HT"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

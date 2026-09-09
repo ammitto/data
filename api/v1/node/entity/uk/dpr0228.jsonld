@@ -1,23 +1,44 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/dpr0228",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/dpr0228",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "JUNG JONG",
-      "first_name": "KIM",
+      "@type": "NameVariant",
+      "fullName": "JUNG JONG",
+      "firstName": "KIM",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Chung Chong",
-      "first_name": "Kim",
+      "@type": "NameVariant",
+      "fullName": "Chung Chong",
+      "firstName": "Kim",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Served as the Tanchon Commercial Bank representative in Vietnam.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/dpr0228"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "remarks": "Served as the Tanchon Commercial Bank representative in Vietnam.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,63 +1,86 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus1492",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus1492",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Joint Stock Company Moscow Industrial Bank",
+      "@type": "NameVariant",
+      "fullName": "Joint Stock Company Moscow Industrial Bank",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "JOINT STOCK COMMERCIAL BANK MOSCOW INDUSTRIAL BANK",
+      "@type": "NameVariant",
+      "fullName": "JOINT STOCK COMMERCIAL BANK MOSCOW INDUSTRIAL BANK",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "JSC MOSCOW INDUSTRIAL BANK",
+      "@type": "NameVariant",
+      "fullName": "JSC MOSCOW INDUSTRIAL BANK",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "MOSCOW INDUSTRIAL BANK PJSCB",
+      "@type": "NameVariant",
+      "fullName": "MOSCOW INDUSTRIAL BANK PJSCB",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "MOSKOVSKI INDUSTRIALNY BANK PUBLICHNOE AKTSIONERNOE OBSHCHESTVO",
+      "@type": "NameVariant",
+      "fullName": "MOSKOVSKI INDUSTRIALNY BANK PUBLICHNOE AKTSIONERNOE OBSHCHESTVO",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "MOSKOVSKIJ INDUSTRIALNYJ BANK PJSCB",
+      "@type": "NameVariant",
+      "fullName": "MOSKOVSKIJ INDUSTRIALNYJ BANK PJSCB",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "MOSKOVSKY INDUSTRIALNY BANK",
+      "@type": "NameVariant",
+      "fullName": "MOSKOVSKY INDUSTRIALNY BANK",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "PUBLIC JOINT STOCK COMPANY MOSCOW INDUSTRIAL BANK",
+      "@type": "NameVariant",
+      "fullName": "PUBLIC JOINT STOCK COMPANY MOSCOW INDUSTRIAL BANK",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "АО МОСКОВСКИИ ИНДУСТРИАЛЬНЫИ БАНК ",
+      "@type": "NameVariant",
+      "fullName": "АО МОСКОВСКИИ ИНДУСТРИАЛЬНЫИ БАНК ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Organization Established Date 22 Nov 1990. The prohibition on correspondent banking relationships and processing payments was imposed on 15/12/2023. The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus1492"
+  ],
+  "remarks": "Organization Established Date 22 Nov 1990. The prohibition on correspondent banking relationships and processing payments was imposed on 15/12/2023. The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Ordzhonikidze Street 5",
       "state": "Moscow",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

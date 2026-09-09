@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/50879",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/50879",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ponomarenko Alexander",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Ponomarenko Alexander Anatolyevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/50879"
   ],
   "remarks": "Alexander Ponomarenko is a Russian oligarch and former Chairman of the Board of Sheremetyevo International Airport, to which he is still linked as a shareholder. He is involved in the financing of the palace complex near Gelendzhik, which is personally used by President Putin.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1964-10-27",
-      "circa": false
+      "circa": false,
+      "year": 1964
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

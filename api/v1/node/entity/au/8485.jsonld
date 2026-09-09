@@ -1,36 +1,58 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8485",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/8485",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MORTEZA REZAIE",
+      "@type": "NameVariant",
+      "fullName": "MORTEZA REZAIE",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Mortaza Rezaie",
+      "@type": "NameVariant",
+      "fullName": "Mortaza Rezaie",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Mortaza Rezai",
+      "@type": "NameVariant",
+      "fullName": "Mortaza Rezai",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Morteza Rezai",
+      "@type": "NameVariant",
+      "fullName": "Morteza Rezai",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "IRi.033. Designation: a) Brigadier General b) Deputy Commander of IRGC; Listing: Listed by the 1737 Committee on 24 March 2007 (amended on 17 December 2014)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8485"
   ],
-  "birth_info": [
+  "remarks": "IRi.033. Designation: a) Brigadier General b) Deputy Commander of IRGC; Listing: Listed by the 1737 Committee on 24 March 2007 (amended on 17 December 2014)",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1956
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

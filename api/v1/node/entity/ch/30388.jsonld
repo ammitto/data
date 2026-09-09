@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/30388",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/30388",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Milchakov Alexey Yurevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Milchakov Alexey Yurevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/30388"
   ],
   "remarks": "Commander of the \"Rusich\" unit, an armed separatist group involved in the fighting in eastern Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1991-04-30",
-      "circa": false
+      "circa": false,
+      "year": 1991
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

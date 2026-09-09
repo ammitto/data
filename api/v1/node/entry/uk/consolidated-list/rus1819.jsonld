@@ -1,51 +1,70 @@
 {
-  "id": "https://www.ammitto.org/entry/uk/consolidated-list/rus1819",
-  "entity_id": "https://www.ammitto.org/entity/uk/rus1819",
+  "@id": "https://www.ammitto.org/entry/uk/consolidated-list/rus1819",
+  "@type": "SanctionEntry",
+  "entityId": "https://www.ammitto.org/entity/uk/rus1819",
   "authority": {
     "@id": "https://www.ammitto.org/authority/uk"
   },
   "regime": {
-    "@id": "https://www.ammitto.org/regime/the_russia_sanctions_eu_exit_regulations_2019"
+    "@id": "https://www.ammitto.org/regime/the_russia_sanctions_eu_exit_regulations_2019",
+    "name": "The Russia (Sanctions) (EU Exit) Regulations 2019"
   },
+  "legalBases": [
+
+  ],
   "effects": [
     {
-      "effect_type": "asset_freeze",
+      "@type": "SanctionEffect",
+      "effectType": "asset_freeze",
       "scope": "full"
     },
     {
-      "effect_type": "travel_ban",
+      "@type": "SanctionEffect",
+      "effectType": "travel_ban",
       "scope": "full"
     },
     {
-      "effect_type": "financial_restriction",
+      "@type": "SanctionEffect",
+      "effectType": "financial_restriction",
       "scope": "full"
     },
     {
-      "effect_type": "debarment",
+      "@type": "SanctionEffect",
+      "effectType": "debarment",
       "scope": "full"
     },
     {
-      "effect_type": "technology_restriction",
+      "@type": "SanctionEffect",
+      "effectType": "technology_restriction",
       "scope": "full"
     }
   ],
+  "reasons": [
+
+  ],
   "period": {
-    "listed_date": "2023-04-11",
-    "effective_date": "2023-04-11",
-    "is_indefinite": true,
-    "last_updated": "2025-04-09"
+    "@type": "TemporalPeriod",
+    "listedDate": "2023-04-11",
+    "effectiveDate": "2023-04-11",
+    "isIndefinite": true,
+    "lastUpdated": "2025-04-09"
   },
   "status": "active",
-  "reference_number": "RUS1819",
+  "statusHistory": [
+
+  ],
+  "referenceNumber": "RUS1819",
   "remarks": "\nVladimir Nikitovich SKOCH is an involved person under the Russia (EU Exit) (Sanctions) Regulations 2019 on the following grounds: (1) SKOCH is acting on behalf or at the direction of a person involved in destabilising Ukraine or undermining or threatening the territorial integrity, sovereignty or independence of Ukraine, namely Andrei Vladimirovich Skoch; (2) SKOCH is associated with a person involved in destabilising Ukraine or undermining or threatening the territorial integrity, sovereignty or independence of Ukraine, namely Andrei Vladimirovich Skoch. \n",
-  "raw_source_data": {
-    "source_format": "xml",
-    "source_specific_fields": {
+  "rawSourceData": {
+    "@type": "RawSourceData",
+    "sourceFormat": "xml",
+    "sourceSpecificFields": {
       "uk:ofsiGroupId": "15875",
+      "uk:unReferenceNumber": null,
       "uk:designationSource": "UK",
       "uk:sanctionsImposed": "Asset freeze|Travel Ban|Technical assistance related to aircraft|Trust Services Sanctions|Director Disqualification Sanction|Transport sanctions: see \"Other information\"",
       "uk:entityType": "Individual"
     }
   },
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

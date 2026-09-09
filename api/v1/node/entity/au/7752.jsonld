@@ -1,27 +1,43 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7752",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/7752",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "SAHAND ALUMINUM PARTS INDUSTRIAL COMPANY",
+      "@type": "NameVariant",
+      "fullName": "SAHAND ALUMINUM PARTS INDUSTRIAL COMPANY",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "SAPICO",
+      "@type": "NameVariant",
+      "fullName": "SAPICO",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Previously listed under UNSC Resolution 2231 – Charter of the United Nations (Sanctions—Iran) Regulation 2016 [F2016L01181]\n\nA front company for Shahid Hemmat Industrial Group (SHIG).; Listing: Instrument of first designation: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Iran) Amendment (No. 2) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7752"
+  ],
+  "remarks": "Previously listed under UNSC Resolution 2231 – Charter of the United Nations (Sanctions—Iran) Regulation 2016 [F2016L01181]\n\nA front company for Shahid Hemmat Industrial Group (SHIG).; Listing: Instrument of first designation: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Iran) Amendment (No. 2) Instrument 2023",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Damavand Tehran Highway, Tehran, Iran",
       "country": "Iran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

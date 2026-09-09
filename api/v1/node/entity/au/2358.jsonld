@@ -1,37 +1,55 @@
 {
-  "id": "https://www.ammitto.org/entity/au/2358",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/2358",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Souruh Company",
+      "@type": "NameVariant",
+      "fullName": "Souruh Company",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "SOROH Al Cham Company",
+      "@type": "NameVariant",
+      "fullName": "SOROH Al Cham Company",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Soroh Company",
+      "@type": "NameVariant",
+      "fullName": "Soroh Company",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Soroh Al Cham for Engineering and Construction",
+      "@type": "NameVariant",
+      "fullName": "Soroh Al Cham for Engineering and Construction",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Souruh Company acts as a vehicle for investment in local military industrial projects. Tel: +963 11 5327266. Mobile: +963 933 526812, +963 932 878282. Fax: +963 11 5316396. Email: sorohco@gmail.com. Website: http://sites.google.com/site/sorohco.; Listing: Designated under the Autonomous Sanctions Regulations 2011 on 2 March 2012. Instrument of first\ndesignation Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Syria) List 2012 [F2012L00482]\nRelisted on 12 January 2024.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/2358"
+  ],
+  "remarks": "Souruh Company acts as a vehicle for investment in local military industrial projects. Tel: +963 11 5327266. Mobile: +963 933 526812, +963 932 878282. Fax: +963 11 5316396. Email: sorohco@gmail.com. Website: http://sites.google.com/site/sorohco.; Listing: Designated under the Autonomous Sanctions Regulations 2011 on 2 March 2012. Instrument of first\ndesignation Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Syria) List 2012 [F2012L00482]\nRelisted on 12 January 2024.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Adra Free Zone Area, Damascus, Syrian Arab Republic",
       "country": "Syrian Arab Republic"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

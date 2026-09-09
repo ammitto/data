@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/45867",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/45867",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Palulekh Aliaksandr Uladzimiravich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Palulekh Aliaksandr Uladzimiravich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/45867"
   ],
   "remarks": "In his position as the Head of the Internal Affairs Directorate of the Frunzensky District Administration of Minsk, Aliaksandr Palulekh is responsible for the repression led by the police forces in this district against peaceful protesters in the wake of the 2020 presidential elections, in particular with ill-treatment, including torture, of peaceful protesters who were detained inside the police station under his control. He is therefore responsible for serious violations of human rights and the repression of civil society and democratic opposition.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1979-06-25",
-      "circa": false
+      "circa": false,
+      "year": 1979
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

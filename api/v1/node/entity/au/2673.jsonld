@@ -1,34 +1,48 @@
 {
-  "id": "https://www.ammitto.org/entity/au/2673",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/2673",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "François Yangouvonda BOZIZÉ",
+      "@type": "NameVariant",
+      "fullName": "François Yangouvonda BOZIZÉ",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Bozize Yangouvonda",
+      "@type": "NameVariant",
+      "fullName": "Bozize Yangouvonda",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Samuel Peter Mudde",
+      "@type": "NameVariant",
+      "fullName": "Samuel Peter Mudde",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "CFi.001 Title: a) Former Head of State Central African Republic; b) Professor. Passport no: D00002264, issued on 11 Jun. 2013, (issued by the Minister of Foreign Affairs, in Juba, South Sudan. Expires on 11 Jun. 2017. Diplomatic passport issued under name Samuel Peter Mudde) National identification no: M4800002143743 (Personal number on passport). Mother’s name is Martine Kofio.; Listing: Listed on 9 May 2014 (amended on 4 Nov. 2014; 16 Feb. 2018; 1 Mar. 2019; 28 Jul. 2020)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/2673"
   ],
-  "birth_info": [
+  "remarks": "CFi.001 Title: a) Former Head of State Central African Republic; b) Professor. Passport no: D00002264, issued on 11 Jun. 2013, (issued by the Minister of Foreign Affairs, in Juba, South Sudan. Expires on 11 Jun. 2017. Diplomatic passport issued under name Samuel Peter Mudde) National identification no: M4800002143743 (Personal number on passport). Mother’s name is Martine Kofio.; Listing: Listed on 9 May 2014 (amended on 4 Nov. 2014; 16 Feb. 2018; 1 Mar. 2019; 28 Jul. 2020)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1946,
       "country": "Mouila"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1948,
       "country": "Gabon"
     }
   ],
@@ -36,11 +50,15 @@
     "Central African Republic",
     "South Sudan"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "a) Uganda b) Bangui, Central African Republic (since his return from Uganda in December 2019)",
       "country": "Central African Republic (since his return from Uganda in December 2019)"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

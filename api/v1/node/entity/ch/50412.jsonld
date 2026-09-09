@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/50412",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/50412",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Pyzhik Yuri Nikolayevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Pyzhik Yuri Nikolayevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/50412"
   ],
   "remarks": "Colonel Yuri Pyzhik is a military pilot and Commander of the Belarusian 61st Fighter Air Base/Baranovichi airfield. He is part of the Belarusian army, which has supported Russian military aggression against Ukraine. In this capacity, he participated in the joint military exercises of Russia and Belarus preceding the military build-up at the Ukrainian border which prepared the Russian military aggression of 24 February 2022.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1970-03-02",
-      "circa": false
+      "circa": false,
+      "year": 1970
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

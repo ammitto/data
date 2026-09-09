@@ -1,37 +1,59 @@
 {
-  "id": "https://www.ammitto.org/entity/au/2723",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/2723",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Rustam Ilmirovich TEMIRGALIEV",
+      "@type": "NameVariant",
+      "fullName": "Rustam Ilmirovich TEMIRGALIEV",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Rustam TEMIRGALIEV",
+      "@type": "NameVariant",
+      "fullName": "Rustam TEMIRGALIEV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Rustem Ilmirovich TEMIRHALIYEV",
+      "@type": "NameVariant",
+      "fullName": "Rustem Ilmirovich TEMIRHALIYEV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Rustam Ilmyrovych TEMIRHALIYEV",
+      "@type": "NameVariant",
+      "fullName": "Rustam Ilmyrovych TEMIRHALIYEV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Former Deputy Chairman of the Council of Ministers of Crimea; Crimean Deputy Prime Minister.  Played a relevant role in the decisions taken by the ‘Supreme Council’ in the Crimean Parliament concerning the referendum against the territorial integrity of Ukraine.  He lobbied actively for integration of Crimea into the Russian Federation.  Dismissed on 11 June 2014.  Became Tatarstan representative in Kazakhstan but was dismissed in March 2015 after a criminal case on suspicion of fraud was launched against him in Crimea in February 2015; Listing: Listed on 19 Jun. 2014 (re-listed on 16 Jun. 2017, 10 June 2020 and 10 June 2023)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/2723"
   ],
-  "birth_info": [
+  "remarks": "Former Deputy Chairman of the Council of Ministers of Crimea; Crimean Deputy Prime Minister.  Played a relevant role in the decisions taken by the ‘Supreme Council’ in the Crimean Parliament concerning the referendum against the territorial integrity of Ukraine.  He lobbied actively for integration of Crimea into the Russian Federation.  Dismissed on 11 June 2014.  Became Tatarstan representative in Kazakhstan but was dismissed in March 2015 after a criminal case on suspicion of fraud was launched against him in Crimea in February 2015; Listing: Listed on 19 Jun. 2014 (re-listed on 16 Jun. 2017, 10 June 2020 and 10 June 2023)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1976,
       "country": "Ulan-Ude"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

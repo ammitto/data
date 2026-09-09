@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/54121",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/54121",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Uvarov Maksim Anatolyevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Uvarov Maksim Anatolyevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/54121"
   ],
   "remarks": "Member of the so-called ‘People’s Council’ of the so-called ‘Luhansk People’s Republic’. Has therefore supported and implemented actions and policies which undermine the territorial integrity, sovereignty and independence of Ukraine, and further destabilised Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1980-08-14",
-      "circa": false
+      "circa": false,
+      "year": 1980
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

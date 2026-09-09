@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/818310",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/818310",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "JLM DISTRIBUIDORA COMÉRCIO E SERVIÇOS EIRELI",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "JLM DISTRIBUIDORA COMÉRCIO E SERVIÇOS EIRELI",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/818310"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "RUA LEONEL CURVELO 1129 BAIRRO PEREIRA LOBO",
       "city": "ARACAJU - SE, 49052-125",
       "country": "Brazil",
-      "country_iso_code": "BR"
+      "countryIsoCode": "BR"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,37 +1,56 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/syr0423",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/syr0423",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "SULTAN SULEIMAN SHAH DIVISION",
+      "@type": "NameVariant",
+      "fullName": "SULTAN SULEIMAN SHAH DIVISION",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Amshat",
+      "@type": "NameVariant",
+      "fullName": "Amshat",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "فرقة السلطان سليمان شاه ",
+      "@type": "NameVariant",
+      "fullName": "فرقة السلطان سليمان شاه ",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": " عمشات ",
+      "@type": "NameVariant",
+      "fullName": " عمشات ",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/syr0423"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "city": "Afrin District",
       "state": "Aleppo Governate",
       "country": "Syria"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

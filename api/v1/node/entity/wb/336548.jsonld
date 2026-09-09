@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/336548",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/336548",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "CENTER FOR ENVIRONMENTAL STUDIES AND MANAGEMENT, INC. (CESM)",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "CENTER FOR ENVIRONMENTAL STUDIES AND MANAGEMENT, INC. (CESM)",
+      "isPrimary": true
     }
   ],
-  "remarks": "*378",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/336548"
+  ],
+  "remarks": "*378",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "SUITE 210, QUADSTAR BLDG. NO. 80 ORTIGAS AVENUE, GREENHILLS, SAN JUAN CITY, 1502",
       "city": "METRO MANILA",
       "country": "Philippines",
-      "country_iso_code": "PH"
+      "countryIsoCode": "PH"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

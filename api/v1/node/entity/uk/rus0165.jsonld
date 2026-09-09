@@ -1,40 +1,63 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus0165",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus0165",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "AO 'Institute Giprostroymost - Saint-Petersburg'",
+      "@type": "NameVariant",
+      "fullName": "AO 'Institute Giprostroymost - Saint-Petersburg'",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus0165"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "state": "Perm",
       "country": "Russia"
     },
     {
+      "@type": "Address",
+      "street": "",
       "state": "St Petersburg",
       "country": "Russia"
     },
     {
+      "@type": "Address",
+      "street": "",
       "state": "Vladivostok",
       "country": "Russia"
     },
     {
+      "@type": "Address",
+      "street": "",
       "city": "Filial",
       "state": "Moscow",
       "country": "Russia"
     },
     {
+      "@type": "Address",
       "street": "7, Yablochkova Street",
       "state": "St Petersburg",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

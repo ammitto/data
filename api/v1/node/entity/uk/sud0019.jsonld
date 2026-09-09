@@ -1,49 +1,69 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/sud0019",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/sud0019",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "ALKHALEEJ BANK CO LTD",
+      "@type": "NameVariant",
+      "fullName": "ALKHALEEJ BANK CO LTD",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "AL ROWAD BANK FOR DEVELOPMENT & INVESTMENT",
+      "@type": "NameVariant",
+      "fullName": "AL ROWAD BANK FOR DEVELOPMENT & INVESTMENT",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "AL ROWAD BANK FOR DEVELOPMENT AND INVESTMENT",
+      "@type": "NameVariant",
+      "fullName": "AL ROWAD BANK FOR DEVELOPMENT AND INVESTMENT",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "AL-KHALEEJ BANK",
+      "@type": "NameVariant",
+      "fullName": "AL-KHALEEJ BANK",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Gulf Bank Company Limited",
+      "@type": "NameVariant",
+      "fullName": "Gulf Bank Company Limited",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "شركة بنك الخليج المحدودة ",
+      "@type": "NameVariant",
+      "fullName": "شركة بنك الخليج المحدودة ",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/sud0019"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "6th Floor, Albaraka Tower, 1 Al Qasr",
       "city": "P.O.Box 1800",
       "state": "Khartoum",
       "country": "Sudan"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

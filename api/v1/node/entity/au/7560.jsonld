@@ -1,25 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7560",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7560",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Leonid Volodymyroviych KHARCHENKO",
+      "@type": "NameVariant",
+      "fullName": "Leonid Volodymyroviych KHARCHENKO",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "Former so-called ‘Commander’ of a Reconnaissance Battalion of the Military Intelligence Agency of the ‘People’s Republic of Donetsk’ and convicted by the District Court of The Hague for the downing of Flight MH17 on 17 November 2022.; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 5) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7560"
   ],
-  "birth_info": [
+  "remarks": "Former so-called ‘Commander’ of a Reconnaissance Battalion of the Military Intelligence Agency of the ‘People’s Republic of Donetsk’ and convicted by the District Court of The Hague for the downing of Flight MH17 on 17 November 2022.; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 5) Instrument 2023",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1972,
       "country": "Kostyantynivka"
     }
   ],
   "nationalities": [
     "Ukraine"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

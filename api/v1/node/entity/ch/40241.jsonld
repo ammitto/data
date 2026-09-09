@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/40241",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/40241",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Shatokhin Aleksey Vladimirovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Shatokhin Aleksey Vladimirovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/40241"
   ],
   "remarks": "Head of the Service of the Kerch Control Point for the “Republic of Crimea and City of Sevastopol” of the Federal Security Service of the Russian Federation. He participatedmin operations against Ukrainian vessels during the actions of the Russian Federation against Ukrainian vessels and their crews on 25 Nov 2018 which prevented access by Ukrainian vessels to their coast on the Sea of Azov, thereby undermining the territorial integrity and sovereignty of Ukraine and undermining the security of Ukraine through the disruption of the movements and operability of Ukrainian naval vessels.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1971-01-26",
-      "circa": false
+      "circa": false,
+      "year": 1971
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

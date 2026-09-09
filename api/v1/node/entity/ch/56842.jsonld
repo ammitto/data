@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/56842",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/56842",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Selivanov Alexey Sergeyevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Selivanov Alexey Sergeyevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/56842"
   ],
   "remarks": "The so-called “Deputy Head of the Main Directorate of the Ministry of Internal Affairs of the Zaporizhzhia Military-Civilian Administration”.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1980-12-07",
-      "circa": false
+      "circa": false,
+      "year": 1980
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

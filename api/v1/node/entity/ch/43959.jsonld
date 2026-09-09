@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/43959",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/43959",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Melnik Raman Ivanavich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Melnik Raman Ivanavich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/43959"
   ],
   "remarks": "In his former leadership position as the Head of the Main Directorate of Law and Order Protection and Prevention at the Ministry of Internal Affairs, he was responsible for the repression and intimidation campaign led by the State apparatus in the wake of the 2020 presidential election, in particular arbitrary arrests and ill-treatment, including torture, of peaceful demonstrators as well as intimidation and violence against journalists. He remains active in the Lukashenka regime as Head of the Administration of the Leninsky District of Minsk.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1964-05-29",
-      "circa": false
+      "circa": false,
+      "year": 1964
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

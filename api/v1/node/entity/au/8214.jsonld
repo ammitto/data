@@ -1,80 +1,104 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8214",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/8214",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Izz al-Din al-Haddad",
+      "@type": "NameVariant",
+      "fullName": "Izz al-Din al-Haddad",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Abu Suhaib",
+      "@type": "NameVariant",
+      "fullName": "Abu Suhaib",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ezz al-Din al-Hadad",
+      "@type": "NameVariant",
+      "fullName": "Ezz al-Din al-Hadad",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ezzedin al-Haddad",
+      "@type": "NameVariant",
+      "fullName": "Ezzedin al-Haddad",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Az al-Din Haddad",
+      "@type": "NameVariant",
+      "fullName": "Az al-Din Haddad",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Izz ad-Din al-Haddad",
+      "@type": "NameVariant",
+      "fullName": "Izz ad-Din al-Haddad",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Az A-Din Al-Haddad",
+      "@type": "NameVariant",
+      "fullName": "Az A-Din Al-Haddad",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ghost of al-Qassam",
+      "@type": "NameVariant",
+      "fullName": "Ghost of al-Qassam",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ghost of the al-Qassam Brigades",
+      "@type": "NameVariant",
+      "fullName": "Ghost of the al-Qassam Brigades",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ghost of the Gaza Strip",
+      "@type": "NameVariant",
+      "fullName": "Ghost of the Gaza Strip",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "عز الدين الحداد",
+      "@type": "NameVariant",
+      "fullName": "عز الدين الحداد",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Listing: Charter of the United Nations (Listed Persons and Entities) Amendment (No. 3) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8214"
   ],
-  "birth_info": [
+  "remarks": "Listing: Charter of the United Nations (Listed Persons and Entities) Amendment (No. 3) Instrument 2025",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1970
     }
   ],
   "nationalities": [
     "State of Palestine"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Gaza, State of Palestine",
       "country": "State of Palestine"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

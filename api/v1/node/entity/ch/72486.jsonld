@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/72486",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/72486",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Vologdin Boris Yakovlevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Vologdin Boris Yakovlevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/72486"
   ],
   "remarks": "Boris Vologdin is the General Director of JSC Tomsk Electrotechnical Plant. The company is a supplier of the Armed Forces of the Russian Federation. JSC Tomsk Electrotechnical Plant modernises T-90 with the cooperation and under the management of its parent company Uralvagonzavod.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1955-07-22",
-      "circa": false
+      "circa": false,
+      "year": 1955
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

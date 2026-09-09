@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/12935",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/12935",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Jabir Abu Bakr Yunis Major General",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Jabir Abu Bakr Yunis Major General",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/12935"
   ],
   "remarks": "Defence Minister. Overall responsibility for actions of armed forces.",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1952
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

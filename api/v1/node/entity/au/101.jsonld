@@ -1,55 +1,83 @@
 {
-  "id": "https://www.ammitto.org/entity/au/101",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/101",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mohammad Eshaq Akhunzada",
+      "@type": "NameVariant",
+      "fullName": "Mohammad Eshaq Akhunzada",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "محمد اسحاق آخوند زاده",
+      "@type": "NameVariant",
+      "fullName": "محمد اسحاق آخوند زاده",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Mohammad Ishaq Akhund",
+      "@type": "NameVariant",
+      "fullName": "Mohammad Ishaq Akhund",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "TAi.101 Title: Maulavi. Designation: Governor of Laghman Province under the Taliban regime. Taliban commander for Ghazni Province as at 2008. Belongs to Andar tribe. Review pursuant to Security Council resolution 1822 (2008) was concluded on 23 Jul. 2010.; Listing: Listed on 23 February 2001 (amended on 21 Sep 2007, 29 Nov. 2011)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/101"
   ],
-  "birth_info": [
+  "remarks": "TAi.101 Title: Maulavi. Designation: Governor of Laghman Province under the Taliban regime. Taliban commander for Ghazni Province as at 2008. Belongs to Andar tribe. Review pursuant to Security Council resolution 1822 (2008) was concluded on 23 Jul. 2010.; Listing: Listed on 23 February 2001 (amended on 21 Sep 2007, 29 Nov. 2011)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1963,
       "country": "Andar District"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1964,
       "country": "Ghazni province"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1965,
       "country": "Afghanistan"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1966,
       "country": "Andar District"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1967,
       "country": "Andar District"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1968,
       "country": "Andar District"
     }
   ],
   "nationalities": [
     "Afghanistan"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

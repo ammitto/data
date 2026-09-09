@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/50848",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/50848",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Turchak Andrey Anatolyevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Turchak Andrey Anatolyevich",
+      "isPrimary": true
     }
   ],
-  "remarks": "Andrey Turchak is secretary of the General Council of the United Russia party and first deputy speaker of the Federation Council. His political success is associated with his father, Anatoly Turchak, who trained judo with the President of the Russian Federation Vladimir Putin and the Rotenberg brothers. He promoted a positive attitude to the recognition of the separatist so-called “People’s Republics” of Donetsk and Luhansk.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/50848"
+  ],
+  "remarks": "Andrey Turchak was formerly the secretary of the General Council of the United Russia Party and first deputy speaker of the Federation Council. He is currently governor of the Altai republic of Russia. His political success is associated with his father, Anatoly Turchak, who trained judo with the President of the Russian Federation Vladimir Putin and the Rotenberg brothers. He promoted a positive attitude to the recognition of the separatist so-called “People’s Republics” of Donetsk and Luhansk.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1975-12-20",
-      "circa": false
+      "circa": false,
+      "year": 1975
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

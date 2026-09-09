@@ -1,0 +1,49 @@
+{
+  "@id": "https://www.ammitto.org/entry/eu/consolidated-list/eu400520",
+  "@type": "SanctionEntry",
+  "entityId": "https://www.ammitto.org/entity/eu/eu400520",
+  "authority": {
+    "@id": "https://www.ammitto.org/authority/eu"
+  },
+  "regime": {
+    "@id": "https://www.ammitto.org/regime/prk",
+    "name": "PRK"
+  },
+  "legalBases": [
+    {
+      "@id": "https://www.ammitto.org/legal-instrument/eu/2017-1568-oj-l238"
+    }
+  ],
+  "effects": [
+    {
+      "@type": "SanctionEffect",
+      "effectType": "asset_freeze",
+      "scope": "full"
+    }
+  ],
+  "reasons": [
+
+  ],
+  "period": {
+    "@type": "TemporalPeriod",
+    "listedDate": "2017-09-16",
+    "effectiveDate": "2017-09-16",
+    "isIndefinite": true
+  },
+  "status": "active",
+  "statusHistory": [
+
+  ],
+  "referenceNumber": "EU.4005.20",
+  "rawSourceData": {
+    "@type": "RawSourceData",
+    "sourceFormat": "xml",
+    "sourceSpecificFields": {
+      "eu:logicalId": "114262",
+      "eu:unitedNationId": null,
+      "eu:designationDetails": null,
+      "eu:subjectTypeCode": "enterprise"
+    }
+  },
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
+}

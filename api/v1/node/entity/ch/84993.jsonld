@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/84993",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/84993",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Rybakou Andrei Aliakseevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Rybakou Andrei Aliakseevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/84993"
   ],
   "remarks": "Andrei Rybakou is the Director-General of OAO Belaruskali. He was appointed by Aliaksandr Lukahsenka on 4 November 2024, replacing Ivan Golovaty. Lukashenka described Belaruskali as a “vital state-forming enterprise”.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1976-07-11",
-      "circa": false
+      "circa": false,
+      "year": 1976
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

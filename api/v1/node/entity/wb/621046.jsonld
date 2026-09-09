@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/621046",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/621046",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "DIGIMAX SERVICES LIMITED",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "DIGIMAX SERVICES LIMITED",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/621046"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "7TH FLOOR, RUTTONJEE HOUSE, 11 DUDDELL STREET",
       "city": "CENTRAL HONG KONG",
       "country": "Hong Kong SAR, China",
-      "country_iso_code": "HK"
+      "countryIsoCode": "HK"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

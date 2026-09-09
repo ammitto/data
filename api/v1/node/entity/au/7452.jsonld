@@ -1,42 +1,61 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7452",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/7452",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Branch of AO Company Sukhoi Yuri Gagarin Komsomolsk-on-Amur Aircraft Plant",
+      "@type": "NameVariant",
+      "fullName": "Branch of AO Company Sukhoi Yuri Gagarin Komsomolsk-on-Amur Aircraft Plant",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "KNAAZ",
+      "@type": "NameVariant",
+      "fullName": "KNAAZ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "KNAAPO",
+      "@type": "NameVariant",
+      "fullName": "KNAAPO",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Komsomolsk-on-Amur Aviation Plant named after Yu. A. Gagarin",
+      "@type": "NameVariant",
+      "fullName": "Komsomolsk-on-Amur Aviation Plant named after Yu. A. Gagarin",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Komsomolsk-na-Amur Aviation Production Organization ",
+      "@type": "NameVariant",
+      "fullName": "Komsomolsk-na-Amur Aviation Production Organization ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Email: mp@knaapo.msk.ru ; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 2) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7452"
+  ],
+  "remarks": "Email: mp@knaapo.msk.ru ; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 2) Instrument 2023",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "1 Sovetskaya Street, Khabarovsky Krai,  Komsomolsk-on-Amur,  618018, Russia",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

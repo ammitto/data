@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/53308",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/53308",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Tolstykina Larisa Valentinovna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Tolstykina Larisa Valentinovna",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/53308"
   ],
   "remarks": "So-called “Deputy Prime Minister” and former ”Minister of Labour and Social Affairs” of the so-called “Donetsk People’s Republic”. In taking on and acting in this capacity, she has actively undermined the territorial integrity, sovereignty and independence of Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1967-10-03",
-      "circa": false
+      "circa": false,
+      "year": 1967
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

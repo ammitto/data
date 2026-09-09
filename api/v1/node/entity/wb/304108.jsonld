@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/304108",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/304108",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "CONSPRIM – CONSTRUTORA PRIMEIRACRUZENSE LTDA",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "CONSPRIM – CONSTRUTORA PRIMEIRACRUZENSE LTDA",
+      "isPrimary": true
     }
   ],
-  "remarks": "*163",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/304108"
+  ],
+  "remarks": "*163",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "RUA E NO. 03 QUADRA F RESIDENCIAL, PRIMAVERA TURU",
       "city": "SÃO LUÍS, MARANHÃO",
       "country": "Brazil",
-      "country_iso_code": "BR"
+      "countryIsoCode": "BR"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

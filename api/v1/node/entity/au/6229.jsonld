@@ -1,40 +1,62 @@
 {
-  "id": "https://www.ammitto.org/entity/au/6229",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/6229",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Bah Ag Moussa",
+      "@type": "NameVariant",
+      "fullName": "Bah Ag Moussa",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Ag Mossa",
+      "@type": "NameVariant",
+      "fullName": "Ag Mossa",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ammi Salim",
+      "@type": "NameVariant",
+      "fullName": "Ammi Salim",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Founding member of Ansar Eddine (QDe.135), operational leader of Jama'a Nusrat ul-Islam wa al-Muslimin (JNIM) (QDe.159). Review pursuant to Security Council resolution 2610 (2021) was concluded on 8 November 2022.; Listing: Listed on: 14 Aug. 2019 (amended on 20 Aug. 2019)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/6229"
   ],
-  "birth_info": [
+  "remarks": "Founding member of Ansar Eddine (QDe.135), operational leader of Jama'a Nusrat ul-Islam wa al-Muslimin (JNIM) (QDe.159). Review pursuant to Security Council resolution 2610 (2021) was concluded on 8 November 2022.; Listing: Listed on: 14 Aug. 2019 (amended on 20 Aug. 2019)",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1958
     },
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1952
     },
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1956
     }
   ],
   "nationalities": [
     "Mali"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

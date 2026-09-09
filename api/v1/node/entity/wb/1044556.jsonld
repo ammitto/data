@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/1044556",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/1044556",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "SIGNUM TEKNOLOJI TANITIM VE EGITIM A.S.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "SIGNUM TEKNOLOJI TANITIM VE EGITIM A.S.",
+      "isPrimary": true
     }
   ],
-  "remarks": "(Reg. No: 0770097498000001) *706",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/1044556"
+  ],
+  "remarks": "(Reg. No: 0770097498000001) *706",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "ÜNIVERSITELER MAH. 1596. CAD. NO:8B IÇ KAPI NO:12 ÇANKAYA",
       "city": "ANKARA",
       "country": "Turkiye",
-      "country_iso_code": "TR"
+      "countryIsoCode": "TR"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

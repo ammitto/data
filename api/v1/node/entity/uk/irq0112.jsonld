@@ -1,21 +1,42 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/irq0112",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/irq0112",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "AL-UBAIDI",
-      "first_name": "GHAZI",
+      "@type": "NameVariant",
+      "fullName": "AL-UBAIDI",
+      "firstName": "GHAZI",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "غازي حمود العبيدي",
+      "@type": "NameVariant",
+      "fullName": "غازي حمود العبيدي",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/irq0112"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

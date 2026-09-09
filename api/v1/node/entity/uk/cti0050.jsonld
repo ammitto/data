@@ -1,41 +1,63 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/cti0050",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/cti0050",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "SINWAR",
-      "first_name": "Yahya",
+      "@type": "NameVariant",
+      "fullName": "SINWAR",
+      "firstName": "Yahya",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "AL-SINWAR",
-      "first_name": "Yehya",
+      "@type": "NameVariant",
+      "fullName": "AL-SINWAR",
+      "firstName": "Yehya",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Sinwar",
-      "first_name": "Yehia",
+      "@type": "NameVariant",
+      "fullName": "Sinwar",
+      "firstName": "Yehia",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Sinwar",
-      "first_name": "Yehiyeh",
+      "@type": "NameVariant",
+      "fullName": "Sinwar",
+      "firstName": "Yehiyeh",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/cti0050"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "state": "Gaza",
       "country": "Occupied Palestinian Territories"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,70 +1,93 @@
 {
-  "id": "https://www.ammitto.org/entity/au/6250",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/6250",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Jamal Hussein Hassan Zeiniye",
+      "@type": "NameVariant",
+      "fullName": "Jamal Hussein Hassan Zeiniye",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "جمال حسين حسن زينيه",
+      "@type": "NameVariant",
+      "fullName": "جمال حسين حسن زينيه",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Jamal Husayn Zayniyah",
+      "@type": "NameVariant",
+      "fullName": "Jamal Husayn Zayniyah",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abu Malek El Talleh",
+      "@type": "NameVariant",
+      "fullName": "Abu Malek El Talleh",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abu Hussein",
+      "@type": "NameVariant",
+      "fullName": "Abu Hussein",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "abu-Malik al-Ansari",
+      "@type": "NameVariant",
+      "fullName": "abu-Malik al-Ansari",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abu-Malik al-Shami",
+      "@type": "NameVariant",
+      "fullName": "Abu-Malik al-Shami",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abu-Malik al-Talli",
+      "@type": "NameVariant",
+      "fullName": "Abu-Malik al-Talli",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Syrian Passport No: 3987189;\nNational identification No: 13080011550;\nSyrian Identification Card No. 5877002 issued 25 May 2011;\nLeader of AL-NUSRAH FRONT FOR THE PEOPLE OF THE LEVANT (QDe.137) in West Kalamoun, Syrian Arab Republic. Mother’s name is Amina Tohmeh.; Listing: 2020-10-08",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/6250"
   ],
-  "birth_info": [
+  "remarks": "Syrian Passport No: 3987189;\nNational identification No: 13080011550;\nSyrian Identification Card No. 5877002 issued 25 May 2011;\nLeader of AL-NUSRAH FRONT FOR THE PEOPLE OF THE LEVANT (QDe.137) in West Kalamoun, Syrian Arab Republic. Mother’s name is Amina Tohmeh.; Listing: 2020-10-08",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1972,
       "country": "Banghazi"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1972,
       "country": "Libya;\nAl Tall"
     }
   ],
   "nationalities": [
     "Syria"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Syrian Arab Republic;\nArsal, Bekaa, Lebanon",
       "country": "Lebanon"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

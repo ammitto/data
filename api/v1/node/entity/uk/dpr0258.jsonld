@@ -1,28 +1,47 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/dpr0258",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/dpr0258",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "YONG SIK",
-      "first_name": "PAK",
+      "@type": "NameVariant",
+      "fullName": "YONG SIK",
+      "firstName": "PAK",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Yo'ng-sik",
-      "first_name": "Pak",
+      "@type": "NameVariant",
+      "fullName": "Yo'ng-sik",
+      "firstName": "Pak",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Pak Yong Sik is a member of the Workers’ Party of Korea Central Military Commission, which is responsible for the development and implementation of the Workers’ Party of Korea military policies, commands and controls the DPRK’s military, and helps direct the country’s military defense industries.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/dpr0258"
+  ],
+  "remarks": "Pak Yong Sik is a member of the Workers’ Party of Korea Central Military Commission, which is responsible for the development and implementation of the Workers’ Party of Korea military policies, commands and controls the DPRK’s military, and helps direct the country’s military defense industries.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Democratic People's Republic of Korea"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

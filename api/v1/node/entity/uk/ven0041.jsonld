@@ -1,33 +1,56 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/ven0041",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/ven0041",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Hernandez Larez",
-      "first_name": "Domingo",
+      "@type": "NameVariant",
+      "fullName": "Hernandez Larez",
+      "firstName": "Domingo",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Hernandez Lares",
-      "first_name": "Domingo",
+      "@type": "NameVariant",
+      "fullName": "Hernandez Lares",
+      "firstName": "Domingo",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Domingo Antonio Hernández Lárez",
+      "@type": "NameVariant",
+      "fullName": "Domingo Antonio Hernández Lárez",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Domingo Antonio Hernández Láres",
+      "@type": "NameVariant",
+      "fullName": "Domingo Antonio Hernández Láres",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/ven0041"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

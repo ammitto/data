@@ -1,51 +1,69 @@
 {
-  "id": "https://www.ammitto.org/entity/au/2204",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/2204",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Bachir SALEH",
+      "@type": "NameVariant",
+      "fullName": "Bachir SALEH",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Bashir SALEH",
+      "@type": "NameVariant",
+      "fullName": "Bashir SALEH",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Bashir Saleh BASHIR",
+      "@type": "NameVariant",
+      "fullName": "Bashir Saleh BASHIR",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Bashir Saleh Bashir ALSHARGAWI",
+      "@type": "NameVariant",
+      "fullName": "Bashir Saleh Bashir ALSHARGAWI",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Bashir Saleh Bashir AL SHRKAWI",
+      "@type": "NameVariant",
+      "fullName": "Bashir Saleh Bashir AL SHRKAWI",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Former head of Cabinet, acting as Muammar Qadhafi’s Chief of Staff. Responsible for Qadhafi regime’s repressive policies by close association and for management of financial entity ultimately controlled by Qadhafi family.; Listing: Designated under the Autonomous Sanctions Regulations 2011 on 2 March 2012. Formerly listed on the RBA Consolidated List as 2011LBY0030. \nInstrument of first designation and declaration: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Libya) List 2012 [F2012L00481]\nRelisting on 12 January 2024.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/2204"
   ],
-  "birth_info": [
+  "remarks": "Former head of Cabinet, acting as Muammar Qadhafi’s Chief of Staff. Responsible for Qadhafi regime’s repressive policies by close association and for management of financial entity ultimately controlled by Qadhafi family.; Listing: Designated under the Autonomous Sanctions Regulations 2011 on 2 March 2012. Formerly listed on the RBA Consolidated List as 2011LBY0030. \nInstrument of first designation and declaration: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Libya) List 2012 [F2012L00481]\nRelisting on 12 January 2024.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1946,
       "country": "Traghen"
     }
   ],
   "nationalities": [
     "Libya"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "a) South Africa; b) United Arab Emirates",
       "country": "a) South Africa; b) United Arab Emirates"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

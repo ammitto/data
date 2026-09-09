@@ -1,29 +1,45 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/dpr0151",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/dpr0151",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "KOREA HYOKSIN TRADING CORPORATION",
+      "@type": "NameVariant",
+      "fullName": "KOREA HYOKSIN TRADING CORPORATION",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "KOREA HYOKSIN EXPORT AND IMPORT CORPORATION",
+      "@type": "NameVariant",
+      "fullName": "KOREA HYOKSIN EXPORT AND IMPORT CORPORATION",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "A DPRK company based in Pyongyang that is subordinate to Korea Ryonbong General Corporation (designated by the Committee in April 2009) and is involved in the development of WMD.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/dpr0151"
+  ],
+  "remarks": "A DPRK company based in Pyongyang that is subordinate to Korea Ryonbong General Corporation (designated by the Committee in April 2009) and is involved in the development of WMD.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Rakwon-dong",
       "city": "Pothonggang District",
       "state": "Pyongyang",
       "country": "North Korea"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

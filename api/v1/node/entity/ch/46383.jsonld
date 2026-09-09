@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/46383",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/46383",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mikhailiuk Leonid Vladimirovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Mikhailiuk Leonid Vladimirovich",
+      "isPrimary": true
     }
   ],
-  "remarks": "Head of the Federal Security Service (FSB) in Crimea and Sevastopol and of the regional Anti-Terrorism Committee.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/46383"
+  ],
+  "remarks": "Head of the Directorate of the Federal Security Service (FSB) of the Russian Federation for the Krasnodar Krai.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1970-01-01",
-      "circa": false
+      "circa": false,
+      "year": 1970
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

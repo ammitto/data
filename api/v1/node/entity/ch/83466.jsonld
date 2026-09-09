@@ -1,16 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/83466",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/83466",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ibrahim Awwad Ibrahim Ali Al-Badri Al-Samarrai Dr.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Ibrahim Awwad Ibrahim Ali Al-Badri Al-Samarrai Dr.",
+      "isPrimary": true
     }
   ],
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/83466"
+  ],
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1971
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

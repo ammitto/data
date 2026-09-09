@@ -1,41 +1,62 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/dpr0028",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/dpr0028",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Pak",
-      "first_name": "In",
+      "@type": "NameVariant",
+      "fullName": "Pak",
+      "firstName": "In",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "PAK",
-      "first_name": " In",
+      "@type": "NameVariant",
+      "fullName": "PAK",
+      "firstName": " In",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Pak",
-      "first_name": "Daniel",
+      "@type": "NameVariant",
+      "fullName": "Pak",
+      "firstName": "Daniel",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Pak",
-      "first_name": "Daniel",
+      "@type": "NameVariant",
+      "fullName": "Pak",
+      "firstName": "Daniel",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Associations with Mansudae Overseas Project Group, Reconnaissance General Bureau, MKP Capital of the MKP Group, Ocean Maritime Management, Nice Field International, and Korea Kwangsong Banking Corporation. The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/dpr0028"
+  ],
+  "remarks": "Associations with Mansudae Overseas Project Group, Reconnaissance General Bureau, MKP Capital of the MKP Group, Ocean Maritime Management, Nice Field International, and Korea Kwangsong Banking Corporation. The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Seri Kembangan, Selangor",
       "country": "Malaysia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,28 +1,50 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/irn0048",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/irn0048",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Omidi",
-      "first_name": "Mehrdad",
+      "@type": "NameVariant",
+      "fullName": "Omidi",
+      "firstName": "Mehrdad",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "OMIDI",
-      "first_name": "Reza",
+      "@type": "NameVariant",
+      "fullName": "OMIDI",
+      "firstName": "Reza",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "REZA",
+      "@type": "NameVariant",
+      "fullName": "REZA",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/irn0048"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

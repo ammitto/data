@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/79805",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/79805",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mohammad Aleem Noorani Mufti",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Mohammad Aleem Noorani Mufti",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/79805"
   ],
   "remarks": "First Secretary, Taliban Consulate General, Karachi, Pakistan.",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1963
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,21 +1,36 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/lib0009",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/lib0009",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Al-Inma Holding Company for Tourism Investment",
+      "@type": "NameVariant",
+      "fullName": "Al-Inma Holding Company for Tourism Investment",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/lib0009"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Hasan al-Mashay Street (off al-Zawiyah Street)"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

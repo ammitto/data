@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/38126",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/38126",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kibelisa Roger",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kibelisa Roger",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/38126"
   ],
   "remarks": "As Interior Director of the National Intelligence Service (ANR), Roger Kibelisa is involved in the intimidation campaign carried out by ANR officials towards opposition members, including arbitrary arrests and detention. Roger Kibelisa has therefore undermined the rule of law and obstructed a consensual and peaceful solution towards elections in DRC.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1959-09-09",
-      "circa": false
+      "circa": false,
+      "year": 1959
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,40 +1,61 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/bel0162",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/bel0162",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "STURCHANKA",
-      "first_name": "Filip",
+      "@type": "NameVariant",
+      "fullName": "STURCHANKA",
+      "firstName": "Filip",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "STURCHANKA ",
-      "first_name": "Filip ",
+      "@type": "NameVariant",
+      "fullName": "STURCHANKA ",
+      "firstName": "Filip ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Филипп Владимирович ШТУРЧАНКА",
+      "@type": "NameVariant",
+      "fullName": "Филипп Владимирович ШТУРЧАНКА",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": " Філіп Уладзіміравіч СТУРЧАНКА",
+      "@type": "NameVariant",
+      "fullName": " Філіп Уладзіміравіч СТУРЧАНКА",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/bel0162"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Penal Colony 3, Vitba Settlement, Vitebsk Raion",
       "state": "Vitebsk Oblast",
       "country": "Belarus"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/50359",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/50359",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ivanov Sergei Borisovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Ivanov Sergei Borisovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/50359"
   ],
   "remarks": "Special Representative of the President of the Russian Federation on the Issues of Environmental Activities, Ecology and Transport. As a member of the Security Council of the Russian Federation, supported Russia’s immediate recognition of the two self-proclaimed republics.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1953-01-31",
-      "circa": false
+      "circa": false,
+      "year": 1953
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

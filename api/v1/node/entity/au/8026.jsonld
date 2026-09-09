@@ -1,40 +1,59 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8026",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/8026",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Alexey Gennadyevich DYUMIN",
+      "@type": "NameVariant",
+      "fullName": "Alexey Gennadyevich DYUMIN",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Alexei DYUMIN",
+      "@type": "NameVariant",
+      "fullName": "Alexei DYUMIN",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Aleksey Gennadevich DYUMIN",
+      "@type": "NameVariant",
+      "fullName": "Aleksey Gennadevich DYUMIN",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Oleksiy Hennadiyovych DYUMIN",
+      "@type": "NameVariant",
+      "fullName": "Oleksiy Hennadiyovych DYUMIN",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Secretary of the State Council of the Russian Federation; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8026"
   ],
-  "birth_info": [
+  "remarks": "Secretary of the State Council of the Russian Federation; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1972,
       "country": "Kursk"
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

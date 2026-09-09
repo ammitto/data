@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/56151",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/56151",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Shevchik Andrei Vladimirovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Shevchik Andrei Vladimirovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/56151"
   ],
   "remarks": "Former so-called mayor of Enerhodar. Organised the creation of “a council of self-organisation” of the city of Enerhodar on 27 March 2022, which was not supported by the Ukrainian authorities. He is now an employee of the Zaporozhye NPP.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1973-06-17",
-      "circa": false
+      "circa": false,
+      "year": 1973
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

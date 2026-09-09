@@ -1,35 +1,56 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus0052",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/rus0052",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Plotnitsky",
-      "first_name": "Igor",
+      "@type": "NameVariant",
+      "fullName": "Plotnitsky",
+      "firstName": "Igor",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "PLOTNITSKII",
-      "first_name": "Igor",
+      "@type": "NameVariant",
+      "fullName": "PLOTNITSKII",
+      "firstName": "Igor",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "PLOTNYTSKYY",
-      "first_name": "Ihor",
+      "@type": "NameVariant",
+      "fullName": "PLOTNYTSKYY",
+      "firstName": "Ihor",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus0052"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "state": "Moscow",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

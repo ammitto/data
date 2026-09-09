@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/52374",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/52374",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Sechina Marina Vladimirovna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Sechina Marina Vladimirovna",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/52374"
   ],
   "remarks": "Marina Sechina is a former wife of Igor Sechin, the CEO of Rosneft. She has used connections with various actors in the Russian government and Russian business structures, including with her former husband, for personal benefit.",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1962
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,35 +1,53 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7387",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7387",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Alan Valerievich LUSHNIKOV",
+      "@type": "NameVariant",
+      "fullName": "Alan Valerievich LUSHNIKOV",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Alan Valer'yevich LUSHNIKOV",
+      "@type": "NameVariant",
+      "fullName": "Alan Valer'yevich LUSHNIKOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Alan Valerjevitj LUSJNIKOV",
+      "@type": "NameVariant",
+      "fullName": "Alan Valerjevitj LUSJNIKOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Former Deputy Transport Minister of the Russia Federation; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 2) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7387"
   ],
-  "birth_info": [
+  "remarks": "Former Deputy Transport Minister of the Russia Federation; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 2) Instrument 2023",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1976,
       "country": "Leningrad"
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

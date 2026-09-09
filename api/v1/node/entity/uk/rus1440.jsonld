@@ -1,53 +1,74 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus1440",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus1440",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "MPI Volna LLC",
+      "@type": "NameVariant",
+      "fullName": "MPI Volna LLC",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Mashpriborintorg Wave",
+      "@type": "NameVariant",
+      "fullName": "Mashpriborintorg Wave",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Mashpriborintorg-Volna",
+      "@type": "NameVariant",
+      "fullName": "Mashpriborintorg-Volna",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Mashpriborintorg-Volna LLC",
+      "@type": "NameVariant",
+      "fullName": "Mashpriborintorg-Volna LLC",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "ООО МПИ-Волна",
+      "@type": "NameVariant",
+      "fullName": "ООО МПИ-Волна",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "ООО Машприборинторг-Волна",
+      "@type": "NameVariant",
+      "fullName": "ООО Машприборинторг-Волна",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "OGRN 1027739824683 The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus1440"
+  ],
+  "remarks": "OGRN 1027739824683 The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "29 Entuziastov Highway, Balashikha",
       "state": "Moskovskaya Oblast",
       "country": "Russia"
     },
     {
+      "@type": "Address",
       "street": "4A Plekhanova Street, Unit XII, Floor 2",
       "state": "Moscow",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

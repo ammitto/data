@@ -1,86 +1,111 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3043",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/3043",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "SEIFALLAH BEN OMAR BEN MOHAMED BEN HASSINE",
+      "@type": "NameVariant",
+      "fullName": "SEIFALLAH BEN OMAR BEN MOHAMED BEN HASSINE",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "سيف الله بن عمر بن محمد بنحسين",
+      "@type": "NameVariant",
+      "fullName": "سيف الله بن عمر بن محمد بنحسين",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Seif Allah ben Hocine",
+      "@type": "NameVariant",
+      "fullName": "Seif Allah ben Hocine",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Saifallah ben Hassine",
+      "@type": "NameVariant",
+      "fullName": "Saifallah ben Hassine",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Sayf Allah ‘Umar bin Hassayn",
+      "@type": "NameVariant",
+      "fullName": "Sayf Allah ‘Umar bin Hassayn",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Seifallah ben Amor ben Hassine",
+      "@type": "NameVariant",
+      "fullName": "Seifallah ben Amor ben Hassine",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Sayf Allah bin Hussayn",
+      "@type": "NameVariant",
+      "fullName": "Sayf Allah bin Hussayn",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abu Iyyadh al-Tunisi",
+      "@type": "NameVariant",
+      "fullName": "Abu Iyyadh al-Tunisi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abou Iyadh el-Tounsi",
+      "@type": "NameVariant",
+      "fullName": "Abou Iyadh el-Tounsi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abu Ayyad al-Tunisi",
+      "@type": "NameVariant",
+      "fullName": "Abu Ayyad al-Tunisi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abou Aayadh",
+      "@type": "NameVariant",
+      "fullName": "Abou Aayadh",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abou Iyadh",
+      "@type": "NameVariant",
+      "fullName": "Abou Iyadh",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Passport no: Tunisia number G557170, issued on 16 Nov. 1989. National identification no: Tunisia National Identification Card 05054425, issued on 3 May 2011 (issued in Hammam Lif). Founder of the Tunisian Combatant Group (Qde.090) and leader of Ansar al-Shari'a in Tunisia (AAS-T) (Qde.143). Arrest warrant issued by Tunisian Court of First Instance on 23 Aug. 2013. Review pursuant to Security Council resolution 2368 (2017) was concluded on 24 November 2020.; Listing: Listed on: 23 Sep. 2014 (amended on 15 Feb. 2017 and 27 Dec. 2017, 24 Nov. 2020)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3043"
   ],
-  "birth_info": [
+  "remarks": "Passport no: Tunisia number G557170, issued on 16 Nov. 1989. National identification no: Tunisia National Identification Card 05054425, issued on 3 May 2011 (issued in Hammam Lif). Founder of the Tunisian Combatant Group (Qde.090) and leader of Ansar al-Shari'a in Tunisia (AAS-T) (Qde.143). Arrest warrant issued by Tunisian Court of First Instance on 23 Aug. 2013. Review pursuant to Security Council resolution 2368 (2017) was concluded on 24 November 2020.; Listing: Listed on: 23 Sep. 2014 (amended on 15 Feb. 2017 and 27 Dec. 2017, 24 Nov. 2020)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1965,
       "country": "Tunis"
     }
   ],
   "nationalities": [
     "Tunisia"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "a) 60 Rue de la Libye, Hammam Lif, Ben Arous, Tunisia b) Libya (possible location as at Jul. 2017).",
       "country": "Tunisia b) Libya (possible location as at Jul. 2017)."
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

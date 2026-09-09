@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/nz/ind-461",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/nz/ind-461",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Petr Olegovich Aven",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Petr Olegovich Aven",
+      "isPrimary": true
     }
   ],
-  "source_references": [
+  "sourceReferences": [
     {
-      "source_code": "nz",
-      "reference_number": "IND-461"
+      "@type": "SourceReference",
+      "sourceCode": "nz",
+      "referenceNumber": "IND-461",
+      "retrievedAt": "2026-09-09T16:30:43Z"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "linkedEntities": [
+
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/nz/consolidated-list/ind-461"
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

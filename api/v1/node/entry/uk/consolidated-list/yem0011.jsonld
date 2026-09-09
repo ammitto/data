@@ -1,39 +1,55 @@
 {
-  "id": "https://www.ammitto.org/entry/uk/consolidated-list/yem0011",
-  "entity_id": "https://www.ammitto.org/entity/uk/yem0011",
+  "@id": "https://www.ammitto.org/entry/uk/consolidated-list/yem0011",
+  "@type": "SanctionEntry",
+  "entityId": "https://www.ammitto.org/entity/uk/yem0011",
   "authority": {
     "@id": "https://www.ammitto.org/authority/uk"
   },
   "regime": {
-    "@id": "https://www.ammitto.org/regime/the_yemen_sanctions_eu_exit_regulations_2020"
+    "@id": "https://www.ammitto.org/regime/the_yemen_sanctions_eu_exit_regulations_2020",
+    "name": "The Yemen (Sanctions) (EU Exit) Regulations 2020"
   },
+  "legalBases": [
+
+  ],
   "effects": [
     {
-      "effect_type": "asset_freeze",
+      "@type": "SanctionEffect",
+      "effectType": "asset_freeze",
       "scope": "full"
     },
     {
-      "effect_type": "travel_ban",
+      "@type": "SanctionEffect",
+      "effectType": "travel_ban",
       "scope": "full"
     }
   ],
+  "reasons": [
+
+  ],
   "period": {
-    "listed_date": "2022-09-28",
-    "effective_date": "2022-09-28",
-    "is_indefinite": true,
-    "last_updated": "2023-08-17"
+    "@type": "TemporalPeriod",
+    "listedDate": "2022-09-28",
+    "effectiveDate": "2022-09-28",
+    "isIndefinite": true,
+    "lastUpdated": "2023-08-17"
   },
   "status": "active",
-  "reference_number": "YEM0011",
+  "statusHistory": [
+
+  ],
+  "referenceNumber": "YEM0011",
   "remarks": "\nFormer Deputy Head of the Houthi National Security Bureau (NSB), oversaw detainees of the NSB who were subjected to torture and other mistreatment while detained, planned and directed illegal arrests and detention of humanitarian workers and the unlawful diversion of humanitarian assistance in violation of international humanitarian law. \n",
-  "raw_source_data": {
-    "source_format": "xml",
-    "source_specific_fields": {
+  "rawSourceData": {
+    "@type": "RawSourceData",
+    "sourceFormat": "xml",
+    "sourceSpecificFields": {
       "uk:ofsiGroupId": "15591",
+      "uk:unReferenceNumber": null,
       "uk:designationSource": "UN",
       "uk:sanctionsImposed": "Asset freeze|Travel Ban",
       "uk:entityType": "Individual"
     }
   },
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

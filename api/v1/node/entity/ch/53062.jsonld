@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/53062",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/53062",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Bazhaev Musa Yusupovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Bazhaev Musa Yusupovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/53062"
   ],
   "remarks": "Musa Bazhaev is the President of the JSC Alliance Group, which counts amongst its key clients the largest representatives of the gas and oil industries, industrial facilities, telecommunication sector and housing and public utilities.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1966-05-11",
-      "circa": false
+      "circa": false,
+      "year": 1966
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/36974",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/36974",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kang Chol Su",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kang Chol Su",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/36974"
   ],
   "remarks": "Official for Korea Ryonbong General Corporation, which specializes in acquisition for the DPRK’s defence industries and support for the DPRK’s military-related overseas sales. Its procurements also likely support the DPRK’s chemical weapons programme.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1969-02-13",
-      "circa": false
+      "circa": false,
+      "year": 1969
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

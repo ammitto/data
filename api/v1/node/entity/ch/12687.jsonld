@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/12687",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/12687",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ghassan Jaoudat Ismail General",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Ghassan Jaoudat Ismail General",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/12687"
   ],
   "remarks": "Former Head of the Syrian Air Force Intelligence Service under the former al-Assad regime. Former deputy director of the Air Force Intelligence Service and previously in charge of the missions branch of the Air Force Intelligence Service which, in cooperation with the special operations branch, manages the elite troops of the Air Force Intelligence Service, who play an important role in the repression conducted by the former al-Assad regime. As such, Ghassan Jaoudat Ismail is one of the top military leaders directly implementing the violent repression of opponents conducted by the former al-Assad regime as well as practices of disappearance of civilians.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1959-01-03",
-      "circa": false
+      "circa": false,
+      "year": 1959
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

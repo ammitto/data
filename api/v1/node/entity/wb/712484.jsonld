@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/712484",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/712484",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "PT LOTTE DATA COMMUNICATION INDONESIA",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "PT LOTTE DATA COMMUNICATION INDONESIA",
+      "isPrimary": true
     }
   ],
-  "remarks": "*623",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/712484"
+  ],
+  "remarks": "*623",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "city": "JAKARTA",
       "country": "Indonesia",
-      "country_iso_code": "ID"
+      "countryIsoCode": "ID"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

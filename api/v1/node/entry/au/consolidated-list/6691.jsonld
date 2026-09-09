@@ -1,33 +1,42 @@
 {
-  "id": "https://www.ammitto.org/entry/au/consolidated-list/6691",
-  "entity_id": "https://www.ammitto.org/entity/au/6691",
+  "@id": "https://www.ammitto.org/entry/au/consolidated-list/6691",
+  "@type": "SanctionEntry",
+  "entityId": "https://www.ammitto.org/entity/au/6691",
   "authority": {
     "@id": "https://www.ammitto.org/authority/au"
   },
   "regime": {
-    "@id": "https://www.ammitto.org/regime/au_dprk"
+    "@id": "https://www.ammitto.org/regime/au_dprk",
+    "name": "Democratic People's Republic of Korea"
   },
-  "legal_bases": [
+  "legalBases": [
     {
-      "type": "instrument",
-      "identifier": "Instrument of first designation Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Democratic People’s Republic of Korea) Amendment (No. 1) Instrument 2022",
-      "title": "Instrument of first designation Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Democratic People’s Republic of Korea) Amendment (No. 1) Instrument 2022"
+      "@id": "https://www.ammitto.org/legal-instrument/au/instrument-of-first-designation-autonomous-sanctions-designated-persons-and-entities-and-declared-persons-democratic-people-s-republic-of-korea-amendment-no.-1-instrument-2022"
     }
   ],
   "effects": [
     {
-      "effect_type": "asset_freeze",
+      "@type": "SanctionEffect",
+      "effectType": "asset_freeze",
       "scope": "full"
     }
   ],
+  "reasons": [
+
+  ],
   "period": {
-    "is_indefinite": true
+    "@type": "TemporalPeriod",
+    "isIndefinite": true
   },
   "status": "active",
-  "reference_number": "6691",
-  "raw_source_data": {
-    "source_format": "csv",
-    "source_specific_fields": {
+  "statusHistory": [
+
+  ],
+  "referenceNumber": "6691",
+  "rawSourceData": {
+    "@type": "RawSourceData",
+    "sourceFormat": "csv",
+    "sourceSpecificFields": {
       "au:reference": "6691",
       "au:committees": "Autonomous (DPRK)",
       "au:control_date": "2022-03-04",
@@ -35,5 +44,5 @@
       "au:listing_info": "Instrument of first designation Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Democratic People’s Republic of Korea) Amendment (No. 1) Instrument 2022"
     }
   },
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

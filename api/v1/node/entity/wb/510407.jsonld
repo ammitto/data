@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/510407",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/510407",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "PT. JAYA ETIKA TEKNIK",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "PT. JAYA ETIKA TEKNIK",
+      "isPrimary": true
     }
   ],
-  "remarks": "*571",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/510407"
+  ],
+  "remarks": "*571",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "JL. KETINTANG BARU SELATAN VII/6",
       "city": "SURABAYA 60235",
       "country": "Indonesia",
-      "country_iso_code": "ID"
+      "countryIsoCode": "ID"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

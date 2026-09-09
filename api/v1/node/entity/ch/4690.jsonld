@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/4690",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/4690",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Bushnaia Natallia Uladzimirauna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Bushnaia Natallia Uladzimirauna",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/4690"
   ],
   "remarks": "Director of school in the Leninsky District of Minsk. Had actively undermined democracy in Belarus. In her former role as a Member of the Central Electoral Commission, she was responsible for the violations of international electoral standards in the Presidential elections on 19 December 2010.",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1953
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

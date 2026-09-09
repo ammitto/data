@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/12606",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/12606",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Sha’afiq Masa Brigadier General",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Sha’afiq Masa Brigadier General",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/12606"
   ],
   "remarks": "Head of Branch 215 (Damascus) of the army’s intelligence service under the former al-Assad regime. Responsible for the torture of detained opponents. Involved in repressive actions against the civilian population.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1956-07-05",
-      "circa": false
+      "circa": false,
+      "year": 1956
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

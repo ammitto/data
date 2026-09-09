@@ -1,37 +1,47 @@
 {
-  "id": "https://www.ammitto.org/entry/au/consolidated-list/3177",
-  "entity_id": "https://www.ammitto.org/entity/au/3177",
+  "@id": "https://www.ammitto.org/entry/au/consolidated-list/3177",
+  "@type": "SanctionEntry",
+  "entityId": "https://www.ammitto.org/entity/au/3177",
   "authority": {
     "@id": "https://www.ammitto.org/authority/au"
   },
   "regime": {
-    "@id": "https://www.ammitto.org/regime/2713__al_shabaab_"
+    "@id": "https://www.ammitto.org/regime/2713__al_shabaab_",
+    "name": "2713 (Al-Shabaab)"
   },
-  "legal_bases": [
+  "legalBases": [
     {
-      "type": "regulation",
-      "identifier": "Listed on 12 April 2010.",
-      "title": "Listed on 12 April 2010."
+      "@id": "https://www.ammitto.org/legal-instrument/au/listed-on-12-april-2010."
     }
   ],
   "effects": [
     {
-      "effect_type": "asset_freeze",
+      "@type": "SanctionEffect",
+      "effectType": "asset_freeze",
       "scope": "full"
     },
     {
-      "effect_type": "arms_embargo",
+      "@type": "SanctionEffect",
+      "effectType": "arms_embargo",
       "scope": "full"
     }
   ],
+  "reasons": [
+
+  ],
   "period": {
-    "is_indefinite": true
+    "@type": "TemporalPeriod",
+    "isIndefinite": true
   },
   "status": "active",
-  "reference_number": "3177",
-  "raw_source_data": {
-    "source_format": "csv",
-    "source_specific_fields": {
+  "statusHistory": [
+
+  ],
+  "referenceNumber": "3177",
+  "rawSourceData": {
+    "@type": "RawSourceData",
+    "sourceFormat": "csv",
+    "sourceSpecificFields": {
       "au:reference": "3177",
       "au:committees": "2713 (Al-Shabaab)",
       "au:control_date": "2026-02-20",
@@ -39,5 +49,5 @@
       "au:listing_info": "Listed on 12 April 2010."
     }
   },
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

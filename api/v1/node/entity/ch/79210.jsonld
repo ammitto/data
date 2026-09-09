@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/79210",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/79210",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Najibullah Haqqani Hidayatullah Maulavi",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Najibullah Haqqani Hidayatullah Maulavi",
+      "isPrimary": true
     }
   ],
-  "remarks": "Deputy Minister of Finance under the Taliban regime.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/79210"
+  ],
+  "remarks": "Deputy Minister of Finance under the Taliban regime (1996-2001).",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1971
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

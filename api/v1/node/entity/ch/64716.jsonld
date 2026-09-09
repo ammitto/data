@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/64716",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/64716",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Rukunda Michel",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Rukunda Michel",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/64716"
   ],
   "remarks": "Michel Rukunda is a former Colonel of the Congolese armed forces (FARDC) and the Commander and Military leader of the non-governmental armed group Twirwaneho operating in South Kivu, which claims to represent the Banyamulenge Community.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1974-09-12",
-      "circa": false
+      "circa": false,
+      "year": 1974
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

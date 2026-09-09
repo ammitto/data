@@ -1,41 +1,59 @@
 {
-  "id": "https://www.ammitto.org/entity/au/646",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/646",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Dieudonné OZIA MAZIO",
+      "@type": "NameVariant",
+      "fullName": "Dieudonné OZIA MAZIO",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Ozia Mazio",
+      "@type": "NameVariant",
+      "fullName": "Ozia Mazio",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Omari",
+      "@type": "NameVariant",
+      "fullName": "Omari",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Mr Omari",
+      "@type": "NameVariant",
+      "fullName": "Mr Omari",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "CDi.027 While president of the Fédération des entreprises congolaises (FEC) in Aru territory, Dieudonné Ozia Mazio is believed to have died in Ariwara on 23 September 2008.; Listing: Listed by 1533 Committee on 1 Nov. 2005",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/646"
   ],
-  "birth_info": [
+  "remarks": "CDi.027 While president of the Fédération des entreprises congolaises (FEC) in Aru territory, Dieudonné Ozia Mazio is believed to have died in Ariwara on 23 September 2008.; Listing: Listed by 1533 Committee on 1 Nov. 2005",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1949,
       "country": "Ariwara"
     }
   ],
   "nationalities": [
-    "Congo",
-    "Democratic Republic of the"
+    "Congo, Democratic Republic of the"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

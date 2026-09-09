@@ -1,71 +1,93 @@
 {
-  "id": "https://www.ammitto.org/entity/au/2985",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/2985",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Alexander KHODAKOVSKY",
+      "@type": "NameVariant",
+      "fullName": "Alexander KHODAKOVSKY",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Oleksandr Serhiyovych KHODAKOVSKYY",
+      "@type": "NameVariant",
+      "fullName": "Oleksandr Serhiyovych KHODAKOVSKYY",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Oleksandr Serhiyovych KHODAKOVSKY",
+      "@type": "NameVariant",
+      "fullName": "Oleksandr Serhiyovych KHODAKOVSKY",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Aleksandr Sergeevich KHODAKOVSKII",
+      "@type": "NameVariant",
+      "fullName": "Aleksandr Sergeevich KHODAKOVSKII",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Oleksandr Serhiyovych KHODAKOVSKIY",
+      "@type": "NameVariant",
+      "fullName": "Oleksandr Serhiyovych KHODAKOVSKIY",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Alexander Sergeevich KHODAKOVSKY",
+      "@type": "NameVariant",
+      "fullName": "Alexander Sergeevich KHODAKOVSKY",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Oleksandr Sergiyovych KHODAKOVSKYI",
+      "@type": "NameVariant",
+      "fullName": "Oleksandr Sergiyovych KHODAKOVSKYI",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Oleksandr Sergeyevich KHODAKOVSKYY",
+      "@type": "NameVariant",
+      "fullName": "Oleksandr Sergeyevich KHODAKOVSKYY",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Aleksandr Sergeevich KHODAKOVSKIY",
+      "@type": "NameVariant",
+      "fullName": "Aleksandr Sergeevich KHODAKOVSKIY",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Listing: Listed on 2 Sep. 2014 (relisted on 1 Sep. 2017) (relisted on 28 Aug. 2020 (relisted on 27 Aug 2023)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/2985"
   ],
-  "birth_info": [
+  "remarks": "Listing: Listed on 2 Sep. 2014 (relisted on 1 Sep. 2017) (relisted on 28 Aug. 2020 (relisted on 27 Aug 2023)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1972,
       "country": "Donetsk"
     }
   ],
   "nationalities": [
     "Ukraine"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Donetsk, Ukraine",
       "country": "Ukraine"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

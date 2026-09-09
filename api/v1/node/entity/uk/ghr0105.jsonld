@@ -1,24 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/ghr0105",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/ghr0105",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "ZhengHeng Group Co. Ltd.",
+      "@type": "NameVariant",
+      "fullName": "ZhengHeng Group Co. Ltd.",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/ghr0105"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "CASA Room No. (ZH03) A02-01, A02-02, Harvard, Diamond Island, Phum 14",
       "city": "Tonle Basak, Chamkar Mon",
       "state": "Phnom Penh",
       "country": "Cambodia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

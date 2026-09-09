@@ -1,30 +1,47 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7432",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7432",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Arkadiy Aleksandrovich GOSTEV",
+      "@type": "NameVariant",
+      "fullName": "Arkadiy Aleksandrovich GOSTEV",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Arkady Alexandrovich GOSTEV",
+      "@type": "NameVariant",
+      "fullName": "Arkady Alexandrovich GOSTEV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Director of the Federal Penitentiary Service of the Russian Federation; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 2) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7432"
   ],
-  "birth_info": [
+  "remarks": "Director of the Federal Penitentiary Service of the Russian Federation; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 2) Instrument 2023",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1961,
       "country": "Shatsk District"
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

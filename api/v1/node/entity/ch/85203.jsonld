@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/85203",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/85203",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mazol Vadzim Ivanavich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Mazol Vadzim Ivanavich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/85203"
   ],
   "remarks": "Vadzim Mazol is a Belarusian judge of the Pruzhany District Court of the Brest Region. He was appointed by Aliaksandr Lukashenka. He issued sentences against a large number of citizens of Belarus who voiced their opinions against the President and the regime’s law enforcement authorities, including on social media.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1974-04-13",
-      "circa": false
+      "circa": false,
+      "year": 1974
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

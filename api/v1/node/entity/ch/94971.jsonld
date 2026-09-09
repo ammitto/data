@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/94971",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/94971",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Nikolayeva Svetlana Ivanovna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Nikolayeva Svetlana Ivanovna",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/94971"
   ],
   "remarks": "Svetlana Nikolayeva is a Russian businessperson holding managing positions and business interests in the Russian military and industrial complex. She is the wife of Konstantin Yuryevich Nikolayev.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1964-11-15",
-      "circa": false
+      "circa": false,
+      "year": 1964
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

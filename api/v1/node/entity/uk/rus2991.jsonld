@@ -1,47 +1,67 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus2991",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus2991",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "LLC MYTISHCHI INSTRUMENT-MAKING PLANT",
+      "@type": "NameVariant",
+      "fullName": "LLC MYTISHCHI INSTRUMENT-MAKING PLANT",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Limited Liability Company Mytishinsky Instrument Making Plant",
+      "@type": "NameVariant",
+      "fullName": "Limited Liability Company Mytishinsky Instrument Making Plant",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Mytishchi Instrument Engineering Plant",
+      "@type": "NameVariant",
+      "fullName": "Mytishchi Instrument Engineering Plant",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Mytishchi Instrument-making plant LLC",
+      "@type": "NameVariant",
+      "fullName": "Mytishchi Instrument-making plant LLC",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Mytishinsky Priborostroitelnyi Zavod",
+      "@type": "NameVariant",
+      "fullName": "Mytishinsky Priborostroitelnyi Zavod",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "ООО Мытищинский приборостроительный завод",
+      "@type": "NameVariant",
+      "fullName": "ООО Мытищинский приборостроительный завод",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus2991"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Building 12, 1st Silikatny Lane",
       "state": "Mytishchi",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

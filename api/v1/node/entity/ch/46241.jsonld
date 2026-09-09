@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/46241",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/46241",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ana Julia Guido Ochoa",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Ana Julia Guido Ochoa",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/46241"
   ],
   "remarks": "In her position as Attorney General, the highest civil servant in the Prosecutor’s Office, Ana Julia Guido Ochoa, who is loyal to the Ortega regime, is responsible for the politically motivated prosecution of numerous protesters and members of the political opposition. She created a specialised unit that fabricated allegations against protesters and brought charges against them. She is moreover responsible for the disqualification from public office of the main opposition candidate for the general elections. She is therefore responsible for serious human rights violations, for the repression of civil society and democratic opposition, and for undermining democracy and the rule of law in Nicaragua.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1959-02-16",
-      "circa": false
+      "circa": false,
+      "year": 1959
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/nz/ind-100",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/nz/ind-100",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Bekhan Vakhaevich Agaev",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Bekhan Vakhaevich Agaev",
+      "isPrimary": true
     }
   ],
-  "source_references": [
+  "sourceReferences": [
     {
-      "source_code": "nz",
-      "reference_number": "IND-100"
+      "@type": "SourceReference",
+      "sourceCode": "nz",
+      "referenceNumber": "IND-100",
+      "retrievedAt": "2026-09-09T16:30:42Z"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "linkedEntities": [
+
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/nz/consolidated-list/ind-100"
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

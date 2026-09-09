@@ -1,39 +1,58 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7507",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7507",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kourosh ASIABANI",
+      "@type": "NameVariant",
+      "fullName": "Kourosh ASIABANI",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Kurosh ASIABANI",
+      "@type": "NameVariant",
+      "fullName": "Kurosh ASIABANI",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Korosh ASIABANI",
+      "@type": "NameVariant",
+      "fullName": "Korosh ASIABANI",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Koresh ASIYABANI",
+      "@type": "NameVariant",
+      "fullName": "Koresh ASIYABANI",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Brigadier-General, Commander of the Shahid Kazemi Provincial Headquarters of the Islamic Revolutionary Guard Corps (IRGC); Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Thematic Sanctions) Amendment (No. 2) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7507"
   ],
-  "birth_info": [
+  "remarks": "Brigadier-General, Commander of the Shahid Kazemi Provincial Headquarters of the Islamic Revolutionary Guard Corps (IRGC); Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Thematic Sanctions) Amendment (No. 2) Instrument 2023",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1961
     }
   ],
   "nationalities": [
     "Iran"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

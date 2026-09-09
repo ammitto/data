@@ -1,28 +1,44 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus1951",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus1951",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "AZU INTERNATIONAL LTD STI",
+      "@type": "NameVariant",
+      "fullName": "AZU INTERNATIONAL LTD STI",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Azu International Bilgi Teknolojileri Ve Dis Ticaret Limited Sirketi",
+      "@type": "NameVariant",
+      "fullName": "Azu International Bilgi Teknolojileri Ve Dis Ticaret Limited Sirketi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus1951"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Grandpera Block No: 56-58 Inner door No: 5, Istiklal Str, Huseyinaga neighborhood",
       "state": "Istanbul",
       "country": "Turkey"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

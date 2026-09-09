@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/874782",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/874782",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "PT. LPPSLH KONSULTAN",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "PT. LPPSLH KONSULTAN",
+      "isPrimary": true
     }
   ],
-  "remarks": "*668",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/874782"
+  ],
+  "remarks": "*668",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "JL. NGESREP BARAT III, NO. 30 G, KEL. SRONDOL KULON, KEC. BANYUMANIK, KOTA SEMARANG",
       "city": "PROVINSI JAWA TENGAH",
       "country": "Indonesia",
-      "country_iso_code": "ID"
+      "countryIsoCode": "ID"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

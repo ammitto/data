@@ -1,21 +1,36 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/113405",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/113405",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "SMAFORETAGARTJANST SRB AB",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "SMAFORETAGARTJANST SRB AB",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/113405"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "city": "STOCKHOLM",
       "country": "Sweden",
-      "country_iso_code": "SE"
+      "countryIsoCode": "SE"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/83934",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/83934",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Hajjaj Bin Fahd Al Ajmi",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Hajjaj Bin Fahd Al Ajmi",
+      "isPrimary": true
     }
   ],
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/83934"
+  ],
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1987-08-10",
-      "circa": false
+      "circa": false,
+      "year": 1987
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

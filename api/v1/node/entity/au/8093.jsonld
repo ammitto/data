@@ -1,32 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8093",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/8093",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Bryansk Electromechanical Plant Joint Stock Company",
+      "@type": "NameVariant",
+      "fullName": "Bryansk Electromechanical Plant Joint Stock Company",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Bryanskiy elektromekhanicheskiy zavod",
+      "@type": "NameVariant",
+      "fullName": "Bryanskiy elektromekhanicheskiy zavod",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "AO BEMZ",
+      "@type": "NameVariant",
+      "fullName": "AO BEMZ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "http://www.aobemz.ru/; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8093"
+  ],
+  "remarks": "http://www.aobemz.ru/; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Vokzalnaya Street, 136, Bryansk, Bryansk Region, 241017, Russia",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

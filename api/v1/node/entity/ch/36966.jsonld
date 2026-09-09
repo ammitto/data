@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/36966",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/36966",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Jo Chol Song",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Jo Chol Song",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/36966"
   ],
   "remarks": "Representative for the Korea Kwangson Banking Corporation, which provides financial services in support to Tanchon Commercial Bank and Korea Hyoksin Trading, a subordinate entity of Korea Ryonbong General Corporation.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1984-09-25",
-      "circa": false
+      "circa": false,
+      "year": 1984
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

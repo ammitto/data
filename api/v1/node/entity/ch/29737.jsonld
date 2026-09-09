@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/29737",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/29737",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mikhaylov Yevgeniy Eduardovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Mikhaylov Yevgeniy Eduardovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/29737"
   ],
   "remarks": "Former so-called \"Minister of the Council of Ministers\" (head of the administration for governmental affairs) of the \"Donetsk People's Republic\".",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1963-03-17",
-      "circa": false
+      "circa": false,
+      "year": 1963
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/7010",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/7010",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Sibanda Misheck Julius Mpande",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Sibanda Misheck Julius Mpande",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/7010"
   ],
   "remarks": "Associated with ZANU-PF faction of Government. In March 2010 gave instructions to ministers and cabinet secretaries to report to ZANU-PF politicians and not the Prime Minister Morgan Tsvangirai.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1949-05-03",
-      "circa": false
+      "circa": false,
+      "year": 1949
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

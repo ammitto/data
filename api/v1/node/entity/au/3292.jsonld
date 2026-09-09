@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3292",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/3292",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Sonbak Trading Corporation",
+      "@type": "NameVariant",
+      "fullName": "Sonbak Trading Corporation",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "Facilitated shipping and general business for a sanctioned North Korean entity. IMO 1556069 Registered vessel 'Son Bak 10'  Telephone 850-2-18111-381-8954; 850-2-18111-8626. Fax 850-2-381-1427; Listing: Listed on: 17 Aug. 2017. Continued in effect for a further three years by Declaration of the Minister for Foreign Affairs made on 23 May 2020 pursuant to regulation 9(3) of the Autonomous Sanctions Regulations 2011.  Re-listed on 22 May 2023 under the Autonomous Sanctions (Designated Persons and Entities and Declared Persons - Democratic People's Republic of Korea) Amendment (No. 1) Instrument 2023.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3292"
+  ],
+  "remarks": "Facilitated shipping and general business for a sanctioned North Korean entity. IMO 1556069 Registered vessel 'Son Bak 10'  Telephone 850-2-18111-381-8954; 850-2-18111-8626. Fax 850-2-381-1427; Listing: Listed on: 17 Aug. 2017. Continued in effect for a further three years by Declaration of the Minister for Foreign Affairs made on 23 May 2020 pursuant to regulation 9(3) of the Autonomous Sanctions Regulations 2011.  Re-listed on 22 May 2023 under the Autonomous Sanctions (Designated Persons and Entities and Declared Persons - Democratic People's Republic of Korea) Amendment (No. 1) Instrument 2023.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Taedonggang District, Pyongyang; North Korea, Malaysia, Indonesia, Singapore",
       "country": "Singapore"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

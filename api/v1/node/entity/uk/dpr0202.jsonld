@@ -1,40 +1,61 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/dpr0202",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/dpr0202",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "IL U",
-      "first_name": "CHO",
+      "@type": "NameVariant",
+      "fullName": "IL U",
+      "firstName": "CHO",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Chol",
-      "first_name": "Jo",
+      "@type": "NameVariant",
+      "fullName": "Chol",
+      "firstName": "Jo",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ch'o'l",
-      "first_name": "Cho",
+      "@type": "NameVariant",
+      "fullName": "Ch'o'l",
+      "firstName": "Cho",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Il Woo",
-      "first_name": "Cho",
+      "@type": "NameVariant",
+      "fullName": "Il Woo",
+      "firstName": "Cho",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Cho is believed to be in charge of overseas espionage operations and foreign intelligence collection for the Democratic People's Republic of Korea.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/dpr0202"
+  ],
+  "remarks": "Cho is believed to be in charge of overseas espionage operations and foreign intelligence collection for the Democratic People's Republic of Korea.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Democratic People's Republic of Korea"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

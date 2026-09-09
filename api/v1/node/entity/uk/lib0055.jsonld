@@ -1,48 +1,72 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/lib0055",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/lib0055",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kashlaf",
-      "first_name": "Mohammed",
+      "@type": "NameVariant",
+      "fullName": "Kashlaf",
+      "firstName": "Mohammed",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "al-Qasab",
+      "@type": "NameVariant",
+      "fullName": "al-Qasab",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Kashlaf",
+      "@type": "NameVariant",
+      "fullName": "Kashlaf",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Keslaf",
+      "@type": "NameVariant",
+      "fullName": "Keslaf",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Koshlaf",
+      "@type": "NameVariant",
+      "fullName": "Koshlaf",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "محمد الأمين العربي كشلاف",
+      "@type": "NameVariant",
+      "fullName": "محمد الأمين العربي كشلاف",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Listed pursuant to paragraphs 15 and 17 of resolution 1970 (Travel Ban, Asset Freeze)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/lib0055"
+  ],
+  "remarks": "Listed pursuant to paragraphs 15 and 17 of resolution 1970 (Travel Ban, Asset Freeze)",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "state": "Zawiya",
       "country": "Libya"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,35 +1,54 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8059",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/8059",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Andrey Anatolyevich GIBA",
+      "@type": "NameVariant",
+      "fullName": "Andrey Anatolyevich GIBA",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Andrii Anatoliiovych HIBA",
+      "@type": "NameVariant",
+      "fullName": "Andrii Anatoliiovych HIBA",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Andrey Anatolevich GIBA",
+      "@type": "NameVariant",
+      "fullName": "Andrey Anatolevich GIBA",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Deputy Head of the Investigative Department of the Federal Security Service of the Russian Federation in Crimea and Sevastopol; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8059"
   ],
-  "birth_info": [
+  "remarks": "Deputy Head of the Investigative Department of the Federal Security Service of the Russian Federation in Crimea and Sevastopol; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1976,
       "country": "Simferopol"
     }
   ],
   "nationalities": [
-    "Russia;Ukraine"
+    "Russia",
+    "Ukraine"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

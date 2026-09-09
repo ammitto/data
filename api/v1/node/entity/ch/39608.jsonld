@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/39608",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/39608",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Jadhran Ibrahim Saeed Salim",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Jadhran Ibrahim Saeed Salim",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/39608"
   ],
   "remarks": "Leader of armed militias.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1982-10-29",
-      "circa": false
+      "circa": false,
+      "year": 1982
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

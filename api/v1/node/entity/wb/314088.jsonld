@@ -1,23 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/314088",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/wb/314088",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MR. YRYSBEK NURDUPOVICH GULMATOV",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "MR. YRYSBEK NURDUPOVICH GULMATOV",
+      "isPrimary": true
     }
   ],
-  "remarks": "*236",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/314088"
+  ],
+  "remarks": "*236",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "287 KIRGIZSKAYA STREET",
       "city": "KYZYL-KIYA TOWN",
       "country": "Kyrgyz Republic",
-      "country_iso_code": "KG"
+      "countryIsoCode": "KG"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

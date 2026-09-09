@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/52364",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/52364",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ernst Konstantin Lvovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Ernst Konstantin Lvovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/52364"
   ],
   "remarks": "Konstantin Ernst is the CEO of Channel One Russia – one of the largest Russian media companies, which has been used for propaganda purposes by the Russian authorities for many years. In this position, he is responsible for organising and disseminating anti- Ukrainian propaganda of the Russian authorities.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1961-02-06",
-      "circa": false
+      "circa": false,
+      "year": 1961
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

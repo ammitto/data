@@ -1,39 +1,59 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7953",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7953",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mohammad Reza ASHTIANI",
+      "@type": "NameVariant",
+      "fullName": "Mohammad Reza ASHTIANI",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Mohammad Reza QARA'I-ASHTIANI",
+      "@type": "NameVariant",
+      "fullName": "Mohammad Reza QARA'I-ASHTIANI",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Mohammad-Reza ASHTIANI",
+      "@type": "NameVariant",
+      "fullName": "Mohammad-Reza ASHTIANI",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Brigadier General Mohammad Reza ASHTIANI is Iran’s Minister of Defence and Armed Forces Logistics.; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Iran) Amendment (No. 1) Instrument 2024",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7953"
   ],
-  "birth_info": [
+  "remarks": "Brigadier General Mohammad Reza ASHTIANI is Iran’s Minister of Defence and Armed Forces Logistics.; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Iran) Amendment (No. 1) Instrument 2024",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1960,
       "country": "Tehran"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1961,
       "country": "Iran"
     }
   ],
   "nationalities": [
     "Iran"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

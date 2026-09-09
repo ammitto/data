@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/102174",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/102174",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "SENG ENTERPRISE CO., LTD.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "SENG ENTERPRISE CO., LTD.",
+      "isPrimary": true
     }
   ],
-  "remarks": "*252",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/102174"
+  ],
+  "remarks": "*252",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "NO. 138 STREET 51 CORNER 294, SANGKAT BOEUNG KENG KANG I, KHAN CHMAKAR MORN",
       "city": "PHNOM PENH",
       "country": "Cambodia",
-      "country_iso_code": "KH"
+      "countryIsoCode": "KH"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

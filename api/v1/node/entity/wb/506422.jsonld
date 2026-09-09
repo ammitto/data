@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/506422",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/506422",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "CASS CONSTRUCTORES S.A.S.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "CASS CONSTRUCTORES S.A.S.",
+      "isPrimary": true
     }
   ],
-  "remarks": "*539",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/506422"
+  ],
+  "remarks": "*539",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "CARRERA 7A KM. 16, VEREDA FUSCA, LOTE SHOSUA",
       "city": "CHÍA CUNDINAMARCA",
       "country": "Colombia",
-      "country_iso_code": "CO"
+      "countryIsoCode": "CO"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

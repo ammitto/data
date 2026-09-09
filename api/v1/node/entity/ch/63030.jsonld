@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/63030",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/63030",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Udaltsov Aleksandr Ivanovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Udaltsov Aleksandr Ivanovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/63030"
   ],
   "remarks": "Alexandr Udaltsov is the Executive Director of the Foundation for Support and Protection of the Rights of Compatriots Living Abroad.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1951-07-05",
-      "circa": false
+      "circa": false,
+      "year": 1951
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

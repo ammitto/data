@@ -1,33 +1,50 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus1402",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus1402",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "AO NII VEKTOR",
+      "@type": "NameVariant",
+      "fullName": "AO NII VEKTOR",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "JOINT STOCK COMPANY SCIENTIFIC-RESEARCH INSTITUTE VEKTOR",
+      "@type": "NameVariant",
+      "fullName": "JOINT STOCK COMPANY SCIENTIFIC-RESEARCH INSTITUTE VEKTOR",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "АО НИИ Вектор ",
+      "@type": "NameVariant",
+      "fullName": "АО НИИ Вектор ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Organization Established Date 1908; Trade License No. 1117847020400 (Russia) The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus1402"
+  ],
+  "remarks": "Organization Established Date 1908; Trade License No. 1117847020400 (Russia) The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "14 St. Academician Pavlova",
       "state": "Saint Petersburg",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

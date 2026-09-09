@@ -1,25 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/1044562",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/1044562",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "KONTROLMATIK TECHNOLOGIES INC.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "KONTROLMATIK TECHNOLOGIES INC.",
+      "isPrimary": true
     }
   ],
-  "remarks": "(Reg. No: 789000U5ZPOF3VG1G923) *706",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/1044562"
+  ],
+  "remarks": "(Reg. No: 789000U5ZPOF3VG1G923) *706",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "8260 GREENSBORO DR",
       "city": "MC LEAN",
       "state": "VA",
       "country": "United States",
-      "country_iso_code": "US",
-      "postal_code": "22102"
+      "countryIsoCode": "US",
+      "postalCode": "22102"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

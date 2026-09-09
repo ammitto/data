@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/120982",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/120982",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "URALKOTLOSERVICE PKF ZAO",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "URALKOTLOSERVICE PKF ZAO",
+      "isPrimary": true
     }
   ],
-  "remarks": "*77",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/120982"
+  ],
+  "remarks": "*77",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "82 PERVOMAISKAYA STREET, 620062",
       "city": "YEKATERINBURG",
       "country": "Russian Federation",
-      "country_iso_code": "RU"
+      "countryIsoCode": "RU"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

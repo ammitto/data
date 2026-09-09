@@ -1,22 +1,37 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/960084",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/960084",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "COESA ENGENHARIA L TDA - SUCURSAL PANAMA - COESA",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "COESA ENGENHARIA L TDA - SUCURSAL PANAMA - COESA",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/960084"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "CALLE PUNTA DARIEN, ESQUINA CON PUNTA CORONADO, EDIFICIO TORRE LAS AMERICAS, OFICINA 506, TORRE B, URBANIZACION PUNTA PACIFICA",
       "city": "PANAMA CITY",
       "country": "Panama",
-      "country_iso_code": "PA"
+      "countryIsoCode": "PA"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

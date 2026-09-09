@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/5186",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/5186",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kadzin Raman Viktaravich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kadzin Raman Viktaravich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/5186"
   ],
   "remarks": "Commanding officer of Weaponry and Technical Supply of the Motorized Patrol Service. In February 2011, he received an award and an acknowledgement letter from President Lukashenka for his active participation and implementation of orders during the repression of the 19 Dec 2010 demonstrations.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1977-07-17",
-      "circa": false
+      "circa": false,
+      "year": 1977
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/6802",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/6802",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mutinhiri Ambros",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Mutinhiri Ambros",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/6802"
   ],
   "remarks": "Former ZANU-PF Member of Government. March 2008 led a group of ZANU-PF supporters to Landas and assaulted several MDC supporters. Set up and supported military bases in Chihota where many MDC supporters were assaulted and tortured.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1944-02-22",
-      "circa": false
+      "circa": false,
+      "year": 1944
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

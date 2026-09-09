@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/89169",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/89169",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Antsev Ivan Georgyevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Antsev Ivan Georgyevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/89169"
   ],
   "remarks": "Ivan Antsev is the Executive Director of JSC NPP Radar MMS, which produces unmanned aerial systems in Russia. Some of those systems include non-military drones, also made available to Russian armed forces for use in the context of Russia’s war of aggression against Ukraine. JSC NPP Radar MMS works under Russian government contracts and cooperates with the military-defence industry. As the Executive Director of JSC NPP Radar MMS, Ivan Antsev has ultimate executive control over that work.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1985-08-04",
-      "circa": false
+      "circa": false,
+      "year": 1985
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

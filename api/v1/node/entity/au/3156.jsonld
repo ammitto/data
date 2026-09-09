@@ -1,24 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3156",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/3156",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kim Kyu",
+      "@type": "NameVariant",
+      "fullName": "Kim Kyu",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "KPi.022. Korea Mining Development Trading Corporation (KOMID) External Affairs Officer.; Listing: First listed on 2/03/2016",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3156"
   ],
-  "birth_info": [
+  "remarks": "KPi.022. Korea Mining Development Trading Corporation (KOMID) External Affairs Officer.; Listing: First listed on 2/03/2016",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1968
     }
   ],
   "nationalities": [
     "Democratic People's Republic of Korea (North Korea)"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

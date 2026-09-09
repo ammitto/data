@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/83964",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/83964",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Azzam Abdullah Zureik al-Maulid al-Subhi",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Azzam Abdullah Zureik al-Maulid al-Subhi",
+      "isPrimary": true
     }
   ],
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/83964"
+  ],
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1976-04-12",
-      "circa": false
+      "circa": false,
+      "year": 1976
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

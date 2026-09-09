@@ -1,61 +1,81 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7820",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7820",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Akram Al-Ajouri",
+      "@type": "NameVariant",
+      "fullName": "Akram Al-Ajouri",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Abu Muhammad Al-'Ajuri",
+      "@type": "NameVariant",
+      "fullName": "Abu Muhammad Al-'Ajuri",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Akram al-'Ajuri",
+      "@type": "NameVariant",
+      "fullName": "Akram al-'Ajuri",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Akram Muhammad Salih Al-Ajuri",
+      "@type": "NameVariant",
+      "fullName": "Akram Muhammad Salih Al-Ajuri",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "'Abd al-Karim Ahmad Hasan",
+      "@type": "NameVariant",
+      "fullName": "'Abd al-Karim Ahmad Hasan",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abu Muhammad Al-Ajuri",
+      "@type": "NameVariant",
+      "fullName": "Abu Muhammad Al-Ajuri",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "أكرم العجوري",
+      "@type": "NameVariant",
+      "fullName": "أكرم العجوري",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Listing: Charter of the United Nations (Listed Entities) Amendment (No. 1) Instrument 2024",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7820"
   ],
-  "birth_info": [
+  "remarks": "Listing: Charter of the United Nations (Listed Entities) Amendment (No. 1) Instrument 2024",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1958,
       "country": "Jabaliya"
     }
   ],
   "nationalities": [
     "State of Palestine"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Damascus, Syria",
       "country": "Syria"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

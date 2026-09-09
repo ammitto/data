@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/68795",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/68795",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Renel Destina",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Renel Destina",
+      "isPrimary": true
     }
   ],
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/68795"
+  ],
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1982-06-11",
-      "circa": false
+      "circa": false,
+      "year": 1982
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

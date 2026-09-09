@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/7294",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/7294",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Djassi Tomás Colonel",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Djassi Tomás Colonel",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/7294"
   ],
   "remarks": "Member of the \"Military Command\" which has assumed responsibility for the coup d'état of 12 April 2012. Close advisor to Armed Forces Chief of Staff António Injai.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1968-09-18",
-      "circa": false
+      "circa": false,
+      "year": 1968
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

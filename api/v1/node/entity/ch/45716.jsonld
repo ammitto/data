@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/45716",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/45716",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Gutseriev Mikail Safarbekovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Gutseriev Mikail Safarbekovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/45716"
   ],
   "remarks": "Mikail Gutseriev is a prominent Russian businessman, with business interests in Belarus in the sectors of energy, potash, hospitality and others. He is a long-time acquaintance of Aliaksandr Lukashenka and thanks to that association has accumulated significant wealth and influence among the political elite in Belarus. Safmar, a company which has been controlled by Gutseriev, was the only Russian oil firm that carried on supplying oil to Belarusian refineries during the energy crisis between Belarus and Russia in early 2020.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1958-03-09",
-      "circa": false
+      "circa": false,
+      "year": 1958
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

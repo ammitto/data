@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/57065",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/57065",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Shugaev Dmitry Evgenevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Shugaev Dmitry Evgenevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/57065"
   ],
   "remarks": "Director of the Federal Service for Military-Technical Cooperation of the Russian Federation (FSVTS). The FSVTS is a federal executive body responsible for control and oversight in the field of military-technical cooperation between the Russian Federation and foreign countries. In this role, he is responsible for control and supervision in the field of military-technical cooperation, as well as the development of state policy in the field of military-technical cooperation, thus making him responsible for the Russian war effort at large.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1965-08-11",
-      "circa": false
+      "circa": false,
+      "year": 1965
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,22 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/689277",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/wb/689277",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MS. EILYEN NALLELY DELGADO ALFARO",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "MS. EILYEN NALLELY DELGADO ALFARO",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/689277"
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "LA ALAJUELITA, URBANIZACIÓN CHARRETEGA, BLOQUE 15, CASA 6",
       "city": "SAN JOSÉ",
       "country": "Costa Rica",
-      "country_iso_code": "CR"
+      "countryIsoCode": "CR"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

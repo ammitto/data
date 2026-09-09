@@ -1,27 +1,43 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7927",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/7927",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "VOLATAVTO Open Joint Stock Company",
+      "@type": "NameVariant",
+      "fullName": "VOLATAVTO Open Joint Stock Company",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "VOLATAVTO OJSC",
+      "@type": "NameVariant",
+      "fullName": "VOLATAVTO OJSC",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "http://volatavto.by/; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2024",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7927"
+  ],
+  "remarks": "http://volatavto.by/; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2024",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "133 Socialist str. Slutsk Minsk Region 223603 Belarus",
       "country": "133 Socialist str. Slutsk Minsk Region 223603 Belarus"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

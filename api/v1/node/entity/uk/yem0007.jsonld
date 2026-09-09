@@ -1,33 +1,54 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/yem0007",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/yem0007",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Al-Ghamari",
-      "first_name": "Muhammad",
+      "@type": "NameVariant",
+      "fullName": "Al-Ghamari",
+      "firstName": "Muhammad",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Al-Ghamari",
-      "first_name": "Mohammad",
+      "@type": "NameVariant",
+      "fullName": "Al-Ghamari",
+      "firstName": "Mohammad",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "محمد عبدالكريم الغماري",
+      "@type": "NameVariant",
+      "fullName": "محمد عبدالكريم الغماري",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Houthi Military Chief of General Staff, plays the leading role in orchestrating the Houthis’ military efforts that are directly threatening the peace, security and stability of Yemen, including in Marib, as well as cross-border attacks against Saudi Arabia.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/yem0007"
+  ],
+  "remarks": "Houthi Military Chief of General Staff, plays the leading role in orchestrating the Houthis’ military efforts that are directly threatening the peace, security and stability of Yemen, including in Marib, as well as cross-border attacks against Saudi Arabia.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "country": "Yemen"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

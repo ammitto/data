@@ -1,26 +1,45 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8578",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/8578",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Hassan SHAHVARPOUR",
+      "@type": "NameVariant",
+      "fullName": "Hassan SHAHVARPOUR",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "شاهوارپور",
+      "@type": "NameVariant",
+      "fullName": "شاهوارپور",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Hasan SHAHVARPOUR",
+      "@type": "NameVariant",
+      "fullName": "Hasan SHAHVARPOUR",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Islamic Revolutionary Guard Corps (IRGC) Commander of Khuzestan province (Vali Asr Corps)\n\nNational ID Number: 2001624001; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Iran) List 2012",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8578"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "remarks": "Islamic Revolutionary Guard Corps (IRGC) Commander of Khuzestan province (Vali Asr Corps)\n\nNational ID Number: 2001624001; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Iran) List 2012",
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

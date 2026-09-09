@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/52941",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/52941",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Vorontsova Maria Vladimirovna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Vorontsova Maria Vladimirovna",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/52941"
   ],
   "remarks": "Maria Vladimirovna Vorontsova is the eldest daughter of President Vladimir Putin, listed under Decision 2014/145/CFSP.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1985-04-28",
-      "circa": false
+      "circa": false,
+      "year": 1985
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

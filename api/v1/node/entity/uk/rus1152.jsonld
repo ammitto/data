@@ -1,35 +1,55 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus1152",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/rus1152",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "POLOVYAN",
-      "first_name": "Aleksei",
+      "@type": "NameVariant",
+      "fullName": "POLOVYAN",
+      "firstName": "Aleksei",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "POLOVYAN",
-      "first_name": "Alexey",
+      "@type": "NameVariant",
+      "fullName": "POLOVYAN",
+      "firstName": "Alexey",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "ПОЛОВЯН Алексей Владимирович",
+      "@type": "NameVariant",
+      "fullName": "ПОЛОВЯН Алексей Владимирович",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus1152"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "2a st. Universitetskaya",
       "state": "Donetsk",
       "country": "Ukraine"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

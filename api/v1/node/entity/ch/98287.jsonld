@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/98287",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/98287",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Sokolov Maksim Yurievich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Sokolov Maksim Yurievich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/98287"
   ],
   "remarks": "Maksim Sokolov is the President of JSC AvtoVAZ, a Russian State-owned car manufacturing company. The company has created a structural division responsible for supporting its employees that participate in the so-called “special military operation” and their families, offering benefits to them. The Russian authorities have recognised the attention JSC AvtoVAZ offers to its employees who have fought in the war of aggression against Ukraine, and their family members. The company has given cars to plant workers who have fought in the war, and promised to cover the costs of maintenance for them.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1968-09-29",
-      "circa": false
+      "circa": false,
+      "year": 1968
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

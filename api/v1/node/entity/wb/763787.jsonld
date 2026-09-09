@@ -1,23 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/763787",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/wb/763787",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MR. MODOU BOUSSO DIOP",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "MR. MODOU BOUSSO DIOP",
+      "isPrimary": true
     }
   ],
-  "remarks": "*640",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/763787"
+  ],
+  "remarks": "*640",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "68 CITÉ APIX",
       "city": "DAKAR",
       "country": "Senegal",
-      "country_iso_code": "SN"
+      "countryIsoCode": "SN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/54012",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/54012",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mardanov Ruslan Raisovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Mardanov Ruslan Raisovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/54012"
   ],
   "remarks": "Member of the so-called ‘People’s Council’ of the so-called ‘Luhansk People’s Republic’. Has therefore supported and implemented actions and policies which undermine the territorial integrity, sovereignty and independence of Ukraine, and further destabilised Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1980-09-22",
-      "circa": false
+      "circa": false,
+      "year": 1980
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

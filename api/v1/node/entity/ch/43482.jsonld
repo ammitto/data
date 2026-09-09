@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/43482",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/43482",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Atabekau Khazalbek Baktibekavich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Atabekau Khazalbek Baktibekavich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/43482"
   ],
   "remarks": "In his former position as Deputy Commander of the Internal Troops of the Ministry of Internal Affairs (MoIA), he was responsible for the repression and intimidation campaign led by MoIA forces, in particular the Internal Troops under his command, in the wake of the 2020 presidential election, in particular arbitrary arrests and ill-treatment, including torture, of peaceful demonstrators, as well as intimidation and violence against journalists. He was passed to the military reserve in Mar 2022 by the decree of Aliaksandr Lukashenka. He has the right to wear military uniform and insignia.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1967-03-18",
-      "circa": false
+      "circa": false,
+      "year": 1967
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

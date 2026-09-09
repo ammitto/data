@@ -1,47 +1,67 @@
 {
-  "id": "https://www.ammitto.org/entity/au/6256",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/6256",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Jama'at Mujahideen Bangladesh",
+      "@type": "NameVariant",
+      "fullName": "Jama'at Mujahideen Bangladesh",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Jamaat Mujahideen Bangladesh",
+      "@type": "NameVariant",
+      "fullName": "Jamaat Mujahideen Bangladesh",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Jama'atul Mujahideen Bangladesh",
+      "@type": "NameVariant",
+      "fullName": "Jama'atul Mujahideen Bangladesh",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Jamaat-ul Mujahideen Bangladesh",
+      "@type": "NameVariant",
+      "fullName": "Jamaat-ul Mujahideen Bangladesh",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Jamayetul Mujahideen Bangladesh",
+      "@type": "NameVariant",
+      "fullName": "Jamayetul Mujahideen Bangladesh",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "JMB",
+      "@type": "NameVariant",
+      "fullName": "JMB",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Listing: 2024-03-01",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/6256"
+  ],
+  "remarks": "Listing: 2024-03-01",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Bangladesh",
       "country": "Bangladesh"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,34 +1,52 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7506",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7506",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mohammad Nazar AZIMI",
+      "@type": "NameVariant",
+      "fullName": "Mohammad Nazar AZIMI",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Mohammad AZIMI",
+      "@type": "NameVariant",
+      "fullName": "Mohammad AZIMI",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Mohammadnazar AZIMI",
+      "@type": "NameVariant",
+      "fullName": "Mohammadnazar AZIMI",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Commander of the Najaf al-Ashraf Regional Headquarters of the Islamic Revolutionary Guard Corps (IRGC); Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Thematic Sanctions) Amendment (No. 2) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7506"
   ],
-  "birth_info": [
+  "remarks": "Commander of the Najaf al-Ashraf Regional Headquarters of the Islamic Revolutionary Guard Corps (IRGC); Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Thematic Sanctions) Amendment (No. 2) Instrument 2023",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1960
     }
   ],
   "nationalities": [
     "Iran"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

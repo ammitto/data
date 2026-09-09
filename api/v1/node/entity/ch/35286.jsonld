@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/35286",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/35286",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Shperov Pavel Valentinovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Shperov Pavel Valentinovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/35286"
   ],
   "remarks": "Former Member of the State Duma, elected from the illegally annexed Autonomous \"Republic of Crimea\".",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1971-07-04",
-      "circa": false
+      "circa": false,
+      "year": 1971
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

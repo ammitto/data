@@ -1,54 +1,76 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7970",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7970",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Neria BEN PAZI",
+      "@type": "NameVariant",
+      "fullName": "Neria BEN PAZI",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Neriya BEN PAZI",
+      "@type": "NameVariant",
+      "fullName": "Neriya BEN PAZI",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Neria BEN FAZI",
+      "@type": "NameVariant",
+      "fullName": "Neria BEN FAZI",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Naria BEN FAZI",
+      "@type": "NameVariant",
+      "fullName": "Naria BEN FAZI",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Nerya BEN FAZI",
+      "@type": "NameVariant",
+      "fullName": "Nerya BEN FAZI",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Neriah BEN PAZI",
+      "@type": "NameVariant",
+      "fullName": "Neriah BEN PAZI",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Neria BEN-PAZI",
+      "@type": "NameVariant",
+      "fullName": "Neria BEN-PAZI",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "ID number: 311509004; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Thematic Sanctions) Amendment (No. 4) Instrument 2024",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7970"
   ],
-  "birth_info": [
+  "remarks": "ID number: 311509004; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Thematic Sanctions) Amendment (No. 4) Instrument 2024",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1993
     }
   ],
   "nationalities": [
     "Israel"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

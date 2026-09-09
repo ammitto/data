@@ -1,35 +1,53 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7890",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7890",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Igor Evgenevich KONASHENKOV",
+      "@type": "NameVariant",
+      "fullName": "Igor Evgenevich KONASHENKOV",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Igor Yevgenyevich KONASHENKOV",
+      "@type": "NameVariant",
+      "fullName": "Igor Yevgenyevich KONASHENKOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ihor Yevhenovych KONASHENKOV",
+      "@type": "NameVariant",
+      "fullName": "Ihor Yevhenovych KONASHENKOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Head of the Department of Information and Communications within the Ministry of Defence of the Russian Federation; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2024",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7890"
   ],
-  "birth_info": [
+  "remarks": "Head of the Department of Information and Communications within the Ministry of Defence of the Russian Federation; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2024",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1966,
       "country": "Chisinau"
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

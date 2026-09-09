@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/59376",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/59376",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Falkovskaya Larisa Pavlovna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Falkovskaya Larisa Pavlovna",
+      "isPrimary": true
     }
   ],
-  "remarks": "Larisa Falkovskaya is the director of the Department of State Policy for the Protection of Childrens' Rights of the Ministry of Education of the Russian Federation. In this role, she is involved in the illegal transportation of Ukrainian children to Russia and their adoption by Russian families.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/59376"
+  ],
+  "remarks": "Larisa Falkovskaya is the director of the Department of State Policy for the Protection of Childrens’ Rights of the Ministry of Education of the Russian Federation. In this role, she is involved in the illegal transportation of Ukrainian children to Russia and their adoption by Russian families.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1970-04-06",
-      "circa": false
+      "circa": false,
+      "year": 1970
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/6912",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/6912",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Rugeje Engelbert Abel",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Rugeje Engelbert Abel",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/6912"
   ],
   "remarks": "Senior army officer directly involved in the terror campaign waged before and during the 2008 elections by coordinating most of the violent incidents in Masvingo.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1959-07-17",
-      "circa": false
+      "circa": false,
+      "year": 1959
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

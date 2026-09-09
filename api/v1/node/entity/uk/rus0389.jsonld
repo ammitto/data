@@ -1,28 +1,47 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus0389",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/rus0389",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "IVANINSKY",
-      "first_name": "Oleg",
+      "@type": "NameVariant",
+      "fullName": "IVANINSKY",
+      "firstName": "Oleg",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Иванинский Олег Иванович",
+      "@type": "NameVariant",
+      "fullName": "Иванинский Олег Иванович",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus0389"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "1 Okhotny Ryad str",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

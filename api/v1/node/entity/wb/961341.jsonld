@@ -1,22 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/961341",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/wb/961341",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "NÉSTOR ALFREDO DOMÍNGUEZ HERNÁNDEZ",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "NÉSTOR ALFREDO DOMÍNGUEZ HERNÁNDEZ",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/961341"
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "47 CALLE 12-26, ZONA 12",
       "city": "CIUDAD DE GUATEMALA",
       "country": "Guatemala",
-      "country_iso_code": "GT"
+      "countryIsoCode": "GT"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

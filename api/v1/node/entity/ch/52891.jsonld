@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/52891",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/52891",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Sungorkin Vladimir Nikolayevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Sungorkin Vladimir Nikolayevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/52891"
   ],
   "remarks": "Vladimir Sungorkin is the Director General and Editor-in-Chief of Komsomolskaya Pravda. He is one of the main actors in foreign information manipulation and interference activities or propagandists who often speaks out on Ukraine, creating misinformation and manipulating facts.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1954-06-16",
-      "circa": false
+      "circa": false,
+      "year": 1954
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

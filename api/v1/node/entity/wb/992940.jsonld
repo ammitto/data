@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/992940",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/992940",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "SOCIÉTÉ EMMETTRICE DE DOCUMENT SÉCURISÉ EN CENTRAFRIQUE (SEDOSEC) SURL",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "SOCIÉTÉ EMMETTRICE DE DOCUMENT SÉCURISÉ EN CENTRAFRIQUE (SEDOSEC) SURL",
+      "isPrimary": true
     }
   ],
-  "remarks": "(Reg. No: CA/BG/2023B1409) *697",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/992940"
+  ],
+  "remarks": "(Reg. No: CA/BG/2023B1409) *697",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "RUE JOSEPH DEGRAIN BP :1931",
       "city": "BANGUI",
       "country": "Central African Republic",
-      "country_iso_code": "CF"
+      "countryIsoCode": "CF"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

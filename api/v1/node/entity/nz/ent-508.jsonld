@@ -1,17 +1,36 @@
 {
-  "id": "https://www.ammitto.org/entity/nz/ent-508",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/nz/ent-508",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Alevkurp OJSC",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Alevkurp OJSC",
+      "isPrimary": true
     }
   ],
-  "source_references": [
+  "sourceReferences": [
     {
-      "source_code": "nz",
-      "reference_number": "Ent-508"
+      "@type": "SourceReference",
+      "sourceCode": "nz",
+      "referenceNumber": "Ent-508",
+      "retrievedAt": "2026-09-09T16:30:42Z"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "linkedEntities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "beneficialOwners": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/nz/consolidated-list/ent-508"
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

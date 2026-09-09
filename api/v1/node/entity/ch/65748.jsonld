@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/65748",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/65748",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Esmaeli Reza-Gholi",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Esmaeli Reza-Gholi",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/65748"
   ],
   "remarks": "Head of Trade and International Affairs Department of the AIO.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1961-04-03",
-      "circa": false
+      "circa": false,
+      "year": 1961
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/811412",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/811412",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "MULTI-TECH CONSULT (PTY) LTD. (NOW KNOWN AS MULTI-TECH AFRICA (PTY) LTD.)",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "MULTI-TECH CONSULT (PTY) LTD. (NOW KNOWN AS MULTI-TECH AFRICA (PTY) LTD.)",
+      "isPrimary": true
     }
   ],
-  "remarks": "*643",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/811412"
+  ],
+  "remarks": "*643",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "PLOT 20746, BLOCK 3, INDUSTRIAL",
       "city": "GABORONE",
       "country": "Botswana",
-      "country_iso_code": "BW"
+      "countryIsoCode": "BW"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

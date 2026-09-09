@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/47610",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/47610",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Hala Tarif Almaghout",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Hala Tarif Almaghout",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/47610"
   ],
   "remarks": "Widow of Mohammed Makhlouf. Member of the Makhlouf family.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1980-06-30",
-      "circa": false
+      "circa": false,
+      "year": 1980
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

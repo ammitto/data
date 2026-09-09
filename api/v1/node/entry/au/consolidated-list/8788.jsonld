@@ -1,0 +1,53 @@
+{
+  "@id": "https://www.ammitto.org/entry/au/consolidated-list/8788",
+  "@type": "SanctionEntry",
+  "entityId": "https://www.ammitto.org/entity/au/8788",
+  "authority": {
+    "@id": "https://www.ammitto.org/authority/au"
+  },
+  "regime": {
+    "@id": "https://www.ammitto.org/regime/au_sudan",
+    "name": "Sudan"
+  },
+  "legalBases": [
+    {
+      "@id": "https://www.ammitto.org/legal-instrument/au/charter-of-the-united-nations-sanctions-sudan-regulations-2008"
+    }
+  ],
+  "effects": [
+    {
+      "@type": "SanctionEffect",
+      "effectType": "asset_freeze",
+      "scope": "full"
+    },
+    {
+      "@type": "SanctionEffect",
+      "effectType": "travel_ban",
+      "scope": "full"
+    }
+  ],
+  "reasons": [
+
+  ],
+  "period": {
+    "@type": "TemporalPeriod",
+    "isIndefinite": true
+  },
+  "status": "active",
+  "statusHistory": [
+
+  ],
+  "referenceNumber": "8788",
+  "rawSourceData": {
+    "@type": "RawSourceData",
+    "sourceFormat": "csv",
+    "sourceSpecificFields": {
+      "au:reference": "8788",
+      "au:committees": "1591 (Sudan)",
+      "au:control_date": "2026-02-26",
+      "au:instrument": "Charter of the United Nations (Sanctions — Sudan) Regulations 2008",
+      "au:listing_info": "Listed by the 1591 Committee on 24 February 2026."
+    }
+  },
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
+}

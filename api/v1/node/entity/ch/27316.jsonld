@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/27316",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/27316",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Zherebtsov Yuriy Gennadyevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Zherebtsov Yuriy Gennadyevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/27316"
   ],
   "remarks": "Counsellor of the Speaker of the Verkhovna Rada of Crimea, one of the leading organizers of the 16 Mar 2014 \"referendum\" against Ukraine’s territorial integrity. Member of the Civic Chamber of the so-called \"Republic of Crimea\".",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1969-11-19",
-      "circa": false
+      "circa": false,
+      "year": 1969
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

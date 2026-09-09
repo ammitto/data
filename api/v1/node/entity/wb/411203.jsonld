@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/411203",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/411203",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "WATER SUPPLY AND SEWERAGE CONSTRUCTION JSC NO. 12 (VIWASEEN.12)",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "WATER SUPPLY AND SEWERAGE CONSTRUCTION JSC NO. 12 (VIWASEEN.12)",
+      "isPrimary": true
     }
   ],
-  "remarks": "(Reg. No: 4200619612)*617",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/411203"
+  ],
+  "remarks": "(Reg. No: 4200619612)*617",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "LOT BT15, NR. 18,19 PHUOC LONG URBAN AREA, PHUOC LONG. NHA TRANG",
       "city": "KHANH HOA",
       "country": "Viet Nam",
-      "country_iso_code": "VN"
+      "countryIsoCode": "VN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

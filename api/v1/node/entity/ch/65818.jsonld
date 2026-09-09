@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/65818",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/65818",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Derakhshandeh Ahmad",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Derakhshandeh Ahmad",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/65818"
   ],
   "remarks": "Chairman and Managing Director of Bank Sepah, which provides support for the AIO and subordinates, including SHIG and SBIG, both of which were designated under resolution 1737 (2006).",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1956-08-11",
-      "circa": false
+      "circa": false,
+      "year": 1956
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

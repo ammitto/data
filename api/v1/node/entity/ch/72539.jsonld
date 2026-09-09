@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/72539",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/72539",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kamynina Valentina Frantsevna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kamynina Valentina Frantsevna",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/72539"
   ],
   "remarks": "Valentina Kamynina is a judge of the Kyiv District Court of the city of Simferopol, Crimea. She has been appointed by the President of the Russian Federation Vladimir Putin. She systematically prosecutes citizens of Ukraine for political reasons, abusing anti-extremism and anti-terrorism legislation. She has repeatedly confirmed and extended the arrest of Crimean Tatars on charges of belonging to organisations banned in the Russian Federation.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1980-04-16",
-      "circa": false
+      "circa": false,
+      "year": 1980
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,52 +1,76 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/dpr0011",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/dpr0011",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Hong",
-      "first_name": "Sung-Mu",
+      "@type": "NameVariant",
+      "fullName": "Hong",
+      "firstName": "Sung-Mu",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Hong",
-      "first_name": "Sun",
+      "@type": "NameVariant",
+      "fullName": "Hong",
+      "firstName": "Sun",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Hong",
-      "first_name": "Sung",
+      "@type": "NameVariant",
+      "fullName": "Hong",
+      "firstName": "Sung",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Hung",
-      "first_name": "Sun",
+      "@type": "NameVariant",
+      "fullName": "Hung",
+      "firstName": "Sun",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Hung",
-      "first_name": "Sung",
+      "@type": "NameVariant",
+      "fullName": "Hung",
+      "firstName": "Sung",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Hung",
-      "first_name": "Sung-Mu",
+      "@type": "NameVariant",
+      "fullName": "Hung",
+      "firstName": "Sung-Mu",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/dpr0011"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "country": "North Korea"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

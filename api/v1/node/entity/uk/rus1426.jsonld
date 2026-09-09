@@ -1,43 +1,62 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus1426",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus1426",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "The Special Technology Centre LLC",
+      "@type": "NameVariant",
+      "fullName": "The Special Technology Centre LLC",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "STC LLC",
+      "@type": "NameVariant",
+      "fullName": "STC LLC",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "OOO Специальный Технологический Центр  ",
+      "@type": "NameVariant",
+      "fullName": "OOO Специальный Технологический Центр  ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "OOO СТЦ    ",
+      "@type": "NameVariant",
+      "fullName": "OOO СТЦ    ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "OGRN: 1089847243870; KPP: 784001001 The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus1426"
+  ],
+  "remarks": "OGRN: 1089847243870; KPP: 784001001 The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "lit. B, office 53, 21 Gzhatskaya street",
       "state": "St Petersburg",
       "country": "Russia"
     },
     {
+      "@type": "Address",
       "street": "12 Lit. Pom 3 N, Apraksin Lane",
       "state": "St Petersburg",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

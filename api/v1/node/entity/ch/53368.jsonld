@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/53368",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/53368",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Pashchenko Natalya Alexandrovna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Pashchenko Natalya Alexandrovna",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/53368"
   ],
   "remarks": "So-called ‘Minister of Health’ of the so-called ‘Luhansk People's Republic’. In taking on and acting in this capacity, she has actively undermined the territorial integrity, sovereignty and independence of Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1975-10-10",
-      "circa": false
+      "circa": false,
+      "year": 1975
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,35 +1,53 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8064",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/8064",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Nikita Vladimirovich NAGORNY",
+      "@type": "NameVariant",
+      "fullName": "Nikita Vladimirovich NAGORNY",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Nikita Vladimirovich NAGORNIY",
+      "@type": "NameVariant",
+      "fullName": "Nikita Vladimirovich NAGORNIY",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Nikita Vladimirovich NAGORNYY",
+      "@type": "NameVariant",
+      "fullName": "Nikita Vladimirovich NAGORNYY",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Russian gymnast and former Chief of the General Staff of the “All-Russian Young Army Military Patriotic Social Movement” (Yunarmiya); Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8064"
   ],
-  "birth_info": [
+  "remarks": "Russian gymnast and former Chief of the General Staff of the “All-Russian Young Army Military Patriotic Social Movement” (Yunarmiya); Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1997,
       "country": "Rostov-on-Don"
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/6851",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/6851",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Nkomo John Landa",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Nkomo John Landa",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/6851"
   ],
   "remarks": "Longest serving ZANU-PF Member of Government.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1934-08-22",
-      "circa": false
+      "circa": false,
+      "year": 1934
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

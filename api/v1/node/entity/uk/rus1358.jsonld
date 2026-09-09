@@ -1,44 +1,63 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus1358",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus1358",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "JSC GTLK",
+      "@type": "NameVariant",
+      "fullName": "JSC GTLK",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "STATE TRANSPORT LEASING COMPANY",
+      "@type": "NameVariant",
+      "fullName": "STATE TRANSPORT LEASING COMPANY",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "ГТЛК",
+      "@type": "NameVariant",
+      "fullName": "ГТЛК",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Государственная транспортная лизинговая компания",
+      "@type": "NameVariant",
+      "fullName": "Государственная транспортная лизинговая компания",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Associated entities: GTLK Europe, GTLK Asia, GTLK Middle East The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus1358"
+  ],
+  "remarks": "Associated entities: GTLK Europe, GTLK Asia, GTLK Middle East The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "bldg. #1, 31a Leningradsky Avenue",
       "state": "Moscow",
       "country": "Russia"
     },
     {
+      "@type": "Address",
       "street": "Suite 100, 73 Respublika St",
       "city": "Salekhard",
       "state": "Yamalo-Nenets Autonomous Area",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/411214",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/411214",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "SUOI DAU WATER SUPPLY, DRAINAGE INVESTMENT AND CONSTRUCTION JSC",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "SUOI DAU WATER SUPPLY, DRAINAGE INVESTMENT AND CONSTRUCTION JSC",
+      "isPrimary": true
     }
   ],
-  "remarks": "(Reg. No: 4201574467)*617",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/411214"
+  ],
+  "remarks": "(Reg. No: 4201574467)*617",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "4TH FLOOR, 58 YERSIN, PHUONG SAI WARD, NHA TRANG WARD",
       "city": "KHANH HOA",
       "country": "Viet Nam",
-      "country_iso_code": "VN"
+      "countryIsoCode": "VN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

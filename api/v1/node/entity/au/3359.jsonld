@@ -1,60 +1,81 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3359",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/3359",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Vladimir Petrovich KONONOV",
+      "@type": "NameVariant",
+      "fullName": "Vladimir Petrovich KONONOV",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Volodymyr Petrovych KONONOV",
+      "@type": "NameVariant",
+      "fullName": "Volodymyr Petrovych KONONOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Volodimir KONONOV",
+      "@type": "NameVariant",
+      "fullName": "Volodimir KONONOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Vladimir KONONOV",
+      "@type": "NameVariant",
+      "fullName": "Vladimir KONONOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Vladimir P. KONONOV",
+      "@type": "NameVariant",
+      "fullName": "Vladimir P. KONONOV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "‘Tsar’",
+      "@type": "NameVariant",
+      "fullName": "‘Tsar’",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Listing: Listed on 1 Sep. 2017 (relisted on 28 Aug. 2020) (relisted on 27 Aug 2023)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3359"
   ],
-  "birth_info": [
+  "remarks": "Listing: Listed on 1 Sep. 2017 (relisted on 28 Aug. 2020) (relisted on 27 Aug 2023)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1974,
       "country": "Gorsky"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1974,
       "country": "Luhansk"
     }
   ],
   "nationalities": [
     "Ukraine"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Slovyansk, Ukraine",
       "country": "Ukraine"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

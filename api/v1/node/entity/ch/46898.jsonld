@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/46898",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/46898",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Andrey Mikhailovich Bogatov",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Andrey Mikhailovich Bogatov",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/46898"
   ],
   "remarks": "Head of the 4th Attack and Reconnaissance Company of the Wagner Group, which operates in Syria and trains and directs Syrian forces. The Wagner Group also supports the former al-Assad regime and fights alongside regime-affiliated militias and the Syrian army during the former al-Assad regime.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1964-06-14",
-      "circa": false
+      "circa": false,
+      "year": 1964
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

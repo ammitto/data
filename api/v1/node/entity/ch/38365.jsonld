@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/38365",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/38365",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Malek Reuben Riak Lieutenant General",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Malek Reuben Riak Lieutenant General",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/38365"
   ],
   "remarks": "Malek Reuben Riak has served as Deputy Chief of Defence Staff and Inspector General of the government's army since May 2017. Prior to that, he served as Deputy Chief of Staff of the SPLA for Training (March 2016 – May 2017), and Deputy Chief of the SPLA (Jan 2013- March 2016). As Deputy Chief of Defence Staff, he played a key role in procuring weapons for the army.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1960-01-01",
-      "circa": false
+      "circa": false,
+      "year": 1960
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

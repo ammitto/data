@@ -1,47 +1,67 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus2944",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus2944",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "JOINT-STOCK COMPANY PROTON  ",
+      "@type": "NameVariant",
+      "fullName": "JOINT-STOCK COMPANY PROTON  ",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "AKTSIONERNOE OBSHCHESTVO PROTON ",
+      "@type": "NameVariant",
+      "fullName": "AKTSIONERNOE OBSHCHESTVO PROTON ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "AO PROTON ",
+      "@type": "NameVariant",
+      "fullName": "AO PROTON ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "JSC PROTON ",
+      "@type": "NameVariant",
+      "fullName": "JSC PROTON ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Акционерное Общество ПРОТОН ",
+      "@type": "NameVariant",
+      "fullName": "Акционерное Общество ПРОТОН ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "AO ПРОТОН",
+      "@type": "NameVariant",
+      "fullName": "AO ПРОТОН",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus2944"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "ul. Leskova 19, Orel",
       "state": "Moscow",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

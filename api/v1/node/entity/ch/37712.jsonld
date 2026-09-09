@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/37712",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/37712",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kim Tong Chol",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kim Tong Chol",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/37712"
   ],
   "remarks": "Former overseas Foreign Trade Bank Deputy representative",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1966-01-28",
-      "circa": false
+      "circa": false,
+      "year": 1966
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

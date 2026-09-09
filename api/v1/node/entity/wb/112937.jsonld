@@ -1,21 +1,36 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/112937",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/112937",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "INTERNATIONAL DEVELOPMENT PROJECTS SERVICES",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "INTERNATIONAL DEVELOPMENT PROJECTS SERVICES",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/112937"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "city": "LONDON",
       "country": "United Kingdom",
-      "country_iso_code": "GB"
+      "countryIsoCode": "GB"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

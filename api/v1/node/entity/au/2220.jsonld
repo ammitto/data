@@ -1,35 +1,50 @@
 {
-  "id": "https://www.ammitto.org/entity/au/2220",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/2220",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Shaariya ABU",
+      "@type": "NameVariant",
+      "fullName": "Shaariya ABU",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Abushaaraya MOHAMED",
+      "@type": "NameVariant",
+      "fullName": "Abushaaraya MOHAMED",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Former deputy head of the Qadhafi regime’s External Security Organisation. Responsible for implementing the regime’s violent foreign policy.; Listing: Designated under the Autonomous Sanctions Regulations 2011 on 2 March 2012. Formerly listed on the RBA Consolidated List as 2011LBY0013. Instrument of first designation and declaration: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Libya) List 2012 [F2012L00481]\nRelisting on 12 January 2024.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/2220"
   ],
-  "birth_info": [
+  "remarks": "Former deputy head of the Qadhafi regime’s External Security Organisation. Responsible for implementing the regime’s violent foreign policy.; Listing: Designated under the Autonomous Sanctions Regulations 2011 on 2 March 2012. Formerly listed on the RBA Consolidated List as 2011LBY0013. Instrument of first designation and declaration: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Libya) List 2012 [F2012L00481]\nRelisting on 12 January 2024.",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1949
     }
   ],
   "nationalities": [
     "Libya"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Libya",
       "country": "Libya"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

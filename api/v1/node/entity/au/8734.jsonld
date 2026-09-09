@@ -1,32 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8734",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/8734",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Public Joint Stock Company National Bank Trust",
+      "@type": "NameVariant",
+      "fullName": "Public Joint Stock Company National Bank Trust",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "National Bank Trust",
+      "@type": "NameVariant",
+      "fullName": "National Bank Trust",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "NB TRUST",
+      "@type": "NameVariant",
+      "fullName": "NB TRUST",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Website: https://www.trust.ru/; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2026",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8734"
+  ],
+  "remarks": "Website: https://www.trust.ru/; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2026",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Mozhaisky Val Str., 8, Moscow, 121151, Russia",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

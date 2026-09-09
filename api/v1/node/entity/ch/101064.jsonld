@@ -1,12 +1,32 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/101064",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/ch/101064",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Hafiz Darya Shipping Lines (HDSL)",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Hafiz Darya Shipping Lines (HDSL)",
+      "isPrimary": true
     }
   ],
-  "remarks": "HDSL acts as a shell company for IRISL. It has taken over as beneficial owner a number of Islamic Republic of Iran Shipping Line’s (IRISL) vessels. Accordingly, HDSL is acting on behalf of IRISL.",
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/101064"
+  ],
+  "remarks": "Hafiz Darya Shipping Lines (HDSL) acts as a shell company for IRISL. It owns or operates vessels for which the Islamic Republic of Iran Shipping Line’s (IRISL) is identified as the beneficial owner. Therefore, HDSL is acting on behalf of IRISL.",
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

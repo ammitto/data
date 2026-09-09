@@ -1,69 +1,96 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7653",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/7653",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Serhii Anatoliyovych ZDRILIUK",
+      "@type": "NameVariant",
+      "fullName": "Serhii Anatoliyovych ZDRILIUK",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "‘Abwehr’",
+      "@type": "NameVariant",
+      "fullName": "‘Abwehr’",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "‘Adler’",
+      "@type": "NameVariant",
+      "fullName": "‘Adler’",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Serghiei ZDRILIUK",
+      "@type": "NameVariant",
+      "fullName": "Serghiei ZDRILIUK",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Sergei ZDRILYUK",
+      "@type": "NameVariant",
+      "fullName": "Sergei ZDRILYUK",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Sergey ZDRILYUK",
+      "@type": "NameVariant",
+      "fullName": "Sergey ZDRILYUK",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Serhiy ZDRYLYUK",
+      "@type": "NameVariant",
+      "fullName": "Serhiy ZDRYLYUK",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Serhiy Anatoliyovych ZDRILIUK",
+      "@type": "NameVariant",
+      "fullName": "Serhiy Anatoliyovych ZDRILIUK",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Sergey Anatolevich ZDRYLYUK",
+      "@type": "NameVariant",
+      "fullName": "Sergey Anatolevich ZDRYLYUK",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Previously listed under 'Ukraine criteria' - Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Ukraine) Amendment List 2014 [F2014L01184]; New listing start date 27 Aug 2023; Listing: Instrument of first designation: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 10) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7653"
   ],
-  "birth_info": [
+  "remarks": "Previously listed under 'Ukraine criteria' - Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Ukraine) Amendment List 2014 [F2014L01184]; New listing start date 27 Aug 2023; Listing: Instrument of first designation: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 10) Instrument 2023",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1972,
       "country": "Vinnytsia"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1972,
       "country": "Ukraine"
     }
   ],
   "nationalities": [
-    "Russia;Ukraine"
+    "Russia",
+    "Ukraine"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

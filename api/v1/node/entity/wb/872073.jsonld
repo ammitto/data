@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/872073",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/872073",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "ERNST & YOUNG LLP",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "ERNST & YOUNG LLP",
+      "isPrimary": true
     }
   ],
-  "remarks": "*667",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/872073"
+  ],
+  "remarks": "*667",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "KENYA RE TOWERS, OFF RAGATI ROAD, UPPER HILL, P.O. BOX 44286-00100",
       "city": "NAIROBI",
       "country": "Kenya",
-      "country_iso_code": "KE"
+      "countryIsoCode": "KE"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

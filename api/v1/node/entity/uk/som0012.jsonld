@@ -1,52 +1,76 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/som0012",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/som0012",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "AHMED",
-      "first_name": "ABUBAKER",
+      "@type": "NameVariant",
+      "fullName": "AHMED",
+      "firstName": "ABUBAKER",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ahmed",
-      "first_name": "Abubakar",
+      "@type": "NameVariant",
+      "fullName": "Ahmed",
+      "firstName": "Abubakar",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ahmed",
-      "first_name": "Sheikh",
+      "@type": "NameVariant",
+      "fullName": "Ahmed",
+      "firstName": "Sheikh",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Makaburi",
+      "@type": "NameVariant",
+      "fullName": "Makaburi",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Shariff",
-      "first_name": "Abu",
+      "@type": "NameVariant",
+      "fullName": "Shariff",
+      "firstName": "Abu",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Shariff",
-      "first_name": "Abubaker",
+      "@type": "NameVariant",
+      "fullName": "Shariff",
+      "firstName": "Abubaker",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/som0012"
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "city": "Majengo area",
       "state": "Mombasa",
       "country": "Kenya"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

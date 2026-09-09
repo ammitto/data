@@ -1,35 +1,53 @@
 {
-  "id": "https://www.ammitto.org/entity/au/49",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/49",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Abdul Rahman Ahmad Hottak",
+      "@type": "NameVariant",
+      "fullName": "Abdul Rahman Ahmad Hottak",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Hottak Sahib",
+      "@type": "NameVariant",
+      "fullName": "Hottak Sahib",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "عبدالرحمان احمد هوتک",
+      "@type": "NameVariant",
+      "fullName": "عبدالرحمان احمد هوتک",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "TAi.049 Title: Maulavi. Designation: a) Deputy (Cultural) Minister of Information and Culture of the Taliban regime, b) Head of Consular Department of Ministry of Foreign Affairs under the Taliban regime. Believed to be in Afghanistan/Pakistan border area. Belongs to Hottak tribe. Review pursuant to Security Council resolution 1822 (2008) was concluded on 29 Jul. 2010.; Listing: Listed on 25 January 2001 (amended on 9 July 2007, 21 Sep 2007, 29 Nov. 2011)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/49"
   ],
-  "birth_info": [
+  "remarks": "TAi.049 Title: Maulavi. Designation: a) Deputy (Cultural) Minister of Information and Culture of the Taliban regime, b) Head of Consular Department of Ministry of Foreign Affairs under the Taliban regime. Believed to be in Afghanistan/Pakistan border area. Belongs to Hottak tribe. Review pursuant to Security Council resolution 1822 (2008) was concluded on 29 Jul. 2010.; Listing: Listed on 25 January 2001 (amended on 9 July 2007, 21 Sep 2007, 29 Nov. 2011)",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1957,
       "country": "Ghazni province"
     }
   ],
   "nationalities": [
     "Afghanistan"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/326154",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/326154",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "AN HOA LIMITED COMPANY",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "AN HOA LIMITED COMPANY",
+      "isPrimary": true
     }
   ],
-  "remarks": "*332",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/326154"
+  ],
+  "remarks": "*332",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "231 TRUÒNG CHINH, HAI BÀ TRUNG, PHÛ LÝ",
       "city": "HÀ NAM",
       "country": "Viet Nam",
-      "country_iso_code": "VN"
+      "countryIsoCode": "VN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

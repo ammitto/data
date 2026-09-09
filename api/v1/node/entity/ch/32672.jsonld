@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/32672",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/32672",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mathias-Joseph Niyonzima",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Mathias-Joseph Niyonzima",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/32672"
   ],
   "remarks": "Officer of the National Intelligence Service. Responsible for obstructing the search for a political solution in Burundi by inciting violence and acts of repression during the demonstrations that started on 26 Apr 2015 following the announcement of the presidential candidacy of President Nkurunziza. Responsible for helping to train, coordinate and arm the Imbonerakure paramilitary militias, including outside Burundi, who are responsible for acts of violence, repression and serious human rights abuses in Burundi.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1956-03-06",
-      "circa": false
+      "circa": false,
+      "year": 1956
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,28 +1,46 @@
 {
-  "id": "https://www.ammitto.org/entry/uk/consolidated-list/rus2183",
-  "entity_id": "https://www.ammitto.org/entity/uk/rus2183",
+  "@id": "https://www.ammitto.org/entry/uk/consolidated-list/rus2183",
+  "@type": "SanctionEntry",
+  "entityId": "https://www.ammitto.org/entity/uk/rus2183",
   "authority": {
     "@id": "https://www.ammitto.org/authority/uk"
   },
   "regime": {
-    "@id": "https://www.ammitto.org/regime/the_russia_sanctions_eu_exit_regulations_2019"
+    "@id": "https://www.ammitto.org/regime/the_russia_sanctions_eu_exit_regulations_2019",
+    "name": "The Russia (Sanctions) (EU Exit) Regulations 2019"
   },
+  "legalBases": [
+
+  ],
+  "effects": [
+
+  ],
+  "reasons": [
+
+  ],
   "period": {
-    "listed_date": "2024-07-31",
-    "effective_date": "2024-07-31",
-    "is_indefinite": true,
-    "last_updated": "2024-07-31"
+    "@type": "TemporalPeriod",
+    "listedDate": "2024-07-31",
+    "effectiveDate": "2024-07-31",
+    "isIndefinite": true,
+    "lastUpdated": "2024-07-31"
   },
   "status": "active",
-  "reference_number": "RUS2183",
+  "statusHistory": [
+
+  ],
+  "referenceNumber": "RUS2183",
   "remarks": "\nANGARA (IMO 9179842) is involved in activity whose object or effect is to destabilise Ukraine or undermine or threaten the territorial integrity, sovereignty or independence of Ukraine or to obtain a benefit from or support the Government of Russia. Namely, ANGARA is involved in carrying military goods from a third country to a place in Russia or non-government controlled Ukrainian territory. \n",
-  "raw_source_data": {
-    "source_format": "xml",
-    "source_specific_fields": {
+  "rawSourceData": {
+    "@type": "RawSourceData",
+    "sourceFormat": "xml",
+    "sourceSpecificFields": {
+      "uk:ofsiGroupId": null,
+      "uk:unReferenceNumber": null,
       "uk:designationSource": "UK",
       "uk:sanctionsImposed": "Shipping sanctions: (see \"Other information\")",
       "uk:entityType": "Ship"
     }
   },
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

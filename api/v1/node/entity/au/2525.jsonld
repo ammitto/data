@@ -1,63 +1,87 @@
 {
-  "id": "https://www.ammitto.org/entity/au/2525",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/2525",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Fazal Rahim",
+      "@type": "NameVariant",
+      "fullName": "Fazal Rahim",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "فضل رحيم",
+      "@type": "NameVariant",
+      "fullName": "فضل رحيم",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Fazel Rahim",
+      "@type": "NameVariant",
+      "fullName": "Fazel Rahim",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Fazil Rahim",
+      "@type": "NameVariant",
+      "fullName": "Fazil Rahim",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Fazil Rahman",
+      "@type": "NameVariant",
+      "fullName": "Fazil Rahman",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Passport no.: Afghan passport number R512768. Was a financial facilitator for the Islamic Movement of Uzbekistan(QE.I.10.01.) and Al-Qaida (QE.A.4.01.). Was associated with Tohir AbdulkhalilovichYuldashev (QI.T.36.01.). As of late 2010, in custody of Pakistani authorities. Father’s name is Fazal Ahmad. Review pursuant to Security Council resolution 2368 (2017) was concluded on 15 November 2021.; Listing: Listed by UN 1989 Committee on 6 March 2012.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/2525"
   ],
-  "birth_info": [
+  "remarks": "Passport no.: Afghan passport number R512768. Was a financial facilitator for the Islamic Movement of Uzbekistan(QE.I.10.01.) and Al-Qaida (QE.A.4.01.). Was associated with Tohir AbdulkhalilovichYuldashev (QI.T.36.01.). As of late 2010, in custody of Pakistani authorities. Father’s name is Fazal Ahmad. Review pursuant to Security Council resolution 2368 (2017) was concluded on 15 November 2021.; Listing: Listed by UN 1989 Committee on 6 March 2012.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1974,
       "country": "Kabul"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1977,
       "country": "Afghanistan"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1975,
       "country": "Kabul"
     },
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1973,
       "country": "Kabul"
     }
   ],
   "nationalities": [
     "Afghanistan"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "a) Afghanistan/Pakistan border region (previous address) b) A2, City Computer Plaza, Shar-e-Now, Kabul, Afghanistan (previous address) c) Microrayan 3rd, Apt. 45, block 21, Kabul, Afghanistan (previous address)",
       "country": "Afghanistan (previous address)"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

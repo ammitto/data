@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/85815",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/85815",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Teterev Sergey Viktorovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Teterev Sergey Viktorovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/85815"
   ],
   "remarks": "Sergey Teterev is a Russian military serviceman from the 22nd Guards Heavy Bomber Aviation Division based at Engels-2 airbase in Saratov, Russia. In July 2024, a Kh-101 missile strike carried out by that Division hit the Okhmadyt children’s hospital in Kyiv. As a serviceman from the 22nd Guards Heavy Bomber Aviation Division, Sergey Teterev is supporting and implementing actions and policies which undermine and threaten the territorial integrity, sovereignty and independence of Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1973-07-10",
-      "circa": false
+      "circa": false,
+      "year": 1973
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

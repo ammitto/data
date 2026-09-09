@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/85212",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/85212",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Salim Mustafa Muhammad al-Mansur",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Salim Mustafa Muhammad al-Mansur",
+      "isPrimary": true
     }
   ],
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/85212"
+  ],
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1962-02-20",
-      "circa": false
+      "circa": false,
+      "year": 1962
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

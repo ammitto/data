@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/88838",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/88838",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Nagorny Nikita Vladimirovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Nagorny Nikita Vladimirovich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/88838"
   ],
   "remarks": "Nikita Nagorny is Deputy Chairman of the Board of the All-Russian public-state movement of children and youth “Movement of the First” and the former chief of the general staff of the All-Russia “Young Army” Military Patriotic Social Movement (Yunarmiya). He was involved in the mass abduction, illegal deportation and forced transfer of Ukrainian children from occupied territories of Ukraine to Russia.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1997-02-12",
-      "circa": false
+      "circa": false,
+      "year": 1997
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

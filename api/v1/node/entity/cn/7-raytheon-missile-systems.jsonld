@@ -1,21 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/cn/7-raytheon-missile-systems",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/cn/7-raytheon-missile-systems",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Raytheon Missile Systems",
+      "@type": "NameVariant",
+      "fullName": "Raytheon Missile Systems",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "雷神导弹系统公司",
+      "@type": "NameVariant",
+      "fullName": "雷神导弹系统公司",
       "script": "Hani",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "List: cn/anti-sanction-list",
-  "sanction_entry_ids": [
-    "https://www.ammitto.org/entry/cn/unknown/7-raytheon-missile-systems"
+  "sourceReferences": [
+
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/cn/anti-sanction-list/7-raytheon-missile-systems"
+  ],
+  "remarks": "List: cn/anti-sanction-list",
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

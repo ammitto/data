@@ -1,58 +1,80 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus2395",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus2395",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "MONOLINK GROUP FZCO",
+      "@type": "NameVariant",
+      "fullName": "MONOLINK GROUP FZCO",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "MONOLINK GROUP - FZCO ",
+      "@type": "NameVariant",
+      "fullName": "MONOLINK GROUP - FZCO ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "MONOLINK GROUP-FZCO ",
+      "@type": "NameVariant",
+      "fullName": "MONOLINK GROUP-FZCO ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "MONOLINK TRADING DMCC ",
+      "@type": "NameVariant",
+      "fullName": "MONOLINK TRADING DMCC ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "AXIOM INTERNATIONAL ",
+      "@type": "NameVariant",
+      "fullName": "AXIOM INTERNATIONAL ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "EKN TRADING FZCO ",
+      "@type": "NameVariant",
+      "fullName": "EKN TRADING FZCO ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "SWIP TRADING FZCO ",
+      "@type": "NameVariant",
+      "fullName": "SWIP TRADING FZCO ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "مجموعة مونولينك ش.م.ح ",
+      "@type": "NameVariant",
+      "fullName": "مجموعة مونولينك ش.م.ح ",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus2395"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Office Number 001, Building A2, Dubai Silicon Oasis, DDP",
       "state": "Dubai",
       "country": "United Arab Emirates"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

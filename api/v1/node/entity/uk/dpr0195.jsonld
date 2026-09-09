@@ -1,34 +1,51 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/dpr0195",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/dpr0195",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "TANCHON COMMERCIAL BANK",
+      "@type": "NameVariant",
+      "fullName": "TANCHON COMMERCIAL BANK",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "CHANGGWANG CREDIT BANK",
+      "@type": "NameVariant",
+      "fullName": "CHANGGWANG CREDIT BANK",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "KOREA CHANGGWANG CREDIT BANK",
+      "@type": "NameVariant",
+      "fullName": "KOREA CHANGGWANG CREDIT BANK",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Main DPRK financial entity for sales of conventional arms, ballistic missiles, and goods related to the assembly and manufacture of such weapons.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/dpr0195"
+  ],
+  "remarks": "Main DPRK financial entity for sales of conventional arms, ballistic missiles, and goods related to the assembly and manufacture of such weapons.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Saemul 1-Dong",
       "city": "Pyongchon District",
       "state": "Pyongyang",
       "country": "North Korea"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,27 +1,46 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/dpr0203",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/dpr0203",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "YON CHUN",
-      "first_name": "CHO",
+      "@type": "NameVariant",
+      "fullName": "YON CHUN",
+      "firstName": "CHO",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Yon Jun",
-      "first_name": "Jo",
+      "@type": "NameVariant",
+      "fullName": "Yon Jun",
+      "firstName": "Jo",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/dpr0203"
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Democratic People's Republic of Korea"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

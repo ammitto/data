@@ -1,40 +1,56 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3443",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/3443",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ri Pyong Chul",
+      "@type": "NameVariant",
+      "fullName": "Ri Pyong Chul",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Ri Pyo'ng-ch'o'l",
+      "@type": "NameVariant",
+      "fullName": "Ri Pyo'ng-ch'o'l",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ri  Pyong Chol",
+      "@type": "NameVariant",
+      "fullName": "Ri  Pyong Chol",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "KPi.076 Vice Chairman of the Workers' Party of Korea (WPK) Central Military Commission; Former Secretary of the Worker’s Party and Member of the Political Bureau. Former Alternate Member of the Political Bureau of the Workers' Party of Korea and First Vice Director of the Munitions Industry Department. Gender: male.; Listing: Listed on: 22 December 2017 (amended on 29 June 2023 and 17 September 2024)",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3443"
   ],
-  "birth_info": [
+  "remarks": "KPi.076 Vice Chairman of the Workers' Party of Korea (WPK) Central Military Commission; Former Secretary of the Worker’s Party and Member of the Political Bureau. Former Alternate Member of the Political Bureau of the Workers' Party of Korea and First Vice Director of the Munitions Industry Department. Gender: male.; Listing: Listed on: 22 December 2017 (amended on 29 June 2023 and 17 September 2024)",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1948
     }
   ],
   "nationalities": [
     "Democratic People's Republic of Korea (North Korea)"
   ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "DPRK",
       "country": "DPRK"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

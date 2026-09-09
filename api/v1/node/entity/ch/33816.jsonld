@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/33816",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/33816",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Kang Mun Kil",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Kang Mun Kil",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/33816"
   ],
   "remarks": "Kang Mun Kil has conducted nuclear procurement activities as a representative of Namchongang, also known as Namhung.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1963-02-09",
-      "circa": false
+      "circa": false,
+      "year": 1963
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

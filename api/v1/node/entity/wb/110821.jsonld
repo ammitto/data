@@ -1,23 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/110821",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/wb/110821",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "NGUYEN XUAN DOAN",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "NGUYEN XUAN DOAN",
+      "isPrimary": true
     }
   ],
-  "remarks": "*62",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/110821"
+  ],
+  "remarks": "*62",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "NO. 40, LANE 575, KIM MA, NGOCH KHANH WARD, BA DINH DISTRICT",
       "city": "HANOI",
       "country": "Viet Nam",
-      "country_iso_code": "VN"
+      "countryIsoCode": "VN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

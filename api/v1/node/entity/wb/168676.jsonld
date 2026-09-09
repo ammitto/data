@@ -1,21 +1,36 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/168676",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/168676",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "E.C. DE LUNA CONSTRUCTION CORP.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "E.C. DE LUNA CONSTRUCTION CORP.",
+      "isPrimary": true
     }
   ],
-  "remarks": "*24",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/168676"
+  ],
+  "remarks": "*24",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "country": "Philippines",
-      "country_iso_code": "PH"
+      "countryIsoCode": "PH"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

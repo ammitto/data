@@ -1,32 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7964",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/7964",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Marine Trans Shipping LLC",
+      "@type": "NameVariant",
+      "fullName": "Marine Trans Shipping LLC",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Marine Trans Shipping Limited Liability Company",
+      "@type": "NameVariant",
+      "fullName": "Marine Trans Shipping Limited Liability Company",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Marine Trans Shipping",
+      "@type": "NameVariant",
+      "fullName": "Marine Trans Shipping",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Company Identification No.1203000004151;\nIMO Identification Number: 6183435 (Company); Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 5) Instrument 2024",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7964"
+  ],
+  "remarks": "Company Identification No.1203000004151;\nIMO Identification Number: 6183435 (Company); Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 5) Instrument 2024",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Naberezhnaya Reki Tsareva 1, 2 Astrakhan Astrakhan Region 414024 Russia;\nOffice 2, Ulitsa Naberezhnaya Reki Tsareva 1 Astrakhan 414024 Russia",
       "country": "Ulitsa Naberezhnaya Reki Tsareva 1 Astrakhan 414024 Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

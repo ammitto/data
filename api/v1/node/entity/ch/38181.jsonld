@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/38181",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/38181",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Musonda Jean-Claude Kazembe",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Musonda Jean-Claude Kazembe",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/38181"
   ],
   "remarks": "As Governor of Haut-Katanga until Apr 2017, Jean-Claude Kazembe Musonda was responsible for the disproportionate use of force and violent repression committed by security forces and the Congolese National Police (PNC) in Haut-Katanga, including between 15 and 31 Dec 2016, when 12 civilians were killed and 64 were injured as a result of the use of lethal force by security forces including PNC agents in response to protests in Lubumbashi.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1963-05-17",
-      "circa": false
+      "circa": false,
+      "year": 1963
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

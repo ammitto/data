@@ -1,21 +1,36 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus2992",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus2992",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "ALTAIR HOLDING SA",
+      "@type": "NameVariant",
+      "fullName": "ALTAIR HOLDING SA",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus2992"
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "2C. Rue Nicolas Bové",
       "country": "Luxembourg"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

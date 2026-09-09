@@ -1,26 +1,46 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/irq0129",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/irq0129",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "AL-DURI",
-      "first_name": "JAWHAR",
+      "@type": "NameVariant",
+      "fullName": "AL-DURI",
+      "firstName": "JAWHAR",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "جوهر مجيد الدوري",
+      "@type": "NameVariant",
+      "fullName": "جوهر مجيد الدوري",
       "script": "Arab",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/irq0129"
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "country": "Iraq"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,47 +1,67 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7839",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/7839",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Sarmad Electronic Sepahan Company",
+      "@type": "NameVariant",
+      "fullName": "Sarmad Electronic Sepahan Company",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Sepahan Sarmad Electronic",
+      "@type": "NameVariant",
+      "fullName": "Sepahan Sarmad Electronic",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Sarmad Electronics Sepahan Private Limited Company",
+      "@type": "NameVariant",
+      "fullName": "Sarmad Electronics Sepahan Private Limited Company",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Sarmad Electronic Sepahan",
+      "@type": "NameVariant",
+      "fullName": "Sarmad Electronic Sepahan",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Sarmad Electronics Co.",
+      "@type": "NameVariant",
+      "fullName": "Sarmad Electronics Co.",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Sarmad Electronics",
+      "@type": "NameVariant",
+      "fullName": "Sarmad Electronics",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Company Identification No.10260371950 (Iran); Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2024",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7839"
+  ],
+  "remarks": "Company Identification No.10260371950 (Iran); Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2024",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "2nd Floor, Number 309, Alley 28, South Abonaeim Street, Jaber Ansari Street Esfahan Iran",
       "country": "Jaber Ansari Street Esfahan Iran"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

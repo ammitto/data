@@ -1,22 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus0125",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/rus0125",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ryzhkov",
-      "first_name": "Nikolai",
+      "@type": "NameVariant",
+      "fullName": "Ryzhkov",
+      "firstName": "Nikolai",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Comembers of the Commission to monitor the situation in Ukraine: Vladimir Dzhabarov; Anatoly Lisitsyn, Alexander Weinberg; Mikhail Marchenko; Eugene (Evgeny) Gromyko and Yefgeny Bushmin. The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus0125"
+  ],
+  "remarks": "Comembers of the Commission to monitor the situation in Ukraine: Vladimir Dzhabarov; Anatoly Lisitsyn, Alexander Weinberg; Mikhail Marchenko; Eugene (Evgeny) Gromyko and Yefgeny Bushmin. The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

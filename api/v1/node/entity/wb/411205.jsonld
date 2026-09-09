@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/411205",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/411205",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "WATER SUPPLY AND SEWERAGE CONSTRUCTION JSC NO. 15 (VIWASEEN.15)",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "WATER SUPPLY AND SEWERAGE CONSTRUCTION JSC NO. 15 (VIWASEEN.15)",
+      "isPrimary": true
     }
   ],
-  "remarks": "(Reg. No: 1800627874)*617",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/411205"
+  ],
+  "remarks": "(Reg. No: 1800627874)*617",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "340/8 CACH MANG THANG TAM STR., AN THOI -BINH THUY WARD",
       "city": "CAN THO CITY",
       "country": "Viet Nam",
-      "country_iso_code": "VN"
+      "countryIsoCode": "VN"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

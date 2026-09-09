@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/78795",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/78795",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Allah Dad Tayeb Wali Muhammad Mullah Haji",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Allah Dad Tayeb Wali Muhammad Mullah Haji",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/78795"
   ],
   "remarks": "Deputy Minister of Communication under the Taliban regime.",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1963
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

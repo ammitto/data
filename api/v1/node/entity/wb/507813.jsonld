@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/507813",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/507813",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "NOVOLINE RESOURCES L.P.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "NOVOLINE RESOURCES L.P.",
+      "isPrimary": true
     }
   ],
-  "remarks": "*555",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/507813"
+  ],
+  "remarks": "*555",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "OFFICE 1, 145 KILMARNOCK ROAD",
       "city": "GLASGOW, G41 3JA, SCOTLAND",
       "country": "United Kingdom",
-      "country_iso_code": "GB"
+      "countryIsoCode": "GB"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

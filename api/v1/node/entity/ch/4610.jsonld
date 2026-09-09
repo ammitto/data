@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/4610",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/4610",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Sivakau Iury Leanidavich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Sivakau Iury Leanidavich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/4610"
   ],
   "remarks": "Orchestrated the unresolved disappearances of Yuri Zakharenko, Viktor Gonchar, Anatoly Krasovski and Dmitri Zavadski in Belarus in 1999-2000. Former Minister of Tourism and Sports, former Minister of Internal Affairs and former Deputy Head of the Presidential Administration.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1946-08-05",
-      "circa": false
+      "circa": false,
+      "year": 1946
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

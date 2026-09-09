@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/72889",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/72889",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Demidova Elena Mikhailovna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Demidova Elena Mikhailovna",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/72889"
   ],
   "remarks": "Elena Demidova is the Head of the Yevpatoria City Administration. In this role, she has been responsible for the illegal deportation of Ukrainian children to Russia for their subsequent illegal adoption by Russian families. Her actions violate the rights of Ukrainian children and infringe Ukraine’s law and administrative order.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1975-09-12",
-      "circa": false
+      "circa": false,
+      "year": 1975
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

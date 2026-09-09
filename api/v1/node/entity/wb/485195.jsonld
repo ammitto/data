@@ -1,23 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/485195",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/wb/485195",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MS. OKAFOR GLORY",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "MS. OKAFOR GLORY",
+      "isPrimary": true
     }
   ],
-  "remarks": "*557",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/485195"
+  ],
+  "remarks": "*557",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "MANAGING DIRECTOR, UNIQUE CONCEPT ENTERPRISES, NO. 40 NELSON WILLIAMS STREET",
       "city": "WARRI, DELTA STATE",
       "country": "Nigeria",
-      "country_iso_code": "NG"
+      "countryIsoCode": "NG"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

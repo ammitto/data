@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/29329",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/29329",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Vorobiov Yuri Leonidovich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Vorobiov Yuri Leonidovich",
+      "isPrimary": true
     }
   ],
-  "remarks": "Member and Deputy Speaker of the Federation Council of the Russian Federation, where he coordinates the work of the Federation Council Committee on Defence and Security, gives it instructions and controls the execution of those instructions. On 1 Mar 2014 Vorobiov publicly supported in the Federation Council the deployment of Russian forces in Ukraine. He subsequently voted in favour of the related decree.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/29329"
+  ],
+  "remarks": "Member and Deputy Speaker of the Federation Council of the Russian Federation, where he coordinates the work of the Federation Council Committee on Defence and Security, gives it instructions and controls the execution of those instructions. On 1 March 2014 Vorobiov publicly supported in the Federation Council the deployment of Russian forces in Ukraine. He subsequently voted in favour of the related decree.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1948-02-02",
-      "circa": false
+      "circa": false,
+      "year": 1948
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

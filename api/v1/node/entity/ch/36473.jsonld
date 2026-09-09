@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/36473",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/36473",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Paek Se Bong",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Paek Se Bong",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/36473"
   ],
   "remarks": "Paek Se Bong is a former Chairman of the Second Economic Committee, a former member of the National Defense Commission, and a former Vice Director of Munitions Industry Department (MID).",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1938-03-21",
-      "circa": false
+      "circa": false,
+      "year": 1938
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

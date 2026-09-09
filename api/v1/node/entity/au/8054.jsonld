@@ -1,35 +1,53 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8054",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/8054",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Olga Pavlovna KOLUDAROVA",
+      "@type": "NameVariant",
+      "fullName": "Olga Pavlovna KOLUDAROVA",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Olha Pavlivna KOLUDAROVA",
+      "@type": "NameVariant",
+      "fullName": "Olha Pavlivna KOLUDAROVA",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Olga Pavlivna KOLUDAROVA",
+      "@type": "NameVariant",
+      "fullName": "Olga Pavlivna KOLUDAROVA",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Minister of Education and Science of the so-called “Donetsk People’s Republic”; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8054"
   ],
-  "birth_info": [
+  "remarks": "Minister of Education and Science of the so-called “Donetsk People’s Republic”; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1983,
       "country": "Izhevsk"
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

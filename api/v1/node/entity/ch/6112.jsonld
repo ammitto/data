@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/6112",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/6112",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Bonyongwe Happyton Mabhuya",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Bonyongwe Happyton Mabhuya",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/6112"
   ],
   "remarks": "Senior security figure with a close association with the ZANU-PF (Zimbabwe African National Union – Patriotic Front) faction of the Government and complicit in forming or directing repressive state policy. Accused of kidnapping, torturing and killing MDC activists in June 2008.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1960-11-06",
-      "circa": false
+      "circa": false,
+      "year": 1960
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

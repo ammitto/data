@@ -1,32 +1,49 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7448",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/7448",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Federal Research and Production Center Titan Barrikady",
+      "@type": "NameVariant",
+      "fullName": "Federal Research and Production Center Titan Barrikady",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "FNPTs Titan-Barrikady",
+      "@type": "NameVariant",
+      "fullName": "FNPTs Titan-Barrikady",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "JSC Titan Design Bureau ",
+      "@type": "NameVariant",
+      "fullName": "JSC Titan Design Bureau ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Email: cdb@cdbtitan.ru ; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 2) Instrument 2023",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7448"
+  ],
+  "remarks": "Email: cdb@cdbtitan.ru ; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 2) Instrument 2023",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Prospekt Imeni V.I. Lenina B/N, Volgograd, 400071, Russia ",
       "country": "Russia "
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

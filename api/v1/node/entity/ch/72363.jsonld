@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/72363",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/72363",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Petrushenko Vladimir Georgievich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Petrushenko Vladimir Georgievich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/72363"
   ],
   "remarks": "Vladimir Petrushenko is the General Director of JSC Design Bureau of Mechanical Engineering, which is a military industry company involved in developing weapons for the Russian Armed Forces. JSC Design Bureau of Mechanical Engineering is the lead developer for the Bal missile system, which is used by the Russian Armed Forces in the war of aggression against Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1950-04-04",
-      "circa": false
+      "circa": false,
+      "year": 1950
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

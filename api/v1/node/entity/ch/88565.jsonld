@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/88565",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/88565",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Soroka Anna Borissovna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Soroka Anna Borissovna",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/88565"
   ],
   "remarks": "Anna Soroka has been the so-called Commissioner for Human Rights in the so-called “Luhansk People’s Republic” since May 2024. Before this, she worked as an Aide to the so-called “Head of Republic” in the so-called “Luhansk People’s Republic”.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1980-05-26",
-      "circa": false
+      "circa": false,
+      "year": 1980
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,37 +1,55 @@
 {
-  "id": "https://www.ammitto.org/entity/au/7906",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/au/7906",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Scientific Production Association of Electromechanics Joint Stock Company",
+      "@type": "NameVariant",
+      "fullName": "Scientific Production Association of Electromechanics Joint Stock Company",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "SPA of Electromechanics JSC",
+      "@type": "NameVariant",
+      "fullName": "SPA of Electromechanics JSC",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "NPO Elektromechaniki JSC",
+      "@type": "NameVariant",
+      "fullName": "NPO Elektromechaniki JSC",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Scientific and Production Association of Electro Mechanic JSC",
+      "@type": "NameVariant",
+      "fullName": "Scientific and Production Association of Electro Mechanic JSC",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "http://www.npoe.ru/; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2024",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/7906"
+  ],
+  "remarks": "http://www.npoe.ru/; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2024",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "31 Mendeleeva Street Miass Chelyabinsk Region 456320 Russia",
       "country": "31 Mendeleeva Street Miass Chelyabinsk Region 456320 Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

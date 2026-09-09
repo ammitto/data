@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/72189",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/72189",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ivashkin Andrei Nikolaevich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Ivashkin Andrei Nikolaevich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/72189"
   ],
   "remarks": "Andrei Ivashkin is the General Director of JSC Central Design Bureau of Automatics (TsKBA), which designs and produces components for the Kh-31P missiles, which are used by the Russian Armed Forces in the war of aggression against Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1966-08-17",
-      "circa": false
+      "circa": false,
+      "year": 1966
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

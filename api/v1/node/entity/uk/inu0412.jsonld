@@ -1,22 +1,43 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/inu0412",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/inu0412",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "SOLTANI ",
-      "first_name": "Behzad",
+      "@type": "NameVariant",
+      "fullName": "SOLTANI ",
+      "firstName": "Behzad",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "SOLTANI ",
-      "first_name": "Bahzad",
+      "@type": "NameVariant",
+      "fullName": "SOLTANI ",
+      "firstName": "Bahzad",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/inu0412"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

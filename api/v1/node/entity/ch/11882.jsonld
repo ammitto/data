@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/11882",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/11882",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Ali Douba",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Ali Douba",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/11882"
   ],
   "remarks": "Special Advisor to President Bashar al-Assad.",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1933
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

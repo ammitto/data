@@ -1,43 +1,62 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/mya0082",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/mya0082",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "Progress Technology Support Company Limited",
+      "@type": "NameVariant",
+      "fullName": "Progress Technology Support Company Limited",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Progress Technology Support Company",
+      "@type": "NameVariant",
+      "fullName": "Progress Technology Support Company",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Royal Shune Lei ",
+      "@type": "NameVariant",
+      "fullName": "Royal Shune Lei ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Royal Shune Lei Company",
+      "@type": "NameVariant",
+      "fullName": "Royal Shune Lei Company",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Royal Shune Lei Company Limited",
+      "@type": "NameVariant",
+      "fullName": "Royal Shune Lei Company Limited",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/mya0082"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "No (37), Room (10), Bahosi Housing, Lanmadaw Township",
       "state": "Yangon",
       "country": "Myanmar"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

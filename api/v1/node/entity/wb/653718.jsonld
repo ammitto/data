@@ -1,23 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/653718",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/wb/653718",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MR. ISAH SALIHU KANTIGI",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "MR. ISAH SALIHU KANTIGI",
+      "isPrimary": true
     }
   ],
-  "remarks": "*605",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/653718"
+  ],
+  "remarks": "*605",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "MANAGING DIRECTOR, SOFTTECH IT SOLUTIONS AND SERVICES LTD., SB 98 BANEX PLAZA",
       "city": "WUSE 11 – ABUJA, FCT",
       "country": "Nigeria",
-      "country_iso_code": "NG"
+      "countryIsoCode": "NG"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

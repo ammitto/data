@@ -1,22 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/874185",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/wb/874185",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "MR. ROMAIN PISON",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "MR. ROMAIN PISON",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/874185"
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "APT. 8 8 RUE CHARLES MARTEL",
       "city": "BRUSSELS 1000",
       "country": "Belgium",
-      "country_iso_code": "BE"
+      "countryIsoCode": "BE"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/53447",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/53447",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Gritsenko Yevgeny Dmitrievich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Gritsenko Yevgeny Dmitrievich",
+      "isPrimary": true
     }
   ],
-  "remarks": "Former member of the so-called “People’s Council” of the so-called “Donetsk People’s Republic”. Has therefore supported and implemented actions and policies which undermine the territorial integrity, sovereignty and independence of Ukraine, and further destabilised Ukraine.",
-  "birth_info": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/53447"
+  ],
+  "remarks": "Former member of the so-called “People’s Council” of the so-called “Donetsk People’s Republic”. Yevgeny Gritsenko is the current chairman of the so-called “Donbas Regional Public Organization of Veterans of the Special Military Operation”. In this current and in that previous capacity Yevgeny Gritsenko has supported and implemented actions and policies which undermine the territorial integrity, sovereignty and independence of Ukraine, and further destabilised Ukraine.",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1977-07-26",
-      "circa": false
+      "circa": false,
+      "year": 1977
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

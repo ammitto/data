@@ -1,48 +1,68 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/rus2307",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/rus2307",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "All-Russian Young Army Military Patriotic Social Movement (Yunarmia)",
+      "@type": "NameVariant",
+      "fullName": "All-Russian Young Army Military Patriotic Social Movement (Yunarmia)",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "All Russian Children and Youth Military Patriotic Public Movement Youth Army",
+      "@type": "NameVariant",
+      "fullName": "All Russian Children and Youth Military Patriotic Public Movement Youth Army",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Unarmia",
+      "@type": "NameVariant",
+      "fullName": "Unarmia",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Yunarmia",
+      "@type": "NameVariant",
+      "fullName": "Yunarmia",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Yunarmiya",
+      "@type": "NameVariant",
+      "fullName": "Yunarmiya",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Всероссийское Юнармия Военно-патриотическое Общественное Движение ",
+      "@type": "NameVariant",
+      "fullName": "Всероссийское Юнармия Военно-патриотическое Общественное Движение ",
       "script": "Cyrl",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/rus2307"
+  ],
+  "remarks": "The Director Disqualification Sanction was imposed on 09/04/2025.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Building 1, 1st Krasnokursantsky Passage 1/4",
       "state": "Moscow",
       "country": "Russia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

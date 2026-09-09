@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/189265",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/189265",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "GRASCO COMPANY",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "GRASCO COMPANY",
+      "isPrimary": true
     }
   ],
-  "remarks": "*113",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/189265"
+  ],
+  "remarks": "*113",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "SIS NO. 1293 MAMPIRIR, BATIGNOLLES",
       "city": "BRAZZAVILLE",
       "country": "Congo, Republic of",
-      "country_iso_code": "CG"
+      "countryIsoCode": "CG"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

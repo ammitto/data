@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/6904",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/6904",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Rangwani Dani",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Rangwani Dani",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/6904"
   ],
   "remarks": "Member of the security forces. Involved in group of 50 men paid directly by ZANU-PF to locate and torture MDC supporters in April 2007.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1962-02-11",
-      "circa": false
+      "circa": false,
+      "year": 1962
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,68 +1,93 @@
 {
-  "id": "https://www.ammitto.org/entity/au/3055",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/3055",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Maalim Salman",
+      "@type": "NameVariant",
+      "fullName": "Maalim Salman",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Mu’alim Salman",
+      "@type": "NameVariant",
+      "fullName": "Mu’alim Salman",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Mualem Suleiman",
+      "@type": "NameVariant",
+      "fullName": "Mualem Suleiman",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ameer Salman",
+      "@type": "NameVariant",
+      "fullName": "Ameer Salman",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ma’alim Suleiman",
+      "@type": "NameVariant",
+      "fullName": "Ma’alim Suleiman",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Maalim Salman Ali",
+      "@type": "NameVariant",
+      "fullName": "Maalim Salman Ali",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Maalim Selman Ali",
+      "@type": "NameVariant",
+      "fullName": "Maalim Selman Ali",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ma’alim Selman",
+      "@type": "NameVariant",
+      "fullName": "Ma’alim Selman",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ma’alin Sulayman",
+      "@type": "NameVariant",
+      "fullName": "Ma’alin Sulayman",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "SOi.013; Listing: Listed on 23 Sep. 2014",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/3055"
   ],
-  "birth_info": [
+  "remarks": "SOi.013; Listing: Listed on 23 Sep. 2014",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1979,
       "country": "Nairobi"
     }
   ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "Somalia",
       "country": "Somalia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

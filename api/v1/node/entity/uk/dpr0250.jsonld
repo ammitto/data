@@ -1,29 +1,51 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/dpr0250",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/dpr0250",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "CHANG-HO",
-      "first_name": "PAEK",
+      "@type": "NameVariant",
+      "fullName": "CHANG-HO",
+      "firstName": "PAEK",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Ch'ang-Ho",
-      "first_name": "Paek",
+      "@type": "NameVariant",
+      "fullName": "Ch'ang-Ho",
+      "firstName": "Paek",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Chang-Ho",
-      "first_name": "Pak",
+      "@type": "NameVariant",
+      "fullName": "Chang-Ho",
+      "firstName": "Pak",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Senior official and head of the satellite control center of Korean Committee for Space Technology.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/dpr0250"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "remarks": "Senior official and head of the satellite control center of Korean Committee for Space Technology.",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

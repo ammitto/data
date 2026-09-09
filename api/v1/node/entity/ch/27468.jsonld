@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/27468",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/27468",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Surkov Vladislav Yurievich",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Surkov Vladislav Yurievich",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/27468"
   ],
   "remarks": "Former aide to the President of the Russian Federation and First Deputy Chief of the Presidential Administration. He was an organiser of the process in Crimea by which local Crimean communities were mobilised to stage actions undermining the Ukrainian authorities in Crimea.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1964-09-21",
-      "circa": false
+      "circa": false,
+      "year": 1964
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

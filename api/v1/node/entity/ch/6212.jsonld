@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/6212",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/6212",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Chindori-Chininga Edward Takaruza",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Chindori-Chininga Edward Takaruza",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/6212"
   ],
   "remarks": "Former member of the Government with ongoing ties to the ZANU-PF faction of Government as ZANU-PF Member of Parliament. Commander of the militia bases in Guruve in the run up to the 2008 elections.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1955-03-14",
-      "circa": false
+      "circa": false,
+      "year": 1955
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

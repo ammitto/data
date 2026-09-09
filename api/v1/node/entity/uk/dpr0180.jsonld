@@ -1,36 +1,55 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/dpr0180",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/uk/dpr0180",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "NATIONAL AEROSPACE TECHNOLOGY ADMINISTRATION",
+      "@type": "NameVariant",
+      "fullName": "NATIONAL AEROSPACE TECHNOLOGY ADMINISTRATION",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "NADA",
+      "@type": "NameVariant",
+      "fullName": "NADA",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "NATA",
+      "@type": "NameVariant",
+      "fullName": "NATA",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "NATIONAL AEROSPACE DEVELOPMENT ADMINISTRATION",
+      "@type": "NameVariant",
+      "fullName": "NATIONAL AEROSPACE DEVELOPMENT ADMINISTRATION",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "NATA is involved in the DPRK's development of space science and technology, including satellite launches and carrier rockets.",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/dpr0180"
+  ],
+  "remarks": "NATA is involved in the DPRK's development of space science and technology, including satellite launches and carrier rockets.",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "country": "North Korea"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

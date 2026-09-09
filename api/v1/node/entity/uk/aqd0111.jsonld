@@ -1,48 +1,74 @@
 {
-  "id": "https://www.ammitto.org/entity/uk/aqd0111",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/uk/aqd0111",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "ABUBAKAR",
-      "first_name": "ABDULPATTA",
+      "@type": "NameVariant",
+      "fullName": "ABUBAKAR",
+      "firstName": "ABDULPATTA",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abu Bakar",
-      "first_name": "Abdul ",
+      "@type": "NameVariant",
+      "fullName": "Abu Bakar",
+      "firstName": "Abdul ",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Abubakar",
-      "first_name": "Abdul",
+      "@type": "NameVariant",
+      "fullName": "Abubakar",
+      "firstName": "Abdul",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     },
     {
-      "full_name": "Escalon",
-      "first_name": "Abdulpatta",
+      "@type": "NameVariant",
+      "fullName": "Escalon",
+      "firstName": "Abdulpatta",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Facilitator for the Islamic State in Iraq and the Levant (ISIL), listed as Al-Qaida in Iraq (QDe.115). Gender: male. INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/notice/search/un/6229927",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/uk/consolidated-list/aqd0111"
+  ],
+  "remarks": "Facilitator for the Islamic State in Iraq and the Levant (ISIL), listed as Al-Qaida in Iraq (QDe.115). Gender: male. INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/notice/search/un/6229927",
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
+      "street": "",
       "country": "Philippines"
     },
     {
+      "@type": "Address",
+      "street": "",
       "state": "Daina",
       "country": "Saudi Arabia"
     },
     {
+      "@type": "Address",
+      "street": "",
       "state": "Jeddah",
       "country": "Saudi Arabia"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

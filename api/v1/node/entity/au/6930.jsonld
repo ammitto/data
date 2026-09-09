@@ -1,22 +1,41 @@
 {
-  "id": "https://www.ammitto.org/entity/au/6930",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/6930",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Oleg Yevgenyevich AKSYUTIN",
+      "@type": "NameVariant",
+      "fullName": "Oleg Yevgenyevich AKSYUTIN",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     }
   ],
-  "remarks": "Deputy Chairman of the Management Committee of Gazprom; CEO of South Stream Transport BV; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 11) Instrument 2022",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/6930"
   ],
-  "birth_info": [
+  "remarks": "Deputy Chairman of the Management Committee of Gazprom; CEO of South Stream Transport BV; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Russia and Ukraine) Amendment (No. 11) Instrument 2022",
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "circa": false,
+      "year": 1967,
       "country": "Kuibyshev"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,22 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/330145",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/wb/330145",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "FLORENCIA M. SILVESTRE",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "FLORENCIA M. SILVESTRE",
+      "isPrimary": true
     }
   ],
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/330145"
+  ],
+  "birthInfo": [
+
+  ],
+  "nationalities": [
+
+  ],
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "UNIT 1501 GLOBAL TOWER CONDOMINIUM, BANGKAL",
       "city": "MAKATI CITY, METRO MANILA",
       "country": "Philippines",
-      "country_iso_code": "PH"
+      "countryIsoCode": "PH"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

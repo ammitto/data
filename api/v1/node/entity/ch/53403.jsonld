@@ -1,18 +1,40 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/53403",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/53403",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Podlipaeva Svetlana Nikolaevna",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Podlipaeva Svetlana Nikolaevna",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/53403"
   ],
   "remarks": "So-called “Deputy Chairperson of the Government” and former “Minister of Economic Development” of the so-called “Luhansk People’s Republic”. In taking on and acting in this capacity, she has actively undermined the territorial integrity, sovereignty and independence of Ukraine.",
-  "birth_info": [
+  "birthInfo": [
     {
+      "@type": "BirthInfo",
       "date": "1968-09-16",
-      "circa": false
+      "circa": false,
+      "year": 1968
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/166066",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/166066",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "AYEMO INVESTMENTS LIMITED",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "AYEMO INVESTMENTS LIMITED",
+      "isPrimary": true
     }
   ],
-  "remarks": "*60",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/166066"
+  ],
+  "remarks": "*60",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "PLOT 1442 NAMUGONGO ROAD P.O.BOX 10916",
       "city": "KAMPALA",
       "country": "Uganda",
-      "country_iso_code": "UG"
+      "countryIsoCode": "UG"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

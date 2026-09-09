@@ -1,17 +1,39 @@
 {
-  "id": "https://www.ammitto.org/entity/ch/3203",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/ch/3203",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Mugaragu Leodomir",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "Mugaragu Leodomir",
+      "isPrimary": true
     }
+  ],
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
+    "https://www.ammitto.org/entry/ch/consolidated-list/3203"
   ],
   "remarks": "According to open source and official reporting, Leodomir Mugaragu is the Chief of Staff of the Forces Combattantes Abucunguzi/Combatant Force for the Liberation of Rwanda (FOCA), the FDLR’s armed wing. According to official reporting Mugaragu is a senior planner for FDLR’s military operations in the eastern DRC.",
-  "birth_info": [
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1954
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "nationalities": [
+
+  ],
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

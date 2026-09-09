@@ -1,23 +1,38 @@
 {
-  "id": "https://www.ammitto.org/entity/wb/190661",
-  "entity_type": "organization",
+  "@id": "https://www.ammitto.org/entity/wb/190661",
+  "@type": "OrganizationEntity",
+  "entityType": "organization",
   "names": [
     {
-      "full_name": "BOFRA S.A.R.L.",
-      "is_primary": true
+      "@type": "NameVariant",
+      "fullName": "BOFRA S.A.R.L.",
+      "isPrimary": true
     }
   ],
-  "remarks": "*112",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/wb/debarment-list/190661"
+  ],
+  "remarks": "*112",
+  "identifications": [
+
   ],
   "addresses": [
     {
+      "@type": "Address",
       "street": "101 RUE GÉNÉRAL TESTARD",
       "city": "BRAZZAVILLE",
       "country": "Congo, Republic of",
-      "country_iso_code": "CG"
+      "countryIsoCode": "CG"
     }
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "beneficialOwners": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }

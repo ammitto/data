@@ -1,29 +1,46 @@
 {
-  "id": "https://www.ammitto.org/entity/au/8063",
-  "entity_type": "person",
+  "@id": "https://www.ammitto.org/entity/au/8063",
+  "@type": "PersonEntity",
+  "entityType": "person",
   "names": [
     {
-      "full_name": "Oleg Aleksandrovich YEGOROV",
+      "@type": "NameVariant",
+      "fullName": "Oleg Aleksandrovich YEGOROV",
       "script": "Latn",
-      "is_primary": true
+      "isPrimary": true
     },
     {
-      "full_name": "Oleg Aleksandrovich EGOROV",
+      "@type": "NameVariant",
+      "fullName": "Oleg Aleksandrovich EGOROV",
       "script": "Latn",
-      "is_primary": false
+      "isPrimary": false
     }
   ],
-  "remarks": "Judge of the Military Court of Appeal of the Russian Federation; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
-  "sanction_entry_ids": [
+  "sourceReferences": [
+
+  ],
+  "linkedEntities": [
+
+  ],
+  "hasSanctionEntry": [
     "https://www.ammitto.org/entry/au/consolidated-list/8063"
   ],
-  "birth_info": [
+  "remarks": "Judge of the Military Court of Appeal of the Russian Federation; Listing: Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 1) Instrument 2025",
+  "birthInfo": [
     {
-      "circa": false
+      "@type": "BirthInfo",
+      "circa": false,
+      "year": 1967
     }
   ],
   "nationalities": [
     "Russia"
   ],
-  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+  "identifications": [
+
+  ],
+  "addresses": [
+
+  ],
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
 }
