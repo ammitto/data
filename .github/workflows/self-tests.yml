@@ -1,0 +1,57 @@
+name: Self-tests
+
+# The three scripts under .github/scripts/ each ship with a test script,
+# and until now those ran ONLY inside harmonize.yml. That workflow fires on
+# a schedule, on a dispatch, and on a push to main that touches its own
+# file, and on NO pull request. So a change to one of these scripts, or to
+# the test proving it, got no verification until after it had already
+# merged.
+#
+# That is not hypothetical. Four pull requests merged into this repository
+# on 2026-09-10 with zero automated checks between them, and the one that
+# restored publishing needed ten review rounds to find defects a workflow
+# would have caught on the first push. One of them, a guard that published
+# a release bound to another writer's tag, was found by a human probe after
+# the code had already been approved.
+#
+# The gem repository fixed the same trap for its fleet monitor in
+# ammitto/ammitto#104. This is that fix, one repository over.
+#
+# Cheap by construction: every one of these stubs `gh`, makes no network
+# call, and builds whatever git state it needs in a mktemp directory it
+# removes on exit. Runner seconds, no API budget, no repository state.
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+    paths:
+      - '.github/scripts/**'
+      - '.github/workflows/self-tests.yml'
+
+# A second push supersedes the first: nothing here publishes, so an
+# in-flight run of an older commit has no value once a newer one exists.
+concurrency:
+  group: self-tests-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  self-tests:
+    name: Prove the scripts that gate publishing
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # Named individually rather than looped, so a failure names the
+      # script in the job summary instead of a loop index.
+      - name: Self-test the outage reconciler
+        run: .github/scripts/harmonize_issue_test.sh
+
+      - name: Self-test the change detector
+        run: .github/scripts/has_changes_test.sh
+
+      - name: Self-test the aggregate publisher
+        run: .github/scripts/publish_aggregates_test.sh
