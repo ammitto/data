@@ -45,12 +45,32 @@ cat > "$WORK/bin/gh" <<'STUB'
 echo "$*" >> "$WORK/calls"
 state="$(cat "$WORK/state")"
 
-emit() { # $1 = isDraft
+# Real `gh release view --json a,b` exports ONLY a and b. The stub does the
+# same, and that fidelity is load-bearing rather than tidiness: a version of
+# this script asking for fewer fields must receive fewer, so that running
+# this suite against an older script reproduces THAT script's failure and
+# not an argument-shape complaint from the stub.
+emit() { # $1 = isDraft, $2... = the gh argv, so --json can be read from it
+  local draft="$1"; shift
+  local want; want="$(value_of --json "$@")"
+  local t; t="$(cat "$WORK/target")"
+  local assets
   case "$(cat "$WORK/assets")" in
-    good) printf '{"isDraft":%s,"assets":[{"name":"all.jsonld","size":100,"state":"uploaded","digest":"%s"},{"name":"all.ttl","size":50,"state":"uploaded","digest":"%s"}]}\n' "$1" "$(cat "$WORK/dig_a")" "$(cat "$WORK/dig_b")" ;;
-    partial) printf '{"isDraft":%s,"assets":[{"name":"all.jsonld","size":100,"state":"uploaded","digest":"%s"}]}\n' "$1" "$(cat "$WORK/dig_a")" ;;
-    wrongdigest) printf '{"isDraft":%s,"assets":[{"name":"all.jsonld","size":100,"state":"uploaded","digest":"sha256:WRONG"},{"name":"all.ttl","size":50,"state":"uploaded","digest":"sha256:WRONG"}]}\n' "$1" ;;
+    good)
+      assets='[{"name":"all.jsonld","size":100,"state":"uploaded","digest":"DIG_A"},{"name":"all.ttl","size":50,"state":"uploaded","digest":"DIG_B"}]' ;;
+    partial)
+      assets='[{"name":"all.jsonld","size":100,"state":"uploaded","digest":"DIG_A"}]' ;;
+    wrongdigest)
+      assets='[{"name":"all.jsonld","size":100,"state":"uploaded","digest":"sha256:WRONG"},{"name":"all.ttl","size":50,"state":"uploaded","digest":"sha256:WRONG"}]' ;;
   esac
+  assets="${assets//DIG_A/$(cat "$WORK/dig_a")}"
+  assets="${assets//DIG_B/$(cat "$WORK/dig_b")}"
+
+  local out="" sep=""
+  case ",$want," in *,isDraft,*) out="$out$sep\"isDraft\":$draft"; sep=, ;; esac
+  case ",$want," in *,targetCommitish,*) out="$out$sep\"targetCommitish\":\"$t\""; sep=, ;; esac
+  case ",$want," in *,assets,*) out="$out$sep\"assets\":$assets"; sep=, ;; esac
+  printf '{%s}\n' "$out"
 }
 
 if [ "$1" = "api" ]; then
@@ -126,17 +146,21 @@ case "$2" in
     # a stub that always supplies isDraft hides a production change to
     # `--json assets`: `.isDraft` would be null there and the script would
     # take the draft-and-upload path for a published release.
-    for want in isDraft assets; do
-      case "$*" in
-        *--json*"$want"*) : ;;
-        *) echo "release view without --json $want" >&2; exit 1 ;;
-      esac
-    done
+    # Real gh rejects a bare `--json` with a missing-argument error, so the
+    # stub does too. Accepting it would let an empty field list through and
+    # emit `{}`, which every downstream `jq` reads as null and no assertion
+    # would notice.
+    case "$*" in
+      *--json*) : ;;
+      *) echo "release view without --json" >&2; exit 1 ;;
+    esac
+    [ -n "$(value_of --json "$@")" ] ||
+      { echo "release view with an empty --json list" >&2; exit 1; }
     case "$state" in
       absent)         echo 'release not found' >&2; exit 1 ;;
-      draft|draft-partial) emit true ;;
-      published)      emit false ;;
-      published-bad)  emit false ;;
+      draft|draft-partial) emit true "$@" ;;
+      published)      emit false "$@" ;;
+      published-bad)  emit false "$@" ;;
       authfail)       echo 'HTTP 401: Bad credentials' >&2; exit 1 ;;
     esac ;;
   create)
@@ -152,11 +176,14 @@ case "$2" in
     [ -n "$target" ] || { echo "create without --target" >&2; exit 1; }
     [ "$target" = "$(cat "$WORK/head")" ] ||
       { echo "create targeted '$target', not HEAD" >&2; exit 1; }
-    # Creating a release CREATES ITS TAG. Leaving tagsha empty here left the
-    # post-create guards answering 404 for the whole run, so the stub taught
-    # the script that a missing tag after creation is normal -- the exact
-    # false success the strict guard exists to catch.
-    echo "$target" > "$WORK/tagsha"
+    # CREATING A DRAFT DOES NOT CREATE ITS TAG. GitHub mints the ref when the
+    # release is PUBLISHED; until then the draft has none, which is why its
+    # own URL reads .../releases/tag/untagged-<id> and the ref API answers
+    # 404. An earlier version of this stub wrote the tag here, and the script
+    # it proved could not survive one real run: every first publish died on a
+    # post-create tag assertion. What pins a draft to a commit is its
+    # targetCommitish, so that is what is recorded.
+    echo "$target" > "$WORK/target"
     echo draft > "$WORK/state" ;;
   upload)
     [ "$(flag --clobber "$@")" = on ] ||
@@ -172,8 +199,11 @@ case "$2" in
     [ "$latest" = on ] || { echo "edit without a usable --latest" >&2; exit 1; }
     case "$undraft" in
       false)
-        # `--draft=false --latest` publishes AND claims Latest.
+        # `--draft=false --latest` publishes AND claims Latest. Publishing is
+        # also the moment GitHub creates the tag, so the ref appears here and
+        # not at create time.
         echo published > "$WORK/state"
+        cat "$WORK/target" > "$WORK/tagsha"
         cat "$WORK/tag" > "$WORK/latest" ;;
       '')
         [ "$(cat "$WORK/state")" = published ] ||
@@ -211,11 +241,13 @@ run() { # sets $out and $rc
 }
 
 # $3 defaults to the real HEAD sha for every state that implies the release
-# already exists, because a release cannot exist without its tag. Leaving it
-# empty made the stub answer 404 to the ref lookup in those cases, so the
+# already exists: these fixtures model a pre-existing matching tag, which is
+# what a re-run of an already-published sha meets. Leaving it empty made the
+# stub answer 404 to the ref lookup in those cases, so the
 # tag-resolves-and-matches path -- the normal one on every re-run -- was
-# never executed by any test.
-reset() { # $1 = state, $2 = assets, $3 = tag sha, $4 = tag kind, $5 = Latest
+# never executed by any test. A draft reached through `create` is the other
+# shape, and case 5 covers it: the stub writes no tag there.
+reset() { # state, assets, tag sha, tag kind, Latest, draft target
   : > "$WORK/calls"
   echo "$1" > "$WORK/state"
   echo "${2:-good}" > "$WORK/assets"
@@ -226,6 +258,9 @@ reset() { # $1 = state, $2 = assets, $3 = tag sha, $4 = tag kind, $5 = Latest
   echo "${3-$default_sha}" > "$WORK/tagsha"
   echo "${4:-commit}" > "$WORK/tagkind"
   echo "${5-$TAG}" > "$WORK/latest"
+  # A release that already exists was created for HEAD; an absent one has no
+  # target until a create writes it. ${6-} lets a case aim a draft elsewhere.
+  echo "${6-$HEAD_SHA}" > "$WORK/target"
 }
 
 # grep -c prints 0 AND exits 1 when there is no match, so a `|| echo 0`
@@ -433,10 +468,13 @@ for probe in "upload $TAG all.jsonld --clobber=true" \
   check "stub accepts '${probe#* }'" "0" "$prc"
 done
 
-# --- 14. the tag is re-checked immediately before the release goes live ---
+# --- 14. the identity is re-checked immediately before it goes live ------
 # Everything between the first check and the publish is remote work on a
-# draft, and a draft's tag is not frozen. The stub moves the tag after the
-# upload, which is exactly that window.
+# draft, and a draft is not frozen. On the path this script takes there is no
+# tag yet, GitHub mints it at publish, so what changes under us here is the
+# target. The stub retargets the draft after the upload, which is that window.
+# The other half of the window, someone creating the tag itself mid-upload,
+# is what assert_tag_absent_or_ours covers immediately before the publish.
 reset draft partial
 cat > "$WORK/bin/gh" <<'STUB'
 #!/usr/bin/env bash
@@ -445,26 +483,26 @@ if [ "$1" = "api" ]; then
   case "$2" in
     */releases/latest) echo "$(cat "$WORK/latest")"; exit 0 ;;
   esac
-  # The first ref lookup answers honestly; every one after the upload
-  # reports the tag pointing somewhere else.
-  if grep -q upload "$WORK/calls"; then
-    echo "commit 0000000000000000000000000000000000000000"
-  else
-    echo "commit $(cat "$WORK/tagsha")"
-  fi
-  exit 0
+  echo 'HTTP 404: Not Found' >&2; exit 1   # a draft has no tag
 fi
 case "$2" in
-  view) printf '{"isDraft":true,"assets":[{"name":"all.jsonld","size":100,"state":"uploaded","digest":"%s"},{"name":"all.ttl","size":50,"state":"uploaded","digest":"%s"}]}\n' \
-          "$(cat "$WORK/dig_a")" "$(cat "$WORK/dig_b")" ;;
+  view)
+    # Honest until the upload; retargeted afterwards.
+    if grep -q upload "$WORK/calls"; then
+      t=0000000000000000000000000000000000000000
+    else
+      t="$(cat "$WORK/target")"
+    fi
+    printf '{"isDraft":true,"targetCommitish":"%s","assets":[{"name":"all.jsonld","size":100,"state":"uploaded","digest":"%s"},{"name":"all.ttl","size":50,"state":"uploaded","digest":"%s"}]}\n' \
+      "$t" "$(cat "$WORK/dig_a")" "$(cat "$WORK/dig_b")" ;;
   upload) : ;;
   edit)   echo published > "$WORK/state" ;;
 esac
 STUB
 chmod +x "$WORK/bin/gh"
 run
-check "tag moved under a draft fails"          "1" "$rc"
-check "tag moved under a draft never publishes" "0" "$(calls ' edit ')"
+check "draft retargeted under us fails"           "1" "$rc"
+check "draft retargeted under us never publishes" "0" "$(calls ' edit ')"
 cp "$WORK/bin/gh.orig" "$WORK/bin/gh"
 
 # --- 15. the release is read back after publishing --------------------
@@ -488,8 +526,8 @@ case "$2" in
     if grep -q ' edit ' "$WORK/calls"; then
       printf '{"isDraft":false,"assets":[{"name":"all.jsonld","size":100,"state":"uploaded","digest":"sha256:WRONG"},{"name":"all.ttl","size":50,"state":"uploaded","digest":"sha256:WRONG"}]}\n'
     else
-      printf '{"isDraft":true,"assets":[{"name":"all.jsonld","size":100,"state":"uploaded","digest":"%s"},{"name":"all.ttl","size":50,"state":"uploaded","digest":"%s"}]}\n' \
-        "$(cat "$WORK/dig_a")" "$(cat "$WORK/dig_b")"
+      printf '{"isDraft":true,"targetCommitish":"%s","assets":[{"name":"all.jsonld","size":100,"state":"uploaded","digest":"%s"},{"name":"all.ttl","size":50,"state":"uploaded","digest":"%s"}]}\n' \
+        "$(cat "$WORK/target")" "$(cat "$WORK/dig_a")" "$(cat "$WORK/dig_b")"
     fi ;;
   upload) : ;;
   edit)   : ;;
@@ -498,12 +536,20 @@ STUB
 chmod +x "$WORK/bin/gh"
 run
 check "assets swapped at publish time fails" "1" "$rc"
+# The point of this case is a POST-publication failure, so the publish has to
+# have happened. Without this the case passes just as well when the run dies
+# before the edit, which is how it read while the draft carried no target.
+check "assets swapped at publish time did publish" "1" "$(calls ' edit ')"
 cp "$WORK/bin/gh.orig" "$WORK/bin/gh"
 
-# --- 16. the tag is DELETED under the draft ---------------------------
-# Absence means opposite things on either side of the release existing. An
-# earlier version used one assertion for both positions and returned success
-# on absence everywhere, so this state published the release and exited 0.
+# --- 16. a draft whose view carries no target at all ---------------------
+# The tag-deleted-under-a-draft case this slot used to hold is not reachable
+# on this path: nothing has created the tag yet when the draft is built.
+# What CAN happen is the shape underneath it changing -- a `gh` release, a
+# `--json` field dropped in this script -- and `.targetCommitish` then reads
+# as null. That must fail LOUDLY rather than
+# compare null against the sha by accident and happen to be right. It is the
+# same discipline the stub already applies to `--json isDraft`.
 reset draft good
 cat > "$WORK/bin/gh" <<'STUB'
 #!/usr/bin/env bash
@@ -512,11 +558,7 @@ if [ "$1" = "api" ]; then
   case "$2" in
     */releases/latest) echo "$(cat "$WORK/latest")"; exit 0 ;;
   esac
-  # Present at the opening check, gone once the upload has happened.
-  if grep -q upload "$WORK/calls"; then
-    echo 'HTTP 404: Not Found' >&2; exit 1
-  fi
-  echo "commit $(cat "$WORK/tagsha")"; exit 0
+  echo 'HTTP 404: Not Found' >&2; exit 1
 fi
 case "$2" in
   view) printf '{"isDraft":true,"assets":[{"name":"all.jsonld","size":100,"state":"uploaded","digest":"%s"},{"name":"all.ttl","size":50,"state":"uploaded","digest":"%s"}]}\n' \
@@ -527,8 +569,17 @@ esac
 STUB
 chmod +x "$WORK/bin/gh"
 run
-check "tag deleted under a draft fails"           "1" "$rc"
-check "tag deleted under a draft never publishes" "0" "$(calls ' edit ')"
+check "draft with no target fails"           "1" "$rc"
+check "draft with no target never publishes" "0" "$(calls ' edit ')"
+# The message has to name the real problem. A bare `jq -r` renders the absent
+# key as "null" and the refusal then reads "targets null", which sends whoever
+# is holding the pager looking for a retarget that never happened.
+case "$out" in
+  *"carries no targetCommitish"*) said=missing-field ;;
+  *"targets null"*)               said=reads-as-retarget ;;
+  *)                              said="$out" ;;
+esac
+check "no-target failure names the missing field" "missing-field" "$said"
 cp "$WORK/bin/gh.orig" "$WORK/bin/gh"
 
 # --- 17. Latest does not stick after being claimed ---------------------
@@ -572,8 +623,8 @@ fi
 case "$2" in
   view)
     if grep -q ' edit ' "$WORK/calls"; then d=false; else d=true; fi
-    printf '{"isDraft":%s,"assets":[{"name":"all.jsonld","size":100,"state":"uploaded","digest":"%s"},{"name":"all.ttl","size":50,"state":"uploaded","digest":"%s"}]}\n' \
-      "$d" "$(cat "$WORK/dig_a")" "$(cat "$WORK/dig_b")" ;;
+    printf '{"isDraft":%s,"targetCommitish":"%s","assets":[{"name":"all.jsonld","size":100,"state":"uploaded","digest":"%s"},{"name":"all.ttl","size":50,"state":"uploaded","digest":"%s"}]}\n' \
+      "$d" "$(cat "$WORK/target")" "$(cat "$WORK/dig_a")" "$(cat "$WORK/dig_b")" ;;
   upload) : ;;
   edit)   : ;;
 esac
@@ -581,6 +632,7 @@ STUB
 chmod +x "$WORK/bin/gh"
 run
 check "a publish whose Latest claim does not stick fails" "1" "$rc"
+check "a publish whose Latest claim does not stick did publish" "1" "$(calls ' edit ')"
 cp "$WORK/bin/gh.orig" "$WORK/bin/gh"
 
 # --- 19. a PUBLISHED release whose tag was deleted ---------------------
@@ -593,6 +645,180 @@ run
 check "published release with no tag fails"          "1" "$rc"
 check "published release with no tag edits nothing"  "0" "$(calls ' edit ')"
 check "published release with no tag uploads nothing" "0" "$(calls upload)"
+
+# --- 19b. the tag is CREATED under the draft, mid-upload ------------------
+# The other half of the publish window, and the one the pre-publish
+# `assert_tag_absent_or_ours` exists for. A draft has no tag, but the NAME it
+# will claim is not reserved: another writer can create it, pointing
+# anywhere, while the upload runs. Publishing then binds this release to
+# someone else's ref. The stub answers 404 until the upload and a DIFFERENT
+# sha afterwards, which is exactly that.
+reset draft partial
+cat > "$WORK/bin/gh" <<'STUB'
+#!/usr/bin/env bash
+echo "$*" >> "$WORK/calls"
+if [ "$1" = "api" ]; then
+  case "$2" in
+    */releases/latest) echo "$(cat "$WORK/latest")"; exit 0 ;;
+  esac
+  if grep -q upload "$WORK/calls"; then
+    echo "commit 0000000000000000000000000000000000000000"; exit 0
+  fi
+  echo 'HTTP 404: Not Found' >&2; exit 1
+fi
+case "$2" in
+  view) printf '{"isDraft":true,"targetCommitish":"%s","assets":[{"name":"all.jsonld","size":100,"state":"uploaded","digest":"%s"},{"name":"all.ttl","size":50,"state":"uploaded","digest":"%s"}]}\n' \
+          "$(cat "$WORK/target")" "$(cat "$WORK/dig_a")" "$(cat "$WORK/dig_b")" ;;
+  upload) : ;;
+  edit)   echo published > "$WORK/state" ;;
+esac
+STUB
+chmod +x "$WORK/bin/gh"
+run
+check "a tag created mid-upload fails"           "1" "$rc"
+check "a tag created mid-upload never publishes" "0" "$(calls ' edit ')"
+cp "$WORK/bin/gh.orig" "$WORK/bin/gh"
+
+# --- 19c. the release is created and then cannot be read back -------------
+# `create` succeeds, the read-back after it fails. The release certainly
+# exists at that point, so this is a fault rather than absence, and it has to
+# say so and stop before anything is uploaded.
+reset absent good
+cat > "$WORK/bin/gh" <<'STUB'
+#!/usr/bin/env bash
+echo "$*" >> "$WORK/calls"
+if [ "$1" = "api" ]; then echo 'HTTP 404: Not Found' >&2; exit 1; fi
+case "$2" in
+  view)
+    if [ -f "$WORK/made" ]; then
+      printf 'upstream broke\nsecond line\n' >&2; exit 1
+    fi
+    echo 'release not found' >&2; exit 1 ;;
+  create) : > "$WORK/made"; echo made ;;
+  upload) : ;;
+  edit)   : ;;
+esac
+STUB
+chmod +x "$WORK/bin/gh"
+run
+check "a failed read-back after create fails"      "1" "$rc"
+check "a failed read-back uploads nothing"         "0" "$(calls upload)"
+check "a failed read-back publishes nothing"       "0" "$(calls ' edit ')"
+case "$out" in
+  *"could not read "*" back: upstream broke second line"*) said=one-line ;;
+  *) said="$out" ;;
+esac
+check "a failed read-back says so in one line" "one-line" "$said"
+cp "$WORK/bin/gh.orig" "$WORK/bin/gh"
+
+# --- 19d. isDraft is missing from the payload -----------------------------
+# `jq -r` renders an absent key as "null", and "null" is not "false", so
+# without the guard the script reads a possibly-PUBLISHED release as a draft
+# and takes the upload-and-clobber path against it.
+reset draft good
+cat > "$WORK/bin/gh" <<'STUB'
+#!/usr/bin/env bash
+echo "$*" >> "$WORK/calls"
+if [ "$1" = "api" ]; then
+  case "$2" in
+    */releases/latest) echo "$(cat "$WORK/latest")"; exit 0 ;;
+  esac
+  echo "commit $(cat "$WORK/tagsha")"; exit 0
+fi
+case "$2" in
+  view) printf '{"targetCommitish":"%s","assets":[{"name":"all.jsonld","size":100,"state":"uploaded","digest":"%s"},{"name":"all.ttl","size":50,"state":"uploaded","digest":"%s"}]}\n' \
+          "$(cat "$WORK/target")" "$(cat "$WORK/dig_a")" "$(cat "$WORK/dig_b")" ;;
+  upload) : ;;
+  edit)   : ;;
+esac
+STUB
+chmod +x "$WORK/bin/gh"
+run
+check "a missing isDraft fails"           "1" "$rc"
+check "a missing isDraft uploads nothing" "0" "$(calls upload)"
+check "a missing isDraft publishes nothing" "0" "$(calls ' edit ')"
+cp "$WORK/bin/gh.orig" "$WORK/bin/gh"
+
+# --- 19e. the read after UPLOAD fails ------------------------------------
+# and 19f, the read after PUBLISH. Every read past the first one is of a
+# release known to exist, so each must annotate and stop rather than abort
+# bare. These two were the last bare ones in the file.
+reset draft good
+cat > "$WORK/bin/gh" <<'STUB'
+#!/usr/bin/env bash
+echo "$*" >> "$WORK/calls"
+if [ "$1" = "api" ]; then
+  case "$2" in
+    */releases/latest) echo "$(cat "$WORK/latest")"; exit 0 ;;
+  esac
+  echo "commit $(cat "$WORK/tagsha")"; exit 0
+fi
+case "$2" in
+  view)
+    if grep -q upload "$WORK/calls"; then printf 'upload read broke\n' >&2; exit 1; fi
+    printf '{"isDraft":true,"targetCommitish":"%s","assets":[{"name":"all.jsonld","size":100,"state":"uploaded","digest":"%s"},{"name":"all.ttl","size":50,"state":"uploaded","digest":"%s"}]}\n' \
+      "$(cat "$WORK/target")" "$(cat "$WORK/dig_a")" "$(cat "$WORK/dig_b")" ;;
+  upload) : ;;
+  edit)   : ;;
+esac
+STUB
+chmod +x "$WORK/bin/gh"
+run
+check "a failed read after upload fails"        "1" "$rc"
+check "a failed read after upload never publishes" "0" "$(calls ' edit ')"
+case "$out" in
+  *"uploaded to "*"could not read "*"upload read broke"*) said=named ;;
+  *) said="$out" ;;
+esac
+check "a failed read after upload names the step" "named" "$said"
+cp "$WORK/bin/gh.orig" "$WORK/bin/gh"
+
+reset draft good
+cat > "$WORK/bin/gh" <<'STUB'
+#!/usr/bin/env bash
+echo "$*" >> "$WORK/calls"
+if [ "$1" = "api" ]; then
+  case "$2" in
+    */releases/latest) echo "$(cat "$WORK/latest")"; exit 0 ;;
+  esac
+  echo "commit $(cat "$WORK/tagsha")"; exit 0
+fi
+case "$2" in
+  view)
+    if grep -q ' edit ' "$WORK/calls"; then printf 'publish read broke\n' >&2; exit 1; fi
+    printf '{"isDraft":true,"targetCommitish":"%s","assets":[{"name":"all.jsonld","size":100,"state":"uploaded","digest":"%s"},{"name":"all.ttl","size":50,"state":"uploaded","digest":"%s"}]}\n' \
+      "$(cat "$WORK/target")" "$(cat "$WORK/dig_a")" "$(cat "$WORK/dig_b")" ;;
+  upload) : ;;
+  edit)   : ;;
+esac
+STUB
+chmod +x "$WORK/bin/gh"
+run
+check "a failed read after publish fails" "1" "$rc"
+case "$out" in
+  *"published "*"could not read "*"publish read broke"*) said=named ;;
+  *) said="$out" ;;
+esac
+check "a failed read after publish names the step" "named" "$said"
+cp "$WORK/bin/gh.orig" "$WORK/bin/gh"
+
+# --- 20. the annotation normaliser, directly ------------------------------
+# Sourced from the shipped file rather than copied, so this cannot pass
+# against a stale duplicate. `::error::` is line-oriented AND percent-decoded
+# by the runner, so both halves have to hold: one line out, and no sequence
+# that the runner will turn back into a newline.
+# shellcheck disable=SC1090
+. <(sed -n '/^oneline() {/,/^}/p' "$SCRIPT")
+
+check "oneline: newline and CR both squashed" "a b c" "$(oneline "$(printf 'a\nb\rc')")"
+check "oneline: literal %0A cannot become a newline" \
+  "error at %250A line two" "$(oneline 'error at %0A line two')"
+check "oneline: a bare percent survives decoding" \
+  "failed 100%25 of the time" "$(oneline 'failed 100% of the time')"
+check "oneline: empty stays empty" "" "$(oneline '')"
+check "oneline: quotes and backslashes are untouched" \
+  "it's a \\ backslash" "$(oneline "it's a \\ backslash")"
+check "oneline: trailing space is stripped" "done" "$(oneline 'done   ')"
 
 printf '\npublish_aggregates_test: %d passed, %d failed\n' "$PASS" "$FAIL"
 [ "$FAIL" -eq 0 ]
