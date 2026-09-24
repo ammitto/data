@@ -1,0 +1,53 @@
+{
+  "@id": "https://www.ammitto.org/entry/au/consolidated-list/8897",
+  "@type": "SanctionEntry",
+  "entityId": "https://www.ammitto.org/entity/au/8897",
+  "authority": {
+    "@id": "https://www.ammitto.org/authority/au"
+  },
+  "regime": {
+    "@id": "https://www.ammitto.org/regime/au_russia",
+    "name": "Russia"
+  },
+  "legalBases": [
+    {
+      "@id": "https://www.ammitto.org/legal-instrument/au/autonomous-sanctions-designated-persons-and-entities-and-declared-persons-russia-and-ukraine-amendment-no.-2-instrument-2026"
+    }
+  ],
+  "effects": [
+    {
+      "@type": "SanctionEffect",
+      "effectType": "asset_freeze",
+      "scope": "full"
+    },
+    {
+      "@type": "SanctionEffect",
+      "effectType": "travel_ban",
+      "scope": "full"
+    }
+  ],
+  "reasons": [
+
+  ],
+  "period": {
+    "@type": "TemporalPeriod",
+    "isIndefinite": true
+  },
+  "status": "active",
+  "statusHistory": [
+
+  ],
+  "referenceNumber": "8897",
+  "rawSourceData": {
+    "@type": "RawSourceData",
+    "sourceFormat": "csv",
+    "sourceSpecificFields": {
+      "au:reference": "8897",
+      "au:committees": "Autonomous (Russia)",
+      "au:control_date": "2026-09-24",
+      "au:instrument": "Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 2) Instrument 2026",
+      "au:listing_info": "Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Russia and Ukraine) Amendment (No. 2) Instrument 2026"
+    }
+  },
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
+}
