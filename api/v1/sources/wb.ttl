@@ -28055,11 +28055,11 @@
   ammitto:hasAuthority <https://www.ammitto.org/authority/wb> ;
   ammitto:hasRegime <https://www.ammitto.org/regime/debarment> ;
   ammitto:hasEffect [ a ammitto:SanctionEffect ; ammitto:effectType "debarment" ; ammitto:scope "full" ; schema:description "Excluded from World Bank-financed contracts" ] ;
-  ammitto:hasPeriod [ a ammitto:TemporalPeriod ; ammitto:effectiveDate "2025-10-01"^^xsd:date ; ammitto:expiryDate "2026-09-30"^^xsd:date ; ammitto:isIndefinite "false"^^xsd:boolean ] ;
+  ammitto:hasPeriod [ a ammitto:TemporalPeriod ; ammitto:effectiveDate "2025-10-01"^^xsd:date ; ammitto:expiryDate "2999-12-31"^^xsd:date ; ammitto:isIndefinite "false"^^xsd:boolean ] ;
   ammitto:status "active" ;
   ammitto:referenceNumber "991484" ;
   ammitto:remarks "Obstructive Practice" ;
-  ammitto:rawSourceData [ a ammitto:RawSourceData ; ammitto:sourceFormat "json" ; ammitto:sourceSpecificFields """{"wb:suppTypeCode":"F","wb:debarType":"O","wb:debarTypeDesc":null,"wb:suppPreAcrn":null,"wb:suppPostAcrn":null,"wb:legacyFlag":"N","wb:unSuppFlag":"N","wb:ineligFlag":"D","wb:crossDebarment":"N","wb:crossDebarmentStatus":"CLEARED","wb:eligStatus":"DEBARRED","wb:suppEligStat":"DEBARRED","wb:ineligiblyStatus":null}""" ] .
+  ammitto:rawSourceData [ a ammitto:RawSourceData ; ammitto:sourceFormat "json" ; ammitto:sourceSpecificFields """{"wb:suppTypeCode":"F","wb:debarType":"O","wb:debarTypeDesc":null,"wb:suppPreAcrn":null,"wb:suppPostAcrn":null,"wb:legacyFlag":"N","wb:unSuppFlag":"N","wb:ineligFlag":"D","wb:crossDebarment":"N","wb:crossDebarmentStatus":"CLEARED","wb:eligStatus":"DEBARRED","wb:suppEligStat":"DEBARRED","wb:ineligiblyStatus":"Ongoing"}""" ] .
 <https://www.ammitto.org/entity/wb/991674>
   a ammitto:OrganizationEntity ;
   ammitto:entityType "organization" ;
