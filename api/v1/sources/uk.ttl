@@ -4993,8 +4993,8 @@
   ammitto:hasSanctionEntry <https://www.ammitto.org/entry/uk/consolidated-list/aqd0084> ;
   ammitto:remarks "Headquarters was in Kandahar, Afghanistan as at 2001. Wafa was a component of Al-Qaida (QDe.004) in 2001. Review pursuant to Security Council resolution 1822 (2008) was concluded on 21 Jun. 2010. Review pursuant to Security Council resolution 2368 (2017) was concluded on 4 Dec. 2019. INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Entities." ;
   ammitto:addresses [ a ammitto:Address ; ammitto:street "" ; ammitto:country "United Arab Emirates" ] ;
-  ammitto:addresses [ a ammitto:Address ; ammitto:street "" ; ammitto:country "Kuwait" ] ;
-  ammitto:addresses [ a ammitto:Address ; ammitto:street "" ; ammitto:country "Afghanistan" ] .
+  ammitto:addresses [ a ammitto:Address ; ammitto:street "" ; ammitto:country "Afghanistan" ] ;
+  ammitto:addresses [ a ammitto:Address ; ammitto:street "" ; ammitto:country "Kuwait" ] .
 <https://www.ammitto.org/entry/uk/consolidated-list/aqd0084>
   a ammitto:SanctionEntry ;
   ammitto:entityId <https://www.ammitto.org/entity/uk/aqd0084> ;
@@ -5873,8 +5873,8 @@
   ammitto:hasSanctionEntry <https://www.ammitto.org/entry/uk/consolidated-list/aqd0120> ;
   ammitto:remarks "Associated with the Islamic Jihad Union (IJU), also known as the Islamic Jihad Group (QDe.119).Deported from Germany to Türkiye in February 2019. Ongoing judicial process as of November 2023. Photo available for inclusion \nin the INTERPOL-UN Security Council Special Notice. Review pursuant to Security Council resolution 2368 (2017) was concluded on 4 Dec. 2019. INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals. In prison since Sep. 2007." ;
   ammitto:addresses [ a ammitto:Address ; ammitto:street "" ; ammitto:country "Germany" ] ;
-  ammitto:addresses [ a ammitto:Address ; ammitto:street "Südliche Ringstrasse 133" ; ammitto:state "Langen" ; ammitto:country "Germany" ] ;
   ammitto:addresses [ a ammitto:Address ; ammitto:street "Ash Sokak no 24/5, Atalar Mahallesi" ; ammitto:state "İstanbul" ; ammitto:country "Turkey" ] ;
+  ammitto:addresses [ a ammitto:Address ; ammitto:street "Südliche Ringstrasse 133" ; ammitto:state "Langen" ; ammitto:country "Germany" ] ;
   ammitto:addresses [ a ammitto:Address ; ammitto:street "Ash Street 24/5, Atalar Neighbourhood" ; ammitto:city "Kartal" ; ammitto:state "Istanbul" ; ammitto:country "Turkey" ] .
 <https://www.ammitto.org/entry/uk/consolidated-list/aqd0120>
   a ammitto:SanctionEntry ;
@@ -11627,10 +11627,13 @@
 <https://www.ammitto.org/entity/uk/aqd0377>
   a ammitto:OrganizationEntity ;
   ammitto:entityType "organization" ;
-  ammitto:hasName [ a ammitto:NameVariant ; ammitto:fullName "Khatiba al-Tawhid wal-Jihad (KTJ)" ; ammitto:script "Latn" ; ammitto:isPrimary "true"^^xsd:boolean ] ;
+  ammitto:hasName [ a ammitto:NameVariant ; ammitto:fullName "Khatiba Jama'at al-Tawhid wal-Jihad (KTJ)" ; ammitto:script "Latn" ; ammitto:isPrimary "true"^^xsd:boolean ] ;
   ammitto:hasName [ a ammitto:NameVariant ; ammitto:fullName "Jama'at al-Tawhid wal-Jihad" ; ammitto:script "Latn" ; ammitto:isPrimary "false"^^xsd:boolean ] ;
   ammitto:hasName [ a ammitto:NameVariant ; ammitto:fullName "Jannat Oshiklari " ; ammitto:script "Latn" ; ammitto:isPrimary "false"^^xsd:boolean ] ;
-  ammitto:hasName [ a ammitto:NameVariant ; ammitto:fullName "Катиба ат-Таухид валь-Джихад" ; ammitto:script "Cyrl" ; ammitto:isPrimary "false"^^xsd:boolean ] ;
+  ammitto:hasName [ a ammitto:NameVariant ; ammitto:fullName "Katiba al-Tawhid wal-Jihad" ; ammitto:script "Latn" ; ammitto:isPrimary "false"^^xsd:boolean ] ;
+  ammitto:hasName [ a ammitto:NameVariant ; ammitto:fullName "Катиба Джамаат ат-Таухид валь-Джихад" ; ammitto:script "Cyrl" ; ammitto:isPrimary "false"^^xsd:boolean ] ;
+  ammitto:hasName [ a ammitto:NameVariant ; ammitto:fullName "جماعة التوحيد والجهاد" ; ammitto:script "Arab" ; ammitto:isPrimary "false"^^xsd:boolean ] ;
+  ammitto:hasName [ a ammitto:NameVariant ; ammitto:fullName "كتيبة التوحيد والجهاد" ; ammitto:script "Arab" ; ammitto:isPrimary "false"^^xsd:boolean ] ;
   ammitto:hasSanctionEntry <https://www.ammitto.org/entry/uk/consolidated-list/aqd0377> ;
   ammitto:remarks "Khatiba al-Tawhid wal-Jihad (formerly known as Jannat Oshiklari) is a terrorist organization operating under the umbrella of the international terrorist organization Al-Nusrah Front for the People of the Levant (QDe.137). The group mainly operates in the provinces of Hama, Idlib and Ladhiqiyah, in the Syrian Arab Republic, and also conduct operations in Turkey, Kyrgyzstan, Uzbekistan, Russian Federation, Tajikistan, Kazakhstan, Egypt, Afghanistan, Ukraine. The number of fighters of KTJ is about 500. KTJ also cooperates with such terrorist organizations as Khatiba Imam al-Bukhari (QDe.158) and the Islamic Jihad Group (QDe.119)." .
 <https://www.ammitto.org/entry/uk/consolidated-list/aqd0377>
@@ -11640,7 +11643,7 @@
   ammitto:hasRegime <https://www.ammitto.org/regime/isil_da_esh_and_al_qaeda_united_nations_sanctions_eu_exit_regula> ;
   ammitto:hasEffect [ a ammitto:SanctionEffect ; ammitto:effectType "asset_freeze" ; ammitto:scope "full" ] ;
   ammitto:hasEffect [ a ammitto:SanctionEffect ; ammitto:effectType "arms_embargo" ; ammitto:scope "full" ] ;
-  ammitto:hasPeriod [ a ammitto:TemporalPeriod ; ammitto:listedDate "2022-03-07"^^xsd:date ; ammitto:effectiveDate "2022-03-07"^^xsd:date ; ammitto:isIndefinite "true"^^xsd:boolean ; ammitto:lastUpdated "2022-03-08"^^xsd:date ] ;
+  ammitto:hasPeriod [ a ammitto:TemporalPeriod ; ammitto:listedDate "2022-03-07"^^xsd:date ; ammitto:effectiveDate "2022-03-07"^^xsd:date ; ammitto:isIndefinite "true"^^xsd:boolean ; ammitto:lastUpdated "2026-09-29"^^xsd:date ] ;
   ammitto:status "active" ;
   ammitto:referenceNumber "AQD0377" ;
   ammitto:remarks "\n" ;
@@ -15951,8 +15954,8 @@
   ammitto:hasName [ a ammitto:NameVariant ; ammitto:fullName "Younous" ; ammitto:firstName "Oumar" ; ammitto:script "Latn" ; ammitto:isPrimary "false"^^xsd:boolean ] ;
   ammitto:hasSanctionEntry <https://www.ammitto.org/entry/uk/consolidated-list/caf0007> ;
   ammitto:remarks "Is a diamond smuggler and a three-star general of the Séléka and close confident of former CAR interim president Michel Djotodia. Physical description: hair colour: black; height: 180cm; belongs to the Fulani ethnic group. Photo available for inclusion in the INTERPOL-UN Security Council Special Notice. Reportedly deceased as at 11 October 2015 INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals click here" ;
-  ammitto:addresses [ a ammitto:Address ; ammitto:street "" ; ammitto:city "Tullus" ; ammitto:state "Southern Darfur" ; ammitto:country "Sudan" ] ;
   ammitto:addresses [ a ammitto:Address ; ammitto:street "" ; ammitto:state "Birao" ; ammitto:country "Central African Republic" ] ;
+  ammitto:addresses [ a ammitto:Address ; ammitto:street "" ; ammitto:city "Tullus" ; ammitto:state "Southern Darfur" ; ammitto:country "Sudan" ] ;
   ammitto:addresses [ a ammitto:Address ; ammitto:street "" ; ammitto:state "Bria" ; ammitto:country "Central African Republic" ] .
 <https://www.ammitto.org/entry/uk/consolidated-list/caf0007>
   a ammitto:SanctionEntry ;
@@ -22683,8 +22686,8 @@
   ammitto:remarks "The Director Disqualification Sanction was imposed on 09/04/2025." ;
   ammitto:addresses [ a ammitto:Address ; ammitto:street "" ; ammitto:country "North Korea" ] ;
   ammitto:addresses [ a ammitto:Address ; ammitto:street "" ; ammitto:city "Beijing" ; ammitto:country "China" ] ;
-  ammitto:addresses [ a ammitto:Address ; ammitto:street "" ; ammitto:city "Dandong" ; ammitto:country "China" ] ;
-  ammitto:addresses [ a ammitto:Address ; ammitto:street "" ; ammitto:city "Yinkou" ; ammitto:country "China" ] .
+  ammitto:addresses [ a ammitto:Address ; ammitto:street "" ; ammitto:city "Yinkou" ; ammitto:country "China" ] ;
+  ammitto:addresses [ a ammitto:Address ; ammitto:street "" ; ammitto:city "Dandong" ; ammitto:country "China" ] .
 <https://www.ammitto.org/entry/uk/consolidated-list/dpr0065>
   a ammitto:SanctionEntry ;
   ammitto:entityId <https://www.ammitto.org/entity/uk/dpr0065> ;
@@ -23595,8 +23598,8 @@
   ammitto:hasName [ a ammitto:NameVariant ; ammitto:fullName "Taedong Credit Bank" ; ammitto:script "Latn" ; ammitto:isPrimary "false"^^xsd:boolean ] ;
   ammitto:hasSanctionEntry <https://www.ammitto.org/entry/uk/consolidated-list/dpr0131> ;
   ammitto:remarks "SWIFT: DCBKKPPY. Daedong Credit Bank has provided financial services to the Korea Mining Development Trading Corporation (KOMID) and Tanchon Commercial Bank. Since at least 2007, DCB has facilitated hundreds of financial transactions worth millions of dollars on behalf of KOMID and Tanchon Commercial Bank. In some cases, DCB has knowingly facilitated transactions by using deceptive financial practices." ;
-  ammitto:addresses [ a ammitto:Address ; ammitto:street "Ansan-dong, Botonggang Hotel" ; ammitto:city "Pongchon" ; ammitto:state "Pyongyang" ; ammitto:country "North Korea" ] ;
-  ammitto:addresses [ a ammitto:Address ; ammitto:street "Suite 401, Potonggang Hotel, Ansan-Dong" ; ammitto:city "Pyongchon District" ; ammitto:state "Pyongyang" ; ammitto:country "North Korea" ] .
+  ammitto:addresses [ a ammitto:Address ; ammitto:street "Suite 401, Potonggang Hotel, Ansan-Dong" ; ammitto:city "Pyongchon District" ; ammitto:state "Pyongyang" ; ammitto:country "North Korea" ] ;
+  ammitto:addresses [ a ammitto:Address ; ammitto:street "Ansan-dong, Botonggang Hotel" ; ammitto:city "Pongchon" ; ammitto:state "Pyongyang" ; ammitto:country "North Korea" ] .
 <https://www.ammitto.org/entry/uk/consolidated-list/dpr0131>
   a ammitto:SanctionEntry ;
   ammitto:entityId <https://www.ammitto.org/entity/uk/dpr0131> ;
@@ -24029,9 +24032,9 @@
   ammitto:hasName [ a ammitto:NameVariant ; ammitto:fullName "International Chemical Joint Venture Company" ; ammitto:script "Latn" ; ammitto:isPrimary "false"^^xsd:boolean ] ;
   ammitto:hasSanctionEntry <https://www.ammitto.org/entry/uk/consolidated-list/dpr0152> ;
   ammitto:remarks "Korea International Chemical Joint Venture Company is a subsidiary of Korea Ryonbong General Corporation – DPRK’s defense conglomerate specializing in acquisition for DPRK defense industries and support to Pyongyang’s military related sales – and has engaged in proliferation-related transactions." ;
-  ammitto:addresses [ a ammitto:Address ; ammitto:street "" ; ammitto:city "Mangyungdae-gu" ; ammitto:state "Pyongyang" ; ammitto:country "North Korea" ] ;
   ammitto:addresses [ a ammitto:Address ; ammitto:street "" ; ammitto:city "Hamhung" ; ammitto:state "South Hamgyong Province" ; ammitto:country "North Korea" ] ;
-  ammitto:addresses [ a ammitto:Address ; ammitto:street "" ; ammitto:city "Man gyongdae-kuyok" ; ammitto:state "Pyongyang" ; ammitto:country "North Korea" ] .
+  ammitto:addresses [ a ammitto:Address ; ammitto:street "" ; ammitto:city "Man gyongdae-kuyok" ; ammitto:state "Pyongyang" ; ammitto:country "North Korea" ] ;
+  ammitto:addresses [ a ammitto:Address ; ammitto:street "" ; ammitto:city "Mangyungdae-gu" ; ammitto:state "Pyongyang" ; ammitto:country "North Korea" ] .
 <https://www.ammitto.org/entry/uk/consolidated-list/dpr0152>
   a ammitto:SanctionEntry ;
   ammitto:entityId <https://www.ammitto.org/entity/uk/dpr0152> ;
@@ -24223,8 +24226,8 @@
   ammitto:hasSanctionEntry <https://www.ammitto.org/entry/uk/consolidated-list/dpr0161> ;
   ammitto:remarks "Korea Ryonbong General Corporation is the parent company of Korea Ryonha Machinery Joint Venture Corporation. Korea Ryonbong General Corporation was designated by the Committee in April 2009 and is a defense conglomerate specializing in acquisition for DPRK defense industries and support to that country's military-related sales. Facsimile number: 850-2-381-4410" ;
   ammitto:addresses [ a ammitto:Address ; ammitto:street "" ; ammitto:city "Mangungdae-gu" ; ammitto:state "Pyongyang" ; ammitto:country "North Korea" ] ;
-  ammitto:addresses [ a ammitto:Address ; ammitto:street "" ; ammitto:city "Mangyongdae District" ; ammitto:state "Pyongyang" ; ammitto:country "North Korea" ] ;
-  ammitto:addresses [ a ammitto:Address ; ammitto:street "Tongan-dong" ; ammitto:city "Central District" ; ammitto:state "Pyongyang" ; ammitto:country "North Korea" ] .
+  ammitto:addresses [ a ammitto:Address ; ammitto:street "Tongan-dong" ; ammitto:city "Central District" ; ammitto:state "Pyongyang" ; ammitto:country "North Korea" ] ;
+  ammitto:addresses [ a ammitto:Address ; ammitto:street "" ; ammitto:city "Mangyongdae District" ; ammitto:state "Pyongyang" ; ammitto:country "North Korea" ] .
 <https://www.ammitto.org/entry/uk/consolidated-list/dpr0161>
   a ammitto:SanctionEntry ;
   ammitto:entityId <https://www.ammitto.org/entity/uk/dpr0161> ;
@@ -24672,8 +24675,8 @@
   ammitto:hasSanctionEntry <https://www.ammitto.org/entry/uk/consolidated-list/dpr0182> ;
   ammitto:remarks "DPRK government entity" ;
   ammitto:addresses [ a ammitto:Address ; ammitto:street "Changwang Street,, Pyongyang," ; ammitto:city "Democratic People’s Republic of Korea" ] ;
-  ammitto:addresses [ a ammitto:Address ; ammitto:street "Second KWP Government Building (Korean – Ch’o’ngsa, Urban Town (Korean-Dong),, Chung Ward,, Pyongyang,, Democratic People's Republic of Korea" ] ;
-  ammitto:addresses [ a ammitto:Address ; ammitto:street "Chung-Guyok (Central District),, Sosong Street,, Kyongrim-Dong,, Pyongyang," ; ammitto:city "Democratic People’s Republic of Korea" ] .
+  ammitto:addresses [ a ammitto:Address ; ammitto:street "Chung-Guyok (Central District),, Sosong Street,, Kyongrim-Dong,, Pyongyang," ; ammitto:city "Democratic People’s Republic of Korea" ] ;
+  ammitto:addresses [ a ammitto:Address ; ammitto:street "Second KWP Government Building (Korean – Ch’o’ngsa, Urban Town (Korean-Dong),, Chung Ward,, Pyongyang,, Democratic People's Republic of Korea" ] .
 <https://www.ammitto.org/entry/uk/consolidated-list/dpr0182>
   a ammitto:SanctionEntry ;
   ammitto:entityId <https://www.ammitto.org/entity/uk/dpr0182> ;
@@ -26974,8 +26977,8 @@
   ammitto:hasSanctionEntry <https://www.ammitto.org/entry/uk/consolidated-list/drc0017> ;
   ammitto:remarks "As of December 2008, GLBC no longer had any operational aircraft, although several aircraft continued flying in 2008 despite UN sanctions. INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/notice/search/une/5278381" ;
   ammitto:addresses [ a ammitto:Address ; ammitto:street "" ; ammitto:state "Gisenyi" ; ammitto:country "Rwanda" ] ;
-  ammitto:addresses [ a ammitto:Address ; ammitto:street "Avenue President Mobutu" ; ammitto:state "Goma" ; ammitto:country "Congo (Democratic Republic)" ] ;
-  ammitto:addresses [ a ammitto:Address ; ammitto:street "PO BOX 315" ; ammitto:state "Goma" ; ammitto:country "Congo (Democratic Republic)" ] .
+  ammitto:addresses [ a ammitto:Address ; ammitto:street "PO BOX 315" ; ammitto:state "Goma" ; ammitto:country "Congo (Democratic Republic)" ] ;
+  ammitto:addresses [ a ammitto:Address ; ammitto:street "Avenue President Mobutu" ; ammitto:state "Goma" ; ammitto:country "Congo (Democratic Republic)" ] .
 <https://www.ammitto.org/entry/uk/consolidated-list/drc0017>
   a ammitto:SanctionEntry ;
   ammitto:entityId <https://www.ammitto.org/entity/uk/drc0017> ;
@@ -35934,10 +35937,10 @@
   ammitto:hasName [ a ammitto:NameVariant ; ammitto:fullName "Offshore Industries Group" ; ammitto:script "Latn" ; ammitto:isPrimary "false"^^xsd:boolean ] ;
   ammitto:hasSanctionEntry <https://www.ammitto.org/entry/uk/consolidated-list/inu0037> ;
   ammitto:remarks "The Director Disqualification Sanction was imposed on 09/04/2025." ;
-  ammitto:addresses [ a ammitto:Address ; ammitto:street "44 Sharif St., Hoveyzeh, Korramshahr, North Sohrevardi Ave" ] ;
   ammitto:addresses [ a ammitto:Address ; ammitto:street "P.O. Box 19585 348" ; ammitto:state "Tehran" ; ammitto:country "Iran" ] ;
   ammitto:addresses [ a ammitto:Address ; ammitto:street "P.O. Box 19585/777" ; ammitto:state "Tehran" ] ;
-  ammitto:addresses [ a ammitto:Address ; ammitto:street "Pasdaran Avenue." ; ammitto:state "Tehran" ; ammitto:country "Iran" ] .
+  ammitto:addresses [ a ammitto:Address ; ammitto:street "Pasdaran Avenue." ; ammitto:state "Tehran" ; ammitto:country "Iran" ] ;
+  ammitto:addresses [ a ammitto:Address ; ammitto:street "44 Sharif St., Hoveyzeh, Korramshahr, North Sohrevardi Ave" ] .
 <https://www.ammitto.org/entry/uk/consolidated-list/inu0037>
   a ammitto:SanctionEntry ;
   ammitto:entityId <https://www.ammitto.org/entity/uk/inu0037> ;
@@ -36088,8 +36091,8 @@
   ammitto:addresses [ a ammitto:Address ; ammitto:street "Ayatollah Mirzay e Shiraz Blvd., Ghasr Aldasht St." ; ammitto:state "Shiraz" ; ammitto:country "Iran" ] ;
   ammitto:addresses [ a ammitto:Address ; ammitto:street "Hossain Abad Road," ; ammitto:state "Shiraz" ; ammitto:country "Iran" ] ;
   ammitto:addresses [ a ammitto:Address ; ammitto:street "Mirzaie Shirazi, Fars, 71365 1589" ; ammitto:state "Shiraz" ; ammitto:country "Iran" ] ;
-  ammitto:addresses [ a ammitto:Address ; ammitto:street "Mirzaye Shirazi Blv." ; ammitto:state "Shiraz" ; ammitto:country "Iran" ] ;
-  ammitto:addresses [ a ammitto:Address ; ammitto:street "P.O. Box 71365 1589" ; ammitto:state "Shiraz" ; ammitto:country "Iran" ] .
+  ammitto:addresses [ a ammitto:Address ; ammitto:street "P.O. Box 71365 1589" ; ammitto:state "Shiraz" ; ammitto:country "Iran" ] ;
+  ammitto:addresses [ a ammitto:Address ; ammitto:street "Mirzaye Shirazi Blv." ; ammitto:state "Shiraz" ; ammitto:country "Iran" ] .
 <https://www.ammitto.org/entry/uk/consolidated-list/inu0043>
   a ammitto:SanctionEntry ;
   ammitto:entityId <https://www.ammitto.org/entity/uk/inu0043> ;
@@ -36177,8 +36180,8 @@
   ammitto:hasName [ a ammitto:NameVariant ; ammitto:fullName "Aluminat Productions and Industrial Company" ; ammitto:script "Latn" ; ammitto:isPrimary "false"^^xsd:boolean ] ;
   ammitto:hasSanctionEntry <https://www.ammitto.org/entry/uk/consolidated-list/inu0047> ;
   ammitto:remarks "The Director Disqualification Sanction was imposed on 09/04/2025." ;
-  ammitto:addresses [ a ammitto:Address ; ammitto:street "Unit 38, 5th Fl, Bldg No 60, Golfam St" ; ammitto:city "Jordan" ; ammitto:state "Tehran" ; ammitto:country "Iran" ] ;
-  ammitto:addresses [ a ammitto:Address ; ammitto:street "Parcham St, 13th Km of Qom Rd" ; ammitto:state "Arak" ; ammitto:country "Iran" ] .
+  ammitto:addresses [ a ammitto:Address ; ammitto:street "Parcham St, 13th Km of Qom Rd" ; ammitto:state "Arak" ; ammitto:country "Iran" ] ;
+  ammitto:addresses [ a ammitto:Address ; ammitto:street "Unit 38, 5th Fl, Bldg No 60, Golfam St" ; ammitto:city "Jordan" ; ammitto:state "Tehran" ; ammitto:country "Iran" ] .
 <https://www.ammitto.org/entry/uk/consolidated-list/inu0047>
   a ammitto:SanctionEntry ;
   ammitto:entityId <https://www.ammitto.org/entity/uk/inu0047> ;
@@ -36290,8 +36293,8 @@
   ammitto:hasSanctionEntry <https://www.ammitto.org/entry/uk/consolidated-list/inu0055> ;
   ammitto:remarks "The Director Disqualification Sanction was imposed on 09/04/2025." ;
   ammitto:addresses [ a ammitto:Address ; ammitto:street "No. 6, 2nd Floor, 5th Alley, Gandi Ave." ; ammitto:state "Tehran" ; ammitto:country "Iran" ] ;
-  ammitto:addresses [ a ammitto:Address ; ammitto:street "No.3, Azadegan Blvd, Yousef Abad" ; ammitto:state "Tehran" ; ammitto:country "Iran" ] ;
-  ammitto:addresses [ a ammitto:Address ; ammitto:street "No. 67, Ghods Mirheydari St., Jahan Ara St.,, Yoosef Abad" ; ammitto:state "Tehran" ; ammitto:country "Iran" ] .
+  ammitto:addresses [ a ammitto:Address ; ammitto:street "No. 67, Ghods Mirheydari St., Jahan Ara St.,, Yoosef Abad" ; ammitto:state "Tehran" ; ammitto:country "Iran" ] ;
+  ammitto:addresses [ a ammitto:Address ; ammitto:street "No.3, Azadegan Blvd, Yousef Abad" ; ammitto:state "Tehran" ; ammitto:country "Iran" ] .
 <https://www.ammitto.org/entry/uk/consolidated-list/inu0055>
   a ammitto:SanctionEntry ;
   ammitto:entityId <https://www.ammitto.org/entity/uk/inu0055> ;
@@ -36498,8 +36501,8 @@
   ammitto:hasName [ a ammitto:NameVariant ; ammitto:fullName "Fajr Aviation Ind" ; ammitto:script "Latn" ; ammitto:isPrimary "false"^^xsd:boolean ] ;
   ammitto:hasSanctionEntry <https://www.ammitto.org/entry/uk/consolidated-list/inu0064> ;
   ammitto:remarks "The Director Disqualification Sanction was imposed on 09/04/2025." ;
-  ammitto:addresses [ a ammitto:Address ; ammitto:street "Tehran 5 kilometres into the Karaj Makhsous Road, P.O. Box 12455 885" ] ;
-  ammitto:addresses [ a ammitto:Address ; ammitto:street "Mehrabad Airport, PO Box 13445-885" ; ammitto:state "Tehran" ; ammitto:country "Iran" ] .
+  ammitto:addresses [ a ammitto:Address ; ammitto:street "Mehrabad Airport, PO Box 13445-885" ; ammitto:state "Tehran" ; ammitto:country "Iran" ] ;
+  ammitto:addresses [ a ammitto:Address ; ammitto:street "Tehran 5 kilometres into the Karaj Makhsous Road, P.O. Box 12455 885" ] .
 <https://www.ammitto.org/entry/uk/consolidated-list/inu0064>
   a ammitto:SanctionEntry ;
   ammitto:entityId <https://www.ammitto.org/entity/uk/inu0064> ;
@@ -36610,8 +36613,8 @@
   ammitto:addresses [ a ammitto:Address ; ammitto:street "P.O. Box 14155/1449" ; ammitto:state "Tehran" ; ammitto:country "Iran" ] ;
   ammitto:addresses [ a ammitto:Address ; ammitto:street "P.O. Box 83145/311" ; ammitto:state "Tehran" ; ammitto:country "Iran" ] ;
   ammitto:addresses [ a ammitto:Address ; ammitto:street "Plant No. 1, opp. Of 2nd Phase of Shahrak e Ekbatan, Karaj Special Road, Mehrabad Airport" ; ammitto:state "1000 Tehran" ; ammitto:country "Iran" ] ;
-  ammitto:addresses [ a ammitto:Address ; ammitto:street "Special Karaj Road, Mehrabad Airport" ; ammitto:state "Tehran" ; ammitto:country "Iran" ] ;
-  ammitto:addresses [ a ammitto:Address ; ammitto:street "Sepabhod Gharani 36" ; ammitto:state "Tehran" ; ammitto:country "Iran" ] .
+  ammitto:addresses [ a ammitto:Address ; ammitto:street "Sepabhod Gharani 36" ; ammitto:state "Tehran" ; ammitto:country "Iran" ] ;
+  ammitto:addresses [ a ammitto:Address ; ammitto:street "Special Karaj Road, Mehrabad Airport" ; ammitto:state "Tehran" ; ammitto:country "Iran" ] .
 <https://www.ammitto.org/entry/uk/consolidated-list/inu0070>
   a ammitto:SanctionEntry ;
   ammitto:entityId <https://www.ammitto.org/entity/uk/inu0070> ;
@@ -36641,11 +36644,11 @@
   ammitto:hasName [ a ammitto:NameVariant ; ammitto:fullName "Karkhanejate Sanaye Havapaymaie Iran" ; ammitto:script "Latn" ; ammitto:isPrimary "false"^^xsd:boolean ] ;
   ammitto:hasSanctionEntry <https://www.ammitto.org/entry/uk/consolidated-list/inu0071> ;
   ammitto:remarks "The Director Disqualification Sanction was imposed on 09/04/2025." ;
-  ammitto:addresses [ a ammitto:Address ; ammitto:street "P.O. Box81465 935" ; ammitto:state "Esfahan" ; ammitto:country "Iran" ] ;
   ammitto:addresses [ a ammitto:Address ; ammitto:street "No. 27 Shahamat Ave., Vallie asr Square." ; ammitto:state "Tehran (HESA Tehran Office)" ; ammitto:country "Iran" ] ;
   ammitto:addresses [ a ammitto:Address ; ammitto:street "P.O. Box 14155 5568, No. 27 Ahahamat Ave., Vallie Asr Square" ; ammitto:state "Tehran" ; ammitto:country "Iran" ] ;
   ammitto:addresses [ a ammitto:Address ; ammitto:street "P.O. Box 8140, No. 107 Sepahbod Gharany Ave." ; ammitto:state "Tehran" ; ammitto:country "Iran" ] ;
   ammitto:addresses [ a ammitto:Address ; ammitto:street "P.O. Box 83145 311, 28 km Esfahan Tehran Freeway, Shain Shahr" ; ammitto:state "Esfahan" ; ammitto:country "Iran" ] ;
+  ammitto:addresses [ a ammitto:Address ; ammitto:street "P.O. Box81465 935" ; ammitto:state "Esfahan" ; ammitto:country "Iran" ] ;
   ammitto:addresses [ a ammitto:Address ; ammitto:street "Shahih Shar Industrial Zone" ; ammitto:state "Isfahan" ; ammitto:country "Iran" ] .
 <https://www.ammitto.org/entry/uk/consolidated-list/inu0071>
   a ammitto:SanctionEntry ;
@@ -36671,9 +36674,9 @@
   ammitto:hasName [ a ammitto:NameVariant ; ammitto:fullName "TSA" ; ammitto:script "Latn" ; ammitto:isPrimary "false"^^xsd:boolean ] ;
   ammitto:hasSanctionEntry <https://www.ammitto.org/entry/uk/consolidated-list/inu0072> ;
   ammitto:remarks "The Director Disqualification Sanction was imposed on 09/04/2025." ;
+  ammitto:addresses [ a ammitto:Address ; ammitto:street "Km. 55th of Tehran-Qazvin Rd." ; ammitto:state "Karaj" ; ammitto:country "Iran" ] ;
   ammitto:addresses [ a ammitto:Address ; ammitto:street "156 Golestan Street, Saradr e Jangal" ; ammitto:state "Tehran" ; ammitto:country "Iran" ] ;
   ammitto:addresses [ a ammitto:Address ; ammitto:street "Khalij e Fars Boulevard, Kilometre 10 of Atomic Energy Road, Rowshan Shahr, Third Moshtaq Street" ; ammitto:state "Esfahan" ; ammitto:country "Iran" ] ;
-  ammitto:addresses [ a ammitto:Address ; ammitto:street "Km. 55th of Tehran-Qazvin Rd." ; ammitto:state "Karaj" ; ammitto:country "Iran" ] ;
   ammitto:addresses [ a ammitto:Address ; ammitto:street "No.239, Africa Ave., Apartment No.12, First Floor" ; ammitto:state "Tehran" ; ammitto:country "Iran" ] ;
   ammitto:addresses [ a ammitto:Address ; ammitto:street "No.66, Sarhang Sakhaei St., Hafez Avenue" ; ammitto:state "Tehran" ] ;
   ammitto:addresses [ a ammitto:Address ; ammitto:street "Northwest of Karaj at Km 55 Qazvin (alt. Ghazvin) Highway" ; ammitto:state "Haljerd" ; ammitto:country "Iran" ] ;
@@ -36699,8 +36702,8 @@
   ammitto:hasName [ a ammitto:NameVariant ; ammitto:fullName "Sanaye Mokhaberat Iran" ; ammitto:script "Latn" ; ammitto:isPrimary "false"^^xsd:boolean ] ;
   ammitto:hasSanctionEntry <https://www.ammitto.org/entry/uk/consolidated-list/inu0073> ;
   ammitto:remarks "The Director Disqualification Sanction was imposed on 09/04/2025." ;
-  ammitto:addresses [ a ammitto:Address ; ammitto:street "34 Khorramshar Street" ; ammitto:state "Tehran" ; ammitto:country "Iran" ] ;
   ammitto:addresses [ a ammitto:Address ; ammitto:street "Apadana Ave." ; ammitto:state "Tehran" ; ammitto:country "Iran" ] ;
+  ammitto:addresses [ a ammitto:Address ; ammitto:street "34 Khorramshar Street" ; ammitto:state "Tehran" ; ammitto:country "Iran" ] ;
   ammitto:addresses [ a ammitto:Address ; ammitto:street "P.O. Box 15875 4337" ; ammitto:state "Tehran" ; ammitto:country "Iran" ] ;
   ammitto:addresses [ a ammitto:Address ; ammitto:street "PO Box 19295 4731, Pasdaran Ave" ; ammitto:state "Tehran" ; ammitto:country "Iran" ] ;
   ammitto:addresses [ a ammitto:Address ; ammitto:street "PO Box 19575 131, 34 Apadana Ave" ; ammitto:state "Tehran" ; ammitto:country "Iran" ] ;
@@ -36754,13 +36757,13 @@
   ammitto:hasName [ a ammitto:NameVariant ; ammitto:fullName "Sherkat Sanayeh Electronics Iran" ; ammitto:script "Latn" ; ammitto:isPrimary "false"^^xsd:boolean ] ;
   ammitto:hasSanctionEntry <https://www.ammitto.org/entry/uk/consolidated-list/inu0075> ;
   ammitto:remarks "The Director Disqualification Sanction was imposed on 09/04/2025." ;
+  ammitto:addresses [ a ammitto:Address ; ammitto:street "Hossein Abad/Ardakan Road" ; ammitto:state "Shiraz" ; ammitto:country "Iran" ] ;
+  ammitto:addresses [ a ammitto:Address ; ammitto:street "P.O. Box 71365-1174, Eman Khomeini Ave." ; ammitto:state "Shiraz" ; ammitto:country "Iran" ] ;
   ammitto:addresses [ a ammitto:Address ; ammitto:street "P.O. Box 18575-365" ; ammitto:state "Tehran" ; ammitto:country "Iran" ] ;
   ammitto:addresses [ a ammitto:Address ; ammitto:street "P.O. Box 71265-1589" ; ammitto:state "Shiraz" ; ammitto:country "Iran" ] ;
-  ammitto:addresses [ a ammitto:Address ; ammitto:street "P.O. Box 71365-1174, Eman Khomeini Ave." ; ammitto:state "Shiraz" ; ammitto:country "Iran" ] ;
   ammitto:addresses [ a ammitto:Address ; ammitto:street "PO Box 19575-365, Pasdaran Ave." ; ammitto:state "Tehran" ; ammitto:country "Iran" ] ;
   ammitto:addresses [ a ammitto:Address ; ammitto:street "Sh. Langari St., Nobonyad Sq., Pasdaran Ave." ; ammitto:state "Tehran" ; ammitto:country "Iran" ] ;
-  ammitto:addresses [ a ammitto:Address ; ammitto:street "Shahid Langari Street, Nononyad Square" ; ammitto:state "Tehran" ; ammitto:country "Iran" ] ;
-  ammitto:addresses [ a ammitto:Address ; ammitto:street "Hossein Abad/Ardakan Road" ; ammitto:state "Shiraz" ; ammitto:country "Iran" ] .
+  ammitto:addresses [ a ammitto:Address ; ammitto:street "Shahid Langari Street, Nononyad Square" ; ammitto:state "Tehran" ; ammitto:country "Iran" ] .
 <https://www.ammitto.org/entry/uk/consolidated-list/inu0075>
   a ammitto:SanctionEntry ;
   ammitto:entityId <https://www.ammitto.org/entity/uk/inu0075> ;
@@ -37099,9 +37102,9 @@
   ammitto:hasName [ a ammitto:NameVariant ; ammitto:fullName "Makpa" ; ammitto:script "Latn" ; ammitto:isPrimary "false"^^xsd:boolean ] ;
   ammitto:hasSanctionEntry <https://www.ammitto.org/entry/uk/consolidated-list/inu0090> ;
   ammitto:remarks "The Director Disqualification Sanction was imposed on 09/04/2025." ;
+  ammitto:addresses [ a ammitto:Address ; ammitto:street "Prof. Hifzi Ozcan Cad., Tasarim Kent Sit., No. 33 B Blk, D.19" ; ammitto:city "Kadikoy" ; ammitto:state "Istanbul" ; ammitto:country "Turkey" ] ;
   ammitto:addresses [ a ammitto:Address ; ammitto:street "Istasyon MH, Sehitler cad, Guldeniz Sit, Number 79/2" ; ammitto:city "Tuzla" ; ammitto:state "Istanbul" ; ammitto:country "Turkey" ] ;
   ammitto:addresses [ a ammitto:Address ; ammitto:street "No 39, Alvand Street, Argentina Square" ; ammitto:state "Tehran" ; ammitto:country "Iran" ] ;
-  ammitto:addresses [ a ammitto:Address ; ammitto:street "Prof. Hifzi Ozcan Cad., Tasarim Kent Sit., No. 33 B Blk, D.19" ; ammitto:city "Kadikoy" ; ammitto:state "Istanbul" ; ammitto:country "Turkey" ] ;
   ammitto:addresses [ a ammitto:Address ; ammitto:street "Sehidler Caddesi, No 79/2, Tuzla" ; ammitto:state "Istanbul" ; ammitto:country "Turkey" ] .
 <https://www.ammitto.org/entry/uk/consolidated-list/inu0090>
   a ammitto:SanctionEntry ;
@@ -37124,8 +37127,8 @@
   ammitto:hasSanctionEntry <https://www.ammitto.org/entry/uk/consolidated-list/inu0091> ;
   ammitto:remarks "The Director Disqualification Sanction was imposed on 09/04/2025." ;
   ammitto:addresses [ a ammitto:Address ; ammitto:street "9, Ground Floor, Zohre Street, Mofateh Street" ; ammitto:state "Tehran" ; ammitto:country "Iran" ] ;
-  ammitto:addresses [ a ammitto:Address ; ammitto:street "North Dr. Moftah Street, Zahra Street, Placard 9, Ground floor" ; ammitto:state "Tehran" ; ammitto:country "Iran" ] ;
-  ammitto:addresses [ a ammitto:Address ; ammitto:street "Bld. No. 11, Zohreh St., Mofateh Ave." ; ammitto:state "Tehran" ; ammitto:country "Iran" ] .
+  ammitto:addresses [ a ammitto:Address ; ammitto:street "Bld. No. 11, Zohreh St., Mofateh Ave." ; ammitto:state "Tehran" ; ammitto:country "Iran" ] ;
+  ammitto:addresses [ a ammitto:Address ; ammitto:street "North Dr. Moftah Street, Zahra Street, Placard 9, Ground floor" ; ammitto:state "Tehran" ; ammitto:country "Iran" ] .
 <https://www.ammitto.org/entry/uk/consolidated-list/inu0091>
   a ammitto:SanctionEntry ;
   ammitto:entityId <https://www.ammitto.org/entity/uk/inu0091> ;
@@ -37146,8 +37149,8 @@
   ammitto:hasName [ a ammitto:NameVariant ; ammitto:fullName "Iranian Atomic Fuel Development Engineering Company " ; ammitto:script "Latn" ; ammitto:isPrimary "false"^^xsd:boolean ] ;
   ammitto:hasSanctionEntry <https://www.ammitto.org/entry/uk/consolidated-list/inu0092> ;
   ammitto:remarks "The Director Disqualification Sanction was imposed on 09/04/2025." ;
-  ammitto:addresses [ a ammitto:Address ; ammitto:street "27 Alvand Avenue, 37th Street" ; ammitto:state "Tehran" ] ;
-  ammitto:addresses [ a ammitto:Address ; ammitto:street "90, Fathi Shaghaghi Street" ; ammitto:state "Tehran" ; ammitto:country "Iran" ] .
+  ammitto:addresses [ a ammitto:Address ; ammitto:street "90, Fathi Shaghaghi Street" ; ammitto:state "Tehran" ; ammitto:country "Iran" ] ;
+  ammitto:addresses [ a ammitto:Address ; ammitto:street "27 Alvand Avenue, 37th Street" ; ammitto:state "Tehran" ] .
 <https://www.ammitto.org/entry/uk/consolidated-list/inu0092>
   a ammitto:SanctionEntry ;
   ammitto:entityId <https://www.ammitto.org/entity/uk/inu0092> ;
@@ -37242,8 +37245,8 @@
   ammitto:hasName [ a ammitto:NameVariant ; ammitto:fullName "Naserin Vahid Company" ; ammitto:script "Latn" ; ammitto:isPrimary "false"^^xsd:boolean ] ;
   ammitto:hasSanctionEntry <https://www.ammitto.org/entry/uk/consolidated-list/inu0097> ;
   ammitto:remarks "The Director Disqualification Sanction was imposed on 09/04/2025." ;
-  ammitto:addresses [ a ammitto:Address ; ammitto:street "4th floor, No 65, Dr Ghandi St., Sohravardi Ave." ; ammitto:state "Tehran" ; ammitto:country "Iran" ] ;
-  ammitto:addresses [ a ammitto:Address ; ammitto:street "P.O. Box 155671311" ; ammitto:country "Iran" ] .
+  ammitto:addresses [ a ammitto:Address ; ammitto:street "P.O. Box 155671311" ; ammitto:country "Iran" ] ;
+  ammitto:addresses [ a ammitto:Address ; ammitto:street "4th floor, No 65, Dr Ghandi St., Sohravardi Ave." ; ammitto:state "Tehran" ; ammitto:country "Iran" ] .
 <https://www.ammitto.org/entry/uk/consolidated-list/inu0097>
   a ammitto:SanctionEntry ;
   ammitto:entityId <https://www.ammitto.org/entity/uk/inu0097> ;
@@ -37437,8 +37440,8 @@
   ammitto:hasName [ a ammitto:NameVariant ; ammitto:fullName "Rosmashin" ; ammitto:script "Latn" ; ammitto:isPrimary "false"^^xsd:boolean ] ;
   ammitto:hasSanctionEntry <https://www.ammitto.org/entry/uk/consolidated-list/inu0106> ;
   ammitto:remarks "The Director Disqualification Sanction was imposed on 09/04/2025." ;
-  ammitto:addresses [ a ammitto:Address ; ammitto:street "PO Box 1584864813" ; ammitto:state "Tehran" ; ammitto:country "Iran" ] ;
-  ammitto:addresses [ a ammitto:Address ; ammitto:street "Haftom Tir Square, South Mofte Avenue, Tour Line No 3/1" ; ammitto:state "Tehran" ; ammitto:country "Iran" ] .
+  ammitto:addresses [ a ammitto:Address ; ammitto:street "Haftom Tir Square, South Mofte Avenue, Tour Line No 3/1" ; ammitto:state "Tehran" ; ammitto:country "Iran" ] ;
+  ammitto:addresses [ a ammitto:Address ; ammitto:street "PO Box 1584864813" ; ammitto:state "Tehran" ; ammitto:country "Iran" ] .
 <https://www.ammitto.org/entry/uk/consolidated-list/inu0106>
   a ammitto:SanctionEntry ;
   ammitto:entityId <https://www.ammitto.org/entity/uk/inu0106> ;
@@ -37550,8 +37553,8 @@
   ammitto:hasName [ a ammitto:NameVariant ; ammitto:fullName "University of Shahid Beheshti" ; ammitto:script "Latn" ; ammitto:isPrimary "false"^^xsd:boolean ] ;
   ammitto:hasSanctionEntry <https://www.ammitto.org/entry/uk/consolidated-list/inu0112> ;
   ammitto:remarks "The Director Disqualification Sanction was imposed on 09/04/2025." ;
-  ammitto:addresses [ a ammitto:Address ; ammitto:street "Shahid Beheshti University" ; ammitto:city "Evin" ; ammitto:state "Tehran" ; ammitto:country "Iran" ] ;
-  ammitto:addresses [ a ammitto:Address ; ammitto:street "P.O. Box 19395/4716" ; ammitto:state "Tehran" ; ammitto:country "Iran" ] .
+  ammitto:addresses [ a ammitto:Address ; ammitto:street "P.O. Box 19395/4716" ; ammitto:state "Tehran" ; ammitto:country "Iran" ] ;
+  ammitto:addresses [ a ammitto:Address ; ammitto:street "Shahid Beheshti University" ; ammitto:city "Evin" ; ammitto:state "Tehran" ; ammitto:country "Iran" ] .
 <https://www.ammitto.org/entry/uk/consolidated-list/inu0112>
   a ammitto:SanctionEntry ;
   ammitto:entityId <https://www.ammitto.org/entity/uk/inu0112> ;
@@ -37637,8 +37640,8 @@
   ammitto:addresses [ a ammitto:Address ; ammitto:street "Bahariye Cad., No. 44, K6, Kadikoy" ; ammitto:state "Istanbul" ; ammitto:country "Turkey" ] ;
   ammitto:addresses [ a ammitto:Address ; ammitto:street "Bessan Sit A Bl N 4, Dudullu" ; ammitto:state "Istanbul" ; ammitto:country "Turkey" ] ;
   ammitto:addresses [ a ammitto:Address ; ammitto:street "DES Industrial Complex, A13 Block 4, Yukari Dudullu" ; ammitto:state "Istanbul" ; ammitto:country "Turkey" ] ;
-  ammitto:addresses [ a ammitto:Address ; ammitto:street "No. 44 K6, Bahariye Cad." ; ammitto:state "Istanbul" ; ammitto:country "Turkey" ] ;
-  ammitto:addresses [ a ammitto:Address ; ammitto:street "Umraniye" ; ammitto:state "Istanbul" ; ammitto:country "Turkey" ] .
+  ammitto:addresses [ a ammitto:Address ; ammitto:street "Umraniye" ; ammitto:state "Istanbul" ; ammitto:country "Turkey" ] ;
+  ammitto:addresses [ a ammitto:Address ; ammitto:street "No. 44 K6, Bahariye Cad." ; ammitto:state "Istanbul" ; ammitto:country "Turkey" ] .
 <https://www.ammitto.org/entry/uk/consolidated-list/inu0118>
   a ammitto:SanctionEntry ;
   ammitto:entityId <https://www.ammitto.org/entity/uk/inu0118> ;
@@ -37706,10 +37709,10 @@
   ammitto:hasName [ a ammitto:NameVariant ; ammitto:fullName "Taghtiran P.J.S Kashan" ; ammitto:script "Latn" ; ammitto:isPrimary "false"^^xsd:boolean ] ;
   ammitto:hasSanctionEntry <https://www.ammitto.org/entry/uk/consolidated-list/inu0122> ;
   ammitto:remarks "The Director Disqualification Sanction was imposed on 09/04/2025." ;
-  ammitto:addresses [ a ammitto:Address ; ammitto:street "3, 2nd St., Assad Abadi Ave." ; ammitto:city "Vali Asr Ave." ; ammitto:state "Tehran" ; ammitto:country "Iran" ] ;
   ammitto:addresses [ a ammitto:Address ; ammitto:street "Flat 3, no. 3, 2nd St., asad Abadi Ave." ; ammitto:state "Tehran" ; ammitto:country "Iran" ] ;
   ammitto:addresses [ a ammitto:Address ; ammitto:street "G.T.B. Complex, 44th Km. of Kashan Delijan Rd." ; ammitto:state "Kashan" ; ammitto:country "Iran" ] ;
   ammitto:addresses [ a ammitto:Address ; ammitto:street "Km 44th of Delijan Rd." ; ammitto:state "Kashan" ; ammitto:country "Iran" ] ;
+  ammitto:addresses [ a ammitto:Address ; ammitto:street "3, 2nd St., Assad Abadi Ave." ; ammitto:city "Vali Asr Ave." ; ammitto:state "Tehran" ; ammitto:country "Iran" ] ;
   ammitto:addresses [ a ammitto:Address ; ammitto:street "No. 3, 2nd St., Yousefabad Forked Rd., Vali e Asr Ave." ; ammitto:state "Tehran" ; ammitto:country "Iran" ] ;
   ammitto:addresses [ a ammitto:Address ; ammitto:street "P.O. Box 87135/1987" ; ammitto:state "Kashan" ; ammitto:country "Iran" ] ;
   ammitto:addresses [ a ammitto:Address ; ammitto:street "Unit 2, No. 3, 2nd Alley, Asad Abadi St." ; ammitto:city "Vali e asr St." ; ammitto:state "Tehran" ; ammitto:country "Iran" ] .
@@ -38683,8 +38686,8 @@
   ammitto:hasName [ a ammitto:NameVariant ; ammitto:fullName "QODS RESEARCH CENTER" ; ammitto:script "Latn" ; ammitto:isPrimary "false"^^xsd:boolean ] ;
   ammitto:hasSanctionEntry <https://www.ammitto.org/entry/uk/consolidated-list/inu0253> ;
   ammitto:remarks "Qods Aeronautics Industries was listed pursuant to paragraph 12 of resolution 1737 (2006), as read with resolutions 1747, 1803 and 1929, as Iranian Revolutionary Guard Corps entities.  (Produces unmanned aerial vehicles (UAVs), parachutes, para-gliders, para-motors, etc. Iranian Revolutionary Guard Corps (IRGC) has boasted of using these products as part of its asymmetric warfare doctrine). The Director Disqualification Sanction was imposed on 09/04/2025." ;
-  ammitto:addresses [ a ammitto:Address ; ammitto:street "Unit 207, Tarajit Maydane Taymori (or Teimori) Square, Basiri Building, Tarasht" ; ammitto:state "Tehran" ; ammitto:country "Iran" ] ;
-  ammitto:addresses [ a ammitto:Address ; ammitto:street "Km 5 Karaj Special Road, P.O. Box 15875-1834" ; ammitto:state "Tehran" ; ammitto:country "Iran" ] .
+  ammitto:addresses [ a ammitto:Address ; ammitto:street "Km 5 Karaj Special Road, P.O. Box 15875-1834" ; ammitto:state "Tehran" ; ammitto:country "Iran" ] ;
+  ammitto:addresses [ a ammitto:Address ; ammitto:street "Unit 207, Tarajit Maydane Taymori (or Teimori) Square, Basiri Building, Tarasht" ; ammitto:state "Tehran" ; ammitto:country "Iran" ] .
 <https://www.ammitto.org/entry/uk/consolidated-list/inu0253>
   a ammitto:SanctionEntry ;
   ammitto:entityId <https://www.ammitto.org/entity/uk/inu0253> ;
@@ -48846,8 +48849,8 @@
   ammitto:hasName [ a ammitto:NameVariant ; ammitto:fullName "Al Masraf Al Zirae Agricultural Bank" ; ammitto:script "Latn" ; ammitto:isPrimary "false"^^xsd:boolean ] ;
   ammitto:hasSanctionEntry <https://www.ammitto.org/entry/uk/consolidated-list/lib0006> ;
   ammitto:remarks "The Director Disqualification Sanction was imposed on 09/04/2025." ;
-  ammitto:addresses [ a ammitto:Address ; ammitto:street "Al Jumhouria Street, East Junzour, Al Gheran" ; ammitto:state "Tripoli" ; ammitto:country "Libya" ] ;
-  ammitto:addresses [ a ammitto:Address ; ammitto:street "El Ghayran Area, Ganzor El Sharqya, PO Box 1100" ; ammitto:state "Tripoli" ; ammitto:country "Libya" ] .
+  ammitto:addresses [ a ammitto:Address ; ammitto:street "El Ghayran Area, Ganzor El Sharqya, PO Box 1100" ; ammitto:state "Tripoli" ; ammitto:country "Libya" ] ;
+  ammitto:addresses [ a ammitto:Address ; ammitto:street "Al Jumhouria Street, East Junzour, Al Gheran" ; ammitto:state "Tripoli" ; ammitto:country "Libya" ] .
 <https://www.ammitto.org/entry/uk/consolidated-list/lib0006>
   a ammitto:SanctionEntry ;
   ammitto:entityId <https://www.ammitto.org/entity/uk/lib0006> ;
@@ -50721,8 +50724,8 @@
   ammitto:hasName [ a ammitto:NameVariant ; ammitto:fullName "TEZA" ; ammitto:script "Latn" ; ammitto:isPrimary "false"^^xsd:boolean ] ;
   ammitto:hasSanctionEntry <https://www.ammitto.org/entry/uk/consolidated-list/mya0028> ;
   ammitto:remarks "The Director Disqualification Sanction was imposed on 09/04/2025." ;
-  ammitto:addresses [ a ammitto:Address ; ammitto:street "" ; ammitto:country "Myanmar" ] ;
-  ammitto:addresses [ a ammitto:Address ; ammitto:street "" ; ammitto:country "Singapore" ] .
+  ammitto:addresses [ a ammitto:Address ; ammitto:street "" ; ammitto:country "Singapore" ] ;
+  ammitto:addresses [ a ammitto:Address ; ammitto:street "" ; ammitto:country "Myanmar" ] .
 <https://www.ammitto.org/entry/uk/consolidated-list/mya0028>
   a ammitto:SanctionEntry ;
   ammitto:entityId <https://www.ammitto.org/entity/uk/mya0028> ;
@@ -52675,8 +52678,8 @@
   ammitto:hasName [ a ammitto:NameVariant ; ammitto:fullName "Serbian" ; ammitto:script "Latn" ; ammitto:isPrimary "false"^^xsd:boolean ] ;
   ammitto:hasSanctionEntry <https://www.ammitto.org/entry/uk/consolidated-list/rus0031> ;
   ammitto:remarks "The Director Disqualification Sanction was imposed on 09/04/2025." ;
-  ammitto:addresses [ a ammitto:Address ; ammitto:street "" ; ammitto:country "Russia" ] ;
-  ammitto:addresses [ a ammitto:Address ; ammitto:street "" ; ammitto:country "Syria" ] .
+  ammitto:addresses [ a ammitto:Address ; ammitto:street "" ; ammitto:country "Syria" ] ;
+  ammitto:addresses [ a ammitto:Address ; ammitto:street "" ; ammitto:country "Russia" ] .
 <https://www.ammitto.org/entry/uk/consolidated-list/rus0031>
   a ammitto:SanctionEntry ;
   ammitto:entityId <https://www.ammitto.org/entity/uk/rus0031> ;
@@ -55999,8 +56002,8 @@
   ammitto:hasName [ a ammitto:NameVariant ; ammitto:fullName "Shipyard Zaliv LLC" ; ammitto:script "Latn" ; ammitto:isPrimary "false"^^xsd:boolean ] ;
   ammitto:hasSanctionEntry <https://www.ammitto.org/entry/uk/consolidated-list/rus0179> ;
   ammitto:remarks "The Director Disqualification Sanction was imposed on 09/04/2025." ;
-  ammitto:addresses [ a ammitto:Address ; ammitto:street "" ; ammitto:state "Location of entity headquarters, \"Republic of Crimea\"" ] ;
-  ammitto:addresses [ a ammitto:Address ; ammitto:street "4, Tankistov Street" ; ammitto:city "Kerch" ; ammitto:state "The Autonomous Republic of Crimea and the city of Sevastopol" ; ammitto:country "Ukraine" ] .
+  ammitto:addresses [ a ammitto:Address ; ammitto:street "4, Tankistov Street" ; ammitto:city "Kerch" ; ammitto:state "The Autonomous Republic of Crimea and the city of Sevastopol" ; ammitto:country "Ukraine" ] ;
+  ammitto:addresses [ a ammitto:Address ; ammitto:street "" ; ammitto:state "Location of entity headquarters, \"Republic of Crimea\"" ] .
 <https://www.ammitto.org/entry/uk/consolidated-list/rus0179>
   a ammitto:SanctionEntry ;
   ammitto:entityId <https://www.ammitto.org/entity/uk/rus0179> ;
@@ -82486,8 +82489,8 @@
   ammitto:hasName [ a ammitto:NameVariant ; ammitto:fullName "OOO СТЦ    " ; ammitto:script "Cyrl" ; ammitto:isPrimary "false"^^xsd:boolean ] ;
   ammitto:hasSanctionEntry <https://www.ammitto.org/entry/uk/consolidated-list/rus1426> ;
   ammitto:remarks "OGRN: 1089847243870; KPP: 784001001 The Director Disqualification Sanction was imposed on 09/04/2025." ;
-  ammitto:addresses [ a ammitto:Address ; ammitto:street "lit. B, office 53, 21 Gzhatskaya street" ; ammitto:state "St Petersburg" ; ammitto:country "Russia" ] ;
-  ammitto:addresses [ a ammitto:Address ; ammitto:street "12 Lit. Pom 3 N, Apraksin Lane" ; ammitto:state "St Petersburg" ; ammitto:country "Russia" ] .
+  ammitto:addresses [ a ammitto:Address ; ammitto:street "12 Lit. Pom 3 N, Apraksin Lane" ; ammitto:state "St Petersburg" ; ammitto:country "Russia" ] ;
+  ammitto:addresses [ a ammitto:Address ; ammitto:street "lit. B, office 53, 21 Gzhatskaya street" ; ammitto:state "St Petersburg" ; ammitto:country "Russia" ] .
 <https://www.ammitto.org/entry/uk/consolidated-list/rus1426>
   a ammitto:SanctionEntry ;
   ammitto:entityId <https://www.ammitto.org/entity/uk/rus1426> ;
@@ -94381,8 +94384,8 @@
   ammitto:remarks "The Director Disqualification Sanction was imposed on 09/04/2025." ;
   ammitto:addresses [ a ammitto:Address ; ammitto:street "Rm. 1905, Xingda Garden Building, Kaiyuan Rd, Xingsha Development Area" ; ammitto:state "Changsha" ; ammitto:country "China" ] ;
   ammitto:addresses [ a ammitto:Address ; ammitto:street "Rm. 2408, Dynamic World Building, Zhonghang Rd" ; ammitto:city "Futian District" ; ammitto:state "Shenzhen" ; ammitto:country "China" ] ;
-  ammitto:addresses [ a ammitto:Address ; ammitto:street "Room 03, Chevalier House, 45-51 Chatham Road South, Tsim Sha Tsui" ; ammitto:city "Kowloon" ; ammitto:state "Hong Kong" ; ammitto:country "China" ] ;
-  ammitto:addresses [ a ammitto:Address ; ammitto:street "Rm. B22, 1/F, Block B, East Sun Industrial Centre,, 16 Shing Yip Street, Kwun Tong" ; ammitto:city "Kowloon" ; ammitto:state "Hong Kong" ; ammitto:country "China" ] .
+  ammitto:addresses [ a ammitto:Address ; ammitto:street "Rm. B22, 1/F, Block B, East Sun Industrial Centre,, 16 Shing Yip Street, Kwun Tong" ; ammitto:city "Kowloon" ; ammitto:state "Hong Kong" ; ammitto:country "China" ] ;
+  ammitto:addresses [ a ammitto:Address ; ammitto:street "Room 03, Chevalier House, 45-51 Chatham Road South, Tsim Sha Tsui" ; ammitto:city "Kowloon" ; ammitto:state "Hong Kong" ; ammitto:country "China" ] .
 <https://www.ammitto.org/entry/uk/consolidated-list/rus2038>
   a ammitto:SanctionEntry ;
   ammitto:entityId <https://www.ammitto.org/entity/uk/rus2038> ;
@@ -96254,8 +96257,8 @@
   ammitto:hasName [ a ammitto:NameVariant ; ammitto:fullName "Hengshui Yuanchem Nitrocellulose " ; ammitto:script "Latn" ; ammitto:isPrimary "false"^^xsd:boolean ] ;
   ammitto:hasSanctionEntry <https://www.ammitto.org/entry/uk/consolidated-list/rus2135> ;
   ammitto:remarks "The Director Disqualification Sanction was imposed on 09/04/2025." ;
-  ammitto:addresses [ a ammitto:Address ; ammitto:street "No. 29 Qiantong Road, Qiaotou Town, Wuyi County, Hengshui" ; ammitto:city "Hebei Province" ; ammitto:state "Hengshui City" ; ammitto:country "China" ] ;
-  ammitto:addresses [ a ammitto:Address ; ammitto:street "No. 365 Xinhua Street" ; ammitto:city "Hebei Province" ; ammitto:state "Hengshui City" ; ammitto:country "China" ] .
+  ammitto:addresses [ a ammitto:Address ; ammitto:street "No. 365 Xinhua Street" ; ammitto:city "Hebei Province" ; ammitto:state "Hengshui City" ; ammitto:country "China" ] ;
+  ammitto:addresses [ a ammitto:Address ; ammitto:street "No. 29 Qiantong Road, Qiaotou Town, Wuyi County, Hengshui" ; ammitto:city "Hebei Province" ; ammitto:state "Hengshui City" ; ammitto:country "China" ] .
 <https://www.ammitto.org/entry/uk/consolidated-list/rus2135>
   a ammitto:SanctionEntry ;
   ammitto:entityId <https://www.ammitto.org/entity/uk/rus2135> ;
@@ -98585,8 +98588,8 @@
   ammitto:hasName [ a ammitto:NameVariant ; ammitto:fullName "Андрей Наумович Перла" ; ammitto:script "Cyrl" ; ammitto:isPrimary "false"^^xsd:boolean ] ;
   ammitto:hasSanctionEntry <https://www.ammitto.org/entry/uk/consolidated-list/rus2289> ;
   ammitto:remarks "Internet Services Sanctions: When an individual or entity is designated for the purposes of this measure, social media services, internet access services and application stores must take reasonable steps to prevent users in the UK from accessing content, sites or applications provided by designated individuals or entities. The Director Disqualification Sanction was imposed on 09/04/2025." ;
-  ammitto:addresses [ a ammitto:Address ; ammitto:street "Maslennikova 41/24" ; ammitto:state "Samara" ; ammitto:country "Russia" ] ;
-  ammitto:addresses [ a ammitto:Address ; ammitto:street "Gurzufskaya 16/102" ; ammitto:state "Yekaterinburg" ; ammitto:country "Russia" ] .
+  ammitto:addresses [ a ammitto:Address ; ammitto:street "Gurzufskaya 16/102" ; ammitto:state "Yekaterinburg" ; ammitto:country "Russia" ] ;
+  ammitto:addresses [ a ammitto:Address ; ammitto:street "Maslennikova 41/24" ; ammitto:state "Samara" ; ammitto:country "Russia" ] .
 <https://www.ammitto.org/entry/uk/consolidated-list/rus2289>
   a ammitto:SanctionEntry ;
   ammitto:entityId <https://www.ammitto.org/entity/uk/rus2289> ;
@@ -98655,8 +98658,8 @@
   ammitto:hasName [ a ammitto:NameVariant ; ammitto:fullName "Агенство Социального Проектирования" ; ammitto:script "Cyrl" ; ammitto:isPrimary "false"^^xsd:boolean ] ;
   ammitto:hasSanctionEntry <https://www.ammitto.org/entry/uk/consolidated-list/rus2292> ;
   ammitto:remarks "Internet Services Sanctions: When an individual or entity is designated for the purposes of this measure, social media services, internet access services and application stores must take reasonable steps to prevent users in the UK from accessing content, sites or applications provided by designated individuals or entities. The Director Disqualification Sanction was imposed on 09/04/2025." ;
-  ammitto:addresses [ a ammitto:Address ; ammitto:street "Prospekt Novoyasenevskii, d. 23, k. 1" ; ammitto:state "Moscow" ; ammitto:country "Russia" ] ;
-  ammitto:addresses [ a ammitto:Address ; ammitto:street "Per. Bolshoi Kislovskiy, d. 1, str. 2, Arbat Municipal Okrug" ; ammitto:state "Moscow" ; ammitto:country "Russia" ] .
+  ammitto:addresses [ a ammitto:Address ; ammitto:street "Per. Bolshoi Kislovskiy, d. 1, str. 2, Arbat Municipal Okrug" ; ammitto:state "Moscow" ; ammitto:country "Russia" ] ;
+  ammitto:addresses [ a ammitto:Address ; ammitto:street "Prospekt Novoyasenevskii, d. 23, k. 1" ; ammitto:state "Moscow" ; ammitto:country "Russia" ] .
 <https://www.ammitto.org/entry/uk/consolidated-list/rus2292>
   a ammitto:SanctionEntry ;
   ammitto:entityId <https://www.ammitto.org/entity/uk/rus2292> ;
@@ -98685,8 +98688,8 @@
   ammitto:hasName [ a ammitto:NameVariant ; ammitto:fullName "Группа Компаний “Структура\"" ; ammitto:script "Cyrl" ; ammitto:isPrimary "false"^^xsd:boolean ] ;
   ammitto:hasSanctionEntry <https://www.ammitto.org/entry/uk/consolidated-list/rus2293> ;
   ammitto:remarks "Internet Services Sanctions: When an individual or entity is designated for the purposes of this measure, social media services, internet access services and application stores must take reasonable steps to prevent users in the UK from accessing content, sites or applications provided by designated individuals or entities. The Director Disqualification Sanction was imposed on 09/04/2025." ;
-  ammitto:addresses [ a ammitto:Address ; ammitto:street "Pereulok Bolshoi Kislovskiy, d. 1, str. 2, Arbat Municipal Okrug" ; ammitto:state "Moscow" ; ammitto:country "Russia" ] ;
-  ammitto:addresses [ a ammitto:Address ; ammitto:street "Ulitsa Bolshaya Nikitskaya, d. 12, str. 1" ; ammitto:state "Moscow" ; ammitto:country "Russia" ] .
+  ammitto:addresses [ a ammitto:Address ; ammitto:street "Ulitsa Bolshaya Nikitskaya, d. 12, str. 1" ; ammitto:state "Moscow" ; ammitto:country "Russia" ] ;
+  ammitto:addresses [ a ammitto:Address ; ammitto:street "Pereulok Bolshoi Kislovskiy, d. 1, str. 2, Arbat Municipal Okrug" ; ammitto:state "Moscow" ; ammitto:country "Russia" ] .
 <https://www.ammitto.org/entry/uk/consolidated-list/rus2293>
   a ammitto:SanctionEntry ;
   ammitto:entityId <https://www.ammitto.org/entity/uk/rus2293> ;
@@ -111814,8 +111817,8 @@
   ammitto:hasName [ a ammitto:NameVariant ; ammitto:fullName "HORSWAY TECH (HK) CO LTD " ; ammitto:script "Latn" ; ammitto:isPrimary "false"^^xsd:boolean ] ;
   ammitto:hasName [ a ammitto:NameVariant ; ammitto:fullName "宏芯微科技(香港)有限公司" ; ammitto:script "Hani" ; ammitto:isPrimary "false"^^xsd:boolean ] ;
   ammitto:hasSanctionEntry <https://www.ammitto.org/entry/uk/consolidated-list/rus3073> ;
-  ammitto:addresses [ a ammitto:Address ; ammitto:street "Flat/Rm 2003 20/F Hong Kong Plaza, 188 Connaught Road West" ; ammitto:state "Hong Kong" ; ammitto:country "China" ] ;
-  ammitto:addresses [ a ammitto:Address ; ammitto:street "Rm 1318, Sunbeam Centre, 27 Shing Yip Street" ; ammitto:city "Kwun Tong" ; ammitto:state "Hong Kong" ; ammitto:country "China" ] .
+  ammitto:addresses [ a ammitto:Address ; ammitto:street "Rm 1318, Sunbeam Centre, 27 Shing Yip Street" ; ammitto:city "Kwun Tong" ; ammitto:state "Hong Kong" ; ammitto:country "China" ] ;
+  ammitto:addresses [ a ammitto:Address ; ammitto:street "Flat/Rm 2003 20/F Hong Kong Plaza, 188 Connaught Road West" ; ammitto:state "Hong Kong" ; ammitto:country "China" ] .
 <https://www.ammitto.org/entry/uk/consolidated-list/rus3073>
   a ammitto:SanctionEntry ;
   ammitto:entityId <https://www.ammitto.org/entity/uk/rus3073> ;
@@ -132278,8 +132281,8 @@
   ammitto:hasName [ a ammitto:NameVariant ; ammitto:fullName "Industrial Establishment of Defense" ; ammitto:script "Latn" ; ammitto:isPrimary "false"^^xsd:boolean ] ;
   ammitto:hasSanctionEntry <https://www.ammitto.org/entry/uk/consolidated-list/syr0309> ;
   ammitto:remarks "Industrial - Military The Director Disqualification Sanction was imposed on 09/04/2025." ;
-  ammitto:addresses [ a ammitto:Address ; ammitto:street "P.O. Box 2230" ; ammitto:city "Al-Hameh" ; ammitto:state "Damascus Countryside" ] ;
-  ammitto:addresses [ a ammitto:Address ; ammitto:street "P.O. Box 2330, Al Thawraa Street" ; ammitto:state "Damascus" ; ammitto:country "Syria" ] .
+  ammitto:addresses [ a ammitto:Address ; ammitto:street "P.O. Box 2330, Al Thawraa Street" ; ammitto:state "Damascus" ; ammitto:country "Syria" ] ;
+  ammitto:addresses [ a ammitto:Address ; ammitto:street "P.O. Box 2230" ; ammitto:city "Al-Hameh" ; ammitto:state "Damascus Countryside" ] .
 <https://www.ammitto.org/entry/uk/consolidated-list/syr0309>
   a ammitto:SanctionEntry ;
   ammitto:entityId <https://www.ammitto.org/entity/uk/syr0309> ;
