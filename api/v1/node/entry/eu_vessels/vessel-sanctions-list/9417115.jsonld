@@ -1,0 +1,45 @@
+{
+  "@id": "https://www.ammitto.org/entry/eu_vessels/vessel-sanctions-list/9417115",
+  "@type": "SanctionEntry",
+  "entityId": "https://www.ammitto.org/entity/eu_vessels/9417115",
+  "authority": {
+    "@id": "https://www.ammitto.org/authority/eu_vessels"
+  },
+  "regime": {
+    "@id": "https://www.ammitto.org/regime/dprk",
+    "name": "Democratic People's Republic of Korea"
+  },
+  "legalBases": [
+    {
+      "@id": "https://www.ammitto.org/legal-instrument/eu_vessels/council-regulation-eu-2017-1509"
+    }
+  ],
+  "effects": [
+    {
+      "@type": "SanctionEffect",
+      "effectType": "other",
+      "scope": "full",
+      "description": "De-registration"
+    },
+    {
+      "@type": "SanctionEffect",
+      "effectType": "entry_ban",
+      "scope": "full",
+      "description": "Port entry ban"
+    }
+  ],
+  "reasons": [
+
+  ],
+  "period": {
+    "@type": "TemporalPeriod",
+    "listedDate": "2018-03-30",
+    "isIndefinite": true
+  },
+  "status": "active",
+  "statusHistory": [
+
+  ],
+  "remarks": "De-registration + Port entry ban (Council Regulation 2017/1509)",
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
+}
