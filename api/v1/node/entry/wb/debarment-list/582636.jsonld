@@ -18,12 +18,6 @@
       "effectType": "debarment",
       "scope": "full",
       "description": "Excluded from World Bank-financed contracts"
-    },
-    {
-      "@type": "SanctionEffect",
-      "effectType": "debarment",
-      "scope": "full",
-      "description": "Cross-debarred by other development banks (AfDB, ADB, EBRD, IADB)"
     }
   ],
   "reasons": [
@@ -32,10 +26,10 @@
   "period": {
     "@type": "TemporalPeriod",
     "effectiveDate": "2021-06-14",
-    "expiryDate": "2026-08-17",
+    "expiryDate": "2999-12-31",
     "isIndefinite": false
   },
-  "status": "expired",
+  "status": "active",
   "statusHistory": [
 
   ],
@@ -53,11 +47,11 @@
       "wb:legacyFlag": "N",
       "wb:unSuppFlag": "N",
       "wb:ineligFlag": "D",
-      "wb:crossDebarment": "Y",
+      "wb:crossDebarment": "N",
       "wb:crossDebarmentStatus": "CLEARED",
       "wb:eligStatus": "DEBARRED",
       "wb:suppEligStat": "DEBARRED",
-      "wb:ineligiblyStatus": null
+      "wb:ineligiblyStatus": "Permanent"
     }
   },
   "@context": "https://ammitto.org/api/v1/context.jsonld"
