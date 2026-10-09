@@ -2455,26 +2455,6 @@
   ammitto:status "active" ;
   ammitto:referenceNumber "IQe.199" ;
   ammitto:rawSourceData [ a ammitto:RawSourceData ; ammitto:sourceFormat "xml" ; ammitto:sourceSpecificFields """{"un:dataId":"6908334","un:versionNum":"1","un:entityType":"entity"}""" ] .
-<https://www.ammitto.org/entity/un/iqe200>
-  a ammitto:OrganizationEntity ;
-  ammitto:entityType "organization" ;
-  ammitto:hasName [ a ammitto:NameVariant ; ammitto:fullName "LOGARCHEO S.A." ; ammitto:script "Latn" ; ammitto:isPrimary "true"^^xsd:boolean ] ;
-  ammitto:hasName [ a ammitto:NameVariant ; ammitto:fullName "LOGARCHEO AG" ; ammitto:script "Latn" ; ammitto:isPrimary "false"^^xsd:boolean ] ;
-  ammitto:hasSanctionEntry <https://www.ammitto.org/entry/un/consolidated-list/iqe200> ;
-  ammitto:remarks "Federal No.: CH-2 17-0-431-423-3 (Switzerland)" ;
-  ammitto:addresses [ a ammitto:Address ; ammitto:street "Chemin du Carmel" ; ammitto:city "1661 Le Paquier-Montbarry" ; ammitto:country "Switzerland" ] .
-<https://www.ammitto.org/entry/un/consolidated-list/iqe200>
-  a ammitto:SanctionEntry ;
-  ammitto:entityId <https://www.ammitto.org/entity/un/iqe200> ;
-  ammitto:hasAuthority <https://www.ammitto.org/authority/un> ;
-  ammitto:hasRegime <https://www.ammitto.org/regime/iraq> ;
-  ammitto:hasEffect [ a ammitto:SanctionEffect ; ammitto:effectType "asset_freeze" ; ammitto:scope "full" ] ;
-  ammitto:hasEffect [ a ammitto:SanctionEffect ; ammitto:effectType "travel_ban" ; ammitto:scope "full" ] ;
-  ammitto:hasPeriod [ a ammitto:TemporalPeriod ; ammitto:listedDate "2004-04-26"^^xsd:date ; ammitto:effectiveDate "2004-04-26"^^xsd:date ; ammitto:isIndefinite "true"^^xsd:boolean ] ;
-  ammitto:status "active" ;
-  ammitto:referenceNumber "IQe.200" ;
-  ammitto:remarks "Federal No.: CH-2 17-0-431-423-3 (Switzerland)" ;
-  ammitto:rawSourceData [ a ammitto:RawSourceData ; ammitto:sourceFormat "xml" ; ammitto:sourceSpecificFields """{"un:dataId":"6908335","un:versionNum":"1","un:entityType":"entity"}""" ] .
 <https://www.ammitto.org/entity/un/iqe203>
   a ammitto:OrganizationEntity ;
   ammitto:entityType "organization" ;
