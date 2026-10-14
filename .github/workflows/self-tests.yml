@@ -55,3 +55,6 @@ jobs:
 
       - name: Self-test the aggregate publisher
         run: .github/scripts/publish_aggregates_test.sh
+
+      - name: Self-test RU publication suppression
+        run: .github/scripts/suppress_unpublished_ru_test.sh

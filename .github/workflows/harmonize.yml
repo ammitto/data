@@ -179,19 +179,10 @@ jobs:
           # caught. Per-file transform errors are never exempt, for any
           # code.
           #
-          # The consequence worth naming: ru's per-source endpoint,
-          # api/v1/sources/ru.jsonld, stops being rewritten and keeps
-          # SERVING whatever it last held while the rest of the publish
-          # resumes around it. The exporter writes that file only when a
-          # source produced entities, and the client treats its presence
-          # as "this source exists" -- so ru reads as a healthy published
-          # source carrying July data, and grows relatively staler every
-          # day the others update. all.jsonld, search-index.json and
-          # stats.json are rebuilt from the current run and carry no ru
-          # rows, so the staleness is confined to that one endpoint.
-          # Accepted here because the alternative is publishing nothing
-          # at all; removing or suppressing the stale aggregate is its
-          # own change.
+          # The RU exemption allows healthy sources to publish while RU has
+          # no input. After success, suppress_unpublished_ru.sh checks this
+          # run's report and statistics before removing only stale RU
+          # aggregates. Unexpected RU faults fail publication instead.
           #
           # un_vessels tripped the same gate until this morning and is
           # deliberately not named: data-un-vessels#5 stopped .gitignore
@@ -226,6 +217,12 @@ jobs:
           ammitto harmonize --all --sources-dir ./sources --output-dir ./api/v1 \
             --combine --verbose --allow-empty ru \
             --report "$RUNNER_TEMP/harmonize-report.json"
+
+      - name: Self-test RU publication suppression
+        run: .github/scripts/suppress_unpublished_ru_test.sh
+
+      - name: Suppress unpublished RU aggregates
+        run: .github/scripts/suppress_unpublished_ru.sh "$RUNNER_TEMP/harmonize-report.json" api/v1
 
       - name: Self-test the change detector
         run: .github/scripts/has_changes_test.sh
