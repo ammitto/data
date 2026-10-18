@@ -18,6 +18,12 @@
       "effectType": "debarment",
       "scope": "full",
       "description": "Excluded from World Bank-financed contracts"
+    },
+    {
+      "@type": "SanctionEffect",
+      "effectType": "debarment",
+      "scope": "full",
+      "description": "Cross-debarred by other development banks (AfDB, ADB, EBRD, IADB)"
     }
   ],
   "reasons": [
@@ -47,7 +53,7 @@
       "wb:legacyFlag": "N",
       "wb:unSuppFlag": "N",
       "wb:ineligFlag": "D",
-      "wb:crossDebarment": "N",
+      "wb:crossDebarment": "Y",
       "wb:crossDebarmentStatus": "CLEARED",
       "wb:eligStatus": "DEBARRED",
       "wb:suppEligStat": "DEBARRED",
@@ -56,10 +62,10 @@
       "wb:parent": null,
       "wb:amlEntrInd": null,
       "wb:rechkInd": "N",
-      "wb:createUser": "WB448470",
+      "wb:createUser": "WB583591",
       "wb:createUserName": null,
-      "wb:createDate": "2021-07-26T00:00:00.000Z",
-      "wb:createTime": "1900-01-01T12:47:11.000Z"
+      "wb:createDate": "2021-08-05T00:00:00.000Z",
+      "wb:createTime": "1900-01-01T12:43:11.000Z"
     }
   },
   "@context": "https://ammitto.org/api/v1/context.jsonld"
