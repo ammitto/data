@@ -1,220 +1,99 @@
 {
-  "@context": "https://ammitto.org/api/v1/context.jsonld",
+  "@context": {
+    "@vocab": "https://www.ammitto.org/ontology/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "label": "rdfs:label",
+    "comment": "rdfs:comment",
+    "subClassOf": {
+      "@id": "rdfs:subClassOf",
+      "@type": "@id"
+    },
+    "domain": {
+      "@id": "rdfs:domain",
+      "@type": "@id"
+    },
+    "range": {
+      "@id": "rdfs:range",
+      "@type": "@id"
+    },
+    "usages": {
+      "@id": "https://www.ammitto.org/ontology/usages",
+      "@type": "@json"
+    },
+    "properties": {
+      "@id": "https://www.ammitto.org/ontology/properties",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "equivalentClass": {
+      "@id": "owl:equivalentClass",
+      "@type": "@id"
+    },
+    "equivalentProperty": {
+      "@id": "owl:equivalentProperty",
+      "@type": "@id"
+    }
+  },
   "@graph": [
     {
       "@id": "https://www.ammitto.org/ontology/Entity",
       "@type": "rdfs:Class",
       "label": "Entity",
-      "comment": "Base class for all sanctionable entities",
+      "comment": "Common fields of sanctionable entities",
+      "equivalentClass": "https://ammitto.org/schema/v1/Entity",
       "properties": [
         "https://www.ammitto.org/ontology/entityType",
         "https://www.ammitto.org/ontology/names",
-        "https://www.ammitto.org/ontology/aliases",
-        "https://www.ammitto.org/ontology/hasSanctionEntry"
+        "https://www.ammitto.org/ontology/sourceReferences",
+        "https://www.ammitto.org/ontology/linkedEntities",
+        "https://www.ammitto.org/ontology/hasSanctionEntry",
+        "https://www.ammitto.org/ontology/sameAs",
+        "https://www.ammitto.org/ontology/remarks"
       ]
     },
     {
-      "@id": "https://www.ammitto.org/ontology/PersonEntity",
+      "@id": "https://www.ammitto.org/ontology/LocalizedString",
       "@type": "rdfs:Class",
-      "label": "Person Entity",
-      "comment": "A human individual subject to sanctions",
-      "subClassOf": "https://www.ammitto.org/ontology/Entity",
+      "label": "Localized String",
+      "comment": "Canonical localized string publication fields",
+      "equivalentClass": "https://ammitto.org/schema/v1/LocalizedString",
       "properties": [
-        "https://www.ammitto.org/ontology/birthInfo",
-        "https://www.ammitto.org/ontology/nationalities",
-        "https://www.ammitto.org/ontology/documents",
-        "https://www.ammitto.org/ontology/gender"
+        "https://www.ammitto.org/ontology/value",
+        "https://www.ammitto.org/ontology/lang",
+        "https://www.ammitto.org/ontology/script",
+        "https://www.ammitto.org/ontology/region",
+        "https://www.ammitto.org/ontology/transliterationSystem",
+        "https://www.ammitto.org/ontology/isPrimary",
+        "https://www.ammitto.org/ontology/isTransliteration"
       ]
     },
     {
-      "@id": "https://www.ammitto.org/ontology/OrganizationEntity",
+      "@id": "https://www.ammitto.org/ontology/NameVariant",
       "@type": "rdfs:Class",
-      "label": "Organization Entity",
-      "comment": "A legal entity (company, government, etc.) subject to sanctions",
-      "subClassOf": "https://www.ammitto.org/ontology/Entity",
-      "properties": [
-        "https://www.ammitto.org/ontology/registration",
-        "https://www.ammitto.org/ontology/addresses",
-        "https://www.ammitto.org/ontology/businessType"
-      ]
-    },
-    {
-      "@id": "https://www.ammitto.org/ontology/VesselEntity",
-      "@type": "rdfs:Class",
-      "label": "Vessel Entity",
-      "comment": "A maritime vessel subject to sanctions",
-      "subClassOf": "https://www.ammitto.org/ontology/Entity",
-      "properties": [
-        "https://www.ammitto.org/ontology/imo",
-        "https://www.ammitto.org/ontology/mmsi",
-        "https://www.ammitto.org/ontology/flag",
-        "https://www.ammitto.org/ontology/tonnage",
-        "https://www.ammitto.org/ontology/callSign",
-        "https://www.ammitto.org/ontology/buildDate"
-      ]
-    },
-    {
-      "@id": "https://www.ammitto.org/ontology/AircraftEntity",
-      "@type": "rdfs:Class",
-      "label": "Aircraft Entity",
-      "comment": "An aircraft subject to sanctions",
-      "subClassOf": "https://www.ammitto.org/ontology/Entity",
-      "properties": [
-        "https://www.ammitto.org/ontology/registrationNumber",
-        "https://www.ammitto.org/ontology/manufacturer",
-        "https://www.ammitto.org/ontology/model",
-        "https://www.ammitto.org/ontology/serialNumber"
-      ]
-    },
-    {
-      "@id": "https://www.ammitto.org/ontology/SanctionEntry",
-      "@type": "rdfs:Class",
-      "label": "Sanction Entry",
-      "comment": "A sanction record linking an entity to its sanction details",
-      "properties": [
-        "https://www.ammitto.org/ontology/entityId",
-        "https://www.ammitto.org/ontology/authority",
-        "https://www.ammitto.org/ontology/regime",
-        "https://www.ammitto.org/ontology/legalBases",
-        "https://www.ammitto.org/ontology/status",
-        "https://www.ammitto.org/ontology/listingDate",
-        "https://www.ammitto.org/ontology/measures",
-        "https://www.ammitto.org/ontology/announcement"
-      ]
-    },
-    {
-      "@id": "https://www.ammitto.org/ontology/Authority",
-      "@type": "rdfs:Class",
-      "label": "Authority",
-      "comment": "An issuing authority for sanctions (e.g., UN, EU, UK)",
-      "properties": [
-        "https://www.ammitto.org/ontology/code",
-        "https://www.ammitto.org/ontology/name",
-        "https://www.ammitto.org/ontology/countryCode",
-        "https://www.ammitto.org/ontology/url"
-      ]
-    },
-    {
-      "@id": "https://www.ammitto.org/ontology/Announcement",
-      "@type": "rdfs:Class",
-      "label": "Announcement",
-      "comment": "A publication or list update from an authority",
-      "properties": [
-        "https://www.ammitto.org/ontology/title",
-        "https://www.ammitto.org/ontology/number",
-        "https://www.ammitto.org/ontology/date",
-        "https://www.ammitto.org/ontology/effectiveDate",
-        "https://www.ammitto.org/ontology/issuingAuthority",
-        "https://www.ammitto.org/ontology/measures"
-      ]
-    },
-    {
-      "@id": "https://www.ammitto.org/ontology/SanctionRegime",
-      "@type": "rdfs:Class",
-      "label": "Sanction Regime",
-      "comment": "A sanctions regime (e.g., DPRK, Iran, Russia)",
-      "properties": [
-        "https://www.ammitto.org/ontology/code",
-        "https://www.ammitto.org/ontology/name",
-        "https://www.ammitto.org/ontology/description"
-      ]
-    },
-    {
-      "@id": "https://www.ammitto.org/ontology/LegalInstrument",
-      "@type": "rdfs:Class",
-      "label": "Legal Instrument",
-      "comment": "A legal basis for sanctions (resolution, regulation, etc.)",
-      "properties": [
-        "https://www.ammitto.org/ontology/identifier",
-        "https://www.ammitto.org/ontology/title",
-        "https://www.ammitto.org/ontology/type",
-        "https://www.ammitto.org/ontology/publicationDate",
-        "https://www.ammitto.org/ontology/url"
-      ]
-    },
-    {
-      "@id": "https://www.ammitto.org/ontology/SanctionsList",
-      "@type": "rdfs:Class",
-      "label": "Sanctions List",
-      "comment": "A specific sanctions list (e.g., EU Consolidated List, OFAC SDN)",
-      "properties": [
-        "https://www.ammitto.org/ontology/name",
-        "https://www.ammitto.org/ontology/authority",
-        "https://www.ammitto.org/ontology/description",
-        "https://www.ammitto.org/ontology/listType",
-        "https://www.ammitto.org/ontology/url"
-      ]
-    },
-    {
-      "@id": "https://www.ammitto.org/ontology/Country",
-      "@type": "rdfs:Class",
-      "label": "Country",
-      "comment": "A country or territory (ISO 3166-1)",
-      "properties": [
-        "https://www.ammitto.org/ontology/code",
-        "https://www.ammitto.org/ontology/name"
-      ]
-    },
-    {
-      "@id": "https://www.ammitto.org/ontology/Measure",
-      "@type": "rdfs:Class",
-      "label": "Measure",
-      "comment": "A specific sanctions measure (asset freeze, travel ban, etc.)",
-      "properties": [
-        "https://www.ammitto.org/ontology/code",
-        "https://www.ammitto.org/ontology/name",
-        "https://www.ammitto.org/ontology/description"
-      ]
-    },
-    {
-      "@id": "https://www.ammitto.org/ontology/Name",
-      "@type": "rdfs:Class",
-      "label": "Name",
-      "comment": "A name variant for an entity",
+      "label": "Name Variant",
+      "comment": "Canonical name variant publication fields",
+      "equivalentClass": "https://ammitto.org/schema/v1/NameVariant",
       "properties": [
         "https://www.ammitto.org/ontology/fullName",
-        "https://www.ammitto.org/ontology/lastName",
         "https://www.ammitto.org/ontology/firstName",
         "https://www.ammitto.org/ontology/middleName",
-        "https://www.ammitto.org/ontology/isPrimary",
+        "https://www.ammitto.org/ontology/lastName",
         "https://www.ammitto.org/ontology/script",
-        "https://www.ammitto.org/ontology/language"
-      ]
-    },
-    {
-      "@id": "https://www.ammitto.org/ontology/Address",
-      "@type": "rdfs:Class",
-      "label": "Address",
-      "comment": "A physical address",
-      "properties": [
-        "https://www.ammitto.org/ontology/street",
-        "https://www.ammitto.org/ontology/city",
-        "https://www.ammitto.org/ontology/state",
-        "https://www.ammitto.org/ontology/postalCode",
-        "https://www.ammitto.org/ontology/country",
-        "https://www.ammitto.org/ontology/countryCode",
-        "https://www.ammitto.org/ontology/careOf"
-      ]
-    },
-    {
-      "@id": "https://www.ammitto.org/ontology/Identifier",
-      "@type": "rdfs:Class",
-      "label": "Identifier",
-      "comment": "An identifier document (passport, national ID, etc.)",
-      "properties": [
-        "https://www.ammitto.org/ontology/type",
-        "https://www.ammitto.org/ontology/value",
-        "https://www.ammitto.org/ontology/country",
-        "https://www.ammitto.org/ontology/issuer",
-        "https://www.ammitto.org/ontology/issueDate",
-        "https://www.ammitto.org/ontology/expiryDate"
+        "https://www.ammitto.org/ontology/language",
+        "https://www.ammitto.org/ontology/title",
+        "https://www.ammitto.org/ontology/function",
+        "https://www.ammitto.org/ontology/isPrimary"
       ]
     },
     {
       "@id": "https://www.ammitto.org/ontology/BirthInfo",
       "@type": "rdfs:Class",
-      "label": "Birth Information",
-      "comment": "Birth date and place information",
+      "label": "Birth Info",
+      "comment": "Canonical birth info publication fields",
+      "equivalentClass": "https://ammitto.org/schema/v1/BirthInfo",
       "properties": [
         "https://www.ammitto.org/ontology/date",
         "https://www.ammitto.org/ontology/dateRangeFrom",
@@ -222,19 +101,453 @@
         "https://www.ammitto.org/ontology/year",
         "https://www.ammitto.org/ontology/yearRangeFrom",
         "https://www.ammitto.org/ontology/yearRangeTo",
-        "https://www.ammitto.org/ontology/place",
+        "https://www.ammitto.org/ontology/circa",
+        "https://www.ammitto.org/ontology/city",
+        "https://www.ammitto.org/ontology/region",
         "https://www.ammitto.org/ontology/country",
-        "https://www.ammitto.org/ontology/circa"
+        "https://www.ammitto.org/ontology/countryIsoCode"
       ]
     },
     {
-      "@id": "https://www.ammitto.org/ontology/Nationality",
+      "@id": "https://www.ammitto.org/ontology/Address",
       "@type": "rdfs:Class",
-      "label": "Nationality",
-      "comment": "A nationality or citizenship",
+      "label": "Address",
+      "comment": "Canonical address publication fields",
+      "equivalentClass": "https://ammitto.org/schema/v1/Address",
       "properties": [
+        "https://www.ammitto.org/ontology/street",
+        "https://www.ammitto.org/ontology/city",
+        "https://www.ammitto.org/ontology/state",
+        "https://www.ammitto.org/ontology/country",
+        "https://www.ammitto.org/ontology/countryIsoCode",
+        "https://www.ammitto.org/ontology/postalCode"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/Identification",
+      "@type": "rdfs:Class",
+      "label": "Identification",
+      "comment": "Canonical identification publication fields",
+      "equivalentClass": "https://ammitto.org/schema/v1/Identification",
+      "properties": [
+        "https://www.ammitto.org/ontology/type",
+        "https://www.ammitto.org/ontology/number",
+        "https://www.ammitto.org/ontology/issuingCountry",
+        "https://www.ammitto.org/ontology/countryIsoCode",
+        "https://www.ammitto.org/ontology/note",
+        "https://www.ammitto.org/ontology/issueDate",
+        "https://www.ammitto.org/ontology/expiryDate"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/EntityLink",
+      "@type": "rdfs:Class",
+      "label": "Entity Link",
+      "comment": "Canonical entity link publication fields",
+      "equivalentClass": "https://ammitto.org/schema/v1/EntityLink",
+      "properties": [
+        "https://www.ammitto.org/ontology/targetId",
+        "https://www.ammitto.org/ontology/relationship",
+        "https://www.ammitto.org/ontology/targetName",
+        "https://www.ammitto.org/ontology/targetType",
+        "https://www.ammitto.org/ontology/fromDate",
+        "https://www.ammitto.org/ontology/toDate"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/SourceReference",
+      "@type": "rdfs:Class",
+      "label": "Source Reference",
+      "comment": "Canonical source reference publication fields",
+      "equivalentClass": "https://ammitto.org/schema/v1/SourceReference",
+      "properties": [
+        "https://www.ammitto.org/ontology/sourceCode",
+        "https://www.ammitto.org/ontology/referenceNumber",
+        "https://www.ammitto.org/ontology/url",
+        "https://www.ammitto.org/ontology/retrievedAt"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/LegalCitation",
+      "@type": "rdfs:Class",
+      "label": "Legal Citation",
+      "comment": "Canonical legal citation publication fields",
+      "equivalentClass": "https://ammitto.org/schema/v1/LegalCitation",
+      "properties": [
+        "https://www.ammitto.org/ontology/legalInstrumentId",
+        "https://www.ammitto.org/ontology/articles",
+        "https://www.ammitto.org/ontology/sections",
+        "https://www.ammitto.org/ontology/paragraphs",
+        "https://www.ammitto.org/ontology/citationType",
+        "https://www.ammitto.org/ontology/context",
+        "https://www.ammitto.org/ontology/quotedText"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/SanctionEffect",
+      "@type": "rdfs:Class",
+      "label": "Sanction Effect",
+      "comment": "Canonical sanction effect publication fields",
+      "equivalentClass": "https://ammitto.org/schema/v1/SanctionEffect",
+      "properties": [
+        "https://www.ammitto.org/ontology/effectType",
+        "https://www.ammitto.org/ontology/scope",
+        "https://www.ammitto.org/ontology/description"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/SanctionReason",
+      "@type": "rdfs:Class",
+      "label": "Sanction Reason",
+      "comment": "Canonical sanction reason publication fields",
+      "equivalentClass": "https://ammitto.org/schema/v1/SanctionReason",
+      "properties": [
+        "https://www.ammitto.org/ontology/category",
+        "https://www.ammitto.org/ontology/description",
+        "https://www.ammitto.org/ontology/citedProvisions"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/TemporalPeriod",
+      "@type": "rdfs:Class",
+      "label": "Temporal Period",
+      "comment": "Canonical temporal period publication fields",
+      "equivalentClass": "https://ammitto.org/schema/v1/TemporalPeriod",
+      "properties": [
+        "https://www.ammitto.org/ontology/listedDate",
+        "https://www.ammitto.org/ontology/effectiveDate",
+        "https://www.ammitto.org/ontology/expiryDate",
+        "https://www.ammitto.org/ontology/lastUpdated",
+        "https://www.ammitto.org/ontology/isIndefinite"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/NoticeReference",
+      "@type": "rdfs:Class",
+      "label": "Notice Reference",
+      "comment": "Canonical notice reference publication fields",
+      "equivalentClass": "https://ammitto.org/schema/v1/NoticeReference",
+      "properties": [
+        "https://www.ammitto.org/ontology/noticeNumber",
+        "https://www.ammitto.org/ontology/noticeTitle",
+        "https://www.ammitto.org/ontology/noticeUrl",
+        "https://www.ammitto.org/ontology/noticeDate"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/StatusChange",
+      "@type": "rdfs:Class",
+      "label": "Status Change",
+      "comment": "Canonical status change publication fields",
+      "equivalentClass": "https://ammitto.org/schema/v1/StatusChange",
+      "properties": [
+        "https://www.ammitto.org/ontology/date",
+        "https://www.ammitto.org/ontology/suspensionEndDate",
+        "https://www.ammitto.org/ontology/fromStatus",
+        "https://www.ammitto.org/ontology/toStatus",
+        "https://www.ammitto.org/ontology/reason",
+        "https://www.ammitto.org/ontology/noticeReference"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/OfficialAnnouncement",
+      "@type": "rdfs:Class",
+      "label": "Official Announcement",
+      "comment": "Canonical official announcement publication fields",
+      "equivalentClass": "https://ammitto.org/schema/v1/OfficialAnnouncement",
+      "properties": [
+        "https://www.ammitto.org/ontology/title",
+        "https://www.ammitto.org/ontology/url",
+        "https://www.ammitto.org/ontology/publishTime",
+        "https://www.ammitto.org/ontology/author",
+        "https://www.ammitto.org/ontology/documentType",
+        "https://www.ammitto.org/ontology/documentId",
+        "https://www.ammitto.org/ontology/signatory",
+        "https://www.ammitto.org/ontology/signatoryTitle",
+        "https://www.ammitto.org/ontology/publisher",
+        "https://www.ammitto.org/ontology/authority",
+        "https://www.ammitto.org/ontology/content",
+        "https://www.ammitto.org/ontology/language",
+        "https://www.ammitto.org/ontology/publishDate",
+        "https://www.ammitto.org/ontology/authorDate"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/SanctionPeriodModification",
+      "@type": "rdfs:Class",
+      "label": "Sanction Period Modification",
+      "comment": "Canonical sanction period modification publication fields",
+      "equivalentClass": "https://ammitto.org/schema/v1/SanctionPeriodModification",
+      "properties": [
+        "https://www.ammitto.org/ontology/targetType",
+        "https://www.ammitto.org/ontology/targetAnnouncementId",
+        "https://www.ammitto.org/ontology/targetAnnouncementDocumentId",
+        "https://www.ammitto.org/ontology/action",
+        "https://www.ammitto.org/ontology/effectiveTime",
+        "https://www.ammitto.org/ontology/untilTime",
+        "https://www.ammitto.org/ontology/notes",
+        "https://www.ammitto.org/ontology/targetAnnouncementDate",
+        "https://www.ammitto.org/ontology/effectiveDate",
+        "https://www.ammitto.org/ontology/untilDate",
+        "https://www.ammitto.org/ontology/targetId",
+        "https://www.ammitto.org/ontology/affectedEntityCount",
+        "https://www.ammitto.org/ontology/affectedEntityNames",
+        "https://www.ammitto.org/ontology/announcement",
+        "https://www.ammitto.org/ontology/legalCitations"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/RawSourceData",
+      "@type": "rdfs:Class",
+      "label": "Raw Source Data",
+      "comment": "Canonical raw source data publication fields",
+      "equivalentClass": "https://ammitto.org/schema/v1/RawSourceData",
+      "properties": [
+        "https://www.ammitto.org/ontology/sourceFile",
+        "https://www.ammitto.org/ontology/sourceFormat",
+        "https://www.ammitto.org/ontology/sourceXPath",
+        "https://www.ammitto.org/ontology/rawContent",
+        "https://www.ammitto.org/ontology/sourceSpecificFields"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/Tonnage",
+      "@type": "rdfs:Class",
+      "label": "Tonnage",
+      "comment": "Canonical tonnage publication fields",
+      "equivalentClass": "https://ammitto.org/schema/v1/Tonnage",
+      "properties": [
+        "https://www.ammitto.org/ontology/grossRegisterTonnage",
+        "https://www.ammitto.org/ontology/grossTonnage",
+        "https://www.ammitto.org/ontology/deadweightTonnage",
+        "https://www.ammitto.org/ontology/netTonnage"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/PersonEntity",
+      "@type": "rdfs:Class",
+      "label": "Person Entity",
+      "comment": "Canonical person entity publication fields",
+      "equivalentClass": "https://ammitto.org/schema/v1/PersonEntity",
+      "subClassOf": "https://www.ammitto.org/ontology/Entity",
+      "properties": [
+        "https://www.ammitto.org/ontology/entityType",
+        "https://www.ammitto.org/ontology/names",
+        "https://www.ammitto.org/ontology/sourceReferences",
+        "https://www.ammitto.org/ontology/linkedEntities",
+        "https://www.ammitto.org/ontology/hasSanctionEntry",
+        "https://www.ammitto.org/ontology/sameAs",
+        "https://www.ammitto.org/ontology/remarks",
+        "https://www.ammitto.org/ontology/identifications",
+        "https://www.ammitto.org/ontology/addresses",
+        "https://www.ammitto.org/ontology/birthInfo",
+        "https://www.ammitto.org/ontology/deathDate",
+        "https://www.ammitto.org/ontology/nationalities",
+        "https://www.ammitto.org/ontology/gender",
+        "https://www.ammitto.org/ontology/title",
+        "https://www.ammitto.org/ontology/position",
+        "https://www.ammitto.org/ontology/affiliation"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/OrganizationEntity",
+      "@type": "rdfs:Class",
+      "label": "Organization Entity",
+      "comment": "Canonical organization entity publication fields",
+      "equivalentClass": "https://ammitto.org/schema/v1/OrganizationEntity",
+      "subClassOf": "https://www.ammitto.org/ontology/Entity",
+      "properties": [
+        "https://www.ammitto.org/ontology/entityType",
+        "https://www.ammitto.org/ontology/names",
+        "https://www.ammitto.org/ontology/sourceReferences",
+        "https://www.ammitto.org/ontology/linkedEntities",
+        "https://www.ammitto.org/ontology/hasSanctionEntry",
+        "https://www.ammitto.org/ontology/sameAs",
+        "https://www.ammitto.org/ontology/remarks",
+        "https://www.ammitto.org/ontology/identifications",
+        "https://www.ammitto.org/ontology/addresses",
+        "https://www.ammitto.org/ontology/registrationNumber",
+        "https://www.ammitto.org/ontology/legalForm",
+        "https://www.ammitto.org/ontology/country",
+        "https://www.ammitto.org/ontology/countryIsoCode",
+        "https://www.ammitto.org/ontology/website",
+        "https://www.ammitto.org/ontology/sector",
+        "https://www.ammitto.org/ontology/incorporationDate",
+        "https://www.ammitto.org/ontology/dissolutionDate",
+        "https://www.ammitto.org/ontology/beneficialOwners"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/VesselEntity",
+      "@type": "rdfs:Class",
+      "label": "Vessel Entity",
+      "comment": "Canonical vessel entity publication fields",
+      "equivalentClass": "https://ammitto.org/schema/v1/VesselEntity",
+      "subClassOf": "https://www.ammitto.org/ontology/Entity",
+      "properties": [
+        "https://www.ammitto.org/ontology/entityType",
+        "https://www.ammitto.org/ontology/names",
+        "https://www.ammitto.org/ontology/sourceReferences",
+        "https://www.ammitto.org/ontology/linkedEntities",
+        "https://www.ammitto.org/ontology/hasSanctionEntry",
+        "https://www.ammitto.org/ontology/sameAs",
+        "https://www.ammitto.org/ontology/remarks",
+        "https://www.ammitto.org/ontology/imoNumber",
+        "https://www.ammitto.org/ontology/mmsi",
+        "https://www.ammitto.org/ontology/callSign",
+        "https://www.ammitto.org/ontology/flagState",
+        "https://www.ammitto.org/ontology/flagStateIsoCode",
+        "https://www.ammitto.org/ontology/vesselType",
+        "https://www.ammitto.org/ontology/vesselTypeCode",
+        "https://www.ammitto.org/ontology/builder",
+        "https://www.ammitto.org/ontology/buildYear",
+        "https://www.ammitto.org/ontology/length",
+        "https://www.ammitto.org/ontology/tonnage",
+        "https://www.ammitto.org/ontology/grossTonnage",
+        "https://www.ammitto.org/ontology/deadweightTonnage",
+        "https://www.ammitto.org/ontology/owner",
+        "https://www.ammitto.org/ontology/operator",
+        "https://www.ammitto.org/ontology/registeredOwner",
+        "https://www.ammitto.org/ontology/technicalManager",
+        "https://www.ammitto.org/ontology/previousNames",
+        "https://www.ammitto.org/ontology/previousFlags"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/AircraftEntity",
+      "@type": "rdfs:Class",
+      "label": "Aircraft Entity",
+      "comment": "Canonical aircraft entity publication fields",
+      "equivalentClass": "https://ammitto.org/schema/v1/AircraftEntity",
+      "subClassOf": "https://www.ammitto.org/ontology/Entity",
+      "properties": [
+        "https://www.ammitto.org/ontology/entityType",
+        "https://www.ammitto.org/ontology/names",
+        "https://www.ammitto.org/ontology/sourceReferences",
+        "https://www.ammitto.org/ontology/linkedEntities",
+        "https://www.ammitto.org/ontology/hasSanctionEntry",
+        "https://www.ammitto.org/ontology/sameAs",
+        "https://www.ammitto.org/ontology/remarks",
+        "https://www.ammitto.org/ontology/serialNumber",
+        "https://www.ammitto.org/ontology/manufacturer",
+        "https://www.ammitto.org/ontology/model",
+        "https://www.ammitto.org/ontology/registrationNumber",
+        "https://www.ammitto.org/ontology/flagState",
+        "https://www.ammitto.org/ontology/aircraftType",
+        "https://www.ammitto.org/ontology/buildYear",
+        "https://www.ammitto.org/ontology/owner",
+        "https://www.ammitto.org/ontology/operator"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/ListType",
+      "@type": "rdfs:Class",
+      "label": "List Type",
+      "comment": "Canonical list type publication fields",
+      "equivalentClass": "https://ammitto.org/schema/v1/ListType",
+      "properties": [
+        "https://www.ammitto.org/ontology/name",
+        "https://www.ammitto.org/ontology/localizedName",
+        "https://www.ammitto.org/ontology/category",
+        "https://www.ammitto.org/ontology/description"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/SanctionEntry",
+      "@type": "rdfs:Class",
+      "label": "Sanction Entry",
+      "comment": "Canonical sanction entry publication fields",
+      "equivalentClass": "https://ammitto.org/schema/v1/SanctionEntry",
+      "properties": [
+        "https://www.ammitto.org/ontology/entityId",
+        "https://www.ammitto.org/ontology/authority",
+        "https://www.ammitto.org/ontology/regime",
+        "https://www.ammitto.org/ontology/listType",
+        "https://www.ammitto.org/ontology/legalBases",
+        "https://www.ammitto.org/ontology/effects",
+        "https://www.ammitto.org/ontology/reasons",
+        "https://www.ammitto.org/ontology/period",
+        "https://www.ammitto.org/ontology/status",
+        "https://www.ammitto.org/ontology/statusHistory",
+        "https://www.ammitto.org/ontology/modifications",
+        "https://www.ammitto.org/ontology/referenceNumber",
+        "https://www.ammitto.org/ontology/remarks",
+        "https://www.ammitto.org/ontology/groupId",
+        "https://www.ammitto.org/ontology/legalCitations",
+        "https://www.ammitto.org/ontology/announcement",
+        "https://www.ammitto.org/ontology/rawSourceData"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/LegalInstrument",
+      "@type": "rdfs:Class",
+      "label": "Legal Instrument",
+      "comment": "Canonical legal instrument publication fields",
+      "equivalentClass": "https://ammitto.org/schema/v1/LegalInstrument",
+      "properties": [
+        "https://www.ammitto.org/ontology/type",
+        "https://www.ammitto.org/ontology/identifier",
+        "https://www.ammitto.org/ontology/issuingBody",
+        "https://www.ammitto.org/ontology/issuanceDate",
+        "https://www.ammitto.org/ontology/url",
+        "https://www.ammitto.org/ontology/name",
+        "https://www.ammitto.org/ontology/documentId",
+        "https://www.ammitto.org/ontology/content",
+        "https://www.ammitto.org/ontology/citationType",
+        "https://www.ammitto.org/ontology/lang",
+        "https://www.ammitto.org/ontology/title",
+        "https://www.ammitto.org/ontology/publishDate",
+        "https://www.ammitto.org/ontology/effectiveDate",
+        "https://www.ammitto.org/ontology/articles"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/Authority",
+      "@type": "rdfs:Class",
+      "label": "Authority",
+      "comment": "Canonical authority publication fields",
+      "equivalentClass": "https://ammitto.org/schema/v1/Authority",
+      "properties": [
+        "https://www.ammitto.org/ontology/name",
         "https://www.ammitto.org/ontology/countryCode",
-        "https://www.ammitto.org/ontology/country"
+        "https://www.ammitto.org/ontology/url"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/SanctionRegime",
+      "@type": "rdfs:Class",
+      "label": "Sanction Regime",
+      "comment": "Canonical sanction regime publication fields",
+      "equivalentClass": "https://ammitto.org/schema/v1/SanctionRegime",
+      "properties": [
+        "https://www.ammitto.org/ontology/name",
+        "https://www.ammitto.org/ontology/code",
+        "https://www.ammitto.org/ontology/description"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/DocumentType",
+      "@type": "rdfs:Class",
+      "label": "Document Type",
+      "comment": "Canonical document type publication fields",
+      "equivalentClass": "https://ammitto.org/schema/v1/DocumentType",
+      "properties": [
+        "https://www.ammitto.org/ontology/identifier",
+        "https://www.ammitto.org/ontology/name"
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/Organization",
+      "@type": "rdfs:Class",
+      "label": "Organization",
+      "comment": "Canonical organization publication fields",
+      "equivalentClass": "https://ammitto.org/schema/v1/Organization",
+      "properties": [
+        "https://www.ammitto.org/ontology/identifier",
+        "https://www.ammitto.org/ontology/name",
+        "https://www.ammitto.org/ontology/type",
+        "https://www.ammitto.org/ontology/parentId",
+        "https://www.ammitto.org/ontology/url"
       ]
     }
   ]

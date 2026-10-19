@@ -1,516 +1,334 @@
 {
-  "@context": "https://ammitto.org/api/v1/context.jsonld",
+  "@context": {
+    "@vocab": "https://www.ammitto.org/ontology/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "label": "rdfs:label",
+    "comment": "rdfs:comment",
+    "subClassOf": {
+      "@id": "rdfs:subClassOf",
+      "@type": "@id"
+    },
+    "domain": {
+      "@id": "rdfs:domain",
+      "@type": "@id"
+    },
+    "range": {
+      "@id": "rdfs:range",
+      "@type": "@id"
+    },
+    "usages": {
+      "@id": "https://www.ammitto.org/ontology/usages",
+      "@type": "@json"
+    },
+    "properties": {
+      "@id": "https://www.ammitto.org/ontology/properties",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "equivalentClass": {
+      "@id": "owl:equivalentClass",
+      "@type": "@id"
+    },
+    "equivalentProperty": {
+      "@id": "owl:equivalentProperty",
+      "@type": "@id"
+    }
+  },
   "@graph": [
     {
-      "@id": "https://www.ammitto.org/ontology/entityType",
+      "@id": "https://www.ammitto.org/ontology/value",
       "@type": "rdf:Property",
-      "label": "Entity Type",
-      "comment": "The type of entity",
-      "domain": "https://www.ammitto.org/ontology/Entity",
+      "label": "Value",
+      "comment": "Canonical value field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/value",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/LocalizedString",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/LocalizedString",
       "range": "http://www.w3.org/2001/XMLSchema#string"
     },
     {
-      "@id": "https://www.ammitto.org/ontology/names",
+      "@id": "https://www.ammitto.org/ontology/lang",
       "@type": "rdf:Property",
-      "label": "Names",
-      "comment": "Name variants for the entity",
-      "domain": "https://www.ammitto.org/ontology/Entity",
-      "range": "https://www.ammitto.org/ontology/Name",
-      "isArray": true
-    },
-    {
-      "@id": "https://www.ammitto.org/ontology/aliases",
-      "@type": "rdf:Property",
-      "label": "Aliases",
-      "comment": "Alternative names or aliases",
-      "domain": "https://www.ammitto.org/ontology/Entity",
-      "range": "https://www.ammitto.org/ontology/Name",
-      "isArray": true
-    },
-    {
-      "@id": "https://www.ammitto.org/ontology/hasSanctionEntry",
-      "@type": "rdf:Property",
-      "label": "Has Sanction Entry",
-      "comment": "Links to sanction record",
-      "domain": "https://www.ammitto.org/ontology/Entity",
-      "range": "https://www.ammitto.org/ontology/SanctionEntry",
-      "isArray": true
-    },
-    {
-      "@id": "https://www.ammitto.org/ontology/birthInfo",
-      "@type": "rdf:Property",
-      "label": "Birth Info",
-      "comment": "Birth information",
-      "domain": "https://www.ammitto.org/ontology/PersonEntity",
-      "range": "https://www.ammitto.org/ontology/BirthInfo",
-      "isArray": true
-    },
-    {
-      "@id": "https://www.ammitto.org/ontology/nationalities",
-      "@type": "rdf:Property",
-      "label": "Nationalities",
-      "comment": "Nationalities",
-      "domain": "https://www.ammitto.org/ontology/PersonEntity",
-      "range": "https://www.ammitto.org/ontology/Nationality",
-      "isArray": true
-    },
-    {
-      "@id": "https://www.ammitto.org/ontology/documents",
-      "@type": "rdf:Property",
-      "label": "Documents",
-      "comment": "Identity documents",
-      "domain": "https://www.ammitto.org/ontology/PersonEntity",
-      "range": "https://www.ammitto.org/ontology/Identifier",
-      "isArray": true
-    },
-    {
-      "@id": "https://www.ammitto.org/ontology/gender",
-      "@type": "rdf:Property",
-      "label": "Gender",
-      "comment": "Gender",
-      "domain": "https://www.ammitto.org/ontology/PersonEntity",
+      "label": "Lang",
+      "comment": "Canonical lang field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/lang",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/LocalizedString",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        },
+        {
+          "class": "https://www.ammitto.org/ontology/LegalInstrument",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
       "range": "http://www.w3.org/2001/XMLSchema#string"
     },
     {
-      "@id": "https://www.ammitto.org/ontology/registration",
+      "@id": "https://www.ammitto.org/ontology/script",
       "@type": "rdf:Property",
-      "label": "Registration",
-      "comment": "Registration details",
-      "domain": "https://www.ammitto.org/ontology/OrganizationEntity",
-      "range": "https://www.ammitto.org/ontology/Registration"
-    },
-    {
-      "@id": "https://www.ammitto.org/ontology/businessType",
-      "@type": "rdf:Property",
-      "label": "Business Type",
-      "comment": "Type of business",
-      "domain": "https://www.ammitto.org/ontology/OrganizationEntity",
+      "label": "Script",
+      "comment": "Canonical script field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/script",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/LocalizedString",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        },
+        {
+          "class": "https://www.ammitto.org/ontology/NameVariant",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
       "range": "http://www.w3.org/2001/XMLSchema#string"
     },
     {
-      "@id": "https://www.ammitto.org/ontology/imo",
+      "@id": "https://www.ammitto.org/ontology/region",
       "@type": "rdf:Property",
-      "label": "IMO",
-      "comment": "IMO number",
-      "domain": "https://www.ammitto.org/ontology/VesselEntity",
+      "label": "Region",
+      "comment": "Canonical region field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/region",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/LocalizedString",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        },
+        {
+          "class": "https://www.ammitto.org/ontology/BirthInfo",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
       "range": "http://www.w3.org/2001/XMLSchema#string"
     },
     {
-      "@id": "https://www.ammitto.org/ontology/mmsi",
+      "@id": "https://www.ammitto.org/ontology/transliterationSystem",
       "@type": "rdf:Property",
-      "label": "MMSI",
-      "comment": "MMSI number",
-      "domain": "https://www.ammitto.org/ontology/VesselEntity",
-      "range": "http://www.w3.org/2001/XMLSchema#string"
-    },
-    {
-      "@id": "https://www.ammitto.org/ontology/flag",
-      "@type": "rdf:Property",
-      "label": "Flag",
-      "comment": "Flag state",
-      "domain": "https://www.ammitto.org/ontology/VesselEntity",
-      "range": "https://www.ammitto.org/ontology/Country"
-    },
-    {
-      "@id": "https://www.ammitto.org/ontology/tonnage",
-      "@type": "rdf:Property",
-      "label": "Tonnage",
-      "comment": "Gross tonnage",
-      "domain": "https://www.ammitto.org/ontology/VesselEntity",
-      "range": "http://www.w3.org/2001/XMLSchema#integer"
-    },
-    {
-      "@id": "https://www.ammitto.org/ontology/callSign",
-      "@type": "rdf:Property",
-      "label": "Call Sign",
-      "comment": "Radio call sign",
-      "domain": "https://www.ammitto.org/ontology/VesselEntity",
-      "range": "http://www.w3.org/2001/XMLSchema#string"
-    },
-    {
-      "@id": "https://www.ammitto.org/ontology/buildDate",
-      "@type": "rdf:Property",
-      "label": "Build Date",
-      "comment": "Date vessel was built",
-      "domain": "https://www.ammitto.org/ontology/VesselEntity",
-      "range": "http://www.w3.org/2001/XMLSchema#date"
-    },
-    {
-      "@id": "https://www.ammitto.org/ontology/registrationNumber",
-      "@type": "rdf:Property",
-      "label": "Registration Number",
-      "comment": "Aircraft registration",
-      "domain": "https://www.ammitto.org/ontology/AircraftEntity",
-      "range": "http://www.w3.org/2001/XMLSchema#string"
-    },
-    {
-      "@id": "https://www.ammitto.org/ontology/manufacturer",
-      "@type": "rdf:Property",
-      "label": "Manufacturer",
-      "comment": "Aircraft manufacturer",
-      "domain": "https://www.ammitto.org/ontology/AircraftEntity",
-      "range": "http://www.w3.org/2001/XMLSchema#string"
-    },
-    {
-      "@id": "https://www.ammitto.org/ontology/model",
-      "@type": "rdf:Property",
-      "label": "Model",
-      "comment": "Aircraft model",
-      "domain": "https://www.ammitto.org/ontology/AircraftEntity",
-      "range": "http://www.w3.org/2001/XMLSchema#string"
-    },
-    {
-      "@id": "https://www.ammitto.org/ontology/serialNumber",
-      "@type": "rdf:Property",
-      "label": "Serial Number",
-      "comment": "Aircraft serial number",
-      "domain": "https://www.ammitto.org/ontology/AircraftEntity",
-      "range": "http://www.w3.org/2001/XMLSchema#string"
-    },
-    {
-      "@id": "https://www.ammitto.org/ontology/addresses",
-      "@type": "rdf:Property",
-      "label": "Addresses",
-      "comment": "Physical addresses",
-      "domain": "https://www.ammitto.org/ontology/Entity",
-      "range": "https://www.ammitto.org/ontology/Address",
-      "isArray": true
-    },
-    {
-      "@id": "https://www.ammitto.org/ontology/entityId",
-      "@type": "rdf:Property",
-      "label": "Entity ID",
-      "comment": "Reference to entity",
-      "domain": "https://www.ammitto.org/ontology/SanctionEntry",
-      "range": "https://www.ammitto.org/ontology/Entity"
-    },
-    {
-      "@id": "https://www.ammitto.org/ontology/authority",
-      "@type": "rdf:Property",
-      "label": "Authority",
-      "comment": "Issuing authority",
-      "domain": "https://www.ammitto.org/ontology/SanctionEntry",
-      "range": "https://www.ammitto.org/ontology/Authority"
-    },
-    {
-      "@id": "https://www.ammitto.org/ontology/regime",
-      "@type": "rdf:Property",
-      "label": "Regime",
-      "comment": "Sanctions regime",
-      "domain": "https://www.ammitto.org/ontology/SanctionEntry",
-      "range": "https://www.ammitto.org/ontology/SanctionRegime"
-    },
-    {
-      "@id": "https://www.ammitto.org/ontology/legalBases",
-      "@type": "rdf:Property",
-      "label": "Legal Bases",
-      "comment": "Legal instruments",
-      "domain": "https://www.ammitto.org/ontology/SanctionEntry",
-      "range": "https://www.ammitto.org/ontology/LegalInstrument",
-      "isArray": true
-    },
-    {
-      "@id": "https://www.ammitto.org/ontology/status",
-      "@type": "rdf:Property",
-      "label": "Status",
-      "comment": "Current status",
-      "domain": "https://www.ammitto.org/ontology/SanctionEntry",
-      "range": "http://www.w3.org/2001/XMLSchema#string"
-    },
-    {
-      "@id": "https://www.ammitto.org/ontology/listingDate",
-      "@type": "rdf:Property",
-      "label": "Listing Date",
-      "comment": "Date listed",
-      "domain": "https://www.ammitto.org/ontology/SanctionEntry",
-      "range": "http://www.w3.org/2001/XMLSchema#date"
-    },
-    {
-      "@id": "https://www.ammitto.org/ontology/delistingDate",
-      "@type": "rdf:Property",
-      "label": "Delisting Date",
-      "comment": "Date removed from list",
-      "domain": "https://www.ammitto.org/ontology/SanctionEntry",
-      "range": "http://www.w3.org/2001/XMLSchema#date"
-    },
-    {
-      "@id": "https://www.ammitto.org/ontology/measures",
-      "@type": "rdf:Property",
-      "label": "Measures",
-      "comment": "Sanctions measures applied",
-      "domain": "https://www.ammitto.org/ontology/SanctionEntry",
-      "range": "https://www.ammitto.org/ontology/Measure",
-      "isArray": true
-    },
-    {
-      "@id": "https://www.ammitto.org/ontology/announcement",
-      "@type": "rdf:Property",
-      "label": "Announcement",
-      "comment": "Source announcement",
-      "domain": "https://www.ammitto.org/ontology/SanctionEntry",
-      "range": "https://www.ammitto.org/ontology/Announcement"
-    },
-    {
-      "@id": "https://www.ammitto.org/ontology/code",
-      "@type": "rdf:Property",
-      "label": "Code",
-      "comment": "Unique code identifier",
-      "domain": "https://www.ammitto.org/ontology/Authority",
-      "range": "http://www.w3.org/2001/XMLSchema#string"
-    },
-    {
-      "@id": "https://www.ammitto.org/ontology/name",
-      "@type": "rdf:Property",
-      "label": "Name",
-      "comment": "Name",
-      "domain": "https://www.ammitto.org/ontology/Authority",
-      "range": "http://www.w3.org/2001/XMLSchema#string"
-    },
-    {
-      "@id": "https://www.ammitto.org/ontology/countryCode",
-      "@type": "rdf:Property",
-      "label": "Country Code",
-      "comment": "ISO country code",
-      "domain": "https://www.ammitto.org/ontology/Authority",
-      "range": "http://www.w3.org/2001/XMLSchema#string"
-    },
-    {
-      "@id": "https://www.ammitto.org/ontology/url",
-      "@type": "rdf:Property",
-      "label": "URL",
-      "comment": "Official website",
-      "domain": "https://www.ammitto.org/ontology/Authority",
-      "range": "http://www.w3.org/2001/XMLSchema#string"
-    },
-    {
-      "@id": "https://www.ammitto.org/ontology/title",
-      "@type": "rdf:Property",
-      "label": "Title",
-      "comment": "Announcement title",
-      "domain": "https://www.ammitto.org/ontology/Announcement",
-      "range": "http://www.w3.org/2001/XMLSchema#string"
-    },
-    {
-      "@id": "https://www.ammitto.org/ontology/number",
-      "@type": "rdf:Property",
-      "label": "Number",
-      "comment": "Announcement number",
-      "domain": "https://www.ammitto.org/ontology/Announcement",
-      "range": "http://www.w3.org/2001/XMLSchema#string"
-    },
-    {
-      "@id": "https://www.ammitto.org/ontology/date",
-      "@type": "rdf:Property",
-      "label": "Date",
-      "comment": "Publication date",
-      "domain": "https://www.ammitto.org/ontology/Announcement",
-      "range": "http://www.w3.org/2001/XMLSchema#date"
-    },
-    {
-      "@id": "https://www.ammitto.org/ontology/effectiveDate",
-      "@type": "rdf:Property",
-      "label": "Effective Date",
-      "comment": "Date when effective",
-      "domain": "https://www.ammitto.org/ontology/Announcement",
-      "range": "http://www.w3.org/2001/XMLSchema#date"
-    },
-    {
-      "@id": "https://www.ammitto.org/ontology/issuingAuthority",
-      "@type": "rdf:Property",
-      "label": "Issuing Authority",
-      "comment": "Authority that issued",
-      "domain": "https://www.ammitto.org/ontology/Announcement",
-      "range": "http://www.w3.org/2001/XMLSchema#string"
-    },
-    {
-      "@id": "https://www.ammitto.org/ontology/description",
-      "@type": "rdf:Property",
-      "label": "Description",
-      "comment": "Description",
-      "domain": "https://www.ammitto.org/ontology/SanctionRegime",
-      "range": "http://www.w3.org/2001/XMLSchema#string"
-    },
-    {
-      "@id": "https://www.ammitto.org/ontology/identifier",
-      "@type": "rdf:Property",
-      "label": "Identifier",
-      "comment": "Instrument identifier",
-      "domain": "https://www.ammitto.org/ontology/LegalInstrument",
-      "range": "http://www.w3.org/2001/XMLSchema#string"
-    },
-    {
-      "@id": "https://www.ammitto.org/ontology/type",
-      "@type": "rdf:Property",
-      "label": "Type",
-      "comment": "Type",
-      "domain": "https://www.ammitto.org/ontology/LegalInstrument",
-      "range": "http://www.w3.org/2001/XMLSchema#string"
-    },
-    {
-      "@id": "https://www.ammitto.org/ontology/publicationDate",
-      "@type": "rdf:Property",
-      "label": "Publication Date",
-      "comment": "Date published",
-      "domain": "https://www.ammitto.org/ontology/LegalInstrument",
-      "range": "http://www.w3.org/2001/XMLSchema#date"
-    },
-    {
-      "@id": "https://www.ammitto.org/ontology/listType",
-      "@type": "rdf:Property",
-      "label": "List Type",
-      "comment": "Type of sanctions list",
-      "domain": "https://www.ammitto.org/ontology/SanctionsList",
-      "range": "http://www.w3.org/2001/XMLSchema#string"
-    },
-    {
-      "@id": "https://www.ammitto.org/ontology/authority",
-      "@type": "rdf:Property",
-      "label": "Authority",
-      "comment": "Owning authority",
-      "domain": "https://www.ammitto.org/ontology/SanctionsList",
-      "range": "https://www.ammitto.org/ontology/Authority"
-    },
-    {
-      "@id": "https://www.ammitto.org/ontology/country",
-      "@type": "rdf:Property",
-      "label": "Country",
-      "comment": "Country name",
-      "domain": "https://www.ammitto.org/ontology/Country",
-      "range": "http://www.w3.org/2001/XMLSchema#string"
-    },
-    {
-      "@id": "https://www.ammitto.org/ontology/fullName",
-      "@type": "rdf:Property",
-      "label": "Full Name",
-      "comment": "Full name",
-      "domain": "https://www.ammitto.org/ontology/Name",
-      "range": "http://www.w3.org/2001/XMLSchema#string"
-    },
-    {
-      "@id": "https://www.ammitto.org/ontology/lastName",
-      "@type": "rdf:Property",
-      "label": "Last Name",
-      "comment": "Family name",
-      "domain": "https://www.ammitto.org/ontology/Name",
-      "range": "http://www.w3.org/2001/XMLSchema#string"
-    },
-    {
-      "@id": "https://www.ammitto.org/ontology/firstName",
-      "@type": "rdf:Property",
-      "label": "First Name",
-      "comment": "Given name",
-      "domain": "https://www.ammitto.org/ontology/Name",
-      "range": "http://www.w3.org/2001/XMLSchema#string"
-    },
-    {
-      "@id": "https://www.ammitto.org/ontology/middleName",
-      "@type": "rdf:Property",
-      "label": "Middle Name",
-      "comment": "Middle name",
-      "domain": "https://www.ammitto.org/ontology/Name",
+      "label": "Transliteration System",
+      "comment": "Canonical transliterationSystem field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/transliterationSystem",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/LocalizedString",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/LocalizedString",
       "range": "http://www.w3.org/2001/XMLSchema#string"
     },
     {
       "@id": "https://www.ammitto.org/ontology/isPrimary",
       "@type": "rdf:Property",
       "label": "Is Primary",
-      "comment": "Is primary name",
-      "domain": "https://www.ammitto.org/ontology/Name",
+      "comment": "Canonical isPrimary field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/isPrimary",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/LocalizedString",
+          "range": "http://www.w3.org/2001/XMLSchema#boolean",
+          "isArray": false
+        },
+        {
+          "class": "https://www.ammitto.org/ontology/NameVariant",
+          "range": "http://www.w3.org/2001/XMLSchema#boolean",
+          "isArray": false
+        }
+      ],
       "range": "http://www.w3.org/2001/XMLSchema#boolean"
     },
     {
-      "@id": "https://www.ammitto.org/ontology/script",
+      "@id": "https://www.ammitto.org/ontology/isTransliteration",
       "@type": "rdf:Property",
-      "label": "Script",
-      "comment": "Writing script (ISO 15924)",
-      "domain": "https://www.ammitto.org/ontology/Name",
+      "label": "Is Transliteration",
+      "comment": "Canonical isTransliteration field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/isTransliteration",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/LocalizedString",
+          "range": "http://www.w3.org/2001/XMLSchema#boolean",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/LocalizedString",
+      "range": "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/fullName",
+      "@type": "rdf:Property",
+      "label": "Full Name",
+      "comment": "Canonical fullName field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/fullName",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/NameVariant",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/NameVariant",
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/firstName",
+      "@type": "rdf:Property",
+      "label": "First Name",
+      "comment": "Canonical firstName field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/firstName",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/NameVariant",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/NameVariant",
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/middleName",
+      "@type": "rdf:Property",
+      "label": "Middle Name",
+      "comment": "Canonical middleName field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/middleName",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/NameVariant",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/NameVariant",
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/lastName",
+      "@type": "rdf:Property",
+      "label": "Last Name",
+      "comment": "Canonical lastName field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/lastName",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/NameVariant",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/NameVariant",
       "range": "http://www.w3.org/2001/XMLSchema#string"
     },
     {
       "@id": "https://www.ammitto.org/ontology/language",
       "@type": "rdf:Property",
       "label": "Language",
-      "comment": "Language (ISO 639-1)",
-      "domain": "https://www.ammitto.org/ontology/Name",
+      "comment": "Canonical language field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/language",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/NameVariant",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        },
+        {
+          "class": "https://www.ammitto.org/ontology/OfficialAnnouncement",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
       "range": "http://www.w3.org/2001/XMLSchema#string"
     },
     {
-      "@id": "https://www.ammitto.org/ontology/street",
+      "@id": "https://www.ammitto.org/ontology/title",
       "@type": "rdf:Property",
-      "label": "Street",
-      "comment": "Street address",
-      "domain": "https://www.ammitto.org/ontology/Address",
+      "label": "Title",
+      "comment": "Canonical title field",
+      "equivalentProperty": "https://schema.org/title",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/NameVariant",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        },
+        {
+          "class": "https://www.ammitto.org/ontology/OfficialAnnouncement",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        },
+        {
+          "class": "https://www.ammitto.org/ontology/PersonEntity",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        },
+        {
+          "class": "https://www.ammitto.org/ontology/LegalInstrument",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
       "range": "http://www.w3.org/2001/XMLSchema#string"
     },
     {
-      "@id": "https://www.ammitto.org/ontology/city",
+      "@id": "https://www.ammitto.org/ontology/function",
       "@type": "rdf:Property",
-      "label": "City",
-      "comment": "City",
-      "domain": "https://www.ammitto.org/ontology/Address",
+      "label": "Function",
+      "comment": "Canonical function field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/function",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/NameVariant",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/NameVariant",
       "range": "http://www.w3.org/2001/XMLSchema#string"
     },
     {
-      "@id": "https://www.ammitto.org/ontology/state",
+      "@id": "https://www.ammitto.org/ontology/date",
       "@type": "rdf:Property",
-      "label": "State",
-      "comment": "State or province",
-      "domain": "https://www.ammitto.org/ontology/Address",
+      "label": "Date",
+      "comment": "Canonical date field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/date",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/BirthInfo",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        },
+        {
+          "class": "https://www.ammitto.org/ontology/StatusChange",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
       "range": "http://www.w3.org/2001/XMLSchema#string"
-    },
-    {
-      "@id": "https://www.ammitto.org/ontology/postalCode",
-      "@type": "rdf:Property",
-      "label": "Postal Code",
-      "comment": "Postal/ZIP code",
-      "domain": "https://www.ammitto.org/ontology/Address",
-      "range": "http://www.w3.org/2001/XMLSchema#string"
-    },
-    {
-      "@id": "https://www.ammitto.org/ontology/careOf",
-      "@type": "rdf:Property",
-      "label": "Care Of",
-      "comment": "c/o address",
-      "domain": "https://www.ammitto.org/ontology/Address",
-      "range": "http://www.w3.org/2001/XMLSchema#string"
-    },
-    {
-      "@id": "https://www.ammitto.org/ontology/value",
-      "@type": "rdf:Property",
-      "label": "Value",
-      "comment": "Value",
-      "domain": "https://www.ammitto.org/ontology/Identifier",
-      "range": "http://www.w3.org/2001/XMLSchema#string"
-    },
-    {
-      "@id": "https://www.ammitto.org/ontology/issuer",
-      "@type": "rdf:Property",
-      "label": "Issuer",
-      "comment": "Issuing authority",
-      "domain": "https://www.ammitto.org/ontology/Identifier",
-      "range": "http://www.w3.org/2001/XMLSchema#string"
-    },
-    {
-      "@id": "https://www.ammitto.org/ontology/issueDate",
-      "@type": "rdf:Property",
-      "label": "Issue Date",
-      "comment": "Date issued",
-      "domain": "https://www.ammitto.org/ontology/Identifier",
-      "range": "http://www.w3.org/2001/XMLSchema#date"
-    },
-    {
-      "@id": "https://www.ammitto.org/ontology/expiryDate",
-      "@type": "rdf:Property",
-      "label": "Expiry Date",
-      "comment": "Expiry date",
-      "domain": "https://www.ammitto.org/ontology/Identifier",
-      "range": "http://www.w3.org/2001/XMLSchema#date"
     },
     {
       "@id": "https://www.ammitto.org/ontology/dateRangeFrom",
       "@type": "rdf:Property",
       "label": "Date Range From",
-      "comment": "Lower bound of a stated span of complete birth dates",
+      "comment": "Canonical dateRangeFrom field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/dateRangeFrom",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/BirthInfo",
+          "range": "http://www.w3.org/2001/XMLSchema#date",
+          "isArray": false
+        }
+      ],
       "domain": "https://www.ammitto.org/ontology/BirthInfo",
       "range": "http://www.w3.org/2001/XMLSchema#date"
     },
@@ -518,7 +336,15 @@
       "@id": "https://www.ammitto.org/ontology/dateRangeTo",
       "@type": "rdf:Property",
       "label": "Date Range To",
-      "comment": "Upper bound of a stated span of complete birth dates",
+      "comment": "Canonical dateRangeTo field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/dateRangeTo",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/BirthInfo",
+          "range": "http://www.w3.org/2001/XMLSchema#date",
+          "isArray": false
+        }
+      ],
       "domain": "https://www.ammitto.org/ontology/BirthInfo",
       "range": "http://www.w3.org/2001/XMLSchema#date"
     },
@@ -526,7 +352,15 @@
       "@id": "https://www.ammitto.org/ontology/year",
       "@type": "rdf:Property",
       "label": "Year",
-      "comment": "Birth year",
+      "comment": "Canonical year field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/year",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/BirthInfo",
+          "range": "http://www.w3.org/2001/XMLSchema#gYear",
+          "isArray": false
+        }
+      ],
       "domain": "https://www.ammitto.org/ontology/BirthInfo",
       "range": "http://www.w3.org/2001/XMLSchema#gYear"
     },
@@ -534,7 +368,15 @@
       "@id": "https://www.ammitto.org/ontology/yearRangeFrom",
       "@type": "rdf:Property",
       "label": "Year Range From",
-      "comment": "Lower bound of a birth-year span",
+      "comment": "Canonical yearRangeFrom field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/yearRangeFrom",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/BirthInfo",
+          "range": "http://www.w3.org/2001/XMLSchema#gYear",
+          "isArray": false
+        }
+      ],
       "domain": "https://www.ammitto.org/ontology/BirthInfo",
       "range": "http://www.w3.org/2001/XMLSchema#gYear"
     },
@@ -542,25 +384,2619 @@
       "@id": "https://www.ammitto.org/ontology/yearRangeTo",
       "@type": "rdf:Property",
       "label": "Year Range To",
-      "comment": "Upper bound of a birth-year span",
+      "comment": "Canonical yearRangeTo field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/yearRangeTo",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/BirthInfo",
+          "range": "http://www.w3.org/2001/XMLSchema#gYear",
+          "isArray": false
+        }
+      ],
       "domain": "https://www.ammitto.org/ontology/BirthInfo",
       "range": "http://www.w3.org/2001/XMLSchema#gYear"
-    },
-    {
-      "@id": "https://www.ammitto.org/ontology/place",
-      "@type": "rdf:Property",
-      "label": "Place",
-      "comment": "Birth place",
-      "domain": "https://www.ammitto.org/ontology/BirthInfo",
-      "range": "http://www.w3.org/2001/XMLSchema#string"
     },
     {
       "@id": "https://www.ammitto.org/ontology/circa",
       "@type": "rdf:Property",
       "label": "Circa",
-      "comment": "Approximate date",
+      "comment": "Canonical circa field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/circa",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/BirthInfo",
+          "range": "http://www.w3.org/2001/XMLSchema#boolean",
+          "isArray": false
+        }
+      ],
       "domain": "https://www.ammitto.org/ontology/BirthInfo",
       "range": "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/city",
+      "@type": "rdf:Property",
+      "label": "City",
+      "comment": "Canonical city field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/city",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/BirthInfo",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        },
+        {
+          "class": "https://www.ammitto.org/ontology/Address",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/country",
+      "@type": "rdf:Property",
+      "label": "Country",
+      "comment": "Canonical country field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/country",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/BirthInfo",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        },
+        {
+          "class": "https://www.ammitto.org/ontology/Address",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        },
+        {
+          "class": "https://www.ammitto.org/ontology/OrganizationEntity",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/countryIsoCode",
+      "@type": "rdf:Property",
+      "label": "Country Iso Code",
+      "comment": "Canonical countryIsoCode field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/countryIsoCode",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/BirthInfo",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        },
+        {
+          "class": "https://www.ammitto.org/ontology/Address",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        },
+        {
+          "class": "https://www.ammitto.org/ontology/Identification",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        },
+        {
+          "class": "https://www.ammitto.org/ontology/OrganizationEntity",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/street",
+      "@type": "rdf:Property",
+      "label": "Street",
+      "comment": "Canonical street field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/street",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/Address",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/Address",
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/state",
+      "@type": "rdf:Property",
+      "label": "State",
+      "comment": "Canonical state field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/state",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/Address",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/Address",
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/postalCode",
+      "@type": "rdf:Property",
+      "label": "Postal Code",
+      "comment": "Canonical postalCode field",
+      "equivalentProperty": "https://schema.org/postalCode",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/Address",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/Address",
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/type",
+      "@type": "rdf:Property",
+      "label": "Type",
+      "comment": "Canonical type field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/type",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/Identification",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        },
+        {
+          "class": "https://www.ammitto.org/ontology/LegalInstrument",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        },
+        {
+          "class": "https://www.ammitto.org/ontology/Organization",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/number",
+      "@type": "rdf:Property",
+      "label": "Number",
+      "comment": "Canonical number field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/number",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/Identification",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/Identification",
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/issuingCountry",
+      "@type": "rdf:Property",
+      "label": "Issuing Country",
+      "comment": "Canonical issuingCountry field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/issuingCountry",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/Identification",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/Identification",
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/note",
+      "@type": "rdf:Property",
+      "label": "Note",
+      "comment": "Canonical note field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/note",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/Identification",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/Identification",
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/issueDate",
+      "@type": "rdf:Property",
+      "label": "Issue Date",
+      "comment": "Canonical issueDate field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/issueDate",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/Identification",
+          "range": "http://www.w3.org/2001/XMLSchema#date",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/Identification",
+      "range": "http://www.w3.org/2001/XMLSchema#date"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/expiryDate",
+      "@type": "rdf:Property",
+      "label": "Expiry Date",
+      "comment": "Canonical expiryDate field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/expiryDate",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/Identification",
+          "range": "http://www.w3.org/2001/XMLSchema#date",
+          "isArray": false
+        },
+        {
+          "class": "https://www.ammitto.org/ontology/TemporalPeriod",
+          "range": "http://www.w3.org/2001/XMLSchema#date",
+          "isArray": false
+        }
+      ],
+      "range": "http://www.w3.org/2001/XMLSchema#date"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/targetId",
+      "@type": "rdf:Property",
+      "label": "Target Id",
+      "comment": "Canonical targetId field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/targetId",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/EntityLink",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        },
+        {
+          "class": "https://www.ammitto.org/ontology/SanctionPeriodModification",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": true
+        }
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/relationship",
+      "@type": "rdf:Property",
+      "label": "Relationship",
+      "comment": "Canonical relationship field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/relationship",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/EntityLink",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/EntityLink",
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/targetName",
+      "@type": "rdf:Property",
+      "label": "Target Name",
+      "comment": "Canonical targetName field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/targetName",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/EntityLink",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/EntityLink",
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/targetType",
+      "@type": "rdf:Property",
+      "label": "Target Type",
+      "comment": "Canonical targetType field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/targetType",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/EntityLink",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        },
+        {
+          "class": "https://www.ammitto.org/ontology/SanctionPeriodModification",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/fromDate",
+      "@type": "rdf:Property",
+      "label": "From Date",
+      "comment": "Canonical fromDate field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/fromDate",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/EntityLink",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/EntityLink",
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/toDate",
+      "@type": "rdf:Property",
+      "label": "To Date",
+      "comment": "Canonical toDate field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/toDate",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/EntityLink",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/EntityLink",
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/sourceCode",
+      "@type": "rdf:Property",
+      "label": "Source Code",
+      "comment": "Canonical sourceCode field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/sourceCode",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/SourceReference",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/SourceReference",
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/referenceNumber",
+      "@type": "rdf:Property",
+      "label": "Reference Number",
+      "comment": "Canonical referenceNumber field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/referenceNumber",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/SourceReference",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        },
+        {
+          "class": "https://www.ammitto.org/ontology/SanctionEntry",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/url",
+      "@type": "rdf:Property",
+      "label": "Url",
+      "comment": "Canonical url field",
+      "equivalentProperty": "https://schema.org/url",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/SourceReference",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        },
+        {
+          "class": "https://www.ammitto.org/ontology/OfficialAnnouncement",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        },
+        {
+          "class": "https://www.ammitto.org/ontology/LegalInstrument",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        },
+        {
+          "class": "https://www.ammitto.org/ontology/Authority",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        },
+        {
+          "class": "https://www.ammitto.org/ontology/Organization",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/retrievedAt",
+      "@type": "rdf:Property",
+      "label": "Retrieved At",
+      "comment": "Canonical retrievedAt field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/retrievedAt",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/SourceReference",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/SourceReference",
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/legalInstrumentId",
+      "@type": "rdf:Property",
+      "label": "Legal Instrument Id",
+      "comment": "Canonical legalInstrumentId field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/legalInstrumentId",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/LegalCitation",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/LegalCitation"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/articles",
+      "@type": "rdf:Property",
+      "label": "Articles",
+      "comment": "Canonical articles field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/articles",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/LegalCitation",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": true
+        },
+        {
+          "class": "https://www.ammitto.org/ontology/LegalInstrument",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": true
+        }
+      ],
+      "range": "http://www.w3.org/2001/XMLSchema#string",
+      "isArray": true
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/sections",
+      "@type": "rdf:Property",
+      "label": "Sections",
+      "comment": "Canonical sections field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/sections",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/LegalCitation",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": true
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/LegalCitation",
+      "range": "http://www.w3.org/2001/XMLSchema#string",
+      "isArray": true
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/paragraphs",
+      "@type": "rdf:Property",
+      "label": "Paragraphs",
+      "comment": "Canonical paragraphs field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/paragraphs",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/LegalCitation",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": true
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/LegalCitation",
+      "range": "http://www.w3.org/2001/XMLSchema#string",
+      "isArray": true
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/citationType",
+      "@type": "rdf:Property",
+      "label": "Citation Type",
+      "comment": "Canonical citationType field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/citationType",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/LegalCitation",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        },
+        {
+          "class": "https://www.ammitto.org/ontology/LegalInstrument",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/context",
+      "@type": "rdf:Property",
+      "label": "Context",
+      "comment": "Canonical context field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/context",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/LegalCitation",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/LegalCitation",
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/quotedText",
+      "@type": "rdf:Property",
+      "label": "Quoted Text",
+      "comment": "Canonical quotedText field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/quotedText",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/LegalCitation",
+          "range": "https://www.ammitto.org/ontology/LocalizedString",
+          "isArray": true
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/LegalCitation",
+      "range": "https://www.ammitto.org/ontology/LocalizedString",
+      "isArray": true
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/effectType",
+      "@type": "rdf:Property",
+      "label": "Effect Type",
+      "comment": "Canonical effectType field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/effectType",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/SanctionEffect",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/SanctionEffect"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/scope",
+      "@type": "rdf:Property",
+      "label": "Scope",
+      "comment": "Canonical scope field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/scope",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/SanctionEffect",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/SanctionEffect",
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/description",
+      "@type": "rdf:Property",
+      "label": "Description",
+      "comment": "Canonical description field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/description",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/SanctionEffect",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        },
+        {
+          "class": "https://www.ammitto.org/ontology/SanctionReason",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        },
+        {
+          "class": "https://www.ammitto.org/ontology/ListType",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        },
+        {
+          "class": "https://www.ammitto.org/ontology/SanctionRegime",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/category",
+      "@type": "rdf:Property",
+      "label": "Category",
+      "comment": "Canonical category field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/category",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/SanctionReason",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        },
+        {
+          "class": "https://www.ammitto.org/ontology/ListType",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/citedProvisions",
+      "@type": "rdf:Property",
+      "label": "Cited Provisions",
+      "comment": "Canonical citedProvisions field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/citedProvisions",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/SanctionReason",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": true
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/SanctionReason",
+      "range": "http://www.w3.org/2001/XMLSchema#string",
+      "isArray": true
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/listedDate",
+      "@type": "rdf:Property",
+      "label": "Listed Date",
+      "comment": "Canonical listedDate field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/listedDate",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/TemporalPeriod",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/TemporalPeriod",
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/effectiveDate",
+      "@type": "rdf:Property",
+      "label": "Effective Date",
+      "comment": "Canonical effectiveDate field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/effectiveDate",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/TemporalPeriod",
+          "range": "http://www.w3.org/2001/XMLSchema#date",
+          "isArray": false
+        },
+        {
+          "class": "https://www.ammitto.org/ontology/SanctionPeriodModification",
+          "range": "http://www.w3.org/2001/XMLSchema#date",
+          "isArray": false
+        },
+        {
+          "class": "https://www.ammitto.org/ontology/LegalInstrument",
+          "range": "http://www.w3.org/2001/XMLSchema#date",
+          "isArray": false
+        }
+      ],
+      "range": "http://www.w3.org/2001/XMLSchema#date"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/lastUpdated",
+      "@type": "rdf:Property",
+      "label": "Last Updated",
+      "comment": "Canonical lastUpdated field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/lastUpdated",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/TemporalPeriod",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/TemporalPeriod",
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/isIndefinite",
+      "@type": "rdf:Property",
+      "label": "Is Indefinite",
+      "comment": "Canonical isIndefinite field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/isIndefinite",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/TemporalPeriod",
+          "range": "http://www.w3.org/2001/XMLSchema#boolean",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/TemporalPeriod",
+      "range": "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/noticeNumber",
+      "@type": "rdf:Property",
+      "label": "Notice Number",
+      "comment": "Canonical noticeNumber field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/noticeNumber",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/NoticeReference",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/NoticeReference",
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/noticeTitle",
+      "@type": "rdf:Property",
+      "label": "Notice Title",
+      "comment": "Canonical noticeTitle field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/noticeTitle",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/NoticeReference",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/NoticeReference",
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/noticeUrl",
+      "@type": "rdf:Property",
+      "label": "Notice Url",
+      "comment": "Canonical noticeUrl field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/noticeUrl",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/NoticeReference",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/NoticeReference",
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/noticeDate",
+      "@type": "rdf:Property",
+      "label": "Notice Date",
+      "comment": "Canonical noticeDate field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/noticeDate",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/NoticeReference",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/NoticeReference",
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/suspensionEndDate",
+      "@type": "rdf:Property",
+      "label": "Suspension End Date",
+      "comment": "Canonical suspensionEndDate field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/suspensionEndDate",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/StatusChange",
+          "range": "http://www.w3.org/2001/XMLSchema#date",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/StatusChange",
+      "range": "http://www.w3.org/2001/XMLSchema#date"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/fromStatus",
+      "@type": "rdf:Property",
+      "label": "From Status",
+      "comment": "Canonical fromStatus field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/fromStatus",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/StatusChange",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/StatusChange"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/toStatus",
+      "@type": "rdf:Property",
+      "label": "To Status",
+      "comment": "Canonical toStatus field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/toStatus",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/StatusChange",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/StatusChange"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/reason",
+      "@type": "rdf:Property",
+      "label": "Reason",
+      "comment": "Canonical reason field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/reason",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/StatusChange",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/StatusChange",
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/noticeReference",
+      "@type": "rdf:Property",
+      "label": "Notice Reference",
+      "comment": "Canonical noticeReference field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/noticeReference",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/StatusChange",
+          "range": "https://www.ammitto.org/ontology/NoticeReference",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/StatusChange",
+      "range": "https://www.ammitto.org/ontology/NoticeReference"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/publishTime",
+      "@type": "rdf:Property",
+      "label": "Publish Time",
+      "comment": "Canonical publishTime field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/publishTime",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/OfficialAnnouncement",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/OfficialAnnouncement",
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/author",
+      "@type": "rdf:Property",
+      "label": "Author",
+      "comment": "Canonical author field",
+      "equivalentProperty": "https://schema.org/author",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/OfficialAnnouncement",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/OfficialAnnouncement",
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/documentType",
+      "@type": "rdf:Property",
+      "label": "Document Type",
+      "comment": "Canonical documentType field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/documentType",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/OfficialAnnouncement",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/OfficialAnnouncement",
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/documentId",
+      "@type": "rdf:Property",
+      "label": "Document Id",
+      "comment": "Canonical documentId field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/documentId",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/OfficialAnnouncement",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        },
+        {
+          "class": "https://www.ammitto.org/ontology/LegalInstrument",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/signatory",
+      "@type": "rdf:Property",
+      "label": "Signatory",
+      "comment": "Canonical signatory field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/signatory",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/OfficialAnnouncement",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/OfficialAnnouncement",
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/signatoryTitle",
+      "@type": "rdf:Property",
+      "label": "Signatory Title",
+      "comment": "Canonical signatoryTitle field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/signatoryTitle",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/OfficialAnnouncement",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/OfficialAnnouncement",
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/publisher",
+      "@type": "rdf:Property",
+      "label": "Publisher",
+      "comment": "Canonical publisher field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/publisher",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/OfficialAnnouncement",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/OfficialAnnouncement",
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/authority",
+      "@type": "rdf:Property",
+      "label": "Authority",
+      "comment": "Canonical authority field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/authority",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/OfficialAnnouncement",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        },
+        {
+          "class": "https://www.ammitto.org/ontology/SanctionEntry",
+          "range": "https://www.ammitto.org/ontology/Authority",
+          "isArray": false
+        }
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/content",
+      "@type": "rdf:Property",
+      "label": "Content",
+      "comment": "Canonical content field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/content",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/OfficialAnnouncement",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        },
+        {
+          "class": "https://www.ammitto.org/ontology/LegalInstrument",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/publishDate",
+      "@type": "rdf:Property",
+      "label": "Publish Date",
+      "comment": "Canonical publishDate field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/publishDate",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/OfficialAnnouncement",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        },
+        {
+          "class": "https://www.ammitto.org/ontology/LegalInstrument",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/authorDate",
+      "@type": "rdf:Property",
+      "label": "Author Date",
+      "comment": "Canonical authorDate field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/authorDate",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/OfficialAnnouncement",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/OfficialAnnouncement",
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/targetAnnouncementId",
+      "@type": "rdf:Property",
+      "label": "Target Announcement Id",
+      "comment": "Canonical targetAnnouncementId field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/targetAnnouncementId",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/SanctionPeriodModification",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/SanctionPeriodModification"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/targetAnnouncementDocumentId",
+      "@type": "rdf:Property",
+      "label": "Target Announcement Document Id",
+      "comment": "Canonical targetAnnouncementDocumentId field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/targetAnnouncementDocumentId",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/SanctionPeriodModification",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/SanctionPeriodModification",
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/action",
+      "@type": "rdf:Property",
+      "label": "Action",
+      "comment": "Canonical action field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/action",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/SanctionPeriodModification",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/SanctionPeriodModification",
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/effectiveTime",
+      "@type": "rdf:Property",
+      "label": "Effective Time",
+      "comment": "Canonical effectiveTime field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/effectiveTime",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/SanctionPeriodModification",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/SanctionPeriodModification",
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/untilTime",
+      "@type": "rdf:Property",
+      "label": "Until Time",
+      "comment": "Canonical untilTime field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/untilTime",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/SanctionPeriodModification",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/SanctionPeriodModification",
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/notes",
+      "@type": "rdf:Property",
+      "label": "Notes",
+      "comment": "Canonical notes field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/notes",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/SanctionPeriodModification",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/SanctionPeriodModification",
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/targetAnnouncementDate",
+      "@type": "rdf:Property",
+      "label": "Target Announcement Date",
+      "comment": "Canonical targetAnnouncementDate field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/targetAnnouncementDate",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/SanctionPeriodModification",
+          "range": "http://www.w3.org/2001/XMLSchema#date",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/SanctionPeriodModification",
+      "range": "http://www.w3.org/2001/XMLSchema#date"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/untilDate",
+      "@type": "rdf:Property",
+      "label": "Until Date",
+      "comment": "Canonical untilDate field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/untilDate",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/SanctionPeriodModification",
+          "range": "http://www.w3.org/2001/XMLSchema#date",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/SanctionPeriodModification",
+      "range": "http://www.w3.org/2001/XMLSchema#date"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/affectedEntityCount",
+      "@type": "rdf:Property",
+      "label": "Affected Entity Count",
+      "comment": "Canonical affectedEntityCount field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/affectedEntityCount",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/SanctionPeriodModification",
+          "range": "http://www.w3.org/2001/XMLSchema#integer",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/SanctionPeriodModification",
+      "range": "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/affectedEntityNames",
+      "@type": "rdf:Property",
+      "label": "Affected Entity Names",
+      "comment": "Canonical affectedEntityNames field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/affectedEntityName",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/SanctionPeriodModification",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": true
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/SanctionPeriodModification",
+      "range": "http://www.w3.org/2001/XMLSchema#string",
+      "isArray": true
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/announcement",
+      "@type": "rdf:Property",
+      "label": "Announcement",
+      "comment": "Canonical announcement field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/announcement",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/SanctionPeriodModification",
+          "range": "https://www.ammitto.org/ontology/OfficialAnnouncement",
+          "isArray": false
+        },
+        {
+          "class": "https://www.ammitto.org/ontology/SanctionEntry",
+          "range": "https://www.ammitto.org/ontology/OfficialAnnouncement",
+          "isArray": false
+        }
+      ],
+      "range": "https://www.ammitto.org/ontology/OfficialAnnouncement"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/legalCitations",
+      "@type": "rdf:Property",
+      "label": "Legal Citations",
+      "comment": "Canonical legalCitations field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/legalCitation",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/SanctionPeriodModification",
+          "range": "https://www.ammitto.org/ontology/LegalCitation",
+          "isArray": true
+        },
+        {
+          "class": "https://www.ammitto.org/ontology/SanctionEntry",
+          "range": "https://www.ammitto.org/ontology/LegalCitation",
+          "isArray": true
+        }
+      ],
+      "range": "https://www.ammitto.org/ontology/LegalCitation",
+      "isArray": true
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/sourceFile",
+      "@type": "rdf:Property",
+      "label": "Source File",
+      "comment": "Canonical sourceFile field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/sourceFile",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/RawSourceData",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/RawSourceData",
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/sourceFormat",
+      "@type": "rdf:Property",
+      "label": "Source Format",
+      "comment": "Canonical sourceFormat field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/sourceFormat",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/RawSourceData",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/RawSourceData",
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/sourceXPath",
+      "@type": "rdf:Property",
+      "label": "Source Xpath",
+      "comment": "Canonical sourceXPath field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/sourceXPath",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/RawSourceData",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/RawSourceData",
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/rawContent",
+      "@type": "rdf:Property",
+      "label": "Raw Content",
+      "comment": "Canonical rawContent field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/rawContent",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/RawSourceData",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/RawSourceData",
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/sourceSpecificFields",
+      "@type": "rdf:Property",
+      "label": "Source Specific Fields",
+      "comment": "Canonical sourceSpecificFields field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/sourceSpecificFields",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/RawSourceData",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/RawSourceData"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/grossRegisterTonnage",
+      "@type": "rdf:Property",
+      "label": "Gross Register Tonnage",
+      "comment": "Canonical grossRegisterTonnage field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/grossRegisterTonnage",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/Tonnage",
+          "range": "http://www.w3.org/2001/XMLSchema#decimal",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/Tonnage",
+      "range": "http://www.w3.org/2001/XMLSchema#decimal"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/grossTonnage",
+      "@type": "rdf:Property",
+      "label": "Gross Tonnage",
+      "comment": "Canonical grossTonnage field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/grossTonnage",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/Tonnage",
+          "range": "http://www.w3.org/2001/XMLSchema#decimal",
+          "isArray": false
+        },
+        {
+          "class": "https://www.ammitto.org/ontology/VesselEntity",
+          "range": "http://www.w3.org/2001/XMLSchema#decimal",
+          "isArray": false
+        }
+      ],
+      "range": "http://www.w3.org/2001/XMLSchema#decimal"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/deadweightTonnage",
+      "@type": "rdf:Property",
+      "label": "Deadweight Tonnage",
+      "comment": "Canonical deadweightTonnage field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/deadweightTonnage",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/Tonnage",
+          "range": "http://www.w3.org/2001/XMLSchema#decimal",
+          "isArray": false
+        },
+        {
+          "class": "https://www.ammitto.org/ontology/VesselEntity",
+          "range": "http://www.w3.org/2001/XMLSchema#decimal",
+          "isArray": false
+        }
+      ],
+      "range": "http://www.w3.org/2001/XMLSchema#decimal"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/netTonnage",
+      "@type": "rdf:Property",
+      "label": "Net Tonnage",
+      "comment": "Canonical netTonnage field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/netTonnage",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/Tonnage",
+          "range": "http://www.w3.org/2001/XMLSchema#decimal",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/Tonnage",
+      "range": "http://www.w3.org/2001/XMLSchema#decimal"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/entityType",
+      "@type": "rdf:Property",
+      "label": "Entity Type",
+      "comment": "Canonical entityType field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/entityType",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/PersonEntity",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        },
+        {
+          "class": "https://www.ammitto.org/ontology/OrganizationEntity",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        },
+        {
+          "class": "https://www.ammitto.org/ontology/VesselEntity",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        },
+        {
+          "class": "https://www.ammitto.org/ontology/AircraftEntity",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/Entity"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/names",
+      "@type": "rdf:Property",
+      "label": "Names",
+      "comment": "Canonical names field",
+      "equivalentProperty": "https://schema.org/name",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/PersonEntity",
+          "range": "https://www.ammitto.org/ontology/NameVariant",
+          "isArray": true
+        },
+        {
+          "class": "https://www.ammitto.org/ontology/OrganizationEntity",
+          "range": "https://www.ammitto.org/ontology/NameVariant",
+          "isArray": true
+        },
+        {
+          "class": "https://www.ammitto.org/ontology/VesselEntity",
+          "range": "https://www.ammitto.org/ontology/NameVariant",
+          "isArray": true
+        },
+        {
+          "class": "https://www.ammitto.org/ontology/AircraftEntity",
+          "range": "https://www.ammitto.org/ontology/NameVariant",
+          "isArray": true
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/Entity",
+      "range": "https://www.ammitto.org/ontology/NameVariant",
+      "isArray": true
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/sourceReferences",
+      "@type": "rdf:Property",
+      "label": "Source References",
+      "comment": "Canonical sourceReferences field",
+      "equivalentProperty": "http://www.w3.org/ns/prov#hadPrimarySource",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/PersonEntity",
+          "range": "https://www.ammitto.org/ontology/SourceReference",
+          "isArray": true
+        },
+        {
+          "class": "https://www.ammitto.org/ontology/OrganizationEntity",
+          "range": "https://www.ammitto.org/ontology/SourceReference",
+          "isArray": true
+        },
+        {
+          "class": "https://www.ammitto.org/ontology/VesselEntity",
+          "range": "https://www.ammitto.org/ontology/SourceReference",
+          "isArray": true
+        },
+        {
+          "class": "https://www.ammitto.org/ontology/AircraftEntity",
+          "range": "https://www.ammitto.org/ontology/SourceReference",
+          "isArray": true
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/Entity",
+      "range": "https://www.ammitto.org/ontology/SourceReference",
+      "isArray": true
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/linkedEntities",
+      "@type": "rdf:Property",
+      "label": "Linked Entities",
+      "comment": "Canonical linkedEntities field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/linkedEntity",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/PersonEntity",
+          "range": "https://www.ammitto.org/ontology/EntityLink",
+          "isArray": true
+        },
+        {
+          "class": "https://www.ammitto.org/ontology/OrganizationEntity",
+          "range": "https://www.ammitto.org/ontology/EntityLink",
+          "isArray": true
+        },
+        {
+          "class": "https://www.ammitto.org/ontology/VesselEntity",
+          "range": "https://www.ammitto.org/ontology/EntityLink",
+          "isArray": true
+        },
+        {
+          "class": "https://www.ammitto.org/ontology/AircraftEntity",
+          "range": "https://www.ammitto.org/ontology/EntityLink",
+          "isArray": true
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/Entity",
+      "range": "https://www.ammitto.org/ontology/EntityLink",
+      "isArray": true
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/hasSanctionEntry",
+      "@type": "rdf:Property",
+      "label": "Has Sanction Entry",
+      "comment": "Canonical hasSanctionEntry field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/hasSanctionEntry",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/PersonEntity",
+          "range": "https://www.ammitto.org/ontology/SanctionEntry",
+          "isArray": true
+        },
+        {
+          "class": "https://www.ammitto.org/ontology/OrganizationEntity",
+          "range": "https://www.ammitto.org/ontology/SanctionEntry",
+          "isArray": true
+        },
+        {
+          "class": "https://www.ammitto.org/ontology/VesselEntity",
+          "range": "https://www.ammitto.org/ontology/SanctionEntry",
+          "isArray": true
+        },
+        {
+          "class": "https://www.ammitto.org/ontology/AircraftEntity",
+          "range": "https://www.ammitto.org/ontology/SanctionEntry",
+          "isArray": true
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/Entity",
+      "range": "https://www.ammitto.org/ontology/SanctionEntry",
+      "isArray": true
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/sameAs",
+      "@type": "rdf:Property",
+      "label": "Same As",
+      "comment": "Canonical sameAs field",
+      "equivalentProperty": "http://www.w3.org/2002/07/owl#sameAs",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/PersonEntity",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": true
+        },
+        {
+          "class": "https://www.ammitto.org/ontology/OrganizationEntity",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": true
+        },
+        {
+          "class": "https://www.ammitto.org/ontology/VesselEntity",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": true
+        },
+        {
+          "class": "https://www.ammitto.org/ontology/AircraftEntity",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": true
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/Entity",
+      "isArray": true
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/remarks",
+      "@type": "rdf:Property",
+      "label": "Remarks",
+      "comment": "Canonical remarks field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/remarks",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/PersonEntity",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        },
+        {
+          "class": "https://www.ammitto.org/ontology/OrganizationEntity",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        },
+        {
+          "class": "https://www.ammitto.org/ontology/VesselEntity",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        },
+        {
+          "class": "https://www.ammitto.org/ontology/AircraftEntity",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        },
+        {
+          "class": "https://www.ammitto.org/ontology/SanctionEntry",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/identifications",
+      "@type": "rdf:Property",
+      "label": "Identifications",
+      "comment": "Canonical identifications field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/identification",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/PersonEntity",
+          "range": "https://www.ammitto.org/ontology/Identification",
+          "isArray": true
+        },
+        {
+          "class": "https://www.ammitto.org/ontology/OrganizationEntity",
+          "range": "https://www.ammitto.org/ontology/Identification",
+          "isArray": true
+        }
+      ],
+      "range": "https://www.ammitto.org/ontology/Identification",
+      "isArray": true
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/addresses",
+      "@type": "rdf:Property",
+      "label": "Addresses",
+      "comment": "Canonical addresses field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/addresses",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/PersonEntity",
+          "range": "https://www.ammitto.org/ontology/Address",
+          "isArray": true
+        },
+        {
+          "class": "https://www.ammitto.org/ontology/OrganizationEntity",
+          "range": "https://www.ammitto.org/ontology/Address",
+          "isArray": true
+        }
+      ],
+      "range": "https://www.ammitto.org/ontology/Address",
+      "isArray": true
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/birthInfo",
+      "@type": "rdf:Property",
+      "label": "Birth Info",
+      "comment": "Canonical birthInfo field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/birthInfo",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/PersonEntity",
+          "range": "https://www.ammitto.org/ontology/BirthInfo",
+          "isArray": true
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/PersonEntity",
+      "range": "https://www.ammitto.org/ontology/BirthInfo",
+      "isArray": true
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/deathDate",
+      "@type": "rdf:Property",
+      "label": "Death Date",
+      "comment": "Canonical deathDate field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/deathDate",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/PersonEntity",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/PersonEntity",
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/nationalities",
+      "@type": "rdf:Property",
+      "label": "Nationalities",
+      "comment": "Canonical nationalities field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/nationality",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/PersonEntity",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": true
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/PersonEntity",
+      "range": "http://www.w3.org/2001/XMLSchema#string",
+      "isArray": true
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/gender",
+      "@type": "rdf:Property",
+      "label": "Gender",
+      "comment": "Canonical gender field",
+      "equivalentProperty": "https://schema.org/gender",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/PersonEntity",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/PersonEntity",
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/position",
+      "@type": "rdf:Property",
+      "label": "Position",
+      "comment": "Canonical position field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/position",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/PersonEntity",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/PersonEntity",
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/affiliation",
+      "@type": "rdf:Property",
+      "label": "Affiliation",
+      "comment": "Canonical affiliation field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/affiliation",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/PersonEntity",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/PersonEntity",
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/registrationNumber",
+      "@type": "rdf:Property",
+      "label": "Registration Number",
+      "comment": "Canonical registrationNumber field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/registrationNumber",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/OrganizationEntity",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        },
+        {
+          "class": "https://www.ammitto.org/ontology/AircraftEntity",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/legalForm",
+      "@type": "rdf:Property",
+      "label": "Legal Form",
+      "comment": "Canonical legalForm field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/legalForm",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/OrganizationEntity",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/OrganizationEntity",
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/website",
+      "@type": "rdf:Property",
+      "label": "Website",
+      "comment": "Canonical website field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/website",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/OrganizationEntity",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/OrganizationEntity",
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/sector",
+      "@type": "rdf:Property",
+      "label": "Sector",
+      "comment": "Canonical sector field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/sector",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/OrganizationEntity",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/OrganizationEntity",
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/incorporationDate",
+      "@type": "rdf:Property",
+      "label": "Incorporation Date",
+      "comment": "Canonical incorporationDate field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/incorporationDate",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/OrganizationEntity",
+          "range": "http://www.w3.org/2001/XMLSchema#date",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/OrganizationEntity",
+      "range": "http://www.w3.org/2001/XMLSchema#date"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/dissolutionDate",
+      "@type": "rdf:Property",
+      "label": "Dissolution Date",
+      "comment": "Canonical dissolutionDate field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/dissolutionDate",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/OrganizationEntity",
+          "range": "http://www.w3.org/2001/XMLSchema#date",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/OrganizationEntity",
+      "range": "http://www.w3.org/2001/XMLSchema#date"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/beneficialOwners",
+      "@type": "rdf:Property",
+      "label": "Beneficial Owners",
+      "comment": "Canonical beneficialOwners field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/beneficialOwner",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/OrganizationEntity",
+          "range": "https://www.ammitto.org/ontology/EntityLink",
+          "isArray": true
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/OrganizationEntity",
+      "isArray": true
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/imoNumber",
+      "@type": "rdf:Property",
+      "label": "Imo Number",
+      "comment": "Canonical imoNumber field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/imoNumber",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/VesselEntity",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/VesselEntity",
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/mmsi",
+      "@type": "rdf:Property",
+      "label": "Mmsi",
+      "comment": "Canonical mmsi field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/mmsi",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/VesselEntity",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/VesselEntity",
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/callSign",
+      "@type": "rdf:Property",
+      "label": "Call Sign",
+      "comment": "Canonical callSign field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/callSign",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/VesselEntity",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/VesselEntity",
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/flagState",
+      "@type": "rdf:Property",
+      "label": "Flag State",
+      "comment": "Canonical flagState field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/flagState",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/VesselEntity",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        },
+        {
+          "class": "https://www.ammitto.org/ontology/AircraftEntity",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/flagStateIsoCode",
+      "@type": "rdf:Property",
+      "label": "Flag State Iso Code",
+      "comment": "Canonical flagStateIsoCode field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/flagStateIsoCode",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/VesselEntity",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/VesselEntity",
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/vesselType",
+      "@type": "rdf:Property",
+      "label": "Vessel Type",
+      "comment": "Canonical vesselType field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/vesselType",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/VesselEntity",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/VesselEntity",
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/vesselTypeCode",
+      "@type": "rdf:Property",
+      "label": "Vessel Type Code",
+      "comment": "Canonical vesselTypeCode field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/vesselTypeCode",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/VesselEntity",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/VesselEntity",
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/builder",
+      "@type": "rdf:Property",
+      "label": "Builder",
+      "comment": "Canonical builder field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/builder",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/VesselEntity",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/VesselEntity",
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/buildYear",
+      "@type": "rdf:Property",
+      "label": "Build Year",
+      "comment": "Canonical buildYear field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/buildYear",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/VesselEntity",
+          "range": "http://www.w3.org/2001/XMLSchema#integer",
+          "isArray": false
+        },
+        {
+          "class": "https://www.ammitto.org/ontology/AircraftEntity",
+          "range": "http://www.w3.org/2001/XMLSchema#integer",
+          "isArray": false
+        }
+      ],
+      "range": "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/length",
+      "@type": "rdf:Property",
+      "label": "Length",
+      "comment": "Canonical length field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/length",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/VesselEntity",
+          "range": "http://www.w3.org/2001/XMLSchema#decimal",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/VesselEntity",
+      "range": "http://www.w3.org/2001/XMLSchema#decimal"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/tonnage",
+      "@type": "rdf:Property",
+      "label": "Tonnage",
+      "comment": "Canonical tonnage field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/tonnage",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/VesselEntity",
+          "range": "https://www.ammitto.org/ontology/Tonnage",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/VesselEntity",
+      "range": "https://www.ammitto.org/ontology/Tonnage"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/owner",
+      "@type": "rdf:Property",
+      "label": "Owner",
+      "comment": "Canonical owner field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/owner",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/VesselEntity",
+          "range": "https://www.ammitto.org/ontology/EntityLink",
+          "isArray": false
+        },
+        {
+          "class": "https://www.ammitto.org/ontology/AircraftEntity",
+          "range": "https://www.ammitto.org/ontology/EntityLink",
+          "isArray": false
+        }
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/operator",
+      "@type": "rdf:Property",
+      "label": "Operator",
+      "comment": "Canonical operator field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/operator",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/VesselEntity",
+          "range": "https://www.ammitto.org/ontology/EntityLink",
+          "isArray": false
+        },
+        {
+          "class": "https://www.ammitto.org/ontology/AircraftEntity",
+          "range": "https://www.ammitto.org/ontology/EntityLink",
+          "isArray": false
+        }
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/registeredOwner",
+      "@type": "rdf:Property",
+      "label": "Registered Owner",
+      "comment": "Canonical registeredOwner field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/registeredOwner",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/VesselEntity",
+          "range": "https://www.ammitto.org/ontology/EntityLink",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/VesselEntity",
+      "range": "https://www.ammitto.org/ontology/EntityLink"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/technicalManager",
+      "@type": "rdf:Property",
+      "label": "Technical Manager",
+      "comment": "Canonical technicalManager field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/technicalManager",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/VesselEntity",
+          "range": "https://www.ammitto.org/ontology/EntityLink",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/VesselEntity",
+      "range": "https://www.ammitto.org/ontology/EntityLink"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/previousNames",
+      "@type": "rdf:Property",
+      "label": "Previous Names",
+      "comment": "Canonical previousNames field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/previousNames",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/VesselEntity",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": true
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/VesselEntity",
+      "range": "http://www.w3.org/2001/XMLSchema#string",
+      "isArray": true
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/previousFlags",
+      "@type": "rdf:Property",
+      "label": "Previous Flags",
+      "comment": "Canonical previousFlags field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/previousFlags",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/VesselEntity",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": true
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/VesselEntity",
+      "range": "http://www.w3.org/2001/XMLSchema#string",
+      "isArray": true
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/serialNumber",
+      "@type": "rdf:Property",
+      "label": "Serial Number",
+      "comment": "Canonical serialNumber field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/serialNumber",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/AircraftEntity",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/AircraftEntity",
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/manufacturer",
+      "@type": "rdf:Property",
+      "label": "Manufacturer",
+      "comment": "Canonical manufacturer field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/manufacturer",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/AircraftEntity",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/AircraftEntity",
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/model",
+      "@type": "rdf:Property",
+      "label": "Model",
+      "comment": "Canonical model field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/model",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/AircraftEntity",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/AircraftEntity",
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/aircraftType",
+      "@type": "rdf:Property",
+      "label": "Aircraft Type",
+      "comment": "Canonical aircraftType field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/aircraftType",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/AircraftEntity",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/AircraftEntity",
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/name",
+      "@type": "rdf:Property",
+      "label": "Name",
+      "comment": "Canonical name field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/name",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/ListType",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        },
+        {
+          "class": "https://www.ammitto.org/ontology/LegalInstrument",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        },
+        {
+          "class": "https://www.ammitto.org/ontology/Authority",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        },
+        {
+          "class": "https://www.ammitto.org/ontology/SanctionRegime",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        },
+        {
+          "class": "https://www.ammitto.org/ontology/DocumentType",
+          "range": "https://www.ammitto.org/ontology/LocalizedString",
+          "isArray": true
+        },
+        {
+          "class": "https://www.ammitto.org/ontology/Organization",
+          "range": "https://www.ammitto.org/ontology/LocalizedString",
+          "isArray": true
+        }
+      ]
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/localizedName",
+      "@type": "rdf:Property",
+      "label": "Localized Name",
+      "comment": "Canonical localizedName field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/localizedName",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/ListType",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/ListType",
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/entityId",
+      "@type": "rdf:Property",
+      "label": "Entity Id",
+      "comment": "Canonical entityId field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/entityId",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/SanctionEntry",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/SanctionEntry",
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/regime",
+      "@type": "rdf:Property",
+      "label": "Regime",
+      "comment": "Canonical regime field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/regime",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/SanctionEntry",
+          "range": "https://www.ammitto.org/ontology/SanctionRegime",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/SanctionEntry",
+      "range": "https://www.ammitto.org/ontology/SanctionRegime"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/listType",
+      "@type": "rdf:Property",
+      "label": "List Type",
+      "comment": "Canonical listType field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/listType",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/SanctionEntry",
+          "range": "https://www.ammitto.org/ontology/ListType",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/SanctionEntry",
+      "range": "https://www.ammitto.org/ontology/ListType"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/legalBases",
+      "@type": "rdf:Property",
+      "label": "Legal Bases",
+      "comment": "Canonical legalBases field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/legalBasis",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/SanctionEntry",
+          "range": "https://www.ammitto.org/ontology/LegalInstrument",
+          "isArray": true
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/SanctionEntry",
+      "range": "https://www.ammitto.org/ontology/LegalInstrument",
+      "isArray": true
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/effects",
+      "@type": "rdf:Property",
+      "label": "Effects",
+      "comment": "Canonical effects field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/effect",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/SanctionEntry",
+          "range": "https://www.ammitto.org/ontology/SanctionEffect",
+          "isArray": true
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/SanctionEntry",
+      "range": "https://www.ammitto.org/ontology/SanctionEffect",
+      "isArray": true
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/reasons",
+      "@type": "rdf:Property",
+      "label": "Reasons",
+      "comment": "Canonical reasons field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/reason",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/SanctionEntry",
+          "range": "https://www.ammitto.org/ontology/SanctionReason",
+          "isArray": true
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/SanctionEntry",
+      "range": "https://www.ammitto.org/ontology/SanctionReason",
+      "isArray": true
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/period",
+      "@type": "rdf:Property",
+      "label": "Period",
+      "comment": "Canonical period field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/period",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/SanctionEntry",
+          "range": "https://www.ammitto.org/ontology/TemporalPeriod",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/SanctionEntry",
+      "range": "https://www.ammitto.org/ontology/TemporalPeriod"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/status",
+      "@type": "rdf:Property",
+      "label": "Status",
+      "comment": "Canonical status field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/status",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/SanctionEntry",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/SanctionEntry"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/statusHistory",
+      "@type": "rdf:Property",
+      "label": "Status History",
+      "comment": "Canonical statusHistory field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/statusHistory",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/SanctionEntry",
+          "range": "https://www.ammitto.org/ontology/StatusChange",
+          "isArray": true
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/SanctionEntry",
+      "range": "https://www.ammitto.org/ontology/StatusChange",
+      "isArray": true
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/modifications",
+      "@type": "rdf:Property",
+      "label": "Modifications",
+      "comment": "Canonical modifications field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/modification",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/SanctionEntry",
+          "range": "https://www.ammitto.org/ontology/SanctionPeriodModification",
+          "isArray": true
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/SanctionEntry",
+      "range": "https://www.ammitto.org/ontology/SanctionPeriodModification",
+      "isArray": true
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/groupId",
+      "@type": "rdf:Property",
+      "label": "Group Id",
+      "comment": "Canonical groupId field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/groupId",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/SanctionEntry",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/SanctionEntry"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/rawSourceData",
+      "@type": "rdf:Property",
+      "label": "Raw Source Data",
+      "comment": "Canonical rawSourceData field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/rawSourceData",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/SanctionEntry",
+          "range": "https://www.ammitto.org/ontology/RawSourceData",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/SanctionEntry",
+      "range": "https://www.ammitto.org/ontology/RawSourceData"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/identifier",
+      "@type": "rdf:Property",
+      "label": "Identifier",
+      "comment": "Canonical identifier field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/identifier",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/LegalInstrument",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        },
+        {
+          "class": "https://www.ammitto.org/ontology/DocumentType",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        },
+        {
+          "class": "https://www.ammitto.org/ontology/Organization",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/issuingBody",
+      "@type": "rdf:Property",
+      "label": "Issuing Body",
+      "comment": "Canonical issuingBody field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/issuingBody",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/LegalInstrument",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/LegalInstrument",
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/issuanceDate",
+      "@type": "rdf:Property",
+      "label": "Issuance Date",
+      "comment": "Canonical issuanceDate field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/issuanceDate",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/LegalInstrument",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/LegalInstrument",
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/countryCode",
+      "@type": "rdf:Property",
+      "label": "Country Code",
+      "comment": "Canonical countryCode field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/countryCode",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/Authority",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/Authority",
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/code",
+      "@type": "rdf:Property",
+      "label": "Code",
+      "comment": "Canonical code field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/code",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/SanctionRegime",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/SanctionRegime",
+      "range": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://www.ammitto.org/ontology/parentId",
+      "@type": "rdf:Property",
+      "label": "Parent Id",
+      "comment": "Canonical parentId field",
+      "equivalentProperty": "https://ammitto.org/schema/v1/parentId",
+      "usages": [
+        {
+          "class": "https://www.ammitto.org/ontology/Organization",
+          "range": "http://www.w3.org/2001/XMLSchema#string",
+          "isArray": false
+        }
+      ],
+      "domain": "https://www.ammitto.org/ontology/Organization",
+      "range": "http://www.w3.org/2001/XMLSchema#string"
     }
   ]
 }
