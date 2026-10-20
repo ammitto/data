@@ -27,6 +27,7 @@ on:
     branches: [main]
     paths:
       - '.github/scripts/**'
+      - '.github/workflows/harmonize.yml'
       - '.github/workflows/self-tests.yml'
 
 # A second push supersedes the first: nothing here publishes, so an
@@ -44,6 +45,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
+      - name: Verify queued publication checkout
+        run: python3 .github/scripts/publish_checkout_test.py
 
       # Named individually rather than looped, so a failure names the
       # script in the job summary instead of a loop index.

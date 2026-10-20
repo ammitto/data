@@ -19,6 +19,7 @@ concurrency:
 
 jobs:
   harmonize:
+    if: github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
     name: Harmonize source data to JSON-LD
     runs-on: ubuntu-latest
     permissions:
@@ -27,8 +28,14 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
+          # A queued event SHA can predate the preceding run's publication.
+          # Start generation from the default branch as it exists now.
+          ref: ${{ github.event.repository.default_branch }}
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Verify queued publication checkout
+        run: python3 .github/scripts/publish_checkout_test.py
 
       # Offline fixture proof of the reconciler's state machine, ahead of
       # the work, because a reconciler that silently stopped recognising
