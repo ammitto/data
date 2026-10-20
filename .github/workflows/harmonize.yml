@@ -168,34 +168,10 @@ jobs:
           mkdir -p api/v1/sources
           mkdir -p api/v1/schema
 
-          # ru is named in --allow-empty because it reaches the gate
-          # with no entity YAML to read, which is a source-level error,
-          # and the gate exits nonzero on it. The commit, the release and
-          # the deployment dispatch are then skipped by their implicit
-          # success() checks; the reconciler below still runs, because its
-          # `if:` spells out !cancelled(). The commit's has_changes condition
-          # only narrows a successful run and cannot make it run after a
-          # failure. One source with nothing to contribute
-          # therefore withholds the publish from every source that does,
-          # which is what has held this repository at the 2026-07-22
-          # commit.
-          #
-          # Read the exemption as broad, not surgical: for a named code
-          # it also clears the zero-entity, missing-aggregate and
-          # quality-floor gates, so a regression there will not be
-          # caught. Per-file transform errors are never exempt, for any
-          # code.
-          #
-          # The RU exemption allows healthy sources to publish while RU has
-          # no input. After success, suppress_unpublished_ru.sh checks this
-          # run's report and statistics before removing only stale RU
-          # aggregates. Unexpected RU faults fail publication instead.
-          #
-          # un_vessels tripped the same gate until this morning and is
-          # deliberately not named: data-un-vessels#5 stopped .gitignore
-          # excluding its processed/ output, and the 06:21 fetch on
-          # 2026-08-19 committed 60 vessel files, so it clears the gate
-          # on its own. Drop ru the same way, the moment it has input.
+          # RU now has source-backed processed records. Require it to pass
+          # the same empty-input, aggregate and quality gates as every source.
+          # The suppression script still checks this run's RU result before
+          # publication; no source is exempt from the producer's gates.
           #
           # The report is written outside the working tree on purpose:
           # the commit step below runs `git add .` and would publish it.
@@ -222,7 +198,7 @@ jobs:
           # stats` is the real command and it PRINTS statistics, it does not
           # write a file and takes no --output.
           ammitto harmonize --all --sources-dir ./sources --output-dir ./api/v1 \
-            --combine --verbose --allow-empty ru \
+            --combine --verbose \
             --report "$RUNNER_TEMP/harmonize-report.json"
 
       - name: Self-test RU publication suppression

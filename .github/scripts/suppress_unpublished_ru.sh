@@ -8,7 +8,8 @@ output="${2:?path to API output directory}"
 fail() { echo "::error::Cannot reconcile RU publication: $*" >&2; exit 1; }
 
 # Refuse malformed or failed reports before touching either endpoint. The
-# workflow opts only RU out of emptiness gates; transform errors stay fatal.
+# current workflow requires RU. Explicit legacy no-input exemptions are
+# still recognized for reconciliation; transform errors remain fatal.
 if ! jq -s -e '
   length == 1 and (.[0] |
   .schema == "ammitto-harmonize-report/v1" and .gates_passed == true
