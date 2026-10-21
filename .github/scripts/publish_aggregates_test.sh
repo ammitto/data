@@ -56,15 +56,25 @@ emit() { # $1 = isDraft, $2... = the gh argv, so --json can be read from it
   local t; t="$(cat "$WORK/target")"
   local assets
   case "$(cat "$WORK/assets")" in
-    good)
-      assets='[{"name":"all.jsonld","size":100,"state":"uploaded","digest":"DIG_A"},{"name":"all.ttl","size":50,"state":"uploaded","digest":"DIG_B"}]' ;;
+    good|legacy|ruwrongdigest|ruwrongsize|runotuploaded|extra)
+      assets='[{"name":"all.jsonld","size":100,"state":"uploaded","digest":"DIG_A"},{"name":"all.ttl","size":50,"state":"uploaded","digest":"DIG_B"},{"name":"ru.jsonld","size":30,"state":"uploaded","digest":"DIG_C"},{"name":"ru.ttl","size":20,"state":"uploaded","digest":"DIG_D"}]' ;;
     partial)
       assets='[{"name":"all.jsonld","size":100,"state":"uploaded","digest":"DIG_A"}]' ;;
     wrongdigest)
-      assets='[{"name":"all.jsonld","size":100,"state":"uploaded","digest":"sha256:WRONG"},{"name":"all.ttl","size":50,"state":"uploaded","digest":"sha256:WRONG"}]' ;;
+      assets='[{"name":"all.jsonld","size":100,"state":"uploaded","digest":"sha256:WRONG"},{"name":"all.ttl","size":50,"state":"uploaded","digest":"sha256:WRONG"},{"name":"ru.jsonld","size":30,"state":"uploaded","digest":"sha256:WRONG"},{"name":"ru.ttl","size":20,"state":"uploaded","digest":"sha256:WRONG"}]' ;;
   esac
   assets="${assets//DIG_A/$(cat "$WORK/dig_a")}"
   assets="${assets//DIG_B/$(cat "$WORK/dig_b")}"
+  assets="${assets//DIG_C/$(cat "$WORK/dig_c")}"
+  assets="${assets//DIG_D/$(cat "$WORK/dig_d")}"
+
+  case "$(cat "$WORK/assets")" in
+    legacy) assets="$(printf '%s' "$assets" | jq '[.[] | select(.name | startswith("all."))]')" ;;
+    ruwrongdigest) assets="$(printf '%s' "$assets" | jq 'map(if .name == "ru.jsonld" then .digest = "sha256:WRONG" else . end)')" ;;
+    ruwrongsize) assets="$(printf '%s' "$assets" | jq 'map(if .name == "ru.ttl" then .size = 19 else . end)')" ;;
+    runotuploaded) assets="$(printf '%s' "$assets" | jq 'map(if .name == "ru.ttl" then .state = "new" else . end)')" ;;
+    extra) assets="$(printf '%s' "$assets" | jq '. + [{name:"unexpected.txt",size:1,state:"uploaded",digest:"sha256:EXTRA"}]')" ;;
+  esac
 
   local out="" sep=""
   case ",$want," in *,isDraft,*) out="$out$sep\"isDraft\":$draft"; sep=, ;; esac
@@ -188,6 +198,11 @@ case "$2" in
   upload)
     [ "$(flag --clobber "$@")" = on ] ||
       { echo "upload without a bare --clobber" >&2; exit 1; }
+    if [ "$#" -ne 8 ] || [ "$4" != "$WORK/all.jsonld" ] ||
+       [ "$5" != "$WORK/all.ttl" ] || [ "$6" != "$WORK/ru.jsonld" ] ||
+       [ "$7" != "$WORK/ru.ttl" ]; then
+      echo "upload must carry all four exact aggregate paths" >&2; exit 1
+    fi
     echo good > "$WORK/assets" ;;
   edit)
     # Two shapes are legitimate and they mean different things. Publishing a
@@ -228,14 +243,19 @@ echo "$HEAD_SHA" > "$WORK/head"
 
 printf 'x%.0s' $(seq 1 100) > "$WORK/all.jsonld"   # 100 bytes
 printf 'y%.0s' $(seq 1 50)  > "$WORK/all.ttl"      # 50 bytes
+printf 'r%.0s' $(seq 1 30) > "$WORK/ru.jsonld"
+printf 't%.0s' $(seq 1 20) > "$WORK/ru.ttl"
 echo "sha256:$(sha256sum "$WORK/all.jsonld" | cut -d' ' -f1)" > "$WORK/dig_a"
 echo "sha256:$(sha256sum "$WORK/all.ttl"    | cut -d' ' -f1)" > "$WORK/dig_b"
+
+echo "sha256:$(sha256sum "$WORK/ru.jsonld" | cut -d' ' -f1)" > "$WORK/dig_c"
+echo "sha256:$(sha256sum "$WORK/ru.ttl" | cut -d' ' -f1)" > "$WORK/dig_d"
 
 # Run from the repository, not $WORK: the script asks git for the commit it
 # is publishing, so it needs a work tree. The asset paths are absolute.
 run() { # sets $out and $rc
   set +e
-  out="$("$SCRIPT" "$WORK/all.jsonld" "$WORK/all.ttl" 2>&1)"
+  out="$("$SCRIPT" "$WORK/all.jsonld" "$WORK/all.ttl" "$WORK/ru.jsonld" "$WORK/ru.ttl" 2>&1)"
   rc=$?
   set -e
 }
@@ -289,6 +309,17 @@ reset published wrongdigest
 run
 check "published+wrong-digest fails"         "1" "$rc"
 check "published+wrong-digest never uploads" "0" "$(calls upload)"
+
+# A legacy two-asset published release must remain immutable, even when the
+# current publisher requires RU assets. Wrong RU content/size/state and extra
+# assets are equally invalid: never silently repair any published snapshot.
+for fixture in legacy ruwrongdigest ruwrongsize runotuploaded extra; do
+  reset published "$fixture"
+  run
+  check "published+$fixture fails" "1" "$rc"
+  check "published+$fixture never uploads" "0" "$(calls upload)"
+  check "published+$fixture never edits" "0" "$(calls ' edit ')"
+done
 
 # --- 4. draft: upload, verify, publish ------------------------------------
 reset draft partial
@@ -346,10 +377,28 @@ check "auth failure creates nothing" "0" "$(calls create)"
 reset published good
 : > "$WORK/empty"
 set +e
-out="$("$SCRIPT" "$WORK/empty" "$WORK/all.ttl" 2>&1)"; rc=$?
+out="$("$SCRIPT" "$WORK/empty" "$WORK/all.ttl" "$WORK/ru.jsonld" "$WORK/ru.ttl" 2>&1)"; rc=$?
 set -e
 check "empty aggregate fails"       "1" "$rc"
 check "empty aggregate calls no gh" "0" "$(grep -c . "$WORK/calls" 2>/dev/null || true)"
+
+# Each mandatory RU input is checked before any remote inspection. Use the
+# correct filename in a separate directory so this tests emptiness, not names.
+mkdir "$WORK/empty-assets"
+for ru_asset in ru.jsonld ru.ttl; do
+  reset published good
+  : > "$WORK/empty-assets/$ru_asset"
+  ru_jsonld="$WORK/ru.jsonld"; ru_ttl="$WORK/ru.ttl"
+  case "$ru_asset" in
+    ru.jsonld) ru_jsonld="$WORK/empty-assets/$ru_asset" ;;
+    ru.ttl) ru_ttl="$WORK/empty-assets/$ru_asset" ;;
+  esac
+  set +e
+  out="$("$SCRIPT" "$WORK/all.jsonld" "$WORK/all.ttl" "$ru_jsonld" "$ru_ttl" 2>&1)"; rc=$?
+  set -e
+  check "empty $ru_asset fails" "1" "$rc"
+  check "empty $ru_asset calls no gh" "0" "$(calls '.')"
+done
 
 # --- 9. published and valid, but something else took Latest --------------
 # The one thing the do-nothing state still has to do. Losing the slot is
@@ -387,8 +436,8 @@ if [ "$1" = "api" ]; then
   esac
 fi
 if [ "$2" = view ]; then
-  printf '{"isDraft":false,"assets":[{"name":"all.jsonld","size":100,"state":"uploaded","digest":"%s"},{"name":"all.ttl","size":50,"state":"uploaded","digest":"%s"}]}\n' \
-    "$(cat "$WORK/dig_a")" "$(cat "$WORK/dig_b")"
+  printf '{"isDraft":false,"assets":[{"name":"all.jsonld","size":100,"state":"uploaded","digest":"%s"},{"name":"all.ttl","size":50,"state":"uploaded","digest":"%s"},{"name":"ru.jsonld","size":30,"state":"uploaded","digest":"%s"},{"name":"ru.ttl","size":20,"state":"uploaded","digest":"%s"}]}\n' \
+    "$(cat "$WORK/dig_a")" "$(cat "$WORK/dig_b")" "$(cat "$WORK/dig_c")" "$(cat "$WORK/dig_d")"
   exit 0
 fi
 exit 0
@@ -415,8 +464,8 @@ if [ "$1" = "api" ]; then
   esac
 fi
 if [ "$2" = view ]; then
-  printf '{"isDraft":false,"assets":[{"name":"all.jsonld","size":100,"state":"uploaded","digest":"%s"},{"name":"all.ttl","size":50,"state":"uploaded","digest":"%s"}]}\n' \
-    "$(cat "$WORK/dig_a")" "$(cat "$WORK/dig_b")"
+  printf '{"isDraft":false,"assets":[{"name":"all.jsonld","size":100,"state":"uploaded","digest":"%s"},{"name":"all.ttl","size":50,"state":"uploaded","digest":"%s"},{"name":"ru.jsonld","size":30,"state":"uploaded","digest":"%s"},{"name":"ru.ttl","size":20,"state":"uploaded","digest":"%s"}]}\n' \
+    "$(cat "$WORK/dig_a")" "$(cat "$WORK/dig_b")" "$(cat "$WORK/dig_c")" "$(cat "$WORK/dig_d")"
   exit 0
 fi
 exit 0
@@ -444,7 +493,7 @@ cp "$WORK/bin/gh.orig" "$WORK/bin/gh"
 # no flag parsing at all.
 reset published good
 for probe in "edit $TAG --latest=false" \
-             "upload $TAG all.jsonld --clobber=false" \
+             "upload $TAG $WORK/all.jsonld $WORK/all.ttl $WORK/ru.jsonld $WORK/ru.ttl --clobber=false" \
              "edit $TAG --draft=false"; do
   set +e
   # shellcheck disable=SC2086
@@ -458,7 +507,7 @@ done
 # as the bare flag. Rejecting these would be a stub stricter than gh, which
 # is its own kind of lie.
 reset draft good
-for probe in "upload $TAG all.jsonld --clobber=true" \
+for probe in "upload $TAG $WORK/all.jsonld $WORK/all.ttl $WORK/ru.jsonld $WORK/ru.ttl --clobber=true" \
              "create $TAG --draft=true --target $HEAD_SHA"; do
   set +e
   # shellcheck disable=SC2086
@@ -493,8 +542,8 @@ case "$2" in
     else
       t="$(cat "$WORK/target")"
     fi
-    printf '{"isDraft":true,"targetCommitish":"%s","assets":[{"name":"all.jsonld","size":100,"state":"uploaded","digest":"%s"},{"name":"all.ttl","size":50,"state":"uploaded","digest":"%s"}]}\n' \
-      "$t" "$(cat "$WORK/dig_a")" "$(cat "$WORK/dig_b")" ;;
+    printf '{"isDraft":true,"targetCommitish":"%s","assets":[{"name":"all.jsonld","size":100,"state":"uploaded","digest":"%s"},{"name":"all.ttl","size":50,"state":"uploaded","digest":"%s"},{"name":"ru.jsonld","size":30,"state":"uploaded","digest":"%s"},{"name":"ru.ttl","size":20,"state":"uploaded","digest":"%s"}]}\n' \
+      "$t" "$(cat "$WORK/dig_a")" "$(cat "$WORK/dig_b")" "$(cat "$WORK/dig_c")" "$(cat "$WORK/dig_d")" ;;
   upload) : ;;
   edit)   echo published > "$WORK/state" ;;
 esac
@@ -524,10 +573,10 @@ case "$2" in
     # Good until the edit lands, wrong immediately after it: exactly the
     # shape of another writer clobbering an asset mid-publish.
     if grep -q ' edit ' "$WORK/calls"; then
-      printf '{"isDraft":false,"assets":[{"name":"all.jsonld","size":100,"state":"uploaded","digest":"sha256:WRONG"},{"name":"all.ttl","size":50,"state":"uploaded","digest":"sha256:WRONG"}]}\n'
+      printf '{"isDraft":false,"assets":[{"name":"all.jsonld","size":100,"state":"uploaded","digest":"sha256:WRONG"},{"name":"all.ttl","size":50,"state":"uploaded","digest":"sha256:WRONG"},{"name":"ru.jsonld","size":30,"state":"uploaded","digest":"sha256:WRONG"},{"name":"ru.ttl","size":20,"state":"uploaded","digest":"sha256:WRONG"}]}\n'
     else
-      printf '{"isDraft":true,"targetCommitish":"%s","assets":[{"name":"all.jsonld","size":100,"state":"uploaded","digest":"%s"},{"name":"all.ttl","size":50,"state":"uploaded","digest":"%s"}]}\n' \
-        "$(cat "$WORK/target")" "$(cat "$WORK/dig_a")" "$(cat "$WORK/dig_b")"
+      printf '{"isDraft":true,"targetCommitish":"%s","assets":[{"name":"all.jsonld","size":100,"state":"uploaded","digest":"%s"},{"name":"all.ttl","size":50,"state":"uploaded","digest":"%s"},{"name":"ru.jsonld","size":30,"state":"uploaded","digest":"%s"},{"name":"ru.ttl","size":20,"state":"uploaded","digest":"%s"}]}\n' \
+        "$(cat "$WORK/target")" "$(cat "$WORK/dig_a")" "$(cat "$WORK/dig_b")" "$(cat "$WORK/dig_c")" "$(cat "$WORK/dig_d")"
     fi ;;
   upload) : ;;
   edit)   : ;;
@@ -561,8 +610,8 @@ if [ "$1" = "api" ]; then
   echo 'HTTP 404: Not Found' >&2; exit 1
 fi
 case "$2" in
-  view) printf '{"isDraft":true,"assets":[{"name":"all.jsonld","size":100,"state":"uploaded","digest":"%s"},{"name":"all.ttl","size":50,"state":"uploaded","digest":"%s"}]}\n' \
-          "$(cat "$WORK/dig_a")" "$(cat "$WORK/dig_b")" ;;
+  view) printf '{"isDraft":true,"assets":[{"name":"all.jsonld","size":100,"state":"uploaded","digest":"%s"},{"name":"all.ttl","size":50,"state":"uploaded","digest":"%s"},{"name":"ru.jsonld","size":30,"state":"uploaded","digest":"%s"},{"name":"ru.ttl","size":20,"state":"uploaded","digest":"%s"}]}\n' \
+          "$(cat "$WORK/dig_a")" "$(cat "$WORK/dig_b")" "$(cat "$WORK/dig_c")" "$(cat "$WORK/dig_d")" ;;
   upload) : ;;
   edit)   echo published > "$WORK/state" ;;
 esac
@@ -596,8 +645,8 @@ if [ "$1" = "api" ]; then
   echo "commit $(cat "$WORK/tagsha")"; exit 0
 fi
 case "$2" in
-  view) printf '{"isDraft":false,"assets":[{"name":"all.jsonld","size":100,"state":"uploaded","digest":"%s"},{"name":"all.ttl","size":50,"state":"uploaded","digest":"%s"}]}\n' \
-          "$(cat "$WORK/dig_a")" "$(cat "$WORK/dig_b")" ;;
+  view) printf '{"isDraft":false,"assets":[{"name":"all.jsonld","size":100,"state":"uploaded","digest":"%s"},{"name":"all.ttl","size":50,"state":"uploaded","digest":"%s"},{"name":"ru.jsonld","size":30,"state":"uploaded","digest":"%s"},{"name":"ru.ttl","size":20,"state":"uploaded","digest":"%s"}]}\n' \
+          "$(cat "$WORK/dig_a")" "$(cat "$WORK/dig_b")" "$(cat "$WORK/dig_c")" "$(cat "$WORK/dig_d")" ;;
   edit) : ;;
 esac
 STUB
@@ -623,8 +672,8 @@ fi
 case "$2" in
   view)
     if grep -q ' edit ' "$WORK/calls"; then d=false; else d=true; fi
-    printf '{"isDraft":%s,"targetCommitish":"%s","assets":[{"name":"all.jsonld","size":100,"state":"uploaded","digest":"%s"},{"name":"all.ttl","size":50,"state":"uploaded","digest":"%s"}]}\n' \
-      "$d" "$(cat "$WORK/target")" "$(cat "$WORK/dig_a")" "$(cat "$WORK/dig_b")" ;;
+    printf '{"isDraft":%s,"targetCommitish":"%s","assets":[{"name":"all.jsonld","size":100,"state":"uploaded","digest":"%s"},{"name":"all.ttl","size":50,"state":"uploaded","digest":"%s"},{"name":"ru.jsonld","size":30,"state":"uploaded","digest":"%s"},{"name":"ru.ttl","size":20,"state":"uploaded","digest":"%s"}]}\n' \
+      "$d" "$(cat "$WORK/target")" "$(cat "$WORK/dig_a")" "$(cat "$WORK/dig_b")" "$(cat "$WORK/dig_c")" "$(cat "$WORK/dig_d")" ;;
   upload) : ;;
   edit)   : ;;
 esac
@@ -667,8 +716,8 @@ if [ "$1" = "api" ]; then
   echo 'HTTP 404: Not Found' >&2; exit 1
 fi
 case "$2" in
-  view) printf '{"isDraft":true,"targetCommitish":"%s","assets":[{"name":"all.jsonld","size":100,"state":"uploaded","digest":"%s"},{"name":"all.ttl","size":50,"state":"uploaded","digest":"%s"}]}\n' \
-          "$(cat "$WORK/target")" "$(cat "$WORK/dig_a")" "$(cat "$WORK/dig_b")" ;;
+  view) printf '{"isDraft":true,"targetCommitish":"%s","assets":[{"name":"all.jsonld","size":100,"state":"uploaded","digest":"%s"},{"name":"all.ttl","size":50,"state":"uploaded","digest":"%s"},{"name":"ru.jsonld","size":30,"state":"uploaded","digest":"%s"},{"name":"ru.ttl","size":20,"state":"uploaded","digest":"%s"}]}\n' \
+          "$(cat "$WORK/target")" "$(cat "$WORK/dig_a")" "$(cat "$WORK/dig_b")" "$(cat "$WORK/dig_c")" "$(cat "$WORK/dig_d")" ;;
   upload) : ;;
   edit)   echo published > "$WORK/state" ;;
 esac
@@ -726,8 +775,8 @@ if [ "$1" = "api" ]; then
   echo "commit $(cat "$WORK/tagsha")"; exit 0
 fi
 case "$2" in
-  view) printf '{"targetCommitish":"%s","assets":[{"name":"all.jsonld","size":100,"state":"uploaded","digest":"%s"},{"name":"all.ttl","size":50,"state":"uploaded","digest":"%s"}]}\n' \
-          "$(cat "$WORK/target")" "$(cat "$WORK/dig_a")" "$(cat "$WORK/dig_b")" ;;
+  view) printf '{"targetCommitish":"%s","assets":[{"name":"all.jsonld","size":100,"state":"uploaded","digest":"%s"},{"name":"all.ttl","size":50,"state":"uploaded","digest":"%s"},{"name":"ru.jsonld","size":30,"state":"uploaded","digest":"%s"},{"name":"ru.ttl","size":20,"state":"uploaded","digest":"%s"}]}\n' \
+          "$(cat "$WORK/target")" "$(cat "$WORK/dig_a")" "$(cat "$WORK/dig_b")" "$(cat "$WORK/dig_c")" "$(cat "$WORK/dig_d")" ;;
   upload) : ;;
   edit)   : ;;
 esac
@@ -756,8 +805,8 @@ fi
 case "$2" in
   view)
     if grep -q upload "$WORK/calls"; then printf 'upload read broke\n' >&2; exit 1; fi
-    printf '{"isDraft":true,"targetCommitish":"%s","assets":[{"name":"all.jsonld","size":100,"state":"uploaded","digest":"%s"},{"name":"all.ttl","size":50,"state":"uploaded","digest":"%s"}]}\n' \
-      "$(cat "$WORK/target")" "$(cat "$WORK/dig_a")" "$(cat "$WORK/dig_b")" ;;
+    printf '{"isDraft":true,"targetCommitish":"%s","assets":[{"name":"all.jsonld","size":100,"state":"uploaded","digest":"%s"},{"name":"all.ttl","size":50,"state":"uploaded","digest":"%s"},{"name":"ru.jsonld","size":30,"state":"uploaded","digest":"%s"},{"name":"ru.ttl","size":20,"state":"uploaded","digest":"%s"}]}\n' \
+      "$(cat "$WORK/target")" "$(cat "$WORK/dig_a")" "$(cat "$WORK/dig_b")" "$(cat "$WORK/dig_c")" "$(cat "$WORK/dig_d")" ;;
   upload) : ;;
   edit)   : ;;
 esac
@@ -786,8 +835,8 @@ fi
 case "$2" in
   view)
     if grep -q ' edit ' "$WORK/calls"; then printf 'publish read broke\n' >&2; exit 1; fi
-    printf '{"isDraft":true,"targetCommitish":"%s","assets":[{"name":"all.jsonld","size":100,"state":"uploaded","digest":"%s"},{"name":"all.ttl","size":50,"state":"uploaded","digest":"%s"}]}\n' \
-      "$(cat "$WORK/target")" "$(cat "$WORK/dig_a")" "$(cat "$WORK/dig_b")" ;;
+    printf '{"isDraft":true,"targetCommitish":"%s","assets":[{"name":"all.jsonld","size":100,"state":"uploaded","digest":"%s"},{"name":"all.ttl","size":50,"state":"uploaded","digest":"%s"},{"name":"ru.jsonld","size":30,"state":"uploaded","digest":"%s"},{"name":"ru.ttl","size":20,"state":"uploaded","digest":"%s"}]}\n' \
+      "$(cat "$WORK/target")" "$(cat "$WORK/dig_a")" "$(cat "$WORK/dig_b")" "$(cat "$WORK/dig_c")" "$(cat "$WORK/dig_d")" ;;
   upload) : ;;
   edit)   : ;;
 esac
