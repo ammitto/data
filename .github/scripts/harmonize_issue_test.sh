@@ -181,6 +181,55 @@ report "$WORK/report.json" false
 out="$(run)"
 check 'refuses a failing report with no failures' 'lists no gate_failures' "$out"
 
+# Output validation can fail after every source gate passed (the producer's
+# real report shape). Paths and messages must survive into the outage.
+issues '[]'
+report "$WORK/report.json" false
+jq '.output_validation = {valid: false, files: 2, errors: [
+  {path: "api/v1/z.jsonld", message: "missing name"},
+  {path: "api/v1/a.jsonld", message: "invalid a|b"}]}' \
+  "$WORK/report.json" > "$WORK/output-report.json"
+cp "$WORK/output-report.json" "$WORK/report.json"
+out="$(run)"
+check 'opens on output validation failure' 'opened tracking issue' "$out"
+check 'creates output outage' 'issue create' "$(cat "$WORK/calls")"
+check 'renders output path and message' '| `api/v1/a.jsonld` | invalid a\|b |' \
+  "$(cat "$WORK/last_body")"
+check 'signature contains output error' 'output: api/v1/z.jsonld: missing name' \
+  "$(cat "$WORK/last_body")"
+
+# Source and output failures share one canonical sorted, deduplicated set.
+issues "$(tracked_issue 'output: api/v1/a.jsonld: invalid a|b;output: api/v1/z.jsonld: missing name;ru: source failed')"
+jq '.sources = [{code: "ru", gate_failures: ["ru: source failed", "ru: source failed"]}]
+    | .output_validation.errors |= (reverse + [.[0]])' \
+  "$WORK/output-report.json" > "$WORK/report.json"
+out="$(run)"
+check 'mixed signature ignores order and duplicates' 'staying quiet' "$out"
+check 'mixed unchanged signature makes no writes' 'writes=0' \
+  "writes=$(grep -cE 'issue (create|comment|edit|close)' "$WORK/calls" || true)"
+
+# Malformed or contradictory reports must never close a live outage.
+for invalid in \
+  '.gates_passed = "true"' \
+  '.gates_passed = null' \
+  '.gates_passed = true' \
+  '.output_validation.valid = "false"' \
+  '.output_validation.errors = [{}]' \
+  '.output_validation.errors = "broken"'; do
+  jq "$invalid" "$WORK/output-report.json" > "$WORK/report.json"
+  out="$(run)"
+  check "refuses malformed output report $invalid" 'EXIT=65' "$out"
+  check "malformed report makes no API calls $invalid" 'calls=0' \
+    "calls=$(wc -l < "$WORK/calls" | tr -d ' ')"
+done
+
+# The local write guard remains effective even though tests stub gh.
+report "$WORK/report.json" true
+out="$(GITHUB_ACTIONS=false HARMONIZE_ALLOW_ISSUE_WRITE=0 run)"
+check 'guard refuses local writes' 'EXIT=78' "$out"
+check 'guard makes no API calls' 'calls=0' \
+  "calls=$(wc -l < "$WORK/calls" | tr -d ' ')"
+
 # A missing report is a broken caller, not a healthy run.
 rm -f "$WORK/report.json"
 out="$(run)"
