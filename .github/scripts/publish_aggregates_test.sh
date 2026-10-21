@@ -373,31 +373,28 @@ run
 check "auth failure fails"           "1" "$rc"
 check "auth failure creates nothing" "0" "$(calls create)"
 
-# --- 8. a missing aggregate must fail before any API call ----------------
-reset published good
-: > "$WORK/empty"
-set +e
-out="$("$SCRIPT" "$WORK/empty" "$WORK/all.ttl" "$WORK/ru.jsonld" "$WORK/ru.ttl" 2>&1)"; rc=$?
-set -e
-check "empty aggregate fails"       "1" "$rc"
-check "empty aggregate calls no gh" "0" "$(grep -c . "$WORK/calls" 2>/dev/null || true)"
-
-# Each mandatory RU input is checked before any remote inspection. Use the
-# correct filename in a separate directory so this tests emptiness, not names.
+# --- 8. an empty aggregate must fail before any API call -----------------
+# Correct basenames are required: a path named "empty" would hit the asset
+# name guard and never exercise the missing/empty input guard being tested.
 mkdir "$WORK/empty-assets"
-for ru_asset in ru.jsonld ru.ttl; do
+for asset in all.jsonld all.ttl ru.jsonld ru.ttl; do
   reset published good
-  : > "$WORK/empty-assets/$ru_asset"
+  : > "$WORK/empty-assets/$asset"
+  jsonld="$WORK/all.jsonld"; ttl="$WORK/all.ttl"
   ru_jsonld="$WORK/ru.jsonld"; ru_ttl="$WORK/ru.ttl"
-  case "$ru_asset" in
-    ru.jsonld) ru_jsonld="$WORK/empty-assets/$ru_asset" ;;
-    ru.ttl) ru_ttl="$WORK/empty-assets/$ru_asset" ;;
+  case "$asset" in
+    all.jsonld) jsonld="$WORK/empty-assets/$asset" ;;
+    all.ttl) ttl="$WORK/empty-assets/$asset" ;;
+    ru.jsonld) ru_jsonld="$WORK/empty-assets/$asset" ;;
+    ru.ttl) ru_ttl="$WORK/empty-assets/$asset" ;;
   esac
   set +e
-  out="$("$SCRIPT" "$WORK/all.jsonld" "$WORK/all.ttl" "$ru_jsonld" "$ru_ttl" 2>&1)"; rc=$?
+  out="$("$SCRIPT" "$jsonld" "$ttl" "$ru_jsonld" "$ru_ttl" 2>&1)"; rc=$?
   set -e
-  check "empty $ru_asset fails" "1" "$rc"
-  check "empty $ru_asset calls no gh" "0" "$(calls '.')"
+  check "empty $asset fails" "1" "$rc"
+  check "empty $asset names the missing/empty guard" \
+    "::error::$WORK/empty-assets/$asset is missing or empty; --combine did not produce it" "$out"
+  check "empty $asset calls no gh" "0" "$(calls '.')"
 done
 
 # --- 9. published and valid, but something else took Latest --------------
