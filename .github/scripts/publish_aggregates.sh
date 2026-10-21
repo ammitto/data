@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Publish the two oversized aggregates as assets on a release keyed to the
+# Publish the oversized whole-graph and RU aggregates as assets on a release keyed to the
 # data commit they were built from.
 #
 # Ronald ruled on 2026-09-01 that "the all.json output is not a contract, for
@@ -46,8 +46,22 @@ set -euo pipefail
 
 jsonld="${1:?path to all.jsonld}"
 ttl="${2:?path to all.ttl}"
+ru_jsonld="${3:?path to ru.jsonld}"
+ru_ttl="${4:?path to ru.ttl}"
 
-for f in "$jsonld" "$ttl"; do
+if [ "$#" -ne 4 ]; then
+  echo "::error::expected exactly four aggregate paths"
+  exit 1
+fi
+for expected in all.jsonld all.ttl ru.jsonld ru.ttl; do
+  if [ "$(basename "$1")" != "$expected" ]; then
+    echo "::error::expected asset $expected, got $(basename "$1")"
+    exit 1
+  fi
+  shift
+done
+
+for f in "$jsonld" "$ttl" "$ru_jsonld" "$ru_ttl"; do
   if [ ! -s "$f" ]; then
     echo "::error::$f is missing or empty; --combine did not produce it"
     exit 1
@@ -63,7 +77,12 @@ ttl_size="$(wc -c < "$ttl" | tr -d ' ')"
 jsonld_digest="sha256:$(sha256sum "$jsonld" | cut -d' ' -f1)"
 ttl_digest="sha256:$(sha256sum "$ttl" | cut -d' ' -f1)"
 
-# Exactly two assets, both fully uploaded, both matching the bytes on disk by
+ru_jsonld_size="$(wc -c < "$ru_jsonld" | tr -d ' ')"
+ru_ttl_size="$(wc -c < "$ru_ttl" | tr -d ' ')"
+ru_jsonld_digest="sha256:$(sha256sum "$ru_jsonld" | cut -d' ' -f1)"
+ru_ttl_digest="sha256:$(sha256sum "$ru_ttl" | cut -d' ' -f1)"
+
+# Exactly four assets, all fully uploaded, all matching the bytes on disk by
 # DIGEST and not merely by size. Size alone passes an asset of the right
 # length carrying the wrong content, which is a real outcome of a clobber
 # that raced or resumed against different data. GitHub exposes a sha256 per
@@ -71,11 +90,15 @@ ttl_digest="sha256:$(sha256sum "$ttl" | cut -d' ' -f1)"
 assets_valid() {
   printf '%s' "$1" | jq -e \
     --arg aname all.jsonld --argjson asize "$jsonld_size" --arg adig "$jsonld_digest" \
-    --arg bname all.ttl    --argjson bsize "$ttl_size"    --arg bdig "$ttl_digest" '
-    (.assets | length) == 2
+    --arg bname all.ttl    --argjson bsize "$ttl_size"    --arg bdig "$ttl_digest" \
+    --arg cname ru.jsonld --argjson csize "$ru_jsonld_size" --arg cdig "$ru_jsonld_digest" \
+    --arg dname ru.ttl    --argjson dsize "$ru_ttl_size"    --arg ddig "$ru_ttl_digest" '
+    (.assets | length) == 4
     and ([.assets[] | select(.state == "uploaded") | {name, size, digest}] | sort_by(.name))
         == ([{name: $aname, size: $asize, digest: $adig},
-             {name: $bname, size: $bsize, digest: $bdig}] | sort_by(.name))
+             {name: $bname, size: $bsize, digest: $bdig},
+             {name: $cname, size: $csize, digest: $cdig},
+             {name: $dname, size: $dsize, digest: $ddig}] | sort_by(.name))
   ' >/dev/null 2>&1
 }
 
@@ -289,7 +312,7 @@ if [ "$view_rc" -ne 0 ]; then
   if printf '%s' "$view_err" | grep -qi 'release not found'; then
     echo "Creating draft release $tag targeted at $sha."
     gh release create "$tag" --draft --target "$sha" --title "$title" \
-      --notes "Whole-graph exports for the data committed at $sha. Per-source files stay in the repository under api/v1/sources/; these two exceed GitHub's 100 MiB per-file push limit and are published here instead. Stable URLs: https://github.com/$GITHUB_REPOSITORY/releases/latest/download/all.jsonld and https://github.com/$GITHUB_REPOSITORY/releases/latest/download/all.ttl"
+      --notes "Whole-graph and Russia exports for the data committed at $sha. These four files exceed GitHub's 100 MiB per-file push limit and are published here instead. Other per-source exports and individual node documents remain in the repository. Asset URLs: https://github.com/$GITHUB_REPOSITORY/releases/download/$tag/{all.jsonld,all.ttl,ru.jsonld,ru.ttl}"
     view="$(view_or_die "created $tag")" || exit 1
   else
     echo "::error::gh release view failed for a reason other than absence: $(oneline "$view_err")"
@@ -347,7 +370,7 @@ if [ "$is_draft" = "false" ]; then
     fi
 
     if [ "$latest_tag" = "$tag" ]; then
-      echo "Release $tag is published, carries both assets and holds Latest."
+      echo "Release $tag is published, carries all four assets and holds Latest."
       exit 0
     fi
 
@@ -357,16 +380,16 @@ if [ "$is_draft" = "false" ]; then
     echo "Reclaimed Latest for $tag."
     exit 0
   fi
-  echo "::error::published release $tag does not carry both expected assets."
+  echo "::error::published release $tag does not carry all four expected assets."
   echo "::error::Refusing to clobber a published release. Delete it and re-run if it should be rebuilt."
   exit 1
 fi
 
-gh release upload "$tag" "$jsonld" "$ttl" --clobber
+gh release upload "$tag" "$jsonld" "$ttl" "$ru_jsonld" "$ru_ttl" --clobber
 
 view="$(view_or_die "uploaded to $tag")" || exit 1
 if ! assets_valid "$view"; then
-  echo "::error::draft $tag does not carry both expected assets after upload."
+  echo "::error::draft $tag does not carry all four expected assets after upload."
   printf '%s\n' "$view" >&2
   exit 1
 fi
