@@ -28,7 +28,7 @@ This harmonized dataset combines data from the following source repositories:
 | CA | `ca` | Canada GAC Autonomous Sanctions List
 | CH | `ch` | Switzerland SECO Sanctions Database
 | CN | `cn` | China MOFCOM/MFA Sanctions Lists
-| RU | `ru` | Russia MID/CBR Sanctions Lists (not currently published)
+| RU | `ru` | Russia MID/CBR Sanctions Lists
 | NZ | `nz` | New Zealand MFAT Russia Sanctions Register
 | TR | `tr` | Turkey HMB Asset Freezing Lists
 | EU Vessels | `eu_vessels` | EU Designated Vessels (via Denmark DMA)
@@ -196,32 +196,33 @@ Legal Instrument:: `https://www.ammitto.org/legal_instrument/{source}/{local_id}
 
 == API Endpoints
 
-The harmonized dataset is available at:
+The harmonized dataset is published through the following discovery and node endpoints.
 
 === Aggregated Files
 
-* **All entities**: `https://www.ammitto.org/api/v1/all.jsonld` (JSON-LD)
-* **All entities (Turtle)**: `https://www.ammitto.org/api/v1/all.ttl` (RDF)
-* **By source**: `https://www.ammitto.org/api/v1/sources/{source}.jsonld`
+Use the website download catalogue at
+`https://www.ammitto.org/api/v1/index.jsonld` to discover bulk export URLs and
+byte sizes. Whole-graph exports and RU Turtle use release assets; the site
+retains per-source JSON-LD at
+`https://www.ammitto.org/api/v1/sources/{source}.jsonld`.
+Catalogue changes take effect when the corresponding website deployment succeeds.
 
-Both whole-graph exports run past GitHub's 100 MiB per-file limit. The run
-that most recently tried to push them (2026-09-08) was refused with them at
-152.28 MB and 110.22 MB, as GitHub's error reported the sizes, so this
-repository does not carry them.
-Every successful harvest still builds them and publishes them as assets on
-a release keyed to the commit they were built from, at:
+The whole-graph and Russia aggregates exceed GitHub's 100 MiB per-file
+push limit. Every successful harvest generates and validates them, then
+publishes these four assets on a release keyed to the resulting data commit:
 
-* `https://github.com/ammitto/data/releases/latest/download/all.jsonld`
-* `https://github.com/ammitto/data/releases/latest/download/all.ttl`
+* `all.jsonld` and `all.ttl` — the complete graph
+* `ru.jsonld` and `ru.ttl` — the Russia source graph
 
-Those URLs resolve from the first harvest that publishes after this change,
-not immediately. Everything derived from the whole graph — the per-source
-files under `api/v1/sources/`, the node documents, the facets and the search
-index — is committed here as before.
+Use `https://github.com/ammitto/data/releases/download/api-v1-{commit}/{asset}`
+for an immutable snapshot. The repository's latest release is also available
+under `https://github.com/ammitto/data/releases/latest/download/{asset}`;
+clients needing matching metadata should pin a specific release rather than
+mixing a moving latest asset with another snapshot's catalogue.
 
-The site endpoints above are unaffected: the site builds and serves its own
-copy of both files. Redirecting them at the release is the next step in
-Ronald's ruling and is not done here.
+Other per-source exports, individual node documents, facets and search indexes
+remain committed. The website builds its own publication layout; its download
+catalogue identifies the published locations of bulk exports.
 
 === Knowledge Graph Nodes
 
