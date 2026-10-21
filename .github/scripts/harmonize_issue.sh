@@ -73,22 +73,52 @@ schema="$(jq -r '.schema // ""' "$REPORT")"
   exit 65
 }
 
+# Validate the fields used to decide recovery before making any API calls.
+# Older v1 reports omit output_validation; newer producers include it even
+# when source gates passed. Malformed or contradictory reports fail closed.
+rows="$(jq -ce '
+  def text: type == "string" and length > 0;
+  if (.gates_passed | type) != "boolean"
+     or (.sources | type) != "array"
+     or (all(.sources[];
+       (.code | text) and (.gate_failures | type == "array") and
+       all(.gate_failures[]; text)) | not)
+     or (has("output_validation") and
+       (.output_validation | (
+         type == "object" and (.valid | type == "boolean") and
+         (.errors | type == "array") and
+         all(.errors[]; type == "object" and (.path | text) and (.message | text)) and
+         (if .valid then (.errors | length == 0) else (.errors | length > 0) end)
+       ) | not))
+  then error("malformed gate or output validation fields")
+  else . end
+  | [(.sources[] | . as $s | .gate_failures[] |
+        {target: $s.code, reason: ., signature: .}),
+     (.output_validation.errors[]? |
+        {target: .path, reason: .message,
+         signature: ("output: " + .path + ": " + .message)})]
+  | unique_by(.signature)
+' "$REPORT")" || {
+  echo 'invalid harmonization report' >&2
+  exit 65
+}
 gates_passed="$(jq -r '.gates_passed' "$REPORT")"
-# Sorted so that two runs failing on the same sources in a different order
-# read as the same fault rather than a new one.
-failures="$(jq -r '[.sources[] | select((.gate_failures | length) > 0)
-                   | .gate_failures[]] | sort | .[]' "$REPORT")"
+failures="$(jq -r '.[].signature' <<<"$rows")"
+if [ "$gates_passed" = 'true' ] && [ -n "$failures" ]; then
+  echo 'report says the gates passed but lists failures' >&2
+  exit 65
+fi
 
 if [ "$gates_passed" = "true" ]; then
   signature='healthy'
 else
   signature="$(printf '%s' "$failures" | tr '\n' ';' | sed 's/;$//')"
-  # A failing run that names no source means the producer changed shape or
+  # A failing run that names no failure means the producer changed shape or
   # broke. Refusing is the point: an empty signature compares equal to the
   # empty one already stored, so the unchanged path below would read it as
   # "same outage as yesterday" and say nothing at all.
   [ -n "$signature" ] || {
-    echo "report says the gates failed but lists no gate_failures" >&2
+    echo "report says the gates failed but lists no gate_failures or output validation errors" >&2
     exit 65
   }
 fi
@@ -127,11 +157,10 @@ write_body() {
     printf 'It is updated in place rather than reopened per run, and closes '
     printf 'itself when a run succeeds.\n\n'
     printf 'Latest failing run: %s\n\n' "$RUN_URL"
-    printf '| Source | Gate failure |\n| --- | --- |\n'
-    jq -r '.sources[] | select((.gate_failures | length) > 0)
-           | . as $s | .gate_failures[]
-           | "| `\($s.code)` | \(. | gsub("[|]"; "\\|")) |"' "$REPORT"
-    printf '\n%s succeeded, %s failed, %s exempted.\n' \
+    printf '| Source / output path | Gate failure |\n| --- | --- |\n'
+    jq -r '.[] | "| `\(.target | gsub("[|]"; "\\|"))` | \(.reason | gsub("[|]"; "\\|")) |"' \
+      <<<"$rows"
+    printf '\nSources: %s succeeded, %s failed, %s exempted.\n' \
       "$(jq -r '.counts.succeeded' "$REPORT")" \
       "$(jq -r '.counts.failed' "$REPORT")" \
       "$(jq -r '.counts.exempted' "$REPORT")"
