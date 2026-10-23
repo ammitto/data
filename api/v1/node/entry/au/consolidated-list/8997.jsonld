@@ -1,0 +1,54 @@
+{
+  "@id": "https://www.ammitto.org/entry/au/consolidated-list/8997",
+  "@type": "SanctionEntry",
+  "entityId": "https://www.ammitto.org/entity/au/8997",
+  "authority": {
+    "@id": "https://www.ammitto.org/authority/au"
+  },
+  "regime": {
+    "@id": "https://www.ammitto.org/regime/au_dprk",
+    "name": "Democratic People's Republic of Korea"
+  },
+  "legalBases": [
+    {
+      "@id": "https://www.ammitto.org/legal-instrument/au/autonomous-sanctions-designated-persons-and-entities-and-declared-persons-democratic-people-s-republic-of-korea-amendment-no.-1-instrument-2026"
+    }
+  ],
+  "effects": [
+    {
+      "@type": "SanctionEffect",
+      "effectType": "asset_freeze",
+      "scope": "full"
+    },
+    {
+      "@type": "SanctionEffect",
+      "effectType": "travel_ban",
+      "scope": "full"
+    }
+  ],
+  "reasons": [
+
+  ],
+  "period": {
+    "@type": "TemporalPeriod",
+    "listedDate": "1905-07-18",
+    "isIndefinite": true
+  },
+  "status": "active",
+  "statusHistory": [
+
+  ],
+  "referenceNumber": "8997",
+  "rawSourceData": {
+    "@type": "RawSourceData",
+    "sourceFormat": "csv",
+    "sourceSpecificFields": {
+      "au:reference": "8997",
+      "au:committees": "Autonomous (DPRK)",
+      "au:control_date": "1905-07-18",
+      "au:instrument": "Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Democratic People’s Republic of Korea) Amendment (No. 1) Instrument 2026",
+      "au:listing_info": "Autonomous Sanctions (Designated Persons and Entities and Declared Persons – Democratic People’s Republic of Korea) List 2012"
+    }
+  },
+  "@context": "https://ammitto.org/api/v1/context.jsonld"
+}
