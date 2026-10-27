@@ -108741,7 +108741,9 @@
   ammitto:entityType "person" ;
   ammitto:hasName [ a ammitto:NameVariant ; ammitto:fullName "Bassam Ahmad al-Hasri" ; ammitto:isPrimary "true"^^xsd:boolean ] ;
   ammitto:hasSanctionEntry <https://www.ammitto.org/entry/ch/consolidated-list/84859> ;
-  ammitto:birthInfo [ a ammitto:BirthInfo ; ammitto:date "1969-01-01"^^xsd:date ; ammitto:circa "false"^^xsd:boolean ; ammitto:year "1969"^^xsd:integer ] .
+  ammitto:birthInfo [ a ammitto:BirthInfo ; ammitto:date "1969-01-01"^^xsd:date ; ammitto:circa "false"^^xsd:boolean ; ammitto:year "1969"^^xsd:integer ] ;
+  owl:sameAs <https://www.ammitto.org/entity/au/3230> ;
+  owl:sameAs <https://www.ammitto.org/entity/eu/eu36356> .
 <https://www.ammitto.org/entry/ch/consolidated-list/84859>
   a ammitto:SanctionEntry ;
   ammitto:entityId <https://www.ammitto.org/entity/ch/84859> ;
