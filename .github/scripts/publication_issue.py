@@ -4,6 +4,7 @@
 import argparse
 import json
 import os
+import re
 import subprocess
 import sys
 import tempfile
@@ -21,7 +22,7 @@ def gh(*args):
     ).stdout
 
 
-def reconcile(repo, outcomes, run_url):
+def reconcile(repo, outcomes, run_url, phase="publication", pending_pr=""):
     if outcomes["harmonize"] != "success":
         print("harmonization did not succeed; publication recovery is unknown")
         return
@@ -30,9 +31,22 @@ def reconcile(repo, outcomes, run_url):
         and outcomes["release"] == "success"
         and outcomes["dispatch"] == "success"
     )
-    signature = "healthy" if healthy else ";".join(
-        f"{stage}={outcomes[stage]}" for stage in STAGES[1:]
-    )
+    if phase == "proposal" and outcomes["commit"] == "success":
+        if not pending_pr:
+            print("no dataset changes or pending proposal; publication recovery is not inferred")
+            return
+        if not re.fullmatch(re.escape(f"https://github.com/{repo}/pull/") + r"[1-9][0-9]*", pending_pr):
+            raise ValueError("pending proposal URL belongs to another repository")
+        healthy = False
+        signature = "pending:" + pending_pr
+        summary = os.environ.get("GITHUB_STEP_SUMMARY")
+        if summary:
+            with open(summary, "a") as stream:
+                stream.write(f"Publication awaits merge: {pending_pr}\n")
+    else:
+        signature = "healthy" if healthy else ";".join(
+            f"{stage}={outcomes[stage]}" for stage in STAGES[1:]
+        )
     pages = json.loads(gh(
         "api", "--paginate", "--slurp",
         f"repos/{repo}/issues?state=open&labels=automation&per_page=100",
@@ -66,11 +80,12 @@ def reconcile(repo, outcomes, run_url):
 
     body = (
         f"{MARKER}\n{SIGNATURE}{signature} -->\n\n"
-        "Harmonization completed, but publication did not finish. This issue "
+        "Generated data has not completed publication. This issue "
         "tracks publication separately from source-quality failures and closes "
         "after a complete publication and deployment dispatch.\n\n"
-        f"Latest failing run: {run_url}\n\n"
-        "| Stage | Outcome |\n| --- | --- |\n"
+        f"Latest observed run: {run_url}\n\n"
+        + (f"Awaiting merge: {pending_pr}\n\n" if signature.startswith("pending:") else "")
+        + "| Stage | Outcome |\n| --- | --- |\n"
         + "".join(f"| {stage} | {outcomes[stage]} |\n" for stage in STAGES[1:])
     )
     # Body files avoid quoting/length surprises in CLI arguments.
@@ -84,7 +99,7 @@ def reconcile(repo, outcomes, run_url):
                "--body-file", str(body_file))
         else:
             gh("issue", "create", "--repo", repo, "--title",
-               "Data publication is failing", "--label", "automation",
+               "Data publication awaits merge" if signature.startswith("pending:") else "Data publication is failing", "--label", "automation",
                "--body-file", str(body_file))
     print("recorded publication outage")
 
@@ -92,6 +107,8 @@ def reconcile(repo, outcomes, run_url):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("run_url")
+    parser.add_argument("--phase", choices=("publication", "proposal"), default="publication")
+    parser.add_argument("--pending-pr", default="")
     for stage in STAGES:
         parser.add_argument("--" + stage, required=True, choices=OUTCOMES)
     args = parser.parse_args()
@@ -105,7 +122,8 @@ def main():
             raise ValueError("publication issue writes require the default branch")
     elif os.environ.get("PUBLICATION_ALLOW_ISSUE_WRITE") != "1":
         raise ValueError("refusing issue writes outside GitHub Actions")
-    reconcile(repo, {stage: getattr(args, stage) for stage in STAGES}, args.run_url)
+    reconcile(repo, {stage: getattr(args, stage) for stage in STAGES}, args.run_url,
+              args.phase, args.pending_pr)
 
 
 if __name__ == "__main__":

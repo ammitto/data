@@ -164,7 +164,8 @@ if args[0] == 'api':
         self.assertEqual(result.returncode, 0, result.stderr)
 
     def test_workflow_connects_all_outcomes_and_self_tests(self):
-        workflow = (HERE.parent / "workflows/harmonize.yml").read_text()
+        workflow = ((HERE.parent / "workflows/harmonize.yml").read_text()
+                    + (HERE.parent / "workflows/publish-accepted.yml").read_text())
         for step in ("harmonize", "commit_data", "publish_aggregates", "deploy_website"):
             self.assertIn("id: " + step, workflow)
             self.assertIn(f"steps.{step}.outcome", workflow)
@@ -173,6 +174,35 @@ if args[0] == 'api':
         for workflow_name in ("harmonize.yml", "self-tests.yml"):
             text = (HERE.parent / "workflows" / workflow_name).read_text()
             self.assertIn("python3 .github/scripts/publication_issue_test.py", text)
+
+    def test_proposal_waits_for_merge_and_never_closes_existing_outage(self):
+        self.issues([self.tracked("commit=failure;release=skipped;dispatch=skipped")])
+        result, calls = self.run_helper(
+            release="skipped", dispatch="skipped",
+            extra=("--phase", "proposal", "--pending-pr", "https://github.com/ammitto/data/pull/3"))
+        self.assertEqual(result.returncode, 0, result.stderr)
+        self.assertEqual([call[1] for call in self.writes(calls)], ["comment", "edit"])
+        self.assertIn("pending:https://github.com/ammitto/data/pull/3", (self.root / "body").read_text())
+        self.assertIn("Awaiting merge", (self.root / "body").read_text())
+
+    def test_no_change_generation_does_not_infer_publication_recovery(self):
+        self.issues([self.tracked("commit=failure;release=skipped;dispatch=skipped")])
+        result, calls = self.run_helper(
+            release="skipped", dispatch="skipped", extra=("--phase", "proposal"))
+        self.assertEqual(result.returncode, 0, result.stderr)
+        self.assertEqual(calls, [])
+
+    def test_same_pending_proposal_is_quiet_and_wrong_repo_is_refused(self):
+        url = "https://github.com/ammitto/data/pull/3"
+        self.issues([self.tracked("pending:" + url)])
+        result, calls = self.run_helper(
+            release="skipped", dispatch="skipped", extra=("--phase", "proposal", "--pending-pr", url))
+        self.assertEqual(result.returncode, 0, result.stderr)
+        self.assertEqual(self.writes(calls), [])
+        result, calls = self.run_helper(extra=("--phase", "proposal", "--pending-pr",
+                                               "https://github.com/attacker/data/pull/3"))
+        self.assertNotEqual(result.returncode, 0)
+        self.assertEqual(calls, [])
 
 
 if __name__ == "__main__":

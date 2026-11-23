@@ -1,0 +1,73 @@
+name: Publish accepted data
+
+on:
+  push:
+    branches: [main, master]
+    paths:
+      - '.publication/manifest.json'
+
+concurrency:
+  group: harmonize-data-publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    if: github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      actions: read
+      issues: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 0
+
+      - name: Self-test publication outage tracking
+        id: publication_selftest
+        run: python3 .github/scripts/publication_issue_test.py
+
+      - name: Verify accepted artifact provenance
+        id: accepted_artifact
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PUBLICATION_DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+        run: >-
+          python3 .github/scripts/publication_manifest.py download
+          --artifact-dir "$RUNNER_TEMP/accepted-aggregates"
+
+      - name: Self-test the aggregate publisher
+        run: .github/scripts/publish_aggregates_test.sh
+
+      - name: Publish the accepted aggregates
+        id: publish_aggregates
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: >-
+          .github/scripts/publish_aggregates.sh
+          "$RUNNER_TEMP/accepted-aggregates/all.jsonld"
+          "$RUNNER_TEMP/accepted-aggregates/all.ttl"
+          "$RUNNER_TEMP/accepted-aggregates/ru.jsonld"
+          "$RUNNER_TEMP/accepted-aggregates/ru.ttl"
+
+      - name: Trigger website deployment
+        id: deploy_website
+        env:
+          GH_TOKEN: ${{ secrets.AMMITTO_CI_PAT_TOKEN }}
+        run: >-
+          gh workflow run deploy.yml --repo ammitto/ammitto.github.io --ref main
+
+      - name: Reconcile the publication outage issue
+        if: ${{ !cancelled() && steps.publication_selftest.outcome == 'success' }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PUBLICATION_DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+          ACCEPTED_OUTCOME: ${{ steps.accepted_artifact.outcome }}
+          RELEASE_OUTCOME: ${{ steps.publish_aggregates.outcome }}
+          DISPATCH_OUTCOME: ${{ steps.deploy_website.outcome }}
+        run: |
+          python3 .github/scripts/publication_issue.py \
+            "$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID" \
+            --harmonize success --commit "$ACCEPTED_OUTCOME" \
+            --release "$RELEASE_OUTCOME" --dispatch "$DISPATCH_OUTCOME"

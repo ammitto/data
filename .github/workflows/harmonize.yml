@@ -10,11 +10,10 @@ on:
     paths:
       - '.github/workflows/harmonize.yml'
 
-# One publication at a time. The release tag is derived from the committed
-# HEAD, so two overlapping runs would otherwise race through view, create and
-# upload against the same release.
+# One generation proposal at a time. Accepted releases use a separate
+# concurrency group, so a scheduled proposal cannot replace a queued publisher.
 concurrency:
-  group: harmonize-data-publish
+  group: harmonize-data-propose
   cancel-in-progress: false
 
 jobs:
@@ -25,6 +24,8 @@ jobs:
     permissions:
       contents: write
       issues: write
+      pull-requests: write
+      actions: read
     steps:
       - uses: actions/checkout@v4
         with:
@@ -32,7 +33,7 @@ jobs:
           # Start generation from the default branch as it exists now.
           ref: ${{ github.event.repository.default_branch }}
           fetch-depth: 0
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.AMMITTO_CI_PAT_TOKEN }}
 
       - name: Verify queued publication checkout
         run: python3 .github/scripts/publish_checkout_test.py
@@ -183,11 +184,10 @@ jobs:
           # It is written even when the gates fail, which is the run the
           # reconciler below needs it for.
           #
-          # --combine is kept because the release step below packages
-          # exactly these two files. They live and die with this runner, so
-          # publication has to happen in this job, and it runs after every
-          # successful harmonization rather than only when the tree changed,
-          # so a failed publish can be repaired on a later run. .gitignore
+          # --combine builds the oversized aggregates retained in an immutable
+          # artifact. The accepted-data publisher verifies that artifact and
+          # releases it only after this generated dataset has been merged.
+          # .gitignore
           # keeps the assets, and the catalogue that would advertise them,
           # out of the COMMIT, because GitHub blocks a push introducing a
           # blob over 100 MiB. Full reasoning is in .gitignore.
@@ -212,135 +212,36 @@ jobs:
       - name: Suppress unpublished RU aggregates
         run: .github/scripts/suppress_unpublished_ru.sh "$RUNNER_TEMP/harmonize-report.json" api/v1
 
-      - name: Self-test the change detector
-        run: .github/scripts/has_changes_test.sh
-
-      # This gate decides whether anything is committed, so it has to be
-      # wrong in neither direction. The condition it replaced was
-      # `git diff --quiet && git diff --staged --quiet`, which reports on
-      # TRACKED files only: a harvest whose whole output was new files
-      # answered "nothing to commit", the step below was gated off, and the
-      # run finished green having added nothing.
-      #
-      # The other direction is why this is a script rather than a longer
-      # condition. `git commit` without --allow-empty FAILS when nothing is
-      # staged, so a false yes does not write an empty commit, it turns a
-      # quiet correct run red. Ignored paths and dirty submodules would both
-      # cause one, and the self-test above pins both out.
-      - name: Check for changes
-        id: check_changes
-        run: |
-          set -euo pipefail
-          # Assigned first, deliberately. Inlining the call as
-          # `echo "has_changes=$(...)"` makes the step exit 0 even when the
-          # detector fails, writing an empty value that the `if:` below reads
-          # as "no changes" — silently skipping the commit, which is the
-          # exact failure this whole step exists to prevent. The assignment
-          # form propagates the nonzero status and fails the run instead.
-          changed="$(.github/scripts/has_changes.sh)"
-          echo "has_changes=$changed" >> "$GITHUB_OUTPUT"
-
-      - name: Commit and push changes
-        id: commit_data
-        if: steps.check_changes.outputs.has_changes == 'true'
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add .
-          git commit -m "chore: harmonize sanctions data ($(date +%Y-%m-%d))"
-          git push
-
-      # Ronald ruled on 2026-09-01 that "the all.json output is not a
-      # contract, for files so large we should use GitHub releases." That is
-      # what this does; the reasoning and the state machine are in
-      # .github/scripts/publish_aggregates.sh, which is a file rather than an
-      # inline block because its branches need testing. An inline version
-      # looked right and was not: it logged "release exists" and clobbered
-      # the published assets anyway, and `gh release upload --clobber`
-      # deletes before it uploads.
-      #
-      # NOT gated on has_changes, deliberately. A run that pushed data and
-      # then failed to publish would otherwise never retry, because the tree
-      # stops differing. The release is keyed to the commit, so a run with
-      # nothing new finds its own release published and exits without
-      # touching it.
-      - name: Self-test the aggregate publisher
-        run: .github/scripts/publish_aggregates_test.sh
-
-      - name: Publish the aggregates as release assets
-        id: publish_aggregates
+      - name: Prepare immutable publication artifact and manifest
+        id: prepare_publication
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PUBLICATION_DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
         run: >-
-          .github/scripts/publish_aggregates.sh
-          api/v1/all.jsonld api/v1/all.ttl
-          api/v1/sources/ru.jsonld api/v1/sources/ru.ttl
+          python3 .github/scripts/publication_manifest.py prepare
+          --artifact-dir "$RUNNER_TEMP/harmonized-aggregates"
 
-      # Not gated on has_changes either, and for the same reason as the
-      # release above: a run that pushed data and then failed before this
-      # point would never dispatch again, because the tree stops differing.
-      # Reaching here means harmonize succeeded and the release carries all four
-      # verified assets, which is the state the site should be built from.
-      - name: Trigger website deployment
-        id: deploy_website
-        uses: actions/github-script@v7
+      - name: Preserve aggregates for accepted publication
+        if: steps.prepare_publication.outputs.changed == 'true'
+        uses: actions/upload-artifact@v4
         with:
-          # AMMITTO_CI_PAT_TOKEN, not DEPLOY_TOKEN: no secret of the
-          # latter name exists. This repository has no repository-level
-          # secrets at all, and the organization secrets visible to it
-          # are AMMITTO_CI_PAT_TOKEN and AMMITTO_CI_RUBYGEMS_API_KEY --
-          # both checkable by name through the Actions secrets API,
-          # which returns names and never values. An undefined secret
-          # resolves to an empty string, and an explicitly empty input
-          # suppresses github-script's own default, so its
-          # core.getInput('github-token', {required: true}) raises
-          # "Input required and not supplied" before the script below is
-          # evaluated. The step does fail and the action's own handler
-          # logs it; what is missing is any connection to what this step
-          # is for. The message names an absent input, not a site that
-          # was never rebuilt, and the try/catch further down — which is
-          # inside the script — never sees it.
-          #
-          # Six sibling repos dispatch across repositories: data-uk,
-          # data-tr, data-jp, data-nz, data-eu-vessels and
-          # data-un-vessels. Every one of them names the secret this
-          # way, and this workflow was the seventh dispatcher and the
-          # only one still on DEPLOY_TOKEN. That is a census, not a
-          # recollection, and it is repeatable: grep every workflow in
-          # every ammitto repo for createWorkflowDispatch and read the
-          # secrets.* it references. Re-run it before trusting the
-          # count; a repo added since will not be in it.
-          github-token: ${{ secrets.AMMITTO_CI_PAT_TOKEN }}
-          script: |
-            try {
-              await github.rest.actions.createWorkflowDispatch({
-                owner: 'ammitto',
-                repo: 'ammitto.github.io',
-                workflow_id: 'deploy.yml',
-                ref: 'main'
-              });
-            } catch (error) {
-              // Fails the step rather than logging and carrying on. The
-              // empty-token case above is caught by the action before
-              // this script runs, but a token that is present and
-              // expired, revoked or under-scoped raises HERE, and
-              // console.log left the run green: the data was published
-              // and the site was never rebuilt, with nothing saying so.
-              // Failing makes the run red, and that is the whole signal.
-              //
-              // It deliberately does NOT reach the reconciler below.
-              // That step tracks the harmonization outage and keys on
-              // the report harmonize wrote, so a run whose sources were
-              // all healthy reads as healthy there however the dispatch
-              // went. A dispatch that never fired is a different fault
-              // from a source that produced nothing, and folding the
-              // two onto one issue is what the reconciler exists to
-              // stop.
-              core.setFailed('Could not trigger deployment: ' + error.message);
-            }
+          name: ${{ steps.prepare_publication.outputs.artifact_name }}
+          path: ${{ runner.temp }}/harmonized-aggregates/*
+          if-no-files-found: error
+          retention-days: 30
 
-      # Source gates can pass even when the push, release or dispatch fails.
-      # Keep that publication outage separate from the source-quality issue.
+      - name: Propose generated data for review
+        id: commit_data
+        env:
+          GH_TOKEN: ${{ secrets.AMMITTO_CI_PAT_TOKEN }}
+          PUBLICATION_DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+        run: >-
+          python3 .github/scripts/generated_data_pr.py
+          --branch automation/harmonized-data
+          --title "Update harmonized sanctions data"
+          --path api --path sources --path .publication
+
+      # A successful proposal awaits merge; it does not mean publication recovered.
       - name: Reconcile the publication outage issue
         if: >-
           ${{ !cancelled() && github.event_name != 'pull_request' &&
@@ -351,13 +252,12 @@ jobs:
           PUBLICATION_DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
           HARMONIZE_OUTCOME: ${{ steps.harmonize.outcome }}
           COMMIT_OUTCOME: ${{ steps.commit_data.outcome }}
-          RELEASE_OUTCOME: ${{ steps.publish_aggregates.outcome }}
-          DISPATCH_OUTCOME: ${{ steps.deploy_website.outcome }}
+          PENDING_PR: ${{ steps.commit_data.outputs.pr_url }}
         run: |
           python3 .github/scripts/publication_issue.py \
             "$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID" \
             --harmonize "$HARMONIZE_OUTCOME" --commit "$COMMIT_OUTCOME" \
-            --release "$RELEASE_OUTCOME" --dispatch "$DISPATCH_OUTCOME"
+            --release skipped --dispatch skipped --phase proposal --pending-pr "$PENDING_PR"
 
       # One open issue carries the state of the current outage, updated in
       # place and closed on recovery. The step this replaces created one
