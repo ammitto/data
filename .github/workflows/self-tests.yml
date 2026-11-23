@@ -54,6 +54,9 @@ jobs:
       - name: Self-test the outage reconciler
         run: .github/scripts/harmonize_issue_test.sh
 
+      - name: Self-test publication outage tracking
+        run: python3 .github/scripts/publication_issue_test.py
+
       - name: Self-test the change detector
         run: .github/scripts/has_changes_test.sh
 

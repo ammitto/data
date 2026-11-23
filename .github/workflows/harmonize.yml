@@ -45,6 +45,10 @@ jobs:
         id: reconciler_selftest
         run: .github/scripts/harmonize_issue_test.sh
 
+      - name: Self-test publication outage tracking
+        id: publication_selftest
+        run: python3 .github/scripts/publication_issue_test.py
+
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
@@ -163,6 +167,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Harmonize data
+        id: harmonize
         run: |
           # Create output directory structure
           mkdir -p api/v1/sources
@@ -236,6 +241,7 @@ jobs:
           echo "has_changes=$changed" >> "$GITHUB_OUTPUT"
 
       - name: Commit and push changes
+        id: commit_data
         if: steps.check_changes.outputs.has_changes == 'true'
         run: |
           git config user.name "github-actions[bot]"
@@ -262,6 +268,7 @@ jobs:
         run: .github/scripts/publish_aggregates_test.sh
 
       - name: Publish the aggregates as release assets
+        id: publish_aggregates
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: >-
@@ -275,6 +282,7 @@ jobs:
       # Reaching here means harmonize succeeded and the release carries all four
       # verified assets, which is the state the site should be built from.
       - name: Trigger website deployment
+        id: deploy_website
         uses: actions/github-script@v7
         with:
           # AMMITTO_CI_PAT_TOKEN, not DEPLOY_TOKEN: no secret of the
@@ -330,6 +338,26 @@ jobs:
               // stop.
               core.setFailed('Could not trigger deployment: ' + error.message);
             }
+
+      # Source gates can pass even when the push, release or dispatch fails.
+      # Keep that publication outage separate from the source-quality issue.
+      - name: Reconcile the publication outage issue
+        if: >-
+          ${{ !cancelled() && github.event_name != 'pull_request' &&
+              github.ref == format('refs/heads/{0}', github.event.repository.default_branch) &&
+              steps.publication_selftest.outcome == 'success' && steps.harmonize.outcome == 'success' }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PUBLICATION_DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+          HARMONIZE_OUTCOME: ${{ steps.harmonize.outcome }}
+          COMMIT_OUTCOME: ${{ steps.commit_data.outcome }}
+          RELEASE_OUTCOME: ${{ steps.publish_aggregates.outcome }}
+          DISPATCH_OUTCOME: ${{ steps.deploy_website.outcome }}
+        run: |
+          python3 .github/scripts/publication_issue.py \
+            "$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID" \
+            --harmonize "$HARMONIZE_OUTCOME" --commit "$COMMIT_OUTCOME" \
+            --release "$RELEASE_OUTCOME" --dispatch "$DISPATCH_OUTCOME"
 
       # One open issue carries the state of the current outage, updated in
       # place and closed on recovery. The step this replaces created one
