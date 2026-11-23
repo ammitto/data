@@ -29,6 +29,7 @@ on:
       - '.github/scripts/**'
       - '.github/workflows/harmonize.yml'
       - '.github/workflows/self-tests.yml'
+      - '.github/workflows/publish-accepted.yml'
 
 # A second push supersedes the first: nothing here publishes, so an
 # in-flight run of an older commit has no value once a newer one exists.
@@ -53,6 +54,15 @@ jobs:
       # script in the job summary instead of a loop index.
       - name: Self-test the outage reconciler
         run: .github/scripts/harmonize_issue_test.sh
+
+      - name: Self-test publication outage tracking
+        run: python3 .github/scripts/publication_issue_test.py
+
+      - name: Self-test accepted publication provenance
+        run: python3 .github/scripts/publication_manifest_test.py
+
+      - name: Self-test generated-data proposals
+        run: python3 .github/scripts/generated_data_pr_test.py
 
       - name: Self-test the change detector
         run: .github/scripts/has_changes_test.sh
